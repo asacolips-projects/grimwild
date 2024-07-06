@@ -22,6 +22,7 @@ export class GrimwildActorSheet extends api.HandlebarsApplicationMixin(
 			height: 600
 		},
 		actions: {
+			onEditImage: this._onEditImage,
 			viewDoc: this._viewDoc,
 			createDoc: this._createDoc,
 			deleteDoc: this._deleteDoc,
@@ -272,6 +273,33 @@ export class GrimwildActorSheet extends api.HandlebarsApplicationMixin(
 	 *   ACTIONS
 	 *
 	 **************/
+
+	/**
+	 * Handle changing a Document's image.
+	 * 
+	 * @this GrimwildActorSheet
+	 * @param {PointerEvent} event   The originating click event
+	 * @param {HTMLElement} target   The capturing HTML element which defined a [data-action]
+	 * @returns {Promise}
+	 * @protected
+	 */
+	static async _onEditImage(event, target) {
+		const attr = target.dataset.edit;
+		const current = foundry.utils.getProperty(this.document, attr);
+		const { img } = this.document.constructor.getDefaultArtwork?.(this.document.toObject()) ?? {};
+		const fp = new FilePicker({
+			current,
+			type: "image",
+			redirectToRoot: img ? [img] : [],
+			callback: path => {
+				target.src = path;
+				this.document.update({'img': path});
+			},
+			top: this.position.top + 40,
+			left: this.position.left + 10
+		});
+		return fp.browse();
+	}
 
 	/**
 	 * Renders an embedded document's sheet
