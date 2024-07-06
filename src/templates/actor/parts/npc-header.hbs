@@ -1,6 +1,6 @@
 <div class='resources grid grid-5col'>
 
-  <div class='resource document-name grid-span-4'>
+  <div class='resource document-name grid-span-3'>
     <label for='name' class='resource-label'>{{localize "Name"}}</label>
     <input
       name='name'
@@ -8,6 +8,18 @@
       value='{{actor.name}}'
       placeholder='Name'
     />
+  </div>
+
+  <div class='resource flex-group-center'>
+    <label for='system.role' class='resource-label'>{{localize 'GRIMWILD.Actor.Npc.FIELDS.role.label'}}</label>
+    <div class='resource-content flexrow flex-center flex-between'>
+      <input
+        type='text'
+        name='system.role'
+        value='{{system.role}}'
+        data-dtype='String'
+      />
+    </div>
   </div>
   
   <div class='resource flex-group-center'>

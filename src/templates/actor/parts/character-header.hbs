@@ -35,7 +35,7 @@
 
   {{#each system.stats as |stat key|}}
     <div class='resource flex-group-center'>
-      <label for='system.stats.{{key}}.value' class='resource-label'>{{stat.abbr}}</label>
+      <label for='system.stats.{{key}}.value' class='resource-label'><button type="button" data-action="roll" data-roll-type="stat" data-stat="{{key}}">{{stat.abbr}}</button></label>
       <div class='resource-content flexrow flex-center flex-between'>
         <input
           type='text'

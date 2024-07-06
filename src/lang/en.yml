@@ -51,6 +51,8 @@ GRIMWILD:
       FIELDS:
         pool:
           label: Pool
+        role:
+          label: Role
   Item:
     Tabs:
       Attributes: Attributes

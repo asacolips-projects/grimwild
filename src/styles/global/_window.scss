@@ -10,3 +10,23 @@
     cursor: pointer;
   }
 }
+
+.application {
+  .window-content {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .sheet-header {
+    flex: 0 auto;
+  }
+
+  .sheet-tabs {
+    flex: 0 auto;
+  }
+
+  .tab {
+    flex: 1;
+    overflow-y: auto;
+  }
+}

@@ -66,12 +66,26 @@ export default class GrimwildCharacter extends GrimwildActorBase {
 		// formulas like `@str.mod + 4`.
 		if (this.stats) {
 			for (let [k, v] of Object.entries(this.stats)) {
-				data[k] = foundry.utils.deepClone(v);
+				data[k] = v.value;
 			}
 		}
 
 		data.lvl = this.attributes.level.value;
 
 		return data;
+	}
+
+	async roll(options) {
+		const rollData = this.getRollData();
+
+		if (options?.stat && rollData?.[options.stat]) {
+			const formula = `(@${options.stat})d6kh`;
+			const roll = new Roll(formula, rollData);
+
+			await roll.toMessage({
+				speaker: ChatMessage.getSpeaker({ actor: this}),
+				rollMode: game.settings.get("core", "rollMode"),
+			});
+		}
 	}
 }

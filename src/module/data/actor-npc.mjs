@@ -8,6 +8,8 @@ export default class GrimwildNPC extends GrimwildActorBase {
 		const requiredInteger = { required: true, nullable: false, integer: true };
 		const schema = super.defineSchema();
 
+		schema.role = new fields.StringField({ required: false, blank: true });
+
 		schema.pool = new fields.SchemaField({
 			value: new fields.NumberField({
 				...requiredInteger,
