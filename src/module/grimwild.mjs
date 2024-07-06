@@ -6,10 +6,10 @@ import { GrimwildActorSheet } from "./sheets/actor-sheet.mjs";
 import { GrimwildItemSheet } from "./sheets/item-sheet.mjs";
 // Import helper/utility classes and constants.
 import { GRIMWILD } from "./helpers/config.mjs";
+import * as dice from "./dice/_module.mjs";
+import * as utils from "./helpers/utils.js";
 // Import DataModel classes
 import * as models from "./data/_module.mjs";
-// Utility functions.
-import * as utils from "./helpers/utils.js";
 
 /* -------------------------------------------- */
 /*  Init Hook                                   */
@@ -29,7 +29,8 @@ globalThis.grimwild = {
 	utils: {
 		rollItemMacro
 	},
-	models
+	models,
+	roll: dice.GrimwildRoll
 };
 
 Hooks.once("init", function () {
@@ -44,6 +45,10 @@ Hooks.once("init", function () {
 		formula: "1d20 + @abilities.dex.mod",
 		decimals: 2
 	};
+
+	// Dice.
+	CONFIG.Dice.GrimwildRoll = dice.GrimwildRoll;
+	CONFIG.Dice.rolls.push(dice.GrimwildRoll);
 
 	// Define custom Document and DataModel classes
 	CONFIG.Actor.documentClass = GrimwildActor;
@@ -79,8 +84,9 @@ Hooks.once("init", function () {
 		label: "GRIMWILD.SheetLabels.Item"
 	});
 
-	// Preload template partials.
+	// Handlebars utilities.
 	utils.preloadHandlebarsTemplates();
+	utils.registerHandlebarsHelpers();
 });
 
 /* -------------------------------------------- */

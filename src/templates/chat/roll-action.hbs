@@ -1,0 +1,15 @@
+<section class="grimwild-chat">
+  <h2>{{result}}</h2>
+  <em>{{stat}}</em>
+  <div class="dice-tooltip expanded">
+    <section class="tooltip-part">
+      <div class="dice">
+        <ul class="dice-rolls">
+          {{#each dice as |die key|}}
+            <li class="roll die d6 {{grimwildDie die.result}}">{{die.result}}</li>
+          {{/each}}
+        </ul>
+      </div>
+    </section>
+  </div>
+</section>

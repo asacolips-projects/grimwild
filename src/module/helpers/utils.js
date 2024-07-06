@@ -10,6 +10,7 @@ export async function preloadHandlebarsTemplates() {
 		// Actor partials
 		"systems/grimwild/templates/actor/parts/character-header.hbs",
 		"systems/grimwild/templates/actor/parts/npc-header.hbs",
+		"systems/grimwild/templates/chat/roll-action.hbs",
 	];
 
 	const paths = {};
@@ -21,4 +22,26 @@ export async function preloadHandlebarsTemplates() {
 
 	// Load the template parts
 	return loadTemplates(paths);
+}
+
+class GrimwildHandlebarsHelpers {
+	static grimwildDie(die) {
+		const total = Number(die);
+
+		if (total > 5) {
+			return 'perfect';
+		}
+		else if (total > 3) {
+			return 'messy';
+		}
+		else {
+			return 'grim';
+		}
+	}
+}
+
+export function registerHandlebarsHelpers() {
+	Handlebars.registerHelper({
+		grimwildDie: GrimwildHandlebarsHelpers.grimwildDie,
+	});
 }

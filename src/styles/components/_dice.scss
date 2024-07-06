@@ -1,0 +1,29 @@
+h2 {
+  font-family: $font-display;
+  font-weight: bold;
+}
+
+.dice {
+  .die {
+    background: #444;
+    background-image: none !important;
+    border-radius: 2px;
+    margin-right: 4px;
+    margin-bottom: 4px;
+    width: 24px;
+    height: 24px;
+    line-height: 28px;
+  }
+
+  .perfect {
+    color: #00bd00;
+  }
+
+  .messy {
+    color: #ffd400;
+  }
+
+  .grim {
+    color: #999;
+  }
+}

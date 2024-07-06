@@ -80,10 +80,13 @@ export default class GrimwildCharacter extends GrimwildActorBase {
 
 		if (options?.stat && rollData?.[options.stat]) {
 			const formula = `(@${options.stat})d6kh`;
-			const roll = new Roll(formula, rollData);
+			const roll = new grimwild.roll(formula, rollData);
+
+			console.log('roll', roll);
 
 			await roll.toMessage({
-				speaker: ChatMessage.getSpeaker({ actor: this}),
+				actor: this,
+				speaker: ChatMessage.getSpeaker({ actor: this }),
 				rollMode: game.settings.get("core", "rollMode"),
 			});
 		}

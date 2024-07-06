@@ -19,3 +19,11 @@
   @import 'components/items';
   @import 'components/effects';
 }
+
+.chat-message {
+  @import 'components/chat';
+
+  .grimwild-chat {
+    @import 'components/dice';
+  }
+}
