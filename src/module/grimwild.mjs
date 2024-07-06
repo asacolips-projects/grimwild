@@ -8,6 +8,8 @@ import { GrimwildItemSheet } from "./sheets/item-sheet.mjs";
 import { GRIMWILD } from "./helpers/config.mjs";
 // Import DataModel classes
 import * as models from "./data/_module.mjs";
+// Utility functions.
+import * as utils from "./helpers/utils.js";
 
 /* -------------------------------------------- */
 /*  Init Hook                                   */
@@ -55,9 +57,9 @@ Hooks.once("init", function () {
 	};
 	CONFIG.Item.documentClass = GrimwildItem;
 	CONFIG.Item.dataModels = {
-		gear: models.GrimwildGear,
-		feature: models.GrimwildFeature,
-		spell: models.GrimwildSpell
+		ability: models.GrimwildAbility,
+		equipment: models.GrimwildEquipment,
+		challenge: models.GrimwildChallenge
 	};
 
 	// Active Effects are never copied to the Actor,
@@ -76,6 +78,9 @@ Hooks.once("init", function () {
 		makeDefault: true,
 		label: "GRIMWILD.SheetLabels.Item"
 	});
+
+	// Preload template partials.
+	utils.preloadHandlebarsTemplates();
 });
 
 /* -------------------------------------------- */

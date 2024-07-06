@@ -45,15 +45,15 @@ export class GrimwildItemSheet extends api.HandlebarsApplicationMixin(
 		description: {
 			template: "systems/grimwild/templates/item/description.hbs"
 		},
-		attributesFeature: {
+		attributesAbility: {
 			template:
-        "systems/grimwild/templates/item/attribute-parts/feature.hbs"
+        "systems/grimwild/templates/item/attribute-parts/ability.hbs"
 		},
-		attributesGear: {
-			template: "systems/grimwild/templates/item/attribute-parts/gear.hbs"
+		attributesEquipment: {
+			template: "systems/grimwild/templates/item/attribute-parts/equipment.hbs"
 		},
-		attributesSpell: {
-			template: "systems/grimwild/templates/item/attribute-parts/spell.hbs"
+		attributesChallenge: {
+			template: "systems/grimwild/templates/item/attribute-parts/challenge.hbs"
 		},
 		effects: {
 			template: "systems/grimwild/templates/item/effects.hbs"
@@ -69,14 +69,14 @@ export class GrimwildItemSheet extends api.HandlebarsApplicationMixin(
 		if (this.document.limited) return;
 		// Control which parts show based on document subtype
 		switch (this.document.type) {
-			case "feature":
-				options.parts.push("attributesFeature", "effects");
+			case "ability":
+				options.parts.push("attributesAbility", "effects");
 				break;
-			case "gear":
-				options.parts.push("attributesGear");
+			case "equipment":
+				options.parts.push("attributesEquipment");
 				break;
-			case "spell":
-				options.parts.push("attributesSpell");
+			case "challenge":
+				options.parts.push("attributesChallenge");
 				break;
 		}
 	}
@@ -110,9 +110,9 @@ export class GrimwildItemSheet extends api.HandlebarsApplicationMixin(
 	/** @override */
 	async _preparePartContext(partId, context) {
 		switch (partId) {
-			case "attributesFeature":
-			case "attributesGear":
-			case "attributesSpell":
+			case "attributesAbility":
+			case "attributesEquipment":
+			case "attributesChallenge":
 				// Necessary for preserving active tab on re-render
 				context.tab = context.tabs[partId];
 				break;
@@ -171,9 +171,9 @@ export class GrimwildItemSheet extends api.HandlebarsApplicationMixin(
 					tab.id = "description";
 					tab.label += "Description";
 					break;
-				case "attributesFeature":
-				case "attributesGear":
-				case "attributesSpell":
+				case "attributesAbility":
+				case "attributesEquipment":
+				case "attributesChallenge":
 					tab.id = "attributes";
 					tab.label += "Attributes";
 					break;

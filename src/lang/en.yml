@@ -1,58 +1,62 @@
 ---
 GRIMWILD:
-  Ability:
-    Str:
+  Stat:
+    str:
       long: Strength
-      abbr: str
-    Con:
-      long: Constitution
-      abbr: con
-    Dex:
-      long: Dexterity
-      abbr: dex
-    Int:
-      long: Intelligence
-      abbr: int
-    Wis:
-      long: Wisdom
-      abbr: wis
-    Cha:
-      long: Charisma
-      abbr: cha
+      abbr: STR
+    agi:
+      long: Agility
+      abbr: AGI
+    wit:
+      long: Wits
+      abbr: WIT
+    pre:
+      long: Presence
+      abbr: PRE
+  Class:
+    cleric:
+      label: Cleric
+    fighter:
+      label: Fighter
+    rogue:
+      label: Rogue
+    wizard:
+      label: Wizard
   SheetLabels:
     Actor: Grimwild Actor Sheet
     Item: Grimwild Item Sheet
   Actor:
     Tabs:
       Biography: Biography
-      Features: Features
-      Gear: Gear
-      Spells: Spells
+      Abilities: Abilities
+      Equipment: Equipment
+      Challenges: Challenges
       Effects: Effects
     base:
       FIELDS:
         biography:
           label: Biography
-        health:
-          label: Health
-        power:
-          label: Power
     Character:
       FIELDS:
+        class:
+          label: Class
+        xp:
+          label: Experience
+          short: XP
         level:
           label: Level
-    NPC:
+        healing:
+          label: Healing
+    Npc:
       FIELDS:
-        cr:
-          label: CR
-        xp:
-          label: XP
+        pool:
+          label: Pool
   Item:
     Tabs:
       Attributes: Attributes
       Description: Description
       Effects: Effects
-    Gear:
+    Equipment:
       FIELDS:
         rollFormula:
           label: Roll Formula
@@ -66,12 +70,8 @@ GRIMWILD:
           label: Quantity
         weight:
           label: Weight
-    Spell:
-      FIELDS:
-        level:
-          label: Spell Level
-      SpellLVL: Level {level} Spells
-      AddLVL: Add LVL {level}
+    Ability:
+    Challenge:
   Effect:
     Source: Source
     Toggle: Toggle Effect
@@ -83,6 +83,6 @@ TYPES:
     character: Character
     npc: NPC
   Item:
-    gear: Gear
-    feature: Feature
-    spell: Spell
+    ability: Ability
+    equipment: Equipment
+    challenge: Challenge

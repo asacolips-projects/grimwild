@@ -1,9 +1,9 @@
 import GrimwildItemBase from "./base-item.mjs";
 
-export default class GrimwildItem extends GrimwildItemBase {
+export default class GrimwildEquipment extends GrimwildItemBase {
 	static LOCALIZATION_PREFIXES = [
 		"GRIMWILD.Item.base",
-		"GRIMWILD.Item.Gear"
+		"GRIMWILD.Item.Equipment"
 	];
 
 	static defineSchema() {

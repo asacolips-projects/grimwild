@@ -23,13 +23,13 @@ documentTypes:
       htmlFields:
       - biography
   Item:
-    feature:
+    ability:
       htmlFields:
       - description
-    gear:
+    equipment:
       htmlFields:
       - description
-    spell:
+    challenge:
       htmlFields:
       - description
 

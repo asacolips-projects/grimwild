@@ -11,10 +11,10 @@
       <input name='name' type='text' value='{{item.name}}' placeholder='Name' />
     </div>
     {{! You may prefer to have a separate header file instead of this if statement}}
-    {{#if (eq item.type 'gear')}}
+    {{#if (eq item.type 'equipment')}}
       <div class='grid grid-2col'>
         <div class='resource'>
-          <label class='resource-label'>{{localize 'GRIMWILD.Item.Gear.FIELDS.quantity.label'}}</label>
+          <label class='resource-label'>{{localize 'GRIMWILD.Item.Equipment.FIELDS.quantity.label'}}</label>
           <input
             type='text'
             name='system.quantity'
@@ -23,7 +23,7 @@
           />
         </div>
         <div class='resource'>
-          <label class='resource-label'>{{localize 'GRIMWILD.Item.Gear.FIELDS.weight.label'}}</label>
+          <label class='resource-label'>{{localize 'GRIMWILD.Item.Equipment.FIELDS.weight.label'}}</label>
           <input
             type='text'
             name='system.weight'

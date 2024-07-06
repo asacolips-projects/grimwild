@@ -8,19 +8,36 @@ export default class GrimwildCharacter extends GrimwildActorBase {
 		const requiredInteger = { required: true, nullable: false, integer: true };
 		const schema = super.defineSchema();
 
+		schema.class = new fields.StringField({required: true, blank: true});
+
+		schema.xp = new fields.NumberField({
+			integer: true,
+			initial: 0,
+			min: 0,
+		});
+
+		schema.healing = new fields.SchemaField({
+			value: new fields.NumberField({
+				...requiredInteger,
+				initial: 10,
+				min: 0,
+			}),
+		});
+
 		schema.attributes = new fields.SchemaField({
 			level: new fields.SchemaField({
 				value: new fields.NumberField({ ...requiredInteger, initial: 1 })
 			})
 		});
 
-		// Iterate over ability names and create a new SchemaField for each.
-		schema.abilities = new fields.SchemaField(
-			Object.keys(CONFIG.GRIMWILD.abilities).reduce((obj, ability) => {
-				obj[ability] = new fields.SchemaField({
+		// Iterate over stat names and create a new SchemaField for each.
+		schema.stats = new fields.SchemaField(
+			Object.keys(CONFIG.GRIMWILD.stats).reduce((obj, stat) => {
+				obj[stat] = new fields.SchemaField({
 					value: new fields.NumberField({
 						...requiredInteger,
-						initial: 10,
+						max: 4,
+						initial: 1,
 						min: 0
 					})
 				});
@@ -32,25 +49,23 @@ export default class GrimwildCharacter extends GrimwildActorBase {
 	}
 
 	prepareDerivedData() {
-		// Loop through ability scores, and add their modifiers to our sheet output.
-		for (const key in this.abilities) {
-			// Calculate the modifier using d20 rules.
-			this.abilities[key].mod = Math.floor(
-				(this.abilities[key].value - 10) / 2
-			);
-			// Handle ability label localization.
-			this.abilities[key].label =
-        game.i18n.localize(CONFIG.GRIMWILD.abilities[key]) ?? key;
+		// Loop through stat scores, and add their modifiers to our sheet output.
+		for (const key in this.stats) {
+			// Handle stat label localization.
+			this.stats[key].label =
+				game.i18n.localize(CONFIG.GRIMWILD.stats[key]) ?? key;
+			this.stats[key].abbr =
+				game.i18n.localize(CONFIG.GRIMWILD.statAbbreviations[key]) ?? key;
 		}
 	}
 
 	getRollData() {
 		const data = {};
 
-		// Copy the ability scores to the top level, so that rolls can use
+		// Copy the stat scores to the top level, so that rolls can use
 		// formulas like `@str.mod + 4`.
-		if (this.abilities) {
-			for (let [k, v] of Object.entries(this.abilities)) {
+		if (this.stats) {
+			for (let [k, v] of Object.entries(this.stats)) {
 				data[k] = foundry.utils.deepClone(v);
 			}
 		}

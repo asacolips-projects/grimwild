@@ -1,23 +1,26 @@
 export const GRIMWILD = {};
 
 /**
- * The set of Ability Scores used within the system.
+ * The set of Stat Scores used within the system.
  * @type {object}
  */
-GRIMWILD.abilities = {
-	str: "GRIMWILD.Ability.Str.long",
-	dex: "GRIMWILD.Ability.Dex.long",
-	con: "GRIMWILD.Ability.Con.long",
-	int: "GRIMWILD.Ability.Int.long",
-	wis: "GRIMWILD.Ability.Wis.long",
-	cha: "GRIMWILD.Ability.Cha.long"
+GRIMWILD.stats = {
+	str: "GRIMWILD.Stat.str.long",
+	agi: "GRIMWILD.Stat.agi.long",
+	wit: "GRIMWILD.Stat.wit.long",
+	pre: "GRIMWILD.Stat.pre.long",
 };
 
-GRIMWILD.abilityAbbreviations = {
-	str: "GRIMWILD.Ability.Str.abbr",
-	dex: "GRIMWILD.Ability.Dex.abbr",
-	con: "GRIMWILD.Ability.Con.abbr",
-	int: "GRIMWILD.Ability.Int.abbr",
-	wis: "GRIMWILD.Ability.Wis.abbr",
-	cha: "GRIMWILD.Ability.Cha.abbr"
+GRIMWILD.statAbbreviations = {
+	str: "GRIMWILD.Stat.str.abbr",
+	agi: "GRIMWILD.Stat.agi.abbr",
+	wit: "GRIMWILD.Stat.wit.abbr",
+	pre: "GRIMWILD.Stat.pre.abbr",
 };
+
+GRIMWILD.classes = {
+	cleric: "GRIMWILD.Class.cleric.label",
+	fighter: "GRIMWILD.Class.fighter.label",
+	rogue: "GRIMWILD.Class.rogue.label",
+	wizard: "GRIMWILD.Class.wizard.label"
+}

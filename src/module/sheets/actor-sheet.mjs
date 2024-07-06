@@ -1,6 +1,7 @@
 import { prepareActiveEffectCategories } from "../helpers/effects.mjs";
 
 const { api, sheets } = foundry.applications;
+const { DOCUMENT_OWNERSHIP_LEVELS } = CONST;
 
 /**
  * Extend the basic ActorSheet with some very simple modifications
@@ -17,6 +18,9 @@ export class GrimwildActorSheet extends api.HandlebarsApplicationMixin(
 	/** @override */
 	static DEFAULT_OPTIONS = {
 		classes: ["grimwild", "actor"],
+		document: null,
+		viewPermission: DOCUMENT_OWNERSHIP_LEVELS.LIMITED,
+    editPermission: DOCUMENT_OWNERSHIP_LEVELS.OWNER,
 		position: {
 			width: 600,
 			height: 600
@@ -45,17 +49,17 @@ export class GrimwildActorSheet extends api.HandlebarsApplicationMixin(
 			// Foundry-provided generic template
 			template: "templates/generic/tab-navigation.hbs"
 		},
-		features: {
-			template: "systems/grimwild/templates/actor/features.hbs"
+		abilities: {
+			template: "systems/grimwild/templates/actor/abilities.hbs"
 		},
 		biography: {
 			template: "systems/grimwild/templates/actor/biography.hbs"
 		},
-		gear: {
-			template: "systems/grimwild/templates/actor/gear.hbs"
+		equipment: {
+			template: "systems/grimwild/templates/actor/equipment.hbs"
 		},
-		spells: {
-			template: "systems/grimwild/templates/actor/spells.hbs"
+		challenges: {
+			template: "systems/grimwild/templates/actor/challenges.hbs"
 		},
 		effects: {
 			template: "systems/grimwild/templates/actor/effects.hbs"
@@ -65,19 +69,21 @@ export class GrimwildActorSheet extends api.HandlebarsApplicationMixin(
 	/** @override */
 	_configureRenderOptions(options) {
 		super._configureRenderOptions(options);
-		// Not all parts always render
 		options.parts = ["header", "tabs", "biography"];
+
 		// Don't show the other tabs if only limited view
 		if (this.document.limited) return;
+
 		// Control which parts show based on document subtype
-		switch (this.document.type) {
-			case "character":
-				options.parts.push("features", "gear", "spells", "effects");
-				break;
-			case "npc":
-				options.parts.push("gear", "effects");
-				break;
+		if (this.document.type === "character") {
+			options.parts.push("abilities", "equipment");
 		}
+		if (this.document.type === "npc") {
+			options.parts.push("challenges");
+		}
+
+		// Always show effects.
+		options.parts.push("effects");
 	}
 
 	/* -------------------------------------------- */
@@ -103,6 +109,11 @@ export class GrimwildActorSheet extends api.HandlebarsApplicationMixin(
 			systemFields: this.document.system.schema.fields
 		};
 
+		// Character context.
+		if (this.document.type === "character") {
+			context.classes = CONFIG.GRIMWILD.classes;
+		}
+
 		// Offloading context prep to a helper function
 		this._prepareItems(context);
 
@@ -112,9 +123,9 @@ export class GrimwildActorSheet extends api.HandlebarsApplicationMixin(
 	/** @override */
 	async _preparePartContext(partId, context) {
 		switch (partId) {
-			case "features":
-			case "spells":
-			case "gear":
+			case "abilities":
+			case "challenges":
+			case "equipment":
 				context.tab = context.tabs[partId];
 				break;
 			case "biography":
@@ -176,17 +187,17 @@ export class GrimwildActorSheet extends api.HandlebarsApplicationMixin(
 					tab.id = "biography";
 					tab.label += "Biography";
 					break;
-				case "features":
-					tab.id = "features";
-					tab.label += "Features";
+				case "abilities":
+					tab.id = "abilities";
+					tab.label += "Abilities";
 					break;
-				case "gear":
-					tab.id = "gear";
-					tab.label += "Gear";
+				case "equipment":
+					tab.id = "equipment";
+					tab.label += "Equipment";
 					break;
-				case "spells":
-					tab.id = "spells";
-					tab.label += "Spells";
+				case "challenges":
+					tab.id = "challenges";
+					tab.label += "Challenges";
 					break;
 				case "effects":
 					tab.id = "effects";
@@ -209,47 +220,34 @@ export class GrimwildActorSheet extends api.HandlebarsApplicationMixin(
 		// You can just use `this.document.itemTypes` instead
 		// if you don't need to subdivide a given type like
 		// this sheet does with spells
-		const gear = [];
-		const features = [];
-		const spells = {
-			0: [],
-			1: [],
-			2: [],
-			3: [],
-			4: [],
-			5: [],
-			6: [],
-			7: [],
-			8: [],
-			9: []
-		};
+		const equipment = [];
+		const abilities = [];
+		const challenges = [];
 
 		// Iterate through items, allocating to containers
 		for (let i of this.document.items) {
-			// Append to gear.
-			if (i.type === "gear") {
-				gear.push(i);
+			// Append to equipment.
+			if (i.type === "equipment") {
+				equipment.push(i);
 			}
-			// Append to features.
-			else if (i.type === "feature") {
-				features.push(i);
+			// Append to abilities.
+			else if (i.type === "ability") {
+				abilities.push(i);
 			}
-			// Append to spells.
-			else if (i.type === "spell") {
-				if (i.system.spellLevel !== undefined) {
-					spells[i.system.spellLevel].push(i);
-				}
+			else if (i.type === "challenge") {
+				challenges.push(i);
 			}
-		}
-
-		for (const s of Object.values(spells)) {
-			s.sort((a, b) => (a.sort || 0) - (b.sort || 0));
 		}
 
 		// Sort then assign
-		context.gear = gear.sort((a, b) => (a.sort || 0) - (b.sort || 0));
-		context.features = features.sort((a, b) => (a.sort || 0) - (b.sort || 0));
-		context.spells = spells;
+		if (this.document.type === "character") {
+			context.equipment = equipment.sort((a, b) => (a.sort || 0) - (b.sort || 0));
+			context.abilities = abilities.sort((a, b) => (a.sort || 0) - (b.sort || 0));
+		}
+
+		if (this.document.type === "npc") {
+			context.challenges = challenges.sort((a, b) => (a.sort || 0) - (b.sort || 0));
+		}
 	}
 
 	/**

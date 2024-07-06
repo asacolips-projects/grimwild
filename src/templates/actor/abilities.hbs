@@ -1,43 +1,12 @@
 {{! Features Tab }}
 <section
-  class='tab features {{tab.cssClass}}'
+  class='tab abilities {{tab.cssClass}}'
   data-group='primary'
-  data-tab='features'
+  data-tab='abilities'
 >
   <section class='grid grid-3col'>
-    <aside class='sidebar'>
-      {{! The grid classes are defined in scss/global/_grid.scss. To use,
-          use both the "grid" and "grid-Ncol" class where "N" can be any number
-          from 1 to 12 and will create that number of columns.  }}
-      <div class='abilities flexcol'>
-        {{#each system.abilities as |ability key|}}
-          <div class='ability flexrow flex-group-center'>
-            <label
-              class='resource-label rollable flexlarge align-left'
-              data-action='roll'
-              data-roll='d20+@abilities.{{key}}.mod'
-              data-label='{{localize (lookup @root.config.abilities key)}}'
-            >{{localize (lookup @root.config.abilities key)}}</label>
-            <input
-              type='text'
-              name='system.abilities.{{key}}.value'
-              value='{{ability.value}}'
-              class="ability-score"
-              data-dtype='Number'
-            />
-            <span
-              class='ability-mod rollable'
-              data-action='roll'
-              data-roll='d20+@abilities.{{key}}.mod'
-              data-label='{{localize (lookup @root.config.abilities key)}}'
-            >{{numberFormat ability.mod decimals=0 sign=true}}</span>
-          </div>
-        {{/each}}
-      </div>
-    </aside>
-
-    {{! For the main features list, span the right two columns }}
-    <section class='main grid-span-2'>
+    {{! For the main abilities list, span the right two columns }}
+    <section class='main grid-span-3'>
       <ol class='items-list'>
         <li class='item flexrow items-header'>
           <div class='item-name'>{{localize 'Name'}}</div>
@@ -48,15 +17,15 @@
                 title='Create item'
                 data-action='createDoc'
                 data-document-class='Item'
-                data-type='feature'
+                data-type='ability'
               >
                 <i class='fas fa-plus'></i>
-                {{localize 'DOCUMENT.New' type='feature'}}
+                {{localize 'DOCUMENT.New' type='ability'}}
               </a>
             {{/if}}
           </div>
         </li>
-        {{#each features as |item id|}}
+        {{#each abilities as |item id|}}
           <li
             class='item flexrow'
             data-item-id='{{item._id}}'
@@ -79,7 +48,7 @@
             <div class='item-controls'>
               <a
                 class='item-control item-edit'
-                title='{{localize "DOCUMENT.Edit" type='feature'}}'
+                title='{{localize "DOCUMENT.Edit" type='ability'}}'
                 data-action='viewDoc'
               >
                 <i class='fas fa-edit'></i>
@@ -87,7 +56,7 @@
               {{#if @root.editable}}
                 <a
                   class='item-control item-delete'
-                  title='{{localize "DOCUMENT.Delete" type='feature'}}'
+                  title='{{localize "DOCUMENT.Delete" type='ability'}}'
                   data-action='deleteDoc'
                 >
                   <i class='fas fa-trash'></i>

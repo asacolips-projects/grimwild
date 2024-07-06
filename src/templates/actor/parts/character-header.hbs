@@ -1,0 +1,62 @@
+<div class="details grid grid-5col">
+
+  <div class='resource document-name grid-span-3'>
+    <label for='name' class='resource-label'>{{localize "Name"}}</label>
+    <input
+      name='name'
+      type='text'
+      value='{{actor.name}}'
+      placeholder='Name'
+    />
+  </div>
+
+  <div class='resource flex-group-center'>
+    <label for='system.class' class='resource-label'>{{localize "GRIMWILD.Actor.Character.FIELDS.class.label"}}</label>
+    <select name='system.class'>
+      {{selectOptions classes selected=system.class blank="—" localize=true}}
+    </select>
+  </div>
+
+  <div class='resource flex-group-center'>
+    <label for='system.xp' class='resource-label'>{{localize 'GRIMWILD.Actor.Character.FIELDS.xp.label'}}</label>
+    <div class='resource-content flexrow flex-center flex-between'>
+      <input
+        type='text'
+        name='system.xp'
+        value='{{system.xp}}'
+        data-dtype='Number'
+      />
+    </div>
+  </div>
+
+</div>
+
+<div class='resources grid grid-5col'>
+
+  {{#each system.stats as |stat key|}}
+    <div class='resource flex-group-center'>
+      <label for='system.stats.{{key}}.value' class='resource-label'>{{stat.abbr}}</label>
+      <div class='resource-content flexrow flex-center flex-between'>
+        <input
+          type='text'
+          name='system.stats.{{key}}.value'
+          value='{{stat.value}}'
+          data-dtype='Number'
+        />
+      </div>
+    </div>
+  {{/each}}
+  
+  <div class='resource flex-group-center'>
+    <label for='system.healing.value' class='resource-label'>{{localize 'GRIMWILD.Actor.Character.FIELDS.healing.label'}}</label>
+    <div class='resource-content flexrow flex-center flex-between'>
+      <input
+        type='text'
+        name='system.healing.value'
+        value='{{system.healing.value}}'
+        data-dtype='Number'
+      />
+    </div>
+  </div>
+
+</div>

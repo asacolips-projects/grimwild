@@ -1,0 +1,25 @@
+<div class='resources grid grid-5col'>
+
+  <div class='resource document-name grid-span-4'>
+    <label for='name' class='resource-label'>{{localize "Name"}}</label>
+    <input
+      name='name'
+      type='text'
+      value='{{actor.name}}'
+      placeholder='Name'
+    />
+  </div>
+  
+  <div class='resource flex-group-center'>
+    <label for='system.pool.value' class='resource-label'>{{localize 'GRIMWILD.Actor.Npc.FIELDS.pool.label'}}</label>
+    <div class='resource-content flexrow flex-center flex-between'>
+      <input
+        type='text'
+        name='system.pool.value'
+        value='{{system.pool.value}}'
+        data-dtype='Number'
+      />
+    </div>
+  </div>
+
+</div>
