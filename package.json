@@ -1,0 +1,31 @@
+{
+  "scripts": {
+    "build": "gulp build",
+    "build:watch": "gulp watch",
+    "clean": "gulp clean",
+    "lint": "eslint --ext .js,.cjs,.mjs .",
+    "lint:fix": "eslint --ext .js,.cjs,.mjs --fix .",
+    "lint:warnings": "eslint --max-warnings 0 --ext .js,.cjs,.mjs .",
+    "lint:errors": "eslint --quiet --ext .js,.cjs,.mjs .",
+    "lint:fix:errors": "eslint --quiet --ext .js,.cjs,.mjs --fix ."
+  },
+  "devDependencies": {
+    "@babel/eslint-parser": "^7.22.9",
+    "@rollup/plugin-node-resolve": "^15.2.3",
+    "@rollup/stream": "^3.0.1",
+    "@stylistic/eslint-plugin-js": "^1.5.1",
+    "@typhonjs-fvtt/eslint-config-foundry.js": "^0.8.0",
+    "eslint": "^8.55.0",
+    "eslint-plugin-jsdoc": "^46.9.0",
+    "fs-extra": "^11.2.0",
+    "gulp": "^5.0.0",
+    "gulp-autoprefixer": "^9.0.0",
+    "gulp-dart-sass": "^1.1.0",
+    "gulp-sourcemaps": "^2.6.5",
+    "gulp-yaml": "^2.0.4",
+    "rollup": "^2.79.1",
+    "vinyl-buffer": "^1.0.1",
+    "vinyl-source-stream": "^2.0.0",
+    "yargs": "^17.7.2"
+  }
+}

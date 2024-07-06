@@ -1,0 +1,81 @@
+id: grimwild
+title: Grimwild
+description: The Grimwild system for FoundryVTT!
+version: '0.1.0'
+compatibility:
+  minimum: '12'
+  verified: '12.328'
+  maximum: '12'
+
+manifest: https://github.com/asacolips-projects/grimwild/blob/main/README.md
+download: https://github.com/asacolips-projects/grimwild/blob/main/README.md
+
+authors:
+  - name: Asacolips
+    discord: asacolips
+
+documentTypes:
+  Actor:
+    character:
+      htmlFields:
+      - biography
+    npc:
+      htmlFields:
+      - biography
+  Item:
+    feature:
+      htmlFields:
+      - description
+    gear:
+      htmlFields:
+      - description
+    spell:
+      htmlFields:
+      - description
+
+flags:
+  hotReload:
+    extensions:
+    - css
+    - html
+    - hbs
+    - json
+    paths:
+    - styles
+    - lang
+    - templates
+
+url: Replace this with a link to your public repository
+license: LICENSE.txt
+readme: README.md
+bugs: Replace this with a link to file issues or tickets
+changelog: CHANGELOG.md
+
+background: systems/grimwild/assets/grimwild-impact.webp
+media:
+  - type: setup
+    url: systems/grimwild/assets/grimwild-impact.webp
+    thumbnail: systems/grimwild/assets/grimwild-impact.webp
+
+esmodules:
+  - module/grimwild.js
+styles:
+  - styles/grimwild.css
+languages:
+  - lang: en
+    name: English
+    path: lang/en.json
+
+packs: []
+packFolders: []
+
+socket: false
+
+grid:
+  type: 1
+  distance: 5
+  units: ft
+  diagonals: 0
+
+primaryTokenAttribute: health
+secondaryTokenAttribute: power
