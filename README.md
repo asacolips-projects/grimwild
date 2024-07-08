@@ -2,7 +2,7 @@
 
 ![Foundry v12](https://img.shields.io/badge/foundry-v12-green)
 
-A FoundryVTT system for the Grimworld RPG. Find it on [Backerkit](https://www.backerkit.com/c/projects/OddityPress/grimwild)!
+A FoundryVTT system for the Grimwild RPG. Find it on [Backerkit](https://www.backerkit.com/c/projects/OddityPress/grimwild)!
 
 ## I can't install the system!
 
