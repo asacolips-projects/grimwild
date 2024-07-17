@@ -2,10 +2,7 @@ export default class GrimwildRoll extends Roll {
 	static CHAT_TEMPLATE = "systems/grimwild/templates/chat/roll-action.hbs";
 
 	async render({flavor, template=this.constructor.CHAT_TEMPLATE, isPrivate=false}={}) {
-		console.log(this._evaluated);
 		if (!this._evaluated) await this.evaluate();
-
-		console.log(this.dice);
 
 		const chatData = {
 			formula: isPrivate ? "???" : this._formula,
@@ -41,8 +38,6 @@ export default class GrimwildRoll extends Roll {
 			chatData.success = 0;
 		}
 
-		console.log('initial', foundry.utils.duplicate(chatData));
-
 		// Handle cuts.
 		if (!chatData.crit && cuts.length > 0) {
 			chatData.success -= cuts.length;
@@ -77,8 +72,6 @@ export default class GrimwildRoll extends Roll {
 			default:
 				break;
 		}
-
-		console.log('final', foundry.utils.duplicate(chatData));
 
 		return renderTemplate(template, chatData);
 	}

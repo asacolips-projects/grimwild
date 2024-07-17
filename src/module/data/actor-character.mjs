@@ -84,8 +84,6 @@ export default class GrimwildCharacter extends GrimwildActorBase {
 	async roll(options) {
 		const rollData = this.getRollData();
 
-		console.log('data model rollData', rollData);
-
 		if (options?.stat && rollData?.stats?.[options.stat]) {
 			const formula = `{(@stats.${options.stat})d6kh, (@thorns)d8}`;
 			const roll = new grimwild.roll(formula, rollData);
