@@ -13,6 +13,13 @@ GRIMWILD:
     pre:
       long: Presence
       abbr: PRE
+  Dice:
+    results:
+      crit: Crit
+      perfect: Perfect
+      messy: Messy
+      grim: Grim
+      disaster: Disaster
   Class:
     cleric:
       label: Cleric
@@ -47,6 +54,8 @@ GRIMWILD:
           label: Level
         healing:
           label: Healing
+        thorns:
+          label: Thorns
     Npc:
       FIELDS:
         pool:

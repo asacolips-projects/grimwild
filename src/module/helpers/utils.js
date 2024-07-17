@@ -38,10 +38,22 @@ class GrimwildHandlebarsHelpers {
 			return 'grim';
 		}
 	}
+
+	static grimwildThorn(die) {
+		const total = Number(die);
+
+		if (total > 6) {
+			return 'cut';
+		}
+		else {
+			return 'skip';
+		}
+	}
 }
 
 export function registerHandlebarsHelpers() {
 	Handlebars.registerHelper({
 		grimwildDie: GrimwildHandlebarsHelpers.grimwildDie,
+		grimwildThorn: GrimwildHandlebarsHelpers.grimwildThorn,
 	});
 }

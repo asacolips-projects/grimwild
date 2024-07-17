@@ -30,6 +30,12 @@ export default class GrimwildCharacter extends GrimwildActorBase {
 			})
 		});
 
+		schema.thorns = new fields.NumberField({
+			integer: true,
+			initial: 0,
+			min: 0,
+		});
+
 		// Iterate over stat names and create a new SchemaField for each.
 		schema.stats = new fields.SchemaField(
 			Object.keys(CONFIG.GRIMWILD.stats).reduce((obj, stat) => {
@@ -60,13 +66,13 @@ export default class GrimwildCharacter extends GrimwildActorBase {
 	}
 
 	getRollData() {
-		const data = {};
+		const data = this.toObject();
 
 		// Copy the stat scores to the top level, so that rolls can use
 		// formulas like `@str.mod + 4`.
 		if (this.stats) {
 			for (let [k, v] of Object.entries(this.stats)) {
-				data[k] = v.value;
+				data.stats[k] = v.value;
 			}
 		}
 
@@ -78,11 +84,11 @@ export default class GrimwildCharacter extends GrimwildActorBase {
 	async roll(options) {
 		const rollData = this.getRollData();
 
-		if (options?.stat && rollData?.[options.stat]) {
-			const formula = `(@${options.stat})d6kh`;
-			const roll = new grimwild.roll(formula, rollData);
+		console.log('data model rollData', rollData);
 
-			console.log('roll', roll);
+		if (options?.stat && rollData?.stats?.[options.stat]) {
+			const formula = `{(@stats.${options.stat})d6kh, (@thorns)d8}`;
+			const roll = new grimwild.roll(formula, rollData);
 
 			await roll.toMessage({
 				actor: this,
