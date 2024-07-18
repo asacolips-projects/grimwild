@@ -10,6 +10,9 @@ import * as dice from "./dice/_module.mjs";
 import * as utils from "./helpers/utils.js";
 // Import DataModel classes
 import * as models from "./data/_module.mjs";
+// Vue stuff.
+import { DocumentSheetVue } from '../vue/components.vue.es.js';
+import { createApp } from '../lib/vue.esm-browser.js';
 
 /* -------------------------------------------- */
 /*  Init Hook                                   */
@@ -24,7 +27,11 @@ globalThis.grimwild = {
 	},
 	applications: {
 		GrimwildActorSheet,
-		GrimwildItemSheet
+		GrimwildItemSheet,
+		api: {
+			createApp,
+			DocumentSheetVue,
+		},
 	},
 	utils: {
 		rollItemMacro

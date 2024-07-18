@@ -17,7 +17,7 @@ import rollupConfig from "./rollup.config.mjs";
 
 const packageId = "grimwild";
 const sourceDirectory = "./src";
-const distDirectory = "./dist";
+const distDirectory = "./build";
 const stylesDirectory = `${sourceDirectory}/styles`;
 const stylesExtension = "scss";
 const sourceFileExtension = "mjs";
@@ -65,7 +65,7 @@ function buildStyles() {
 function buildYaml() {
 	return gulp.src(systemYaml)
 		.pipe(yaml({ space: 2 }))
-		.pipe(gulp.dest("./dist"));
+		.pipe(gulp.dest("./build"));
 }
 
 /**
@@ -93,7 +93,8 @@ export function watch() {
 	);
 }
 
-export const build = gulp.series(clean, gulp.parallel(buildYaml, buildCode, buildStyles, copyFiles));
+// export const build = gulp.series(clean, gulp.parallel(buildYaml, buildCode, buildStyles, copyFiles));
+export const build = gulp.series(clean, gulp.parallel(buildYaml, buildStyles));
 
 /** ******************/
 /*      CLEAN       */
@@ -103,14 +104,14 @@ export const build = gulp.series(clean, gulp.parallel(buildYaml, buildCode, buil
  * Remove built files from `dist` folder while ignoring source files
  */
 export async function clean() {
-	const files = [...staticFiles, "lang", "module", "system.json", "template.json"];
+	const files = ["styles", "lang", "system.json", "template.json"];
 
-	if (fs.existsSync(`${stylesDirectory}/src/${packageId}.${stylesExtension}`)) {
-		files.push("styles");
-	}
+	// if (fs.existsSync(`${stylesDirectory}/src/${packageId}.${stylesExtension}`)) {
+	// 	files.push("styles");
+	// }
 
-	console.log(" ", "Files to clean:");
-	console.log("   ", files.sort().join("\n    "));
+	// console.log(" ", "Files to clean:");
+	// console.log("   ", files.sort().join("\n    "));
 
 	for (const filePath of files) {
 		await fs.remove(`${distDirectory}/${filePath}`);
