@@ -3,6 +3,19 @@ h2 {
   font-weight: bold;
 }
 
+&.crit h2,
+&.perfect h2 {
+  color: #00bd00;
+}
+
+&.messy h2 {
+  color: #ffd400;
+}
+
+&.disaster h2 {
+  color: #ff5c37;
+}
+
 .dice {
   .die {
     background: #444;
@@ -15,6 +28,39 @@ h2 {
     line-height: 28px;
   }
 
+  .d8 {
+    overflow: visible;
+    background: transparent;
+    position: relative;
+    z-index: 1;
+    height: 28px;
+    line-height: 31px;
+
+    &::before,
+    &::after {
+      display: block;
+      content: '';
+      position: absolute;
+      width: 0;
+      height: 0;
+      top: 0;
+      left: 0;
+      right: 0;
+      margin: auto;
+      border-bottom: 15px solid #444;
+      border-left: 12px solid transparent;
+      border-right: 12px solid transparent;
+      z-index: -1;
+    }
+
+    &::after {
+      top: auto;
+      bottom: 0px;
+      border-bottom: none;
+      border-top: 14px solid #444;
+    }
+  }
+
   .perfect {
     color: #00bd00;
   }
@@ -24,6 +70,14 @@ h2 {
   }
 
   .grim {
+    color: #999;
+  }
+
+  .cut {
+    color: #ff5c37;
+  }
+
+  .skip {
     color: #999;
   }
 }
