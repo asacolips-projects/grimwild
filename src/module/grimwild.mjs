@@ -3,6 +3,7 @@ import { GrimwildActor } from "./documents/actor.mjs";
 import { GrimwildItem } from "./documents/item.mjs";
 // Import sheet classes.
 import { GrimwildActorSheet } from "./sheets/actor-sheet.mjs";
+import { GrimwildActorSheetVue } from "./sheets/actor-sheet-vue.mjs";
 import { GrimwildItemSheet } from "./sheets/item-sheet.mjs";
 // Import helper/utility classes and constants.
 import { GRIMWILD } from "./helpers/config.mjs";
@@ -10,9 +11,6 @@ import * as dice from "./dice/_module.mjs";
 import * as utils from "./helpers/utils.js";
 // Import DataModel classes
 import * as models from "./data/_module.mjs";
-// Vue stuff.
-import { DocumentSheetVue } from '../vue/components.vue.es.js';
-import { createApp } from '../lib/vue.esm-browser.js';
 
 /* -------------------------------------------- */
 /*  Init Hook                                   */
@@ -28,10 +26,6 @@ globalThis.grimwild = {
 	applications: {
 		GrimwildActorSheet,
 		GrimwildItemSheet,
-		api: {
-			createApp,
-			DocumentSheetVue,
-		},
 	},
 	utils: {
 		rollItemMacro
@@ -85,6 +79,10 @@ Hooks.once("init", function () {
 		makeDefault: true,
 		label: "GRIMWILD.SheetLabels.Actor"
 	});
+	Actors.registerSheet("grimwild", GrimwildActorSheetVue, {
+		makeDefault: false,
+		label: "Vue sheet",
+	})
 	Items.unregisterSheet("core", ItemSheet);
 	Items.registerSheet("grimwild", GrimwildItemSheet, {
 		makeDefault: true,

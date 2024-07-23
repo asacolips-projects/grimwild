@@ -58,7 +58,7 @@ media:
     thumbnail: systems/grimwild/assets/grimwild-impact.webp
 
 esmodules:
-  - module/grimwild.js
+  - module/grimwild.mjs
 styles:
   - styles/grimwild.css
 languages:

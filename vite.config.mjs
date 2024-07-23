@@ -1,43 +1,18 @@
 import path from 'path'
 import { defineConfig } from 'vite'
 import vue from '@vitejs/plugin-vue'
-import { viteStaticCopy } from 'vite-plugin-static-copy'
+// import { viteStaticCopy } from 'vite-plugin-static-copy'
 
 // https://vitejs.dev/config/
 export default defineConfig({
   plugins: [
-    vue(),
-    viteStaticCopy({
-      targets: [
-        {
-          src: 'src/assets/*',
-          dest: 'assets/'
-        },
-        {
-          src: 'src/module/*',
-          dest: 'module'
-        },
-        {
-          src: [
-            'src/lib/*',
-            'node_modules/vue/dist/vue.esm-browser.js',
-          ],
-          dest: 'lib'
-        },
-        {
-          src: 'src/packs/*',
-          dest: 'packs'
-        },
-        {
-          src: 'build/*',
-          dest: ''
-        },
-        {
-          src: 'src/templates/*',
-          dest: 'templates',
+    vue({
+      template: {
+        compilerOptions: {
+          isCustomElement: (tag) => ['prose-mirror'].includes(tag),
         }
-      ]
-    })
+      }
+    }),
   ],
   resolve: {
     alias: {
@@ -49,20 +24,18 @@ export default defineConfig({
   css: {},
   build: {
     sourcemap: true,
-    outDir: './dist',
+    outDir: './dist/vue',
     lib: {
       entry: path.resolve(__dirname, 'src/vue/index.mjs'),
       name: 'vueComponents',
-      fileName: 'components.vue.es.js',
+      fileName: 'components.vue.es',
     },
     rollupOptions: {
       external: [
         'vue',
-        '../vue/components.vue.es.js',
       ],
       input: {
         vueApp: 'src/vue/index.mjs',
-        // systemApp: 'src/module/grimwild.mjs',
       },
       output: [
         {
@@ -81,9 +54,6 @@ export default defineConfig({
               return `styles.vue.css`;
             return assetInfo.name;
           },
-          entryFileNames: (entry) => {
-            return entry.name == 'vueApp' ? 'vue/components.vue.es.js' : 'module/grimwild.mjs';
-          }
         },
       ],
     },
