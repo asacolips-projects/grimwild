@@ -21,7 +21,7 @@ const distDirectory = "./dist";
 const stylesDirectory = `${sourceDirectory}/styles`;
 const stylesExtension = "scss";
 const sourceFileExtension = "mjs";
-const staticFiles = ["assets", "templates"];
+const staticFiles = ["module", "lib", "assets", "templates"];
 const systemYaml = ["src/**/*.{yml, yaml}"];
 
 /** ******************/
@@ -77,6 +77,9 @@ async function copyFiles() {
 			await fs.copy(`${sourceDirectory}/${file}`, `${distDirectory}/${file}`);
 		}
 	}
+	if (fs.existsSync(`node_modules/vue/dist/vue.esm-browser.js`)) {
+		await fs.copy(`node_modules/vue/dist/vue.esm-browser.js`, `${distDirectory}/lib/vue.esm-browser.js`);
+	}
 }
 
 /**
@@ -84,7 +87,7 @@ async function copyFiles() {
  */
 export function watch() {
 	gulp.watch(`${sourceDirectory}/**/*.{yml, yaml}`, { ignoreInitial: false }, buildYaml);
-	gulp.watch(`${sourceDirectory}/**/*.${sourceFileExtension}`, { ignoreInitial: false }, buildCode);
+	// gulp.watch(`${sourceDirectory}/**/*.${sourceFileExtension}`, { ignoreInitial: false }, buildCode);
 	gulp.watch(`${stylesDirectory}/**/*.${stylesExtension}`, { ignoreInitial: false }, buildStyles);
 	gulp.watch(
 		staticFiles.map((file) => `${sourceDirectory}/${file}`),
@@ -93,7 +96,7 @@ export function watch() {
 	);
 }
 
-export const build = gulp.series(clean, gulp.parallel(buildYaml, buildCode, buildStyles, copyFiles));
+export const build = gulp.series(clean, gulp.parallel(buildYaml, /*buildCode,*/ buildStyles, copyFiles));
 
 /** ******************/
 /*      CLEAN       */
@@ -103,14 +106,14 @@ export const build = gulp.series(clean, gulp.parallel(buildYaml, buildCode, buil
  * Remove built files from `dist` folder while ignoring source files
  */
 export async function clean() {
-	const files = [...staticFiles, "lang", "module", "system.json", "template.json"];
+	const files = ["assets", "lib", "module", "lang", "styles", "templates", "system.json"];
 
-	if (fs.existsSync(`${stylesDirectory}/src/${packageId}.${stylesExtension}`)) {
-		files.push("styles");
-	}
+	// if (fs.existsSync(`${stylesDirectory}/src/${packageId}.${stylesExtension}`)) {
+	// 	files.push("styles");
+	// }
 
-	console.log(" ", "Files to clean:");
-	console.log("   ", files.sort().join("\n    "));
+	// console.log(" ", "Files to clean:");
+	// console.log("   ", files.sort().join("\n    "));
 
 	for (const filePath of files) {
 		await fs.remove(`${distDirectory}/${filePath}`);
