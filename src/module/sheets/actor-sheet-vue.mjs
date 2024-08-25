@@ -57,20 +57,6 @@ export class GrimwildActorSheetVue extends VueRenderingMixin(sheets.ActorSheetV2
 			systemFields: this.document.system.schema.fields
 		};
 
-		// Enrich biography info for display
-		// Enrichment turns text like `[[/r 1d20]]` into buttons
-		context.enrichedBiography = await TextEditor.enrichHTML(
-			this.actor.system.biography,
-			{
-				// Whether to show secret blocks in the finished html
-				secrets: this.document.isOwner,
-				// Data to fill in for inline rolls
-				rollData: this.actor.getRollData(),
-				// Relative UUID resolution
-				relativeTo: this.actor
-			}
-		);
-
 		context.editors = {
 			'system.biography': {
 				enriched: await TextEditor.enrichHTML(
@@ -84,14 +70,22 @@ export class GrimwildActorSheetVue extends VueRenderingMixin(sheets.ActorSheetV2
 						relativeTo: this.actor
 					}
 				),
-				element: foundry.applications.elements.HTMLProseMirrorElement.create({
+				element: context.systemFields.biography.toInput({
 					name: 'system.biography',
+					value: context.system.biography,
+					documentUUID: this.document.uuid,
 					toggled: true,
 					collaborate: true,
-					documentUUID: this.document.uuid,
 					height: 300,
-					value: context.system.biography,
 				}),
+				// element: foundry.applications.elements.HTMLProseMirrorElement.create({
+				// 	name: 'system.biography',
+				// 	toggled: true,
+				// 	collaborate: true,
+				// 	documentUUID: this.document.uuid,
+				// 	height: 300,
+				// 	value: context.system.biography,
+				// }),
 			},
 		};
 
@@ -103,6 +97,8 @@ export class GrimwildActorSheetVue extends VueRenderingMixin(sheets.ActorSheetV2
 		if (this.document.type === "character") {
 			context.classes = CONFIG.GRIMWILD.classes;
 		}
+
+		console.log('context', context);
 
 		return context;
 	}
