@@ -6,9 +6,7 @@
 >
   {{! Editors must receive enriched text data from getData to properly handle rolls, UUID links, etc. }}
   {{#if editable}} 
-    <prose-mirror name="system.biography" data-document-u-u-i-d="{{actor.uuid}}" value="{{system.biography}}" collaborate="true" toggled="true">
-      {{{enrichedBiography}}}
-    </prose-mirror>
+    {{formInput systemFields.biography toggled=true value=system.biography}}
   {{else}} {{{enrichedBiography}}}
   {{/if}}
 </section>
