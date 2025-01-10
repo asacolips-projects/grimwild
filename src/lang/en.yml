@@ -83,6 +83,12 @@ GRIMWILD:
           label: Weight
     Ability:
     Challenge:
+      FIELDS:
+        rollFormula:
+          label: Roll Formula
+        numDice:
+          label: Number of Dice
+    DicePool:
   Effect:
     Source: Source
     Toggle: Toggle Effect

@@ -30,7 +30,8 @@ globalThis.grimwild = {
 		rollItemMacro
 	},
 	models,
-	roll: dice.GrimwildRoll
+	roll: dice.GrimwildRoll,
+	diePools: dice.GrimwildDiePoolRoll
 };
 
 Hooks.once("init", function () {
@@ -49,6 +50,8 @@ Hooks.once("init", function () {
 	// Dice.
 	CONFIG.Dice.GrimwildRoll = dice.GrimwildRoll;
 	CONFIG.Dice.rolls.push(dice.GrimwildRoll);
+	CONFIG.Dice.GrimwildDicePool = dice.GrimwildDiePoolRoll;
+	CONFIG.Dice.rolls.push(dice.GrimwildDiePoolRoll);
 
 	// Define custom Document and DataModel classes
 	CONFIG.Actor.documentClass = GrimwildActor;
