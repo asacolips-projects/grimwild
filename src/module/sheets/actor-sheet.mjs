@@ -20,7 +20,7 @@ export class GrimwildActorSheet extends api.HandlebarsApplicationMixin(
 		classes: ["grimwild", "actor"],
 		document: null,
 		viewPermission: DOCUMENT_OWNERSHIP_LEVELS.LIMITED,
-    editPermission: DOCUMENT_OWNERSHIP_LEVELS.OWNER,
+		editPermission: DOCUMENT_OWNERSHIP_LEVELS.OWNER,
 		position: {
 			width: 600,
 			height: 600
@@ -274,7 +274,7 @@ export class GrimwildActorSheet extends api.HandlebarsApplicationMixin(
 
 	/**
 	 * Handle changing a Document's image.
-	 * 
+	 *
 	 * @this GrimwildActorSheet
 	 * @param {PointerEvent} event   The originating click event
 	 * @param {HTMLElement} target   The capturing HTML element which defined a [data-action]
@@ -289,9 +289,9 @@ export class GrimwildActorSheet extends api.HandlebarsApplicationMixin(
 			current,
 			type: "image",
 			redirectToRoot: img ? [img] : [],
-			callback: path => {
+			callback: (path) => {
 				target.src = path;
-				this.document.update({'img': path});
+				this.document.update({ img: path });
 			},
 			top: this.position.top + 40,
 			left: this.position.left + 10
@@ -390,8 +390,10 @@ export class GrimwildActorSheet extends api.HandlebarsApplicationMixin(
 			case "item":
 				item = this._getEmbeddedDocument(target);
 				if (item) return item.roll();
+				break;
 			case "stat":
-				await this.document.system.roll({stat: dataset.stat});
+				await this.document.system.roll({ stat: dataset.stat });
+				break;
 		}
 
 		// Handle rolls that supply the formula directly.

@@ -210,7 +210,7 @@ export class GrimwildItemSheet extends api.HandlebarsApplicationMixin(
 
 	/**
 	 * Handle changing a Document's image.
-	 * 
+	 *
 	 * @this GrimwildActorSheet
 	 * @param {PointerEvent} event   The originating click event
 	 * @param {HTMLElement} target   The capturing HTML element which defined a [data-action]
@@ -225,9 +225,9 @@ export class GrimwildItemSheet extends api.HandlebarsApplicationMixin(
 			current,
 			type: "image",
 			redirectToRoot: img ? [img] : [],
-			callback: path => {
+			callback: (path) => {
 				target.src = path;
-				this.document.update({'img': path});
+				this.document.update({ img: path });
 			},
 			top: this.position.top + 40,
 			left: this.position.left + 10

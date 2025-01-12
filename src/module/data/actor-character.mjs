@@ -8,20 +8,20 @@ export default class GrimwildCharacter extends GrimwildActorBase {
 		const requiredInteger = { required: true, nullable: false, integer: true };
 		const schema = super.defineSchema();
 
-		schema.class = new fields.StringField({required: true, blank: true});
+		schema.class = new fields.StringField({ required: true, blank: true });
 
 		schema.xp = new fields.NumberField({
 			integer: true,
 			initial: 0,
-			min: 0,
+			min: 0
 		});
 
 		schema.healing = new fields.SchemaField({
 			value: new fields.NumberField({
 				...requiredInteger,
 				initial: 10,
-				min: 0,
-			}),
+				min: 0
+			})
 		});
 
 		schema.attributes = new fields.SchemaField({
@@ -33,7 +33,7 @@ export default class GrimwildCharacter extends GrimwildActorBase {
 		schema.thorns = new fields.NumberField({
 			integer: true,
 			initial: 0,
-			min: 0,
+			min: 0
 		});
 
 		// Iterate over stat names and create a new SchemaField for each.
@@ -91,7 +91,7 @@ export default class GrimwildCharacter extends GrimwildActorBase {
 			await roll.toMessage({
 				actor: this,
 				speaker: ChatMessage.getSpeaker({ actor: this }),
-				rollMode: game.settings.get("core", "rollMode"),
+				rollMode: game.settings.get("core", "rollMode")
 			});
 		}
 	}

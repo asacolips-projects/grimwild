@@ -1,7 +1,7 @@
 export default class GrimwildRoll extends Roll {
 	static CHAT_TEMPLATE = "systems/grimwild/templates/chat/roll-action.hbs";
 
-	async render({flavor, template=this.constructor.CHAT_TEMPLATE, isPrivate=false}={}) {
+	async render({ flavor, template=this.constructor.CHAT_TEMPLATE, isPrivate=false }={}) {
 		if (!this._evaluated) await this.evaluate();
 
 		const chatData = {
@@ -14,7 +14,7 @@ export default class GrimwildRoll extends Roll {
 			dice: this.dice[0].results,
 			thorns: this.dice[1].results,
 			crit: false,
-			success: 0,
+			success: 0
 		};
 
 		const sixes = chatData.dice.filter((die) => die.result === 6);
@@ -54,21 +54,21 @@ export default class GrimwildRoll extends Roll {
 		// Handle messages.
 		switch (chatData.success) {
 			case 3:
-				chatData.result = 'crit';
+				chatData.result = "crit";
 				break;
 			case 2:
-				chatData.result = 'perfect';
+				chatData.result = "perfect";
 				break;
 			case 1:
-				chatData.result = 'messy';
+				chatData.result = "messy";
 				break;
 			case 0:
-				chatData.result = 'grim';
+				chatData.result = "grim";
 				break;
 			case -1:
-				chatData.result = 'disaster';
+				chatData.result = "disaster";
 				break;
-		
+
 			default:
 				break;
 		}
