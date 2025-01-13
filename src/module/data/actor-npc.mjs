@@ -15,7 +15,7 @@ export default class GrimwildNPC extends GrimwildActorBase {
 				...requiredInteger,
 				initial: 1,
 				min: 0
-			}),
+			})
 		});
 
 		return schema;

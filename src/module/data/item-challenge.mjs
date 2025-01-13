@@ -17,7 +17,7 @@ export default class GrimwildChallenge extends GrimwildItemBase {
 				initial: 1,
 				min: 0
 			}),
-			diceSize: new fields.StringField({ initial: "d6" }),
+			diceSize: new fields.StringField({ initial: "d6" })
 		});
 
 		schema.formula = new fields.StringField({ blank: true });
