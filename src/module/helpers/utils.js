@@ -52,7 +52,7 @@ class GrimwildHandlebarsHelpers {
 }
 
 /**
- *
+ * Register helper functions for Handlebars.
  */
 export function registerHandlebarsHelpers() {
 	Handlebars.registerHelper({

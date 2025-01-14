@@ -390,8 +390,10 @@ export class GrimwildActorSheet extends api.HandlebarsApplicationMixin(
 			case "item":
 				item = this._getEmbeddedDocument(target);
 				if (item) return item.roll();
+				break;
 			case "stat":
 				await this.document.system.roll({ stat: dataset.stat });
+				break;
 		}
 
 		// Handle rolls that supply the formula directly.
