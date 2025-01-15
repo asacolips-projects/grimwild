@@ -15,14 +15,13 @@ export default class GrimwildCharacter extends GrimwildActorBase {
 			initial: 0,
 			min: 0
 		});
-
-		schema.healing = new fields.SchemaField({
-			value: new fields.NumberField({
-				...requiredInteger,
-				initial: 10,
-				min: 0
-			})
+		
+		schema.level = new fields.NumberField({
+			...requiredInteger,
+			initial: 1,
+			min: 1
 		});
+		
 
 		schema.attributes = new fields.SchemaField({
 			level: new fields.SchemaField({
@@ -30,10 +29,23 @@ export default class GrimwildCharacter extends GrimwildActorBase {
 			})
 		});
 
-		schema.thorns = new fields.NumberField({
-			integer: true,
+		// should these have some sort of healing pool attached to them?
+		schema.bloodied = new fields.BooleanField();
+		schema.rattled = new fields.BooleanField();
+		schema.conditions = new fields.ArrayField(new fields.StringField());
+
+		schema.story = new fields.NumberField({
+			...requiredInteger,
 			initial: 0,
-			min: 0
+			min: 0,
+			max: 2
+		});
+
+		schema.spark = new fields.NumberField({
+			...requiredInteger,
+			initial: 0,
+			min: 0,
+			max: 2
 		});
 
 		// Iterate over stat names and create a new SchemaField for each.
@@ -45,11 +57,36 @@ export default class GrimwildCharacter extends GrimwildActorBase {
 						max: 4,
 						initial: 1,
 						min: 0
-					})
+					}),
+					marked: new fields.BooleanField()
 				});
 				return obj;
 			}, {})
 		);
+
+		schema.thorns = new fields.NumberField({
+			integer: true,
+			min: 0
+		});
+
+		schema.features = new fields.StringField();
+		schema.conditions = new fields.StringField();
+		schema.backgrounds = new fields.SchemaField({
+			name: new fields.StringField(),
+			wises: new fields.ArrayField(new fields.StringField())
+		});
+		schema.traits = new fields.SchemaField({
+			are: new fields.ArrayField(new fields.StringField()),
+			not: new fields.StringField()
+		})
+		schema.desires = new fields.SchemaField({
+			are: new fields.ArrayField(new fields.StringField()),
+			not: new fields.StringField()
+		})
+		schema.bonds = new fields.SchemaField({
+			name: new fields.StringField(),
+			description: new fields.StringField()
+		})
 
 		return schema;
 	}
