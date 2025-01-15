@@ -5,14 +5,14 @@ export const GRIMWILD = {};
  * @type {object}
  */
 GRIMWILD.stats = {
-	str: "GRIMWILD.Stat.str.long",
+	str: "GRIMWILD.Stat.bra.long",
 	agi: "GRIMWILD.Stat.agi.long",
 	wit: "GRIMWILD.Stat.wit.long",
 	pre: "GRIMWILD.Stat.pre.long"
 };
 
 GRIMWILD.statAbbreviations = {
-	str: "GRIMWILD.Stat.str.abbr",
+	str: "GRIMWILD.Stat.bra.abbr",
 	agi: "GRIMWILD.Stat.agi.abbr",
 	wit: "GRIMWILD.Stat.wit.abbr",
 	pre: "GRIMWILD.Stat.pre.abbr"
