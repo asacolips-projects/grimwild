@@ -1,9 +1,9 @@
 ---
 GRIMWILD:
   Stat:
-    str:
-      long: Strength
-      abbr: STR
+    bra:
+      long: Brawn
+      abbr: BRA
     agi:
       long: Agility
       abbr: AGI
