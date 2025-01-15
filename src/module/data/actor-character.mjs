@@ -15,13 +15,12 @@ export default class GrimwildCharacter extends GrimwildActorBase {
 			initial: 0,
 			min: 0
 		});
-		
+
 		schema.level = new fields.NumberField({
 			...requiredInteger,
 			initial: 1,
 			min: 1
 		});
-		
 
 		schema.attributes = new fields.SchemaField({
 			level: new fields.SchemaField({
@@ -78,15 +77,15 @@ export default class GrimwildCharacter extends GrimwildActorBase {
 		schema.traits = new fields.SchemaField({
 			are: new fields.ArrayField(new fields.StringField()),
 			not: new fields.StringField()
-		})
+		});
 		schema.desires = new fields.SchemaField({
 			are: new fields.ArrayField(new fields.StringField()),
 			not: new fields.StringField()
-		})
+		});
 		schema.bonds = new fields.SchemaField({
 			name: new fields.StringField(),
 			description: new fields.StringField()
-		})
+		});
 
 		return schema;
 	}
