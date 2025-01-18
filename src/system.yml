@@ -75,6 +75,11 @@ packs:
     ownership: 
       PLAYER: LIMITED
       ASSISTANT: OWNER
+  - name: macros
+    label: Grimwild Macros
+    type: Macro
+    path: packs/macros
+    system: grimwild
 packFolders: []
 
 socket: false

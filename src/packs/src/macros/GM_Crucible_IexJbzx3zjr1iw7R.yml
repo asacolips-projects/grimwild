@@ -1,0 +1,87 @@
+name: GM Crucible
+type: script
+_id: IexJbzx3zjr1iw7R
+author: Dl5Tvf37OuEHwdAh
+img: icons/svg/dice-target.svg
+scope: global
+command: >-
+  // Macro to roll two different rolltables from a compendium called "crucibles"
+
+
+  // Define the compendium and the rolltable names
+
+  const compendiumName = "grimwild.crucibles"; // Adjust to the correct
+  namespace for your system
+
+  const rolltable1Name = "GM Crucible 1"; // Replace with the name of the first
+  rolltable
+
+  const rolltable2Name = "GM Crucible 2"; // Replace with the name of the second
+  rolltable
+
+
+  // Function to roll a table by name
+
+  async function rollTable(compendiumName, tableName) {
+    // Load the compendium
+    const compendium = game.packs.get(compendiumName);
+    if (!compendium) {
+      ui.notifications.error(`Compendium "${compendiumName}" not found.`);
+      return;
+    }
+
+    // Ensure the compendium is loaded
+    await compendium.getIndex();
+
+    // Find the rolltable entry by name
+    const tableEntry = compendium.index.find((e) => e.name === tableName);
+    if (!tableEntry) {
+      ui.notifications.error(`RollTable "${tableName}" not found in compendium "${compendiumName}".`);
+      return;
+    }
+
+    // Get the full rolltable document
+    const table = await compendium.getDocument(tableEntry._id);
+    if (!table) {
+      ui.notifications.error(`Failed to load RollTable "${tableName}".`);
+      return;
+    }
+
+    // Roll the table
+    const rollResult = await table.roll();
+    const resultText = rollResult.results
+      .map((r) => r.text)
+      .join(", "); // Combine results if multiple
+    
+    return resultText;
+
+  }
+
+
+  // Roll both tables
+
+  const result1 = await rollTable(compendiumName, rolltable1Name);
+
+  const result2 = await rollTable(compendiumName, rolltable2Name);
+
+  ChatMessage.create({
+    content: `<b>GM Crucible</b><br><i>Pick two and smash them together</i><br>
+    <b>${result1}</b><br><b>${result2}</b>`
+  });
+folder: null
+sort: 0
+ownership:
+  default: 0
+  Dl5Tvf37OuEHwdAh: 3
+flags: {}
+_stats:
+  compendiumSource: null
+  duplicateSource: null
+  coreVersion: '12.331'
+  systemId: grimwild
+  systemVersion: 0.1.0
+  createdTime: 1737218496094
+  modifiedTime: 1737218905108
+  lastModifiedBy: Dl5Tvf37OuEHwdAh
+_key: '!macros!IexJbzx3zjr1iw7R'
+

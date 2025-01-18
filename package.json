@@ -3,6 +3,7 @@
     "build": "gulp build",
     "build:watch": "gulp watch",
     "clean": "gulp clean",
+    "unpack": "gulp unpack",
     "lint": "eslint --ext .js,.cjs,.mjs .",
     "lint:fix": "eslint --ext .js,.cjs,.mjs --fix .",
     "lint:warnings": "eslint --max-warnings 0 --ext .js,.cjs,.mjs .",
@@ -11,7 +12,6 @@
   },
   "devDependencies": {
     "@babel/eslint-parser": "^7.22.9",
-    "@foundryvtt/foundryvtt-cli": "^1.0.3",
     "@rollup/plugin-node-resolve": "^15.2.3",
     "@rollup/stream": "^3.0.1",
     "@stylistic/eslint-plugin-js": "^1.5.1",
@@ -28,7 +28,6 @@
     "merge-stream": "^2.0.0",
     "path": "^0.12.7",
     "rollup": "^2.79.1",
-    "through2": "^4.0.2",
     "vinyl-buffer": "^1.0.1",
     "vinyl-source-stream": "^2.0.0",
     "yargs": "^17.7.2"

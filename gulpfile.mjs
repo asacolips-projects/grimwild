@@ -69,7 +69,7 @@ function extractPacks() {
   // Start a stream for all db files in the packs dir.
   const packs = gulp.src(`${PACK_DEST}/*`)
     .pipe(shell([
-      'fvtt package --id archmage --type System unpack <%= file.stem %> -c --yaml --in dist/packs --out src/packs/src/<%= file.stem %>'
+      `fvtt package --id grimwild --type System unpack <%= file.stem %> -c --yaml --in ${PACK_DEST} --out ${PACK_SRC}/<%= file.stem %>`
     ]));
 
   // Call the streams.
@@ -148,6 +148,8 @@ export function watch() {
 }
 
 export const build = gulp.series(clean, gulp.parallel(compilePacks, buildYaml, buildCode, buildStyles, copyFiles));
+
+export const unpack = gulp.series(extractPacks);
 
 /** ******************/
 /*      CLEAN       */
