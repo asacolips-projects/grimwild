@@ -1,0 +1,461 @@
+name: GM Crucible 1
+img: icons/svg/d20-grey.svg
+description: <p>Roll this along with GM Crucible 2, smash them together and interpret!</p>
+results:
+  - type: text
+    weight: 1
+    range:
+      - 1
+      - 1
+    drawn: false
+    _id: ma3xIP16AgBhkzH1
+    text: Tough
+    img: icons/svg/d20-black.svg
+    documentId: null
+    flags: {}
+    _key: '!tables.results!hvCswYtYYP63QGyu.ma3xIP16AgBhkzH1'
+  - type: text
+    weight: 1
+    range:
+      - 2
+      - 2
+    drawn: false
+    _id: vVC0G7IeYYJQM9JX
+    text: Quiet - Muffled
+    img: icons/svg/d20-black.svg
+    documentId: null
+    flags: {}
+    _key: '!tables.results!hvCswYtYYP63QGyu.vVC0G7IeYYJQM9JX'
+  - type: text
+    weight: 1
+    range:
+      - 3
+      - 3
+    drawn: false
+    _id: 5DnMgu4sEIayBt1n
+    text: Precarious - Broken
+    img: icons/svg/d20-black.svg
+    documentId: null
+    flags: {}
+    _key: '!tables.results!hvCswYtYYP63QGyu.5DnMgu4sEIayBt1n'
+  - type: text
+    weight: 1
+    range:
+      - 4
+      - 4
+    drawn: false
+    _id: pnnXeOHvD6K1fDZm
+    text: Wild - Forgotten
+    img: icons/svg/d20-black.svg
+    documentId: null
+    flags: {}
+    _key: '!tables.results!hvCswYtYYP63QGyu.pnnXeOHvD6K1fDZm'
+  - type: text
+    weight: 1
+    range:
+      - 5
+      - 5
+    drawn: false
+    _id: OJoFZLL6wYR9zF1s
+    text: Mysterious - Festive
+    img: icons/svg/d20-black.svg
+    documentId: null
+    flags: {}
+    _key: '!tables.results!hvCswYtYYP63QGyu.OJoFZLL6wYR9zF1s'
+  - type: text
+    weight: 1
+    range:
+      - 6
+      - 6
+    drawn: false
+    _id: aIrlZf51WHl49Xie
+    text: Rustic - Rugged
+    img: icons/svg/d20-black.svg
+    documentId: null
+    flags: {}
+    _key: '!tables.results!hvCswYtYYP63QGyu.aIrlZf51WHl49Xie'
+  - type: text
+    weight: 1
+    range:
+      - 7
+      - 7
+    drawn: false
+    _id: QUN7hPfNVccumNgV
+    text: Muffled - Quiet
+    img: icons/svg/d20-black.svg
+    documentId: null
+    flags: {}
+    _key: '!tables.results!hvCswYtYYP63QGyu.QUN7hPfNVccumNgV'
+  - type: text
+    weight: 1
+    range:
+      - 8
+      - 8
+    drawn: false
+    _id: d8BJ28moHXv1bj2p
+    text: Aged
+    img: icons/svg/d20-black.svg
+    documentId: null
+    flags: {}
+    _key: '!tables.results!hvCswYtYYP63QGyu.d8BJ28moHXv1bj2p'
+  - type: text
+    weight: 1
+    range:
+      - 9
+      - 9
+    drawn: false
+    _id: Glt77TnNcLW3W6b6
+    text: Romantic - Dwindling
+    img: icons/svg/d20-black.svg
+    documentId: null
+    flags: {}
+    _key: '!tables.results!hvCswYtYYP63QGyu.Glt77TnNcLW3W6b6'
+  - type: text
+    weight: 1
+    range:
+      - 10
+      - 10
+    drawn: false
+    _id: JZ3lTFHqIGMZjWLJ
+    text: Menacing - Abundant
+    img: icons/svg/d20-black.svg
+    documentId: null
+    flags: {}
+    _key: '!tables.results!hvCswYtYYP63QGyu.JZ3lTFHqIGMZjWLJ'
+  - type: text
+    weight: 1
+    range:
+      - 11
+      - 11
+    drawn: false
+    _id: R7YAcfwAi7rxQJEE
+    text: Puzzling - Lost
+    img: icons/svg/d20-black.svg
+    documentId: null
+    flags: {}
+    _key: '!tables.results!hvCswYtYYP63QGyu.R7YAcfwAi7rxQJEE'
+  - type: text
+    weight: 1
+    range:
+      - 12
+      - 12
+    drawn: false
+    _id: 0hzXk2PWPdUM2Mkv
+    text: Eerie - Splintered
+    img: icons/svg/d20-black.svg
+    documentId: null
+    flags: {}
+    _key: '!tables.results!hvCswYtYYP63QGyu.0hzXk2PWPdUM2Mkv'
+  - type: text
+    weight: 1
+    range:
+      - 13
+      - 13
+    drawn: false
+    _id: RZr8SwNuQnS30pnx
+    text: Broken - Precarious
+    img: icons/svg/d20-black.svg
+    documentId: null
+    flags: {}
+    _key: '!tables.results!hvCswYtYYP63QGyu.RZr8SwNuQnS30pnx'
+  - type: text
+    weight: 1
+    range:
+      - 14
+      - 14
+    drawn: false
+    _id: 0mh6RJG8sPwrOtFN
+    text: Dwindling - Romantic
+    img: icons/svg/d20-black.svg
+    documentId: null
+    flags: {}
+    _key: '!tables.results!hvCswYtYYP63QGyu.0mh6RJG8sPwrOtFN'
+  - type: text
+    weight: 1
+    range:
+      - 15
+      - 15
+    drawn: false
+    _id: 9KZ1gVTCfdGlythz
+    text: Distant
+    img: icons/svg/d20-black.svg
+    documentId: null
+    flags: {}
+    _key: '!tables.results!hvCswYtYYP63QGyu.9KZ1gVTCfdGlythz'
+  - type: text
+    weight: 1
+    range:
+      - 16
+      - 16
+    drawn: false
+    _id: EeuxECk7VhCL0iOT
+    text: Perilous - Hidden
+    img: icons/svg/d20-black.svg
+    documentId: null
+    flags: {}
+    _key: '!tables.results!hvCswYtYYP63QGyu.EeuxECk7VhCL0iOT'
+  - type: text
+    weight: 1
+    range:
+      - 17
+      - 17
+    drawn: false
+    _id: 2Q22qm2ihfh5IDWw
+    text: Bleak - Immense
+    img: icons/svg/d20-black.svg
+    documentId: null
+    flags: {}
+    _key: '!tables.results!hvCswYtYYP63QGyu.2Q22qm2ihfh5IDWw'
+  - type: text
+    weight: 1
+    range:
+      - 18
+      - 18
+    drawn: false
+    _id: ziSL5P91ZZFEihNK
+    text: Tense - Sacred
+    img: icons/svg/d20-black.svg
+    documentId: null
+    flags: {}
+    _key: '!tables.results!hvCswYtYYP63QGyu.ziSL5P91ZZFEihNK'
+  - type: text
+    weight: 1
+    range:
+      - 19
+      - 19
+    drawn: false
+    _id: VHmXYxGj6s973jX8
+    text: Forgotten - Wild
+    img: icons/svg/d20-black.svg
+    documentId: null
+    flags: {}
+    _key: '!tables.results!hvCswYtYYP63QGyu.VHmXYxGj6s973jX8'
+  - type: text
+    weight: 1
+    range:
+      - 20
+      - 20
+    drawn: false
+    _id: TbIstJD3UWl1kIXl
+    text: Abundant - Menacing
+    img: icons/svg/d20-black.svg
+    documentId: null
+    flags: {}
+    _key: '!tables.results!hvCswYtYYP63QGyu.TbIstJD3UWl1kIXl'
+  - type: text
+    weight: 1
+    range:
+      - 21
+      - 21
+    drawn: false
+    _id: 0HgO6aBhQJ9P6jEO
+    text: Hidden - Perilous
+    img: icons/svg/d20-black.svg
+    documentId: null
+    flags: {}
+    _key: '!tables.results!hvCswYtYYP63QGyu.0HgO6aBhQJ9P6jEO'
+  - type: text
+    weight: 1
+    range:
+      - 22
+      - 22
+    drawn: false
+    _id: 8Y7zKweb4hrUD8EI
+    text: Withered
+    img: icons/svg/d20-black.svg
+    documentId: null
+    flags: {}
+    _key: '!tables.results!hvCswYtYYP63QGyu.8Y7zKweb4hrUD8EI'
+  - type: text
+    weight: 1
+    range:
+      - 23
+      - 23
+    drawn: false
+    _id: hRLIm4VoUSYR7n9S
+    text: Chaotic - Serene
+    img: icons/svg/d20-black.svg
+    documentId: null
+    flags: {}
+    _key: '!tables.results!hvCswYtYYP63QGyu.hRLIm4VoUSYR7n9S'
+  - type: text
+    weight: 1
+    range:
+      - 24
+      - 24
+    drawn: false
+    _id: S1u0MZ9t7WdBmVPq
+    text: Looming - Relentless
+    img: icons/svg/d20-black.svg
+    documentId: null
+    flags: {}
+    _key: '!tables.results!hvCswYtYYP63QGyu.S1u0MZ9t7WdBmVPq'
+  - type: text
+    weight: 1
+    range:
+      - 25
+      - 25
+    drawn: false
+    _id: DWaxppQVdUT4aP4i
+    text: Festive - Mysterious
+    img: icons/svg/d20-black.svg
+    documentId: null
+    flags: {}
+    _key: '!tables.results!hvCswYtYYP63QGyu.DWaxppQVdUT4aP4i'
+  - type: text
+    weight: 1
+    range:
+      - 26
+      - 26
+    drawn: false
+    _id: uPixZbpQLAqcJhqR
+    text: Lost - Puzzling
+    img: icons/svg/d20-black.svg
+    documentId: null
+    flags: {}
+    _key: '!tables.results!hvCswYtYYP63QGyu.uPixZbpQLAqcJhqR'
+  - type: text
+    weight: 1
+    range:
+      - 27
+      - 27
+    drawn: false
+    _id: NIZWKiIxZKAYcHSI
+    text: Immense - Bleak
+    img: icons/svg/d20-black.svg
+    documentId: null
+    flags: {}
+    _key: '!tables.results!hvCswYtYYP63QGyu.NIZWKiIxZKAYcHSI'
+  - type: text
+    weight: 1
+    range:
+      - 28
+      - 28
+    drawn: false
+    _id: UwLQas1KBJdx3j4G
+    text: Serene - Chaotic
+    img: icons/svg/d20-black.svg
+    documentId: null
+    flags: {}
+    _key: '!tables.results!hvCswYtYYP63QGyu.UwLQas1KBJdx3j4G'
+  - type: text
+    weight: 1
+    range:
+      - 29
+      - 29
+    drawn: false
+    _id: XpKTeKfV6i9AxjoD
+    text: Vibrant
+    img: icons/svg/d20-black.svg
+    documentId: null
+    flags: {}
+    _key: '!tables.results!hvCswYtYYP63QGyu.XpKTeKfV6i9AxjoD'
+  - type: text
+    weight: 1
+    range:
+      - 30
+      - 30
+    drawn: false
+    _id: 3u0ejfUnqV6XNNss
+    text: Flickering - Tangled
+    img: icons/svg/d20-black.svg
+    documentId: null
+    flags: {}
+    _key: '!tables.results!hvCswYtYYP63QGyu.3u0ejfUnqV6XNNss'
+  - type: text
+    weight: 1
+    range:
+      - 31
+      - 31
+    drawn: false
+    _id: EKzmBgIzqXMB8CnK
+    text: Rugged - Rustic
+    img: icons/svg/d20-black.svg
+    documentId: null
+    flags: {}
+    _key: '!tables.results!hvCswYtYYP63QGyu.EKzmBgIzqXMB8CnK'
+  - type: text
+    weight: 1
+    range:
+      - 32
+      - 32
+    drawn: false
+    _id: CKnmaGcgBG9wihDY
+    text: Splintered - Eerie
+    img: icons/svg/d20-black.svg
+    documentId: null
+    flags: {}
+    _key: '!tables.results!hvCswYtYYP63QGyu.CKnmaGcgBG9wihDY'
+  - type: text
+    weight: 1
+    range:
+      - 33
+      - 33
+    drawn: false
+    _id: 3GfmS3msIEUZOjpB
+    text: Sacred - Tense
+    img: icons/svg/d20-black.svg
+    documentId: null
+    flags: {}
+    _key: '!tables.results!hvCswYtYYP63QGyu.3GfmS3msIEUZOjpB'
+  - type: text
+    weight: 1
+    range:
+      - 34
+      - 34
+    drawn: false
+    _id: QnjZTBRXhiQZCsoR
+    text: Relentless - Looming
+    img: icons/svg/d20-black.svg
+    documentId: null
+    flags: {}
+    _key: '!tables.results!hvCswYtYYP63QGyu.QnjZTBRXhiQZCsoR'
+  - type: text
+    weight: 1
+    range:
+      - 35
+      - 35
+    drawn: false
+    _id: JZJIyR6qH0OhqRQ9
+    text: Tangled - Flickering
+    img: icons/svg/d20-black.svg
+    documentId: null
+    flags: {}
+    _key: '!tables.results!hvCswYtYYP63QGyu.JZJIyR6qH0OhqRQ9'
+  - type: text
+    weight: 1
+    range:
+      - 36
+      - 36
+    drawn: false
+    _id: JHUC2PsGT8gj6kNV
+    text: Twisted
+    img: icons/svg/d20-black.svg
+    documentId: null
+    flags: {}
+    _key: '!tables.results!hvCswYtYYP63QGyu.JHUC2PsGT8gj6kNV'
+replacement: true
+displayRoll: false
+folder: null
+flags:
+  exportSource:
+    world: test
+    system: grimwild
+    coreVersion: '12.331'
+    systemVersion: 0.1.0
+_stats:
+  compendiumSource: null
+  duplicateSource: null
+  coreVersion: '12.331'
+  systemId: grimwild
+  systemVersion: 0.1.0
+  createdTime: 1737150504000
+  modifiedTime: 1737150504000
+  lastModifiedBy: SzSkbfMxPopuu3Ec
+formula: 1d36
+_id: hvCswYtYYP63QGyu
+sort: 0
+ownership:
+  default: 0
+  SzSkbfMxPopuu3Ec: 3
+_key: '!tables!hvCswYtYYP63QGyu'
