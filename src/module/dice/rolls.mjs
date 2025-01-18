@@ -14,7 +14,10 @@ export default class GrimwildRoll extends Roll {
 			dice: this.dice[0].results,
 			thorns: this.dice[1].results,
 			crit: false,
-			success: 0
+			success: 0,
+			rawSuccess: 0,
+			rawResult: "",
+			isCut: false
 		};
 
 		const sixes = chatData.dice.filter((die) => die.result === 6);
@@ -38,41 +41,57 @@ export default class GrimwildRoll extends Roll {
 			chatData.success = 0;
 		}
 
+		chatData.rawSuccess = chatData.success;
+
 		// Handle cuts.
 		if (!chatData.crit && cuts.length > 0) {
 			chatData.success -= cuts.length;
 		}
 
 		// Constraints.
-		if (chatData.success < -1) {
-			chatData.success = -1;
-		}
-		else if (chatData.success > 3) {
-			chatData.success = 3;
-		}
+		chatData.success = setSuccessConstraint(chatData.success);
+		chatData.rawSuccess = setSuccessConstraint(chatData.rawSuccess);
 
 		// Handle messages.
-		switch (chatData.success) {
-			case 3:
-				chatData.result = "crit";
-				break;
-			case 2:
-				chatData.result = "perfect";
-				break;
-			case 1:
-				chatData.result = "messy";
-				break;
-			case 0:
-				chatData.result = "grim";
-				break;
-			case -1:
-				chatData.result = "disaster";
-				break;
-
-			default:
-				break;
-		}
+		chatData.result = successToResult(chatData.success);
+		chatData.rawResult = successToResult(chatData.rawSuccess);
+		chatData.isCut = chatData.success !== chatData.rawSuccess;
 
 		return renderTemplate(template, chatData);
+	}
+}
+
+/**
+ *
+ * @param success
+ */
+function setSuccessConstraint(success) {
+	if (success < -1) {
+		success = -1;
+	}
+	else if (success > 3) {
+		success = 3;
+	}
+	return success;
+}
+
+/**
+ *
+ * @param success
+ */
+function successToResult(success) {
+	switch (success) {
+		case 3:
+			return "crit";
+		case 2:
+			return "perfect";
+		case 1:
+			return "messy";
+		case 0:
+			return "grim";
+		case -1:
+			return "disaster";
+		default:
+			return "";
 	}
 }
