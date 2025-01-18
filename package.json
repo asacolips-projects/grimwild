@@ -12,6 +12,7 @@
   },
   "devDependencies": {
     "@babel/eslint-parser": "^7.22.9",
+    "@foundryvtt/foundryvtt-cli": "^1.0.3",
     "@rollup/plugin-node-resolve": "^15.2.3",
     "@rollup/stream": "^3.0.1",
     "@stylistic/eslint-plugin-js": "^1.5.1",

@@ -28,7 +28,7 @@ const staticFiles = ["assets", "templates"];
 const systemYaml = ["src/**/*.{yml, yaml}"];
 
 // Constants.
-const PACK_SRC = `${sourceDirectory}/packs/src`;
+const PACK_SRC = `${sourceDirectory}/packs`;
 const PACK_DEST = `${distDirectory}/packs`;
 
 /* ----------------------------------------- */
