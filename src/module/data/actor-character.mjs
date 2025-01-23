@@ -85,8 +85,7 @@ export default class GrimwildCharacter extends GrimwildActorBase {
 		const rollData = this.getRollData();
 
 		if (options?.stat && rollData?.stats?.[options.stat]) {
-
-			const content = await renderTemplate('systems/grimwild/templates/dialog/stat-roll.hbs', {
+			const content = await renderTemplate("systems/grimwild/templates/dialog/stat-roll.hbs", {
 				diceDefault: rollData?.stats?.[options.stat],
 				thornsDefault: rollData?.thorns
 			});
@@ -95,16 +94,18 @@ export default class GrimwildCharacter extends GrimwildActorBase {
 				content,
 				modal: true,
 				buttons: [
-				{
-				  label: "Roll",
-				  action: "roll",
-				  callback: (event, button, dialog) => {return {dice: button.form.elements.dice.value, thorns: button.form.elements.thorns.value}}
-				},
+					{
+						label: game.i18n.localize("GRIMWILD.Dialog.Roll"),
+						action: "roll",
+						callback: (event, button, dialog) => {
+							return { dice: button.form.elements.dice.value, thorns: button.form.elements.thorns.value };
+						}
+					}
 				]
-			  });
-			  rollData.thorns = rollDialog.thorns;
-			  rollData.statDice = rollDialog.dice;
-			  const formula = `{(@statDice)d6kh, (@thorns)d8}`;
+			});
+			rollData.thorns = rollDialog.thorns;
+			rollData.statDice = rollDialog.dice;
+			const formula = "{(@statDice)d6kh, (@thorns)d8}";
 			const roll = new grimwild.roll(formula, rollData);
 
 			await roll.toMessage({
