@@ -90,6 +90,36 @@ Hooks.once("init", function () {
 	// Handlebars utilities.
 	utils.preloadHandlebarsTemplates();
 	utils.registerHandlebarsHelpers();
+
+	// Hook into Foundry's dice rolling system
+	const originalCreate = Roll.create;
+
+	// Override the Roll.create method
+	Roll.create = function (formula) {
+		// Custom logic to handle "1d" and "1d1t"
+		const originalFormula = [...formula].join("");
+
+		formula = formula.replace(/\b(\d*)d\b/gi, (match, x) => {
+			// If "d" is alone, treat it as "d6"
+			const diceX = x || 1; // Default to 1 if no number is provided
+			return `{${diceX}d6kh, 0d8}`;
+		});
+
+		formula = formula.replace(/\b(\d*)d(\d*)t\b/gi, (match, x, y) => {
+			// Handle "1d1t" as "1d6 + 1d8"
+			const diceX = x || 1; // Default to 1 if no number is provided
+			const diceY = y || 1; // Default to 1 if no number is provided
+			return `{${diceX}d6kh, ${diceY}d8}`;
+		});
+
+		// If we've made any changes, then this is a GrimwildRoll
+		if (originalFormula !== formula) {
+			return new dice.GrimwildRoll(formula);
+		}
+
+		// Call the original Roll.create for other cases
+		return originalCreate.call(this, formula);
+	};
 });
 
 /* -------------------------------------------- */
