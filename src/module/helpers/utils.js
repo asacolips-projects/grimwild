@@ -10,7 +10,7 @@ export async function preloadHandlebarsTemplates() {
 		// Actor partials
 		"systems/grimwild/templates/actor/parts/character-header.hbs",
 		"systems/grimwild/templates/actor/parts/npc-header.hbs",
-		"systems/grimwild/templates/chat/roll-action.hbs",
+		"systems/grimwild/templates/chat/roll-action.hbs"
 	];
 
 	const paths = {};
@@ -29,31 +29,34 @@ class GrimwildHandlebarsHelpers {
 		const total = Number(die);
 
 		if (total > 5) {
-			return 'perfect';
+			return "perfect";
 		}
 		else if (total > 3) {
-			return 'messy';
+			return "messy";
 		}
-		else {
-			return 'grim';
-		}
+
+		return "grim";
+
 	}
 
 	static grimwildThorn(die) {
 		const total = Number(die);
 
 		if (total > 6) {
-			return 'cut';
+			return "cut";
 		}
-		else {
-			return 'skip';
-		}
+
+		return "skip";
+
 	}
 }
 
+/**
+ * Register helper functions for Handlebars.
+ */
 export function registerHandlebarsHelpers() {
 	Handlebars.registerHelper({
 		grimwildDie: GrimwildHandlebarsHelpers.grimwildDie,
-		grimwildThorn: GrimwildHandlebarsHelpers.grimwildThorn,
+		grimwildThorn: GrimwildHandlebarsHelpers.grimwildThorn
 	});
 }

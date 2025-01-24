@@ -57,9 +57,12 @@ export class GrimwildItem extends Item {
 			const rollData = this.getRollData();
 
 			// Invoke the roll and submit it to chat.
-			const roll = new Roll(rollData.formula, rollData.actor);
+			const roll = new grimwild.diePools(rollData.formula, rollData.actor);
 			// If you need to store the value first, uncomment the next line.
-			// const result = await roll.evaluate();
+			const result = await roll.evaluate();
+			const dice = result.dice[0].results;
+			const dropped = dice.filter((die) => die.result < 4);
+			await item.update({ "system.roll.diceNum": dice.length - dropped.length });
 			roll.toMessage({
 				speaker: speaker,
 				rollMode: rollMode,

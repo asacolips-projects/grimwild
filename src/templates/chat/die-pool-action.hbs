@@ -1,8 +1,5 @@
 <section class="grimwild-chat grimwild-roll {{result}}">
-  <h2>{{#if isCut }}
-    {{localize (concat "GRIMWILD.Dice.results." rawResult)}} &#8594; 
-    {{/if}}
-    {{localize (concat "GRIMWILD.Dice.results." result)}}</h2>
+  <h2>{{ startPool }} &#8594; {{ endPool }}</h2>
   <em>{{stat}}</em>
   <div class="dice-tooltip expanded">
     <section class="tooltip-part">
@@ -10,11 +7,6 @@
         <ul class="dice-rolls">
           {{#each dice as |die key|}}
             <li class="roll die d6 {{grimwildDie die.result}}">{{die.result}}</li>
-          {{/each}}
-        </ul>
-        <ul class="dice-rolls">
-          {{#each thorns as |die key|}}
-            <li class="roll die d8 {{grimwildThorn die.result}}">{{die.result}}</li>
           {{/each}}
         </ul>
       </div>

@@ -8,20 +8,20 @@ export default class GrimwildCharacter extends GrimwildActorBase {
 		const requiredInteger = { required: true, nullable: false, integer: true };
 		const schema = super.defineSchema();
 
-		schema.class = new fields.StringField({required: true, blank: true});
+		schema.class = new fields.StringField({ required: true, blank: true });
 
 		schema.xp = new fields.NumberField({
 			integer: true,
 			initial: 0,
-			min: 0,
+			min: 0
 		});
 
 		schema.healing = new fields.SchemaField({
 			value: new fields.NumberField({
 				...requiredInteger,
 				initial: 10,
-				min: 0,
-			}),
+				min: 0
+			})
 		});
 
 		schema.attributes = new fields.SchemaField({
@@ -33,7 +33,7 @@ export default class GrimwildCharacter extends GrimwildActorBase {
 		schema.thorns = new fields.NumberField({
 			integer: true,
 			initial: 0,
-			min: 0,
+			min: 0
 		});
 
 		// Iterate over stat names and create a new SchemaField for each.
@@ -85,13 +85,33 @@ export default class GrimwildCharacter extends GrimwildActorBase {
 		const rollData = this.getRollData();
 
 		if (options?.stat && rollData?.stats?.[options.stat]) {
-			const formula = `{(@stats.${options.stat})d6kh, (@thorns)d8}`;
+			const content = await renderTemplate("systems/grimwild/templates/dialog/stat-roll.hbs", {
+				diceDefault: rollData?.stats?.[options.stat],
+				thornsDefault: rollData?.thorns
+			});
+			const rollDialog = await foundry.applications.api.DialogV2.wait({
+				window: { title: "Grimwild Roll" },
+				content,
+				modal: true,
+				buttons: [
+					{
+						label: game.i18n.localize("GRIMWILD.Dialog.Roll"),
+						action: "roll",
+						callback: (event, button, dialog) => {
+							return { dice: button.form.elements.dice.value, thorns: button.form.elements.thorns.value };
+						}
+					}
+				]
+			});
+			rollData.thorns = rollDialog.thorns;
+			rollData.statDice = rollDialog.dice;
+			const formula = "{(@statDice)d6kh, (@thorns)d8}";
 			const roll = new grimwild.roll(formula, rollData);
 
 			await roll.toMessage({
 				actor: this,
 				speaker: ChatMessage.getSpeaker({ actor: this }),
-				rollMode: game.settings.get("core", "rollMode"),
+				rollMode: game.settings.get("core", "rollMode")
 			});
 		}
 	}

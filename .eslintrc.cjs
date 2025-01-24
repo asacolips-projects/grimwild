@@ -232,7 +232,8 @@ module.exports = {
 		fromUuidSync: false,
 		globalThis: false,
 		toml: false,
-		Tagify: false
+		Tagify: false,
+		grimwild: false
 	},
 
 	overrides: [

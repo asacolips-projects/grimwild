@@ -1,0 +1,28 @@
+.grimwild-form-group {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 15px;
+
+    label {
+        flex: 4;
+        text-align: left;
+        margin-right: 10px;
+        font-weight: bold;
+    }
+
+    input {
+        flex: 1;
+        padding: 10px;
+        font-size: 1rem;
+        border: 1px solid #ccc;;
+        border-radius: 4px;
+        text-align: right;
+
+        &:focus {
+            outline: none;
+            border-color: #007BFF;
+            box-shadow: 0 0 4px #ccc;;
+        }
+    }
+}
