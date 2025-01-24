@@ -64,9 +64,7 @@ export default class GrimwildCharacter extends GrimwildActorBase {
 						initial: 1,
 						min: 0
 					}),
-					marked: new fields.BooleanField({
-						initial: true
-					})
+					marked: new fields.BooleanField()
 				});
 				return obj;
 			}, {})
