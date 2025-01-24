@@ -1,5 +1,6 @@
 import GrimwildActorBase from "./base-actor.mjs";
 import { DicePoolField } from "../helpers/schema.mjs";
+import { isMentalStat, isPhysicalStat } from "../helpers/config.mjs";
 
 export default class GrimwildCharacter extends GrimwildActorBase {
 	static LOCALIZATION_PREFIXES = ["GRIMWILD.Actor.Character"];
@@ -31,10 +32,10 @@ export default class GrimwildCharacter extends GrimwildActorBase {
 			pool: new DicePoolField(),
 			severity: new fields.StringField({
 				choices: {
-					'urgent': 'Urgent',
-					'shortTerm': 'Short Term',
-					'longTerm': 'Long Term',
-					'permanent': 'Permanent'
+					urgent: "Urgent",
+					shortTerm: "Short Term",
+					longTerm: "Long Term",
+					permanent: "Permanent"
 				}
 			})
 		}));
@@ -63,7 +64,9 @@ export default class GrimwildCharacter extends GrimwildActorBase {
 						initial: 1,
 						min: 0
 					}),
-					marked: new fields.BooleanField()
+					marked: new fields.BooleanField({
+						initial: true
+					})
 				});
 				return obj;
 			}, {})
@@ -120,15 +123,31 @@ export default class GrimwildCharacter extends GrimwildActorBase {
 	getRollData() {
 		const data = this.toObject();
 
+		data.thorns = 0;
+		// set thorns for harm
+		if (this.bloodied.diceNum > 0) {
+			data.isBloodied = true;
+			data.thorns++;
+		}
+		if (this.rattled.diceNum > 0) {
+			data.isRattled = true;
+			data.thorns++;
+		}
+
 		// Copy the stat scores to the top level, so that rolls can use
 		// formulas like `@str.mod + 4`.
 		if (this.stats) {
 			for (let [k, v] of Object.entries(this.stats)) {
 				data.stats[k] = v.value;
+				// set thorns for marks if no harm present
+				if (v.marked && (isPhysicalStat(k) && !data.isBloodied)) {
+					data.thorns++;
+				}
+				if (v.marked && (isMentalStat(k) && !data.isRattled)) {
+					data.thorns++;
+				}
 			}
 		}
-
-		data.lvl = this.attributes.level.value;
 
 		return data;
 	}
@@ -139,7 +158,7 @@ export default class GrimwildCharacter extends GrimwildActorBase {
 		if (options?.stat && rollData?.stats?.[options.stat]) {
 			const content = await renderTemplate("systems/grimwild/templates/dialog/stat-roll.hbs", {
 				diceDefault: rollData?.stats?.[options.stat],
-				thornsDefault: 0
+				thornsDefault: rollData.thorns
 			});
 			const rollDialog = await foundry.applications.api.DialogV2.wait({
 				window: { title: "Grimwild Roll" },
