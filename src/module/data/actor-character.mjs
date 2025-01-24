@@ -121,15 +121,11 @@ export default class GrimwildCharacter extends GrimwildActorBase {
 	getRollData() {
 		const data = this.toObject();
 
-		data.thorns = 0;
-		// set thorns for harm
 		if (this.bloodied.diceNum > 0) {
 			data.isBloodied = true;
-			data.thorns++;
 		}
 		if (this.rattled.diceNum > 0) {
 			data.isRattled = true;
-			data.thorns++;
 		}
 
 		// Copy the stat scores to the top level, so that rolls can use
@@ -137,13 +133,6 @@ export default class GrimwildCharacter extends GrimwildActorBase {
 		if (this.stats) {
 			for (let [k, v] of Object.entries(this.stats)) {
 				data.stats[k] = v.value;
-				// set thorns for marks if no harm present
-				if (v.marked && (isPhysicalStat(k) && !data.isBloodied)) {
-					data.thorns++;
-				}
-				if (v.marked && (isMentalStat(k) && !data.isRattled)) {
-					data.thorns++;
-				}
 			}
 		}
 
@@ -156,7 +145,9 @@ export default class GrimwildCharacter extends GrimwildActorBase {
 		if (options?.stat && rollData?.stats?.[options.stat]) {
 			const content = await renderTemplate("systems/grimwild/templates/dialog/stat-roll.hbs", {
 				diceDefault: rollData?.stats?.[options.stat],
-				thornsDefault: rollData.thorns
+				isBloodied: rollData?.isBloodied,
+				isRattled: rollData?.isRattled || true,
+				stats: rollData?.stats
 			});
 			const rollDialog = await foundry.applications.api.DialogV2.wait({
 				window: { title: "Grimwild Roll" },
@@ -167,10 +158,30 @@ export default class GrimwildCharacter extends GrimwildActorBase {
 						label: game.i18n.localize("GRIMWILD.Dialog.Roll"),
 						action: "roll",
 						callback: (event, button, dialog) => {
-							return { dice: button.form.elements.dice.value, thorns: button.form.elements.thorns.value };
+							return { dice: button.form.elements.dice.value, thorns: button.form.elements.totalThorns.value };
 						}
 					}
-				]
+				],
+				render: (event, html) => {
+					const checkboxes = html.querySelectorAll('input[type="checkbox"]');
+					const difficultyInput = html.querySelector("#difficulty");
+					const totalDisplay = html.querySelector("#total");
+					const totalValue = html.querySelector("#totalThorns");
+
+					const updateTotal = () => {
+						let total = Array.from(checkboxes).reduce((sum, checkbox) => sum + (checkbox.checked ? 1 : 0), 0);
+						total += parseInt(difficultyInput.value || 0, 10);
+						totalDisplay.textContent = total;
+						totalValue.value = total;
+					};
+
+					// Attach event listeners for dynamic updates
+					checkboxes.forEach((checkbox) => checkbox.addEventListener("change", updateTotal));
+					difficultyInput.addEventListener("input", updateTotal);
+
+					// Initialize the total
+					updateTotal();
+				}
 			});
 			rollData.thorns = rollDialog.thorns;
 			rollData.statDice = rollDialog.dice;
