@@ -52,10 +52,19 @@ GRIMWILD:
           short: XP
         level:
           label: Level
-        healing:
-          label: Healing
-        thorns:
-          label: Thorns
+        conditions:
+          FIELDS:
+            severity:
+              FIELDS:
+                urgent:
+                  label: Urgent
+                shortTerm:
+                  label: Short Term
+                longTerm:
+                  label: Long Term
+                permanent:
+                  label: Permanent
+        
     Npc:
       FIELDS:
         pool:
