@@ -1,5 +1,7 @@
 ---
 GRIMWILD:
+  Settings:
+    Grimwild: 'Grimwild'
   Stat:
     str:
       long: Strength
