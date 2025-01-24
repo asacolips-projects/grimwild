@@ -1,4 +1,6 @@
 import GrimwildActorBase from "./base-actor.mjs";
+import { DicePoolField } from "../helpers/schema.mjs";
+import { SchemaField, StringField } from "../../../foundry/resources/app/common/data/fields.mjs";
 
 export default class GrimwildCharacter extends GrimwildActorBase {
 	static LOCALIZATION_PREFIXES = ["GRIMWILD.Actor.Character"];
@@ -16,12 +18,6 @@ export default class GrimwildCharacter extends GrimwildActorBase {
 			min: 0
 		});
 
-		schema.level = new fields.NumberField({
-			...requiredInteger,
-			initial: 1,
-			min: 1
-		});
-
 		schema.attributes = new fields.SchemaField({
 			level: new fields.SchemaField({
 				value: new fields.NumberField({ ...requiredInteger, initial: 1 })
@@ -29,9 +25,20 @@ export default class GrimwildCharacter extends GrimwildActorBase {
 		});
 
 		// should these have some sort of healing pool attached to them?
-		schema.bloodied = new fields.BooleanField();
-		schema.rattled = new fields.BooleanField();
-		schema.conditions = new fields.ArrayField(new fields.StringField());
+		schema.bloodied = new DicePoolField();
+		schema.rattled = new DicePoolField();
+		schema.conditions = new fields.ArrayField(new fields.SchemaField({
+			name: new fields.StringField(),
+			pool: new DicePoolField(),
+			severity: new fields.StringField({
+				choices: {
+					'urgent': 'Urgent',
+					'shortTerm': 'Short Term',
+					'longTerm': 'Long Term',
+					'permanent': 'Permanent'
+				}
+			})
+		}));
 
 		schema.story = new fields.NumberField({
 			...requiredInteger,
@@ -53,7 +60,7 @@ export default class GrimwildCharacter extends GrimwildActorBase {
 				obj[stat] = new fields.SchemaField({
 					value: new fields.NumberField({
 						...requiredInteger,
-						max: 4,
+						max: 3,
 						initial: 1,
 						min: 0
 					}),
@@ -63,31 +70,41 @@ export default class GrimwildCharacter extends GrimwildActorBase {
 			}, {})
 		);
 
-		schema.thorns = new fields.NumberField({
-			integer: true,
-			min: 0
-		});
-
 		schema.features = new fields.StringField();
-		schema.conditions = new fields.StringField();
 		schema.backgrounds = new fields.SchemaField({
 			name: new fields.StringField(),
 			wises: new fields.ArrayField(new fields.StringField())
 		});
-		schema.traits = new fields.SchemaField({
-			are: new fields.ArrayField(new fields.StringField()),
-			not: new fields.StringField()
-		});
-		schema.desires = new fields.SchemaField({
-			are: new fields.ArrayField(new fields.StringField()),
-			not: new fields.StringField()
-		});
-		schema.bonds = new fields.SchemaField({
-			name: new fields.StringField(),
-			description: new fields.StringField()
-		});
+		schema.traits = new fields.ArrayField(new fields.SchemaField({
+			are: new fields.BooleanField(),
+			value: new fields.StringField()
+		}));
+		schema.desires = new fields.ArrayField(new fields.SchemaField({
+			are: new fields.BooleanField(),
+			value: new fields.StringField()
+		}));
+		schema.bonds = new fields.ArrayField(
+			new fields.SchemaField({
+				name: new fields.StringField(),
+				description: new fields.StringField()
+			})
+		);
 
 		return schema;
+	}
+
+	get level() {
+		if (this.xp < 2) return 1;
+
+		let step = 2;
+		let threshold = 2;
+
+		while (this.xp >= threshold) {
+			step++;
+			threshold += step; // Increment threshold by the next step value
+		}
+
+		return step - 1;
 	}
 
 	prepareDerivedData() {
@@ -123,7 +140,7 @@ export default class GrimwildCharacter extends GrimwildActorBase {
 		if (options?.stat && rollData?.stats?.[options.stat]) {
 			const content = await renderTemplate("systems/grimwild/templates/dialog/stat-roll.hbs", {
 				diceDefault: rollData?.stats?.[options.stat],
-				thornsDefault: rollData?.thorns
+				thornsDefault: 0
 			});
 			const rollDialog = await foundry.applications.api.DialogV2.wait({
 				window: { title: "Grimwild Roll" },
