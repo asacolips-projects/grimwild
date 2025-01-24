@@ -1,6 +1,5 @@
 import GrimwildActorBase from "./base-actor.mjs";
 import { DicePoolField } from "../helpers/schema.mjs";
-import { SchemaField, StringField } from "../../../foundry/resources/app/common/data/fields.mjs";
 
 export default class GrimwildCharacter extends GrimwildActorBase {
 	static LOCALIZATION_PREFIXES = ["GRIMWILD.Actor.Character"];
