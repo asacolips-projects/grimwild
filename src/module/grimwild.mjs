@@ -99,12 +99,24 @@ Hooks.once("init", function () {
 		// Custom logic to handle "1d" and "1d1t"
 		const originalFormula = [...formula].join("");
 
+		// Handle raw dice pools.
+		formula = formula.replace(/\b(\d*)p\b/gi, (match, x) => {
+			// If "p" is alone, treat it as a d6 pool.
+			const diceX = x || 1;
+			return `{${diceX}d6}`;
+		});
+		if (originalFormula !== formula) {
+			return new dice.GrimwildDiePoolRoll(formula);
+		}
+
+		// Handle raw d6 rolls.
 		formula = formula.replace(/\b(\d*)d\b/gi, (match, x) => {
 			// If "d" is alone, treat it as "d6"
 			const diceX = x || 1; // Default to 1 if no number is provided
 			return `{${diceX}d6kh, 0d8}`;
 		});
 
+		// Handle raw d6 + thorn rolls.
 		formula = formula.replace(/\b(\d*)d(\d*)t\b/gi, (match, x, y) => {
 			// Handle "1d1t" as "1d6 + 1d8"
 			const diceX = x || 1; // Default to 1 if no number is provided
