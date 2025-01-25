@@ -146,7 +146,7 @@ export default class GrimwildCharacter extends GrimwildActorBase {
 			const content = await renderTemplate("systems/grimwild/templates/dialog/stat-roll.hbs", {
 				diceDefault: rollData?.stats?.[options.stat],
 				isBloodied: rollData?.isBloodied,
-				isRattled: rollData?.isRattled || true,
+				isRattled: rollData?.isRattled,
 				stats: rollData?.stats
 			});
 			const rollDialog = await foundry.applications.api.DialogV2.wait({
