@@ -107,6 +107,39 @@ export default class GrimwildCharacter extends GrimwildActorBase {
 		return step - 1;
 	}
 
+	get isBloodied() {
+		return this.bloodied.diceNum > 0;
+	}
+
+	get isRattled() {
+		return this.rattled.diceNum > 0;
+	}
+
+	get orderedStats() {
+		const orderedStats = [];
+		for (let [k, v] of Object.entries(this.stats)) {
+			orderedStats.push({key: k, value: v});
+		}
+		orderedStats.sort((a, b) => {
+			const order = (s) => {
+				switch (s) {
+					case "bra": 
+						return 0;
+					case "agi":
+						return 1;
+					case "wis":
+						return 2;
+					case "pre":
+						return 3;
+					default:
+						return 100;
+				}
+			};
+			return order(a.key) - order(b.key);
+		});
+		return orderedStats;
+	}
+
 	prepareDerivedData() {
 		// Loop through stat scores, and add their modifiers to our sheet output.
 		for (const key in this.stats) {
@@ -121,13 +154,6 @@ export default class GrimwildCharacter extends GrimwildActorBase {
 	getRollData() {
 		const data = this.toObject();
 
-		if (this.bloodied.diceNum > 0) {
-			data.isBloodied = true;
-		}
-		if (this.rattled.diceNum > 0) {
-			data.isRattled = true;
-		}
-
 		// Copy the stat scores to the top level, so that rolls can use
 		// formulas like `@str.mod + 4`.
 		if (this.stats) {
@@ -135,6 +161,7 @@ export default class GrimwildCharacter extends GrimwildActorBase {
 				data.stats[k] = v.value;
 			}
 		}
+		data.orderedStats = this.orderedStats;
 
 		return data;
 	}
@@ -143,11 +170,12 @@ export default class GrimwildCharacter extends GrimwildActorBase {
 		const rollData = this.getRollData();
 
 		if (options?.stat && rollData?.stats?.[options.stat]) {
+			console.log(rollData.orderedStats);
 			const content = await renderTemplate("systems/grimwild/templates/dialog/stat-roll.hbs", {
 				diceDefault: rollData?.stats?.[options.stat],
 				isBloodied: rollData?.isBloodied,
 				isRattled: rollData?.isRattled,
-				stats: rollData?.stats
+				stats: rollData.orderedStats
 			});
 			const rollDialog = await foundry.applications.api.DialogV2.wait({
 				window: { title: "Grimwild Roll" },

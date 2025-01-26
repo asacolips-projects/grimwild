@@ -13,13 +13,22 @@ GRIMWILD:
     pre:
       long: Presence
       abbr: PRE
+  Damage:
+    marked: Marked
+    bloodied: Bloodied
+    rattled: Rattled
+    conditions: Conditions
   Dice:
+    dice: Dice
     results:
       crit: Crit
       perfect: Perfect
       messy: Messy
       grim: Grim
       disaster: Disaster
+    thorns: Thorns
+    difficulty: Difficulty
+    total: Total
   Class:
     cleric:
       label: Cleric
