@@ -71,10 +71,12 @@ export default class GrimwildCharacter extends GrimwildActorBase {
 		);
 
 		schema.features = new fields.StringField();
-		schema.backgrounds = new fields.SchemaField({
-			name: new fields.StringField(),
-			wises: new fields.ArrayField(new fields.StringField())
-		});
+		schema.backgrounds = new fields.ArrayField(
+			new fields.SchemaField({
+				name: new fields.StringField(),
+				wises: new fields.ArrayField(new fields.StringField())
+			})
+		);
 		schema.traits = new fields.ArrayField(new fields.SchemaField({
 			are: new fields.BooleanField(),
 			value: new fields.StringField()
@@ -170,7 +172,6 @@ export default class GrimwildCharacter extends GrimwildActorBase {
 		const rollData = this.getRollData();
 
 		if (options?.stat && rollData?.stats?.[options.stat]) {
-			console.log(rollData.orderedStats);
 			const content = await renderTemplate("systems/grimwild/templates/dialog/stat-roll.hbs", {
 				diceDefault: rollData?.stats?.[options.stat],
 				isBloodied: rollData?.isBloodied,
