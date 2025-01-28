@@ -165,6 +165,10 @@ export default class GrimwildCharacter extends GrimwildActorBase {
 		}
 		data.orderedStats = this.orderedStats;
 
+		// Handle getters.
+		data.isBloodied = this.isBloodied;
+		data.isRattled = this.isRattled;
+
 		return data;
 	}
 
