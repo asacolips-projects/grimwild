@@ -150,6 +150,7 @@ export function watch() {
 }
 
 export const build = gulp.series(clean, gulp.parallel(compilePacks, buildYaml, /*buildCode,*/ buildStyles, copyFiles));
+
 export const pack = gulp.series(compilePacks);
 export const unpack = gulp.series(extractPacks);
 
