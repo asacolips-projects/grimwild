@@ -99,6 +99,7 @@ Hooks.once("init", function () {
 		// Custom logic to handle "1d" and "1d1t"
 		const originalFormula = [...formula].join("");
 
+		// @todo find a way to handle something like `/r pool 4d`
 		// Handle raw dice pools.
 		formula = formula.replace(/\b(\d*)p\b/gi, (match, x) => {
 			// If "p" is alone, treat it as a d6 pool.
@@ -166,8 +167,8 @@ Hooks.once("diceSoNiceReady", (dice3d) => {
 			"systems/grimwild/assets/dice/d6-3.png",
 			"systems/grimwild/assets/dice/d6-4.png",
 			"systems/grimwild/assets/dice/d6-5.png",
-			"systems/grimwild/assets/dice/d6-6.png",
-		],
+			"systems/grimwild/assets/dice/d6-6.png"
+		]
 	});
 	dice3d.addDicePreset({
 		system: "grimwild",
@@ -180,20 +181,20 @@ Hooks.once("diceSoNiceReady", (dice3d) => {
 			"systems/grimwild/assets/dice/d8-5.png",
 			"systems/grimwild/assets/dice/d8-6.png",
 			"systems/grimwild/assets/dice/d8-7.png",
-			"systems/grimwild/assets/dice/d8-8.png",
-		],
+			"systems/grimwild/assets/dice/d8-8.png"
+		]
 	});
 	// @todo Figure out a better solution for standard dice.
 	dice3d.addColorset({
 		name: "grimwild-dark",
 		description: "Grimwild Dark",
 		category: "Grimwild",
-		foreground: '#999999',
+		foreground: "#999999",
 		background: "#333333",
 		outline: "#000000",
 		edge: "#444444",
 		texture: "none",
-		material: "glass",
+		material: "glass"
 	});
 });
 
