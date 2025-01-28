@@ -120,12 +120,12 @@ export default class GrimwildCharacter extends GrimwildActorBase {
 	get orderedStats() {
 		const orderedStats = [];
 		for (let [k, v] of Object.entries(this.stats)) {
-			orderedStats.push({key: k, value: v});
+			orderedStats.push({ key: k, value: v });
 		}
 		orderedStats.sort((a, b) => {
 			const order = (s) => {
 				switch (s) {
-					case "bra": 
+					case "bra":
 						return 0;
 					case "agi":
 						return 1;
