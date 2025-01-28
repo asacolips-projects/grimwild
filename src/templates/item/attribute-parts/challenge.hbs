@@ -6,8 +6,6 @@
 >
   {{! As you add new fields, add them in here! }}
   <div class='resource'>
-    <label class='resource-label'>{{localize 'GRIMWILD.Item.Challenge.FIELDS.rollFormula.label'}}:</label>
-    <span>{{system.formula}}</span>
     <div class='grid grid-4col'>
       <div class='grid-span-1'>
         <label class='resource-label'>{{localize 'GRIMWILD.Item.Challenge.FIELDS.numDice.label'}}</label>
@@ -16,15 +14,6 @@
           name='system.roll.diceNum'
           value='{{system.roll.diceNum}}'
           data-dtype='Number'
-        />
-      </div>
-      <div class='grid-span-1'>
-        <label class='resource-label'>{{localize 'GRIMWILD.Item.Challenge.FIELDS.dieSize.label'}}</label>
-        <input
-          type='text'
-          name='system.roll.diceSize'
-          value='{{system.roll.diceSize}}'
-          data-dtype='String'
         />
       </div>
     </div>

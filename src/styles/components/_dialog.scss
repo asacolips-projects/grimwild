@@ -11,7 +11,7 @@
         font-weight: bold;
     }
 
-    input {
+    input[type="number"] {
         flex: 1;
         padding: 10px;
         font-size: 1rem;
@@ -26,3 +26,20 @@
         }
     }
 }
+
+.grimwild-checkbox-group {
+    display: flex;
+    flex-direction: column; // Stack checkboxes vertically
+    gap: 0.5rem; // Add spacing between checkboxes
+  
+    .grimwild-form-group {
+      input[type="checkbox"] {
+        margin: 0;
+      }
+    }
+  }
+
+// Total display styling
+#total {
+    font-size: 1.2rem;
+  }

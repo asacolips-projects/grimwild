@@ -3,9 +3,9 @@ GRIMWILD:
   Settings:
     Grimwild: 'Grimwild'
   Stat:
-    str:
-      long: Strength
-      abbr: STR
+    bra:
+      long: Brawn
+      abbr: BRA
     agi:
       long: Agility
       abbr: AGI
@@ -15,13 +15,22 @@ GRIMWILD:
     pre:
       long: Presence
       abbr: PRE
+  Damage:
+    marked: Marked
+    bloodied: Bloodied
+    rattled: Rattled
+    conditions: Conditions
   Dice:
+    dice: Dice
     results:
       crit: Crit
       perfect: Perfect
       messy: Messy
       grim: Grim
       disaster: Disaster
+    thorns: Thorns
+    difficulty: Difficulty
+    total: Total
   Class:
     cleric:
       label: Cleric
@@ -54,10 +63,19 @@ GRIMWILD:
           short: XP
         level:
           label: Level
-        healing:
-          label: Healing
-        thorns:
-          label: Thorns
+        conditions:
+          FIELDS:
+            severity:
+              FIELDS:
+                urgent:
+                  label: Urgent
+                shortTerm:
+                  label: Short Term
+                longTerm:
+                  label: Long Term
+                permanent:
+                  label: Permanent
+        
     Npc:
       FIELDS:
         pool:
