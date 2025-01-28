@@ -85,6 +85,7 @@ Hooks.once("init", function () {
 	Actors.registerSheet("grimwild", GrimwildActorSheetVue, {
 		makeDefault: false,
 		label: "Vue sheet",
+		types: ["character"]
 	})
 	Items.unregisterSheet("core", ItemSheet);
 	Items.registerSheet("grimwild", GrimwildItemSheet, {
