@@ -45,11 +45,15 @@ GRIMWILD:
     Item: Grimwild Item Sheet
   Actor:
     Tabs:
+      # Current
+      Details: Details
+      Talents: Talents
+      Challenges: Challenges
+      Effects: Effects
+      # Obsolete
       Biography: Biography
       Abilities: Abilities
       Equipment: Equipment
-      Challenges: Challenges
-      Effects: Effects
     base:
       FIELDS:
         biography:
