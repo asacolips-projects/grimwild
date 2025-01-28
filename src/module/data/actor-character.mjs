@@ -10,7 +10,7 @@ export default class GrimwildCharacter extends GrimwildActorBase {
 		const requiredInteger = { required: true, nullable: false, integer: true };
 		const schema = super.defineSchema();
 
-		schema.class = new fields.StringField({ required: true, blank: true });
+		schema.path = new fields.StringField({ required: true, blank: true });
 
 		schema.xp = new fields.NumberField({
 			integer: true,

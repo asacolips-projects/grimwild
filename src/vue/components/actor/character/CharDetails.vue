@@ -1,10 +1,12 @@
 <template>
-	<div class="form-group">
-		<label>{{ game.i18n.localize('GRIMWILD.Actor.base.FIELDS.biography.label') }}</label>
-	</div>
-	<div class="field">
-		<Prosemirror :editable="context.editable" :field="context.editors['system.biography']"/>
-	</div>
+	<fieldset>
+		<legend>{{ game.i18n.localize('GRIMWILD.Actor.base.FIELDS.biography.label') }}</legend>
+		<div class="form-group">
+			<div class="field">
+				<Prosemirror :editable="context.editable" :field="context.editors['system.biography']"/>
+			</div>
+		</div>
+	</fieldset>
 </template>
 
 <script setup>

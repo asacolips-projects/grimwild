@@ -35,6 +35,7 @@ export class GrimwildActorSheetVue extends VueRenderingMixin(GrimwildBaseVueActo
 			createEffect: this._createEffect,
 			deleteEffect: this._deleteEffect,
 			toggleEffect: this._toggleEffect,
+			roll: this._onRoll
 		},
 		// Custom property that's merged into `this.options`
 		dragDrop: [{ dragSelector: "[data-drag]", dropSelector: null }],
@@ -139,37 +140,85 @@ export class GrimwildActorSheetVue extends VueRenderingMixin(GrimwildBaseVueActo
 	 * @param {object} context 
 	 */
 	_prepareTabs(context) {
-    // Initialize tabs.
-    context.tabs = {
-      primary: {},
-    };
+		// Initialize tabs.
+		context.tabs = {
+			primary: {},
+		};
 
-    // Tabs available to all actors.
-    context.tabs.primary.details = {
-      key: 'details',
-      label: game.i18n.localize('GRIMWILD.Actor.Tabs.Details'),
-      active: false,
-    };
+		// Tabs available to all actors.
+		context.tabs.primary.details = {
+			key: 'details',
+			label: game.i18n.localize('GRIMWILD.Actor.Tabs.Details'),
+			active: false,
+		};
 
-    // Tabs limited to NPCs.
-    if (this.actor.type === 'character') {
-      context.tabs.primary.talents = {
-        key: 'talents',
-        label: game.i18n.localize('GRIMWILD.Actor.Tabs.Talents'),
-        active: true,
-      };
-    }
+		// Tabs limited to NPCs.
+		if (this.actor.type === 'character') {
+			context.tabs.primary.talents = {
+				key: 'talents',
+				label: game.i18n.localize('GRIMWILD.Actor.Tabs.Talents'),
+				active: true,
+			};
+		}
 
-    // More tabs available to all actors.
-    context.tabs.primary.effects = {
-      key: 'effects',
-      label: game.i18n.localize('GRIMWILD.Actor.Tabs.Effects'),
-      active: false,
-    };
+		// More tabs available to all actors.
+		context.tabs.primary.effects = {
+			key: 'effects',
+			label: game.i18n.localize('GRIMWILD.Actor.Tabs.Effects'),
+			active: false,
+		};
 
-    // Ensure we have a default tab.
-    if (this.actor.type !== 'character') {
-      context.tabs.primary.details.active = true;
-    }
-  }
+		// Ensure we have a default tab.
+		if (this.actor.type !== 'character') {
+			context.tabs.primary.details.active = true;
+		}
+	}
+
+	/* -------------------------------------------- */
+
+	/** ************
+	 *
+	 *   ACTIONS
+	 *
+	 **************/
+	
+	/**
+	 * Handle clickable rolls.
+	 *
+	 * @this GrimwildActorSheet
+	 * @param {PointerEvent} event   The originating click event
+	 * @param {HTMLElement} target   The capturing HTML element which defined a [data-action]
+	 * @returns {Promise|void} The roll object, or void.
+	 * @protected
+	 */
+	static async _onRoll(event, target) {
+		event.preventDefault();
+		const dataset = target.dataset;
+		let item = null;
+
+		console.log("foobar");
+
+		// Handle item rolls.
+		switch (dataset.rollType) {
+			case "item":
+				item = this._getEmbeddedDocument(target);
+				if (item) return item.roll();
+				break;
+			case "stat":
+				await this.document.system.roll({ stat: dataset.stat });
+				break;
+		}
+
+		// Handle rolls that supply the formula directly.
+		if (dataset.roll) {
+			let label = dataset.label ? `[ability] ${dataset.label}` : "";
+			let roll = new Roll(dataset.roll, this.actor.getRollData());
+			await roll.toMessage({
+				speaker: ChatMessage.getSpeaker({ actor: this.actor }),
+				flavor: label,
+				rollMode: game.settings.get("core", "rollMode")
+			});
+			return roll;
+		}
+	}
 }

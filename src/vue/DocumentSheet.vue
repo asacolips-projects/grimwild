@@ -1,5 +1,5 @@
 <template>
-	<div :class="`grimwild-vue flexcol`">
+	<div :class="`grimwild-vue standard-form flexcol`">
 		<!-- Header -->
 		<header class="sheet-header">
 			<img
@@ -12,15 +12,54 @@
 				width="100"
 			/>
 			<div class="header-fields flexcol">
-				<div class="form-group stacked">
-					<label>{{ game.i18n.localize('Name') }}</label>
-					<input type="text" name="name" v-model="context.actor.name"/>
+				<div class="header-details grid grid-6col">
+					<div class="form-group stacked grid-span-3">
+						<label>{{ game.i18n.localize('Name') }}</label>
+						<input type="text" name="name" v-model="context.actor.name"/>
+					</div>
+					<div class="form-group stacked grid-span-2">
+						<label>{{ game.i18n.localize('GRIMWILD.Actor.Character.FIELDS.path.label') }}</label>
+						<input type="text" name="system.path" v-model="context.actor.system.path"/>
+					</div>
+					<div class="form-group stacked grid-span-1">
+						<label>{{ game.i18n.localize('GRIMWILD.Actor.Character.FIELDS.xp.short') }}</label>
+						<input type="number" name="system.xp" v-model="context.actor.system.xp"/>
+					</div>
 				</div>
 
 				<div class="stats grid grid-4col">
 					<div v-for="(stat, statKey) in actor.system.stats" :key="statKey" class="form-group stacked">
-						<label>{{ stat.label }}</label>
-						<input type="text" :name="`system.stats.${statKey}.value`" v-model="context.actor.system.stats[statKey].value"/>
+						<label>
+							<button type="button" data-action="roll" data-roll-type="stat" :data-stat="statKey">{{stat.label}}</button>
+						</label>
+						<div class="flexrow">
+							<input type="checkbox"
+								:name="`system.stats.${statKey}.marked`"
+								v-model="context.actor.system.stats[statKey].marked" 
+								class="marked"
+								:data-tooltip="game.i18n.localize('GRIMWILD.Damage.marked')" 
+							/>
+							<input type="text"
+								:name="`system.stats.${statKey}.value`"
+								v-model="context.actor.system.stats[statKey].value"
+							/>
+						</div>
+					</div>
+				</div>
+				<div class="harm grid grid-2col">
+					<div class="form-group">
+						<label>{{ game.i18n.localize('GRIMWILD.Damage.bloodied') }}</label>
+						<input type="number"
+							name="system.bloodied.diceNum"
+							v-model="context.actor.system.bloodied.diceNum"
+						/>
+					</div>
+					<div class="form-group">
+						<label>{{ game.i18n.localize('GRIMWILD.Damage.rattled') }}</label>
+						<input type="number"
+							name="system.rattled.diceNum"
+							v-model="context.actor.system.rattled.diceNum"
+						/>
 					</div>
 				</div>
 			</div>
