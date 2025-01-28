@@ -142,7 +142,6 @@ export function watch() {
 	gulp.watch(`${sourceDirectory}/**/*.{yml, yaml}`, { ignoreInitial: false }, buildYaml);
 	// gulp.watch(`${sourceDirectory}/**/*.${sourceFileExtension}`, { ignoreInitial: false }, buildCode);
 	gulp.watch(`${stylesDirectory}/**/*.${stylesExtension}`, { ignoreInitial: false }, buildStyles);
-	gulp.watch(`${PACK_SRC}/**/*.{yml, yaml}`, { ignoreInitial: false }, compilePacks)
 	gulp.watch(
 		staticFiles.map((file) => `${sourceDirectory}/${file}`),
 		{ ignoreInitial: false },
@@ -151,6 +150,7 @@ export function watch() {
 }
 
 export const build = gulp.series(clean, gulp.parallel(compilePacks, buildYaml, /*buildCode,*/ buildStyles, copyFiles));
+export const pack = gulp.series(compilePacks);
 export const unpack = gulp.series(extractPacks);
 
 /** ******************/

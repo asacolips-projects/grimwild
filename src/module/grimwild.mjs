@@ -104,12 +104,25 @@ Hooks.once("init", function () {
 		// Custom logic to handle "1d" and "1d1t"
 		const originalFormula = [...formula].join("");
 
+		// @todo find a way to handle something like `/r pool 4d`
+		// Handle raw dice pools.
+		formula = formula.replace(/\b(\d*)p\b/gi, (match, x) => {
+			// If "p" is alone, treat it as a d6 pool.
+			const diceX = x || 1;
+			return `{${diceX}d6}`;
+		});
+		if (originalFormula !== formula) {
+			return new dice.GrimwildDiePoolRoll(formula);
+		}
+
+		// Handle raw d6 rolls.
 		formula = formula.replace(/\b(\d*)d\b/gi, (match, x) => {
 			// If "d" is alone, treat it as "d6"
 			const diceX = x || 1; // Default to 1 if no number is provided
 			return `{${diceX}d6kh, 0d8}`;
 		});
 
+		// Handle raw d6 + thorn rolls.
 		formula = formula.replace(/\b(\d*)d(\d*)t\b/gi, (match, x, y) => {
 			// Handle "1d1t" as "1d6 + 1d8"
 			const diceX = x || 1; // Default to 1 if no number is provided
@@ -143,6 +156,51 @@ Handlebars.registerHelper("toLowerCase", function (str) {
 Hooks.once("ready", function () {
 	// Wait to register hotbar drop hook on ready so that modules could register earlier if they want to
 	Hooks.on("hotbarDrop", (bar, data, slot) => createDocMacro(data, slot));
+});
+
+/* -------------------------------------------- */
+/*  Dice So Nice                                */
+/* -------------------------------------------- */
+Hooks.once("diceSoNiceReady", (dice3d) => {
+	dice3d.addSystem({ id: "grimwild", name: game.i18n.localize("GRIMWILD.Settings.Grimwild") });
+	dice3d.addDicePreset({
+		system: "grimwild",
+		type: "d6",
+		labels: [
+			"systems/grimwild/assets/dice/d6-1.png",
+			"systems/grimwild/assets/dice/d6-2.png",
+			"systems/grimwild/assets/dice/d6-3.png",
+			"systems/grimwild/assets/dice/d6-4.png",
+			"systems/grimwild/assets/dice/d6-5.png",
+			"systems/grimwild/assets/dice/d6-6.png"
+		]
+	});
+	dice3d.addDicePreset({
+		system: "grimwild",
+		type: "d8",
+		labels: [
+			"systems/grimwild/assets/dice/d8-1.png",
+			"systems/grimwild/assets/dice/d8-2.png",
+			"systems/grimwild/assets/dice/d8-3.png",
+			"systems/grimwild/assets/dice/d8-4.png",
+			"systems/grimwild/assets/dice/d8-5.png",
+			"systems/grimwild/assets/dice/d8-6.png",
+			"systems/grimwild/assets/dice/d8-7.png",
+			"systems/grimwild/assets/dice/d8-8.png"
+		]
+	});
+	// @todo Figure out a better solution for standard dice.
+	dice3d.addColorset({
+		name: "grimwild-dark",
+		description: "Grimwild Dark",
+		category: "Grimwild",
+		foreground: "#999999",
+		background: "#333333",
+		outline: "#000000",
+		edge: "#444444",
+		texture: "none",
+		material: "glass"
+	});
 });
 
 /* -------------------------------------------- */
