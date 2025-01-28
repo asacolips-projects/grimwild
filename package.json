@@ -1,6 +1,6 @@
 {
   "scripts": {
-    "build": "gulp build",
+    "build": "vite build && gulp build",
     "build:vite": "vite build",
     "build:vite:watch": "vite build --watch",
     "build:watch": "gulp watch",
