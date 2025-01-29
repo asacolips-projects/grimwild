@@ -7,6 +7,7 @@ jsconfig.json
 # Node Modules
 node_modules/
 dist/
+build/
 /grimwild/
 /grimwild.zip
 foundry

@@ -31,25 +31,20 @@ GRIMWILD:
     thorns: Thorns
     difficulty: Difficulty
     total: Total
-  Class:
-    cleric:
-      label: Cleric
-    fighter:
-      label: Fighter
-    rogue:
-      label: Rogue
-    wizard:
-      label: Wizard
   SheetLabels:
     Actor: Grimwild Actor Sheet
     Item: Grimwild Item Sheet
   Actor:
     Tabs:
+      # Current
+      Details: Details
+      Talents: Talents
+      Challenges: Challenges
+      Effects: Effects
+      # Obsolete
       Biography: Biography
       Abilities: Abilities
       Equipment: Equipment
-      Challenges: Challenges
-      Effects: Effects
     base:
       FIELDS:
         biography:
@@ -63,6 +58,8 @@ GRIMWILD:
           short: XP
         level:
           label: Level
+        path:
+          label: Path
         conditions:
           FIELDS:
             severity:
