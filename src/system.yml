@@ -51,11 +51,14 @@ readme: README.md
 bugs: Replace this with a link to file issues or tickets
 changelog: CHANGELOG.md
 
-background: systems/grimwild/assets/grimwild-impact.webp
+# World background
+# background: systems/grimwild/assets/grimwild-system-splash.webp
+
+# Setup menu thumbnail
 media:
   - type: setup
-    url: systems/grimwild/assets/grimwild-impact.webp
-    thumbnail: systems/grimwild/assets/grimwild-impact.webp
+    url: systems/grimwild/assets/grimwild-system-logo.webp
+    thumbnail: systems/grimwild/assets/grimwild-system-logo.webp
 
 esmodules:
   - module/grimwild.mjs
