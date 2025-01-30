@@ -38,23 +38,6 @@
 					/>
 				</div>
 			</div>
-			<!-- Spark / Story -->
-			<div class="metacurrency grid grid-2col">
-				<div class="spark form-group">
-					<label>{{ context.systemFields.spark.label }}</label>
-					<input type="number"
-						name="system.spark"
-						v-model="context.actor.system.spark"
-					/>
-				</div>
-				<div class="story form-group">
-					<label>{{ context.systemFields.story.label }}</label>
-					<input type="number"
-						name="system.story"
-						v-model="context.actor.system.story"
-					/>
-				</div>
-			</div>
 		</div>
 	</header>
 </template>

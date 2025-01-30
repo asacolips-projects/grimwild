@@ -12,6 +12,33 @@
 			/>
 		</div>
 		<div class="sidebar-details flexcol">
+			<!-- Spark / Story -->
+			<div class="spark form-group">
+				<label>{{ context.systemFields.spark.label }}</label>
+				<div class="form-inputs">
+					<input type="checkbox"
+						name="system.spark.steps.0"
+						v-model="context.actor.system.spark.steps[0]"
+					/>
+					<input type="checkbox"
+						name="system.spark.steps.1"
+						v-model="context.actor.system.spark.steps[1]"
+					/>
+				</div>
+			</div>
+			<div class="story form-group">
+				<label>{{ context.systemFields.story.label }}</label>
+				<div class="form-inputs">
+					<input type="checkbox"
+						name="system.story.steps.0"
+						v-model="context.actor.system.story.steps[0]"
+					/>
+					<input type="checkbox"
+						name="system.story.steps.1"
+						v-model="context.actor.system.story.steps[1]"
+					/>
+				</div>
+			</div>
 			<div class="form-group stacked">
 				<label>{{ game.i18n.localize('Name') }}</label>
 				<input type="text" name="name" v-model="context.actor.name"/>
@@ -29,5 +56,7 @@
 </template>
 
 <script setup>
+import { inject } from 'vue';
 const props = defineProps(['context']);
+const actor = inject('rawDocument');
 </script>

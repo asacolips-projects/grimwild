@@ -40,18 +40,12 @@ export default class GrimwildCharacter extends GrimwildActorBase {
 			})
 		}));
 
-		schema.story = new fields.NumberField({
-			...requiredInteger,
-			initial: 0,
-			min: 0,
-			max: 2
+		schema.spark = new fields.SchemaField({
+			steps: new fields.ArrayField(new fields.BooleanField),
 		});
 
-		schema.spark = new fields.NumberField({
-			...requiredInteger,
-			initial: 0,
-			min: 0,
-			max: 2
+		schema.story = new fields.SchemaField({
+			steps: new fields.ArrayField(new fields.BooleanField),
 		});
 
 		// Iterate over stat names and create a new SchemaField for each.
@@ -150,6 +144,16 @@ export default class GrimwildCharacter extends GrimwildActorBase {
 				game.i18n.localize(CONFIG.GRIMWILD.stats[key]) ?? key;
 			this.stats[key].abbr =
 				game.i18n.localize(CONFIG.GRIMWILD.statAbbreviations[key]) ?? key;
+		}
+
+		// Calculate spark and story values.
+		this.spark.value = 0;
+		for (const step in this.spark.steps) {
+			if (this.spark.steps[step]) this.spark.value++;
+		}
+		this.story.value = 0;
+		for (const step in this.story.steps) {
+			if (this.story.steps[step]) this.story.value++;
 		}
 	}
 
