@@ -20,6 +20,32 @@ GRIMWILD:
     bloodied: Bloodied
     rattled: Rattled
     conditions: Conditions
+  Traits:
+    brave: Brave
+    caring: Caring
+    confident: Confident
+    curious: Curious
+    gentle: Gentle
+    honest: Honest
+    honorable: Honorable
+    persistent: Persistent
+    protective: Protective
+    quiet: Quiet
+    rash: Rash
+    stubborn: Stubborn
+  Desires:
+    belonging: Belonging
+    glory: Glory
+    harmony: Harmony
+    honor: Honor
+    justice: Justice
+    knowledge: Knowledge
+    love: Love
+    power: Power
+    renown: Renown
+    thrills: Thrills
+    wealth: Wealth
+    wisdom: Wisdom
   Dice:
     dice: Dice
     results:
@@ -64,6 +90,10 @@ GRIMWILD:
           label: Spark
         story:
           label: Story
+        traits:
+          label: Traits
+        desires:
+          label: Desires
         conditions:
           FIELDS:
             severity:

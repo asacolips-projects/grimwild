@@ -146,6 +146,26 @@ export default class GrimwildCharacter extends GrimwildActorBase {
 				game.i18n.localize(CONFIG.GRIMWILD.statAbbreviations[key]) ?? key;
 		}
 
+		// Ensure traits exist.
+		for (let i = 0; i < 3; i++) {
+			if (!this.traits[i]) {
+				this.traits[i] = {
+					are: i < 2,
+					value: '',
+				};
+			}
+		}
+
+		// Ensure desires exist.
+		for (let i = 0; i < 3; i++) {
+			if (!this.desires[i]) {
+				this.desires[i] = {
+					are: i < 2,
+					value: '',
+				};
+			}
+		}
+
 		// Calculate spark and story values.
 		this.spark.value = 0;
 		for (const step in this.spark.steps) {

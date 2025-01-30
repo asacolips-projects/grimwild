@@ -1,5 +1,5 @@
 <template>
-	<header class="sheet-header">
+	<header class="sheet-header flexrow">
 		<div class="header-fields flexcol">
 			<!-- Stats / Marks -->
 			<div class="stats grid grid-4col">
@@ -35,6 +35,35 @@
 					<input type="number"
 						name="system.rattled.diceNum"
 						v-model="context.actor.system.rattled.diceNum"
+					/>
+				</div>
+			</div>
+		</div>
+		<!-- Spark / Story -->
+		<div class="metacurrency-fields flexcol">
+			<div class="spark form-group stacked">
+				<label>{{ context.systemFields.spark.label }}</label>
+				<div class="form-inputs">
+					<input type="checkbox"
+						name="system.spark.steps.0"
+						v-model="context.actor.system.spark.steps[0]"
+					/>
+					<input type="checkbox"
+						name="system.spark.steps.1"
+						v-model="context.actor.system.spark.steps[1]"
+					/>
+				</div>
+			</div>
+			<div class="story form-group stacked">
+				<label>{{ context.systemFields.story.label }}</label>
+				<div class="form-inputs">
+					<input type="checkbox"
+						name="system.story.steps.0"
+						v-model="context.actor.system.story.steps[0]"
+					/>
+					<input type="checkbox"
+						name="system.story.steps.1"
+						v-model="context.actor.system.story.steps[1]"
 					/>
 				</div>
 			</div>
