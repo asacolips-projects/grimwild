@@ -52,7 +52,7 @@ bugs: Replace this with a link to file issues or tickets
 changelog: CHANGELOG.md
 
 # World background
-# background: systems/grimwild/assets/grimwild-system-splash.webp
+background: systems/grimwild/assets/grimwild-system-splash.webp
 
 # Setup menu thumbnail
 media:
