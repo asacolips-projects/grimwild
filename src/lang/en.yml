@@ -60,6 +60,10 @@ GRIMWILD:
           label: Level
         path:
           label: Path
+        spark:
+          label: Spark
+        story:
+          label: Story
         conditions:
           FIELDS:
             severity:

@@ -49,3 +49,10 @@
     padding: 0 8px;
   }
 }
+
+.form-group.stacked {
+  label {
+    line-height: 1;
+    padding-top: $padding-md;
+  }
+}
