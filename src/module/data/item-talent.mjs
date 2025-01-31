@@ -31,6 +31,9 @@ export default class GrimwildTalent extends GrimwildItemBase {
 			points: new fields.ArrayField(new fields.SchemaField({
 				label: new fields.StringField(optionalString),
 				description: new fields.StringField(optionalString),
+				// Whether or not to show checkboxes or just a raw number field.
+				showSteps: new fields.BooleanField(),
+				// Track the actual value numerically.
 				value: new fields.NumberField({
 					...requiredInteger,
 					initial: 0,
