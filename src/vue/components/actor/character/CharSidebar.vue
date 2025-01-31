@@ -18,8 +18,9 @@
 			</div>
 			<div class="form-group stacked">
 				<label>{{ game.i18n.localize('GRIMWILD.Actor.Character.FIELDS.path.label') }}</label>
-				<input type="text" name="system.path" v-model="context.actor.system.path"/>
+				<input type="text" name="system.path" v-model="context.system.path"/>
 			</div>
+			<!-- Traits -->
 			<div class="traits form-group stacked">
 				<label>{{ context.systemFields.traits.label }}</label>
 				<div class="form-group stacked">
@@ -32,6 +33,7 @@
 					</datalist>
 				</div>
 			</div>
+			<!-- Desires -->
 			<div class="desires form-group stacked">
 				<label>{{ context.systemFields.desires.label }}</label>
 				<div class="form-group stacked">
@@ -44,9 +46,28 @@
 					</datalist>
 				</div>
 			</div>
-			<div class="form-group stacked">
-				<label>{{ game.i18n.localize('GRIMWILD.Actor.Character.FIELDS.xp.short') }}</label>
-				<input type="number" name="system.xp" v-model="context.actor.system.xp"/>
+			<!-- XP -->
+			<div class="xp form-group stacked">
+				<div class="xp-lvl grid grid-2col">
+					<span class="form-group">
+						<label>{{ game.i18n.localize('GRIMWILD.Actor.Character.FIELDS.level.label') }}</label>
+						<span>{{ context.system.level }}</span>
+					</span>
+					<span class="form-group">
+						<label>{{ game.i18n.localize('GRIMWILD.Actor.Character.FIELDS.xp.short') }}</label>
+						<span>{{ context.system.xp.value }}</span>
+					</span>
+				</div>
+				<div v-for="(level, levelKey) in actor.system.xp.steps" :key="levelKey">
+					<template v-for="(xp, xpKey) in level" :key="xpKey">
+						<input type="checkbox"
+							:data-level="level"
+							:data-xp="xp"
+							data-action="changeXp"
+							:checked="xp <= context.actor.system.xp.value"
+						/>
+					</template>
+				</div>
 			</div>
 		</div>
 	</aside>
@@ -56,4 +77,5 @@
 import { inject } from 'vue';
 const props = defineProps(['context']);
 const actor = inject('rawDocument');
+
 </script>

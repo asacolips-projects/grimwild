@@ -3,6 +3,12 @@
 }
 
 .standard-form {
+  input[type="text"],
+  input[type="number"] {
+    height: auto;
+    line-height: 1.8;
+  }
+
   input::placeholder {
     font-style: italic;
     opacity: 0.5;
@@ -58,9 +64,31 @@
 }
 
 .form-group.stacked {
-  label {
+  > label {
     line-height: 1;
     padding-top: $padding-md;
+  }
+}
+
+.xp {
+  margin-top: 8px;
+
+  > .grid {
+    margin: 0;
+  }
+
+  input[type="checkbox"]:last-child {
+    &::before {
+      color: #483d49;
+    }
+
+    &:checked::before {
+      color: var(--checkbox-checkmark-color);
+    }
+
+    &:checked::after {
+      color: #e45117;
+    }
   }
 }
 
@@ -123,5 +151,13 @@
       color: #5d142b;
       text-shadow: none;
     }
+  }
+}
+
+.xp {
+  gap: 0;
+
+  input[type="checkbox"] {
+    margin: 0;
   }
 }

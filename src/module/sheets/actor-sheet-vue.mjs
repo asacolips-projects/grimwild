@@ -37,6 +37,7 @@ export class GrimwildActorSheetVue extends VueRenderingMixin(GrimwildBaseVueActo
 			toggleEffect: this._toggleEffect,
 			createBond: this._createBond,
 			deleteBond: this._deleteBond,
+			changeXp: this._changeXp,
 			roll: this._onRoll
 		},
 		// Custom property that's merged into `this.options`
@@ -235,6 +236,28 @@ export class GrimwildActorSheetVue extends VueRenderingMixin(GrimwildBaseVueActo
 			bonds.splice(dataset.bond, 1);
 
 			await this.document.update({"system.bonds": bonds});
+		}
+	}
+
+	/**
+	 * Handle changing XP via the checkbox pips.
+	 *
+	 * @param {PointerEvent} event The originating click event
+	 * @param {HTMLElement} target The capturing HTML element which defined a [data-action]
+	 * @private
+	 */
+	static async _changeXp(event, target) {
+		event.preventDefault();
+		const dataset = target.dataset;
+		if (dataset.xp) {
+			// Retrieve incoming XP.
+			const xp = Number(dataset.xp);
+			// Determine if we should use the new XP value, or
+			// decrement it so that it behaves like a toggle.
+			const newXp = xp !== this.document.system.xp.value
+				? xp
+				: this.document.system.xp.value - 1;
+			await this.document.update({ "system.xp.value": newXp });
 		}
 	}
 	

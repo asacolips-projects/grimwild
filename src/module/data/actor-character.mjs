@@ -15,10 +15,12 @@ export default class GrimwildCharacter extends GrimwildActorBase {
 
 		schema.path = new fields.StringField({ required: true, blank: true });
 
-		schema.xp = new fields.NumberField({
-			integer: true,
-			initial: 0,
-			min: 0
+		schema.xp = new fields.SchemaField({
+			value: new fields.NumberField({
+				integer: true,
+				initial: 0,
+				min: 0
+			}),
 		});
 
 		schema.attributes = new fields.SchemaField({
@@ -93,12 +95,12 @@ export default class GrimwildCharacter extends GrimwildActorBase {
 	}
 
 	get level() {
-		if (this.xp < 2) return 1;
+		if (this.xp.value < 2) return 1;
 
 		let step = 2;
 		let threshold = 2;
 
-		while (this.xp >= threshold) {
+		while (this.xp.value >= threshold) {
 			step++;
 			threshold += step; // Increment threshold by the next step value
 		}
@@ -194,6 +196,17 @@ export default class GrimwildCharacter extends GrimwildActorBase {
 		this.story.value = 0;
 		for (const step in this.story.steps) {
 			if (this.story.steps[step]) this.story.value++;
+		}
+
+		// Calculate XP pips for the sheet.
+		this.xp.steps = [];
+		let xpTally = 1;
+		for (let i = 0; i < 6; i++) {
+			this.xp.steps.push([]);
+			for (let j = 0; j < i + 2; j++) {
+				this.xp.steps[i].push(xpTally);
+				xpTally++;
+			}
 		}
 	}
 
