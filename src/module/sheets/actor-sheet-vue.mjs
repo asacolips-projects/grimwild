@@ -105,6 +105,9 @@ export class GrimwildActorSheetVue extends VueRenderingMixin(GrimwildBaseVueActo
 			context.classes = CONFIG.GRIMWILD.classes;
 		}
 
+		// Debug. @todo remove.
+		console.log('context', context);
+
 		return context;
 	}
 

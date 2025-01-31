@@ -166,6 +166,23 @@ export default class GrimwildCharacter extends GrimwildActorBase {
 			}
 		}
 
+		// Ensure backgrounds exist.
+		for (let i = 0; i < 2; i++) {
+			if (!this.backgrounds[i]) {
+				this.backgrounds[i] = {
+					name: '',
+					wises: ['', '', ''],
+				}
+			}
+			else {
+				for (let j = 0; j < 3; j++) {
+					if (!this.backgrounds[i].wises[j]) {
+						this.backgrounds[i].wises.push('');
+					}
+				}
+			}
+		}
+
 		// Calculate spark and story values.
 		this.spark.value = 0;
 		for (const step in this.spark.steps) {

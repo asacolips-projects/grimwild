@@ -94,6 +94,12 @@ GRIMWILD:
           label: Traits
         desires:
           label: Desires
+        backgrounds:
+          label: Backgrounds
+          placeholder: Background name
+          FIELDS:
+            wises:
+              label: Wises
         conditions:
           FIELDS:
             severity:
