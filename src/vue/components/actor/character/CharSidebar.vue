@@ -12,11 +12,11 @@
 			/>
 		</div>
 		<div class="sidebar-details flexcol">
-			<div class="form-group stacked">
+			<div class="name form-group stacked">
 				<label>{{ game.i18n.localize('Name') }}</label>
 				<input type="text" name="name" v-model="context.actor.name"/>
 			</div>
-			<div class="form-group stacked">
+			<div class="path form-group stacked">
 				<label>{{ game.i18n.localize('GRIMWILD.Actor.Character.FIELDS.path.label') }}</label>
 				<input type="text" name="system.path" v-model="context.system.path"/>
 			</div>
