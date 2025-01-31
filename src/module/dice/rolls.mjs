@@ -58,9 +58,11 @@ export default class GrimwildRoll extends Roll {
 		chatData.isCut = chatData.success !== chatData.rawSuccess;
 
 		// Separate assist dice from other dice
-		for (const [name, diceNum] of Object.entries(this.options.assists)) {
-			const assistResults = chatData.dice.splice(diceNum * -1);
-			chatData.assists[name] = assistResults;
+		if (this.options?.assists) {
+			for (const [name, diceNum] of Object.entries(this.options.assists)) {
+				const assistResults = chatData.dice.splice(diceNum * -1);
+				chatData.assists[name] = assistResults;
+			}
 		}
 
 		return renderTemplate(template, chatData);
