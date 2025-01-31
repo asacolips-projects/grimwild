@@ -4,6 +4,9 @@ export { default as CharHeader } from '@/components/actor/character/CharHeader.v
 export { default as CharDetails } from '@/components/actor/character/CharDetails.vue';
 export { default as CharTalents } from '@/components/actor/character/CharTalents.vue';
 export { default as CharEffects } from '@/components/actor/character/CharEffects.vue';
+// Items.
+export { default as ItemDescription } from '@/components/item/ItemDescription.vue';
+export { default as ItemHeader } from '@/components/item/ItemHeader.vue';
 // Parts.
 export { default as Tabs } from '@/components/parts/Tabs.vue';
 export { default as Tab } from '@/components/parts/Tab.vue';

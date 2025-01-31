@@ -142,6 +142,10 @@ GRIMWILD:
           label: Quantity
         weight:
           label: Weight
+    base:
+      FIELDS:
+        description:
+          label: Description
     Talent:
       FIELDS:
     Challenge:
