@@ -56,3 +56,9 @@
     padding-top: $padding-md;
   }
 }
+
+.wises > .form-group.stacked,
+.traits > .form-group.stacked,
+.desires > .form-group.stacked {
+  gap: 2px;
+}
