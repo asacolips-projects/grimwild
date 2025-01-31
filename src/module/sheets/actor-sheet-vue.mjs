@@ -69,6 +69,9 @@ export class GrimwildActorSheetVue extends VueRenderingMixin(GrimwildBaseVueActo
 			systemFields: this.document.system.schema.fields
 		};
 
+		// Handle embedded documents.
+		this._prepareItems(context);
+
 		// Handle tabs.
 		this._prepareTabs(context);
 
@@ -177,6 +180,20 @@ export class GrimwildActorSheetVue extends VueRenderingMixin(GrimwildBaseVueActo
 		}
 	}
 
+	/**
+	 * Organize and classify Items for Actor sheets.
+	 *
+	 * @param {object} context The context object to mutate.
+	 */
+	_prepareItems(context) {
+		context.items = this.document.items;
+		context.itemTypes = this.document.itemTypes;
+
+		for (const [type, items] of Object.entries(context.itemTypes)) {
+			context.itemTypes[type] = items.sort((a, b) => (a.sort || 0) - (b.sort || 0));
+		}
+	}
+
 	/* -------------------------------------------- */
 
 	/** ************
@@ -214,7 +231,7 @@ export class GrimwildActorSheetVue extends VueRenderingMixin(GrimwildBaseVueActo
 
 		// Handle rolls that supply the formula directly.
 		if (dataset.roll) {
-			let label = dataset.label ? `[ability] ${dataset.label}` : "";
+			let label = dataset.label ? `[stat] ${dataset.label}` : "";
 			let roll = new Roll(dataset.roll, this.actor.getRollData());
 			await roll.toMessage({
 				speaker: ChatMessage.getSpeaker({ actor: this.actor }),

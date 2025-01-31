@@ -23,7 +23,7 @@ documentTypes:
       htmlFields:
       - biography
   Item:
-    ability:
+    talent:
       htmlFields:
       - description
     equipment:

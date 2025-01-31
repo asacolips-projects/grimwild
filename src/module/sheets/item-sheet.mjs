@@ -45,9 +45,8 @@ export class GrimwildItemSheet extends api.HandlebarsApplicationMixin(
 		description: {
 			template: "systems/grimwild/templates/item/description.hbs"
 		},
-		attributesAbility: {
-			template:
-        "systems/grimwild/templates/item/attribute-parts/ability.hbs"
+		attributesTalent: {
+			template: "systems/grimwild/templates/item/attribute-parts/talent.hbs"
 		},
 		attributesEquipment: {
 			template: "systems/grimwild/templates/item/attribute-parts/equipment.hbs"
@@ -69,8 +68,8 @@ export class GrimwildItemSheet extends api.HandlebarsApplicationMixin(
 		if (this.document.limited) return;
 		// Control which parts show based on document subtype
 		switch (this.document.type) {
-			case "ability":
-				options.parts.push("attributesAbility", "effects");
+			case "talent":
+				options.parts.push("attributesTalent", "effects");
 				break;
 			case "equipment":
 				options.parts.push("attributesEquipment");
@@ -110,7 +109,7 @@ export class GrimwildItemSheet extends api.HandlebarsApplicationMixin(
 	/** @override */
 	async _preparePartContext(partId, context) {
 		switch (partId) {
-			case "attributesAbility":
+			case "attributesTalent":
 			case "attributesEquipment":
 			case "attributesChallenge":
 				// Necessary for preserving active tab on re-render
@@ -171,7 +170,7 @@ export class GrimwildItemSheet extends api.HandlebarsApplicationMixin(
 					tab.id = "description";
 					tab.label += "Description";
 					break;
-				case "attributesAbility":
+				case "attributesTalent":
 				case "attributesEquipment":
 				case "attributesChallenge":
 					tab.id = "attributes";
