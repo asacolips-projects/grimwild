@@ -20,8 +20,11 @@ GRIMWILD:
     bloodied: Bloodied
     rattled: Rattled
     conditions: Conditions
+    ignored: ignored from harm
+    vex: Vex
   Dice:
     dice: Dice
+    assist: Assist
     results:
       crit: Crit
       perfect: Perfect

@@ -10,9 +10,9 @@ export default class GrimwildRoll extends Roll {
 			user: game.user.id,
 			tooltip: isPrivate ? "" : await this.getTooltip(),
 			total: isPrivate ? "?" : this.total,
-			stat: this.options.stat,
 			dice: this.dice[0].results,
 			thorns: this.dice[1].results,
+			assists: {},
 			crit: false,
 			success: 0,
 			rawSuccess: 0,
@@ -56,6 +56,12 @@ export default class GrimwildRoll extends Roll {
 		chatData.result = successToResult(chatData.success);
 		chatData.rawResult = successToResult(chatData.rawSuccess);
 		chatData.isCut = chatData.success !== chatData.rawSuccess;
+
+		// Separate assist dice from other dice
+		for (const [name, diceNum] of Object.entries(this.options.assists)) {
+			const assistResults = chatData.dice.splice(diceNum * -1);
+			chatData.assists[name] = assistResults;
+		}
 
 		return renderTemplate(template, chatData);
 	}
