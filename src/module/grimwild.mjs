@@ -25,6 +25,7 @@ globalThis.grimwild = {
 	},
 	applications: {
 		GrimwildActorSheet,
+		GrimwildActorSheetVue,
 		GrimwildItemSheet,
 	},
 	utils: {
@@ -78,6 +79,11 @@ Hooks.once("init", function () {
 
 	// Register sheet application classes
 	Actors.unregisterSheet("core", ActorSheet);
+	Actors.registerSheet("grimwild", GrimwildActorSheet, {
+		makeDefault: true,
+		label: "GRIMWILD.SheetLabels.Actor",
+		types: ["npc"]
+	})
 	Actors.registerSheet("grimwild", GrimwildActorSheetVue, {
 		makeDefault: true,
 		label: "GRIMWILD.SheetLabels.Actor",
