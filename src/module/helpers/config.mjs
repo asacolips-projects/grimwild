@@ -25,6 +25,36 @@ GRIMWILD.classes = {
 	wizard: "GRIMWILD.Class.wizard.label"
 };
 
+GRIMWILD.traits = {
+	brave: "GRIMWILD.Traits.brave",
+	caring: "GRIMWILD.Traits.caring",
+	confident: "GRIMWILD.Traits.confident",
+	curious: "GRIMWILD.Traits.curious",
+	gentle: "GRIMWILD.Traits.gentle",
+	honest: "GRIMWILD.Traits.honest",
+	honorable: "GRIMWILD.Traits.honorable",
+	persistent: "GRIMWILD.Traits.persistent",
+	protective: "GRIMWILD.Traits.protective",
+	quiet: "GRIMWILD.Traits.quiet",
+	rash: "GRIMWILD.Traits.rash",
+	stubborn: "GRIMWILD.Traits.stubborn",
+}
+
+GRIMWILD.desires = {
+	belonging: "GRIMWILD.Desires.belonging",
+	glory: "GRIMWILD.Desires.glory",
+	harmony: "GRIMWILD.Desires.harmony",
+	honor: "GRIMWILD.Desires.honor",
+	justice: "GRIMWILD.Desires.justice",
+	knowledge: "GRIMWILD.Desires.knowledge",
+	love: "GRIMWILD.Desires.love",
+	power: "GRIMWILD.Desires.power",
+	renown: "GRIMWILD.Desires.renown",
+	thrills: "GRIMWILD.Desires.thrills",
+	wealth: "GRIMWILD.Desires.wealth",
+	wisdom: "GRIMWILD.Desires.wisdom",
+}
+
 export const isPhysicalStat = (stat) => {
 	return stat === "bra" || stat === "agi";
 };

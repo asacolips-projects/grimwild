@@ -22,6 +22,32 @@ GRIMWILD:
     conditions: Conditions
     ignored: ignored from harm
     vex: Vex
+  Traits:
+    brave: Brave
+    caring: Caring
+    confident: Confident
+    curious: Curious
+    gentle: Gentle
+    honest: Honest
+    honorable: Honorable
+    persistent: Persistent
+    protective: Protective
+    quiet: Quiet
+    rash: Rash
+    stubborn: Stubborn
+  Desires:
+    belonging: Belonging
+    glory: Glory
+    harmony: Harmony
+    honor: Honor
+    justice: Justice
+    knowledge: Knowledge
+    love: Love
+    power: Power
+    renown: Renown
+    thrills: Thrills
+    wealth: Wealth
+    wisdom: Wisdom
   Dice:
     dice: Dice
     assist: Assist
@@ -46,7 +72,6 @@ GRIMWILD:
       Effects: Effects
       # Obsolete
       Biography: Biography
-      Abilities: Abilities
       Equipment: Equipment
     base:
       FIELDS:
@@ -63,6 +88,22 @@ GRIMWILD:
           label: Level
         path:
           label: Path
+        spark:
+          label: Spark
+        story:
+          label: Story
+        traits:
+          label: Traits
+        desires:
+          label: Desires
+        backgrounds:
+          label: Backgrounds
+          placeholder: Background name
+          FIELDS:
+            wises:
+              label: Wises
+        bonds:
+          label: Bonds
         conditions:
           FIELDS:
             severity:
@@ -101,7 +142,8 @@ GRIMWILD:
           label: Quantity
         weight:
           label: Weight
-    Ability:
+    Talent:
+      FIELDS:
     Challenge:
       FIELDS:
         rollFormula:
@@ -121,6 +163,6 @@ TYPES:
     character: Character
     npc: NPC
   Item:
-    ability: Ability
+    talent: Talent
     equipment: Equipment
     challenge: Challenge

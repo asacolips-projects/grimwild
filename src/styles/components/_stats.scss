@@ -1,5 +1,41 @@
 .stats {
+  margin: 0;
+
+  .stat {
+    label {
+      padding-top: 0;
+    }
+  }
+
   .marked {
+    flex: 0 0 auto;
+  }
+}
+
+.harm {
+  > .form-group {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: center;
+
+    label {
+      flex: 0 0 auto;
+      text-align: right;
+    }
+
+    input[type="number"] {
+      flex: 0 0 44px;
+      text-align: center;
+    }
+  }
+}
+
+header.sheet-header {
+  align-items: flex-start;
+  gap: 12px;
+
+  .metacurrency-fields {
     flex: 0 0 auto;
   }
 }

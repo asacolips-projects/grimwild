@@ -17,15 +17,15 @@
                 title='Create item'
                 data-action='createDoc'
                 data-document-class='Item'
-                data-type='ability'
+                data-type='talent'
               >
                 <i class='fas fa-plus'></i>
-                {{localize 'DOCUMENT.New' type='ability'}}
+                {{localize 'DOCUMENT.New' type='talent'}}
               </a>
             {{/if}}
           </div>
         </li>
-        {{#each abilities as |item id|}}
+        {{#each talents as |item id|}}
           <li
             class='item flexrow'
             data-item-id='{{item._id}}'

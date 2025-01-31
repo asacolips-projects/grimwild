@@ -19,8 +19,8 @@ export class GrimwildActorSheetVue extends VueRenderingMixin(GrimwildBaseVueActo
 		viewPermission: DOCUMENT_OWNERSHIP_LEVELS.LIMITED,
 		editPermission: DOCUMENT_OWNERSHIP_LEVELS.OWNER,
 		position: {
-			width: 600,
-			height: 600
+			width: 800,
+			height: 720,
 		},
 		window: {
 			resizable: true,
@@ -35,6 +35,9 @@ export class GrimwildActorSheetVue extends VueRenderingMixin(GrimwildBaseVueActo
 			createEffect: this._createEffect,
 			deleteEffect: this._deleteEffect,
 			toggleEffect: this._toggleEffect,
+			createBond: this._createBond,
+			deleteBond: this._deleteBond,
+			changeXp: this._changeXp,
 			roll: this._onRoll
 		},
 		// Custom property that's merged into `this.options`
@@ -68,6 +71,9 @@ export class GrimwildActorSheetVue extends VueRenderingMixin(GrimwildBaseVueActo
 			fields: this.document.schema.fields,
 			systemFields: this.document.system.schema.fields
 		};
+
+		// Handle embedded documents.
+		this._prepareItems(context);
 
 		// Handle tabs.
 		this._prepareTabs(context);
@@ -104,6 +110,9 @@ export class GrimwildActorSheetVue extends VueRenderingMixin(GrimwildBaseVueActo
 		if (this.document.type === "character") {
 			context.classes = CONFIG.GRIMWILD.classes;
 		}
+
+		// Debug. @todo remove.
+		console.log('context', context);
 
 		return context;
 	}
@@ -149,7 +158,7 @@ export class GrimwildActorSheetVue extends VueRenderingMixin(GrimwildBaseVueActo
 		context.tabs.primary.details = {
 			key: 'details',
 			label: game.i18n.localize('GRIMWILD.Actor.Tabs.Details'),
-			active: false,
+			active: true,
 		};
 
 		// Tabs limited to NPCs.
@@ -157,7 +166,7 @@ export class GrimwildActorSheetVue extends VueRenderingMixin(GrimwildBaseVueActo
 			context.tabs.primary.talents = {
 				key: 'talents',
 				label: game.i18n.localize('GRIMWILD.Actor.Tabs.Talents'),
-				active: true,
+				active: false,
 			};
 		}
 
@@ -174,6 +183,20 @@ export class GrimwildActorSheetVue extends VueRenderingMixin(GrimwildBaseVueActo
 		}
 	}
 
+	/**
+	 * Organize and classify Items for Actor sheets.
+	 *
+	 * @param {object} context The context object to mutate.
+	 */
+	_prepareItems(context) {
+		context.items = this.document.items;
+		context.itemTypes = this.document.itemTypes;
+
+		for (const [type, items] of Object.entries(context.itemTypes)) {
+			context.itemTypes[type] = items.sort((a, b) => (a.sort || 0) - (b.sort || 0));
+		}
+	}
+
 	/* -------------------------------------------- */
 
 	/** ************
@@ -181,6 +204,62 @@ export class GrimwildActorSheetVue extends VueRenderingMixin(GrimwildBaseVueActo
 	 *   ACTIONS
 	 *
 	 **************/
+
+	/**
+	 * Handle creating a new bond entry.
+	 *
+	 * @this GrimwildActorSheet
+	 * @param {PointerEvent} event   The originating click event
+	 * @param {HTMLElement} target   The capturing HTML element which defined a [data-action]
+	 * @private
+	 */
+	static async _createBond(event, target) {
+		event.preventDefault();
+		const bonds = this.document.system.bonds;
+		bonds.push({name: '', description: ''});
+		await this.document.update({"system.bonds": bonds});
+	}
+
+	/**
+	 * Handle deleting an existing bond entry.
+	 *
+	 * @this GrimwildActorSheet
+	 * @param {PointerEvent} event   The originating click event
+	 * @param {HTMLElement} target   The capturing HTML element which defined a [data-action]
+	 * @private
+	 */
+	static async _deleteBond(event, target) {
+		event.preventDefault();
+		const dataset = target.dataset;
+		if (dataset?.bond) {
+			const bonds = this.document.system.bonds;
+			bonds.splice(dataset.bond, 1);
+
+			await this.document.update({"system.bonds": bonds});
+		}
+	}
+
+	/**
+	 * Handle changing XP via the checkbox pips.
+	 *
+	 * @param {PointerEvent} event The originating click event
+	 * @param {HTMLElement} target The capturing HTML element which defined a [data-action]
+	 * @private
+	 */
+	static async _changeXp(event, target) {
+		event.preventDefault();
+		const dataset = target.dataset;
+		if (dataset.xp) {
+			// Retrieve incoming XP.
+			const xp = Number(dataset.xp);
+			// Determine if we should use the new XP value, or
+			// decrement it so that it behaves like a toggle.
+			const newXp = xp !== this.document.system.xp.value
+				? xp
+				: this.document.system.xp.value - 1;
+			await this.document.update({ "system.xp.value": newXp });
+		}
+	}
 	
 	/**
 	 * Handle clickable rolls.
@@ -211,7 +290,7 @@ export class GrimwildActorSheetVue extends VueRenderingMixin(GrimwildBaseVueActo
 
 		// Handle rolls that supply the formula directly.
 		if (dataset.roll) {
-			let label = dataset.label ? `[ability] ${dataset.label}` : "";
+			let label = dataset.label ? `[stat] ${dataset.label}` : "";
 			let roll = new Roll(dataset.roll, this.actor.getRollData());
 			await roll.toMessage({
 				speaker: ChatMessage.getSpeaker({ actor: this.actor }),

@@ -3,7 +3,10 @@ import { DicePoolField } from "../helpers/schema.mjs";
 import { isMentalStat, isPhysicalStat } from "../helpers/config.mjs";
 
 export default class GrimwildCharacter extends GrimwildActorBase {
-	static LOCALIZATION_PREFIXES = ["GRIMWILD.Actor.Character"];
+	static LOCALIZATION_PREFIXES = [
+		"GRIMWILD.Actor.base",
+		"GRIMWILD.Actor.Character",
+	];
 
 	static defineSchema() {
 		const fields = foundry.data.fields;
@@ -12,10 +15,12 @@ export default class GrimwildCharacter extends GrimwildActorBase {
 
 		schema.path = new fields.StringField({ required: true, blank: true });
 
-		schema.xp = new fields.NumberField({
-			integer: true,
-			initial: 0,
-			min: 0
+		schema.xp = new fields.SchemaField({
+			value: new fields.NumberField({
+				integer: true,
+				initial: 0,
+				min: 0
+			}),
 		});
 
 		schema.attributes = new fields.SchemaField({
@@ -40,18 +45,12 @@ export default class GrimwildCharacter extends GrimwildActorBase {
 			})
 		}));
 
-		schema.story = new fields.NumberField({
-			...requiredInteger,
-			initial: 0,
-			min: 0,
-			max: 2
+		schema.spark = new fields.SchemaField({
+			steps: new fields.ArrayField(new fields.BooleanField),
 		});
 
-		schema.spark = new fields.NumberField({
-			...requiredInteger,
-			initial: 0,
-			min: 0,
-			max: 2
+		schema.story = new fields.SchemaField({
+			steps: new fields.ArrayField(new fields.BooleanField),
 		});
 
 		// Iterate over stat names and create a new SchemaField for each.
@@ -96,12 +95,12 @@ export default class GrimwildCharacter extends GrimwildActorBase {
 	}
 
 	get level() {
-		if (this.xp < 2) return 1;
+		if (this.xp.value < 2) return 1;
 
 		let step = 2;
 		let threshold = 2;
 
-		while (this.xp >= threshold) {
+		while (this.xp.value >= threshold) {
 			step++;
 			threshold += step; // Increment threshold by the next step value
 		}
@@ -150,6 +149,64 @@ export default class GrimwildCharacter extends GrimwildActorBase {
 				game.i18n.localize(CONFIG.GRIMWILD.stats[key]) ?? key;
 			this.stats[key].abbr =
 				game.i18n.localize(CONFIG.GRIMWILD.statAbbreviations[key]) ?? key;
+		}
+
+		// Ensure traits exist.
+		for (let i = 0; i < 3; i++) {
+			if (!this.traits[i]) {
+				this.traits[i] = {
+					are: i < 2,
+					value: '',
+				};
+			}
+		}
+
+		// Ensure desires exist.
+		for (let i = 0; i < 3; i++) {
+			if (!this.desires[i]) {
+				this.desires[i] = {
+					are: i < 2,
+					value: '',
+				};
+			}
+		}
+
+		// Ensure backgrounds exist.
+		for (let i = 0; i < 2; i++) {
+			if (!this.backgrounds[i]) {
+				this.backgrounds[i] = {
+					name: '',
+					wises: ['', '', ''],
+				}
+			}
+			else {
+				for (let j = 0; j < 3; j++) {
+					if (!this.backgrounds[i].wises[j]) {
+						this.backgrounds[i].wises.push('');
+					}
+				}
+			}
+		}
+
+		// Calculate spark and story values.
+		this.spark.value = 0;
+		for (const step in this.spark.steps) {
+			if (this.spark.steps[step]) this.spark.value++;
+		}
+		this.story.value = 0;
+		for (const step in this.story.steps) {
+			if (this.story.steps[step]) this.story.value++;
+		}
+
+		// Calculate XP pips for the sheet.
+		this.xp.steps = [];
+		let xpTally = 1;
+		for (let i = 0; i < 6; i++) {
+			this.xp.steps.push([]);
+			for (let j = 0; j < i + 2; j++) {
+				this.xp.steps[i].push(xpTally);
+				xpTally++;
+			}
 		}
 	}
 

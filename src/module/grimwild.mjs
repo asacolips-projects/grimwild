@@ -66,7 +66,7 @@ Hooks.once("init", function () {
 	};
 	CONFIG.Item.documentClass = GrimwildItem;
 	CONFIG.Item.dataModels = {
-		ability: models.GrimwildAbility,
+		talent: models.GrimwildTalent,
 		equipment: models.GrimwildEquipment,
 		challenge: models.GrimwildChallenge
 	};
@@ -78,13 +78,9 @@ Hooks.once("init", function () {
 
 	// Register sheet application classes
 	Actors.unregisterSheet("core", ActorSheet);
-	Actors.registerSheet("grimwild", GrimwildActorSheet, {
-		makeDefault: true,
-		label: "GRIMWILD.SheetLabels.Actor"
-	});
 	Actors.registerSheet("grimwild", GrimwildActorSheetVue, {
-		makeDefault: false,
-		label: "Vue sheet",
+		makeDefault: true,
+		label: "GRIMWILD.SheetLabels.Actor",
 		types: ["character"]
 	})
 	Items.unregisterSheet("core", ItemSheet);

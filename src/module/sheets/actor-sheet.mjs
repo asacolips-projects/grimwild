@@ -231,8 +231,8 @@ export class GrimwildActorSheet extends api.HandlebarsApplicationMixin(
 				equipment.push(i);
 			}
 			// Append to abilities.
-			else if (i.type === "ability") {
-				abilities.push(i);
+			else if (i.type === "talent") {
+				talents.push(i);
 			}
 			else if (i.type === "challenge") {
 				challenges.push(i);
@@ -242,7 +242,7 @@ export class GrimwildActorSheet extends api.HandlebarsApplicationMixin(
 		// Sort then assign
 		if (this.document.type === "character") {
 			context.equipment = equipment.sort((a, b) => (a.sort || 0) - (b.sort || 0));
-			context.abilities = abilities.sort((a, b) => (a.sort || 0) - (b.sort || 0));
+			context.talents = talents.sort((a, b) => (a.sort || 0) - (b.sort || 0));
 		}
 
 		if (this.document.type === "npc") {
@@ -398,7 +398,7 @@ export class GrimwildActorSheet extends api.HandlebarsApplicationMixin(
 
 		// Handle rolls that supply the formula directly.
 		if (dataset.roll) {
-			let label = dataset.label ? `[ability] ${dataset.label}` : "";
+			let label = dataset.label ? `[stat] ${dataset.label}` : "";
 			let roll = new Roll(dataset.roll, this.actor.getRollData());
 			await roll.toMessage({
 				speaker: ChatMessage.getSpeaker({ actor: this.actor }),

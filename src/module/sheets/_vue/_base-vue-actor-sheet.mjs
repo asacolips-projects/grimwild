@@ -13,7 +13,7 @@ export class GrimwildBaseVueActorSheet extends foundry.applications.sheets.Actor
 		viewPermission: DOCUMENT_OWNERSHIP_LEVELS.LIMITED,
 		editPermission: DOCUMENT_OWNERSHIP_LEVELS.OWNER,
 		position: {
-			width: 600,
+			width: 800,
 			height: 600
 		},
 		actions: {
@@ -97,6 +97,26 @@ export class GrimwildBaseVueActorSheet extends foundry.applications.sheets.Actor
 			left: this.position.left + 10
 		});
 		return fp.browse();
+	}
+
+	/**
+	 * Fetches the embedded document representing the containing HTML element
+	 *
+	 * @param {HTMLElement} target    The element subject to search
+	 * @returns {Item | ActiveEffect} The embedded Item or ActiveEffect
+	 */
+	_getEmbeddedDocument(target) {
+		const docRow = target.closest("li[data-document-class]");
+		if (docRow.dataset.documentClass === "Item") {
+			return this.actor.items.get(docRow.dataset.itemId);
+		}
+		else if (docRow.dataset.documentClass === "ActiveEffect") {
+			const parent =
+				docRow.dataset.parentId === this.actor.id
+					? this.actor
+					: this.actor.items.get(docRow?.dataset.parentId);
+			return parent.effects.get(docRow?.dataset.effectId);
+		} return console.warn("Could not find document class");
 	}
 
 	/**
@@ -247,11 +267,11 @@ export class GrimwildBaseVueActorSheet extends foundry.applications.sheets.Actor
 		return this.item.effects.get(li?.dataset?.effectId);
 	}
 
-	/**
+	/** *************
 	 *
-	 * DragDrop
+	 * Drag and Drop
 	 *
-	 */
+	 ***************/
 
 	/**
 	 * Define whether a user is able to begin a dragstart workflow for a given drag selector
@@ -281,16 +301,11 @@ export class GrimwildBaseVueActorSheet extends foundry.applications.sheets.Actor
 	 * @protected
 	 */
 	_onDragStart(event) {
-		const li = event.currentTarget;
+		const docRow = event.currentTarget.closest("li");
 		if ("link" in event.target.dataset) return;
 
-		let dragData = null;
-
-		// Active Effect
-		if (li.dataset.effectId) {
-			const effect = this.item.effects.get(li.dataset.effectId);
-			dragData = effect.toDragData();
-		}
+		// Chained operation
+		let dragData = this._getEmbeddedDocument(docRow)?.toDragData();
 
 		if (!dragData) return;
 
@@ -308,14 +323,13 @@ export class GrimwildBaseVueActorSheet extends foundry.applications.sheets.Actor
 	/**
 	 * Callback actions which occur when a dragged element is dropped on a target.
 	 * @param {DragEvent} event       The originating DragEvent
-	 * @returns {Promise|void} A promise of the thing that was dropped, or void if disallowed.
+	 * @returns {Promise|void} The promise for the dropped document, or void.
 	 * @protected
 	 */
 	async _onDrop(event) {
-		if (!this.isEditable) return;
 		const data = TextEditor.getDragEventData(event);
-		const item = this.item;
-		const allowed = Hooks.call("dropItemSheetData", item, this, data);
+		const actor = this.actor;
+		const allowed = Hooks.call("dropActorSheetData", actor, this, data);
 		if (allowed === false) return;
 
 		// Handle different data types
@@ -334,44 +348,31 @@ export class GrimwildBaseVueActorSheet extends foundry.applications.sheets.Actor
 	/* -------------------------------------------- */
 
 	/**
-	 * Handle the dropping of ActiveEffect data onto an Actor Sheet
-	 * @param {DragEvent} event                  The concluding DragEvent which contains drop data
-	 * @param {object} data                      The data transfer extracted from the event
-	 * @returns {Promise<ActiveEffect|boolean>}  The created ActiveEffect object or false if it couldn't be created.
-	 * @protected
-	 */
-	async _onDropActiveEffect(event, data) {
-		if (!this.isEditable) return false;
-		const aeCls = getDocumentClass("ActiveEffect");
-		const effect = await aeCls.fromDropData(data);
-		if (!this.item.isOwner || !effect) return false;
-
-		if (this.item.uuid === effect.parent?.uuid) return this._onEffectSort(event, effect);
-		return aeCls.create(effect, { parent: this.item });
-	}
-
-	/**
-	 * Sorts an Active Effect based on its surrounding attributes
+	 * Handle a drop event for an existing embedded Active Effect to sort that Active Effect relative to its siblings
 	 *
 	 * @param {DragEvent} event
 	 * @param {ActiveEffect} effect
-	 * @returns {Promise|void} Promise for the update applied, or void.
+	 * @returns {Promise|Array|void} Promise for the update, an array of effects, or void.
 	 */
-	_onEffectSort(event, effect) {
-		if (!this.isEditable) return;
-		const effects = this.item.effects;
+	async _onSortActiveEffect(event, effect) {
+		/** @type {HTMLElement} */
 		const dropTarget = event.target.closest("[data-effect-id]");
 		if (!dropTarget) return;
-		const target = effects.get(dropTarget.dataset.effectId);
+		const target = this._getEmbeddedDocument(dropTarget);
 
 		// Don't sort on yourself
-		if (effect.id === target.id) return;
+		if (effect.uuid === target.uuid) return;
 
 		// Identify sibling items based on adjacent HTML elements
 		const siblings = [];
-		for (let el of dropTarget.parentElement.children) {
+		for (const el of dropTarget.parentElement.children) {
 			const siblingId = el.dataset.effectId;
-			if (siblingId && siblingId !== effect.id) siblings.push(effects.get(el.dataset.effectId));
+			const parentId = el.dataset.parentId;
+			if (
+				siblingId
+        && parentId
+        && (siblingId !== effect.id || parentId !== effect.parent.id)
+			) siblings.push(this._getEmbeddedDocument(el));
 		}
 
 		// Perform the sort
@@ -379,17 +380,32 @@ export class GrimwildBaseVueActorSheet extends foundry.applications.sheets.Actor
 			target,
 			siblings
 		});
-		const updateData = sortUpdates.map((u) => {
-			const update = u.update;
-			update._id = u.target._id;
-			return update;
-		});
 
-		// Perform the update
-		return this.item.updateEmbeddedDocuments("ActiveEffect", updateData);
+		// Split the updates up by parent document
+		const directUpdates = [];
+
+		const grandchildUpdateData = sortUpdates.reduce((items, u) => {
+			const parentId = u.target.parent.id;
+			const update = { _id: u.target.id, ...u.update };
+			if (parentId === this.actor.id) {
+				directUpdates.push(update);
+				return items;
+			}
+			if (items[parentId]) items[parentId].push(update);
+			else items[parentId] = [update];
+			return items;
+		}, {});
+
+		// Effects-on-items updates
+		for (const [itemId, updates] of Object.entries(grandchildUpdateData)) {
+			await this.actor.items
+				.get(itemId)
+				.updateEmbeddedDocuments("ActiveEffect", updates);
+		}
+
+		// Update on the main actor
+		return this.actor.updateEmbeddedDocuments("ActiveEffect", directUpdates);
 	}
-
-	/* -------------------------------------------- */
 
 	/**
 	 * Handle dropping of an Actor data onto another Actor sheet
@@ -400,8 +416,7 @@ export class GrimwildBaseVueActorSheet extends foundry.applications.sheets.Actor
 	 * @protected
 	 */
 	async _onDropActor(event, data) {
-		if (!this.isEditable) return false;
-		if (!this.item.isOwner) return false;
+		if (!this.actor.isOwner) return false;
 	}
 
 	/* -------------------------------------------- */
@@ -414,11 +429,15 @@ export class GrimwildBaseVueActorSheet extends foundry.applications.sheets.Actor
 	 * @protected
 	 */
 	async _onDropItem(event, data) {
-		if (!this.isEditable) return false;
-		if (!this.item.isOwner) return false;
-	}
+		if (!this.actor.isOwner) return false;
+		const item = await Item.implementation.fromDropData(data);
 
-	/* -------------------------------------------- */
+		// Handle item sorting within the same Actor
+		if (this.actor.uuid === item.parent?.uuid) return this._onSortItem(event, item);
+
+		// Create the owned item
+		return this._onDropItemCreate(item, event);
+	}
 
 	/**
 	 * Handle dropping of a Folder on an Actor Sheet.
@@ -429,11 +448,71 @@ export class GrimwildBaseVueActorSheet extends foundry.applications.sheets.Actor
 	 * @protected
 	 */
 	async _onDropFolder(event, data) {
-		if (!this.isEditable) return [];
-		if (!this.item.isOwner) return [];
+		if (!this.actor.isOwner) return [];
+		const folder = await Folder.implementation.fromDropData(data);
+		if (folder.type !== "Item") return [];
+		const droppedItemData = await Promise.all(
+			folder.contents.map(async (item) => {
+				if (!(document instanceof Item)) item = await fromUuid(item.uuid);
+				return item;
+			})
+		);
+		return this._onDropItemCreate(droppedItemData, event);
 	}
 
-	/** The following pieces set up drag handling and are unlikely to need modification  */
+	/**
+	 * Handle the final creation of dropped Item data on the Actor.
+	 * This method is factored out to allow downstream classes the opportunity to override item creation behavior.
+	 * @param {object[]|object} itemData      The item data requested for creation
+	 * @param {DragEvent} event               The concluding DragEvent which provided the drop data
+	 * @returns {Promise<Item[]>}
+	 * @private
+	 */
+	async _onDropItemCreate(itemData, event) {
+		itemData = itemData instanceof Array ? itemData : [itemData];
+		return this.actor.createEmbeddedDocuments("Item", itemData);
+	}
+
+	/**
+	 * Handle a drop event for an existing embedded Item to sort that Item relative to its siblings
+	 * @param {Event} event
+	 * @param {Item} item
+	 * @returns {Promise|void} The document update, or void.
+	 * @private
+	 */
+	_onSortItem(event, item) {
+		// Get the drag source and drop target
+		const items = this.actor.items;
+		const dropTarget = event.target.closest("[data-item-id]");
+		if (!dropTarget) return;
+		const target = items.get(dropTarget.dataset.itemId);
+
+		// Don't sort on yourself
+		if (item.id === target.id) return;
+
+		// Identify sibling items based on adjacent HTML elements
+		const siblings = [];
+		for (let el of dropTarget.parentElement.children) {
+			const siblingId = el.dataset.itemId;
+			if (siblingId && siblingId !== item.id) siblings.push(items.get(el.dataset.itemId));
+		}
+
+		// Perform the sort
+		const sortUpdates = SortingHelpers.performIntegerSort(item, {
+			target,
+			siblings
+		});
+		const updateData = sortUpdates.map((u) => {
+			const update = u.update;
+			update._id = u.target._id;
+			return update;
+		});
+
+		// Perform the update
+		return this.actor.updateEmbeddedDocuments("Item", updateData);
+	}
+
+	/* -------------------------------------------- */
 
 	/**
 	 * Returns an array of DragDrop instances
