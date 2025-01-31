@@ -35,6 +35,8 @@ export class GrimwildActorSheetVue extends VueRenderingMixin(GrimwildBaseVueActo
 			createEffect: this._createEffect,
 			deleteEffect: this._deleteEffect,
 			toggleEffect: this._toggleEffect,
+			createBond: this._createBond,
+			deleteBond: this._deleteBond,
 			roll: this._onRoll
 		},
 		// Custom property that's merged into `this.options`
@@ -155,7 +157,7 @@ export class GrimwildActorSheetVue extends VueRenderingMixin(GrimwildBaseVueActo
 		context.tabs.primary.details = {
 			key: 'details',
 			label: game.i18n.localize('GRIMWILD.Actor.Tabs.Details'),
-			active: false,
+			active: true,
 		};
 
 		// Tabs limited to NPCs.
@@ -163,7 +165,7 @@ export class GrimwildActorSheetVue extends VueRenderingMixin(GrimwildBaseVueActo
 			context.tabs.primary.talents = {
 				key: 'talents',
 				label: game.i18n.localize('GRIMWILD.Actor.Tabs.Talents'),
-				active: true,
+				active: false,
 			};
 		}
 
@@ -201,6 +203,40 @@ export class GrimwildActorSheetVue extends VueRenderingMixin(GrimwildBaseVueActo
 	 *   ACTIONS
 	 *
 	 **************/
+
+	/**
+	 * Handle creating a new bond entry.
+	 *
+	 * @this GrimwildActorSheet
+	 * @param {PointerEvent} event   The originating click event
+	 * @param {HTMLElement} target   The capturing HTML element which defined a [data-action]
+	 * @private
+	 */
+	static async _createBond(event, target) {
+		event.preventDefault();
+		const bonds = this.document.system.bonds;
+		bonds.push({name: '', description: ''});
+		await this.document.update({"system.bonds": bonds});
+	}
+
+	/**
+	 * Handle deleting an existing bond entry.
+	 *
+	 * @this GrimwildActorSheet
+	 * @param {PointerEvent} event   The originating click event
+	 * @param {HTMLElement} target   The capturing HTML element which defined a [data-action]
+	 * @private
+	 */
+	static async _deleteBond(event, target) {
+		event.preventDefault();
+		const dataset = target.dataset;
+		if (dataset?.bond) {
+			const bonds = this.document.system.bonds;
+			bonds.splice(dataset.bond, 1);
+
+			await this.document.update({"system.bonds": bonds});
+		}
+	}
 	
 	/**
 	 * Handle clickable rolls.

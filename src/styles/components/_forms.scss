@@ -2,6 +2,13 @@
   font-family: $font-sans;
 }
 
+.standard-form {
+  input::placeholder {
+    font-style: italic;
+    opacity: 0.5;
+  }
+}
+
 .sheet-header {
   // flex: 0 auto;
   // overflow: hidden;
@@ -59,6 +66,62 @@
 
 .wises > .form-group.stacked,
 .traits > .form-group.stacked,
-.desires > .form-group.stacked {
+.desires > .form-group.stacked,
+.bonds > .form-group.stacked {
   gap: 2px;
+}
+
+.bonds-fieldset {
+  position: relative;
+
+  .bond-create {
+    position: absolute;
+    top: -20px;
+    right: 16px;
+    background: black;
+    width: 20px;
+    height: 20px;
+    text-align: center;
+    line-height: 20px;
+    border: 1px solid;
+    border-radius: 4px;
+
+    &:hover,
+    &:focus {
+      color: #1076b9;
+      text-shadow: none;
+    }
+  }
+}
+
+.bond {
+  position: relative;
+
+  &:hover {
+    .bond-delete {
+      display: block;
+    }
+  }
+
+  .bond-delete {
+    display: none;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    right: -8px;
+    margin: auto;
+    background: black;
+    width: 20px;
+    height: 20px;
+    text-align: center;
+    line-height: 20px;
+    border: 1px solid;
+    border-radius: 4px;
+
+    &:hover,
+    &:focus {
+      color: #5d142b;
+      text-shadow: none;
+    }
+  }
 }

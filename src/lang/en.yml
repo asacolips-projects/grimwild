@@ -99,6 +99,8 @@ GRIMWILD:
           FIELDS:
             wises:
               label: Wises
+        bonds:
+          label: Bonds
         conditions:
           FIELDS:
             severity:
