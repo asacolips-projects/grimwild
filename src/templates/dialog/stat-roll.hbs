@@ -3,6 +3,10 @@
     <label for="stat">{{localize (concat "GRIMWILD.Stat." stat ".long")}}</label>
     <input type="number" id="stat" name="stat" value="{{diceDefault}}" min="0">
 </div>
+<div id="assistContainer">
+            <!-- Rows will be added here dynamically -->
+</div>
+<button type="button" id="addAssist"><i class="fas fa-plus"></i>{{localize "GRIMWILD.Dice.assist"}}</button>
 <div class="grimwild-form-group">
     <label class="total">{{localize "GRIMWILD.Dice.total"}}</label>
     <span id="totalDice" class="total">0</span>

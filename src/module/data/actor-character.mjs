@@ -204,6 +204,31 @@ export default class GrimwildCharacter extends GrimwildActorBase {
 					const totalThornsValue = html.querySelector("#totalThornsInput");
 					const totalDiceDisplay = html.querySelector("#totalDice");
 					const totalDiceValue = html.querySelector("#totalDiceInput");
+					
+					const addRow = html.querySelector("#addAssist");
+					const container = html.querySelector("#assistContainer");
+
+					const addAssist = () => {
+						const row = document.createElement('div');
+						row.classList.add('grimwild-form-group');
+						
+						const textInput = document.createElement('input');
+						textInput.classList.add('assist-name');
+						textInput.type = 'text';
+						textInput.name = 'textInput[]';
+						textInput.placeholder = 'Name';
+
+						const numberInput = document.createElement('input');
+						numberInput.classList.add('assist-value');
+						numberInput.type = 'number';
+						numberInput.name = 'numberInput[]';
+						numberInput.value = 0;
+
+						row.appendChild(textInput);
+						row.appendChild(numberInput);
+						container.appendChild(row);
+						numberInput.addEventListener("input", updateDiceTotal);
+					};
 
 					const updateThornsTotal = () => {
 						let total = Array.from(checkboxes).reduce((sum, checkbox) => sum + (checkbox.checked ? 1 : 0), 0);
@@ -214,7 +239,8 @@ export default class GrimwildCharacter extends GrimwildActorBase {
 					};
 
 					const updateDiceTotal = () => {
-						let total = 0;
+						const assists = html.querySelectorAll('.assist-value');
+						let total = Array.from(assists).reduce((sum, assist) => sum + parseInt(assist.value || 0, 10), 0);
 						total += parseInt(statInput.value || 0, 10);
 						totalDiceDisplay.textContent = total;
 						totalDiceValue.value = total;
@@ -225,12 +251,14 @@ export default class GrimwildCharacter extends GrimwildActorBase {
 					difficultyInput.addEventListener("input", updateThornsTotal);
 					conditionsInput.addEventListener("input", updateThornsTotal);
 					statInput.addEventListener("input", updateDiceTotal);
+					addRow.addEventListener("click", addAssist);
 
 					// Initialize the total
 					updateThornsTotal();
 					updateDiceTotal();
 				}
 			});
+
 			rollData.thorns = rollDialog.thorns;
 			rollData.statDice = rollDialog.dice;
 			const formula = "{(@statDice)d6kh, (@thorns)d8}";

@@ -24,6 +24,7 @@ GRIMWILD:
     vex: Vex
   Dice:
     dice: Dice
+    assist: Assist
     results:
       crit: Crit
       perfect: Perfect

@@ -25,6 +25,18 @@
     }
 }
 
+#assistContainer {
+    .grimwild-form-group {
+        padding-bottom: 10px;
+    }
+    .assist-name {
+        margin-right: 5rem;
+        flex: 2;
+    }
+}
+
+
+
 .grimwild-checkbox-group {
     display: flex;
     flex-direction: column; // Stack checkboxes vertically
