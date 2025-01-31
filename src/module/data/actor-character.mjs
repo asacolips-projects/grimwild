@@ -3,7 +3,10 @@ import { DicePoolField } from "../helpers/schema.mjs";
 import { isMentalStat, isPhysicalStat } from "../helpers/config.mjs";
 
 export default class GrimwildCharacter extends GrimwildActorBase {
-	static LOCALIZATION_PREFIXES = ["GRIMWILD.Actor.Character"];
+	static LOCALIZATION_PREFIXES = [
+		"GRIMWILD.Actor.base",
+		"GRIMWILD.Actor.Character",
+	];
 
 	static defineSchema() {
 		const fields = foundry.data.fields;
