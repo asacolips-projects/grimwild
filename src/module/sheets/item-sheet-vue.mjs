@@ -35,12 +35,6 @@ export class GrimwildItemSheetVue extends VueRenderingMixin(GrimwildBaseVueItemS
 					label: "ITEM.ViewArt",
 					ownership: "OWNER"
 				},
-				{
-					action: "parseInlineRolls",
-					icon: "fa-solid fa-dice",
-					label: "ARCHMAGE.UI.parseInlineRolls",
-					ownership: "OWNER"
-				}
 			]
 		},
 		tag: "form",
