@@ -1,0 +1,20 @@
+.grimwild {
+  .window-content,
+  .grimwild-vue,
+  .grimwild-sheet-layout,
+  .grimwild-sidebar,
+  .grimwild-main,
+  .section--main {
+    overflow: hidden;
+    flex: 1;
+  }
+
+  .section--tabs {
+    flex: 0;
+  }
+
+  .section--fields {
+    flex: 1;
+    overflow-y: auto;
+  }
+}
