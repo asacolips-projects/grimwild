@@ -12,6 +12,14 @@
             <li class="roll die d6 {{grimwildDie die.result}}">{{die.result}}</li>
           {{/each}}
         </ul>
+        {{#each assists}}
+          <ul class="dice-rolls">
+            <span> &#8594; {{@key}}</span>
+            {{#each this as |die key|}}
+              <li class="roll die d6 {{grimwildDie die.result}}">{{die.result}}</li>
+            {{/each}}
+          </ul>
+          {{/each}}
         <ul class="dice-rolls">
           {{#each thorns as |die key|}}
             <li class="roll die d8 {{grimwildThorn die.result}}">{{die.result}}</li>

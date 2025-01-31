@@ -191,7 +191,17 @@ export default class GrimwildCharacter extends GrimwildActorBase {
 						label: game.i18n.localize("GRIMWILD.Dialog.Roll"),
 						action: "roll",
 						callback: (event, button, dialog) => {
-							return { dice: button.form.elements.totalDiceInput.value, thorns: button.form.elements.totalThornsInput.value };
+							const assists = dialog.querySelectorAll('.assist-value');
+							const assisters = {};
+							Array.from(assists).forEach(assist => {
+								const nameInput = assist.closest('.grimwild-form-group').querySelector('.assist-name');
+								assisters[nameInput.value] = parseInt(assist.value || 0, 10);
+							});
+							return { 
+								dice: button.form.elements.totalDiceInput.value, 
+								thorns: button.form.elements.totalThornsInput.value,
+								assisters
+							 };
 						}
 					}
 				],
@@ -261,8 +271,9 @@ export default class GrimwildCharacter extends GrimwildActorBase {
 
 			rollData.thorns = rollDialog.thorns;
 			rollData.statDice = rollDialog.dice;
+			options.assists = rollDialog.assisters;
 			const formula = "{(@statDice)d6kh, (@thorns)d8}";
-			const roll = new grimwild.roll(formula, rollData);
+			const roll = new grimwild.roll(formula, rollData, options);
 
 			await roll.toMessage({
 				actor: this,
