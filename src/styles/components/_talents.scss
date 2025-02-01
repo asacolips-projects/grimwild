@@ -8,8 +8,18 @@
     }
   }
 
+  .item-summary {
+    width: 100%;
+  }
+
   .item-resources {
     flex: 0 0 auto;
+  }
+
+  .item-notes {
+    background: #ffffff11;
+    padding: 8px;
+    border-radius: 4px;
   }
 
   .resource {
