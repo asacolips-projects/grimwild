@@ -44,6 +44,8 @@ export class GrimwildItemSheetVue extends VueRenderingMixin(GrimwildBaseVueItemS
 			createEffect: this._createEffect,
 			deleteEffect: this._deleteEffect,
 			toggleEffect: this._toggleEffect,
+			createResource: this._createResource,
+			deleteResource: this._deleteResource,
 		},
 		// Custom property that's merged into `this.options`
 		dragDrop: [{ dragSelector: "[data-drag]", dropSelector: null }],
@@ -155,14 +157,14 @@ export class GrimwildItemSheetVue extends VueRenderingMixin(GrimwildBaseVueItemS
 		context.tabs.primary.description = {
 			key: 'description',
 			label: game.i18n.localize('GRIMWILD.Item.Tabs.Description'),
-			active: true,
+			active: false,
 		};
 
 		// Tabs limited to NPCs.
 		context.tabs.primary.attributes = {
 			key: 'attributes',
 			label: game.i18n.localize('GRIMWILD.Item.Tabs.Attributes'),
-			active: false,
+			active: true,
 		};
 
 		// More tabs available to all items.
@@ -175,6 +177,57 @@ export class GrimwildItemSheetVue extends VueRenderingMixin(GrimwildBaseVueItemS
 		// Ensure we have a default tab.
 		if (this.item.type !== 'talent') {
 			context.tabs.primary.details.active = true;
+		}
+	}
+
+	/* -------------------------------------------- */
+
+	/** ************
+	 *
+	 *   ACTIONS
+	 *
+	 **************/
+
+	/**
+	 * Handle creating a new resource entry.
+	 *
+	 * @this GrimwildActorSheet
+	 * @param {PointerEvent} event   The originating click event
+	 * @param {HTMLElement} target   The capturing HTML element which defined a [data-action]
+	 * @private
+	 */
+	static async _createResource(event, target) {
+		event.preventDefault();
+		const { resourceType } = target.dataset;
+		const resources = this.document.system.resources?.[resourceType];
+		if (!resources) return;
+
+		resources.push({});
+		await this.document.update({
+			[`system.resources.${resourceType}`]: resources,
+		});
+	}
+
+	/**
+	 * Handle deleting an existing resource entry.
+	 *
+	 * @this GrimwildActorSheet
+	 * @param {PointerEvent} event   The originating click event
+	 * @param {HTMLElement} target   The capturing HTML element which defined a [data-action]
+	 * @private
+	 */
+	static async _deleteResource(event, target) {
+		event.preventDefault();
+		const { resourceType, key } = target.dataset;
+		if (resourceType && key) {
+			const resources = this.document.system.resources?.[resourceType];
+			if (!resources) return;
+
+			resources.splice(Number(key), 1);
+
+			await this.document.update({
+				[`system.resources.${resourceType}`]: resources,
+			});
 		}
 	}
 }

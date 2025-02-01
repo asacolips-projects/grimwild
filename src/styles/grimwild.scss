@@ -16,12 +16,13 @@
 /* Styles limited to grimwild sheets */
 .grimwild {
   @import 'components/forms';
-  @import 'components/resource';
+  // @import 'components/resource';
   @import 'components/items';
   @import 'components/effects';
   @import 'components/stats';
   @import 'components/backgrounds';
   @import 'components/monster';
+  @import 'components/resources';
 }
 
 .chat-message {

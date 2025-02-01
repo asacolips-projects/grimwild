@@ -20,8 +20,7 @@
 				
 						<!-- Attack fields -->
 						<Tab group="primary" :tab="tabs.primary.attributes">
-							Attributes
-							<!-- <CharTalents :actor="context.actor" :context="context"/> -->
+							<ItemAttributes :context="context" />
 						</Tab>
 		
 						<!-- Active Effect Fields -->
@@ -43,6 +42,7 @@ import {
 	Tab,
 	ItemHeader,
 	ItemDescription,
+	ItemAttributes
 } from '@/components';
 import { reactive, toRaw } from 'vue';
 

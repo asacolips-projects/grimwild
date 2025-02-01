@@ -7,6 +7,8 @@ export { default as CharEffects } from '@/components/actor/character/CharEffects
 // Items.
 export { default as ItemDescription } from '@/components/item/ItemDescription.vue';
 export { default as ItemHeader } from '@/components/item/ItemHeader.vue';
+export { default as ItemAttributes } from '@/components/item/ItemAttributes.vue';
+export { default as TalentResources } from '@/components/item/talent/TalentResources.vue';
 // Parts.
 export { default as Tabs } from '@/components/parts/Tabs.vue';
 export { default as Tab } from '@/components/parts/Tab.vue';

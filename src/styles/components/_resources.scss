@@ -1,0 +1,20 @@
+.resources {
+  .resource-type-label,
+  .resource-control,
+  .resource-value {
+    flex: 0;
+  }
+
+  .resource-steps {
+    flex: 0 0 120px;
+  }
+
+  .resource-type {
+    padding: 10px 0;
+    align-items: flex-start;
+
+    + .resource-type {
+      border-top: 1px solid var(--color-border-light-tertiary);
+    }
+  }
+}
