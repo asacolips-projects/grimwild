@@ -35,6 +35,33 @@
 					</div>
 					<div>{{ item.name }}</div>
 				</div>
+				<div class="item-resources">
+					<template v-for="(resources, resourceType) in item.system.resources" :key="resourceType">
+						<template v-if="resources.length > 0">
+							<div class="item-resource flexrow">
+								<div v-for="(resource, resourceKey) in resources" :key="resource" class="resource flexrow">
+									<strong v-if="resource.label">{{ resource.label }}</strong>
+									<div class="resource-value">
+										<template v-if="resourceType === 'pools'">
+											[{{ resource.value.diceNum }}d]
+										</template>
+										<template v-if="resourceType === 'points'">
+											<div v-if="resource.showSteps" class="resource-steps flexrow">
+												<template v-for="(num, i) in resource.max" :key="i">
+													<input type="checkbox" :checked="resource.value >= num" readonly />
+												</template>
+											</div>
+											<div v-else class="resource-value">{{ resource.value }} / {{ resource.max }}</div>
+										</template>
+										<template v-if="resourceType === 'toggles'">
+											<input type="checkbox" :checked="resource.value" readonly />
+										</template>
+									</div>
+								</div>
+							</div>
+						</template>
+					</template>
+				</div>
 				<div class="item-controls">
 					<a class="item-control item-edit"
 						:title="game.i18n.format('DOCUMENT.Edit', {type: 'talent'})"

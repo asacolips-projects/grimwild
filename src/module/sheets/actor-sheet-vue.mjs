@@ -158,7 +158,7 @@ export class GrimwildActorSheetVue extends VueRenderingMixin(GrimwildBaseVueActo
 		context.tabs.primary.details = {
 			key: 'details',
 			label: game.i18n.localize('GRIMWILD.Actor.Tabs.Details'),
-			active: true,
+			active: false,
 		};
 
 		// Tabs limited to NPCs.
@@ -166,7 +166,7 @@ export class GrimwildActorSheetVue extends VueRenderingMixin(GrimwildBaseVueActo
 			context.tabs.primary.talents = {
 				key: 'talents',
 				label: game.i18n.localize('GRIMWILD.Actor.Tabs.Talents'),
-				active: false,
+				active: true,
 			};
 		}
 
