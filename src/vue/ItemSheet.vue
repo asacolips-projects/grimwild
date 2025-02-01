@@ -15,7 +15,19 @@
 					<section class="section--fields">
 						<!-- Details fields -->
 						<Tab group="primary" :tab="tabs.primary.description">
+							<!-- Description -->
 							<ItemDescription :item="context.item" :context="context"/>
+							<!-- Notes -->
+							<fieldset v-if="context.item.type === 'talent'">
+								<legend>Notes</legend>
+								<div class="notes form-group stacked">
+									<label>Label</label>
+									<input type="text" :name="`system.notes.label`" v-model="context.system.notes.label"/>
+								</div>
+								<div class="field">
+									<Prosemirror :editable="context.editable" :field="context.editors['system.notes.description']"/>
+								</div>
+							</fieldset>
 						</Tab>
 				
 						<!-- Attack fields -->
@@ -42,7 +54,8 @@ import {
 	Tab,
 	ItemHeader,
 	ItemDescription,
-	ItemAttributes
+	ItemAttributes,
+	Prosemirror
 } from '@/components';
 import { reactive, toRaw } from 'vue';
 

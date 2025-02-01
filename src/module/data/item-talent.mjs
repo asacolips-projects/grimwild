@@ -17,7 +17,7 @@ export default class GrimwildTalent extends GrimwildItemBase {
 		// Ex: Spell theorems
 		schema.notes = new fields.SchemaField({
 			label: new fields.StringField(optionalString),
-			description: new fields.StringField(optionalString),
+			description: new fields.HTMLField({ required: true, blank: true }),
 		});
 
 		schema.resources = new fields.SchemaField({

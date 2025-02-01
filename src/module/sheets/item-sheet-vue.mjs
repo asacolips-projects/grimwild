@@ -96,7 +96,7 @@ export class GrimwildItemSheetVue extends VueRenderingMixin(GrimwildBaseVueItemS
 			toggled: true,
 			collaborate: true,
 			documentUUID: this.document.uuid,
-			height: 300,
+			height: 200,
 		};
 
 		// Handle enriching fields.
@@ -127,16 +127,17 @@ export class GrimwildItemSheetVue extends VueRenderingMixin(GrimwildBaseVueItemS
 		// Enrich other fields.
 		const fields = [
 			'description',
+			'notes.description'
 		];
 
 		for (let field of fields) {
+			const editorValue = this.item.system?.[field] ?? foundry.utils.getProperty(this.item.system, field);
 			context.editors[`system.${field}`] = {
-
-				enriched: await TextEditor.enrichHTML(this.item.system[field], enrichmentOptions),
+				enriched: await TextEditor.enrichHTML(editorValue, enrichmentOptions),
 				element: foundry.applications.elements.HTMLProseMirrorElement.create({
 					...editorOptions,
 					name: `system.${field}`,
-					value: context.system?.[field] ?? '',
+					value: editorValue ?? '',
 				}),
 			};
 		}
