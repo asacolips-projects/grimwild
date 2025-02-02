@@ -130,16 +130,50 @@ export class GrimwildActorSheetVue extends VueRenderingMixin(GrimwildBaseVueActo
 			'biography',
 		];
 
-		for (let field of fields) {
-			context.editors[`system.${field}`] = {
+		// Enrich items.
+		const itemTypes = {
+			talent: [
+				'description',
+				'notes.description',
+			],
+		};
 
-				enriched: await TextEditor.enrichHTML(this.actor.system[field], enrichmentOptions),
+		// Enrich actor fields.
+		for (let field of fields) {
+			const editorValue = this.actor.system?.[field] ?? foundry.utils.getProperty(this.actor.system, field);
+			context.editors[`system.${field}`] = {
+				enriched: await TextEditor.enrichHTML(editorValue, enrichmentOptions),
 				element: foundry.applications.elements.HTMLProseMirrorElement.create({
 					...editorOptions,
 					name: `system.${field}`,
-					value: context.system?.[field] ?? '',
+					value: editorValue ?? '',
 				}),
 			};
+		}
+
+		// Enrich item fields.
+		for (let [type, itemFields] of Object.entries(itemTypes)) {
+			if (this.document.itemTypes[type]) {
+				// Iterate over the items.
+				for (let item of this.document.itemTypes[type]) {
+					// Handle enriched fields.
+					const itemEnrichmentOptions = {
+						secrets: item.isOwner,
+						rollData: item.getRollData() ?? this.actor.getRollData(),
+						relativeTo: item
+					};
+					// Iterate over each field within those items.
+					for (let itemField of itemFields) {
+						// Retrieve and enrich the field. Ignore creating prosemirror editors
+						// since those should be edited directly on the item.
+						const editorValue = item.system?.[itemField] ?? foundry.utils.getProperty(item.system, itemField);
+						context.editors[`items.${item.id}.system.${itemField}`] = {
+							enriched: await TextEditor.enrichHTML(editorValue, itemEnrichmentOptions),
+							element: null,
+						};
+					}
+				}
+			}
 		}
 	}
 

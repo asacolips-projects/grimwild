@@ -83,10 +83,10 @@
 				<!-- Description, visible when toggled on. -->
 				<div v-if="item.system.description" class="item-description-wrapper">
 					<div class="item-description flexcol">
-						<div class="item-description" v-html="item.system.description"></div>
+						<div class="item-description" v-html="context.editors[`items.${item.id}.system.description`].enriched"></div>
 						<div v-if="item.system.notes.description" class="item-notes">
 							<strong v-if="item.system.notes.label">{{ item.system.notes.label }}</strong>
-							<div class="item-notes-description" v-html="item.system.notes.description"></div>
+							<div class="item-notes-description" v-html="context.editors[`items.${item.id}.system.notes.description`].enriched"></div>
 						</div>
 					</div>
 				</div>
