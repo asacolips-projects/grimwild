@@ -88,12 +88,12 @@ export class GrimwildActorSheetVue extends VueRenderingMixin(GrimwildBaseVueActo
 		const target = event.target;
 		const changeElement = target.closest("[data-action-change]");
 		if (changeElement) {
-			const { actionChange } = changeElement.dataset ?? {};
+			const { actionChange } = changeElement.dataset;
 			if (actionChange) {
 				this.options.changeActions?.[actionChange]?.call(
 					this,
 					event,
-					event.target
+					changeElement
 				);
 			}
 		}
