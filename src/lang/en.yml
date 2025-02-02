@@ -60,6 +60,11 @@ GRIMWILD:
     thorns: Thorns
     difficulty: Difficulty
     total: Total
+  Resources:
+    pools: Pools
+    points: Points
+    toggles: Toggles
+    text: Text
   SheetLabels:
     Actor: Grimwild Actor Sheet
     Item: Grimwild Item Sheet
@@ -142,8 +147,16 @@ GRIMWILD:
           label: Quantity
         weight:
           label: Weight
+    base:
+      FIELDS:
+        description:
+          label: Description
     Talent:
       FIELDS:
+        notes:
+          label: Notes
+        resources:
+          label: Resources
     Challenge:
       FIELDS:
         rollFormula:

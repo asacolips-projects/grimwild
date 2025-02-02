@@ -17,7 +17,7 @@ export class GrimwildActorSheet extends api.HandlebarsApplicationMixin(
 
 	/** @override */
 	static DEFAULT_OPTIONS = {
-		classes: ["grimwild", "actor"],
+		classes: ["grimwild", "actor", "monster"],
 		document: null,
 		viewPermission: DOCUMENT_OWNERSHIP_LEVELS.LIMITED,
 		editPermission: DOCUMENT_OWNERSHIP_LEVELS.OWNER,

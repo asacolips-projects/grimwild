@@ -158,7 +158,7 @@ export class GrimwildActorSheetVue extends VueRenderingMixin(GrimwildBaseVueActo
 		context.tabs.primary.details = {
 			key: 'details',
 			label: game.i18n.localize('GRIMWILD.Actor.Tabs.Details'),
-			active: true,
+			active: false,
 		};
 
 		// Tabs limited to NPCs.
@@ -166,7 +166,7 @@ export class GrimwildActorSheetVue extends VueRenderingMixin(GrimwildBaseVueActo
 			context.tabs.primary.talents = {
 				key: 'talents',
 				label: game.i18n.localize('GRIMWILD.Actor.Tabs.Talents'),
-				active: false,
+				active: true,
 			};
 		}
 
@@ -180,20 +180,6 @@ export class GrimwildActorSheetVue extends VueRenderingMixin(GrimwildBaseVueActo
 		// Ensure we have a default tab.
 		if (this.actor.type !== 'character') {
 			context.tabs.primary.details.active = true;
-		}
-	}
-
-	/**
-	 * Organize and classify Items for Actor sheets.
-	 *
-	 * @param {object} context The context object to mutate.
-	 */
-	_prepareItems(context) {
-		context.items = this.document.items;
-		context.itemTypes = this.document.itemTypes;
-
-		for (const [type, items] of Object.entries(context.itemTypes)) {
-			context.itemTypes[type] = items.sort((a, b) => (a.sort || 0) - (b.sort || 0));
 		}
 	}
 

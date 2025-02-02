@@ -1,0 +1,18 @@
+&.monster {
+  .item-image {
+    flex: 0 0 24px;
+  }
+
+  .item-name {
+    gap: 8px;
+
+    .rollable {
+      flex: 0 auto;
+      flex-wrap: nowrap;
+    }
+  }
+
+  .challenge-pool {
+    color: #ffffff;
+  }
+}
