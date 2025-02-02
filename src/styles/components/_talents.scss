@@ -36,6 +36,16 @@
 
   .resource-value-numeric {
     white-space: nowrap;
+
+    input {
+      width: 0;
+      padding: 0;
+      height: auto;
+      line-height: 1;
+      flex: 0;
+      border: 1px solid;
+      text-align: center;
+    }
   }
 
   .resource-steps {

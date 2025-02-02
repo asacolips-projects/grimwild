@@ -58,11 +58,28 @@
 										<!-- Checkbox points -->
 										<div v-if="resource.points.showSteps" class="resource-steps flexrow">
 											<template v-for="(num, i) in resource.points.max" :key="i">
-												<input type="checkbox" :checked="resource.points.value >= num" readonly />
+												<input type="checkbox"
+													data-action="updateTalentResource"
+													:data-item-id="item.id"
+													:data-resource-key="resourceKey"
+													:data-resource-step-key="i"
+													:data-value="num"
+													:data-resource-value="resource.points.value"
+													:checked="resource.points.value >= num"
+												/>
 											</template>
 										</div>
 										<!-- Numeric points -->
-										<div v-else class="resource-value-numeric">{{ resource.points.value }} / {{ resource.points.max }}</div>
+										<div v-else class="resource-value-numeric">
+											<input type="number"
+												data-action-change="updateTalentResource"
+												:data-item-id="item.id"
+												:data-resource-key="resourceKey"
+												:value="resource.points.value"
+												min="0"
+												:max="resource.points.max"
+											/> / {{ resource.points.max }}
+										</div>
 									</template>
 								</div>
 							</div>

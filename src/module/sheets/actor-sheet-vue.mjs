@@ -38,6 +38,7 @@ export class GrimwildActorSheetVue extends VueRenderingMixin(GrimwildBaseVueActo
 			createBond: this._createBond,
 			deleteBond: this._deleteBond,
 			changeXp: this._changeXp,
+			updateTalentResource: this._updateTalentResource,
 			roll: this._onRoll
 		},
 		// Custom property that's merged into `this.options`
@@ -47,6 +48,25 @@ export class GrimwildActorSheetVue extends VueRenderingMixin(GrimwildBaseVueActo
 			submitOnClose: true,
 		}
 	};
+
+	/**
+	 * Actions performed after any render of the Application.
+	 * Post-render steps are not awaited by the render process.
+	 * @param {ApplicationRenderContext} context      Prepared context data
+	 * @param {RenderOptions} options                 Provided render options
+	 * @protected
+	 */
+	_onRender(context, options) {
+		super._onRender(context, options);
+		// @todo can we attach this to the frame for better performance?
+		// Custom listeners.
+		const changeElements = this.element.querySelectorAll('[data-action-change]');
+		changeElements.forEach((element) => {
+			element.addEventListener('change', (event) => {
+				this._updateTalentResource(event, event.currentTarget ?? event.target);
+			})
+		});
+	}
 
 	async _prepareContext(options) {
 		// Output initialization
@@ -278,6 +298,59 @@ export class GrimwildActorSheetVue extends VueRenderingMixin(GrimwildBaseVueActo
 				? xp
 				: this.document.system.xp.value - 1;
 			await this.document.update({ "system.xp.value": newXp });
+		}
+	}
+
+	/**
+	 * Handle updating talent resources.
+	 * 
+	 * @param {PointerEvent} event The originating click event
+	 * @param {HTMLElement} target The capturing HTML element which defined a [data-action]
+	 * @private
+	 */
+	async _updateTalentResource(event, target) {
+		event.preventDefault();
+		// Retrieve props.
+		const {
+			itemId,
+			resourceKey,
+			resourceStepKey,
+			value,
+			resourceValue
+		} = target.dataset;
+
+		// Only push an update if we need one. Assume we don't.
+		let changes = false;
+
+		// Retrieve the item and resource.
+		const item = this.document.items.get(itemId);
+		if (!item) return;
+		const resources = item.system.resources;
+		const resource = resources?.[resourceKey];
+		if (!resource) return;
+
+		// Handle point resource updates.
+		if (resource.type === 'points') {
+			if (!resourceValue || !value) {
+				resource.points.value = Number(target.value);
+			}
+			else {
+				resource.points.value = (value === resourceValue)
+					? Number(value) - 1
+					: Number(value);
+			}
+			if (resource.points.value < 0) resource.points.value = 0;
+			changes = true;
+		}
+		// Handle pool resource updates.
+		else if (resource.type === 'pool') {
+			// @todo
+		}
+
+		// Push the update if one is needed.
+		if (changes) {
+			resources[resourceKey] = resource;
+			await item.update({'system.resources': resources});
 		}
 	}
 	
