@@ -1,0 +1,67 @@
+folder: ST2i2VfNYCsjRvDu
+name: Always
+_id: nlCuUzlwbXjf3KNV
+pages:
+  - sort: 100000
+    name: Always
+    type: text
+    _id: ujO2iGlkpK0eQyGK
+    system: {}
+    title:
+      show: true
+      level: 1
+    image: {}
+    text:
+      format: 1
+      content: >-
+        <div class="page" title="Page 19"><div class="layoutArea"><div
+        class="column"><p><span style="font-family:'Capito04VAR'">If you have
+        the ability to </span><span
+        style="font-family:'Capito04VARItalic'"><em><strong>always</strong>
+        </em></span><span style="font-family:'Capito04VAR'">succeed or receive a
+        benefit, it holds true </span><span
+        style="font-family:'Capito04VARItalic'"><em><strong>unless</strong>
+        </em></span><span style="font-family:'Capito04VAR'">the GM makes a
+        </span><span style="font-family:'Capito04VAR-Light-SC850',
+        font-style='small-caps'"><span
+        style="font-family:'Capito04VAR-Light-SC850',
+        font-style='small-caps'">COUNTER </span></span><span
+        style="font-family:'Capito04VAR'">move, a strong NPC trait is in play,
+        or other extenuating circumstances arise. </span><span
+        style="font-family:'Capito04VARItalic'"><em>In short, "always" means 95%
+        of the time.</em></span></p></div></div></div>
+    video:
+      controls: true
+      volume: 0.5
+    src: null
+    ownership:
+      default: -1
+      Dl5Tvf37OuEHwdAh: 3
+    flags: {}
+    _stats:
+      compendiumSource: null
+      duplicateSource: null
+      coreVersion: '12.331'
+      systemId: grimwild
+      systemVersion: 0.1.0
+      createdTime: null
+      modifiedTime: null
+      lastModifiedBy: null
+    _key: '!journal.pages!nlCuUzlwbXjf3KNV.ujO2iGlkpK0eQyGK'
+sort: 0
+ownership:
+  default: 0
+  Dl5Tvf37OuEHwdAh: 3
+flags: {}
+_stats:
+  compendiumSource: null
+  duplicateSource: null
+  coreVersion: '12.331'
+  systemId: grimwild
+  systemVersion: 0.1.0
+  createdTime: 1738510550844
+  modifiedTime: 1738510550844
+  lastModifiedBy: Dl5Tvf37OuEHwdAh
+categories: []
+_key: '!journal!nlCuUzlwbXjf3KNV'
+

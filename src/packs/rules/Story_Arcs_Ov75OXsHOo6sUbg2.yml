@@ -1,0 +1,112 @@
+folder: zmMkwIp30eeYAy0o
+name: Story Arcs
+_id: Ov75OXsHOo6sUbg2
+pages:
+  - sort: 100000
+    name: Story Arcs
+    type: text
+    _id: Y1NS2LwzQ5stxuv4
+    system: {}
+    title:
+      show: true
+      level: 1
+    image: {}
+    text:
+      format: 1
+      content: >-
+        <div class="page" title="Page 17"><div class="layoutArea"><div
+        class="column"><p><span style="font-family:'Capito04VAR'">Evocative
+        phrases that give your PC and group a thematic direction. Find out where
+        they lead through play— they're a starting direction, not the
+        destination.</span></p><p><span style="font-family:'Capito04VAR'">Pick a
+        <strong>group arc</strong> together, then a <strong>character
+        arc</strong>. Pick from the examples or write your own. Keep it
+        short.</span></p><p><span
+        style="font-family:'Capito04VARItalic'"><em><strong>Take spark by
+        resolving an arc</strong> </em></span><span
+        style="font-family:'Capito04VAR'">with a meaningful moment, </span><span
+        style="font-family:'Capito04VARItalic'"><em>however big or small it
+        is</em></span><span style="font-family:'Capito04VAR'">. This could mean
+        achieving your goal, adjusting it for the next step, or moving on from
+        it entirely.</span></p><p><span
+        style="font-family:'Capito04VARItalic'"><em>You shrug your shoulders and
+        let the knight ride off—you have more to worry about than your
+        revenge.</em></span></p></div><table><tbody><tr><td><p
+        style="text-align:center"><strong>Ambitions</strong></p></td><td><p
+        style="text-align:center"><strong>Struggles</strong></p></td><td><p
+        style="text-align:center"><strong>Growth</strong></p></td></tr><tr><td><p
+        style="text-align:center"><em>Build a Reputation</em></p></td><td><p
+        style="text-align:center"><em>Come Unraveled</em></p></td><td><p
+        style="text-align:center"><em>Embrace
+        Change</em></p></td></tr><tr><td><p
+        style="text-align:center"><em>Explore the World</em></p></td><td><p
+        style="text-align:center"><em>Doubt Convictions</em></p></td><td><p
+        style="text-align:center"><em>Escape My
+        Past</em></p></td></tr><tr><td><p style="text-align:center"><em>Finish
+        the Mission</em></p></td><td><p style="text-align:center"><em>Feed My
+        Vices</em></p></td><td><p style="text-align:center"><em>Find
+        Belonging</em></p></td></tr><tr><td><p
+        style="text-align:center"><em>Make Things Right</em></p></td><td><p
+        style="text-align:center"><em>Flirt with Betrayal</em></p></td><td><p
+        style="text-align:center"><em>Just Enjoy
+        Life</em></p></td></tr><tr><td><p style="text-align:center"><em>Satisfy
+        Desires</em></p></td><td><p style="text-align:center"><em>Keep a
+        Secret</em></p></td><td><p style="text-align:center"><em>Prove
+        Myself</em></p></td></tr><tr><td><p
+        style="text-align:center"><em>Uncover the Truth</em></p></td><td><p
+        style="text-align:center"><em>Survive the Storm</em></p></td><td><p
+        style="text-align:center"><em>Settle
+        Debts</em></p></td></tr></tbody></table><div class="column"><p><span
+        style="font-family:'Capito04VAR'">Group arcs unite players around a
+        theme, while character arcs help you express your own story. Most
+        importantly, they give you authorial power—you can use story or tangles
+        to add story details tied to your arcs to bring them into
+        play!</span></p><p><span style="font-family:'Capito04VAR'">Story arcs
+        signal to the GM that you want </span><span
+        style="font-family:'Capito04VARItalic'"><em><strong>drama</strong></em></span><span
+        style="font-family:'Capito04VAR'">, </span><span
+        style="font-family:'Capito04VARItalic'"><em><strong>dilemmas</strong></em></span><span
+        style="font-family:'Capito04VAR'">, and </span><span
+        style="font-family:'Capito04VARItalic'"><em><strong>opportunities</strong>
+        </em></span><span style="font-family:'Capito04VAR'">to arise around
+        them. Aim to resolve arcs within 3-5 sessions to keep things fresh. For
+        struggles </span><span
+        style="font-family:'Capito04VARItalic'"><em>(flirt with
+        betrayal)</em></span><span style="font-family:'Capito04VAR'">, get group
+        permission—limiting them to a few sessions and involving everyone makes
+        it more fun.</span></p></div></div></div>
+    video:
+      controls: true
+      volume: 0.5
+    src: null
+    ownership:
+      default: -1
+      Dl5Tvf37OuEHwdAh: 3
+    flags: {}
+    _stats:
+      compendiumSource: null
+      duplicateSource: null
+      coreVersion: '12.331'
+      systemId: grimwild
+      systemVersion: 0.1.0
+      createdTime: null
+      modifiedTime: null
+      lastModifiedBy: null
+    _key: '!journal.pages!Ov75OXsHOo6sUbg2.Y1NS2LwzQ5stxuv4'
+sort: 0
+ownership:
+  default: 0
+  Dl5Tvf37OuEHwdAh: 3
+flags: {}
+_stats:
+  compendiumSource: null
+  duplicateSource: null
+  coreVersion: '12.331'
+  systemId: grimwild
+  systemVersion: 0.1.0
+  createdTime: 1738510553443
+  modifiedTime: 1738510553443
+  lastModifiedBy: Dl5Tvf37OuEHwdAh
+categories: []
+_key: '!journal!Ov75OXsHOo6sUbg2'
+

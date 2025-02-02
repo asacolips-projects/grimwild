@@ -1,0 +1,20 @@
+name: Recovery
+sorting: a
+folder: null
+type: JournalEntry
+_id: G9jADnKz2hd077Ex
+description: ''
+sort: 100000
+color: null
+flags: {}
+_stats:
+  compendiumSource: null
+  duplicateSource: null
+  coreVersion: '12.331'
+  systemId: grimwild
+  systemVersion: 0.1.0
+  createdTime: 1738510552158
+  modifiedTime: 1738510552175
+  lastModifiedBy: Dl5Tvf37OuEHwdAh
+_key: '!folders!G9jADnKz2hd077Ex'
+

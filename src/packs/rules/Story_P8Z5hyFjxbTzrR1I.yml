@@ -1,0 +1,89 @@
+folder: 77L6EaT58DF6hYDr
+name: Story
+_id: P8Z5hyFjxbTzrR1I
+pages:
+  - sort: 100000
+    name: Story
+    type: text
+    _id: RBg39Sm3klbGpPEQ
+    system: {}
+    title:
+      show: true
+      level: 1
+    image: {}
+    text:
+      format: 1
+      content: >-
+        <div class="page" title="Page 17"><div class="layoutArea"><div
+        class="column"><p><span style="font-family:'Capito04VARItalic'"><em>Pure
+        cinematic momentum</em></span><span style="font-family:'Capito04VAR'">.
+        Each session, you have <strong>2 story</strong>. Spend it to add
+        </span><span style="font-family:'Capito04VARItalic'"><em><strong>story
+        details</strong> </em></span><span
+        style="font-family:'Capito04VAR'">that go beyond set dressing, creating
+        new opportunities or shifting the scene in your favor. Added details
+        must fit your vantage, </span><span
+        style="font-family:'Capito04VARItalic'"><em>at least as a
+        stretch</em></span><span style="font-family:'Capito04VAR'">, or tie to a
+        story arc. Example details:</span></p><p><span
+        style="font-family:'SegoeUIEmoji'">◆ </span><span
+        style="font-family:'Capito04VARItalic'"><em><strong>Character</strong></em></span><span
+        style="font-family:'Capito04VAR'">: Gear, contacts, backstory...<br
+        /></span><span style="font-family:'Capito04VARItalic'"><em>The wizard
+        was your mentor. You have just the thing!</em></span></p><p><span
+        style="font-family:'SegoeUIEmoji'">◆ </span><span
+        style="font-family:'Capito04VARItalic'"><em><strong>Scene</strong></em></span><span
+        style="font-family:'Capito04VAR'">: NPC actions, objects,
+        atmospherics... </span></p><p><span
+        style="font-family:'Capito04VARItalic'"><em>The guard falls asleep.
+        There's a secret door.</em></span></p><p><span
+        style="font-family:'SegoeUIEmoji'">◆ </span><span
+        style="font-family:'Capito04VARItalic'"><em><strong>Setting</strong></em></span><span
+        style="font-family:'Capito04VAR'">: History, geography, factions...
+        </span></p><p><span style="font-family:'Capito04VARItalic'"><em>There's
+        a town over those hills. The king falls ill.</em></span></p><p><span
+        style="font-family:'Capito04VAR'">Added details can't override rolls or
+        contradict the established story. If your detail affects another PC, get
+        permission. The GM can make a story roll to see how true or beneficial
+        it is, or add nuance. On a grim, it may backfire! The GM can also veto
+        details to keep things coherent.</span></p><p><span
+        style="font-family:'Capito04VAR'">There are </span><span
+        style="font-family:'Capito04VARItalic'"><em>gray zones </em></span><span
+        style="font-family:'Capito04VAR'">between set dressing, story details,
+        and details simply too impactful to add. Set boundaries with your
+        group.</span></p></div></div></div>
+    video:
+      controls: true
+      volume: 0.5
+    src: null
+    ownership:
+      default: -1
+      Dl5Tvf37OuEHwdAh: 3
+    flags: {}
+    _stats:
+      compendiumSource: null
+      duplicateSource: null
+      coreVersion: '12.331'
+      systemId: grimwild
+      systemVersion: 0.1.0
+      createdTime: null
+      modifiedTime: null
+      lastModifiedBy: null
+    _key: '!journal.pages!P8Z5hyFjxbTzrR1I.RBg39Sm3klbGpPEQ'
+sort: 0
+ownership:
+  default: 0
+  Dl5Tvf37OuEHwdAh: 3
+flags: {}
+_stats:
+  compendiumSource: null
+  duplicateSource: null
+  coreVersion: '12.331'
+  systemId: grimwild
+  systemVersion: 0.1.0
+  createdTime: 1738510547562
+  modifiedTime: 1738510547562
+  lastModifiedBy: Dl5Tvf37OuEHwdAh
+categories: []
+_key: '!journal!P8Z5hyFjxbTzrR1I'
+

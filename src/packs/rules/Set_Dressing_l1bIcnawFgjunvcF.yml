@@ -1,0 +1,63 @@
+folder: 77L6EaT58DF6hYDr
+name: Set Dressing
+_id: l1bIcnawFgjunvcF
+pages:
+  - sort: 100000
+    name: Set Dressing
+    type: text
+    _id: ix9thpsshnt9evrP
+    system: {}
+    title:
+      show: true
+      level: 1
+    image: {}
+    text:
+      format: 1
+      content: >-
+        <div class="page" title="Page 17"><div class="layoutArea"><div
+        class="column"><p><span style="font-family:'Capito04VAR'">Add minor,
+        common sense details freely. Make assumptions and add </span><span
+        style="font-family:'Capito04VARItalic'"><em>set dressing
+        </em></span><span style="font-family:'Capito04VAR'">to scenes to play
+        off of to keep things flowing dy- namically. There’s no need to check in
+        with the GM—they’ll step in if a detail goes beyond set dressing.
+        Anything that’s a </span><span
+        style="font-family:'Capito04VARItalic'"><em>given </em></span><span
+        style="font-family:'Capito04VAR'">for your vantage, like knowing someone
+        or having equipment that makes sense, is set
+        dressing.</span></p></div></div></div>
+    video:
+      controls: true
+      volume: 0.5
+    src: null
+    ownership:
+      default: -1
+      Dl5Tvf37OuEHwdAh: 3
+    flags: {}
+    _stats:
+      compendiumSource: null
+      duplicateSource: null
+      coreVersion: '12.331'
+      systemId: grimwild
+      systemVersion: 0.1.0
+      createdTime: null
+      modifiedTime: null
+      lastModifiedBy: null
+    _key: '!journal.pages!l1bIcnawFgjunvcF.ix9thpsshnt9evrP'
+sort: 0
+ownership:
+  default: 0
+  Dl5Tvf37OuEHwdAh: 3
+flags: {}
+_stats:
+  compendiumSource: null
+  duplicateSource: null
+  coreVersion: '12.331'
+  systemId: grimwild
+  systemVersion: 0.1.0
+  createdTime: 1738510547562
+  modifiedTime: 1738510547562
+  lastModifiedBy: Dl5Tvf37OuEHwdAh
+categories: []
+_key: '!journal!l1bIcnawFgjunvcF'
+

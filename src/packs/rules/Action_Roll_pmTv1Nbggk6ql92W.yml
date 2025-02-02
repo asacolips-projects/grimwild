@@ -1,0 +1,65 @@
+name: Action Roll
+_id: pmTv1Nbggk6ql92W
+pages:
+  - sort: 100000
+    name: Action Roll
+    type: text
+    _id: zoIlyaXNAHedFlaX
+    system: {}
+    title:
+      show: true
+      level: 1
+    image: {}
+    text:
+      format: 1
+      content: >-
+        <div class="page" title="Page 15"><div class="layoutArea"><div
+        class="column"><p><span style="font-family:'Capito04VAR'">Roll to pull
+        off something risky. State <strong>how &amp; why</strong>, clarifying
+        your intent. The GM picks the stat that matches your intentions.
+        </span></p><p></p><p><span style="font-family:'Capito04VAR'">Perfect.
+        You do it, and avoid trouble. </span></p><p><span
+        style="font-family:'Capito04VAR'">Messy. You do it, but there's trouble.
+        <em>Prompts and impact move</em>. </span></p><p><span
+        style="font-family:'Capito04VAR'">Grim. You fail, and there's trouble.
+        <em>Prompts and impact move</em>.</span></p><p></p><p><span
+        style="font-family:'Capito04VAR'">The GM makes an impact move to
+        introduce con- sequences. You don't get a defense roll against impact
+        moves prompted by your own action rolls— avoiding danger is already
+        factored into the roll.</span></p></div></div></div>
+    video:
+      controls: true
+      volume: 0.5
+    src: null
+    ownership:
+      default: -1
+      Dl5Tvf37OuEHwdAh: 3
+    flags: {}
+    _stats:
+      compendiumSource: null
+      duplicateSource: null
+      coreVersion: '12.331'
+      systemId: grimwild
+      systemVersion: 0.1.0
+      createdTime: null
+      modifiedTime: null
+      lastModifiedBy: null
+    _key: '!journal.pages!pmTv1Nbggk6ql92W.zoIlyaXNAHedFlaX'
+folder: 6l6pEN0IYEMpkvt3
+sort: 100000
+ownership:
+  default: 0
+  Dl5Tvf37OuEHwdAh: 3
+flags: {}
+_stats:
+  compendiumSource: null
+  duplicateSource: null
+  coreVersion: '12.331'
+  systemId: grimwild
+  systemVersion: 0.1.0
+  createdTime: 1738366917449
+  modifiedTime: 1738366917449
+  lastModifiedBy: Dl5Tvf37OuEHwdAh
+categories: []
+_key: '!journal!pmTv1Nbggk6ql92W'
+

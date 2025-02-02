@@ -1,0 +1,71 @@
+folder: vUGdoKGy7PZ2fdfW
+name: Bonds
+_id: J3qpvKK8eSPQ181G
+pages:
+  - sort: 100000
+    name: Bonds
+    type: text
+    _id: 1amUh790mI7M7ffJ
+    system: {}
+    title:
+      show: true
+      level: 1
+    image: {}
+    text:
+      format: 1
+      content: >-
+        <div class="page" title="Page 16"><div class="layoutArea"><div
+        class="column"><p><span style="font-family:'Capito04VAR'">Your dynamic
+        with each PC. Match an intensity (</span><span
+        style="font-family:'Capito04VARItalic'"><em>left</em></span><span
+        style="font-family:'Capito04VAR'">) and a nature (</span><span
+        style="font-family:'Capito04VARItalic'"><em>right</em></span><span
+        style="font-family:'Capito04VAR'">) below, or write your own. Interpret
+        them as makes
+        sense.</span></p></div><p></p><table><tbody><tr><td><p>Deep</p></td><td><p>Affection</p></td></tr><tr><td><p>Complex</p></td><td><p>Camaraderie</p></td></tr><tr><td><p>Growing</p></td><td><p>Curiosity</p></td></tr><tr><td><p>Lowkey</p></td><td><p>Doubts</p></td></tr><tr><td><p>Playful</p></td><td><p>Respect</p></td></tr><tr><td><p>Tense</p></td><td><p>Rivalry</p></td></tr></tbody></table><div
+        class="column"><p><span style="font-family:'Capito04VAR'">Bonds are your
+        strongest view of the other PC, and not necessarily reciprocal
+        </span><span style="font-family:'Capito04VARItalic'"><em>(your tense
+        doubts is their playful rivalry)</em></span><span
+        style="font-family:'Capito04VAR'">. You can change a bond anytime, such
+        as in response to something they've done or something new you've learned
+        about them. When it changes, give a short vignette (</span><span
+        style="font-family:'Capito04VARItalic'"><em>better if
+        together!</em></span><span style="font-family:'Capito04VAR'">).
+        </span><span style="font-family:'Capito04VARItalic'"><em><strong>The
+        other PC takes spark</strong>.</em></span></p></div></div></div>
+    video:
+      controls: true
+      volume: 0.5
+    src: null
+    ownership:
+      default: -1
+      Dl5Tvf37OuEHwdAh: 3
+    flags: {}
+    _stats:
+      compendiumSource: null
+      duplicateSource: null
+      coreVersion: '12.331'
+      systemId: grimwild
+      systemVersion: 0.1.0
+      createdTime: null
+      modifiedTime: null
+      lastModifiedBy: null
+    _key: '!journal.pages!J3qpvKK8eSPQ181G.1amUh790mI7M7ffJ'
+sort: 0
+ownership:
+  default: 0
+  Dl5Tvf37OuEHwdAh: 3
+flags: {}
+_stats:
+  compendiumSource: null
+  duplicateSource: null
+  coreVersion: '12.331'
+  systemId: grimwild
+  systemVersion: 0.1.0
+  createdTime: 1738366915122
+  modifiedTime: 1738366915122
+  lastModifiedBy: Dl5Tvf37OuEHwdAh
+categories: []
+_key: '!journal!J3qpvKK8eSPQ181G'
+

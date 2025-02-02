@@ -1,0 +1,73 @@
+folder: 9seG8V3dqcMX06FZ
+name: Pre-Session Recap
+_id: SIhGcNqioDpwaJCT
+pages:
+  - sort: 100000
+    name: Pre-Session Recap
+    type: text
+    _id: 1dgaTSoj6nuTG3kr
+    system: {}
+    title:
+      show: true
+      level: 1
+    image: {}
+    text:
+      format: 1
+      content: >-
+        <div class="page" title="Page 19"><div class="layoutArea"><div
+        class="column"><p><span style="font-family:'Capito04VAR'">Before each
+        session (after the first), recall the previous session and share your
+        PC's best moment. </span><span
+        style="font-family:'Capito04VARItalic'"><em><strong>Each player takes
+        spark</strong></em></span><span
+        style="font-family:'Capito04VAR'">.</span></p><p><span
+        style="font-family:'Capito04VAR'">When all are finished, the GM
+        </span><span style="font-family:'Capito04VAR-Light-SC850',
+        font-style='small-caps'"><span
+        style="font-family:'Capito04VAR-Light-SC850',
+        font-style='small-caps'">RECAPS </span></span><span
+        style="font-family:'Capito04VAR'">(</span><span
+        style="font-family:'Capito04VARItalic'"><em>taking
+        suspense</em></span><span style="font-family:'Capito04VAR'">) tying all
+        of these moments together into a proper "</span><span
+        style="font-family:'Capito04VARItalic'"><em>Previously
+        on...</em></span><span style="font-family:'Capito04VAR'">" and starts
+        the session.</span></p><p><span
+        style="font-family:'Capito04VARItalic'"><em><strong>Note</strong>: Spark
+        carries over and story resets each
+        session.</em></span></p></div></div></div>
+    video:
+      controls: true
+      volume: 0.5
+    src: null
+    ownership:
+      default: -1
+      Dl5Tvf37OuEHwdAh: 3
+    flags: {}
+    _stats:
+      compendiumSource: null
+      duplicateSource: null
+      coreVersion: '12.331'
+      systemId: grimwild
+      systemVersion: 0.1.0
+      createdTime: null
+      modifiedTime: null
+      lastModifiedBy: null
+    _key: '!journal.pages!SIhGcNqioDpwaJCT.1dgaTSoj6nuTG3kr'
+sort: 0
+ownership:
+  default: 0
+  Dl5Tvf37OuEHwdAh: 3
+flags: {}
+_stats:
+  compendiumSource: null
+  duplicateSource: null
+  coreVersion: '12.331'
+  systemId: grimwild
+  systemVersion: 0.1.0
+  createdTime: 1738510545972
+  modifiedTime: 1738510545972
+  lastModifiedBy: Dl5Tvf37OuEHwdAh
+categories: []
+_key: '!journal!SIhGcNqioDpwaJCT'
+

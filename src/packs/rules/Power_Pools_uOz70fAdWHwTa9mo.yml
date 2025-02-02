@@ -1,0 +1,61 @@
+folder: ST2i2VfNYCsjRvDu
+name: Power Pools
+_id: uOz70fAdWHwTa9mo
+pages:
+  - sort: 100000
+    name: Power Pools
+    type: text
+    _id: 3A7BIzUGAbfwdS0N
+    system: {}
+    title:
+      show: true
+      level: 1
+    image: {}
+    text:
+      format: 1
+      content: >-
+        <div class="page" title="Page 19"><div class="layoutArea"><div
+        class="column"><p><span style="font-family:'Capito04VAR'">The power of
+        some talents or items, rolled as part of using it or in place of a stat.
+        The same roll determines the outcome and drops dice from the pool.
+        </span><span style="font-family:'Capito04VARItalic'"><em><strong>You can
+        roll fewer dice to risk losing less</strong>. </em></span><span
+        style="font-family:'NotoEmoji'">🎲 </span><span
+        style="font-family:'Capito04VAR'">The talent or item is used.
+        </span><span style="font-family:'Capito04VARItalic'"><em>4d Fireball
+        Wand, 6d Cleric domain.</em></span></p></div></div></div>
+    video:
+      controls: true
+      volume: 0.5
+    src: null
+    ownership:
+      default: -1
+      Dl5Tvf37OuEHwdAh: 3
+    flags: {}
+    _stats:
+      compendiumSource: null
+      duplicateSource: null
+      coreVersion: '12.331'
+      systemId: grimwild
+      systemVersion: 0.1.0
+      createdTime: null
+      modifiedTime: null
+      lastModifiedBy: null
+    _key: '!journal.pages!uOz70fAdWHwTa9mo.3A7BIzUGAbfwdS0N'
+sort: 0
+ownership:
+  default: 0
+  Dl5Tvf37OuEHwdAh: 3
+flags: {}
+_stats:
+  compendiumSource: null
+  duplicateSource: null
+  coreVersion: '12.331'
+  systemId: grimwild
+  systemVersion: 0.1.0
+  createdTime: 1738510550844
+  modifiedTime: 1738510550844
+  lastModifiedBy: Dl5Tvf37OuEHwdAh
+categories: []
+_key: '!journal!uOz70fAdWHwTa9mo'
+

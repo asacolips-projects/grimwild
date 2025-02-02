@@ -1,0 +1,96 @@
+name: Defense Roll
+_id: FCERIjA706QgIWIJ
+pages:
+  - sort: 100000
+    name: Defense Roll
+    type: text
+    _id: XoPCrQdCYwiA6h1c
+    system: {}
+    title:
+      show: true
+      level: 1
+    image: {}
+    text:
+      format: 1
+      content: >-
+        <div class="page" title="Page 15"><div class="layoutArea"><div
+        class="column"><p><span style="font-family:'Capito04VAR'">Roll to avoid
+        incoming trouble, </span><span
+        style="font-family:'Capito04VARItalic'"><em><strong>but only when not
+        caused by your own action</strong></em></span><span
+        style="font-family:'Capito04VAR'">. The GM calls for the roll and picks
+        a stat to test.</span></p><p></p><p><span
+        style="font-family:Capito04VAR">Perfect. You avoid the
+        trouble.</span></p><p
+        style="box-sizing:border-box;user-select:text;scrollbar-width:thin;scrollbar-color:var(--color-scrollbar)
+        var(--color-scrollbar-track);margin:0.5em 0px;color:rgb(25, 24,
+        19);font-family:greycliff-cf,
+        serif;font-size:14px;font-style:normal;font-variant-ligatures:normal;font-variant-caps:normal;font-weight:400;letter-spacing:normal;orphans:2;text-indent:0px;text-transform:none;widows:2;word-spacing:0px;-webkit-text-stroke-width:0px;white-space:normal;text-decoration-thickness:initial;text-decoration-style:initial;text-decoration-color:initial;text-align:start"><span
+        style="font-family:Capito04VAR">Messy. You avoid the brunt of the
+        trouble. <em
+        style="box-sizing:border-box;user-select:text;scrollbar-width:thin;scrollbar-color:var(--color-scrollbar)
+        var(--color-scrollbar-track)">The GM lightens the
+        consequences</em>.</span></p><p
+        style="box-sizing:border-box;user-select:text;scrollbar-width:thin;scrollbar-color:var(--color-scrollbar)
+        var(--color-scrollbar-track);margin:0.5em 0px;color:rgb(25, 24,
+        19);font-family:greycliff-cf,
+        serif;font-size:14px;font-style:normal;font-variant-ligatures:normal;font-variant-caps:normal;font-weight:400;letter-spacing:normal;orphans:2;text-indent:0px;text-transform:none;widows:2;word-spacing:0px;-webkit-text-stroke-width:0px;white-space:normal;text-decoration-thickness:initial;text-decoration-style:initial;text-decoration-color:initial;text-align:start"><span
+        style="font-family:Capito04VAR">Grim. You fail to avoid the trouble. <em
+        style="box-sizing:border-box;user-select:text;scrollbar-width:thin;scrollbar-color:var(--color-scrollbar)
+        var(--color-scrollbar-track)">The GM follows through on
+        themove</em>.</span></p><p></p><p><span
+        style="font-family:'Capito04VAR'">The GM calls for defense rolls when
+        they target you directly with an impact move. On a messy, there's still
+        some trouble, like taking lesser dam- age, losing the chance to act, or
+        being in a worse position </span><span
+        style="font-family:'Capito04VARItalic'"><em>(knocked off the
+        cliff</em></span><span style="font-family:'SegoeUIEmoji'">→</span><span
+        style="font-family:'Capito04VARItalic'"><em>your sword is knocked
+        off)</em></span><span
+        style="font-family:'Capito04VAR'">.</span></p><p><span
+        style="font-family:'Capito04VARItalic'"><em><strong>Defense is
+        cinematic—a reaction, out of your hands</strong></em></span><span
+        style="font-family:'Capito04VAR'"><strong>.</strong> The GM picks the
+        stat to fit the danger, your PC’s likely reaction, vulnerabilities, and
+        what feels right for the moment. This keeps it varied—you can’t always
+        use a strong stat.</span></p><p><span
+        style="font-family:'Capito04VARItalic'"><em>Brawn absorbs a punch,
+        Agility dodges it, Wits sees it com- ing, and Presence avoids the fight.
+        </em></span><span style="font-family:'Capito04VAR'">(Players can soft
+        veto!)</span></p></div></div></div>
+    video:
+      controls: true
+      volume: 0.5
+    src: null
+    ownership:
+      default: -1
+      Dl5Tvf37OuEHwdAh: 3
+    flags: {}
+    _stats:
+      compendiumSource: null
+      duplicateSource: null
+      coreVersion: '12.331'
+      systemId: grimwild
+      systemVersion: 0.1.0
+      createdTime: null
+      modifiedTime: null
+      lastModifiedBy: null
+    _key: '!journal.pages!FCERIjA706QgIWIJ.XoPCrQdCYwiA6h1c'
+folder: 6l6pEN0IYEMpkvt3
+sort: 300000
+ownership:
+  default: 0
+  Dl5Tvf37OuEHwdAh: 3
+flags: {}
+_stats:
+  compendiumSource: null
+  duplicateSource: null
+  coreVersion: '12.331'
+  systemId: grimwild
+  systemVersion: 0.1.0
+  createdTime: 1738366917449
+  modifiedTime: 1738366917449
+  lastModifiedBy: Dl5Tvf37OuEHwdAh
+categories: []
+_key: '!journal!FCERIjA706QgIWIJ'
+

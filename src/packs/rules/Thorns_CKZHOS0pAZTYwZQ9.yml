@@ -1,0 +1,51 @@
+name: Thorns
+_id: CKZHOS0pAZTYwZQ9
+pages:
+  - sort: 100000
+    name: Thorns
+    type: text
+    _id: kwgKGJsnbtU3iABH
+    system: {}
+    title:
+      show: true
+      level: 1
+    image: {}
+    text:
+      format: 1
+      content: "<div class=\"page\" title=\"Page 14\"><div class=\"layoutArea\"><div class=\"column\"><p><span style=\"font-family:'Capito04VAR'\">One or two d8s (</span><span style=\"font-family:'Capito04VARItalic'\"><em>t</em></span><span style=\"font-family:'Capito04VAR'\">) added to your roll by the GM to reflect a tougher than normal task. Each 7 or 8 on a thorn <strong>cuts</strong> a roll’s outcome by one step </span><span style=\"font-family:'Capito04VARItalic'\"><em>(messy</em></span><span style=\"font-family:'SegoeUIEmoji'\">→</span><span style=\"font-family:'Capito04VARItalic'\"><em>grim)</em></span><span style=\"font-family:'Capito04VAR'\">.</span></p><p><span style=\"font-family:'Capito04VAR'\">A normal roll is <strong>+0t</strong>/</span><span style=\"font-family:'Capito04VARItalic'\"><em>tough</em></span><span style=\"font-family:'Capito04VAR'\">. The GM adds thorns with their </span><span style=\"font-family:'Capito04VARItalic'\"><em>gut feeling</em></span><span style=\"font-family:'Capito04VAR'\">, given the situation. They can make it <strong>+1t</strong>/</span><span style=\"font-family:'Capito04VARItalic'\"><em>very tough </em></span><span style=\"font-family:'Capito04VAR'\">or <strong>+2t</strong>/</span><span style=\"font-family:'Capito04VARItalic'\"><em>extremely tough</em></span><span style=\"font-family:'Capito04VAR'\">. If it’s at <strong>+3t</strong>/</span><span style=\"font-family:'Capito04VARItalic'\"><em>impossible </em></span><span style=\"font-family:'Capito04VAR'\">or more, the task can’t be done—break it up into steps or try a new approach. If needed, they can assess factors:</span></p><ul style=\"list-style-type:none\"><li><p><span style=\"font-family:'SegoeUIEmoji'\">◆ \_</span><span style=\"font-family:'Capito04VARItalic'\"><em><strong>Intrinsic</strong></em></span><span style=\"font-family:'Capito04VAR'\">: Scale, opposing skill, numbers... </span><span style=\"font-family:'Capito04VARItalic'\"><em>Huge chasm, expert detective, group of thugs.</em></span></p></li><li><p><span style=\"font-family:'SegoeUIEmoji'\">◆ \_</span><span style=\"font-family:'Capito04VARItalic'\"><em><strong>Externals</strong></em></span><span style=\"font-family:'Capito04VAR'\">: Environment, training, tools... </span><span style=\"font-family:'Capito04VARItalic'\"><em>Heavy rain, not a doctor, shovel’s broken.</em></span></p></li><li><p><span style=\"font-family:'SegoeUIEmoji'\">◆ \_</span><span style=\"font-family:'Capito04VARItalic'\"><em><strong>Intangibles</strong></em></span><span style=\"font-family:'Capito04VAR'\">: Strong feelings, bad info, mojo... </span><span style=\"font-family:'Capito04VARItalic'\"><em>You love him, the map is wrong, you’re cursed.</em></span></p><p><span style=\"font-family:'Capito04VAR'\"><strong>Damage</strong> to a PC also adds thorns to a roll, but they don’t count towards making it </span><span style=\"font-family:'Capito04VARItalic'\"><em>impossible</em></span><span style=\"font-family:'Capito04VAR'\">.</span></p></li></ul></div></div></div>"
+    video:
+      controls: true
+      volume: 0.5
+    src: null
+    ownership:
+      default: -1
+      Dl5Tvf37OuEHwdAh: 3
+    flags: {}
+    _stats:
+      compendiumSource: null
+      duplicateSource: null
+      coreVersion: '12.331'
+      systemId: grimwild
+      systemVersion: 0.1.0
+      createdTime: null
+      modifiedTime: null
+      lastModifiedBy: null
+    _key: '!journal.pages!CKZHOS0pAZTYwZQ9.kwgKGJsnbtU3iABH'
+folder: x1tiKY3tWsedvhBe
+sort: 200000
+ownership:
+  default: 0
+  Dl5Tvf37OuEHwdAh: 3
+flags: {}
+_stats:
+  compendiumSource: null
+  duplicateSource: null
+  coreVersion: '12.331'
+  systemId: grimwild
+  systemVersion: 0.1.0
+  createdTime: 1738366916457
+  modifiedTime: 1738366916457
+  lastModifiedBy: Dl5Tvf37OuEHwdAh
+categories: []
+_key: '!journal!CKZHOS0pAZTYwZQ9'
+

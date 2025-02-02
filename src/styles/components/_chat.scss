@@ -1,9 +1,19 @@
 &.message {
-  font-family: $font-sans;
+  font-family: $font-body;
   background: #1f2026;
   color: #ddd;
   border-color: transparent;
   margin-bottom: 5px;
+
+  .message-sender {
+    font-family: $font-body;
+    font-size: 18px;
+    color: #ffffff;
+  }
+
+  .flavor-text {
+    font-family: $font-sans;
+  }
 
   h1,
   h2,

@@ -1,0 +1,59 @@
+folder: ST2i2VfNYCsjRvDu
+name: Buffs
+_id: wGlm4Lnx2a9wQtKE
+pages:
+  - sort: 100000
+    name: Buffs
+    type: text
+    _id: 2tZSeSez8JaX7Klz
+    system: {}
+    title:
+      show: true
+      level: 1
+    image: {}
+    text:
+      format: 1
+      content: >-
+        <div class="page" title="Page 19"><div class="layoutArea"><div
+        class="column"><p><span style="font-family:'Capito04VAR'">Beneficial
+        effects </span><span
+        style="font-family:'Capito04VARItalic'"><em>(fearless, invisible)
+        </em></span><span style="font-family:'Capito04VAR'">that expand vantage,
+        ease tasks, make rolls unneces- sary, or provide outside assistance. If
+        you give a buff to an ally that persists in your absence, you can assist
+        relevant rolls without risk.</span></p></div></div></div>
+    video:
+      controls: true
+      volume: 0.5
+    src: null
+    ownership:
+      default: -1
+      Dl5Tvf37OuEHwdAh: 3
+    flags: {}
+    _stats:
+      compendiumSource: null
+      duplicateSource: null
+      coreVersion: '12.331'
+      systemId: grimwild
+      systemVersion: 0.1.0
+      createdTime: null
+      modifiedTime: null
+      lastModifiedBy: null
+    _key: '!journal.pages!wGlm4Lnx2a9wQtKE.2tZSeSez8JaX7Klz'
+sort: 0
+ownership:
+  default: 0
+  Dl5Tvf37OuEHwdAh: 3
+flags: {}
+_stats:
+  compendiumSource: null
+  duplicateSource: null
+  coreVersion: '12.331'
+  systemId: grimwild
+  systemVersion: 0.1.0
+  createdTime: 1738510550844
+  modifiedTime: 1738510550844
+  lastModifiedBy: Dl5Tvf37OuEHwdAh
+categories: []
+_key: '!journal!wGlm4Lnx2a9wQtKE'
+

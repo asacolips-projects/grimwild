@@ -18,6 +18,7 @@ h2 {
 
 .dice {
   .die {
+    font-family: $font-dice;
     background: #444;
     background-image: none !important;
     border-radius: 2px;
@@ -25,7 +26,7 @@ h2 {
     margin-bottom: 4px;
     width: 24px;
     height: 24px;
-    line-height: 24px;
+    line-height: 28px;
   }
 
   .d8 {
@@ -34,7 +35,7 @@ h2 {
     position: relative;
     z-index: 1;
     height: 28px;
-    line-height: 28px;
+    line-height: 32px;
 
     &::before,
     &::after {
