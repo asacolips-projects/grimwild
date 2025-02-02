@@ -1,0 +1,70 @@
+name: Vantage
+_id: uLhjdcEsx67R7ADM
+pages:
+  - sort: 100000
+    name: Vantage
+    type: text
+    _id: ckHxupYkeqqhm5O4
+    system: {}
+    title:
+      show: true
+      level: 1
+    image: {}
+    text:
+      format: 1
+      content: >-
+        <div class="page" title="Page 16"><div class="layoutArea"><div
+        class="column"><p><span style="font-family:'Capito04VAR'">Your
+        character's frame of reference, the sum of your backstory, talents, and
+        the current fiction—everything on your sheet and what’s affecting you in
+        the story. When a question arises about what you can do, have, or know,
+        check it against your vantage: does it feel like a </span><span
+        style="font-family:'Capito04VARItalic'"><em><strong>given</strong></em></span><span
+        style="font-family:'Capito04VAR'">, a </span><span
+        style="font-family:'Capito04VARItalic'"><em><strong>stretch</strong></em></span><span
+        style="font-family:'Capito04VAR'">, or a </span><span
+        style="font-family:'Capito04VARItalic'"><em><strong>reach</strong></em></span><span
+        style="font-family:'Capito04VAR'">?</span></p><p><span
+        style="font-family:'Capito04VARItalic'"><em>A doctor can suture a wound,
+        a thief likely has a lockpick, but a farmer probably wouldn’t know an
+        actress.</em></span></p><p><span
+        style="font-family:'Capito04VAR'"><strong>Proper vantage</strong> opens
+        up possibilities and gives the freedom to declare story details. Lacking
+        it makes things more difficult, or even
+        impossible.</span></p><p></p></div></div></div>
+    video:
+      controls: true
+      volume: 0.5
+    src: null
+    ownership:
+      default: -1
+      Dl5Tvf37OuEHwdAh: 3
+    flags: {}
+    _stats:
+      compendiumSource: null
+      duplicateSource: null
+      coreVersion: '12.331'
+      systemId: grimwild
+      systemVersion: 0.1.0
+      createdTime: null
+      modifiedTime: null
+      lastModifiedBy: null
+    _key: '!journal.pages!uLhjdcEsx67R7ADM.ckHxupYkeqqhm5O4'
+folder: hq6AY2p3FBGieMa8
+sort: 100000
+ownership:
+  default: 0
+  Dl5Tvf37OuEHwdAh: 3
+flags: {}
+_stats:
+  compendiumSource: null
+  duplicateSource: null
+  coreVersion: '12.331'
+  systemId: grimwild
+  systemVersion: 0.1.0
+  createdTime: 1738366920378
+  modifiedTime: 1738366920378
+  lastModifiedBy: Dl5Tvf37OuEHwdAh
+categories: []
+_key: '!journal!uLhjdcEsx67R7ADM'
+

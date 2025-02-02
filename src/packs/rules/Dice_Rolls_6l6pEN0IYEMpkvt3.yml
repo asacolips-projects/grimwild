@@ -1,0 +1,20 @@
+name: Dice Rolls
+sorting: a
+folder: null
+type: JournalEntry
+_id: 6l6pEN0IYEMpkvt3
+description: ''
+sort: 100000
+color: null
+flags: {}
+_stats:
+  compendiumSource: null
+  duplicateSource: null
+  coreVersion: '12.331'
+  systemId: grimwild
+  systemVersion: 0.1.0
+  createdTime: 1738366917439
+  modifiedTime: 1738366917439
+  lastModifiedBy: Dl5Tvf37OuEHwdAh
+_key: '!folders!6l6pEN0IYEMpkvt3'
+

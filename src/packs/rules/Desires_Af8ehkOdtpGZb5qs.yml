@@ -1,0 +1,56 @@
+folder: vUGdoKGy7PZ2fdfW
+name: Desires
+_id: Af8ehkOdtpGZb5qs
+pages:
+  - sort: 100000
+    name: Desires
+    type: text
+    _id: u3Qrg8FYuJyzJ49h
+    system: {}
+    title:
+      show: true
+      level: 1
+    image: {}
+    text:
+      format: 1
+      content: >-
+        <div class="page" title="Page 16"><div class="layoutArea"><div
+        class="column"><p><span style="font-family:'Capito04VAR'">Choose 2 that
+        you strongly desire and 1 that you don’t at all. </span><span
+        style="font-family:'Capito04VARItalic'"><em>Love and thrills, not
+        wealth.</em></span></p></div></div></div>
+    video:
+      controls: true
+      volume: 0.5
+    src: null
+    ownership:
+      default: -1
+      Dl5Tvf37OuEHwdAh: 3
+    flags: {}
+    _stats:
+      compendiumSource: null
+      duplicateSource: null
+      coreVersion: '12.331'
+      systemId: grimwild
+      systemVersion: 0.1.0
+      createdTime: null
+      modifiedTime: null
+      lastModifiedBy: null
+    _key: '!journal.pages!Af8ehkOdtpGZb5qs.u3Qrg8FYuJyzJ49h'
+sort: 0
+ownership:
+  default: 0
+  Dl5Tvf37OuEHwdAh: 3
+flags: {}
+_stats:
+  compendiumSource: null
+  duplicateSource: null
+  coreVersion: '12.331'
+  systemId: grimwild
+  systemVersion: 0.1.0
+  createdTime: 1738366915122
+  modifiedTime: 1738366915122
+  lastModifiedBy: Dl5Tvf37OuEHwdAh
+categories: []
+_key: '!journal!Af8ehkOdtpGZb5qs'
+

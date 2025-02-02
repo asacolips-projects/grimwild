@@ -1,0 +1,62 @@
+name: Teamwork
+_id: rgsG8FOLM9I27ZH1
+pages:
+  - sort: 100000
+    name: Teamwork
+    type: text
+    _id: UPAi7vxXH0zaCIgG
+    system: {}
+    title:
+      show: true
+      level: 1
+    image: {}
+    text:
+      format: 1
+      content: >-
+        <div class="page" title="Page 14"><div class="layoutArea"><div
+        class="column"><p><span style="font-family:'Capito04VAR'">When 3+ PCs
+        work together, the GM picks who rolls the action—sometimes the most
+        skilled </span><span
+        style="font-family:'Capito04VARItalic'"><em>(lifting a
+        boulder)</em></span><span style="font-family:'Capito04VAR'">, sometimes
+        the least </span><span
+        style="font-family:'Capito04VARItalic'"><em>(sneaking
+        in)</em></span><span style="font-family:'Capito04VAR'">. The other PCs
+        </span>@UUID[Compendium.world.grimwild-glossary.JournalEntry.odkrgM4X8udAbLNN]{Assist}<span
+        style="font-family:'Capito04VAR'">.</span></p><p></p></div></div></div>
+    video:
+      controls: true
+      volume: 0.5
+    src: null
+    ownership:
+      default: -1
+      Dl5Tvf37OuEHwdAh: 3
+    flags: {}
+    _stats:
+      compendiumSource: null
+      duplicateSource: null
+      coreVersion: '12.331'
+      systemId: grimwild
+      systemVersion: 0.1.0
+      createdTime: null
+      modifiedTime: null
+      lastModifiedBy: null
+    _key: '!journal.pages!rgsG8FOLM9I27ZH1.UPAi7vxXH0zaCIgG'
+folder: p3IcETq9NG4OSRkx
+sort: 500000
+ownership:
+  default: 0
+  Dl5Tvf37OuEHwdAh: 3
+flags: {}
+_stats:
+  compendiumSource: null
+  duplicateSource: null
+  coreVersion: '12.331'
+  systemId: grimwild
+  systemVersion: 0.1.0
+  createdTime: 1738366919492
+  modifiedTime: 1738366919492
+  lastModifiedBy: Dl5Tvf37OuEHwdAh
+categories: []
+_key: '!journal!rgsG8FOLM9I27ZH1'
+

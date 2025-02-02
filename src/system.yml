@@ -83,6 +83,11 @@ packs:
     type: Macro
     path: packs/macros
     system: grimwild
+  - name: rules
+    label: Grimwild Rules
+    type: JournalEntry
+    path: packs/rules
+    system: grimwild
 packFolders: []
 
 socket: false

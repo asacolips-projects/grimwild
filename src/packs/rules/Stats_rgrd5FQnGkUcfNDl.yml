@@ -1,0 +1,79 @@
+folder: vUGdoKGy7PZ2fdfW
+name: Stats
+_id: rgrd5FQnGkUcfNDl
+pages:
+  - sort: 100000
+    name: Stats
+    type: text
+    _id: qyCoSxkOHtEIVMv3
+    system: {}
+    title:
+      show: true
+      level: 1
+    image: {}
+    text:
+      format: 1
+      content: >-
+        <div class="page" title="Page 16"><div class="layoutArea"><div
+        class="column"><p><span style="font-family:'Capito04VAR'">Your core
+        capabilities rated from 1/</span><span
+        style="font-family:'Capito04VARItalic'"><em>poor </em></span><span
+        style="font-family:'Capito04VAR'">to 3/</span><span
+        style="font-family:'Capito04VARItalic'"><em>great</em></span><span
+        style="font-family:'Capito04VAR'">, used for action and defense
+        rolls.</span></p></div></div><div class="layoutArea"><div
+        class="column"><p><span
+        style="font-family:'Capito04VAR-Light-SC850'"><strong>BRAWN
+        </strong></span><span style="font-family:'Capito04VARItalic'"><em>Power,
+        menace, toughness. </em></span></p><p><span
+        style="font-family:'Capito04VAR-Light-SC850'"><strong>AGILITY</strong>
+        </span><span style="font-family:'Capito04VARItalic'"><em>Precision,
+        athletics, reflexes.</em></span></p><p><span
+        style="font-family:'Capito04VAR-Light-SC850'"><strong>WITS</strong>
+        </span><span style="font-family:'Capito04VARItalic'"><em>Smarts,
+        trickery, reading situations. </em></span></p><p><span
+        style="font-family:'Capito04VAR-Light-SC850'"><strong>PRESENCE
+        </strong></span><span
+        style="font-family:'Capito04VARItalic'"><em>Influence, willpower,
+        reading people.</em></span></p></div><div class="column"><p><span
+        style="font-family:'SegoeUIEmoji'">◆ </span><span
+        style="font-family:'Capito04VAR'">Brawn and Agility are paired
+        <strong>physical</strong> stats. </span></p><p><span
+        style="font-family:'SegoeUIEmoji'">◆ </span><span
+        style="font-family:'Capito04VAR'">Wits and Presence are paired
+        <strong>mental</strong> stats.</span></p></div></div></div>
+    video:
+      controls: true
+      volume: 0.5
+    src: null
+    ownership:
+      default: -1
+      Dl5Tvf37OuEHwdAh: 3
+    flags: {}
+    _stats:
+      compendiumSource: null
+      duplicateSource: null
+      coreVersion: '12.331'
+      systemId: grimwild
+      systemVersion: 0.1.0
+      createdTime: null
+      modifiedTime: null
+      lastModifiedBy: null
+    _key: '!journal.pages!rgrd5FQnGkUcfNDl.qyCoSxkOHtEIVMv3'
+sort: 0
+ownership:
+  default: 0
+  Dl5Tvf37OuEHwdAh: 3
+flags: {}
+_stats:
+  compendiumSource: null
+  duplicateSource: null
+  coreVersion: '12.331'
+  systemId: grimwild
+  systemVersion: 0.1.0
+  createdTime: 1738366915122
+  modifiedTime: 1738366915122
+  lastModifiedBy: Dl5Tvf37OuEHwdAh
+categories: []
+_key: '!journal!rgrd5FQnGkUcfNDl'
+

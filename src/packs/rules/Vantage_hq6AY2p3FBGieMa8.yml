@@ -1,0 +1,20 @@
+name: Vantage
+sorting: a
+folder: null
+type: JournalEntry
+_id: hq6AY2p3FBGieMa8
+description: ''
+sort: 100000
+color: null
+flags: {}
+_stats:
+  compendiumSource: null
+  duplicateSource: null
+  coreVersion: '12.331'
+  systemId: grimwild
+  systemVersion: 0.1.0
+  createdTime: 1738366920370
+  modifiedTime: 1738366920389
+  lastModifiedBy: Dl5Tvf37OuEHwdAh
+_key: '!folders!hq6AY2p3FBGieMa8'
+

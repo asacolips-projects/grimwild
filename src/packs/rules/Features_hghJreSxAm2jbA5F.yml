@@ -1,0 +1,55 @@
+folder: vUGdoKGy7PZ2fdfW
+name: Features
+_id: hghJreSxAm2jbA5F
+pages:
+  - sort: 100000
+    name: Features
+    type: text
+    _id: NYUgq2t9qrQNpGyJ
+    system: {}
+    title:
+      show: true
+      level: 1
+    image: {}
+    text:
+      format: 1
+      content: >-
+        <div class="page" title="Page 16"><div class="layoutArea"><div
+        class="column"><p><span style="font-family:'Capito04VAR'">Detail your 3
+        most distinctive, outward features that others quickly
+        notice.</span></p></div></div></div>
+    video:
+      controls: true
+      volume: 0.5
+    src: null
+    ownership:
+      default: -1
+      Dl5Tvf37OuEHwdAh: 3
+    flags: {}
+    _stats:
+      compendiumSource: null
+      duplicateSource: null
+      coreVersion: '12.331'
+      systemId: grimwild
+      systemVersion: 0.1.0
+      createdTime: null
+      modifiedTime: null
+      lastModifiedBy: null
+    _key: '!journal.pages!hghJreSxAm2jbA5F.NYUgq2t9qrQNpGyJ'
+sort: 0
+ownership:
+  default: 0
+  Dl5Tvf37OuEHwdAh: 3
+flags: {}
+_stats:
+  compendiumSource: null
+  duplicateSource: null
+  coreVersion: '12.331'
+  systemId: grimwild
+  systemVersion: 0.1.0
+  createdTime: 1738366915122
+  modifiedTime: 1738366915122
+  lastModifiedBy: Dl5Tvf37OuEHwdAh
+categories: []
+_key: '!journal!hghJreSxAm2jbA5F'
+

@@ -1,0 +1,66 @@
+name: Assist
+_id: odkrgM4X8udAbLNN
+pages:
+  - sort: 100000
+    name: Assist
+    type: text
+    _id: QWuXJGv9XSzUVuRj
+    system: {}
+    title:
+      show: true
+      level: 1
+    image: {}
+    text:
+      format: 1
+      content: >-
+        <div class="page" title="Page 14"><div class="layoutArea"><div
+        class="column"><p><span style="font-family:'Capito04VAR'">Help another
+        PC on a roll. State <strong>how &amp; why</strong>, then </span><span
+        style="font-family:'Capito04VARItalic'"><em><strong>roll 1d and share
+        the risk</strong></em></span><span style="font-family:'Capito04VAR'">.
+        Include your roll result with theirs for the final outcome—then each
+        narrate your contribution, using your own result and bonds as a
+        guide.</span></p><p><span
+        style="font-family:'Capito04VARItalic'"><em><strong>You can assist when
+        another PC's action prompts an impact move</strong></em></span><span
+        style="font-family:'Capito04VAR'">. You make a 1d defense roll for
+        them.</span></p><p><span style="font-family:'Capito04VAR'">When you
+        <strong>share the risk</strong>, you open yourself up to consequences,
+        which can prompt a more pow- erful or additional impact move, or the GM
+        can take suspense instead.</span></p></div></div></div>
+    video:
+      controls: true
+      volume: 0.5
+    src: null
+    ownership:
+      default: -1
+      Dl5Tvf37OuEHwdAh: 3
+    flags: {}
+    _stats:
+      compendiumSource: null
+      duplicateSource: null
+      coreVersion: '12.331'
+      systemId: grimwild
+      systemVersion: 0.1.0
+      createdTime: null
+      modifiedTime: null
+      lastModifiedBy: null
+    _key: '!journal.pages!odkrgM4X8udAbLNN.QWuXJGv9XSzUVuRj'
+folder: p3IcETq9NG4OSRkx
+sort: 100000
+ownership:
+  default: 0
+  Dl5Tvf37OuEHwdAh: 3
+flags: {}
+_stats:
+  compendiumSource: null
+  duplicateSource: null
+  coreVersion: '12.331'
+  systemId: grimwild
+  systemVersion: 0.1.0
+  createdTime: 1738366919492
+  modifiedTime: 1738366919492
+  lastModifiedBy: Dl5Tvf37OuEHwdAh
+categories: []
+_key: '!journal!odkrgM4X8udAbLNN'
+

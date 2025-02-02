@@ -1,0 +1,65 @@
+name: Montage Roll
+_id: hHy0ajd300aDAWxm
+pages:
+  - sort: 100000
+    name: Montage Roll
+    type: text
+    _id: wdEZxKEjbS016eLZ
+    system: {}
+    title:
+      show: true
+      level: 1
+    image: {}
+    text:
+      format: 1
+      content: >-
+        <div class="page" title="Page 15"><div class="layoutArea"><div
+        class="column"><p><span style="font-family:'Capito04VAR'">Roll to
+        condense a sequence you don’t want to play out in detail, but still want
+        to leave up to the dice. </span><span
+        style="font-family:'Capito04VARItalic'"><em><strong>Roll
+        2d</strong></em></span><span style="font-family:'Capito04VAR'">,
+        resolving it all as a single action roll, then narrate a few beats. Keep
+        things moving or zoom in on a grim.</span></p><p><span
+        style="font-family:'Capito04VAR'">If multiple PCs join, </span><span
+        style="font-family:'Capito04VARItalic'"><em><strong>each rolls 2d and
+        shares the risk</strong></em></span><span
+        style="font-family:'Capito04VAR'">. Collaborate on the results. 6s on
+        separate rolls don’t count towards
+        criticals.</span></p></div></div></div>
+    video:
+      controls: true
+      volume: 0.5
+    src: null
+    ownership:
+      default: -1
+      Dl5Tvf37OuEHwdAh: 3
+    flags: {}
+    _stats:
+      compendiumSource: null
+      duplicateSource: null
+      coreVersion: '12.331'
+      systemId: grimwild
+      systemVersion: 0.1.0
+      createdTime: null
+      modifiedTime: null
+      lastModifiedBy: null
+    _key: '!journal.pages!hHy0ajd300aDAWxm.wdEZxKEjbS016eLZ'
+folder: 6l6pEN0IYEMpkvt3
+sort: 200000
+ownership:
+  default: 0
+  Dl5Tvf37OuEHwdAh: 3
+flags: {}
+_stats:
+  compendiumSource: null
+  duplicateSource: null
+  coreVersion: '12.331'
+  systemId: grimwild
+  systemVersion: 0.1.0
+  createdTime: 1738366917449
+  modifiedTime: 1738366917449
+  lastModifiedBy: Dl5Tvf37OuEHwdAh
+categories: []
+_key: '!journal!hHy0ajd300aDAWxm'
+

@@ -1,0 +1,59 @@
+name: Spark
+_id: jfAL6eh3f03OfuY3
+pages:
+  - sort: 100000
+    name: Spark
+    type: text
+    _id: 8CclyXO0BW7bYoUE
+    system: {}
+    title:
+      show: true
+      level: 1
+    image: {}
+    text:
+      format: 1
+      content: >-
+        <div class="page" title="Page 14"><div class="layoutArea"><div
+        class="column"><p><span style="font-family:'Capito04VARItalic'"><em>Pure
+        protagonist energy</em></span><span style="font-family:'Capito04VAR'">.
+        </span><span style="font-family:'Capito04VARItalic'"><em><strong>Take
+        spark</strong> </em></span><span style="font-family:'Capito04VAR'">when
+        you add a tangle, roll a disaster, resolve a story arc, or quarrel.
+        </span><span style="font-family:'Capito04VARItalic'"><em><strong>Spend
+        it to take +1d on a roll.</strong></em></span></p></div></div></div>
+    video:
+      controls: true
+      volume: 0.5
+    src: null
+    ownership:
+      default: -1
+      Dl5Tvf37OuEHwdAh: 3
+    flags: {}
+    _stats:
+      compendiumSource: null
+      duplicateSource: null
+      coreVersion: '12.331'
+      systemId: grimwild
+      systemVersion: 0.1.0
+      createdTime: null
+      modifiedTime: null
+      lastModifiedBy: null
+    _key: '!journal.pages!jfAL6eh3f03OfuY3.8CclyXO0BW7bYoUE'
+folder: x1tiKY3tWsedvhBe
+sort: 300000
+ownership:
+  default: 0
+  Dl5Tvf37OuEHwdAh: 3
+flags: {}
+_stats:
+  compendiumSource: null
+  duplicateSource: null
+  coreVersion: '12.331'
+  systemId: grimwild
+  systemVersion: 0.1.0
+  createdTime: 1738366916457
+  modifiedTime: 1738366916457
+  lastModifiedBy: Dl5Tvf37OuEHwdAh
+categories: []
+_key: '!journal!jfAL6eh3f03OfuY3'
+

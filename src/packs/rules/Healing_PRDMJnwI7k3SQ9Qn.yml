@@ -1,0 +1,73 @@
+folder: G9jADnKz2hd077Ex
+name: Healing
+_id: PRDMJnwI7k3SQ9Qn
+pages:
+  - sort: 100000
+    name: Healing
+    type: text
+    _id: BFMt1gP0f3urgdJO
+    system: {}
+    title:
+      show: true
+      level: 1
+    image: {}
+    text:
+      format: 1
+      content: >-
+        <div class="page" title="Page 18"><div class="layoutArea"><div
+        class="column"><p><span
+        style="font-family:'Capito04VARItalic'"><em><strong>When you get
+        bloodied or rattled, start a 4d pool</strong> </em></span><span
+        style="font-family:'Capito04VAR'">to track its healing. When you
+        <strong>heal</strong> harm from rest, treatment, or another source, roll
+        the pool. At 0d, clear the harm. </span><span
+        style="font-family:'Capito04VARItalic'"><em><strong>Treatment</strong>
+        </em></span><span style="font-family:'Capito04VAR'">requires
+        </span><span
+        style="font-family:'Capito04VARItalic'"><em>time</em></span><span
+        style="font-family:'Capito04VAR'">, </span><span
+        style="font-family:'Capito04VARItalic'"><em>tools</em></span><span
+        style="font-family:'Capito04VAR'">, </span><span
+        style="font-family:'Capito04VARItalic'"><em>training</em></span><span
+        style="font-family:'Capito04VAR'">, and carries risk, and each pool can
+        only benefit from treatment a single time.</span></p><p><span
+        style="font-family:'Capito04VARItalic'"><em><strong>Marks can't benefit
+        from treatment</strong></em></span><span
+        style="font-family:'Capito04VAR'">. They are light enough already that
+        only time heals them. They can only be cleared with rest, talents, or
+        rolling.</span></p></div></div></div>
+    video:
+      controls: true
+      volume: 0.5
+    src: null
+    ownership:
+      default: -1
+      Dl5Tvf37OuEHwdAh: 3
+    flags: {}
+    _stats:
+      compendiumSource: null
+      duplicateSource: null
+      coreVersion: '12.331'
+      systemId: grimwild
+      systemVersion: 0.1.0
+      createdTime: null
+      modifiedTime: null
+      lastModifiedBy: null
+    _key: '!journal.pages!PRDMJnwI7k3SQ9Qn.BFMt1gP0f3urgdJO'
+sort: 0
+ownership:
+  default: 0
+  Dl5Tvf37OuEHwdAh: 3
+flags: {}
+_stats:
+  compendiumSource: null
+  duplicateSource: null
+  coreVersion: '12.331'
+  systemId: grimwild
+  systemVersion: 0.1.0
+  createdTime: 1738510552165
+  modifiedTime: 1738510552165
+  lastModifiedBy: Dl5Tvf37OuEHwdAh
+categories: []
+_key: '!journal!PRDMJnwI7k3SQ9Qn'
+

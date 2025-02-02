@@ -1,0 +1,76 @@
+folder: 77L6EaT58DF6hYDr
+name: Tangles
+_id: zyFQU71s311j9gzi
+pages:
+  - sort: 100000
+    name: Tangles
+    type: text
+    _id: xR638nN2kin6k4xX
+    system: {}
+    title:
+      show: true
+      level: 1
+    image: {}
+    text:
+      format: 1
+      content: >-
+        <div class="page" title="Page 17"><div class="layoutArea"><div
+        class="column"><p><span
+        style="font-family:'Capito04VAR'">Character-driven complications you
+        introduce into a scene and have to follow-up on. In return, you take
+        spark. Tangles must stem from your vantage or story arcs and always have
+        an immediate impact, like an action roll, an option closing off, or
+        forcing inaction at an important moment. These are things
+        like:</span></p><p><span style="font-family:'SegoeUIEmoji'">◆
+        </span><span style="font-family:'Capito04VARItalic'"><em><strong>Unwise
+        decisions</strong> </em></span><span
+        style="font-family:'Capito04VAR'">your PC would likely make.
+        </span></p><p><span style="font-family:'Capito04VARItalic'"><em>You toss
+        aside your sword to keep things fair.</em></span></p><p><span
+        style="font-family:'SegoeUIEmoji'">◆ </span><span
+        style="font-family:'Capito04VARItalic'"><em><strong>Personal
+        motivations</strong> </em></span><span
+        style="font-family:'Capito04VAR'">over group goals.<br /></span><span
+        style="font-family:'Capito04VARItalic'"><em>You poison the general's
+        wine, getting your revenge.</em></span></p><p><span
+        style="font-family:'SegoeUIEmoji'">◆ </span><span
+        style="font-family:'Capito04VARItalic'"><em><strong>Complications</strong>
+        </em></span><span style="font-family:'Capito04VAR'">from beliefs or
+        backstory. </span></p><p><span
+        style="font-family:'Capito04VARItalic'"><em>You forgot to tell everyone
+        you dated the baron.</em></span></p></div></div></div>
+    video:
+      controls: true
+      volume: 0.5
+    src: null
+    ownership:
+      default: -1
+      Dl5Tvf37OuEHwdAh: 3
+    flags: {}
+    _stats:
+      compendiumSource: null
+      duplicateSource: null
+      coreVersion: '12.331'
+      systemId: grimwild
+      systemVersion: 0.1.0
+      createdTime: null
+      modifiedTime: null
+      lastModifiedBy: null
+    _key: '!journal.pages!zyFQU71s311j9gzi.xR638nN2kin6k4xX'
+sort: 0
+ownership:
+  default: 0
+  Dl5Tvf37OuEHwdAh: 3
+flags: {}
+_stats:
+  compendiumSource: null
+  duplicateSource: null
+  coreVersion: '12.331'
+  systemId: grimwild
+  systemVersion: 0.1.0
+  createdTime: 1738510547562
+  modifiedTime: 1738510547562
+  lastModifiedBy: Dl5Tvf37OuEHwdAh
+categories: []
+_key: '!journal!zyFQU71s311j9gzi'
+

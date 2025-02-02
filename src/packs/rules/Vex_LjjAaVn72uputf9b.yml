@@ -1,0 +1,79 @@
+folder: x6w85f8sAHMiKcbw
+name: Vex
+_id: LjjAaVn72uputf9b
+pages:
+  - sort: 100000
+    name: Vex
+    type: text
+    _id: 5cCe9E0toE6GOgUH
+    system: {}
+    title:
+      show: true
+      level: 1
+    image: {}
+    text:
+      format: 1
+      content: >-
+        <div class="page" title="Page 18"><div class="layoutArea"><div
+        class="column"><p><span style="font-family:'Capito04VAR'">An intense
+        flash of emotion like </span><span
+        style="font-family:'Capito04VARItalic'"><em>anger</em></span><span
+        style="font-family:'Capito04VAR'">, </span><span
+        style="font-family:'Capito04VARItalic'"><em>fear</em></span><span
+        style="font-family:'Capito04VAR'">, or </span><span
+        style="font-family:'Capito04VARItalic'"><em>confusion</em></span><span
+        style="font-family:'Capito04VAR'">. Vex is inflicted as a consequence,
+        sometimes in addition to a mark or harm. </span><span
+        style="font-family:'Capito04VARItalic'"><em><strong>You can also spend
+        spark to take vex in place of rattled</strong></em></span><span
+        style="font-family:'Capito04VAR'">, if it fits the situation. Vex
+        prompts an immediate, instinctive response. Choose
+        one:</span></p><table><tbody><tr><td><p
+        style="text-align:center"><em>Fight</em></p></td><td><p
+        style="text-align:center"><em>Flight</em></p></td><td><p
+        style="text-align:center"><em>Freeze</em></p></td><td><p
+        style="text-align:center"><em>Freakout</em></p></td></tr></tbody></table><p><span
+        style="font-family:'Capito04VAR'">Interpret the response. Your PC is
+        </span><span style="font-family:'Capito04VARItalic'"><em>driven by
+        emotion</em></span><span style="font-family:'Capito04VAR'">, but you
+        decide how it plays out. Aim to balance what's fun and what fits the
+        story. </span><span
+        style="font-family:'Capito04VARItalic'"><em><strong>If there's a
+        follow-up roll, take +1t on it</strong></em></span><span
+        style="font-family:'Capito04VAR'">. After the response, which always
+        takes a beat or two, the vex clears.</span></p></div></div></div>
+    video:
+      controls: true
+      volume: 0.5
+    src: null
+    ownership:
+      default: -1
+      Dl5Tvf37OuEHwdAh: 3
+    flags: {}
+    _stats:
+      compendiumSource: null
+      duplicateSource: null
+      coreVersion: '12.331'
+      systemId: grimwild
+      systemVersion: 0.1.0
+      createdTime: null
+      modifiedTime: null
+      lastModifiedBy: null
+    _key: '!journal.pages!LjjAaVn72uputf9b.5cCe9E0toE6GOgUH'
+sort: 0
+ownership:
+  default: 0
+  Dl5Tvf37OuEHwdAh: 3
+flags: {}
+_stats:
+  compendiumSource: null
+  duplicateSource: null
+  coreVersion: '12.331'
+  systemId: grimwild
+  systemVersion: 0.1.0
+  createdTime: 1738510549034
+  modifiedTime: 1738510549034
+  lastModifiedBy: Dl5Tvf37OuEHwdAh
+categories: []
+_key: '!journal!LjjAaVn72uputf9b'
+

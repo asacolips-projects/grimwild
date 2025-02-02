@@ -1,0 +1,88 @@
+folder: x6w85f8sAHMiKcbw
+name: Harm
+_id: kAGyEflDClkS3viS
+pages:
+  - sort: 100000
+    name: Harm
+    type: text
+    _id: XxShjzFmJXEztxOa
+    system: {}
+    title:
+      show: true
+      level: 1
+    image: {}
+    text:
+      format: 1
+      content: >-
+        <div class="page" title="Page 18"><div class="layoutArea"><div
+        class="column"><p><span style="font-family:'Capito04VAR'">A hard hit to
+        your mind or body, general damage that doesn't need to be tracked in
+        detail. </span><span
+        style="font-family:'Capito04VARItalic'"><em><strong>This is the default
+        damage from an impact move</strong></em></span><span
+        style="font-family:'Capito04VAR'">.</span></p><p><span
+        style="font-family:'SegoeUIEmoji'">◆ </span><span
+        style="font-family:'Capito04VAR'">Physical damage leaves you
+        <strong>bloodied</strong>. </span></p><p><span
+        style="font-family:'SegoeUIEmoji'">◆ </span><span
+        style="font-family:'Capito04VAR'">Mental damage leaves you
+        <strong>rattled</strong>.</span></p><p><span
+        style="font-family:'Capito04VARItalic'"><em><strong>Bloodied and rattled
+        each inflict +1t on all rolls</strong></em></span><span
+        style="font-family:'Capito04VAR'">. However, when you have harm, you
+        ignore thorns from marks to the related stats, though the marks don't
+        clear on the roll. Getting bloodied or rattled a second time leaves you
+        <strong>dropped</strong>—you're out of the scene. Make a story roll
+        (</span><span style="font-family:'Capito04VARItalic'"><em>usually
+        2d</em></span><span style="font-family:'Capito04VAR'">) to see if you're
+        just out temporarily, take a condition </span><span
+        style="font-family:'Capito04VARItalic'"><em>(4d dying, broken
+        leg)</em></span><span style="font-family:'Capito04VAR'">, or wind up
+        dead.</span></p><p><span style="font-family:'Capito04VAR'">Although
+        bloodied and rattled are the default, especially dangerous attacks with
+        <strong>high risk</strong> can lead straight to dropped, while
+        <strong>low risk</strong> situations might leave you with a mark by
+        default.</span></p><p><span style="font-family:'Capito04VAR'">A messy
+        defense roll leaves you with lesser damage </span><span
+        style="font-family:'Capito04VARItalic'"><em>(dropped</em></span><span
+        style="font-family:'SegoeUIEmoji'">→</span><span
+        style="font-family:'Capito04VARItalic'"><em>bloodied,
+        rattled</em></span><span
+        style="font-family:'SegoeUIEmoji'">→</span><span
+        style="font-family:'Capito04VARItalic'"><em>mark)</em></span><span
+        style="font-family:'Capito04VAR'">.</span></p></div></div></div>
+    video:
+      controls: true
+      volume: 0.5
+    src: null
+    ownership:
+      default: -1
+      Dl5Tvf37OuEHwdAh: 3
+    flags: {}
+    _stats:
+      compendiumSource: null
+      duplicateSource: null
+      coreVersion: '12.331'
+      systemId: grimwild
+      systemVersion: 0.1.0
+      createdTime: null
+      modifiedTime: null
+      lastModifiedBy: null
+    _key: '!journal.pages!kAGyEflDClkS3viS.XxShjzFmJXEztxOa'
+sort: 0
+ownership:
+  default: 0
+  Dl5Tvf37OuEHwdAh: 3
+flags: {}
+_stats:
+  compendiumSource: null
+  duplicateSource: null
+  coreVersion: '12.331'
+  systemId: grimwild
+  systemVersion: 0.1.0
+  createdTime: 1738510549034
+  modifiedTime: 1738510549034
+  lastModifiedBy: Dl5Tvf37OuEHwdAh
+categories: []
+_key: '!journal!kAGyEflDClkS3viS'
+

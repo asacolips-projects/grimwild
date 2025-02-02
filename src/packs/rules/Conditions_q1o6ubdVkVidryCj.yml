@@ -1,0 +1,82 @@
+folder: x6w85f8sAHMiKcbw
+name: Conditions
+_id: q1o6ubdVkVidryCj
+pages:
+  - sort: 100000
+    name: Conditions
+    type: text
+    _id: kS4wWtSckfZByqcB
+    system: {}
+    title:
+      show: true
+      level: 1
+    image: {}
+    text:
+      format: 1
+      content: >-
+        <div class="page" title="Page 18"><div class="layoutArea"><div
+        class="column"><p><span style="font-family:'Capito04VAR'">Specific
+        injuries or maladies that impact only relevant situations and are often
+        lasting. They sometimes come alongside harm or a mark </span><span
+        style="font-family:'Capito04VARItalic'"><em>(rattled + broken
+        heart)</em></span><span style="font-family:'Capito04VAR'">, and can
+        be:</span></p><p><span style="font-family:'SegoeUIEmoji'">◆ </span><span
+        style="font-family:'Capito04VARItalic'"><em><strong>Urgent.</strong> 4d
+        bleeding out, 6d losing your mind.<br /></em></span><span
+        style="font-family:'SegoeUIEmoji'">◆ </span><span
+        style="font-family:'Capito04VARItalic'"><em><strong>Short-term.</strong>
+        Twisted ankle, drunk.<br /></em></span><span
+        style="font-family:'SegoeUIEmoji'">◆ </span><span
+        style="font-family:'Capito04VARItalic'"><em><strong>Long-term.</strong>
+        Broken arm, a deep hatred.<br /></em></span><span
+        style="font-family:'SegoeUIEmoji'">◆ </span><span
+        style="font-family:'Capito04VARItalic'"><em><strong>Permanent.</strong>
+        Gouged out eye, insanity.</em></span></p><p><span
+        style="font-family:'Capito04VARItalic'"><em><strong>Take +1t when a
+        condition specifically hinders a roll</strong>. </em></span><span
+        style="font-family:'Capito04VAR'">It can also make an attempt
+        impossible.</span></p><p><span
+        style="font-family:'Capito04VAR'">Conditions clear when it makes sense,
+        like after a scene, with rest, or when a pool tracking them depletes.
+        They may also require treatment or another specific method to clear
+        them.</span></p><p><span
+        style="font-family:'Capito04VARItalic'"><em><strong>You have the final
+        say on long-term and permanent conditions</strong></em></span><span
+        style="font-family:'Capito04VAR'">. When you take one, work with the GM
+        to find a good fit for your PC and the
+        situation.</span></p></div></div></div>
+    video:
+      controls: true
+      volume: 0.5
+    src: null
+    ownership:
+      default: -1
+      Dl5Tvf37OuEHwdAh: 3
+    flags: {}
+    _stats:
+      compendiumSource: null
+      duplicateSource: null
+      coreVersion: '12.331'
+      systemId: grimwild
+      systemVersion: 0.1.0
+      createdTime: null
+      modifiedTime: null
+      lastModifiedBy: null
+    _key: '!journal.pages!q1o6ubdVkVidryCj.kS4wWtSckfZByqcB'
+sort: 0
+ownership:
+  default: 0
+  Dl5Tvf37OuEHwdAh: 3
+flags: {}
+_stats:
+  compendiumSource: null
+  duplicateSource: null
+  coreVersion: '12.331'
+  systemId: grimwild
+  systemVersion: 0.1.0
+  createdTime: 1738510549034
+  modifiedTime: 1738510549034
+  lastModifiedBy: Dl5Tvf37OuEHwdAh
+categories: []
+_key: '!journal!q1o6ubdVkVidryCj'
+

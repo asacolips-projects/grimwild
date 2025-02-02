@@ -1,0 +1,20 @@
+name: Teamwork
+sorting: a
+folder: null
+type: JournalEntry
+_id: p3IcETq9NG4OSRkx
+description: ''
+sort: 100000
+color: null
+flags: {}
+_stats:
+  compendiumSource: null
+  duplicateSource: null
+  coreVersion: '12.331'
+  systemId: grimwild
+  systemVersion: 0.1.0
+  createdTime: 1738366919483
+  modifiedTime: 1738366919505
+  lastModifiedBy: Dl5Tvf37OuEHwdAh
+_key: '!folders!p3IcETq9NG4OSRkx'
+

@@ -1,0 +1,71 @@
+folder: 9seG8V3dqcMX06FZ
+name: Post-Session XP
+_id: chv8SY8X02QeBXk6
+pages:
+  - sort: 100000
+    name: Post-Session XP
+    type: text
+    _id: 1usTgocyWqInt2xE
+    system: {}
+    title:
+      show: true
+      level: 1
+    image: {}
+    text:
+      format: 1
+      content: >-
+        <div class="page" title="Page 19"><div class="layoutArea"><div
+        class="column"><p><span style="font-family:'Capito04VAR'">After each
+        session, </span><span
+        style="font-family:'Capito04VARItalic'"><em><strong>take 1 XP</strong>
+        </em></span><span style="font-family:'Capito04VAR'">and fill in its box.
+        You start at level 1 and advance when you fill boxes equal to the next
+        level </span><span style="font-family:'Capito04VARItalic'"><em>(Lvl.
+        4</em></span><span style="font-family:'SegoeUIEmoji'">→</span><span
+        style="font-family:'Capito04VARItalic'"><em>5 = 5 more
+        boxes)</em></span><span style="font-family:'Capito04VAR'">. This lets
+        you choose a </span><span
+        style="font-family:'Capito04VARItalic'"><em><strong>new
+        talent</strong></em></span><span
+        style="font-family:'Capito04VAR'">.</span></p><p><span
+        style="font-family:'Capito04VARItalic'"><em><strong>The GM can award 1
+        bonus XP for a standout session</strong> </em></span><span
+        style="font-family:'Capito04VAR'">(</span><span
+        style="font-family:'Capito04VARItalic'"><em>about 1 in
+        4</em></span><span style="font-family:'Capito04VAR'">). For a slower
+        pace, slash each XP box before filling it.</span></p></div></div></div>
+    video:
+      controls: true
+      volume: 0.5
+    src: null
+    ownership:
+      default: -1
+      Dl5Tvf37OuEHwdAh: 3
+    flags: {}
+    _stats:
+      compendiumSource: null
+      duplicateSource: null
+      coreVersion: '12.331'
+      systemId: grimwild
+      systemVersion: 0.1.0
+      createdTime: null
+      modifiedTime: null
+      lastModifiedBy: null
+    _key: '!journal.pages!chv8SY8X02QeBXk6.1usTgocyWqInt2xE'
+sort: 0
+ownership:
+  default: 0
+  Dl5Tvf37OuEHwdAh: 3
+flags: {}
+_stats:
+  compendiumSource: null
+  duplicateSource: null
+  coreVersion: '12.331'
+  systemId: grimwild
+  systemVersion: 0.1.0
+  createdTime: 1738510545972
+  modifiedTime: 1738510545972
+  lastModifiedBy: Dl5Tvf37OuEHwdAh
+categories: []
+_key: '!journal!chv8SY8X02QeBXk6'
+
