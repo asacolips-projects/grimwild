@@ -58,14 +58,21 @@ export class GrimwildActorSheetVue extends VueRenderingMixin(GrimwildBaseVueActo
 	 */
 	_onRender(context, options) {
 		super._onRender(context, options);
-		// @todo can we attach this to the frame for better performance?
+		// @todo figure out how to attach this to the application frame rather than
+		// using render key to prevent redundant events.
 		// Custom listeners.
-		const changeElements = this.element.querySelectorAll('[data-action-change]');
-		changeElements.forEach((element) => {
-			element.addEventListener('change', (event) => {
-				this._updateTalentResource(event, event.currentTarget ?? event.target);
-			})
-		});
+		if (this._renderKey < 2) {
+			const changeElements = this.element.querySelectorAll('[data-action-change]');
+			changeElements.forEach((element) => {
+				element.addEventListener('change', (event) => {
+					this.options.actions.updateTalentResource.call(
+						this,
+						event,
+						event.currentTarget ?? event.target
+					);
+				})
+			});
+		}
 	}
 
 	async _prepareContext(options) {
@@ -308,7 +315,7 @@ export class GrimwildActorSheetVue extends VueRenderingMixin(GrimwildBaseVueActo
 	 * @param {HTMLElement} target The capturing HTML element which defined a [data-action]
 	 * @private
 	 */
-	async _updateTalentResource(event, target) {
+	static async _updateTalentResource(event, target) {
 		event.preventDefault();
 		// Retrieve props.
 		const {
@@ -321,6 +328,11 @@ export class GrimwildActorSheetVue extends VueRenderingMixin(GrimwildBaseVueActo
 
 		// Only push an update if we need one. Assume we don't.
 		let changes = false;
+
+		console.log({
+			itemId,
+			resourceKey,
+		});
 
 		// Retrieve the item and resource.
 		const item = this.document.items.get(itemId);
