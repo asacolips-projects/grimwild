@@ -58,7 +58,7 @@
   // Control Buttons
   .item-controls {
     display: flex;
-    flex: 0 0 100px;
+    flex: 0 0 60px;
     justify-content: flex-end;
     a {
       font-size: 12px;
@@ -72,18 +72,43 @@
     align-items: center;
     padding: 0 2px; // to align with the header border
     border-bottom: 1px solid $c-faint;
+
     &:last-child { border-bottom: none; }
+
     .item-name {
       color: $c-dark;
+      cursor: pointer;
+
+      &:hover {
+        color: #ffffff;
+      }
+
       .item-image {
-        flex: 0 0 30px;
-        height: 30px;
+        // flex: 0 0 30px;
+        // height: 30px;
         background-size: 30px;
         border: none;
         margin-right: 5px;
       }
     }
   }
+
+  // @see https://keithjgrant.com/posts/2023/04/transitioning-to-height-auto/
+  // Start height animation styling. -------------------
+  .item-description-wrapper {
+    display: grid;
+    grid-template-rows: 0fr;
+    transition: grid-template-rows 0.25s ease-in-out;
+  }
+
+  .item.active .item-description-wrapper {
+    grid-template-rows: 1fr;
+  }
+
+  .item-description {
+    overflow: hidden;
+  }
+  // End height animation styling. ---------------------
 
   .item-prop {
     text-align: center;

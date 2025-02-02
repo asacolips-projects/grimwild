@@ -5,6 +5,7 @@ import { GrimwildItem } from "./documents/item.mjs";
 import { GrimwildActorSheet } from "./sheets/actor-sheet.mjs";
 import { GrimwildActorSheetVue } from "./sheets/actor-sheet-vue.mjs";
 import { GrimwildItemSheet } from "./sheets/item-sheet.mjs";
+import { GrimwildItemSheetVue } from './sheets/item-sheet-vue.mjs';
 // Import helper/utility classes and constants.
 import { GRIMWILD } from "./helpers/config.mjs";
 import * as dice from "./dice/_module.mjs";
@@ -25,7 +26,9 @@ globalThis.grimwild = {
 	},
 	applications: {
 		GrimwildActorSheet,
+		GrimwildActorSheetVue,
 		GrimwildItemSheet,
+		GrimwildItemSheetVue,
 	},
 	utils: {
 		rollItemMacro
@@ -78,6 +81,11 @@ Hooks.once("init", function () {
 
 	// Register sheet application classes
 	Actors.unregisterSheet("core", ActorSheet);
+	Actors.registerSheet("grimwild", GrimwildActorSheet, {
+		makeDefault: true,
+		label: "Grimwild Fallback Sheet",
+		types: ["npc"]
+	})
 	Actors.registerSheet("grimwild", GrimwildActorSheetVue, {
 		makeDefault: true,
 		label: "GRIMWILD.SheetLabels.Actor",
@@ -87,6 +95,11 @@ Hooks.once("init", function () {
 	Items.registerSheet("grimwild", GrimwildItemSheet, {
 		makeDefault: true,
 		label: "GRIMWILD.SheetLabels.Item"
+	});
+	Items.registerSheet("grimwild", GrimwildItemSheetVue, {
+		makeDefault: false,
+		label: "Grimwild Vue Sheet",
+		types: ["talent"]
 	});
 
 	// Handlebars utilities.

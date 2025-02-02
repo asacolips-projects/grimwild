@@ -1,6 +1,7 @@
 <template>
 	<section class="grid grid-3col">
 		<ol class="items-list grid-span-3">
+			<!-- Header row -->
 			<li class="item flexrow items-header">
 				<div class="item-name">{{ game.i18n.localize('Name') }}</div>
 				<div class="item-controls">
@@ -11,40 +12,83 @@
 							data-document-class="Item"
 							data-type="talent"
 						>
-							<i class="fas fa-plus"></i>{{ game.i18n.format(`DOCUMENT.New`, {type: 'talent'}) }}
+							<i class="fas fa-plus"></i><span>Add</span>
 						</a>
 					</template>
 				</div>
 			</li>
+			<!-- Talent rows -->
 			<li v-for="(item, id) in context.itemTypes.talent" :key="id"
-				class="item talent flexrow"
+				:class="`item talent flexcol ${context.activeItems?.[item._id] ? 'active' : ''}`"
 				:data-item-id="item._id"
 				data-drag="true"
 				draggable="true"
 				data-document-class="Item"
 			>
-				<div class="item-name">
-					<div class="item-image">
-						<a class="rollable" data-roll-type="item" data-action="roll">
-							<img :src="item.img"
-								:title="item.name"
-								width="24"
-								height="24"
-							/>
-						</a>
+				<!-- Summary, always visible -->
+				<div class="item-summary flexrow">
+					<!-- Name and image -->
+					<div class="item-name">
+						<div class="item-image">
+							<a class="rollable" data-roll-type="item" data-action="roll">
+								<img :src="item.img"
+									:title="item.name"
+									width="24"
+									height="24"
+								/>
+							</a>
+						</div>
+						<div data-action="toggleItem" :data-item-id="item._id">{{ item.name }}</div>
 					</div>
-					<div>{{ item.name }}</div>
+					<!-- Resources -->
+					<div class="item-resources flexrow">
+						<!-- Resource -->
+						<template v-for="(resource, resourceKey) in item.system.resources" :key="resourceKey">
+							<div class="resource flexrow">
+								<!-- Resource label -->
+								<strong v-if="resource.label">{{ resource.label }}</strong>
+								<!-- Resource value. -->
+								<div class="resource-value">
+									<!-- Pools -->
+									<template v-if="resource.type === 'pool'">
+										[{{ resource.pool.diceNum }}d]
+									</template>
+									<!-- Points -->
+									<template v-if="resource.type === 'points'">
+										<!-- Checkbox points -->
+										<div v-if="resource.points.showSteps" class="resource-steps flexrow">
+											<template v-for="(num, i) in resource.points.max" :key="i">
+												<input type="checkbox" :checked="resource.points.value >= num" readonly />
+											</template>
+										</div>
+										<!-- Numeric points -->
+										<div v-else class="resource-value-numeric">{{ resource.points.value }} / {{ resource.points.max }}</div>
+									</template>
+								</div>
+							</div>
+						</template>
+					</div>
+					<div class="item-controls">
+						<a class="item-control item-edit"
+							:title="game.i18n.format('DOCUMENT.Edit', {type: 'talent'})"
+							data-action="viewDoc"
+						><i class="fas fa-edit"></i></a>
+						<a class="item-control item-delete"
+							v-if="context.editable"
+							:title="game.i18n.format('DOCUMENT.Delete', {type: 'talent'})"
+							data-action="deleteDoc"
+						><i class="fas fa-trash"></i></a>
+					</div>
 				</div>
-				<div class="item-controls">
-					<a class="item-control item-edit"
-						:title="game.i18n.format('DOCUMENT.Edit', {type: 'talent'})"
-						data-action="viewDoc"
-					><i class="fas fa-edit"></i></a>
-					<a class="item-control item-delete"
-						v-if="context.editable"
-						:title="game.i18n.format('DOCUMENT.Delete', {type: 'talent'})"
-						data-action="deleteDoc"
-					><i class="fas fa-trash"></i></a>
+				<!-- Description, visible when toggled on. -->
+				<div v-if="item.system.description" class="item-description-wrapper">
+					<div class="item-description flexcol">
+						<div class="item-description" v-html="item.system.description"></div>
+						<div v-if="item.system.notes.description" class="item-notes">
+							<strong v-if="item.system.notes.label">{{ item.system.notes.label }}</strong>
+							<div class="item-notes-description" v-html="item.system.notes.description"></div>
+						</div>
+					</div>
 				</div>
 			</li>
 		</ol>

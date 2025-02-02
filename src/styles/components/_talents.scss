@@ -1,0 +1,50 @@
+.talents {
+  .talent {
+    padding: 4px 0;
+    margin: 0;
+
+    + .talent {
+      border-top: 1px solid #ffffff22;
+    }
+  }
+
+  .item-summary {
+    width: 100%;
+  }
+
+  .item-resources {
+    flex: 0 0 auto;
+  }
+
+  .item-notes {
+    background: #ffffff11;
+    padding: 8px;
+    border-radius: 4px;
+  }
+
+  .resource {
+    background: #ffffff11;
+    padding: 2px;
+    border-radius: 4px;
+    margin: 1px;
+    flex-wrap: nowrap;
+
+    strong {
+      padding: 0 8px;
+    }
+  }
+
+  .resource-value-numeric {
+    white-space: nowrap;
+  }
+
+  .resource-steps {
+    flex-wrap: nowrap;
+    justify-content: flex-start;
+    align-items: flex-start;
+
+    input[type="checkbox"] {
+      margin: 0;
+    }
+  }
+}

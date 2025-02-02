@@ -29,6 +29,7 @@ documentTypes:
     equipment:
       htmlFields:
       - description
+      - notes.description
     challenge:
       htmlFields:
       - description

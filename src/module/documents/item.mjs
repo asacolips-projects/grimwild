@@ -62,12 +62,19 @@ export class GrimwildItem extends Item {
 			const result = await roll.evaluate();
 			const dice = result.dice[0].results;
 			const dropped = dice.filter((die) => die.result < 4);
-			await item.update({ "system.roll.diceNum": dice.length - dropped.length });
-			roll.toMessage({
+			// Send to chat.
+			const msg = await roll.toMessage({
 				speaker: speaker,
 				rollMode: rollMode,
 				flavor: label
 			});
+			// Wait for Dice So Nice if enabled.
+			if (game.dice3d && msg?.id) {
+				await game.dice3d.waitFor3DAnimationByMessageID(msg.id);
+			}
+			// Update the item.
+			await item.update({ "system.roll.diceNum": dice.length - dropped.length });
+
 			return roll;
 		}
 	}
