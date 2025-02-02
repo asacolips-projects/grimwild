@@ -46,13 +46,27 @@
 						<template v-for="(resource, resourceKey) in item.system.resources" :key="resourceKey">
 							<div class="resource flexrow">
 								<!-- Resource label -->
-								<strong v-if="resource.label">{{ resource.label }}</strong>
+								<button v-if="resource.type === 'pool'"
+									class="resource-roll"
+									data-action="rollItemPool"
+									:data-item-id="item.id"
+									:data-resource-key="resourceKey"
+								><i class="fas fa-dice-d6"></i><strong v-if="resource.label">{{ resource.label }}</strong></button>
+								<template v-else>
+									<strong v-if="resource.label">{{ resource.label }}</strong>
+								</template>
 								<!-- Resource value. -->
 								<div class="resource-value">
 									<!-- Pools -->
-									<template v-if="resource.type === 'pool'">
-										[{{ resource.pool.diceNum }}d]
-									</template>
+									<div v-if="resource.type === 'pool'" class="resource-value-pool">
+										<input type="number"
+											data-action-change="updateTalentResource"
+											:data-item-id="item.id"
+											:data-resource-key="resourceKey"
+											:value="resource.pool.diceNum"
+											min="0"
+										/><span class="pool-suffix">d</span>
+									</div>
 									<!-- Points -->
 									<template v-if="resource.type === 'points'">
 										<!-- Checkbox points -->

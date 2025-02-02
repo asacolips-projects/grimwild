@@ -39,6 +39,7 @@ export class GrimwildActorSheetVue extends VueRenderingMixin(GrimwildBaseVueActo
 			deleteBond: this._deleteBond,
 			changeXp: this._changeXp,
 			updateTalentResource: this._updateTalentResource,
+			rollItemPool: this._rollItemPool,
 			roll: this._onRoll
 		},
 		changeActions: {
@@ -353,11 +354,6 @@ export class GrimwildActorSheetVue extends VueRenderingMixin(GrimwildBaseVueActo
 		// Only push an update if we need one. Assume we don't.
 		let changes = false;
 
-		console.log({
-			itemId,
-			resourceKey,
-		});
-
 		// Retrieve the item and resource.
 		const item = this.document.items.get(itemId);
 		if (!item) return;
@@ -380,11 +376,56 @@ export class GrimwildActorSheetVue extends VueRenderingMixin(GrimwildBaseVueActo
 		}
 		// Handle pool resource updates.
 		else if (resource.type === 'pool') {
-			// @todo
+			resource.pool.diceNum = Number(target.value);
+			changes = true;
 		}
 
 		// Push the update if one is needed.
 		if (changes) {
+			resources[resourceKey] = resource;
+			await item.update({'system.resources': resources});
+		}
+	}
+
+	static async _rollItemPool(event, target) {
+		console.log(target);
+		event.preventDefault();
+		// Retrieve props.
+		const {
+			itemId,
+			resourceKey
+		} = target.dataset;
+
+		// Retrieve the item and resource.
+		const item = this.document.items.get(itemId);
+		if (!item) return;
+		const resources = item.system.resources;
+		const resource = resources?.[resourceKey];
+		if (!resource) return;
+
+		// Handle roll.
+		if (resource.pool.diceNum > 0) {
+			const roll = new grimwild.diePools(`{${resource.pool.diceNum}d6}`, item.getRollData());
+			const result = await roll.evaluate();
+			const dice = result.dice[0].results;
+			const dropped = dice.filter((die) => die.result < 4);
+
+			// Initialize chat data.
+			const speaker = ChatMessage.getSpeaker({ actor: this.actor });
+			const rollMode = game.settings.get("core", "rollMode");
+			const label = `[${item.type}] ${item.name}`;
+			// Send to chat.
+			const msg = await roll.toMessage({
+				speaker: speaker,
+				rollMode: rollMode,
+				flavor: label
+			});
+			// Wait for Dice So Nice if enabled.
+			if (game.dice3d && msg?.id) {
+				await game.dice3d.waitFor3DAnimationByMessageID(msg.id);
+			}
+			resource.pool.diceNum -= dropped.length;
+			// Update the item.
 			resources[resourceKey] = resource;
 			await item.update({'system.resources': resources});
 		}
