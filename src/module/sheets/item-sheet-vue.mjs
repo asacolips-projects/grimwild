@@ -199,14 +199,18 @@ export class GrimwildItemSheetVue extends VueRenderingMixin(GrimwildBaseVueItemS
 	 */
 	static async _createResource(event, target) {
 		event.preventDefault();
-		const { resourceType } = target.dataset;
-		const resources = this.document.system.resources?.[resourceType];
+		const resources = this.document.system.resources;
 		if (!resources) return;
 
-		resources.push({});
-		await this.document.update({
-			[`system.resources.${resourceType}`]: resources,
+		resources.push({
+			type: 'points',
+			points: {
+				value: 1,
+				max: 1,
+				showSteps: true,
+			},
 		});
+		await this.document.update({'system.resources': resources});
 	}
 
 	/**
@@ -219,16 +223,14 @@ export class GrimwildItemSheetVue extends VueRenderingMixin(GrimwildBaseVueItemS
 	 */
 	static async _deleteResource(event, target) {
 		event.preventDefault();
-		const { resourceType, key } = target.dataset;
-		if (resourceType && key) {
-			const resources = this.document.system.resources?.[resourceType];
+		const { key } = target.dataset;
+		if (key) {
+			const resources = this.document.system.resources;
 			if (!resources) return;
 
 			resources.splice(Number(key), 1);
 
-			await this.document.update({
-				[`system.resources.${resourceType}`]: resources,
-			});
+			await this.document.update({'system.resources': resources});
 		}
 	}
 }

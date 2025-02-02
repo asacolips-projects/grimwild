@@ -1,6 +1,7 @@
 <template>
 	<section class="grid grid-3col">
 		<ol class="items-list grid-span-3">
+			<!-- Header row -->
 			<li class="item flexrow items-header">
 				<div class="item-name">{{ game.i18n.localize('Name') }}</div>
 				<div class="item-controls">
@@ -11,11 +12,12 @@
 							data-document-class="Item"
 							data-type="talent"
 						>
-							<i class="fas fa-plus"></i>{{ game.i18n.format(`DOCUMENT.New`, {type: 'talent'}) }}
+							<i class="fas fa-plus"></i><span>Add</span>
 						</a>
 					</template>
 				</div>
 			</li>
+			<!-- Talent rows -->
 			<li v-for="(item, id) in context.itemTypes.talent" :key="id"
 				:class="`item talent flexcol ${context.activeItems?.[item._id] ? 'active' : ''}`"
 				:data-item-id="item._id"
@@ -23,7 +25,9 @@
 				draggable="true"
 				data-document-class="Item"
 			>
+				<!-- Summary, always visible -->
 				<div class="item-summary flexrow">
+					<!-- Name and image -->
 					<div class="item-name">
 						<div class="item-image">
 							<a class="rollable" data-roll-type="item" data-action="roll">
@@ -36,31 +40,32 @@
 						</div>
 						<div data-action="toggleItem" :data-item-id="item._id">{{ item.name }}</div>
 					</div>
-					<div class="item-resources">
-						<template v-for="(resources, resourceType) in item.system.resources" :key="resourceType">
-							<template v-if="resources.length > 0">
-								<div class="item-resource flexrow">
-									<div v-for="(resource, resourceKey) in resources" :key="resource" class="resource flexrow">
-										<strong v-if="resource.label">{{ resource.label }}</strong>
-										<div class="resource-value">
-											<template v-if="resourceType === 'pools'">
-												[{{ resource.value.diceNum }}d]
-											</template>
-											<template v-if="resourceType === 'points'">
-												<div v-if="resource.showSteps" class="resource-steps flexrow">
-													<template v-for="(num, i) in resource.max" :key="i">
-														<input type="checkbox" :checked="resource.value >= num" readonly />
-													</template>
-												</div>
-												<div v-else class="resource-value">{{ resource.value }} / {{ resource.max }}</div>
-											</template>
-											<template v-if="resourceType === 'toggles'">
-												<input type="checkbox" :checked="resource.value" readonly />
+					<!-- Resources -->
+					<div class="item-resources flexrow">
+						<!-- Resource -->
+						<template v-for="(resource, resourceKey) in item.system.resources" :key="resourceKey">
+							<div class="resource flexrow">
+								<!-- Resource label -->
+								<strong v-if="resource.label">{{ resource.label }}</strong>
+								<!-- Resource value. -->
+								<div class="resource-value">
+									<!-- Pools -->
+									<template v-if="resource.type === 'pool'">
+										[{{ resource.pool.diceNum }}d]
+									</template>
+									<!-- Points -->
+									<template v-if="resource.type === 'points'">
+										<!-- Checkbox points -->
+										<div v-if="resource.points.showSteps" class="resource-steps flexrow">
+											<template v-for="(num, i) in resource.points.max" :key="i">
+												<input type="checkbox" :checked="resource.points.value >= num" readonly />
 											</template>
 										</div>
-									</div>
+										<!-- Numeric points -->
+										<div v-else class="resource-value-numeric">{{ resource.points.value }} / {{ resource.points.max }}</div>
+									</template>
 								</div>
-							</template>
+							</div>
 						</template>
 					</div>
 					<div class="item-controls">
@@ -75,6 +80,7 @@
 						><i class="fas fa-trash"></i></a>
 					</div>
 				</div>
+				<!-- Description, visible when toggled on. -->
 				<div v-if="item.system.description" class="item-description-wrapper">
 					<div class="item-description flexcol">
 						<div class="item-description" v-html="item.system.description"></div>

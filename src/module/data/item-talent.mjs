@@ -20,42 +20,31 @@ export default class GrimwildTalent extends GrimwildItemBase {
 			description: new fields.HTMLField({ required: true, blank: true }),
 		});
 
-		schema.resources = new fields.SchemaField({
-			// Ex: Patron patience, cleric spells.
-			pools: new fields.ArrayField(new fields.SchemaField({
-				label: new fields.StringField(optionalString),
-				description: new fields.StringField(optionalString),
-				value: new DicePoolField(),
-			})),
-			// Ex: Spells, sorcerer essence.
-			points: new fields.ArrayField(new fields.SchemaField({
-				label: new fields.StringField(optionalString),
-				description: new fields.StringField(optionalString),
-				// Whether or not to show checkboxes or just a raw number field.
+		// Resources V2.
+		schema.resources = new fields.ArrayField(new fields.SchemaField({
+			type: new fields.StringField({
+				required: true,
+				blank: false,
+				choices: {
+					pool: 'Pool',
+					points: 'Points',
+				},
+			}),
+			label: new fields.StringField(optionalString),
+			pool: new DicePoolField(),
+			points: new fields.SchemaField({
 				showSteps: new fields.BooleanField(),
-				// Track the actual value numerically.
 				value: new fields.NumberField({
 					...requiredInteger,
-					initial: 0,
+					initial: 1,
 					min: 0,
 				}),
 				max: new fields.NumberField({
+					initial: 1,
 					min: 1,
-				}),
-			})),
-			// Ex: Push on various talents.
-			toggles: new fields.ArrayField(new fields.SchemaField({
-				label: new fields.StringField(optionalString),
-				description: new fields.StringField(optionalString),
-				value: new fields.BooleanField(),
-			})),
-			// Ex: ...maybe not needed? TBD on this one.
-			text: new fields.ArrayField(new fields.SchemaField({
-				label: new fields.StringField(optionalString),
-				description: new fields.StringField(optionalString),
-				value: new fields.StringField(optionalString),
-			})),
-		});
+				})
+			})
+		}));
 
 		return schema;
 	}

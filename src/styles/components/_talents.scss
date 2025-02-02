@@ -34,6 +34,10 @@
     }
   }
 
+  .resource-value-numeric {
+    white-space: nowrap;
+  }
+
   .resource-steps {
     flex-wrap: nowrap;
     justify-content: flex-start;
