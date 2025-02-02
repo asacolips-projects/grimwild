@@ -6,6 +6,8 @@ export class GrimwildBaseVueActorSheet extends foundry.applications.sheets.Actor
 		this.#dragDrop = this.#createDragDropHandlers();
 	}
 
+	activeItems = {};
+
 	/** @override */
 	static DEFAULT_OPTIONS = {
 		classes: ["grimwild", "actor"],
@@ -25,6 +27,7 @@ export class GrimwildBaseVueActorSheet extends foundry.applications.sheets.Actor
 			createEffect: this._createEffect,
 			deleteEffect: this._deleteEffect,
 			toggleEffect: this._toggleEffect,
+			toggleItem: this._toggleItem,
 		},
 		dragDrop: [{ dragSelector: "[data-drag]", dropSelector: null }],
 		form: {
@@ -64,6 +67,32 @@ export class GrimwildBaseVueActorSheet extends foundry.applications.sheets.Actor
 		// Foundry comes with a large number of utility classes, e.g. SearchFilter
 		// That you may want to implement yourself.
 	}
+
+	/* -------------------------------------------- */
+
+	/**
+	 * Organize and classify Items for Actor sheets.
+	 *
+	 * @param {object} context The context object to mutate.
+	 */
+	_prepareItems(context) {
+		context.items = this.document.items;
+		context.itemTypes = this.document.itemTypes;
+
+		for (const [type, items] of Object.entries(context.itemTypes)) {
+			context.itemTypes[type] = items.sort((a, b) => (a.sort || 0) - (b.sort || 0));
+		}
+
+		for (const [key, item] of this.document.items.entries()) {
+			if (!this.activeItems?.[item.id]) {
+				this.activeItems[item.id] = false;
+			}
+		}
+
+		context.activeItems = this.activeItems;
+	}
+
+	/* -------------------------------------------- */
 
 	/** ************
 	 *
@@ -117,6 +146,17 @@ export class GrimwildBaseVueActorSheet extends foundry.applications.sheets.Actor
 					: this.actor.items.get(docRow?.dataset.parentId);
 			return parent.effects.get(docRow?.dataset.effectId);
 		} return console.warn("Could not find document class");
+	}
+
+	static async _toggleItem(event, target) {
+		const { itemId } = target.dataset;
+		if (itemId && typeof this.activeItems[itemId] !== 'undefined') {
+			this.activeItems[itemId] = !this.activeItems[itemId];
+		}
+		else {
+			this.activeItems[itemId] = true;
+		}
+		this.render(true);
 	}
 
 	/**

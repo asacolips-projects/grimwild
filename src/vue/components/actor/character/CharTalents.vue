@@ -17,7 +17,7 @@
 				</div>
 			</li>
 			<li v-for="(item, id) in context.itemTypes.talent" :key="id"
-				class="item talent flexcol"
+				:class="`item talent flexcol ${context.activeItems?.[item._id] ? 'active' : ''}`"
 				:data-item-id="item._id"
 				data-drag="true"
 				draggable="true"
@@ -34,7 +34,7 @@
 								/>
 							</a>
 						</div>
-						<div>{{ item.name }}</div>
+						<div data-action="toggleItem" :data-item-id="item._id">{{ item.name }}</div>
 					</div>
 					<div class="item-resources">
 						<template v-for="(resources, resourceType) in item.system.resources" :key="resourceType">
@@ -75,11 +75,13 @@
 						><i class="fas fa-trash"></i></a>
 					</div>
 				</div>
-				<div v-if="item.system.description" class="item-description flexcol">
-					<div class="item-description" v-html="item.system.description"></div>
-					<div v-if="item.system.notes.description" class="item-notes">
-						<strong v-if="item.system.notes.label">{{ item.system.notes.label }}</strong>
-						<div class="item-notes-description" v-html="item.system.notes.description"></div>
+				<div v-if="item.system.description" class="item-description-wrapper">
+					<div class="item-description flexcol">
+						<div class="item-description" v-html="item.system.description"></div>
+						<div v-if="item.system.notes.description" class="item-notes">
+							<strong v-if="item.system.notes.label">{{ item.system.notes.label }}</strong>
+							<div class="item-notes-description" v-html="item.system.notes.description"></div>
+						</div>
 					</div>
 				</div>
 			</li>

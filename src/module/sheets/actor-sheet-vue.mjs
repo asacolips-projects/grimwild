@@ -183,20 +183,6 @@ export class GrimwildActorSheetVue extends VueRenderingMixin(GrimwildBaseVueActo
 		}
 	}
 
-	/**
-	 * Organize and classify Items for Actor sheets.
-	 *
-	 * @param {object} context The context object to mutate.
-	 */
-	_prepareItems(context) {
-		context.items = this.document.items;
-		context.itemTypes = this.document.itemTypes;
-
-		for (const [type, items] of Object.entries(context.itemTypes)) {
-			context.itemTypes[type] = items.sort((a, b) => (a.sort || 0) - (b.sort || 0));
-		}
-	}
-
 	/* -------------------------------------------- */
 
 	/** ************
