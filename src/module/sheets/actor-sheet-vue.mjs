@@ -41,6 +41,9 @@ export class GrimwildActorSheetVue extends VueRenderingMixin(GrimwildBaseVueActo
 			updateTalentResource: this._updateTalentResource,
 			roll: this._onRoll
 		},
+		changeActions: {
+			updateTalentResource: this._updateTalentResource,
+		},
 		// Custom property that's merged into `this.options`
 		dragDrop: [{ dragSelector: "[data-drag]", dropSelector: null }],
 		form: {
@@ -60,18 +63,39 @@ export class GrimwildActorSheetVue extends VueRenderingMixin(GrimwildBaseVueActo
 		super._onRender(context, options);
 		// @todo figure out how to attach this to the application frame rather than
 		// using render key to prevent redundant events.
-		// Custom listeners.
-		if (this._renderKey < 2) {
-			const changeElements = this.element.querySelectorAll('[data-action-change]');
-			changeElements.forEach((element) => {
-				element.addEventListener('change', (event) => {
-					this.options.actions.updateTalentResource.call(
-						this,
-						event,
-						event.currentTarget ?? event.target
-					);
-				})
-			});
+	}
+
+	/**
+	 * Attach listeners to the application frame.
+	 */
+	_attachFrameListeners() {
+		super._attachFrameListeners();
+		// Attach event listeners in here to prevent duplicate calls.
+		const change = this.#onChange.bind(this);
+		this.element.addEventListener('change', change);
+	}
+
+
+	/**
+	 * Change event actions in this.options.changeActions.
+	 *
+	 * Functionally similar to this.options.actions and fires callbacks
+	 * specified in data-action-change on the element(s).
+	 * 
+	 * @param {ChangeEvent} event Change event that triggered the call.
+	 */
+	async #onChange(event) {
+		const target = event.target;
+		const changeElement = target.closest("[data-action-change]");
+		if (changeElement) {
+			const { actionChange } = changeElement.dataset ?? {};
+			if (actionChange) {
+				this.options.changeActions?.[actionChange]?.call(
+					this,
+					event,
+					event.target
+				);
+			}
 		}
 	}
 
