@@ -1,5 +1,8 @@
 @import url("https://use.typekit.net/cyl8kir.css");
+@import url('https://fonts.googleapis.com/css2?family=Crimson+Pro:ital,wght@0,200..900;1,200..900&display=swap');
 
-$font-serif:  'dovetail-mvb', serif;
-$font-sans: 'greycliff-cf', serif;
+$font-sans: var(--font-body);
 $font-display: 'tiller', sans-serif;
+
+$font-body: 'Crimson Pro', sans-serif;
+$font-dice: 'greycliff-cf', sans-serif;
