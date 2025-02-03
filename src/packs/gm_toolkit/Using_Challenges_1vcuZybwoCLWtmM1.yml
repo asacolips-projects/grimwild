@@ -1,0 +1,83 @@
+folder: ZYf6ozP1kinf3leD
+name: Using Challenges
+_id: 1vcuZybwoCLWtmM1
+pages:
+  - sort: 100000
+    name: Using Challenges
+    type: text
+    _id: tVRryXfQpdkslDLd
+    system: {}
+    title:
+      show: true
+      level: 1
+    image: {}
+    text:
+      format: 1
+      content: >-
+        <div class="page" title="Page 36"><div class="layoutArea"><div
+        class="column"><p><span style="font-family:'Capito04VAR'">Challenges are
+        for moments of narrative importance. They make whatever you assign them
+        to a proactive element in the story. Use them to spotlight what's
+        happening—not because it's harder, but because it deserves proper screen
+        time and presence. Introduce challenges at times
+        like:</span></p><p><span style="font-family:'SegoeUIEmoji'">◆
+        </span><span style="font-family:'Capito04VAR'">An
+        @UUID[Compendium.grimwild.gm_toolkit.JournalEntry.3Jw6Ds3TAJYimqxj]{Impact
+        Move} is prompted.</span></p><p><span
+        style="font-family:'Capito04VARItalic'"><em>The sleeping dragon wakes
+        up. They fail to reach the pass before winter. The dying goblin blows
+        the horn.</em></span></p><p><span style="font-family:'SegoeUIEmoji'">◆
+        </span><span style="font-family:'Capito04VAR'">You </span><span
+        style="font-family:'Capito04VAR-Light-SC850'">@UUID[Compendium.grimwild.gm_toolkit.JournalEntry.BgDBVoiRbx5zUcoA]{Foreshadow}
+        </span><span style="font-family:'Capito04VAR'">to give fair
+        warning.</span></p><p><span
+        style="font-family:'Capito04VARItalic'"><em>Drumming from the deep. Wind
+        blows out the torches. There are signs of
+        battle.</em></span></p><p><span style="font-family:'SegoeUIEmoji'">◆
+        </span><span style="font-family:'Capito04VAR'">You </span><span
+        style="font-family:'Capito04VAR-Light-SC850'">@UUID[Compendium.grimwild.gm_toolkit.JournalEntry.24qGlYooVgMC1ZJu]{Complicate
+        Things} </span><span style="font-family:'Capito04VAR'">without
+        warning.</span></p><p><span
+        style="font-family:'Capito04VARItalic'"><em>Arrows whizz by, an ambush!
+        The statues spring to life. A huge storm hits the
+        ship.</em></span></p><p><span style="font-family:'SegoeUIEmoji'">◆
+        </span><span style="font-family:'Capito04VAR'">The PCs head straight
+        towards trouble on their own.</span></p><p><span
+        style="font-family:'Capito04VARItalic'"><em>Sneak into a well-guarded
+        keep. Call out the drake. Pass through a haunted
+        forest.</em></span></p></div></div></div>
+    video:
+      controls: true
+      volume: 0.5
+    src: null
+    ownership:
+      default: -1
+      Dl5Tvf37OuEHwdAh: 3
+    flags: {}
+    _stats:
+      compendiumSource: null
+      duplicateSource: null
+      coreVersion: '12.331'
+      systemId: grimwild
+      systemVersion: 0.1.0
+      createdTime: null
+      modifiedTime: 1738609457333
+      lastModifiedBy: Dl5Tvf37OuEHwdAh
+    _key: '!journal.pages!1vcuZybwoCLWtmM1.tVRryXfQpdkslDLd'
+sort: 0
+ownership:
+  default: 0
+  Dl5Tvf37OuEHwdAh: 3
+flags: {}
+_stats:
+  compendiumSource: null
+  duplicateSource: null
+  coreVersion: '12.331'
+  systemId: grimwild
+  systemVersion: 0.1.0
+  createdTime: 1738609106510
+  modifiedTime: 1738609106510
+  lastModifiedBy: Dl5Tvf37OuEHwdAh
+_key: '!journal!1vcuZybwoCLWtmM1'
+categories: []
+

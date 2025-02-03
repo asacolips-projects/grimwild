@@ -19,7 +19,9 @@ pages:
         pull off </span><span
         style="font-family:'Capito04VARItalic'"><em>jaw-dropping
         </em></span><span style="font-family:'Capito04VAR'">feats. When you have
-        potency on a task, you ignore thorns from difficulty (</span><span
+        potency on a task, you ignore
+        @UUID[Compendium.grimwild.rules.JournalEntry.CKZHOS0pAZTYwZQ9]{Thorns}
+        from difficulty (</span><span
         style="font-family:'Capito04VARItalic'"><em>but not from other sources
         like damage</em></span><span style="font-family:'Capito04VAR'">) and can
         attempt normally impossible (+3t) tasks. A <strong>potent feat</strong>
@@ -72,8 +74,8 @@ pages:
       systemId: grimwild
       systemVersion: 0.1.0
       createdTime: null
-      modifiedTime: null
-      lastModifiedBy: null
+      modifiedTime: 1738611150297
+      lastModifiedBy: Dl5Tvf37OuEHwdAh
     _key: '!journal.pages!d1U7nDi11ZnAs8rN.wW9cJBFHBtpLNJzI'
 sort: 0
 ownership:
@@ -89,6 +91,6 @@ _stats:
   createdTime: 1738510550844
   modifiedTime: 1738510550844
   lastModifiedBy: Dl5Tvf37OuEHwdAh
-categories: []
 _key: '!journal!d1U7nDi11ZnAs8rN'
+categories: []
 

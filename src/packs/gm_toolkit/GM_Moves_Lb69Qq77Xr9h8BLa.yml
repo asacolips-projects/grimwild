@@ -1,0 +1,82 @@
+folder: V3M0EcoDlbmFxQPL
+name: GM Moves
+_id: Lb69Qq77Xr9h8BLa
+pages:
+  - sort: 100000
+    name: GM Moves
+    type: text
+    _id: h0l7hV2isumZbWY5
+    system: {}
+    title:
+      show: true
+      level: 1
+    image: {}
+    text:
+      format: 1
+      content: >-
+        <div class="page" title="Page 32"><div class="layoutArea"><div
+        class="column"><p><span style="font-family:'Apparat'"><strong>GM
+        MOVES</strong></span><span style="font-family:'Capito04VAR'">. A
+        framework for good GMing practices and </span><span
+        style="font-family:'Capito04VARItalic'"><em><strong>the rules that you
+        (the GM) play by</strong></em></span><span
+        style="font-family:'Capito04VAR'">. While they can be called out
+        specifically, they typically sit in the background left unsaid, aligning
+        naturally with what you do as GM.</span></p><p><span
+        style="font-family:'SegoeUIEmoji'">◆ </span><span
+        style="font-family:'Capito04VARItalic'">@UUID[Compendium.grimwild.gm_toolkit.JournalEntry.7zdZxUMRvanWB2OJ]{Story
+        Moves}<em> </em></span><span style="font-family:'Capito04VAR'">set up
+        scenes and pace the game. They hint at problems and give players a
+        chance to react to what’s happening. </span><span
+        style="font-family:'Capito04VARItalic'"><em>Make these moves as you like
+        at any time.</em></span></p><p><span
+        style="font-family:'SegoeUIEmoji'">◆ </span><span
+        style="font-family:'Capito04VARItalic'">@UUID[Compendium.grimwild.gm_toolkit.JournalEntry.meKAiEb4xEJcJ58F]{Suspense
+        Moves}<em> </em></span><span style="font-family:'Capito04VAR'">help the
+        players out in some way or escalate tension. </span><span
+        style="font-family:'Capito04VARItalic'"><em><strong
+        style="font-style:italic">Take </strong><strong>suspense when
+        used</strong></em></span><span style="font-family:'Capito04VAR'">.
+        </span><span style="font-family:'Capito04VARItalic'"><em>Make these
+        moves with good timing.</em></span></p><p><span
+        style="font-family:'SegoeUIEmoji'">◆ </span><span
+        style="font-family:'Capito04VARItalic'">@UUID[Compendium.grimwild.gm_toolkit.JournalEntry.3Jw6Ds3TAJYimqxj]{Impact
+        Moves}<em> </em></span><span style="font-family:'Capito04VAR'">deal
+        significant consequences, crank up the tension, and make the world feel
+        powerful. </span><span style="font-family:'Capito04VARItalic'"><em>Make
+        these moves when prompted.</em></span></p></div></div></div>
+    video:
+      controls: true
+      volume: 0.5
+    src: null
+    ownership:
+      default: -1
+      Dl5Tvf37OuEHwdAh: 3
+    flags: {}
+    _stats:
+      compendiumSource: null
+      duplicateSource: null
+      coreVersion: '12.331'
+      systemId: grimwild
+      systemVersion: 0.1.0
+      createdTime: null
+      modifiedTime: 1738609581904
+      lastModifiedBy: Dl5Tvf37OuEHwdAh
+    _key: '!journal.pages!Lb69Qq77Xr9h8BLa.h0l7hV2isumZbWY5'
+sort: 0
+ownership:
+  default: 0
+  Dl5Tvf37OuEHwdAh: 3
+flags: {}
+_stats:
+  compendiumSource: null
+  duplicateSource: null
+  coreVersion: '12.331'
+  systemId: grimwild
+  systemVersion: 0.1.0
+  createdTime: 1738609110627
+  modifiedTime: 1738609110627
+  lastModifiedBy: Dl5Tvf37OuEHwdAh
+_key: '!journal!Lb69Qq77Xr9h8BLa'
+categories: []
+

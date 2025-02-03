@@ -1,0 +1,68 @@
+folder: 8qrZk7eOvPVdUhzZ
+name: Hint
+_id: W4Hs8Ihk1StF1edv
+pages:
+  - sort: 100000
+    name: Hint
+    type: text
+    _id: Tcd4kg779oPxoUYx
+    system: {}
+    title:
+      show: true
+      level: 1
+    image: {}
+    text:
+      format: 1
+      content: >-
+        <div class="page" title="Page 38"><div class="layoutArea"><div
+        class="column"><p><span
+        style="font-family:'Capito04VARItalic'"><em>Tests a player's
+        skill.</em></span></p><p><span
+        style="font-variant:'small-caps'">FORESHADOW </span><span
+        style="font-family:'Capito04VAR'">with a subtle clue about a hidden
+        element. </span><span
+        style="font-family:'Capito04VARItalic'"><em><strong>The player</strong>
+        </em></span><span style="font-family:'Capito04VAR'">gets a single chance
+        to interpret the situation. They're limited to just one to highlight the
+        natural response of the PC and to keep things flowing. </span><span
+        style="font-family:'Capito04VARItalic'"><em><strong>Player intuition
+        guides the story forward</strong>. </em></span><span
+        style="font-family:'Capito04VAR'">A correct response leads to a reveal
+        or possibly bypasses the situation entirely. </span><span
+        style="font-family:'Capito04VARItalic'"><em>That funny feeling of being
+        watched. A blood trail down a hallway.</em></span></p></div></div></div>
+    video:
+      controls: true
+      volume: 0.5
+    src: null
+    ownership:
+      default: -1
+      Dl5Tvf37OuEHwdAh: 3
+    flags: {}
+    _stats:
+      compendiumSource: null
+      duplicateSource: null
+      coreVersion: '12.331'
+      systemId: grimwild
+      systemVersion: 0.1.0
+      createdTime: null
+      modifiedTime: null
+      lastModifiedBy: null
+    _key: '!journal.pages!W4Hs8Ihk1StF1edv.Tcd4kg779oPxoUYx'
+sort: 0
+ownership:
+  default: 0
+  Dl5Tvf37OuEHwdAh: 3
+flags: {}
+_stats:
+  compendiumSource: null
+  duplicateSource: null
+  coreVersion: '12.331'
+  systemId: grimwild
+  systemVersion: 0.1.0
+  createdTime: 1738609122965
+  modifiedTime: 1738609122965
+  lastModifiedBy: Dl5Tvf37OuEHwdAh
+categories: []
+_key: '!journal!W4Hs8Ihk1StF1edv'
+

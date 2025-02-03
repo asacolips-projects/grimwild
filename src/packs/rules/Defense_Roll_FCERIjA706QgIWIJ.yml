@@ -21,30 +21,16 @@ pages:
         style="font-family:'Capito04VAR'">. The GM calls for the roll and picks
         a stat to test.</span></p><p></p><p><span
         style="font-family:Capito04VAR">Perfect. You avoid the
-        trouble.</span></p><p
-        style="box-sizing:border-box;user-select:text;scrollbar-width:thin;scrollbar-color:var(--color-scrollbar)
-        var(--color-scrollbar-track);margin:0.5em 0px;color:rgb(25, 24,
-        19);font-family:greycliff-cf,
-        serif;font-size:14px;font-style:normal;font-variant-ligatures:normal;font-variant-caps:normal;font-weight:400;letter-spacing:normal;orphans:2;text-indent:0px;text-transform:none;widows:2;word-spacing:0px;-webkit-text-stroke-width:0px;white-space:normal;text-decoration-thickness:initial;text-decoration-style:initial;text-decoration-color:initial;text-align:start"><span
-        style="font-family:Capito04VAR">Messy. You avoid the brunt of the
-        trouble. <em
-        style="box-sizing:border-box;user-select:text;scrollbar-width:thin;scrollbar-color:var(--color-scrollbar)
-        var(--color-scrollbar-track)">The GM lightens the
-        consequences</em>.</span></p><p
-        style="box-sizing:border-box;user-select:text;scrollbar-width:thin;scrollbar-color:var(--color-scrollbar)
-        var(--color-scrollbar-track);margin:0.5em 0px;color:rgb(25, 24,
-        19);font-family:greycliff-cf,
-        serif;font-size:14px;font-style:normal;font-variant-ligatures:normal;font-variant-caps:normal;font-weight:400;letter-spacing:normal;orphans:2;text-indent:0px;text-transform:none;widows:2;word-spacing:0px;-webkit-text-stroke-width:0px;white-space:normal;text-decoration-thickness:initial;text-decoration-style:initial;text-decoration-color:initial;text-align:start"><span
-        style="font-family:Capito04VAR">Grim. You fail to avoid the trouble. <em
-        style="box-sizing:border-box;user-select:text;scrollbar-width:thin;scrollbar-color:var(--color-scrollbar)
-        var(--color-scrollbar-track)">The GM follows through on
-        themove</em>.</span></p><p></p><p><span
-        style="font-family:'Capito04VAR'">The GM calls for defense rolls when
-        they target you directly with an impact move. On a messy, there's still
-        some trouble, like taking lesser dam- age, losing the chance to act, or
-        being in a worse position </span><span
-        style="font-family:'Capito04VARItalic'"><em>(knocked off the
-        cliff</em></span><span style="font-family:'SegoeUIEmoji'">→</span><span
+        trouble.</span></p><p>Messy. The GM lightens the
+        consequences.</p><p>Grim. The GM follows through on the
+        move.</p><p></p><p><span style="font-family:'Capito04VAR'">The GM calls
+        for defense rolls when they target you directly with an
+        @UUID[Compendium.grimwild.gm_toolkit.JournalEntry.3Jw6Ds3TAJYimqxj]{Impact
+        Move}. On a messy, there's still some trouble, like taking lesser
+        damage, losing the chance to act, or being in a worse position
+        </span><span style="font-family:'Capito04VARItalic'"><em>(knocked off
+        the cliff</em></span><span
+        style="font-family:'SegoeUIEmoji'">→</span><span
         style="font-family:'Capito04VARItalic'"><em>your sword is knocked
         off)</em></span><span
         style="font-family:'Capito04VAR'">.</span></p><p><span
@@ -73,8 +59,8 @@ pages:
       systemId: grimwild
       systemVersion: 0.1.0
       createdTime: null
-      modifiedTime: null
-      lastModifiedBy: null
+      modifiedTime: 1738610939159
+      lastModifiedBy: Dl5Tvf37OuEHwdAh
     _key: '!journal.pages!FCERIjA706QgIWIJ.XoPCrQdCYwiA6h1c'
 folder: 6l6pEN0IYEMpkvt3
 sort: 300000
@@ -91,6 +77,6 @@ _stats:
   createdTime: 1738366917449
   modifiedTime: 1738366917449
   lastModifiedBy: Dl5Tvf37OuEHwdAh
-categories: []
 _key: '!journal!FCERIjA706QgIWIJ'
+categories: []
 

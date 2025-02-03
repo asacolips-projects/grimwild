@@ -16,17 +16,20 @@ pages:
         <div class="page" title="Page 15"><div class="layoutArea"><div
         class="column"><p><span style="font-family:'Capito04VAR'">Roll to pull
         off something risky. State <strong>how &amp; why</strong>, clarifying
-        your intent. The GM picks the stat that matches your intentions.
-        </span></p><p></p><p><span style="font-family:'Capito04VAR'">Perfect.
-        You do it, and avoid trouble. </span></p><p><span
-        style="font-family:'Capito04VAR'">Messy. You do it, but there's trouble.
-        <em>Prompts and impact move</em>. </span></p><p><span
-        style="font-family:'Capito04VAR'">Grim. You fail, and there's trouble.
-        <em>Prompts and impact move</em>.</span></p><p></p><p><span
-        style="font-family:'Capito04VAR'">The GM makes an impact move to
-        introduce con- sequences. You don't get a defense roll against impact
-        moves prompted by your own action rolls— avoiding danger is already
-        factored into the roll.</span></p></div></div></div>
+        your intent. The GM picks the stat that matches your
+        intentions.</span></p><p></p><p><span
+        style="font-family:'Capito04VAR'">Perfect. You do it, and avoid
+        trouble.</span></p><p><span style="font-family:'Capito04VAR'">Messy. You
+        do it, but there's trouble. <em>Prompts an impact
+        move</em>.</span></p><p><span style="font-family:'Capito04VAR'">Grim.
+        You fail, and there's trouble. <em>Prompts an impact
+        move</em>.</span></p><p></p><p><span
+        style="font-family:'Capito04VAR'">The GM makes an
+        @UUID[Compendium.grimwild.gm_toolkit.JournalEntry.3Jw6Ds3TAJYimqxj]{Impact
+        Move} to introduce consequences. You don't get a
+        @UUID[Compendium.grimwild.rules.JournalEntry.FCERIjA706QgIWIJ]{Defense
+        Roll} against impact moves prompted by your own action rolls— avoiding
+        danger is already factored into the roll.</span></p></div></div></div>
     video:
       controls: true
       volume: 0.5
@@ -42,8 +45,8 @@ pages:
       systemId: grimwild
       systemVersion: 0.1.0
       createdTime: null
-      modifiedTime: null
-      lastModifiedBy: null
+      modifiedTime: 1738610846939
+      lastModifiedBy: Dl5Tvf37OuEHwdAh
     _key: '!journal.pages!pmTv1Nbggk6ql92W.zoIlyaXNAHedFlaX'
 folder: 6l6pEN0IYEMpkvt3
 sort: 100000
@@ -60,6 +63,6 @@ _stats:
   createdTime: 1738366917449
   modifiedTime: 1738366917449
   lastModifiedBy: Dl5Tvf37OuEHwdAh
-categories: []
 _key: '!journal!pmTv1Nbggk6ql92W'
+categories: []
 

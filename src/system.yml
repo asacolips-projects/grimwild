@@ -89,6 +89,11 @@ packs:
     type: JournalEntry
     path: packs/rules
     system: grimwild
+  - name: gm_toolkit
+    label: GM Toolkit
+    type: JournalEntry
+    path: packs/gm_toolkit
+    system: grimwild  
 packFolders: []
 
 socket: false

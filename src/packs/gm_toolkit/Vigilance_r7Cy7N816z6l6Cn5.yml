@@ -1,0 +1,125 @@
+folder: 8qrZk7eOvPVdUhzZ
+name: Vigilance
+_id: r7Cy7N816z6l6Cn5
+pages:
+  - sort: 100000
+    name: Vigilance
+    type: text
+    _id: U2FvHvrkX6TQMvXD
+    system: {}
+    title:
+      show: true
+      level: 1
+    image: {}
+    text:
+      format: 1
+      content: >-
+        <div class="page" title="Page 38"><div class="layoutArea"><div
+        class="column"><p><span
+        style="font-family:'Apparat'"><strong>VIGILANCE</strong></span><span
+        style="font-family:'Capito04VAR'">. The assumed alertness of the PCs,
+        avoiding overly cautious gameplay to keep the focus on the
+        action.</span></p><p><span
+        style="font-family:'Capito04VARItalic'"><em><strong>PCs are always
+        considered to be as vigilant as their vantage allows</strong>
+        </em></span><span style="font-family:'Capito04VAR'">when dealing with
+        hidden dangers like </span><span
+        style="font-family:'Capito04VARItalic'"><em>traps</em></span><span
+        style="font-family:'Capito04VAR'">, </span><span
+        style="font-family:'Capito04VARItalic'"><em>lies</em></span><span
+        style="font-family:'Capito04VAR'">, or </span><span
+        style="font-family:'Capito04VARItalic'"><em>secret
+        doors</em></span><span style="font-family:'Capito04VAR'">. However, this
+        doesn't mean they are always aware of hidden threats. Instead, the GM
+        uses a </span><span style="font-family:'Capito04VARItalic'"><em>gut
+        feeling </em></span><span style="font-family:'Capito04VAR'">to decide
+        how much the PC perceives based on their vantage and the type of tension
+        the GM wants to build.</span></p><p><span
+        style="font-family:'Capito04VAR'">Each of the three levels of vigilance
+        creates a different dynamic in the scene, a different view of PC
+        competence and the danger of the world. These three levels are:
+        @UUID[Compendium.grimwild.gm_toolkit.JournalEntry.W4Hs8Ihk1StF1edv]{Hint},
+        @UUID[Compendium.grimwild.gm_toolkit.JournalEntry.uUQxxwutv9DQCv7D]{Reveal},
+        and
+        @UUID[Compendium.grimwild.gm_toolkit.JournalEntry.vUfXP0trLVE9LXWV]{Strike}.</span></p><p><span
+        style="font-family:'Capito04VARItalic'"><em>Against a prowling panther,
+        it's most likely that a farmer gets a <strong>hint</strong>, a hunter
+        gets a <strong>reveal</strong>, and a scholar takes a
+        <strong>strike</strong>. You can always mix it up, though, and give just
+        the scholar the <strong>reveal</strong>, putting them out of their
+        element.</em></span></p><p><span
+        style="font-family:'Capito04VARItalic'"><em>Against a duke lying about
+        their lineage, a priest gets a <strong>hint</strong>, another noble gets
+        a <strong>reveal</strong>, and a commoner takes a
+        <strong>strike</strong>. You can always mix it up, though, and give the
+        commoner a <strong>hint</strong>, knowing just the right random
+        tidbit.</em></span></p><p></p><hr /></div><div class="column"><p><span
+        style="font-family:'Capito04'"><strong>VIGILANCE
+        EXAMPLES</strong></span></p><p><span
+        style="font-family:'Capito04VAR'">Below are some ways that a danger can
+        manifest as hints, reveals, or
+        strikes.</span></p><p></p><table><thead><tr><td><p><strong>DANGER</strong></p></td><td><p><strong>HINT</strong></p></td><td><p><strong>REVEAL</strong></p></td><td><p><strong>STRIKE</strong></p></td></tr></thead><tbody><tr><td><p><em>Poisoned
+        dart trap</em></p></td><td><p>Floor creaks
+        unnaturally</p></td><td><p>Dartgun in wall spotted</p></td><td><p>Darts
+        fly from the walls</p></td></tr><tr><td><p><em>Flammable gas
+        trap</em></p></td><td><p>Faint smell lingers</p></td><td><p>Bit of gas
+        ignites</p></td><td><p>Area engulfed in
+        flames</p></td></tr><tr><td><p><em>Political
+        intrigue</em></p></td><td><p>Inconsistencies in
+        letter</p></td><td><p>Wax seal is clearly fake</p></td><td><p>Forgery
+        leads to crisis</p></td></tr><tr><td><p><em>Hidden
+        malice</em></p></td><td><p>Suspicious glances</p></td><td><p>Threatens a
+        PC</p></td><td><p>Calls the guard</p></td></tr><tr><td><p><em>Fractured
+        resolve</em></p></td><td><p>Hesistates when
+        speaking</p></td><td><p>Express doubts or fears</p></td><td><p>Act
+        against plans</p></td></tr><tr><td><p><em>Concealing
+        illusion</em></p></td><td><p>Shimmering
+        distortion</p></td><td><p>Reveals true form</p></td><td><p>Causes a
+        wrong move</p></td></tr><tr><td><p><em>Shattered
+        trust</em></p></td><td><p>Avoids eye contact</p></td><td><p>Lets
+        intentions slip</p></td><td><p>Betrays the
+        party</p></td></tr><tr><td><p><em>Crumbling
+        ceiling</em></p></td><td><p>Dust falls lightly</p></td><td><p>Cracks
+        spread visibly</p></td><td><p>Debris crashes
+        down</p></td></tr><tr><td><p><em>Swarming
+        insects</em></p></td><td><p>Animals running away</p></td><td><p>Cloud of
+        insects in the sky</p></td><td><p>Swarm descends
+        viciously</p></td></tr><tr><td><p><em>Cursed
+        relic</em></p></td><td><p>Air grows unnaturally cold</p></td><td><p>It
+        speaks your name</p></td><td><p>It curses the
+        handler</p></td></tr></tbody></table></div></div></div>
+    video:
+      controls: true
+      volume: 0.5
+    src: null
+    ownership:
+      default: -1
+      Dl5Tvf37OuEHwdAh: 3
+    flags: {}
+    _stats:
+      compendiumSource: null
+      duplicateSource: null
+      coreVersion: '12.331'
+      systemId: grimwild
+      systemVersion: 0.1.0
+      createdTime: null
+      modifiedTime: 1738610398301
+      lastModifiedBy: Dl5Tvf37OuEHwdAh
+    _key: '!journal.pages!r7Cy7N816z6l6Cn5.U2FvHvrkX6TQMvXD'
+sort: 0
+ownership:
+  default: 0
+  Dl5Tvf37OuEHwdAh: 3
+flags: {}
+_stats:
+  compendiumSource: null
+  duplicateSource: null
+  coreVersion: '12.331'
+  systemId: grimwild
+  systemVersion: 0.1.0
+  createdTime: 1738609122965
+  modifiedTime: 1738609122965
+  lastModifiedBy: Dl5Tvf37OuEHwdAh
+_key: '!journal!r7Cy7N816z6l6Cn5'
+categories: []
+

@@ -17,10 +17,12 @@ pages:
         <div class="page" title="Page 18"><div class="layoutArea"><div
         class="column"><p><span
         style="font-family:'Capito04VARItalic'"><em><strong>When you get
-        bloodied or rattled, start a 4d pool</strong> </em></span><span
-        style="font-family:'Capito04VAR'">to track its healing. When you
-        <strong>heal</strong> harm from rest, treatment, or another source, roll
-        the pool. At 0d, clear the harm. </span><span
+        </strong></em>@UUID[Compendium.grimwild.rules.JournalEntry.kAGyEflDClkS3viS]{Bloodied
+        or Rattled}<em><strong>, start a 4d
+        </strong></em>@UUID[Compendium.grimwild.rules.JournalEntry.5n7fkFcmZaVYZT52]{Pool}<em>
+        </em></span><span style="font-family:'Capito04VAR'">to track its
+        healing. When you <strong>heal</strong> harm from rest, treatment, or
+        another source, roll the pool. At 0d, clear the harm. </span><span
         style="font-family:'Capito04VARItalic'"><em><strong>Treatment</strong>
         </em></span><span style="font-family:'Capito04VAR'">requires
         </span><span
@@ -31,8 +33,8 @@ pages:
         style="font-family:'Capito04VARItalic'"><em>training</em></span><span
         style="font-family:'Capito04VAR'">, and carries risk, and each pool can
         only benefit from treatment a single time.</span></p><p><span
-        style="font-family:'Capito04VARItalic'"><em><strong>Marks can't benefit
-        from treatment</strong></em></span><span
+        style="font-family:'Capito04VARItalic'">@UUID[Compendium.grimwild.rules.JournalEntry.mE6axXeciWLe3skm]{Marks}<em><strong>
+        can't benefit from treatment</strong></em></span><span
         style="font-family:'Capito04VAR'">. They are light enough already that
         only time heals them. They can only be cleared with rest, talents, or
         rolling.</span></p></div></div></div>
@@ -51,8 +53,8 @@ pages:
       systemId: grimwild
       systemVersion: 0.1.0
       createdTime: null
-      modifiedTime: null
-      lastModifiedBy: null
+      modifiedTime: 1738611343716
+      lastModifiedBy: Dl5Tvf37OuEHwdAh
     _key: '!journal.pages!PRDMJnwI7k3SQ9Qn.BFMt1gP0f3urgdJO'
 sort: 0
 ownership:
@@ -68,6 +70,6 @@ _stats:
   createdTime: 1738510552165
   modifiedTime: 1738510552165
   lastModifiedBy: Dl5Tvf37OuEHwdAh
-categories: []
 _key: '!journal!PRDMJnwI7k3SQ9Qn'
+categories: []
 

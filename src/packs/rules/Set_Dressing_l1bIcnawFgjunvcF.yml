@@ -19,12 +19,13 @@ pages:
         common sense details freely. Make assumptions and add </span><span
         style="font-family:'Capito04VARItalic'"><em>set dressing
         </em></span><span style="font-family:'Capito04VAR'">to scenes to play
-        off of to keep things flowing dy- namically. There’s no need to check in
+        off of to keep things flowing dynamically. There’s no need to check in
         with the GM—they’ll step in if a detail goes beyond set dressing.
         Anything that’s a </span><span
         style="font-family:'Capito04VARItalic'"><em>given </em></span><span
-        style="font-family:'Capito04VAR'">for your vantage, like knowing someone
-        or having equipment that makes sense, is set
+        style="font-family:'Capito04VAR'">for your
+        @UUID[Compendium.grimwild.rules.JournalEntry.uLhjdcEsx67R7ADM]{Vantage},
+        like knowing someone or having equipment that makes sense, is set
         dressing.</span></p></div></div></div>
     video:
       controls: true
@@ -41,8 +42,8 @@ pages:
       systemId: grimwild
       systemVersion: 0.1.0
       createdTime: null
-      modifiedTime: null
-      lastModifiedBy: null
+      modifiedTime: 1738610593360
+      lastModifiedBy: Dl5Tvf37OuEHwdAh
     _key: '!journal.pages!l1bIcnawFgjunvcF.ix9thpsshnt9evrP'
 sort: 0
 ownership:
@@ -58,6 +59,6 @@ _stats:
   createdTime: 1738510547562
   modifiedTime: 1738510547562
   lastModifiedBy: Dl5Tvf37OuEHwdAh
-categories: []
 _key: '!journal!l1bIcnawFgjunvcF'
+categories: []
 

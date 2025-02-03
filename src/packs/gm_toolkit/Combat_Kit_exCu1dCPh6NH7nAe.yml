@@ -1,0 +1,66 @@
+folder: cSF3Iw5klDLnZaJB
+name: Combat Kit
+_id: exCu1dCPh6NH7nAe
+pages:
+  - sort: 100000
+    name: Combat Kit
+    type: text
+    _id: Bp63jfZi2mmgsy9s
+    system: {}
+    title:
+      show: true
+      level: 1
+    image: {}
+    text:
+      format: 1
+      content: >-
+        <div class="page" title="Page 40"><div class="layoutArea"><div
+        class="column"><p><span style="font-family:'Capito04VAR'">GM tools to
+        create dynamic </span><span
+        style="font-family:'Capito04VARItalic'"><em><strong>antagonists</strong>
+        </em></span><span style="font-family:'Capito04VAR'">and </span><span
+        style="font-family:'Capito04VARItalic'"><em><strong>combat
+        scenarios</strong> </em></span><span
+        style="font-family:'Capito04VAR'">quickly.
+        @UUID[Compendium.grimwild.gm_toolkit.JournalEntry.M8cPhXO2ffJBIJTy]{Tier}
+        is an opponent's threat level.
+        @UUID[Compendium.grimwild.gm_toolkit.JournalEntry.D9XCxaiXxfGcjRg1]{Role}
+        is a keyword used to guide its behavior in battle to vary its tactics.
+        @UUID[Compendium.grimwild.gm_toolkit.JournalEntry.dziqdxkqsmj4DxTu]{Battlegrounds}
+        make the environment a proactive or obstacle-ridden part of the scene.
+        Mix these for dynamic combats.</span></p></div></div></div>
+    video:
+      controls: true
+      volume: 0.5
+    src: null
+    ownership:
+      default: -1
+      Dl5Tvf37OuEHwdAh: 3
+    flags: {}
+    _stats:
+      compendiumSource: null
+      duplicateSource: null
+      coreVersion: '12.331'
+      systemId: grimwild
+      systemVersion: 0.1.0
+      createdTime: null
+      modifiedTime: 1738609514889
+      lastModifiedBy: Dl5Tvf37OuEHwdAh
+    _key: '!journal.pages!exCu1dCPh6NH7nAe.Bp63jfZi2mmgsy9s'
+sort: 0
+ownership:
+  default: 0
+  Dl5Tvf37OuEHwdAh: 3
+flags: {}
+_stats:
+  compendiumSource: null
+  duplicateSource: null
+  coreVersion: '12.331'
+  systemId: grimwild
+  systemVersion: 0.1.0
+  createdTime: 1738609107710
+  modifiedTime: 1738609107710
+  lastModifiedBy: Dl5Tvf37OuEHwdAh
+_key: '!journal!exCu1dCPh6NH7nAe'
+categories: []
+

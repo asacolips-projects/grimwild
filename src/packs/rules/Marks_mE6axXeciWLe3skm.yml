@@ -46,14 +46,17 @@ pages:
         style="font-family:'Capito04VAR-Light-SC850',
         font-style='small-caps'">PRESENCE</span></span><span
         style="font-family:'Capito04VAR'">. If both are already marked, take the
-        related <strong>harm</strong>. Note that a mark can be taken even if you
-        already have the related harm.</span></p><p><span
-        style="font-family:'Capito04VAR'">Marks are often combined with another
-        mark or other consequences when inflicted directly </span><span
+        related
+        @UUID[Compendium.grimwild.rules.JournalEntry.kAGyEflDClkS3viS]{Harm}.
+        Note that a mark can be taken even if you already have the related
+        harm.</span></p><p><span style="font-family:'Capito04VAR'">Marks are
+        often combined with another mark or other consequences when inflicted
+        directly </span><span
         style="font-family:'Capito04VARItalic'"><em>(Agility mark + thrown off
         your horse)</em></span><span style="font-family:'Capito04VAR'">. You
-        also take a mark when you <strong>push
-        yourself</strong>.</span></p></div></div></div>
+        also take a mark when you
+        @UUID[Compendium.grimwild.rules.JournalEntry.i7KRerD2wyqcWclD]{Push
+        Yourself}.</span></p></div></div></div>
     video:
       controls: true
       volume: 0.5
@@ -69,8 +72,8 @@ pages:
       systemId: grimwild
       systemVersion: 0.1.0
       createdTime: null
-      modifiedTime: null
-      lastModifiedBy: null
+      modifiedTime: 1738610746406
+      lastModifiedBy: Dl5Tvf37OuEHwdAh
     _key: '!journal.pages!mE6axXeciWLe3skm.mHg9OT7eskj9alwg'
 sort: 0
 ownership:
@@ -86,6 +89,6 @@ _stats:
   createdTime: 1738510549034
   modifiedTime: 1738510549034
   lastModifiedBy: Dl5Tvf37OuEHwdAh
-categories: []
 _key: '!journal!mE6axXeciWLe3skm'
+categories: []
 

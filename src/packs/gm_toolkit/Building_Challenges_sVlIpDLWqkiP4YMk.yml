@@ -1,0 +1,87 @@
+folder: ZYf6ozP1kinf3leD
+name: Building Challenges
+_id: sVlIpDLWqkiP4YMk
+pages:
+  - sort: 100000
+    name: Building Challenges
+    type: text
+    _id: zCs5z71bDLKeuhks
+    system: {}
+    title:
+      show: true
+      level: 1
+    image: {}
+    text:
+      format: 1
+      content: >-
+        <ol style="list-style-type:decimal"><li><p><span
+        style="font-family:'Capito04VARItalic'"><em><strong>Assign a
+        </strong></em>@UUID[Compendium.grimwild.rules.JournalEntry.5n7fkFcmZaVYZT52]{Task
+        Pool}<em> </em></span><span style="font-family:'Capito04VAR'">(4d, 6d,
+        8d) for its tenacity.</span></p></li><li><p><span
+        style="font-family:'Capito04VARItalic'"><em><strong>Add traits
+        </strong></em></span><span style="font-family:'Capito04VAR'">(1 or 2)
+        that shape the situation. Skip the obvious (</span><span
+        style="font-family:'Capito04VARItalic'"><em>storm is
+        windy</em></span><span style="font-family:'Capito04VAR'">) and highlight
+        what matters (</span><span
+        style="font-family:'Capito04VARItalic'"><em>strong winds are
+        blinding</em></span><span style="font-family:'Capito04VAR'">). Keep them
+        brief and evocative.</span></p></li><li><p><span
+        style="font-family:'Capito04VARItalic'"><em><strong>List short, punchy
+        moves</strong> </em></span><span style="font-family:'Capito04VAR'">(2 or
+        3) with flexible interpretations. These are examples, not limits. You
+        can spend bonus
+        @UUID[Compendium.grimwild.gm_toolkit.JournalEntry.r03swtJF4sEnG2fm]{Suspense}
+        on other moves, or trigger these when an
+        @UUID[Compendium.grimwild.gm_toolkit.JournalEntry.3Jw6Ds3TAJYimqxj]{Impact
+        Move} is prompted by something else.</span></p></li><li><p><span
+        style="font-family:'Capito04VARItalic'"><em><strong>Define a fail
+        state</strong></em></span><span style="font-family:'Capito04VAR'">, a
+        specific trigger that prevents that challenge from being accomplished.
+        Avoid obvious outcomes (</span><span
+        style="font-family:'Capito04VARItalic'"><em>dying in a
+        fight</em></span><span style="font-family:'Capito04VAR'">) and focus on
+        what creates tension (</span><span
+        style="font-family:'Capito04VARItalic'"><em>breaking a code of
+        honor</em></span><span style="font-family:'Capito04VAR'">). Players
+        should know the fail state unless mystery is part of the fun—and even
+        then, make it clear one is in play.</span></p></li></ol><p><span
+        style="font-family:'Capito04VAR'"><strong>Note</strong></span><span
+        style="font-family:'Capito04VARItalic'"><em>: Not all of these parts are
+        needed for a challenge.</em></span></p>
+    video:
+      controls: true
+      volume: 0.5
+    src: null
+    ownership:
+      default: -1
+      Dl5Tvf37OuEHwdAh: 3
+    flags: {}
+    _stats:
+      compendiumSource: null
+      duplicateSource: null
+      coreVersion: '12.331'
+      systemId: grimwild
+      systemVersion: 0.1.0
+      createdTime: null
+      modifiedTime: 1738609265712
+      lastModifiedBy: Dl5Tvf37OuEHwdAh
+    _key: '!journal.pages!sVlIpDLWqkiP4YMk.zCs5z71bDLKeuhks'
+sort: 0
+ownership:
+  default: 0
+  Dl5Tvf37OuEHwdAh: 3
+flags: {}
+_stats:
+  compendiumSource: null
+  duplicateSource: null
+  coreVersion: '12.331'
+  systemId: grimwild
+  systemVersion: 0.1.0
+  createdTime: 1738609106510
+  modifiedTime: 1738609106510
+  lastModifiedBy: Dl5Tvf37OuEHwdAh
+_key: '!journal!sVlIpDLWqkiP4YMk'
+categories: []
+

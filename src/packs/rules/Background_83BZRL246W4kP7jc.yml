@@ -15,9 +15,10 @@ pages:
       content: >-
         <div class="page" title="Page 16"><div class="layoutArea"><div
         class="column"><p><span style="font-family:'Capito04VAR'">Your heritage,
-        upbringing, and profession—the core of your vantage. You choose any two
-        that most influences who you are now. Each gives you three wises,
-        evocative key phrases that clearly expand your
+        upbringing, and profession—the core of your
+        @UUID[Compendium.grimwild.rules.JournalEntry.uLhjdcEsx67R7ADM]{Vantage}.
+        You choose any two that most influences who you are now. Each gives you
+        three wises, evocative key phrases that clearly expand your
         vantage.</span></p><p><span
         style="font-family:'Capito04VARItalic'"><em>The ragamuffin background
         means you learned a lot from the streets; without it, your upbringing is
@@ -37,8 +38,8 @@ pages:
       systemId: grimwild
       systemVersion: 0.1.0
       createdTime: null
-      modifiedTime: null
-      lastModifiedBy: null
+      modifiedTime: 1738610489990
+      lastModifiedBy: Dl5Tvf37OuEHwdAh
     _key: '!journal.pages!83BZRL246W4kP7jc.rkqFfktACRQG1JIO'
 folder: vUGdoKGy7PZ2fdfW
 sort: 100000
@@ -55,6 +56,6 @@ _stats:
   createdTime: 1738366915122
   modifiedTime: 1738366915122
   lastModifiedBy: Dl5Tvf37OuEHwdAh
-categories: []
 _key: '!journal!83BZRL246W4kP7jc'
+categories: []
 

@@ -1,0 +1,72 @@
+folder: 0gXyZ0gtSFja5n8A
+name: Factions
+_id: GlsmiXNCf4oZEXVU
+pages:
+  - sort: 100000
+    name: Factions
+    type: text
+    _id: dw67zBVsWPX0Oz2K
+    system: {}
+    title:
+      show: true
+      level: 1
+    image: {}
+    text:
+      format: 1
+      content: >-
+        <div class="page" title="Page 42"><div class="layoutArea"><div
+        class="column"><p><span style="font-family:'Capito04VAR'">Track
+        off-screen developments of major forces, creating a feeling of a living
+        world beyond the PCs. They have:</span></p><p><span
+        style="font-family:'SegoeUIEmoji'">◆ </span><span
+        style="font-family:'Capito04VAR'"><strong>Resources</strong> that show
+        their power and influence, like assets, traits, and
+        relationships.</span></p><p><span style="font-family:'SegoeUIEmoji'">◆
+        </span><span style="font-family:'Capito04VAR'"><strong>Goals</strong>
+        that show their ambitions. Track them with a
+        @UUID[Compendium.grimwild.rules.JournalEntry.5n7fkFcmZaVYZT52]{Timer}
+        called a <strong>faction pool</strong>, rolled between sessions or when
+        triggered by events in the story.</span></p><p><span
+        style="font-family:'Capito04VAR'">When a faction pool depletes, the goal
+        is either accomplished or they make their move against another faction,
+        with a
+        @UUID[Compendium.grimwild.rules.JournalEntry.P8Z5hyFjxbTzrR1I]{Story}
+        roll in their favor determining how it plays out.</span></p><p><span
+        style="font-family:'Capito04VAR'">Keep 4-6 active factions, balancing
+        major and minor ones, with competing goals. Replace factions that are no
+        longer relevant to the story.</span></p></div></div></div>
+    video:
+      controls: true
+      volume: 0.5
+    src: null
+    ownership:
+      default: -1
+      Dl5Tvf37OuEHwdAh: 3
+    flags: {}
+    _stats:
+      compendiumSource: null
+      duplicateSource: null
+      coreVersion: '12.331'
+      systemId: grimwild
+      systemVersion: 0.1.0
+      createdTime: null
+      modifiedTime: null
+      lastModifiedBy: null
+    _key: '!journal.pages!GlsmiXNCf4oZEXVU.dw67zBVsWPX0Oz2K'
+sort: 0
+ownership:
+  default: 0
+  Dl5Tvf37OuEHwdAh: 3
+flags: {}
+_stats:
+  compendiumSource: JournalEntry.GlsmiXNCf4oZEXVU
+  duplicateSource: null
+  coreVersion: '12.331'
+  systemId: grimwild
+  systemVersion: 0.1.0
+  createdTime: 1738609108923
+  modifiedTime: 1738609108923
+  lastModifiedBy: Dl5Tvf37OuEHwdAh
+categories: []
+_key: '!journal!GlsmiXNCf4oZEXVU'
+

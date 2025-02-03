@@ -1,0 +1,186 @@
+folder: 99u2UtMwTT8eluBk
+name: GM With Moxie
+_id: G5T8lTrvGu0TC93L
+pages:
+  - sort: 100000
+    name: GM With Moxie
+    type: text
+    _id: d2fDhZPzxNINiLGF
+    system: {}
+    title:
+      show: true
+      level: 1
+    image: {}
+    text:
+      format: 1
+      content: >-
+        <div class="page" title="Page 43"><div class="layoutArea"><div
+        class="column"><p><span
+        style="font-family:'Capito04VARItalic'"><em><strong>Map fiction to
+        rules</strong>. </em></span><span
+        style="font-family:'Capito04VAR'">Encourage players to focus on the
+        fiction and let you handle the rules. The more narratively important
+        something is, the more mechanical weight you should give
+        it.</span></p><p><span style="font-family:'Capito04VARItalic'"><em>In a
+        game of courtly intrigue, slaying a dragon might be a montage roll for a
+        knight while an important dinner party is a complex linked challenge
+        full of dire stakes.</em></span></p><p><span
+        style="font-family:'Capito04VAR'">Get creative applying the rules,
+        mixing them up in ways not explicitly laid out. Don't be afraid to
+        tinker. </span><span style="font-family:'Capito04VARItalic'"><em>Moxie
+        </em></span><span style="font-family:'Capito04VAR'">is modular and
+        you're not going to break it. Graft on rules from other systems you
+        like, or hack </span><span
+        style="font-family:'Capito04VARItalic'"><em>Moxie </em></span><span
+        style="font-family:'Capito04VAR'">and make it your
+        own.</span></p><p><span style="font-family:'Capito04VAR'">If the rules
+        clash with what makes sense in the fiction, the fiction wins. Engage
+        with the rules quickly, resolve them, and return to the
+        story.</span></p><p><span
+        style="font-family:'Capito04VARItalic'"><em>"What does that look like?"
+        or "Give us a quick scene."</em></span></p><p><span
+        style="font-family:'Capito04VARItalic'"><em><strong>Make rulings to fill
+        gaps</strong>. </em></span><span style="font-family:'Capito04VAR'">The
+        rules are a flexible framework and designed not to cover every detail.
+        When things fall through the cracks, try to interpret the rules' intent
+        and make a ruling that fits the moment. If it's a judgment call, tell
+        the players. If you're unsure of a rule, make a quick call now and check
+        later. When in doubt, everything can collapse down to a single story
+        roll—ask the players what they want to happen, then roll to see if
+        that's how it goes down.</span></p><p><span
+        style="font-family:'Capito04VARItalic'"><em><strong>Pace the game
+        cinematically</strong>. </em></span><span
+        style="font-family:'Capito04VAR'">Keep the game flowing like a
+        well-paced movie. Don't let scenes drag, </span><span
+        style="font-family:'Capito04VAR-Light-SC850'">@UUID[Compendium.grimwild.gm_toolkit.JournalEntry.I4Aj7JK4MsDtnCAM]{Wrap
+        It Up} </span><span style="font-family:'Capito04VAR'">to move on to
+        something more interesting. If players don't seem keen on an upcoming
+        situation, suggest a
+        @UUID[Compendium.grimwild.rules.JournalEntry.hHy0ajd300aDAWxm]{Montage}.
+        Skip long planning phases by cutting to the action with a </span><span
+        style="font-family:'Capito04VAR-Light-SC850'">@UUID[Compendium.grimwild.gm_toolkit.JournalEntry.44sUTDzcXMTbmN9i]{Set
+        the Scene} </span><span style="font-family:'Capito04VAR'">move. Reward
+        players buying into these techniques by giving them good
+        odds.</span></p><p><span
+        style="font-family:'Capito04VARItalic'"><em><strong>Follow the players'
+        lead</strong>. </em></span><span style="font-family:'Capito04VAR'">Keep
+        tabs on story arcs and present </span><span
+        style="font-family:'Capito04VARItalic'"><em>drama</em></span><span
+        style="font-family:'Capito04VAR'">, </span><span
+        style="font-family:'Capito04VARItalic'"><em>dilemmas</em></span><span
+        style="font-family:'Capito04VAR'">, and </span><span
+        style="font-family:'Capito04VARItalic'"><em>opportunities
+        </em></span><span style="font-family:'Capito04VAR'">related to them.
+        Follow where the characters want to go. Present interesting situations
+        related to it. When players hesitate or hit an impasse, spur them into
+        action with
+        @UUID[Compendium.grimwild.rules.JournalEntry.5n7fkFcmZaVYZT52]{Danger
+        Timers},
+        @UUID[Compendium.grimwild.rules.JournalEntry.ZrytL42i0AD8UYXf]{Quarrels},
+        </span><span
+        style="font-family:'Capito04VAR-Light-SC850'">@UUID[Compendium.grimwild.gm_toolkit.JournalEntry.VV7uXLGhN8SS7Fzs]{Entangles}</span><span
+        style="font-family:'Capito04VAR'">, or </span><span
+        style="font-family:'Capito04VAR-Light-SC850'">@UUID[Compendium.grimwild.gm_toolkit.JournalEntry.xEltzhhBRdgZ6FSn]{Bridge}
+        </span><span style="font-family:'Capito04VAR'">and move
+        on.</span></p><p><span
+        style="font-family:'Capito04VARItalic'"><em><strong>Use the moves, or
+        don't</strong>. </em></span><span style="font-family:'Capito04VAR'">The
+        GM moves can be explicit rules, merely guidelines, or somewhere in
+        between. Some GMs will call them out by name, while others never bring
+        them up at all. Either way, as long as your GMing aligns with their
+        intent, you're doing it right.</span></p><p><span
+        style="font-family:'Capito04VARItalic'"><em><strong>Make moves with
+        impact</strong>. </em></span><span
+        style="font-family:'Capito04VAR'">Don't pull your
+        punches—@UUID[Compendium.grimwild.gm_toolkit.JournalEntry.3Jw6Ds3TAJYimqxj]{Impact
+        Moves} are called that for a reason. They shove the story forward.
+        Players have a lot of tools at their disposal, so </span><span
+        style="font-family:'Capito04VARItalic'"><em><strong>give the world
+        teeth</strong></em></span><span style="font-family:'Capito04VAR'">. It
+        makes victory even sweeter.</span></p><p><span
+        style="font-family:'Capito04VAR'">A single impact move is flexible. You
+        can split it up into a few lesser effects </span><span
+        style="font-family:'Capito04VARItalic'"><em>(inflict a mark as you break
+        their sword)</em></span><span style="font-family:'Capito04VAR'">, hit
+        multiple PCs at once, or have a PC's action affect a totally different
+        PC, though they do get a defense roll in that case.</span></p><p><span
+        style="font-family:'Capito04VAR'">When an impact move doesn't naturally
+        flow from what's happening on-screen (</span><span
+        style="font-family:'Capito04VARItalic'"><em>common with messy
+        rolls</em></span><span style="font-family:'Capito04VAR'">), think
+        off-screen instead and complicate their lives elsewhere or take
+        </span><span
+        style="font-family:'Capito04VARItalic'">@UUID[Compendium.grimwild.gm_toolkit.JournalEntry.r03swtJF4sEnG2fm]{Suspense}</span><span
+        style="font-family:'Capito04VAR'"> and hit later with better dramatic
+        timing.</span></p><p><span
+        style="font-family:'Capito04VARItalic'"><em><strong>Prompt player
+        narration</strong>. </em></span><span
+        style="font-family:'Capito04VAR'">After a roll, make sure the players
+        narrate how things play out—even, or </span><span
+        style="font-family:'Capito04VARItalic'"><em>especially</em></span><span
+        style="font-family:'Capito04VAR'">, on a grim. Describing failure is a
+        great way to express their character. Collaborate, but keep them
+        narrating their actions.</span></p><p><span
+        style="font-family:'Capito04VAR'">Encourage them to play off of each
+        other as well, especially with
+        @UUID[Compendium.grimwild.rules.JournalEntry.odkrgM4X8udAbLNN]{Assists}
+        and montages. Ask for reaction shots as other PCs' scenes play out to
+        gauge how they feel about it, or how their
+        @UUID[Compendium.grimwild.rules.JournalEntry.J3qpvKK8eSPQ181G]{Bond}
+        affects their reaction.</span></p><p><span
+        style="font-family:'Capito04VAR'">Most importantly, after the rules come
+        into play, get right back to narration. Make sure that the flow remains
+        </span><span
+        style="font-family:'Capito04VARItalic'"><em><strong>Fiction</strong></em></span><span
+        style="font-family:'SegoeUIEmoji'"><strong>→</strong></span><span
+        style="font-family:'Capito04VARItalic'"><em><strong>Rules</strong></em></span><span
+        style="font-family:'SegoeUIEmoji'"><strong>→</strong></span><span
+        style="font-family:'Capito04VARItalic'"><em><strong>Fiction</strong></em></span><span
+        style="font-family:'Capito04VAR'">.</span></p><p><span
+        style="font-family:'Capito04VARItalic'"><em>Be endlessly curious.
+        </em></span><span style="font-family:'Capito04VAR'">Ask provocative
+        questions about the PCs and their motivations to give players a chance
+        to expand on their characters.</span></p><p><span
+        style="font-family:'SegoeUIEmoji'">◆ </span><span
+        style="font-family:'Capito04VARItalic'"><em>Why in the world would you
+        do that?</em></span></p><p><span style="font-family:'SegoeUIEmoji'">◆
+        </span><span style="font-family:'Capito04VARItalic'"><em>Okay, so who'd
+        you steal that sword from?</em></span></p><p><span
+        style="font-family:'SegoeUIEmoji'">◆ </span><span
+        style="font-family:'Capito04VARItalic'"><em>So are you pissed off or
+        cool with it?</em></span></p></div></div></div>
+    video:
+      controls: true
+      volume: 0.5
+    src: null
+    ownership:
+      default: -1
+      Dl5Tvf37OuEHwdAh: 3
+    flags: {}
+    _stats:
+      compendiumSource: null
+      duplicateSource: null
+      coreVersion: '12.331'
+      systemId: grimwild
+      systemVersion: 0.1.0
+      createdTime: null
+      modifiedTime: 1738609722972
+      lastModifiedBy: Dl5Tvf37OuEHwdAh
+    _key: '!journal.pages!G5T8lTrvGu0TC93L.d2fDhZPzxNINiLGF'
+sort: 0
+ownership:
+  default: 0
+  Dl5Tvf37OuEHwdAh: 3
+flags: {}
+_stats:
+  compendiumSource: null
+  duplicateSource: null
+  coreVersion: '12.331'
+  systemId: grimwild
+  systemVersion: 0.1.0
+  createdTime: 1738609112290
+  modifiedTime: 1738609112290
+  lastModifiedBy: Dl5Tvf37OuEHwdAh
+_key: '!journal!G5T8lTrvGu0TC93L'
+categories: []
+

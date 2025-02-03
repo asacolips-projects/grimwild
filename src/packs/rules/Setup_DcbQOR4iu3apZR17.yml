@@ -15,9 +15,10 @@ pages:
       content: >-
         <div class="page" title="Page 14"><div class="layoutArea"><div
         class="column"><p><span style="font-family:'Capito04VAR'">When a
-        previous action makes a follow-up more effective, you assist without
-        risk. You roll 1d as a normal assist, but don't share the risk. If it
-        was your own action, you take +1d.</span></p></div></div></div>
+        previous action makes a follow-up more effective, you
+        @UUID[Compendium.grimwild.rules.JournalEntry.odkrgM4X8udAbLNN]{Assist}
+        without risk. You roll 1d as a normal assist, but don't share the risk.
+        If it was your own action, you take +1d.</span></p></div></div></div>
     video:
       controls: true
       volume: 0.5
@@ -33,8 +34,8 @@ pages:
       systemId: grimwild
       systemVersion: 0.1.0
       createdTime: null
-      modifiedTime: null
-      lastModifiedBy: null
+      modifiedTime: 1738611470327
+      lastModifiedBy: Dl5Tvf37OuEHwdAh
     _key: '!journal.pages!DcbQOR4iu3apZR17.R0lYIzI6uaOE9gZL'
 folder: p3IcETq9NG4OSRkx
 sort: 300000
@@ -51,6 +52,6 @@ _stats:
   createdTime: 1738366919492
   modifiedTime: 1738366919492
   lastModifiedBy: Dl5Tvf37OuEHwdAh
-categories: []
 _key: '!journal!DcbQOR4iu3apZR17'
+categories: []
 

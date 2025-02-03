@@ -34,7 +34,7 @@ pages:
         quarrel are <strong>final</strong>—it's okay for the PC that lost to be
         bitter, but the story moves in the winner's direction. </span><span
         style="font-family:'Capito04VARItalic'"><em><strong>Both sides take
-        spark</strong>.</em></span></p></div></div></div>
+        </strong></em>@UUID[Compendium.grimwild.rules.JournalEntry.jfAL6eh3f03OfuY3]{Spark}<em>.</em></span></p></div></div></div>
     video:
       controls: true
       volume: 0.5
@@ -50,8 +50,8 @@ pages:
       systemId: grimwild
       systemVersion: 0.1.0
       createdTime: null
-      modifiedTime: null
-      lastModifiedBy: null
+      modifiedTime: 1738611231304
+      lastModifiedBy: Dl5Tvf37OuEHwdAh
     _key: '!journal.pages!ZrytL42i0AD8UYXf.x2eoWeD2VOBC1kDY'
 sort: 0
 ownership:
@@ -67,6 +67,6 @@ _stats:
   createdTime: 1738510550844
   modifiedTime: 1738510550844
   lastModifiedBy: Dl5Tvf37OuEHwdAh
-categories: []
 _key: '!journal!ZrytL42i0AD8UYXf'
+categories: []
 

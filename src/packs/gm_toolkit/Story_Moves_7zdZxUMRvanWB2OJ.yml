@@ -1,0 +1,108 @@
+folder: AlWljQLa4nCSGD2H
+name: Story Moves
+_id: 7zdZxUMRvanWB2OJ
+pages:
+  - sort: 100000
+    name: Story Moves
+    type: text
+    _id: HtozUCvku2S65og4
+    system: {}
+    title:
+      show: true
+      level: 1
+    image: {}
+    text:
+      format: 1
+      content: >-
+        <div class="page" title="Page 33"><div class="layoutArea"><div
+        class="column"><p><span style="font-family:'Capito04VARItalic'"><em>Use
+        these moves anytime.</em></span></p><p><span
+        style="font-family:'Capito04VAR'">Keep the narrative flowing, the action
+        engaging, and get things moving when they stall out. Player actions
+        drive the story, and story moves nudge them forward. That doesn't mean
+        the world is passive—you can describe anything happening that makes
+        sense. However, from a story and gameplay perspective, it's more
+        satisfying when the players have </span><span
+        style="font-family:'Capito04VARItalic'"><em><strong>fair
+        warning</strong> </em></span><span
+        style="font-family:'Capito04VAR'">about trouble. They know actions have
+        consequences and suspense you've earned can come back to bite them. This
+        feels fair, so outside of these you give them the initiative. It shows
+        things aren't arbitrary—</span><span
+        style="font-family:'Capito04VARItalic'"><em><strong>the GM is also
+        playing the game, just by different rules</strong></em></span><span
+        style="font-family:'Capito04VAR'">.</span></p><p></p></div><div
+        class="column"><p><span style="font-family:'SegoeUIEmoji'">◆
+        </span><span
+        style="font-family:'Capito04VAR-Light-SC850'">@UUID[Compendium.grimwild.gm_toolkit.JournalEntry.BgDBVoiRbx5zUcoA]{Foreshadow}</span><span
+        style="font-family:'Capito04VAR'">: Hint at trouble, sometimes with a
+        timer pool. Prompts a later impact move.</span></p><p><span
+        style="font-family:'Capito04VARItalic'"><em>"The wizard narrows his eyes
+        angrily as you enter. • You hear hoofbeats coming, a 4d
+        timer."</em></span></p><p><span
+        style="font-family:'Capito04VARItalic'"><em><br /></em></span><span
+        style="font-family:'SegoeUIEmoji'">◆ </span><span
+        style="font-family:'Capito04VAR-Light-SC850'">@UUID[Compendium.grimwild.gm_toolkit.JournalEntry.JT7gBWoxu8GmCL2F]{Question}</span><span
+        style="font-family:'Capito04VAR'">: Ask provocative questions to stir up
+        drama or flesh out the world.</span></p><p><span
+        style="font-family:'Capito04VARItalic'"><em>"Why did you let them kill
+        that bandit?" • "What do you say about the queen as you sit around the
+        fire?"</em></span></p><p></p><p><span
+        style="font-family:'SegoeUIEmoji'">◆</span><span
+        style="font-family:'Capito04VAR-Light-SC850'">@UUID[Compendium.grimwild.gm_toolkit.JournalEntry.44sUTDzcXMTbmN9i]{Set
+        the Scene}</span><span style="font-family:'Capito04VAR'">: Use a story
+        roll to determine how a scene starts off when it’s
+        unclear.</span></p><p><span
+        style="font-family:'Capito04VARItalic'"><em>"All seem in festive spirits
+        in the great hall." • "All eyes coldly turn as you enter the great
+        hall."</em></span></p><p></p><p><span
+        style="font-family:'SegoeUIEmoji'">◆ </span><span
+        style="font-family:'Capito04VAR-Light-SC850'">@UUID[Compendium.grimwild.gm_toolkit.JournalEntry.HIO9pDCMlifR7iox]{Spotlight}</span><span
+        style="font-family:'Capito04VAR'">: Focus attention on a PC, encouraging
+        them to act or follow-up.</span></p><p><span
+        style="font-family:'Capito04VARItalic'"><em>"You’ve been quiet for a
+        bit—what are you up to?" • "The crone’s eyes lock onto yours, expecting
+        an answer."</em></span></p><p></p><p><span
+        style="font-family:'SegoeUIEmoji'">◆ </span><span
+        style="font-family:'Capito04VAR-Light-SC850'">@UUID[Compendium.grimwild.gm_toolkit.JournalEntry.I4Aj7JK4MsDtnCAM]{Wrap
+        It Up}</span><span style="font-family:'Capito04VAR'">: Call for a
+        montage roll or jump to a likely conclusion to a
+        scene.</span></p><p><span
+        style="font-family:'Capito04VARItalic'"><em>"Let’s montage your escape
+        from the collapsing dungeon." • "Okay, you finish mopping up the goblin
+        rabble."</em></span></p></div></div></div>
+    video:
+      controls: true
+      volume: 0.5
+    src: null
+    ownership:
+      default: -1
+      Dl5Tvf37OuEHwdAh: 3
+    flags: {}
+    _stats:
+      compendiumSource: null
+      duplicateSource: null
+      coreVersion: '12.331'
+      systemId: grimwild
+      systemVersion: 0.1.0
+      createdTime: null
+      modifiedTime: 1738610217851
+      lastModifiedBy: Dl5Tvf37OuEHwdAh
+    _key: '!journal.pages!7zdZxUMRvanWB2OJ.HtozUCvku2S65og4'
+sort: 0
+ownership:
+  default: 0
+  Dl5Tvf37OuEHwdAh: 3
+flags: {}
+_stats:
+  compendiumSource: null
+  duplicateSource: null
+  coreVersion: '12.331'
+  systemId: grimwild
+  systemVersion: 0.1.0
+  createdTime: 1738609119898
+  modifiedTime: 1738609119898
+  lastModifiedBy: Dl5Tvf37OuEHwdAh
+_key: '!journal!7zdZxUMRvanWB2OJ'
+categories: []
+

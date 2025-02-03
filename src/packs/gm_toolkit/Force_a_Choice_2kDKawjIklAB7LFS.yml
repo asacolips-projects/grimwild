@@ -1,0 +1,65 @@
+folder: g4byq082efDAWI1S
+name: Force a Choice
+_id: 2kDKawjIklAB7LFS
+pages:
+  - sort: 100000
+    name: Force a Choice
+    type: text
+    _id: xYiWtMrlzbwZHVFw
+    system: {}
+    title:
+      show: true
+      level: 1
+    image: {}
+    text:
+      format: 1
+      content: >-
+        <div class="page" title="Page 35"><div class="section"><div
+        class="layoutArea"><div class="column"><p><span
+        style="font-family:'Capito04VAR'">Present tough options, with room to
+        only choose one.</span></p><p><span
+        style="font-family:'Capito04VARItalic'"><em>"Your gold pouch and sword
+        slide towards the lava." • "Now’s the choice—the prince or the
+        marquis?"</em></span></p><p></p><p><span
+        style="font-family:'Capito04VAR-Light-SC850'">FORCE A CHOICE
+        </span><span style="font-family:'Capito04VAR'">to present stark, binary
+        decisions that they can't wiggle their way out of. This move offers no
+        easy way out. When you use it, make sure to follow through without
+        softening the impact. This adds a real cinematic edge, reflecting the
+        truly difficult decisions protagonists must
+        face.</span></p></div></div></div></div>
+    video:
+      controls: true
+      volume: 0.5
+    src: null
+    ownership:
+      default: -1
+      Dl5Tvf37OuEHwdAh: 3
+    flags: {}
+    _stats:
+      compendiumSource: null
+      duplicateSource: null
+      coreVersion: '12.331'
+      systemId: grimwild
+      systemVersion: 0.1.0
+      createdTime: null
+      modifiedTime: null
+      lastModifiedBy: null
+    _key: '!journal.pages!2kDKawjIklAB7LFS.xYiWtMrlzbwZHVFw'
+sort: 0
+ownership:
+  default: 0
+  Dl5Tvf37OuEHwdAh: 3
+flags: {}
+_stats:
+  compendiumSource: null
+  duplicateSource: null
+  coreVersion: '12.331'
+  systemId: grimwild
+  systemVersion: 0.1.0
+  createdTime: 1738609116086
+  modifiedTime: 1738609116086
+  lastModifiedBy: Dl5Tvf37OuEHwdAh
+categories: []
+_key: '!journal!2kDKawjIklAB7LFS'
+

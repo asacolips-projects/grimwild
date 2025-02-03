@@ -1,0 +1,100 @@
+folder: 7rNlh42HUUDEXQ9f
+name: Combat Rulings
+_id: QpdFqJf6v2VoRSeR
+pages:
+  - sort: 100000
+    name: Combat Rulings
+    type: text
+    _id: hgHMaKFTNYHU4F2u
+    system: {}
+    title:
+      show: true
+      level: 1
+    image: {}
+    text:
+      format: 1
+      content: >-
+        <div class="page" title="Page 41"><div class="layoutArea"><div
+        class="column"><p><span style="font-family:'Capito04VAR'">You map the
+        fiction to the rules just like any scene, making rulings to fill in
+        gaps. However, in combat you'll often see the same scenarios come up, so
+        for the sake of consistency, some common rulings:</span></p><p><span
+        style="font-family:'Capito04VAR'"><strong>Movement</strong>: Moving
+        usually accompanies another action—the goal isn't just to get somewhere,
+        but to get there and do something. If an interesting obstacle blocks the
+        way, it needs an
+        @UUID[Compendium.grimwild.rules.JournalEntry.pmTv1Nbggk6ql92W]{Action
+        Roll}.</span></p><p><span
+        style="font-family:'Capito04VAR'"><strong>Weapons</strong>: Compare the
+        weapons in play and use common sense to resolve any issues. Most weapons
+        are evenly matched; the roll only shifts if there's a clear
+        imbalance.</span></p><p><span
+        style="font-family:'Capito04VAR'"><strong>Melee combat</strong>: Most
+        melee attacks use Brawn, while light, fast weapons rely on Agility.
+        Dirty tricks call for Wits, but rarely work more than
+        once.</span></p><p><span
+        style="font-family:'Capito04VAR'"><strong>Ranged combat</strong>:
+        Precision attacks roll Agility, while thrown weapons use Brawn or
+        Agility based on weight and range. Charging an enemy with ranged weapons
+        is reckless, adding +1t or requiring a separate action to close the
+        gap.</span></p><p><span style="font-family:'Capito04VAR'"><strong>Ranged
+        and Casters vs. Melee</strong>: Spellcasting and precise ranged attacks
+        demand focus, which is tough with nearby threats. Inflict +1t to these
+        rolls when under immediate danger.</span></p><p><span
+        style="font-family:'Capito04VAR'">@UUID[Compendium.grimwild.rules.JournalEntry.FCERIjA706QgIWIJ]{Defense
+        Rolls}: The GM selects the stat to test. Melee attacks are dodged with
+        Agility, blocked with Brawn (using armor or shields), anticipated with
+        Wits, or keeping your nerve with Presence.</span></p><p><span
+        style="font-family:'Capito04VAR'"><strong>Armor</strong>: Armor and
+        shields are represented by talents like Bulwark. Otherwise, they are
+        @UUID[Compendium.grimwild.rules.JournalEntry.uLhjdcEsx67R7ADM]{Vantage}
+        and </span><span
+        style="font-family:'Capito04VARItalic'">@UUID[Compendium.grimwild.rules.JournalEntry.l1bIcnawFgjunvcF]{Set
+        Dressing}<em> </em></span><span style="font-family:'Capito04VAR'">for
+        defense rolls.</span></p><p><span
+        style="font-family:'Capito04VAR'"><strong>Vulnerabilities</strong>:
+        Exploiting a vulnerability can lower
+        @UUID[Compendium.grimwild.rules.JournalEntry.CKZHOS0pAZTYwZQ9]{Thorns},
+        drop 1 before rolling a
+        @UUID[Compendium.grimwild.rules.JournalEntry.5n7fkFcmZaVYZT52]{Pool}, or
+        even bypass the need for a roll. In some cases, finding a vulnerability
+        is required to attack at all.</span></p><p><span
+        style="font-family:'Capito04VAR'"><strong>Enemy Magic</strong>: Enemy
+        magic doesn't follow the same rules as PC magic. It manifests through GM
+        moves and is constrained only by the
+        fiction.</span></p></div></div></div>
+    video:
+      controls: true
+      volume: 0.5
+    src: null
+    ownership:
+      default: -1
+      Dl5Tvf37OuEHwdAh: 3
+    flags: {}
+    _stats:
+      compendiumSource: null
+      duplicateSource: null
+      coreVersion: '12.331'
+      systemId: grimwild
+      systemVersion: 0.1.0
+      createdTime: null
+      modifiedTime: null
+      lastModifiedBy: null
+    _key: '!journal.pages!QpdFqJf6v2VoRSeR.hgHMaKFTNYHU4F2u'
+sort: 0
+ownership:
+  default: 0
+  Dl5Tvf37OuEHwdAh: 3
+flags: {}
+_stats:
+  compendiumSource: null
+  duplicateSource: null
+  coreVersion: '12.331'
+  systemId: grimwild
+  systemVersion: 0.1.0
+  createdTime: 1738609117631
+  modifiedTime: 1738609117631
+  lastModifiedBy: Dl5Tvf37OuEHwdAh
+categories: []
+_key: '!journal!QpdFqJf6v2VoRSeR'
+

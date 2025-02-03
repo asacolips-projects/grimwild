@@ -1,0 +1,66 @@
+folder: g4byq082efDAWI1S
+name: Lock It In
+_id: Dsh3aKJ3gboNE9Qo
+pages:
+  - sort: 100000
+    name: Lock It In
+    type: text
+    _id: Ibu8agpTwQRib2l6
+    system: {}
+    title:
+      show: true
+      level: 1
+    image: {}
+    text:
+      format: 1
+      content: >-
+        <div class="page" title="Page 35"><div class="section"><div
+        class="layoutArea"><div class="column"><p><span
+        style="font-family:'Capito04VAR'">Declare something occurs, closing off
+        immediate attempts to change it. </span></p><p><span
+        style="font-family:'Capito04VARItalic'"><em>"The thief gets away,
+        nowhere to be seen." • "The bridge behind you collapses. No going
+        back."</em></span></p></div><div class="column"><p></p><p><span
+        style="font-family:'Capito04VAR-Light-SC850'">LOCK IT IN </span><span
+        style="font-family:'Capito04VAR'">to definitively close off an
+        opportunity and close out a scene that's threatening to drag on. Players
+        can be tenacious and keep trying to find some way to not be defeated.
+        This puts a definitive end to a situation. It makes follow-up attempts
+        impossible, which refocuses players' attention forward rather than
+        trying to find yet another way to attempt something they've already
+        failed at.</span></p></div></div></div></div>
+    video:
+      controls: true
+      volume: 0.5
+    src: null
+    ownership:
+      default: -1
+      Dl5Tvf37OuEHwdAh: 3
+    flags: {}
+    _stats:
+      compendiumSource: null
+      duplicateSource: null
+      coreVersion: '12.331'
+      systemId: grimwild
+      systemVersion: 0.1.0
+      createdTime: null
+      modifiedTime: null
+      lastModifiedBy: null
+    _key: '!journal.pages!Dsh3aKJ3gboNE9Qo.Ibu8agpTwQRib2l6'
+sort: 0
+ownership:
+  default: 0
+  Dl5Tvf37OuEHwdAh: 3
+flags: {}
+_stats:
+  compendiumSource: null
+  duplicateSource: null
+  coreVersion: '12.331'
+  systemId: grimwild
+  systemVersion: 0.1.0
+  createdTime: 1738609116086
+  modifiedTime: 1738609116086
+  lastModifiedBy: Dl5Tvf37OuEHwdAh
+categories: []
+_key: '!journal!Dsh3aKJ3gboNE9Qo'
+

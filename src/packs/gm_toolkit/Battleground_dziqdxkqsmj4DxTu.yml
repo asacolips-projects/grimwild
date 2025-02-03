@@ -1,0 +1,84 @@
+folder: cSF3Iw5klDLnZaJB
+name: Battleground
+_id: dziqdxkqsmj4DxTu
+pages:
+  - sort: 100000
+    name: Battleground
+    type: text
+    _id: ITxrstylX2Y4Kagu
+    system: {}
+    title:
+      show: true
+      level: 1
+    image: {}
+    text:
+      format: 1
+      content: >-
+        <div class="page" title="Page 40"><div class="layoutArea"><div
+        class="column"><p><span style="font-family:'Capito04VAR'">Make the
+        location an important, proactive part of the scene. Identify
+        environmental elements to bring into play.</span></p><p><span
+        style="font-family:'SegoeUIEmoji'">◆ </span><span
+        style="font-family:'Capito04VARItalic'"><em><strong>Features</strong></em></span><span
+        style="font-family:'Capito04VAR'">: Elements likely to impact, usually
+        complicating, the ongoing action. </span><span
+        style="font-family:'Capito04VARItalic'"><em>They have a strong effect on
+        vantage and difficulty.</em></span></p><p><span
+        style="font-family:'Capito04VARItalic'"><em>Heavy winds, cluttered
+        warehouse, angry onlookers.</em></span></p><p><span
+        style="font-family:'SegoeUIEmoji'">◆ </span><span
+        style="font-family:'Capito04VARItalic'"><em><strong>Threats</strong></em></span><span
+        style="font-family:'Capito04VAR'">: Hazards that present extra dangers.
+        They either get 2 </span><span
+        style="font-family:'Capito04VARItalic'">@UUID[Compendium.grimwild.gm_toolkit.JournalEntry.r03swtJF4sEnG2fm]{Suspense}</span><span
+        style="font-family:'Capito04VAR'"> or repeat on a
+        @UUID[Compendium.grimwild.rules.JournalEntry.5n7fkFcmZaVYZT52]{Timer}.</span></p><p><span><em>4d
+        heavy waves, 6d guard patrols, 8d artillery.</em></span></p><p><span
+        style="font-family:'Capito04VARItalic'"><em>Aggressive spirits, Tornado,
+        Raging waters.</em></span></p><p><span
+        style="font-family:'Capito04VAR'"><strong>Note</strong></span><span
+        style="font-family:'Capito04VARItalic'"><em>: </em></span><span
+        style="font-family:'Capito04VAR'">Enemies gathered into a single
+        @UUID[Compendium.grimwild.rules.JournalEntry.5n7fkFcmZaVYZT52]{Task
+        Pool} are listed with the dice in front </span><span
+        style="font-family:'Capito04VARItalic'"><em>(4d
+        Archers)</em></span><span style="font-family:'Capito04VAR'">. Challenges
+        are shown with a | after the pool </span><span
+        style="font-family:'Capito04VARItalic'"><em>(8d |
+        Dragon)</em></span><span
+        style="font-family:'Capito04VAR'">.</span></p></div></div></div>
+    video:
+      controls: true
+      volume: 0.5
+    src: null
+    ownership:
+      default: -1
+      Dl5Tvf37OuEHwdAh: 3
+    flags: {}
+    _stats:
+      compendiumSource: null
+      duplicateSource: null
+      coreVersion: '12.331'
+      systemId: grimwild
+      systemVersion: 0.1.0
+      createdTime: null
+      modifiedTime: 1738609473653
+      lastModifiedBy: Dl5Tvf37OuEHwdAh
+    _key: '!journal.pages!dziqdxkqsmj4DxTu.ITxrstylX2Y4Kagu'
+sort: 0
+ownership:
+  default: 0
+  Dl5Tvf37OuEHwdAh: 3
+flags: {}
+_stats:
+  compendiumSource: null
+  duplicateSource: null
+  coreVersion: '12.331'
+  systemId: grimwild
+  systemVersion: 0.1.0
+  createdTime: 1738609107710
+  modifiedTime: 1738609107710
+  lastModifiedBy: Dl5Tvf37OuEHwdAh
+_key: '!journal!dziqdxkqsmj4DxTu'
+categories: []
+

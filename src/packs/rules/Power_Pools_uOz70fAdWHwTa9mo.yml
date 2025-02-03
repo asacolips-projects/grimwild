@@ -17,7 +17,8 @@ pages:
         <div class="page" title="Page 19"><div class="layoutArea"><div
         class="column"><p><span style="font-family:'Capito04VAR'">The power of
         some talents or items, rolled as part of using it or in place of a stat.
-        The same roll determines the outcome and drops dice from the pool.
+        The same roll determines the outcome and drops dice from the
+        @UUID[Compendium.grimwild.rules.JournalEntry.5n7fkFcmZaVYZT52]{Pool}.
         </span><span style="font-family:'Capito04VARItalic'"><em><strong>You can
         roll fewer dice to risk losing less</strong>. </em></span><span
         style="font-family:'NotoEmoji'">🎲 </span><span
@@ -39,8 +40,8 @@ pages:
       systemId: grimwild
       systemVersion: 0.1.0
       createdTime: null
-      modifiedTime: null
-      lastModifiedBy: null
+      modifiedTime: 1738611173098
+      lastModifiedBy: Dl5Tvf37OuEHwdAh
     _key: '!journal.pages!uOz70fAdWHwTa9mo.3A7BIzUGAbfwdS0N'
 sort: 0
 ownership:
@@ -56,6 +57,6 @@ _stats:
   createdTime: 1738510550844
   modifiedTime: 1738510550844
   lastModifiedBy: Dl5Tvf37OuEHwdAh
-categories: []
 _key: '!journal!uOz70fAdWHwTa9mo'
+categories: []
 

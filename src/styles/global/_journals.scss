@@ -13,4 +13,11 @@
 
 .journal-page-content {
   font-size: 18px;
+  line-height: 25px;
+
+  table {
+    td {
+      padding: 0.5rem;
+    }
+  }
 }

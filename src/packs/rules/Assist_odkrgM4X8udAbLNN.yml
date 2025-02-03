@@ -22,12 +22,16 @@ pages:
         narrate your contribution, using your own result and bonds as a
         guide.</span></p><p><span
         style="font-family:'Capito04VARItalic'"><em><strong>You can assist when
-        another PC's action prompts an impact move</strong></em></span><span
-        style="font-family:'Capito04VAR'">. You make a 1d defense roll for
-        them.</span></p><p><span style="font-family:'Capito04VAR'">When you
-        <strong>share the risk</strong>, you open yourself up to consequences,
-        which can prompt a more pow- erful or additional impact move, or the GM
-        can take suspense instead.</span></p></div></div></div>
+        another PC's action prompts an
+        </strong></em>@UUID[Compendium.grimwild.gm_toolkit.JournalEntry.3Jw6Ds3TAJYimqxj]{Impact
+        Move}</span><span style="font-family:'Capito04VAR'">. You make a 1d
+        @UUID[Compendium.grimwild.rules.JournalEntry.FCERIjA706QgIWIJ]{Defense
+        Roll} for them.</span></p><p><span
+        style="font-family:'Capito04VAR'">When you <strong>share the
+        risk</strong>, you open yourself up to consequences, which can prompt a
+        more powerful or additional impact move, or the GM can take
+        @UUID[Compendium.grimwild.gm_toolkit.JournalEntry.r03swtJF4sEnG2fm]{Suspense}
+        instead.</span></p></div></div></div>
     video:
       controls: true
       volume: 0.5
@@ -43,8 +47,8 @@ pages:
       systemId: grimwild
       systemVersion: 0.1.0
       createdTime: null
-      modifiedTime: null
-      lastModifiedBy: null
+      modifiedTime: 1738611446502
+      lastModifiedBy: Dl5Tvf37OuEHwdAh
     _key: '!journal.pages!odkrgM4X8udAbLNN.QWuXJGv9XSzUVuRj'
 folder: p3IcETq9NG4OSRkx
 sort: 100000
@@ -61,6 +65,6 @@ _stats:
   createdTime: 1738366919492
   modifiedTime: 1738366919492
   lastModifiedBy: Dl5Tvf37OuEHwdAh
-categories: []
 _key: '!journal!odkrgM4X8udAbLNN'
+categories: []
 

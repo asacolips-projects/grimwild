@@ -1,0 +1,65 @@
+folder: AlWljQLa4nCSGD2H
+name: Question
+_id: JT7gBWoxu8GmCL2F
+pages:
+  - sort: 100000
+    name: Question
+    type: text
+    _id: UDzTrpnvr9LWfLIW
+    system: {}
+    title:
+      show: true
+      level: 1
+    image: {}
+    text:
+      format: 1
+      content: >-
+        <div class="page" title="Page 33"><div class="layoutArea"><div
+        class="column"><p><span style="font-family:'Capito04VAR'">Ask
+        provocative questions to stir up drama or flesh out the
+        world.</span></p><p><span
+        style="font-family:'Capito04VARItalic'"><em>"Why did you let them kill
+        that bandit?" • "What do you say about the queen as you sit around the
+        fire?"</em></span></p><p></p><p><span
+        style="font-family:'Capito04VAR-Light-SC850'">QUESTION </span><span
+        style="font-family:'Capito04VAR'">players to help suss out what kind of
+        story they're interested in, share the creative load, and keep the story
+        fresh for yourself. Try to keep this focused on their character's
+        perspective, but feel free to dip into the meta channel here and talk
+        directly as players about what you all want to see play out in
+        game.</span></p></div></div></div>
+    video:
+      controls: true
+      volume: 0.5
+    src: null
+    ownership:
+      default: -1
+      Dl5Tvf37OuEHwdAh: 3
+    flags: {}
+    _stats:
+      compendiumSource: null
+      duplicateSource: null
+      coreVersion: '12.331'
+      systemId: grimwild
+      systemVersion: 0.1.0
+      createdTime: null
+      modifiedTime: null
+      lastModifiedBy: null
+    _key: '!journal.pages!JT7gBWoxu8GmCL2F.UDzTrpnvr9LWfLIW'
+sort: 0
+ownership:
+  default: 0
+  Dl5Tvf37OuEHwdAh: 3
+flags: {}
+_stats:
+  compendiumSource: null
+  duplicateSource: null
+  coreVersion: '12.331'
+  systemId: grimwild
+  systemVersion: 0.1.0
+  createdTime: 1738609119898
+  modifiedTime: 1738609119898
+  lastModifiedBy: Dl5Tvf37OuEHwdAh
+categories: []
+_key: '!journal!JT7gBWoxu8GmCL2F'
+

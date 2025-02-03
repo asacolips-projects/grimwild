@@ -1,0 +1,106 @@
+folder: 5YXY1yqWw7ivAdLy
+name: Suspense Moves
+_id: meKAiEb4xEJcJ58F
+pages:
+  - sort: 100000
+    name: Suspense Moves
+    type: text
+    _id: MFDpOGsKqjdhewhc
+    system: {}
+    title:
+      show: true
+      level: 1
+    image: {}
+    text:
+      format: 1
+      content: >-
+        <div class="page" title="Page 34"><div class="layoutArea"><div
+        class="column"><p><span style="font-family:'Capito04VARItalic'"><em>Use
+        these moves with cinematic timing.</em></span></p><p><span
+        style="font-family:'Capito04VAR'">Create familiar moments inspired by TV
+        shows, incentivizing you mechanically to take the time to structure the
+        story cinematically. </span><span
+        style="font-family:'Capito04VARItalic'"><em><strong>You earn
+        </strong></em>@UUID[Compendium.grimwild.gm_toolkit.JournalEntry.r03swtJF4sEnG2fm]{Suspense}</span><span
+        style="font-family:'Capito04VAR'">, so they reward you for handling some
+        of the tedium of GMing and remind players to stay engaged. Suspense
+        keeps the world active when things stall. When your supply of suspense
+        runs dry, you can use these to jumpstart the action again. However, use
+        them carefully—</span><span
+        style="font-family:'Capito04VARItalic'"><em><strong>overuse</strong>
+        </em></span><span style="font-family:'Capito04VAR'">can get frustrating
+        for players, so pick your spots. But </span><span
+        style="font-family:'Capito04VARItalic'"><em><strong>timely</strong>
+        </em></span><span style="font-family:'Capito04VAR'">use makes good,
+        cinematic sense.</span></p><p></p></div></div><div class="section"><div
+        class="layoutArea"><div class="column"><p><span
+        style="font-family:'SegoeUIEmoji'">◆ </span><span
+        style="font-family:'Capito04VAR-Light-SC850'">@UUID[Compendium.grimwild.gm_toolkit.JournalEntry.xEltzhhBRdgZ6FSn]{Bridge}</span><span
+        style="font-family:'Capito04VAR'">: Resolve a problem the PCs face or
+        use exposition to connect some dots.</span></p><p><span
+        style="font-family:'Capito04VARItalic'"><em>You hear from above, ‘Need
+        some help down there?’ • It suddenly makes sense—the baron is a
+        vampire.</em></span></p><p></p><p><span
+        style="font-family:'SegoeUIEmoji'">◆ </span><span
+        style="font-family:'Capito04VAR-Light-SC850'">@UUID[Compendium.grimwild.gm_toolkit.JournalEntry.c73WkXl7z1UfIX1I]{Buildup}</span><span
+        style="font-family:'Capito04VAR'">: Give spark to each PC, who give a
+        brief vignette before upcoming action.</span></p><p><span
+        style="font-family:'Capito04VARItalic'"><em>The dragon roars in its
+        lair. Let’s do a buildup. • What does it look like as you enter the
+        masquerade?</em></span></p><p></p><p><span
+        style="font-family:'SegoeUIEmoji'">◆ </span><span
+        style="font-family:'Capito04VAR-Light-SC850'">@UUID[Compendium.grimwild.gm_toolkit.JournalEntry.s5kx6NIL4rDoZbUM]{Cutaway}</span><span
+        style="font-family:'Capito04VAR'">: Narrate an info-rich scene
+        elsewhere, clueing the players in.</span></p><p><span
+        style="font-family:'Capito04VARItalic'"><em>In a distant village, a
+        strange sickness begins to spread. • Meanwhile, we see shadows climbing
+        the walls.</em></span></p><p></p><p><span
+        style="font-family:'SegoeUIEmoji'">◆ </span><span
+        style="font-family:'Capito04VAR-Light-SC850'">@UUID[Compendium.grimwild.gm_toolkit.JournalEntry.VV7uXLGhN8SS7Fzs]{Entangle}</span><span
+        style="font-family:'Capito04VAR'">: Propose an interesting tangle to a
+        PC. Take suspense only if they accept.</span></p><p><span
+        style="font-family:'Capito04VARItalic'"><em>He looks at you with a
+        smirk, daring you to speak up. • The prisoner knows where your mother
+        is.</em></span></p><p></p><p><span style="font-family:'SegoeUIEmoji'">◆
+        </span><span
+        style="font-family:'Capito04VAR-Light-SC850'">@UUID[Compendium.grimwild.gm_toolkit.JournalEntry.cudGLx4CTx5gFHEN]{Recap}</span><span
+        style="font-family:'Capito04VAR'">: Summarize the last session or events
+        further in the past.</span></p><p><span
+        style="font-family:'Capito04VARItalic'"><em>Okay, so last time you
+        wrecked that keep. • Remember when you let that bandit
+        go?</em></span></p></div></div></div></div>
+    video:
+      controls: true
+      volume: 0.5
+    src: null
+    ownership:
+      default: -1
+      Dl5Tvf37OuEHwdAh: 3
+    flags: {}
+    _stats:
+      compendiumSource: null
+      duplicateSource: null
+      coreVersion: '12.331'
+      systemId: grimwild
+      systemVersion: 0.1.0
+      createdTime: null
+      modifiedTime: 1738610334612
+      lastModifiedBy: Dl5Tvf37OuEHwdAh
+    _key: '!journal.pages!meKAiEb4xEJcJ58F.MFDpOGsKqjdhewhc'
+sort: 0
+ownership:
+  default: 0
+  Dl5Tvf37OuEHwdAh: 3
+flags: {}
+_stats:
+  compendiumSource: null
+  duplicateSource: null
+  coreVersion: '12.331'
+  systemId: grimwild
+  systemVersion: 0.1.0
+  createdTime: 1738609121380
+  modifiedTime: 1738609121380
+  lastModifiedBy: Dl5Tvf37OuEHwdAh
+_key: '!journal!meKAiEb4xEJcJ58F'
+categories: []
+

@@ -1,0 +1,64 @@
+folder: WErPxEpB1oKJCPGq
+name: Splitting It
+_id: vR77Oa1oHXHwCgR8
+pages:
+  - sort: 100000
+    name: Splitting It
+    type: text
+    _id: 0tsJrtTmnkhvWZmy
+    system: {}
+    title:
+      show: true
+      level: 1
+    image: {}
+    text:
+      format: 1
+      content: >-
+        <div class="page" title="Page 32"><div class="layoutArea"><div
+        class="column"><p><span style="font-family:'Capito04VAR'">Breaking big
+        consequences into smaller ones. Multiple effects can be just as
+        effective and make more sense in the situation. You might break up
+        bloo@UUID[Compendium.grimwild.rules.JournalEntry.kAGyEflDClkS3viS]{Bloodied}
+        into a few
+        @UUID[Compendium.grimwild.rules.JournalEntry.mE6axXeciWLe3skm]{Marks},
+        or rattled becoming
+        @UUID[Compendium.grimwild.rules.JournalEntry.LjjAaVn72uputf9b]{Vex} and
+        rolling a
+        @UUID[Compendium.grimwild.rules.JournalEntry.5n7fkFcmZaVYZT52]{Pool}
+        instead. Splits make the story move in multiple
+        directions.</span></p></div></div></div>
+    video:
+      controls: true
+      volume: 0.5
+    src: null
+    ownership:
+      default: -1
+      Dl5Tvf37OuEHwdAh: 3
+    flags: {}
+    _stats:
+      compendiumSource: null
+      duplicateSource: null
+      coreVersion: '12.331'
+      systemId: grimwild
+      systemVersion: 0.1.0
+      createdTime: null
+      modifiedTime: 1738609856681
+      lastModifiedBy: Dl5Tvf37OuEHwdAh
+    _key: '!journal.pages!vR77Oa1oHXHwCgR8.0tsJrtTmnkhvWZmy'
+sort: 0
+ownership:
+  default: 0
+  Dl5Tvf37OuEHwdAh: 3
+flags: {}
+_stats:
+  compendiumSource: null
+  duplicateSource: null
+  coreVersion: '12.331'
+  systemId: grimwild
+  systemVersion: 0.1.0
+  createdTime: 1738609113855
+  modifiedTime: 1738609113855
+  lastModifiedBy: Dl5Tvf37OuEHwdAh
+_key: '!journal!vR77Oa1oHXHwCgR8'
+categories: []
+

@@ -1,0 +1,65 @@
+folder: 8qrZk7eOvPVdUhzZ
+name: Strike
+_id: vUfXP0trLVE9LXWV
+pages:
+  - sort: 100000
+    name: Strike
+    type: text
+    _id: zyTu6VDeRsyxQQRR
+    system: {}
+    title:
+      show: true
+      level: 1
+    image: {}
+    text:
+      format: 1
+      content: >-
+        <div class="page" title="Page 38"><div class="layoutArea"><div
+        class="column"><p><span
+        style="font-family:'Capito04VARItalic'"><em>Tests a character's
+        defenses.</em></span></p><p><span style="font-family:'Capito04VAR'">Make
+        an impact move as the danger immediately strikes them. </span><span
+        style="font-family:'Capito04VARItalic'"><em><strong>The GM</strong>
+        </em></span><span style="font-family:'Capito04VAR'">assumes the PCs were
+        not vigilant enough. </span><span
+        style="font-family:'Capito04VARItalic'"><em><strong>The dangerous world
+        guides the story forward</strong></em></span><span
+        style="font-family:'Capito04VAR'">. </span><span
+        style="font-family:'Capito04VARItalic'"><em>The servant slips poison
+        into your glass. A trapdoor opens beneath
+        you.</em></span></p></div></div></div>
+    video:
+      controls: true
+      volume: 0.5
+    src: null
+    ownership:
+      default: -1
+      Dl5Tvf37OuEHwdAh: 3
+    flags: {}
+    _stats:
+      compendiumSource: null
+      duplicateSource: null
+      coreVersion: '12.331'
+      systemId: grimwild
+      systemVersion: 0.1.0
+      createdTime: null
+      modifiedTime: null
+      lastModifiedBy: null
+    _key: '!journal.pages!vUfXP0trLVE9LXWV.zyTu6VDeRsyxQQRR'
+sort: 0
+ownership:
+  default: 0
+  Dl5Tvf37OuEHwdAh: 3
+flags: {}
+_stats:
+  compendiumSource: null
+  duplicateSource: null
+  coreVersion: '12.331'
+  systemId: grimwild
+  systemVersion: 0.1.0
+  createdTime: 1738609122965
+  modifiedTime: 1738609122965
+  lastModifiedBy: Dl5Tvf37OuEHwdAh
+categories: []
+_key: '!journal!vUfXP0trLVE9LXWV'
+

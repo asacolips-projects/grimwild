@@ -19,7 +19,7 @@ pages:
         session (after the first), recall the previous session and share your
         PC's best moment. </span><span
         style="font-family:'Capito04VARItalic'"><em><strong>Each player takes
-        spark</strong></em></span><span
+        </strong>@UUID[Compendium.grimwild.rules.JournalEntry.jfAL6eh3f03OfuY3]{Spark}</em></span><span
         style="font-family:'Capito04VAR'">.</span></p><p><span
         style="font-family:'Capito04VAR'">When all are finished, the GM
         </span><span style="font-family:'Capito04VAR-Light-SC850',
@@ -28,8 +28,9 @@ pages:
         font-style='small-caps'">RECAPS </span></span><span
         style="font-family:'Capito04VAR'">(</span><span
         style="font-family:'Capito04VARItalic'"><em>taking
-        suspense</em></span><span style="font-family:'Capito04VAR'">) tying all
-        of these moments together into a proper "</span><span
+        </em>@UUID[Compendium.grimwild.gm_toolkit.JournalEntry.r03swtJF4sEnG2fm]{Suspense}</span><span
+        style="font-family:'Capito04VAR'">) tying all of these moments together
+        into a proper "</span><span
         style="font-family:'Capito04VARItalic'"><em>Previously
         on...</em></span><span style="font-family:'Capito04VAR'">" and starts
         the session.</span></p><p><span
@@ -51,8 +52,8 @@ pages:
       systemId: grimwild
       systemVersion: 0.1.0
       createdTime: null
-      modifiedTime: null
-      lastModifiedBy: null
+      modifiedTime: 1738610467594
+      lastModifiedBy: Dl5Tvf37OuEHwdAh
     _key: '!journal.pages!SIhGcNqioDpwaJCT.1dgaTSoj6nuTG3kr'
 sort: 0
 ownership:
@@ -68,6 +69,6 @@ _stats:
   createdTime: 1738510545972
   modifiedTime: 1738510545972
   lastModifiedBy: Dl5Tvf37OuEHwdAh
-categories: []
 _key: '!journal!SIhGcNqioDpwaJCT'
+categories: []
 

@@ -1,0 +1,70 @@
+folder: AlWljQLa4nCSGD2H
+name: Set the Scene
+_id: 44sUTDzcXMTbmN9i
+pages:
+  - sort: 100000
+    name: Set the Scene
+    type: text
+    _id: q2wMnbkD2ZdMG5lV
+    system: {}
+    title:
+      show: true
+      level: 1
+    image: {}
+    text:
+      format: 1
+      content: >-
+        <div class="page" title="Page 33"><div class="layoutArea"><div
+        class="column"><p><span style="font-family:'Capito04VAR'">Use a story
+        roll to determine how a scene starts off when it’s
+        unclear.</span></p><p><span
+        style="font-family:'Capito04VARItalic'"><em>"All seem in festive spirits
+        in the great hall." • "All eyes coldly turn as you enter the great
+        hall."</em></span></p><p></p><p><span
+        style="font-family:'Capito04VAR-Light-SC850'">SET THE SCENE </span><span
+        style="font-family:'Capito04VAR'">when you're unsure about the specifics
+        of the current fiction or want to dive straight into the action. Skip
+        detailed planning and cautious leadups that often drag gameplay down.
+        Instead, </span><span
+        style="font-family:'Capito04VARItalic'"><em><strong>jump straight into
+        the action</strong></em></span><span style="font-family:'Capito04VAR'">,
+        an in medias res shot of things already in motion! The roll sets the
+        opening mood and stakes for the scene. On a grim, it can even trigger an
+        @UUID[Compendium.grimwild.gm_toolkit.JournalEntry.3Jw6Ds3TAJYimqxj]{Impact
+        Move}, kicking things off with a bang and raising tension right
+        away.</span></p></div></div></div>
+    video:
+      controls: true
+      volume: 0.5
+    src: null
+    ownership:
+      default: -1
+      Dl5Tvf37OuEHwdAh: 3
+    flags: {}
+    _stats:
+      compendiumSource: null
+      duplicateSource: null
+      coreVersion: '12.331'
+      systemId: grimwild
+      systemVersion: 0.1.0
+      createdTime: null
+      modifiedTime: 1738610168224
+      lastModifiedBy: Dl5Tvf37OuEHwdAh
+    _key: '!journal.pages!44sUTDzcXMTbmN9i.q2wMnbkD2ZdMG5lV'
+sort: 0
+ownership:
+  default: 0
+  Dl5Tvf37OuEHwdAh: 3
+flags: {}
+_stats:
+  compendiumSource: JournalEntry.44sUTDzcXMTbmN9i
+  duplicateSource: null
+  coreVersion: '12.331'
+  systemId: grimwild
+  systemVersion: 0.1.0
+  createdTime: 1738609119898
+  modifiedTime: 1738609119898
+  lastModifiedBy: Dl5Tvf37OuEHwdAh
+_key: '!journal!44sUTDzcXMTbmN9i'
+categories: []
+

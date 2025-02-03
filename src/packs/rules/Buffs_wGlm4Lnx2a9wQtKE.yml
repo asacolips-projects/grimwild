@@ -18,9 +18,11 @@ pages:
         class="column"><p><span style="font-family:'Capito04VAR'">Beneficial
         effects </span><span
         style="font-family:'Capito04VARItalic'"><em>(fearless, invisible)
-        </em></span><span style="font-family:'Capito04VAR'">that expand vantage,
-        ease tasks, make rolls unneces- sary, or provide outside assistance. If
-        you give a buff to an ally that persists in your absence, you can assist
+        </em></span><span style="font-family:'Capito04VAR'">that expand
+        @UUID[Compendium.grimwild.rules.JournalEntry.uLhjdcEsx67R7ADM]{Vantage},
+        ease tasks, make rolls unnecessary, or provide outside assistance. If
+        you give a buff to an ally that persists in your absence, you can
+        @UUID[Compendium.grimwild.rules.JournalEntry.odkrgM4X8udAbLNN]{Assist}
         relevant rolls without risk.</span></p></div></div></div>
     video:
       controls: true
@@ -37,8 +39,8 @@ pages:
       systemId: grimwild
       systemVersion: 0.1.0
       createdTime: null
-      modifiedTime: null
-      lastModifiedBy: null
+      modifiedTime: 1738611070988
+      lastModifiedBy: Dl5Tvf37OuEHwdAh
     _key: '!journal.pages!wGlm4Lnx2a9wQtKE.2tZSeSez8JaX7Klz'
 sort: 0
 ownership:
@@ -54,6 +56,6 @@ _stats:
   createdTime: 1738510550844
   modifiedTime: 1738510550844
   lastModifiedBy: Dl5Tvf37OuEHwdAh
-categories: []
 _key: '!journal!wGlm4Lnx2a9wQtKE'
+categories: []
 

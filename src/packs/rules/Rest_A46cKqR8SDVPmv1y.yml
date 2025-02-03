@@ -19,8 +19,10 @@ pages:
         time between significant action </span><span
         style="font-family:'Capito04VARItalic'"><em>(a night's camp, a week's
         travel)</em></span><span style="font-family:'Capito04VAR'">. Paced for
-        drama, not realism. Clear all marks and heal (roll
-        pools).</span></p></div></div></div>
+        drama, not realism. Clear all
+        @UUID[Compendium.grimwild.rules.JournalEntry.mE6axXeciWLe3skm]{Marks}
+        and @UUID[Compendium.grimwild.rules.JournalEntry.PRDMJnwI7k3SQ9Qn]{Heal}
+        (roll pools).</span></p></div></div></div>
     video:
       controls: true
       volume: 0.5
@@ -36,8 +38,8 @@ pages:
       systemId: grimwild
       systemVersion: 0.1.0
       createdTime: null
-      modifiedTime: null
-      lastModifiedBy: null
+      modifiedTime: 1738611370294
+      lastModifiedBy: Dl5Tvf37OuEHwdAh
     _key: '!journal.pages!A46cKqR8SDVPmv1y.6CrSSyShivhGkymR'
 sort: 0
 ownership:
@@ -53,6 +55,6 @@ _stats:
   createdTime: 1738510552165
   modifiedTime: 1738510552165
   lastModifiedBy: Dl5Tvf37OuEHwdAh
-categories: []
 _key: '!journal!A46cKqR8SDVPmv1y'
+categories: []
 
