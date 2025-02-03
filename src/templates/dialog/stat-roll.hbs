@@ -1,49 +1,51 @@
-<h3>{{localize "GRIMWILD.Dice.dice"}}</h3>
-<div class="grimwild-form-group">
-    <label for="stat">{{localize (concat "GRIMWILD.Stat." stat ".long")}}</label>
-    <input type="number" id="stat" name="stat" value="{{diceDefault}}" min="0">
-</div>
-<div id="assistContainer">
-            <!-- Rows will be added here dynamically -->
-</div>
-<button type="button" id="addAssist"><i class="fas fa-plus"></i>{{localize "GRIMWILD.Dice.assist"}}</button>
-<div class="grimwild-form-group">
-    <label class="total">{{localize "GRIMWILD.Dice.total"}}</label>
-    <span id="totalDice" class="total">0</span>
-    <input type="hidden" id="totalDiceInput" name="totaDice">
-</div>
-<h3>{{localize "GRIMWILD.Dice.thorns"}}</h3>
+<div id="grimwild-roll-dialog">
+    <h3>{{localize "GRIMWILD.Dice.dice"}}</h3>
+    <div class="grimwild-form-group">
+        <label for="stat">{{localize (concat "GRIMWILD.Stat." stat ".long")}}</label>
+        <input type="number" class="rollDice rollDiceInput" id="stat" name="stat" value="{{diceDefault}}" min="0">
+    </div>
+    <div id="assistContainer">
+                <!-- Rows will be added here dynamically -->
+    </div>
+    <button type="button" id="addAssist" data-action="addAssist"><i class="fas fa-plus"></i>{{localize "GRIMWILD.Dice.assist"}}</button>
+    <div class="grimwild-form-group">
+        <label class="total">{{localize "GRIMWILD.Dice.total"}}</label>
+        <span id="totalDice" class="total">0</span>
+        <input type="hidden" id="totalDiceInput" name="totaDice">
+    </div>
+    <h3>{{localize "GRIMWILD.Dice.thorns"}}</h3>
 
-<div class="grimwild-checkbox-group">
-    <div class="grimwild-form-group">
-        <label for="marked">{{localize "GRIMWILD.Damage.marked"}}{{#if markIgnored}} ({{localize "GRIMWILD.Damage.ignored"}}){{/if}}</label>
-        <input type="checkbox" id="marked" name="thorns[marked]" value="1" {{#if isMarked}}checked{{/if}}>
+    <div class="grimwild-checkbox-group">
+        <div class="grimwild-form-group">
+            <label for="marked">{{localize "GRIMWILD.Damage.marked"}}{{#if markIgnored}} ({{localize "GRIMWILD.Damage.ignored"}}){{/if}}</label>
+            <input type="checkbox" class="thorn thornCheck" id="marked" name="thorns[marked]" value="1" {{#if isMarked}}checked{{/if}}>
+        </div>
+        <div class="grimwild-form-group">
+            <label for="bloodied">{{localize "GRIMWILD.Damage.bloodied"}}</label>
+            <input type="checkbox" class="thorn thornCheck" id="bloodied" name="thorns[bloodied]" value="1" {{#if isBloodied}}checked{{/if}}>
+        </div>
+        <div class="grimwild-form-group">
+            <label for="rattled">{{localize "GRIMWILD.Damage.rattled"}}</label>
+            <input type="checkbox" class="thorn thornCheck" id="rattled" name="thorns[rattled]" value="1" {{#if isRattled}}checked{{/if}}>
+        </div>
+        <div class="grimwild-form-group">
+            <label for="vex">{{localize "GRIMWILD.Damage.vex"}}</label>
+            <input type="checkbox" class="thorn thornCheck" id="vex" name="thorns[vex]" value="1">
+        </div>
     </div>
-    <div class="grimwild-form-group">
-        <label for="bloodied">{{localize "GRIMWILD.Damage.bloodied"}}</label>
-        <input type="checkbox" id="bloodied" name="thorns[bloodied]" value="1" {{#if isBloodied}}checked{{/if}}>
-    </div>
-    <div class="grimwild-form-group">
-        <label for="rattled">{{localize "GRIMWILD.Damage.rattled"}}</label>
-        <input type="checkbox" id="rattled" name="thorns[rattled]" value="1" {{#if isRattled}}checked{{/if}}>
-    </div>
-    <div class="grimwild-form-group">
-        <label for="vex">{{localize "GRIMWILD.Damage.vex"}}</label>
-        <input type="checkbox" id="vex" name="thorns[vex]" value="1">
-    </div>
-</div>
 
-<div class="grimwild-form-group">
-    <label for="conditions">{{localize "GRIMWILD.Damage.conditions"}}</label>
-    <input type="number" id="conditions" name="conditions" value="0" min="0">
-</div>
-<div class="grimwild-form-group">
-    <label for="difficulty">{{localize "GRIMWILD.Dice.difficulty"}}</label>
-    <input type="number" id="difficulty" name="difficulty" value="0" min="0">
-</div>
+    <div class="grimwild-form-group">
+        <label for="conditions">{{localize "GRIMWILD.Damage.conditions"}}</label>
+        <input type="number" class="thorn thornInput" id="conditions" name="conditions" value="0" min="0">
+    </div>
+    <div class="grimwild-form-group">
+        <label for="difficulty">{{localize "GRIMWILD.Dice.difficulty"}}</label>
+        <input type="number" class="thorn thornInput" id="difficulty" name="difficulty" value="0" min="0">
+    </div>
 
-<div class="grimwild-form-group">
-    <label class="total">{{localize "GRIMWILD.Dice.total"}}</label>
-    <span id="totalThorns" class="total">0</span>
-    <input type="hidden" id="totalThornsInput" name="totalThorns">
+    <div class="grimwild-form-group">
+        <label class="total">{{localize "GRIMWILD.Dice.total"}}</label>
+        <span id="totalThorns" class="total">0</span>
+        <input type="hidden" id="totalThornsInput" name="totalThorns">
+    </div>
 </div>
