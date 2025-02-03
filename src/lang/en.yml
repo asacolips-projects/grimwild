@@ -72,6 +72,7 @@ GRIMWILD:
     Tabs:
       # Current
       Details: Details
+      Notes: Biography / Notes
       Talents: Talents
       Challenges: Challenges
       Effects: Effects
@@ -82,6 +83,8 @@ GRIMWILD:
       FIELDS:
         biography:
           label: Biography
+        notes:
+          label: Notes
     Character:
       FIELDS:
         class:
@@ -110,6 +113,7 @@ GRIMWILD:
         bonds:
           label: Bonds
         conditions:
+          label: Conditions
           FIELDS:
             severity:
               FIELDS:

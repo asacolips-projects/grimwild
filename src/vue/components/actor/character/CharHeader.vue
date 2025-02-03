@@ -5,7 +5,11 @@
 			<div class="stats grid grid-4col">
 				<div v-for="(stat, statKey) in actor.system.stats" :key="statKey" class="stat form-group stacked">
 					<label>
-						<button type="button" data-action="roll" data-roll-type="stat" :data-stat="statKey">{{stat.label}}</button>
+						<button type="button"
+							data-action="roll"
+							data-roll-type="stat"
+							:data-stat="statKey"
+						><i class="fas fa-dice-d6"></i> {{stat.label}}</button>
 					</label>
 					<div class="flexrow">
 						<input type="checkbox"
@@ -28,14 +32,14 @@
 					<input type="number"
 						name="system.bloodied.diceNum"
 						v-model="context.actor.system.bloodied.diceNum"
-					/>
+					/> d
 				</div>
 				<div class="form-group">
 					<label>{{ game.i18n.localize('GRIMWILD.Damage.rattled') }}</label>
 					<input type="number"
 						name="system.rattled.diceNum"
 						v-model="context.actor.system.rattled.diceNum"
-					/>
+					/> d
 				</div>
 			</div>
 		</div>

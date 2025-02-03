@@ -12,6 +12,28 @@
 					<Tabs :tabs="tabs.primary" no-span="true"/>
 
 					<section class="section--fields">
+						<!-- Biography / Notes -->
+						<Tab group="primary" :tab="tabs.primary.biography">
+							<div class="grid grid-2col">
+								<fieldset class="grid-span-1">
+									<legend>{{ context.systemFields.biography.label }}</legend>
+									<div class="form-group">
+										<div class="field">
+											<Prosemirror :editable="context.editable" :field="context.editors['system.biography']"/>
+										</div>
+									</div>
+								</fieldset>
+								<fieldset class="grid-span-1 grid-start-2">
+									<legend>{{ context.systemFields.notes.label }}</legend>
+									<div class="form-group">
+										<div class="field">
+											<Prosemirror :editable="context.editable" :field="context.editors['system.notes']"/>
+										</div>
+									</div>
+								</fieldset>
+							</div>
+						</Tab>
+
 						<!-- Details fields -->
 						<Tab group="primary" :tab="tabs.primary.details">
 							<CharDetails :actor="context.actor" :context="context"/>
@@ -43,6 +65,7 @@ import {
 	CharDetails,
 	CharTalents,
 	CharEffects,
+	Prosemirror
 } from '@/components';
 import { reactive, toRaw } from 'vue';
 

@@ -35,8 +35,8 @@ export class GrimwildActorSheetVue extends VueRenderingMixin(GrimwildBaseVueActo
 			createEffect: this._createEffect,
 			deleteEffect: this._deleteEffect,
 			toggleEffect: this._toggleEffect,
-			createBond: this._createBond,
-			deleteBond: this._deleteBond,
+			createArrayEntry: this._createArrayEntry,
+			deleteArrayEntry: this._deleteArrayEntry,
 			changeXp: this._changeXp,
 			updateTalentResource: this._updateTalentResource,
 			rollItemPool: this._rollItemPool,
@@ -180,6 +180,7 @@ export class GrimwildActorSheetVue extends VueRenderingMixin(GrimwildBaseVueActo
 		// Enrich other fields.
 		const fields = [
 			'biography',
+			'notes',
 		];
 
 		// Enrich items.
@@ -241,14 +242,20 @@ export class GrimwildActorSheetVue extends VueRenderingMixin(GrimwildBaseVueActo
 		};
 
 		// Tabs available to all actors.
-		context.tabs.primary.details = {
-			key: 'details',
-			label: game.i18n.localize('GRIMWILD.Actor.Tabs.Details'),
+		context.tabs.primary.biography = {
+			key: 'biography',
+			label: game.i18n.localize('GRIMWILD.Actor.Tabs.Biography'),
 			active: false,
 		};
 
-		// Tabs limited to NPCs.
+		// Tabs limited to characters.
 		if (this.actor.type === 'character') {
+			context.tabs.primary.details = {
+				key: 'details',
+				label: game.i18n.localize('GRIMWILD.Actor.Tabs.Details'),
+				active: false,
+			};
+
 			context.tabs.primary.talents = {
 				key: 'talents',
 				label: game.i18n.localize('GRIMWILD.Actor.Tabs.Talents'),
@@ -285,11 +292,16 @@ export class GrimwildActorSheetVue extends VueRenderingMixin(GrimwildBaseVueActo
 	 * @param {HTMLElement} target   The capturing HTML element which defined a [data-action]
 	 * @private
 	 */
-	static async _createBond(event, target) {
+	static async _createArrayEntry(event, target) {
 		event.preventDefault();
-		const bonds = this.document.system.bonds;
-		bonds.push({name: '', description: ''});
-		await this.document.update({"system.bonds": bonds});
+		const { field } = target.dataset;
+		if (!this.document.system?.[field]) return;
+
+		const entries = this.document.system[field];
+		entries.push({name: ''});
+		await this.document.update({
+			[`system.${field}`]: entries,
+		});
 	}
 
 	/**
@@ -300,15 +312,17 @@ export class GrimwildActorSheetVue extends VueRenderingMixin(GrimwildBaseVueActo
 	 * @param {HTMLElement} target   The capturing HTML element which defined a [data-action]
 	 * @private
 	 */
-	static async _deleteBond(event, target) {
+	static async _deleteArrayEntry(event, target) {
 		event.preventDefault();
-		const dataset = target.dataset;
-		if (dataset?.bond) {
-			const bonds = this.document.system.bonds;
-			bonds.splice(dataset.bond, 1);
+		const { field, key } = target.dataset;
+		if (!this.document.system?.[field]) return;
 
-			await this.document.update({"system.bonds": bonds});
-		}
+		const entries = this.document.system[field];
+		entries.splice(key, 1);
+
+		await this.document.update({
+			[`system.${field}`]: entries,
+		});
 	}
 
 	/**
@@ -387,8 +401,14 @@ export class GrimwildActorSheetVue extends VueRenderingMixin(GrimwildBaseVueActo
 		}
 	}
 
+	/**
+	 * Handle rolling pools on talents
+	 * 
+	 * @param {PointerEvent} event The originating click event
+	 * @param {HTMLElement} target The capturing HTML element which defined a [data-action]
+	 * @private
+	 */
 	static async _rollItemPool(event, target) {
-		console.log(target);
 		event.preventDefault();
 		// Retrieve props.
 		const {

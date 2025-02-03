@@ -106,10 +106,12 @@
 .wises > .form-group.stacked,
 .traits > .form-group.stacked,
 .desires > .form-group.stacked,
-.bonds > .form-group.stacked {
+.bonds > .form-group.stacked,
+.conditions > .form-group.stacked {
   gap: 2px;
 }
 
+// Bonds.
 .bonds-fieldset {
   position: relative;
 
@@ -117,18 +119,16 @@
     position: absolute;
     top: -20px;
     right: 16px;
-    background: black;
     width: 20px;
     height: 20px;
     text-align: center;
     line-height: 20px;
-    border: 1px solid;
-    border-radius: 4px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 
-    &:hover,
-    &:focus {
-      color: #1076b9;
-      text-shadow: none;
+    i {
+      margin: 0;
     }
   }
 }
@@ -165,6 +165,113 @@
   }
 }
 
+// Conditions.
+.conditions-fieldset {
+  position: relative;
+
+  .condition-create {
+    position: absolute;
+    top: -20px;
+    right: 16px;
+    width: 20px;
+    height: 20px;
+    text-align: center;
+    line-height: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    i {
+      margin: 0;
+    }
+  }
+}
+
+.condition {
+  position: relative;
+
+  &:hover {
+    .condition-delete {
+      display: block;
+    }
+  }
+
+  .condition-delete {
+    display: none;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    right: -8px;
+    margin: auto;
+    background: black;
+    width: 20px;
+    height: 20px;
+    text-align: center;
+    line-height: 20px;
+    border: 1px solid;
+    border-radius: 4px;
+
+    &:hover,
+    &:focus {
+      color: #5d142b;
+      text-shadow: none;
+    }
+  }
+}
+
+.condition-duration {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  gap: 8px;
+}
+
+.condition-roll,
+.conditoin-value-pool {
+  flex: 0;
+}
+
+.condition-value-pool {
+  white-space: nowrap;
+  flex-wrap: nowrap;
+  gap: 4px;
+
+  input {
+    width: 0;
+    padding: 0;
+    height: auto;
+    line-height: 1;
+    flex: 0;
+    border: 1px solid;
+    text-align: center;
+  }
+}
+
+.condition-roll {
+  padding: 4px 10px;
+  height: auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  line-height: 1;
+
+  i {
+    padding: 0 4px 0 0;
+    margin: 0;
+  }
+
+  strong {
+    padding: 0;
+  }
+}
+
+.condition-value-pool {
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+}
+
+// XP
 .xp {
   gap: 0;
 
