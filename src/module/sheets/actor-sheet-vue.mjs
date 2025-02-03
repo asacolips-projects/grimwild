@@ -38,7 +38,12 @@ export class GrimwildActorSheetVue extends VueRenderingMixin(GrimwildBaseVueActo
 			createBond: this._createBond,
 			deleteBond: this._deleteBond,
 			changeXp: this._changeXp,
+			updateTalentResource: this._updateTalentResource,
+			rollItemPool: this._rollItemPool,
 			roll: this._onRoll
+		},
+		changeActions: {
+			updateTalentResource: this._updateTalentResource,
 		},
 		// Custom property that's merged into `this.options`
 		dragDrop: [{ dragSelector: "[data-drag]", dropSelector: null }],
@@ -47,6 +52,53 @@ export class GrimwildActorSheetVue extends VueRenderingMixin(GrimwildBaseVueActo
 			submitOnClose: true,
 		}
 	};
+
+	/**
+	 * Actions performed after any render of the Application.
+	 * Post-render steps are not awaited by the render process.
+	 * @param {ApplicationRenderContext} context      Prepared context data
+	 * @param {RenderOptions} options                 Provided render options
+	 * @protected
+	 */
+	_onRender(context, options) {
+		super._onRender(context, options);
+		// @todo figure out how to attach this to the application frame rather than
+		// using render key to prevent redundant events.
+	}
+
+	/**
+	 * Attach listeners to the application frame.
+	 */
+	_attachFrameListeners() {
+		super._attachFrameListeners();
+		// Attach event listeners in here to prevent duplicate calls.
+		const change = this.#onChange.bind(this);
+		this.element.addEventListener('change', change);
+	}
+
+
+	/**
+	 * Change event actions in this.options.changeActions.
+	 *
+	 * Functionally similar to this.options.actions and fires callbacks
+	 * specified in data-action-change on the element(s).
+	 * 
+	 * @param {ChangeEvent} event Change event that triggered the call.
+	 */
+	async #onChange(event) {
+		const target = event.target;
+		const changeElement = target.closest("[data-action-change]");
+		if (changeElement) {
+			const { actionChange } = changeElement.dataset;
+			if (actionChange) {
+				this.options.changeActions?.[actionChange]?.call(
+					this,
+					event,
+					changeElement
+				);
+			}
+		}
+	}
 
 	async _prepareContext(options) {
 		// Output initialization
@@ -130,16 +182,50 @@ export class GrimwildActorSheetVue extends VueRenderingMixin(GrimwildBaseVueActo
 			'biography',
 		];
 
-		for (let field of fields) {
-			context.editors[`system.${field}`] = {
+		// Enrich items.
+		const itemTypes = {
+			talent: [
+				'description',
+				'notes.description',
+			],
+		};
 
-				enriched: await TextEditor.enrichHTML(this.actor.system[field], enrichmentOptions),
+		// Enrich actor fields.
+		for (let field of fields) {
+			const editorValue = this.actor.system?.[field] ?? foundry.utils.getProperty(this.actor.system, field);
+			context.editors[`system.${field}`] = {
+				enriched: await TextEditor.enrichHTML(editorValue, enrichmentOptions),
 				element: foundry.applications.elements.HTMLProseMirrorElement.create({
 					...editorOptions,
 					name: `system.${field}`,
-					value: context.system?.[field] ?? '',
+					value: editorValue ?? '',
 				}),
 			};
+		}
+
+		// Enrich item fields.
+		for (let [type, itemFields] of Object.entries(itemTypes)) {
+			if (this.document.itemTypes[type]) {
+				// Iterate over the items.
+				for (let item of this.document.itemTypes[type]) {
+					// Handle enriched fields.
+					const itemEnrichmentOptions = {
+						secrets: item.isOwner,
+						rollData: item.getRollData() ?? this.actor.getRollData(),
+						relativeTo: item
+					};
+					// Iterate over each field within those items.
+					for (let itemField of itemFields) {
+						// Retrieve and enrich the field. Ignore creating prosemirror editors
+						// since those should be edited directly on the item.
+						const editorValue = item.system?.[itemField] ?? foundry.utils.getProperty(item.system, itemField);
+						context.editors[`items.${item.id}.system.${itemField}`] = {
+							enriched: await TextEditor.enrichHTML(editorValue, itemEnrichmentOptions),
+							element: null,
+						};
+					}
+				}
+			}
 		}
 	}
 
@@ -244,6 +330,104 @@ export class GrimwildActorSheetVue extends VueRenderingMixin(GrimwildBaseVueActo
 				? xp
 				: this.document.system.xp.value - 1;
 			await this.document.update({ "system.xp.value": newXp });
+		}
+	}
+
+	/**
+	 * Handle updating talent resources.
+	 * 
+	 * @param {PointerEvent} event The originating click event
+	 * @param {HTMLElement} target The capturing HTML element which defined a [data-action]
+	 * @private
+	 */
+	static async _updateTalentResource(event, target) {
+		event.preventDefault();
+		// Retrieve props.
+		const {
+			itemId,
+			resourceKey,
+			resourceStepKey,
+			value,
+			resourceValue
+		} = target.dataset;
+
+		// Only push an update if we need one. Assume we don't.
+		let changes = false;
+
+		// Retrieve the item and resource.
+		const item = this.document.items.get(itemId);
+		if (!item) return;
+		const resources = item.system.resources;
+		const resource = resources?.[resourceKey];
+		if (!resource) return;
+
+		// Handle point resource updates.
+		if (resource.type === 'points') {
+			if (!resourceValue || !value) {
+				resource.points.value = Number(target.value);
+			}
+			else {
+				resource.points.value = (value === resourceValue)
+					? Number(value) - 1
+					: Number(value);
+			}
+			if (resource.points.value < 0) resource.points.value = 0;
+			changes = true;
+		}
+		// Handle pool resource updates.
+		else if (resource.type === 'pool') {
+			resource.pool.diceNum = Number(target.value);
+			changes = true;
+		}
+
+		// Push the update if one is needed.
+		if (changes) {
+			resources[resourceKey] = resource;
+			await item.update({'system.resources': resources});
+		}
+	}
+
+	static async _rollItemPool(event, target) {
+		console.log(target);
+		event.preventDefault();
+		// Retrieve props.
+		const {
+			itemId,
+			resourceKey
+		} = target.dataset;
+
+		// Retrieve the item and resource.
+		const item = this.document.items.get(itemId);
+		if (!item) return;
+		const resources = item.system.resources;
+		const resource = resources?.[resourceKey];
+		if (!resource) return;
+
+		// Handle roll.
+		if (resource.pool.diceNum > 0) {
+			const roll = new grimwild.diePools(`{${resource.pool.diceNum}d6}`, item.getRollData());
+			const result = await roll.evaluate();
+			const dice = result.dice[0].results;
+			const dropped = dice.filter((die) => die.result < 4);
+
+			// Initialize chat data.
+			const speaker = ChatMessage.getSpeaker({ actor: this.actor });
+			const rollMode = game.settings.get("core", "rollMode");
+			const label = `[${item.type}] ${item.name}`;
+			// Send to chat.
+			const msg = await roll.toMessage({
+				speaker: speaker,
+				rollMode: rollMode,
+				flavor: label
+			});
+			// Wait for Dice So Nice if enabled.
+			if (game.dice3d && msg?.id) {
+				await game.dice3d.waitFor3DAnimationByMessageID(msg.id);
+			}
+			resource.pool.diceNum -= dropped.length;
+			// Update the item.
+			resources[resourceKey] = resource;
+			await item.update({'system.resources': resources});
 		}
 	}
 	

@@ -46,23 +46,54 @@
 						<template v-for="(resource, resourceKey) in item.system.resources" :key="resourceKey">
 							<div class="resource flexrow">
 								<!-- Resource label -->
-								<strong v-if="resource.label">{{ resource.label }}</strong>
+								<button v-if="resource.type === 'pool'"
+									class="resource-roll"
+									data-action="rollItemPool"
+									:data-item-id="item.id"
+									:data-resource-key="resourceKey"
+								><i class="fas fa-dice-d6"></i><strong v-if="resource.label">{{ resource.label }}</strong></button>
+								<template v-else>
+									<strong v-if="resource.label">{{ resource.label }}</strong>
+								</template>
 								<!-- Resource value. -->
 								<div class="resource-value">
 									<!-- Pools -->
-									<template v-if="resource.type === 'pool'">
-										[{{ resource.pool.diceNum }}d]
-									</template>
+									<div v-if="resource.type === 'pool'" class="resource-value-pool">
+										<input type="number"
+											data-action-change="updateTalentResource"
+											:data-item-id="item.id"
+											:data-resource-key="resourceKey"
+											:value="resource.pool.diceNum"
+											min="0"
+										/><span class="pool-suffix">d</span>
+									</div>
 									<!-- Points -->
 									<template v-if="resource.type === 'points'">
 										<!-- Checkbox points -->
 										<div v-if="resource.points.showSteps" class="resource-steps flexrow">
 											<template v-for="(num, i) in resource.points.max" :key="i">
-												<input type="checkbox" :checked="resource.points.value >= num" readonly />
+												<input type="checkbox"
+													data-action="updateTalentResource"
+													:data-item-id="item.id"
+													:data-resource-key="resourceKey"
+													:data-resource-step-key="i"
+													:data-value="num"
+													:data-resource-value="resource.points.value"
+													:checked="resource.points.value >= num"
+												/>
 											</template>
 										</div>
 										<!-- Numeric points -->
-										<div v-else class="resource-value-numeric">{{ resource.points.value }} / {{ resource.points.max }}</div>
+										<div v-else class="resource-value-numeric">
+											<input type="number"
+												data-action-change="updateTalentResource"
+												:data-item-id="item.id"
+												:data-resource-key="resourceKey"
+												:value="resource.points.value"
+												min="0"
+												:max="resource.points.max"
+											/> / {{ resource.points.max }}
+										</div>
 									</template>
 								</div>
 							</div>
@@ -83,10 +114,10 @@
 				<!-- Description, visible when toggled on. -->
 				<div v-if="item.system.description" class="item-description-wrapper">
 					<div class="item-description flexcol">
-						<div class="item-description" v-html="item.system.description"></div>
+						<div class="item-description" v-html="context.editors[`items.${item.id}.system.description`].enriched"></div>
 						<div v-if="item.system.notes.description" class="item-notes">
 							<strong v-if="item.system.notes.label">{{ item.system.notes.label }}</strong>
-							<div class="item-notes-description" v-html="item.system.notes.description"></div>
+							<div class="item-notes-description" v-html="context.editors[`items.${item.id}.system.notes.description`].enriched"></div>
 						</div>
 					</div>
 				</div>

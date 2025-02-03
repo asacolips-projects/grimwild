@@ -24,18 +24,57 @@
 
   .resource {
     background: #ffffff11;
-    padding: 2px;
+    padding: 2px 4px;
     border-radius: 4px;
     margin: 1px;
     flex-wrap: nowrap;
 
     strong {
-      padding: 0 8px;
+      padding: 0 8px 0 0;
     }
   }
 
-  .resource-value-numeric {
+  .resource-value-numeric,
+  .resource-value-pool {
     white-space: nowrap;
+
+    input {
+      width: 0;
+      padding: 0;
+      height: auto;
+      line-height: 1;
+      flex: 0;
+      border: 1px solid;
+      text-align: center;
+    }
+  }
+
+  .resource-roll {
+    padding: 4px 10px;
+    height: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    line-height: 1;
+
+    i {
+      padding: 0 4px 0 0;
+      margin: 0;
+    }
+
+    strong {
+      padding: 0;
+    }
+  }
+
+  .resource-value-pool {
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+  }
+
+  .pool-suffix {
+    padding: 0 0 0 3px;
   }
 
   .resource-steps {

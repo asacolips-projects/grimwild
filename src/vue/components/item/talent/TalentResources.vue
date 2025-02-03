@@ -29,12 +29,19 @@
 						<!-- Value -->
 						<div v-if="resource.type === 'points'" class="resource-value form-group stacked">
 							<label>Value</label>
-							<input type="number" :name="`system.resources.${resourceKey}.points.value`" v-model="resource.points.value"/>
+							<input type="number"
+								:name="`system.resources.${resourceKey}.points.value`"
+								min="0"
+								:max="resource.points.max"
+								v-model="resource.points.value"/>
 						</div>
 						<!-- Max -->
 						<div v-if="resource.type === 'points'" class="resource-value resource-max form-group stacked">
 							<label>Max</label>
-							<input type="number" :name="`system.resources.${resourceKey}.points.max`" v-model="resource.points.max"/>
+							<input type="number"
+								:name="`system.resources.${resourceKey}.points.max`"
+								min="1"
+								v-model="resource.points.max"/>
 						</div>
 						<!-- Steps -->
 						<div v-if="resource.type === 'points'" class="resource-steps form-group stacked">
