@@ -44,7 +44,8 @@
 					<div class="condition-duration">
 						<button v-if="condition.severity !== 'permanent'"
 							class="condition-roll"
-							data-action="rollConditionPool"
+							data-action="rollPool"
+							data-field="conditions"
 							:data-key="key"
 						><i class="fas fa-dice-d6"></i><strong>Roll</strong></button>
 						<div v-if="condition.severity !== 'permanent'" class="condition-value-pool flexrow">

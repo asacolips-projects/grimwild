@@ -48,9 +48,9 @@
 								<!-- Resource label -->
 								<button v-if="resource.type === 'pool'"
 									class="resource-roll"
-									data-action="rollItemPool"
+									data-action="rollPool"
 									:data-item-id="item.id"
-									:data-resource-key="resourceKey"
+									:data-key="resourceKey"
 								><i class="fas fa-dice-d6"></i><strong v-if="resource.label">{{ resource.label }}</strong></button>
 								<template v-else>
 									<strong v-if="resource.label">{{ resource.label }}</strong>

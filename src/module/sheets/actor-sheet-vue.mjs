@@ -39,7 +39,7 @@ export class GrimwildActorSheetVue extends VueRenderingMixin(GrimwildBaseVueActo
 			deleteArrayEntry: this._deleteArrayEntry,
 			changeXp: this._changeXp,
 			updateTalentResource: this._updateTalentResource,
-			rollItemPool: this._rollItemPool,
+			rollPool: this._rollPool,
 			roll: this._onRoll
 		},
 		changeActions: {
@@ -253,13 +253,13 @@ export class GrimwildActorSheetVue extends VueRenderingMixin(GrimwildBaseVueActo
 			context.tabs.primary.details = {
 				key: 'details',
 				label: game.i18n.localize('GRIMWILD.Actor.Tabs.Details'),
-				active: false,
+				active: true,
 			};
 
 			context.tabs.primary.talents = {
 				key: 'talents',
 				label: game.i18n.localize('GRIMWILD.Actor.Tabs.Talents'),
-				active: true,
+				active: false,
 			};
 		}
 
@@ -402,30 +402,50 @@ export class GrimwildActorSheetVue extends VueRenderingMixin(GrimwildBaseVueActo
 	}
 
 	/**
-	 * Handle rolling pools on talents
+	 * Handle rolling pools on the character sheet.
+	 * @todo abstract this to the actor itself.
 	 * 
 	 * @param {PointerEvent} event The originating click event
 	 * @param {HTMLElement} target The capturing HTML element which defined a [data-action]
 	 * @private
 	 */
-	static async _rollItemPool(event, target) {
+	static async _rollPool(event, target) {
 		event.preventDefault();
 		// Retrieve props.
 		const {
 			itemId,
-			resourceKey
+			field,
+			key
 		} = target.dataset;
 
-		// Retrieve the item and resource.
-		const item = this.document.items.get(itemId);
-		if (!item) return;
-		const resources = item.system.resources;
-		const resource = resources?.[resourceKey];
-		if (!resource) return;
+		// Prepare variables.
+		let item = null;
+		let resources = null;
+		let resource = null;
+		let pool = null;
+		let rollData = {};
+		let fieldData = null;
+
+		// Handle item pools (talents).
+		if (itemId) {
+			item = this.document.items.get(itemId);
+			if (!item) return;
+			resources = item.system.resources;
+			resource = resources?.[key];
+			if (!resource) return;
+			pool = resource.pool;
+			rollData = item.getRollData();
+		}
+		// Handle condition pools.
+		else {
+			fieldData = this.document.system?.[field] ?? null;
+			if (!fieldData) return;
+			pool = fieldData[key]?.pool;
+		}
 
 		// Handle roll.
-		if (resource.pool.diceNum > 0) {
-			const roll = new grimwild.diePools(`{${resource.pool.diceNum}d6}`, item.getRollData());
+		if (pool.diceNum > 0) {
+			const roll = new grimwild.diePools(`{${pool.diceNum}d6}`, rollData);
 			const result = await roll.evaluate();
 			const dice = result.dice[0].results;
 			const dropped = dice.filter((die) => die.result < 4);
@@ -433,7 +453,9 @@ export class GrimwildActorSheetVue extends VueRenderingMixin(GrimwildBaseVueActo
 			// Initialize chat data.
 			const speaker = ChatMessage.getSpeaker({ actor: this.actor });
 			const rollMode = game.settings.get("core", "rollMode");
-			const label = `[${item.type}] ${item.name}`;
+			const label = item 
+				? `[${item.type}] ${item.name}`
+				: `[${field}] ${fieldData[key]?.name ?? ''}`;
 			// Send to chat.
 			const msg = await roll.toMessage({
 				speaker: speaker,
@@ -444,10 +466,22 @@ export class GrimwildActorSheetVue extends VueRenderingMixin(GrimwildBaseVueActo
 			if (game.dice3d && msg?.id) {
 				await game.dice3d.waitFor3DAnimationByMessageID(msg.id);
 			}
-			resource.pool.diceNum -= dropped.length;
+			// Recalculate the pool value.
+			pool.diceNum -= dropped.length;
 			// Update the item.
-			resources[resourceKey] = resource;
-			await item.update({'system.resources': resources});
+			if (item) {
+				resources[key].pool = pool;
+				await item.update({'system.resources': resources});
+			}
+			// Otherwise, update the condition.
+			else if (fieldData) {
+				fieldData[key].pool = pool;
+				const update = {};
+				update[`system.${field}`] = fieldData;
+				await this.document.update({
+					[`system.${field}`]: fieldData,
+				});
+			}
 		}
 	}
 	
