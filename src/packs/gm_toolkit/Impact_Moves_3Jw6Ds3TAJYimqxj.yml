@@ -1,0 +1,103 @@
+folder: g4byq082efDAWI1S
+name: Impact Moves
+_id: 3Jw6Ds3TAJYimqxj
+pages:
+  - sort: 100000
+    name: Impact Moves
+    type: text
+    _id: sQIKozYqWC5DPjVg
+    system: {}
+    title:
+      show: true
+      level: 1
+    image: {}
+    text:
+      format: 1
+      content: >-
+        <div class="page" title="Page 35"><div class="layoutArea"><div
+        class="column"><p><span style="font-family:'Capito04VARItalic'"><em>Use
+        these moves when prompted.</em></span></p><p><span
+        style="font-family:'Apparat'"><strong>IMPACT MOVES</strong></span><span
+        style="font-family:'Capito04VAR'">. Deliver hard-hitting consequence
+        that challenge PCs and push the action forward. They require prompting,
+        so when you use them, they're sure to be justified and fair, codified
+        into the rules. They've had fair warning and should have an idea of the
+        risks. So when you make a move, make sure it has <strong>IMPACT</strong>
+        to ensure the choices leading to them matter and the world feels
+        powerful.</span></p><p><span style="font-family:'Capito04VAR'">When not
+        prompted by a roll, impact moves directly against a PC give them a
+        defense roll. Some talents also give the ability to interrupt impact
+        moves, possibly negating them. If the roll to interrupt is a messy, you
+        take suspense or keep it if you spent it to prompt the
+        move.</span></p><p></p><p><span style="font-family:'SegoeUIEmoji'">◆
+        </span><span
+        style="font-family:'Capito04VAR-Light-SC850'">@UUID[Compendium.grimwild.gm_toolkit.JournalEntry.24qGlYooVgMC1ZJu]{Complicate
+        Things}</span><span style="font-family:'Capito04VAR'">: Escalate a
+        situation, introduce a new problem, or pressure a
+        bond.</span></p><p><span style="font-family:'Capito04VARItalic'"><em>"A
+        huge storm rolls in." • "The guard catches sight of you and rings the
+        alarm bell."</em></span></p><p></p><p><span
+        style="font-family:'SegoeUIEmoji'">◆ </span><span
+        style="font-family:'Capito04VAR-Light-SC850'">@UUID[Compendium.grimwild.gm_toolkit.JournalEntry.GNvl7ZFpU31MZe7z]{Counter}</span><span
+        style="font-family:'Capito04VAR'">: Deny things a PC can always do or
+        negate something they did.</span></p><p><span
+        style="font-family:'Capito04VARItalic'"><em>"The lich casts a quick
+        protective spell, slowing your strike." • "The queen raises a hand,
+        silencing everyone."</em></span></p><p></p><p><span
+        style="font-family:'SegoeUIEmoji'">◆ </span><span
+        style="font-family:'Capito04VAR-Light-SC850'">@UUID[Compendium.grimwild.gm_toolkit.JournalEntry.2kDKawjIklAB7LFS]{Force
+        a Choice}</span><span style="font-family:'Capito04VAR'">: Present tough
+        options, with room to only choose one.</span></p><p><span
+        style="font-family:'Capito04VARItalic'"><em>"Your gold pouch and sword
+        slide towards the lava." • "Now’s the choice—the prince or the
+        marquis?"</em></span></p><p></p><p><span
+        style="font-family:'SegoeUIEmoji'">◆ </span><span
+        style="font-family:'Capito04VAR-Light-SC850'">@UUID[Compendium.grimwild.gm_toolkit.JournalEntry.JqSJSbNs9EAyNJOy]{Hit
+        'Em Hard}</span><span style="font-family:'Capito04VAR'">: Inflict damage
+        on a PC, like bloodied, rattled, vex, marks, or a
+        condition.</span></p><p><span
+        style="font-family:'Capito04VARItalic'"><em>"The ceiling collapses,
+        raining rocks down on you." • "She smirks wickedly at you—take vex,
+        you’re pissed."</em></span></p><p></p><p><span
+        style="font-family:'SegoeUIEmoji'">◆ </span><span
+        style="font-family:'Capito04VAR-Light-SC850'">@UUID[Compendium.grimwild.gm_toolkit.JournalEntry.Dsh3aKJ3gboNE9Qo]{Lock
+        It In}</span><span style="font-family:'Capito04VAR'">: Declare something
+        occurs, closing off immediate attempts to change it.</span></p><p><span
+        style="font-family:'Capito04VARItalic'"><em>"The thief gets away,
+        nowhere to be seen." • "The bridge behind you collapses. No going
+        back."</em></span></p></div></div></div>
+    video:
+      controls: true
+      volume: 0.5
+    src: null
+    ownership:
+      default: -1
+      Dl5Tvf37OuEHwdAh: 3
+    flags: {}
+    _stats:
+      compendiumSource: null
+      duplicateSource: null
+      coreVersion: '12.331'
+      systemId: grimwild
+      systemVersion: 0.1.0
+      createdTime: null
+      modifiedTime: 1738610065394
+      lastModifiedBy: Dl5Tvf37OuEHwdAh
+    _key: '!journal.pages!3Jw6Ds3TAJYimqxj.sQIKozYqWC5DPjVg'
+sort: 0
+ownership:
+  default: 0
+  Dl5Tvf37OuEHwdAh: 3
+flags: {}
+_stats:
+  compendiumSource: JournalEntry.3Jw6Ds3TAJYimqxj
+  duplicateSource: null
+  coreVersion: '12.331'
+  systemId: grimwild
+  systemVersion: 0.1.0
+  createdTime: 1738609116086
+  modifiedTime: 1738609116086
+  lastModifiedBy: Dl5Tvf37OuEHwdAh
+_key: '!journal!3Jw6Ds3TAJYimqxj'
+categories: []
+

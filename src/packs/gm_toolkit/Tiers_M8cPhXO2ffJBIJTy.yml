@@ -1,0 +1,96 @@
+folder: cSF3Iw5klDLnZaJB
+name: Tiers
+_id: M8cPhXO2ffJBIJTy
+pages:
+  - sort: 100000
+    name: Tiers
+    type: text
+    _id: 7HfI2OyH0WPNYXh4
+    system: {}
+    title:
+      show: true
+      level: 1
+    image: {}
+    text:
+      format: 1
+      content: >-
+        <p></p><table><thead><tr><td><p
+        style="font-size:2rem">TIERS</p></td></tr></thead><tbody><tr><td><div
+        class="page" title="Page 40"><div class="section"><div
+        class="layoutArea"><div class="column"><p><span
+        style="font-family:'Capito04VAR'"><strong>MOOK</strong><br
+        /></span><span style="font-family:'SegoeUIEmoji'">◆ </span><span
+        style="font-family:'Capito04VAR'">Mostly just </span><span
+        style="font-family:'Capito04VARItalic'"><em>set
+        dressing</em></span><span
+        style="font-family:'Capito04VAR'">.</span></p><p><span
+        style="font-family:'SegoeUIEmoji'">◆ </span><span
+        style="font-family:'Capito04VAR'">One action roll can take out
+        several.</span></p><p><span style="font-family:'SegoeUIEmoji'">◆
+        </span><span style="font-family:'Capito04VAR'">Large groups can be a
+        task pool.</span></p></div></div></div></div></td></tr><tr><td><div
+        class="page" title="Page 40"><div class="section"><div
+        class="layoutArea"><div class="column"><p><span
+        style="font-family:'Capito04VAR'"><strong>TOUGH</strong><br
+        /></span><span style="font-family:'SegoeUIEmoji'">◆ </span><span
+        style="font-family:'Capito04VAR'">A typical, dangerous
+        enemy.</span></p><p><span style="font-family:'SegoeUIEmoji'">◆
+        </span><span style="font-family:'Capito04VAR'">One action roll can take
+        out one of them.</span></p><p><span style="font-family:'SegoeUIEmoji'">◆
+        </span><span style="font-family:'Capito04VAR'">Small groups can be a
+        task pool.</span></p></div></div></div></div></td></tr><tr><td><div
+        class="page" title="Page 40"><div class="section"><div
+        class="layoutArea"><div class="column"><p><span
+        style="font-family:'Capito04VAR'"><strong>ELITE</strong><br
+        /></span><span style="font-family:'SegoeUIEmoji'">◆ </span><span
+        style="font-family:'Capito04VAR'">Strong scene
+        presence.</span></p><p><span style="font-family:'SegoeUIEmoji'">◆
+        </span><span style="font-family:'Capito04VAR'">A 4d/6d
+        challenge.</span></p><p><span style="font-family:'SegoeUIEmoji'">◆
+        </span><span style="font-family:'Capito04VAR'">Often leads a group of
+        lesser enemies.</span></p></div></div></div></div></td></tr><tr><td><div
+        class="page" title="Page 40"><div class="section"><div
+        class="layoutArea"><div class="column"><p><span
+        style="font-family:'Capito04VAR'"><strong>BOSS</strong><br
+        /></span><span style="font-family:'SegoeUIEmoji'">◆ </span><span
+        style="font-family:'Capito04VAR'">Commands the scene.</span></p><p><span
+        style="font-family:'SegoeUIEmoji'">◆ </span><span
+        style="font-family:'Capito04VAR'">A 6d/8d challenge or linked
+        challenge.</span></p><p><span style="font-family:'SegoeUIEmoji'">◆
+        </span><span style="font-family:'Capito04VAR'">Extremely
+        powerful.</span></p></div></div></div></div></td></tr></tbody></table>
+    video:
+      controls: true
+      volume: 0.5
+    src: null
+    ownership:
+      default: -1
+      Dl5Tvf37OuEHwdAh: 3
+    flags: {}
+    _stats:
+      compendiumSource: null
+      duplicateSource: null
+      coreVersion: '12.331'
+      systemId: grimwild
+      systemVersion: 0.1.0
+      createdTime: null
+      modifiedTime: null
+      lastModifiedBy: null
+    _key: '!journal.pages!M8cPhXO2ffJBIJTy.7HfI2OyH0WPNYXh4'
+sort: 0
+ownership:
+  default: 0
+  Dl5Tvf37OuEHwdAh: 3
+flags: {}
+_stats:
+  compendiumSource: null
+  duplicateSource: null
+  coreVersion: '12.331'
+  systemId: grimwild
+  systemVersion: 0.1.0
+  createdTime: 1738609107710
+  modifiedTime: 1738609107710
+  lastModifiedBy: Dl5Tvf37OuEHwdAh
+categories: []
+_key: '!journal!M8cPhXO2ffJBIJTy'
+

@@ -1,0 +1,75 @@
+folder: 5YXY1yqWw7ivAdLy
+name: Entangle
+_id: VV7uXLGhN8SS7Fzs
+pages:
+  - sort: 100000
+    name: Entangle
+    type: text
+    _id: mkGVE8bpEOSGO6LR
+    system: {}
+    title:
+      show: true
+      level: 1
+    image: {}
+    text:
+      format: 1
+      content: >-
+        <div class="page" title="Page 34"><div class="section"><div
+        class="layoutArea"><div class="column"><p><span
+        style="font-family:'Capito04VAR'">Propose an interesting tangle to a PC.
+        Take suspense only if they accept.</span></p><p><span
+        style="font-family:'Capito04VARItalic'"><em>He looks at you with a
+        smirk, daring you to speak up. • The prisoner knows where your mother
+        is.</em></span></p><p></p><p><span
+        style="font-family:'Capito04VAR-Light-SC850'">ENTANGLE </span><span
+        style="font-family:'Capito04VAR'">a player by proposing a juicy tangle
+        for their PC. Push </span><span
+        style="font-family:'Capito04VARItalic'"><em><strong>dilemmas</strong>
+        </em></span><span style="font-family:'Capito04VAR'">and </span><span
+        style="font-family:'Capito04VARItalic'"><em><strong>drama</strong>
+        </em></span><span style="font-family:'Capito04VAR'">towards their
+        traits, desires, bonds, and story arcs. The players pick them because
+        they want the choices that come with! When you have a great idea,
+        propose a
+        @UUID[Compendium.grimwild.rules.JournalEntry.zyFQU71s311j9gzi]{Tangle}
+        for a PC. Remember you only gain </span><span
+        style="font-family:'Capito04VARItalic'">@UUID[Compendium.grimwild.gm_toolkit.JournalEntry.r03swtJF4sEnG2fm]{Suspense}</span><span
+        style="font-family:'Capito04VAR'"> if they accept, so it's up to you to
+        make the tangle irresistible. Don't push hard—this mechanic is built to
+        respect player agency. Don't punish for saying
+        no.</span></p></div></div></div></div>
+    video:
+      controls: true
+      volume: 0.5
+    src: null
+    ownership:
+      default: -1
+      Dl5Tvf37OuEHwdAh: 3
+    flags: {}
+    _stats:
+      compendiumSource: null
+      duplicateSource: null
+      coreVersion: '12.331'
+      systemId: grimwild
+      systemVersion: 0.1.0
+      createdTime: null
+      modifiedTime: 1738610266239
+      lastModifiedBy: Dl5Tvf37OuEHwdAh
+    _key: '!journal.pages!VV7uXLGhN8SS7Fzs.mkGVE8bpEOSGO6LR'
+sort: 0
+ownership:
+  default: 0
+  Dl5Tvf37OuEHwdAh: 3
+flags: {}
+_stats:
+  compendiumSource: JournalEntry.VV7uXLGhN8SS7Fzs
+  duplicateSource: null
+  coreVersion: '12.331'
+  systemId: grimwild
+  systemVersion: 0.1.0
+  createdTime: 1738609121380
+  modifiedTime: 1738609121380
+  lastModifiedBy: Dl5Tvf37OuEHwdAh
+_key: '!journal!VV7uXLGhN8SS7Fzs'
+categories: []
+

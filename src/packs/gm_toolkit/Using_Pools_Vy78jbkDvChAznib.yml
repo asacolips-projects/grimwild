@@ -1,0 +1,63 @@
+folder: WErPxEpB1oKJCPGq
+name: Using Pools
+_id: Vy78jbkDvChAznib
+pages:
+  - sort: 100000
+    name: Using Pools
+    type: text
+    _id: 0kD1zwkG1qhUaj1o
+    system: {}
+    title:
+      show: true
+      level: 1
+    image: {}
+    text:
+      format: 1
+      content: >-
+        <div class="page" title="Page 32"><div class="layoutArea"><div
+        class="column"><p><span style="font-family:'Capito04VAR'">Building
+        pressure with danger or timer
+        @UUID[Compendium.grimwild.rules.JournalEntry.5n7fkFcmZaVYZT52]{Pools}.
+        Start or roll a pressure or timer pool as another outlet for
+        consequences, often </span><span
+        style="font-family:'Capito04VARItalic'"><em><strong>offscreen</strong></em></span><span
+        style="font-family:'Capito04VAR'">. These create looming threats and
+        situations the PCs want to avoid or mitigate. They build pressure and
+        offer a strong alternative to skipping the move and banking </span><span
+        style="font-family:'Capito04VARItalic'">@UUID[Compendium.grimwild.gm_toolkit.JournalEntry.r03swtJF4sEnG2fm]{Suspense}</span><span
+        style="font-family:'Capito04VAR'">.</span></p></div></div></div>
+    video:
+      controls: true
+      volume: 0.5
+    src: null
+    ownership:
+      default: -1
+      Dl5Tvf37OuEHwdAh: 3
+    flags: {}
+    _stats:
+      compendiumSource: null
+      duplicateSource: null
+      coreVersion: '12.331'
+      systemId: grimwild
+      systemVersion: 0.1.0
+      createdTime: null
+      modifiedTime: 1738609915129
+      lastModifiedBy: Dl5Tvf37OuEHwdAh
+    _key: '!journal.pages!Vy78jbkDvChAznib.0kD1zwkG1qhUaj1o'
+sort: 0
+ownership:
+  default: 0
+  Dl5Tvf37OuEHwdAh: 3
+flags: {}
+_stats:
+  compendiumSource: null
+  duplicateSource: null
+  coreVersion: '12.331'
+  systemId: grimwild
+  systemVersion: 0.1.0
+  createdTime: 1738609113855
+  modifiedTime: 1738609113855
+  lastModifiedBy: Dl5Tvf37OuEHwdAh
+_key: '!journal!Vy78jbkDvChAznib'
+categories: []
+

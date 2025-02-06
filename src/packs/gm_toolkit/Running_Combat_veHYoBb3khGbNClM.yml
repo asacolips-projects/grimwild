@@ -1,0 +1,82 @@
+folder: 7rNlh42HUUDEXQ9f
+name: Running Combat
+_id: veHYoBb3khGbNClM
+pages:
+  - sort: 100000
+    name: Running Combat
+    type: text
+    _id: 2MvkhyWfOwDcbAOa
+    system: {}
+    title:
+      show: true
+      level: 1
+    image: {}
+    text:
+      format: 1
+      content: >-
+        <div class="page" title="Page 41"><div class="layoutArea"><div
+        class="column"><p><span style="font-family:'Capito04VAR'">When a fight
+        breaks out, the action flows naturally, following the spotlight. There
+        are no specific rules that differentiate combat from any other
+        scene.</span></p><p><span
+        style="font-family:'Capito04VARItalic'"><em><strong>There's no turn
+        order</strong>. </em></span><span style="font-family:'Capito04VAR'">The
+        GM describes the impending danger in the current situation and asks how
+        the PCs respond, or the PCs take action on their own. The spotlight is
+        often on the PCs, and the world's actions flow from what they do. You
+        make enemies more proactive by </span><span
+        style="font-family:'Capito04VAR-Light-SC850'">@UUID[Compendium.grimwild.gm_toolkit.JournalEntry.BgDBVoiRbx5zUcoA]{Foreshadowing}
+        </span><span style="font-family:'Capito04VAR'">events and following up
+        after, or spending </span><span
+        style="font-family:'Capito04VARItalic'">@UUID[Compendium.grimwild.gm_toolkit.JournalEntry.r03swtJF4sEnG2fm]{Suspense}</span><span
+        style="font-family:'Capito04VAR'"> to make
+        @UUID[Compendium.grimwild.gm_toolkit.JournalEntry.3Jw6Ds3TAJYimqxj]{Impact
+        Moves}. This results in a cinematic ebb and flow to
+        combat.</span></p><p><span
+        style="font-family:'Capito04VARItalic'"><em><strong>Battles occur in the
+        theater of the mind</strong></em></span><span
+        style="font-family:'Capito04VAR'">, using the group's shared imagination
+        to keep track of each participant's fictional positioning to map fiction
+        to rules. However, using </span><span
+        style="font-family:'Capito04VARItalic'"><em><strong>battlemaps</strong>
+        </em></span><span style="font-family:'Capito04VAR'">or sketching maps
+        with minis or markers to track locations during a fight works well, too.
+        This helps organize the chaotic situation, makes sure everyone gets time
+        to shine, and keeps everyone's imagination aligned. Don't get caught up
+        in detailed tracking—update the map with big
+        changes.</span></p></div></div></div>
+    video:
+      controls: true
+      volume: 0.5
+    src: null
+    ownership:
+      default: -1
+      Dl5Tvf37OuEHwdAh: 3
+    flags: {}
+    _stats:
+      compendiumSource: null
+      duplicateSource: null
+      coreVersion: '12.331'
+      systemId: grimwild
+      systemVersion: 0.1.0
+      createdTime: null
+      modifiedTime: 1738610115165
+      lastModifiedBy: Dl5Tvf37OuEHwdAh
+    _key: '!journal.pages!veHYoBb3khGbNClM.2MvkhyWfOwDcbAOa'
+sort: 0
+ownership:
+  default: 0
+  Dl5Tvf37OuEHwdAh: 3
+flags: {}
+_stats:
+  compendiumSource: null
+  duplicateSource: null
+  coreVersion: '12.331'
+  systemId: grimwild
+  systemVersion: 0.1.0
+  createdTime: 1738609117631
+  modifiedTime: 1738609117631
+  lastModifiedBy: Dl5Tvf37OuEHwdAh
+_key: '!journal!veHYoBb3khGbNClM'
+categories: []
+

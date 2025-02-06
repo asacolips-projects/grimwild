@@ -1,0 +1,53 @@
+folder: cSF3Iw5klDLnZaJB
+name: Roles
+_id: D9XCxaiXxfGcjRg1
+pages:
+  - sort: 100000
+    name: Roles
+    type: text
+    _id: YO1f931wRo3cI7vs
+    system: {}
+    title:
+      show: true
+      level: 1
+    image: {}
+    text:
+      format: 1
+      content: >-
+        <p></p><table><thead><tr><td><p
+        style="font-size:2rem">Roles</p></td></tr></thead><tbody><tr><td><p><strong>Blaster</strong></p></td></tr><tr><td><p><strong>Brute</strong></p></td></tr><tr><td><p><strong>Lurker</strong></p></td></tr><tr><td><p><strong>Marksman</strong></p></td></tr><tr><td><p><strong>Overseer</strong></p></td></tr><tr><td><p><strong>Marauder</strong></p></td></tr><tr><td><p><strong>Predator</strong></p></td></tr><tr><td><p><strong>Protector</strong></p></td></tr><tr><td><p><strong>Skirmisher</strong></p></td></tr><tr><td><p><strong>Swarmer</strong></p></td></tr><tr><td><p><strong>Tactician</strong></p></td></tr><tr><td><p><strong>Trickster</strong></p></td></tr></tbody></table>
+    video:
+      controls: true
+      volume: 0.5
+    src: null
+    ownership:
+      default: -1
+      Dl5Tvf37OuEHwdAh: 3
+    flags: {}
+    _stats:
+      compendiumSource: null
+      duplicateSource: null
+      coreVersion: '12.331'
+      systemId: grimwild
+      systemVersion: 0.1.0
+      createdTime: null
+      modifiedTime: null
+      lastModifiedBy: null
+    _key: '!journal.pages!D9XCxaiXxfGcjRg1.YO1f931wRo3cI7vs'
+sort: 0
+ownership:
+  default: 0
+  Dl5Tvf37OuEHwdAh: 3
+flags: {}
+_stats:
+  compendiumSource: null
+  duplicateSource: null
+  coreVersion: '12.331'
+  systemId: grimwild
+  systemVersion: 0.1.0
+  createdTime: 1738609107710
+  modifiedTime: 1738609107710
+  lastModifiedBy: Dl5Tvf37OuEHwdAh
+categories: []
+_key: '!journal!D9XCxaiXxfGcjRg1'
+

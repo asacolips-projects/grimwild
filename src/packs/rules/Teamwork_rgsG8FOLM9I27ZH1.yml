@@ -22,7 +22,7 @@ pages:
         the least </span><span
         style="font-family:'Capito04VARItalic'"><em>(sneaking
         in)</em></span><span style="font-family:'Capito04VAR'">. The other PCs
-        </span>@UUID[Compendium.world.grimwild-glossary.JournalEntry.odkrgM4X8udAbLNN]{Assist}<span
+        </span>@UUID[Compendium.grimwild.rules.JournalEntry.odkrgM4X8udAbLNN]{Assist}<span
         style="font-family:'Capito04VAR'">.</span></p><p></p></div></div></div>
     video:
       controls: true
@@ -39,8 +39,8 @@ pages:
       systemId: grimwild
       systemVersion: 0.1.0
       createdTime: null
-      modifiedTime: null
-      lastModifiedBy: null
+      modifiedTime: 1738611503503
+      lastModifiedBy: Dl5Tvf37OuEHwdAh
     _key: '!journal.pages!rgsG8FOLM9I27ZH1.UPAi7vxXH0zaCIgG'
 folder: p3IcETq9NG4OSRkx
 sort: 500000
@@ -57,6 +57,6 @@ _stats:
   createdTime: 1738366919492
   modifiedTime: 1738366919492
   lastModifiedBy: Dl5Tvf37OuEHwdAh
-categories: []
 _key: '!journal!rgsG8FOLM9I27ZH1'
+categories: []
 

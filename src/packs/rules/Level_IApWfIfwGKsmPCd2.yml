@@ -17,9 +17,7 @@ pages:
         <div class="page" title="Page 19"><div class="layoutArea"><div
         class="column"><p><span style="font-family:'Capito04VAR'">A PC starts at
         level 1 and can go up to level 7. This takes 6 months of weekly play.
-        For longer play, slow down progression (</span><span
-        style="font-family:'Capito04VARItalic'"><em>below</em></span><span
-        style="font-family:'Capito04VAR'">).</span></p></div></div></div>
+        For longer play, slow down progression.</span></p></div></div></div>
     video:
       controls: true
       volume: 0.5
@@ -35,8 +33,8 @@ pages:
       systemId: grimwild
       systemVersion: 0.1.0
       createdTime: null
-      modifiedTime: null
-      lastModifiedBy: null
+      modifiedTime: 1738611127801
+      lastModifiedBy: Dl5Tvf37OuEHwdAh
     _key: '!journal.pages!IApWfIfwGKsmPCd2.jbm6BZ9eYQyWOUEa'
 sort: 0
 ownership:
@@ -52,6 +50,6 @@ _stats:
   createdTime: 1738510550844
   modifiedTime: 1738510550844
   lastModifiedBy: Dl5Tvf37OuEHwdAh
-categories: []
 _key: '!journal!IApWfIfwGKsmPCd2'
+categories: []
 

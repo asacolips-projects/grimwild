@@ -36,11 +36,13 @@ pages:
         a secondary effect</strong> </span><span
         style="font-family:'Capito04VARItalic'"><em>(they spill a secret, some
         mooks die)</em></span><span style="font-family:'Capito04VAR'">. If the
-        roll was only 1d, you can instead <strong>push yourself</strong> to drop
-        the last die.</span></p><p><span style="font-family:'SegoeUIEmoji'">◆
-        </span><span style="font-family:'Capito04VAR'"><strong>Drop</strong> 1d
-        from the pool before rolling it when a talent tells you to do so, you
-        have potency, or you take the </span><span
+        roll was only 1d, you can instead
+        @UUID[Compendium.grimwild.rules.JournalEntry.i7KRerD2wyqcWclD]{Push
+        Yourself} to drop the last die.</span></p><p><span
+        style="font-family:'SegoeUIEmoji'">◆ </span><span
+        style="font-family:'Capito04VAR'"><strong>Drop</strong> 1d from the pool
+        before rolling it when a talent tells you to do so, you have potency, or
+        you take the </span><span
         style="font-family:'Capito04VARItalic'"><em>greater effect
         </em></span><span style="font-family:'Capito04VAR'">critical bonus. This
         stacks.</span></p><p></p></div></div><div class="layoutArea"><div
@@ -95,8 +97,8 @@ pages:
       systemId: grimwild
       systemVersion: 0.1.0
       createdTime: null
-      modifiedTime: null
-      lastModifiedBy: null
+      modifiedTime: 1738611026583
+      lastModifiedBy: Dl5Tvf37OuEHwdAh
     _key: '!journal.pages!5n7fkFcmZaVYZT52.yy1d6VbmnCznGkjo'
 folder: JAfDvPq9GOlzPUKM
 sort: 100000
@@ -113,6 +115,6 @@ _stats:
   createdTime: 1738366918498
   modifiedTime: 1738366918498
   lastModifiedBy: Dl5Tvf37OuEHwdAh
-categories: []
 _key: '!journal!5n7fkFcmZaVYZT52'
+categories: []
 

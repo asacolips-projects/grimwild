@@ -1,0 +1,20 @@
+name: Running Combat
+sorting: a
+folder: null
+type: JournalEntry
+_id: 7rNlh42HUUDEXQ9f
+description: ''
+sort: 100000
+color: null
+flags: {}
+_stats:
+  compendiumSource: null
+  duplicateSource: null
+  coreVersion: '12.331'
+  systemId: grimwild
+  systemVersion: 0.1.0
+  createdTime: 1738609117625
+  modifiedTime: 1738609117638
+  lastModifiedBy: Dl5Tvf37OuEHwdAh
+_key: '!folders!7rNlh42HUUDEXQ9f'
+

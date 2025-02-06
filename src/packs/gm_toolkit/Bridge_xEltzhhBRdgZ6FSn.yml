@@ -1,0 +1,70 @@
+folder: 5YXY1yqWw7ivAdLy
+name: Bridge
+_id: xEltzhhBRdgZ6FSn
+pages:
+  - sort: 100000
+    name: Bridge
+    type: text
+    _id: OmVH2ZJVjYrs60Zg
+    system: {}
+    title:
+      show: true
+      level: 1
+    image: {}
+    text:
+      format: 1
+      content: >-
+        <div class="page" title="Page 34"><div class="section"><div
+        class="layoutArea"><div class="column"><p><span
+        style="font-family:'Capito04VAR'">Resolve a problem the PCs face or use
+        exposition to connect some dots.</span></p><p><span
+        style="font-family:'Capito04VARItalic'"><em>You hear from above, ‘Need
+        some help down there?’ • It suddenly makes sense—the baron is a
+        vampire.</em></span></p><p></p></div></div><div class="page" title="Page
+        34"><div class="layoutArea"><div class="column"><p><span
+        style="font-family:'Capito04VAR-Light-SC850'">BRIDGE </span><span
+        style="font-family:'Capito04VAR'">a scene when players are stuck, backed
+        into a corner, or a scene feels dull. It provides a quick out and moves
+        the story forward. Normally, it would feel like an unearned freebie, the
+        </span><span
+        style="font-family:'Capito04VARItalic'">@UUID[Compendium.grimwild.gm_toolkit.JournalEntry.r03swtJF4sEnG2fm]{Suspense}</span><span
+        style="font-family:'Capito04VAR'"> you gain makes it a </span><span
+        style="font-family:'Capito04VARItalic'"><em><strong>fair
+        trade</strong></em></span><span style="font-family:'Capito04VAR'">.
+        Never use it when players are engaged—save it for when it's
+        needed.</span></p></div></div></div></div></div>
+    video:
+      controls: true
+      volume: 0.5
+    src: null
+    ownership:
+      default: -1
+      Dl5Tvf37OuEHwdAh: 3
+    flags: {}
+    _stats:
+      compendiumSource: null
+      duplicateSource: null
+      coreVersion: '12.331'
+      systemId: grimwild
+      systemVersion: 0.1.0
+      createdTime: null
+      modifiedTime: 1738610236561
+      lastModifiedBy: Dl5Tvf37OuEHwdAh
+    _key: '!journal.pages!xEltzhhBRdgZ6FSn.OmVH2ZJVjYrs60Zg'
+sort: 0
+ownership:
+  default: 0
+  Dl5Tvf37OuEHwdAh: 3
+flags: {}
+_stats:
+  compendiumSource: JournalEntry.xEltzhhBRdgZ6FSn
+  duplicateSource: null
+  coreVersion: '12.331'
+  systemId: grimwild
+  systemVersion: 0.1.0
+  createdTime: 1738609121380
+  modifiedTime: 1738609121380
+  lastModifiedBy: Dl5Tvf37OuEHwdAh
+_key: '!journal!xEltzhhBRdgZ6FSn'
+categories: []
+

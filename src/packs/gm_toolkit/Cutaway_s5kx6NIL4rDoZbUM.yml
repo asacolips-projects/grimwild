@@ -1,0 +1,65 @@
+folder: 5YXY1yqWw7ivAdLy
+name: Cutaway
+_id: s5kx6NIL4rDoZbUM
+pages:
+  - sort: 100000
+    name: Cutaway
+    type: text
+    _id: SwhTNw3LNTZW9IxM
+    system: {}
+    title:
+      show: true
+      level: 1
+    image: {}
+    text:
+      format: 1
+      content: >-
+        <div class="page" title="Page 34"><div class="section"><div
+        class="layoutArea"><div class="column"><p><span
+        style="font-family:'Capito04VAR'">Narrate an info-rich scene elsewhere,
+        clueing the players in.</span></p><p><span
+        style="font-family:'Capito04VARItalic'"><em>In a distant village, a
+        strange sickness begins to spread. • Meanwhile, we see shadows climbing
+        the walls.</em></span></p><p></p></div><div class="column"><p><span
+        style="font-family:'Capito04VAR-Light-SC850'">CUTAWAY </span><span
+        style="font-family:'Capito04VAR'">to clue players in on the bigger
+        picture, like a TV show scene. Show villains plotting, armies marching,
+        or even positive events. It’s more fun when players know what's
+        happening and they can steer their PCs' actions toward that drama, even
+        if their characters don't explicitly know about
+        it.</span></p></div></div></div></div>
+    video:
+      controls: true
+      volume: 0.5
+    src: null
+    ownership:
+      default: -1
+      Dl5Tvf37OuEHwdAh: 3
+    flags: {}
+    _stats:
+      compendiumSource: null
+      duplicateSource: null
+      coreVersion: '12.331'
+      systemId: grimwild
+      systemVersion: 0.1.0
+      createdTime: null
+      modifiedTime: null
+      lastModifiedBy: null
+    _key: '!journal.pages!s5kx6NIL4rDoZbUM.SwhTNw3LNTZW9IxM'
+sort: 0
+ownership:
+  default: 0
+  Dl5Tvf37OuEHwdAh: 3
+flags: {}
+_stats:
+  compendiumSource: null
+  duplicateSource: null
+  coreVersion: '12.331'
+  systemId: grimwild
+  systemVersion: 0.1.0
+  createdTime: 1738609121380
+  modifiedTime: 1738609121380
+  lastModifiedBy: Dl5Tvf37OuEHwdAh
+categories: []
+_key: '!journal!s5kx6NIL4rDoZbUM'
+

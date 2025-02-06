@@ -18,9 +18,12 @@ pages:
         class="column"><p><span style="font-family:'Capito04VAR'">Extended
         breaks </span><span style="font-family:'Capito04VARItalic'"><em>(a
         month, a season)</em></span><span style="font-family:'Capito04VAR'">.
-        Fully heal and reset per-session talents. The GM rolls faction pools.
-        After, they pick and deplete one to move the story forward. You can roll
-        a montage to achieve something non-pivotal.</span></p></div></div></div>
+        Fully heal and reset per-session talents. The GM rolls
+        @UUID[Compendium.grimwild.gm_toolkit.JournalEntry.GlsmiXNCf4oZEXVU]{Faction
+        Pools}. After, they pick and deplete one to move the story forward. You
+        can roll a
+        @UUID[Compendium.grimwild.rules.JournalEntry.hHy0ajd300aDAWxm]{Montage}
+        to achieve something non-pivotal.</span></p></div></div></div>
     video:
       controls: true
       volume: 0.5
@@ -36,8 +39,8 @@ pages:
       systemId: grimwild
       systemVersion: 0.1.0
       createdTime: null
-      modifiedTime: null
-      lastModifiedBy: null
+      modifiedTime: 1738611269926
+      lastModifiedBy: Dl5Tvf37OuEHwdAh
     _key: '!journal.pages!MHfXUzKNONES2zRw.4dMriwWoTLVbmWqv'
 sort: 0
 ownership:
@@ -53,6 +56,6 @@ _stats:
   createdTime: 1738510552165
   modifiedTime: 1738510552165
   lastModifiedBy: Dl5Tvf37OuEHwdAh
-categories: []
 _key: '!journal!MHfXUzKNONES2zRw'
+categories: []
 

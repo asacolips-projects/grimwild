@@ -1,0 +1,20 @@
+name: Vigilance
+sorting: a
+folder: null
+type: JournalEntry
+_id: 8qrZk7eOvPVdUhzZ
+description: ''
+sort: 100000
+color: null
+flags: {}
+_stats:
+  compendiumSource: null
+  duplicateSource: null
+  coreVersion: '12.331'
+  systemId: grimwild
+  systemVersion: 0.1.0
+  createdTime: 1738609122957
+  modifiedTime: 1738609122977
+  lastModifiedBy: Dl5Tvf37OuEHwdAh
+_key: '!folders!8qrZk7eOvPVdUhzZ'
+

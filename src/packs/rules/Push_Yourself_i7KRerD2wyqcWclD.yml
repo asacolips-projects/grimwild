@@ -18,8 +18,8 @@ pages:
         class="column"><p><span style="font-family:'Capito04VAR'">Expend extra
         effort to activate certain talents that require it. After using the
         talent, </span><span
-        style="font-family:'Capito04VARItalic'"><em><strong>mark a related
-        stat</strong> </em></span><span
+        style="font-family:'Capito04VARItalic'">@UUID[Compendium.grimwild.rules.JournalEntry.mE6axXeciWLe3skm]{Mark}<em>
+        <strong>a related stat</strong> </em></span><span
         style="font-family:'Capito04VAR'">(</span><span
         style="font-family:'Capito04VARItalic'"><em>your choice</em></span><span
         style="font-family:'Capito04VAR'">). Talents that require you to push
@@ -40,8 +40,8 @@ pages:
       systemId: grimwild
       systemVersion: 0.1.0
       createdTime: null
-      modifiedTime: null
-      lastModifiedBy: null
+      modifiedTime: 1738611201424
+      lastModifiedBy: Dl5Tvf37OuEHwdAh
     _key: '!journal.pages!i7KRerD2wyqcWclD.swjZnzBxD1eMsFoJ'
 sort: 0
 ownership:
@@ -57,6 +57,6 @@ _stats:
   createdTime: 1738510550844
   modifiedTime: 1738510550844
   lastModifiedBy: Dl5Tvf37OuEHwdAh
-categories: []
 _key: '!journal!i7KRerD2wyqcWclD'
+categories: []
 

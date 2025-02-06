@@ -1,0 +1,51 @@
+folder: ZYf6ozP1kinf3leD
+name: Challenges
+_id: 28LI3vBzTskcrWM2
+pages:
+  - sort: 100000
+    name: Challenges
+    type: text
+    _id: OHw9EMj5ymkUqndc
+    system: {}
+    title:
+      show: true
+      level: 1
+    image: {}
+    text:
+      format: 1
+      content: "<div class=\"page\" title=\"Page 36\"><div class=\"layoutArea\"><div class=\"column\"><p><span style=\"font-family:'Capito04VAR'\">A framework to represent </span><span style=\"font-family:'Capito04VARItalic'\"><em><strong>tasks</strong></em></span><span style=\"font-family:'Capito04VAR'\">, </span><span style=\"font-family:'Capito04VARItalic'\"><em><strong>obstacles</strong></em></span><span style=\"font-family:'Capito04VAR'\">, </span><span style=\"font-family:'Capito04VARItalic'\"><em><strong>enemies</strong></em></span><span style=\"font-family:'Capito04VAR'\">, and </span><span style=\"font-family:'Capito04VARItalic'\"><em><strong>scenarios</strong> </em></span><span style=\"font-family:'Capito04VAR'\">that have greater tenacity and complexity than a single action can accomplish. <strong>Challenges</strong> allow you to track progress towards them, but also proactively oppose the PCs. Each has </span><span style=\"font-family:'Capito04VARItalic'\"><em><strong>2 bonus </strong></em>@UUID[Compendium.grimwild.gm_toolkit.JournalEntry.r03swtJF4sEnG2fm]{Suspense}<em> </em></span><span style=\"font-family:'Capito04VAR'\">to be spent on moves relating to it, and a</span><span style=\"font-family:'Capito04VARItalic'\"><em><strong> </strong></em> @UUID[Compendium.grimwild.rules.JournalEntry.5n7fkFcmZaVYZT52]{Task Pool} </span><span style=\"font-family:'Capito04VAR'\">to represent its tenacity or complexity. They can also have:</span></p><p><span style=\"font-family:'SegoeUIEmoji'\">◆ \_</span><span style=\"font-family:'Capito04VAR'\"><strong>Traits</strong>(</span><span style=\"font-family:'SegoeUIEmoji'\">✱</span><span style=\"font-family:'Capito04VAR'\">):Qualities they have with strong narrative impact, inflicting thorns, denying permissions, or changing vantage.</span></p><p><span style=\"font-family:'SegoeUIEmoji'\">◆ \_</span><span style=\"font-family:'Capito04VAR'\"><strong>Moves</strong> (</span><span style=\"font-family:'SegoeUIEmoji'\">◉</span><span style=\"font-family:'Capito04VAR'\">): Suggested impact moves they might make. These are examples, not limitations.</span></p><p><span style=\"font-family:'SegoeUIEmoji'\">◆ \_</span><span style=\"font-family:'Capito04VAR'\"><strong>Fail State</strong> (</span><span style=\"font-family:'SegoeUIEmoji'\">✘</span><span style=\"font-family:'Capito04VAR'\">): A trigger that signals the challenge failed, like a competing timer pool or a specific event. It prompts </span><span style=\"font-family:'Capito04VAR-Light-SC850'\">@UUID[Compendium.grimwild.gm_toolkit.JournalEntry.Dsh3aKJ3gboNE9Qo]{Lock It In}</span><span style=\"font-family:'Capito04VAR'\">.</span></p><p><span style=\"font-family:'Capito04VAR'\">Interpret these short, evocative phrases as fit the situation. Keep your own created challenges similarly brief and flexible. Some uses:</span></p><ul style=\"list-style-type:none\"><li><p><span style=\"font-family:'SegoeUIEmoji'\">◆ \_</span><span style=\"font-family:'Capito04VAR'\">Create a dangerous enemy or exceptionally tough task.</span></p></li><li><p><span style=\"font-family:'Capito04VARItalic'\"><em>Navigate a mountain pass. Fight the rogue wizard. Make the mayor pay up.</em></span></p></li><li><p><span style=\"font-family:'SegoeUIEmoji'\">◆ \_</span><span style=\"font-family:'Capito04VAR'\">Zoom in on pivotal moments.</span></p></li><li><p><span style=\"font-family:'Capito04VARItalic'\"><em>Disable a complex trap. Complete the ritual. Court the prince.</em></span></p></li><li><p><span style=\"font-family:'SegoeUIEmoji'\">◆ \_</span><span style=\"font-family:'Capito04VAR'\">Zoom out to collapse related tasks into one objective.</span></p></li><li><p><span style=\"font-family:'Capito04VARItalic'\"><em>Evade castle guards. Track down the criminals. Organize a mutiny.</em></span></p></li><li><p><span style=\"font-family:'SegoeUIEmoji'\">◆ \_</span><span style=\"font-family:'Capito04VAR'\">Turn a broad concept into an actionable objective.</span></p></li><li><p><span style=\"font-family:'Capito04VARItalic'\"><em>Restore the desecrated temple. Secure enough alliances. Atone for your sins.</em></span></p></li></ul></div></div></div>"
+    video:
+      controls: true
+      volume: 0.5
+    src: null
+    ownership:
+      default: -1
+      Dl5Tvf37OuEHwdAh: 3
+    flags: {}
+    _stats:
+      compendiumSource: null
+      duplicateSource: null
+      coreVersion: '12.331'
+      systemId: grimwild
+      systemVersion: 0.1.0
+      createdTime: null
+      modifiedTime: 1738609325085
+      lastModifiedBy: Dl5Tvf37OuEHwdAh
+    _key: '!journal.pages!28LI3vBzTskcrWM2.OHw9EMj5ymkUqndc'
+sort: 0
+ownership:
+  default: 0
+  Dl5Tvf37OuEHwdAh: 3
+flags: {}
+_stats:
+  compendiumSource: null
+  duplicateSource: null
+  coreVersion: '12.331'
+  systemId: grimwild
+  systemVersion: 0.1.0
+  createdTime: 1738609106510
+  modifiedTime: 1738609106510
+  lastModifiedBy: Dl5Tvf37OuEHwdAh
+_key: '!journal!28LI3vBzTskcrWM2'
+categories: []
+

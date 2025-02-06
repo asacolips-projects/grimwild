@@ -22,8 +22,9 @@ pages:
         <strong>group arc</strong> together, then a <strong>character
         arc</strong>. Pick from the examples or write your own. Keep it
         short.</span></p><p><span
-        style="font-family:'Capito04VARItalic'"><em><strong>Take spark by
-        resolving an arc</strong> </em></span><span
+        style="font-family:'Capito04VARItalic'"><em><strong>Take
+        </strong></em>@UUID[Compendium.grimwild.rules.JournalEntry.jfAL6eh3f03OfuY3]{Spark}<em><strong>
+        by resolving an arc</strong> </em></span><span
         style="font-family:'Capito04VAR'">with a meaningful moment, </span><span
         style="font-family:'Capito04VARItalic'"><em>however big or small it
         is</em></span><span style="font-family:'Capito04VAR'">. This could mean
@@ -90,8 +91,8 @@ pages:
       systemId: grimwild
       systemVersion: 0.1.0
       createdTime: null
-      modifiedTime: null
-      lastModifiedBy: null
+      modifiedTime: 1738611393308
+      lastModifiedBy: Dl5Tvf37OuEHwdAh
     _key: '!journal.pages!Ov75OXsHOo6sUbg2.Y1NS2LwzQ5stxuv4'
 sort: 0
 ownership:
@@ -107,6 +108,6 @@ _stats:
   createdTime: 1738510553443
   modifiedTime: 1738510553443
   lastModifiedBy: Dl5Tvf37OuEHwdAh
-categories: []
 _key: '!journal!Ov75OXsHOo6sUbg2'
+categories: []
 

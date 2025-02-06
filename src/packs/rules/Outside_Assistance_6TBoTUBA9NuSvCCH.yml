@@ -14,10 +14,12 @@ pages:
       format: 1
       content: >-
         <div class="page" title="Page 14"><div class="layoutArea"><div
-        class="column"><p><span style="font-family:'Capito04VAR'">When an assist
-        or setup comes from the world, like an NPC or the environment,
-        </span><span style="font-family:'Capito04VARItalic'"><em><strong>the GM
-        rolls 1d</strong> </em></span><span style="font-family:'Capito04VAR'">to
+        class="column"><p><span style="font-family:'Capito04VAR'">When an
+        @UUID[Compendium.grimwild.rules.JournalEntry.odkrgM4X8udAbLNN]{Assist}
+        or @UUID[Compendium.grimwild.rules.JournalEntry.DcbQOR4iu3apZR17]{Setup}
+        comes from the world, like an NPC or the environment, </span><span
+        style="font-family:'Capito04VARItalic'"><em><strong>the GM rolls
+        1d</strong> </em></span><span style="font-family:'Capito04VAR'">to
         represent it.</span></p></div></div></div>
     video:
       controls: true
@@ -34,8 +36,8 @@ pages:
       systemId: grimwild
       systemVersion: 0.1.0
       createdTime: null
-      modifiedTime: null
-      lastModifiedBy: null
+      modifiedTime: 1738611479956
+      lastModifiedBy: Dl5Tvf37OuEHwdAh
     _key: '!journal.pages!6TBoTUBA9NuSvCCH.tztDQ25sqN8rua7L'
 folder: p3IcETq9NG4OSRkx
 sort: 400000
@@ -52,6 +54,6 @@ _stats:
   createdTime: 1738366919492
   modifiedTime: 1738366919492
   lastModifiedBy: Dl5Tvf37OuEHwdAh
-categories: []
 _key: '!journal!6TBoTUBA9NuSvCCH'
+categories: []
 

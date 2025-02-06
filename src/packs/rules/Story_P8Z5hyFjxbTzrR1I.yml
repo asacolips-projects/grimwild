@@ -22,8 +22,9 @@ pages:
         details</strong> </em></span><span
         style="font-family:'Capito04VAR'">that go beyond set dressing, creating
         new opportunities or shifting the scene in your favor. Added details
-        must fit your vantage, </span><span
-        style="font-family:'Capito04VARItalic'"><em>at least as a
+        must fit your
+        @UUID[Compendium.grimwild.rules.JournalEntry.uLhjdcEsx67R7ADM]{Vantage},
+        </span><span style="font-family:'Capito04VARItalic'"><em>at least as a
         stretch</em></span><span style="font-family:'Capito04VAR'">, or tie to a
         story arc. Example details:</span></p><p><span
         style="font-family:'SegoeUIEmoji'">◆ </span><span
@@ -34,14 +35,15 @@ pages:
         style="font-family:'SegoeUIEmoji'">◆ </span><span
         style="font-family:'Capito04VARItalic'"><em><strong>Scene</strong></em></span><span
         style="font-family:'Capito04VAR'">: NPC actions, objects,
-        atmospherics... </span></p><p><span
+        atmospherics...</span></p><p><span
         style="font-family:'Capito04VARItalic'"><em>The guard falls asleep.
         There's a secret door.</em></span></p><p><span
         style="font-family:'SegoeUIEmoji'">◆ </span><span
         style="font-family:'Capito04VARItalic'"><em><strong>Setting</strong></em></span><span
-        style="font-family:'Capito04VAR'">: History, geography, factions...
-        </span></p><p><span style="font-family:'Capito04VARItalic'"><em>There's
-        a town over those hills. The king falls ill.</em></span></p><p><span
+        style="font-family:'Capito04VAR'">: History, geography,
+        factions...</span></p><p><span
+        style="font-family:'Capito04VARItalic'"><em>There's a town over those
+        hills. The king falls ill.</em></span></p><p><span
         style="font-family:'Capito04VAR'">Added details can't override rolls or
         contradict the established story. If your detail affects another PC, get
         permission. The GM can make a story roll to see how true or beneficial
@@ -49,9 +51,10 @@ pages:
         details to keep things coherent.</span></p><p><span
         style="font-family:'Capito04VAR'">There are </span><span
         style="font-family:'Capito04VARItalic'"><em>gray zones </em></span><span
-        style="font-family:'Capito04VAR'">between set dressing, story details,
-        and details simply too impactful to add. Set boundaries with your
-        group.</span></p></div></div></div>
+        style="font-family:'Capito04VAR'">between
+        @UUID[Compendium.grimwild.rules.JournalEntry.l1bIcnawFgjunvcF]{Set
+        Dressing}, story details, and details simply too impactful to add. Set
+        boundaries with your group.</span></p></div></div></div>
     video:
       controls: true
       volume: 0.5
@@ -67,8 +70,8 @@ pages:
       systemId: grimwild
       systemVersion: 0.1.0
       createdTime: null
-      modifiedTime: null
-      lastModifiedBy: null
+      modifiedTime: 1738610643677
+      lastModifiedBy: Dl5Tvf37OuEHwdAh
     _key: '!journal.pages!P8Z5hyFjxbTzrR1I.RBg39Sm3klbGpPEQ'
 sort: 0
 ownership:
@@ -84,6 +87,6 @@ _stats:
   createdTime: 1738510547562
   modifiedTime: 1738510547562
   lastModifiedBy: Dl5Tvf37OuEHwdAh
-categories: []
 _key: '!journal!P8Z5hyFjxbTzrR1I'
+categories: []
 

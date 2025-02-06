@@ -25,7 +25,9 @@ pages:
         style="font-family:'Capito04VAR'">. Vex is inflicted as a consequence,
         sometimes in addition to a mark or harm. </span><span
         style="font-family:'Capito04VARItalic'"><em><strong>You can also spend
-        spark to take vex in place of rattled</strong></em></span><span
+        </strong></em>@UUID[Compendium.grimwild.rules.JournalEntry.jfAL6eh3f03OfuY3]{Spark}<strong>
+        </strong><em><strong>to take vex in place of
+        </strong></em>@UUID[Compendium.grimwild.rules.JournalEntry.kAGyEflDClkS3viS]{Rattled}</span><span
         style="font-family:'Capito04VAR'">, if it fits the situation. Vex
         prompts an immediate, instinctive response. Choose
         one:</span></p><table><tbody><tr><td><p
@@ -57,8 +59,8 @@ pages:
       systemId: grimwild
       systemVersion: 0.1.0
       createdTime: null
-      modifiedTime: null
-      lastModifiedBy: null
+      modifiedTime: 1738610801049
+      lastModifiedBy: Dl5Tvf37OuEHwdAh
     _key: '!journal.pages!LjjAaVn72uputf9b.5cCe9E0toE6GOgUH'
 sort: 0
 ownership:
@@ -74,6 +76,6 @@ _stats:
   createdTime: 1738510549034
   modifiedTime: 1738510549034
   lastModifiedBy: Dl5Tvf37OuEHwdAh
-categories: []
 _key: '!journal!LjjAaVn72uputf9b'
+categories: []
 

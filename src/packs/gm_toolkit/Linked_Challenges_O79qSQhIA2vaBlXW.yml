@@ -1,0 +1,60 @@
+folder: ZYf6ozP1kinf3leD
+name: Linked Challenges
+_id: O79qSQhIA2vaBlXW
+pages:
+  - sort: 100000
+    name: Linked Challenges
+    type: text
+    _id: anDQb27BulKC5cbl
+    system: {}
+    title:
+      show: true
+      level: 1
+    image: {}
+    text:
+      format: 1
+      content: >-
+        <div class="page" title="Page 37"><div class="layoutArea"><div
+        class="column"><p><span style="font-family:'Capito04VAR'">Linked
+        challenges are greater, more complex interactions, like epicly powerful
+        enemies or unbelievably tense social situations. Each part of the whole
+        has its own proactive presence in the scene. Give them traits that
+        prompt impact moves, triggered by the fiction (</span><span
+        style="font-family:'Capito04VARItalic'"><em>protect the
+        body</em></span><span style="font-family:'Capito04VAR'">) for dynamic
+        interactions.</span></p></div></div></div>
+    video:
+      controls: true
+      volume: 0.5
+    src: null
+    ownership:
+      default: -1
+      Dl5Tvf37OuEHwdAh: 3
+    flags: {}
+    _stats:
+      compendiumSource: null
+      duplicateSource: null
+      coreVersion: '12.331'
+      systemId: grimwild
+      systemVersion: 0.1.0
+      createdTime: null
+      modifiedTime: null
+      lastModifiedBy: null
+    _key: '!journal.pages!O79qSQhIA2vaBlXW.anDQb27BulKC5cbl'
+sort: 0
+ownership:
+  default: 0
+  Dl5Tvf37OuEHwdAh: 3
+flags: {}
+_stats:
+  compendiumSource: null
+  duplicateSource: null
+  coreVersion: '12.331'
+  systemId: grimwild
+  systemVersion: 0.1.0
+  createdTime: 1738609106510
+  modifiedTime: 1738609106510
+  lastModifiedBy: Dl5Tvf37OuEHwdAh
+categories: []
+_key: '!journal!O79qSQhIA2vaBlXW'
+

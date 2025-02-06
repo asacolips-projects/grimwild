@@ -37,9 +37,10 @@ pages:
         style="font-family:'Capito04VAR'">It can also make an attempt
         impossible.</span></p><p><span
         style="font-family:'Capito04VAR'">Conditions clear when it makes sense,
-        like after a scene, with rest, or when a pool tracking them depletes.
-        They may also require treatment or another specific method to clear
-        them.</span></p><p><span
+        like after a scene, with rest, or when a
+        @UUID[Compendium.grimwild.rules.JournalEntry.5n7fkFcmZaVYZT52]{Pool}
+        tracking them depletes. They may also require treatment or another
+        specific method to clear them.</span></p><p><span
         style="font-family:'Capito04VARItalic'"><em><strong>You have the final
         say on long-term and permanent conditions</strong></em></span><span
         style="font-family:'Capito04VAR'">. When you take one, work with the GM
@@ -60,8 +61,8 @@ pages:
       systemId: grimwild
       systemVersion: 0.1.0
       createdTime: null
-      modifiedTime: null
-      lastModifiedBy: null
+      modifiedTime: 1738610676273
+      lastModifiedBy: Dl5Tvf37OuEHwdAh
     _key: '!journal.pages!q1o6ubdVkVidryCj.kS4wWtSckfZByqcB'
 sort: 0
 ownership:
@@ -77,6 +78,6 @@ _stats:
   createdTime: 1738510549034
   modifiedTime: 1738510549034
   lastModifiedBy: Dl5Tvf37OuEHwdAh
-categories: []
 _key: '!journal!q1o6ubdVkVidryCj'
+categories: []
 

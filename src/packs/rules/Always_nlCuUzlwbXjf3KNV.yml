@@ -25,9 +25,9 @@ pages:
         </span><span style="font-family:'Capito04VAR-Light-SC850',
         font-style='small-caps'"><span
         style="font-family:'Capito04VAR-Light-SC850',
-        font-style='small-caps'">COUNTER </span></span><span
-        style="font-family:'Capito04VAR'">move, a strong NPC trait is in play,
-        or other extenuating circumstances arise. </span><span
+        font-style='small-caps'">@UUID[Compendium.grimwild.gm_toolkit.JournalEntry.GNvl7ZFpU31MZe7z]{Counter}
+        </span></span><span style="font-family:'Capito04VAR'">move, a strong NPC
+        trait is in play, or other extenuating circumstances arise. </span><span
         style="font-family:'Capito04VARItalic'"><em>In short, "always" means 95%
         of the time.</em></span></p></div></div></div>
     video:
@@ -45,8 +45,8 @@ pages:
       systemId: grimwild
       systemVersion: 0.1.0
       createdTime: null
-      modifiedTime: null
-      lastModifiedBy: null
+      modifiedTime: 1738611043908
+      lastModifiedBy: Dl5Tvf37OuEHwdAh
     _key: '!journal.pages!nlCuUzlwbXjf3KNV.ujO2iGlkpK0eQyGK'
 sort: 0
 ownership:
@@ -62,6 +62,6 @@ _stats:
   createdTime: 1738510550844
   modifiedTime: 1738510550844
   lastModifiedBy: Dl5Tvf37OuEHwdAh
-categories: []
 _key: '!journal!nlCuUzlwbXjf3KNV'
+categories: []
 

@@ -1,0 +1,75 @@
+folder: g4byq082efDAWI1S
+name: Counter
+_id: GNvl7ZFpU31MZe7z
+pages:
+  - sort: 100000
+    name: Counter
+    type: text
+    _id: sM67Sl8hZ5aUaB8s
+    system: {}
+    title:
+      show: true
+      level: 1
+    image: {}
+    text:
+      format: 1
+      content: >-
+        <div class="page" title="Page 35"><div class="section"><div
+        class="layoutArea"><div class="column"><p><span
+        style="font-family:'Capito04VAR'">Deny things a PC can always do or
+        negate something they did.</span></p><p><span
+        style="font-family:'Capito04VARItalic'"><em>"The lich casts a quick
+        protective spell, slowing your strike." • "The queen raises a hand,
+        silencing everyone."</em></span></p></div><div
+        class="column"><p></p><p><span
+        style="font-family:'Capito04VAR-Light-SC850'">COUNTER </span><span
+        style="font-family:'Capito04VAR'">to make the world tenaciously
+        formidable, showing that it won't just roll over. You can stop anything
+        a PC does, including successful action rolls, talents they
+        @UUID[Compendium.grimwild.rules.JournalEntry.nlCuUzlwbXjf3KNV]{Always}
+        have permission to use and extra
+        @UUID[Compendium.grimwild.gm_toolkit.JournalEntry.r7Cy7N816z6l6Cn5]{Vigilance}.
+        If they use a talent that costs them resources, they generally don't
+        have to expend that resource (your call) but can't quickly use it again.
+        However, this can never be used to stop
+        @UUID[Compendium.grimwild.rules.JournalEntry.FCERIjA706QgIWIJ]{Defense
+        Rolls} and criticals—don't steal their thunder. Be careful, players get
+        frustrated if their victories and advantages are snatched away, so use
+        it in interesting ways and make sure the spotlight works its way back to
+        them after you take advantage of the
+        moment.</span></p></div></div></div></div>
+    video:
+      controls: true
+      volume: 0.5
+    src: null
+    ownership:
+      default: -1
+      Dl5Tvf37OuEHwdAh: 3
+    flags: {}
+    _stats:
+      compendiumSource: null
+      duplicateSource: null
+      coreVersion: '12.331'
+      systemId: grimwild
+      systemVersion: 0.1.0
+      createdTime: null
+      modifiedTime: 1738609996860
+      lastModifiedBy: Dl5Tvf37OuEHwdAh
+    _key: '!journal.pages!GNvl7ZFpU31MZe7z.sM67Sl8hZ5aUaB8s'
+sort: 0
+ownership:
+  default: 0
+  Dl5Tvf37OuEHwdAh: 3
+flags: {}
+_stats:
+  compendiumSource: null
+  duplicateSource: null
+  coreVersion: '12.331'
+  systemId: grimwild
+  systemVersion: 0.1.0
+  createdTime: 1738609116086
+  modifiedTime: 1738609116086
+  lastModifiedBy: Dl5Tvf37OuEHwdAh
+_key: '!journal!GNvl7ZFpU31MZe7z'
+categories: []
+

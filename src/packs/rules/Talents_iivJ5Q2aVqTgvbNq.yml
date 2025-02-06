@@ -24,7 +24,8 @@ pages:
         with it. You gain new talents as you level, choosing from your path list
         or taking talents from other paths.</span></p><p><span
         style="font-family:'Capito04VAR'">The path name is simply a label for
-        organizing talents thematically. On its own, it doesn't expand vantage.
+        organizing talents thematically. On its own, it doesn't expand
+        @UUID[Compendium.grimwild.rules.JournalEntry.uLhjdcEsx67R7ADM]{Vantage}.
         However, talents do expand vantage. </span><span
         style="font-family:'Capito04VARItalic'"><em>Being a "fighter" doesn't
         mean anything, but the Fighting Style core talent expands your
@@ -44,8 +45,8 @@ pages:
       systemId: grimwild
       systemVersion: 0.1.0
       createdTime: null
-      modifiedTime: null
-      lastModifiedBy: null
+      modifiedTime: 1738610549266
+      lastModifiedBy: Dl5Tvf37OuEHwdAh
     _key: '!journal.pages!iivJ5Q2aVqTgvbNq.jTpk4z7Yefi2Us4J'
 sort: 0
 ownership:
@@ -61,6 +62,6 @@ _stats:
   createdTime: 1738366915122
   modifiedTime: 1738366915122
   lastModifiedBy: Dl5Tvf37OuEHwdAh
-categories: []
 _key: '!journal!iivJ5Q2aVqTgvbNq'
+categories: []
 
