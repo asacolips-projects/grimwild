@@ -17,7 +17,7 @@ export default class GrimwildTalent extends GrimwildItemBase {
 		// Ex: Spell theorems
 		schema.notes = new fields.SchemaField({
 			label: new fields.StringField(optionalString),
-			description: new fields.HTMLField({ required: true, blank: true }),
+			description: new fields.HTMLField({ required: true, blank: true })
 		});
 
 		// Resources V2.
@@ -26,9 +26,9 @@ export default class GrimwildTalent extends GrimwildItemBase {
 				required: true,
 				blank: false,
 				choices: {
-					pool: 'Pool',
-					points: 'Points',
-				},
+					pool: "Pool",
+					points: "Points"
+				}
 			}),
 			label: new fields.StringField(optionalString),
 			pool: new DicePoolField(),
@@ -37,11 +37,11 @@ export default class GrimwildTalent extends GrimwildItemBase {
 				value: new fields.NumberField({
 					...requiredInteger,
 					initial: 1,
-					min: 0,
+					min: 0
 				}),
 				max: new fields.NumberField({
 					initial: 1,
-					min: 1,
+					min: 1
 				})
 			})
 		}));

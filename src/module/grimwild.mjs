@@ -5,7 +5,7 @@ import { GrimwildItem } from "./documents/item.mjs";
 import { GrimwildActorSheet } from "./sheets/actor-sheet.mjs";
 import { GrimwildActorSheetVue } from "./sheets/actor-sheet-vue.mjs";
 import { GrimwildItemSheet } from "./sheets/item-sheet.mjs";
-import { GrimwildItemSheetVue } from './sheets/item-sheet-vue.mjs';
+import { GrimwildItemSheetVue } from "./sheets/item-sheet-vue.mjs";
 // Import helper/utility classes and constants.
 import { GRIMWILD } from "./helpers/config.mjs";
 import * as dice from "./dice/_module.mjs";
@@ -28,7 +28,7 @@ globalThis.grimwild = {
 		GrimwildActorSheet,
 		GrimwildActorSheetVue,
 		GrimwildItemSheet,
-		GrimwildItemSheetVue,
+		GrimwildItemSheetVue
 	},
 	utils: {
 		rollItemMacro
@@ -85,12 +85,12 @@ Hooks.once("init", function () {
 		makeDefault: true,
 		label: "Grimwild Fallback Sheet",
 		types: ["npc"]
-	})
+	});
 	Actors.registerSheet("grimwild", GrimwildActorSheetVue, {
 		makeDefault: true,
 		label: "GRIMWILD.SheetLabels.Actor",
 		types: ["character"]
-	})
+	});
 	Items.unregisterSheet("core", ItemSheet);
 	Items.registerSheet("grimwild", GrimwildItemSheet, {
 		makeDefault: true,
@@ -212,6 +212,19 @@ Hooks.once("diceSoNiceReady", (dice3d) => {
 		material: "glass"
 	});
 });
+
+/* -------------------------------------------- */
+/*  preCreateToken                              */
+/* -------------------------------------------- */
+
+// Links actor tokens to their actors
+Hooks.on("preCreateToken", (document, data, options, userId) => {
+	const actor = game.actors.get(data.actorId);
+	if (actor?.type === "character") {
+		data.actorLink = true;
+		document.updateSource({"actorLink": true});
+	}
+  });
 
 /* -------------------------------------------- */
 /*  Hotbar Macros                               */

@@ -27,12 +27,12 @@ export class GrimwildBaseVueActorSheet extends foundry.applications.sheets.Actor
 			createEffect: this._createEffect,
 			deleteEffect: this._deleteEffect,
 			toggleEffect: this._toggleEffect,
-			toggleItem: this._toggleItem,
+			toggleItem: this._toggleItem
 		},
 		dragDrop: [{ dragSelector: "[data-drag]", dropSelector: null }],
 		form: {
 			submitOnChange: true,
-			submitOnClose: true,
+			submitOnClose: true
 		}
 	};
 
@@ -42,12 +42,12 @@ export class GrimwildBaseVueActorSheet extends foundry.applications.sheets.Actor
 	_initializeApplicationOptions(options) {
 		options = super._initializeApplicationOptions(options);
 		if (options.document.compendium) {
-			const hasOption = options.window.controls.find(o => o.action === 'importFromCompendium');
+			const hasOption = options.window.controls.find((o) => o.action === "importFromCompendium");
 			if (!hasOption) {
 				options.window.controls.push({
 					action: "importFromCompendium",
 					icon: "fa-solid fa-download",
-					label: "Import",
+					label: "Import"
 				});
 			}
 		}
@@ -102,7 +102,7 @@ export class GrimwildBaseVueActorSheet extends foundry.applications.sheets.Actor
 
 	/**
 	 * Handle changing a Document's image.
-	 * 
+	 *
 	 * @this ArchmageBaseItemSheetV2
 	 * @param {PointerEvent} event   The originating click event
 	 * @param {HTMLElement} target   The capturing HTML element which defined a [data-action]
@@ -118,9 +118,9 @@ export class GrimwildBaseVueActorSheet extends foundry.applications.sheets.Actor
 			current,
 			type: "image",
 			redirectToRoot: img ? [img] : [],
-			callback: path => {
+			callback: (path) => {
 				target.src = path;
-				this.document.update({[attr]: path});
+				this.document.update({ [attr]: path });
 			},
 			top: this.position.top + 40,
 			left: this.position.left + 10
@@ -150,7 +150,7 @@ export class GrimwildBaseVueActorSheet extends foundry.applications.sheets.Actor
 
 	static async _toggleItem(event, target) {
 		const { itemId } = target.dataset;
-		if (itemId && typeof this.activeItems[itemId] !== 'undefined') {
+		if (itemId && typeof this.activeItems[itemId] !== "undefined") {
 			this.activeItems[itemId] = !this.activeItems[itemId];
 		}
 		else {
@@ -260,7 +260,7 @@ export class GrimwildBaseVueActorSheet extends foundry.applications.sheets.Actor
 		// Prepare the document creation data by initializing it a default name.
 		// As of v12, you can define custom Active Effect subtypes just like Item subtypes if you want
 		const effectData = {
-			img: this.document.img || 'icons/svg/aura.svg',
+			img: this.document.img || "icons/svg/aura.svg",
 			origin: this.document.uuid,
 			name: aeCls.defaultName({
 				// defaultName handles an undefined type gracefully

@@ -14,12 +14,12 @@ export class GrimwildBaseVueItemSheet extends foundry.applications.sheets.ItemSh
 			editEffect: this._viewEffect,
 			createEffect: this._createEffect,
 			deleteEffect: this._deleteEffect,
-			toggleEffect: this._toggleEffect,
+			toggleEffect: this._toggleEffect
 		},
 		dragDrop: [{ dragSelector: "[data-drag]", dropSelector: null }],
 		form: {
 			submitOnChange: true,
-			submitOnClose: true,
+			submitOnClose: true
 		}
 	};
 
@@ -29,12 +29,12 @@ export class GrimwildBaseVueItemSheet extends foundry.applications.sheets.ItemSh
 	_initializeApplicationOptions(options) {
 		options = super._initializeApplicationOptions(options);
 		if (options.document.compendium) {
-			const hasOption = options.window.controls.find(o => o.action === 'importFromCompendium');
+			const hasOption = options.window.controls.find((o) => o.action === "importFromCompendium");
 			if (!hasOption) {
 				options.window.controls.push({
 					action: "importFromCompendium",
 					icon: "fa-solid fa-download",
-					label: "Import",
+					label: "Import"
 				});
 			}
 		}
@@ -63,7 +63,7 @@ export class GrimwildBaseVueItemSheet extends foundry.applications.sheets.ItemSh
 
 	/**
 	 * Handle changing a Document's image.
-	 * 
+	 *
 	 * @this ArchmageBaseItemSheetV2
 	 * @param {PointerEvent} event   The originating click event
 	 * @param {HTMLElement} target   The capturing HTML element which defined a [data-action]
@@ -79,9 +79,9 @@ export class GrimwildBaseVueItemSheet extends foundry.applications.sheets.ItemSh
 			current,
 			type: "image",
 			redirectToRoot: img ? [img] : [],
-			callback: path => {
+			callback: (path) => {
 				target.src = path;
-				this.document.update({[attr]: path});
+				this.document.update({ [attr]: path });
 			},
 			top: this.position.top + 40,
 			left: this.position.left + 10
@@ -90,14 +90,14 @@ export class GrimwildBaseVueItemSheet extends foundry.applications.sheets.ItemSh
 	}
 
 	/**
-   * Handle header control button clicks to display actor portrait artwork.
-   * @this {ArchmageBaseItemSheetV2}
-   * @param {PointerEvent} event
-   */
-  static #onShowItemArtwork(event) {
-    const {img, name, uuid} = this.document;
-    new ImagePopout(img, {title: name, uuid: uuid}).render(true);
-  }
+	 * Handle header control button clicks to display actor portrait artwork.
+	 * @this {ArchmageBaseItemSheetV2}
+	 * @param {PointerEvent} event
+	 */
+	static #onShowItemArtwork(event) {
+		const { img, name, uuid } = this.document;
+		new ImagePopout(img, { title: name, uuid: uuid }).render(true);
+	}
 
 	/**
 	 * Renders an embedded document's sheet
@@ -141,7 +141,7 @@ export class GrimwildBaseVueItemSheet extends foundry.applications.sheets.ItemSh
 		// Prepare the document creation data by initializing it a default name.
 		// As of v12, you can define custom Active Effect subtypes just like Item subtypes if you want
 		const effectData = {
-			img: this.document.img || 'icons/svg/aura.svg',
+			img: this.document.img || "icons/svg/aura.svg",
 			origin: this.document.uuid,
 			name: aeCls.defaultName({
 				// defaultName handles an undefined type gracefully

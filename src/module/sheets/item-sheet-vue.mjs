@@ -1,16 +1,16 @@
 import VueRenderingMixin from "./_vue/_vue-application-mixin.mjs";
 import { GrimwildBaseVueItemSheet } from "./_vue/_base-vue-item-sheet.mjs";
-import { ItemSheetVue } from '../../vue/components.vue.es.mjs';
+import { ItemSheetVue } from "../../vue/components.vue.es.mjs";
 
 const { DOCUMENT_OWNERSHIP_LEVELS } = CONST;
 
 export class GrimwildItemSheetVue extends VueRenderingMixin(GrimwildBaseVueItemSheet) {
 	vueParts = {
-		'item-sheet': {
+		"item-sheet": {
 			component: ItemSheetVue,
-			template: `<item-sheet :context="context">Vue rendering for sheet failed.</item-sheet>`
+			template: "<item-sheet :context=\"context\">Vue rendering for sheet failed.</item-sheet>"
 		}
-	}
+	};
 
 	constructor(options = {}) {
 		super(options);
@@ -23,7 +23,7 @@ export class GrimwildItemSheetVue extends VueRenderingMixin(GrimwildBaseVueItemS
 		viewPermission: DOCUMENT_OWNERSHIP_LEVELS.LIMITED,
 		editPermission: DOCUMENT_OWNERSHIP_LEVELS.OWNER,
 		position: {
-			width: 478,
+			width: 478
 			// height: 720,
 		},
 		window: {
@@ -34,7 +34,7 @@ export class GrimwildItemSheetVue extends VueRenderingMixin(GrimwildBaseVueItemS
 					icon: "fa-solid fa-image",
 					label: "ITEM.ViewArt",
 					ownership: "OWNER"
-				},
+				}
 			]
 		},
 		tag: "form",
@@ -45,13 +45,13 @@ export class GrimwildItemSheetVue extends VueRenderingMixin(GrimwildBaseVueItemS
 			deleteEffect: this._deleteEffect,
 			toggleEffect: this._toggleEffect,
 			createTracker: this._createTracker,
-			deleteTracker: this._deleteTracker,
+			deleteTracker: this._deleteTracker
 		},
 		// Custom property that's merged into `this.options`
 		dragDrop: [{ dragSelector: "[data-drag]", dropSelector: null }],
 		form: {
 			submitOnChange: true,
-			submitOnClose: true,
+			submitOnClose: true
 		}
 	};
 
@@ -96,7 +96,7 @@ export class GrimwildItemSheetVue extends VueRenderingMixin(GrimwildBaseVueItemS
 			toggled: true,
 			collaborate: true,
 			documentUUID: this.document.uuid,
-			height: 200,
+			height: 200
 		};
 
 		// Handle enriching fields.
@@ -118,16 +118,16 @@ export class GrimwildItemSheetVue extends VueRenderingMixin(GrimwildBaseVueItemS
 
 	/**
 	 * Enrich values for action fields.
-	 * 
-	 * @param {object} context 
-	 * @param {object} enrichmentOptions 
-	 * @param {object} editorOptions 
+	 *
+	 * @param {object} context
+	 * @param {object} enrichmentOptions
+	 * @param {object} editorOptions
 	 */
 	async _enrichFields(context, enrichmentOptions, editorOptions) {
 		// Enrich other fields.
 		const fields = [
-			'description',
-			'notes.description'
+			"description",
+			"notes.description"
 		];
 
 		for (let field of fields) {
@@ -137,35 +137,35 @@ export class GrimwildItemSheetVue extends VueRenderingMixin(GrimwildBaseVueItemS
 				element: foundry.applications.elements.HTMLProseMirrorElement.create({
 					...editorOptions,
 					name: `system.${field}`,
-					value: editorValue ?? '',
-				}),
+					value: editorValue ?? ""
+				})
 			};
 		}
 	}
 
 	/**
 	 * Prepare tabs for Vue.
-	 * 
-	 * @param {object} context 
+	 *
+	 * @param {object} context
 	 */
 	_prepareTabs(context) {
 		// Initialize tabs.
 		context.tabs = {
-			primary: {},
+			primary: {}
 		};
 
 		// Tabs available to all items.
 		context.tabs.primary.description = {
-			key: 'description',
-			label: game.i18n.localize('GRIMWILD.Item.Tabs.Description'),
-			active: false,
+			key: "description",
+			label: game.i18n.localize("GRIMWILD.Item.Tabs.Description"),
+			active: false
 		};
 
 		// Tabs limited to NPCs.
 		context.tabs.primary.attributes = {
-			key: 'attributes',
-			label: game.i18n.localize('GRIMWILD.Item.Tabs.Attributes'),
-			active: true,
+			key: "attributes",
+			label: game.i18n.localize("GRIMWILD.Item.Tabs.Attributes"),
+			active: true
 		};
 
 		// @todo Active Effects disabled for now. Will revisit in the
@@ -173,13 +173,13 @@ export class GrimwildItemSheetVue extends VueRenderingMixin(GrimwildBaseVueItemS
 
 		// // More tabs available to all items.
 		// context.tabs.primary.effects = {
-		// 	key: 'effects',
-		// 	label: game.i18n.localize('GRIMWILD.Item.Tabs.Effects'),
-		// 	active: false,
+		// 	key: "effects",
+		// 	label: game.i18n.localize("GRIMWILD.Item.Tabs.Effects"),
+		// 	active: false
 		// };
 
 		// Ensure we have a default tab.
-		if (this.item.type !== 'talent') {
+		if (this.item.type !== "talent") {
 			context.tabs.primary.details.active = true;
 		}
 	}
@@ -206,14 +206,14 @@ export class GrimwildItemSheetVue extends VueRenderingMixin(GrimwildBaseVueItemS
 		if (!trackers) return;
 
 		trackers.push({
-			type: 'points',
+			type: "points",
 			points: {
 				value: 1,
 				max: 1,
-				showSteps: true,
-			},
+				showSteps: true
+			}
 		});
-		await this.document.update({'system.trackers': trackers});
+		await this.document.update({ "system.trackers": trackers });
 	}
 
 	/**
@@ -233,7 +233,7 @@ export class GrimwildItemSheetVue extends VueRenderingMixin(GrimwildBaseVueItemS
 
 			trackers.splice(Number(key), 1);
 
-			await this.document.update({'system.trackers': trackers});
+			await this.document.update({ "system.trackers": trackers });
 		}
 	}
 }
