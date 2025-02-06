@@ -507,8 +507,6 @@ export class GrimwildActorSheetVue extends VueRenderingMixin(GrimwildBaseVueActo
 		const dataset = target.dataset;
 		let item = null;
 
-		console.log("foobar");
-
 		// Handle item rolls.
 		switch (dataset.rollType) {
 			case "item":
