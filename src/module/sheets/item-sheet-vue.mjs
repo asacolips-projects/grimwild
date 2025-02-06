@@ -168,12 +168,15 @@ export class GrimwildItemSheetVue extends VueRenderingMixin(GrimwildBaseVueItemS
 			active: true,
 		};
 
-		// More tabs available to all items.
-		context.tabs.primary.effects = {
-			key: 'effects',
-			label: game.i18n.localize('GRIMWILD.Item.Tabs.Effects'),
-			active: false,
-		};
+		// @todo Active Effects disabled for now. Will revisit in the
+		// future.
+
+		// // More tabs available to all items.
+		// context.tabs.primary.effects = {
+		// 	key: 'effects',
+		// 	label: game.i18n.localize('GRIMWILD.Item.Tabs.Effects'),
+		// 	active: false,
+		// };
 
 		// Ensure we have a default tab.
 		if (this.item.type !== 'talent') {

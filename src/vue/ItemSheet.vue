@@ -35,11 +35,11 @@
 							<ItemAttributes :context="context" />
 						</Tab>
 		
+						<!-- @todo Active effects disabled for now. -->
 						<!-- Active Effect Fields -->
-						<Tab group="primary" :tab="tabs.primary.effects">
+						<!-- <Tab group="primary" :tab="tabs.primary.effects">
 							Effects
-							<!-- <CharEffects :actor="context.actor" :context="context" :key="context._renderKey"/> -->
-						</Tab>
+						</Tab> -->
 					</section>
 				</div>
 			 </section>

@@ -72,12 +72,12 @@ GRIMWILD:
     Tabs:
       # Current
       Details: Details
-      Notes: Biography / Notes
+      Biography: Biography
+      Notes: Notes
       Talents: Talents
       Challenges: Challenges
       Effects: Effects
       # Obsolete
-      Biography: Biography
       Equipment: Equipment
     base:
       FIELDS:

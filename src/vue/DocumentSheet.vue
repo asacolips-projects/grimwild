@@ -11,27 +11,21 @@
 					<!-- Tab links -->
 					<Tabs :tabs="tabs.primary" no-span="true"/>
 
-					<section class="section--fields">
+					<section class="section--fields flexcol">
 						<!-- Biography / Notes -->
 						<Tab group="primary" :tab="tabs.primary.biography">
-							<div class="grid grid-2col">
-								<fieldset class="grid-span-1">
-									<legend>{{ context.systemFields.biography.label }}</legend>
-									<div class="form-group">
-										<div class="field">
-											<Prosemirror :editable="context.editable" :field="context.editors['system.biography']"/>
-										</div>
-									</div>
-								</fieldset>
-								<fieldset class="grid-span-1 grid-start-2">
-									<legend>{{ context.systemFields.notes.label }}</legend>
-									<div class="form-group">
-										<div class="field">
-											<Prosemirror :editable="context.editable" :field="context.editors['system.notes']"/>
-										</div>
-									</div>
-								</fieldset>
-							</div>
+							<fieldset class="fieldset-prose-mirror">
+								<legend>{{ context.systemFields.biography.label }}</legend>
+								<Prosemirror :editable="context.editable" :field="context.editors['system.biography']"/>
+							</fieldset>
+						</Tab>
+
+						<!-- Notes fields -->
+						<Tab group="primary" :tab="tabs.primary.notes">
+							<fieldset class="fieldset-prose-mirror">
+								<legend>{{ context.systemFields.notes.label }}</legend>
+								<Prosemirror :editable="context.editable" :field="context.editors['system.notes']"/>
+							</fieldset>
 						</Tab>
 
 						<!-- Details fields -->
@@ -44,10 +38,11 @@
 							<CharTalents :actor="context.actor" :context="context"/>
 						</Tab>
 		
+						<!-- @todo Active effects disabled for now. -->
 						<!-- Active Effect Fields -->
-						<Tab group="primary" :tab="tabs.primary.effects">
+						<!-- <Tab group="primary" :tab="tabs.primary.effects">
 							<CharEffects :actor="context.actor" :context="context" :key="context._renderKey"/>
-						</Tab>
+						</Tab> -->
 					</section>
 				</div>
 			 </section>

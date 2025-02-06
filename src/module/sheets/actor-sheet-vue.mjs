@@ -250,6 +250,12 @@ export class GrimwildActorSheetVue extends VueRenderingMixin(GrimwildBaseVueActo
 
 		// Tabs limited to characters.
 		if (this.actor.type === 'character') {
+			context.tabs.primary.notes = {
+				key: 'notes',
+				label: game.i18n.localize('GRIMWILD.Actor.Tabs.Notes'),
+				active: false,
+			};
+
 			context.tabs.primary.details = {
 				key: 'details',
 				label: game.i18n.localize('GRIMWILD.Actor.Tabs.Details'),
@@ -263,12 +269,15 @@ export class GrimwildActorSheetVue extends VueRenderingMixin(GrimwildBaseVueActo
 			};
 		}
 
+		// @todo Active Effects disabled for now. Will revisit in the
+		// future.
+		
 		// More tabs available to all actors.
-		context.tabs.primary.effects = {
-			key: 'effects',
-			label: game.i18n.localize('GRIMWILD.Actor.Tabs.Effects'),
-			active: false,
-		};
+		// context.tabs.primary.effects = {
+		// 	key: 'effects',
+		// 	label: game.i18n.localize('GRIMWILD.Actor.Tabs.Effects'),
+		// 	active: false,
+		// };
 
 		// Ensure we have a default tab.
 		if (this.actor.type !== 'character') {
