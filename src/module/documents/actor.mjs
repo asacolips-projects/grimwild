@@ -41,4 +41,21 @@ export class GrimwildActor extends Actor {
 	getRollData() {
 		return { ...super.getRollData(), ...(this.system.getRollData?.() ?? null) };
 	}
+
+	/**
+	 * Operations on actor creation.
+	 *
+	 * @inheritdoc
+	 */
+	async _preCreate(data, options, user) {
+		if (this.type === "character") {
+			this.updateSource({
+				prototypeToken: {
+					actorLink: true,
+					disposition: 1, // friendly
+					sight: { enabled: true }
+				}
+			});
+		}
+	}
 }

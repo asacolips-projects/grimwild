@@ -47,8 +47,8 @@ Hooks.once("init", function () {
 	 * @type {string}
 	 */
 	CONFIG.Combat.initiative = {
-		formula: "1d20 + @abilities.dex.mod",
-		decimals: 2
+		formula: "d20",
+		decimals: 0
 	};
 
 	// Dice.
@@ -211,19 +211,6 @@ Hooks.once("diceSoNiceReady", (dice3d) => {
 		texture: "none",
 		material: "glass"
 	});
-});
-
-/* -------------------------------------------- */
-/*  preCreateToken                              */
-/* -------------------------------------------- */
-
-// Links actor tokens to their actors
-Hooks.on("preCreateToken", (document, data, options, userId) => {
-	const actor = game.actors.get(data.actorId);
-	if (actor?.type === "character") {
-		data.actorLink = true;
-		document.updateSource({ actorLink: true });
-	}
 });
 
 /* -------------------------------------------- */

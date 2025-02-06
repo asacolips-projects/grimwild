@@ -49,8 +49,8 @@ export class GrimwildActorSheet extends api.HandlebarsApplicationMixin(
 			// Foundry-provided generic template
 			template: "templates/generic/tab-navigation.hbs"
 		},
-		abilities: {
-			template: "systems/grimwild/templates/actor/abilities.hbs"
+		talents: {
+			template: "systems/grimwild/templates/actor/talents.hbs"
 		},
 		biography: {
 			template: "systems/grimwild/templates/actor/biography.hbs"
@@ -76,7 +76,7 @@ export class GrimwildActorSheet extends api.HandlebarsApplicationMixin(
 
 		// Control which parts show based on document subtype
 		if (this.document.type === "character") {
-			options.parts.push("abilities", "equipment");
+			options.parts.push("talents");
 		}
 		if (this.document.type === "npc") {
 			options.parts.push("challenges");
@@ -123,7 +123,7 @@ export class GrimwildActorSheet extends api.HandlebarsApplicationMixin(
 	/** @override */
 	async _preparePartContext(partId, context) {
 		switch (partId) {
-			case "abilities":
+			case "talents":
 			case "challenges":
 			case "equipment":
 				context.tab = context.tabs[partId];
@@ -187,9 +187,9 @@ export class GrimwildActorSheet extends api.HandlebarsApplicationMixin(
 					tab.id = "biography";
 					tab.label += "Biography";
 					break;
-				case "abilities":
-					tab.id = "abilities";
-					tab.label += "Abilities";
+				case "talents":
+					tab.id = "talents";
+					tab.label += "Talents";
 					break;
 				case "equipment":
 					tab.id = "equipment";
@@ -221,7 +221,7 @@ export class GrimwildActorSheet extends api.HandlebarsApplicationMixin(
 		// if you don't need to subdivide a given type like
 		// this sheet does with spells
 		const equipment = [];
-		const abilities = [];
+		const talents = [];
 		const challenges = [];
 
 		// Iterate through items, allocating to containers
@@ -230,7 +230,7 @@ export class GrimwildActorSheet extends api.HandlebarsApplicationMixin(
 			if (i.type === "equipment") {
 				equipment.push(i);
 			}
-			// Append to abilities.
+			// Append to talents.
 			else if (i.type === "talent") {
 				talents.push(i);
 			}
