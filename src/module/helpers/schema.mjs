@@ -9,6 +9,9 @@ export class DicePoolField extends fields.SchemaField {
 				...requiredInteger,
 				initial: 0,
 				min: 0
+			}),
+			max: new fields.NumberField({
+				min: 0
 			})
 		};
 		super(dpFields, options, context);

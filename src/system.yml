@@ -19,9 +19,11 @@ documentTypes:
     character:
       htmlFields:
       - biography
+      - notes
     npc:
       htmlFields:
       - biography
+      - notes
   Item:
     talent:
       htmlFields:

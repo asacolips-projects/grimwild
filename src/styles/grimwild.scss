@@ -17,13 +17,12 @@
 /* Styles limited to grimwild sheets */
 .grimwild {
   @import 'components/forms';
-  // @import 'components/resource';
   @import 'components/items';
   @import 'components/effects';
   @import 'components/stats';
   @import 'components/backgrounds';
   @import 'components/monster';
-  @import 'components/resources';
+  @import 'components/trackers';
   @import 'components/talents';
 }
 

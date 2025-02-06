@@ -35,15 +35,15 @@ export class GrimwildActorSheetVue extends VueRenderingMixin(GrimwildBaseVueActo
 			createEffect: this._createEffect,
 			deleteEffect: this._deleteEffect,
 			toggleEffect: this._toggleEffect,
-			createBond: this._createBond,
-			deleteBond: this._deleteBond,
+			createArrayEntry: this._createArrayEntry,
+			deleteArrayEntry: this._deleteArrayEntry,
 			changeXp: this._changeXp,
-			updateTalentResource: this._updateTalentResource,
-			rollItemPool: this._rollItemPool,
+			updateTalentTracker: this._updateTalentTracker,
+			rollPool: this._rollPool,
 			roll: this._onRoll
 		},
 		changeActions: {
-			updateTalentResource: this._updateTalentResource
+			updateTalentTracker: this._updateTalentTracker
 		},
 		// Custom property that's merged into `this.options`
 		dragDrop: [{ dragSelector: "[data-drag]", dropSelector: null }],
@@ -178,7 +178,8 @@ export class GrimwildActorSheetVue extends VueRenderingMixin(GrimwildBaseVueActo
 	async _enrichFields(context, enrichmentOptions, editorOptions) {
 		// Enrich other fields.
 		const fields = [
-			"biography"
+			"biography",
+			"notes"
 		];
 
 		// Enrich items.
@@ -239,28 +240,43 @@ export class GrimwildActorSheetVue extends VueRenderingMixin(GrimwildBaseVueActo
 			primary: {}
 		};
 
-		// Tabs available to all actors.
-		context.tabs.primary.details = {
-			key: "details",
-			label: game.i18n.localize("GRIMWILD.Actor.Tabs.Details"),
-			active: false
-		};
-
-		// Tabs limited to NPCs.
+		// Tabs limited to characters.
 		if (this.actor.type === "character") {
+			context.tabs.primary.details = {
+				key: "details",
+				label: game.i18n.localize("GRIMWILD.Actor.Tabs.Details"),
+				active: true
+			};
+
 			context.tabs.primary.talents = {
 				key: "talents",
 				label: game.i18n.localize("GRIMWILD.Actor.Tabs.Talents"),
-				active: true
+				active: false
 			};
 		}
 
-		// More tabs available to all actors.
-		context.tabs.primary.effects = {
-			key: "effects",
-			label: game.i18n.localize("GRIMWILD.Actor.Tabs.Effects"),
+		// Tabs available to all actors.
+		context.tabs.primary.biography = {
+			key: "biography",
+			label: game.i18n.localize("GRIMWILD.Actor.Tabs.Biography"),
 			active: false
 		};
+
+		context.tabs.primary.notes = {
+			key: "notes",
+			label: game.i18n.localize("GRIMWILD.Actor.Tabs.Notes"),
+			active: false
+		};
+
+		// @todo Active Effects disabled for now. Will revisit in the
+		// future.
+
+		// More tabs available to all actors.
+		// context.tabs.primary.effects = {
+		// 	key: "effects",
+		// 	label: game.i18n.localize("GRIMWILD.Actor.Tabs.Effects"),
+		// 	active: false,
+		// };
 
 		// Ensure we have a default tab.
 		if (this.actor.type !== "character") {
@@ -284,11 +300,16 @@ export class GrimwildActorSheetVue extends VueRenderingMixin(GrimwildBaseVueActo
 	 * @param {HTMLElement} target   The capturing HTML element which defined a [data-action]
 	 * @private
 	 */
-	static async _createBond(event, target) {
+	static async _createArrayEntry(event, target) {
 		event.preventDefault();
-		const bonds = this.document.system.bonds;
-		bonds.push({ name: "", description: "" });
-		await this.document.update({ "system.bonds": bonds });
+		const { field } = target.dataset;
+		if (!this.document.system?.[field]) return;
+
+		const entries = this.document.system[field];
+		entries.push({ name: "" });
+		await this.document.update({
+			[`system.${field}`]: entries
+		});
 	}
 
 	/**
@@ -299,15 +320,17 @@ export class GrimwildActorSheetVue extends VueRenderingMixin(GrimwildBaseVueActo
 	 * @param {HTMLElement} target   The capturing HTML element which defined a [data-action]
 	 * @private
 	 */
-	static async _deleteBond(event, target) {
+	static async _deleteArrayEntry(event, target) {
 		event.preventDefault();
-		const dataset = target.dataset;
-		if (dataset?.bond) {
-			const bonds = this.document.system.bonds;
-			bonds.splice(dataset.bond, 1);
+		const { field, key } = target.dataset;
+		if (!this.document.system?.[field]) return;
 
-			await this.document.update({ "system.bonds": bonds });
-		}
+		const entries = this.document.system[field];
+		entries.splice(key, 1);
+
+		await this.document.update({
+			[`system.${field}`]: entries
+		});
 	}
 
 	/**
@@ -333,78 +356,103 @@ export class GrimwildActorSheetVue extends VueRenderingMixin(GrimwildBaseVueActo
 	}
 
 	/**
-	 * Handle updating talent resources.
+	 * Handle updating talent trackers.
 	 *
 	 * @param {PointerEvent} event The originating click event
 	 * @param {HTMLElement} target The capturing HTML element which defined a [data-action]
 	 * @private
 	 */
-	static async _updateTalentResource(event, target) {
+	static async _updateTalentTracker(event, target) {
 		event.preventDefault();
 		// Retrieve props.
 		const {
 			itemId,
-			resourceKey,
-			resourceStepKey,
+			trackerKey,
 			value,
-			resourceValue
+			trackerValue
 		} = target.dataset;
 
 		// Only push an update if we need one. Assume we don't.
 		let changes = false;
 
-		// Retrieve the item and resource.
+		// Retrieve the item and tracker.
 		const item = this.document.items.get(itemId);
 		if (!item) return;
-		const resources = item.system.resources;
-		const resource = resources?.[resourceKey];
-		if (!resource) return;
+		const trackers = item.system.trackers;
+		const tracker = trackers?.[trackerKey];
+		if (!tracker) return;
 
-		// Handle point resource updates.
-		if (resource.type === "points") {
-			if (!resourceValue || !value) {
-				resource.points.value = Number(target.value);
+		// Handle point tracker updates.
+		if (tracker.type === "points") {
+			if (!trackerValue || !value) {
+				tracker.points.value = Number(target.value);
 			}
 			else {
-				resource.points.value = (value === resourceValue)
+				tracker.points.value = (value === trackerValue)
 					? Number(value) - 1
 					: Number(value);
 			}
-			if (resource.points.value < 0) resource.points.value = 0;
+			if (tracker.points.value < 0) tracker.points.value = 0;
 			changes = true;
 		}
-		// Handle pool resource updates.
-		else if (resource.type === "pool") {
-			resource.pool.diceNum = Number(target.value);
+		// Handle pool tracker updates.
+		else if (tracker.type === "pool") {
+			tracker.pool.diceNum = Number(target.value);
 			changes = true;
 		}
 
 		// Push the update if one is needed.
 		if (changes) {
-			resources[resourceKey] = resource;
-			await item.update({ "system.resources": resources });
+			trackers[trackerKey] = tracker;
+			await item.update({ "system.trackers": trackers });
 		}
 	}
 
-	static async _rollItemPool(event, target) {
-		console.log(target);
+	/**
+	 * Handle rolling pools on the character sheet.
+	 * @todo abstract this to the actor itself.
+	 *
+	 * @param {PointerEvent} event The originating click event
+	 * @param {HTMLElement} target The capturing HTML element which defined a [data-action]
+	 * @private
+	 */
+	static async _rollPool(event, target) {
 		event.preventDefault();
 		// Retrieve props.
 		const {
 			itemId,
-			resourceKey
+			field,
+			key
 		} = target.dataset;
 
-		// Retrieve the item and resource.
-		const item = this.document.items.get(itemId);
-		if (!item) return;
-		const resources = item.system.resources;
-		const resource = resources?.[resourceKey];
-		if (!resource) return;
+		// Prepare variables.
+		let item = null;
+		let trackers = null;
+		let tracker = null;
+		let pool = null;
+		let rollData = {};
+		let fieldData = null;
+
+		// Handle item pools (talents).
+		if (itemId) {
+			item = this.document.items.get(itemId);
+			if (!item) return;
+			trackers = item.system.trackers;
+			tracker = trackers?.[key];
+			if (!tracker) return;
+			pool = tracker.pool;
+			rollData = item.getRollData();
+		}
+		// Handle condition pools.
+		else {
+			fieldData = this.document.system?.[field] ?? null;
+			if (!fieldData) return;
+			pool = fieldData[key]?.pool;
+		}
 
 		// Handle roll.
-		if (resource.pool.diceNum > 0) {
-			const roll = new grimwild.diePools(`{${resource.pool.diceNum}d6}`, item.getRollData());
+		if (pool.diceNum > 0) {
+			const roll = new grimwild.diePools(`{${pool.diceNum}d6}`, rollData);
 			const result = await roll.evaluate();
 			const dice = result.dice[0].results;
 			const dropped = dice.filter((die) => die.result < 4);
@@ -412,7 +460,9 @@ export class GrimwildActorSheetVue extends VueRenderingMixin(GrimwildBaseVueActo
 			// Initialize chat data.
 			const speaker = ChatMessage.getSpeaker({ actor: this.actor });
 			const rollMode = game.settings.get("core", "rollMode");
-			const label = `[${item.type}] ${item.name}`;
+			const label = item
+				? `[${item.type}] ${item.name}`
+				: `[${field}] ${fieldData[key]?.name ?? ""}`;
 			// Send to chat.
 			const msg = await roll.toMessage({
 				speaker: speaker,
@@ -423,10 +473,22 @@ export class GrimwildActorSheetVue extends VueRenderingMixin(GrimwildBaseVueActo
 			if (game.dice3d && msg?.id) {
 				await game.dice3d.waitFor3DAnimationByMessageID(msg.id);
 			}
-			resource.pool.diceNum -= dropped.length;
+			// Recalculate the pool value.
+			pool.diceNum -= dropped.length;
 			// Update the item.
-			resources[resourceKey] = resource;
-			await item.update({ "system.resources": resources });
+			if (item) {
+				trackers[key].pool = pool;
+				await item.update({ "system.trackers": trackers });
+			}
+			// Otherwise, update the condition.
+			else if (fieldData) {
+				fieldData[key].pool = pool;
+				const update = {};
+				update[`system.${field}`] = fieldData;
+				await this.document.update({
+					[`system.${field}`]: fieldData
+				});
+			}
 		}
 	}
 
@@ -443,8 +505,6 @@ export class GrimwildActorSheetVue extends VueRenderingMixin(GrimwildBaseVueActo
 		event.preventDefault();
 		const dataset = target.dataset;
 		let item = null;
-
-		console.log("foobar");
 
 		// Handle item rolls.
 		switch (dataset.rollType) {

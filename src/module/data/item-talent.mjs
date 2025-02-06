@@ -21,7 +21,7 @@ export default class GrimwildTalent extends GrimwildItemBase {
 		});
 
 		// Resources V2.
-		schema.resources = new fields.ArrayField(new fields.SchemaField({
+		schema.trackers = new fields.ArrayField(new fields.SchemaField({
 			type: new fields.StringField({
 				required: true,
 				blank: false,
@@ -47,5 +47,26 @@ export default class GrimwildTalent extends GrimwildItemBase {
 		}));
 
 		return schema;
+	}
+
+	/**
+	 * Migrate source data from prior format to the new specification.
+	 *
+	 * Note that these changes are not persisted to the database. An
+	 * update operation on that field has to occur for them to actually
+	 * stick. This usually isn't an issue since it's fairly lightweight
+	 * data coercion, but if there's a significant schema change across
+	 * a large number of documents, then there should also be a custom
+	 * migration called during the ready hook to apply the changes long
+	 * term by forcibly resaving the fields on the actors/items.
+	 *
+	 * @inheritDoc
+	 */
+	static migrateData(source) {
+		// Example of when resources were migrated to use trackers.
+		if (source.resources?.length > 0) {
+			source.trackers = [...source.resources];
+		}
+		return super.migrateData(source);
 	}
 }

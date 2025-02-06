@@ -6,6 +6,7 @@ export default class GrimwildActorBase extends foundry.abstract
 		const schema = {};
 
 		schema.biography = new fields.HTMLField({ required: true, blank: true }); // equivalent to passing ({initial: ""}) for StringFields
+		schema.notes = new fields.HTMLField({ required: true, blank: true });
 
 		return schema;
 	}

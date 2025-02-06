@@ -18,3 +18,18 @@
     overflow-y: auto;
   }
 }
+
+// Tab flex.
+.tab-biography,
+.tab-notes {
+  .fieldset-prose-mirror,
+  .fieldset-prose-mirror .prose-mirror-wrapper {
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+  }
+
+  prose-mirror {
+    flex: 1;
+  }
+}

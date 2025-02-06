@@ -72,16 +72,19 @@ GRIMWILD:
     Tabs:
       # Current
       Details: Details
+      Biography: Biography
+      Notes: Notes
       Talents: Talents
       Challenges: Challenges
       Effects: Effects
       # Obsolete
-      Biography: Biography
       Equipment: Equipment
     base:
       FIELDS:
         biography:
           label: Biography
+        notes:
+          label: Notes
     Character:
       FIELDS:
         class:
@@ -110,6 +113,7 @@ GRIMWILD:
         bonds:
           label: Bonds
         conditions:
+          label: Conditions
           FIELDS:
             severity:
               FIELDS:
@@ -155,8 +159,8 @@ GRIMWILD:
       FIELDS:
         notes:
           label: Notes
-        resources:
-          label: Resources
+        trackers:
+          label: Trackers
     Challenge:
       FIELDS:
         rollFormula:

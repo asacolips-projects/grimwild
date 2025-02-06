@@ -44,8 +44,8 @@ export class GrimwildItemSheetVue extends VueRenderingMixin(GrimwildBaseVueItemS
 			createEffect: this._createEffect,
 			deleteEffect: this._deleteEffect,
 			toggleEffect: this._toggleEffect,
-			createResource: this._createResource,
-			deleteResource: this._deleteResource
+			createTracker: this._createTracker,
+			deleteTracker: this._deleteTracker
 		},
 		// Custom property that's merged into `this.options`
 		dragDrop: [{ dragSelector: "[data-drag]", dropSelector: null }],
@@ -168,12 +168,15 @@ export class GrimwildItemSheetVue extends VueRenderingMixin(GrimwildBaseVueItemS
 			active: true
 		};
 
-		// More tabs available to all items.
-		context.tabs.primary.effects = {
-			key: "effects",
-			label: game.i18n.localize("GRIMWILD.Item.Tabs.Effects"),
-			active: false
-		};
+		// @todo Active Effects disabled for now. Will revisit in the
+		// future.
+
+		// // More tabs available to all items.
+		// context.tabs.primary.effects = {
+		// 	key: "effects",
+		// 	label: game.i18n.localize("GRIMWILD.Item.Tabs.Effects"),
+		// 	active: false
+		// };
 
 		// Ensure we have a default tab.
 		if (this.item.type !== "talent") {
@@ -190,19 +193,19 @@ export class GrimwildItemSheetVue extends VueRenderingMixin(GrimwildBaseVueItemS
 	 **************/
 
 	/**
-	 * Handle creating a new resource entry.
+	 * Handle creating a new tracker entry.
 	 *
 	 * @this GrimwildActorSheet
 	 * @param {PointerEvent} event   The originating click event
 	 * @param {HTMLElement} target   The capturing HTML element which defined a [data-action]
 	 * @private
 	 */
-	static async _createResource(event, target) {
+	static async _createTracker(event, target) {
 		event.preventDefault();
-		const resources = this.document.system.resources;
-		if (!resources) return;
+		const trackers = this.document.system.trackers;
+		if (!trackers) return;
 
-		resources.push({
+		trackers.push({
 			type: "points",
 			points: {
 				value: 1,
@@ -210,27 +213,27 @@ export class GrimwildItemSheetVue extends VueRenderingMixin(GrimwildBaseVueItemS
 				showSteps: true
 			}
 		});
-		await this.document.update({ "system.resources": resources });
+		await this.document.update({ "system.trackers": trackers });
 	}
 
 	/**
-	 * Handle deleting an existing resource entry.
+	 * Handle deleting an existing tracker entry.
 	 *
 	 * @this GrimwildActorSheet
 	 * @param {PointerEvent} event   The originating click event
 	 * @param {HTMLElement} target   The capturing HTML element which defined a [data-action]
 	 * @private
 	 */
-	static async _deleteResource(event, target) {
+	static async _deleteTracker(event, target) {
 		event.preventDefault();
 		const { key } = target.dataset;
 		if (key) {
-			const resources = this.document.system.resources;
-			if (!resources) return;
+			const trackers = this.document.system.trackers;
+			if (!trackers) return;
 
-			resources.splice(Number(key), 1);
+			trackers.splice(Number(key), 1);
 
-			await this.document.update({ "system.resources": resources });
+			await this.document.update({ "system.trackers": trackers });
 		}
 	}
 }
