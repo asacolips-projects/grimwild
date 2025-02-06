@@ -2,7 +2,18 @@
     <h3>{{localize "GRIMWILD.Dice.dice"}}</h3>
     <div class="grimwild-form-group">
         <label for="stat">{{localize (concat "GRIMWILD.Stat." stat ".long")}}</label>
-        <input type="number" class="rollDice rollDiceInput" id="stat" name="stat" value="{{diceDefault}}" min="0">
+        <input type="number" class="rollDice rollDiceInput" id="stat" name="stat" data-prev="{{diceDefault}}" data-action-input="updateDice" value="{{diceDefault}}" min="0">
+    </div>
+    <div class="grimwild-form-group">
+        <label for="spark">{{localize "GRIMWILD.Actor.Character.FIELDS.spark.label"}}</label>
+        {{#if hasSpark}}
+            {{#each sparkArray}}
+                <input type="checkbox" class="spark sparkCheck" id="spark-{{this}}" name="spark[{{this}}]" data-action-change="updateDice" value="1">
+            {{/each}}
+        {{else}}
+            <p>None</p>
+        {{/if}}
+        {{!-- <input type="number" class="rollDice rollDiceInput" id="spark" name="spark" data-prev="0" data-action-input="updateDice" value="0" min="0" max="{{spark}}"> --}}
     </div>
     <div id="assistContainer">
                 <!-- Rows will be added here dynamically -->
@@ -18,29 +29,29 @@
     <div class="grimwild-checkbox-group">
         <div class="grimwild-form-group">
             <label for="marked">{{localize "GRIMWILD.Damage.marked"}}{{#if markIgnored}} ({{localize "GRIMWILD.Damage.ignored"}}){{/if}}</label>
-            <input type="checkbox" class="thorn thornCheck" id="marked" name="thorns[marked]" value="1" {{#if isMarked}}checked{{/if}}>
+            <input type="checkbox" class="thorn thornCheck" id="marked" name="thorns[marked]" data-action-change="updateThorns" value="1" {{#if isMarked}}checked{{/if}}>
         </div>
         <div class="grimwild-form-group">
             <label for="bloodied">{{localize "GRIMWILD.Damage.bloodied"}}</label>
-            <input type="checkbox" class="thorn thornCheck" id="bloodied" name="thorns[bloodied]" value="1" {{#if isBloodied}}checked{{/if}}>
+            <input type="checkbox" class="thorn thornCheck" id="bloodied" name="thorns[bloodied]" data-action-change="updateThorns" value="1" {{#if isBloodied}}checked{{/if}}>
         </div>
         <div class="grimwild-form-group">
             <label for="rattled">{{localize "GRIMWILD.Damage.rattled"}}</label>
-            <input type="checkbox" class="thorn thornCheck" id="rattled" name="thorns[rattled]" value="1" {{#if isRattled}}checked{{/if}}>
+            <input type="checkbox" class="thorn thornCheck" id="rattled" name="thorns[rattled]" data-action-change="updateThorns" value="1" {{#if isRattled}}checked{{/if}}>
         </div>
         <div class="grimwild-form-group">
             <label for="vex">{{localize "GRIMWILD.Damage.vex"}}</label>
-            <input type="checkbox" class="thorn thornCheck" id="vex" name="thorns[vex]" value="1">
+            <input type="checkbox" class="thorn thornCheck" id="vex" name="thorns[vex]" data-action-change="updateThorns" value="1">
         </div>
     </div>
 
     <div class="grimwild-form-group">
         <label for="conditions">{{localize "GRIMWILD.Damage.conditions"}}</label>
-        <input type="number" class="thorn thornInput" id="conditions" name="conditions" value="0" min="0">
+        <input type="number" class="thorn thornInput" id="conditions" name="conditions" data-prev="0" data-action-input="updateThorns" value="0" min="0">
     </div>
     <div class="grimwild-form-group">
         <label for="difficulty">{{localize "GRIMWILD.Dice.difficulty"}}</label>
-        <input type="number" class="thorn thornInput" id="difficulty" name="difficulty" value="0" min="0">
+        <input type="number" class="thorn thornInput" id="difficulty" name="difficulty" data-prev="0" data-action-input="updateThorns" value="0" min="0">
     </div>
 
     <div class="grimwild-form-group">
