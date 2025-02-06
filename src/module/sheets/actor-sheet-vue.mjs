@@ -38,12 +38,12 @@ export class GrimwildActorSheetVue extends VueRenderingMixin(GrimwildBaseVueActo
 			createArrayEntry: this._createArrayEntry,
 			deleteArrayEntry: this._deleteArrayEntry,
 			changeXp: this._changeXp,
-			updateTalentResource: this._updateTalentResource,
+			updateTalentTracker: this._updateTalentTracker,
 			rollPool: this._rollPool,
 			roll: this._onRoll
 		},
 		changeActions: {
-			updateTalentResource: this._updateTalentResource,
+			updateTalentTracker: this._updateTalentTracker,
 		},
 		// Custom property that's merged into `this.options`
 		dragDrop: [{ dragSelector: "[data-drag]", dropSelector: null }],
@@ -271,7 +271,7 @@ export class GrimwildActorSheetVue extends VueRenderingMixin(GrimwildBaseVueActo
 
 		// @todo Active Effects disabled for now. Will revisit in the
 		// future.
-		
+
 		// More tabs available to all actors.
 		// context.tabs.primary.effects = {
 		// 	key: 'effects',
@@ -357,56 +357,55 @@ export class GrimwildActorSheetVue extends VueRenderingMixin(GrimwildBaseVueActo
 	}
 
 	/**
-	 * Handle updating talent resources.
+	 * Handle updating talent trackers.
 	 * 
 	 * @param {PointerEvent} event The originating click event
 	 * @param {HTMLElement} target The capturing HTML element which defined a [data-action]
 	 * @private
 	 */
-	static async _updateTalentResource(event, target) {
+	static async _updateTalentTracker(event, target) {
 		event.preventDefault();
 		// Retrieve props.
 		const {
 			itemId,
-			resourceKey,
-			resourceStepKey,
+			trackerKey,
 			value,
-			resourceValue
+			trackerValue
 		} = target.dataset;
 
 		// Only push an update if we need one. Assume we don't.
 		let changes = false;
 
-		// Retrieve the item and resource.
+		// Retrieve the item and tracker.
 		const item = this.document.items.get(itemId);
 		if (!item) return;
-		const resources = item.system.resources;
-		const resource = resources?.[resourceKey];
-		if (!resource) return;
+		const trackers = item.system.trackers;
+		const tracker = trackers?.[trackerKey];
+		if (!tracker) return;
 
-		// Handle point resource updates.
-		if (resource.type === 'points') {
-			if (!resourceValue || !value) {
-				resource.points.value = Number(target.value);
+		// Handle point tracker updates.
+		if (tracker.type === 'points') {
+			if (!trackerValue || !value) {
+				tracker.points.value = Number(target.value);
 			}
 			else {
-				resource.points.value = (value === resourceValue)
+				tracker.points.value = (value === trackerValue)
 					? Number(value) - 1
 					: Number(value);
 			}
-			if (resource.points.value < 0) resource.points.value = 0;
+			if (tracker.points.value < 0) tracker.points.value = 0;
 			changes = true;
 		}
-		// Handle pool resource updates.
-		else if (resource.type === 'pool') {
-			resource.pool.diceNum = Number(target.value);
+		// Handle pool tracker updates.
+		else if (tracker.type === 'pool') {
+			tracker.pool.diceNum = Number(target.value);
 			changes = true;
 		}
 
 		// Push the update if one is needed.
 		if (changes) {
-			resources[resourceKey] = resource;
-			await item.update({'system.resources': resources});
+			trackers[trackerKey] = tracker;
+			await item.update({'system.trackers': trackers});
 		}
 	}
 
@@ -429,8 +428,8 @@ export class GrimwildActorSheetVue extends VueRenderingMixin(GrimwildBaseVueActo
 
 		// Prepare variables.
 		let item = null;
-		let resources = null;
-		let resource = null;
+		let trackers = null;
+		let tracker = null;
 		let pool = null;
 		let rollData = {};
 		let fieldData = null;
@@ -439,10 +438,10 @@ export class GrimwildActorSheetVue extends VueRenderingMixin(GrimwildBaseVueActo
 		if (itemId) {
 			item = this.document.items.get(itemId);
 			if (!item) return;
-			resources = item.system.resources;
-			resource = resources?.[key];
-			if (!resource) return;
-			pool = resource.pool;
+			trackers = item.system.trackers;
+			tracker = trackers?.[key];
+			if (!tracker) return;
+			pool = tracker.pool;
 			rollData = item.getRollData();
 		}
 		// Handle condition pools.
@@ -479,8 +478,8 @@ export class GrimwildActorSheetVue extends VueRenderingMixin(GrimwildBaseVueActo
 			pool.diceNum -= dropped.length;
 			// Update the item.
 			if (item) {
-				resources[key].pool = pool;
-				await item.update({'system.resources': resources});
+				trackers[key].pool = pool;
+				await item.update({'system.trackers': trackers});
 			}
 			// Otherwise, update the condition.
 			else if (fieldData) {

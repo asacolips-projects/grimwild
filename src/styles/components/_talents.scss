@@ -12,7 +12,7 @@
     width: 100%;
   }
 
-  .item-resources {
+  .item-trackers {
     flex: 0 0 auto;
   }
 
@@ -22,7 +22,7 @@
     border-radius: 4px;
   }
 
-  .resource {
+  .tracker {
     background: #ffffff11;
     padding: 2px 4px;
     border-radius: 4px;
@@ -34,8 +34,8 @@
     }
   }
 
-  .resource-value-numeric,
-  .resource-value-pool {
+  .tracker-value-numeric,
+  .tracker-value-pool {
     white-space: nowrap;
 
     input {
@@ -49,7 +49,7 @@
     }
   }
 
-  .resource-roll {
+  .tracker-roll {
     padding: 4px 10px;
     height: auto;
     display: flex;
@@ -67,7 +67,7 @@
     }
   }
 
-  .resource-value-pool {
+  .tracker-value-pool {
     display: flex;
     align-items: center;
     flex-direction: row;
@@ -77,7 +77,7 @@
     padding: 0 0 0 3px;
   }
 
-  .resource-steps {
+  .tracker-steps {
     flex-wrap: nowrap;
     justify-content: flex-start;
     align-items: flex-start;

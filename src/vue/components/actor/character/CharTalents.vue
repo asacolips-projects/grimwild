@@ -40,59 +40,59 @@
 						</div>
 						<div data-action="toggleItem" :data-item-id="item._id">{{ item.name }}</div>
 					</div>
-					<!-- Resources -->
-					<div class="item-resources flexrow">
-						<!-- Resource -->
-						<template v-for="(resource, resourceKey) in item.system.resources" :key="resourceKey">
-							<div class="resource flexrow">
-								<!-- Resource label -->
-								<button v-if="resource.type === 'pool'"
-									class="resource-roll"
+					<!-- Trackers -->
+					<div class="item-trackers flexrow">
+						<!-- Tracker -->
+						<template v-for="(tracker, trackerKey) in item.system.trackers" :key="trackerKey">
+							<div class="tracker flexrow">
+								<!-- Tracker label -->
+								<button v-if="tracker.type === 'pool'"
+									class="tracker-roll"
 									data-action="rollPool"
 									:data-item-id="item.id"
-									:data-key="resourceKey"
-								><i class="fas fa-dice-d6"></i><strong v-if="resource.label">{{ resource.label }}</strong></button>
+									:data-key="trackerKey"
+								><i class="fas fa-dice-d6"></i><strong v-if="tracker.label">{{ tracker.label }}</strong></button>
 								<template v-else>
-									<strong v-if="resource.label">{{ resource.label }}</strong>
+									<strong v-if="tracker.label">{{ tracker.label }}</strong>
 								</template>
-								<!-- Resource value. -->
-								<div class="resource-value">
+								<!-- Tracker value. -->
+								<div class="tracker-value">
 									<!-- Pools -->
-									<div v-if="resource.type === 'pool'" class="resource-value-pool">
+									<div v-if="tracker.type === 'pool'" class="tracker-value-pool">
 										<input type="number"
-											data-action-change="updateTalentResource"
+											data-action-change="updateTalentTracker"
 											:data-item-id="item.id"
-											:data-resource-key="resourceKey"
-											:value="resource.pool.diceNum"
+											:data-tracker-key="trackerKey"
+											:value="tracker.pool.diceNum"
 											min="0"
 										/><span class="pool-suffix">d</span>
 									</div>
 									<!-- Points -->
-									<template v-if="resource.type === 'points'">
+									<template v-if="tracker.type === 'points'">
 										<!-- Checkbox points -->
-										<div v-if="resource.points.showSteps" class="resource-steps flexrow">
-											<template v-for="(num, i) in resource.points.max" :key="i">
+										<div v-if="tracker.points.showSteps" class="tracker-steps flexrow">
+											<template v-for="(num, i) in tracker.points.max" :key="i">
 												<input type="checkbox"
-													data-action="updateTalentResource"
+													data-action="updateTalentTracker"
 													:data-item-id="item.id"
-													:data-resource-key="resourceKey"
-													:data-resource-step-key="i"
+													:data-tracker-key="trackerKey"
+													:data-tracker-step-key="i"
 													:data-value="num"
-													:data-resource-value="resource.points.value"
-													:checked="resource.points.value >= num"
+													:data-tracker-value="tracker.points.value"
+													:checked="tracker.points.value >= num"
 												/>
 											</template>
 										</div>
 										<!-- Numeric points -->
-										<div v-else class="resource-value-numeric">
+										<div v-else class="tracker-value-numeric">
 											<input type="number"
-												data-action-change="updateTalentResource"
+												data-action-change="updateTalentTracker"
 												:data-item-id="item.id"
-												:data-resource-key="resourceKey"
-												:value="resource.points.value"
+												:data-tracker-key="trackerKey"
+												:value="tracker.points.value"
 												min="0"
-												:max="resource.points.max"
-											/> / {{ resource.points.max }}
+												:max="tracker.points.max"
+											/> / {{ tracker.points.max }}
 										</div>
 									</template>
 								</div>

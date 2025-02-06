@@ -159,8 +159,8 @@ GRIMWILD:
       FIELDS:
         notes:
           label: Notes
-        resources:
-          label: Resources
+        trackers:
+          label: Trackers
     Challenge:
       FIELDS:
         rollFormula:
