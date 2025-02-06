@@ -65,6 +65,7 @@
 											:data-tracker-key="trackerKey"
 											:value="tracker.pool.diceNum"
 											min="0"
+											:max="tracker.pool.max > 0 ? tracker.pool.max : null"
 										/><span class="pool-suffix">d</span>
 									</div>
 									<!-- Points -->

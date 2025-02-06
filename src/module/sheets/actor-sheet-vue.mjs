@@ -241,21 +241,8 @@ export class GrimwildActorSheetVue extends VueRenderingMixin(GrimwildBaseVueActo
 			primary: {},
 		};
 
-		// Tabs available to all actors.
-		context.tabs.primary.biography = {
-			key: 'biography',
-			label: game.i18n.localize('GRIMWILD.Actor.Tabs.Biography'),
-			active: false,
-		};
-
 		// Tabs limited to characters.
 		if (this.actor.type === 'character') {
-			context.tabs.primary.notes = {
-				key: 'notes',
-				label: game.i18n.localize('GRIMWILD.Actor.Tabs.Notes'),
-				active: false,
-			};
-
 			context.tabs.primary.details = {
 				key: 'details',
 				label: game.i18n.localize('GRIMWILD.Actor.Tabs.Details'),
@@ -268,6 +255,19 @@ export class GrimwildActorSheetVue extends VueRenderingMixin(GrimwildBaseVueActo
 				active: false,
 			};
 		}
+
+		// Tabs available to all actors.
+		context.tabs.primary.biography = {
+			key: 'biography',
+			label: game.i18n.localize('GRIMWILD.Actor.Tabs.Biography'),
+			active: false,
+		};
+
+		context.tabs.primary.notes = {
+			key: 'notes',
+			label: game.i18n.localize('GRIMWILD.Actor.Tabs.Notes'),
+			active: false,
+		};
 
 		// @todo Active Effects disabled for now. Will revisit in the
 		// future.

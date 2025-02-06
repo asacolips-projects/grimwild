@@ -24,7 +24,12 @@
 						<!-- Pool -->
 						<div v-if="tracker.type === 'pool'" class="tracker-value form-group stacked">
 							<label>Value</label>
-							<input type="number" :name="`system.trackers.${trackerKey}.pool.diceNum`" v-model="tracker.pool.diceNum"/>
+							<input type="number"
+								:name="`system.trackers.${trackerKey}.pool.diceNum`"
+								v-model="tracker.pool.diceNum"
+								min="0"
+								:max="tracker.pool.max > 0 ? tracker.pool.max : null"
+							/>
 						</div>
 						<!-- Value -->
 						<div v-if="tracker.type === 'points'" class="tracker-value form-group stacked">
@@ -36,12 +41,12 @@
 								v-model="tracker.points.value"/>
 						</div>
 						<!-- Max -->
-						<div v-if="tracker.type === 'points'" class="tracker-value tracker-max form-group stacked">
+						<div class="tracker-value tracker-max form-group stacked">
 							<label>Max</label>
 							<input type="number"
-								:name="`system.trackers.${trackerKey}.points.max`"
+								:name="`system.trackers.${trackerKey}.${tracker.type}.max`"
 								min="1"
-								v-model="tracker.points.max"/>
+								v-model="tracker[tracker.type].max"/>
 						</div>
 						<!-- Steps -->
 						<div v-if="tracker.type === 'points'" class="tracker-steps form-group stacked">
