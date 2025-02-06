@@ -37,8 +37,8 @@ GRIMWILD.traits = {
 	protective: "GRIMWILD.Traits.protective",
 	quiet: "GRIMWILD.Traits.quiet",
 	rash: "GRIMWILD.Traits.rash",
-	stubborn: "GRIMWILD.Traits.stubborn",
-}
+	stubborn: "GRIMWILD.Traits.stubborn"
+};
 
 GRIMWILD.desires = {
 	belonging: "GRIMWILD.Desires.belonging",
@@ -52,8 +52,8 @@ GRIMWILD.desires = {
 	renown: "GRIMWILD.Desires.renown",
 	thrills: "GRIMWILD.Desires.thrills",
 	wealth: "GRIMWILD.Desires.wealth",
-	wisdom: "GRIMWILD.Desires.wisdom",
-}
+	wisdom: "GRIMWILD.Desires.wisdom"
+};
 
 export const isPhysicalStat = (stat) => {
 	return stat === "bra" || stat === "agi";

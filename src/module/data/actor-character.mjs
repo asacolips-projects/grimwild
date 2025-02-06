@@ -1,11 +1,12 @@
 import GrimwildActorBase from "./base-actor.mjs";
 import { DicePoolField } from "../helpers/schema.mjs";
 import { isMentalStat, isPhysicalStat } from "../helpers/config.mjs";
+import { GrimwildRollDialog } from "../apps/roll-dialog.mjs";
 
 export default class GrimwildCharacter extends GrimwildActorBase {
 	static LOCALIZATION_PREFIXES = [
 		"GRIMWILD.Actor.base",
-		"GRIMWILD.Actor.Character",
+		"GRIMWILD.Actor.Character"
 	];
 
 	static defineSchema() {
@@ -20,7 +21,7 @@ export default class GrimwildCharacter extends GrimwildActorBase {
 				integer: true,
 				initial: 0,
 				min: 0
-			}),
+			})
 		});
 
 		schema.attributes = new fields.SchemaField({
@@ -46,11 +47,11 @@ export default class GrimwildCharacter extends GrimwildActorBase {
 		}));
 
 		schema.spark = new fields.SchemaField({
-			steps: new fields.ArrayField(new fields.BooleanField),
+			steps: new fields.ArrayField(new fields.BooleanField())
 		});
 
 		schema.story = new fields.SchemaField({
-			steps: new fields.ArrayField(new fields.BooleanField),
+			steps: new fields.ArrayField(new fields.BooleanField())
 		});
 
 		// Iterate over stat names and create a new SchemaField for each.
@@ -156,7 +157,7 @@ export default class GrimwildCharacter extends GrimwildActorBase {
 			if (!this.traits[i]) {
 				this.traits[i] = {
 					are: i < 2,
-					value: '',
+					value: ""
 				};
 			}
 		}
@@ -166,7 +167,7 @@ export default class GrimwildCharacter extends GrimwildActorBase {
 			if (!this.desires[i]) {
 				this.desires[i] = {
 					are: i < 2,
-					value: '',
+					value: ""
 				};
 			}
 		}
@@ -175,14 +176,14 @@ export default class GrimwildCharacter extends GrimwildActorBase {
 		for (let i = 0; i < 2; i++) {
 			if (!this.backgrounds[i]) {
 				this.backgrounds[i] = {
-					name: '',
-					wises: ['', '', ''],
-				}
+					name: "",
+					wises: ["", "", ""]
+				};
 			}
 			else {
 				for (let j = 0; j < 3; j++) {
 					if (!this.backgrounds[i].wises[j]) {
-						this.backgrounds[i].wises.push('');
+						this.backgrounds[i].wises.push("");
 					}
 				}
 			}
@@ -222,107 +223,28 @@ export default class GrimwildCharacter extends GrimwildActorBase {
 		// Handle getters.
 		data.isBloodied = this.isBloodied;
 		data.isRattled = this.isRattled;
+		data.spark = this.spark.value;
+		data.id = this.parent.id;
 
 		return data;
 	}
 
 	async roll(options) {
 		const rollData = this.getRollData();
-		const markIgnored = (rollData?.isBloodied && isPhysicalStat(options.stat)) || (rollData?.isRattled && isMentalStat(options.stat));
+		const markIgnored = (rollData?.isBloodied && isPhysicalStat(options.stat))
+			|| (rollData?.isRattled	&& isMentalStat(options.stat));
+			console.log(canvas.tokens.controlled[0]);
 
 		if (options?.stat && rollData?.stats?.[options.stat]) {
-			const content = await renderTemplate("systems/grimwild/templates/dialog/stat-roll.hbs", {
-				stat: options.stat,
-				diceDefault: rollData?.stats?.[options.stat].value,
-				isBloodied: rollData?.isBloodied,
-				isRattled: rollData?.isRattled,
-				isMarked: rollData?.stats?.[options.stat].marked && !markIgnored,
-				markIgnored: markIgnored
-			});
-			const rollDialog = await foundry.applications.api.DialogV2.wait({
-				window: { title: "Grimwild Roll" },
-				content,
-				modal: true,
-				buttons: [
-					{
-						label: game.i18n.localize("GRIMWILD.Dialog.Roll"),
-						action: "roll",
-						callback: (event, button, dialog) => {
-							const assists = dialog.querySelectorAll('.assist-value');
-							const assisters = {};
-							Array.from(assists).forEach(assist => {
-								const nameInput = assist.closest('.grimwild-form-group').querySelector('.assist-name');
-								assisters[nameInput.value] = parseInt(assist.value || 0, 10);
-							});
-							return { 
-								dice: button.form.elements.totalDiceInput.value, 
-								thorns: button.form.elements.totalThornsInput.value,
-								assisters
-							 };
-						}
-					}
-				],
-				render: (event, html) => {
-					const checkboxes = html.querySelectorAll('input[type="checkbox"]');
-					const statInput = html.querySelector("#stat");
-					const difficultyInput = html.querySelector("#difficulty");
-					const conditionsInput = html.querySelector("#conditions");
-					const totalThornsDisplay = html.querySelector("#totalThorns");
-					const totalThornsValue = html.querySelector("#totalThornsInput");
-					const totalDiceDisplay = html.querySelector("#totalDice");
-					const totalDiceValue = html.querySelector("#totalDiceInput");
-					
-					const addRow = html.querySelector("#addAssist");
-					const container = html.querySelector("#assistContainer");
-
-					const addAssist = () => {
-						const row = document.createElement('div');
-						row.classList.add('grimwild-form-group');
-						
-						const textInput = document.createElement('input');
-						textInput.classList.add('assist-name');
-						textInput.type = 'text';
-						textInput.name = 'textInput[]';
-						textInput.placeholder = 'Name';
-
-						const numberInput = document.createElement('input');
-						numberInput.classList.add('assist-value');
-						numberInput.type = 'number';
-						numberInput.name = 'numberInput[]';
-						numberInput.value = 0;
-
-						row.appendChild(textInput);
-						row.appendChild(numberInput);
-						container.appendChild(row);
-						numberInput.addEventListener("input", updateDiceTotal);
-					};
-
-					const updateThornsTotal = () => {
-						let total = Array.from(checkboxes).reduce((sum, checkbox) => sum + (checkbox.checked ? 1 : 0), 0);
-						total += parseInt(difficultyInput.value || 0, 10);
-						total += parseInt(conditionsInput.value || 0, 10);
-						totalThornsDisplay.textContent = total;
-						totalThornsValue.value = total;
-					};
-
-					const updateDiceTotal = () => {
-						const assists = html.querySelectorAll('.assist-value');
-						let total = Array.from(assists).reduce((sum, assist) => sum + parseInt(assist.value || 0, 10), 0);
-						total += parseInt(statInput.value || 0, 10);
-						totalDiceDisplay.textContent = total;
-						totalDiceValue.value = total;
-					};
-
-					// Attach event listeners for dynamic updates
-					checkboxes.forEach((checkbox) => checkbox.addEventListener("change", updateThornsTotal));
-					difficultyInput.addEventListener("input", updateThornsTotal);
-					conditionsInput.addEventListener("input", updateThornsTotal);
-					statInput.addEventListener("input", updateDiceTotal);
-					addRow.addEventListener("click", addAssist);
-
-					// Initialize the total
-					updateThornsTotal();
-					updateDiceTotal();
+			const rollDialog = await GrimwildRollDialog.open({
+				rollData: {
+					spark: rollData?.spark,
+					stat: options.stat,
+					diceDefault: rollData?.stats?.[options.stat].value,
+					isBloodied: rollData?.isBloodied,
+					isRattled: rollData?.isRattled,
+					isMarked: rollData?.stats?.[options.stat].marked && !markIgnored,
+					markIgnored: markIgnored
 				}
 			});
 
@@ -331,12 +253,27 @@ export default class GrimwildCharacter extends GrimwildActorBase {
 			options.assists = rollDialog.assisters;
 			const formula = "{(@statDice)d6kh, (@thorns)d8}";
 			const roll = new grimwild.roll(formula, rollData, options);
+			if (rollDialog.sparkUsed > 0) {
+				let sparkUsed = rollDialog.sparkUsed;
+				const newSpark = this.spark;
+				for (const step in newSpark.steps) {
+					if (newSpark.steps[step] && sparkUsed > 0) {
+						newSpark.steps[step] = false;
+						sparkUsed--;
+					}
+				}
+				const actor = game.actors.get(this.parent.id);
+				
+				await actor.update({ "system.spark": newSpark });
+				actor.sheet.render(true);
+			}
 
 			await roll.toMessage({
 				actor: this,
 				speaker: ChatMessage.getSpeaker({ actor: this }),
 				rollMode: game.settings.get("core", "rollMode")
 			});
+
 		}
 	}
 }

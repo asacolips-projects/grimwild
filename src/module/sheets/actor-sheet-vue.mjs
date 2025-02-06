@@ -1,16 +1,16 @@
 import VueRenderingMixin from "./_vue/_vue-application-mixin.mjs";
 import { GrimwildBaseVueActorSheet } from "./_vue/_base-vue-actor-sheet.mjs";
-import { DocumentSheetVue } from '../../vue/components.vue.es.mjs';
+import { DocumentSheetVue } from "../../vue/components.vue.es.mjs";
 
 const { DOCUMENT_OWNERSHIP_LEVELS } = CONST;
 
 export class GrimwildActorSheetVue extends VueRenderingMixin(GrimwildBaseVueActorSheet) {
 	vueParts = {
-		'document-sheet': {
+		"document-sheet": {
 			component: DocumentSheetVue,
-			template: `<document-sheet :context="context">Vue rendering for sheet failed.</document-sheet>`
+			template: "<document-sheet :context=\"context\">Vue rendering for sheet failed.</document-sheet>"
 		}
-	}
+	};
 
 	/** @override */
 	static DEFAULT_OPTIONS = {
@@ -20,10 +20,10 @@ export class GrimwildActorSheetVue extends VueRenderingMixin(GrimwildBaseVueActo
 		editPermission: DOCUMENT_OWNERSHIP_LEVELS.OWNER,
 		position: {
 			width: 800,
-			height: 720,
+			height: 720
 		},
 		window: {
-			resizable: true,
+			resizable: true
 		},
 		tag: "form",
 		actions: {
@@ -43,13 +43,13 @@ export class GrimwildActorSheetVue extends VueRenderingMixin(GrimwildBaseVueActo
 			roll: this._onRoll
 		},
 		changeActions: {
-			updateTalentResource: this._updateTalentResource,
+			updateTalentResource: this._updateTalentResource
 		},
 		// Custom property that's merged into `this.options`
 		dragDrop: [{ dragSelector: "[data-drag]", dropSelector: null }],
 		form: {
 			submitOnChange: true,
-			submitOnClose: true,
+			submitOnClose: true
 		}
 	};
 
@@ -73,16 +73,15 @@ export class GrimwildActorSheetVue extends VueRenderingMixin(GrimwildBaseVueActo
 		super._attachFrameListeners();
 		// Attach event listeners in here to prevent duplicate calls.
 		const change = this.#onChange.bind(this);
-		this.element.addEventListener('change', change);
+		this.element.addEventListener("change", change);
 	}
-
 
 	/**
 	 * Change event actions in this.options.changeActions.
 	 *
 	 * Functionally similar to this.options.actions and fires callbacks
 	 * specified in data-action-change on the element(s).
-	 * 
+	 *
 	 * @param {ChangeEvent} event Change event that triggered the call.
 	 */
 	async #onChange(event) {
@@ -144,7 +143,7 @@ export class GrimwildActorSheetVue extends VueRenderingMixin(GrimwildBaseVueActo
 			toggled: true,
 			collaborate: true,
 			documentUUID: this.document.uuid,
-			height: 300,
+			height: 300
 		};
 
 		// Handle enriching fields.
@@ -164,30 +163,30 @@ export class GrimwildActorSheetVue extends VueRenderingMixin(GrimwildBaseVueActo
 		}
 
 		// Debug. @todo remove.
-		console.log('context', context);
+		console.log("context", context);
 
 		return context;
 	}
 
 	/**
 	 * Enrich values for action fields.
-	 * 
-	 * @param {object} context 
-	 * @param {object} enrichmentOptions 
-	 * @param {object} editorOptions 
+	 *
+	 * @param {object} context
+	 * @param {object} enrichmentOptions
+	 * @param {object} editorOptions
 	 */
 	async _enrichFields(context, enrichmentOptions, editorOptions) {
 		// Enrich other fields.
 		const fields = [
-			'biography',
+			"biography"
 		];
 
 		// Enrich items.
 		const itemTypes = {
 			talent: [
-				'description',
-				'notes.description',
-			],
+				"description",
+				"notes.description"
+			]
 		};
 
 		// Enrich actor fields.
@@ -198,8 +197,8 @@ export class GrimwildActorSheetVue extends VueRenderingMixin(GrimwildBaseVueActo
 				element: foundry.applications.elements.HTMLProseMirrorElement.create({
 					...editorOptions,
 					name: `system.${field}`,
-					value: editorValue ?? '',
-				}),
+					value: editorValue ?? ""
+				})
 			};
 		}
 
@@ -221,7 +220,7 @@ export class GrimwildActorSheetVue extends VueRenderingMixin(GrimwildBaseVueActo
 						const editorValue = item.system?.[itemField] ?? foundry.utils.getProperty(item.system, itemField);
 						context.editors[`items.${item.id}.system.${itemField}`] = {
 							enriched: await TextEditor.enrichHTML(editorValue, itemEnrichmentOptions),
-							element: null,
+							element: null
 						};
 					}
 				}
@@ -231,40 +230,40 @@ export class GrimwildActorSheetVue extends VueRenderingMixin(GrimwildBaseVueActo
 
 	/**
 	 * Prepare tabs for Vue.
-	 * 
-	 * @param {object} context 
+	 *
+	 * @param {object} context
 	 */
 	_prepareTabs(context) {
 		// Initialize tabs.
 		context.tabs = {
-			primary: {},
+			primary: {}
 		};
 
 		// Tabs available to all actors.
 		context.tabs.primary.details = {
-			key: 'details',
-			label: game.i18n.localize('GRIMWILD.Actor.Tabs.Details'),
-			active: false,
+			key: "details",
+			label: game.i18n.localize("GRIMWILD.Actor.Tabs.Details"),
+			active: false
 		};
 
 		// Tabs limited to NPCs.
-		if (this.actor.type === 'character') {
+		if (this.actor.type === "character") {
 			context.tabs.primary.talents = {
-				key: 'talents',
-				label: game.i18n.localize('GRIMWILD.Actor.Tabs.Talents'),
-				active: true,
+				key: "talents",
+				label: game.i18n.localize("GRIMWILD.Actor.Tabs.Talents"),
+				active: true
 			};
 		}
 
 		// More tabs available to all actors.
 		context.tabs.primary.effects = {
-			key: 'effects',
-			label: game.i18n.localize('GRIMWILD.Actor.Tabs.Effects'),
-			active: false,
+			key: "effects",
+			label: game.i18n.localize("GRIMWILD.Actor.Tabs.Effects"),
+			active: false
 		};
 
 		// Ensure we have a default tab.
-		if (this.actor.type !== 'character') {
+		if (this.actor.type !== "character") {
 			context.tabs.primary.details.active = true;
 		}
 	}
@@ -288,8 +287,8 @@ export class GrimwildActorSheetVue extends VueRenderingMixin(GrimwildBaseVueActo
 	static async _createBond(event, target) {
 		event.preventDefault();
 		const bonds = this.document.system.bonds;
-		bonds.push({name: '', description: ''});
-		await this.document.update({"system.bonds": bonds});
+		bonds.push({ name: "", description: "" });
+		await this.document.update({ "system.bonds": bonds });
 	}
 
 	/**
@@ -307,7 +306,7 @@ export class GrimwildActorSheetVue extends VueRenderingMixin(GrimwildBaseVueActo
 			const bonds = this.document.system.bonds;
 			bonds.splice(dataset.bond, 1);
 
-			await this.document.update({"system.bonds": bonds});
+			await this.document.update({ "system.bonds": bonds });
 		}
 	}
 
@@ -335,7 +334,7 @@ export class GrimwildActorSheetVue extends VueRenderingMixin(GrimwildBaseVueActo
 
 	/**
 	 * Handle updating talent resources.
-	 * 
+	 *
 	 * @param {PointerEvent} event The originating click event
 	 * @param {HTMLElement} target The capturing HTML element which defined a [data-action]
 	 * @private
@@ -362,7 +361,7 @@ export class GrimwildActorSheetVue extends VueRenderingMixin(GrimwildBaseVueActo
 		if (!resource) return;
 
 		// Handle point resource updates.
-		if (resource.type === 'points') {
+		if (resource.type === "points") {
 			if (!resourceValue || !value) {
 				resource.points.value = Number(target.value);
 			}
@@ -375,7 +374,7 @@ export class GrimwildActorSheetVue extends VueRenderingMixin(GrimwildBaseVueActo
 			changes = true;
 		}
 		// Handle pool resource updates.
-		else if (resource.type === 'pool') {
+		else if (resource.type === "pool") {
 			resource.pool.diceNum = Number(target.value);
 			changes = true;
 		}
@@ -383,7 +382,7 @@ export class GrimwildActorSheetVue extends VueRenderingMixin(GrimwildBaseVueActo
 		// Push the update if one is needed.
 		if (changes) {
 			resources[resourceKey] = resource;
-			await item.update({'system.resources': resources});
+			await item.update({ "system.resources": resources });
 		}
 	}
 
@@ -427,10 +426,10 @@ export class GrimwildActorSheetVue extends VueRenderingMixin(GrimwildBaseVueActo
 			resource.pool.diceNum -= dropped.length;
 			// Update the item.
 			resources[resourceKey] = resource;
-			await item.update({'system.resources': resources});
+			await item.update({ "system.resources": resources });
 		}
 	}
-	
+
 	/**
 	 * Handle clickable rolls.
 	 *
