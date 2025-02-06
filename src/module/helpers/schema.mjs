@@ -8,11 +8,11 @@ export class DicePoolField extends fields.SchemaField {
 			diceNum: new fields.NumberField({
 				...requiredInteger,
 				initial: 0,
-				min: 0,
+				min: 0
 			}),
 			max: new fields.NumberField({
-				min: 0,
-			}),
+				min: 0
+			})
 		};
 		super(dpFields, options, context);
 	}

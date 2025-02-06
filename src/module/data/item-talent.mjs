@@ -59,7 +59,7 @@ export default class GrimwildTalent extends GrimwildItemBase {
 	 * a large number of documents, then there should also be a custom
 	 * migration called during the ready hook to apply the changes long
 	 * term by forcibly resaving the fields on the actors/items.
-	 * 
+	 *
 	 * @inheritDoc
 	 */
 	static migrateData(source) {

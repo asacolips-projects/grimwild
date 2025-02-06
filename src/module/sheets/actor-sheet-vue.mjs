@@ -179,7 +179,7 @@ export class GrimwildActorSheetVue extends VueRenderingMixin(GrimwildBaseVueActo
 		// Enrich other fields.
 		const fields = [
 			"biography",
-			"notes",
+			"notes"
 		];
 
 		// Enrich items.
@@ -241,7 +241,7 @@ export class GrimwildActorSheetVue extends VueRenderingMixin(GrimwildBaseVueActo
 		};
 
 		// Tabs limited to characters.
-		if (this.actor.type === 'character') {
+		if (this.actor.type === "character") {
 			context.tabs.primary.details = {
 				key: "details",
 				label: game.i18n.localize("GRIMWILD.Actor.Tabs.Details"),
@@ -259,13 +259,13 @@ export class GrimwildActorSheetVue extends VueRenderingMixin(GrimwildBaseVueActo
 		context.tabs.primary.biography = {
 			key: "biography",
 			label: game.i18n.localize("GRIMWILD.Actor.Tabs.Biography"),
-			active: false,
+			active: false
 		};
 
 		context.tabs.primary.notes = {
 			key: "notes",
 			label: game.i18n.localize("GRIMWILD.Actor.Tabs.Notes"),
-			active: false,
+			active: false
 		};
 
 		// @todo Active Effects disabled for now. Will revisit in the
@@ -306,9 +306,9 @@ export class GrimwildActorSheetVue extends VueRenderingMixin(GrimwildBaseVueActo
 		if (!this.document.system?.[field]) return;
 
 		const entries = this.document.system[field];
-		entries.push({name: ""});
+		entries.push({ name: "" });
 		await this.document.update({
-			[`system.${field}`]: entries,
+			[`system.${field}`]: entries
 		});
 	}
 
@@ -329,7 +329,7 @@ export class GrimwildActorSheetVue extends VueRenderingMixin(GrimwildBaseVueActo
 		entries.splice(key, 1);
 
 		await this.document.update({
-			[`system.${field}`]: entries,
+			[`system.${field}`]: entries
 		});
 	}
 
@@ -411,7 +411,7 @@ export class GrimwildActorSheetVue extends VueRenderingMixin(GrimwildBaseVueActo
 	/**
 	 * Handle rolling pools on the character sheet.
 	 * @todo abstract this to the actor itself.
-	 * 
+	 *
 	 * @param {PointerEvent} event The originating click event
 	 * @param {HTMLElement} target The capturing HTML element which defined a [data-action]
 	 * @private
@@ -460,9 +460,9 @@ export class GrimwildActorSheetVue extends VueRenderingMixin(GrimwildBaseVueActo
 			// Initialize chat data.
 			const speaker = ChatMessage.getSpeaker({ actor: this.actor });
 			const rollMode = game.settings.get("core", "rollMode");
-			const label = item 
+			const label = item
 				? `[${item.type}] ${item.name}`
-				: `[${field}] ${fieldData[key]?.name ?? ''}`;
+				: `[${field}] ${fieldData[key]?.name ?? ""}`;
 			// Send to chat.
 			const msg = await roll.toMessage({
 				speaker: speaker,
@@ -486,7 +486,7 @@ export class GrimwildActorSheetVue extends VueRenderingMixin(GrimwildBaseVueActo
 				const update = {};
 				update[`system.${field}`] = fieldData;
 				await this.document.update({
-					[`system.${field}`]: fieldData,
+					[`system.${field}`]: fieldData
 				});
 			}
 		}

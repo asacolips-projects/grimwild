@@ -222,9 +222,9 @@ Hooks.on("preCreateToken", (document, data, options, userId) => {
 	const actor = game.actors.get(data.actorId);
 	if (actor?.type === "character") {
 		data.actorLink = true;
-		document.updateSource({"actorLink": true});
+		document.updateSource({ actorLink: true });
 	}
-  });
+});
 
 /* -------------------------------------------- */
 /*  Hotbar Macros                               */

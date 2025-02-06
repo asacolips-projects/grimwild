@@ -233,7 +233,6 @@ export default class GrimwildCharacter extends GrimwildActorBase {
 		const rollData = this.getRollData();
 		const markIgnored = (rollData?.isBloodied && isPhysicalStat(options.stat))
 			|| (rollData?.isRattled	&& isMentalStat(options.stat));
-			console.log(canvas.tokens.controlled[0]);
 
 		if (options?.stat && rollData?.stats?.[options.stat]) {
 			const rollDialog = await GrimwildRollDialog.open({
@@ -263,7 +262,7 @@ export default class GrimwildCharacter extends GrimwildActorBase {
 					}
 				}
 				const actor = game.actors.get(this.parent.id);
-				
+
 				await actor.update({ "system.spark": newSpark });
 				actor.sheet.render(true);
 			}
