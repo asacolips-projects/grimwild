@@ -1,3 +1,5 @@
+import { isMentalStat, isPhysicalStat } from "../helpers/config.mjs";
+
 /**
  * @typedef {object} GrimwildRollDialogOptions
  * @property {GrimwildRollDialogRollData} rollData  The data to be injected into the roll dialog
@@ -11,7 +13,6 @@
  * @property {boolean} isBloodied                   If the actor is bloodied
  * @property {boolean} isRattled                    If the actor is rattled
  * @property {boolean} isMarked                     If the stat being rolled is marked
- * @property {boolean} markIgnored                  If the mark should be ignored due to associated harm
  */
 
 /**
@@ -35,8 +36,7 @@
  *      diceDefault: 2,
  *      isBloodied: true,
  *      isRattled: false,
- *      isMarked: true,
- *      markIgnored: false
+ *      isMarked: true
  *  }
  * });
  * const totalDice = dialog.dice;
@@ -153,6 +153,12 @@ export class GrimwildRollDialog extends foundry.applications.api.DialogV2 {
 		// add some preprocessed data
 		rollData.hasSpark = rollData.spark > 0;
 		rollData.sparkArray = Array.from({ length: rollData.spark }, (_, i) => i);
+		// Ignore mark if there is associated harm
+		rollData.markIgnored = rollData.isMarked
+			&& ((rollData.isBloodied && isPhysicalStat(rollData.stat))
+			|| (rollData.isRattled && isMentalStat(rollData.stat)));
+		// Do not check marked if it is ignored
+		rollData.isMarked = rollData.isMarked && !rollData.markIgnored;
 
 		options.content = await renderTemplate("systems/grimwild/templates/dialog/stat-roll.hbs", rollData);
 		options.render = this._render;
@@ -168,7 +174,13 @@ export class GrimwildRollDialog extends foundry.applications.api.DialogV2 {
 					const assisters = {};
 					Array.from(assists).forEach((assist) => {
 						const nameInput = assist.closest(".grimwild-form-group").querySelector(".assist-name");
-						assisters[nameInput.value] = parseInt(assist.value || 0, 10);
+						const value = parseInt(assist.value || 0, 10);
+						// Ignore empty assists
+						if (value !== 0) {
+							// Ensure there is a name to the assist
+							const name = nameInput.value || "Assist";
+							assisters[name] = value;
+						}
 					});
 					const sparks = dialog.querySelectorAll(".sparkCheck");
 					const sparkUsed = Array.from(sparks).reduce((sum, checkbox) => sum + (checkbox.checked ? 1 : 0), 0);
