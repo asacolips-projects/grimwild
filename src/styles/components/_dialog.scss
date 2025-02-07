@@ -1,60 +1,70 @@
 .grimwild-form-group {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
 
-    label {
-        flex: 4;
-        text-align: left;
-        margin-right: 10px;
-    }
+	label {
+		flex: 4;
+		text-align: left;
+		margin-right: 10px;
+	}
 
-    input[type="number"] {
-        flex: 1;
-        padding: 0 10px;
-        font-size: 1rem;
-        border: 1px solid #ccc;;
-        border-radius: 4px;
-        text-align: right;
+	input[type="number"] {
+		flex: 1;
+		padding: 0 10px;
+		font-size: 1rem;
+		border: 1px solid #ccc;;
+		border-radius: 4px;
+		text-align: right;
 
-        &:focus {
-            outline: none;
-            border-color: #007BFF;
-            box-shadow: 0 0 4px #ccc;;
-        }
-    }
+		&:focus {
+			outline: none;
+			border-color: #007BFF;
+			box-shadow: 0 0 4px #ccc;;
+		}
+	}
 }
 
 #assistContainer {
-    .grimwild-form-group {
-        padding-bottom: 10px;
-    }
-    .assist-name {
-        margin-right: 5rem;
-        flex: 2;
-    }
+	.grimwild-form-group {
+		padding-bottom: 10px;
+	}
+	.assist-name {
+		margin-right: 5rem;
+		flex: 2;
+	}
 }
 
 
 
 .grimwild-checkbox-group {
-    display: flex;
-    flex-direction: column; // Stack checkboxes vertically
-    gap: 0.75rem; // Add spacing between checkboxes
+	display: flex;
+	flex-direction: column; // Stack checkboxes vertically
+	gap: 0.75rem; // Add spacing between checkboxes
 
-    .grimwild-form-group {
-        input[type="checkbox"] {
-            margin: 0;
-        }
-    }
+	.grimwild-form-group {
+		input[type="checkbox"] {
+			margin: 0;
+		}
+	}
 }
 
 // Total display styling
 .total {
-    font-size: 1.2rem;
-    font-weight: 500;
+	font-size: 1.2rem;
+	font-weight: 500;
 }
 
 h3 {
-    margin-bottom: 0.5rem;
+	margin-bottom: 0.5rem;
+}
+
+.dialog-character,
+.dialog-harm,
+.dialog-difficulty {
+	flex: 1;
+}
+
+.dialog-total {
+	flex: 0;
 }
