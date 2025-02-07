@@ -1,6 +1,5 @@
 import GrimwildActorBase from "./base-actor.mjs";
 import { DicePoolField } from "../helpers/schema.mjs";
-import { isMentalStat, isPhysicalStat } from "../helpers/config.mjs";
 import { GrimwildRollDialog } from "../apps/roll-dialog.mjs";
 
 export default class GrimwildCharacter extends GrimwildActorBase {
@@ -231,8 +230,6 @@ export default class GrimwildCharacter extends GrimwildActorBase {
 
 	async roll(options) {
 		const rollData = this.getRollData();
-		const markIgnored = (rollData?.isBloodied && isPhysicalStat(options.stat))
-			|| (rollData?.isRattled	&& isMentalStat(options.stat));
 
 		if (options?.stat && rollData?.stats?.[options.stat]) {
 			const rollDialog = await GrimwildRollDialog.open({
@@ -242,8 +239,7 @@ export default class GrimwildCharacter extends GrimwildActorBase {
 					diceDefault: rollData?.stats?.[options.stat].value,
 					isBloodied: rollData?.isBloodied,
 					isRattled: rollData?.isRattled,
-					isMarked: rollData?.stats?.[options.stat].marked && !markIgnored,
-					markIgnored: markIgnored
+					isMarked: rollData?.stats?.[options.stat].marked
 				}
 			});
 
