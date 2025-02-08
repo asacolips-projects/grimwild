@@ -1,14 +1,13 @@
-import VueRenderingMixin from "./_vue/_vue-application-mixin.mjs";
-import { GrimwildBaseVueActorSheet } from "./_vue/_base-vue-actor-sheet.mjs";
-import { DocumentSheetVue } from "../../vue/components.vue.es.mjs";
+import { MonsterSheetVue } from "../../vue/components.vue.es.mjs";
+import { GrimwildActorSheetVue } from "./actor-sheet-vue.mjs";
 
 const { DOCUMENT_OWNERSHIP_LEVELS } = CONST;
 
-export class GrimwildActorSheetVue extends VueRenderingMixin(GrimwildBaseVueActorSheet) {
+export class GrimwildActorMonsterSheetVue extends GrimwildActorSheetVue {
 	vueParts = {
-		"document-sheet": {
-			component: DocumentSheetVue,
-			template: "<document-sheet :context=\"context\">Vue rendering for sheet failed.</document-sheet>"
+		"monster-sheet": {
+			component: MonsterSheetVue,
+			template: "<monster-sheet :context=\"context\">Vue rendering for sheet failed.</monster-sheet>"
 		}
 	};
 
@@ -17,12 +16,7 @@ export class GrimwildActorSheetVue extends VueRenderingMixin(GrimwildBaseVueActo
 			"biography",
 			"notes"
 		],
-		itemFields: {
-			talent: [
-				"description",
-				"notes.description"
-			]
-		}
+		itemFields: {}
 	}
 
 	/** @override */
@@ -32,8 +26,8 @@ export class GrimwildActorSheetVue extends VueRenderingMixin(GrimwildBaseVueActo
 		viewPermission: DOCUMENT_OWNERSHIP_LEVELS.LIMITED,
 		editPermission: DOCUMENT_OWNERSHIP_LEVELS.OWNER,
 		position: {
-			width: 800,
-			height: 720
+			width: 600,
+			height: 600
 		},
 		window: {
 			resizable: true
@@ -48,16 +42,10 @@ export class GrimwildActorSheetVue extends VueRenderingMixin(GrimwildBaseVueActo
 			createEffect: this._createEffect,
 			deleteEffect: this._deleteEffect,
 			toggleEffect: this._toggleEffect,
-			createArrayEntry: this._createArrayEntry,
-			deleteArrayEntry: this._deleteArrayEntry,
-			changeXp: this._changeXp,
-			updateTalentTracker: this._updateTalentTracker,
 			rollPool: this._rollPool,
 			roll: this._onRoll
 		},
-		changeActions: {
-			updateTalentTracker: this._updateTalentTracker
-		},
+		changeActions: {},
 		// Custom property that's merged into `this.options`
 		dragDrop: [{ dragSelector: "[data-drag]", dropSelector: null }],
 		form: {
@@ -77,39 +65,6 @@ export class GrimwildActorSheetVue extends VueRenderingMixin(GrimwildBaseVueActo
 		super._onRender(context, options);
 		// @todo figure out how to attach this to the application frame rather than
 		// using render key to prevent redundant events.
-	}
-
-	/**
-	 * Attach listeners to the application frame.
-	 */
-	_attachFrameListeners() {
-		super._attachFrameListeners();
-		// Attach event listeners in here to prevent duplicate calls.
-		const change = this.#onChange.bind(this);
-		this.element.addEventListener("change", change);
-	}
-
-	/**
-	 * Change event actions in this.options.changeActions.
-	 *
-	 * Functionally similar to this.options.actions and fires callbacks
-	 * specified in data-action-change on the element(s).
-	 *
-	 * @param {ChangeEvent} event Change event that triggered the call.
-	 */
-	async #onChange(event) {
-		const target = event.target;
-		const changeElement = target.closest("[data-action-change]");
-		if (changeElement) {
-			const { actionChange } = changeElement.dataset;
-			if (actionChange) {
-				this.options.changeActions?.[actionChange]?.call(
-					this,
-					event,
-					changeElement
-				);
-			}
-		}
 	}
 
 	async _prepareContext(options) {
@@ -182,8 +137,18 @@ export class GrimwildActorSheetVue extends VueRenderingMixin(GrimwildBaseVueActo
 	 */
 	async _enrichFields(context, enrichmentOptions, editorOptions) {
 		// Enrich other fields.
-		const fields = this.enrichmentOptions.documentFields;
-		const itemTypes = this.enrichmentOptions.itemFields;
+		const fields = [
+			"biography",
+			"notes"
+		];
+
+		// Enrich items.
+		const itemTypes = {
+			// talent: [
+			// 	"description",
+			// 	"notes.description"
+			// ]
+		};
 
 		// Enrich actor fields.
 		for (let field of fields) {
@@ -235,21 +200,6 @@ export class GrimwildActorSheetVue extends VueRenderingMixin(GrimwildBaseVueActo
 			primary: {}
 		};
 
-		// Tabs limited to characters.
-		if (this.actor.type === "character") {
-			context.tabs.primary.details = {
-				key: "details",
-				label: game.i18n.localize("GRIMWILD.Actor.Tabs.Details"),
-				active: true
-			};
-
-			context.tabs.primary.talents = {
-				key: "talents",
-				label: game.i18n.localize("GRIMWILD.Actor.Tabs.Talents"),
-				active: false
-			};
-		}
-
 		// Tabs available to all actors.
 		context.tabs.primary.biography = {
 			key: "biography",
@@ -263,19 +213,10 @@ export class GrimwildActorSheetVue extends VueRenderingMixin(GrimwildBaseVueActo
 			active: false
 		};
 
-		// @todo Active Effects disabled for now. Will revisit in the
-		// future.
-
-		// More tabs available to all actors.
-		// context.tabs.primary.effects = {
-		// 	key: "effects",
-		// 	label: game.i18n.localize("GRIMWILD.Actor.Tabs.Effects"),
-		// 	active: false,
-		// };
-
-		// Ensure we have a default tab.
-		if (this.actor.type !== "character") {
-			context.tabs.primary.details.active = true;
+		context.tabs.primary.challenges = {
+			key: "challenges",
+			label: game.i18n.localize("GRIMWILD.Actor.Tabs.Challenges"),
+			active: true,
 		}
 	}
 
@@ -286,122 +227,6 @@ export class GrimwildActorSheetVue extends VueRenderingMixin(GrimwildBaseVueActo
 	 *   ACTIONS
 	 *
 	 **************/
-
-	/**
-	 * Handle creating a new bond entry.
-	 *
-	 * @this GrimwildActorSheet
-	 * @param {PointerEvent} event   The originating click event
-	 * @param {HTMLElement} target   The capturing HTML element which defined a [data-action]
-	 * @private
-	 */
-	static async _createArrayEntry(event, target) {
-		event.preventDefault();
-		const { field } = target.dataset;
-		if (!this.document.system?.[field]) return;
-
-		const entries = this.document.system[field];
-		entries.push({ name: "" });
-		await this.document.update({
-			[`system.${field}`]: entries
-		});
-	}
-
-	/**
-	 * Handle deleting an existing bond entry.
-	 *
-	 * @this GrimwildActorSheet
-	 * @param {PointerEvent} event   The originating click event
-	 * @param {HTMLElement} target   The capturing HTML element which defined a [data-action]
-	 * @private
-	 */
-	static async _deleteArrayEntry(event, target) {
-		event.preventDefault();
-		const { field, key } = target.dataset;
-		if (!this.document.system?.[field]) return;
-
-		const entries = this.document.system[field];
-		entries.splice(key, 1);
-
-		await this.document.update({
-			[`system.${field}`]: entries
-		});
-	}
-
-	/**
-	 * Handle changing XP via the checkbox pips.
-	 *
-	 * @param {PointerEvent} event The originating click event
-	 * @param {HTMLElement} target The capturing HTML element which defined a [data-action]
-	 * @private
-	 */
-	static async _changeXp(event, target) {
-		event.preventDefault();
-		const dataset = target.dataset;
-		if (dataset.xp) {
-			// Retrieve incoming XP.
-			const xp = Number(dataset.xp);
-			// Determine if we should use the new XP value, or
-			// decrement it so that it behaves like a toggle.
-			const newXp = xp !== this.document.system.xp.value
-				? xp
-				: this.document.system.xp.value - 1;
-			await this.document.update({ "system.xp.value": newXp });
-		}
-	}
-
-	/**
-	 * Handle updating talent trackers.
-	 *
-	 * @param {PointerEvent} event The originating click event
-	 * @param {HTMLElement} target The capturing HTML element which defined a [data-action]
-	 * @private
-	 */
-	static async _updateTalentTracker(event, target) {
-		event.preventDefault();
-		// Retrieve props.
-		const {
-			itemId,
-			trackerKey,
-			value,
-			trackerValue
-		} = target.dataset;
-
-		// Only push an update if we need one. Assume we don't.
-		let changes = false;
-
-		// Retrieve the item and tracker.
-		const item = this.document.items.get(itemId);
-		if (!item) return;
-		const trackers = item.system.trackers;
-		const tracker = trackers?.[trackerKey];
-		if (!tracker) return;
-
-		// Handle point tracker updates.
-		if (tracker.type === "points") {
-			if (!trackerValue || !value) {
-				tracker.points.value = Number(target.value);
-			}
-			else {
-				tracker.points.value = (value === trackerValue)
-					? Number(value) - 1
-					: Number(value);
-			}
-			if (tracker.points.value < 0) tracker.points.value = 0;
-			changes = true;
-		}
-		// Handle pool tracker updates.
-		else if (tracker.type === "pool") {
-			tracker.pool.diceNum = Number(target.value);
-			changes = true;
-		}
-
-		// Push the update if one is needed.
-		if (changes) {
-			trackers[trackerKey] = tracker;
-			await item.update({ "system.trackers": trackers });
-		}
-	}
 
 	/**
 	 * Handle rolling pools on the character sheet.

@@ -4,6 +4,7 @@ import { GrimwildItem } from "./documents/item.mjs";
 // Import sheet classes.
 import { GrimwildActorSheet } from "./sheets/actor-sheet.mjs";
 import { GrimwildActorSheetVue } from "./sheets/actor-sheet-vue.mjs";
+import { GrimwildActorMonsterSheetVue } from "./sheets/actor-monster-sheet-vue.mjs";
 import { GrimwildItemSheet } from "./sheets/item-sheet.mjs";
 import { GrimwildItemSheetVue } from "./sheets/item-sheet-vue.mjs";
 // Import helper/utility classes and constants.
@@ -27,6 +28,7 @@ globalThis.grimwild = {
 	applications: {
 		GrimwildActorSheet,
 		GrimwildActorSheetVue,
+		GrimwildActorMonsterSheetVue,
 		GrimwildItemSheet,
 		GrimwildItemSheetVue
 	},
@@ -81,9 +83,9 @@ Hooks.once("init", function () {
 
 	// Register sheet application classes
 	Actors.unregisterSheet("core", ActorSheet);
-	Actors.registerSheet("grimwild", GrimwildActorSheet, {
+	Actors.registerSheet("grimwild", GrimwildActorMonsterSheetVue, {
 		makeDefault: true,
-		label: "Grimwild Fallback Sheet",
+		label: "Monster Sheet",
 		types: ["monster"]
 	});
 	Actors.registerSheet("grimwild", GrimwildActorSheetVue, {

@@ -18,13 +18,6 @@ GRIMWILD.statAbbreviations = {
 	pre: "GRIMWILD.Stat.pre.abbr"
 };
 
-GRIMWILD.classes = {
-	cleric: "GRIMWILD.Class.cleric.label",
-	fighter: "GRIMWILD.Class.fighter.label",
-	rogue: "GRIMWILD.Class.rogue.label",
-	wizard: "GRIMWILD.Class.wizard.label"
-};
-
 GRIMWILD.traits = {
 	brave: "GRIMWILD.Traits.brave",
 	caring: "GRIMWILD.Traits.caring",
