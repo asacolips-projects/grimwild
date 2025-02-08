@@ -1,7 +1,7 @@
 import GrimwildActorBase from "./base-actor.mjs";
 
-export default class GrimwildNPC extends GrimwildActorBase {
-	static LOCALIZATION_PREFIXES = ["GRIMWILD.Actor.NPC"];
+export default class GrimwildMonster extends GrimwildActorBase {
+	static LOCALIZATION_PREFIXES = ["GRIMWILD.Actor.Monster"];
 
 	static defineSchema() {
 		const fields = foundry.data.fields;

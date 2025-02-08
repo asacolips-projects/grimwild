@@ -62,10 +62,10 @@ Hooks.once("init", function () {
 
 	// Note that you don't need to declare a DataModel
 	// for the base actor/item classes - they are included
-	// with the Character/NPC as part of super.defineSchema()
+	// with the Character/Monster as part of super.defineSchema()
 	CONFIG.Actor.dataModels = {
 		character: models.GrimwildCharacter,
-		npc: models.GrimwildNPC
+		monster: models.GrimwildMonster
 	};
 	CONFIG.Item.documentClass = GrimwildItem;
 	CONFIG.Item.dataModels = {
@@ -84,7 +84,7 @@ Hooks.once("init", function () {
 	Actors.registerSheet("grimwild", GrimwildActorSheet, {
 		makeDefault: true,
 		label: "Grimwild Fallback Sheet",
-		types: ["npc"]
+		types: ["monster"]
 	});
 	Actors.registerSheet("grimwild", GrimwildActorSheetVue, {
 		makeDefault: true,
@@ -93,11 +93,11 @@ Hooks.once("init", function () {
 	});
 	Items.unregisterSheet("core", ItemSheet);
 	Items.registerSheet("grimwild", GrimwildItemSheet, {
-		makeDefault: true,
-		label: "GRIMWILD.SheetLabels.Item"
+		makeDefault: false,
+		label: "GRIMWILD.SheetLabels.Item",
 	});
 	Items.registerSheet("grimwild", GrimwildItemSheetVue, {
-		makeDefault: false,
+		makeDefault: true,
 		label: "Grimwild Vue Sheet",
 		types: ["talent"]
 	});

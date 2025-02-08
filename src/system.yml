@@ -20,7 +20,7 @@ documentTypes:
       htmlFields:
       - biography
       - notes
-    npc:
+    monster:
       htmlFields:
       - biography
       - notes
