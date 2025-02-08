@@ -96,6 +96,11 @@ packs:
     type: JournalEntry
     path: packs/gm_toolkit
     system: grimwild  
+  - name: talents
+    label: Talents
+    type: Item
+    path: packs/talents
+    system: grimwild
 packFolders: []
 
 socket: false
