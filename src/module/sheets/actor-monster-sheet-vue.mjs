@@ -21,7 +21,7 @@ export class GrimwildActorMonsterSheetVue extends GrimwildActorSheetVue {
 
 	/** @override */
 	static DEFAULT_OPTIONS = {
-		classes: ["grimwild", "actor"],
+		classes: ["grimwild", "actor", "monster"],
 		document: null,
 		viewPermission: DOCUMENT_OWNERSHIP_LEVELS.LIMITED,
 		editPermission: DOCUMENT_OWNERSHIP_LEVELS.OWNER,
@@ -124,6 +124,8 @@ export class GrimwildActorMonsterSheetVue extends GrimwildActorSheetVue {
 				context.editors[field].element.innerHTML = context.editors[field].enriched;
 			}
 		}
+
+		console.log('monster', context);
 
 		return context;
 	}
@@ -240,35 +242,14 @@ export class GrimwildActorMonsterSheetVue extends GrimwildActorSheetVue {
 		event.preventDefault();
 		// Retrieve props.
 		const {
-			itemId,
 			field,
-			key
 		} = target.dataset;
 
 		// Prepare variables.
-		let item = null;
-		let trackers = null;
-		let tracker = null;
-		let pool = null;
 		let rollData = {};
-		let fieldData = null;
 
-		// Handle item pools (talents).
-		if (itemId) {
-			item = this.document.items.get(itemId);
-			if (!item) return;
-			trackers = item.system.trackers;
-			tracker = trackers?.[key];
-			if (!tracker) return;
-			pool = tracker.pool;
-			rollData = item.getRollData();
-		}
-		// Handle condition pools.
-		else {
-			fieldData = this.document.system?.[field] ?? null;
-			if (!fieldData) return;
-			pool = fieldData[key]?.pool;
-		}
+		// Retrieve pool.
+		let pool = this.document.system?.[field] ?? null;
 
 		// Handle roll.
 		if (pool.diceNum > 0) {
@@ -280,9 +261,7 @@ export class GrimwildActorMonsterSheetVue extends GrimwildActorSheetVue {
 			// Initialize chat data.
 			const speaker = ChatMessage.getSpeaker({ actor: this.actor });
 			const rollMode = game.settings.get("core", "rollMode");
-			const label = item
-				? `[${item.type}] ${item.name}`
-				: `[${field}] ${fieldData[key]?.name ?? ""}`;
+			const label = `[${field}] ${this.document.name}`;
 			// Send to chat.
 			const msg = await roll.toMessage({
 				speaker: speaker,
@@ -295,20 +274,10 @@ export class GrimwildActorMonsterSheetVue extends GrimwildActorSheetVue {
 			}
 			// Recalculate the pool value.
 			pool.diceNum -= dropped.length;
-			// Update the item.
-			if (item) {
-				trackers[key].pool = pool;
-				await item.update({ "system.trackers": trackers });
-			}
 			// Otherwise, update the condition.
-			else if (fieldData) {
-				fieldData[key].pool = pool;
-				const update = {};
-				update[`system.${field}`] = fieldData;
-				await this.document.update({
-					[`system.${field}`]: fieldData
-				});
-			}
+			await this.document.update({
+				[`system.${field}`]: pool
+			});
 		}
 	}
 
