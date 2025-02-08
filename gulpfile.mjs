@@ -104,7 +104,10 @@ function buildCode() {
 function buildStyles() {
 	return gulp.src([`${stylesDirectory}/**/*.${stylesExtension}`], { base: `${stylesDirectory}/src` })
 		.pipe(sourcemaps.init({ loadMaps: true }))
-		.pipe(sass({ outputStyle: "compressed" }).on("error", sass.logError))
+		.pipe(sass({
+			outputStyle: "compressed",
+			silenceDeprecations: ['legacy-js-api', 'import'],
+		}).on("error", sass.logError))
 		.pipe(prefix({
 			cascade: false
 		}))
