@@ -25,7 +25,7 @@
 
 					<!-- Challenges fields -->
 					<Tab group="primary" :tab="tabs.primary.challenges">
-						<!-- <CharDetails :actor="context.actor" :context="context"/> -->
+						<MonsterChallenges :context="context"/>
 					</Tab>
 				</section>
 			</div>
@@ -39,6 +39,7 @@ import {
 	Tabs,
 	Tab,
 	MonsterHeader,
+	MonsterChallenges,
 	Prosemirror
 } from '@/components';
 import { reactive, toRaw } from 'vue';
