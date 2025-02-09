@@ -12,11 +12,17 @@
     }
   }
 
-  .challenge-pool {
-    color: #ffffff;
-  }
-
   .header-fields {
     align-items: flex-end;
+  }
+
+  .challenge {
+    .item-description {
+      hr + ul {
+        list-style-type: disc;
+        font-weight: bold;
+        text-transform: uppercase;
+      }
+    }
   }
 }
