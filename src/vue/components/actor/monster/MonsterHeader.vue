@@ -20,27 +20,21 @@
 			</div>
 			<!-- Health Pool -->
 			<div class="challenge-pool form-group stacked">
-				<label>Challenge Pool</label>
-				<div class="challenge-pool form-group">
-					<button class="challenge-pool"
-						data-action="rollPool"
-						data-field="pool"
-					><i class="fas fa-dice-d6"></i><strong>Roll</strong></button>
-					<input type="number"
-						class=""
-						:name="`system.pool.diceNum`"
-						v-model="context.system.pool.diceNum"
-						min="0"
-					/>
-					<span class="pool-suffix">d</span>
-				</div>
+				<label>Tough Pool</label>
+				<RollPoolInput
+					button-action="rollPool"
+					field="pool"
+					:pool="context.system.pool"
+					min="0"
+				/>
 			</div>
 		</section>
 	</header>
 </template>
 
 <script setup>
-import { inject } from 'vue';
-const props = defineProps(['context']);
-const actor = inject('rawDocument');
+import { inject } from "vue";
+import { RollPoolInput } from "@/components";
+const props = defineProps(["context"]);
+const actor = inject("rawDocument");
 </script>

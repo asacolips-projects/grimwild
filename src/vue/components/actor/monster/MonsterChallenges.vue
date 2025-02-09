@@ -26,16 +26,26 @@
 				data-document-class="Item"
 			>
 				<!-- Summary, always visible -->
-				<!-- <div class="item-summary flexrow">
-					<div class="item-name">
-						<div class="item-image">
-							<a class="rollable" data-roll-type="item" data-action="roll">
+				<div class="item-summary flexrow">
+					<div class="item-name flexrow">
+						<a class="rollable" data-roll-type="item" data-action="roll">
+							<div class="item-image">
 								<img :src="item.img"
 									:title="item.name"
 									width="24"
 									height="24"
 								/>
-							</a>
+							</div>
+						</a>
+						<div class="challenge-pool">
+							<RollPoolInput
+								button-action="roll"
+								button-roll-type="item"
+								input-action="updateChallengePool"
+								:item-id="item.id"
+								:pool="item.system.roll"
+								min="0"
+							/>
 						</div>
 						<div data-action="toggleItem" :data-item-id="item._id">{{ item.name }}</div>
 					</div>
@@ -50,43 +60,13 @@
 							data-action="deleteDoc"
 						><i class="fas fa-trash"></i></a>
 					</div>
-				</div> -->
+				</div>
 
 				<!-- Description, visible when toggled on. -->
-				<!-- <div v-if="item.system.description" class="item-description-wrapper">
+				<div v-if="item.system.description" class="item-description-wrapper">
 					<div class="item-description flexcol">
 						<div class="item-description" v-html="context.editors[`items.${item.id}.system.description`].enriched"></div>
 					</div>
-				</div> -->
-
-				<div class="item-name flexrow">
-					<a class="rollable flexrow" data-roll-type="item" data-action="roll">
-						<div class="item-image">
-							<img :src="item.img"
-								:title="item.name"
-								width="24"
-								height="24"
-							/>
-						</div>
-						<div class="challenge-pool">[{{item.system.roll.diceNum}}d]</div>
-					</a>
-					<div>{{item.name}}</div>
-				</div>
-				<div class="item-controls">
-					<a
-						class="item-control item-edit"
-						:title="game.i18n.format('DOCUMENT.Edit', {type: 'challenge'})"
-						data-action="viewDoc"
-					>
-						<i class="fas fa-edit"></i>
-					</a>
-					<a v-if="context.editable"
-						class="item-control item-delete"
-						:title="game.i18n.format('DOCUMENT.Delete', {type: 'challenge'})"
-						data-action="deleteDoc"
-					>
-						<i class="fas fa-trash"></i>
-					</a>
 				</div>
 
 			</li>
@@ -95,5 +75,6 @@
 </template>
 
 <script setup>
-const props = defineProps(['actor', 'context']);
+import { RollPoolInput } from "@/components";
+const props = defineProps(["actor", "context"]);
 </script>

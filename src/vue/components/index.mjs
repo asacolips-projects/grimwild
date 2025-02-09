@@ -16,3 +16,4 @@ export { default as TalentTrackers } from "@/components/item/talent/TalentTracke
 export { default as Tabs } from "@/components/parts/Tabs.vue";
 export { default as Tab } from "@/components/parts/Tab.vue";
 export { default as Prosemirror } from "@/components/parts/Prosemirror.vue";
+export { default as RollPoolInput } from "@/components/parts/RollPoolInput.vue";

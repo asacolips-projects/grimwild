@@ -141,16 +141,7 @@ export default class GrimwildCharacter extends GrimwildActorBase {
 		return orderedStats;
 	}
 
-	prepareDerivedData() {
-		// Loop through stat scores, and add their modifiers to our sheet output.
-		for (const key in this.stats) {
-			// Handle stat label localization.
-			this.stats[key].label =
-				game.i18n.localize(CONFIG.GRIMWILD.stats[key]) ?? key;
-			this.stats[key].abbr =
-				game.i18n.localize(CONFIG.GRIMWILD.statAbbreviations[key]) ?? key;
-		}
-
+	prepareBaseData() {
 		// Ensure traits exist.
 		for (let i = 0; i < 3; i++) {
 			if (!this.traits[i]) {
@@ -186,6 +177,17 @@ export default class GrimwildCharacter extends GrimwildActorBase {
 					}
 				}
 			}
+		}
+	}
+
+	prepareDerivedData() {
+		// Loop through stat scores, and add their modifiers to our sheet output.
+		for (const key in this.stats) {
+			// Handle stat label localization.
+			this.stats[key].label =
+				game.i18n.localize(CONFIG.GRIMWILD.stats[key]) ?? key;
+			this.stats[key].abbr =
+				game.i18n.localize(CONFIG.GRIMWILD.statAbbreviations[key]) ?? key;
 		}
 
 		// Calculate spark and story values.

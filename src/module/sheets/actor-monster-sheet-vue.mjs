@@ -16,7 +16,11 @@ export class GrimwildActorMonsterSheetVue extends GrimwildActorSheetVue {
 			"biography",
 			"notes"
 		],
-		itemFields: {}
+		itemFields: {
+			challenge: [
+				"description"
+			]
+		}
 	}
 
 	/** @override */
@@ -45,7 +49,9 @@ export class GrimwildActorMonsterSheetVue extends GrimwildActorSheetVue {
 			rollPool: this._rollPool,
 			roll: this._onRoll
 		},
-		changeActions: {},
+		changeActions: {
+			updateChallengePool: this._updateChallengePool,
+		},
 		// Custom property that's merged into `this.options`
 		dragDrop: [{ dragSelector: "[data-drag]", dropSelector: null }],
 		form: {
@@ -128,67 +134,6 @@ export class GrimwildActorMonsterSheetVue extends GrimwildActorSheetVue {
 		console.log('monster', context);
 
 		return context;
-	}
-
-	/**
-	 * Enrich values for action fields.
-	 *
-	 * @param {object} context
-	 * @param {object} enrichmentOptions
-	 * @param {object} editorOptions
-	 */
-	async _enrichFields(context, enrichmentOptions, editorOptions) {
-		// Enrich other fields.
-		const fields = [
-			"biography",
-			"notes"
-		];
-
-		// Enrich items.
-		const itemTypes = {
-			// talent: [
-			// 	"description",
-			// 	"notes.description"
-			// ]
-		};
-
-		// Enrich actor fields.
-		for (let field of fields) {
-			const editorValue = this.actor.system?.[field] ?? foundry.utils.getProperty(this.actor.system, field);
-			context.editors[`system.${field}`] = {
-				enriched: await TextEditor.enrichHTML(editorValue, enrichmentOptions),
-				element: foundry.applications.elements.HTMLProseMirrorElement.create({
-					...editorOptions,
-					name: `system.${field}`,
-					value: editorValue ?? ""
-				})
-			};
-		}
-
-		// Enrich item fields.
-		for (let [type, itemFields] of Object.entries(itemTypes)) {
-			if (this.document.itemTypes[type]) {
-				// Iterate over the items.
-				for (let item of this.document.itemTypes[type]) {
-					// Handle enriched fields.
-					const itemEnrichmentOptions = {
-						secrets: item.isOwner,
-						rollData: item.getRollData() ?? this.actor.getRollData(),
-						relativeTo: item
-					};
-					// Iterate over each field within those items.
-					for (let itemField of itemFields) {
-						// Retrieve and enrich the field. Ignore creating prosemirror editors
-						// since those should be edited directly on the item.
-						const editorValue = item.system?.[itemField] ?? foundry.utils.getProperty(item.system, itemField);
-						context.editors[`items.${item.id}.system.${itemField}`] = {
-							enriched: await TextEditor.enrichHTML(editorValue, itemEnrichmentOptions),
-							element: null
-						};
-					}
-				}
-			}
-		}
 	}
 
 	/**
@@ -282,40 +227,25 @@ export class GrimwildActorMonsterSheetVue extends GrimwildActorSheetVue {
 	}
 
 	/**
-	 * Handle clickable rolls.
+	 * Handle updating pools on embedded challenge items.
 	 *
-	 * @this GrimwildActorSheet
-	 * @param {PointerEvent} event   The originating click event
-	 * @param {HTMLElement} target   The capturing HTML element which defined a [data-action]
-	 * @returns {Promise|void} The roll object, or void.
-	 * @protected
+	 * @param {PointerEvent} event The originating click event
+	 * @param {HTMLElement} target The capturing HTML element which defined a [data-action]
+	 * @private
 	 */
-	static async _onRoll(event, target) {
+	static async _updateChallengePool(event, target) {
 		event.preventDefault();
-		const dataset = target.dataset;
-		let item = null;
+		// Retrieve props.
+		const { itemId } = target.dataset;
 
-		// Handle item rolls.
-		switch (dataset.rollType) {
-			case "item":
-				item = this._getEmbeddedDocument(target);
-				if (item) return item.roll();
-				break;
-			case "stat":
-				await this.document.system.roll({ stat: dataset.stat });
-				break;
-		}
+		// Handle locked documents.
+		if (!this.isEditable) return;
 
-		// Handle rolls that supply the formula directly.
-		if (dataset.roll) {
-			let label = dataset.label ? `[stat] ${dataset.label}` : "";
-			let roll = new Roll(dataset.roll, this.actor.getRollData());
-			await roll.toMessage({
-				speaker: ChatMessage.getSpeaker({ actor: this.actor }),
-				flavor: label,
-				rollMode: game.settings.get("core", "rollMode")
-			});
-			return roll;
-		}
+		// Retrieve the item.
+		const item = this.document.items.get(itemId);
+		if (!item) return;
+
+		// Update value.
+		await item.update({ "system.roll.diceNum": Number(target.value) });
 	}
 }
