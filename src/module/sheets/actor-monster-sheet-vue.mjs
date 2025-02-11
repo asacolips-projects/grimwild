@@ -131,6 +131,15 @@ export class GrimwildActorMonsterSheetVue extends GrimwildActorSheetVue {
 			}
 		}
 
+		// Handle other custom elements.
+		context.customElements = {};
+		for (let [colorKey, color] of this.document.system.sensories.colors.entries()) {
+			context.customElements[`system.sensories.colors.${colorKey}.color`] = foundry.applications.elements.HTMLColorPickerElement.create({
+				name: `system.sensories.colors.${colorKey}.color`,
+				value: color.color,
+			});
+		}
+
 		console.log('monster', context);
 
 		return context;

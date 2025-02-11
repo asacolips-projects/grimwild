@@ -48,6 +48,16 @@ export default class GrimwildMonster extends GrimwildActorBase {
 				};
 			}
 		}
+
+		// Ensure colors exist.
+		for (let i = 0; i < 3; i++) {
+			if (!this.sensories.colors[i]) {
+				this.sensories.colors[i] = {
+					name: '',
+					color: '',
+				};
+			}
+		}
 	}
 
 }
