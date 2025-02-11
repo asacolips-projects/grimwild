@@ -25,6 +25,8 @@ export class GrimwildActorSheetVue extends VueRenderingMixin(GrimwildBaseVueActo
 		}
 	}
 
+	_arrayEntryKey = 0;
+
 	/** @override */
 	static DEFAULT_OPTIONS = {
 		classes: ["grimwild", "actor"],
@@ -130,6 +132,7 @@ export class GrimwildActorSheetVue extends VueRenderingMixin(GrimwildBaseVueActo
 			config: CONFIG.GRIMWILD,
 			// Force re-renders. Defined in the vue mixin.
 			_renderKey: this._renderKey ?? 0,
+			_arrayEntryKey: this._arrayEntryKey ?? 0,
 			// tabs: this._getTabs(options.parts),
 			// Necessary for formInput and formFields helpers
 			fields: this.document.schema.fields,
@@ -297,15 +300,69 @@ export class GrimwildActorSheetVue extends VueRenderingMixin(GrimwildBaseVueActo
 	 */
 	static async _createArrayEntry(event, target) {
 		event.preventDefault();
-		const { field } = target.dataset;
-		if (!this.document.system?.[field]) return;
+		const {
+			field,
+			fieldType,
+			count
+		} = target.dataset;
 
-		const entries = this.document.system[field];
-		const schema = this.document.system.schema.fields[field];
-		entries.push(schema.element.constructor.name === "StringField" ? "" : { name: "" });
+		// Retrieve the current field value.
+		const entries = !field.startsWith('system.')
+			? this.document.system[field]
+			: foundry.utils.getProperty(this.document, field);
+		// Retrieve the schema.
+		const schema = this.document.system.schema.fields?.[field];
+		const fieldConstructor = fieldType ?? schema?.element.constructor.name;
+		if (!fieldConstructor) return;
+		// Determine the default value of the new entry.
+		let defaultValue = {};
+		switch (fieldConstructor) {
+			case "StringField":
+				defaultValue = "";
+				break;
+
+			case "ArrayField":
+				defaultValue = [];
+				break;
+		
+			default:
+				break;
+		}
+
+		// If we're adding multiple entries at once, such as an 6 strings,
+		// handle that now.
+		let entry = null;
+		if (count) {
+			entry = [];
+			for (let i = 0; i < count; i++) {
+				entry.push(defaultValue);
+			}
+		}
+		else {
+			entry = defaultValue;
+		}
+
+		// Push the new entry.
+		entries.push(entry);
+
+		// Build our final data.
+		let updateData = null;
+		let systemField = field;
+		if (field.startsWith('system.')) {
+			systemField = field.split('.')[1];
+			updateData = this.document.system[systemField];
+			foundry.utils.setProperty(updateData, field.split('system.')[1], entries);
+		}
+		else {
+			updateData = entries;
+		}
+
+		// Perform the update.
 		await this.document.update({
 			[`system.${field}`]: entries
 		});
+		this._arrayEntryKey++;
+		this.render(true);
 	}
 
 	/**
@@ -318,15 +375,34 @@ export class GrimwildActorSheetVue extends VueRenderingMixin(GrimwildBaseVueActo
 	 */
 	static async _deleteArrayEntry(event, target) {
 		event.preventDefault();
-		const { field, key } = target.dataset;
-		if (!this.document.system?.[field]) return;
-
-		const entries = this.document.system[field];
+		const {
+			field,
+			key
+		} = target.dataset;
+		// Retrieve the current field value.
+		const entries = !field.startsWith('system.')
+			? this.document.system[field]
+			: foundry.utils.getProperty(this.document, field);
 		entries.splice(key, 1);
 
+		// Build our final data.
+		let updateData = null;
+		let systemField = field;
+		if (field.startsWith('system.')) {
+			systemField = field.split('.')[1];
+			updateData = this.document.system[systemField];
+			foundry.utils.setProperty(updateData, field.split('system.')[1], entries);
+		}
+		else {
+			updateData = entries;
+		}
+
+		// Perform the update.
 		await this.document.update({
 			[`system.${field}`]: entries
 		});
+		this._arrayEntryKey++;
+		this.render(true);
 	}
 
 	/**

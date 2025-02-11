@@ -116,7 +116,11 @@
   position: relative;
   margin-top: 4px;
 
-  .entry-create {
+  fieldset {
+    position: relative;
+  }
+
+  .legend-control {
     position: absolute;
     top: -20px;
     right: 16px;

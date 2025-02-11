@@ -31,7 +31,7 @@ export class GrimwildActorMonsterSheetVue extends GrimwildActorSheetVue {
 		editPermission: DOCUMENT_OWNERSHIP_LEVELS.OWNER,
 		position: {
 			width: 600,
-			height: 600
+			height: 800
 		},
 		window: {
 			resizable: true
@@ -91,6 +91,7 @@ export class GrimwildActorMonsterSheetVue extends GrimwildActorSheetVue {
 			config: CONFIG.GRIMWILD,
 			// Force re-renders. Defined in the vue mixin.
 			_renderKey: this._renderKey ?? 0,
+			_arrayEntryKey: this._arrayEntryKey ?? 0,
 			// tabs: this._getTabs(options.parts),
 			// Necessary for formInput and formFields helpers
 			fields: this.document.schema.fields,
@@ -167,13 +168,19 @@ export class GrimwildActorMonsterSheetVue extends GrimwildActorSheetVue {
 			key: "moves",
 			label: "Traits / Moves",
 			active: false
-		}
+		};
+
+		context.tabs.primary.tables = {
+			key: "tables",
+			label: "Tables",
+			active: false
+		};
 
 		context.tabs.primary.challenges = {
 			key: "challenges",
 			label: game.i18n.localize("GRIMWILD.Actor.Tabs.Challenges"),
 			active: true,
-		}
+		};
 
 		context.tabs.primary.notes = {
 			key: "notes",

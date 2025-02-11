@@ -67,7 +67,7 @@
 						<!-- Traits -->
 						<fieldset class="traits-fieldset add-another-entries">
 							<legend>{{ context.systemFields.traits.label }}</legend>
-							<button class="trait-control entry-create"
+							<button class="trait-control legend-control entry-create"
 								title="Add trait"
 								data-action="createArrayEntry"
 								data-field="traits"
@@ -91,7 +91,7 @@
 						<!-- Moves -->
 						<fieldset class="moves-fieldset add-another-entries">
 							<legend>{{ context.systemFields.moves.label }}</legend>
-							<button class="move-control entry-create"
+							<button class="move-control legend-control entry-create"
 								title="Add move"
 								data-action="createArrayEntry"
 								data-field="moves"
@@ -124,6 +124,72 @@
 									<label>Doesn't want</label>
 									<input type="text" name="system.desires.1.value" v-model="context.system.desires[1].value"/>
 								</div>
+							</div>
+						</fieldset>
+					</Tab>
+
+					<!-- Tables -->
+					<Tab group="primary" :tab="tabs.primary.tables">
+						<fieldset class="monster-tables add-another-entries" :key="context._arrayEntryKey">
+							<legend>Tables</legend>
+							<button class="legend-control entry-create"
+								title="Add table"
+								data-action="createArrayEntry"
+								data-field="tables"
+							><i class="fas fa-plus"></i></button>
+							<div class="monster-tables-wrapper form-group stacked">
+								<fieldset v-for="(table, tableKey) in context.system.tables" :key="tableKey">
+									<legend>Table</legend>
+									<button class="legend-control entry-delete"
+										title="Delete trait"
+										data-action="deleteArrayEntry"
+										data-field="tables"
+										:data-key="tableKey"
+									><i class="fas fa-trash"></i></button>
+									<div class="form-group">
+										<label>Table name</label>
+										<input type="text" 
+											:name="`system.tables.${tableKey}.name`" 
+											placeholder="Hoarding Instincts"
+											v-model="table.name"
+										/>
+									</div>
+									<div class="form-group">
+										<label>Table instructions</label>
+										<input type="text" 
+											:name="`system.tables.${tableKey}.instructions`" 
+											placeholder="besides gold"
+											v-model="table.instructions"
+										/>
+									</div>
+									<div class="tables-wrapper form-group stacked">
+										<div class="form-group stacked">
+											<fieldset class="tables-wrapper add-another-entries" v-for="(col, colKey) in table.table" :key="colKey">
+												<legend>d6</legend>
+												<button class="legend-control entry-delete"
+													title="Delete trait"
+													data-action="deleteArrayEntry"
+													:data-field="`system.tables.${tableKey}.table`"
+													:data-key="colKey"
+												><i class="fas fa-trash"></i></button>
+												<div v-for="(row, rowKey) in col" :key="rowKey" class="form-group">
+													<label>{{ rowKey + 1 }}</label>
+													<input type="text"
+														:name="`system.tables.${tableKey}.table.${colKey}.${rowKey}`"
+														v-model="context.system.tables[tableKey]['table'][colKey][rowKey]"
+													/>
+												</div>
+											</fieldset>
+										</div>
+										<button class="table-control entry-create"
+											title="Add column"
+											data-action="createArrayEntry"
+											:data-field="`system.tables.${tableKey}.table`"
+											data-field-type="StringField"
+											data-count="6"
+										><i class="fas fa-plus"></i>Add d6 table group</button>
+									</div>
+								</fieldset>
 							</div>
 						</fieldset>
 					</Tab>
