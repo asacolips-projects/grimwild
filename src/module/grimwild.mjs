@@ -13,6 +13,8 @@ import * as utils from "./helpers/utils.js";
 // Import DataModel classes
 import * as models from "./data/_module.mjs";
 
+import { SUSPENSE_TRACKER } from "./controls/suspense.mjs";
+
 /* -------------------------------------------- */
 /*  Init Hook                                   */
 /* -------------------------------------------- */
@@ -148,6 +150,8 @@ Hooks.once("init", function () {
 		// Call the original Roll.create for other cases
 		return originalCreate.call(this, formula);
 	};
+
+	SUSPENSE_TRACKER.init();
 });
 
 /* -------------------------------------------- */
@@ -166,6 +170,10 @@ Handlebars.registerHelper("toLowerCase", function (str) {
 Hooks.once("ready", function () {
 	// Wait to register hotbar drop hook on ready so that modules could register earlier if they want to
 	Hooks.on("hotbarDrop", (bar, data, slot) => createDocMacro(data, slot));
+});
+
+Hooks.once("renderHotbar", function() {
+	SUSPENSE_TRACKER.render();
 });
 
 /* -------------------------------------------- */

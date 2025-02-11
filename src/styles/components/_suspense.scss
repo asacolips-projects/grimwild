@@ -1,0 +1,28 @@
+* {
+    color: $c-white;
+    background: $c-black;
+    text-align: center;
+}
+
+#sus-adjust {
+    display: flex;
+    flex-direction: column;
+    min-width: fit-content;
+}
+button {
+    pointer-events: all;
+}
+
+#sus-control-inner {
+    justify-content: left;
+    display: flex;
+}
+
+#sus-display {
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+}
+#js-sus-current {
+    height: 50%;
+}
