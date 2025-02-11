@@ -132,6 +132,10 @@ GRIMWILD:
           label: Pool
         role:
           label: Role
+        traits:
+          label: Traits
+        moves:
+          label: Moves
   Item:
     Tabs:
       Attributes: Attributes

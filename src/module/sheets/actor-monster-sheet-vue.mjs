@@ -163,17 +163,23 @@ export class GrimwildActorMonsterSheetVue extends GrimwildActorSheetVue {
 			active: false
 		};
 
-		context.tabs.primary.notes = {
-			key: "notes",
-			label: game.i18n.localize("GRIMWILD.Actor.Tabs.Notes"),
+		context.tabs.primary.moves = {
+			key: "moves",
+			label: "Traits / Moves",
 			active: false
-		};
+		}
 
 		context.tabs.primary.challenges = {
 			key: "challenges",
 			label: game.i18n.localize("GRIMWILD.Actor.Tabs.Challenges"),
 			active: true,
 		}
+
+		context.tabs.primary.notes = {
+			key: "notes",
+			label: game.i18n.localize("GRIMWILD.Actor.Tabs.Notes"),
+			active: false
+		};
 	}
 
 	/* -------------------------------------------- */

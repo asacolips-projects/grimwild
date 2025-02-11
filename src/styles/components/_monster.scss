@@ -26,3 +26,20 @@
     }
   }
 }
+
+.monster-colors {
+  flex-wrap: nowrap;
+}
+
+.monster-color {
+  flex: 1;
+  height: 5px;
+}
+
+.monster-color-name {
+  text-align: center;
+  text-transform: uppercase;
+  font-size: 10px;
+  letter-spacing: 1px;
+  padding: 2px 0 0;
+}

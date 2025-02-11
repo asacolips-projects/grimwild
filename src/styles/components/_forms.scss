@@ -111,6 +111,61 @@
   gap: 2px;
 }
 
+// Add another fieldset.
+.add-another-entries {
+  position: relative;
+  margin-top: 4px;
+
+  .entry-create {
+    position: absolute;
+    top: -20px;
+    right: 16px;
+    width: 20px;
+    height: 20px;
+    text-align: center;
+    line-height: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    i {
+      margin: 0;
+    }
+  }
+}
+
+.entry {
+  position: relative;
+
+  &:hover {
+    .entry-delete {
+      display: block;
+    }
+  }
+
+  .entry-delete {
+    display: none;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    right: -8px;
+    margin: auto;
+    background: black;
+    width: 20px;
+    height: 20px;
+    text-align: center;
+    line-height: 20px;
+    border: 1px solid;
+    border-radius: 4px;
+
+    &:hover,
+    &:focus {
+      color: #5d142b;
+      text-shadow: none;
+    }
+  }
+}
+
 // Bonds.
 .bonds-fieldset {
   position: relative;

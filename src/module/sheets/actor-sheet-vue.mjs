@@ -301,7 +301,8 @@ export class GrimwildActorSheetVue extends VueRenderingMixin(GrimwildBaseVueActo
 		if (!this.document.system?.[field]) return;
 
 		const entries = this.document.system[field];
-		entries.push({ name: "" });
+		const schema = this.document.system.schema.fields[field];
+		entries.push(schema.element.constructor.name === "StringField" ? "" : { name: "" });
 		await this.document.update({
 			[`system.${field}`]: entries
 		});
