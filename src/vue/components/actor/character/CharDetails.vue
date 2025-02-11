@@ -44,7 +44,7 @@
 					<!-- Duration -->
 					<div class="condition-duration">
 						<RollPoolInput v-if="condition.severity !== 'permanent'"
-							action="rollPool"
+							button-action="rollPool"
 							field="conditions"
 							:field-key="key"
 							:field-name="`system.conditions.${key}.pool.diceNum`"
