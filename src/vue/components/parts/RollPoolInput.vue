@@ -6,7 +6,7 @@
 			:data-item-id="itemId"
 			:data-field="field"
 			:data-key="fieldKey"
-		><i class="fas fa-dice-d6"></i><strong>Roll</strong></button>
+		><i class="fas fa-dice-d6"></i><strong v-if="buttonLabel">{{ buttonLabel }}</strong></button>
 		<input type="number"
 			class="roll-pool-input"
 			:data-action-change="inputAction"
@@ -26,6 +26,7 @@ const props = defineProps([
 	'name',
 	'buttonAction',
 	'buttonRollType',
+	'buttonLabel',
 	'inputAction',
 	'field',
 	'fieldKey',

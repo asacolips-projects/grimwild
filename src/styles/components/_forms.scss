@@ -334,3 +334,28 @@
     margin: 0;
   }
 }
+
+// Challenge pool styling.
+.challenge {
+  .challenge-pool {
+    flex: 0 0 110px;
+  }
+}
+
+.roll-pool {
+  > * {
+    flex: 0;
+  }
+  
+  > input {
+    flex: 0 0 40px;
+  }
+  
+  button {
+    text-align: center;
+  
+    i {
+      margin: 0;
+    }
+  }
+}
