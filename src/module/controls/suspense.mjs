@@ -65,7 +65,7 @@ class SuspenseTracker {
         <div id="sus-control-inner">
             <div id="sus-display">
                 <div id="js-sus-current">${this.suspense}</div>
-                <div id="sus-label">suspense</div>
+                <div id="sus-label">SUSPENSE</div>
             </div>
             <div id="sus-adjust">
                 <button id="js-sus-up">+</button>

@@ -1,7 +1,13 @@
 * {
     color: $c-white;
-    background: $c-black;
     text-align: center;
+    font-family: $font-display;
+}
+
+#sus-control-inner {
+    display: flex;
+    justify-content: left;
+    margin: 1px;
 }
 
 #sus-adjust {
@@ -9,20 +15,32 @@
     flex-direction: column;
     min-width: fit-content;
 }
-button {
-    pointer-events: all;
-}
 
-#sus-control-inner {
-    justify-content: left;
-    display: flex;
+button {
+    background: $c-black;
+    pointer-events: all;
+    border-color: $c-dark;
+    margin: 1px;
 }
 
 #sus-display {
+    background: $c-black;
     display: flex;
     flex-direction: column;
     justify-content: end;
+    padding: 2px;
+    border: 1px solid;
+    border-radius: 4px;
+    border-color: $c-dark;
+    margin: 1px;
 }
+
 #js-sus-current {
-    height: 50%;
+    padding: 2px;
+    font-size: xx-large;
+}
+
+#sus-label {
+    padding: 2px;
+    max-height: fit-content;
 }
