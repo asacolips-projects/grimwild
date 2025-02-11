@@ -362,7 +362,7 @@ export class GrimwildActorSheetVue extends VueRenderingMixin(GrimwildBaseVueActo
 			[`system.${field}`]: entries
 		});
 		this._arrayEntryKey++;
-		this.render(true);
+		this.render();
 	}
 
 	/**

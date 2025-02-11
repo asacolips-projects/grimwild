@@ -130,15 +130,9 @@
 
 					<!-- Tables -->
 					<Tab group="primary" :tab="tabs.primary.tables">
-						<fieldset class="monster-tables add-another-entries" :key="context._arrayEntryKey">
-							<legend>Tables</legend>
-							<button class="legend-control entry-create"
-								title="Add table"
-								data-action="createArrayEntry"
-								data-field="tables"
-							><i class="fas fa-plus"></i></button>
-							<div class="monster-tables-wrapper form-group stacked">
-								<fieldset v-for="(table, tableKey) in context.system.tables" :key="tableKey">
+						<section class="monster-tables-wrapper form-group stacked ">
+							<div class="monster-tables form-group stacked" :key="context._arrayEntryKey">
+								<fieldset class="add-another-entries" v-for="(table, tableKey) in context.system.tables" :key="tableKey">
 									<legend>Table</legend>
 									<button class="legend-control entry-delete"
 										title="Delete trait"
@@ -190,8 +184,14 @@
 										><i class="fas fa-plus"></i>Add d6 table group</button>
 									</div>
 								</fieldset>
+
+								<button class="monster-table-create entry-create"
+									title="Add table"
+									data-action="createArrayEntry"
+									data-field="tables"
+								><i class="fas fa-plus"></i>Add table</button>
 							</div>
-						</fieldset>
+						</section>
 					</Tab>
 
 					<!-- Challenges fields -->
