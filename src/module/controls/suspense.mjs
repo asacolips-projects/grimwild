@@ -12,8 +12,8 @@ class SuspenseTracker {
     init() {
         console.log("Suspense: initialising");
         game.settings.register("grimwild", "suspenseVisible", {
-            name: "Suspense visible to players",
-            hint: "Toggle this on/off to show/hide the suspense tracker for non-GMs",
+            name: game.i18n.localize("GRIMWILD.Settings.suspenseVisible.name"),
+            hint: game.i18n.localize("GRIMWILD.Settings.suspenseVisible.hint"),
             scope: "world",
             config: true,
             type: Boolean,
@@ -47,11 +47,12 @@ class SuspenseTracker {
             <button id="js-sus-dn">-</button>
         </div>`;
 
+        const label = game.i18n.localize("GRIMWILD.Resources.suspense");
         const susControlInnerHTML = `
         <div id="sus-control-inner">
             <div id="sus-display">
                 <div id="sus-current">${getSuspense()}</div>
-                <div id="sus-label">SUSPENSE</div>
+                <div id="sus-label">${label}</div>
             </div>
             ${isGM ? buttonHtml : ""}
         </div>`;
