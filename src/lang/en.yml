@@ -126,12 +126,16 @@ GRIMWILD:
                 permanent:
                   label: Permanent
         
-    Npc:
+    Monster:
       FIELDS:
         pool:
           label: Pool
         role:
           label: Role
+        traits:
+          label: Traits
+        moves:
+          label: Moves
   Item:
     Tabs:
       Attributes: Attributes
@@ -178,7 +182,7 @@ GRIMWILD:
 TYPES:
   Actor:
     character: Character
-    npc: NPC
+    monster: Monster
   Item:
     talent: Talent
     equipment: Equipment

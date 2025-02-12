@@ -4,6 +4,7 @@ import { GrimwildItem } from "./documents/item.mjs";
 // Import sheet classes.
 import { GrimwildActorSheet } from "./sheets/actor-sheet.mjs";
 import { GrimwildActorSheetVue } from "./sheets/actor-sheet-vue.mjs";
+import { GrimwildActorMonsterSheetVue } from "./sheets/actor-monster-sheet-vue.mjs";
 import { GrimwildItemSheet } from "./sheets/item-sheet.mjs";
 import { GrimwildItemSheetVue } from "./sheets/item-sheet-vue.mjs";
 // Import helper/utility classes and constants.
@@ -27,6 +28,7 @@ globalThis.grimwild = {
 	applications: {
 		GrimwildActorSheet,
 		GrimwildActorSheetVue,
+		GrimwildActorMonsterSheetVue,
 		GrimwildItemSheet,
 		GrimwildItemSheetVue
 	},
@@ -62,10 +64,10 @@ Hooks.once("init", function () {
 
 	// Note that you don't need to declare a DataModel
 	// for the base actor/item classes - they are included
-	// with the Character/NPC as part of super.defineSchema()
+	// with the Character/Monster as part of super.defineSchema()
 	CONFIG.Actor.dataModels = {
 		character: models.GrimwildCharacter,
-		npc: models.GrimwildNPC
+		monster: models.GrimwildMonster
 	};
 	CONFIG.Item.documentClass = GrimwildItem;
 	CONFIG.Item.dataModels = {
@@ -81,10 +83,10 @@ Hooks.once("init", function () {
 
 	// Register sheet application classes
 	Actors.unregisterSheet("core", ActorSheet);
-	Actors.registerSheet("grimwild", GrimwildActorSheet, {
+	Actors.registerSheet("grimwild", GrimwildActorMonsterSheetVue, {
 		makeDefault: true,
-		label: "Grimwild Fallback Sheet",
-		types: ["npc"]
+		label: "Monster Sheet",
+		types: ["monster"]
 	});
 	Actors.registerSheet("grimwild", GrimwildActorSheetVue, {
 		makeDefault: true,
@@ -93,11 +95,11 @@ Hooks.once("init", function () {
 	});
 	Items.unregisterSheet("core", ItemSheet);
 	Items.registerSheet("grimwild", GrimwildItemSheet, {
-		makeDefault: true,
-		label: "GRIMWILD.SheetLabels.Item"
+		makeDefault: false,
+		label: "GRIMWILD.SheetLabels.Item",
 	});
 	Items.registerSheet("grimwild", GrimwildItemSheetVue, {
-		makeDefault: false,
+		makeDefault: true,
 		label: "Grimwild Vue Sheet",
 		types: ["talent"]
 	});

@@ -41,21 +41,16 @@
 			><i class="fas fa-plus"></i></button>
 			<div class="conditions form-group stacked">
 				<div class="condition form-group stacked" v-for="(condition, key) in context.system.conditions" :key="key">
+					<!-- Duration -->
 					<div class="condition-duration">
-						<button v-if="condition.severity !== 'permanent'"
-							class="condition-roll"
-							data-action="rollPool"
-							data-field="conditions"
-							:data-key="key"
-						><i class="fas fa-dice-d6"></i><strong>Roll</strong></button>
-						<div v-if="condition.severity !== 'permanent'" class="condition-value-pool flexrow">
-							<input type="number"
-								class=""
-								:name="`system.conditions.${key}.pool.diceNum`"
-								v-model="condition.pool.diceNum"
-								min="0"
-							/><span class="pool-suffix">d</span>
-						</div>
+						<RollPoolInput v-if="condition.severity !== 'permanent'"
+							button-action="rollPool"
+							field="conditions"
+							:field-key="key"
+							:field-name="`system.conditions.${key}.pool.diceNum`"
+							:pool="condition.pool"
+							min="0"
+						/>
 						<select :name="`system.conditions.${key}.severity`" v-model="condition.severity">
 							<option v-for="(choice, choiceKey) in context.systemFields.conditions.element.fields.severity.choices"
 								:key="choiceKey"
@@ -63,11 +58,13 @@
 							>{{ choice }}</option>
 						</select>
 					</div>
+					<!-- Name -->
 					<input type="text"
 						:name="`system.conditions.${key}.name`"
 						v-model="condition.name"
 						placeholder="Condition name"
 					/>
+					<!-- Remove -->
 					<a class="condition-control condition-delete"
 						title="Delete condition"
 						data-action="deleteArrayEntry"
@@ -108,8 +105,8 @@
 </template>
 
 <script setup>
-// import {
-// 	Prosemirror
-// } from '@/components';
+import {
+	RollPoolInput
+} from '@/components';
 const props = defineProps(['actor', 'context']);
 </script>

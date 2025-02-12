@@ -32,6 +32,11 @@
   scrollbar-width: thin;
   color: $c-tan;
 
+  .item-summary,
+  .item-description-wrapper {
+    width: 100%;
+  }
+
   // Child lists
   .item-list {
     list-style: none;

@@ -1,7 +1,7 @@
 // Export Actors
 export { default as GrimwildActorBase } from "./base-actor.mjs";
 export { default as GrimwildCharacter } from "./actor-character.mjs";
-export { default as GrimwildNPC } from "./actor-npc.mjs";
+export { default as GrimwildMonster } from "./actor-monster.mjs";
 
 // Export Items
 export { default as GrimwildItemBase } from "./base-item.mjs";

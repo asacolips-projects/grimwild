@@ -161,7 +161,7 @@ export class GrimwildItemSheetVue extends VueRenderingMixin(GrimwildBaseVueItemS
 			active: false
 		};
 
-		// Tabs limited to NPCs.
+		// Tabs limited to Monsters.
 		context.tabs.primary.attributes = {
 			key: "attributes",
 			label: game.i18n.localize("GRIMWILD.Item.Tabs.Attributes"),

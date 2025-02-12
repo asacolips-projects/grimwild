@@ -78,7 +78,7 @@ export class GrimwildActorSheet extends api.HandlebarsApplicationMixin(
 		if (this.document.type === "character") {
 			options.parts.push("talents");
 		}
-		if (this.document.type === "npc") {
+		if (this.document.type === "monster") {
 			options.parts.push("challenges");
 		}
 
@@ -245,7 +245,7 @@ export class GrimwildActorSheet extends api.HandlebarsApplicationMixin(
 			context.talents = talents.sort((a, b) => (a.sort || 0) - (b.sort || 0));
 		}
 
-		if (this.document.type === "npc") {
+		if (this.document.type === "") {
 			context.challenges = challenges.sort((a, b) => (a.sort || 0) - (b.sort || 0));
 		}
 	}
