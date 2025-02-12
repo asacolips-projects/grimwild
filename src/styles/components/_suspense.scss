@@ -42,6 +42,9 @@ button {
     &:hover {
         background-color: $c-black;
     }
+    &.flash {
+        box-shadow: 0 0 40px var(--color-warm-2) inset;
+    }
 }
 
 #sus-current {

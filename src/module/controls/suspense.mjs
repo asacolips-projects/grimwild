@@ -18,7 +18,7 @@ class SuspenseTracker {
             config: true,
             type: Boolean,
             default: true,
-            onChange: this.render
+            onChange: _ => this.render()
         });
         game.settings.register("grimwild", "suspense", {
             name: "Suspense",
@@ -30,7 +30,7 @@ class SuspenseTracker {
         });
     }
 
-    render() {
+    render(value) {
         const isGM = game.user.isGM;
         const visibleToPlayers = game.settings.get("grimwild", "suspenseVisible");
 
@@ -68,6 +68,13 @@ class SuspenseTracker {
             document.getElementById("js-sus-dn").onclick = () => {
                 setSuspense(Math.max(getSuspense() - 1, 0));
             };
+        } else if(!isNaN(value)) {
+            // flash the display to notify players that the suspense value changed
+            // a numerical value should only be passed in if triggered by the setting value changing
+            // not by the initial render, or the visibilty toggle re-render
+            const display = document.getElementById("sus-display");
+            display.classList.add("flash");
+            setTimeout(() => display.classList.remove("flash"), 50);
         }
     }
 }
