@@ -2,6 +2,9 @@
 GRIMWILD:
   Settings:
     Grimwild: 'Grimwild'
+    suspenseVisible:
+      name: Suspense visible to players
+      hint: Toggle this on/off to show/hide the suspense tracker for non-GMs.
   Stat:
     bra:
       long: Brawn
@@ -65,6 +68,7 @@ GRIMWILD:
     points: Points
     toggles: Toggles
     text: Text
+    suspense: Suspense
   SheetLabels:
     Actor: Grimwild Actor Sheet
     Item: Grimwild Item Sheet
