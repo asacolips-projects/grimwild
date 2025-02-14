@@ -1,0 +1,32 @@
+folder: AqQ3YAkWtiAtqHH9
+name: Ritualist
+type: talent
+_id: hZrZtCwAcofBWdRb
+img: icons/magic/unholy/hands-circle-light-green.webp
+system:
+  description: >-
+    <p>You take +1d when working towards overcoming a ritual's challenge and can
+    replace any one of a ritual's anchors with yourself.</p><p></p>
+  core: false
+  notes:
+    description: ''
+    label: ''
+  trackers: []
+  path: warlock
+effects: []
+sort: 0
+ownership:
+  default: 0
+  Dl5Tvf37OuEHwdAh: 3
+flags: {}
+_stats:
+  compendiumSource: null
+  duplicateSource: null
+  coreVersion: '12.331'
+  systemId: grimwild
+  systemVersion: 0.1.0
+  createdTime: 1739140434336
+  modifiedTime: 1739140434336
+  lastModifiedBy: Dl5Tvf37OuEHwdAh
+_key: '!items!hZrZtCwAcofBWdRb'
+

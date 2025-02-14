@@ -1,0 +1,43 @@
+folder: QQwq5i3yUUjhboM4
+name: Lurker
+type: talent
+_id: nE6eoObfKcHrxjzZ
+img: icons/magic/perception/shadow-stealth-eyes-purple.webp
+system:
+  description: >-
+    <p>On a perfect sneaking past or secretly observing sentient creatures,
+    they: <em>let a secret slip</em>—<em>give you a golden opportunity</em>. If
+    caught sneaking, you can <strong>push yourself</strong> to stay completely
+    still and avoid detection, but must leave the area immediately after.</p>
+  core: false
+  notes:
+    description: ''
+    label: ''
+  trackers:
+    - type: points
+      label: Push
+      points:
+        value: 1
+        max: 1
+        showSteps: true
+      pool:
+        diceNum: 0
+        max: null
+  path: rogue
+effects: []
+sort: 0
+ownership:
+  default: 0
+  Dl5Tvf37OuEHwdAh: 3
+flags: {}
+_stats:
+  compendiumSource: null
+  duplicateSource: null
+  coreVersion: '12.331'
+  systemId: grimwild
+  systemVersion: 0.1.0
+  createdTime: 1739130472186
+  modifiedTime: 1739130472186
+  lastModifiedBy: Dl5Tvf37OuEHwdAh
+_key: '!items!nE6eoObfKcHrxjzZ'
+

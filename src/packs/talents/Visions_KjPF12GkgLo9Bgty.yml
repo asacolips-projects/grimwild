@@ -1,0 +1,35 @@
+folder: AqQ3YAkWtiAtqHH9
+name: Visions
+type: talent
+_id: KjPF12GkgLo9Bgty
+img: icons/magic/perception/orb-crystal-ball-scrying.webp
+system:
+  description: >-
+    <p>You can roll Presence to ask your patron for forbidden knowledge, like
+    <em>tightly held secrets</em> or <em>that which should not be known</em>.
+    Ask the GM a specific question. The answer may be cryptic or twisted to suit
+    your patron’s desires, but it will never be an outright lie. On a messy or
+    grim, roll the Patience pool.</p>
+  core: false
+  notes:
+    description: ''
+    label: ''
+  trackers: []
+  path: ''
+effects: []
+sort: 0
+ownership:
+  default: 0
+  Dl5Tvf37OuEHwdAh: 3
+flags: {}
+_stats:
+  compendiumSource: null
+  duplicateSource: null
+  coreVersion: '12.331'
+  systemId: grimwild
+  systemVersion: 0.1.0
+  createdTime: 1739140434336
+  modifiedTime: 1739140434336
+  lastModifiedBy: Dl5Tvf37OuEHwdAh
+_key: '!items!KjPF12GkgLo9Bgty'
+

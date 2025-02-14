@@ -1,0 +1,20 @@
+name: Paladin
+sorting: a
+folder: null
+type: Item
+_id: y6k4T3gOk4ZxsYPe
+description: ''
+sort: 100000
+color: null
+flags: {}
+_stats:
+  compendiumSource: null
+  duplicateSource: null
+  coreVersion: '12.331'
+  systemId: grimwild
+  systemVersion: 0.1.0
+  createdTime: 1739115233970
+  modifiedTime: 1739115234019
+  lastModifiedBy: Dl5Tvf37OuEHwdAh
+_key: '!folders!y6k4T3gOk4ZxsYPe'
+

@@ -1,0 +1,33 @@
+folder: QQwq5i3yUUjhboM4
+name: Trap Sense
+type: talent
+_id: l7fghNbTrlBFmVQh
+img: icons/environment/traps/trap-jaw-tan.webp
+system:
+  description: >-
+    <p>You always get a <strong>hint</strong> or <strong>reveal</strong> on
+    vigilance against traps. When you avoid or disable a trap, <strong>take
+    spark</strong>.</p>
+  core: false
+  notes:
+    description: ''
+    label: ''
+  trackers: []
+  path: rogue
+effects: []
+sort: 0
+ownership:
+  default: 0
+  Dl5Tvf37OuEHwdAh: 3
+flags: {}
+_stats:
+  compendiumSource: null
+  duplicateSource: null
+  coreVersion: '12.331'
+  systemId: grimwild
+  systemVersion: 0.1.0
+  createdTime: 1739130472186
+  modifiedTime: 1739130472186
+  lastModifiedBy: Dl5Tvf37OuEHwdAh
+_key: '!items!l7fghNbTrlBFmVQh'
+

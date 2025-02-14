@@ -2,7 +2,7 @@ folder: n7jEJF8MCm2SAEyA
 name: Influence
 type: talent
 _id: 5wYPsQCeXcoVNH25
-img: icons/svg/item-bag.svg
+img: icons/skills/social/diplomacy-handshake.webp
 system:
   description: >-
     <p>Twice per session, you can <strong>invoke an ally's bond with
@@ -14,7 +14,7 @@ system:
     label: ''
   trackers:
     - type: points
-      label: Ifluence
+      label: Influence
       points:
         value: 2
         max: 2
@@ -36,7 +36,7 @@ _stats:
   systemId: grimwild
   systemVersion: 0.1.0
   createdTime: 1739042795826
-  modifiedTime: 1739043731704
+  modifiedTime: 1739064679614
   lastModifiedBy: Dl5Tvf37OuEHwdAh
 _key: '!items!5wYPsQCeXcoVNH25'
 

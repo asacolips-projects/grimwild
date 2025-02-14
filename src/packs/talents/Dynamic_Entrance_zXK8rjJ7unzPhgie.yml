@@ -2,7 +2,7 @@ folder: n7jEJF8MCm2SAEyA
 name: Dynamic Entrance
 type: talent
 _id: zXK8rjJ7unzPhgie
-img: icons/svg/item-bag.svg
+img: icons/skills/movement/figure-running-gray.webp
 system:
   description: >-
     <p>You can always appear in a scene anywhere and anytime, limited only by
@@ -29,7 +29,7 @@ _stats:
   systemId: grimwild
   systemVersion: 0.1.0
   createdTime: 1739042795826
-  modifiedTime: 1739042795826
+  modifiedTime: 1739141249114
   lastModifiedBy: Dl5Tvf37OuEHwdAh
 _key: '!items!zXK8rjJ7unzPhgie'
 

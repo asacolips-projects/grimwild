@@ -1,0 +1,89 @@
+folder: AqQ3YAkWtiAtqHH9
+name: Pact
+type: talent
+_id: fvnHaIRh7aJEJj1H
+img: icons/magic/symbols/runes-triangle-orange-purple.webp
+system:
+  description: >-
+    <div class="page" title="Page 76"><div class="layoutArea"><div
+    class="column"><p><span style="font-family:'Capito04VAR'">Create your
+    patron, a powerful otherworldly being you've made a pact with to gain gifts
+    in exchange for obligations.</span></p><p><span
+    style="font-family:'Capito04VAR'"><strong>Gifts</strong>: Your patron
+    actively or passively meddles in your affairs. Before each session, roll 2d
+    and write these results down as Gifts. During the session, you can replace
+    </span><span style="font-family:'Capito04VARItalic'"><em>any
+    </em></span><span style="font-family:'Capito04VAR'">rolled d6 </span><span
+    style="font-family:'Capito04VARItalic'"><em>(by anyone) </em></span><span
+    style="font-family:'Capito04VAR'">with one of your gift results, then erase
+    the Gift.</span></p><p><span style="font-family:'Capito04VAR'">You can also
+    cast cantrips with your patron's trappings as touchstones, useful as
+    </span><span style="font-family:'Capito04VARItalic'"><em>set dressing
+    </em></span><span style="font-family:'Capito04VAR'">and </span><span
+    style="font-family:'Capito04VARItalic'"><em>cantrip utility</em></span><span
+    style="font-family:'Capito04VAR'">. </span><span
+    style="font-family:'Capito04VARItalic'"><em><strong>You gain a bonus
+    talent</strong></em></span><span style="font-family:'Capito04VAR'">, and
+    each of your talents is infused with their trappings.</span></p><p><span
+    style="font-family:'Capito04VAR'"><strong>Obligations</strong>: Each patron
+    has different demands. You have an extra story arc to represent their
+    demands. Some patrons expect meaningful progress, while others ask only for
+    the lightest of service. You define what this means. Before each session,
+    discuss this story arc. Your patron has an </span><span
+    style="font-family:'Capito04VARItalic'"><em><strong>8d Patience</strong>
+    </em></span><span style="font-family:'Capito04VAR'">pool. Roll it if your
+    patron was not satisfied with your progress last session. At 0d, your patron
+    will give you a visit in some form to </span><span
+    style="font-family:'Capito04VARItalic'"><em><strong>clear up the
+    issue</strong></em></span><span style="font-family:'Capito04VAR'">,
+    replenishing the pool.</span></p></div></div></div>
+  core: true
+  notes:
+    description: <p><em>Describe your patron's trappings here.</em></p>
+    label: Patron
+  trackers:
+    - type: pool
+      label: Patience
+      pool:
+        diceNum: 8
+        max: 8
+      points:
+        showSteps: false
+        value: 1
+        max: 1
+    - type: points
+      label: Gift 1
+      points:
+        value: 1
+        max: 1
+        showSteps: true
+      pool:
+        diceNum: 0
+        max: null
+    - type: points
+      label: Gift 2
+      points:
+        value: 1
+        max: 1
+        showSteps: true
+      pool:
+        diceNum: 0
+        max: null
+  path: warlock
+effects: []
+sort: 0
+ownership:
+  default: 0
+  Dl5Tvf37OuEHwdAh: 3
+flags: {}
+_stats:
+  compendiumSource: Item.fvnHaIRh7aJEJj1H
+  duplicateSource: null
+  coreVersion: '12.331'
+  systemId: grimwild
+  systemVersion: 0.1.0
+  createdTime: 1739140434336
+  modifiedTime: 1739140434336
+  lastModifiedBy: Dl5Tvf37OuEHwdAh
+_key: '!items!fvnHaIRh7aJEJj1H'
+

@@ -1,0 +1,37 @@
+folder: stI4BJrCCbXWUzHc
+name: Into the Fray
+type: talent
+_id: f0dLy8cY23PJeCN3
+img: icons/skills/melee/spear-tips-three-green.webp
+system:
+  description: >-
+    <div class="page" title="Page 59"><div class="layoutArea"><div
+    class="column"><p><span style="font-family:'Capito04VAR'">When you're the
+    first into an intense situation, </span><span
+    style="font-family:'Capito04VARItalic'"><em><strong>5s count as 6s, but 4s
+    count as 1s</strong> </em></span><span style="font-family:'Capito04VAR'">on
+    your first roll. You also <strong>setup</strong> the first person following
+    you regardless of your roll outcome.</span></p></div></div></div>
+  core: false
+  notes:
+    description: ''
+    label: ''
+  trackers: []
+  path: berserker
+effects: []
+sort: 0
+ownership:
+  default: 0
+  Dl5Tvf37OuEHwdAh: 3
+flags: {}
+_stats:
+  compendiumSource: null
+  duplicateSource: null
+  coreVersion: '12.331'
+  systemId: grimwild
+  systemVersion: 0.1.0
+  createdTime: 1739062678115
+  modifiedTime: 1739065009955
+  lastModifiedBy: Dl5Tvf37OuEHwdAh
+_key: '!items!f0dLy8cY23PJeCN3'
+

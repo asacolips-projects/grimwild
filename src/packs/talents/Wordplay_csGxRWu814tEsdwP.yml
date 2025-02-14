@@ -2,7 +2,7 @@ folder: n7jEJF8MCm2SAEyA
 name: Wordplay
 type: talent
 _id: csGxRWu814tEsdwP
-img: icons/svg/item-bag.svg
+img: icons/sundries/misc/teeth-dentures.webp
 system:
   description: >-
     <p>On a perfect defense roll when the situation allows for verbal quips, you
@@ -37,7 +37,7 @@ _stats:
   systemId: grimwild
   systemVersion: 0.1.0
   createdTime: 1739042795826
-  modifiedTime: 1739042795826
+  modifiedTime: 1739064801826
   lastModifiedBy: Dl5Tvf37OuEHwdAh
 _key: '!items!csGxRWu814tEsdwP'
 

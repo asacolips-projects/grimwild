@@ -1,0 +1,53 @@
+folder: i53xgSVOBOe4n7Mr
+name: Swiftwing
+type: talent
+_id: DkIoxwNO3SKehHN0
+img: icons/creatures/birds/raptor-hawk-flying.webp
+system:
+  description: >-
+    <div class="page" title="Page 149"><div class="layoutArea"><div
+    class="column"><p><span style="font-family:'Capito04VAR'">You have
+    </span><span style="font-family:'Capito04VARItalic'"><em>highly maneuverable
+    </em></span><span style="font-family:'Capito04VAR'">wings that allow you to
+    glide (</span><span style="font-family:'Capito04VARItalic'"><em>not
+    fly</em></span><span style="font-family:'Capito04VAR'">). You gain a
+    </span><span style="font-family:'Capito04VARItalic'"><em><strong>3d power
+    pool</strong> </em></span><span style="font-family:'Capito04VAR'">while
+    aloft, or </span><span
+    style="font-family:'Capito04VARItalic'"><em><strong>4d</strong>
+    </em></span><span style="font-family:'Capito04VAR'">if you have extreme
+    height or speed. You must roll the pool as bonus dice with any physical roll
+    made while aloft, including defenses. At 0d, you coast back to the
+    ground.</span></p></div></div></div>
+  core: false
+  notes:
+    description: ''
+    label: ''
+  trackers:
+    - type: pool
+      label: Wing
+      pool:
+        diceNum: 3
+        max: 3
+      points:
+        showSteps: false
+        value: 1
+        max: 1
+  path: artificer
+effects: []
+sort: 0
+ownership:
+  default: 0
+  Dl5Tvf37OuEHwdAh: 3
+flags: {}
+_stats:
+  compendiumSource: null
+  duplicateSource: null
+  coreVersion: '12.331'
+  systemId: grimwild
+  systemVersion: 0.1.0
+  createdTime: 1739543988913
+  modifiedTime: 1739543988913
+  lastModifiedBy: Dl5Tvf37OuEHwdAh
+_key: '!items!DkIoxwNO3SKehHN0'
+

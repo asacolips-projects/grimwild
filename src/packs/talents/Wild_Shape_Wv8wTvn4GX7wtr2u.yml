@@ -1,0 +1,53 @@
+folder: axv1GMaCSdy5XHII
+name: Wild Shape
+type: talent
+_id: Wv8wTvn4GX7wtr2u
+img: icons/creatures/mammals/elk-moose-marked-green.webp
+system:
+  description: >-
+    <p>You can shift into the form of any beast you're familiar with. You have a
+    <em><strong>4d Wild Shape</strong> </em>resource pool, rolled when you
+    shift—at 0d, you fail to turn into that form. The pool replenishes after
+    each scene.</p><p>You take on the form's physical qualities and feral
+    instincts. Move your stat points around to represent this, with a min. of 1
+    and max. of 3 in a stat. You lose access to any talent related to your own
+    physical form.</p><p>Some forms are more difficult to shift into. For each
+    <em><strong>wild talent</strong> </em>(max 2) a form has, drop 1d from the
+    pool before rolling it. These are things like <em>aquatic</em>, <em>smaller
+    than a cat</em>, <em>bigger than a bear</em>, <em>venomous</em>, and
+    <em>flight</em>. It can also be a specific talent from a path, or anything
+    that would require a heritage talent. The GM judges the <em><strong>gray
+    zone</strong></em>.</p><hr /><p><strong>GROWTH</strong>: Every 2 levels,
+    increase your Wild Shape pool by 1d.</p>
+  core: true
+  notes:
+    description: ''
+    label: ''
+  trackers:
+    - type: pool
+      label: Wild Shape
+      pool:
+        diceNum: 4
+        max: 4
+      points:
+        showSteps: false
+        value: 1
+        max: 1
+  path: druid
+effects: []
+sort: 0
+ownership:
+  default: 0
+  Dl5Tvf37OuEHwdAh: 3
+flags: {}
+_stats:
+  compendiumSource: null
+  duplicateSource: null
+  coreVersion: '12.331'
+  systemId: grimwild
+  systemVersion: 0.1.0
+  createdTime: 1739109608751
+  modifiedTime: 1739109608751
+  lastModifiedBy: Dl5Tvf37OuEHwdAh
+_key: '!items!Wv8wTvn4GX7wtr2u'
+

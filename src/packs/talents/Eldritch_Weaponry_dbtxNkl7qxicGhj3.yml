@@ -1,0 +1,43 @@
+folder: AqQ3YAkWtiAtqHH9
+name: Eldritch Weaponry
+type: talent
+_id: dbtxNkl7qxicGhj3
+img: icons/magic/unholy/hand-weapon-glow-black-green.webp
+system:
+  description: >-
+    <p>On a perfect when using <em>cantrip utility</em> as a weapon, you can
+    <strong>push yourself</strong> to also inflict a spell-level effect with
+    your patron's trappings as the touchstone. This effect can’t deal more
+    damage—the cantrip already covers that.</p>
+  core: false
+  notes:
+    description: ''
+    label: ''
+  trackers:
+    - type: points
+      label: Push
+      points:
+        value: 1
+        max: 1
+        showSteps: true
+      pool:
+        diceNum: 0
+        max: null
+  path: warlock
+effects: []
+sort: 0
+ownership:
+  default: 0
+  Dl5Tvf37OuEHwdAh: 3
+flags: {}
+_stats:
+  compendiumSource: null
+  duplicateSource: null
+  coreVersion: '12.331'
+  systemId: grimwild
+  systemVersion: 0.1.0
+  createdTime: 1739140434336
+  modifiedTime: 1739140434336
+  lastModifiedBy: Dl5Tvf37OuEHwdAh
+_key: '!items!dbtxNkl7qxicGhj3'
+

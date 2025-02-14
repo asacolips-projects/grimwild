@@ -1,13 +1,13 @@
 name: Bardic Lore
 type: talent
 _id: iNOZlJHKpBxQtUFV
-img: icons/svg/item-bag.svg
+img: icons/sundries/books/book-open-purple.webp
 system:
   description: >-
     <p>You gain any 3 wises and 1 extra story per session. You take +1d on any
     story rolls pertaining to what you know or story details you add.</p>
   notes:
-    description: <p>Add 3 wises here</p>
+    description: <p><em>Write down your wises here.</em></p>
     label: Wises
   trackers:
     - type: points
@@ -37,7 +37,7 @@ _stats:
   systemId: grimwild
   systemVersion: 0.1.0
   createdTime: 1739042795826
-  modifiedTime: 1739042795826
+  modifiedTime: 1739109942241
   lastModifiedBy: Dl5Tvf37OuEHwdAh
 _key: '!items!iNOZlJHKpBxQtUFV'
 

@@ -1,0 +1,32 @@
+folder: ho2SQrFiSNOlb9od
+name: Swift Recovery
+type: talent
+_id: w5pKb8DRT6uQFBnV
+img: icons/magic/life/crosses-trio-red.webp
+system:
+  description: >-
+    <p>On a perfect roll with an unmarked stat, clear a mark on another
+    stat.</p>
+  core: false
+  notes:
+    description: ''
+    label: ''
+  trackers: []
+  path: fighter
+effects: []
+sort: 0
+ownership:
+  default: 0
+  Dl5Tvf37OuEHwdAh: 3
+flags: {}
+_stats:
+  compendiumSource: null
+  duplicateSource: null
+  coreVersion: '12.331'
+  systemId: grimwild
+  systemVersion: 0.1.0
+  createdTime: 1739111225522
+  modifiedTime: 1739111225522
+  lastModifiedBy: Dl5Tvf37OuEHwdAh
+_key: '!items!w5pKb8DRT6uQFBnV'
+

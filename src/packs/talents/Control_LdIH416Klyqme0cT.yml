@@ -1,0 +1,43 @@
+folder: ho2SQrFiSNOlb9od
+name: Control
+type: talent
+_id: LdIH416Klyqme0cT
+img: icons/magic/control/silhouette-hold-change-blue.webp
+system:
+  description: >-
+    <p>You can <strong>push yourself</strong> to declare a zone that enemies
+    cannot cross without dealing with you. If they attempt to move past you, you
+    can <em><strong>interrupt</strong></em> them. On a perfect, <strong>take
+    spark</strong>.</p>
+  core: false
+  notes:
+    description: ''
+    label: ''
+  trackers:
+    - type: points
+      label: Push
+      points:
+        value: 1
+        max: 1
+        showSteps: true
+      pool:
+        diceNum: 0
+        max: null
+  path: fighter
+effects: []
+sort: 0
+ownership:
+  default: 0
+  Dl5Tvf37OuEHwdAh: 3
+flags: {}
+_stats:
+  compendiumSource: null
+  duplicateSource: null
+  coreVersion: '12.331'
+  systemId: grimwild
+  systemVersion: 0.1.0
+  createdTime: 1739111225522
+  modifiedTime: 1739111225522
+  lastModifiedBy: Dl5Tvf37OuEHwdAh
+_key: '!items!LdIH416Klyqme0cT'
+

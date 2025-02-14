@@ -1,0 +1,49 @@
+folder: Km2uusPM1YvfRSZe
+name: Iron Will
+type: talent
+_id: Gvbv1xz4NS9g7FxD
+img: icons/magic/control/silhouette-aura-energy.webp
+system:
+  description: >-
+    <div class="page" title="Page 61"><div class="layoutArea"><div
+    class="column"><p><span style="font-family:'Capito04VAR'">Each session, you
+    have a </span><span style="font-family:'Capito04VARItalic'"><em><strong>3d
+    Iron Will</strong> </em></span><span
+    style="font-family:'Capito04VAR'">resource pool. When you get rattled or
+    take vex, roll the pool. If dice remain, ignore the damage. If the situation
+    allows for it, you can also lash out at the cause or a bystander and:
+    </span><span style="font-family:'Capito04VARItalic'"><em>instill dread in
+    their heart—sow doubt in their mind</em></span><span
+    style="font-family:'Capito04VAR'">.</span></p></div></div></div>
+  core: false
+  notes:
+    description: ''
+    label: ''
+  trackers:
+    - type: pool
+      label: Iron Will
+      pool:
+        diceNum: 3
+        max: 3
+      points:
+        showSteps: false
+        value: 1
+        max: 1
+  path: cleric
+effects: []
+sort: 0
+ownership:
+  default: 0
+  Dl5Tvf37OuEHwdAh: 3
+flags: {}
+_stats:
+  compendiumSource: null
+  duplicateSource: null
+  coreVersion: '12.331'
+  systemId: grimwild
+  systemVersion: 0.1.0
+  createdTime: 1739063481754
+  modifiedTime: 1739063967311
+  lastModifiedBy: Dl5Tvf37OuEHwdAh
+_key: '!items!Gvbv1xz4NS9g7FxD'
+

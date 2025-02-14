@@ -2,7 +2,7 @@ folder: n7jEJF8MCm2SAEyA
 name: Forked Tongue
 type: talent
 _id: y3owSThkSnGqUUp0
-img: icons/svg/item-bag.svg
+img: icons/magic/control/mouth-smile-deception-purple.webp
 system:
   description: >-
     <p>When given time, you can tell <strong>potent lies</strong> like
@@ -15,7 +15,7 @@ system:
     label: ''
   trackers:
     - type: points
-      label: Potent Lie
+      label: Push
       points:
         value: 1
         max: 1
@@ -37,7 +37,7 @@ _stats:
   systemId: grimwild
   systemVersion: 0.1.0
   createdTime: 1739042795826
-  modifiedTime: 1739042795826
+  modifiedTime: 1739064818839
   lastModifiedBy: Dl5Tvf37OuEHwdAh
 _key: '!items!y3owSThkSnGqUUp0'
 

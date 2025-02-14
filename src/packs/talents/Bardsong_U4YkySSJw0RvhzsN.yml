@@ -2,7 +2,7 @@ folder: n7jEJF8MCm2SAEyA
 name: Bardsong
 type: talent
 _id: U4YkySSJw0RvhzsN
-img: icons/svg/item-bag.svg
+img: icons/tools/instruments/harp-yellow-teal.webp
 system:
   description: >-
     <p>Each session, you can sing <strong>3 bardsongs</strong>, rolling
@@ -44,7 +44,7 @@ system:
         max: null
   path: bard
 effects: []
-sort: 0
+sort: 200000
 ownership:
   default: 0
   Dl5Tvf37OuEHwdAh: 3
@@ -56,7 +56,7 @@ _stats:
   systemId: grimwild
   systemVersion: 0.1.0
   createdTime: 1739042795826
-  modifiedTime: 1739042795826
+  modifiedTime: 1739140987054
   lastModifiedBy: Dl5Tvf37OuEHwdAh
 _key: '!items!U4YkySSJw0RvhzsN'
 

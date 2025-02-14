@@ -1,0 +1,48 @@
+folder: 0FZZ6ZaYmCNR9Vxc
+name: Hunter's Mark
+type: talent
+_id: e2jyifYyn7el4wQF
+img: icons/skills/targeting/crosshair-scope-sniper-green.webp
+system:
+  description: >-
+    <p>Twice per session, you can declare a weakness in a non-humanoid creature.
+    Describe what you know or see, tagging it with a <em><strong>2d
+    Weakness</strong></em> pool. When anyone targets the weakness specifically,
+    you roll the pool as bonus dice on their roll. As it depletes, the creature
+    learns to hide its weakness, causing it to shift its behavior. <strong>Take
+    spark</strong> when a Weakness die rolls a perfect (not the overall
+    result).</p><p><em><strong>Prowess</strong></em>: Take +1d at stealth,
+    traversal, setting traps, and tracking.</p><hr /><p><strong>GROWTH</strong>:
+    Every 2 levels, you can use Hunter's Mark one more time per session.</p>
+  core: true
+  notes:
+    description: ''
+    label: ''
+  trackers:
+    - type: points
+      label: Weakness
+      points:
+        value: 2
+        max: 2
+        showSteps: true
+      pool:
+        diceNum: 0
+        max: null
+  path: ranger
+effects: []
+sort: 0
+ownership:
+  default: 0
+  Dl5Tvf37OuEHwdAh: 3
+flags: {}
+_stats:
+  compendiumSource: null
+  duplicateSource: null
+  coreVersion: '12.331'
+  systemId: grimwild
+  systemVersion: 0.1.0
+  createdTime: 1739129525843
+  modifiedTime: 1739129525843
+  lastModifiedBy: Dl5Tvf37OuEHwdAh
+_key: '!items!e2jyifYyn7el4wQF'
+

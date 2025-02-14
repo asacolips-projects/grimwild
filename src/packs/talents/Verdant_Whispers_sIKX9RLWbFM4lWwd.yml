@@ -1,0 +1,35 @@
+folder: axv1GMaCSdy5XHII
+name: Verdant Whispers
+type: talent
+_id: sIKX9RLWbFM4lWwd
+img: icons/magic/nature/tree-animated-smile.webp
+system:
+  description: >-
+    <p>You can commune with plants, their personalities as odd and unique as
+    their forms. <em><strong>Roll Wits to decipher their messages</strong></em>,
+    as they remember all but speak in ways truly hard to un- derstand. You
+    always get a <strong>hint</strong> or <strong>reveal</strong> on vigilance
+    in places teeming with plant life.</p>
+  core: false
+  notes:
+    description: ''
+    label: ''
+  trackers: []
+  path: druid
+effects: []
+sort: 0
+ownership:
+  default: 0
+  Dl5Tvf37OuEHwdAh: 3
+flags: {}
+_stats:
+  compendiumSource: null
+  duplicateSource: null
+  coreVersion: '12.331'
+  systemId: grimwild
+  systemVersion: 0.1.0
+  createdTime: 1739109608751
+  modifiedTime: 1739109608751
+  lastModifiedBy: Dl5Tvf37OuEHwdAh
+_key: '!items!sIKX9RLWbFM4lWwd'
+

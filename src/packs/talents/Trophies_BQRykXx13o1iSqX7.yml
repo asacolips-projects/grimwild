@@ -1,0 +1,42 @@
+folder: 0FZZ6ZaYmCNR9Vxc
+name: Trophies
+type: talent
+_id: BQRykXx13o1iSqX7
+img: icons/commodities/treasure/cup-trophy-gold.webp
+system:
+  description: >-
+    <p>When you play a key part in slaying a <em>powerful monster</em>, you can
+    harvest a <em><strong>trophy</strong> </em>from it. This acts as a wand that
+    only you can use. <em>Minor trophies </em>require no roll to harvest.
+    <em>Major trophies </em>require a Wits action roll. The monster's name,
+    ability, and body part are the touchstone. You also gain one <em>major
+    trophy </em>when you take this—detail it. Some examples:</p><p>▸
+    <em><strong>Eye of the Basilisk</strong>: 4d Stoneflesh wand. A minor wand
+    slows someone. A major wand turns them to a statue. </em><br />▸
+    <em><strong>Horns of a Minotaur</strong>: 4d Powerful Charge wand. A minor
+    wand is a speed boost. A major wand gives potency. </em><br />▸
+    <em><strong>Heart of a Troll</strong>: 4d Regeneration wand. A minor wand
+    removes small ailments. A major wand removes marks.</em></p>
+  core: false
+  notes:
+    description: ''
+    label: ''
+  trackers: []
+  path: ranger
+effects: []
+sort: 0
+ownership:
+  default: 0
+  Dl5Tvf37OuEHwdAh: 3
+flags: {}
+_stats:
+  compendiumSource: null
+  duplicateSource: null
+  coreVersion: '12.331'
+  systemId: grimwild
+  systemVersion: 0.1.0
+  createdTime: 1739129525843
+  modifiedTime: 1739129525843
+  lastModifiedBy: Dl5Tvf37OuEHwdAh
+_key: '!items!BQRykXx13o1iSqX7'
+

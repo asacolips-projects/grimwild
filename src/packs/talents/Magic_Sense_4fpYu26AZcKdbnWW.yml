@@ -1,0 +1,33 @@
+folder: ce6PuVxHOMYhnUk3
+name: Magic Sense
+type: talent
+_id: 4fpYu26AZcKdbnWW
+img: icons/magic/perception/eye-slit-orange.webp
+system:
+  description: >-
+    <p>You always get a <strong>hint</strong> or <strong>reveal</strong> on
+    vigilance involving magic. When you avoid or disrupt it, <strong>take
+    spark</strong>.</p>
+  core: false
+  notes:
+    description: ''
+    label: ''
+  trackers: []
+  path: sorcerer
+effects: []
+sort: 0
+ownership:
+  default: 0
+  Dl5Tvf37OuEHwdAh: 3
+flags: {}
+_stats:
+  compendiumSource: null
+  duplicateSource: null
+  coreVersion: '12.331'
+  systemId: grimwild
+  systemVersion: 0.1.0
+  createdTime: 1739139357959
+  modifiedTime: 1739139357959
+  lastModifiedBy: Dl5Tvf37OuEHwdAh
+_key: '!items!4fpYu26AZcKdbnWW'
+

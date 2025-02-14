@@ -1,0 +1,54 @@
+folder: y6k4T3gOk4ZxsYPe
+name: Authority
+type: talent
+_id: gHygoa9KcHwv2IFw
+img: icons/magic/perception/eye-ringed-green.webp
+system:
+  description: >-
+    <div class="page" title="Page 69"><div class="section"><div
+    class="layoutArea"><div class="column"><p><span
+    style="font-family:'Capito04VAR'">Your presence fills the air with
+    authority. The GM judges an NPC's response, or you can spend story to set
+    it: </span><span
+    style="font-family:'Capito04VARItalic'"><em>admiration—obedience—respect—defiance</em></span><span
+    style="font-family:'Capito04VAR'">. You can <strong>push yourself</strong>
+    to pull off a </span><span
+    style="font-family:'Capito04VARItalic'"><em><strong>potent feat of righteous
+    command</strong></em></span><span style="font-family:'Capito04VAR'">, like
+    </span><span style="font-family:'Capito04VARItalic'"><em>ordering a demon to
+    kneel </em></span><span style="font-family:'Capito04VAR'">or </span><span
+    style="font-family:'Capito04VARItalic'"><em>silencing a riot with a
+    word</em></span><span
+    style="font-family:'Capito04VAR'">.</span></p></div></div></div></div>
+  core: false
+  notes:
+    description: ''
+    label: ''
+  trackers:
+    - type: points
+      label: Push
+      points:
+        value: 1
+        max: 1
+        showSteps: true
+      pool:
+        diceNum: 0
+        max: null
+  path: paladin
+effects: []
+sort: 0
+ownership:
+  default: 0
+  Dl5Tvf37OuEHwdAh: 3
+flags: {}
+_stats:
+  compendiumSource: null
+  duplicateSource: null
+  coreVersion: '12.331'
+  systemId: grimwild
+  systemVersion: 0.1.0
+  createdTime: 1739115233991
+  modifiedTime: 1739115233991
+  lastModifiedBy: Dl5Tvf37OuEHwdAh
+_key: '!items!gHygoa9KcHwv2IFw'
+

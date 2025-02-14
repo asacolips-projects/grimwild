@@ -1,0 +1,43 @@
+folder: 0FZZ6ZaYmCNR9Vxc
+name: Seasoned Hunter
+type: talent
+_id: tRDRankQ1OZzpLzz
+img: icons/tools/navigation/map-marked-blue.webp
+system:
+  description: >-
+    <p>You always know where a monster's lair will be. Once per session, you can
+    tell all to <em><strong>Look Out!</strong></em> and declare how a monstrous
+    challenge spends 1 of its suspense on a move to attack your party. Anyone
+    involved takes +1d on a defense roll and follow-up action rolls.</p>
+  core: false
+  notes:
+    description: ''
+    label: ''
+  trackers:
+    - type: points
+      label: Look Out!
+      points:
+        value: 1
+        max: 1
+        showSteps: true
+      pool:
+        diceNum: 0
+        max: null
+  path: ranger
+effects: []
+sort: 0
+ownership:
+  default: 0
+  Dl5Tvf37OuEHwdAh: 3
+flags: {}
+_stats:
+  compendiumSource: null
+  duplicateSource: null
+  coreVersion: '12.331'
+  systemId: grimwild
+  systemVersion: 0.1.0
+  createdTime: 1739129525843
+  modifiedTime: 1739129525843
+  lastModifiedBy: Dl5Tvf37OuEHwdAh
+_key: '!items!tRDRankQ1OZzpLzz'
+

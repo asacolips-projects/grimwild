@@ -1,0 +1,54 @@
+folder: 85AhjhNgoBP9pTvr
+name: Tether
+type: talent
+_id: w4nKIMcv6epYkUMZ
+img: icons/magic/movement/abstract-ribbons-red-orange.webp
+system:
+  description: >-
+    <p>Once per session, you can touch someone to link your spirits. You can
+    sense their feelings and always know where they are. You can <strong>push
+    yourself</strong> to: <em>assist them—speak into their mind—take mental
+    damage for them—teleport to them</em>. If they get dropped, so do you. You
+    must touch again or rest for the link to end. When it does, change <em>(or
+    create) </em>your bond with them.</p>
+  core: false
+  notes:
+    description: ''
+    label: ''
+  trackers:
+    - type: points
+      label: Push
+      points:
+        value: 1
+        max: 1
+        showSteps: true
+      pool:
+        diceNum: 0
+        max: null
+    - type: points
+      label: Tether
+      points:
+        value: 1
+        max: 1
+        showSteps: true
+      pool:
+        diceNum: 0
+        max: null
+  path: monk
+effects: []
+sort: 0
+ownership:
+  default: 0
+  Dl5Tvf37OuEHwdAh: 3
+flags: {}
+_stats:
+  compendiumSource: null
+  duplicateSource: null
+  coreVersion: '12.331'
+  systemId: grimwild
+  systemVersion: 0.1.0
+  createdTime: 1739113686945
+  modifiedTime: 1739113686945
+  lastModifiedBy: Dl5Tvf37OuEHwdAh
+_key: '!items!w4nKIMcv6epYkUMZ'
+

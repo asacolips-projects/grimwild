@@ -2,7 +2,7 @@ folder: n7jEJF8MCm2SAEyA
 name: Friendly Face
 type: talent
 _id: qfq11F73d5TxYdwy
-img: icons/svg/item-bag.svg
+img: icons/skills/social/thumbsup-approval-like.webp
 system:
   description: >-
     <p>In any new town or district of a city you go to, you can always: <em>get
@@ -28,7 +28,7 @@ _stats:
   systemId: grimwild
   systemVersion: 0.1.0
   createdTime: 1739042795826
-  modifiedTime: 1739042795826
+  modifiedTime: 1739064659060
   lastModifiedBy: Dl5Tvf37OuEHwdAh
 _key: '!items!qfq11F73d5TxYdwy'
 

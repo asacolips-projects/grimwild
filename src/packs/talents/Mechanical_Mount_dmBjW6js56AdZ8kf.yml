@@ -1,0 +1,74 @@
+folder: i53xgSVOBOe4n7Mr
+name: Mechanical Mount
+type: talent
+_id: dmBjW6js56AdZ8kf
+img: icons/commodities/tech/levers-colored.webp
+system:
+  description: >-
+    <div class="page" title="Page 149"><div class="layoutArea"><div
+    class="column"><p><span style="font-family:'Capito04VAR'">You have a small
+    mechanical vehicle, like a </span><span
+    style="font-family:'Capito04VARItalic'"><em>steamwork spider
+    </em></span><span style="font-family:'Capito04VAR'">or </span><span
+    style="font-family:'Capito04VARItalic'"><em>smoke-belching
+    cart</em></span><span style="font-family:'Capito04VAR'">. It has three
+    features: </span><span
+    style="font-family:'Capito04VARItalic'"><em>all-terrain—armored—burrowing—grappling
+    hook—submergible—turbo boost</em></span><span
+    style="font-family:'Capito04VAR'">. You can activate each perk once per
+    session to pull off a </span><span
+    style="font-family:'Capito04VARItalic'"><em><strong>potent feat of
+    piloting</strong></em></span><span style="font-family:'Capito04VAR'">. It
+    also has one drawback: </span><span
+    style="font-family:'Capito04VARItalic'"><em>conspicuous—horrifying—slow—unreliable</em></span><span
+    style="font-family:'Capito04VAR'">.</span></p></div></div></div>
+  core: false
+  notes:
+    description: <p><em>Write down your mount's 3 features and 1 drawback here.</em></p>
+    label: Features and Drawbacks
+  trackers:
+    - type: points
+      label: Potent Feature 1
+      points:
+        value: 1
+        max: 1
+        showSteps: true
+      pool:
+        diceNum: 0
+        max: null
+    - type: points
+      label: Potent Feature 2
+      points:
+        value: 1
+        max: 1
+        showSteps: true
+      pool:
+        diceNum: 0
+        max: null
+    - type: points
+      label: Potent Feature 3
+      points:
+        value: 1
+        max: 1
+        showSteps: true
+      pool:
+        diceNum: 0
+        max: null
+  path: artificer
+effects: []
+sort: 0
+ownership:
+  default: 0
+  Dl5Tvf37OuEHwdAh: 3
+flags: {}
+_stats:
+  compendiumSource: null
+  duplicateSource: null
+  coreVersion: '12.331'
+  systemId: grimwild
+  systemVersion: 0.1.0
+  createdTime: 1739543988913
+  modifiedTime: 1739543988913
+  lastModifiedBy: Dl5Tvf37OuEHwdAh
+_key: '!items!dmBjW6js56AdZ8kf'
+

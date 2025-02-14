@@ -1,0 +1,47 @@
+folder: ce6PuVxHOMYhnUk3
+name: Sorcery
+type: talent
+_id: MnncHMBYzPHIQJWG
+img: icons/magic/light/hand-sparks-glow-yellow.webp
+system:
+  description: >-
+    <p>You have spellcasting ability. You roll Presence to cast and your magic
+    paths and tech- niques serve as touchstones. Choose any 4 below (<em>or make
+    a magic path up with the GM</em>), with at least 1 magic path and 1
+    technique:</p><p><strong>Magic paths</strong>:
+    <em>blood</em>—<em>decay—flame—frost—lux—shadow—stone—tempest.</em></p><p><strong>Techniques</strong>:
+    <em>attack—create—defend—enhance—hinder—influence—transform—traverse.</em></p><p>You
+    can cast spells at-will, though they always carry risk and require a roll.
+    When you cast, each spell must combine at least one magic path and one
+    technique as touch- stones. You can push yourself to cast a
+    <em><strong>potent spell</strong></em>, but gain no free activation of
+    it.</p><p>When casting, rolling two or more 1s triggers a secondary
+    <strong>wild surge</strong>—raw magic spirals out of your control.
+    <em><strong>Make a 2d story roll</strong> </em>to see what happens. The
+    effect might stem from your touchstones, raw magical essence, or something
+    chaotically random. Use the GM crucible or ask around your group for
+    ideas.</p><hr /><p><strong>GROWTH</strong>: Every 2 levels, gain a new
+    technique or magic path.</p>
+  core: true
+  notes:
+    description: <p><em>Write down your 4 magic paths and techniques here.</em></p>
+    label: Magic Paths & Techniques
+  trackers: []
+  path: sorcerer
+effects: []
+sort: 0
+ownership:
+  default: 0
+  Dl5Tvf37OuEHwdAh: 3
+flags: {}
+_stats:
+  compendiumSource: null
+  duplicateSource: null
+  coreVersion: '12.331'
+  systemId: grimwild
+  systemVersion: 0.1.0
+  createdTime: 1739139357959
+  modifiedTime: 1739139357959
+  lastModifiedBy: Dl5Tvf37OuEHwdAh
+_key: '!items!MnncHMBYzPHIQJWG'
+

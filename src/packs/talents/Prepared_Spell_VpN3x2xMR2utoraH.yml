@@ -1,0 +1,43 @@
+folder: 2tvdSlgYZ5v4Jiye
+name: Prepared Spell
+type: talent
+_id: VpN3x2xMR2utoraH
+img: icons/magic/time/clock-spinning-gold-pink.webp
+system:
+  description: >-
+    <p>You gain 1 story per session and can spend story to flashback to casting
+    a spell with specific triggers. If you need to roll a montage to get access
+    to a place, the GM always takes suspense in place of an impact move. Roll
+    for the spell's effectiveness now.</p>
+  core: false
+  notes:
+    description: ''
+    label: ''
+  trackers:
+    - type: points
+      label: Story
+      pool:
+        diceNum: 0
+        max: null
+      points:
+        showSteps: true
+        value: 1
+        max: 1
+  path: wizard
+effects: []
+sort: 0
+ownership:
+  default: 0
+  Dl5Tvf37OuEHwdAh: 3
+flags: {}
+_stats:
+  compendiumSource: null
+  duplicateSource: null
+  coreVersion: '12.331'
+  systemId: grimwild
+  systemVersion: 0.1.0
+  createdTime: 1739542636102
+  modifiedTime: 1739542636102
+  lastModifiedBy: Dl5Tvf37OuEHwdAh
+_key: '!items!VpN3x2xMR2utoraH'
+

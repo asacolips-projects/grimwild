@@ -1,0 +1,20 @@
+name: Rogue
+sorting: a
+folder: null
+type: Item
+_id: QQwq5i3yUUjhboM4
+description: ''
+sort: 100000
+color: null
+flags: {}
+_stats:
+  compendiumSource: null
+  duplicateSource: null
+  coreVersion: '12.331'
+  systemId: grimwild
+  systemVersion: 0.1.0
+  createdTime: 1739130472170
+  modifiedTime: 1739130472203
+  lastModifiedBy: Dl5Tvf37OuEHwdAh
+_key: '!folders!QQwq5i3yUUjhboM4'
+

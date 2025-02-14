@@ -2,7 +2,7 @@ folder: n7jEJF8MCm2SAEyA
 name: Jack of All Trades
 type: talent
 _id: FvD0agNmsYSpVreY
-img: icons/svg/item-bag.svg
+img: icons/sundries/gaming/playing-cards.webp
 system:
   description: >-
     <p>Increase one of your stats that's a 1 to a 2. You also take +1d on
@@ -26,7 +26,7 @@ _stats:
   systemId: grimwild
   systemVersion: 0.1.0
   createdTime: 1739042795826
-  modifiedTime: 1739042795826
+  modifiedTime: 1739064759166
   lastModifiedBy: Dl5Tvf37OuEHwdAh
 _key: '!items!FvD0agNmsYSpVreY'
 

@@ -1,0 +1,33 @@
+folder: ce6PuVxHOMYhnUk3
+name: Maelstrom
+type: talent
+_id: FoCmkVYg9QUQYXg5
+img: icons/magic/unholy/strike-body-explode-disintegrate.webp
+system:
+  description: >-
+    <p>You open yourself fully to the maelstrom of raw magic. When you cast a
+    <em><strong>potent spell</strong></em>, 5s count as 6s, but 4s count as 1s.
+    These 4s also count as 1s towards wild surge.</p>
+  core: false
+  notes:
+    description: ''
+    label: ''
+  trackers: []
+  path: sorcerer
+effects: []
+sort: 0
+ownership:
+  default: 0
+  Dl5Tvf37OuEHwdAh: 3
+flags: {}
+_stats:
+  compendiumSource: null
+  duplicateSource: null
+  coreVersion: '12.331'
+  systemId: grimwild
+  systemVersion: 0.1.0
+  createdTime: 1739139357959
+  modifiedTime: 1739139357959
+  lastModifiedBy: Dl5Tvf37OuEHwdAh
+_key: '!items!FoCmkVYg9QUQYXg5'
+

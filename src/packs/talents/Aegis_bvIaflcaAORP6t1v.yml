@@ -1,0 +1,44 @@
+folder: y6k4T3gOk4ZxsYPe
+name: Aegis
+type: talent
+_id: bvIaflcaAORP6t1v
+img: icons/equipment/shield/heater-crystal-blue.webp
+system:
+  description: >-
+    <p>You take +1d when defending with a shield and can use it to make a
+    defense roll in a nearby ally's place. You can <strong>push
+    yourself</strong> to defend multiple allies from a single attack, like
+    <em>blocking dragonfire</em>. On a perfect, everyone you protected
+    <strong>takes spark</strong>.</p>
+  core: false
+  notes:
+    description: ''
+    label: ''
+  trackers:
+    - type: points
+      label: Push
+      points:
+        value: 1
+        max: 1
+        showSteps: true
+      pool:
+        diceNum: 0
+        max: null
+  path: paladin
+effects: []
+sort: 0
+ownership:
+  default: 0
+  Dl5Tvf37OuEHwdAh: 3
+flags: {}
+_stats:
+  compendiumSource: null
+  duplicateSource: null
+  coreVersion: '12.331'
+  systemId: grimwild
+  systemVersion: 0.1.0
+  createdTime: 1739115233991
+  modifiedTime: 1739115233991
+  lastModifiedBy: Dl5Tvf37OuEHwdAh
+_key: '!items!bvIaflcaAORP6t1v'
+
