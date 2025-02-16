@@ -5,23 +5,12 @@ _id: dmBjW6js56AdZ8kf
 img: icons/commodities/tech/levers-colored.webp
 system:
   description: >-
-    <div class="page" title="Page 149"><div class="layoutArea"><div
-    class="column"><p><span style="font-family:'Capito04VAR'">You have a small
-    mechanical vehicle, like a </span><span
-    style="font-family:'Capito04VARItalic'"><em>steamwork spider
-    </em></span><span style="font-family:'Capito04VAR'">or </span><span
-    style="font-family:'Capito04VARItalic'"><em>smoke-belching
-    cart</em></span><span style="font-family:'Capito04VAR'">. It has three
-    features: </span><span
-    style="font-family:'Capito04VARItalic'"><em>all-terrain—armored—burrowing—grappling
-    hook—submergible—turbo boost</em></span><span
-    style="font-family:'Capito04VAR'">. You can activate each perk once per
-    session to pull off a </span><span
-    style="font-family:'Capito04VARItalic'"><em><strong>potent feat of
-    piloting</strong></em></span><span style="font-family:'Capito04VAR'">. It
-    also has one drawback: </span><span
-    style="font-family:'Capito04VARItalic'"><em>conspicuous—horrifying—slow—unreliable</em></span><span
-    style="font-family:'Capito04VAR'">.</span></p></div></div></div>
+    <p>You have a small mechanical vehicle, like a <em>steamwork spider </em>or
+    <em>smoke-belching cart</em>. It has three features:
+    <em>all-terrain—armored—burrowing—grappling hook—submergible—turbo
+    boost</em>. You can activate each perk once per session to pull off a
+    <em><strong>potent feat of piloting</strong></em>. It also has one drawback:
+    <em>conspicuous—horrifying—slow—unreliable</em>.</p>
   core: false
   notes:
     description: <p><em>Write down your mount's 3 features and 1 drawback here.</em></p>
@@ -68,7 +57,7 @@ _stats:
   systemId: grimwild
   systemVersion: 0.1.0
   createdTime: 1739543988913
-  modifiedTime: 1739543988913
+  modifiedTime: 1739746482643
   lastModifiedBy: Dl5Tvf37OuEHwdAh
 _key: '!items!dmBjW6js56AdZ8kf'
 

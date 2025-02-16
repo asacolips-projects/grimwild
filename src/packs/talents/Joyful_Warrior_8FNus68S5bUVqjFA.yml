@@ -5,13 +5,9 @@ _id: 8FNus68S5bUVqjFA
 img: icons/magic/life/heart-hand-gold-green-light.webp
 system:
   description: >-
-    <div class="page" title="Page 59"><div class="layoutArea"><div
-    class="column"><p><span style="font-family:'Capito04VAR'">On a critical or
-    when bloodied in battle, you <strong>take spark</strong> and can:
-    </span><span style="font-family:'Capito04VARItalic'"><em>heal an ally's
-    rattled pool— bring a dropped (not dead) ally back into the
-    scene</em></span><span
-    style="font-family:'Capito04VAR'">.</span></p></div></div></div>
+    <p>On a critical or when bloodied in battle, you <strong>take spark</strong>
+    and can: <em>heal an ally's rattled pool— bring a dropped (not dead) ally
+    back into the scene</em>.</p>
   core: false
   notes:
     description: ''
@@ -31,7 +27,7 @@ _stats:
   systemId: grimwild
   systemVersion: 0.1.0
   createdTime: 1739062678115
-  modifiedTime: 1739065258862
+  modifiedTime: 1739746354523
   lastModifiedBy: Dl5Tvf37OuEHwdAh
 _key: '!items!8FNus68S5bUVqjFA'
 

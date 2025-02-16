@@ -5,16 +5,11 @@ _id: ZeTpli7ZR35kl5sv
 img: icons/magic/air/wind-stream-purple.webp
 system:
   description: >-
-    <div class="page" title="Page 77"><div class="layoutArea"><div
-    class="column"><p><span style="font-family:'Capito04VAR'">You can turn into
-    a floating, dispersed form, flavored after your patron's trappings
-    </span><span style="font-family:'Capito04VARItalic'"><em>(swarm of bats,
-    blowing leaves)</em></span><span style="font-family:'Capito04VAR'">. Choose
-    three things you can do in this form: </span><span
-    style="font-family:'Capito04VARItalic'"><em>appear barely visible—fly high
-    in the sky—interact with objects—move swiftly—slip through small
-    gaps—speak</em></span><span
-    style="font-family:'Capito04VAR'">.</span></p></div></div></div>
+    <p>You can turn into a floating, dispersed form, flavored after your
+    patron's trappings <em>(swarm of bats, blowing leaves)</em>. Choose three
+    things you can do in this form: <em>appear barely visible—fly high in the
+    sky—interact with objects—move swiftly—slip through small
+    gaps—speak</em>.</p>
   core: false
   notes:
     description: ''
@@ -34,7 +29,7 @@ _stats:
   systemId: grimwild
   systemVersion: 0.1.0
   createdTime: 1739140434336
-  modifiedTime: 1739140434336
+  modifiedTime: 1739746604945
   lastModifiedBy: Dl5Tvf37OuEHwdAh
 _key: '!items!ZeTpli7ZR35kl5sv'
 

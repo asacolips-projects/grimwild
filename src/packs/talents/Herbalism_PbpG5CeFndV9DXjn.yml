@@ -5,18 +5,11 @@ _id: PbpG5CeFndV9DXjn
 img: icons/consumables/plants/leaf-hastate-glowing-green.webp
 system:
   description: >-
-    <div class="page" title="Page 63"><div class="layoutArea"><div
-    class="column"><p><span style="font-family:'Capito04VAR'">Before each
-    session, use the Herbalism Crucible to make two herb names </span><span
-    style="font-family:'Capito04VARItalic'"><em>(snakeberry,
-    blastbane)</em></span><span style="font-family:'Capito04VAR'">. You have
-    </span><span style="font-family:'Capito04VARItalic'"><em><strong>1 minor
-    potion of 1 and 1 major potion of the other</strong></em></span><span
-    style="font-family:'Capito04VAR'">. The name is the touchstone. They lose
-    effect after the session. One time only, you can have 1 mythic potion
-    </span><span style="font-family:'Capito04VARItalic'"><em>(choose after
-    rolling )</em></span><span
-    style="font-family:'Capito04VAR'">.</span></p></div></div></div>
+    <p>Before each session, use the Herbalism Crucible to make two herb names
+    <em>(snakeberry, blastbane)</em>. You have <em><strong>1 minor potion of 1
+    and 1 major potion of the other</strong></em>. The name is the touchstone.
+    They lose effect after the session. One time only, you can have 1 mythic
+    potion <em>(choose after rolling )</em>.</p>
   core: false
   notes:
     description: <p><em>Write your two herb names here</em></p>
@@ -54,7 +47,7 @@ _stats:
   systemId: grimwild
   systemVersion: 0.1.0
   createdTime: 1739109608751
-  modifiedTime: 1739109608751
+  modifiedTime: 1739746220502
   lastModifiedBy: Dl5Tvf37OuEHwdAh
 _key: '!items!PbpG5CeFndV9DXjn'
 

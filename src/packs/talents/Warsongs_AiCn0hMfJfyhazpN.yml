@@ -5,10 +5,8 @@ _id: AiCn0hMfJfyhazpN
 img: icons/skills/trades/music-singing-voice-blue.webp
 system:
   description: >-
-    <div class="page" title="Page 59"><div class="layoutArea"><div
-    class="column"><p><span style="font-family:'Capito04VAR'">Each session, you
-    can sing 2 bardsongs. Write down the composition of the only 3 songs you
-    know.</span></p></div></div></div>
+    <p>Each session, you can sing 2 bardsongs. Write down the composition of the
+    only 3 songs you know.</p>
   core: false
   notes:
     description: <p><em>Write down your compositions here.</em></p>
@@ -37,7 +35,7 @@ _stats:
   systemId: grimwild
   systemVersion: 0.1.0
   createdTime: 1739062678115
-  modifiedTime: 1739109976308
+  modifiedTime: 1739747179119
   lastModifiedBy: Dl5Tvf37OuEHwdAh
 _key: '!items!AiCn0hMfJfyhazpN'
 

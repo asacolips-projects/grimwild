@@ -5,16 +5,10 @@ _id: VQCjpLQxWDSfYs9C
 img: icons/skills/toxins/poison-bottle-open-fire-purple.webp
 system:
   description: >-
-    <div class="page" title="Page 73"><div class="layoutArea"><div
-    class="column"><p><span style="font-family:'Capito04VAR'">Each session, you
-    have a </span><span style="font-family:'Capito04VARItalic'"><em><strong>4d
-    Poisons</strong> </em></span><span
-    style="font-family:'Capito04VAR'">resource pool. You have access to the
-    following poisons: </span><span
-    style="font-family:'Capito04VARItalic'"><em>hallucinations—knockout—memory
-    loss—nausea—paralysis—truth serum</em></span><span
-    style="font-family:'Capito04VAR'">. They each take a bit of time to work and
-    are most effective if ingested.</span></p></div></div></div>
+    <p>Each session, you have a <em><strong>4d Poisons</strong> </em>resource
+    pool. You have access to the following poisons:
+    <em>hallucinations—knockout—memory loss—nausea—paralysis—truth serum</em>.
+    They each take a bit of time to work and are most effective if ingested.</p>
   core: false
   notes:
     description: ''
@@ -43,7 +37,7 @@ _stats:
   systemId: grimwild
   systemVersion: 0.1.0
   createdTime: 1739130472186
-  modifiedTime: 1739130472186
+  modifiedTime: 1739746760770
   lastModifiedBy: Dl5Tvf37OuEHwdAh
 _key: '!items!VQCjpLQxWDSfYs9C'
 

@@ -5,19 +5,10 @@ _id: K3c6gsWpZ6lvuJ2J
 img: icons/magic/unholy/hand-claw-glow-orange.webp
 system:
   description: >-
-    <div class="page" title="Page 75"><div class="layoutArea"><div
-    class="column"><p><span style="font-family:'Capito04VAR'">The maelstrom of
-    magic has twisted your body. You gain a permanent physical feature like
-    </span><span style="font-family:'Capito04VARItalic'"><em>metal-rending
-    claws</em></span><span style="font-family:'Capito04VAR'">, </span><span
-    style="font-family:'Capito04VARItalic'"><em>venomous fangs</em></span><span
-    style="font-family:'Capito04VAR'">, </span><span
-    style="font-family:'Capito04VARItalic'"><em>leathery wings</em></span><span
-    style="font-family:'Capito04VAR'">, or </span><span
-    style="font-family:'Capito04VARItalic'"><em>thrashing
-    tentacles</em></span><span style="font-family:'Capito04VAR'">. In addition
-    to its obvious benefits, it now serves as a
-    touchstone.</span></p></div></div></div>
+    <p>The maelstrom of magic has twisted your body. You gain a permanent
+    physical feature like <em>metal-rending claws</em>, <em>venomous fangs</em>,
+    <em>leathery wings</em>, or <em>thrashing tentacles</em>. In addition to its
+    obvious benefits, it now serves as a touchstone.</p>
   core: false
   notes:
     description: ''
@@ -37,7 +28,7 @@ _stats:
   systemId: grimwild
   systemVersion: 0.1.0
   createdTime: 1739139357959
-  modifiedTime: 1739139357959
+  modifiedTime: 1739746097651
   lastModifiedBy: Dl5Tvf37OuEHwdAh
 _key: '!items!K3c6gsWpZ6lvuJ2J'
 

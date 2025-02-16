@@ -5,17 +5,11 @@ _id: rHZb7l97jPPTMeva
 img: icons/magic/control/hypnosis-mesmerism-eye.webp
 system:
   description: >-
-    <div class="page" title="Page 77"><div class="layoutArea"><div
-    class="column"><p><span style="font-family:'Capito04VAR'">When given time,
-    you can stare into someone's eyes and learn: </span><span
-    style="font-family:'Capito04VARItalic'"><em>their greatest desire—what
-    they're hiding—what they want to protect—who they serve</em></span><span
-    style="font-family:'Capito04VAR'">. This is </span><span
-    style="font-family:'Capito04VARItalic'"><em><strong>highly
-    disconcerting</strong> </em></span><span
-    style="font-family:'Capito04VAR'">and only works on someone once. You can
-    <strong>push yourself</strong> to do this on the
-    spot.</span></p></div></div></div>
+    <p>When given time, you can stare into someone's eyes and learn: <em>their
+    greatest desire—what they're hiding—what they want to protect—who they
+    serve</em>. This is <em><strong>highly disconcerting</strong> </em>and only
+    works on someone once. You can <strong>push yourself</strong> to do this on
+    the spot.</p>
   core: false
   notes:
     description: ''
@@ -44,7 +38,7 @@ _stats:
   systemId: grimwild
   systemVersion: 0.1.0
   createdTime: 1739140434336
-  modifiedTime: 1739140434336
+  modifiedTime: 1739746403147
   lastModifiedBy: Dl5Tvf37OuEHwdAh
 _key: '!items!rHZb7l97jPPTMeva'
 

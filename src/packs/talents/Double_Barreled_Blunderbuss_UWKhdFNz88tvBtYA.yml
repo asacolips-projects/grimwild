@@ -5,21 +5,12 @@ _id: UWKhdFNz88tvBtYA
 img: icons/skills/ranged/cannon-barrel-firing-white-yellow.webp
 system:
   description: >-
-    <div class="page" title="Page 149"><div class="layoutArea"><div
-    class="column"><p><span style="font-family:'Capito04VAR'">You have a firearm
-    that fires specialized, crafted ammo. You get one shot of each per session.
-    When you shoot, choose the ammo: </span><span
-    style="font-family:'Capito04VARItalic'"><em>blast core—drill shot—inferno
-    shot—scatter shot—shrap- nel burst—tangler shot</em></span><span
-    style="font-family:'Capito04VAR'">. Each shot has a </span><span
-    style="font-family:'Capito04VARItalic'"><em>secondary </em></span><span
-    style="font-family:'Capito04VAR'">or </span><span
-    style="font-family:'Capito04VARItalic'"><em><strong>collateral
-    effect</strong> </em></span><span style="font-family:'Capito04VAR'">related
-    to the type. You can fire two ammo types at the same time for a </span><span
-    style="font-family:'Capito04VARItalic'"><em><strong>potent
-    shot</strong></em></span><span
-    style="font-family:'Capito04VAR'">.</span></p></div></div></div>
+    <p>You have a firearm that fires specialized, crafted ammo. You get one shot
+    of each per session. When you shoot, choose the ammo: <em>blast core—drill
+    shot—inferno shot—scatter shot—shrap- nel burst—tangler shot</em>. Each shot
+    has a <em>secondary </em>or <em><strong>collateral effect</strong>
+    </em>related to the type. You can fire two ammo types at the same time for a
+    <em><strong>potent shot</strong></em>.</p>
   core: false
   notes:
     description: ''
@@ -93,7 +84,7 @@ _stats:
   systemId: grimwild
   systemVersion: 0.1.0
   createdTime: 1739543988913
-  modifiedTime: 1739543988913
+  modifiedTime: 1739746062270
   lastModifiedBy: Dl5Tvf37OuEHwdAh
 _key: '!items!UWKhdFNz88tvBtYA'
 

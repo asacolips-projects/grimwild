@@ -5,16 +5,11 @@ _id: Gvbv1xz4NS9g7FxD
 img: icons/magic/control/silhouette-aura-energy.webp
 system:
   description: >-
-    <div class="page" title="Page 61"><div class="layoutArea"><div
-    class="column"><p><span style="font-family:'Capito04VAR'">Each session, you
-    have a </span><span style="font-family:'Capito04VARItalic'"><em><strong>3d
-    Iron Will</strong> </em></span><span
-    style="font-family:'Capito04VAR'">resource pool. When you get rattled or
-    take vex, roll the pool. If dice remain, ignore the damage. If the situation
-    allows for it, you can also lash out at the cause or a bystander and:
-    </span><span style="font-family:'Capito04VARItalic'"><em>instill dread in
-    their heart—sow doubt in their mind</em></span><span
-    style="font-family:'Capito04VAR'">.</span></p></div></div></div>
+    <p>Each session, you have a <em><strong>3d Iron Will</strong> </em>resource
+    pool. When you get rattled or take vex, roll the pool. If dice remain,
+    ignore the damage. If the situation allows for it, you can also lash out at
+    the cause or a bystander and: <em>instill dread in their heart—sow doubt in
+    their mind</em>.</p>
   core: false
   notes:
     description: ''
@@ -43,7 +38,7 @@ _stats:
   systemId: grimwild
   systemVersion: 0.1.0
   createdTime: 1739063481754
-  modifiedTime: 1739063967311
+  modifiedTime: 1739746322911
   lastModifiedBy: Dl5Tvf37OuEHwdAh
 _key: '!items!Gvbv1xz4NS9g7FxD'
 

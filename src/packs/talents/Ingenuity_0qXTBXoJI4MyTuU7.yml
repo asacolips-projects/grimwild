@@ -5,33 +5,20 @@ _id: 0qXTBXoJI4MyTuU7
 img: icons/commodities/tech/tube-chamber-lightning.webp
 system:
   description: >-
-    <div class="page" title="Page 148"><div class="layoutArea"><div
-    class="column"><p><span style="font-family:'Capito04VAR'">You harness the
-    power of creativity. Begin play with </span><span
-    style="font-family:'Capito04VARItalic'"><em><strong>1 minor arcana</strong>
-    </em></span><span style="font-family:'Capito04VAR'">and </span><span
-    style="font-family:'Capito04VARItalic'"><em><strong>1 major
-    arcana</strong></em></span><span style="font-family:'Capito04VAR'">, chosen
+    <p>You harness the power of creativity. Begin play with <em><strong>1 minor
+    arcana</strong> </em>and <em><strong>1 major arcana</strong></em>, chosen
     from the Various Arcana chapter or work with the GM to create your own
     arcana. You do not have talents—instead choose a <strong>gadget</strong>
     from your path list or reflavor a non-path talent as a gadget. Others can
-    use your gadgets but take +1t and must always roll to use
-    them.</span></p><p><span style="font-family:'Capito04VAR'">When given time,
-    you can pull off </span><span
-    style="font-family:'Capito04VARItalic'"><em><strong>potent feats of
-    mechanical ingenuity</strong> </em></span><span
-    style="font-family:'Capito04VAR'">like </span><span
-    style="font-family:'Capito04VARItalic'"><em>crafting a temporary device
-    without proper materials </em></span><span
-    style="font-family:'Capito04VAR'">or </span><span
-    style="font-family:'Capito04VARItalic'"><em>combining arcana and gadgets for
-    wild effects</em></span><span style="font-family:'Capito04VAR'">. You can
-    push yourself to do it on the spot.</span></p><p><span
-    style="font-family:'Capito04VARItalic'"><em><strong>Engineering</strong></em></span><span
-    style="font-family:'Capito04VAR'">: Take +1d at creating, repairing, or
-    destroying mechanisms and arcana.</span></p><hr
+    use your gadgets but take +1t and must always roll to use them.</p><p>When
+    given time, you can pull off <em><strong>potent feats of mechanical
+    ingenuity</strong> </em>like <em>crafting a temporary device without proper
+    materials </em>or <em>combining arcana and gadgets for wild effects</em>.
+    You can push yourself to do it on the
+    spot.</p><p><em><strong>Engineering</strong></em>: Take +1d at creating,
+    repairing, or destroying mechanisms and arcana.</p><hr
     /><p><strong>GROWTH</strong>: Every 2 levels, gain a new minor and major
-    arcana.</p></div></div></div>
+    arcana.</p>
   core: true
   notes:
     description: ''
@@ -51,7 +38,7 @@ _stats:
   systemId: grimwild
   systemVersion: 0.1.0
   createdTime: 1739543988913
-  modifiedTime: 1739543988913
+  modifiedTime: 1739746273456
   lastModifiedBy: Dl5Tvf37OuEHwdAh
 _key: '!items!0qXTBXoJI4MyTuU7'
 

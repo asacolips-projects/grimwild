@@ -5,19 +5,11 @@ _id: jKtYtUYmI3eoIvOT
 img: icons/magic/control/control-influence-crown-yellow.webp
 system:
   description: >-
-    <div class="page" title="Page 61"><div class="layoutArea"><div
-    class="column"><p><span style="font-family:'Capito04VAR'">When given time,
-    you can pull off </span><span
-    style="font-family:'Capito04VARItalic'"><em><strong>potent feats of
-    persuasion in the name of your beliefs</strong></em></span><span
-    style="font-family:'Capito04VAR'">, like </span><span
-    style="font-family:'Capito04VARItalic'"><em>commanding a crowd to bring the
-    duke for judgment </em></span><span style="font-family:'Capito04VAR'">or
-    </span><span style="font-family:'Capito04VARItalic'"><em>showing the goblins
-    the glory of your god. </em></span><span
-    style="font-family:'Capito04VAR'">You can also push yourself to do it on the
-    spot. One time only, you can make this a ritual-level
-    effect.</span></p></div></div></div>
+    <p>When given time, you can pull off <em><strong>potent feats of persuasion
+    in the name of your beliefs</strong></em>, like <em>commanding a crowd to
+    bring the duke for judgment </em>or <em>showing the goblins the glory of
+    your god. </em>You can also push yourself to do it on the spot. One time
+    only, you can make this a ritual-level effect.</p>
   core: false
   notes:
     description: ''
@@ -55,7 +47,7 @@ _stats:
   systemId: grimwild
   systemVersion: 0.1.0
   createdTime: 1739063481754
-  modifiedTime: 1739064223098
+  modifiedTime: 1739746982533
   lastModifiedBy: Dl5Tvf37OuEHwdAh
 _key: '!items!jKtYtUYmI3eoIvOT'
 

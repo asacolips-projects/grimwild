@@ -5,20 +5,11 @@ _id: N0DDLBdAw8YfJNMK
 img: icons/skills/social/intimidation-impressing.webp
 system:
   description: >-
-    <div class="page" title="Page 59"><div class="layoutArea"><div
-    class="column"><p><span style="font-family:'Capito04VAR'">Your presence
-    instills fear in others. The GM judges an NPC's response, or you can spend
-    story to set it: </span><span
-    style="font-family:'Capito04VARItalic'"><em>hostile—nervous—respectful—scared</em></span><span
-    style="font-family:'Capito04VAR'">. You can push yourself to pull off a
-    </span><span style="font-family:'Capito04VARItalic'"><em><strong>potent feat
-    of intimidation</strong></em></span><span
-    style="font-family:'Capito04VAR'">, like </span><span
-    style="font-family:'Capito04VARItalic'"><em>staring down a dragon
-    </em></span><span style="font-family:'Capito04VAR'">or </span><span
-    style="font-family:'Capito04VARItalic'"><em>demanding to see the
-    king</em></span><span
-    style="font-family:'Capito04VAR'">.</span></p></div></div></div>
+    <p>Your presence instills fear in others. The GM judges an NPC's response,
+    or you can spend story to set it:
+    <em>hostile—nervous—respectful—scared</em>. You can push yourself to pull
+    off a <em><strong>potent feat of intimidation</strong></em>, like
+    <em>staring down a dragon </em>or <em>demanding to see the king</em>.</p>
   core: false
   notes:
     description: ''
@@ -47,7 +38,7 @@ _stats:
   systemId: grimwild
   systemVersion: 0.1.0
   createdTime: 1739062678115
-  modifiedTime: 1739130068861
+  modifiedTime: 1739746121587
   lastModifiedBy: Dl5Tvf37OuEHwdAh
 _key: '!items!N0DDLBdAw8YfJNMK'
 

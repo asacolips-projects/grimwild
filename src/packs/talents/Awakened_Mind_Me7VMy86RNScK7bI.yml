@@ -5,22 +5,16 @@ _id: Me7VMy86RNScK7bI
 img: icons/magic/perception/third-eye-blue-red.webp
 system:
   description: >-
-    <div class="page" title="Page 150"><div class="layoutArea"><div
-    class="column"><p><span style="font-family:'Capito04VAR'">You have
-    spellcasting ability. Choose 2 bastions below, which act as touchstones for
-    your psionic magic. You roll two stats combined to cast, forming the roll by
-    adding the bastion's key stats and subtracting two (</span><span
-    style="font-family:'Capito04VARItalic'"><em>3 Brawn and 2 Wits =
-    3d</em></span><span style="font-family:'Capito04VAR'">).</span></p><p><span
-    style="font-family:'Capito04VAR'">Each session, you have <strong>8 power
-    points</strong>. Spend 1 power point to cast a spell. You can
-    <strong>augment</strong> it by spending 1 or more points to: </span><span
-    style="font-family:'Capito04VARItalic'"><em>cast a potent spell—take +1d
-    (max once) on the roll—ignore thorns from damage—add another of your
-    bastions as a touchstone</em></span><span
-    style="font-family:'Capito04VAR'">.</span></p><hr
+    <p>You have spellcasting ability. Choose 2 bastions below, which act as
+    touchstones for your psionic magic. You roll two stats combined to cast,
+    forming the roll by adding the bastion's key stats and subtracting two
+    (<em>3 Brawn and 2 Wits = 3d</em>).</p><p>Each session, you have <strong>8
+    power points</strong>. Spend 1 power point to cast a spell. You can
+    <strong>augment</strong> it by spending 1 or more points to: <em>cast a
+    potent spell—take +1d (max once) on the roll—ignore thorns from damage—add
+    another of your bastions as a touchstone</em>.</p><hr
     /><p><strong>GROWTH</strong>: Every 2 levels, learn a new bastion and gain 2
-    power points per session.</p></div></div></div>
+    power points per session.</p>
   core: true
   notes:
     description: <p><em>Write down your bastions here.</em></p>
@@ -49,7 +43,7 @@ _stats:
   systemId: grimwild
   systemVersion: 0.1.0
   createdTime: 1739544993822
-  modifiedTime: 1739544993822
+  modifiedTime: 1739745920823
   lastModifiedBy: Dl5Tvf37OuEHwdAh
 _key: '!items!Me7VMy86RNScK7bI'
 

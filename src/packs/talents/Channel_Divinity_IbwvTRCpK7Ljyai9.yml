@@ -5,21 +5,14 @@ _id: IbwvTRCpK7Ljyai9
 img: icons/magic/holy/prayer-hands-glowing-yellow-green.webp
 system:
   description: >-
-    <div class="page" title="Page 60"><div class="layoutArea"><div
-    class="column"><p><span style="font-family:'Capito04VAR'">Your god grants
-    you spellcasting ability. You roll a domain pool to cast and that domain
-    pool and your god's epithet serve as touchstones.</span></p><p><span
-    style="font-family:'Capito04VAR'">Create your god (</span><span
-    style="font-family:'Capito04VARItalic'"><em>below</em></span><span
-    style="font-family:'Capito04VAR'">). You have <strong>1 major
-    domain</strong>, a 6d power pool, and <strong>2 minor domains</strong>, each
-    a 4d power pool. These pools replenish each session. You can drop 1d and
-    roll the domain to cast a </span><span
-    style="font-family:'Capito04VARItalic'"><em><strong>potent
-    spell</strong></em></span><span
-    style="font-family:'Capito04VAR'">.</span></p><hr
-    /><p><strong>GROWTH</strong>: Every 2 levels, increase one domain pool by 1d
-    (max 8d).</p></div></div></div>
+    <p>Your god grants you spellcasting ability. You roll a domain pool to cast
+    and that domain pool and your god's epithet serve as
+    touchstones.</p><p>Create your god (<em>below</em>). You have <strong>1
+    major domain</strong>, a 6d power pool, and <strong>2 minor
+    domains</strong>, each a 4d power pool. These pools replenish each session.
+    You can drop 1d and roll the domain to cast a <em><strong>potent
+    spell</strong></em>.</p><hr /><p><strong>GROWTH</strong>: Every 2 levels,
+    increase one domain pool by 1d (max 8d).</p>
   core: true
   notes:
     description: <p><em>Write your God's name and domains here.</em></p>
@@ -66,7 +59,7 @@ _stats:
   systemId: grimwild
   systemVersion: 0.1.0
   createdTime: 1739063481754
-  modifiedTime: 1739063872574
+  modifiedTime: 1739746039990
   lastModifiedBy: Dl5Tvf37OuEHwdAh
 _key: '!items!IbwvTRCpK7Ljyai9'
 

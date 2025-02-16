@@ -5,17 +5,10 @@ _id: ZyQ3HICTt04syyGF
 img: icons/magic/control/buff-strength-muscle-damage-red.webp
 system:
   description: >-
-    <div class="page" title="Page 59"><div class="layoutArea"><div
-    class="column"><p><span style="font-family:'Capito04VAR'">When given time,
-    you can pull off </span><span
-    style="font-family:'Capito04VARItalic'"><em><strong>potent feats of raw
-    strength</strong></em></span><span style="font-family:'Capito04VAR'">, like
-    </span><span style="font-family:'Capito04VARItalic'"><em>uprooting a tree
-    </em></span><span style="font-family:'Capito04VAR'">or </span><span
-    style="font-family:'Capito04VARItalic'"><em>breaking through a castle
-    gate</em></span><span style="font-family:'Capito04VAR'">. You can
-    <strong>push yourself</strong> to do it on the
-    spot.</span></p></div></div></div>
+    <p>When given time, you can pull off <em><strong>potent feats of raw
+    strength</strong></em>, like <em>uprooting a tree </em>or <em>breaking
+    through a castle gate</em>. You can <strong>push yourself</strong> to do it
+    on the spot.</p>
   core: false
   notes:
     description: ''
@@ -44,7 +37,7 @@ _stats:
   systemId: grimwild
   systemVersion: 0.1.0
   createdTime: 1739062678115
-  modifiedTime: 1739065474097
+  modifiedTime: 1739746507201
   lastModifiedBy: Dl5Tvf37OuEHwdAh
 _key: '!items!ZyQ3HICTt04syyGF'
 

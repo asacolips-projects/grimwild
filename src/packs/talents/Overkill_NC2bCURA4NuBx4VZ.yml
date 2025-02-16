@@ -5,11 +5,9 @@ _id: NC2bCURA4NuBx4VZ
 img: icons/skills/melee/strike-flail-destructive-yellow.webp
 system:
   description: >-
-    <div class="page" title="Page 4"><div class="layoutArea"><div
-    class="column"><p><span style="font-family:'Capito04'">On a critical when
-    bringing violence, threats, or destruction to bear, you can: <em>cause an
-    extra secondary effect—roll a task pool
-    twice</em>.</span></p></div></div></div>
+    <p>On a critical when bringing violence, threats, or destruction to bear,
+    you can: <em>cause an extra secondary effect—roll a task pool
+    twice</em>.</p>
   core: false
   notes:
     description: ''
@@ -29,7 +27,7 @@ _stats:
   systemId: grimwild
   systemVersion: 0.1.0
   createdTime: 1739062678115
-  modifiedTime: 1739065602157
+  modifiedTime: 1739746650825
   lastModifiedBy: Dl5Tvf37OuEHwdAh
 _key: '!items!NC2bCURA4NuBx4VZ'
 

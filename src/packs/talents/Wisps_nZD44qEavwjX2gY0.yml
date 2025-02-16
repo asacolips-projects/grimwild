@@ -5,17 +5,12 @@ _id: nZD44qEavwjX2gY0
 img: icons/magic/unholy/projectiles-binary-pink.webp
 system:
   description: >-
-    <div class="page" title="Page 75"><div class="layoutArea"><div
-    class="column"><p><span style="font-family:'Capito04VAR'">Two small spheres
-    of your magic path float around you. Give them 2 traits: </span><span
-    style="font-family:'Capito04VARItalic'"><em>annoying—capricious—malevolent—mesmerizing—whimsical</em></span><span
-    style="font-family:'Capito04VAR'">. They serve as touchstones. You can
-    sacrifice one to: </span><span
-    style="font-family:'Capito04VARItalic'"><em>assist without risk—distract
-    someone—send a brief message far away—suffer vex in your
-    stead</em></span><span style="font-family:'Capito04VAR'">. Make story rolls
-    to determine effects if sacrificed. They return each
-    session.</span></p></div></div></div>
+    <p>Two small spheres of your magic path float around you. Give them 2
+    traits: <em>annoying—capricious—malevolent—mesmerizing—whimsical</em>. They
+    serve as touchstones. You can sacrifice one to: <em>assist without
+    risk—distract someone—send a brief message far away—suffer vex in your
+    stead</em>. Make story rolls to determine effects if sacrificed. They return
+    each session.</p>
   core: false
   notes:
     description: <p><em>Write down your 2 wisp traits here.</em></p>
@@ -44,7 +39,7 @@ _stats:
   systemId: grimwild
   systemVersion: 0.1.0
   createdTime: 1739139357959
-  modifiedTime: 1739139357959
+  modifiedTime: 1739747232925
   lastModifiedBy: Dl5Tvf37OuEHwdAh
 _key: '!items!nZD44qEavwjX2gY0'
 

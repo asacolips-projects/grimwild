@@ -5,17 +5,11 @@ _id: BAenjV0a4rGJ6g0j
 img: icons/magic/control/encase-creature-humanoid-hold.webp
 system:
   description: >-
-    <div class="page" title="Page 151"><div class="layoutArea"><div
-    class="column"><p><span style="font-family:'Capito04VAR'">On a critical on a
-    bastion roll, refund the power points spent and gain 3 power points. This
-    causes mental </span><span
-    style="font-family:'Capito04VARItalic'"><em><strong>collateral
-    damage</strong> </em></span><span style="font-family:'Capito04VAR'">around
-    you: </span><span
-    style="font-family:'Capito04VARItalic'"><em>confusion—hallucinations—
-    headaches— panic</em></span><span style="font-family:'Capito04VAR'">. One
+    <p>On a critical on a bastion roll, refund the power points spent and gain 3
+    power points. This causes mental <em><strong>collateral damage</strong>
+    </em>around you: <em>confusion—hallucinations— headaches— panic</em>. One
     time only, you can make this a ritual-level effect, affecting all within
-    miles.</span></p></div></div></div>
+    miles.</p>
   core: false
   notes:
     description: ''
@@ -35,7 +29,7 @@ _stats:
   systemId: grimwild
   systemVersion: 0.1.0
   createdTime: 1739544993822
-  modifiedTime: 1739544993822
+  modifiedTime: 1739746577564
   lastModifiedBy: Dl5Tvf37OuEHwdAh
 _key: '!items!BAenjV0a4rGJ6g0j'
 

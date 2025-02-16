@@ -5,23 +5,12 @@ _id: FX53ihUtuKgSGrlU
 img: icons/magic/water/pseudopod-teal.webp
 system:
   description: >-
-    <div class="page" title="Page 67"><div class="layoutArea"><div
-    class="column"><p><span style="font-family:'Capito04VAR'">Choose an element:
-    </span><span
-    style="font-family:'Capito04VARItalic'"><em>Air—Earth—Fire—Water</em></span><span
-    style="font-family:'Capito04VAR'">. You can cast cantrips with that element,
-    useful as </span><span style="font-family:'Capito04VARItalic'"><em>set
-    dressing </em></span><span style="font-family:'Capito04VAR'">and
-    </span><span style="font-family:'Capito04VARItalic'"><em>cantrip
-    utility</em></span><span style="font-family:'Capito04VAR'">. On a critical
-    using your element, charge it (mark its box). Spend it to pull off a
-    </span><span style="font-family:'Capito04VARItalic'"><em><strong>potent feat
-    of force or movement</strong> </em></span><span
-    style="font-family:'Capito04VAR'">empowered by the
-    element.</span></p><p><span
-    style="font-family:'Capito04VARItalic'"><em>Special: You can take this
-    again, gaining all elements. On a critical, charge two
-    elements.</em></span></p></div></div></div>
+    <p>Choose an element: <em>Air—Earth—Fire—Water</em>. You can cast cantrips
+    with that element, useful as <em>set dressing </em>and <em>cantrip
+    utility</em>. On a critical using your element, charge it (mark its box).
+    Spend it to pull off a <em><strong>potent feat of force or movement</strong>
+    </em>empowered by the element.</p><p><em>Special: You can take this again,
+    gaining all elements. On a critical, charge two elements.</em></p>
   core: false
   notes:
     description: ''
@@ -50,7 +39,7 @@ _stats:
   systemId: grimwild
   systemVersion: 0.1.0
   createdTime: 1739113686945
-  modifiedTime: 1739113686945
+  modifiedTime: 1739746813614
   lastModifiedBy: Dl5Tvf37OuEHwdAh
 _key: '!items!FX53ihUtuKgSGrlU'
 

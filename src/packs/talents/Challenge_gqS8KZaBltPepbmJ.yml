@@ -5,15 +5,11 @@ _id: gqS8KZaBltPepbmJ
 img: icons/magic/control/control-influence-rally-purple.webp
 system:
   description: >-
-    <div class="page" title="Page 69"><div class="section"><div
-    class="layoutArea"><div class="column"><p><span
-    style="font-family:'Capito04VAR'">You can <strong>push yourself</strong> to
-    challenge a foe. You take +1d on all rolls against them, but give them 1
-    suspense. If they do anything besides confront you, you can </span><span
-    style="font-family:'Capito04VARItalic'"><em><strong>interrupt</strong>
-    </em></span><span style="font-family:'Capito04VAR'">it. On a perfect, the
-    challenge continues. If an ally engages your foe, the challenge
-    ends.</span></p></div></div></div></div>
+    <p>You can <strong>push yourself</strong> to challenge a foe. You take +1d
+    on all rolls against them, but give them 1 suspense. If they do anything
+    besides confront you, you can <em><strong>interrupt</strong> </em>it. On a
+    perfect, the challenge continues. If an ally engages your foe, the challenge
+    ends.</p>
   core: false
   notes:
     description: ''
@@ -42,7 +38,7 @@ _stats:
   systemId: grimwild
   systemVersion: 0.1.0
   createdTime: 1739115233991
-  modifiedTime: 1739115233991
+  modifiedTime: 1739745987129
   lastModifiedBy: Dl5Tvf37OuEHwdAh
 _key: '!items!gqS8KZaBltPepbmJ'
 

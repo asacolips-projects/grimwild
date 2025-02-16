@@ -5,15 +5,11 @@ _id: TnxQ2sGUubldRtzh
 img: icons/tools/navigation/spyglass-telescope-brass-blue.webp
 system:
   description: >-
-    <div class="page" title="Page 71"><div class="layoutArea"><div
-    class="column"><p><span style="font-family:'Capito04VAR'">You gain 1 story
-    per session and can spend story to flashback to scouting ahead and:
-    </span><span style="font-family:'Capito04VARItalic'"><em>sabotage
-    something—set a trap—survey the area (ask 2 questions)—take out a danger—set
-    up an <strong>interrupt</strong></em></span><span
-    style="font-family:'Capito04VAR'">. Make a montage roll, taking +1d for
-    prowess. The GM always takes suspense in place of an impact
-    move.</span></p></div></div></div>
+    <p>You gain 1 story per session and can spend story to flashback to scouting
+    ahead and: <em>sabotage something—set a trap—survey the area (ask 2
+    questions)—take out a danger—set up an <strong>interrupt</strong></em>. Make
+    a montage roll, taking +1d for prowess. The GM always takes suspense in
+    place of an impact move.</p>
   core: false
   notes:
     description: ''
@@ -42,7 +38,7 @@ _stats:
   systemId: grimwild
   systemVersion: 0.1.0
   createdTime: 1739129525843
-  modifiedTime: 1739129525843
+  modifiedTime: 1739746962194
   lastModifiedBy: Dl5Tvf37OuEHwdAh
 _key: '!items!TnxQ2sGUubldRtzh'
 

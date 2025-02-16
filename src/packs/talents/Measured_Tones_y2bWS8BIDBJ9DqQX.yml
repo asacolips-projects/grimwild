@@ -5,16 +5,11 @@ _id: y2bWS8BIDBJ9DqQX
 img: icons/skills/social/trading-justice-scale-yellow.webp
 system:
   description: >-
-    <div class="page" title="Page 65"><div class="layoutArea"><div
-    class="column"><p><span style="font-family:'Capito04VAR'">When you speak in
-    measured tones, people always stop and listen—you can declare </span><span
-    style="font-family:'Capito04VARItalic'"><em><strong>low risk</strong>
-    </em></span><span style="font-family:'Capito04VAR'">if desired. Unless
-    completely surprised, you can <strong>push yourself</strong> to </span><span
-    style="font-family:'Capito04VARItalic'"><em><strong>interrupt</strong>
-    </em></span><span style="font-family:'Capito04VAR'">an impact move
-    initiating aggression. If you change their mind, <strong>take
-    spark</strong>.</span></p></div></div></div>
+    <p>When you speak in measured tones, people always stop and listen—you can
+    declare <em><strong>low risk</strong> </em>if desired. Unless completely
+    surprised, you can <strong>push yourself</strong> to
+    <em><strong>interrupt</strong> </em>an impact move initiating aggression. If
+    you change their mind, <strong>take spark</strong>.</p>
   core: false
   notes:
     description: ''
@@ -43,7 +38,7 @@ _stats:
   systemId: grimwild
   systemVersion: 0.1.0
   createdTime: 1739111225522
-  modifiedTime: 1739111225522
+  modifiedTime: 1739746431926
   lastModifiedBy: Dl5Tvf37OuEHwdAh
 _key: '!items!y2bWS8BIDBJ9DqQX'
 

@@ -5,16 +5,10 @@ _id: 4aHoEib7ThPqvnSX
 img: icons/magic/control/debuff-energy-hold-pink.webp
 system:
   description: >-
-    <div class="page" title="Page 77"><div class="layoutArea"><div
-    class="column"><p><span style="font-family:'Capito04VAR'">You can roll
-    Presence to hex someone with: </span><span
-    style="font-family:'Capito04VARItalic'"><em>dread—clumsiness—confusion—forgetfulness—
-    misfortune—sleepiness</em></span><span style="font-family:'Capito04VAR'">.
-    Decide when it takes effect: </span><span
-    style="font-family:'Capito04VARItalic'"><em>now—soon—much later—specific
-    trigger</em></span><span style="font-family:'Capito04VAR'">. This is a
-    cosmic effect. It's magic, but not fully under your
-    control.</span></p></div></div></div>
+    <p>You can roll Presence to hex someone with:
+    <em>dread—clumsiness—confusion—forgetfulness— misfortune—sleepiness</em>.
+    Decide when it takes effect: <em>now—soon—much later—specific trigger</em>.
+    This is a cosmic effect. It's magic, but not fully under your control.</p>
   core: false
   notes:
     description: ''
@@ -34,7 +28,7 @@ _stats:
   systemId: grimwild
   systemVersion: 0.1.0
   createdTime: 1739140434336
-  modifiedTime: 1739140434336
+  modifiedTime: 1739746245233
   lastModifiedBy: Dl5Tvf37OuEHwdAh
 _key: '!items!4aHoEib7ThPqvnSX'
 

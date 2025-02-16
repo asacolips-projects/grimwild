@@ -5,19 +5,14 @@ _id: JsmQDELRkKavY179
 img: icons/skills/melee/weapons-crossed-swords-purple.webp
 system:
   description: >-
-    <div class="page" title="Page 64"><div class="layoutArea"><div
-    class="column"><p><span style="font-family:'Capito04VAR'">Choose a fighting
-    style that you have mastered: </span><span
-    style="font-family:'Capito04VARItalic'"><em>brawling—dual-wielding—one-handed
-    weapons—ranged weapons—thrown weapons—two-handed weapons</em></span><span
-    style="font-family:'Capito04VAR'">. You have a <strong>mastery</strong>
+    <p>Choose a fighting style that you have mastered:
+    <em>brawling—dual-wielding—one-handed weapons—ranged weapons—thrown
+    weapons—two-handed weapons</em>. You have a <strong>mastery</strong>
     <strong>die</strong>, a special d6. When you fight in your style, take +1d
-    </span><span style="font-family:'Capito04VARItalic'"><em>(the mastery die)
-    </em></span><span style="font-family:'Capito04VAR'">on the roll. If the
-    mastery die is a 6, it counts as a critical. If it's already a critical,
-    <strong>take</strong> <strong>spark</strong>.</span></p><hr
-    /><p><strong>GROWTH</strong>: Every 3 levels, your mastery die increases by
-    1d.</p></div></div></div>
+    <em>(the mastery die) </em>on the roll. If the mastery die is a 6, it counts
+    as a critical. If it's already a critical, <strong>take</strong>
+    <strong>spark</strong>.</p><hr /><p><strong>GROWTH</strong>: Every 3 levels,
+    your mastery die increases by 1d.</p>
   core: true
   notes:
     description: <p><em>Write down your chosen fighting style here.</em></p>
@@ -37,7 +32,7 @@ _stats:
   systemId: grimwild
   systemVersion: 0.1.0
   createdTime: 1739111225522
-  modifiedTime: 1739111225522
+  modifiedTime: 1739747203714
   lastModifiedBy: Dl5Tvf37OuEHwdAh
 _key: '!items!JsmQDELRkKavY179'
 

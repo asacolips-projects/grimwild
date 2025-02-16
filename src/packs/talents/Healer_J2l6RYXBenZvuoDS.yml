@@ -5,11 +5,9 @@ _id: J2l6RYXBenZvuoDS
 img: icons/magic/life/heart-red-blue.webp
 system:
   description: >-
-    <div class="page" title="Page 61"><div class="layoutArea"><div
-    class="column"><p><span style="font-family:'Capito04VAR'">When you heal
-    someone, through treatment or magic, they drop 2d before rolling the pool.
-    If it depletes from your care, <strong>take
-    spark</strong>.</span></p></div></div></div>
+    <p>When you heal someone, through treatment or magic, they drop 2d before
+    rolling the pool. If it depletes from your care, <strong>take
+    spark</strong>.</p>
   core: false
   notes:
     description: ''
@@ -29,7 +27,7 @@ _stats:
   systemId: grimwild
   systemVersion: 0.1.0
   createdTime: 1739063481754
-  modifiedTime: 1739063902819
+  modifiedTime: 1739746198182
   lastModifiedBy: Dl5Tvf37OuEHwdAh
 _key: '!items!J2l6RYXBenZvuoDS'
 

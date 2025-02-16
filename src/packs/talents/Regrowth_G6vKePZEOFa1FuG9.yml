@@ -5,13 +5,8 @@ _id: G6vKePZEOFa1FuG9
 img: icons/magic/nature/root-vine-caduceus-healing.webp
 system:
   description: >-
-    <div class="page" title="Page 63"><div class="layoutArea"><div
-    class="column"><p><span style="font-family:'Capito04VAR'">When you heal
-    bloodied, drop 1d then roll it. You can also give yourself treatment if you
-    have </span><span
-    style="font-family:'Capito04VARItalic'"><em>time</em></span><span
-    style="font-family:'Capito04VAR'">, no roll
-    required.</span></p></div></div></div>
+    <p>When you heal bloodied, drop 1d then roll it. You can also give yourself
+    treatment if you have <em>time</em>, no roll required.</p>
   core: false
   notes:
     description: ''
@@ -31,7 +26,7 @@ _stats:
   systemId: grimwild
   systemVersion: 0.1.0
   createdTime: 1739109608751
-  modifiedTime: 1739109608751
+  modifiedTime: 1739746837013
   lastModifiedBy: Dl5Tvf37OuEHwdAh
 _key: '!items!G6vKePZEOFa1FuG9'
 

@@ -5,10 +5,8 @@ _id: 3KKes4fnZj5gRRSA
 img: icons/tools/instruments/bell-gold.webp
 system:
   description: >-
-    <div class="page" title="Page 61"><div class="layoutArea"><div
-    class="column"><p><span style="font-family:'Capito04VAR'">You always know
-    when someone is lying, though not necessarily the truth. You take +1d on a
-    follow-up if you reveal you know they're lying.</span></p></div></div></div>
+    <p>You always know when someone is lying, though not necessarily the truth.
+    You take +1d on a follow-up if you reveal you know they're lying.</p>
   core: false
   notes:
     description: ''
@@ -28,7 +26,7 @@ _stats:
   systemId: grimwild
   systemVersion: 0.1.0
   createdTime: 1739063481754
-  modifiedTime: 1739064076315
+  modifiedTime: 1739746866298
   lastModifiedBy: Dl5Tvf37OuEHwdAh
 _key: '!items!3KKes4fnZj5gRRSA'
 

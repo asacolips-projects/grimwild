@@ -5,20 +5,11 @@ _id: DkIoxwNO3SKehHN0
 img: icons/creatures/birds/raptor-hawk-flying.webp
 system:
   description: >-
-    <div class="page" title="Page 149"><div class="layoutArea"><div
-    class="column"><p><span style="font-family:'Capito04VAR'">You have
-    </span><span style="font-family:'Capito04VARItalic'"><em>highly maneuverable
-    </em></span><span style="font-family:'Capito04VAR'">wings that allow you to
-    glide (</span><span style="font-family:'Capito04VARItalic'"><em>not
-    fly</em></span><span style="font-family:'Capito04VAR'">). You gain a
-    </span><span style="font-family:'Capito04VARItalic'"><em><strong>3d power
-    pool</strong> </em></span><span style="font-family:'Capito04VAR'">while
-    aloft, or </span><span
-    style="font-family:'Capito04VARItalic'"><em><strong>4d</strong>
-    </em></span><span style="font-family:'Capito04VAR'">if you have extreme
-    height or speed. You must roll the pool as bonus dice with any physical roll
-    made while aloft, including defenses. At 0d, you coast back to the
-    ground.</span></p></div></div></div>
+    <p>You have <em>highly maneuverable </em>wings that allow you to glide
+    (<em>not fly</em>). You gain a <em><strong>3d power pool</strong> </em>while
+    aloft, or <em><strong>4d</strong> </em>if you have extreme height or speed.
+    You must roll the pool as bonus dice with any physical roll made while
+    aloft, including defenses. At 0d, you coast back to the ground.</p>
   core: false
   notes:
     description: ''
@@ -47,7 +38,7 @@ _stats:
   systemId: grimwild
   systemVersion: 0.1.0
   createdTime: 1739543988913
-  modifiedTime: 1739543988913
+  modifiedTime: 1739747156880
   lastModifiedBy: Dl5Tvf37OuEHwdAh
 _key: '!items!DkIoxwNO3SKehHN0'
 

@@ -5,14 +5,10 @@ _id: ndFymzEmKZJecdlZ
 img: icons/creatures/mammals/wolf-howl-moon-forest-blue.webp
 system:
   description: >-
-    <div class="page" title="Page 63"><div class="layoutArea"><div
-    class="column"><p><span style="font-family:'Capito04VAR'">You can speak with
-    animals and spirits of the wild, their personalities shaped by their
-    instincts. </span><span
-    style="font-family:'Capito04VARItalic'"><em><strong>You are known to
-    them</strong></em></span><span style="font-family:'Capito04VAR'">—when you
-    meet, roll their bond with you or spend story to establish it. When you
-    call, those nearby will answer.</span></p></div></div></div>
+    <p>You can speak with animals and spirits of the wild, their personalities
+    shaped by their instincts. <em><strong>You are known to
+    them</strong></em>—when you meet, roll their bond with you or spend story to
+    establish it. When you call, those nearby will answer.</p>
   core: false
   notes:
     description: ''
@@ -32,7 +28,7 @@ _stats:
   systemId: grimwild
   systemVersion: 0.1.0
   createdTime: 1739109608751
-  modifiedTime: 1739109608751
+  modifiedTime: 1739746378600
   lastModifiedBy: Dl5Tvf37OuEHwdAh
 _key: '!items!ndFymzEmKZJecdlZ'
 
