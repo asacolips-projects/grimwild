@@ -244,7 +244,10 @@ export default class GrimwildCharacter extends GrimwildActorBase {
 					isMarked: rollData?.stats?.[options.stat].marked
 				}
 			});
-
+			// bail out if they closed the dialog
+			if (rollDialog === null) {
+				return;
+			}
 			rollData.thorns = rollDialog.thorns;
 			rollData.statDice = rollDialog.dice;
 			options.assists = rollDialog.assisters;
