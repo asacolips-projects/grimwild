@@ -158,14 +158,14 @@ export class GrimwildItemSheetVue extends VueRenderingMixin(GrimwildBaseVueItemS
 		context.tabs.primary.description = {
 			key: "description",
 			label: game.i18n.localize("GRIMWILD.Item.Tabs.Description"),
-			active: false
+			active: true
 		};
 
 		// Tabs limited to Monsters.
 		context.tabs.primary.attributes = {
 			key: "attributes",
 			label: game.i18n.localize("GRIMWILD.Item.Tabs.Attributes"),
-			active: true
+			active: false
 		};
 
 		// @todo Active Effects disabled for now. Will revisit in the
