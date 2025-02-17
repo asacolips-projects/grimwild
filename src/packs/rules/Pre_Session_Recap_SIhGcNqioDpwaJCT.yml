@@ -14,29 +14,14 @@ pages:
     text:
       format: 1
       content: >-
-        <div class="page" title="Page 19"><div class="layoutArea"><div
-        class="column"><p><span style="font-family:'Capito04VAR'">Before each
-        session (after the first), recall the previous session and share your
-        PC's best moment. </span><span
-        style="font-family:'Capito04VARItalic'"><em><strong>Each player takes
-        </strong>@UUID[Compendium.grimwild.rules.JournalEntry.jfAL6eh3f03OfuY3]{Spark}</em></span><span
-        style="font-family:'Capito04VAR'">.</span></p><p><span
-        style="font-family:'Capito04VAR'">When all are finished, the GM
-        </span><span style="font-family:'Capito04VAR-Light-SC850',
-        font-style='small-caps'"><span
-        style="font-family:'Capito04VAR-Light-SC850',
-        font-style='small-caps'">RECAPS </span></span><span
-        style="font-family:'Capito04VAR'">(</span><span
-        style="font-family:'Capito04VARItalic'"><em>taking
-        </em>@UUID[Compendium.grimwild.gm_toolkit.JournalEntry.r03swtJF4sEnG2fm]{Suspense}</span><span
-        style="font-family:'Capito04VAR'">) tying all of these moments together
-        into a proper "</span><span
-        style="font-family:'Capito04VARItalic'"><em>Previously
-        on...</em></span><span style="font-family:'Capito04VAR'">" and starts
-        the session.</span></p><p><span
-        style="font-family:'Capito04VARItalic'"><em><strong>Note</strong>: Spark
-        carries over and story resets each
-        session.</em></span></p></div></div></div>
+        <p>Before each session (after the first), recall the previous session
+        and share your PC's best moment. <em><strong>Each player takes
+        </strong>@UUID[Compendium.grimwild.rules.JournalEntry.jfAL6eh3f03OfuY3]{Spark}</em>.</p><p>When
+        all are finished, the GM RECAPS (<em>taking
+        </em>@UUID[Compendium.grimwild.gm_toolkit.JournalEntry.r03swtJF4sEnG2fm]{Suspense})
+        tying all of these moments together into a proper "<em>Previously
+        on...</em>" and starts the session.</p><p><em><strong>Note</strong>:
+        Spark carries over and story resets each session.</em></p>
     video:
       controls: true
       volume: 0.5

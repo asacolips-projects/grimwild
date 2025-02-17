@@ -14,17 +14,12 @@ pages:
     text:
       format: 1
       content: >-
-        <div class="page" title="Page 19"><div class="layoutArea"><div
-        class="column"><p><span style="font-family:'Capito04VAR'">Expend extra
-        effort to activate certain talents that require it. After using the
-        talent, </span><span
-        style="font-family:'Capito04VARItalic'">@UUID[Compendium.grimwild.rules.JournalEntry.mE6axXeciWLe3skm]{Mark}<em>
-        <strong>a related stat</strong> </em></span><span
-        style="font-family:'Capito04VAR'">(</span><span
-        style="font-family:'Capito04VARItalic'"><em>your choice</em></span><span
-        style="font-family:'Capito04VAR'">). Talents that require you to push
-        yourself can be activated without a mark once per
-        session.</span></p></div></div></div>
+        <p>Expend extra effort to activate certain talents that require it.
+        After using the talent,
+        @UUID[Compendium.grimwild.rules.JournalEntry.mE6axXeciWLe3skm]{Mark}<em>
+        <strong>a related stat</strong> </em>(<em>your choice</em>). Talents
+        that require you to push yourself can be activated without a mark once
+        per session.</p>
     video:
       controls: true
       volume: 0.5

@@ -13,20 +13,12 @@ pages:
     text:
       format: 1
       content: >-
-        <div class="page" title="Page 15"><div class="layoutArea"><div
-        class="column"><p><span style="font-family:'Capito04VAR'">Roll to
-        condense a sequence you don’t want to play out in detail, but still want
-        to leave up to the dice. </span><span
-        style="font-family:'Capito04VARItalic'"><em><strong>Roll
-        2d</strong></em></span><span style="font-family:'Capito04VAR'">,
+        <p>Roll to condense a sequence you don’t want to play out in detail, but
+        still want to leave up to the dice. <em><strong>Roll 2d</strong></em>,
         resolving it all as a single action roll, then narrate a few beats. Keep
-        things moving or zoom in on a grim.</span></p><p><span
-        style="font-family:'Capito04VAR'">If multiple PCs join, </span><span
-        style="font-family:'Capito04VARItalic'"><em><strong>each rolls 2d and
-        shares the risk</strong></em></span><span
-        style="font-family:'Capito04VAR'">. Collaborate on the results. 6s on
-        separate rolls don’t count towards
-        criticals.</span></p></div></div></div>
+        things moving or zoom in on a grim.</p><p>If multiple PCs join,
+        <em><strong>each rolls 2d and shares the risk</strong></em>. Collaborate
+        on the results. 6s on separate rolls don’t count towards criticals.</p>
     video:
       controls: true
       volume: 0.5

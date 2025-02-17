@@ -14,27 +14,16 @@ pages:
     text:
       format: 1
       content: >-
-        <div class="page" title="Page 16"><div class="layoutArea"><div
-        class="column"><p><span style="font-family:'Capito04VAR'">Your dynamic
-        with each PC. Match an intensity (</span><span
-        style="font-family:'Capito04VARItalic'"><em>left</em></span><span
-        style="font-family:'Capito04VAR'">) and a nature (</span><span
-        style="font-family:'Capito04VARItalic'"><em>right</em></span><span
-        style="font-family:'Capito04VAR'">) below, or write your own. Interpret
-        them as makes
-        sense.</span></p></div><p></p><table><tbody><tr><td><p>Deep</p></td><td><p>Affection</p></td></tr><tr><td><p>Complex</p></td><td><p>Camaraderie</p></td></tr><tr><td><p>Growing</p></td><td><p>Curiosity</p></td></tr><tr><td><p>Lowkey</p></td><td><p>Doubts</p></td></tr><tr><td><p>Playful</p></td><td><p>Respect</p></td></tr><tr><td><p>Tense</p></td><td><p>Rivalry</p></td></tr></tbody></table><div
-        class="column"><p><span style="font-family:'Capito04VAR'">Bonds are your
-        strongest view of the other PC, and not necessarily reciprocal
-        </span><span style="font-family:'Capito04VARItalic'"><em>(your tense
-        doubts is their playful rivalry)</em></span><span
-        style="font-family:'Capito04VAR'">. You can change a bond anytime, such
-        as in response to something they've done or something new you've learned
-        about them. When it changes, give a short vignette (</span><span
-        style="font-family:'Capito04VARItalic'"><em>better if
-        together!</em></span><span style="font-family:'Capito04VAR'">).
-        </span><span style="font-family:'Capito04VARItalic'"><em><strong>The
-        other PC takes
-        </strong></em>@UUID[Compendium.grimwild.rules.JournalEntry.jfAL6eh3f03OfuY3]{Spark}<em>.</em></span></p></div></div></div>
+        <p>Your dynamic with each PC. Match an intensity (<em>left</em>) and a
+        nature (<em>right</em>) below, or write your own. Interpret them as
+        makes
+        sense.</p><p></p><table><tbody><tr><td><p>Deep</p></td><td><p>Affection</p></td></tr><tr><td><p>Complex</p></td><td><p>Camaraderie</p></td></tr><tr><td><p>Growing</p></td><td><p>Curiosity</p></td></tr><tr><td><p>Lowkey</p></td><td><p>Doubts</p></td></tr><tr><td><p>Playful</p></td><td><p>Respect</p></td></tr><tr><td><p>Tense</p></td><td><p>Rivalry</p></td></tr></tbody></table><p>Bonds
+        are your strongest view of the other PC, and not necessarily reciprocal
+        <em>(your tense doubts is their playful rivalry)</em>. You can change a
+        bond anytime, such as in response to something they've done or something
+        new you've learned about them. When it changes, give a short vignette
+        (<em>better if together!</em>). <em><strong>The other PC takes
+        </strong></em>@UUID[Compendium.grimwild.rules.JournalEntry.jfAL6eh3f03OfuY3]{Spark}<em>.</em></p>
     video:
       controls: true
       volume: 0.5

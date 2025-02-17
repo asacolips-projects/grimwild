@@ -14,25 +14,17 @@ pages:
     text:
       format: 1
       content: >-
-        <div class="page" title="Page 17"><div class="layoutArea"><div
-        class="column"><p><span style="font-family:'Capito04VAR'">Evocative
-        phrases that give your PC and group a thematic direction. Find out where
-        they lead through play— they're a starting direction, not the
-        destination.</span></p><p><span style="font-family:'Capito04VAR'">Pick a
-        <strong>group arc</strong> together, then a <strong>character
-        arc</strong>. Pick from the examples or write your own. Keep it
-        short.</span></p><p><span
-        style="font-family:'Capito04VARItalic'"><em><strong>Take
+        <p>Evocative phrases that give your PC and group a thematic direction.
+        Find out where they lead through play— they're a starting direction, not
+        the destination.</p><p>Pick a <strong>group arc</strong> together, then
+        a <strong>character arc</strong>. Pick from the examples or write your
+        own. Keep it short.</p><p><em><strong>Take
         </strong></em>@UUID[Compendium.grimwild.rules.JournalEntry.jfAL6eh3f03OfuY3]{Spark}<em><strong>
-        by resolving an arc</strong> </em></span><span
-        style="font-family:'Capito04VAR'">with a meaningful moment, </span><span
-        style="font-family:'Capito04VARItalic'"><em>however big or small it
-        is</em></span><span style="font-family:'Capito04VAR'">. This could mean
-        achieving your goal, adjusting it for the next step, or moving on from
-        it entirely.</span></p><p><span
-        style="font-family:'Capito04VARItalic'"><em>You shrug your shoulders and
-        let the knight ride off—you have more to worry about than your
-        revenge.</em></span></p></div><table><tbody><tr><td><p
+        by resolving an arc</strong> </em>with a meaningful moment, <em>however
+        big or small it is</em>. This could mean achieving your goal, adjusting
+        it for the next step, or moving on from it entirely.</p><p><em>You shrug
+        your shoulders and let the knight ride off—you have more to worry about
+        than your revenge.</em></p><table><tbody><tr><td><p
         style="text-align:center"><strong>Ambitions</strong></p></td><td><p
         style="text-align:center"><strong>Struggles</strong></p></td><td><p
         style="text-align:center"><strong>Growth</strong></p></td></tr><tr><td><p
@@ -57,25 +49,16 @@ pages:
         style="text-align:center"><em>Uncover the Truth</em></p></td><td><p
         style="text-align:center"><em>Survive the Storm</em></p></td><td><p
         style="text-align:center"><em>Settle
-        Debts</em></p></td></tr></tbody></table><div class="column"><p><span
-        style="font-family:'Capito04VAR'">Group arcs unite players around a
-        theme, while character arcs help you express your own story. Most
-        importantly, they give you authorial power—you can use story or tangles
-        to add story details tied to your arcs to bring them into
-        play!</span></p><p><span style="font-family:'Capito04VAR'">Story arcs
-        signal to the GM that you want </span><span
-        style="font-family:'Capito04VARItalic'"><em><strong>drama</strong></em></span><span
-        style="font-family:'Capito04VAR'">, </span><span
-        style="font-family:'Capito04VARItalic'"><em><strong>dilemmas</strong></em></span><span
-        style="font-family:'Capito04VAR'">, and </span><span
-        style="font-family:'Capito04VARItalic'"><em><strong>opportunities</strong>
-        </em></span><span style="font-family:'Capito04VAR'">to arise around
-        them. Aim to resolve arcs within 3-5 sessions to keep things fresh. For
-        struggles </span><span
-        style="font-family:'Capito04VARItalic'"><em>(flirt with
-        betrayal)</em></span><span style="font-family:'Capito04VAR'">, get group
-        permission—limiting them to a few sessions and involving everyone makes
-        it more fun.</span></p></div></div></div>
+        Debts</em></p></td></tr></tbody></table><p>Group arcs unite players
+        around a theme, while character arcs help you express your own story.
+        Most importantly, they give you authorial power—you can use story or
+        tangles to add story details tied to your arcs to bring them into
+        play!</p><p>Story arcs signal to the GM that you want
+        <em><strong>drama</strong></em>, <em><strong>dilemmas</strong></em>, and
+        <em><strong>opportunities</strong> </em>to arise around them. Aim to
+        resolve arcs within 3-5 sessions to keep things fresh. For struggles
+        <em>(flirt with betrayal)</em>, get group permission—limiting them to a
+        few sessions and involving everyone makes it more fun.</p>
     video:
       controls: true
       volume: 0.5

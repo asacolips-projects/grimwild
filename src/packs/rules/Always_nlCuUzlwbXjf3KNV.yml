@@ -14,22 +14,12 @@ pages:
     text:
       format: 1
       content: >-
-        <div class="page" title="Page 19"><div class="layoutArea"><div
-        class="column"><p><span style="font-family:'Capito04VAR'">If you have
-        the ability to </span><span
-        style="font-family:'Capito04VARItalic'"><em><strong>always</strong>
-        </em></span><span style="font-family:'Capito04VAR'">succeed or receive a
-        benefit, it holds true </span><span
-        style="font-family:'Capito04VARItalic'"><em><strong>unless</strong>
-        </em></span><span style="font-family:'Capito04VAR'">the GM makes a
-        </span><span style="font-family:'Capito04VAR-Light-SC850',
-        font-style='small-caps'"><span
-        style="font-family:'Capito04VAR-Light-SC850',
-        font-style='small-caps'">@UUID[Compendium.grimwild.gm_toolkit.JournalEntry.GNvl7ZFpU31MZe7z]{Counter}
-        </span></span><span style="font-family:'Capito04VAR'">move, a strong NPC
-        trait is in play, or other extenuating circumstances arise. </span><span
-        style="font-family:'Capito04VARItalic'"><em>In short, "always" means 95%
-        of the time.</em></span></p></div></div></div>
+        <p>If you have the ability to <em><strong>always</strong> </em>succeed
+        or receive a benefit, it holds true <em><strong>unless</strong> </em>the
+        GM makes a
+        @UUID[Compendium.grimwild.gm_toolkit.JournalEntry.GNvl7ZFpU31MZe7z]{Counter}
+        move, a strong NPC trait is in play, or other extenuating circumstances
+        arise. <em>In short, "always" means 95% of the time.</em></p>
     video:
       controls: true
       volume: 0.5

@@ -13,75 +13,36 @@ pages:
     text:
       format: 1
       content: >-
-        <div class="page" title="Page 15"><div class="layoutArea"><div
-        class="column"><p><span style="font-family:'Capito04VAR'">A set of d6s
-        used to track things like time, resources, or effort. When triggered
-        (</span><span style="font-family:'NotoEmoji'">🎲</span><span
-        style="font-family:'Capito04VAR'">), roll the pool and
-        <strong>drop</strong> 1d for each 1-3 result. At 0d, the pool depletes
-        and the fiction changes.</span></p><p><span
-        style="font-family:'Capito04VAR'">The size of a pool is
-        <strong>4d</strong>/</span><span
-        style="font-family:'Capito04VARItalic'"><em>short</em></span><span
-        style="font-family:'Capito04VAR'">, <strong>6d</strong>/</span><span
-        style="font-family:'Capito04VARItalic'"><em>mid</em></span><span
-        style="font-family:'Capito04VAR'">, or <strong>8d</strong>/</span><span
-        style="font-family:'Capito04VARItalic'"><em>long</em></span><span
-        style="font-family:'Capito04VAR'">. At <strong>0d</strong>, an event
-        occurs, a situation ends, or a resource is depleted. Make sure to
-        reflect the fiction—if a pool and the fiction don't match up, adjust or
-        scrap the pool.</span></p><p><span style="font-family:'SegoeUIEmoji'">◆
-        </span><span style="font-family:'Capito04VAR'">If no dice are dropped
+        <p>A set of d6s used to track things like time, resources, or effort.
+        When triggered (🎲), roll the pool and <strong>drop</strong> 1d for each
+        1-3 result. At 0d, the pool depletes and the fiction changes.</p><p>The
+        size of a pool is <strong>4d</strong>/<em>short</em>,
+        <strong>6d</strong>/<em>mid</em>, or <strong>8d</strong>/<em>long</em>.
+        At <strong>0d</strong>, an event occurs, a situation ends, or a resource
+        is depleted. Make sure to reflect the fiction—if a pool and the fiction
+        don't match up, adjust or scrap the pool.</p><p>◆ If no dice are dropped
         from a task pool on a messy or perfect action roll, instead <strong>take
-        a secondary effect</strong> </span><span
-        style="font-family:'Capito04VARItalic'"><em>(they spill a secret, some
-        mooks die)</em></span><span style="font-family:'Capito04VAR'">. If the
-        roll was only 1d, you can instead
+        a secondary effect</strong> <em>(they spill a secret, some mooks
+        die)</em>. If the roll was only 1d, you can instead
         @UUID[Compendium.grimwild.rules.JournalEntry.i7KRerD2wyqcWclD]{Push
-        Yourself} to drop the last die.</span></p><p><span
-        style="font-family:'SegoeUIEmoji'">◆ </span><span
-        style="font-family:'Capito04VAR'"><strong>Drop</strong> 1d from the pool
-        before rolling it when a talent tells you to do so, you have potency, or
-        you take the </span><span
-        style="font-family:'Capito04VARItalic'"><em>greater effect
-        </em></span><span style="font-family:'Capito04VAR'">critical bonus. This
-        stacks.</span></p><p></p></div></div><div class="layoutArea"><div
-        class="column"><p><span style="font-family:'Capito04VAR'">Pools can be
-        flexibly applied in many situations, usually by the GM. Some typical
-        pools are listed below. Others are found throughout the
-        book.</span></p><p><span
-        style="font-family:'Capito04VAR-Light-SC850'"><strong>TIMER
-        POOLS</strong></span><span style="font-family:'Capito04VAR'">. Events
-        unfolding in the background. </span><span
-        style="font-family:'NotoEmoji'">🎲 </span><span
-        style="font-family:'Capito04VAR'">Key moments, time passing, or a few
-        PCs take action. </span><span
-        style="font-family:'Capito04VARItalic'"><em>6d Reinforcements Arrive, 8d
-        Sunrise.</em></span></p><p><span
-        style="font-family:'Capito04VAR-Light-SC850'"><strong>PRESSURE
-        POOLS</strong></span><span style="font-family:'Capito04VAR'">. Threats
-        becoming more likely. </span><span style="font-family:'NotoEmoji'">🎲
-        </span><span style="font-family:'Capito04VAR'">Impact moves, major
-        events, or threat level. </span><span
-        style="font-family:'Capito04VARItalic'"><em>6d Lookouts Spot You, 8d
-        Corruption Grows.</em></span></p><p><span
-        style="font-family:'Capito04VAR-Light-SC850'"><strong>TASK
-        POOLS</strong></span><span style="font-family:'Capito04VAR'">. Effort to
-        overcome tasks. </span><span style="font-family:'NotoEmoji'">🎲
-        </span><span style="font-family:'Capito04VAR'">Task progress, usually an
-        action roll. </span><span style="font-family:'Capito04VARItalic'"><em>4d
-        Barroom Brawl, 6d Tracking Quarry, 8d Escape the
-        Guards.</em></span></p><p><span
-        style="font-family:'Capito04VAR-Light-SC850'"><strong>RESOURCE
-        POOLS</strong></span><span style="font-family:'Capito04VAR'">. Quantity
-        of something precious. </span><span style="font-family:'NotoEmoji'">🎲
-        </span><span style="font-family:'Capito04VAR'">The resource sees
-        significant usage. </span><span
-        style="font-family:'Capito04VARItalic'"><em>4d Food Supplies, 8d
-        Manpower Left.</em></span></p></div><div class="column"><p></p><p><span
-        style="font-family:'Capito04VARItalic'"><em>Note: Pools are always
+        Yourself} to drop the last die.</p><p>◆ <strong>Drop</strong> 1d from
+        the pool before rolling it when a talent tells you to do so, you have
+        potency, or you take the <em>greater effect </em>critical bonus. This
+        stacks.</p><p></p><p>Pools can be flexibly applied in many situations,
+        usually by the GM. Some typical pools are listed below. Others are found
+        throughout the book.</p><p><strong>TIMER POOLS</strong>. Events
+        unfolding in the background. 🎲 Key moments, time passing, or a few PCs
+        take action. <em>6d Reinforcements Arrive, 8d
+        Sunrise.</em></p><p><strong>PRESSURE POOLS</strong>. Threats becoming
+        more likely. 🎲 Impact moves, major events, or threat level. <em>6d
+        Lookouts Spot You, 8d Corruption Grows.</em></p><p><strong>TASK
+        POOLS</strong>. Effort to overcome tasks. 🎲 Task progress, usually an
+        action roll. <em>4d Barroom Brawl, 6d Tracking Quarry, 8d Escape the
+        Guards.</em></p><p><strong>RESOURCE POOLS</strong>. Quantity of
+        something precious. 🎲 The resource sees significant usage. <em>4d Food
+        Supplies, 8d Manpower Left.</em></p><p></p><p><em>Note: Pools are always
         notated with the size of the pool in front of it, usually written in
-        italics.</em></span></p></div></div></div>
+        italics.</em></p>
     video:
       controls: true
       volume: 0.5

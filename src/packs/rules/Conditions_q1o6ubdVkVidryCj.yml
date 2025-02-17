@@ -14,38 +14,22 @@ pages:
     text:
       format: 1
       content: >-
-        <div class="page" title="Page 18"><div class="layoutArea"><div
-        class="column"><p><span style="font-family:'Capito04VAR'">Specific
-        injuries or maladies that impact only relevant situations and are often
-        lasting. They sometimes come alongside harm or a mark </span><span
-        style="font-family:'Capito04VARItalic'"><em>(rattled + broken
-        heart)</em></span><span style="font-family:'Capito04VAR'">, and can
-        be:</span></p><p><span style="font-family:'SegoeUIEmoji'">◆ </span><span
-        style="font-family:'Capito04VARItalic'"><em><strong>Urgent.</strong> 4d
-        bleeding out, 6d losing your mind.<br /></em></span><span
-        style="font-family:'SegoeUIEmoji'">◆ </span><span
-        style="font-family:'Capito04VARItalic'"><em><strong>Short-term.</strong>
-        Twisted ankle, drunk.<br /></em></span><span
-        style="font-family:'SegoeUIEmoji'">◆ </span><span
-        style="font-family:'Capito04VARItalic'"><em><strong>Long-term.</strong>
-        Broken arm, a deep hatred.<br /></em></span><span
-        style="font-family:'SegoeUIEmoji'">◆ </span><span
-        style="font-family:'Capito04VARItalic'"><em><strong>Permanent.</strong>
-        Gouged out eye, insanity.</em></span></p><p><span
-        style="font-family:'Capito04VARItalic'"><em><strong>Take +1t when a
-        condition specifically hinders a roll</strong>. </em></span><span
-        style="font-family:'Capito04VAR'">It can also make an attempt
-        impossible.</span></p><p><span
-        style="font-family:'Capito04VAR'">Conditions clear when it makes sense,
-        like after a scene, with rest, or when a
+        <p>Specific injuries or maladies that impact only relevant situations
+        and are often lasting. They sometimes come alongside harm or a mark
+        <em>(rattled + broken heart)</em>, and can be:</p><p>◆
+        <em><strong>Urgent.</strong> 4d bleeding out, 6d losing your
+        mind.<br/></em>◆ <em><strong>Short-term.</strong> Twisted ankle,
+        drunk.<br/></em>◆ <em><strong>Long-term.</strong> Broken arm, a deep
+        hatred.<br/></em>◆ <em><strong>Permanent.</strong> Gouged out eye,
+        insanity.</em></p><p><em><strong>Take +1t when a condition specifically
+        hinders a roll</strong>. </em>It can also make an attempt
+        impossible.</p><p>Conditions clear when it makes sense, like after a
+        scene, with rest, or when a
         @UUID[Compendium.grimwild.rules.JournalEntry.5n7fkFcmZaVYZT52]{Pool}
         tracking them depletes. They may also require treatment or another
-        specific method to clear them.</span></p><p><span
-        style="font-family:'Capito04VARItalic'"><em><strong>You have the final
-        say on long-term and permanent conditions</strong></em></span><span
-        style="font-family:'Capito04VAR'">. When you take one, work with the GM
-        to find a good fit for your PC and the
-        situation.</span></p></div></div></div>
+        specific method to clear them.</p><p><em><strong>You have the final say
+        on long-term and permanent conditions</strong></em>. When you take one,
+        work with the GM to find a good fit for your PC and the situation.</p>
     video:
       controls: true
       volume: 0.5

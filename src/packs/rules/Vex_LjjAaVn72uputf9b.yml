@@ -14,36 +14,23 @@ pages:
     text:
       format: 1
       content: >-
-        <div class="page" title="Page 18"><div class="layoutArea"><div
-        class="column"><p><span style="font-family:'Capito04VAR'">An intense
-        flash of emotion like </span><span
-        style="font-family:'Capito04VARItalic'"><em>anger</em></span><span
-        style="font-family:'Capito04VAR'">, </span><span
-        style="font-family:'Capito04VARItalic'"><em>fear</em></span><span
-        style="font-family:'Capito04VAR'">, or </span><span
-        style="font-family:'Capito04VARItalic'"><em>confusion</em></span><span
-        style="font-family:'Capito04VAR'">. Vex is inflicted as a consequence,
-        sometimes in addition to a mark or harm. </span><span
-        style="font-family:'Capito04VARItalic'"><em><strong>You can also spend
+        <p>An intense flash of emotion like <em>anger</em>, <em>fear</em>, or
+        <em>confusion</em>. Vex is inflicted as a consequence, sometimes in
+        addition to a mark or harm. <em><strong>You can also spend
         </strong></em>@UUID[Compendium.grimwild.rules.JournalEntry.jfAL6eh3f03OfuY3]{Spark}<strong>
         </strong><em><strong>to take vex in place of
-        </strong></em>@UUID[Compendium.grimwild.rules.JournalEntry.kAGyEflDClkS3viS]{Rattled}</span><span
-        style="font-family:'Capito04VAR'">, if it fits the situation. Vex
-        prompts an immediate, instinctive response. Choose
-        one:</span></p><table><tbody><tr><td><p
+        </strong></em>@UUID[Compendium.grimwild.rules.JournalEntry.kAGyEflDClkS3viS]{Rattled},
+        if it fits the situation. Vex prompts an immediate, instinctive
+        response. Choose one:</p><table><tbody><tr><td><p
         style="text-align:center"><em>Fight</em></p></td><td><p
         style="text-align:center"><em>Flight</em></p></td><td><p
         style="text-align:center"><em>Freeze</em></p></td><td><p
-        style="text-align:center"><em>Freakout</em></p></td></tr></tbody></table><p><span
-        style="font-family:'Capito04VAR'">Interpret the response. Your PC is
-        </span><span style="font-family:'Capito04VARItalic'"><em>driven by
-        emotion</em></span><span style="font-family:'Capito04VAR'">, but you
-        decide how it plays out. Aim to balance what's fun and what fits the
-        story. </span><span
-        style="font-family:'Capito04VARItalic'"><em><strong>If there's a
-        follow-up roll, take +1t on it</strong></em></span><span
-        style="font-family:'Capito04VAR'">. After the response, which always
-        takes a beat or two, the vex clears.</span></p></div></div></div>
+        style="text-align:center"><em>Freakout</em></p></td></tr></tbody></table><p>Interpret
+        the response. Your PC is <em>driven by emotion</em>, but you decide how
+        it plays out. Aim to balance what's fun and what fits the story.
+        <em><strong>If there's a follow-up roll, take +1t on it</strong></em>.
+        After the response, which always takes a beat or two, the vex
+        clears.</p>
     video:
       controls: true
       volume: 0.5

@@ -14,14 +14,13 @@ pages:
     text:
       format: 1
       content: >-
-        <div class="page" title="Page 19"><div class="layoutArea"><div
-        class="column"><p><span style="font-family:'Capito04VAR'">Make an
+        <p>Make an
         @UUID[Compendium.grimwild.rules.JournalEntry.pmTv1Nbggk6ql92W]{Action
         Roll} to try to stop an
         @UUID[Compendium.grimwild.gm_toolkit.JournalEntry.3Jw6Ds3TAJYimqxj]{Impact
         Move}. This requires a specific talent. If not already involved, you now
         share the risk. On a messy, the GM takes or keeps
-        @UUID[Compendium.grimwild.gm_toolkit.JournalEntry.r03swtJF4sEnG2fm]{Suspense}.</span></p></div></div></div>
+        @UUID[Compendium.grimwild.gm_toolkit.JournalEntry.r03swtJF4sEnG2fm]{Suspense}.</p>
     video:
       controls: true
       volume: 0.5

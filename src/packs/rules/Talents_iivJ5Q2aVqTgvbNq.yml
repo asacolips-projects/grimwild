@@ -14,22 +14,17 @@ pages:
     text:
       format: 1
       content: >-
-        <div class="page" title="Page 16"><div class="layoutArea"><div
-        class="column"><p><span style="font-family:'Capito04VAR'">Special
-        advantages and abilities that set your PC apart. At character creation,
-        you choose a <strong>path</strong> </span><span
-        style="font-family:'Capito04VARItalic'"><em>(rogue, wizard,
-        fighter)</em></span><span style="font-family:'Capito04VAR'">, which
-        gives you its core talent and a list of talents that align thematically
-        with it. You gain new talents as you level, choosing from your path list
-        or taking talents from other paths.</span></p><p><span
-        style="font-family:'Capito04VAR'">The path name is simply a label for
-        organizing talents thematically. On its own, it doesn't expand
+        <p>Special advantages and abilities that set your PC apart. At character
+        creation, you choose a <strong>path</strong> <em>(rogue, wizard,
+        fighter)</em>, which gives you its core talent and a list of talents
+        that align thematically with it. You gain new talents as you level,
+        choosing from your path list or taking talents from other
+        paths.</p><p>The path name is simply a label for organizing talents
+        thematically. On its own, it doesn't expand
         @UUID[Compendium.grimwild.rules.JournalEntry.uLhjdcEsx67R7ADM]{Vantage}.
-        However, talents do expand vantage. </span><span
-        style="font-family:'Capito04VARItalic'"><em>Being a "fighter" doesn't
-        mean anything, but the Fighting Style core talent expands your
-        vantage.</em></span></p></div></div></div>
+        However, talents do expand vantage. <em>Being a "fighter" doesn't mean
+        anything, but the Fighting Style core talent expands your
+        vantage.</em></p>
     video:
       controls: true
       volume: 0.5

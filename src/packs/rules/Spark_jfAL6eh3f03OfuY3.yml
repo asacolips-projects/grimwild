@@ -13,14 +13,9 @@ pages:
     text:
       format: 1
       content: >-
-        <div class="page" title="Page 14"><div class="layoutArea"><div
-        class="column"><p><span style="font-family:'Capito04VARItalic'"><em>Pure
-        protagonist energy</em></span><span style="font-family:'Capito04VAR'">.
-        </span><span style="font-family:'Capito04VARItalic'"><em><strong>Take
-        spark</strong> </em></span><span style="font-family:'Capito04VAR'">when
-        you add a tangle, roll a disaster, resolve a story arc, or quarrel.
-        </span><span style="font-family:'Capito04VARItalic'"><em><strong>Spend
-        it to take +1d on a roll.</strong></em></span></p></div></div></div>
+        <p><em>Pure protagonist energy</em>. <em><strong>Take spark</strong>
+        </em>when you add a tangle, roll a disaster, resolve a story arc, or
+        quarrel. <em><strong>Spend it to take +1d on a roll.</strong></em></p>
     video:
       controls: true
       volume: 0.5

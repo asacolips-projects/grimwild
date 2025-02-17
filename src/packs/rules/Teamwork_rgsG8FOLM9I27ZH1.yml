@@ -13,17 +13,10 @@ pages:
     text:
       format: 1
       content: >-
-        <div class="page" title="Page 14"><div class="layoutArea"><div
-        class="column"><p><span style="font-family:'Capito04VAR'">When 3+ PCs
-        work together, the GM picks who rolls the action—sometimes the most
-        skilled </span><span
-        style="font-family:'Capito04VARItalic'"><em>(lifting a
-        boulder)</em></span><span style="font-family:'Capito04VAR'">, sometimes
-        the least </span><span
-        style="font-family:'Capito04VARItalic'"><em>(sneaking
-        in)</em></span><span style="font-family:'Capito04VAR'">. The other PCs
-        </span>@UUID[Compendium.grimwild.rules.JournalEntry.odkrgM4X8udAbLNN]{Assist}<span
-        style="font-family:'Capito04VAR'">.</span></p><p></p></div></div></div>
+        <p>When 3+ PCs work together, the GM picks who rolls the
+        action—sometimes the most skilled <em>(lifting a boulder)</em>,
+        sometimes the least <em>(sneaking in)</em>. The other PCs
+        @UUID[Compendium.grimwild.rules.JournalEntry.odkrgM4X8udAbLNN]{Assist}.</p><p></p>
     video:
       controls: true
       volume: 0.5

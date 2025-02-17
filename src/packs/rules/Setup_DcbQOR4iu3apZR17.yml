@@ -13,12 +13,10 @@ pages:
     text:
       format: 1
       content: >-
-        <div class="page" title="Page 14"><div class="layoutArea"><div
-        class="column"><p><span style="font-family:'Capito04VAR'">When a
-        previous action makes a follow-up more effective, you
+        <p>When a previous action makes a follow-up more effective, you
         @UUID[Compendium.grimwild.rules.JournalEntry.odkrgM4X8udAbLNN]{Assist}
         without risk. You roll 1d as a normal assist, but don't share the risk.
-        If it was your own action, you take +1d.</span></p></div></div></div>
+        If it was your own action, you take +1d.</p>
     video:
       controls: true
       volume: 0.5

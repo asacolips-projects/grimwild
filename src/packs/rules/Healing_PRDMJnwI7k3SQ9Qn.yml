@@ -14,30 +14,19 @@ pages:
     text:
       format: 1
       content: >-
-        <div class="page" title="Page 18"><div class="layoutArea"><div
-        class="column"><p><span
-        style="font-family:'Capito04VARItalic'"><em><strong>When you get
+        <p><em><strong>When you get
         </strong></em>@UUID[Compendium.grimwild.rules.JournalEntry.kAGyEflDClkS3viS]{Bloodied
         or Rattled}<em><strong>, start a 4d
         </strong></em>@UUID[Compendium.grimwild.rules.JournalEntry.5n7fkFcmZaVYZT52]{Pool}<em>
-        </em></span><span style="font-family:'Capito04VAR'">to track its
-        healing. When you <strong>heal</strong> harm from rest, treatment, or
-        another source, roll the pool. At 0d, clear the harm. </span><span
-        style="font-family:'Capito04VARItalic'"><em><strong>Treatment</strong>
-        </em></span><span style="font-family:'Capito04VAR'">requires
-        </span><span
-        style="font-family:'Capito04VARItalic'"><em>time</em></span><span
-        style="font-family:'Capito04VAR'">, </span><span
-        style="font-family:'Capito04VARItalic'"><em>tools</em></span><span
-        style="font-family:'Capito04VAR'">, </span><span
-        style="font-family:'Capito04VARItalic'"><em>training</em></span><span
-        style="font-family:'Capito04VAR'">, and carries risk, and each pool can
-        only benefit from treatment a single time.</span></p><p><span
-        style="font-family:'Capito04VARItalic'">@UUID[Compendium.grimwild.rules.JournalEntry.mE6axXeciWLe3skm]{Marks}<em><strong>
-        can't benefit from treatment</strong></em></span><span
-        style="font-family:'Capito04VAR'">. They are light enough already that
-        only time heals them. They can only be cleared with rest, talents, or
-        rolling.</span></p></div></div></div>
+        </em>to track its healing. When you <strong>heal</strong> harm from
+        rest, treatment, or another source, roll the pool. At 0d, clear the
+        harm. <em><strong>Treatment</strong> </em>requires <em>time</em>,
+        <em>tools</em>, <em>training</em>, and carries risk, and each pool can
+        only benefit from treatment a single
+        time.</p><p>@UUID[Compendium.grimwild.rules.JournalEntry.mE6axXeciWLe3skm]{Marks}<em><strong>
+        can't benefit from treatment</strong></em>. They are light enough
+        already that only time heals them. They can only be cleared with rest,
+        talents, or rolling.</p>
     video:
       controls: true
       volume: 0.5
