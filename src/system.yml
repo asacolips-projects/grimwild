@@ -13,6 +13,12 @@ download: https://github.com/asacolips-projects/grimwild/blob/main/README.md
 authors:
   - name: Asacolips
     discord: asacolips
+  - name: Gil
+    discord: gil5815
+  - name: CalmRush
+    discord: calmrush
+  - name: Phoenix
+    discord: lostphoenix._.
 
 documentTypes:
   Actor:
