@@ -14,51 +14,26 @@ pages:
     text:
       format: 1
       content: >-
-        <div class="page" title="Page 19"><div class="layoutArea"><div
-        class="column"><p><span style="font-family:'Capito04VAR'">The ability to
-        pull off </span><span
-        style="font-family:'Capito04VARItalic'"><em>jaw-dropping
-        </em></span><span style="font-family:'Capito04VAR'">feats. When you have
+        <p>The ability to pull off <em>jaw-dropping </em>feats. When you have
         potency on a task, you ignore
         @UUID[Compendium.grimwild.rules.JournalEntry.CKZHOS0pAZTYwZQ9]{Thorns}
-        from difficulty (</span><span
-        style="font-family:'Capito04VARItalic'"><em>but not from other sources
-        like damage</em></span><span style="font-family:'Capito04VAR'">) and can
-        attempt normally impossible (+3t) tasks. A <strong>potent feat</strong>
-        can do things like:</span></p><p><span
-        style="font-family:'SegoeUIEmoji'">◆ </span><span
-        style="font-family:'Capito04VARItalic'"><em><strong>Group
-        action</strong></em></span><span style="font-family:'Capito04VAR'">:
-        Something a team of people could accomplish with an action.<br
-        /></span><span style="font-family:'Capito04VARItalic'"><em>Lifting a
-        boulder, a volley of arrows, inciting mutiny.</em></span></p><p><span
-        style="font-family:'SegoeUIEmoji'">◆ </span><span
-        style="font-family:'Capito04VARItalic'"><em><strong>Stretching
-        Limits</strong></em></span><span style="font-family:'Capito04VAR'">:
-        Something just beyond normal human limitations.<br /></span><span
-        style="font-family:'Capito04VARItalic'"><em>Leap a massive gap, endure
-        fire, tell ridiculous lies.</em></span></p><p><span
-        style="font-family:'SegoeUIEmoji'">◆ </span><span
-        style="font-family:'Capito04VARItalic'"><em><strong>Mystical</strong></em></span><span
-        style="font-family:'Capito04VAR'">: Feats that don't fit in with the
-        above, but have similar narrative impact. </span><span
-        style="font-family:'Capito04VARItalic'"><em>Befriend a wild tiger, use
-        echoes to create a rockslide.</em></span></p><p><span
-        style="font-family:'Capito04VAR'">Potency is only concerned with
-        difficulty. It makes a normally +3t/</span><span
-        style="font-family:'Capito04VARItalic'"><em>impossible </em></span><span
-        style="font-family:'Capito04VAR'">roll possible at +0t. On a
-        +1t/</span><span style="font-family:'Capito04VARItalic'"><em>very tough
-        </em></span><span style="font-family:'Capito04VAR'">or +2t/</span><span
-        style="font-family:'Capito04VARItalic'"><em>extremely tough
-        </em></span><span style="font-family:'Capito04VAR'">roll, you take
-        </span><span style="font-family:'Capito04VARItalic'"><em>greater effect
-        </em></span><span style="font-family:'Capito04VAR'">(critical). On a +0t
-        roll, you automatically succeed.</span></p><p><span
-        style="font-family:'Capito04VAR'">There's a </span><span
-        style="font-family:'Capito04VARItalic'"><em>gray zone </em></span><span
-        style="font-family:'Capito04VAR'">between jaw-dropping and too much.
-        Something +3t is okay, but +4t is too far.</span></p></div></div></div>
+        from difficulty (<em>but not from other sources like damage</em>) and
+        can attempt normally impossible (+3t) tasks. A <strong>potent
+        feat</strong> can do things like:</p><p>◆ <em><strong>Group
+        action</strong></em>: Something a team of people could accomplish with
+        an action.<br/><em>Lifting a boulder, a volley of arrows, inciting
+        mutiny.</em></p><p>◆ <em><strong>Stretching Limits</strong></em>:
+        Something just beyond normal human limitations.<br/><em>Leap a massive
+        gap, endure fire, tell ridiculous lies.</em></p><p>◆
+        <em><strong>Mystical</strong></em>: Feats that don't fit in with the
+        above, but have similar narrative impact. <em>Befriend a wild tiger, use
+        echoes to create a rockslide.</em></p><p>Potency is only concerned with
+        difficulty. It makes a normally +3t/<em>impossible </em>roll possible at
+        +0t. On a +1t/<em>very tough </em>or +2t/<em>extremely tough </em>roll,
+        you take <em>greater effect </em>(critical). On a +0t roll, you
+        automatically succeed.</p><p>There's a <em>gray zone </em>between
+        jaw-dropping and too much. Something +3t is okay, but +4t is too
+        far.</p>
     video:
       controls: true
       volume: 0.5

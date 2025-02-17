@@ -14,43 +14,22 @@ pages:
     text:
       format: 1
       content: >-
-        <div class="page" title="Page 18"><div class="layoutArea"><div
-        class="column"><p><span style="font-family:'Capito04VAR'">A hard hit to
-        your mind or body, general damage that doesn't need to be tracked in
-        detail. </span><span
-        style="font-family:'Capito04VARItalic'"><em><strong>This is the default
-        damage from an impact move</strong></em></span><span
-        style="font-family:'Capito04VAR'">.</span></p><p><span
-        style="font-family:'SegoeUIEmoji'">◆ </span><span
-        style="font-family:'Capito04VAR'">Physical damage leaves you
-        <strong>bloodied</strong>. </span></p><p><span
-        style="font-family:'SegoeUIEmoji'">◆ </span><span
-        style="font-family:'Capito04VAR'">Mental damage leaves you
-        <strong>rattled</strong>.</span></p><p><span
-        style="font-family:'Capito04VARItalic'"><em><strong>Bloodied and rattled
-        each inflict +1t on all rolls</strong></em></span><span
-        style="font-family:'Capito04VAR'">. However, when you have harm, you
+        <p>A hard hit to your mind or body, general damage that doesn't need to
+        be tracked in detail. <em><strong>This is the default damage from an
+        impact move</strong></em>.</p><p>◆ Physical damage leaves you
+        <strong>bloodied</strong>. </p><p>◆ Mental damage leaves you
+        <strong>rattled</strong>.</p><p><em><strong>Bloodied and rattled each
+        inflict +1t on all rolls</strong></em>. However, when you have harm, you
         ignore thorns from marks to the related stats, though the marks don't
         clear on the roll. Getting bloodied or rattled a second time leaves you
         <strong>dropped</strong>—you're out of the scene. Make a story roll
-        (</span><span style="font-family:'Capito04VARItalic'"><em>usually
-        2d</em></span><span style="font-family:'Capito04VAR'">) to see if you're
-        just out temporarily, take a condition </span><span
-        style="font-family:'Capito04VARItalic'"><em>(4d dying, broken
-        leg)</em></span><span style="font-family:'Capito04VAR'">, or wind up
-        dead.</span></p><p><span style="font-family:'Capito04VAR'">Although
-        bloodied and rattled are the default, especially dangerous attacks with
-        <strong>high risk</strong> can lead straight to dropped, while
-        <strong>low risk</strong> situations might leave you with a mark by
-        default.</span></p><p><span style="font-family:'Capito04VAR'">A messy
-        defense roll leaves you with lesser damage </span><span
-        style="font-family:'Capito04VARItalic'"><em>(dropped</em></span><span
-        style="font-family:'SegoeUIEmoji'">→</span><span
-        style="font-family:'Capito04VARItalic'"><em>bloodied,
-        rattled</em></span><span
-        style="font-family:'SegoeUIEmoji'">→</span><span
-        style="font-family:'Capito04VARItalic'"><em>mark)</em></span><span
-        style="font-family:'Capito04VAR'">.</span></p></div></div></div>
+        (<em>usually 2d</em>) to see if you're just out temporarily, take a
+        condition <em>(4d dying, broken leg)</em>, or wind up
+        dead.</p><p>Although bloodied and rattled are the default, especially
+        dangerous attacks with <strong>high risk</strong> can lead straight to
+        dropped, while <strong>low risk</strong> situations might leave you with
+        a mark by default.</p><p>A messy defense roll leaves you with lesser
+        damage <em>(dropped</em>→<em>bloodied, rattled</em>→<em>mark)</em>.</p>
     video:
       controls: true
       volume: 0.5

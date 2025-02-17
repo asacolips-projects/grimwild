@@ -14,19 +14,14 @@ pages:
     text:
       format: 1
       content: >-
-        <div class="page" title="Page 17"><div class="layoutArea"><div
-        class="column"><p><span style="font-family:'Capito04VAR'">Add minor,
-        common sense details freely. Make assumptions and add </span><span
-        style="font-family:'Capito04VARItalic'"><em>set dressing
-        </em></span><span style="font-family:'Capito04VAR'">to scenes to play
-        off of to keep things flowing dynamically. There’s no need to check in
-        with the GM—they’ll step in if a detail goes beyond set dressing.
-        Anything that’s a </span><span
-        style="font-family:'Capito04VARItalic'"><em>given </em></span><span
-        style="font-family:'Capito04VAR'">for your
+        <p>Add minor, common sense details freely. Make assumptions and add
+        <em>set dressing </em>to scenes to play off of to keep things flowing
+        dynamically. There’s no need to check in with the GM—they’ll step in if
+        a detail goes beyond set dressing. Anything that’s a <em>given </em>for
+        your
         @UUID[Compendium.grimwild.rules.JournalEntry.uLhjdcEsx67R7ADM]{Vantage},
         like knowing someone or having equipment that makes sense, is set
-        dressing.</span></p></div></div></div>
+        dressing.</p>
     video:
       controls: true
       volume: 0.5

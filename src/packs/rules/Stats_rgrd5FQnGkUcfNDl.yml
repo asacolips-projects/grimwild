@@ -14,34 +14,15 @@ pages:
     text:
       format: 1
       content: >-
-        <div class="page" title="Page 16"><div class="layoutArea"><div
-        class="column"><p><span style="font-family:'Capito04VAR'">Your core
-        capabilities rated from 1/</span><span
-        style="font-family:'Capito04VARItalic'"><em>poor </em></span><span
-        style="font-family:'Capito04VAR'">to 3/</span><span
-        style="font-family:'Capito04VARItalic'"><em>great</em></span><span
-        style="font-family:'Capito04VAR'">, used for action and defense
-        rolls.</span></p></div></div><div class="layoutArea"><div
-        class="column"><p><span
-        style="font-family:'Capito04VAR-Light-SC850'"><strong>BRAWN
-        </strong></span><span style="font-family:'Capito04VARItalic'"><em>Power,
-        menace, toughness. </em></span></p><p><span
-        style="font-family:'Capito04VAR-Light-SC850'"><strong>AGILITY</strong>
-        </span><span style="font-family:'Capito04VARItalic'"><em>Precision,
-        athletics, reflexes.</em></span></p><p><span
-        style="font-family:'Capito04VAR-Light-SC850'"><strong>WITS</strong>
-        </span><span style="font-family:'Capito04VARItalic'"><em>Smarts,
-        trickery, reading situations. </em></span></p><p><span
-        style="font-family:'Capito04VAR-Light-SC850'"><strong>PRESENCE
-        </strong></span><span
-        style="font-family:'Capito04VARItalic'"><em>Influence, willpower,
-        reading people.</em></span></p></div><div class="column"><p><span
-        style="font-family:'SegoeUIEmoji'">◆ </span><span
-        style="font-family:'Capito04VAR'">Brawn and Agility are paired
-        <strong>physical</strong> stats. </span></p><p><span
-        style="font-family:'SegoeUIEmoji'">◆ </span><span
-        style="font-family:'Capito04VAR'">Wits and Presence are paired
-        <strong>mental</strong> stats.</span></p></div></div></div>
+        <p>Your core capabilities rated from 1/<em>poor </em>to
+        3/<em>great</em>, used for action and defense rolls.</p><p><strong>BRAWN
+        </strong><em>Power, menace, toughness.
+        </em></p><p><strong>AGILITY</strong> <em>Precision, athletics,
+        reflexes.</em></p><p><strong>WITS</strong> <em>Smarts, trickery, reading
+        situations. </em></p><p><strong>PRESENCE </strong><em>Influence,
+        willpower, reading people.</em></p><p>◆ Brawn and Agility are paired
+        <strong>physical</strong> stats. </p><p>◆ Wits and Presence are paired
+        <strong>mental</strong> stats.</p>
     video:
       controls: true
       volume: 0.5

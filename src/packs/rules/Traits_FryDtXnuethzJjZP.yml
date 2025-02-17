@@ -14,11 +14,8 @@ pages:
     text:
       format: 1
       content: >-
-        <div class="page" title="Page 16"><div class="layoutArea"><div
-        class="column"><p><span style="font-family:'Capito04VAR'">Choose 2 that
-        strongly describe you and 1 that definitely doesn’t. </span><span
-        style="font-family:'Capito04VARItalic'"><em>Brave and rash, not
-        quiet.</em></span></p></div></div></div>
+        <p>Choose 2 that strongly describe you and 1 that definitely doesn’t.
+        <em>Brave and rash, not quiet.</em></p>
     video:
       controls: true
       volume: 0.5

@@ -14,10 +14,8 @@ pages:
     text:
       format: 1
       content: >-
-        <div class="page" title="Page 19"><div class="layoutArea"><div
-        class="column"><p><span style="font-family:'Capito04VAR'">A PC starts at
-        level 1 and can go up to level 7. This takes 6 months of weekly play.
-        For longer play, slow down progression.</span></p></div></div></div>
+        <p>A PC starts at level 1 and can go up to level 7. This takes 6 months
+        of weekly play. For longer play, slow down progression.</p>
     video:
       controls: true
       volume: 0.5

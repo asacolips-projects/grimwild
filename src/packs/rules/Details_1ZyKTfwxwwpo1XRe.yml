@@ -14,22 +14,12 @@ pages:
     text:
       format: 1
       content: >-
-        <div class="page" title="Page 16"><div class="layoutArea"><div
-        class="column"><p><span style="font-family:'Capito04VAR'">Use the
-        details on your sheet as creative inspiration—</span><span
-        style="font-family:'Capito04VARItalic'"><em>and
-        limitations!</em></span><span style="font-family:'Capito04VAR'">—for
-        roleplaying. They are player (</span><span
-        style="font-family:'Capito04VARItalic'"><em>not GM</em></span><span
-        style="font-family:'Capito04VAR'">) tools. When unsure of your PC's
-        actions or thoughts, play towards or even against a relevant detail.
-        Update details as the story unfolds, announcing the change and giving a
-        vignette to </span><span
-        style="font-family:'Capito04VARItalic'"><em>give it weight
-        </em></span><span style="font-family:'Capito04VAR'">and </span><span
-        style="font-family:'Capito04VARItalic'"><em>clearly convey
-        </em></span><span style="font-family:'Capito04VAR'">the change to the
-        other players.</span></p></div></div></div>
+        <p>Use the details on your sheet as creative inspiration—<em>and
+        limitations!</em>—for roleplaying. They are player (<em>not GM</em>)
+        tools. When unsure of your PC's actions or thoughts, play towards or
+        even against a relevant detail. Update details as the story unfolds,
+        announcing the change and giving a vignette to <em>give it weight
+        </em>and <em>clearly convey </em>the change to the other players.</p>
     video:
       controls: true
       volume: 0.5

@@ -14,49 +14,18 @@ pages:
     text:
       format: 1
       content: >-
-        <div class="page" title="Page 18"><div class="layoutArea"><div
-        class="column"><p><span style="font-family:'Capito04VAR'">Lesser damage,
-        a temporary hindrance to a stat </span><span
-        style="font-family:'Capito04VARItalic'"><em>(winded,
-        confused)</em></span><span style="font-family:'Capito04VAR'">.
-        </span><span style="font-family:'Capito04VARItalic'"><em><strong>Take
-        +1t on the next roll with that stat, then clear the
-        mark.</strong></em></span></p><p><span
-        style="font-family:'Capito04VAR'">If a stat is already marked, mark its
-        paired stat instead—for physical, </span><span
-        style="font-family:'Capito04VAR-Light-SC850',
-        font-style='small-caps'"><span
-        style="font-family:'Capito04VAR-Light-SC850',
-        font-style='small-caps'">BRAWN</span></span><span
-        style="font-family:'Capito04VAR', font-style='small-caps'"><span
-        style="font-family:'Capito04VAR',
-        font-style='small-caps'">/</span></span><span
-        style="font-family:'Capito04VAR-Light-SC850',
-        font-style='small-caps'"><span
-        style="font-family:'Capito04VAR-Light-SC850',
-        font-style='small-caps'">AGILITY, </span></span><span
-        style="font-family:'Capito04VAR'">and for mental, </span><span
-        style="font-family:'Capito04VAR-Light-SC850',
-        font-style='small-caps'"><span
-        style="font-family:'Capito04VAR-Light-SC850',
-        font-style='small-caps'">WITS</span></span><span
-        style="font-family:'Capito04VAR'">/</span><span
-        style="font-family:'Capito04VAR-Light-SC850',
-        font-style='small-caps'"><span
-        style="font-family:'Capito04VAR-Light-SC850',
-        font-style='small-caps'">PRESENCE</span></span><span
-        style="font-family:'Capito04VAR'">. If both are already marked, take the
-        related
+        <p>Lesser damage, a temporary hindrance to a stat <em>(winded,
+        confused)</em>. <em><strong>Take +1t on the next roll with that stat,
+        then clear the mark.</strong></em></p><p>If a stat is already marked,
+        mark its paired stat instead—for physical, BRAWN/AGILITY, and for
+        mental, WITS/PRESENCE. If both are already marked, take the related
         @UUID[Compendium.grimwild.rules.JournalEntry.kAGyEflDClkS3viS]{Harm}.
         Note that a mark can be taken even if you already have the related
-        harm.</span></p><p><span style="font-family:'Capito04VAR'">Marks are
-        often combined with another mark or other consequences when inflicted
-        directly </span><span
-        style="font-family:'Capito04VARItalic'"><em>(Agility mark + thrown off
-        your horse)</em></span><span style="font-family:'Capito04VAR'">. You
-        also take a mark when you
+        harm.</p><p>Marks are often combined with another mark or other
+        consequences when inflicted directly <em>(Agility mark + thrown off your
+        horse)</em>. You also take a mark when you
         @UUID[Compendium.grimwild.rules.JournalEntry.i7KRerD2wyqcWclD]{Push
-        Yourself}.</span></p></div></div></div>
+        Yourself}.</p>
     video:
       controls: true
       volume: 0.5

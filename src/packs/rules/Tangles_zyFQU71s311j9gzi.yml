@@ -14,31 +14,17 @@ pages:
     text:
       format: 1
       content: >-
-        <div class="page" title="Page 17"><div class="layoutArea"><div
-        class="column"><p><span
-        style="font-family:'Capito04VAR'">Character-driven complications you
-        introduce into a scene and have to follow-up on. In return, you take
-        spark. Tangles must stem from your vantage or story arcs and always have
-        an immediate impact, like an action roll, an option closing off, or
-        forcing inaction at an important moment. These are things
-        like:</span></p><p><span style="font-family:'SegoeUIEmoji'">◆
-        </span><span style="font-family:'Capito04VARItalic'"><em><strong>Unwise
-        decisions</strong> </em></span><span
-        style="font-family:'Capito04VAR'">your PC would likely make.
-        </span></p><p><span style="font-family:'Capito04VARItalic'"><em>You toss
-        aside your sword to keep things fair.</em></span></p><p><span
-        style="font-family:'SegoeUIEmoji'">◆ </span><span
-        style="font-family:'Capito04VARItalic'"><em><strong>Personal
-        motivations</strong> </em></span><span
-        style="font-family:'Capito04VAR'">over group goals.<br /></span><span
-        style="font-family:'Capito04VARItalic'"><em>You poison the general's
-        wine, getting your revenge.</em></span></p><p><span
-        style="font-family:'SegoeUIEmoji'">◆ </span><span
-        style="font-family:'Capito04VARItalic'"><em><strong>Complications</strong>
-        </em></span><span style="font-family:'Capito04VAR'">from beliefs or
-        backstory. </span></p><p><span
-        style="font-family:'Capito04VARItalic'"><em>You forgot to tell everyone
-        you dated the baron.</em></span></p></div></div></div>
+        <p>Character-driven complications you introduce into a scene and have to
+        follow-up on. In return, you take spark. Tangles must stem from your
+        vantage or story arcs and always have an immediate impact, like an
+        action roll, an option closing off, or forcing inaction at an important
+        moment. These are things like:</p><p>◆ <em><strong>Unwise
+        decisions</strong> </em>your PC would likely make. </p><p><em>You toss
+        aside your sword to keep things fair.</em></p><p>◆ <em><strong>Personal
+        motivations</strong> </em>over group goals.<br/><em>You poison the
+        general's wine, getting your revenge.</em></p><p>◆
+        <em><strong>Complications</strong> </em>from beliefs or backstory.
+        </p><p><em>You forgot to tell everyone you dated the baron.</em></p>
     video:
       controls: true
       volume: 0.5

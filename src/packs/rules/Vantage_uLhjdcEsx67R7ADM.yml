@@ -13,25 +13,16 @@ pages:
     text:
       format: 1
       content: >-
-        <div class="page" title="Page 16"><div class="layoutArea"><div
-        class="column"><p><span style="font-family:'Capito04VAR'">Your
-        character's frame of reference, the sum of your backstory, talents, and
-        the current fiction—everything on your sheet and what’s affecting you in
-        the story. When a question arises about what you can do, have, or know,
-        check it against your vantage: does it feel like a </span><span
-        style="font-family:'Capito04VARItalic'"><em><strong>given</strong></em></span><span
-        style="font-family:'Capito04VAR'">, a </span><span
-        style="font-family:'Capito04VARItalic'"><em><strong>stretch</strong></em></span><span
-        style="font-family:'Capito04VAR'">, or a </span><span
-        style="font-family:'Capito04VARItalic'"><em><strong>reach</strong></em></span><span
-        style="font-family:'Capito04VAR'">?</span></p><p><span
-        style="font-family:'Capito04VARItalic'"><em>A doctor can suture a wound,
-        a thief likely has a lockpick, but a farmer probably wouldn’t know an
-        actress.</em></span></p><p><span
-        style="font-family:'Capito04VAR'"><strong>Proper vantage</strong> opens
-        up possibilities and gives the freedom to declare story details. Lacking
-        it makes things more difficult, or even
-        impossible.</span></p><p></p></div></div></div>
+        <p>Your character's frame of reference, the sum of your backstory,
+        talents, and the current fiction—everything on your sheet and what’s
+        affecting you in the story. When a question arises about what you can
+        do, have, or know, check it against your vantage: does it feel like a
+        <em><strong>given</strong></em>, a <em><strong>stretch</strong></em>, or
+        a <em><strong>reach</strong></em>?</p><p><em>A doctor can suture a
+        wound, a thief likely has a lockpick, but a farmer probably wouldn’t
+        know an actress.</em></p><p><strong>Proper vantage</strong> opens up
+        possibilities and gives the freedom to declare story details. Lacking it
+        makes things more difficult, or even impossible.</p><p></p>
     video:
       controls: true
       volume: 0.5

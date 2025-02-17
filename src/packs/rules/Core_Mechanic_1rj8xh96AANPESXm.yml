@@ -13,46 +13,17 @@ pages:
     text:
       format: 1
       content: >-
-        <div class="page" title="Page 14"><div class="layoutArea"><div
-        class="column"><p><span style="font-family:'Capito04VAR'">When things
-        get </span><span style="font-family:'Capito04VARItalic'"><em>risky
-        </em></span><span style="font-family:'Capito04VAR'">and </span><span
-        style="font-family:'Capito04VARItalic'"><em>dramatic</em></span><span
-        style="font-family:'Capito04VAR'">, roll to see what happens. Grab a few
-        d6 dice (</span><span
-        style="font-family:'Capito04VARItalic'"><em>d</em></span><span
-        style="font-family:'Capito04VAR'">) equal to the stat the GM picks to
-        test, roll them, and take the highest to determine the outcome—6:
-        </span><span
-        style="font-family:'Capito04VAR-Light-SC850'"><strong>PERFECT</strong></span><span
-        style="font-family:'Capito04VAR'">, 4-5: </span><span
-        style="font-family:'Capito04VAR-Light-SC850'"><strong>MESSY</strong></span><span
-        style="font-family:'Capito04VAR'">, 1-3: </span><span
-        style="font-family:'Capito04VAR-Light-SC850'"><strong>GRIM</strong></span><span
-        style="font-family:'Capito04VAR'">.</span></p><p><span
-        style="font-family:'SegoeUIEmoji'">◆ </span><span
-        style="font-family:'Capito04VAR'">A </span><span
-        style="font-family:'Capito04VAR-Light-SC850'"><strong>CRITICAL</strong>
-        </span><span style="font-family:'Capito04VAR'">happens when you roll two
-        or more 6s. </span><span
-        style="font-family:'Capito04VARItalic'"><em><strong>Ignore any
-        cuts</strong> </em></span><span style="font-family:'Capito04VAR'">and
-        choose a <strong>critical bonus</strong>: </span><span
-        style="font-family:'Capito04VARItalic'"><em>greater
-        effect</em></span><span style="font-family:'Capito04VAR'">—</span><span
-        style="font-family:'Capito04VARItalic'"><em>secondary
-        effect</em></span><span style="font-family:'Capito04VAR'">—</span><span
-        style="font-family:'Capito04VARItalic'"><em>setup a
-        follow-up</em></span><span
-        style="font-family:'Capito04VAR'">.</span></p><p><span
-        style="font-family:'SegoeUIEmoji'">◆ </span><span
-        style="font-family:'Capito04VAR'">A </span><span
-        style="font-family:'Capito04VAR-Light-SC850'"><strong>DISASTER</strong>
-        </span><span style="font-family:'Capito04VAR'">happens when a grim is
-        cut by a thorn. Whatever the risk was before, </span><span
-        style="font-family:'Capito04VARItalic'"><em>double it</em></span><span
-        style="font-family:'Capito04VAR'">—the worst case scenario comes to
-        pass.</span></p></div></div></div>
+        <p>When things get <em>risky </em>and <em>dramatic</em>, roll to see
+        what happens. Grab a few d6 dice (<em>d</em>) equal to the stat the GM
+        picks to test, roll them, and take the highest to determine the
+        outcome—6: <strong>PERFECT</strong>, 4-5: <strong>MESSY</strong>, 1-3:
+        <strong>GRIM</strong>.</p><p>◆ A <strong>CRITICAL</strong> happens when
+        you roll two or more 6s. <em><strong>Ignore any cuts</strong> </em>and
+        choose a <strong>critical bonus</strong>: <em>greater
+        effect</em>—<em>secondary effect</em>—<em>setup a
+        follow-up</em>.</p><p>◆ A <strong>DISASTER</strong> happens when a grim
+        is cut by a thorn. Whatever the risk was before, <em>double it</em>—the
+        worst case scenario comes to pass.</p>
     video:
       controls: true
       volume: 0.5

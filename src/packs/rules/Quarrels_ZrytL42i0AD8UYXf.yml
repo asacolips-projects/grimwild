@@ -14,27 +14,19 @@ pages:
     text:
       format: 1
       content: >-
-        <div class="page" title="Page 19"><div class="layoutArea"><div
-        class="column"><p><span style="font-family:'Capito04VAR'">Conflicts
-        between PCs—arguments, competitions, or even violence. Quickly resolve
-        impasses in the story—don't waste time debating! First, </span><span
-        style="font-family:'Capito04VARItalic'"><em><strong>make sure all
-        players agree to the quarrel</strong></em></span><span
-        style="font-family:'Capito04VAR'">. Clearly state the stakes for winning
-        and losing, erring on the side of dramatic </span><span
-        style="font-family:'Capito04VARItalic'"><em>(bruises, not bloodied; hurt
-        feelings, not vex)</em></span><span style="font-family:'Capito04VAR'">.
-        </span><span style="font-family:'Capito04VARItalic'"><em><strong>Each
-        player rolls 2d and the highest wins</strong> (5 beats
-        4)</em></span><span style="font-family:'Capito04VAR'">. Others can
-        assist, or they can join at 2d with their own agenda. On a tie,
-        compromise or keep quarreling.</span></p><p><span
-        style="font-family:'Capito04VAR'">The winner narrates how they won.
-        Then, the loser narrates how they handle losing. The results of the
-        quarrel are <strong>final</strong>—it's okay for the PC that lost to be
-        bitter, but the story moves in the winner's direction. </span><span
-        style="font-family:'Capito04VARItalic'"><em><strong>Both sides take
-        </strong></em>@UUID[Compendium.grimwild.rules.JournalEntry.jfAL6eh3f03OfuY3]{Spark}<em>.</em></span></p></div></div></div>
+        <p>Conflicts between PCs—arguments, competitions, or even violence.
+        Quickly resolve impasses in the story—don't waste time debating! First,
+        <em><strong>make sure all players agree to the quarrel</strong></em>.
+        Clearly state the stakes for winning and losing, erring on the side of
+        dramatic <em>(bruises, not bloodied; hurt feelings, not vex)</em>.
+        <em><strong>Each player rolls 2d and the highest wins</strong> (5 beats
+        4)</em>. Others can assist, or they can join at 2d with their own
+        agenda. On a tie, compromise or keep quarreling.</p><p>The winner
+        narrates how they won. Then, the loser narrates how they handle losing.
+        The results of the quarrel are <strong>final</strong>—it's okay for the
+        PC that lost to be bitter, but the story moves in the winner's
+        direction. <em><strong>Both sides take
+        </strong></em>@UUID[Compendium.grimwild.rules.JournalEntry.jfAL6eh3f03OfuY3]{Spark}<em>.</em></p>
     video:
       controls: true
       volume: 0.5

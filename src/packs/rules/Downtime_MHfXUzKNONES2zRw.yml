@@ -14,16 +14,13 @@ pages:
     text:
       format: 1
       content: >-
-        <div class="page" title="Page 18"><div class="layoutArea"><div
-        class="column"><p><span style="font-family:'Capito04VAR'">Extended
-        breaks </span><span style="font-family:'Capito04VARItalic'"><em>(a
-        month, a season)</em></span><span style="font-family:'Capito04VAR'">.
-        Fully heal and reset per-session talents. The GM rolls
+        <p>Extended breaks <em>(a month, a season)</em>. Fully heal and reset
+        per-session talents. The GM rolls
         @UUID[Compendium.grimwild.gm_toolkit.JournalEntry.GlsmiXNCf4oZEXVU]{Faction
         Pools}. After, they pick and deplete one to move the story forward. You
         can roll a
         @UUID[Compendium.grimwild.rules.JournalEntry.hHy0ajd300aDAWxm]{Montage}
-        to achieve something non-pivotal.</span></p></div></div></div>
+        to achieve something non-pivotal.</p>
     video:
       controls: true
       volume: 0.5

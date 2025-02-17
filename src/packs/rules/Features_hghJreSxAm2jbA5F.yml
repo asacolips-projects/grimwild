@@ -14,10 +14,8 @@ pages:
     text:
       format: 1
       content: >-
-        <div class="page" title="Page 16"><div class="layoutArea"><div
-        class="column"><p><span style="font-family:'Capito04VAR'">Detail your 3
-        most distinctive, outward features that others quickly
-        notice.</span></p></div></div></div>
+        <p>Detail your 3 most distinctive, outward features that others quickly
+        notice.</p>
     video:
       controls: true
       volume: 0.5

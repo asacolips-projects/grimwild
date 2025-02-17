@@ -14,11 +14,9 @@ pages:
     text:
       format: 1
       content: >-
-        <div class="page" title="Page 16"><div class="layoutArea"><div
-        class="column"><p><span style="font-family:'Capito04VAR'">You’re assumed
-        to have the gear and skills that are a given for your vantage. This
-        avoids detailed tracking and ensures PCs are competent where it makes
-        sense.</span></p></div></div></div>
+        <p>You’re assumed to have the gear and skills that are a given for your
+        vantage. This avoids detailed tracking and ensures PCs are competent
+        where it makes sense.</p>
     video:
       controls: true
       volume: 0.5

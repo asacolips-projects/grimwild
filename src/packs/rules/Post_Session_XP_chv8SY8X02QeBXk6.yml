@@ -14,26 +14,13 @@ pages:
     text:
       format: 1
       content: >-
-        <div class="page" title="Page 19"><div class="layoutArea"><div
-        class="column"><p><span style="font-family:'Capito04VAR'">After each
-        session, </span><span
-        style="font-family:'Capito04VARItalic'"><em><strong>take 1 XP</strong>
-        </em></span><span style="font-family:'Capito04VAR'">and fill in its box.
-        You start at level 1 and advance when you fill boxes equal to the next
-        level </span><span style="font-family:'Capito04VARItalic'"><em>(Lvl.
-        4</em></span><span style="font-family:'SegoeUIEmoji'">→</span><span
-        style="font-family:'Capito04VARItalic'"><em>5 = 5 more
-        boxes)</em></span><span style="font-family:'Capito04VAR'">. This lets
-        you choose a </span><span
-        style="font-family:'Capito04VARItalic'"><em><strong>new
-        talent</strong></em></span><span
-        style="font-family:'Capito04VAR'">.</span></p><p><span
-        style="font-family:'Capito04VARItalic'"><em><strong>The GM can award 1
-        bonus XP for a standout session</strong> </em></span><span
-        style="font-family:'Capito04VAR'">(</span><span
-        style="font-family:'Capito04VARItalic'"><em>about 1 in
-        4</em></span><span style="font-family:'Capito04VAR'">). For a slower
-        pace, slash each XP box before filling it.</span></p></div></div></div>
+        <p>After each session, <em><strong>take 1 XP</strong> </em>and fill in
+        its box. You start at level 1 and advance when you fill boxes equal to
+        the next level <em>(Lvl. 4</em>→<em>5 = 5 more boxes)</em>. This lets
+        you choose a <em><strong>new talent</strong></em>.</p><p><em><strong>The
+        GM can award 1 bonus XP for a standout session</strong> </em>(<em>about
+        1 in 4</em>). For a slower pace, slash each XP box before filling
+        it.</p>
     video:
       controls: true
       volume: 0.5

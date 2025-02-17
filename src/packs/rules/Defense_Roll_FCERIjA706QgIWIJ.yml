@@ -13,37 +13,23 @@ pages:
     text:
       format: 1
       content: >-
-        <div class="page" title="Page 15"><div class="layoutArea"><div
-        class="column"><p><span style="font-family:'Capito04VAR'">Roll to avoid
-        incoming trouble, </span><span
-        style="font-family:'Capito04VARItalic'"><em><strong>but only when not
-        caused by your own action</strong></em></span><span
-        style="font-family:'Capito04VAR'">. The GM calls for the roll and picks
-        a stat to test.</span></p><p></p><p><span
-        style="font-family:Capito04VAR">Perfect. You avoid the
-        trouble.</span></p><p>Messy. The GM lightens the
-        consequences.</p><p>Grim. The GM follows through on the
-        move.</p><p></p><p><span style="font-family:'Capito04VAR'">The GM calls
-        for defense rolls when they target you directly with an
+        <p>Roll to avoid incoming trouble, <em><strong>but only when not caused
+        by your own action</strong></em>. The GM calls for the roll and picks a
+        stat to test.</p><p></p><p>Perfect. You avoid the trouble.</p><p>Messy.
+        The GM lightens the consequences.</p><p>Grim. The GM follows through on
+        the move.</p><p></p><p>The GM calls for defense rolls when they target
+        you directly with an
         @UUID[Compendium.grimwild.gm_toolkit.JournalEntry.3Jw6Ds3TAJYimqxj]{Impact
         Move}. On a messy, there's still some trouble, like taking lesser
         damage, losing the chance to act, or being in a worse position
-        </span><span style="font-family:'Capito04VARItalic'"><em>(knocked off
-        the cliff</em></span><span
-        style="font-family:'SegoeUIEmoji'">→</span><span
-        style="font-family:'Capito04VARItalic'"><em>your sword is knocked
-        off)</em></span><span
-        style="font-family:'Capito04VAR'">.</span></p><p><span
-        style="font-family:'Capito04VARItalic'"><em><strong>Defense is
-        cinematic—a reaction, out of your hands</strong></em></span><span
-        style="font-family:'Capito04VAR'"><strong>.</strong> The GM picks the
-        stat to fit the danger, your PC’s likely reaction, vulnerabilities, and
-        what feels right for the moment. This keeps it varied—you can’t always
-        use a strong stat.</span></p><p><span
-        style="font-family:'Capito04VARItalic'"><em>Brawn absorbs a punch,
-        Agility dodges it, Wits sees it com- ing, and Presence avoids the fight.
-        </em></span><span style="font-family:'Capito04VAR'">(Players can soft
-        veto!)</span></p></div></div></div>
+        <em>(knocked off the cliff</em>→<em>your sword is knocked
+        off)</em>.</p><p><em><strong>Defense is cinematic—a reaction, out of
+        your hands</strong></em><strong>.</strong> The GM picks the stat to fit
+        the danger, your PC’s likely reaction, vulnerabilities, and what feels
+        right for the moment. This keeps it varied—you can’t always use a strong
+        stat.</p><p><em>Brawn absorbs a punch, Agility dodges it, Wits sees it
+        com- ing, and Presence avoids the fight. </em>(Players can soft
+        veto!)</p>
     video:
       controls: true
       volume: 0.5

@@ -13,14 +13,11 @@ pages:
     text:
       format: 1
       content: >-
-        <div class="page" title="Page 14"><div class="layoutArea"><div
-        class="column"><p><span style="font-family:'Capito04VAR'">When an
+        <p>When an
         @UUID[Compendium.grimwild.rules.JournalEntry.odkrgM4X8udAbLNN]{Assist}
         or @UUID[Compendium.grimwild.rules.JournalEntry.DcbQOR4iu3apZR17]{Setup}
-        comes from the world, like an NPC or the environment, </span><span
-        style="font-family:'Capito04VARItalic'"><em><strong>the GM rolls
-        1d</strong> </em></span><span style="font-family:'Capito04VAR'">to
-        represent it.</span></p></div></div></div>
+        comes from the world, like an NPC or the environment, <em><strong>the GM
+        rolls 1d</strong> </em>to represent it.</p>
     video:
       controls: true
       volume: 0.5
