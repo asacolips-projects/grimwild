@@ -1,0 +1,44 @@
+folder: 0FZZ6ZaYmCNR9Vxc
+name: Scout Ahead
+type: talent
+_id: TnxQ2sGUubldRtzh
+img: icons/tools/navigation/spyglass-telescope-brass-blue.webp
+system:
+  description: >-
+    <p>You gain 1 story per session and can spend story to flashback to scouting
+    ahead and: <em>sabotage something—set a trap—survey the area (ask 2
+    questions)—take out a danger—set up an <strong>interrupt</strong></em>. Make
+    a montage roll, taking +1d for prowess. The GM always takes suspense in
+    place of an impact move.</p>
+  core: false
+  notes:
+    description: ''
+    label: ''
+  trackers:
+    - type: points
+      label: Story
+      points:
+        value: 1
+        max: 1
+        showSteps: true
+      pool:
+        diceNum: 0
+        max: null
+  path: ranger
+effects: []
+sort: 0
+ownership:
+  default: 0
+  Dl5Tvf37OuEHwdAh: 3
+flags: {}
+_stats:
+  compendiumSource: null
+  duplicateSource: null
+  coreVersion: '12.331'
+  systemId: grimwild
+  systemVersion: 0.1.0
+  createdTime: 1739129525843
+  modifiedTime: 1739746962194
+  lastModifiedBy: Dl5Tvf37OuEHwdAh
+_key: '!items!TnxQ2sGUubldRtzh'
+

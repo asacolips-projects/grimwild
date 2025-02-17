@@ -1,0 +1,43 @@
+name: Bardic Lore
+type: talent
+_id: iNOZlJHKpBxQtUFV
+img: icons/sundries/books/book-open-purple.webp
+system:
+  description: >-
+    <p>You gain any 3 wises and 1 extra story per session. You take +1d on any
+    story rolls pertaining to what you know or story details you add.</p>
+  notes:
+    description: <p><em>Write down your wises here.</em></p>
+    label: Wises
+  trackers:
+    - type: points
+      label: Story
+      points:
+        value: 1
+        max: 1
+        showSteps: true
+      pool:
+        diceNum: 0
+        max: null
+  path: bard
+  core: false
+effects: []
+folder: n7jEJF8MCm2SAEyA
+sort: 100000
+ownership:
+  default: 0
+  Dl5Tvf37OuEHwdAh: 3
+flags:
+  core:
+    sheetClass: grimwild.GrimwildItemSheetVue
+_stats:
+  compendiumSource: null
+  duplicateSource: null
+  coreVersion: '12.331'
+  systemId: grimwild
+  systemVersion: 0.1.0
+  createdTime: 1739042795826
+  modifiedTime: 1739109942241
+  lastModifiedBy: Dl5Tvf37OuEHwdAh
+_key: '!items!iNOZlJHKpBxQtUFV'
+

@@ -1,0 +1,33 @@
+folder: 85AhjhNgoBP9pTvr
+name: Healing Hands
+type: talent
+_id: CY7h0RAsH3IgI3eC
+img: icons/magic/life/heart-hand-gold-green.webp
+system:
+  description: >-
+    <p>You can heal the bloodied pool of an ally. When you do, roll Presence as
+    a defense roll against being bloodied—you take their pain onto yourself and
+    must fend it off.</p>
+  core: false
+  notes:
+    description: ''
+    label: ''
+  trackers: []
+  path: monk
+effects: []
+sort: 0
+ownership:
+  default: 0
+  Dl5Tvf37OuEHwdAh: 3
+flags: {}
+_stats:
+  compendiumSource: null
+  duplicateSource: null
+  coreVersion: '12.331'
+  systemId: grimwild
+  systemVersion: 0.1.0
+  createdTime: 1739113686945
+  modifiedTime: 1739113686945
+  lastModifiedBy: Dl5Tvf37OuEHwdAh
+_key: '!items!CY7h0RAsH3IgI3eC'
+

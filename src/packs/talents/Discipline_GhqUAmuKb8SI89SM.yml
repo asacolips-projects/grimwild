@@ -1,0 +1,62 @@
+folder: 85AhjhNgoBP9pTvr
+name: Discipline
+type: talent
+_id: GhqUAmuKb8SI89SM
+img: icons/magic/holy/meditation-chi-focus-blue.webp
+system:
+  description: >-
+    <p>Your body itself is a weapon, and <em>anything </em>in your hands is
+    merely an extension of it. You never suffer thorns due to weapon matchups.
+    Once per session, you can <em><strong>interrupt</strong> </em>with a:
+    <em>philosophical point—quick reaction—stunning strike</em>. Each scene, you
+    have <strong>4 flow</strong>. You can spend it to:</p><p>◆ Ignore difficulty
+    thorns from: <em>being outnumbered</em>—<em>a single powerful
+    opponent</em>.<br />◆ Attempt a <strong>fluid maneuver</strong>. Before
+    rolling, declare you want to also: <em>disarm them—redirect
+    momentum—reposition you, them, or both</em>. On a perfect or messy, it
+    happens. <br />◆ Pull off a <em><strong>potent feat of mystical
+    grace</strong></em>, like <em>running across water </em>or <em>falling
+    harmlessly from a great height</em>. <em>For 1 more flow</em>, extend this
+    to those you're touching.</p><hr /><p><strong>GROWTH</strong>: Every 3
+    levels, increase flow by 1 per scene and interrupts by 1 per session.</p>
+  core: true
+  notes:
+    description: ''
+    label: ''
+  trackers:
+    - type: points
+      label: Flow
+      points:
+        value: 4
+        max: 4
+        showSteps: true
+      pool:
+        diceNum: 0
+        max: null
+    - type: points
+      label: Interrupt
+      points:
+        value: 1
+        max: 1
+        showSteps: true
+      pool:
+        diceNum: 0
+        max: null
+  path: monk
+effects: []
+sort: 0
+ownership:
+  default: 0
+  Dl5Tvf37OuEHwdAh: 3
+flags: {}
+_stats:
+  compendiumSource: null
+  duplicateSource: null
+  coreVersion: '12.331'
+  systemId: grimwild
+  systemVersion: 0.1.0
+  createdTime: 1739113686945
+  modifiedTime: 1739113686945
+  lastModifiedBy: Dl5Tvf37OuEHwdAh
+_key: '!items!GhqUAmuKb8SI89SM'
+

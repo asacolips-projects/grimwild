@@ -1,0 +1,35 @@
+folder: AqQ3YAkWtiAtqHH9
+name: Otherwordly Form
+type: talent
+_id: ZeTpli7ZR35kl5sv
+img: icons/magic/air/wind-stream-purple.webp
+system:
+  description: >-
+    <p>You can turn into a floating, dispersed form, flavored after your
+    patron's trappings <em>(swarm of bats, blowing leaves)</em>. Choose three
+    things you can do in this form: <em>appear barely visible—fly high in the
+    sky—interact with objects—move swiftly—slip through small
+    gaps—speak</em>.</p>
+  core: false
+  notes:
+    description: ''
+    label: ''
+  trackers: []
+  path: warlock
+effects: []
+sort: 0
+ownership:
+  default: 0
+  Dl5Tvf37OuEHwdAh: 3
+flags: {}
+_stats:
+  compendiumSource: null
+  duplicateSource: null
+  coreVersion: '12.331'
+  systemId: grimwild
+  systemVersion: 0.1.0
+  createdTime: 1739140434336
+  modifiedTime: 1739746604945
+  lastModifiedBy: Dl5Tvf37OuEHwdAh
+_key: '!items!ZeTpli7ZR35kl5sv'
+

@@ -1,0 +1,42 @@
+folder: QQwq5i3yUUjhboM4
+name: Opportunist
+type: talent
+_id: 2QvyIPWC20pJqxbB
+img: icons/skills/melee/strike-sword-stabbed-brown.webp
+system:
+  description: >-
+    <p>When someone nearby rolls defense, you take +1d on an immediate
+    follow-up. On a critical by a nearby ally, you can <strong>push
+    yourself</strong> to add another critical bonus.</p>
+  core: false
+  notes:
+    description: ''
+    label: ''
+  trackers:
+    - type: points
+      label: Push
+      points:
+        value: 1
+        max: 1
+        showSteps: true
+      pool:
+        diceNum: 0
+        max: null
+  path: rogue
+effects: []
+sort: 0
+ownership:
+  default: 0
+  Dl5Tvf37OuEHwdAh: 3
+flags: {}
+_stats:
+  compendiumSource: null
+  duplicateSource: null
+  coreVersion: '12.331'
+  systemId: grimwild
+  systemVersion: 0.1.0
+  createdTime: 1739130472186
+  modifiedTime: 1739130472186
+  lastModifiedBy: Dl5Tvf37OuEHwdAh
+_key: '!items!2QvyIPWC20pJqxbB'
+

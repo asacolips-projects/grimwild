@@ -1,0 +1,62 @@
+folder: 0FZZ6ZaYmCNR9Vxc
+name: Animal Companion
+type: talent
+_id: 4f6Ql1tVZGqys7i4
+img: icons/creatures/mammals/dog-husky-white-blue.webp
+system:
+  description: >-
+    <p>You're accompanied by a fiercely loyal animal. Each PC adds a reciprocal
+    bond with it. Choose <em><strong>3 tricks</strong> </em>that it knows and
+    <em><strong>2 flaws</strong> </em>that it
+    has:</p><p><strong>Tricks</strong>:
+    <em>distract—fight—guard—perform—rescue—retrieve—scout—search—track—warn.</em></p><p><strong>Flaws</strong>:
+    <em>aggressive—clumsy—grumpy—insatiable—jumpy—noisy—overprotective—scary—unruly</em>.</p><p>You
+    roll 3d for anything it knows a trick for and 1d on everything else. It has
+    only two damage boxes, <em><strong>marked</strong> </em>(for any mark) and
+    <em><strong>hurt</strong> </em>(for bloodied or rattled). You can always
+    have it exit a scene when hurt. If lost, you can bond with a new animal or
+    select a new talent.</p><p><em><strong>Special</strong>: You can take this
+    talent again to grant it 3 more tricks and another marked box.</em></p>
+  core: false
+  notes:
+    description: >-
+      <p><em>Write down the 3 tricks and 2 flaws your animal companion
+      has.</em></p>
+    label: Tricks & Flaws
+  trackers:
+    - type: points
+      label: Marked
+      points:
+        value: 0
+        max: 1
+        showSteps: true
+      pool:
+        diceNum: 0
+        max: null
+    - type: pool
+      label: Hurt
+      pool:
+        diceNum: 0
+        max: null
+      points:
+        showSteps: false
+        value: 1
+        max: 1
+  path: ranger
+effects: []
+sort: 0
+ownership:
+  default: 0
+  Dl5Tvf37OuEHwdAh: 3
+flags: {}
+_stats:
+  compendiumSource: null
+  duplicateSource: null
+  coreVersion: '12.331'
+  systemId: grimwild
+  systemVersion: 0.1.0
+  createdTime: 1739129525843
+  modifiedTime: 1739129525843
+  lastModifiedBy: Dl5Tvf37OuEHwdAh
+_key: '!items!4f6Ql1tVZGqys7i4'
+

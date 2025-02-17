@@ -1,0 +1,44 @@
+folder: i53xgSVOBOe4n7Mr
+name: Anchorshot
+type: talent
+_id: VljVPyIk0taV9T5l
+img: icons/skills/ranged/arrow-flying-broadhead-metal.webp
+system:
+  description: >-
+    <p>You have a hook, harpoon, and rope contraption that anchors large
+    monsters to the ground. With it, you have <em><strong>potency</strong></em>
+    to hinder the movement of anything elephant-sized or larger. When hit, the
+    target becomes <em><strong>4d Tethered</strong></em>. It anchors to the
+    ground so you can leave it.</p>
+  core: false
+  notes:
+    description: ''
+    label: ''
+  trackers:
+    - type: pool
+      label: Anchor
+      pool:
+        diceNum: 4
+        max: 4
+      points:
+        showSteps: false
+        value: 1
+        max: 1
+  path: artificer
+effects: []
+sort: 0
+ownership:
+  default: 0
+  Dl5Tvf37OuEHwdAh: 3
+flags: {}
+_stats:
+  compendiumSource: null
+  duplicateSource: null
+  coreVersion: '12.331'
+  systemId: grimwild
+  systemVersion: 0.1.0
+  createdTime: 1739543988913
+  modifiedTime: 1739543988913
+  lastModifiedBy: Dl5Tvf37OuEHwdAh
+_key: '!items!VljVPyIk0taV9T5l'
+

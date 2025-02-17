@@ -1,0 +1,45 @@
+folder: 85AhjhNgoBP9pTvr
+name: Primordial Forces
+type: talent
+_id: FX53ihUtuKgSGrlU
+img: icons/magic/water/pseudopod-teal.webp
+system:
+  description: >-
+    <p>Choose an element: <em>Air—Earth—Fire—Water</em>. You can cast cantrips
+    with that element, useful as <em>set dressing </em>and <em>cantrip
+    utility</em>. On a critical using your element, charge it (mark its box).
+    Spend it to pull off a <em><strong>potent feat of force or movement</strong>
+    </em>empowered by the element.</p><p><em>Special: You can take this again,
+    gaining all elements. On a critical, charge two elements.</em></p>
+  core: false
+  notes:
+    description: ''
+    label: ''
+  trackers:
+    - type: points
+      label: Element
+      points:
+        value: 1
+        max: 1
+        showSteps: true
+      pool:
+        diceNum: 0
+        max: null
+  path: monk
+effects: []
+sort: 0
+ownership:
+  default: 0
+  Dl5Tvf37OuEHwdAh: 3
+flags: {}
+_stats:
+  compendiumSource: null
+  duplicateSource: null
+  coreVersion: '12.331'
+  systemId: grimwild
+  systemVersion: 0.1.0
+  createdTime: 1739113686945
+  modifiedTime: 1739746813614
+  lastModifiedBy: Dl5Tvf37OuEHwdAh
+_key: '!items!FX53ihUtuKgSGrlU'
+

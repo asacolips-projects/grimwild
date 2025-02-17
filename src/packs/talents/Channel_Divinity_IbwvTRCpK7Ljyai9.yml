@@ -1,0 +1,65 @@
+folder: Km2uusPM1YvfRSZe
+name: Channel Divinity
+type: talent
+_id: IbwvTRCpK7Ljyai9
+img: icons/magic/holy/prayer-hands-glowing-yellow-green.webp
+system:
+  description: >-
+    <p>Your god grants you spellcasting ability. You roll a domain pool to cast
+    and that domain pool and your god's epithet serve as
+    touchstones.</p><p>Create your god (<em>below</em>). You have <strong>1
+    major domain</strong>, a 6d power pool, and <strong>2 minor
+    domains</strong>, each a 4d power pool. These pools replenish each session.
+    You can drop 1d and roll the domain to cast a <em><strong>potent
+    spell</strong></em>.</p><hr /><p><strong>GROWTH</strong>: Every 2 levels,
+    increase one domain pool by 1d (max 8d).</p>
+  core: true
+  notes:
+    description: <p><em>Write your God's name and domains here.</em></p>
+    label: God
+  trackers:
+    - type: pool
+      label: Major
+      pool:
+        diceNum: 6
+        max: 8
+      points:
+        showSteps: false
+        value: 1
+        max: 1
+    - type: pool
+      label: Minor
+      pool:
+        diceNum: 4
+        max: 8
+      points:
+        showSteps: false
+        value: 1
+        max: 1
+    - type: pool
+      label: Minor
+      pool:
+        diceNum: 4
+        max: 8
+      points:
+        showSteps: false
+        value: 1
+        max: 1
+  path: cleric
+effects: []
+sort: 0
+ownership:
+  default: 0
+  Dl5Tvf37OuEHwdAh: 3
+flags: {}
+_stats:
+  compendiumSource: Item.IbwvTRCpK7Ljyai9
+  duplicateSource: null
+  coreVersion: '12.331'
+  systemId: grimwild
+  systemVersion: 0.1.0
+  createdTime: 1739063481754
+  modifiedTime: 1739746039990
+  lastModifiedBy: Dl5Tvf37OuEHwdAh
+_key: '!items!IbwvTRCpK7Ljyai9'
+

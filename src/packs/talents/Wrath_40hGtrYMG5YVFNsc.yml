@@ -1,0 +1,33 @@
+folder: ce6PuVxHOMYhnUk3
+name: Wrath
+type: talent
+_id: 40hGtrYMG5YVFNsc
+img: icons/magic/unholy/strike-beam-blood-large-red-purple.webp
+system:
+  description: >-
+    <p>When you or a nearby ally gets bloodied, rattled, or dropped, you take
+    +1d and <em><strong>potency</strong></em> on your next spell if you
+    immediately lash out.</p>
+  core: false
+  notes:
+    description: ''
+    label: ''
+  trackers: []
+  path: sorcerer
+effects: []
+sort: 0
+ownership:
+  default: 0
+  Dl5Tvf37OuEHwdAh: 3
+flags: {}
+_stats:
+  compendiumSource: null
+  duplicateSource: null
+  coreVersion: '12.331'
+  systemId: grimwild
+  systemVersion: 0.1.0
+  createdTime: 1739139357959
+  modifiedTime: 1739139357959
+  lastModifiedBy: Dl5Tvf37OuEHwdAh
+_key: '!items!40hGtrYMG5YVFNsc'
+

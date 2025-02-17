@@ -1,0 +1,20 @@
+name: Ranger
+sorting: a
+folder: null
+type: Item
+_id: 0FZZ6ZaYmCNR9Vxc
+description: ''
+sort: 100000
+color: null
+flags: {}
+_stats:
+  compendiumSource: null
+  duplicateSource: null
+  coreVersion: '12.331'
+  systemId: grimwild
+  systemVersion: 0.1.0
+  createdTime: 1739129525825
+  modifiedTime: 1739129525866
+  lastModifiedBy: Dl5Tvf37OuEHwdAh
+_key: '!folders!0FZZ6ZaYmCNR9Vxc'
+

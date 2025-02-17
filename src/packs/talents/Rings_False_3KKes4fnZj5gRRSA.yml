@@ -1,0 +1,32 @@
+folder: Km2uusPM1YvfRSZe
+name: Rings False
+type: talent
+_id: 3KKes4fnZj5gRRSA
+img: icons/tools/instruments/bell-gold.webp
+system:
+  description: >-
+    <p>You always know when someone is lying, though not necessarily the truth.
+    You take +1d on a follow-up if you reveal you know they're lying.</p>
+  core: false
+  notes:
+    description: ''
+    label: ''
+  trackers: []
+  path: cleric
+effects: []
+sort: 0
+ownership:
+  default: 0
+  Dl5Tvf37OuEHwdAh: 3
+flags: {}
+_stats:
+  compendiumSource: null
+  duplicateSource: null
+  coreVersion: '12.331'
+  systemId: grimwild
+  systemVersion: 0.1.0
+  createdTime: 1739063481754
+  modifiedTime: 1739746866298
+  lastModifiedBy: Dl5Tvf37OuEHwdAh
+_key: '!items!3KKes4fnZj5gRRSA'
+

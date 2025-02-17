@@ -1,0 +1,36 @@
+folder: Km2uusPM1YvfRSZe
+name: Devout
+type: talent
+_id: BFA2qRiNtDRjMNOP
+img: icons/magic/holy/prayer-hands-glowing-yellow.webp
+system:
+  description: >-
+    <p>Intelligent creatures recognize you as a person of deep honesty and only
+    your most hated enemies would treat you with a lack of respect or doubt your
+    word. You are never serious- ly injured or killed by an enemy, unless they
+    have no choice. Any creature with speech will always hear you out. This aura
+    is upheld by your unwavering commitment—you must <strong>push
+    yourself</strong> to act in bad faith <em>(no free activation).</em></p>
+  core: false
+  notes:
+    description: ''
+    label: ''
+  trackers: []
+  path: cleric
+effects: []
+sort: 0
+ownership:
+  default: 0
+  Dl5Tvf37OuEHwdAh: 3
+flags: {}
+_stats:
+  compendiumSource: null
+  duplicateSource: null
+  coreVersion: '12.331'
+  systemId: grimwild
+  systemVersion: 0.1.0
+  createdTime: 1739063481754
+  modifiedTime: 1739063888106
+  lastModifiedBy: Dl5Tvf37OuEHwdAh
+_key: '!items!BFA2qRiNtDRjMNOP'
+

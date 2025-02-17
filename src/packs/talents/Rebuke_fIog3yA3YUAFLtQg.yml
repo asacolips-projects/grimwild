@@ -1,0 +1,33 @@
+folder: y6k4T3gOk4ZxsYPe
+name: Rebuke
+type: talent
+_id: fIog3yA3YUAFLtQg
+img: icons/magic/movement/trail-streak-impact-blue.webp
+system:
+  description: >-
+    <p>When the GM spends suspense to prompt an impact move, you take +1d on any
+    follow-up action against the source. On a critical, <strong>take
+    spark</strong>.</p>
+  core: false
+  notes:
+    description: ''
+    label: ''
+  trackers: []
+  path: paladin
+effects: []
+sort: 0
+ownership:
+  default: 0
+  Dl5Tvf37OuEHwdAh: 3
+flags: {}
+_stats:
+  compendiumSource: null
+  duplicateSource: null
+  coreVersion: '12.331'
+  systemId: grimwild
+  systemVersion: 0.1.0
+  createdTime: 1739115233991
+  modifiedTime: 1739115233991
+  lastModifiedBy: Dl5Tvf37OuEHwdAh
+_key: '!items!fIog3yA3YUAFLtQg'
+

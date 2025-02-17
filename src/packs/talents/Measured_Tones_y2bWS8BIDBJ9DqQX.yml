@@ -1,0 +1,44 @@
+folder: ho2SQrFiSNOlb9od
+name: Measured Tones
+type: talent
+_id: y2bWS8BIDBJ9DqQX
+img: icons/skills/social/trading-justice-scale-yellow.webp
+system:
+  description: >-
+    <p>When you speak in measured tones, people always stop and listen—you can
+    declare <em><strong>low risk</strong> </em>if desired. Unless completely
+    surprised, you can <strong>push yourself</strong> to
+    <em><strong>interrupt</strong> </em>an impact move initiating aggression. If
+    you change their mind, <strong>take spark</strong>.</p>
+  core: false
+  notes:
+    description: ''
+    label: ''
+  trackers:
+    - type: points
+      label: Push
+      points:
+        value: 1
+        max: 1
+        showSteps: true
+      pool:
+        diceNum: 0
+        max: null
+  path: fighter
+effects: []
+sort: 0
+ownership:
+  default: 0
+  Dl5Tvf37OuEHwdAh: 3
+flags: {}
+_stats:
+  compendiumSource: null
+  duplicateSource: null
+  coreVersion: '12.331'
+  systemId: grimwild
+  systemVersion: 0.1.0
+  createdTime: 1739111225522
+  modifiedTime: 1739746431926
+  lastModifiedBy: Dl5Tvf37OuEHwdAh
+_key: '!items!y2bWS8BIDBJ9DqQX'
+

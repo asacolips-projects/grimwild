@@ -1,0 +1,44 @@
+folder: 5BjPrDN4LvtVJQ89
+name: Disturbed Mind
+type: talent
+_id: JwNK8Qq9gg8v9UQF
+img: icons/magic/control/fear-fright-monster-grin-red-orange.webp
+system:
+  description: >-
+    <p>Your presence is highly disturbing to others. The GM judges an NPC's
+    response, or you can spend story to set it:
+    <em>agitated</em>—<em>fractured</em>—<em>paranoid</em>—<em>repulsed</em>.
+    Once per session when you would take vex, a nearby sentient creature—even an
+    ally—must instead take a vex response.</p>
+  core: false
+  notes:
+    description: ''
+    label: ''
+  trackers:
+    - type: points
+      label: Vex
+      points:
+        value: 1
+        max: 1
+        showSteps: true
+      pool:
+        diceNum: 0
+        max: null
+  path: psion
+effects: []
+sort: 0
+ownership:
+  default: 0
+  Dl5Tvf37OuEHwdAh: 3
+flags: {}
+_stats:
+  compendiumSource: null
+  duplicateSource: null
+  coreVersion: '12.331'
+  systemId: grimwild
+  systemVersion: 0.1.0
+  createdTime: 1739544993822
+  modifiedTime: 1739544993822
+  lastModifiedBy: Dl5Tvf37OuEHwdAh
+_key: '!items!JwNK8Qq9gg8v9UQF'
+

@@ -1,0 +1,33 @@
+folder: QQwq5i3yUUjhboM4
+name: Eldritch Affinity
+type: talent
+_id: TYKdOhu3gP1aDjgd
+img: icons/magic/light/hand-sparks-smoke-green.webp
+system:
+  description: >-
+    <p>You have spellcasting, as the Sorcery talent. You roll Presence to cast
+    and choose 3 from magic paths and techniques that serve as touchstones. You
+    can't cast potent spells, nor do you risk a wild surge.</p>
+  core: false
+  notes:
+    description: <p><em>Write down your 3 magic paths and techniques here.</em></p>
+    label: Magic Paths & Techniques
+  trackers: []
+  path: rogue
+effects: []
+sort: 0
+ownership:
+  default: 0
+  Dl5Tvf37OuEHwdAh: 3
+flags: {}
+_stats:
+  compendiumSource: null
+  duplicateSource: null
+  coreVersion: '12.331'
+  systemId: grimwild
+  systemVersion: 0.1.0
+  createdTime: 1739130472186
+  modifiedTime: 1739130472186
+  lastModifiedBy: Dl5Tvf37OuEHwdAh
+_key: '!items!TYKdOhu3gP1aDjgd'
+

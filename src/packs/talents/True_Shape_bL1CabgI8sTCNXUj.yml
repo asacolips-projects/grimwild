@@ -1,0 +1,33 @@
+folder: axv1GMaCSdy5XHII
+name: True Shape
+type: talent
+_id: bL1CabgI8sTCNXUj
+img: icons/magic/nature/wolf-paw-glow-large-purple-teal.webp
+system:
+  description: >-
+    <p>Choose 1 beast form. If it has no wild talents, you can shift into it
+    without rolling wild shape, even at 0d. If it has wild talents, you drop 1d
+    less than normal when you shift.</p>
+  core: false
+  notes:
+    description: ''
+    label: ''
+  trackers: []
+  path: druid
+effects: []
+sort: 0
+ownership:
+  default: 0
+  Dl5Tvf37OuEHwdAh: 3
+flags: {}
+_stats:
+  compendiumSource: null
+  duplicateSource: null
+  coreVersion: '12.331'
+  systemId: grimwild
+  systemVersion: 0.1.0
+  createdTime: 1739109608751
+  modifiedTime: 1739109608751
+  lastModifiedBy: Dl5Tvf37OuEHwdAh
+_key: '!items!bL1CabgI8sTCNXUj'
+

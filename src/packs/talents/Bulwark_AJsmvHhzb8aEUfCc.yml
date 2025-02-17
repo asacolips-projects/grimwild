@@ -1,0 +1,42 @@
+folder: ho2SQrFiSNOlb9od
+name: Bulwark
+type: talent
+_id: AJsmvHhzb8aEUfCc
+img: icons/equipment/chest/breastplate-helmet-metal.webp
+system:
+  description: >-
+    <p>Each session, you have a <em><strong>3d Bulwark pool</strong></em> from
+    armor or other defenses. When you get bloodied or dropped from physical
+    damage, roll the pool. If dice remain, ignore the damage.</p>
+  core: false
+  notes:
+    description: ''
+    label: ''
+  trackers:
+    - type: pool
+      label: Bulwark
+      pool:
+        diceNum: 3
+        max: 3
+      points:
+        showSteps: false
+        value: 1
+        max: 1
+  path: fighter
+effects: []
+sort: 0
+ownership:
+  default: 0
+  Dl5Tvf37OuEHwdAh: 3
+flags: {}
+_stats:
+  compendiumSource: null
+  duplicateSource: null
+  coreVersion: '12.331'
+  systemId: grimwild
+  systemVersion: 0.1.0
+  createdTime: 1739111225522
+  modifiedTime: 1739111225522
+  lastModifiedBy: Dl5Tvf37OuEHwdAh
+_key: '!items!AJsmvHhzb8aEUfCc'
+

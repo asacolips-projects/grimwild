@@ -1,0 +1,79 @@
+folder: axv1GMaCSdy5XHII
+name: Primordial Bonds
+type: talent
+_id: JV1UZANIFmbn1iFv
+img: icons/magic/symbols/elements-air-earth-fire-water.webp
+system:
+  description: >-
+    <p>You have a bond with each of the primordial elements,
+    <em><strong>Air</strong></em>, <em><strong>Earth</strong></em>,
+    <em><strong>Fire</strong></em>, and <em><strong>Water</strong></em>. Roll
+    the bonds, then change one to <em><strong>deep</strong></em>. You have
+    spellcasting, rolling Presence to call on an element, which serves as the
+    touchstone. You can call on each element once per session, or twice if your
+    bond is <em><strong>deep</strong></em>. You can mark two usages of a single
+    element to cast a potent spell. You can combine usages of two elements to
+    take +1d and use both as a touchstone. Bonds change, <em>for better or
+    worse</em>—pursue great deeds and rituals to <em><strong>deepen</strong>
+    </em>them.</p>
+  core: false
+  notes:
+    description: >-
+      <p><em>Write down the bond for each element here, and adjust the tracker
+      for the element that is <strong>deep</strong>.</em></p>
+    label: Bonds
+  trackers:
+    - type: points
+      label: Air
+      points:
+        value: 1
+        max: 1
+        showSteps: true
+      pool:
+        diceNum: 0
+        max: null
+    - type: points
+      label: Earth
+      points:
+        value: 1
+        max: 1
+        showSteps: true
+      pool:
+        diceNum: 0
+        max: null
+    - type: points
+      label: Fire
+      points:
+        value: 1
+        max: 1
+        showSteps: true
+      pool:
+        diceNum: 0
+        max: null
+    - type: points
+      label: Water
+      points:
+        value: 1
+        max: 1
+        showSteps: true
+      pool:
+        diceNum: 0
+        max: null
+  path: druid
+effects: []
+sort: 0
+ownership:
+  default: 0
+  Dl5Tvf37OuEHwdAh: 3
+flags: {}
+_stats:
+  compendiumSource: null
+  duplicateSource: null
+  coreVersion: '12.331'
+  systemId: grimwild
+  systemVersion: 0.1.0
+  createdTime: 1739109608751
+  modifiedTime: 1739139013727
+  lastModifiedBy: Dl5Tvf37OuEHwdAh
+_key: '!items!JV1UZANIFmbn1iFv'
+

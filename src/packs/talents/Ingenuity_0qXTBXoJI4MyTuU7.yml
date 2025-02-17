@@ -1,0 +1,44 @@
+folder: i53xgSVOBOe4n7Mr
+name: Ingenuity
+type: talent
+_id: 0qXTBXoJI4MyTuU7
+img: icons/commodities/tech/tube-chamber-lightning.webp
+system:
+  description: >-
+    <p>You harness the power of creativity. Begin play with <em><strong>1 minor
+    arcana</strong> </em>and <em><strong>1 major arcana</strong></em>, chosen
+    from the Various Arcana chapter or work with the GM to create your own
+    arcana. You do not have talents—instead choose a <strong>gadget</strong>
+    from your path list or reflavor a non-path talent as a gadget. Others can
+    use your gadgets but take +1t and must always roll to use them.</p><p>When
+    given time, you can pull off <em><strong>potent feats of mechanical
+    ingenuity</strong> </em>like <em>crafting a temporary device without proper
+    materials </em>or <em>combining arcana and gadgets for wild effects</em>.
+    You can push yourself to do it on the
+    spot.</p><p><em><strong>Engineering</strong></em>: Take +1d at creating,
+    repairing, or destroying mechanisms and arcana.</p><hr
+    /><p><strong>GROWTH</strong>: Every 2 levels, gain a new minor and major
+    arcana.</p>
+  core: true
+  notes:
+    description: ''
+    label: ''
+  trackers: []
+  path: artificer
+effects: []
+sort: 0
+ownership:
+  default: 0
+  Dl5Tvf37OuEHwdAh: 3
+flags: {}
+_stats:
+  compendiumSource: null
+  duplicateSource: null
+  coreVersion: '12.331'
+  systemId: grimwild
+  systemVersion: 0.1.0
+  createdTime: 1739543988913
+  modifiedTime: 1739746273456
+  lastModifiedBy: Dl5Tvf37OuEHwdAh
+_key: '!items!0qXTBXoJI4MyTuU7'
+

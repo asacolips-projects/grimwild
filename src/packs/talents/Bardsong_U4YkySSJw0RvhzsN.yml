@@ -1,0 +1,62 @@
+folder: n7jEJF8MCm2SAEyA
+name: Bardsong
+type: talent
+_id: U4YkySSJw0RvhzsN
+img: icons/tools/instruments/harp-yellow-teal.webp
+system:
+  description: >-
+    <p>Each session, you can sing <strong>3 bardsongs</strong>, rolling
+    Presence. Sing one to pull off a <em><strong>potent feat of emotional
+    influence</strong></em>, like <em>eliciting a vex response in an NPC</em>,
+    <em>buffing a group of allies</em>, or <em>inflicting hindrances on
+    enemies</em>. You can also sing one to <em><strong>interrupt</strong></em>
+    an impact move. A bardsong's effect flows from its composition. Choose a
+    <em><strong>style</strong></em>, <em><strong>tune</strong></em>, and
+    <em><strong>impact</strong></em> that matches the effect.</p><p>Each
+    session, you can also sing <strong>3 melodies</strong>, spur of the moment
+    tunes without spe- cific composition. Spend them to: <em>clear a
+    mark</em>—<em>heal rattled</em>—<em>assist without risk</em>. These don't
+    require a roll. You cannot affect yourself.</p><hr
+    /><p><strong>GROWTH</strong>: Every 3 levels, gain +1 bardsong and +1 melody
+    per session.</p>
+  core: true
+  notes:
+    description: ''
+    label: ''
+  trackers:
+    - type: points
+      label: Bardsongs
+      points:
+        value: 3
+        max: 3
+        showSteps: true
+      pool:
+        diceNum: 0
+        max: null
+    - type: points
+      label: Melodies
+      points:
+        value: 3
+        max: 3
+        showSteps: true
+      pool:
+        diceNum: 0
+        max: null
+  path: bard
+effects: []
+sort: 200000
+ownership:
+  default: 0
+  Dl5Tvf37OuEHwdAh: 3
+flags: {}
+_stats:
+  compendiumSource: null
+  duplicateSource: null
+  coreVersion: '12.331'
+  systemId: grimwild
+  systemVersion: 0.1.0
+  createdTime: 1739042795826
+  modifiedTime: 1739140987054
+  lastModifiedBy: Dl5Tvf37OuEHwdAh
+_key: '!items!U4YkySSJw0RvhzsN'
+

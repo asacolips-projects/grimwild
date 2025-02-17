@@ -1,0 +1,41 @@
+folder: stI4BJrCCbXWUzHc
+name: Warsongs
+type: talent
+_id: AiCn0hMfJfyhazpN
+img: icons/skills/trades/music-singing-voice-blue.webp
+system:
+  description: >-
+    <p>Each session, you can sing 2 bardsongs. Write down the composition of the
+    only 3 songs you know.</p>
+  core: false
+  notes:
+    description: <p><em>Write down your compositions here.</em></p>
+    label: Warsong Compositions
+  trackers:
+    - type: points
+      label: Warsongs
+      points:
+        value: 2
+        max: 2
+        showSteps: true
+      pool:
+        diceNum: 0
+        max: null
+  path: berserker
+effects: []
+sort: 0
+ownership:
+  default: 0
+  Dl5Tvf37OuEHwdAh: 3
+flags: {}
+_stats:
+  compendiumSource: null
+  duplicateSource: null
+  coreVersion: '12.331'
+  systemId: grimwild
+  systemVersion: 0.1.0
+  createdTime: 1739062678115
+  modifiedTime: 1739747179119
+  lastModifiedBy: Dl5Tvf37OuEHwdAh
+_key: '!items!AiCn0hMfJfyhazpN'
+

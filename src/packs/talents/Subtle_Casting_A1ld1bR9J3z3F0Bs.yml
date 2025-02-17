@@ -1,0 +1,32 @@
+folder: ce6PuVxHOMYhnUk3
+name: Subtle Casting
+type: talent
+_id: A1ld1bR9J3z3F0Bs
+img: icons/magic/air/air-smoke-casting.webp
+system:
+  description: >-
+    <p>You can always cast spells subtly, able to conceal that you were the one
+    that cast it. This doesn't defeat common sense, of course.</p>
+  core: false
+  notes:
+    description: ''
+    label: ''
+  trackers: []
+  path: sorcerer
+effects: []
+sort: 0
+ownership:
+  default: 0
+  Dl5Tvf37OuEHwdAh: 3
+flags: {}
+_stats:
+  compendiumSource: null
+  duplicateSource: null
+  coreVersion: '12.331'
+  systemId: grimwild
+  systemVersion: 0.1.0
+  createdTime: 1739139357959
+  modifiedTime: 1739139357959
+  lastModifiedBy: Dl5Tvf37OuEHwdAh
+_key: '!items!A1ld1bR9J3z3F0Bs'
+

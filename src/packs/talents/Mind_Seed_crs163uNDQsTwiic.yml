@@ -1,0 +1,43 @@
+folder: 5BjPrDN4LvtVJQ89
+name: Mind Seed
+type: talent
+_id: crs163uNDQsTwiic
+img: icons/magic/control/debuff-energy-hold-blue-yellow.webp
+system:
+  description: >-
+    <p>When you plant thoughts or alter memories in someone's head, you can
+    always choose to have them take effect exactly when you want them to. You
+    can decide this at any time later. Once per session, you can use this for an
+    <em><strong>interrupt</strong></em>.</p>
+  core: false
+  notes:
+    description: ''
+    label: ''
+  trackers:
+    - type: points
+      label: Interrupt
+      points:
+        value: 1
+        max: 1
+        showSteps: true
+      pool:
+        diceNum: 0
+        max: null
+  path: psion
+effects: []
+sort: 0
+ownership:
+  default: 0
+  Dl5Tvf37OuEHwdAh: 3
+flags: {}
+_stats:
+  compendiumSource: null
+  duplicateSource: null
+  coreVersion: '12.331'
+  systemId: grimwild
+  systemVersion: 0.1.0
+  createdTime: 1739544993822
+  modifiedTime: 1739544993822
+  lastModifiedBy: Dl5Tvf37OuEHwdAh
+_key: '!items!crs163uNDQsTwiic'
+

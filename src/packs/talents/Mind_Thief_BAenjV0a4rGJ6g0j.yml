@@ -1,0 +1,35 @@
+folder: 5BjPrDN4LvtVJQ89
+name: Mind Thief
+type: talent
+_id: BAenjV0a4rGJ6g0j
+img: icons/magic/control/encase-creature-humanoid-hold.webp
+system:
+  description: >-
+    <p>On a critical on a bastion roll, refund the power points spent and gain 3
+    power points. This causes mental <em><strong>collateral damage</strong>
+    </em>around you: <em>confusion—hallucinations— headaches— panic</em>. One
+    time only, you can make this a ritual-level effect, affecting all within
+    miles.</p>
+  core: false
+  notes:
+    description: ''
+    label: ''
+  trackers: []
+  path: psion
+effects: []
+sort: 0
+ownership:
+  default: 0
+  Dl5Tvf37OuEHwdAh: 3
+flags: {}
+_stats:
+  compendiumSource: null
+  duplicateSource: null
+  coreVersion: '12.331'
+  systemId: grimwild
+  systemVersion: 0.1.0
+  createdTime: 1739544993822
+  modifiedTime: 1739746577564
+  lastModifiedBy: Dl5Tvf37OuEHwdAh
+_key: '!items!BAenjV0a4rGJ6g0j'
+

@@ -1,0 +1,43 @@
+folder: 2tvdSlgYZ5v4Jiye
+name: Mastered Theorem
+type: talent
+_id: OkyyULwdTHHpdZyw
+img: icons/magic/symbols/runes-triangle-orange.webp
+system:
+  description: >-
+    <p>Choose one of your spell theorems. You take +1d when casting it and gain
+    1 extra <em><strong>potent spell</strong></em> casting of it per session.
+    Your name becomes linked to it and it begins to spread in popularity
+    throughout wizardry—track its spread with campaign pools.</p>
+  core: false
+  notes:
+    description: <p><em>Write down your mastered theorem here.</em></p>
+    label: Mastered Theorem
+  trackers:
+    - type: points
+      label: Potent
+      points:
+        value: 1
+        max: 1
+        showSteps: true
+      pool:
+        diceNum: 0
+        max: null
+  path: wizard
+effects: []
+sort: 0
+ownership:
+  default: 0
+  Dl5Tvf37OuEHwdAh: 3
+flags: {}
+_stats:
+  compendiumSource: null
+  duplicateSource: null
+  coreVersion: '12.331'
+  systemId: grimwild
+  systemVersion: 0.1.0
+  createdTime: 1739542636102
+  modifiedTime: 1739542636102
+  lastModifiedBy: Dl5Tvf37OuEHwdAh
+_key: '!items!OkyyULwdTHHpdZyw'
+

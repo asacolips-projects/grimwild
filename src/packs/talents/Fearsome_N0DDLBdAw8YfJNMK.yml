@@ -1,0 +1,44 @@
+folder: stI4BJrCCbXWUzHc
+name: Fearsome
+type: talent
+_id: N0DDLBdAw8YfJNMK
+img: icons/skills/social/intimidation-impressing.webp
+system:
+  description: >-
+    <p>Your presence instills fear in others. The GM judges an NPC's response,
+    or you can spend story to set it:
+    <em>hostile—nervous—respectful—scared</em>. You can push yourself to pull
+    off a <em><strong>potent feat of intimidation</strong></em>, like
+    <em>staring down a dragon </em>or <em>demanding to see the king</em>.</p>
+  core: false
+  notes:
+    description: ''
+    label: ''
+  trackers:
+    - type: points
+      label: Push
+      points:
+        value: 1
+        max: 1
+        showSteps: true
+      pool:
+        diceNum: 0
+        max: null
+  path: berserker
+effects: []
+sort: 0
+ownership:
+  default: 0
+  Dl5Tvf37OuEHwdAh: 3
+flags: {}
+_stats:
+  compendiumSource: null
+  duplicateSource: null
+  coreVersion: '12.331'
+  systemId: grimwild
+  systemVersion: 0.1.0
+  createdTime: 1739062678115
+  modifiedTime: 1739746121587
+  lastModifiedBy: Dl5Tvf37OuEHwdAh
+_key: '!items!N0DDLBdAw8YfJNMK'
+

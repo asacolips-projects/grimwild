@@ -1,0 +1,44 @@
+folder: QQwq5i3yUUjhboM4
+name: According to Plan
+type: talent
+_id: O8nCb3Ei313BzXky
+img: icons/sundries/misc/lock-open-yellow.webp
+system:
+  description: >-
+    <p>You gain 1 story per session and can spend story to flashback to
+    utilizing subterfuge in a way that's immediately relevant, like swiping some
+    keys, paying off a guard, or preparing an escape route. Make a montage roll,
+    taking +1d for Expertise. The GM always takes sus- pense in place of an
+    impact move.</p>
+  core: false
+  notes:
+    description: ''
+    label: ''
+  trackers:
+    - type: points
+      label: Story
+      points:
+        value: 1
+        max: 1
+        showSteps: true
+      pool:
+        diceNum: 0
+        max: null
+  path: rogue
+effects: []
+sort: 0
+ownership:
+  default: 0
+  Dl5Tvf37OuEHwdAh: 3
+flags: {}
+_stats:
+  compendiumSource: null
+  duplicateSource: null
+  coreVersion: '12.331'
+  systemId: grimwild
+  systemVersion: 0.1.0
+  createdTime: 1739130472186
+  modifiedTime: 1739130472186
+  lastModifiedBy: Dl5Tvf37OuEHwdAh
+_key: '!items!O8nCb3Ei313BzXky'
+

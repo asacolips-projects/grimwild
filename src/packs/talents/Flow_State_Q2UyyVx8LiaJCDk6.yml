@@ -1,0 +1,33 @@
+folder: 85AhjhNgoBP9pTvr
+name: Flow State
+type: talent
+_id: Q2UyyVx8LiaJCDk6
+img: icons/magic/light/explosion-glow-spiral-yellow.webp
+system:
+  description: >-
+    <p>After an action or defense roll, you can always keep the spotlight to
+    prevent the GM from spending suspense. This continues as long as you keep
+    taking action and don't roll a grim.</p>
+  core: false
+  notes:
+    description: ''
+    label: ''
+  trackers: []
+  path: monk
+effects: []
+sort: 0
+ownership:
+  default: 0
+  Dl5Tvf37OuEHwdAh: 3
+flags: {}
+_stats:
+  compendiumSource: null
+  duplicateSource: null
+  coreVersion: '12.331'
+  systemId: grimwild
+  systemVersion: 0.1.0
+  createdTime: 1739113686945
+  modifiedTime: 1739140415177
+  lastModifiedBy: Dl5Tvf37OuEHwdAh
+_key: '!items!Q2UyyVx8LiaJCDk6'
+

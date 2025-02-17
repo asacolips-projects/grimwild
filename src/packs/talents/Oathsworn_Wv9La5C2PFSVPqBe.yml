@@ -1,0 +1,80 @@
+folder: y6k4T3gOk4ZxsYPe
+name: Oathsworn
+type: talent
+_id: Wv9La5C2PFSVPqBe
+img: icons/magic/holy/barrier-shield-winged-cross.webp
+system:
+  description: >-
+    <p>You draw power from an oath you swear to uphold until you die. Your oath
+    is comprised of <strong>three core tenets</strong> which dictate your
+    behavior. You don't take thorns from bloodied or rattled, instead taking +1d
+    on rolls with the related physical or mental stats. Each session, you also
+    have <strong>3 smite</strong>. When attacking someone in combat or argument,
+    you can spend it 1-for-1 to drop dice from a task pool
+    <em><strong>after</strong> </em>rolling
+    it.</p><p><strong>Affirmation</strong>: Each session, you can
+    <em><strong>give spark to one player</strong> </em>who joined a scene
+    involv- ing your tenets, whether they followed them or tried leading you
+    astray. When a tenet is in violation, discuss the toll that has had on you
+    and think on a chance for atonement. <strong>Take 1 less smite</strong> for
+    each tenet in violation. When you atone, <strong>take spark</strong>.</p><hr
+    /><p><strong>GROWTH</strong>: Every 2 levels, increase smite by 1.</p>
+  core: true
+  notes:
+    description: <p><em>Write down your three tenets here</em></p>
+    label: Tenets
+  trackers:
+    - type: points
+      label: Smite
+      points:
+        value: 3
+        max: 3
+        showSteps: true
+      pool:
+        diceNum: 0
+        max: null
+    - type: points
+      label: Tenet 1 Violation
+      points:
+        value: 0
+        max: 2
+        showSteps: true
+      pool:
+        diceNum: 0
+        max: null
+    - type: points
+      label: Tenet 2 Violation
+      points:
+        value: 0
+        max: 2
+        showSteps: true
+      pool:
+        diceNum: 0
+        max: null
+    - type: points
+      label: Tenet 3 Violation
+      points:
+        value: 0
+        max: 2
+        showSteps: true
+      pool:
+        diceNum: 0
+        max: null
+  path: paladin
+effects: []
+sort: 0
+ownership:
+  default: 0
+  Dl5Tvf37OuEHwdAh: 3
+flags: {}
+_stats:
+  compendiumSource: null
+  duplicateSource: null
+  coreVersion: '12.331'
+  systemId: grimwild
+  systemVersion: 0.1.0
+  createdTime: 1739115233991
+  modifiedTime: 1739115233991
+  lastModifiedBy: Dl5Tvf37OuEHwdAh
+_key: '!items!Wv9La5C2PFSVPqBe'
+

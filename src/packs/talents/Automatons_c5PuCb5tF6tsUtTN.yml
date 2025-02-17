@@ -1,0 +1,62 @@
+folder: i53xgSVOBOe4n7Mr
+name: Automatons
+type: talent
+_id: c5PuCb5tF6tsUtTN
+img: icons/environment/creatures/golem-stone-purple.webp
+system:
+  description: >-
+    <p>You have three small helpers you created. Each has a different
+    descriptor, an adjective that determines what tasks they can do. Each
+    session, each has a <em><strong>2d power pool</strong></em> you roll to
+    perform tasks. When assisting, they roll 1d of their pool. They can follow
+    simple commands, without which they will simply search for you.</p>
+  core: false
+  notes:
+    description: <p><em>Write down your automaton descriptors here.</em></p>
+    label: Automatons
+  trackers:
+    - type: pool
+      label: Automaton 1
+      pool:
+        diceNum: 2
+        max: 2
+      points:
+        showSteps: false
+        value: 1
+        max: 1
+    - type: pool
+      label: Automaton 2
+      pool:
+        diceNum: 2
+        max: 2
+      points:
+        showSteps: false
+        value: 1
+        max: 1
+    - type: pool
+      label: Automaton 3
+      pool:
+        diceNum: 2
+        max: 2
+      points:
+        showSteps: false
+        value: 1
+        max: 1
+  path: artificer
+effects: []
+sort: 0
+ownership:
+  default: 0
+  Dl5Tvf37OuEHwdAh: 3
+flags: {}
+_stats:
+  compendiumSource: null
+  duplicateSource: null
+  coreVersion: '12.331'
+  systemId: grimwild
+  systemVersion: 0.1.0
+  createdTime: 1739543988913
+  modifiedTime: 1739543988913
+  lastModifiedBy: Dl5Tvf37OuEHwdAh
+_key: '!items!c5PuCb5tF6tsUtTN'
+

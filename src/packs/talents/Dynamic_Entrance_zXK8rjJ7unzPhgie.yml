@@ -1,0 +1,35 @@
+folder: n7jEJF8MCm2SAEyA
+name: Dynamic Entrance
+type: talent
+_id: zXK8rjJ7unzPhgie
+img: icons/skills/movement/figure-running-gray.webp
+system:
+  description: >-
+    <p>You can always appear in a scene anywhere and anytime, limited only by
+    your physical capabilities. Make a [[/r 3d]] story roll to Set the Scene for
+    your entrance.</p>
+  notes:
+    description: ''
+    label: ''
+  trackers: []
+  path: bard
+  core: false
+effects: []
+sort: 0
+ownership:
+  default: 0
+  Dl5Tvf37OuEHwdAh: 3
+flags:
+  core:
+    sheetClass: grimwild.GrimwildItemSheetVue
+_stats:
+  compendiumSource: null
+  duplicateSource: null
+  coreVersion: '12.331'
+  systemId: grimwild
+  systemVersion: 0.1.0
+  createdTime: 1739042795826
+  modifiedTime: 1739141249114
+  lastModifiedBy: Dl5Tvf37OuEHwdAh
+_key: '!items!zXK8rjJ7unzPhgie'
+

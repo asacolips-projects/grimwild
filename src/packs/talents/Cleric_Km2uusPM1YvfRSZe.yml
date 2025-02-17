@@ -1,0 +1,20 @@
+name: Cleric
+sorting: a
+folder: null
+type: Item
+_id: Km2uusPM1YvfRSZe
+description: ''
+sort: 300000
+color: null
+flags: {}
+_stats:
+  compendiumSource: null
+  duplicateSource: null
+  coreVersion: '12.331'
+  systemId: grimwild
+  systemVersion: 0.1.0
+  createdTime: 1739063481742
+  modifiedTime: 1739063484716
+  lastModifiedBy: Dl5Tvf37OuEHwdAh
+_key: '!folders!Km2uusPM1YvfRSZe'
+

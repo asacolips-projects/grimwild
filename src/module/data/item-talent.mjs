@@ -14,6 +14,12 @@ export default class GrimwildTalent extends GrimwildItemBase {
 		const optionalString = { required: false, blank: true };
 		const schema = super.defineSchema();
 
+		// The path this talent belongs to
+		schema.path = new fields.StringField()
+
+		// If the talent is a core talent
+		schema.core = new fields.BooleanField()
+
 		// Ex: Spell theorems
 		schema.notes = new fields.SchemaField({
 			label: new fields.StringField(optionalString),
