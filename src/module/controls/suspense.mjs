@@ -1,21 +1,21 @@
 /**
+ * Retrieve current suspense value.
  *
+ * @returns {number}
  */
 function getSuspense() {
 	return game.settings.get("grimwild", "suspense");
 }
 
 /**
- *
- * @param value
+ * Sets current suspense value.
+ * @param {number} value New suspense value.
  */
 function setSuspense(value) {
 	game.settings.set("grimwild", "suspense", value);
 }
 
 class SuspenseTracker {
-	constructor() {}
-
 	init() {
 		console.log("Suspense: initialising");
 		game.settings.register("grimwild", "suspenseVisible", {
