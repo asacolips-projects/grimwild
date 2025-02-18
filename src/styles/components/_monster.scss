@@ -1,50 +1,62 @@
 &.monster {
-  .item-image {
-    flex: 0 0 24px;
-  }
+	.grimwild-avatar {
+		display: flex;
+		align-items: center;
+		justify-content: center;
+	}
+	
+	.profile-img {
+		width: auto;
+		margin: auto;
+		flex: 0 0 auto;
+	}
 
-  .item-name {
-    gap: 8px;
+	.item-image {
+		flex: 0 0 24px;
+	}
 
-    .rollable {
-      flex: 0 auto;
-      flex-wrap: nowrap;
-    }
-  }
+	.item-name {
+		gap: 8px;
 
-  .header-fields {
-    align-items: flex-end;
-  }
+		.rollable {
+			flex: 0 auto;
+			flex-wrap: nowrap;
+		}
+	}
 
-  .challenge {
-    .item-description {
-      hr + ul {
-        list-style-type: disc;
-        font-weight: bold;
-        text-transform: uppercase;
-      }
-    }
-  }
+	.header-fields {
+		align-items: flex-end;
+	}
+
+	.challenge {
+		.item-description {
+			hr + ul {
+				list-style-type: disc;
+				font-weight: bold;
+				text-transform: uppercase;
+			}
+		}
+	}
 }
 
 .monster-colors {
-  flex-wrap: nowrap;
+	flex-wrap: nowrap;
 }
 
 .monster-color {
-  flex: 1;
-  height: 5px;
+	flex: 1;
+	height: 5px;
 }
 
 .monster-color-name {
-  text-align: center;
-  text-transform: uppercase;
-  font-size: 10px;
-  letter-spacing: 1px;
-  padding: 2px 0 0;
+	text-align: center;
+	text-transform: uppercase;
+	font-size: 10px;
+	letter-spacing: 1px;
+	padding: 2px 0 0;
 }
 
 .monster-tables-wrapper {
-  overflow-x: hidden;
-  padding-right: 2px;
+	overflow-x: hidden;
+	padding-right: 2px;
 }

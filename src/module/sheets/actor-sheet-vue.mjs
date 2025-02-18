@@ -29,7 +29,7 @@ export class GrimwildActorSheetVue extends VueRenderingMixin(GrimwildBaseVueActo
 
 	/** @override */
 	static DEFAULT_OPTIONS = {
-		classes: ["grimwild", "actor"],
+		classes: ["grimwild", "actor", "character"],
 		document: null,
 		viewPermission: DOCUMENT_OWNERSHIP_LEVELS.LIMITED,
 		editPermission: DOCUMENT_OWNERSHIP_LEVELS.OWNER,
