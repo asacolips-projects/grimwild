@@ -1,89 +1,89 @@
 h2 {
-  font-family: $font-display;
-  font-weight: bold;
+	font-family: $font-display;
+	font-weight: bold;
 }
 
 &.crit h2,
 &.perfect h2 {
-  color: #00bd00;
+	color: #00bd00;
 }
 
 &.messy h2 {
-  color: #ffd400;
+	color: #ffd400;
 }
 
 &.disaster h2 {
-  color: #ff5c37;
+	color: #ff5c37;
 }
 
 .dice {
-  .die {
-    font-family: $font-dice;
-    background: #444;
-    background-image: none !important;
-    border-radius: 2px;
-    margin-right: 4px;
-    margin-bottom: 4px;
-    width: 24px;
-    height: 24px;
-    line-height: 28px;
-  }
+	.die {
+		font-family: $font-dice;
+		background: #444;
+		background-image: none !important;
+		border-radius: 2px;
+		margin-right: 4px;
+		margin-bottom: 4px;
+		width: 24px;
+		height: 24px;
+		line-height: 28px;
+	}
 
-  .d8 {
-    overflow: visible;
-    background: transparent;
-    position: relative;
-    z-index: 1;
-    height: 28px;
-    line-height: 32px;
+	.d8 {
+		overflow: visible;
+		background: transparent;
+		position: relative;
+		z-index: 1;
+		height: 28px;
+		line-height: 32px;
 
-    &::before,
-    &::after {
-      display: block;
-      content: '';
-      position: absolute;
-      width: 0;
-      height: 0;
-      top: 0;
-      left: 0;
-      right: 0;
-      margin: auto;
-      border-bottom: 15px solid #444;
-      border-left: 12px solid transparent;
-      border-right: 12px solid transparent;
-      z-index: -1;
-    }
+		&::before,
+		&::after {
+			display: block;
+			content: '';
+			position: absolute;
+			width: 0;
+			height: 0;
+			top: 0;
+			left: 0;
+			right: 0;
+			margin: auto;
+			border-bottom: 15px solid #444;
+			border-left: 12px solid transparent;
+			border-right: 12px solid transparent;
+			z-index: -1;
+		}
 
-    &::after {
-      top: auto;
-      bottom: 0px;
-      border-bottom: none;
-      border-top: 14px solid #444;
-    }
-  }
+		&::after {
+			top: auto;
+			bottom: 0px;
+			border-bottom: none;
+			border-top: 14px solid #444;
+		}
+	}
 
-  .perfect {
-    color: #00bd00;
-  }
+	.perfect {
+		color: #00bd00;
+	}
 
-  .messy {
-    color: #ffd400;
-  }
+	.messy {
+		color: #ffd400;
+	}
 
-  .grim {
-    color: #999;
-  }
+	.grim {
+		color: #999;
+	}
 
-  .cut {
-    color: #ff5c37;
-  }
+	.cut {
+		color: #ff5c37;
+	}
 
-  .skip {
-    color: #999;
-  }
+	.skip {
+		color: #999;
+	}
 
-  .divider {
-    background: none;
-    color: white;
-  }
+	.divider {
+		background: none;
+		color: white;
+	}
 }

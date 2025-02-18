@@ -1,28 +1,28 @@
 &.message {
-  font-family: $font-body;
-  background: #1f2026;
-  color: #ddd;
-  border-color: transparent;
-  margin-bottom: 5px;
+	font-family: $font-body;
+	background: #1f2026;
+	color: #ddd;
+	border-color: transparent;
+	margin-bottom: 5px;
 
-  .message-sender {
-    font-family: $font-body;
-    font-size: 18px;
-    color: #ffffff;
-  }
+	.message-sender {
+		font-family: $font-body;
+		font-size: 18px;
+		color: #ffffff;
+	}
 
-  .flavor-text {
-    font-family: $font-sans;
-  }
+	.flavor-text {
+		font-family: $font-sans;
+	}
 
-  h1,
-  h2,
-  h3 {
-    border-bottom: 1px solid #333;
-    font-family: $font-body;
-  }
+	h1,
+	h2,
+	h3 {
+		border-bottom: 1px solid #333;
+		font-family: $font-body;
+	}
 
-  .message-header {
-    color: #999;
-  }
+	.message-header {
+		color: #999;
+	}
 }

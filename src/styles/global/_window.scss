@@ -1,52 +1,52 @@
 .window-app {
-  font-family: $font-body;
+	font-family: $font-body;
 }
 
 .rollable {
-  &:hover,
-  &:focus {
-    color: $c-black;
-    text-shadow: 0 0 10px red;
-    cursor: pointer;
-  }
+	&:hover,
+	&:focus {
+		color: $c-black;
+		text-shadow: 0 0 10px red;
+		cursor: pointer;
+	}
 }
 
 .application {
-  .window-content {
-    display: flex;
-    flex-direction: column;
-  }
+	.window-content {
+		display: flex;
+		flex-direction: column;
+	}
 
-  .sheet-header {
-    flex: 0 auto;
-  }
+	.sheet-header {
+		flex: 0 auto;
+	}
 
-  .sheet-tabs {
-    flex: 0 auto;
-  }
+	.sheet-tabs {
+		flex: 0 auto;
+	}
 
-  .tab {
-    flex: 1;
-    overflow-y: auto;
-  }
+	.tab {
+		flex: 1;
+		overflow-y: auto;
+	}
 }
 
 .grimwild .window-content {
-  position: relative;
+	position: relative;
 
-  &::before {
-    content: '';
-    display: block;
-    position: absolute;
-    left: 0;
-    top: 0;
-    right: 0;
-    height: 300px;
-    background-image: url("../assets/grimwild-page-texture-dark.webp");
-    background-size: cover;
-    mask-image: linear-gradient(to bottom, black, transparent);
-    opacity: 0.75;
-    z-index: -1;
-    pointer-events: none;
-  }
+	&::before {
+		content: '';
+		display: block;
+		position: absolute;
+		left: 0;
+		top: 0;
+		right: 0;
+		height: 300px;
+		background-image: url("../assets/grimwild-page-texture-dark.webp");
+		background-size: cover;
+		mask-image: linear-gradient(to bottom, black, transparent);
+		opacity: 0.75;
+		z-index: -1;
+		pointer-events: none;
+	}
 }

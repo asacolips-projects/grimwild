@@ -1,23 +1,23 @@
 .journal-page-content span {
-  font-family: inherit !important;
+	font-family: inherit !important;
 }
 
 .journal-page-header,
 .journal-entry-page h1,
 .journal-entry-page h2 {
-  font-family: $font-display;
-  text-transform: uppercase;
-  font-weight: 700;
-  font-style: normal;
+	font-family: $font-display;
+	text-transform: uppercase;
+	font-weight: 700;
+	font-style: normal;
 }
 
 .journal-page-content {
-  font-size: 18px;
-  line-height: 25px;
+	font-size: 18px;
+	line-height: 25px;
 
-  table {
-    td {
-      padding: 0.5rem;
-    }
-  }
+	table {
+		td {
+			padding: 0.5rem;
+		}
+	}
 }

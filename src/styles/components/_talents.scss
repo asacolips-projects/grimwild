@@ -1,93 +1,93 @@
 .tab-talents {
-  .talent {
-    padding: 4px 0;
-    margin: 0;
+	.talent {
+		padding: 4px 0;
+		margin: 0;
 
-    + .talent {
-      border-top: 1px solid #ffffff22;
-    }
-  }
+		+ .talent {
+			border-top: 1px solid #ffffff22;
+		}
+	}
 
-  .item-summary {
-    width: 100%;
-  }
+	.item-summary {
+		width: 100%;
+	}
 
-  .item-trackers {
-    flex: 0 0 auto;
-  }
+	.item-trackers {
+		flex: 0 0 auto;
+	}
 
-  .item-notes {
-    background: #ffffff11;
-    padding: 8px;
-    border-radius: 4px;
-  }
+	.item-notes {
+		background: #ffffff11;
+		padding: 8px;
+		border-radius: 4px;
+	}
 
-  .tracker {
-    background: #ffffff11;
-    padding: 2px 4px;
-    border-radius: 4px;
-    margin: 1px;
-    flex-wrap: nowrap;
+	.tracker {
+		background: #ffffff11;
+		padding: 2px 4px;
+		border-radius: 4px;
+		margin: 1px;
+		flex-wrap: nowrap;
 
-    strong {
-      padding: 0 8px 0 0;
-    }
-  }
+		strong {
+			padding: 0 8px 0 0;
+		}
+	}
 
-  .tracker-value-numeric,
-  .tracker-value-pool {
-    white-space: nowrap;
+	.tracker-value-numeric,
+	.tracker-value-pool {
+		white-space: nowrap;
 
-    input {
-      width: 0;
-      padding: 0;
-      height: auto;
-      line-height: 1;
-      flex: 0;
-      border: 1px solid;
-      text-align: center;
-    }
-  }
+		input {
+			width: 0;
+			padding: 0;
+			height: auto;
+			line-height: 1;
+			flex: 0;
+			border: 1px solid;
+			text-align: center;
+		}
+	}
 
-  .tracker-roll {
-    padding: 4px 10px;
-    height: auto;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    line-height: 1;
+	.tracker-roll {
+		padding: 4px 10px;
+		height: auto;
+		display: flex;
+		align-items: center;
+		justify-content: center;
+		line-height: 1;
 
-    i {
-      padding: 0 4px 0 0;
-      margin: 0;
-    }
+		i {
+			padding: 0 4px 0 0;
+			margin: 0;
+		}
 
-    strong {
-      padding: 0;
-    }
-  }
+		strong {
+			padding: 0;
+		}
+	}
 
-  .tracker-value-pool {
-    display: flex;
-    align-items: center;
-    flex-direction: row;
-  }
+	.tracker-value-pool {
+		display: flex;
+		align-items: center;
+		flex-direction: row;
+	}
 
-  .pool-suffix {
-    padding: 0 0 0 3px;
-  }
+	.pool-suffix {
+		padding: 0 0 0 3px;
+	}
 
-  .tracker-steps {
-    flex-wrap: nowrap;
-    justify-content: flex-start;
-    align-items: flex-start;
+	.tracker-steps {
+		flex-wrap: nowrap;
+		justify-content: flex-start;
+		align-items: flex-start;
 
-    input[type="checkbox"] {
-      margin: 0;
+		input[type="checkbox"] {
+			margin: 0;
 
-      &::before {
-        color: #58485a;
-      }
-    }
-  }
+			&::before {
+				color: #58485a;
+			}
+		}
+	}
 }

@@ -1,35 +1,35 @@
 .grimwild {
-  .window-content,
-  .grimwild-vue,
-  .grimwild-sheet-layout,
-  .grimwild-sidebar,
-  .grimwild-main,
-  .section--main {
-    overflow: hidden;
-    flex: 1;
-  }
+	.window-content,
+	.grimwild-vue,
+	.grimwild-sheet-layout,
+	.grimwild-sidebar,
+	.grimwild-main,
+	.section--main {
+		overflow: hidden;
+		flex: 1;
+	}
 
-  .section--tabs {
-    flex: 0;
-  }
+	.section--tabs {
+		flex: 0;
+	}
 
-  .section--fields {
-    flex: 1;
-    overflow-y: auto;
-  }
+	.section--fields {
+		flex: 1;
+		overflow-y: auto;
+	}
 }
 
 // Tab flex.
 .tab-biography,
 .tab-notes {
-  .fieldset-prose-mirror,
-  .fieldset-prose-mirror .prose-mirror-wrapper {
-    display: flex;
-    flex-direction: column;
-    flex: 1;
-  }
+	.fieldset-prose-mirror,
+	.fieldset-prose-mirror .prose-mirror-wrapper {
+		display: flex;
+		flex-direction: column;
+		flex: 1;
+	}
 
-  prose-mirror {
-    flex: 1;
-  }
+	prose-mirror {
+		flex: 1;
+	}
 }
