@@ -1,8 +1,10 @@
 * {
-    color: $c-groove;
+    color: var(--color-text-light-highlight);
     text-align: center;
     font-family: $font-display;
     transition: all 100ms ease-in-out;
+    --sus-bg: rgba(0, 0, 0, 0.6);
+    --sus-bg-highlight: rgba(0, 0, 0);
 }
 
 #sus-control-inner {
@@ -18,29 +20,29 @@
 }
 
 button {
-    background-color: color-mix(in srgb, $c-black 70%, transparent 0%);
+    background-color: var(--sus-bg);
     pointer-events: all;
-    border-color: $c-dark;
+    border-color: var(--sus-bg-highlight);
     margin: 1px;
     &:hover {
-        background-color: $c-black;
+        background-color: var(--sus-bg-highlight);
         box-shadow: 0 0 10px var(--color-warm-2) inset;
     }
 }
 
 #sus-display {
-    background: color-mix(in srgb, $c-black 80%, transparent 0%);
+    background: var(--sus-bg);
     display: flex;
     flex-direction: column;
     justify-content: end;
     padding: 2px;
     border: 2px solid;
     border-radius: 4px;
-    border-color: $c-dark;
+    border-color: var(--sus-bg-highlight);
     margin: 1px;
     pointer-events: all;
     &:hover {
-        background-color: $c-black;
+        background-color: var(--sus-bg-highlight);
     }
     &.flash {
         box-shadow: 0 0 40px var(--color-warm-2) inset;
