@@ -23,7 +23,7 @@ export class GrimwildActorSheetVue extends VueRenderingMixin(GrimwildBaseVueActo
 				"notes.description"
 			]
 		}
-	}
+	};
 
 	_arrayEntryKey = 0;
 
@@ -216,7 +216,9 @@ export class GrimwildActorSheetVue extends VueRenderingMixin(GrimwildBaseVueActo
 					for (let itemField of itemFields) {
 						// Retrieve and enrich the field. Ignore creating prosemirror editors
 						// since those should be edited directly on the item.
-						const editorValue = item.system?.[itemField] ?? foundry.utils.getProperty(item.system, itemField);
+						const editorValue = item.system?.[itemField]
+							?? foundry.utils.getProperty(item.system, itemField);
+						// Add editor settings.
 						context.editors[`items.${item.id}.system.${itemField}`] = {
 							enriched: await TextEditor.enrichHTML(editorValue, itemEnrichmentOptions),
 							element: null
@@ -307,7 +309,7 @@ export class GrimwildActorSheetVue extends VueRenderingMixin(GrimwildBaseVueActo
 		} = target.dataset;
 
 		// Retrieve the current field value.
-		const entries = !field.startsWith('system.')
+		const entries = !field.startsWith("system.")
 			? this.document.system[field]
 			: foundry.utils.getProperty(this.document, field);
 		// Retrieve the schema.
@@ -324,7 +326,7 @@ export class GrimwildActorSheetVue extends VueRenderingMixin(GrimwildBaseVueActo
 			case "ArrayField":
 				defaultValue = [];
 				break;
-		
+
 			default:
 				break;
 		}
@@ -348,10 +350,10 @@ export class GrimwildActorSheetVue extends VueRenderingMixin(GrimwildBaseVueActo
 		// Build our final data.
 		let updateData = null;
 		let systemField = field;
-		if (field.startsWith('system.')) {
-			systemField = field.split('.')[1];
+		if (field.startsWith("system.")) {
+			systemField = field.split(".")[1];
 			updateData = this.document.system[systemField];
-			foundry.utils.setProperty(updateData, field.split('system.')[1], entries);
+			foundry.utils.setProperty(updateData, field.split("system.")[1], entries);
 		}
 		else {
 			updateData = entries;
@@ -380,7 +382,7 @@ export class GrimwildActorSheetVue extends VueRenderingMixin(GrimwildBaseVueActo
 			key
 		} = target.dataset;
 		// Retrieve the current field value.
-		const entries = !field.startsWith('system.')
+		const entries = !field.startsWith("system.")
 			? this.document.system[field]
 			: foundry.utils.getProperty(this.document, field);
 		entries.splice(key, 1);
@@ -388,10 +390,10 @@ export class GrimwildActorSheetVue extends VueRenderingMixin(GrimwildBaseVueActo
 		// Build our final data.
 		let updateData = null;
 		let systemField = field;
-		if (field.startsWith('system.')) {
-			systemField = field.split('.')[1];
+		if (field.startsWith("system.")) {
+			systemField = field.split(".")[1];
 			updateData = this.document.system[systemField];
-			foundry.utils.setProperty(updateData, field.split('system.')[1], entries);
+			foundry.utils.setProperty(updateData, field.split("system.")[1], entries);
 		}
 		else {
 			updateData = entries;

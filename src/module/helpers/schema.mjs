@@ -33,7 +33,7 @@ export class CrucibleTableField extends fields.SchemaField {
 					new fields.StringField(requiredString) // Value.
 				)
 			)
-		}
+		};
 
 		super(tableFields, options, context);
 	}

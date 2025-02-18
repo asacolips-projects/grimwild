@@ -21,7 +21,7 @@ export class GrimwildActorMonsterSheetVue extends GrimwildActorSheetVue {
 				"description"
 			]
 		}
-	}
+	};
 
 	/** @override */
 	static DEFAULT_OPTIONS = {
@@ -50,7 +50,7 @@ export class GrimwildActorMonsterSheetVue extends GrimwildActorSheetVue {
 			roll: this._onRoll
 		},
 		changeActions: {
-			updateChallengePool: this._updateChallengePool,
+			updateChallengePool: this._updateChallengePool
 		},
 		// Custom property that's merged into `this.options`
 		dragDrop: [{ dragSelector: "[data-drag]", dropSelector: null }],
@@ -137,11 +137,11 @@ export class GrimwildActorMonsterSheetVue extends GrimwildActorSheetVue {
 		for (let [colorKey, color] of this.document.system.sensories.colors.entries()) {
 			context.customElements[`system.sensories.colors.${colorKey}.color`] = foundry.applications.elements.HTMLColorPickerElement.create({
 				name: `system.sensories.colors.${colorKey}.color`,
-				value: color.color,
+				value: color.color
 			});
 		}
 
-		console.log('monster', context);
+		console.log("monster", context);
 
 		return context;
 	}
@@ -179,7 +179,7 @@ export class GrimwildActorMonsterSheetVue extends GrimwildActorSheetVue {
 		context.tabs.primary.challenges = {
 			key: "challenges",
 			label: game.i18n.localize("GRIMWILD.Actor.Tabs.Challenges"),
-			active: true,
+			active: true
 		};
 
 		context.tabs.primary.notes = {
@@ -209,7 +209,7 @@ export class GrimwildActorMonsterSheetVue extends GrimwildActorSheetVue {
 		event.preventDefault();
 		// Retrieve props.
 		const {
-			field,
+			field
 		} = target.dataset;
 
 		// Prepare variables.

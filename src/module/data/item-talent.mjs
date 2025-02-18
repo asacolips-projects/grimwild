@@ -10,15 +10,14 @@ export default class GrimwildTalent extends GrimwildItemBase {
 	static defineSchema() {
 		const fields = foundry.data.fields;
 		const requiredInteger = { required: true, nullable: false, integer: true };
-		const requiredString = { required: true, blank: true };
 		const optionalString = { required: false, blank: true };
 		const schema = super.defineSchema();
 
 		// The path this talent belongs to
-		schema.path = new fields.StringField()
+		schema.path = new fields.StringField();
 
 		// If the talent is a core talent
-		schema.core = new fields.BooleanField()
+		schema.core = new fields.BooleanField();
 
 		// Ex: Spell theorems
 		schema.notes = new fields.SchemaField({

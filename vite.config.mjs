@@ -50,7 +50,7 @@ export default defineConfig({
 						vue: "../lib/vue.esm-browser.js"
 					},
 					assetFileNames: (assetInfo) => {
-						if (assetInfo.name == "style.css") return "styles.vue.css";
+						if (assetInfo.name === "style.css") return "styles.vue.css";
 						return assetInfo.name;
 					}
 				}

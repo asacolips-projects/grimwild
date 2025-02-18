@@ -25,11 +25,11 @@ export default class GrimwildMonster extends GrimwildActorBase {
 		schema.sensories = new fields.SchemaField({
 			colors: new fields.ArrayField(new fields.SchemaField({
 				name: new fields.StringField(),
-				color: new fields.ColorField(),
+				color: new fields.ColorField()
 			})),
 			sights: new fields.StringField(),
 			sounds: new fields.StringField(),
-			smells: new fields.StringField(),
+			smells: new fields.StringField()
 		});
 
 		schema.pool = new DicePoolField();
@@ -53,8 +53,8 @@ export default class GrimwildMonster extends GrimwildActorBase {
 		for (let i = 0; i < 3; i++) {
 			if (!this.sensories.colors[i]) {
 				this.sensories.colors[i] = {
-					name: '',
-					color: '',
+					name: "",
+					color: ""
 				};
 			}
 		}

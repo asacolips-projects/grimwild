@@ -98,7 +98,7 @@ Hooks.once("init", function () {
 	Items.unregisterSheet("core", ItemSheet);
 	Items.registerSheet("grimwild", GrimwildItemSheet, {
 		makeDefault: false,
-		label: "GRIMWILD.SheetLabels.Item",
+		label: "GRIMWILD.SheetLabels.Item"
 	});
 	Items.registerSheet("grimwild", GrimwildItemSheetVue, {
 		makeDefault: true,
@@ -174,7 +174,7 @@ Hooks.once("ready", function () {
 	Hooks.on("hotbarDrop", (bar, data, slot) => createDocMacro(data, slot));
 });
 
-Hooks.once("renderHotbar", function() {
+Hooks.once("renderHotbar", function () {
 	SUSPENSE_TRACKER.render();
 });
 

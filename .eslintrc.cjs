@@ -150,7 +150,10 @@ module.exports = {
 		"no-throw-literal": "error",
 		"no-trailing-spaces": "warn",
 		"no-useless-escape": "warn",
-		"no-unused-vars": ["warn", { args: "none" }],
+		"no-unused-vars": ["warn", {
+			args: "none",
+			destructuredArrayIgnorePattern: "^.",
+		}],
 		"nonblock-statement-body-position": ["warn", "beside"],
 		"one-var": ["warn", "never"],
 		"operator-linebreak": [
