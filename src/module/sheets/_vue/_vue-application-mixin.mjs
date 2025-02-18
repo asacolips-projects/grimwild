@@ -1,8 +1,10 @@
 import { createApp } from "../../../lib/vue.esm-browser.js";
 
 /**
+ * Vue rendering mixin for ApplicationV2.
  *
- * @param BaseApplication
+ * @param {Constructor} BaseApplication
+ * @returns {VueApplication}
  */
 export default function VueRenderingMixin(BaseApplication) {
 
@@ -44,6 +46,8 @@ export default function VueRenderingMixin(BaseApplication) {
 		 *   'document-sheet': DocumentSheet,
 		 *   'foobar': Foobar,
 		 * }
+		 *
+		 * @returns {object} Object with component tags mapped to components.
 		 */
 		get vueComponents() {
 			const components = {};
@@ -65,6 +69,8 @@ export default function VueRenderingMixin(BaseApplication) {
 		 *   '<document-sheet :context="context">Failed to render</document-sheet>',
 		 *   '<foobar :context="context"/>'
 		 * ]
+		 *
+		 * @returns {Array} Array of vue template mount points.
 		 */
 		get vueTemplates() {
 			return Object.values(this.vueParts).map((part) => part.template);
