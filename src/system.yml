@@ -1,7 +1,7 @@
 id: grimwild
 title: Grimwild
 description: The Grimwild system for FoundryVTT!
-version: '0.1.0'
+version: '0.1.2'
 compatibility:
   minimum: '12'
   verified: '12.331'
