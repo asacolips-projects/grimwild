@@ -1,5 +1,6 @@
 <template>
 	<div :class="`grimwild-vue standard-form flexcol`">
+		<!-- Colors (MONSTERS ONLY) -->
 		<div v-if="context.actor.type === 'monster'" class="monster-colors flexrow">
 			<template v-for="(color, colorKey) in context.system.sensories.colors" :key="colorKey">
 				<div v-if="color.color" class="monster-color-wrapper">
@@ -15,7 +16,7 @@
 				<!-- Tab links -->
 				<Tabs :tabs="tabs.primary" no-span="true"/>
 				<section class="section--fields flexcol">
-					<!-- Biography -->
+					<!-- Biography (MONSTERS ONLY) -->
 					<Tab v-if="context.actor.type === 'monster'" group="primary" :tab="tabs.primary.biography">
 						<MonsterBiography :context="context" />
 					</Tab>
@@ -23,10 +24,11 @@
 					<!-- Traits, Moves, and Desires -->
 					<Tab group="primary" :tab="tabs.primary.moves">
 						<MonsterTraitsMoves :context="context" />
+						<!-- Desires (MONSTERS ONLY) -->
 						<MonsterDesires v-if="context.actor.type === 'monster'" :context="context" />
 					</Tab>
 
-					<!-- Tables -->
+					<!-- Tables (MONSTERS ONLY) -->
 					<Tab v-if="context.actor.type === 'monster'" group="primary" :tab="tabs.primary.tables">
 						<MonsterTables :context="context" />
 					</Tab>

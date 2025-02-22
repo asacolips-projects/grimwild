@@ -18,7 +18,7 @@
 				<label>{{ game.i18n.localize('Name') }}</label>
 				<input type="text" name="name" v-model="context.actor.name"/>
 			</div>
-			<!-- Health Pool -->
+			<!-- Health Pool (MONSTERS ONLY) -->
 			<div v-if="context.actor.type === 'monster'" class="challenge-pool form-group stacked">
 				<label>Tough Pool</label>
 				<RollPoolInput
