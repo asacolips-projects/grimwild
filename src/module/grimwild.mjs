@@ -74,7 +74,7 @@ Hooks.once("init", function () {
 	CONFIG.Item.documentClass = GrimwildItem;
 	CONFIG.Item.dataModels = {
 		talent: models.GrimwildTalent,
-		equipment: models.GrimwildEquipment,
+		arcana: models.GrimwildArcana,
 		challenge: models.GrimwildChallenge
 	};
 

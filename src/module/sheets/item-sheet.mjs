@@ -48,8 +48,8 @@ export class GrimwildItemSheet extends api.HandlebarsApplicationMixin(
 		attributesTalent: {
 			template: "systems/grimwild/templates/item/attribute-parts/talent.hbs"
 		},
-		attributesEquipment: {
-			template: "systems/grimwild/templates/item/attribute-parts/equipment.hbs"
+		attributesArcana: {
+			template: "systems/grimwild/templates/item/attribute-parts/arcana.hbs"
 		},
 		attributesChallenge: {
 			template: "systems/grimwild/templates/item/attribute-parts/challenge.hbs"
@@ -71,8 +71,8 @@ export class GrimwildItemSheet extends api.HandlebarsApplicationMixin(
 			case "talent":
 				options.parts.push("attributesTalent", "effects");
 				break;
-			case "equipment":
-				options.parts.push("attributesEquipment");
+			case "arcana":
+				options.parts.push("attributesArcana");
 				break;
 			case "challenge":
 				options.parts.push("attributesChallenge");
@@ -110,7 +110,7 @@ export class GrimwildItemSheet extends api.HandlebarsApplicationMixin(
 	async _preparePartContext(partId, context) {
 		switch (partId) {
 			case "attributesTalent":
-			case "attributesEquipment":
+			case "attributesArcana":
 			case "attributesChallenge":
 				// Necessary for preserving active tab on re-render
 				context.tab = context.tabs[partId];
@@ -171,7 +171,7 @@ export class GrimwildItemSheet extends api.HandlebarsApplicationMixin(
 					tab.label += "Description";
 					break;
 				case "attributesTalent":
-				case "attributesEquipment":
+				case "attributesArcana":
 				case "attributesChallenge":
 					tab.id = "attributes";
 					tab.label += "Attributes";

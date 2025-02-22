@@ -82,7 +82,7 @@ GRIMWILD:
       Challenges: Challenges
       Effects: Effects
       # Obsolete
-      Equipment: Equipment
+      Arcana: Arcana
     base:
       FIELDS:
         biography:
@@ -145,7 +145,7 @@ GRIMWILD:
       Attributes: Attributes
       Description: Description
       Effects: Effects
-    Equipment:
+    Arcana:
       FIELDS:
         rollFormula:
           label: Roll Formula
@@ -189,5 +189,5 @@ TYPES:
     monster: Monster
   Item:
     talent: Talent
-    equipment: Equipment
+    arcana: Arcana
     challenge: Challenge

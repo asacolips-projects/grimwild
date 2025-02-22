@@ -6,5 +6,5 @@ export { default as GrimwildMonster } from "./actor-monster.mjs";
 // Export Items
 export { default as GrimwildItemBase } from "./base-item.mjs";
 export { default as GrimwildTalent } from "./item-talent.mjs";
-export { default as GrimwildEquipment } from "./item-equipment.mjs";
+export { default as GrimwildArcana } from "./item-arcana.mjs";
 export { default as GrimwildChallenge } from "./item-challenge.mjs";
