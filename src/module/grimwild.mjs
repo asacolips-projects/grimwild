@@ -69,7 +69,8 @@ Hooks.once("init", function () {
 	// with the Character/Monster as part of super.defineSchema()
 	CONFIG.Actor.dataModels = {
 		character: models.GrimwildCharacter,
-		monster: models.GrimwildMonster
+		monster: models.GrimwildMonster,
+		linkedChallenge: models.GrimwildLinkedChallenge
 	};
 	CONFIG.Item.documentClass = GrimwildItem;
 	CONFIG.Item.dataModels = {

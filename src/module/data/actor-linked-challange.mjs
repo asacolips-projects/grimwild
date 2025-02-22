@@ -1,21 +1,16 @@
-import GrimwildItemBase from "./base-item.mjs";
+import GrimwildActorBase from "./base-actor.mjs";
 import { DicePoolField } from "../helpers/schema.mjs";
 
-export default class GrimwildChallenge extends GrimwildItemBase {
+export default class GrimwildLinkedChallenge extends GrimwildActorBase {
 	static LOCALIZATION_PREFIXES = [
-		"GRIMWILD.Item.base",
-		"GRIMWILD.Item.Challenge"
+		"GRIMWILD.Actor.base",
+		"GRIMWILD.Actor.LinkedChallenge"
 	];
 
 	static defineSchema() {
 		const fields = foundry.data.fields;
 		const schema = super.defineSchema();
 
-		// Obsolete
-		schema.roll = new DicePoolField();
-
-		// New
-		schema.pool = new DicePoolField();
 		schema.suspense = new fields.SchemaField({
 			steps: new fields.ArrayField(new fields.BooleanField())
 		});
@@ -37,12 +32,4 @@ export default class GrimwildChallenge extends GrimwildItemBase {
 			if (this.suspense.steps[step]) this.suspense.value++;
 		}
 	}
-
-	static migrateData(source) {
-		if (!source.pool && source.roll) {
-			source.pool = source.roll;
-		}
-		return super.migrateData(source);
-	}
-
 }

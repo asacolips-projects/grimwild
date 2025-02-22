@@ -187,6 +187,7 @@ TYPES:
   Actor:
     character: Character
     monster: Monster
+    linkedChallenge: Linked Challenge
   Item:
     talent: Talent
     arcana: Arcana

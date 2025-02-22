@@ -268,6 +268,6 @@ export class GrimwildActorMonsterSheetVue extends GrimwildActorSheetVue {
 		if (!item) return;
 
 		// Update value.
-		await item.update({ "system.roll.diceNum": Number(target.value) });
+		await item.update({ "system.pool.diceNum": Number(target.value) });
 	}
 }

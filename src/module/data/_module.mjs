@@ -2,6 +2,7 @@
 export { default as GrimwildActorBase } from "./base-actor.mjs";
 export { default as GrimwildCharacter } from "./actor-character.mjs";
 export { default as GrimwildMonster } from "./actor-monster.mjs";
+export { default as GrimwildLinkedChallenge } from "./actor-linked-challange.mjs";
 
 // Export Items
 export { default as GrimwildItemBase } from "./base-item.mjs";
