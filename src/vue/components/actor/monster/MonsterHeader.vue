@@ -19,7 +19,7 @@
 				<input type="text" name="name" v-model="context.actor.name"/>
 			</div>
 			<!-- Health Pool -->
-			<div class="challenge-pool form-group stacked">
+			<div v-if="context.actor.type === 'monster'" class="challenge-pool form-group stacked">
 				<label>Tough Pool</label>
 				<RollPoolInput
 					button-action="rollPool"
@@ -36,5 +36,5 @@
 import { inject } from "vue";
 import { RollPoolInput } from "@/components";
 const props = defineProps(["context"]);
-const actor = inject("rawDocument");
+// const actor = inject("rawDocument");
 </script>

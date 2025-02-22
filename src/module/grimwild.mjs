@@ -89,7 +89,7 @@ Hooks.once("init", function () {
 	Actors.registerSheet("grimwild", GrimwildActorMonsterSheetVue, {
 		makeDefault: true,
 		label: "Monster Sheet",
-		types: ["monster"]
+		types: ["monster", "linkedChallenge"]
 	});
 	Actors.registerSheet("grimwild", GrimwildActorSheetVue, {
 		makeDefault: true,

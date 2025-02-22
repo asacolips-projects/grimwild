@@ -140,6 +140,16 @@ GRIMWILD:
           label: Traits
         moves:
           label: Moves
+    LinkedChallenge:
+      FIELDS:
+        pool:
+          label: Pool
+        role:
+          label: Role
+        traits:
+          label: Traits
+        moves:
+          label: Moves
   Item:
     Tabs:
       Attributes: Attributes
