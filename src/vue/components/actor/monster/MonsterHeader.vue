@@ -14,7 +14,7 @@
 				/>
 			</div>
 			<!-- Name -->
-			<div class="name form-group stacked grid-span-2">
+			<div :class="`name form-group stacked ${context.actor.type === 'monster' ? 'grid-span-2' : 'grid-span-3'}`">
 				<label>{{ game.i18n.localize('Name') }}</label>
 				<input type="text" name="name" v-model="context.actor.name"/>
 			</div>
@@ -36,5 +36,5 @@
 import { inject } from "vue";
 import { RollPoolInput } from "@/components";
 const props = defineProps(["context"]);
-// const actor = inject("rawDocument");
+const actor = inject("rawDocument");
 </script>
