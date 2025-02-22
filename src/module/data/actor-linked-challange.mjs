@@ -20,7 +20,7 @@ export default class GrimwildLinkedChallenge extends GrimwildActorBase {
 
 		schema.failure = new fields.ArrayField(new fields.SchemaField({
 			pool: new DicePoolField(),
-			value: new fields.StringField(),
+			value: new fields.StringField()
 		}));
 
 		return schema;

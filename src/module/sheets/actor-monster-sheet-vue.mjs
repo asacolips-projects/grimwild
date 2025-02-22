@@ -133,7 +133,7 @@ export class GrimwildActorMonsterSheetVue extends GrimwildActorSheetVue {
 		}
 
 		// Handle other custom elements.
-		if (this.document.type === 'monster') {
+		if (this.document.type === "monster") {
 			context.customElements = {};
 			for (let [colorKey, color] of this.document.system.sensories.colors.entries()) {
 				context.customElements[`system.sensories.colors.${colorKey}.color`] = foundry.applications.elements.HTMLColorPickerElement.create({
@@ -160,7 +160,7 @@ export class GrimwildActorMonsterSheetVue extends GrimwildActorSheetVue {
 		};
 
 		// Tabs available to all actors.
-		if (this.document.type === 'monster') {
+		if (this.document.type === "monster") {
 			context.tabs.primary.biography = {
 				key: "biography",
 				label: game.i18n.localize("GRIMWILD.Actor.Tabs.Biography"),
@@ -174,7 +174,7 @@ export class GrimwildActorMonsterSheetVue extends GrimwildActorSheetVue {
 			active: false
 		};
 
-		if (this.document.type === 'monster') {
+		if (this.document.type === "monster") {
 			context.tabs.primary.tables = {
 				key: "tables",
 				label: "Tables",
