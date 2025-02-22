@@ -55,8 +55,8 @@ export class GrimwildActorSheet extends api.HandlebarsApplicationMixin(
 		biography: {
 			template: "systems/grimwild/templates/actor/biography.hbs"
 		},
-		equipment: {
-			template: "systems/grimwild/templates/actor/equipment.hbs"
+		arcana: {
+			template: "systems/grimwild/templates/actor/arcana.hbs"
 		},
 		challenges: {
 			template: "systems/grimwild/templates/actor/challenges.hbs"
@@ -125,7 +125,7 @@ export class GrimwildActorSheet extends api.HandlebarsApplicationMixin(
 		switch (partId) {
 			case "talents":
 			case "challenges":
-			case "equipment":
+			case "arcana":
 				context.tab = context.tabs[partId];
 				break;
 			case "biography":
@@ -191,9 +191,9 @@ export class GrimwildActorSheet extends api.HandlebarsApplicationMixin(
 					tab.id = "talents";
 					tab.label += "Talents";
 					break;
-				case "equipment":
-					tab.id = "equipment";
-					tab.label += "Equipment";
+				case "arcana":
+					tab.id = "arcana";
+					tab.label += "Arcana";
 					break;
 				case "challenges":
 					tab.id = "challenges";
@@ -220,15 +220,15 @@ export class GrimwildActorSheet extends api.HandlebarsApplicationMixin(
 		// You can just use `this.document.itemTypes` instead
 		// if you don't need to subdivide a given type like
 		// this sheet does with spells
-		const equipment = [];
+		const arcana = [];
 		const talents = [];
 		const challenges = [];
 
 		// Iterate through items, allocating to containers
 		for (let i of this.document.items) {
-			// Append to equipment.
-			if (i.type === "equipment") {
-				equipment.push(i);
+			// Append to arcana.
+			if (i.type === "arcana") {
+				arcana.push(i);
 			}
 			// Append to talents.
 			else if (i.type === "talent") {
@@ -241,7 +241,7 @@ export class GrimwildActorSheet extends api.HandlebarsApplicationMixin(
 
 		// Sort then assign
 		if (this.document.type === "character") {
-			context.equipment = equipment.sort((a, b) => (a.sort || 0) - (b.sort || 0));
+			context.arcana = arcana.sort((a, b) => (a.sort || 0) - (b.sort || 0));
 			context.talents = talents.sort((a, b) => (a.sort || 0) - (b.sort || 0));
 		}
 

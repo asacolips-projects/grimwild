@@ -43,7 +43,7 @@
 								button-roll-type="item"
 								input-action="updateChallengePool"
 								:item-id="item.id"
-								:pool="item.system.roll"
+								:pool="item.system.pool"
 								min="0"
 							/>
 						</div>

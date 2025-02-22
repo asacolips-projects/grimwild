@@ -43,7 +43,7 @@ export class GrimwildItem extends Item {
 		const label = `[${item.type}] ${item.name}`;
 
 		// If there's no roll data, send a chat message.
-		if (!this.system.formula) {
+		if (!this.system.pool) {
 			ChatMessage.create({
 				speaker: speaker,
 				rollMode: rollMode,
@@ -57,7 +57,7 @@ export class GrimwildItem extends Item {
 			const rollData = this.getRollData();
 
 			// Invoke the roll and submit it to chat.
-			const roll = new grimwild.diePools(rollData.formula, rollData.actor);
+			const roll = new grimwild.diePools(`{${rollData.pool.diceNum}d6}`, rollData.actor);
 			// If you need to store the value first, uncomment the next line.
 			const result = await roll.evaluate();
 			const dice = result.dice[0].results;
@@ -73,7 +73,7 @@ export class GrimwildItem extends Item {
 				await game.dice3d.waitFor3DAnimationByMessageID(msg.id);
 			}
 			// Update the item.
-			await item.update({ "system.roll.diceNum": dice.length - dropped.length });
+			await item.update({ "system.pool.diceNum": dice.length - dropped.length });
 
 			return roll;
 		}
