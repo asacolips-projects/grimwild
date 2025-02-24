@@ -193,6 +193,8 @@ GRIMWILD:
           label: Moves
         failure:
           label: Failure States
+        suspense:
+          label: Suspense
   Effect:
     Source: Source
     Toggle: Toggle Effect

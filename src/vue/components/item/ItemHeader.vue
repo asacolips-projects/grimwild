@@ -13,20 +13,40 @@
 					width="100"
 				/>
 			</div>
-			<!-- Name -->
-			<div :class="`name form-group stacked ${context.item.type === 'challenge' ? 'grid-span-2' : 'grid-span-3'}`">
-				<label>{{ game.i18n.localize('Name') }}</label>
-				<input type="text" name="name" v-model="context.item.name" :placeholder="game.i18n.localize('Name')"/>
-			</div>
-			<!-- Challenge Pool (CHALLENGES ONLY) -->
-			<div v-if="context.item.type === 'challenge'" class="form-group stacked">
-				<label>{{ context.systemFields.pool.label }}</label>
-				<RollPoolInput
-					button-action="rollPool"
-					field="pool"
-					:pool="context.system.pool"
-					min="0"
-				/>
+			<!-- Header right fields -->
+			<div class="header-sub-fields grid-span-3">
+				<!-- Name -->
+				<div class="name form-group stacked">
+					<label>{{ game.i18n.localize('Name') }}</label>
+					<input type="text" name="name" v-model="context.item.name" :placeholder="game.i18n.localize('Name')"/>
+				</div>
+				<!-- Challenge Pool (CHALLENGES ONLY) -->
+				<div v-if="context.item.type === 'challenge'" class="form-group">
+					<!-- Pool -->
+					<div class="form-group stacked">
+						<label>{{ context.systemFields.pool.label }}</label>
+						<RollPoolInput
+							button-action="rollPool"
+							field="pool"
+							:pool="context.system.pool"
+							min="0"
+						/>
+					</div>
+					<!-- Suspense -->
+					<div class="suspense form-group stacked">
+						<label>{{ context.systemFields.suspense.label }}</label>
+						<div class="form-inputs">
+							<input type="checkbox"
+								name="system.suspense.steps.0"
+								v-model="context.system.suspense.steps[0]"
+							/>
+							<input type="checkbox"
+								name="system.suspense.steps.1"
+								v-model="context.system.suspense.steps[1]"
+							/>
+						</div>
+					</div>
+				</div>
 			</div>
 		</div>
 	</header>
