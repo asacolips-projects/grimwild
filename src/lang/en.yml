@@ -181,10 +181,18 @@ GRIMWILD:
           label: Trackers
     Challenge:
       FIELDS:
+        pool:
+          label: Pool
         rollFormula:
           label: Roll Formula
         numDice:
           label: Number of Dice
+        traits:
+          label: Traits
+        moves:
+          label: Moves
+        failure:
+          label: Failure States
   Effect:
     Source: Source
     Toggle: Toggle Effect

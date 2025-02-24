@@ -104,7 +104,7 @@ Hooks.once("init", function () {
 	Items.registerSheet("grimwild", GrimwildItemSheetVue, {
 		makeDefault: true,
 		label: "Grimwild Vue Sheet",
-		types: ["talent"]
+		types: ["talent", "challenge"]
 	});
 
 	// Handlebars utilities.

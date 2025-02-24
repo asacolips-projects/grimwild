@@ -45,7 +45,10 @@ export class GrimwildItemSheetVue extends VueRenderingMixin(GrimwildBaseVueItemS
 			deleteEffect: this._deleteEffect,
 			toggleEffect: this._toggleEffect,
 			createTracker: this._createTracker,
-			deleteTracker: this._deleteTracker
+			deleteTracker: this._deleteTracker,
+			createArrayEntry: this._createArrayEntry,
+			deleteArrayEntry: this._deleteArrayEntry,
+			rollPool: this._rollPool,
 		},
 		// Custom property that's merged into `this.options`
 		dragDrop: [{ dragSelector: "[data-drag]", dropSelector: null }],
@@ -177,11 +180,6 @@ export class GrimwildItemSheetVue extends VueRenderingMixin(GrimwildBaseVueItemS
 		// 	label: game.i18n.localize("GRIMWILD.Item.Tabs.Effects"),
 		// 	active: false
 		// };
-
-		// Ensure we have a default tab.
-		if (this.item.type !== "talent") {
-			context.tabs.primary.details.active = true;
-		}
 	}
 
 	/* -------------------------------------------- */
@@ -234,6 +232,188 @@ export class GrimwildItemSheetVue extends VueRenderingMixin(GrimwildBaseVueItemS
 			trackers.splice(Number(key), 1);
 
 			await this.document.update({ "system.trackers": trackers });
+		}
+	}
+
+	/**
+	 * Handle creating a new bond entry.
+	 *
+	 * @this GrimwildActorSheet
+	 * @param {PointerEvent} event   The originating click event
+	 * @param {HTMLElement} target   The capturing HTML element which defined a [data-action]
+	 * @private
+	 */
+	static async _createArrayEntry(event, target) {
+		event.preventDefault();
+		const {
+			field,
+			fieldType,
+			count
+		} = target.dataset;
+
+		// Retrieve the current field value.
+		const entries = !field.startsWith("system.")
+			? this.document.system[field]
+			: foundry.utils.getProperty(this.document, field);
+		// Retrieve the schema.
+		const schema = this.document.system.schema.fields?.[field];
+		const fieldConstructor = fieldType ?? schema?.element.constructor.name;
+		if (!fieldConstructor) return;
+		// Determine the default value of the new entry.
+		let defaultValue = {};
+		switch (fieldConstructor) {
+			case "StringField":
+				defaultValue = "";
+				break;
+
+			case "ArrayField":
+				defaultValue = [];
+				break;
+
+			default:
+				break;
+		}
+
+		// If we're adding multiple entries at once, such as an 6 strings,
+		// handle that now.
+		let entry = null;
+		if (count) {
+			entry = [];
+			for (let i = 0; i < count; i++) {
+				entry.push(defaultValue);
+			}
+		}
+		else {
+			entry = defaultValue;
+		}
+
+		// Push the new entry.
+		entries.push(entry);
+
+		// Build our final data.
+		let updateData = null;
+		let systemField = field;
+		if (field.startsWith("system.")) {
+			systemField = field.split(".")[1];
+			updateData = this.document.system[systemField];
+			foundry.utils.setProperty(updateData, field.split("system.")[1], entries);
+		}
+		else {
+			updateData = entries;
+		}
+
+		// Perform the update.
+		await this.document.update({
+			[`system.${field}`]: entries
+		});
+		this._arrayEntryKey++;
+		this.render();
+	}
+
+	/**
+	 * Handle deleting an existing bond entry.
+	 *
+	 * @this GrimwildActorSheet
+	 * @param {PointerEvent} event   The originating click event
+	 * @param {HTMLElement} target   The capturing HTML element which defined a [data-action]
+	 * @private
+	 */
+	static async _deleteArrayEntry(event, target) {
+		event.preventDefault();
+		const {
+			field,
+			key
+		} = target.dataset;
+		// Retrieve the current field value.
+		const entries = !field.startsWith("system.")
+			? this.document.system[field]
+			: foundry.utils.getProperty(this.document, field);
+		entries.splice(key, 1);
+
+		// Build our final data.
+		let updateData = null;
+		let systemField = field;
+		if (field.startsWith("system.")) {
+			systemField = field.split(".")[1];
+			updateData = this.document.system[systemField];
+			foundry.utils.setProperty(updateData, field.split("system.")[1], entries);
+		}
+		else {
+			updateData = entries;
+		}
+
+		// Perform the update.
+		await this.document.update({
+			[`system.${field}`]: entries
+		});
+		this._arrayEntryKey++;
+		this.render(true);
+	}
+
+	/**
+	 * Handle rolling pools on the character sheet.
+	 * @todo abstract this to the actor itself.
+	 *
+	 * @param {PointerEvent} event The originating click event
+	 * @param {HTMLElement} target The capturing HTML element which defined a [data-action]
+	 * @private
+	 */
+	static async _rollPool(event, target) {
+		event.preventDefault();
+		// Retrieve props.
+		const {
+			field,
+			key
+		} = target.dataset;
+
+		// Prepare variables.
+		let pool = null;
+		let rollData = {};
+		let fieldData = null;
+
+		// Retrieve pool.
+		fieldData = this.document.system?.[field] ?? null;
+		if (!fieldData) return;
+		pool = !fieldData?.diceNum ? fieldData?.[key]?.pool : fieldData;
+		if (!pool?.diceNum) return;
+
+		// Handle roll.
+		if (pool.diceNum > 0) {
+			const roll = new grimwild.diePools(`{${pool.diceNum}d6}`, rollData);
+			const result = await roll.evaluate();
+			const dice = result.dice[0].results;
+			const dropped = dice.filter((die) => die.result < 4);
+
+			// Initialize chat data.
+			const speaker = ChatMessage.getSpeaker({ actor: this?.actor ?? game.user?.character });
+			const rollMode = game.settings.get("core", "rollMode");
+			const label = `[${field}] ${this.document.name}`;
+			// Send to chat.
+			const msg = await roll.toMessage({
+				speaker: speaker,
+				rollMode: rollMode,
+				flavor: label
+			});
+			// Wait for Dice So Nice if enabled.
+			if (game.dice3d && msg?.id) {
+				await game.dice3d.waitFor3DAnimationByMessageID(msg.id);
+			}
+			// Recalculate the pool value.
+			pool.diceNum -= dropped.length;
+			if (fieldData?.diceNum) {
+				// Otherwise, update the condition.
+				await this.document.update({
+					[`system.${field}`]: pool
+				});
+			}
+			else {
+				fieldData[key].pool = pool;
+				const update = {};
+				update[`system.${field}`] = fieldData;
+				await this.document.update({
+					[`system.${field}`]: fieldData
+				});
+			}
 		}
 	}
 }

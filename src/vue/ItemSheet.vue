@@ -2,12 +2,11 @@
 	<div :class="`grimwild-vue standard-form flexcol`">
 		<div class="grimwild-sheet-layout flexcol">
 			<!-- <CharSidebar :context="context" /> -->
-	
+
 			<!-- Header -->
 			 <section class="grimwild-main flexcol grid-span-3">
 				<ItemHeader :context="context" />
 
-				
 				<div class="section--main flexcol">
 					<!-- Tab links -->
 					<Tabs :tabs="tabs.primary" no-span="true"/>
