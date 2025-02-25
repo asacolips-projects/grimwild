@@ -22,8 +22,14 @@ export default class GrimwildChallenge extends GrimwildItemBase {
 			})
 		});
 
-		schema.traits = new fields.ArrayField(new fields.StringField());
-		schema.moves = new fields.ArrayField(new fields.StringField());
+		schema.traits = new fields.ArrayField(
+			new fields.StringField(),
+			{ initial: ["", ""] }
+		);
+		schema.moves = new fields.ArrayField(
+			new fields.StringField(),
+			{ initial: ["", "", ""] }
+		);
 
 		schema.failure = new fields.ArrayField(new fields.SchemaField({
 			pool: new DicePoolField(),

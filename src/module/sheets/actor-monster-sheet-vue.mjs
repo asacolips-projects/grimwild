@@ -216,17 +216,23 @@ export class GrimwildActorMonsterSheetVue extends GrimwildActorSheetVue {
 		event.preventDefault();
 		// Retrieve props.
 		const {
-			field
+			field,
+			key,
+			itemId
 		} = target.dataset;
 
 		// Prepare variables.
 		let rollData = {};
 
 		// Retrieve pool.
-		let pool = this.document.system?.[field] ?? null;
+		const item = itemId ? this.document.items.get(itemId) : false;
+		// @todo improve this to work with more nested field types.
+		let pool = !item ?
+			(this.document.system?.[field] ?? null)
+			: (item.system?.[field]?.[key]?.pool ?? null);
 
 		// Handle roll.
-		if (pool.diceNum > 0) {
+		if (pool?.diceNum > 0) {
 			const roll = new grimwild.diePools(`{${pool.diceNum}d6}`, rollData);
 			const result = await roll.evaluate();
 			const dice = result.dice[0].results;
@@ -249,9 +255,16 @@ export class GrimwildActorMonsterSheetVue extends GrimwildActorSheetVue {
 			// Recalculate the pool value.
 			pool.diceNum -= dropped.length;
 			// Otherwise, update the condition.
-			await this.document.update({
-				[`system.${field}`]: pool
-			});
+			if (!item) {
+				await this.document.update({
+					[`system.${field}`]: pool
+				});
+			}
+			else {
+				const update = item.system.toObject()[field];
+				update[key].pool = pool;
+				await item.update({ [`system.${field}`]: update });
+			}
 		}
 	}
 

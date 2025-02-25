@@ -7,16 +7,21 @@
 			:data-field="field"
 			:data-key="fieldKey"
 		><i class="fas fa-dice-d6"></i><strong v-if="buttonLabel">{{ buttonLabel }}</strong></button>
-		<input type="number"
-			class="roll-pool-input"
-			:data-action-change="inputAction"
-			:data-item-id="itemId"
-			:name="fieldNameProp"
-			:value="pool.diceNum"
-			:min="min"
-			:max="max"
-		/>
-		<span class="roll-pool-suffix">d</span>
+		<template v-if="noInput">
+			<span class="roll-pool-suffix">{{pool.diceNum}}d</span>
+		</template>
+		<template v-else>
+			<input type="number"
+				class="roll-pool-input"
+				:data-action-change="inputAction"
+				:data-item-id="itemId"
+				:name="fieldNameProp"
+				:value="pool.diceNum"
+				:min="min"
+				:max="max"
+			/>
+			<span class="roll-pool-suffix">d</span>
+		</template>
 	</div>
 </template>
 
@@ -31,6 +36,7 @@ const props = defineProps([
 	'field',
 	'fieldKey',
 	'fieldName',
+	'noInput',
 	'itemId',
 	'pool',
 	'min',

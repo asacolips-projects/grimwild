@@ -85,9 +85,35 @@
 				</div>
 
 				<!-- Description, visible when toggled on. -->
-				<div v-if="item.system.description" class="item-description-wrapper">
+				<div class="item-description-wrapper">
 					<div class="item-description flexcol">
-						<div class="item-description" v-html="context.editors[`items.${item.id}.system.description`].enriched"></div>
+						<div v-if="item.system.description.length" class="item-description-content" v-html="context.editors[`items.${item.id}.system.description`].enriched"></div>
+						<!-- Traits -->
+						<ul v-if="item.system.traits.length > 0" class="item-traits">
+							<li v-for="(trait, traitKey) in item.system.traits" :key="traitKey" class="item-trait">{{ trait }}</li>
+						</ul>
+						<hr/>
+						<!-- Moves -->
+						<ul v-if="item.system.moves.length > 0" class="item-moves">
+							<li v-for="(move, moveKey) in item.system.moves" :key="moveKey" class="item-move">{{ move }}</li>
+						</ul>
+						<hr/>
+						<!-- Failure states -->
+						<ul v-if="item.system.failure.length > 0" class="item-failure">
+							<li v-for="(fail, failKey) in item.system.failure" :key="failKey" class="item-fail form-group">
+								<RollPoolInput v-if="fail.pool.diceNum > 0"
+									button-action="rollPool"
+									button-roll-type="item"
+									field="failure"
+									:field-key="failKey"
+									:no-input="true"
+									:item-id="item.id"
+									:pool="fail.pool"
+									min="0"
+								/>
+								<span>{{ fail.value }}</span>
+							</li>
+						</ul>
 					</div>
 				</div>
 

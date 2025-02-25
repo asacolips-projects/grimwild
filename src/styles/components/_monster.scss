@@ -33,11 +33,33 @@
 	}
 
 	.challenge {
-		.item-description {
-			hr + ul {
-				list-style-type: disc;
-				font-weight: bold;
-				text-transform: uppercase;
+		.item-description-content {
+			padding: 4px 8px;
+			margin: 4px;
+			background: var(--background);
+			border-radius: 4px;
+		}
+
+		hr {
+			margin: 2px 0;
+		}
+
+		.item-trait {
+			font-style: italic;
+		}
+
+		.item-move {
+			list-style-type: disc;
+			font-weight: bold;
+			text-transform: uppercase;
+		}
+
+		.item-fail {
+			font-style: italic;
+			font-weight: bold;
+
+			.roll-pool {
+				flex: 0 0 auto;
 			}
 		}
 	}
