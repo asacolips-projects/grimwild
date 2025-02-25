@@ -74,16 +74,43 @@ export default class GrimwildCharacter extends GrimwildActorBase {
 			new fields.SchemaField({
 				name: new fields.StringField(),
 				wises: new fields.ArrayField(new fields.StringField())
-			})
+			}),
+			{
+				initial: [
+					{ name: "", wises: ["", "", ""] },
+					{ name: "", wises: ["", "", ""] }
+				]
+			}
 		);
-		schema.traits = new fields.ArrayField(new fields.SchemaField({
-			are: new fields.BooleanField(),
-			value: new fields.StringField()
-		}));
-		schema.desires = new fields.ArrayField(new fields.SchemaField({
-			are: new fields.BooleanField(),
-			value: new fields.StringField()
-		}));
+
+		schema.traits = new fields.ArrayField(
+			new fields.SchemaField({
+				are: new fields.BooleanField(),
+				value: new fields.StringField()
+			}),
+			{
+				initial: [
+					{ are: true, value: "" },
+					{ are: true, value: "" },
+					{ are: false, value: "" }
+				]
+			}
+		);
+
+		schema.desires = new fields.ArrayField(
+			new fields.SchemaField({
+				are: new fields.BooleanField(),
+				value: new fields.StringField()
+			}),
+			{
+				initial: [
+					{ are: true, value: "" },
+					{ are: true, value: "" },
+					{ are: false, value: "" }
+				]
+			}
+		);
+
 		schema.bonds = new fields.ArrayField(
 			new fields.SchemaField({
 				name: new fields.StringField(),
@@ -139,45 +166,6 @@ export default class GrimwildCharacter extends GrimwildActorBase {
 			return order(a.key) - order(b.key);
 		});
 		return orderedStats;
-	}
-
-	prepareBaseData() {
-		// Ensure traits exist.
-		for (let i = 0; i < 3; i++) {
-			if (!this.traits[i]) {
-				this.traits[i] = {
-					are: i < 2,
-					value: ""
-				};
-			}
-		}
-
-		// Ensure desires exist.
-		for (let i = 0; i < 3; i++) {
-			if (!this.desires[i]) {
-				this.desires[i] = {
-					are: i < 2,
-					value: ""
-				};
-			}
-		}
-
-		// Ensure backgrounds exist.
-		for (let i = 0; i < 2; i++) {
-			if (!this.backgrounds[i]) {
-				this.backgrounds[i] = {
-					name: "",
-					wises: ["", "", ""]
-				};
-			}
-			else {
-				for (let j = 0; j < 3; j++) {
-					if (!this.backgrounds[i].wises[j]) {
-						this.backgrounds[i].wises.push("");
-					}
-				}
-			}
-		}
 	}
 
 	prepareDerivedData() {

@@ -30,11 +30,15 @@ documentTypes:
       htmlFields:
       - biography
       - notes
+    linkedChallenge:
+      htmlFields:
+      - biography
+      - notes
   Item:
     talent:
       htmlFields:
       - description
-    equipment:
+    arcana:
       htmlFields:
       - description
       - notes.description

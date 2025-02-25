@@ -22,18 +22,108 @@
 			flex: 0 auto;
 			flex-wrap: nowrap;
 		}
+
+		.suspense {
+			flex: 0 0 auto;
+		}
 	}
 
 	.header-fields {
 		align-items: flex-end;
 	}
 
-	.challenge {
-		.item-description {
-			hr + ul {
+	.items-list {
+		columns: 3;
+		column-gap: 8px;
+		padding: 8px 0;
+
+		.challenge {
+			background: var(--background);
+			border-radius: 4px;
+			break-inside: avoid-column;
+			padding: 4px;
+
+			.item-summary {
+				background: #ffffff11;
+				padding: 0 2px;
+
+				.item-name {
+					border-bottom: 1px solid;
+					padding: 4px 0;
+					gap: 2px;
+					cursor: inherit;
+
+					&:hover {
+						color: inherit;
+					}
+				}
+			}
+
+			.suspense-controls {
+				padding: 4px 2px 2px;
+
+				input[type="checkbox"] {
+					margin: 0;
+				}
+			}
+
+			.challenge-pool {
+				flex: 0 0 auto;
+			}
+
+			.challenge-fields-wrapper {
+				width: 100%;
+				padding: 8px 4px 4px
+			}
+
+			.item-description-content {
+				padding: 4px 8px;
+				margin: 4px;
+				background: var(--color-dark-2);
+				border-radius: 4px;
+			}
+	
+			hr {
+				margin: 2px 0;
+			}
+	
+			.item-trait {
+				font-style: italic;
+			}
+	
+			.item-move {
 				list-style-type: disc;
 				font-weight: bold;
 				text-transform: uppercase;
+			}
+
+			.roll-pool {
+				gap: 2px;
+			}
+
+			.roll-pool-button {
+				padding: 4px;
+				line-height: 1;
+				height: auto;
+			}
+
+			.roll-pool-suffix {
+				border-right: 1px solid;
+				padding-right: 4px;
+			}
+
+			.item-failure {
+				padding: 0;
+				list-style-type: none;
+			}
+	
+			.item-fail {
+				font-style: italic;
+				font-weight: bold;
+	
+				.roll-pool {
+					flex: 0 0 auto;
+				}
 			}
 		}
 	}

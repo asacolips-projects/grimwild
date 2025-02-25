@@ -1,6 +1,7 @@
 <template>
 	<div :class="`grimwild-vue standard-form flexcol`">
-		<div class="monster-colors flexrow">
+		<!-- Colors (MONSTERS ONLY) -->
+		<div v-if="context.actor.type === 'monster'" class="monster-colors flexrow">
 			<template v-for="(color, colorKey) in context.system.sensories.colors" :key="colorKey">
 				<div v-if="color.color" class="monster-color-wrapper">
 					<div class="monster-color" :style="`background-color:${color.color}`"></div>
@@ -15,19 +16,20 @@
 				<!-- Tab links -->
 				<Tabs :tabs="tabs.primary" no-span="true"/>
 				<section class="section--fields flexcol">
-					<!-- Biography -->
-					<Tab group="primary" :tab="tabs.primary.biography">
+					<!-- Biography (MONSTERS ONLY) -->
+					<Tab v-if="context.actor.type === 'monster'" group="primary" :tab="tabs.primary.biography">
 						<MonsterBiography :context="context" />
 					</Tab>
 
 					<!-- Traits, Moves, and Desires -->
 					<Tab group="primary" :tab="tabs.primary.moves">
 						<MonsterTraitsMoves :context="context" />
-						<MonsterDesires :context="context" />
+						<!-- Desires (MONSTERS ONLY) -->
+						<MonsterDesires v-if="context.actor.type === 'monster'" :context="context" />
 					</Tab>
 
-					<!-- Tables -->
-					<Tab group="primary" :tab="tabs.primary.tables">
+					<!-- Tables (MONSTERS ONLY) -->
+					<Tab v-if="context.actor.type === 'monster'" group="primary" :tab="tabs.primary.tables">
 						<MonsterTables :context="context" />
 					</Tab>
 

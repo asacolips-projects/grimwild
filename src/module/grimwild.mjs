@@ -69,12 +69,13 @@ Hooks.once("init", function () {
 	// with the Character/Monster as part of super.defineSchema()
 	CONFIG.Actor.dataModels = {
 		character: models.GrimwildCharacter,
-		monster: models.GrimwildMonster
+		monster: models.GrimwildMonster,
+		linkedChallenge: models.GrimwildLinkedChallenge
 	};
 	CONFIG.Item.documentClass = GrimwildItem;
 	CONFIG.Item.dataModels = {
 		talent: models.GrimwildTalent,
-		equipment: models.GrimwildEquipment,
+		arcana: models.GrimwildArcana,
 		challenge: models.GrimwildChallenge
 	};
 
@@ -88,7 +89,7 @@ Hooks.once("init", function () {
 	Actors.registerSheet("grimwild", GrimwildActorMonsterSheetVue, {
 		makeDefault: true,
 		label: "Monster Sheet",
-		types: ["monster"]
+		types: ["monster", "linkedChallenge"]
 	});
 	Actors.registerSheet("grimwild", GrimwildActorSheetVue, {
 		makeDefault: true,
@@ -103,7 +104,7 @@ Hooks.once("init", function () {
 	Items.registerSheet("grimwild", GrimwildItemSheetVue, {
 		makeDefault: true,
 		label: "Grimwild Vue Sheet",
-		types: ["talent"]
+		types: ["talent", "challenge"]
 	});
 
 	// Handlebars utilities.

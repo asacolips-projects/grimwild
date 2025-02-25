@@ -11,18 +11,46 @@ export default class GrimwildChallenge extends GrimwildItemBase {
 		const fields = foundry.data.fields;
 		const schema = super.defineSchema();
 
+		// Obsolete
 		schema.roll = new DicePoolField();
 
-		schema.formula = new fields.StringField({ blank: true });
+		// New
+		schema.pool = new DicePoolField();
+		schema.suspense = new fields.SchemaField({
+			steps: new fields.ArrayField(new fields.BooleanField(), {
+				initial: [true, true]
+			})
+		});
+
+		schema.traits = new fields.ArrayField(
+			new fields.StringField(),
+			{ initial: ["", ""] }
+		);
+		schema.moves = new fields.ArrayField(
+			new fields.StringField(),
+			{ initial: ["", "", ""] }
+		);
+
+		schema.failure = new fields.ArrayField(new fields.SchemaField({
+			pool: new DicePoolField(),
+			value: new fields.StringField()
+		}));
 
 		return schema;
 	}
 
 	prepareDerivedData() {
-		// Build the formula dynamically using string interpolation
-		const roll = this.roll;
+		this.suspense.value = 0;
+		for (const step in this.suspense.steps) {
+			if (this.suspense.steps[step]) this.suspense.value++;
+		}
+	}
 
-		this.formula = `{${roll.diceNum}d6}`;
+	static migrateData(source) {
+		if (!source.pool && source.roll) {
+			source.pool = source.roll;
+		}
+		return super.migrateData(source);
 	}
 
 }

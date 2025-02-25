@@ -1,9 +1,9 @@
-{{! Equipment Tab }}
-<section class='tab equipment {{tab.cssClass}}' data-group='primary' data-tab='equipment'>
+{{! Arcana Tab }}
+<section class='tab arcana {{tab.cssClass}}' data-group='primary' data-tab='arcana'>
   <ol class='items-list'>
     <li class='item flexrow items-header'>
       <div class='item-name'>{{localize 'Name'}}</div>
-      <div class='item-formula'>{{localize 'GRIMWILD.Item.Equipment.FIELDS.rollFormula.label'}}</div>
+      <div class='item-formula'>{{localize 'GRIMWILD.Item.Arcana.FIELDS.rollFormula.label'}}</div>
       <div class='item-controls'>
         {{#if @root.editable}}
           <a
@@ -11,7 +11,7 @@
             title='{{localize "DOCUMENT.Create" type='Item'}}'
             data-action='createDoc'
             data-document-class='Item'
-            data-type='equipment'
+            data-type='arcana'
           >
             <i class='fas fa-plus'></i>
             {{localize 'DOCUMENT.New' type='item'}}
@@ -19,7 +19,7 @@
         {{/if}}
       </div>
     </li>
-    {{#each equipment as |item id|}}
+    {{#each arcana as |item id|}}
       <li
         class='item flexrow'
         data-item-id='{{item._id}}'
@@ -43,7 +43,7 @@
         <div class='item-controls'>
           <a
             class='item-control item-edit'
-            title='{{localize "DOCUMENT.Update" type='Equipment'}}'
+            title='{{localize "DOCUMENT.Update" type='Arcana'}}'
             data-action='viewDoc'
           >
             <i class='fas fa-edit'></i>
@@ -51,7 +51,7 @@
           {{#if @root.editable}}
             <a
               class='item-control item-delete'
-              title='{{localize "DOCUMENT.Delete" type='Equipment'}}'
+              title='{{localize "DOCUMENT.Delete" type='Arcana'}}'
               data-action='deleteDoc'
             >
               <i class='fas fa-trash'></i>

@@ -50,6 +50,7 @@ export class GrimwildActorMonsterSheetVue extends GrimwildActorSheetVue {
 			roll: this._onRoll
 		},
 		changeActions: {
+			updateItemField: this._updateItemField,
 			updateChallengePool: this._updateChallengePool
 		},
 		// Custom property that's merged into `this.options`
@@ -133,12 +134,14 @@ export class GrimwildActorMonsterSheetVue extends GrimwildActorSheetVue {
 		}
 
 		// Handle other custom elements.
-		context.customElements = {};
-		for (let [colorKey, color] of this.document.system.sensories.colors.entries()) {
-			context.customElements[`system.sensories.colors.${colorKey}.color`] = foundry.applications.elements.HTMLColorPickerElement.create({
-				name: `system.sensories.colors.${colorKey}.color`,
-				value: color.color
-			});
+		if (this.document.type === "monster") {
+			context.customElements = {};
+			for (let [colorKey, color] of this.document.system.sensories.colors.entries()) {
+				context.customElements[`system.sensories.colors.${colorKey}.color`] = foundry.applications.elements.HTMLColorPickerElement.create({
+					name: `system.sensories.colors.${colorKey}.color`,
+					value: color.color
+				});
+			}
 		}
 
 		console.log("monster", context);
@@ -158,11 +161,13 @@ export class GrimwildActorMonsterSheetVue extends GrimwildActorSheetVue {
 		};
 
 		// Tabs available to all actors.
-		context.tabs.primary.biography = {
-			key: "biography",
-			label: game.i18n.localize("GRIMWILD.Actor.Tabs.Biography"),
-			active: false
-		};
+		if (this.document.type === "monster") {
+			context.tabs.primary.biography = {
+				key: "biography",
+				label: game.i18n.localize("GRIMWILD.Actor.Tabs.Biography"),
+				active: false
+			};
+		}
 
 		context.tabs.primary.moves = {
 			key: "moves",
@@ -170,11 +175,13 @@ export class GrimwildActorMonsterSheetVue extends GrimwildActorSheetVue {
 			active: false
 		};
 
-		context.tabs.primary.tables = {
-			key: "tables",
-			label: "Tables",
-			active: false
-		};
+		if (this.document.type === "monster") {
+			context.tabs.primary.tables = {
+				key: "tables",
+				label: "Tables",
+				active: false
+			};
+		}
 
 		context.tabs.primary.challenges = {
 			key: "challenges",
@@ -209,17 +216,23 @@ export class GrimwildActorMonsterSheetVue extends GrimwildActorSheetVue {
 		event.preventDefault();
 		// Retrieve props.
 		const {
-			field
+			field,
+			key,
+			itemId
 		} = target.dataset;
 
 		// Prepare variables.
 		let rollData = {};
 
 		// Retrieve pool.
-		let pool = this.document.system?.[field] ?? null;
+		const item = itemId ? this.document.items.get(itemId) : false;
+		// @todo improve this to work with more nested field types.
+		let pool = !item
+			? (this.document.system?.[field] ?? null)
+			: (item.system?.[field]?.[key]?.pool ?? null);
 
 		// Handle roll.
-		if (pool.diceNum > 0) {
+		if (pool?.diceNum > 0) {
 			const roll = new grimwild.diePools(`{${pool.diceNum}d6}`, rollData);
 			const result = await roll.evaluate();
 			const dice = result.dice[0].results;
@@ -242,10 +255,65 @@ export class GrimwildActorMonsterSheetVue extends GrimwildActorSheetVue {
 			// Recalculate the pool value.
 			pool.diceNum -= dropped.length;
 			// Otherwise, update the condition.
-			await this.document.update({
-				[`system.${field}`]: pool
-			});
+			if (!item) {
+				await this.document.update({
+					[`system.${field}`]: pool
+				});
+			}
+			else {
+				const update = item.system.toObject()[field];
+				update[key].pool = pool;
+				await item.update({ [`system.${field}`]: update });
+			}
 		}
+	}
+
+	/**
+	 * Handle updating fields on embedded documents.
+	 *
+	 * @param {PointerEvent} event The originating click event
+	 * @param {HTMLElement} target The capturing HTML element which defined a [data-action]
+	 * @private
+	 */
+	static async _updateItemField(event, target) {
+		event.preventDefault();
+		const { field, itemId, key } = target.dataset;
+
+		// Handle locked documents.
+		if (!this.isEditable) return;
+
+		// Retrieve the item.
+		const item = this.document.items.get(itemId);
+		if (!item) return;
+
+		// @todo handle more field types.
+		// Handle value.
+		let value = null;
+		switch (target.type) {
+			case "checkbox":
+				value = target.checked;
+				break;
+
+			default:
+				value = target.value;
+				break;
+		}
+
+		// Prepare the update.
+		let update = null;
+		// Handle array fields.
+		if (key !== undefined) {
+			update = foundry.utils.getProperty(item.toObject(), field);
+			update[Number(key)] = value;
+		}
+		// Handle other fields.
+		else {
+			update = value;
+		}
+
+		// Update the value.
+		await item.update({ [field]: update });
+
 	}
 
 	/**
@@ -268,6 +336,6 @@ export class GrimwildActorMonsterSheetVue extends GrimwildActorSheetVue {
 		if (!item) return;
 
 		// Update value.
-		await item.update({ "system.roll.diceNum": Number(target.value) });
+		await item.update({ "system.pool.diceNum": Number(target.value) });
 	}
 }

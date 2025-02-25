@@ -82,7 +82,7 @@ GRIMWILD:
       Challenges: Challenges
       Effects: Effects
       # Obsolete
-      Equipment: Equipment
+      Arcana: Arcana
     base:
       FIELDS:
         biography:
@@ -140,12 +140,22 @@ GRIMWILD:
           label: Traits
         moves:
           label: Moves
+    LinkedChallenge:
+      FIELDS:
+        pool:
+          label: Pool
+        role:
+          label: Role
+        traits:
+          label: Traits
+        moves:
+          label: Moves
   Item:
     Tabs:
       Attributes: Attributes
       Description: Description
       Effects: Effects
-    Equipment:
+    Arcana:
       FIELDS:
         rollFormula:
           label: Roll Formula
@@ -171,10 +181,20 @@ GRIMWILD:
           label: Trackers
     Challenge:
       FIELDS:
+        pool:
+          label: Pool
         rollFormula:
           label: Roll Formula
         numDice:
           label: Number of Dice
+        traits:
+          label: Traits
+        moves:
+          label: Moves
+        failure:
+          label: Failure States
+        suspense:
+          label: Suspense
   Effect:
     Source: Source
     Toggle: Toggle Effect
@@ -187,7 +207,8 @@ TYPES:
   Actor:
     character: Character
     monster: Monster
+    linkedChallenge: Linked Challenge
   Item:
     talent: Talent
-    equipment: Equipment
+    arcana: Arcana
     challenge: Challenge
