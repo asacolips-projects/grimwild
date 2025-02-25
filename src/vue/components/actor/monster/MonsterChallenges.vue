@@ -56,13 +56,15 @@
 							<div class="form-inputs">
 								<input type="checkbox"
 									data-action-change="updateItemField"
-									data-field="system.suspense.steps.0"
+									data-field="system.suspense.steps"
+									data-key="0"
 									:data-item-id="item.id"
 									v-model="item.system.suspense.steps[0]"
 								/>
 								<input type="checkbox"
 									data-action-change="updateItemField"
-									data-field="system.suspense.steps.1"
+									data-field="system.suspense.steps"
+									data-key="1"
 									:data-item-id="item.id"
 									v-model="item.system.suspense.steps[1]"
 								/>

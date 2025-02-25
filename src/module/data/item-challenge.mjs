@@ -17,7 +17,9 @@ export default class GrimwildChallenge extends GrimwildItemBase {
 		// New
 		schema.pool = new DicePoolField();
 		schema.suspense = new fields.SchemaField({
-			steps: new fields.ArrayField(new fields.BooleanField())
+			steps: new fields.ArrayField(new fields.BooleanField(), {
+				initial: [true, true]
+			})
 		});
 
 		schema.traits = new fields.ArrayField(new fields.StringField());

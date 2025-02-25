@@ -264,7 +264,7 @@ export class GrimwildActorMonsterSheetVue extends GrimwildActorSheetVue {
 	 */
 	static async _updateItemField(event, target) {
 		event.preventDefault();
-		const { field, itemId } = target.dataset;
+		const { field, itemId, key } = target.dataset;
 
 		// Handle locked documents.
 		if (!this.isEditable) return;
@@ -287,14 +287,19 @@ export class GrimwildActorMonsterSheetVue extends GrimwildActorSheetVue {
 		}
 
 		// Prepare the update.
-		const expandedField = foundry.utils.expandObject({ [field]: value });
-		const update = foundry.utils.mergeObject(
-			item.system.toObject(),
-			expandedField.system
-		);
+		let update = null;
+		// Handle array fields.
+		if (key !== undefined) {
+			update = foundry.utils.getProperty(item.toObject(), field);
+			update[Number(key)] = value;
+		}
+		// Handle other fields.
+		else {
+			update = value;
+		}
 
 		// Update the value.
-		await item.update(update);
+		await item.update({ [field]: update });
 
 	}
 
