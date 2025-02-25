@@ -50,6 +50,7 @@ export class GrimwildActorMonsterSheetVue extends GrimwildActorSheetVue {
 			roll: this._onRoll
 		},
 		changeActions: {
+			updateItemField: this._updateItemField,
 			updateChallengePool: this._updateChallengePool
 		},
 		// Custom property that's merged into `this.options`
@@ -252,6 +253,49 @@ export class GrimwildActorMonsterSheetVue extends GrimwildActorSheetVue {
 				[`system.${field}`]: pool
 			});
 		}
+	}
+
+	/**
+	 * Handle updating fields on embedded documents.
+	 *
+	 * @param {PointerEvent} event The originating click event
+	 * @param {HTMLElement} target The capturing HTML element which defined a [data-action]
+	 * @private
+	 */
+	static async _updateItemField(event, target) {
+		event.preventDefault();
+		const { field, itemId } = target.dataset;
+
+		// Handle locked documents.
+		if (!this.isEditable) return;
+
+		// Retrieve the item.
+		const item = this.document.items.get(itemId);
+		if (!item) return;
+
+		// @todo handle more field types.
+		// Handle value.
+		let value = null;
+		switch (target.type) {
+			case "checkbox":
+				value = target.checked;
+				break;
+
+			default:
+				value = target.value;
+				break;
+		}
+
+		// Prepare the update.
+		const expandedField = foundry.utils.expandObject({ [field]: value });
+		const update = foundry.utils.mergeObject(
+			item.system.toObject(),
+			expandedField.system
+		);
+
+		// Update the value.
+		await item.update(update);
+
 	}
 
 	/**

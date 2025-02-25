@@ -28,6 +28,7 @@
 				<!-- Summary, always visible -->
 				<div class="item-summary flexrow">
 					<div class="item-name flexrow">
+						<!-- Roll -->
 						<a class="rollable" data-roll-type="item" data-action="roll">
 							<div class="item-image">
 								<img :src="item.img"
@@ -37,6 +38,7 @@
 								/>
 							</div>
 						</a>
+						<!-- Pool -->
 						<div class="challenge-pool">
 							<RollPoolInput
 								button-action="roll"
@@ -47,7 +49,25 @@
 								min="0"
 							/>
 						</div>
+						<!-- Name -->
 						<div data-action="toggleItem" :data-item-id="item._id">{{ item.name }}</div>
+						<!-- Suspense -->
+						<div class="suspense form-group stacked">
+							<div class="form-inputs">
+								<input type="checkbox"
+									data-action-change="updateItemField"
+									data-field="system.suspense.steps.0"
+									:data-item-id="item.id"
+									v-model="item.system.suspense.steps[0]"
+								/>
+								<input type="checkbox"
+									data-action-change="updateItemField"
+									data-field="system.suspense.steps.1"
+									:data-item-id="item.id"
+									v-model="item.system.suspense.steps[1]"
+								/>
+							</div>
+						</div>
 					</div>
 					<div class="item-controls">
 						<a class="item-control item-edit"

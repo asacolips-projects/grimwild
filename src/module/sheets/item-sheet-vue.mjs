@@ -48,7 +48,7 @@ export class GrimwildItemSheetVue extends VueRenderingMixin(GrimwildBaseVueItemS
 			deleteTracker: this._deleteTracker,
 			createArrayEntry: this._createArrayEntry,
 			deleteArrayEntry: this._deleteArrayEntry,
-			rollPool: this._rollPool,
+			rollPool: this._rollPool
 		},
 		// Custom property that's merged into `this.options`
 		dragDrop: [{ dragSelector: "[data-drag]", dropSelector: null }],
