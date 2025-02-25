@@ -227,8 +227,8 @@ export class GrimwildActorMonsterSheetVue extends GrimwildActorSheetVue {
 		// Retrieve pool.
 		const item = itemId ? this.document.items.get(itemId) : false;
 		// @todo improve this to work with more nested field types.
-		let pool = !item ?
-			(this.document.system?.[field] ?? null)
+		let pool = !item
+			? (this.document.system?.[field] ?? null)
 			: (item.system?.[field]?.[key]?.pool ?? null);
 
 		// Handle roll.

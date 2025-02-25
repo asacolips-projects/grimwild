@@ -1,6 +1,6 @@
 <template>
 	<div class="roll-pool form-group">
-		<button class="rool-pool-button"
+		<button class="roll-pool-button"
 			:data-action="buttonAction"
 			:data-roll-type="buttonRollType"
 			:data-item-id="itemId"
