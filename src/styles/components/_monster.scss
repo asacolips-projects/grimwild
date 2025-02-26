@@ -48,14 +48,22 @@
 		padding: 8px 0;
 
 		.challenge {
-			background: var(--background);
+			background: #dbd2bca9;
 			border-radius: 4px;
 			break-inside: avoid-column;
 			padding: 4px;
 
+			.theme-dark & {
+				background: var(--background);
+			}
+
 			.item-summary {
-				background: #ffffff11;
+				background: #ffffff44;
 				padding: 0 2px;
+				
+				.theme-dark & {
+					background: #ffffff11;
+				}
 
 				.item-name {
 					border-bottom: 1px solid;

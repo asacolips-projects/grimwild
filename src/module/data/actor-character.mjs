@@ -29,9 +29,14 @@ export default class GrimwildCharacter extends GrimwildActorBase {
 			})
 		});
 
-		// should these have some sort of healing pool attached to them?
-		schema.bloodied = new DicePoolField();
-		schema.rattled = new DicePoolField();
+		schema.bloodied = new fields.SchemaField({
+			pool: new DicePoolField(),
+			marked: new fields.BooleanField(),
+		});
+		schema.rattled = new fields.SchemaField({
+			pool: new DicePoolField(),
+			marked: new fields.BooleanField(),
+		});
 		schema.conditions = new fields.ArrayField(new fields.SchemaField({
 			name: new fields.StringField(),
 			pool: new DicePoolField(),
@@ -263,5 +268,30 @@ export default class GrimwildCharacter extends GrimwildActorBase {
 			});
 
 		}
+	}
+
+	/**
+	 * Migrate a document to a newer schema.
+	 *
+	 * @param {object} source Source document.
+	 */
+	static migrateData(source) {
+		if (!source.bloodied.pool && source.bloodied.diceNum) {
+			const oldBloodied = {...source.bloodied};
+			source.bloodied = {
+				pool: oldBloodied,
+				marked: false
+			};
+		}
+
+		if (!source.rattled.pool && source.rattled.diceNum) {
+			const oldRattled = {...source.rattled};
+			source.rattled = {
+				pool: oldRattled,
+				marked: false
+			};
+		}
+
+		return super.migrateData(source);
 	}
 }
