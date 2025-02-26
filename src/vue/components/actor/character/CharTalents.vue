@@ -2,7 +2,7 @@
 	<section class="grid grid-3col">
 		<ol class="items-list grid-span-3">
 			<!-- Header row -->
-			<li class="flexrow items-header">
+			<li class="flexrow items-header stroke stroke-bottom">
 				<div class="item-name">Talent Name</div>
 				<div class="item-controls">
 					<template v-if="context.editable">

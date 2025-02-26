@@ -14,13 +14,13 @@
 					<div class="flexrow">
 						<input type="checkbox"
 							:name="`system.stats.${statKey}.marked`"
-							v-model="context.actor.system.stats[statKey].marked" 
+							v-model="context.system.stats[statKey].marked" 
 							class="marked"
 							:data-tooltip="game.i18n.localize('GRIMWILD.Damage.marked')" 
 						/>
 						<input type="text"
 							:name="`system.stats.${statKey}.value`"
-							v-model="context.actor.system.stats[statKey].value"
+							v-model="context.system.stats[statKey].value"
 						/>
 					</div>
 				</div>
@@ -29,17 +29,21 @@
 			<div class="harm grid grid-2col">
 				<div class="form-group">
 					<label>{{ game.i18n.localize('GRIMWILD.Damage.bloodied') }}</label>
-					<input type="number"
-						name="system.bloodied.diceNum"
-						v-model="context.actor.system.bloodied.diceNum"
-					/> d
+					<RollPoolInput
+						button-action="rollPool"
+						field="bloodied"
+						:pool="context.system.bloodied"
+						min="0"
+					/>
 				</div>
 				<div class="form-group">
 					<label>{{ game.i18n.localize('GRIMWILD.Damage.rattled') }}</label>
-					<input type="number"
-						name="system.rattled.diceNum"
-						v-model="context.actor.system.rattled.diceNum"
-					/> d
+					<RollPoolInput
+						button-action="rollPool"
+						field="rattled"
+						:pool="context.system.rattled"
+						min="0"
+					/>
 				</div>
 			</div>
 		</div>
@@ -50,11 +54,11 @@
 				<div class="form-inputs">
 					<input type="checkbox"
 						name="system.spark.steps.0"
-						v-model="context.actor.system.spark.steps[0]"
+						v-model="context.system.spark.steps[0]"
 					/>
 					<input type="checkbox"
 						name="system.spark.steps.1"
-						v-model="context.actor.system.spark.steps[1]"
+						v-model="context.system.spark.steps[1]"
 					/>
 				</div>
 			</div>
@@ -63,11 +67,11 @@
 				<div class="form-inputs">
 					<input type="checkbox"
 						name="system.story.steps.0"
-						v-model="context.actor.system.story.steps[0]"
+						v-model="context.system.story.steps[0]"
 					/>
 					<input type="checkbox"
 						name="system.story.steps.1"
-						v-model="context.actor.system.story.steps[1]"
+						v-model="context.system.story.steps[1]"
 					/>
 				</div>
 			</div>
@@ -76,7 +80,8 @@
 </template>
 
 <script setup>
-import { inject } from 'vue';
-const props = defineProps(['context']);
-const actor = inject('rawDocument');
+import { inject } from "vue";
+import { RollPoolInput } from "@/components";
+const props = defineProps(["context"]);
+const actor = inject("rawDocument");
 </script>

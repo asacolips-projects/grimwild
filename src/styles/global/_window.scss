@@ -42,11 +42,25 @@
 		top: 0;
 		right: 0;
 		height: 300px;
-		background-image: url("../assets/grimwild-page-texture-dark.webp");
+		background-image: url("../assets/grimwild-page-texture-light.webp");
 		background-size: cover;
 		mask-image: linear-gradient(to bottom, black, transparent);
 		opacity: 0.75;
 		z-index: -1;
 		pointer-events: none;
+	}
+
+	.theme-dark & {
+		&::before {
+			background-image: url("../assets/grimwild-page-texture-dark.webp");
+		}
+	}
+
+	.tabs {
+		border: none;
+	}
+
+	.tab-link.active {
+		font-weight: bold;
 	}
 }

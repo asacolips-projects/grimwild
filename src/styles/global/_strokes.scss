@@ -1,0 +1,30 @@
+.stroke {
+  position: relative;
+
+  &::after {
+    display: block;
+    content: '';
+    width: 100%;
+    height: 2px;
+    background-color: var(--grimwild-c-tan);
+    mask-image: url("../assets/borders/border-wide.svg");
+    mask-size: cover;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+  }
+
+  &.stroke-half {
+    mask-image: url("../assets/borders/border-half.svg");
+  }
+
+  &.stroke-bottom::after {
+    bottom: 0;
+    top: auto;
+  }
+
+  &.stroke-top::after {
+    bottom: auto;
+    top: 0;
+  }
+}

@@ -3,7 +3,7 @@
 		<button v-if="hamburger" :class="`sheet-tabs-toggle sheet-tabs-toggle--${group}`" @click="toggleMenu">
 			<i class="fas fa-bars"></i><span class="visually-hidden"> Toggle Navigation</span>
 		</button>
-		<nav :class="`sheet-tabs tabs tabs--${group}`" :data-group="group">
+		<nav :class="`sheet-tabs tabs tabs--${group} stroke stroke-bottom`" :data-group="group">
 			<template v-if="noSpan">
 				<a v-for="(tab, tabKey) in tabs" :key="`tab-${group}-${tabKey}`" @click="changeTab" :class="getTabClass(tab, tabKey)" :data-tab="tabKey">
 					<i v-if="tab.icon" :class="`fas ${tab.icon}`"></i>

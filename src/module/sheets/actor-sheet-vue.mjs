@@ -532,7 +532,8 @@ export class GrimwildActorSheetVue extends VueRenderingMixin(GrimwildBaseVueActo
 		else {
 			fieldData = this.document.system?.[field] ?? null;
 			if (!fieldData) return;
-			pool = fieldData[key]?.pool;
+			pool = key !== undefined ? fieldData[key]?.pool : fieldData;
+			if (!pool.diceNum) return;
 		}
 
 		// Handle roll.
@@ -567,7 +568,12 @@ export class GrimwildActorSheetVue extends VueRenderingMixin(GrimwildBaseVueActo
 			}
 			// Otherwise, update the condition.
 			else if (fieldData) {
-				fieldData[key].pool = pool;
+				if (key !== undefined) {
+					fieldData[key].pool = pool;
+				}
+				else {
+					fieldData = pool;
+				}
 				const update = {};
 				update[`system.${field}`] = fieldData;
 				await this.document.update({
