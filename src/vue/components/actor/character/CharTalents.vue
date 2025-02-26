@@ -2,19 +2,21 @@
 	<section class="grid grid-3col">
 		<ol class="items-list grid-span-3">
 			<!-- Header row -->
-			<li class="item flexrow items-header">
-				<div class="item-name">{{ game.i18n.localize('Name') }}</div>
+			<li class="flexrow items-header">
+				<div class="item-name">Talent Name</div>
 				<div class="item-controls">
 					<template v-if="context.editable">
-						<a class="item-control item-create"
+						<button class="item-control item-create"
 							title="Create item"
 							data-action="createDoc"
 							data-document-class="Item"
 							data-type="talent"
+							type="button"
 						>
 							<i class="fas fa-plus"></i><span>Add</span>
-						</a>
+						</button>
 					</template>
+					<button class="item-control item-compendium" type="button" data-action="openPack" data-pack="grimwild.talents"><i class="fas fa-atlas"></i>Compendium</button>
 				</div>
 			</li>
 			<!-- Talent rows -->

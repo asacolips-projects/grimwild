@@ -1,22 +1,27 @@
 // Section Header
-.items-header {
-	height: 28px;
-	margin: 2px 0;
-	padding: 0;
-	align-items: center;
-	background: rgba(0, 0, 0, 0.05);
-	border: $border-groove;
-	font-weight: bold;
-	> * {
-		font-size: 14px;
-		text-align: center;
-	}
-	.item-name {
+.items-list,
+.items {
+	.items-header {
+		height: auto;
+		margin: 0 0 4px;
+		padding: 0 0 8px;
+		align-items: center;
 		font-weight: bold;
-		padding-left: 5px;
-		text-align: left;
-		display: flex;
-		// font-size: 16px;
+		border-bottom: 2px solid;
+
+		.item-name {
+			font-weight: bold;
+			padding-left: 5px;
+			text-align: left;
+			display: flex;
+			font-size: 16px;
+			font-family: $font-display;
+			text-transform: uppercase;
+		}
+
+		.item-controls {
+			gap: 4px;
+		}
 	}
 }
 
@@ -65,6 +70,7 @@
 		display: flex;
 		flex: 0 0 60px;
 		justify-content: flex-end;
+
 		a {
 			font-size: 12px;
 			text-align: center;
@@ -122,25 +128,25 @@
 		font-size: 12px;
 	}
 
-	// Section Header
-	.items-header {
-		height: 28px;
-		margin: 2px 0;
-		padding: 0;
-		align-items: center;
-		background: rgba(0, 0, 0, 0.05);
-		border: $border-groove;
-		font-weight: bold;
-		> * {
-			font-size: 12px;
-			text-align: center;
-		}
-		.item-name {
-			padding-left: 5px;
-			text-align: left;
-			// font-size: 16px;
-		}
-	}
+	//	// Section Header
+	//	.items-header {
+	//		height: 28px;
+	//		margin: 2px 0;
+	//		padding: 0;
+	//		align-items: center;
+	//		background: rgba(0, 0, 0, 0.05);
+	//		border: $border-groove;
+	//		font-weight: bold;
+	//		> * {
+	//			font-size: 12px;
+	//			text-align: center;
+	//		}
+	//		.item-name {
+	//			padding-left: 5px;
+	//			text-align: left;
+	//			// font-size: 16px;
+	//		}
+	//	}
 }
 
 // Example style for Grimwild (can be removed if not needed).

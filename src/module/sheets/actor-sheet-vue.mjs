@@ -50,6 +50,7 @@ export class GrimwildActorSheetVue extends VueRenderingMixin(GrimwildBaseVueActo
 			createEffect: this._createEffect,
 			deleteEffect: this._deleteEffect,
 			toggleEffect: this._toggleEffect,
+			openPack: this._openPack,
 			createArrayEntry: this._createArrayEntry,
 			deleteArrayEntry: this._deleteArrayEntry,
 			changeXp: this._changeXp,
@@ -291,6 +292,16 @@ export class GrimwildActorSheetVue extends VueRenderingMixin(GrimwildBaseVueActo
 	 *   ACTIONS
 	 *
 	 **************/
+
+	static async _openPack(event, target) {
+		event.preventDefault();
+		const { pack } = target.dataset;
+
+		const compendium = game.packs.get(pack);
+		if (compendium?.apps?.[0]) {
+			compendium.apps[0].render(true);
+		}
+	}
 
 	/**
 	 * Handle creating a new bond entry.

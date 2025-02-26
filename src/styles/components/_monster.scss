@@ -32,6 +32,16 @@
 		align-items: flex-end;
 	}
 
+	.items-header {
+		justify-content: flex-end;
+
+		.item-controls {
+			flex: 0 0 auto;
+			// Weird CSS bug that was causing this overflow if there was no margin.
+			margin: 0 2px;
+		}
+	}
+
 	.items-list {
 		columns: 3;
 		column-gap: 8px;
