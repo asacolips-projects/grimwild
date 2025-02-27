@@ -92,6 +92,10 @@
 
 			&:hover {
 				color: #ffffff;
+
+				.theme-light & {
+					color: #444;
+				}
 			}
 
 			.item-image {

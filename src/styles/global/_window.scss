@@ -32,6 +32,12 @@
 }
 
 .grimwild {
+	font-family: $font-body;
+	h1, h2, h3, h4 {
+		font-family: $font-body;
+		font-weight: bold;
+	}
+
 	.theme-light & {
 		background-image: url("../assets/grimwild-page-texture-light.webp");
 		background-size: cover;
@@ -58,6 +64,8 @@
 
 		.tabs {
 			border: none;
+			font-family: $font-display;
+			text-transform: uppercase;
 		}
 	
 		.tab-link.active {

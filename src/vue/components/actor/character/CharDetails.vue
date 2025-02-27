@@ -1,9 +1,9 @@
 <template>
 	<div class="grid grid-2col">
 		<!-- Backgrounds -->
-		<fieldset class="grid-span-1 grid-row-span-2 grid-start-1">
+		<fieldset class="backgrounds grid-span-1 grid-row-span-2 grid-start-1">
 			<legend>{{ context.systemFields.backgrounds.label }}</legend>
-			<div class="background flexcol" v-for="(background, key) in context.system.backgrounds" :key="key">
+			<div :class="`background flexcol ${key === 0 ? 'stroke stroke-bottom' : ''}`" v-for="(background, key) in context.system.backgrounds" :key="key">
 				<div class="background-name form-group stacked">
 					<label>{{ game.i18n.localize('Name') }}</label>
 					<input type="text"

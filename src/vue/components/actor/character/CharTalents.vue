@@ -21,7 +21,7 @@
 			</li>
 			<!-- Talent rows -->
 			<li v-for="(item, id) in context.itemTypes.talent" :key="id"
-				:class="`item talent flexcol ${context.activeItems?.[item._id] ? 'active' : ''}`"
+				:class="`item talent flexcol ${context.activeItems?.[item._id] ? 'active' : ''} stroke stroke-bottom`"
 				:data-item-id="item._id"
 				data-drag="true"
 				draggable="true"

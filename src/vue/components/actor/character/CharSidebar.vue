@@ -24,7 +24,7 @@
 			<div class="traits form-group stacked">
 				<label>{{ context.systemFields.traits.label }}</label>
 				<div class="form-group stacked">
-					<div class="trait form-group" v-for="(trait, i) in context.system.traits" :key="i">
+					<div :class="`trait form-group ${trait.are ? 'are' : 'not'}`" v-for="(trait, i) in context.system.traits" :key="i">
 						<input type="checkbox" :name="`system.traits.${i}.are`" v-model="trait.are"/>
 						<input type="text" :name="`system.traits.${i}.value`" v-model="trait.value" list="traits-list"/>
 					</div>
@@ -37,7 +37,7 @@
 			<div class="desires form-group stacked">
 				<label>{{ context.systemFields.desires.label }}</label>
 				<div class="form-group stacked">
-					<div class="desire form-group" v-for="(desire, i) in context.system.desires" :key="i">
+					<div :class="`desire form-group ${desire.are ? 'are' : 'not'}`" v-for="(desire, i) in context.system.desires" :key="i">
 						<input type="checkbox" :name="`system.desires.${i}.are`" v-model="desire.are"/>
 						<input type="text" :name="`system.desires.${i}.value`" v-model="desire.value" list="desires-list"/>
 					</div>

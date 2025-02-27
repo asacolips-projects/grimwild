@@ -4,4 +4,13 @@
 		height: auto;
 		max-height: 100px;
 	}
+
+	.trait,
+	.desire {
+		&.not {
+			input[type="text"] {
+				background-color: #ff000022;
+			}
+		}
+	}
 }

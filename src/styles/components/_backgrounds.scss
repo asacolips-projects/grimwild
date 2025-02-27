@@ -1,3 +1,13 @@
+.backgrounds {
+	padding-top: 0;
+}
+
 .background.grid {
 	margin: 0;
+}
+
+.background.stroke-bottom {
+	&::after {
+		bottom: -16px;
+	}
 }

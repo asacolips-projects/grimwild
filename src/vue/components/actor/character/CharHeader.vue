@@ -6,7 +6,7 @@
 				<div v-for="(statGroup, statGroupKey) in [['bra', 'agi'], ['wit', 'pre']]" :key="statGroupKey"
 					:class="`${statGroupKey === 0 ? 'stats-physical' : 'stats-mental'} form-group stacked`"
 				>
-					<div class="stats-group form-group">
+					<div class="stats-group form-group stroke stroke-bottom">
 						<div v-for="(stat, statKey) in statGroup" :key="statKey" :class="`stat stat-${stat} form-group stacked`">
 							<label>
 								<button type="button"

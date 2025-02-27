@@ -27,6 +27,24 @@
 	.marked {
 		flex: 0 0 auto;
 	}
+
+	.stats-physical,
+	.stats-mental {
+		border: 1px solid var(--color-fieldset-border);
+		padding: 8px;
+		border-radius: 8px;
+
+		.theme-light & {
+			border-color:var(--color-border-light-2);
+		}
+	}
+
+	.stats-group {
+		&::after {
+			opacity: 0.25;
+			bottom: -5px;
+		}
+	}
 }
 
 .harm {
@@ -54,5 +72,24 @@ header.sheet-header {
 
 	.metacurrency-fields {
 		flex: 0 0 auto;
+		gap: 8px;
+
+		> .form-group {
+			border: 1px solid var(--color-fieldset-border);
+			padding: 4px 0;
+			border-radius: 8px;
+			gap: 4px;
+			align-items: center;
+			justify-content: center;
+			text-align: center;
+
+			.theme-light & {
+				border-color:var(--color-border-light-2);
+			}
+
+			> * {
+				padding: 0;
+			}
+		}
 	}
 }

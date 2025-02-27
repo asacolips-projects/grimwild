@@ -7,6 +7,11 @@
 	input[type="number"] {
 		height: auto;
 		line-height: 1.8;
+
+		.theme-light & {
+			background: #ffffff33;
+			border-color: #00000022;
+		}
 	}
 
 	input::placeholder {
