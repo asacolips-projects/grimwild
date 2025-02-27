@@ -215,9 +215,9 @@ export class GrimwildRollDialog extends foundry.applications.api.DialogV2 {
 		numberInput.classList.add("assist-value");
 		numberInput.type = "number";
 		numberInput.name = "numberInput[]";
-		numberInput.value = 0;
+		numberInput.value = 1;
 		numberInput.setAttribute("data-action-input", "updateDice");
-		numberInput.setAttribute("data-prev", 0);
+		numberInput.setAttribute("data-prev", 1);
 
 		// add inputs to row
 		row.appendChild(textInput);
@@ -226,6 +226,13 @@ export class GrimwildRollDialog extends foundry.applications.api.DialogV2 {
 		// add row to container
 		const dialog = document.querySelector("#grimwild-roll-dialog");
 		dialog.querySelector("#assistContainer").appendChild(row);
+
+		// update totals
+		const totalDisplay = dialog.querySelector("#totalDice");
+		const totalValue = dialog.querySelector("#totalDiceInput");
+		const currentValue = parseInt(totalDisplay.textContent || 0, 10);
+		totalDisplay.textContent = currentValue + 1;
+		totalValue.value = currentValue + 1;
 	}
 
 	static async _updateThornsTotal(event, target) {
