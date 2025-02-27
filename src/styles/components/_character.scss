@@ -7,6 +7,32 @@
 
 	.trait,
 	.desire {
+		input[type="checkbox"] {
+			&::after {
+				content: '';
+			}
+
+			&:not(:checked) {
+				&::before {
+					color: var(--color-level-error);
+					content: "\f00d";
+				}
+				&::after {
+					content: '';
+				}
+			}
+
+			&:checked {
+				&::before {
+					color: var(--color-level-success);
+					content: '\f00c';
+				}
+				&::after {
+					content: '';
+				}
+			}
+		}
+
 		&.not {
 			input[type="text"] {
 				background-color: #ff000022;

@@ -18,6 +18,13 @@
 		font-style: italic;
 		opacity: 0.5;
 	}
+
+	fieldset {
+		legend {
+			font-variant: small-caps;
+			font-size: 18px;
+		}
+	}
 }
 
 .sheet-header {
