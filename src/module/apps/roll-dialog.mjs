@@ -159,6 +159,7 @@ export class GrimwildRollDialog extends foundry.applications.api.DialogV2 {
 			|| (rollData.isRattled && isMentalStat(rollData.stat)));
 		// Do not check marked if it is ignored
 		rollData.isMarked = rollData.isMarked && !rollData.markIgnored;
+		rollData.assistants = game.actors.filter(a => a.type === 'character' && a.name !== rollData.name).map(a => a.name);
 
 		options.content = await renderTemplate("systems/grimwild/templates/dialog/stat-roll.hbs", rollData);
 		options.render = this._render;
@@ -207,6 +208,7 @@ export class GrimwildRollDialog extends foundry.applications.api.DialogV2 {
 		textInput.type = "text";
 		textInput.name = "textInput[]";
 		textInput.placeholder = "Name";
+		textInput.setAttribute('list', 'assistants-list');
 
 		// create new dice value input
 		const numberInput = document.createElement("input");

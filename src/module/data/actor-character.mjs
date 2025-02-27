@@ -229,6 +229,7 @@ export default class GrimwildCharacter extends GrimwildActorBase {
 		if (options?.stat && rollData?.stats?.[options.stat]) {
 			const rollDialog = await GrimwildRollDialog.open({
 				rollData: {
+					name: this?.name ?? this?.parent?.name,
 					spark: rollData?.spark,
 					stat: options.stat,
 					diceDefault: rollData?.stats?.[options.stat].value,
