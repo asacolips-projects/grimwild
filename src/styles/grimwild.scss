@@ -13,6 +13,7 @@
 @import 'global/flex';
 @import 'global/scroll-regions';
 @import 'global/journals';
+@import 'global/strokes';
 
 /* Styles limited to grimwild sheets */
 .grimwild {
@@ -41,5 +42,18 @@
 }
 
 #sus-control {
+  #ui-bottom & {
+    justify-content: flex-start;
+    margin-bottom: 4px;
+    gap: 2px;
+
+    color: var(--color-text-light-highlight);
+    text-align: center;
+    font-family: $font-display;
+    transition: all 100ms ease-in-out;
+    --sus-bg: rgba(0, 0, 0, 0.6);
+    --sus-bg-highlight: rgba(0, 0, 0);
+  }
+
   @import 'components/suspense';
 }

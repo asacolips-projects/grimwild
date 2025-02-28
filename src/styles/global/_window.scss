@@ -17,6 +17,14 @@
 		flex-direction: column;
 	}
 
+	hr {
+		.theme-light & {
+			color: var(--grimwild-c-tan);
+			background-image: linear-gradient(90deg, transparent 0%, var(--grimwild-c-tan) 50%, transparent 100%);
+			opacity: 0.25;
+		}
+	}
+
 	.sheet-header {
 		flex: 0 auto;
 	}
@@ -31,22 +39,62 @@
 	}
 }
 
-.grimwild .window-content {
-	position: relative;
+.grimwild {
+	font-family: $font-body;
+	h1, h2, h3, h4 {
+		font-family: $font-body;
+		font-weight: bold;
+		color: inherit;
+		text-shadow: none;
+	}
 
-	&::before {
-		content: '';
-		display: block;
-		position: absolute;
-		left: 0;
-		top: 0;
-		right: 0;
-		height: 300px;
-		background-image: url("../assets/grimwild-page-texture-dark.webp");
-		background-size: cover;
-		mask-image: linear-gradient(to bottom, black, transparent);
-		opacity: 0.75;
-		z-index: -1;
-		pointer-events: none;
+	.window-content {
+		position: relative;
+
+		button {
+			font-family: $font-body;
+		}
+	
+		.theme-dark &::before {
+			content: '';
+			display: block;
+			position: absolute;
+			left: 0;
+			top: 0;
+			right: 0;
+			height: 300px;
+			background-image: url("../assets/grimwild-page-texture-dark.webp");
+			background-size: cover;
+			mask-image: linear-gradient(to bottom, black, transparent);
+			opacity: 0.75;
+			z-index: -1;
+			pointer-events: none;
+		}
+
+		.theme-light &::before {
+			content: '';
+			display: block;
+			position: absolute;
+			left: 0;
+			top: 0;
+			right: 0;
+			height: 100%;
+			background-image: url("../assets/grimwild-page-texture-light.webp");
+			background-size: cover;
+			mask-image: linear-gradient(to bottom, black, transparent);
+			opacity: 0.75;
+			z-index: -1;
+			pointer-events: none;
+		}
+
+		.tabs {
+			border: none;
+			font-family: $font-display;
+			text-transform: uppercase;
+		}
+	
+		.tab-link.active {
+			font-weight: bold;
+		}
 	}
 }

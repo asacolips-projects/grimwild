@@ -1,11 +1,28 @@
 .tab-talents {
-	.talent {
-		padding: 4px 0;
-		margin: 0;
+	.items-list {
+		display: flex;
+		flex-direction: column;
+		gap: 8px;
+	}
 
-		+ .talent {
-			border-top: 1px solid #ffffff22;
+	.talent {
+		padding: 0 0 8px 0;
+		margin: 0;
+		font-family: $font-body;
+		font-size: 14px;
+		border: none;
+
+		&::after {
+			opacity: 0.25;
 		}
+	}
+
+	.item-name {
+		font-family: $font-body;
+		font-size: 22px;
+		font-weight: bold;
+		font-variant: small-caps;
+		// text-transform: uppercase;
 	}
 
 	.item-summary {
@@ -14,6 +31,12 @@
 
 	.item-trackers {
 		flex: 0 0 auto;
+		font-size: 14px;
+		max-width: 40%;
+
+		button {
+			font-family: $font-body;
+		}
 	}
 
 	.item-notes {

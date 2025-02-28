@@ -1,36 +1,60 @@
-* {
-	color: var(--color-text-light-highlight);
-	text-align: center;
-	font-family: $font-display;
-	transition: all 100ms ease-in-out;
-	--sus-bg: rgba(0, 0, 0, 0.6);
-	--sus-bg-highlight: rgba(0, 0, 0);
-}
-
 #sus-control-inner {
 	display: flex;
 	justify-content: left;
-	margin: 1px;
+	margin: 0;
+	gap: 2px;
 }
 
-#sus-adjust {
+#sus-adjust,
+.quick-pool-adjust {
 	display: flex;
 	flex-direction: column;
 	min-width: fit-content;
+	gap: 2px;
 }
 
 button {
 	background-color: var(--sus-bg);
 	pointer-events: all;
 	border-color: var(--sus-bg-highlight);
-	margin: 1px;
+	margin: 0;
+	line-height: inherit;
+	flex: 1;
+	color: var(--color-text-light-highlight);
+
 	&:hover {
 		background-color: var(--sus-bg-highlight);
 		box-shadow: 0 0 10px var(--color-warm-2) inset;
 	}
 }
 
-#sus-display {
+.quick-pool-content {
+	display: flex;
+
+	button {
+		flex: 0;
+		line-height: 1;
+	}
+}
+
+.quick-pool-inner {
+	display: flex;
+	flex-direction: row;
+	gap: 2px;
+	max-width: 472px;
+}
+
+.quick-pool-list {
+	height: 100%;
+	display: flex;
+	flex-direction: row;
+	gap: 2px;
+	max-width: 100%;
+	overflow-x: auto;
+}
+
+#sus-display,
+.quick-pool {
 	background: var(--sus-bg);
 	display: flex;
 	flex-direction: column;
@@ -39,8 +63,10 @@ button {
 	border: 2px solid;
 	border-radius: 4px;
 	border-color: var(--sus-bg-highlight);
-	margin: 1px;
+	margin: 0;
 	pointer-events: all;
+	height: 100%;
+
 	&:hover {
 		background-color: var(--sus-bg-highlight);
 	}
@@ -49,13 +75,21 @@ button {
 	}
 }
 
-#sus-current {
+#sus-current,
+.quick-pool-current {
 	padding: 2px;
 	font-size: xx-large;
+	height: 100%;
+	flex: 1;
 }
 
-#sus-label {
+#sus-label,
+.quick-pool-label {
 	padding: 2px;
 	max-height: fit-content;
 	text-transform: uppercase;
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	gap: 4px;
 }

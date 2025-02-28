@@ -7,6 +7,11 @@
 	input[type="number"] {
 		height: auto;
 		line-height: 1.8;
+
+		.theme-light & {
+			background: #ffffff33;
+			border-color: #00000022;
+		}
 	}
 
 	input::placeholder {
@@ -14,14 +19,10 @@
 		opacity: 0.5;
 	}
 
-	.stats,
-	.harm,
-	.spark,
-	.story,
-	.name,
-	.path {
-		input {
-			box-shadow: 0 0 5px 0 #00000099;
+	fieldset {
+		legend {
+			font-variant: small-caps;
+			font-size: 18px;
 		}
 	}
 }

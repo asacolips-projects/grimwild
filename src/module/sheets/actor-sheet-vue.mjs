@@ -50,6 +50,7 @@ export class GrimwildActorSheetVue extends VueRenderingMixin(GrimwildBaseVueActo
 			createEffect: this._createEffect,
 			deleteEffect: this._deleteEffect,
 			toggleEffect: this._toggleEffect,
+			openPack: this._openPack,
 			createArrayEntry: this._createArrayEntry,
 			deleteArrayEntry: this._deleteArrayEntry,
 			changeXp: this._changeXp,
@@ -292,6 +293,16 @@ export class GrimwildActorSheetVue extends VueRenderingMixin(GrimwildBaseVueActo
 	 *
 	 **************/
 
+	static async _openPack(event, target) {
+		event.preventDefault();
+		const { pack } = target.dataset;
+
+		const compendium = game.packs.get(pack);
+		if (compendium?.apps?.[0]) {
+			compendium.apps[0].render(true);
+		}
+	}
+
 	/**
 	 * Handle creating a new bond entry.
 	 *
@@ -521,7 +532,8 @@ export class GrimwildActorSheetVue extends VueRenderingMixin(GrimwildBaseVueActo
 		else {
 			fieldData = this.document.system?.[field] ?? null;
 			if (!fieldData) return;
-			pool = fieldData[key]?.pool;
+			pool = key !== undefined ? fieldData[key]?.pool : fieldData?.pool;
+			if (!pool.diceNum) return;
 		}
 
 		// Handle roll.
@@ -556,7 +568,12 @@ export class GrimwildActorSheetVue extends VueRenderingMixin(GrimwildBaseVueActo
 			}
 			// Otherwise, update the condition.
 			else if (fieldData) {
-				fieldData[key].pool = pool;
+				if (key !== undefined) {
+					fieldData[key].pool = pool;
+				}
+				else {
+					fieldData.pool = pool;
+				}
 				const update = {};
 				update[`system.${field}`] = fieldData;
 				await this.document.update({

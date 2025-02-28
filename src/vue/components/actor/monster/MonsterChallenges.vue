@@ -1,18 +1,19 @@
 <template>
-	<section class="challenges flexcol">
+	<section class="items challenges flexcol">
 		<!-- Header row -->
-		<div class="item flexrow items-header">
-			<div class="item-name">{{ game.i18n.localize('Name') }}</div>
+		<div class="flexrow items-header">
+			<div class="item-name">Challenges</div>
 			<div class="item-controls">
 				<template v-if="context.editable">
-					<a class="item-control item-create"
+					<button class="item-control item-create"
 						title="Create item"
 						data-action="createDoc"
 						data-document-class="Item"
 						data-type="challenge"
+						type="button"
 					>
 						<i class="fas fa-plus"></i><span>Add</span>
-					</a>
+					</button>
 				</template>
 			</div>
 		</div>

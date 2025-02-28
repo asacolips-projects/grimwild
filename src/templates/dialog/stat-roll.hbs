@@ -23,6 +23,11 @@
 				<hr>
 				<div id="assistContainer">
 							<!-- Rows will be added here dynamically -->
+						<datalist id="assistants-list">
+							{{#each assistants as |assistant index|}}
+							<option value="{{assistant}}"></option>
+							{{/each}}
+						</datalist>
 				</div>
 				<button type="button" id="addAssist" data-action="addAssist"><i class="fas fa-plus"></i>{{localize "GRIMWILD.Dice.assist"}}</button>
 				<hr>

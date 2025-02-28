@@ -31,7 +31,7 @@ export class GrimwildActorMonsterSheetVue extends GrimwildActorSheetVue {
 		editPermission: DOCUMENT_OWNERSHIP_LEVELS.OWNER,
 		position: {
 			width: 600,
-			height: 800
+			height: 640
 		},
 		window: {
 			resizable: true

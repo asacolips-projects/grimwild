@@ -177,6 +177,19 @@ Hooks.once("ready", function () {
 
 Hooks.once("renderHotbar", function () {
 	SUSPENSE_TRACKER.render();
+	console.log('RENDERING');
+});
+
+Hooks.on('updateScene', (document, changed, options, userId) => {
+	console.log('DOCUMENT', document);
+	if (document.flags?.grimwild?.quickPools) {
+		SUSPENSE_TRACKER.render();
+	}
+});
+
+Hooks.on('renderSceneControls', (application, html, data) => {
+	console.log('scene!');
+	SUSPENSE_TRACKER.render();
 });
 
 /* -------------------------------------------- */

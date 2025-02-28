@@ -32,20 +32,38 @@
 		align-items: flex-end;
 	}
 
+	.items-header {
+		justify-content: flex-end;
+
+		.item-controls {
+			flex: 0 0 auto;
+			// Weird CSS bug that was causing this overflow if there was no margin.
+			margin: 0 2px;
+		}
+	}
+
 	.items-list {
 		columns: 3;
 		column-gap: 8px;
 		padding: 8px 0;
 
 		.challenge {
-			background: var(--background);
+			background: #dbd2bca9;
 			border-radius: 4px;
 			break-inside: avoid-column;
 			padding: 4px;
 
+			.theme-dark & {
+				background: var(--background);
+			}
+
 			.item-summary {
-				background: #ffffff11;
+				background: #ffffff44;
 				padding: 0 2px;
+				
+				.theme-dark & {
+					background: #ffffff11;
+				}
 
 				.item-name {
 					border-bottom: 1px solid;
