@@ -20,6 +20,7 @@ function getScenePools() {
 	if (!scene) return '';
 
 	const pools = scene.getFlag('grimwild', 'quickPools') ?? [];
+	const editable = game.user.isGM ? `contentEditable="plaintext-only"` : '';
 	const poolHtml = `
 	<div class="quick-pool-inner">
 		<div class="quick-pool-list">
@@ -27,12 +28,12 @@ function getScenePools() {
 				<div class="quick-pool">
 					<div class="quick-pool-content">
 						<div class="quick-pool-current">
-							<span class="js-quick-pool-text" contentEditable="plaintext-only" data-pool="${index}" data-field="diceNum">${pool.diceNum}</span>d
+							<span class="js-quick-pool-text" ${editable} data-pool="${index}" data-field="diceNum">${pool.diceNum}</span>d
 						</div>
 						${game.user.isGM ? `<button class="js-quick-pool-roll" type="button" data-roll-data="${pool.diceNum}" data-pool="${index}"><i class="fas fa-dice-d6"></i></button>` : ''}
 					</div>
 					<div class="quick-pool-label">
-						<span class="js-quick-pool-text" contentEditable="plaintext-only" data-pool="${index}" data-field="label">${pool.label}</span>
+						<span class="js-quick-pool-text" ${editable} data-pool="${index}" data-field="label">${pool.label}</span>
 						${game.user.isGM ? `<button class="js-quick-pool-delete" data-pool="${index}" type="button"><i class="fas fa-trash"></i></button>` : ''}
 					</div>
 				</div>
