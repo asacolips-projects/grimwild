@@ -27,7 +27,7 @@ function getScenePools() {
 	const poolHtml = `
 	<div class="quick-pool-inner">
 		<div class="quick-pool-list">
-			${pools.map((pool, index) => `
+			${pools.filter(pool => game.user.isGM || pool.visible).map((pool, index) => `
 				<div class="quick-pool flex-row">
 					<div class="flex-col">
 						<div class="quick-pool-current">
@@ -38,9 +38,10 @@ function getScenePools() {
 						</div>
 					</div>
 					${game.user.isGM
-		? `<div class="flex-col">
-						<button class="inner hover-highlight-icon js-quick-pool-roll" type="button" data-roll-data="${pool.diceNum}" data-pool="${index}"><i class="fas fa-dice-d6"></i></button>
-						<button class="inner hover-highlight-icon js-quick-pool-delete" data-pool="${index}" type="button"><i class="fas fa-trash"></i></button>
+		? `<div class="flex-col flex-center">
+						<button class="button-icon js-quick-pool-roll" type="button" data-visible="${pool.visible}" data-roll-data="${pool.diceNum}" data-pool="${index}"><i class="fas fa-dice-d6"></i></button>
+						<button class="button-icon js-quick-pool-display" type="button" data-pool="${index}"><i class="fas fa-eye${pool.visible ? "" : "-slash dim"}"></i></button>
+						<button class="button-icon js-quick-pool-delete" data-pool="${index}" type="button"><i class="fas fa-trash"></i></button>
 					</div>` : ""
 }
 				</div>
@@ -63,7 +64,7 @@ function addQuickPool() {
 	if (!scene) return "";
 
 	const pools = scene.getFlag("grimwild", "quickPools") ?? [];
-	pools.push({ diceNum: 4, label: "Label" });
+	pools.push({ diceNum: 4, label: "Label", visible: false });
 	scene.setFlag("grimwild", "quickPools", pools);
 	ui.hotbar.render();
 }
@@ -159,6 +160,16 @@ class SuspenseTracker {
 				if (!scene) return;
 				const quickPools = scene.getFlag("grimwild", "quickPools");
 				quickPools.splice(pool, 1);
+				scene.setFlag("grimwild", "quickPools", quickPools);
+			}));
+			
+			document.querySelectorAll(".js-quick-pool-display").forEach((element) => element.addEventListener("click", (event) => {
+				const { pool } = event.currentTarget.dataset;
+				const scene = getScene();
+				console.log("POOL", pool);
+				if (!scene) return;
+				const quickPools = scene.getFlag("grimwild", "quickPools");
+				quickPools[pool]['visible'] = !quickPools[pool]['visible'];
 				scene.setFlag("grimwild", "quickPools", quickPools);
 			}));
 

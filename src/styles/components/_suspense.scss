@@ -27,21 +27,26 @@ button {
 	flex: 1;
 	color: var(--color-text-light-highlight);
 
-	&.inner {
+	&.hover-highlight:hover {
+		background-color: var(--sus-bg-highlight);
+		box-shadow: 0 0 10px var(--color-warm-2) inset;
+	}
+
+	&.button-icon {
 		background: none;
 		border-style: none;
-	}
-}
-
-button.hover-highlight:hover {
-	background-color: var(--sus-bg-highlight);
-	box-shadow: 0 0 10px var(--color-warm-2) inset;
-}
-
-button.hover-highlight-icon:hover {
-	box-shadow: none;
-	i {
-		text-shadow: 0 0 10px var(--color-warm-2);
+		i {
+			max-width: 14px;
+			&.dim {
+				color: var(--color-dark-6);
+			}
+		}
+		&:hover {
+			box-shadow: none;
+			i {
+				text-shadow: 0 0 10px var(--color-warm-2);
+			}
+		}
 	}
 }
 
