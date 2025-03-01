@@ -22,18 +22,21 @@ button {
 	flex: 1;
 	color: var(--color-text-light-highlight);
 
-	&:hover {
-		background-color: var(--sus-bg-highlight);
-		box-shadow: 0 0 10px var(--color-warm-2) inset;
+	&.inner {
+		background: none;
+		border-style: none;
 	}
 }
 
-.quick-pool-content {
-	display: flex;
+button.hover-highlight:hover {
+	background-color: var(--sus-bg-highlight);
+	box-shadow: 0 0 10px var(--color-warm-2) inset;
+}
 
-	button {
-		flex: 0;
-		line-height: 1;
+button.hover-highlight-icon:hover {
+	box-shadow: none;
+	i {
+		text-shadow: 0 0 10px var(--color-warm-2);
 	}
 }
 
@@ -53,12 +56,22 @@ button {
 	overflow-x: auto;
 }
 
+.flex-col {
+	display: flex;
+	flex-direction: column;
+	justify-content: space-around;
+}
+
+.flex-row {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+}
+
 #sus-display,
 .quick-pool {
 	background: var(--sus-bg);
-	display: flex;
-	flex-direction: column;
-	justify-content: end;
+	
 	padding: 2px;
 	border: 2px solid;
 	border-radius: 4px;
