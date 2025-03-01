@@ -20,27 +20,33 @@ function getScenePools() {
 	if (!scene) return '';
 
 	const pools = scene.getFlag('grimwild', 'quickPools') ?? [];
+	const editable = game.user.isGM ? `contentEditable="plaintext-only"` : '';
 	const poolHtml = `
 	<div class="quick-pool-inner">
 		<div class="quick-pool-list">
 			${pools.map((pool, index) => `
-				<div class="quick-pool">
-					<div class="quick-pool-content">
+				<div class="quick-pool flex-row">
+					<div class="flex-col">
 						<div class="quick-pool-current">
-							<span class="js-quick-pool-text" contentEditable="plaintext-only" data-pool="${index}" data-field="diceNum">${pool.diceNum}</span>d
+							<span class="js-quick-pool-text" ${editable} data-pool="${index}" data-field="diceNum">${pool.diceNum}</span>d
 						</div>
-						${game.user.isGM ? `<button class="js-quick-pool-roll" type="button" data-roll-data="${pool.diceNum}" data-pool="${index}"><i class="fas fa-dice-d6"></i></button>` : ''}
+						<div class="quick-pool-label">
+							<span class="js-quick-pool-text" ${editable} data-pool="${index}" data-field="label">${pool.label}</span>
+						</div>
 					</div>
-					<div class="quick-pool-label">
-						<span class="js-quick-pool-text" contentEditable="plaintext-only" data-pool="${index}" data-field="label">${pool.label}</span>
-						${game.user.isGM ? `<button class="js-quick-pool-delete" data-pool="${index}" type="button"><i class="fas fa-trash"></i></button>` : ''}
-					</div>
+					${game.user.isGM ? 
+					`<div class="flex-col">
+						<button class="inner hover-highlight-icon js-quick-pool-roll" type="button" data-roll-data="${pool.diceNum}" data-pool="${index}"><i class="fas fa-dice-d6"></i></button>
+						<button class="inner hover-highlight-icon js-quick-pool-delete" data-pool="${index}" type="button"><i class="fas fa-trash"></i></button>
+					</div>` : ''
+					}
 				</div>
 			`).join('')}
 		</div>
-		<div class="quick-pool-adjust">
-			<button class="js-quick-pool-add">+ Pool</button>
-		</div>
+		${game.user.isGM ?
+			`<div class="quick-pool-adjust">
+			<button class="hover-highlight js-quick-pool-add">+ Pool</button>
+		</div>` : ''}
 	</div>
 	`;
 	return poolHtml;
@@ -97,14 +103,14 @@ class SuspenseTracker {
 
 		const buttonHtml = `
 		<div id="sus-adjust">
-			<button id="js-sus-up">+</button>
-			<button id="js-sus-dn">-</button>
+			<button class="hover-highlight" id="js-sus-up">+</button>
+			<button class="hover-highlight" id="js-sus-dn">-</button>
 		</div>`;
 
 		const label = game.i18n.localize("GRIMWILD.Resources.suspense");
 		const susControlInnerHTML = `
 		<div id="sus-control-inner">
-			<div id="sus-display">
+			<div id="sus-display" class="flex-col">
 				<div id="sus-current">${getSuspense()}</div>
 				<div id="sus-label">${label}</div>
 			</div>
@@ -153,6 +159,7 @@ class SuspenseTracker {
 			}));
 
 			document.querySelectorAll('.js-quick-pool-roll').forEach(element => element.addEventListener('click', async (event) => {
+				console.log(event);
 				let { rollData, pool } = event.currentTarget.dataset;
 				rollData = Number.isNumeric(rollData) ? Number(rollData) : 0;
 				const scene = getScene();
