@@ -43,9 +43,10 @@ function getScenePools() {
 				</div>
 			`).join('')}
 		</div>
-		<div class="quick-pool-adjust">
+		${game.user.isGM ?
+			`<div class="quick-pool-adjust">
 			<button class="hover-highlight js-quick-pool-add">+ Pool</button>
-		</div>
+		</div>` : ''}
 	</div>
 	`;
 	return poolHtml;
