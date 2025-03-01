@@ -5,6 +5,9 @@ GRIMWILD:
     suspenseVisible:
       name: Suspense visible to players
       hint: Toggle this on/off to show/hide the suspense tracker for non-GMs.
+    quickPoolsVisible:
+      name: Quick Pools visible to players
+      hint: Toggle this on/off to show/hide the quick pools in the bottom UI for non-GMs.
   Stat:
     bra:
       long: Brawn

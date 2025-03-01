@@ -87,6 +87,15 @@ class SuspenseTracker {
 			default: true,
 			onChange: (_) => this.render()
 		});
+		game.settings.register("grimwild", "quickPoolsVisible", {
+			name: game.i18n.localize("GRIMWILD.Settings.quickPoolsVisible.name"),
+			hint: game.i18n.localize("GRIMWILD.Settings.quickPoolsVisible.hint"),
+			scope: "world",
+			config: true,
+			type: Boolean,
+			default: true,
+			onChange: (_) => this.render()
+		});
 		game.settings.register("grimwild", "suspense", {
 			name: "Suspense",
 			scope: "world",
@@ -99,13 +108,14 @@ class SuspenseTracker {
 
 	render(value) {
 		const isGM = game.user.isGM;
-		const visibleToPlayers = game.settings.get("grimwild", "suspenseVisible");
+		const susVisibleToPlayers = game.settings.get("grimwild", "suspenseVisible");
+		const quickPoolsVisibleToPlayers = game.settings.get("grimwild", "quickPoolsVisible");
 
 		console.log("CLASS RENDER", getScene());
 
 		let susControl = document.getElementById("sus-control");
 
-		if (!isGM && !visibleToPlayers) {
+		if (!isGM && !susVisibleToPlayers && !quickPoolsVisibleToPlayers) {
 			if (susControl) susControl.innerHTML = "";
 			return;
 		}
@@ -117,14 +127,14 @@ class SuspenseTracker {
 		</div>`;
 
 		const label = game.i18n.localize("GRIMWILD.Resources.suspense");
-		const susControlInnerHTML = `
+		const susControlInnerHTML = isGM || susVisibleToPlayers ? `
 		<div id="sus-control-inner">
 			<div id="sus-display" class="flex-col">
 				<div id="sus-current">${getSuspense()}</div>
 				<div id="sus-label">${label}</div>
 			</div>
 			${isGM ? buttonHtml : ""}
-		</div>`;
+		</div>` : '';
 
 		if (!susControl) {
 			susControl = document.createElement("div");
@@ -132,7 +142,7 @@ class SuspenseTracker {
 			document.getElementById("ui-bottom").prepend(susControl);
 		}
 
-		const quickPoolHtml = getScenePools();
+		const quickPoolHtml = isGM || quickPoolsVisibleToPlayers ? getScenePools() : '';
 		susControl.innerHTML = `${susControlInnerHTML}${quickPoolHtml}`;
 
 		if (isGM) {
