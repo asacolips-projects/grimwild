@@ -15,12 +15,15 @@ function setSuspense(value) {
 	game.settings.set("grimwild", "suspense", value);
 }
 
+/**
+ *
+ */
 function getScenePools() {
 	const scene = getScene();
-	if (!scene) return '';
+	if (!scene) return "";
 
-	const pools = scene.getFlag('grimwild', 'quickPools') ?? [];
-	const editable = game.user.isGM ? `contentEditable="plaintext-only"` : '';
+	const pools = scene.getFlag("grimwild", "quickPools") ?? [];
+	const editable = game.user.isGM ? "contentEditable=\"plaintext-only\"" : "";
 	const poolHtml = `
 	<div class="quick-pool-inner">
 		<div class="quick-pool-list">
@@ -34,34 +37,40 @@ function getScenePools() {
 							<span class="js-quick-pool-text" ${editable} data-pool="${index}" data-field="label">${pool.label}</span>
 						</div>
 					</div>
-					${game.user.isGM ? 
-					`<div class="flex-col">
+					${game.user.isGM
+		? `<div class="flex-col">
 						<button class="inner hover-highlight-icon js-quick-pool-roll" type="button" data-roll-data="${pool.diceNum}" data-pool="${index}"><i class="fas fa-dice-d6"></i></button>
 						<button class="inner hover-highlight-icon js-quick-pool-delete" data-pool="${index}" type="button"><i class="fas fa-trash"></i></button>
-					</div>` : ''
-					}
+					</div>` : ""
+}
 				</div>
-			`).join('')}
+			`).join("")}
 		</div>
-		${game.user.isGM ?
-			`<div class="quick-pool-adjust">
+		${game.user.isGM
+		? `<div class="quick-pool-adjust">
 			<button class="hover-highlight js-quick-pool-add">+ Pool</button>
-		</div>` : ''}
+		</div>` : ""}
 	</div>
 	`;
 	return poolHtml;
 }
 
+/**
+ *
+ */
 function addQuickPool() {
 	const scene = getScene();
-	if (!scene) return '';
+	if (!scene) return "";
 
-	const pools = scene.getFlag('grimwild', 'quickPools') ?? [];
-	pools.push({diceNum: 4, label: 'Label'});
-	scene.setFlag('grimwild', 'quickPools', pools);
+	const pools = scene.getFlag("grimwild", "quickPools") ?? [];
+	pools.push({ diceNum: 4, label: "Label" });
+	scene.setFlag("grimwild", "quickPools", pools);
 	ui.hotbar.render();
 }
 
+/**
+ *
+ */
 function getScene() {
 	return canvas?.scene ?? game.scenes.active;
 }
@@ -92,7 +101,7 @@ class SuspenseTracker {
 		const isGM = game.user.isGM;
 		const visibleToPlayers = game.settings.get("grimwild", "suspenseVisible");
 
-		console.log('CLASS RENDER', getScene());
+		console.log("CLASS RENDER", getScene());
 
 		let susControl = document.getElementById("sus-control");
 
@@ -133,49 +142,49 @@ class SuspenseTracker {
 			};
 			document.querySelector(".js-quick-pool-add").onclick = () => addQuickPool();
 
-			document.querySelectorAll(".js-quick-pool-delete").forEach(element => element.addEventListener('click', (event) => {
+			document.querySelectorAll(".js-quick-pool-delete").forEach((element) => element.addEventListener("click", (event) => {
 				const { pool } = event.currentTarget.dataset;
 				const scene = getScene();
-				console.log('POOL', pool);
+				console.log("POOL", pool);
 				if (!scene) return;
-				const quickPools = scene.getFlag('grimwild', 'quickPools');
+				const quickPools = scene.getFlag("grimwild", "quickPools");
 				quickPools.splice(pool, 1);
-				scene.setFlag('grimwild', 'quickPools', quickPools);
+				scene.setFlag("grimwild", "quickPools", quickPools);
 			}));
 
-			document.querySelectorAll('.js-quick-pool-text').forEach(element => element.addEventListener('focusout', (event) => {
+			document.querySelectorAll(".js-quick-pool-text").forEach((element) => element.addEventListener("focusout", (event) => {
 				const { pool, field } = event.currentTarget.dataset;
 				const scene = getScene();
 				if (!scene) return;
-				const quickPools = scene.getFlag('grimwild', 'quickPools');
+				const quickPools = scene.getFlag("grimwild", "quickPools");
 				let value = event.currentTarget.innerText;
 				// If value isn't a number on the pool field, exit early.
-				if (field === 'diceNum' && !Number.isNumeric(value)) {
+				if (field === "diceNum" && !Number.isNumeric(value)) {
 					this.render();
 					return;
 				}
 				quickPools[pool][field] = value;
-				scene.setFlag('grimwild', 'quickPools', quickPools);
+				scene.setFlag("grimwild", "quickPools", quickPools);
 			}));
 
-			document.querySelectorAll('.js-quick-pool-roll').forEach(element => element.addEventListener('click', async (event) => {
+			document.querySelectorAll(".js-quick-pool-roll").forEach((element) => element.addEventListener("click", async (event) => {
 				console.log(event);
 				let { rollData, pool } = event.currentTarget.dataset;
 				rollData = Number.isNumeric(rollData) ? Number(rollData) : 0;
 				const scene = getScene();
-				console.log('rollData', rollData, event.currentTarget);
+				console.log("rollData", rollData, event.currentTarget);
 				if (!scene || !rollData) return;
-				const quickPools = scene.getFlag('grimwild', 'quickPools');
+				const quickPools = scene.getFlag("grimwild", "quickPools");
 
 				if (rollData) {
 					const roll = new grimwild.diePools(`{${rollData}d6}`, {});
 					const result = await roll.evaluate();
 					const dice = result.dice[0].results;
 					const dropped = dice.filter((die) => die.result < 4);
-					
+
 					const speaker = ChatMessage.getSpeaker();
 					const rollMode = game.settings.get("core", "rollMode");
-					const label = `[pool] ${event.target.closest('.quick-pool').querySelector('.quick-pool-label .js-quick-pool-text').innerText}`;
+					const label = `[pool] ${event.target.closest(".quick-pool").querySelector(".quick-pool-label .js-quick-pool-text").innerText}`;
 					// Send to chat.
 					const msg = await roll.toMessage({
 						speaker: speaker,
@@ -190,7 +199,7 @@ class SuspenseTracker {
 					rollData -= dropped.length;
 
 					quickPools[pool].diceNum = rollData;
-					scene.setFlag('grimwild', 'quickPools', quickPools);
+					scene.setFlag("grimwild", "quickPools", quickPools);
 				}
 			}));
 		}

@@ -31,11 +31,11 @@ export default class GrimwildCharacter extends GrimwildActorBase {
 
 		schema.bloodied = new fields.SchemaField({
 			pool: new DicePoolField(),
-			marked: new fields.BooleanField(),
+			marked: new fields.BooleanField()
 		});
 		schema.rattled = new fields.SchemaField({
 			pool: new DicePoolField(),
-			marked: new fields.BooleanField(),
+			marked: new fields.BooleanField()
 		});
 		schema.conditions = new fields.ArrayField(new fields.SchemaField({
 			name: new fields.StringField(),
@@ -278,7 +278,7 @@ export default class GrimwildCharacter extends GrimwildActorBase {
 	 */
 	static migrateData(source) {
 		if (!source.bloodied.pool && source.bloodied.diceNum) {
-			const oldBloodied = {...source.bloodied};
+			const oldBloodied = { ...source.bloodied };
 			source.bloodied = {
 				pool: oldBloodied,
 				marked: false
@@ -286,7 +286,7 @@ export default class GrimwildCharacter extends GrimwildActorBase {
 		}
 
 		if (!source.rattled.pool && source.rattled.diceNum) {
-			const oldRattled = {...source.rattled};
+			const oldRattled = { ...source.rattled };
 			source.rattled = {
 				pool: oldRattled,
 				marked: false
