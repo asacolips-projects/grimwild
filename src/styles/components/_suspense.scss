@@ -13,6 +13,11 @@
 	gap: 2px;
 }
 
+.quick-pool-adjust {
+	writing-mode: vertical-rl;
+	text-orientation: mixed;
+}
+
 button {
 	background-color: var(--sus-bg);
 	pointer-events: all;
