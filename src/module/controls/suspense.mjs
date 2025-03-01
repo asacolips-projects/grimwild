@@ -27,7 +27,7 @@ function getScenePools() {
 	const poolHtml = `
 	<div class="quick-pool-inner">
 		<div class="quick-pool-list">
-			${pools.map((pool, index) => `
+			${pools.filter((pool) => game.user.isGM || pool.visible).map((pool, index) => `
 				<div class="quick-pool flex-row">
 					<div class="flex-col">
 						<div class="quick-pool-current">
@@ -38,13 +38,15 @@ function getScenePools() {
 						</div>
 					</div>
 					${game.user.isGM
-		? `<div class="flex-col">
-						<button class="inner hover-highlight-icon js-quick-pool-roll" type="button" data-roll-data="${pool.diceNum}" data-pool="${index}"><i class="fas fa-dice-d6"></i></button>
-						<button class="inner hover-highlight-icon js-quick-pool-delete" data-pool="${index}" type="button"><i class="fas fa-trash"></i></button>
+		? `<div class="flex-col flex-center">
+						<button class="button-icon js-quick-pool-roll" type="button" data-visible="${pool.visible}" data-roll-data="${pool.diceNum}" data-pool="${index}"><i class="fas fa-dice-d6"></i></button>
+						<button class="button-icon js-quick-pool-display" type="button" data-pool="${index}"><i class="fas fa-eye${pool.visible ? "" : "-slash dim"}"></i></button>
+						<button class="button-icon js-quick-pool-delete" data-pool="${index}" type="button"><i class="fas fa-trash"></i></button>
 					</div>` : ""
 }
 				</div>
-			`).join("")}
+			`)
+		.join("")}
 		</div>
 		${game.user.isGM
 		? `<div class="quick-pool-adjust">
@@ -62,8 +64,9 @@ function addQuickPool() {
 	const scene = getScene();
 	if (!scene) return "";
 
+	const visibleDefault = game.settings.get("grimwild", "quickPoolsVisibleDefault");
 	const pools = scene.getFlag("grimwild", "quickPools") ?? [];
-	pools.push({ diceNum: 4, label: "Label" });
+	pools.push({ diceNum: 4, label: "Label", visible: visibleDefault });
 	scene.setFlag("grimwild", "quickPools", pools);
 	ui.hotbar.render();
 }
@@ -87,6 +90,24 @@ class SuspenseTracker {
 			default: true,
 			onChange: (_) => this.render()
 		});
+		game.settings.register("grimwild", "quickPoolsVisible", {
+			name: game.i18n.localize("GRIMWILD.Settings.quickPoolsVisible.name"),
+			hint: game.i18n.localize("GRIMWILD.Settings.quickPoolsVisible.hint"),
+			scope: "world",
+			config: true,
+			type: Boolean,
+			default: true,
+			onChange: (_) => this.render()
+		});
+		game.settings.register("grimwild", "quickPoolsVisibleDefault", {
+			name: game.i18n.localize("GRIMWILD.Settings.quickPoolsVisibleDefault.name"),
+			hint: game.i18n.localize("GRIMWILD.Settings.quickPoolsVisibleDefault.hint"),
+			scope: "world",
+			config: true,
+			type: Boolean,
+			default: false,
+			onChange: (_) => this.render()
+		});
 		game.settings.register("grimwild", "suspense", {
 			name: "Suspense",
 			scope: "world",
@@ -99,13 +120,14 @@ class SuspenseTracker {
 
 	render(value) {
 		const isGM = game.user.isGM;
-		const visibleToPlayers = game.settings.get("grimwild", "suspenseVisible");
+		const susVisibleToPlayers = game.settings.get("grimwild", "suspenseVisible");
+		const quickPoolsVisibleToPlayers = game.settings.get("grimwild", "quickPoolsVisible");
 
 		console.log("CLASS RENDER", getScene());
 
 		let susControl = document.getElementById("sus-control");
 
-		if (!isGM && !visibleToPlayers) {
+		if (!isGM && !susVisibleToPlayers && !quickPoolsVisibleToPlayers) {
 			if (susControl) susControl.innerHTML = "";
 			return;
 		}
@@ -117,14 +139,14 @@ class SuspenseTracker {
 		</div>`;
 
 		const label = game.i18n.localize("GRIMWILD.Resources.suspense");
-		const susControlInnerHTML = `
+		const susControlInnerHTML = isGM || susVisibleToPlayers ? `
 		<div id="sus-control-inner">
 			<div id="sus-display" class="flex-col">
 				<div id="sus-current">${getSuspense()}</div>
 				<div id="sus-label">${label}</div>
 			</div>
 			${isGM ? buttonHtml : ""}
-		</div>`;
+		</div>` : "";
 
 		if (!susControl) {
 			susControl = document.createElement("div");
@@ -132,7 +154,7 @@ class SuspenseTracker {
 			document.getElementById("ui-bottom").prepend(susControl);
 		}
 
-		const quickPoolHtml = getScenePools();
+		const quickPoolHtml = isGM || quickPoolsVisibleToPlayers ? getScenePools() : "";
 		susControl.innerHTML = `${susControlInnerHTML}${quickPoolHtml}`;
 
 		if (isGM) {
@@ -149,6 +171,16 @@ class SuspenseTracker {
 				if (!scene) return;
 				const quickPools = scene.getFlag("grimwild", "quickPools");
 				quickPools.splice(pool, 1);
+				scene.setFlag("grimwild", "quickPools", quickPools);
+			}));
+
+			document.querySelectorAll(".js-quick-pool-display").forEach((element) => element.addEventListener("click", (event) => {
+				const { pool } = event.currentTarget.dataset;
+				const scene = getScene();
+				console.log("POOL", pool);
+				if (!scene) return;
+				const quickPools = scene.getFlag("grimwild", "quickPools");
+				quickPools[pool].visible = !quickPools[pool].visible;
 				scene.setFlag("grimwild", "quickPools", quickPools);
 			}));
 
