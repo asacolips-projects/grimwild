@@ -63,8 +63,9 @@ function addQuickPool() {
 	const scene = getScene();
 	if (!scene) return "";
 
+	const visibleDefault = game.settings.get("grimwild", "quickPoolsVisibleDefault");
 	const pools = scene.getFlag("grimwild", "quickPools") ?? [];
-	pools.push({ diceNum: 4, label: "Label", visible: false });
+	pools.push({ diceNum: 4, label: "Label", visible: visibleDefault });
 	scene.setFlag("grimwild", "quickPools", pools);
 	ui.hotbar.render();
 }
@@ -95,6 +96,15 @@ class SuspenseTracker {
 			config: true,
 			type: Boolean,
 			default: true,
+			onChange: (_) => this.render()
+		});
+		game.settings.register("grimwild", "quickPoolsVisibleDefault", {
+			name: game.i18n.localize("GRIMWILD.Settings.quickPoolsVisibleDefault.name"),
+			hint: game.i18n.localize("GRIMWILD.Settings.quickPoolsVisibleDefault.hint"),
+			scope: "world",
+			config: true,
+			type: Boolean,
+			default: false,
 			onChange: (_) => this.render()
 		});
 		game.settings.register("grimwild", "suspense", {
