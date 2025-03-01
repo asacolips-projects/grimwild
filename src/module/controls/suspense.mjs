@@ -27,7 +27,7 @@ function getScenePools() {
 	const poolHtml = `
 	<div class="quick-pool-inner">
 		<div class="quick-pool-list">
-			${pools.filter(pool => game.user.isGM || pool.visible).map((pool, index) => `
+			${pools.filter((pool) => game.user.isGM || pool.visible).map((pool, index) => `
 				<div class="quick-pool flex-row">
 					<div class="flex-col">
 						<div class="quick-pool-current">
@@ -45,7 +45,8 @@ function getScenePools() {
 					</div>` : ""
 }
 				</div>
-			`).join("")}
+			`)
+		.join("")}
 		</div>
 		${game.user.isGM
 		? `<div class="quick-pool-adjust">
@@ -145,7 +146,7 @@ class SuspenseTracker {
 				<div id="sus-label">${label}</div>
 			</div>
 			${isGM ? buttonHtml : ""}
-		</div>` : '';
+		</div>` : "";
 
 		if (!susControl) {
 			susControl = document.createElement("div");
@@ -153,7 +154,7 @@ class SuspenseTracker {
 			document.getElementById("ui-bottom").prepend(susControl);
 		}
 
-		const quickPoolHtml = isGM || quickPoolsVisibleToPlayers ? getScenePools() : '';
+		const quickPoolHtml = isGM || quickPoolsVisibleToPlayers ? getScenePools() : "";
 		susControl.innerHTML = `${susControlInnerHTML}${quickPoolHtml}`;
 
 		if (isGM) {
@@ -172,14 +173,14 @@ class SuspenseTracker {
 				quickPools.splice(pool, 1);
 				scene.setFlag("grimwild", "quickPools", quickPools);
 			}));
-			
+
 			document.querySelectorAll(".js-quick-pool-display").forEach((element) => element.addEventListener("click", (event) => {
 				const { pool } = event.currentTarget.dataset;
 				const scene = getScene();
 				console.log("POOL", pool);
 				if (!scene) return;
 				const quickPools = scene.getFlag("grimwild", "quickPools");
-				quickPools[pool]['visible'] = !quickPools[pool]['visible'];
+				quickPools[pool].visible = !quickPools[pool].visible;
 				scene.setFlag("grimwild", "quickPools", quickPools);
 			}));
 
