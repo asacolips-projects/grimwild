@@ -84,7 +84,7 @@ export class GrimwildBaseVueActorSheet extends foundry.applications.sheets.Actor
 		}
 
 		for (const [key, item] of this.document.items.entries()) {
-			if (typeof this.activeItems?.[item.id] === 'undefined') {
+			if (typeof this.activeItems?.[item.id] === "undefined") {
 				this.activeItems[item.id] = true;
 			}
 		}
@@ -151,7 +151,7 @@ export class GrimwildBaseVueActorSheet extends foundry.applications.sheets.Actor
 	static async _toggleItem(event, target) {
 		const { itemId } = target.dataset;
 		if (itemId && typeof this.activeItems[itemId] !== "undefined") {
-			console.log('itemId', this.activeItems[itemId]);
+			console.log("itemId", this.activeItems[itemId]);
 			this.activeItems[itemId] = !this.activeItems[itemId];
 		}
 		else {
