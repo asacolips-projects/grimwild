@@ -12,7 +12,8 @@ export default class GrimwildDiePoolRoll extends Roll {
 			stat: this.options.stat,
 			dice: this.dice[0].results,
 			startPool: isPrivate ? "???" : "",
-			endPool: isPrivate ? "???" : ""
+			endPool: isPrivate ? "???" : "",
+			isPrivate: isPrivate
 		};
 
 		const dropped = chatData.dice.filter((die) => die.result < 4);
