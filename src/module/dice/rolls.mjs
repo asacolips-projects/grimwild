@@ -18,7 +18,7 @@ export default class GrimwildRoll extends Roll {
 			rawSuccess: 0,
 			rawResult: "",
 			isCut: false,
-			isPrivate: isPrivate,
+			isPrivate: isPrivate
 		};
 
 		const sixes = chatData.dice.filter((die) => die.result === 6);
