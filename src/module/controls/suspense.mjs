@@ -201,7 +201,7 @@ class SuspenseTracker {
 
 			document.querySelectorAll(".js-quick-pool-roll").forEach((element) => element.addEventListener("click", async (event) => {
 				console.log(event);
-				let { rollData, pool } = event.currentTarget.dataset;
+				let { visible, rollData, pool } = event.currentTarget.dataset;
 				rollData = Number.isNumeric(rollData) ? Number(rollData) : 0;
 				const scene = getScene();
 				console.log("rollData", rollData, event.currentTarget);
@@ -215,14 +215,14 @@ class SuspenseTracker {
 					const dropped = dice.filter((die) => die.result < 4);
 
 					const speaker = ChatMessage.getSpeaker();
-					const rollMode = game.settings.get("core", "rollMode");
+					const rollMode = visible === "true" ? game.settings.get("core", "rollMode") : CONST.DICE_ROLL_MODES.PRIVATE;
 					const label = `[pool] ${event.target.closest(".quick-pool").querySelector(".quick-pool-label .js-quick-pool-text").innerText}`;
 					// Send to chat.
 					const msg = await roll.toMessage({
 						speaker: speaker,
 						rollMode: rollMode,
 						flavor: label
-					});
+					}, { rollMode: rollMode });
 
 					if (game.dice3d && msg?.id) {
 						await game.dice3d.waitFor3DAnimationByMessageID(msg.id);
