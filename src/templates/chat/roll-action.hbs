@@ -1,3 +1,4 @@
+{{#unless isPrivate}}
 <section class="grimwild-chat grimwild-roll {{result}}">
   <h2>{{#if isCut }}
     {{localize (concat "GRIMWILD.Dice.results." rawResult)}} &#8594; 
@@ -29,3 +30,4 @@
     </section>
   </div>
 </section>
+{{/unless}}
