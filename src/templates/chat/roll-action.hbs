@@ -1,10 +1,12 @@
 {{#unless isPrivate}}
 <section class="grimwild-chat grimwild-roll {{result}}">
-  <h2>{{#if isCut }}
-    {{localize (concat "GRIMWILD.Dice.results." rawResult)}} &#8594; 
-    {{/if}}
-    {{localize (concat "GRIMWILD.Dice.results." result)}}</h2>
-  <em>{{stat}}</em>
+  <div class="results">
+    <h2>{{#if isCut }}
+      {{localize (concat "GRIMWILD.Dice.results." rawResult)}} &#8594; 
+      {{/if}}
+      {{localize (concat "GRIMWILD.Dice.results." result)}}</h2>
+    <em>{{stat}}</em>
+  </div>
   <div class="dice-tooltip expanded">
     <section class="tooltip-part">
       <div class="dice">
