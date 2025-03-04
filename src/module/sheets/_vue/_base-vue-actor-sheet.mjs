@@ -25,7 +25,7 @@ export class GrimwildBaseVueActorSheet extends foundry.applications.sheets.Actor
 					icon: "fa-solid fa-image",
 					label: "ACTOR.ViewArt",
 					ownership: "OWNER"
-				},
+				}
 			]
 		},
 		actions: {
@@ -39,7 +39,7 @@ export class GrimwildBaseVueActorSheet extends foundry.applications.sheets.Actor
 			deleteEffect: this._deleteEffect,
 			toggleEffect: this._toggleEffect,
 			toggleItem: this._toggleItem,
-			importFromCompendium: this._onImportFromCompendium,
+			importFromCompendium: this._onImportFromCompendium
 		},
 		dragDrop: [{ dragSelector: "[data-drag]", dropSelector: null }],
 		form: {
@@ -118,8 +118,8 @@ export class GrimwildBaseVueActorSheet extends foundry.applications.sheets.Actor
 	 * @param {PointerEvent} event
 	 */
 	static _onShowArtwork(event) {
-		const {img, name, uuid} = this.document;
-		new ImagePopout(img, {title: name, uuid: uuid}).render(true);
+		const { img, name, uuid } = this.document;
+		new ImagePopout(img, { title: name, uuid: uuid }).render(true);
 	}
 
 	/**

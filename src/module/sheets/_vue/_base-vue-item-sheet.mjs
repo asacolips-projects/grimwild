@@ -14,7 +14,7 @@ export class GrimwildBaseVueItemSheet extends foundry.applications.sheets.ItemSh
 					icon: "fa-solid fa-image",
 					label: "ITEM.ViewArt",
 					ownership: "OWNER"
-				},
+				}
 			]
 		},
 		actions: {
@@ -25,7 +25,7 @@ export class GrimwildBaseVueItemSheet extends foundry.applications.sheets.ItemSh
 			createEffect: this._createEffect,
 			deleteEffect: this._deleteEffect,
 			toggleEffect: this._toggleEffect,
-			importFromCompendium: this._onImportFromCompendium,
+			importFromCompendium: this._onImportFromCompendium
 		},
 		dragDrop: [{ dragSelector: "[data-drag]", dropSelector: null }],
 		form: {
@@ -78,8 +78,8 @@ export class GrimwildBaseVueItemSheet extends foundry.applications.sheets.ItemSh
 	 * @param {PointerEvent} event
 	 */
 	static #onShowArtwork(event) {
-		const {img, name, uuid} = this.document;
-		new ImagePopout(img, {title: name, uuid: uuid}).render(true);
+		const { img, name, uuid } = this.document;
+		new ImagePopout(img, { title: name, uuid: uuid }).render(true);
 	}
 
 	/**
@@ -126,8 +126,8 @@ export class GrimwildBaseVueItemSheet extends foundry.applications.sheets.ItemSh
 	 * @param {PointerEvent} event
 	 */
 	static _onShowArtwork(event) {
-		const {img, name, uuid} = this.document;
-		new ImagePopout(img, {title: name, uuid: uuid}).render(true);
+		const { img, name, uuid } = this.document;
+		new ImagePopout(img, { title: name, uuid: uuid }).render(true);
 	}
 
 	/**
