@@ -38,16 +38,48 @@
 
 	.message-sender {
 		font-family: $font-body;
-		font-size: 18px;
+		font-size: 15px;
+		line-height: 1;
 		color: #fffcdf;
+		display: flex;
+		flex-wrap: nowrap;
+		gap: 4px;
+		flex: 1 0 196px;
+		align-items: center;
 
 		.theme-light & {
 			color: #222;
+		}
+
+		.avatar {
+			display: block;
+			width: 40px;
+			height: 40px;
+			flex: 0 0 40px;
+			overflow: hidden;
+			border-radius: 50%;
+			border: 1px solid #333;
+
+			img {
+				border: none;
+			}
+		}
+
+		.name-stacked {
+			display: flex;
+			flex-direction: column;
+			white-space: wrap;
+			gap: 4px;
+		}
+
+		.subtitle {
+			font-size: 12px;
 		}
 	}
 
 	.flavor-text {
 		font-family: $font-sans;
+		margin-top: 4px;
 	}
 
 	h1,

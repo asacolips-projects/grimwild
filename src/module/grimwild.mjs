@@ -1,6 +1,7 @@
 // Import document classes.
 import { GrimwildActor } from "./documents/actor.mjs";
 import { GrimwildItem } from "./documents/item.mjs";
+import { GrimwildChatMessage } from "./documents/chat-message.mjs";
 // Import sheet classes.
 import { GrimwildActorSheet } from "./sheets/actor-sheet.mjs";
 import { GrimwildActorSheetVue } from "./sheets/actor-sheet-vue.mjs";
@@ -25,7 +26,8 @@ import { SUSPENSE_TRACKER } from "./controls/suspense.mjs";
 globalThis.grimwild = {
 	documents: {
 		GrimwildActor,
-		GrimwildItem
+		GrimwildItem,
+		GrimwildChatMessage
 	},
 	applications: {
 		GrimwildActorSheet,
@@ -78,6 +80,9 @@ Hooks.once("init", function () {
 		arcana: models.GrimwildArcana,
 		challenge: models.GrimwildChallenge
 	};
+
+	// Override chat message class.
+	CONFIG.ChatMessage.documentClass = grimwild.documents.GrimwildChatMessage;
 
 	// Active Effects are never copied to the Actor,
 	// but will still apply to the Actor from within the Item
