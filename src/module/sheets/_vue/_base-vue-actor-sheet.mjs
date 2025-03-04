@@ -1,6 +1,7 @@
 const { DOCUMENT_OWNERSHIP_LEVELS } = CONST;
+const { ActorSheetV2 } = foundry.applications.sheets;
 
-export class GrimwildBaseVueActorSheet extends foundry.applications.sheets.ActorSheetV2 {
+export class GrimwildBaseVueActorSheet extends ActorSheetV2 {
 	constructor(options = {}) {
 		super(options);
 		this.#dragDrop = this.#createDragDropHandlers();
@@ -21,15 +22,26 @@ export class GrimwildBaseVueActorSheet extends foundry.applications.sheets.Actor
 		window: {
 			controls: [
 				{
-					action: "onShowArtwork",
+					action: "configurePrototypeToken",
+					icon: "fa-solid fa-user-circle",
+					label: "TOKEN.TitlePrototype",
+					ownership: "OWNER"
+				},
+				{
+					action: "showPortraitArtwork",
 					icon: "fa-solid fa-image",
-					label: "ACTOR.ViewArt",
+					label: "SIDEBAR.CharArt",
+					ownership: "OWNER"
+				},
+				{
+					action: "showTokenArtwork",
+					icon: "fa-solid fa-image",
+					label: "SIDEBAR.TokenArt",
 					ownership: "OWNER"
 				}
 			]
 		},
 		actions: {
-			onShowArtwork: this._onShowArtwork,
 			onEditImage: this._onEditImage,
 			viewDoc: this._viewDoc,
 			createDoc: this._createDoc,
