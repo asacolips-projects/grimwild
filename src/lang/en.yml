@@ -1,4 +1,6 @@
 ---
+ACTOR:
+  ViewArt: View actor art
 GRIMWILD:
   Settings:
     Grimwild: 'Grimwild'

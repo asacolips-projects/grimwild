@@ -296,9 +296,18 @@ export class GrimwildActorSheetVue extends VueRenderingMixin(GrimwildBaseVueActo
 	static async _openPack(event, target) {
 		event.preventDefault();
 		const { pack } = target.dataset;
-
 		const compendium = game.packs.get(pack);
+
 		if (compendium?.apps?.[0]) {
+			// Open the character's relevant path, if one exists.
+			const path = this.document.system.path;
+			const folder = compendium.folders.find((f) => f.name.trim().toLocaleLowerCase() === path.trim().toLocaleLowerCase());
+			if (folder) {
+				const otherFolders = compendium.folders.filter((f) => f.id !== folder.id);
+				game.folders._expanded[folder.uuid] = true;
+				otherFolders.forEach((f) => game.folders._expanded[f.uuid] = false);
+			}
+			// Render the pack.
 			compendium.apps[0].render(true);
 		}
 	}

@@ -6,24 +6,61 @@ h2 {
 &.crit h2,
 &.perfect h2 {
 	color: #00bd00;
+
+	.theme-light & {
+		color: #007a00;
+	}
 }
 
 &.messy h2 {
 	color: #ffd400;
+
+	.theme-light & {
+		color: #d68c03;
+	}
+}
+
+&.grim h2 {
+	color: #999;
+
+	.theme-light & {
+		color: #555;
+	}
 }
 
 &.disaster h2 {
 	color: #ff5c37;
+
+	.theme-light & {
+		color: #9c1e01;
+	}
 }
 
 .dice {
+	display: flex;
+	flex-direction: column;
+	gap: 4px;
+
+	.dice-rolls {
+		margin: 0;
+		display: flex;
+		gap: 4px;
+
+		.roll {
+			order: 1;
+		}
+
+		> span {
+			order: 2;
+		}
+	}
+
 	.die {
 		font-family: $font-dice;
 		background: #444;
 		background-image: none !important;
 		border-radius: 2px;
-		margin-right: 4px;
-		margin-bottom: 4px;
+		margin: 0;
 		width: 24px;
 		height: 24px;
 		line-height: 28px;

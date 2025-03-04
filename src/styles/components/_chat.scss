@@ -2,27 +2,133 @@
 	font-family: $font-body;
 	background: #1f2026;
 	color: #ddd;
-	border-color: transparent;
+	position: relative;
+	border: 1px solid #000000aa;
 	margin-bottom: 5px;
+
+	.theme-light & {
+		background: #fff9ef;
+		color: #222;
+	}
+
+	&::before {
+		content: '';
+		display: block;
+		position: absolute;
+		left: 0;
+		top: 0;
+		right: 0;
+		height: 100%;
+		background-image: url("../assets/grimwild-page-texture-dark.webp");
+		background-size: cover;
+		mask-image: linear-gradient(to bottom, black, #00000055);
+		opacity: 0.75;
+		z-index: 0;
+		pointer-events: none;
+		border-radius: 5px;
+	}
+
+	.theme-light &::before {
+		background-image: url("../assets/grimwild-page-texture-light.webp");
+	}
+
+	> * {
+		z-index: 1;
+	}
 
 	.message-sender {
 		font-family: $font-body;
-		font-size: 18px;
-		color: #ffffff;
+		font-size: 15px;
+		line-height: 1;
+		color: #fffcdf;
+		display: flex;
+		flex-wrap: nowrap;
+		gap: 4px;
+		flex: 1 0 196px;
+		align-items: center;
+
+		.theme-light & {
+			color: #222;
+		}
+
+		.avatar {
+			display: block;
+			width: 40px;
+			height: 40px;
+			flex: 0 0 40px;
+			overflow: hidden;
+			border-radius: 50%;
+			border: 1px solid #333;
+
+			img {
+				border: none;
+			}
+		}
+
+		.name-stacked {
+			display: flex;
+			flex-direction: column;
+			white-space: wrap;
+			gap: 4px;
+		}
+
+		.subtitle {
+			font-size: 12px;
+		}
 	}
 
 	.flavor-text {
 		font-family: $font-sans;
+		margin-top: 4px;
 	}
 
 	h1,
 	h2,
 	h3 {
-		border-bottom: 1px solid #333;
+		border: none;
 		font-family: $font-body;
 	}
 
 	.message-header {
 		color: #999;
+
+		.theme-light & {
+			color: #555;
+		}
+	}
+
+	.message-content {
+		.grimwild-roll {
+			margin: 8px 0 0;
+			padding: 4px 0 0;
+
+			&::after {
+				opacity: 0.5;
+			}
+		}
+
+		.results {
+			margin: 0;
+			padding: 4px 0;
+
+			h2 {
+				margin: 0;
+			}
+		}
+
+		.dice-tooltip {
+			padding: 4px;
+			border: none;
+			background: #ffffff09;
+			border-radius: 5px;
+
+			.theme-light & {
+				background: #00000012;
+			}
+
+			&::after {
+				opacity: 0.25;
+			}
+		}
 	}
 }

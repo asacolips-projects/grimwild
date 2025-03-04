@@ -18,7 +18,18 @@ export class GrimwildBaseVueActorSheet extends foundry.applications.sheets.Actor
 			width: 800,
 			height: 600
 		},
+		window: {
+			controls: [
+				{
+					action: "onShowArtwork",
+					icon: "fa-solid fa-image",
+					label: "ACTOR.ViewArt",
+					ownership: "OWNER"
+				}
+			]
+		},
 		actions: {
+			onShowArtwork: this._onShowArtwork,
 			onEditImage: this._onEditImage,
 			viewDoc: this._viewDoc,
 			createDoc: this._createDoc,
@@ -27,7 +38,8 @@ export class GrimwildBaseVueActorSheet extends foundry.applications.sheets.Actor
 			createEffect: this._createEffect,
 			deleteEffect: this._deleteEffect,
 			toggleEffect: this._toggleEffect,
-			toggleItem: this._toggleItem
+			toggleItem: this._toggleItem,
+			importFromCompendium: this._onImportFromCompendium
 		},
 		dragDrop: [{ dragSelector: "[data-drag]", dropSelector: null }],
 		form: {
@@ -99,6 +111,26 @@ export class GrimwildBaseVueActorSheet extends foundry.applications.sheets.Actor
 	 *   ACTIONS
 	 *
 	 **************/
+
+	/**
+	 * Handle header control button clicks to display actor portrait artwork.
+	 * @this {ArchmageBaseItemSheetV2}
+	 * @param {PointerEvent} event
+	 */
+	static _onShowArtwork(event) {
+		const { img, name, uuid } = this.document;
+		new ImagePopout(img, { title: name, uuid: uuid }).render(true);
+	}
+
+	/**
+	 * Handle header control button clicks to import compendium documents.
+	 * @this {ArchmageBaseItemSheetV2}
+	 * @param {PointerEvent} event
+	 */
+	static async _onImportFromCompendium(event) {
+		await this.close();
+		this.document.collection.importFromCompendium(this.document.compendium, this.document.id);
+	}
 
 	/**
 	 * Handle changing a Document's image.
@@ -411,8 +443,8 @@ export class GrimwildBaseVueActorSheet extends foundry.applications.sheets.Actor
 			const parentId = el.dataset.parentId;
 			if (
 				siblingId
-        && parentId
-        && (siblingId !== effect.id || parentId !== effect.parent.id)
+				&& parentId
+				&& (siblingId !== effect.id || parentId !== effect.parent.id)
 			) siblings.push(this._getEmbeddedDocument(el));
 		}
 
