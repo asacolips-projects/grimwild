@@ -7,14 +7,25 @@ export class GrimwildBaseVueItemSheet extends foundry.applications.sheets.ItemSh
 		document: null,
 		viewPermission: DOCUMENT_OWNERSHIP_LEVELS.LIMITED,
 		editPermission: DOCUMENT_OWNERSHIP_LEVELS.OWNER,
+		window: {
+			controls: [
+				{
+					action: "onShowArtwork",
+					icon: "fa-solid fa-image",
+					label: "ITEM.ViewArt",
+					ownership: "OWNER"
+				},
+			]
+		},
 		actions: {
 			onEditImage: this._onEditImage,
-			showItemArtwork: this.#onShowItemArtwork,
+			showItemArtwork: this._onShowArtwork,
 			deleteDoc: this._deleteDoc,
 			editEffect: this._viewEffect,
 			createEffect: this._createEffect,
 			deleteEffect: this._deleteEffect,
-			toggleEffect: this._toggleEffect
+			toggleEffect: this._toggleEffect,
+			importFromCompendium: this._onImportFromCompendium,
 		},
 		dragDrop: [{ dragSelector: "[data-drag]", dropSelector: null }],
 		form: {
@@ -62,6 +73,26 @@ export class GrimwildBaseVueItemSheet extends foundry.applications.sheets.ItemSh
 	 **************/
 
 	/**
+	 * Handle header control button clicks to display actor portrait artwork.
+	 * @this {ArchmageBaseItemSheetV2}
+	 * @param {PointerEvent} event
+	 */
+	static #onShowArtwork(event) {
+		const {img, name, uuid} = this.document;
+		new ImagePopout(img, {title: name, uuid: uuid}).render(true);
+	}
+
+	/**
+	 * Handle header control button clicks to import compendium documents.
+	 * @this {ArchmageBaseItemSheetV2}
+	 * @param {PointerEvent} event
+	 */
+	static async #onImportFromCompendium(event) {
+		await this.close();
+		this.document.collection.importFromCompendium(this.document.compendium, this.document.id);
+	}
+
+	/**
 	 * Handle changing a Document's image.
 	 *
 	 * @this ArchmageBaseItemSheetV2
@@ -94,9 +125,19 @@ export class GrimwildBaseVueItemSheet extends foundry.applications.sheets.ItemSh
 	 * @this {ArchmageBaseItemSheetV2}
 	 * @param {PointerEvent} event
 	 */
-	static #onShowItemArtwork(event) {
-		const { img, name, uuid } = this.document;
-		new ImagePopout(img, { title: name, uuid: uuid }).render(true);
+	static _onShowArtwork(event) {
+		const {img, name, uuid} = this.document;
+		new ImagePopout(img, {title: name, uuid: uuid}).render(true);
+	}
+
+	/**
+	 * Handle header control button clicks to import compendium documents.
+	 * @this {ArchmageBaseItemSheetV2}
+	 * @param {PointerEvent} event
+	 */
+	static async _onImportFromCompendium(event) {
+		await this.close();
+		this.document.collection.importFromCompendium(this.document.compendium, this.document.id);
 	}
 
 	/**

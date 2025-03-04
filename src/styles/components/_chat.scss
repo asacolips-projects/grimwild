@@ -6,6 +6,11 @@
 	border: 1px solid #000000aa;
 	margin-bottom: 5px;
 
+	.theme-light & {
+		background: #fff9ef;
+		color: #222;
+	}
+
 	&::before {
 		content: '';
 		display: block;
@@ -23,6 +28,10 @@
 		border-radius: 5px;
 	}
 
+	.theme-light &::before {
+		background-image: url("../assets/grimwild-page-texture-light.webp");
+	}
+
 	> * {
 		z-index: 1;
 	}
@@ -30,7 +39,11 @@
 	.message-sender {
 		font-family: $font-body;
 		font-size: 18px;
-		color: #ffffff;
+		color: #fffcdf;
+
+		.theme-light & {
+			color: #222;
+		}
 	}
 
 	.flavor-text {
@@ -46,19 +59,44 @@
 
 	.message-header {
 		color: #999;
-		background: #ffffff11;
-		border-radius: 5px;
-		padding: 2px 4px;
+
+		.theme-light & {
+			color: #555;
+		}
 	}
 
 	.message-content {
+		.grimwild-roll {
+			margin: 8px 0 0;
+			padding: 4px 0 0;
+
+			&::after {
+				opacity: 0.5;
+			}
+		}
+
 		.results {
-			margin: 1rem 0 0;
+			margin: 0;
+			padding: 4px 0;
+
+			h2 {
+				margin: 0;
+			}
 		}
 
 		.dice-tooltip {
-			padding-top: 4px;
-			border-top: 1px solid #333;
+			padding: 4px;
+			border: none;
+			background: #ffffff09;
+			border-radius: 5px;
+
+			.theme-light & {
+				background: #00000012;
+			}
+
+			&::after {
+				opacity: 0.25;
+			}
 		}
 	}
 }

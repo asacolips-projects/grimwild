@@ -41,6 +41,11 @@
 
 .grimwild {
 	font-family: $font-body;
+
+	.theme-light & {
+		background: #fff9ef;
+	}
+
 	h1, h2, h3, h4 {
 		font-family: $font-body;
 		font-weight: bold;
@@ -66,7 +71,7 @@
 			background-image: url("../assets/grimwild-page-texture-dark.webp");
 			background-size: cover;
 			mask-image: linear-gradient(to bottom, black, transparent);
-			opacity: 0.75;
+			opacity: 1;
 			z-index: -1;
 			pointer-events: none;
 		}
