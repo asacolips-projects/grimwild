@@ -11,6 +11,26 @@
 		color: #222;
 	}
 
+	&.whisper {
+		background-color: #491f49;
+		border: 1px solid #642764;
+
+		.theme-light & {
+			background: #ffeffe;
+			border: 2px solid #b423b4;
+		}
+	}
+
+	&.blind {
+		background-color: #213046;
+		border: 1px solid #304d77;
+
+		.theme-light & {
+			background: #effcff;
+			border: 2px solid #2392b4;
+		}
+	}
+
 	&::before {
 		content: '';
 		display: block;
