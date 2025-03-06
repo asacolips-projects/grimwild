@@ -18,7 +18,8 @@ export default class GrimwildRoll extends Roll {
 			rawSuccess: 0,
 			rawResult: "",
 			isCut: false,
-			isPrivate: isPrivate
+			isPrivate: isPrivate,
+			hasActions: false
 		};
 
 		const sixes = chatData.dice.filter((die) => die.result === 6);
@@ -64,6 +65,11 @@ export default class GrimwildRoll extends Roll {
 				const assistResults = chatData.dice.splice(diceNum * -1);
 				chatData.assists[name] = assistResults;
 			}
+		}
+
+		// Handle actions.
+		if (chatData.result === 'disaster') {
+			chatData.hasActions = true;
 		}
 
 		return renderTemplate(template, chatData);

@@ -277,7 +277,7 @@ export default class GrimwildCharacter extends GrimwildActorBase {
 	 * @param {object} source Source document.
 	 */
 	static migrateData(source) {
-		if (!source.bloodied.pool && source.bloodied.diceNum) {
+		if (!source.bloodied?.pool && source.bloodied?.diceNum) {
 			const oldBloodied = { ...source.bloodied };
 			source.bloodied = {
 				pool: oldBloodied,
@@ -285,7 +285,7 @@ export default class GrimwildCharacter extends GrimwildActorBase {
 			};
 		}
 
-		if (!source.rattled.pool && source.rattled.diceNum) {
+		if (!source.rattled?.pool && source.rattled?.diceNum) {
 			const oldRattled = { ...source.rattled };
 			source.rattled = {
 				pool: oldRattled,

@@ -31,5 +31,12 @@
       </div>
     </section>
   </div>
+  {{#if hasActions}}
+  <div class="action-links">
+    {{#if (eq result "disaster")}}
+    <button data-action="updateSpark"><i class="fas fa-bolt"></i> Take spark</button>
+    {{/if}}
+  </div>
+  {{/if}}
 </section>
 {{/unless}}

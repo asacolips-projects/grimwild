@@ -178,6 +178,23 @@ Handlebars.registerHelper("toLowerCase", function (str) {
 Hooks.once("ready", function () {
 	// Wait to register hotbar drop hook on ready so that modules could register earlier if they want to
 	Hooks.on("hotbarDrop", (bar, data, slot) => createDocMacro(data, slot));
+
+	// Handle sockets.
+	game.socket.on("system.grimwild", (options) => {
+		// Limit to the active GM.
+		if (game.users.activeGM.id === game.user.id) {
+			// Handle the updateMessage type.
+			if (options.type === 'updateMessage') {
+				if (options.flag && options.data) {
+					const message = game.messages.get(options.message);
+					if (message) {
+						const [scope, key] = options.flag.split('.');
+						message.setFlag(scope, key, options.data);
+					}
+				}
+			}
+		}
+	});
 });
 
 Hooks.once("renderHotbar", function () {

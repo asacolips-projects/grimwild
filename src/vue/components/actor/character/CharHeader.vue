@@ -36,6 +36,7 @@
 						<RollPoolInput
 							button-action="rollPool"
 							field="bloodied"
+							field-name="system.bloodied.pool.diceNum"
 							:pool="context.system.bloodied.pool"
 							min="0"
 						/>
@@ -46,6 +47,7 @@
 						<RollPoolInput
 							button-action="rollPool"
 							field="rattled"
+							field-name="system.rattled.pool.diceNum"
 							:pool="context.system.rattled.pool"
 							min="0"
 						/>
@@ -53,34 +55,11 @@
 
 				</div>
 			</div>
-			<!-- Bloodied / Rattled -->
-			<div class="harm grid grid-2col">
-				<!-- <div class="form-group">
-					<label>{{ game.i18n.localize('GRIMWILD.Damage.bloodied') }}</label>
-					<input type="checkbox" name="system.bloodied.marked" v-model="context.system.bloodied.marked"/>
-					<RollPoolInput
-						button-action="rollPool"
-						field="bloodied"
-						:pool="context.system.bloodied.pool"
-						min="0"
-					/>
-				</div> -->
-				<!-- <div class="form-group">
-					<label>{{ game.i18n.localize('GRIMWILD.Damage.rattled') }}</label>
-					<input type="checkbox" name="system.rattled.marked" v-model="context.system.rattled.marked"/>
-					<RollPoolInput
-						button-action="rollPool"
-						field="rattled"
-						:pool="context.system.rattled.pool"
-						min="0"
-					/>
-				</div> -->
-			</div>
 		</div>
 		<!-- Spark / Story -->
 		<div class="metacurrency-fields flexcol">
 			<div class="spark form-group stacked">
-				<label>{{ context.systemFields.spark.label }}</label>
+				<label><i class="fas fa-bolt"></i> {{ context.systemFields.spark.label }}</label>
 				<div class="form-inputs">
 					<input type="checkbox"
 						name="system.spark.steps.0"
@@ -93,7 +72,7 @@
 				</div>
 			</div>
 			<div class="story form-group stacked">
-				<label>{{ context.systemFields.story.label }}</label>
+				<label><i class="fas fa-book"></i> {{ context.systemFields.story.label }}</label>
 				<div class="form-inputs">
 					<input type="checkbox"
 						name="system.story.steps.0"
