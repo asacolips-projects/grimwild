@@ -11,6 +11,26 @@
 		color: #222;
 	}
 
+	&.whisper {
+		background-color: #491f49;
+		border: 1px solid #642764;
+
+		.theme-light & {
+			background: #ffeffe;
+			border: 2px solid #b423b4;
+		}
+	}
+
+	&.blind {
+		background-color: #213046;
+		border: 1px solid #304d77;
+
+		.theme-light & {
+			background: #effcff;
+			border: 2px solid #2392b4;
+		}
+	}
+
 	&::before {
 		content: '';
 		display: block;
@@ -44,7 +64,7 @@
 		display: flex;
 		flex-wrap: nowrap;
 		gap: 4px;
-		flex: 1 0 196px;
+		flex: 3;
 		align-items: center;
 
 		.theme-light & {
@@ -74,6 +94,38 @@
 
 		.subtitle {
 			font-size: 12px;
+		}
+	}
+
+	.message-footer,
+	.message-metadata {
+		display: flex;
+		flex-direction: row;
+		justify-content: flex-end;
+		gap: 5px;
+	}
+
+	.message-footer {
+		font-size: 10px;
+		padding: 4px 0 0;
+	}
+
+	.message-visibility {
+		opacity: 0.5;
+	}
+
+	.message-metadata {
+		flex: 1;
+
+		> * {
+			opacity: 0.5;
+		}
+
+		.message-delete {
+			&:hover,
+			&:focus {
+				opacity: 1;
+			}
 		}
 	}
 
@@ -130,5 +182,62 @@
 				opacity: 0.25;
 			}
 		}
+	}
+
+	.action-links {
+		margin: 8px 0 0;
+
+		button {
+			display: flex;
+			align-items: center;
+			justify-content: center;
+			padding: 0 0.5rem;
+			background: var(--button-background-color);
+			border: 1px solid var(--button-border-color);
+			border-radius: 4px;
+			color: var(--button-text-color);
+			text-decoration: none;
+			cursor: pointer;
+			font-size: var(--font-size-14);
+			
+			> i {
+				pointer-events: none;
+				margin-right: 0.25rem;
+			}
+	
+			> label {
+				pointer-events: none;
+			}
+	
+			&:disabled {
+				pointer-events: none;
+			}
+	
+			&:hover {
+				background: var(--button-hover-background-color);
+				color: var(--button-hover-text-color);
+				border-color: var(--button-hover-border-color);
+				transition: background-color 0.5s, border-color 0.5s;
+			}
+	
+			&:focus {
+				outline: 1px solid var(--button-focus-outline-color);
+				box-shadow: 0 0 4px var(--button-focus-outline-color);
+			}
+	
+			&.icon > i {
+				margin: 0;
+			}
+	
+			&.active {
+				outline: 1px solid var(--button-focus-outline-color);
+				box-shadow: 0 0 4px var(--button-focus-outline-color);
+			}
+	
+			&.bright {
+				text-transform: uppercase;
+			}
+		}
+
 	}
 }
