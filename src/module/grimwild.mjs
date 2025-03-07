@@ -184,11 +184,11 @@ Hooks.once("ready", function () {
 		// Limit to the active GM.
 		if (game.users.activeGM.id === game.user.id) {
 			// Handle the updateMessage type.
-			if (options.type === 'updateMessage') {
+			if (options.type === "updateMessage") {
 				if (options.flag && options.data) {
 					const message = game.messages.get(options.message);
 					if (message) {
-						const [scope, key] = options.flag.split('.');
+						const [scope, key] = options.flag.split(".");
 						message.setFlag(scope, key, options.data);
 					}
 				}

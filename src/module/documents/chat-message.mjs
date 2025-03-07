@@ -61,22 +61,31 @@ export class GrimwildChatMessage extends ChatMessage {
 			footer.classList.add("message-footer");
 		}
 
+		const messageVisibility = document.createElement("span");
+		messageVisibility.classList.add("message-visibility");
+		if (this.whisper.length > 0) {
+			messageVisibility.innerHTML = this.blind
+				? `<i class="fas fa-eye-slash"></i> ${game.i18n.localize("CHAT.RollBlind")}`
+				: `<i class="fas fa-eye-slash"></i> ${game.i18n.localize("CHAT.RollPrivate")}`;
+		}
+
+		footer.appendChild(messageVisibility);
 		footer.appendChild(metadata);
 		html.appendChild(footer);
 
 		// Handle event listeners.
 		const click = this.#onClick.bind(this);
-		const sparkTakenArray = this.getFlag('grimwild', 'sparkTaken') ?? [];
+		const sparkTakenArray = this.getFlag("grimwild", "sparkTaken") ?? [];
 		const sparkTaken = sparkTakenArray.includes(game.user.id);
-		html.querySelectorAll('[data-action]')?.forEach(element =>  {
+		html.querySelectorAll("[data-action]")?.forEach((element) => {
 			const { action } = element.dataset;
-			if (action === 'updateSpark') {
+			if (action === "updateSpark") {
 				if (sparkTaken) {
-					element.setAttribute('disabled', true);
+					element.setAttribute("disabled", true);
 					return;
 				}
 			}
-			element.addEventListener('click', click)
+			element.addEventListener("click", click);
 		});
 	}
 
@@ -85,7 +94,7 @@ export class GrimwildChatMessage extends ChatMessage {
 	 */
 	get actions() {
 		return {
-			updateSpark: this._updateSpark,
+			updateSpark: this._updateSpark
 		};
 	}
 
@@ -111,14 +120,14 @@ export class GrimwildChatMessage extends ChatMessage {
 
 	/**
 	 * Handle updating spark on actors.
-	 * 
+	 *
 	 * @param {PointerEvent} event The originating click event
 	 * @param {HTMLElement} target The capturing HTML element which defined a [data-action]
 	 */
 	async _updateSpark(event, target) {
 		const actor = game.user.character ?? canvas.tokens.controlled?.[0]?.actor;
 		if (!actor) {
-			ui.notifications.warn(`No active characters on this user to add spark to.`)
+			ui.notifications.warn("No active characters on this user to add spark to.");
 			return;
 		}
 
@@ -135,21 +144,21 @@ export class GrimwildChatMessage extends ChatMessage {
 
 		if (needsUpdate) {
 			actor.update({ "system.spark": spark });
-			const sparkTakenArray = this.getFlag('grimwild', 'sparkTaken') ?? [];
+			const sparkTakenArray = this.getFlag("grimwild", "sparkTaken") ?? [];
 			if (!sparkTakenArray.includes(game.user.id)) {
 				sparkTakenArray.push(game.user.id);
 			}
 			// If this is the GM, update the message directly.
 			if (game.user.isGM) {
-				this.setFlag('grimwild', 'sparkTaken', sparkTakenArray);
+				this.setFlag("grimwild", "sparkTaken", sparkTakenArray);
 			}
 			// Otherwise, emit a socket so that the active GM can update it.
 			else {
 				game.socket.emit("system.grimwild", {
-					type: 'updateMessage',
-					flag: 'grimwild.sparkTaken',
+					type: "updateMessage",
+					flag: "grimwild.sparkTaken",
 					message: this.id,
-					data: sparkTakenArray,
+					data: sparkTakenArray
 				});
 			}
 		}

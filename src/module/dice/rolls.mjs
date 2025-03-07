@@ -68,7 +68,7 @@ export default class GrimwildRoll extends Roll {
 		}
 
 		// Handle actions.
-		if (chatData.result === 'disaster') {
+		if (chatData.result === "disaster") {
 			chatData.hasActions = true;
 		}
 
