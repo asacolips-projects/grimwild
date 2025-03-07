@@ -1,6 +1,15 @@
 export default class GrimwildDiePoolRoll extends Roll {
 	static CHAT_TEMPLATE = "systems/grimwild/templates/chat/die-pool-action.hbs";
 
+	constructor(formula, data, options) {
+		super(formula, data, options);
+		if (game.dice3d) {
+			if (!this.options.appearance) this.options.appearance = {};
+			this.options.appearance.system = 'grimwild';
+			this.options.appearance.colorset = 'grimwild-dark';
+		}
+	}
+
 	async render({ flavor, template=this.constructor.CHAT_TEMPLATE, isPrivate=false }={}) {
 		if (!this._evaluated) await this.evaluate();
 
