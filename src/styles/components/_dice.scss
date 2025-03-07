@@ -45,6 +45,7 @@ h2 {
 		margin: 0;
 		display: flex;
 		gap: 4px;
+		flex-wrap: wrap;
 
 		.roll {
 			order: 1;
