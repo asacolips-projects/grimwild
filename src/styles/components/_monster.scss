@@ -1,10 +1,14 @@
 &.monster {
+	.grimwild-vue {
+		gap: 0;
+	}
+
 	.grimwild-avatar {
 		display: flex;
 		align-items: center;
 		justify-content: center;
 	}
-	
+
 	.profile-img {
 		width: auto;
 		margin: auto;
@@ -30,6 +34,16 @@
 
 	.header-fields {
 		align-items: flex-end;
+		margin: 0;
+		padding: 0 2px;
+
+		.name {
+			flex: 3;
+		}
+
+		.challenge-pool {
+			flex: 1;
+		}
 	}
 
 	.items-header {
@@ -60,7 +74,7 @@
 			.item-summary {
 				background: #ffffff44;
 				padding: 0 2px;
-				
+
 				.theme-dark & {
 					background: #ffffff11;
 				}
@@ -100,15 +114,15 @@
 				background: var(--color-dark-2);
 				border-radius: 4px;
 			}
-	
+
 			hr {
 				margin: 2px 0;
 			}
-	
+
 			.item-trait {
 				font-style: italic;
 			}
-	
+
 			.item-move {
 				list-style-type: disc;
 				font-weight: bold;
@@ -134,11 +148,11 @@
 				padding: 0;
 				list-style-type: none;
 			}
-	
+
 			.item-fail {
 				font-style: italic;
 				font-weight: bold;
-	
+
 				.roll-pool {
 					flex: 0 0 auto;
 				}

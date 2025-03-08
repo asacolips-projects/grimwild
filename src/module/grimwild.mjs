@@ -230,34 +230,31 @@ Hooks.on("renderSceneControls", (application, html, data) => {
 /*  Dice So Nice                                */
 /* -------------------------------------------- */
 Hooks.once("diceSoNiceReady", (dice3d) => {
-	game.dice3d.DiceFactory.preferredSystem = "grimwild";
 	dice3d.addSystem({ id: "grimwild", name: game.i18n.localize("GRIMWILD.Settings.Grimwild") });
 	dice3d.addDicePreset({
 		system: "grimwild",
 		type: "d6",
-		atlas: "systems/grimwild/assets/dice/grimwild-d6.json",
 		labels: [
-			"d6-1.png",
-			"d6-2.png",
-			"d6-3.png",
-			"d6-4.png",
-			"d6-5.png",
-			"d6-6.png"
+			"systems/grimwild/assets/dice/d6-1.png",
+			"systems/grimwild/assets/dice/d6-2.png",
+			"systems/grimwild/assets/dice/d6-3.png",
+			"systems/grimwild/assets/dice/d6-4.png",
+			"systems/grimwild/assets/dice/d6-5.png",
+			"systems/grimwild/assets/dice/d6-6.png"
 		]
 	});
 	dice3d.addDicePreset({
 		system: "grimwild",
 		type: "d8",
-		atlas: "systems/grimwild/assets/dice/grimwild-d6.json",
 		labels: [
-			"d8-1.png",
-			"d8-2.png",
-			"d8-3.png",
-			"d8-4.png",
-			"d8-5.png",
-			"d8-6.png",
-			"d8-7.png",
-			"d8-8.png"
+			"systems/grimwild/assets/dice/d8-1.png",
+			"systems/grimwild/assets/dice/d8-2.png",
+			"systems/grimwild/assets/dice/d8-3.png",
+			"systems/grimwild/assets/dice/d8-4.png",
+			"systems/grimwild/assets/dice/d8-5.png",
+			"systems/grimwild/assets/dice/d8-6.png",
+			"systems/grimwild/assets/dice/d8-7.png",
+			"systems/grimwild/assets/dice/d8-8.png"
 		]
 	});
 	// @todo Figure out a better solution for standard dice.

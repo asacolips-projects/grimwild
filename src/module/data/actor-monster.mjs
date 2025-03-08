@@ -12,7 +12,7 @@ export default class GrimwildMonster extends GrimwildActorBase {
 		const schema = super.defineSchema();
 
 		schema.role = new fields.StringField({ required: false, blank: true });
-		schema.category = new fields.StringField({});
+		schema.tier = new fields.StringField({});
 
 		schema.traits = new fields.ArrayField(new fields.StringField());
 		schema.moves = new fields.ArrayField(new fields.StringField());
