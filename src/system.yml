@@ -5,7 +5,7 @@ version: '0.1.5'
 compatibility:
   minimum: '12'
   verified: '12.331'
-  maximum: '12'
+  maximum: '13'
 
 manifest: https://github.com/asacolips-projects/grimwild/blob/main/README.md
 download: https://github.com/asacolips-projects/grimwild/blob/main/README.md
@@ -88,7 +88,7 @@ packs:
     type: RollTable
     path: packs/crucibles
     system: grimwild
-    ownership: 
+    ownership:
       PLAYER: LIMITED
       ASSISTANT: OWNER
   - name: macros
@@ -105,7 +105,7 @@ packs:
     label: GM Toolkit
     type: JournalEntry
     path: packs/gm_toolkit
-    system: grimwild  
+    system: grimwild
   - name: talents
     label: Talents
     type: Item

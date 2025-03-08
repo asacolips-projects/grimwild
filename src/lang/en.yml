@@ -13,6 +13,9 @@ GRIMWILD:
     quickPoolsVisibleDefault:
       name: Default Quick Pool visibility for players
       hint: Toggle this on/off to show/hide new quick pools by default.
+    diceSoNiceOverride:
+      name: Always use Grimwild 3d Dice
+      hint: Override Dice So Nice settings on Grimwild rolls and pools to use the system's custom color scheme.
   Stat:
     bra:
       long: Brawn
@@ -137,7 +140,7 @@ GRIMWILD:
                   label: Long Term
                 permanent:
                   label: Permanent
-        
+
     Monster:
       FIELDS:
         pool:

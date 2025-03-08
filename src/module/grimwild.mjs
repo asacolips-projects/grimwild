@@ -116,6 +116,18 @@ Hooks.once("init", function () {
 	utils.preloadHandlebarsTemplates();
 	utils.registerHandlebarsHelpers();
 
+	// Custom settings.
+	if (game.modules.get('dice-so-nice')) {
+		game.settings.register("grimwild", "diceSoNiceOverride", {
+			name: game.i18n.localize("GRIMWILD.Settings.diceSoNiceOverride.name"),
+			hint: game.i18n.localize("GRIMWILD.Settings.diceSoNiceOverride.hint"),
+			scope: "client",
+			config: true,
+			type: Boolean,
+			default: true,
+		});
+	}
+
 	// Hook into Foundry's dice rolling system
 	const originalCreate = Roll.create;
 
@@ -218,31 +230,34 @@ Hooks.on("renderSceneControls", (application, html, data) => {
 /*  Dice So Nice                                */
 /* -------------------------------------------- */
 Hooks.once("diceSoNiceReady", (dice3d) => {
+	game.dice3d.DiceFactory.preferredSystem = "grimwild";
 	dice3d.addSystem({ id: "grimwild", name: game.i18n.localize("GRIMWILD.Settings.Grimwild") });
 	dice3d.addDicePreset({
 		system: "grimwild",
 		type: "d6",
+		atlas: "systems/grimwild/assets/dice/grimwild-d6.json",
 		labels: [
-			"systems/grimwild/assets/dice/d6-1.png",
-			"systems/grimwild/assets/dice/d6-2.png",
-			"systems/grimwild/assets/dice/d6-3.png",
-			"systems/grimwild/assets/dice/d6-4.png",
-			"systems/grimwild/assets/dice/d6-5.png",
-			"systems/grimwild/assets/dice/d6-6.png"
+			"d6-1.png",
+			"d6-2.png",
+			"d6-3.png",
+			"d6-4.png",
+			"d6-5.png",
+			"d6-6.png"
 		]
 	});
 	dice3d.addDicePreset({
 		system: "grimwild",
 		type: "d8",
+		atlas: "systems/grimwild/assets/dice/grimwild-d6.json",
 		labels: [
-			"systems/grimwild/assets/dice/d8-1.png",
-			"systems/grimwild/assets/dice/d8-2.png",
-			"systems/grimwild/assets/dice/d8-3.png",
-			"systems/grimwild/assets/dice/d8-4.png",
-			"systems/grimwild/assets/dice/d8-5.png",
-			"systems/grimwild/assets/dice/d8-6.png",
-			"systems/grimwild/assets/dice/d8-7.png",
-			"systems/grimwild/assets/dice/d8-8.png"
+			"d8-1.png",
+			"d8-2.png",
+			"d8-3.png",
+			"d8-4.png",
+			"d8-5.png",
+			"d8-6.png",
+			"d8-7.png",
+			"d8-8.png"
 		]
 	});
 	// @todo Figure out a better solution for standard dice.
@@ -252,11 +267,14 @@ Hooks.once("diceSoNiceReady", (dice3d) => {
 		category: "Grimwild",
 		foreground: "#999999",
 		background: "#333333",
+		font: "Arial",
 		outline: "#000000",
 		edge: "#444444",
 		texture: "none",
 		material: "glass"
 	});
+	// Preload grimwild dice.
+	dice3d.DiceFactory.preloadPresets(true, null, {global: {system: 'grimwild'}});
 });
 
 /* -------------------------------------------- */
