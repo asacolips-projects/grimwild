@@ -36,6 +36,7 @@
 					<div class="form-group stacked monster-role">
 						<label>Role</label>
 						<select name="system.role" v-model="context.system.role">
+							<option value="">—</option>
 							<option v-for="(option, key) in roles" :key="key" :value="key">{{ option }}</option>
 						</select>
 					</div>
