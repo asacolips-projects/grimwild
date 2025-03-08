@@ -2,7 +2,6 @@ export class GrimwildChatMessage extends ChatMessage {
 	/** @inheritDoc */
 	async getHTML(...args) {
 		const html = await super.getHTML();
-		console.log("html", html);
 		this._enrichChatCard(html[0]);
 
 		return html;
