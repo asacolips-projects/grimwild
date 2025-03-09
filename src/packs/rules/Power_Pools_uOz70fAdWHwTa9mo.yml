@@ -18,9 +18,9 @@ pages:
         place of a stat. The same roll determines the outcome and drops dice
         from the
         @UUID[Compendium.grimwild.rules.JournalEntry.5n7fkFcmZaVYZT52]{Pool}.
-        <em><strong>You can roll fewer dice to risk losing less</strong>.
-        </em>🎲 The talent or item is used. <em>4d Fireball Wand, 6d Cleric
-        domain.</em></p>
+        Even if it's automatically successful, still roll the pool when used and
+        drop dice. You must roll all dice in the pool.<em> </em>🎲 The talent or
+        item is used. <em>4d Fireball Wand, 6d Cleric domain.</em></p>
     video:
       controls: true
       volume: 0.5
@@ -36,8 +36,8 @@ pages:
       systemId: grimwild
       systemVersion: 0.1.0
       createdTime: null
-      modifiedTime: 1738611173098
-      lastModifiedBy: Dl5Tvf37OuEHwdAh
+      modifiedTime: 1741535094742
+      lastModifiedBy: yOjpW3DHmrlL7PzO
     _key: '!journal.pages!uOz70fAdWHwTa9mo.3A7BIzUGAbfwdS0N'
 sort: 0
 ownership:
@@ -53,6 +53,6 @@ _stats:
   createdTime: 1738510550844
   modifiedTime: 1738510550844
   lastModifiedBy: Dl5Tvf37OuEHwdAh
-categories: []
 _key: '!journal!uOz70fAdWHwTa9mo'
+categories: []
 
