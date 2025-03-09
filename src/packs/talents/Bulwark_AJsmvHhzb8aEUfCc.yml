@@ -5,9 +5,10 @@ _id: AJsmvHhzb8aEUfCc
 img: icons/equipment/chest/breastplate-helmet-metal.webp
 system:
   description: >-
-    <p>Each session, you have a <em><strong>3d Bulwark resource pool</strong></em> from
-    armor or other defenses. When you get bloodied or dropped from physical
-    damage, roll the pool. If dice remain, ignore the damage.</p>
+    <p>Each session, you have a <em><strong>3d Bulwark resource
+    pool</strong></em> from armor or other defenses. When you get bloodied or
+    dropped from physical damage, roll the pool. If dice remain, ignore the
+    damage.</p>
   core: false
   notes:
     description: ''
