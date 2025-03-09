@@ -117,14 +117,14 @@ Hooks.once("init", function () {
 	utils.registerHandlebarsHelpers();
 
 	// Custom settings.
-	if (game.modules.get('dice-so-nice')) {
+	if (game.modules.get("dice-so-nice")) {
 		game.settings.register("grimwild", "diceSoNiceOverride", {
 			name: game.i18n.localize("GRIMWILD.Settings.diceSoNiceOverride.name"),
 			hint: game.i18n.localize("GRIMWILD.Settings.diceSoNiceOverride.hint"),
 			scope: "client",
 			config: true,
 			type: Boolean,
-			default: false,
+			default: false
 		});
 	}
 
@@ -271,7 +271,7 @@ Hooks.once("diceSoNiceReady", (dice3d) => {
 		material: "glass"
 	});
 	// Preload grimwild dice.
-	dice3d.DiceFactory.preloadPresets(true, null, {global: {system: 'grimwild'}});
+	dice3d.DiceFactory.preloadPresets(true, null, { global: { system: "grimwild" } });
 });
 
 /* -------------------------------------------- */

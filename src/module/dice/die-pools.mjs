@@ -3,10 +3,10 @@ export default class GrimwildDiePoolRoll extends Roll {
 
 	constructor(formula, data, options) {
 		super(formula, data, options);
-		if (game.dice3d && game.settings.get('grimwild', 'diceSoNiceOverride')) {
+		if (game.dice3d && game.settings.get("grimwild", "diceSoNiceOverride")) {
 			if (!this.options.appearance) this.options.appearance = {};
-			this.options.appearance.system = 'grimwild';
-			this.options.appearance.colorset = 'grimwild-dark';
+			this.options.appearance.system = "grimwild";
+			this.options.appearance.colorset = "grimwild-dark";
 		}
 	}
 

@@ -13,10 +13,10 @@ export default class GrimwildMonster extends GrimwildActorBase {
 
 		schema.role = new fields.StringField({
 			required: false,
-			initial: ''
+			initial: ""
 		});
 		schema.tier = new fields.StringField({
-			initial: 'tough'
+			initial: "tough"
 		});
 
 		schema.traits = new fields.ArrayField(new fields.StringField());
