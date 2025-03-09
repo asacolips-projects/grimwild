@@ -1,4 +1,5 @@
-.grimwild.window-app {
+.grimwild.window-app,
+.sheet.journal-entry {
 	font-family: $font-body;
 }
 
@@ -51,6 +52,7 @@
 		font-weight: bold;
 		color: inherit;
 		text-shadow: none;
+		line-height: 1.1;
 	}
 
 	.window-content {
@@ -59,7 +61,7 @@
 		button {
 			font-family: $font-body;
 		}
-	
+
 		.theme-dark &::before {
 			content: '';
 			display: block;
@@ -97,11 +99,68 @@
 			font-family: $font-display;
 			text-transform: uppercase;
 		}
-	
+
 		.tab-link.active {
 			font-weight: bold;
 			text-decoration: underline;
 			text-decoration-thickness: 2px;
+		}
+	}
+}
+
+.sheet.journal-entry {
+	.journal-entry-content {
+		position: relative;
+		background: #00000099;
+		color: #ddd;
+		backdrop-filter: blur(4px);
+
+		input {
+			color: #ddd;
+
+			.theme-light & {
+				color: inherit;
+			}
+		}
+
+		.content-link,
+		.inline-roll {
+			background: #222;
+
+			.theme-light & {
+				background: inherit;
+			}
+		}
+
+		.theme-light & {
+			background: #effcff;
+			color: inherit;
+		}
+
+		> * {
+			z-index: 1;
+		}
+
+		&::before {
+			content: '';
+			display: block;
+			position: absolute;
+			left: 0;
+			top: 0;
+			right: 0;
+			height: 80%;
+			background-image: url("../assets/grimwild-page-texture-dark.webp");
+			background-size: cover;
+			mask-image: linear-gradient(to bottom, black, transparent);
+			opacity: 0.75;
+			z-index: 0;
+			pointer-events: none;
+			border-radius: 5px;
+		}
+
+		.theme-light &::before {
+			background-image: url("../assets/grimwild-page-texture-light.webp");
+			mask-image: linear-gradient(to bottom, black, transparent);
 		}
 	}
 }

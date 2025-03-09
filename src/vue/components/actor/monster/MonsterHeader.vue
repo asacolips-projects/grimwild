@@ -21,7 +21,7 @@
 						<input type="text" name="name" v-model="context.actor.name"/>
 					</div>
 					<!-- Health Pool -->
-					<div v-if="context.actor.type === 'monster' && ['boss', 'elite'].includes(context.system.tier)" class="challenge-pool form-group stacked">
+					<div v-if="context.actor.type === 'linkedChallenge' || (context.actor.type === 'monster' && ['boss', 'elite'].includes(context.system.tier))" class="challenge-pool form-group stacked">
 						<label>Challenge Pool</label>
 						<RollPoolInput
 							button-action="rollPool"
