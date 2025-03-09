@@ -1,6 +1,15 @@
 export default class GrimwildRoll extends Roll {
 	static CHAT_TEMPLATE = "systems/grimwild/templates/chat/roll-action.hbs";
 
+	constructor(formula, data, options) {
+		super(formula, data, options);
+		if (game.dice3d && game.settings.get('grimwild', 'diceSoNiceOverride')) {
+			if (!this.options.appearance) this.options.appearance = {};
+			this.options.appearance.system = 'grimwild';
+			this.options.appearance.colorset = 'grimwild-dark';
+		}
+	}
+
 	async render({ flavor, template=this.constructor.CHAT_TEMPLATE, isPrivate=false }={}) {
 		if (!this._evaluated) await this.evaluate();
 
@@ -18,7 +27,8 @@ export default class GrimwildRoll extends Roll {
 			rawSuccess: 0,
 			rawResult: "",
 			isCut: false,
-			isPrivate: isPrivate
+			isPrivate: isPrivate,
+			hasActions: false
 		};
 
 		const sixes = chatData.dice.filter((die) => die.result === 6);
@@ -64,6 +74,11 @@ export default class GrimwildRoll extends Roll {
 				const assistResults = chatData.dice.splice(diceNum * -1);
 				chatData.assists[name] = assistResults;
 			}
+		}
+
+		// Handle actions.
+		if (chatData.result === "disaster") {
+			chatData.hasActions = true;
 		}
 
 		return renderTemplate(template, chatData);

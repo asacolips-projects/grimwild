@@ -11,8 +11,13 @@ export default class GrimwildMonster extends GrimwildActorBase {
 		const fields = foundry.data.fields;
 		const schema = super.defineSchema();
 
-		schema.role = new fields.StringField({ required: false, blank: true });
-		schema.category = new fields.StringField({});
+		schema.role = new fields.StringField({
+			required: false,
+			initial: ''
+		});
+		schema.tier = new fields.StringField({
+			initial: 'tough'
+		});
 
 		schema.traits = new fields.ArrayField(new fields.StringField());
 		schema.moves = new fields.ArrayField(new fields.StringField());

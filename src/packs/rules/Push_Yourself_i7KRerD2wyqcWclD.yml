@@ -19,7 +19,9 @@ pages:
         @UUID[Compendium.grimwild.rules.JournalEntry.mE6axXeciWLe3skm]{Mark}<em>
         <strong>a related stat</strong> </em>(<em>your choice</em>). Talents
         that require you to push yourself can be activated without a mark once
-        per session.</p>
+        per session.</p><p>You can also push yourself to drop the last die of a
+        @UUID[Compendium.grimwild.rules.JournalEntry.5n7fkFcmZaVYZT52]{diminishing
+        pool} if it was a 1d pool roll and didn't drop.</p>
     video:
       controls: true
       volume: 0.5
@@ -35,8 +37,8 @@ pages:
       systemId: grimwild
       systemVersion: 0.1.0
       createdTime: null
-      modifiedTime: 1738611201424
-      lastModifiedBy: Dl5Tvf37OuEHwdAh
+      modifiedTime: 1741535372088
+      lastModifiedBy: yOjpW3DHmrlL7PzO
     _key: '!journal.pages!i7KRerD2wyqcWclD.swjZnzBxD1eMsFoJ'
 sort: 0
 ownership:

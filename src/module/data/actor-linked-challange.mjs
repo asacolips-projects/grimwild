@@ -18,6 +18,7 @@ export default class GrimwildLinkedChallenge extends GrimwildActorBase {
 		schema.traits = new fields.ArrayField(new fields.StringField());
 		schema.moves = new fields.ArrayField(new fields.StringField());
 
+		schema.pool = new DicePoolField();
 		schema.failure = new fields.ArrayField(new fields.SchemaField({
 			pool: new DicePoolField(),
 			value: new fields.StringField()

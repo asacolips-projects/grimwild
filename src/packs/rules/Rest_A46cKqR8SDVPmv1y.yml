@@ -17,8 +17,10 @@ pages:
         <p>A stretch of time between significant action <em>(a night's camp, a
         week's travel)</em>. Paced for drama, not realism. Clear all
         @UUID[Compendium.grimwild.rules.JournalEntry.mE6axXeciWLe3skm]{Marks}
-        and @UUID[Compendium.grimwild.rules.JournalEntry.PRDMJnwI7k3SQ9Qn]{Heal}
-        (roll pools).</p>
+        and
+        @UUID[Compendium.grimwild.rules.JournalEntry.kAGyEflDClkS3viS]{Harm}.</p><p>If
+        a harm's dropped box is checked, roll the healing pool and clear the box
+        instead of clearing the harm.</p>
     video:
       controls: true
       volume: 0.5
@@ -34,8 +36,8 @@ pages:
       systemId: grimwild
       systemVersion: 0.1.0
       createdTime: null
-      modifiedTime: 1738611370294
-      lastModifiedBy: Dl5Tvf37OuEHwdAh
+      modifiedTime: 1741534994298
+      lastModifiedBy: yOjpW3DHmrlL7PzO
     _key: '!journal.pages!A46cKqR8SDVPmv1y.6CrSSyShivhGkymR'
 sort: 0
 ownership:

@@ -23,11 +23,15 @@ pages:
         don't match up, adjust or scrap the pool.</p><p>◆ If no dice are dropped
         from a task pool on a messy or perfect action roll, instead <strong>take
         a secondary effect</strong> <em>(they spill a secret, some mooks
-        die)</em>. If the roll was only 1d, you can instead
-        @UUID[Compendium.grimwild.rules.JournalEntry.i7KRerD2wyqcWclD]{Push
-        Yourself} to drop the last die.</p><p>◆ <strong>Drop</strong> 1d from
-        the pool before rolling it when a talent tells you to do so, you have
-        potency, or you take the <em>greater effect </em>critical bonus. This
+        die)</em>. If the pool roll was only 1d and it didn't drop, you can
+        instead
+        <strong>@UUID[Compendium.grimwild.rules.JournalEntry.i7KRerD2wyqcWclD]{Push
+        Yourself}</strong> to drop the last die. In similar cases, the GM can
+        <strong>spend
+        @UUID[Compendium.grimwild.gm_toolkit.JournalEntry.r03swtJF4sEnG2fm]{Suspense}</strong>
+        to drop the last die.</p><p>◆ <strong>Drop</strong> 1d from the pool
+        before rolling it when a talent tells you to do so, you have potency, or
+        you take the <em>greater effect </em>critical bonus. This
         stacks.</p><p></p><p>Pools can be flexibly applied in many situations,
         usually by the GM. Some typical pools are listed below. Others are found
         throughout the book.</p><p><strong>TIMER POOLS</strong>. Events
@@ -58,8 +62,8 @@ pages:
       systemId: grimwild
       systemVersion: 0.1.0
       createdTime: null
-      modifiedTime: 1738611026583
-      lastModifiedBy: Dl5Tvf37OuEHwdAh
+      modifiedTime: 1741535527703
+      lastModifiedBy: yOjpW3DHmrlL7PzO
     _key: '!journal.pages!5n7fkFcmZaVYZT52.yy1d6VbmnCznGkjo'
 folder: JAfDvPq9GOlzPUKM
 sort: 100000

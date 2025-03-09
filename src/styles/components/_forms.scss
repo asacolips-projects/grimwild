@@ -165,7 +165,7 @@
 
 		&:hover,
 		&:focus {
-			color: #5d142b;
+			color: #ba0505;
 			text-shadow: none;
 		}
 	}
@@ -207,7 +207,7 @@
 		position: absolute;
 		top: 0;
 		bottom: 0;
-		right: -8px;
+		right: -16px;
 		margin: auto;
 		background: black;
 		width: 20px;
@@ -219,7 +219,7 @@
 
 		&:hover,
 		&:focus {
-			color: #5d142b;
+			color: #ba0505;
 			text-shadow: none;
 		}
 	}
@@ -261,7 +261,7 @@
 		position: absolute;
 		top: 0;
 		bottom: 0;
-		right: -8px;
+		right: -16px;
 		margin: auto;
 		background: black;
 		width: 20px;
@@ -273,7 +273,7 @@
 
 		&:hover,
 		&:focus {
-			color: #5d142b;
+			color: #ba0505;
 			text-shadow: none;
 		}
 	}
@@ -345,14 +345,14 @@
 	> * {
 		flex: 0;
 	}
-	
+
 	> input {
 		flex: 0 0 40px;
 	}
-	
+
 	button {
 		text-align: center;
-	
+
 		i {
 			margin: 0;
 		}

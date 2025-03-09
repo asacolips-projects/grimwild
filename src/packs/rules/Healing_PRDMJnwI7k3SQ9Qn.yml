@@ -14,19 +14,21 @@ pages:
     text:
       format: 1
       content: >-
-        <p><em><strong>When you get
-        </strong></em>@UUID[Compendium.grimwild.rules.JournalEntry.kAGyEflDClkS3viS]{Bloodied
-        or Rattled}<em><strong>, start a 4d
-        </strong></em>@UUID[Compendium.grimwild.rules.JournalEntry.5n7fkFcmZaVYZT52]{Pool}<em>
-        </em>to track its healing. When you <strong>heal</strong> harm from
-        rest, treatment, or another source, roll the pool. At 0d, clear the
-        harm. <em><strong>Treatment</strong> </em>requires <em>time</em>,
-        <em>tools</em>, <em>training</em>, and carries risk, and each pool can
-        only benefit from treatment a single
-        time.</p><p>@UUID[Compendium.grimwild.rules.JournalEntry.mE6axXeciWLe3skm]{Marks}<em><strong>
-        can't benefit from treatment</strong></em>. They are light enough
-        already that only time heals them. They can only be cleared with rest,
-        talents, or rolling.</p>
+        <p><em><strong>When
+        </strong></em><strong>@UUID[Compendium.grimwild.rules.JournalEntry.kAGyEflDClkS3viS]{bloodied
+        or rattled}</strong><em><strong>, start a 3d healing
+        </strong></em><strong>@UUID[Compendium.grimwild.rules.JournalEntry.5n7fkFcmZaVYZT52]{pool}</strong>.
+        When you <strong>heal</strong> harm from treatment or another source,
+        roll the pool. At 0d, clear the
+        harm.</p><p><em><strong>Treatment</strong> </em>requires <em>time</em>,
+        <em>tools</em>, <em>training</em>, and carries risk. Each pool can only
+        benefit from treatment a single time.
+        <strong>@UUID[Compendium.grimwild.rules.JournalEntry.mE6axXeciWLe3skm]{Marks}</strong><em><strong>
+        can't benefit from treatment.</strong></em> They are light enough
+        already that only time heals them, cleared with rest, rolling, or
+        specific talents.</p><p><em><strong>When dropped, check that harm's
+        dropped box</strong></em> next to the relevant healing pool. You no
+        longer automatically recover during rest.</p>
     video:
       controls: true
       volume: 0.5
@@ -42,8 +44,8 @@ pages:
       systemId: grimwild
       systemVersion: 0.1.0
       createdTime: null
-      modifiedTime: 1738611343716
-      lastModifiedBy: Dl5Tvf37OuEHwdAh
+      modifiedTime: 1741535562699
+      lastModifiedBy: yOjpW3DHmrlL7PzO
     _key: '!journal.pages!PRDMJnwI7k3SQ9Qn.BFMt1gP0f3urgdJO'
 sort: 0
 ownership:

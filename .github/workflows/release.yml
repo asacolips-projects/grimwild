@@ -57,23 +57,21 @@ jobs:
         aws s3 cp ./system.json s3://${S3_BUCKET}/grimwild/${REF}/system.json --acl="public-read"
         aws s3 cp ./system.json s3://${S3_BUCKET}/grimwild/${BRANCH}/system.json --acl="public-read"
 
-    ## RELEASE NOTES TEMPORARILY DISABLED
+    - name: Verify release notes exist
+      id: check_files
+      uses: andstor/file-existence-action@v3
+      with:
+        files: "release-notes/${{ env.REF }}.md"
 
-    # - name: Verify release notes exist
-    #   id: check_files
-    #   uses: andstor/file-existence-action@v3
-    #   with:
-    #     files: "release-notes/${{ env.REF }}.md"
-
-    # - name: Create Release
-    #   id: create_release
-    #   uses: ncipollo/release-action@v1
-    #   if: steps.check_files.outputs.files_exists == 'true'
-    #   with:
-    #     bodyFile: release-notes/${{ env.REF }}.md
-    #     draft: false
-    #     allowUpdates: true
-    #     token: ${{ secrets.GITHUB_TOKEN }} # Provided by actions.
+    - name: Create Release
+      id: create_release
+      uses: ncipollo/release-action@v1
+      if: steps.check_files.outputs.files_exists == 'true'
+      with:
+        bodyFile: release-notes/${{ env.REF }}.md
+        draft: false
+        allowUpdates: true
+        token: ${{ secrets.GITHUB_TOKEN }} # Provided by actions.
 
   #####################################################################
   ### FVTT Package Manager Release Job ################################

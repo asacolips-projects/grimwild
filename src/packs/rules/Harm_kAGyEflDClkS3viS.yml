@@ -17,7 +17,7 @@ pages:
         <p>A hard hit to your mind or body, general damage that doesn't need to
         be tracked in detail. <em><strong>This is the default damage from an
         impact move</strong></em>.</p><p>◆ Physical damage leaves you
-        <strong>bloodied</strong>. </p><p>◆ Mental damage leaves you
+        <strong>bloodied</strong>.</p><p>◆ Mental damage leaves you
         <strong>rattled</strong>.</p><p><em><strong>Bloodied and rattled each
         inflict +1t on all rolls</strong></em>. However, when you have harm, you
         ignore thorns from marks to the related stats, though the marks don't
@@ -26,10 +26,11 @@ pages:
         (<em>usually 2d</em>) to see if you're just out temporarily, take a
         condition <em>(4d dying, broken leg)</em>, or wind up
         dead.</p><p>Although bloodied and rattled are the default, especially
-        dangerous attacks with <strong>high risk</strong> can lead straight to
-        dropped, while <strong>low risk</strong> situations might leave you with
-        a mark by default.</p><p>A messy defense roll leaves you with lesser
-        damage <em>(dropped</em>→<em>bloodied, rattled</em>→<em>mark)</em>.</p>
+        dangerous attacks with <strong>dire stakes</strong> can lead straight to
+        dropped, while <strong>tame stakes</strong> situations might leave you
+        with a mark by default.</p><p>A messy defense roll leaves you with
+        lesser damage <em>(dropped</em>→<em>bloodied,
+        rattled</em>→<em>mark)</em>.</p>
     video:
       controls: true
       volume: 0.5
@@ -45,8 +46,8 @@ pages:
       systemId: grimwild
       systemVersion: 0.1.0
       createdTime: null
-      modifiedTime: null
-      lastModifiedBy: null
+      modifiedTime: 1741537317055
+      lastModifiedBy: yOjpW3DHmrlL7PzO
     _key: '!journal.pages!kAGyEflDClkS3viS.XxShjzFmJXEztxOa'
 sort: 0
 ownership:
@@ -62,6 +63,6 @@ _stats:
   createdTime: 1738510549034
   modifiedTime: 1738510549034
   lastModifiedBy: Dl5Tvf37OuEHwdAh
-categories: []
 _key: '!journal!kAGyEflDClkS3viS'
+categories: []
 

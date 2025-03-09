@@ -34,11 +34,31 @@ export class GrimwildActorSheetVue extends VueRenderingMixin(GrimwildBaseVueActo
 		viewPermission: DOCUMENT_OWNERSHIP_LEVELS.LIMITED,
 		editPermission: DOCUMENT_OWNERSHIP_LEVELS.OWNER,
 		position: {
-			width: 800,
+			width: 820,
 			height: 720
 		},
 		window: {
-			resizable: true
+			resizable: true,
+			controls: [
+				{
+					action: "configurePrototypeToken",
+					icon: "fa-solid fa-user-circle",
+					label: "TOKEN.TitlePrototype",
+					ownership: "OWNER"
+				},
+				{
+					action: "showPortraitArtwork",
+					icon: "fa-solid fa-image",
+					label: "SIDEBAR.CharArt",
+					ownership: "OWNER"
+				},
+				{
+					action: "showTokenArtwork",
+					icon: "fa-solid fa-image",
+					label: "SIDEBAR.TokenArt",
+					ownership: "OWNER"
+				}
+			]
 		},
 		tag: "form",
 		actions: {

@@ -14,8 +14,9 @@ pages:
       format: 1
       content: >-
         <p><em>Pure protagonist energy</em>. <em><strong>Take spark</strong>
-        </em>when you add a tangle, roll a disaster, resolve a story arc, or
-        quarrel. <em><strong>Spend it to take +1d on a roll.</strong></em></p>
+        </em>(max 2)<em> </em>when you add a tangle, roll a disaster, resolve a
+        story arc, or quarrel. <em><strong>Spend it to take +1d on a
+        roll.</strong></em></p>
     video:
       controls: true
       volume: 0.5
@@ -31,8 +32,8 @@ pages:
       systemId: grimwild
       systemVersion: 0.1.0
       createdTime: null
-      modifiedTime: null
-      lastModifiedBy: null
+      modifiedTime: 1741535170958
+      lastModifiedBy: yOjpW3DHmrlL7PzO
     _key: '!journal.pages!jfAL6eh3f03OfuY3.8CclyXO0BW7bYoUE'
 folder: x1tiKY3tWsedvhBe
 sort: 300000

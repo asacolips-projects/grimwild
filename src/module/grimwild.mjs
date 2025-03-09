@@ -116,6 +116,18 @@ Hooks.once("init", function () {
 	utils.preloadHandlebarsTemplates();
 	utils.registerHandlebarsHelpers();
 
+	// Custom settings.
+	if (game.modules.get('dice-so-nice')) {
+		game.settings.register("grimwild", "diceSoNiceOverride", {
+			name: game.i18n.localize("GRIMWILD.Settings.diceSoNiceOverride.name"),
+			hint: game.i18n.localize("GRIMWILD.Settings.diceSoNiceOverride.hint"),
+			scope: "client",
+			config: true,
+			type: Boolean,
+			default: false,
+		});
+	}
+
 	// Hook into Foundry's dice rolling system
 	const originalCreate = Roll.create;
 
@@ -178,6 +190,23 @@ Handlebars.registerHelper("toLowerCase", function (str) {
 Hooks.once("ready", function () {
 	// Wait to register hotbar drop hook on ready so that modules could register earlier if they want to
 	Hooks.on("hotbarDrop", (bar, data, slot) => createDocMacro(data, slot));
+
+	// Handle sockets.
+	game.socket.on("system.grimwild", (options) => {
+		// Limit to the active GM.
+		if (game.users.activeGM.id === game.user.id) {
+			// Handle the updateMessage type.
+			if (options.type === "updateMessage") {
+				if (options.flag && options.data) {
+					const message = game.messages.get(options.message);
+					if (message) {
+						const [scope, key] = options.flag.split(".");
+						message.setFlag(scope, key, options.data);
+					}
+				}
+			}
+		}
+	});
 });
 
 Hooks.once("renderHotbar", function () {
@@ -235,11 +264,14 @@ Hooks.once("diceSoNiceReady", (dice3d) => {
 		category: "Grimwild",
 		foreground: "#999999",
 		background: "#333333",
+		font: "Arial",
 		outline: "#000000",
 		edge: "#444444",
 		texture: "none",
 		material: "glass"
 	});
+	// Preload grimwild dice.
+	dice3d.DiceFactory.preloadPresets(true, null, {global: {system: 'grimwild'}});
 });
 
 /* -------------------------------------------- */
