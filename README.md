@@ -4,6 +4,8 @@
 
 A FoundryVTT system for the [Grimwild](https://www.odditypress.com/) RPG.
 
+![image](https://github.com/user-attachments/assets/716ae78d-1c81-4b4b-9172-8f05f1b1cd53)
+
 ## Installation
 
 The Grimwild system is not yet available in the Foundry package manager, but it can be installed via manifest:
