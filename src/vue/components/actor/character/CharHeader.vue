@@ -18,13 +18,15 @@
 							<div class="flexrow">
 								<input type="checkbox"
 									:name="`system.stats.${stat}.marked`"
-									v-model="context.system.stats[stat].marked" 
+									v-model="context.system.stats[stat].marked"
 									class="marked"
-									:data-tooltip="game.i18n.localize('GRIMWILD.Damage.marked')" 
+									:data-tooltip="game.i18n.localize('GRIMWILD.Damage.marked')"
 								/>
-								<input type="text"
+								<input type="number"
 									:name="`system.stats.${stat}.value`"
 									v-model="context.system.stats[stat].value"
+									:min="context.systemFields.stats.fields[stat].fields.value.min"
+									:max="context.systemFields.stats.fields[stat].fields.value.max"
 								/>
 							</div>
 						</div>

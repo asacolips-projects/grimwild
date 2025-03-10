@@ -141,11 +141,11 @@ export default class GrimwildCharacter extends GrimwildActorBase {
 	}
 
 	get isBloodied() {
-		return this.bloodied.diceNum > 0;
+		return this.bloodied.pool.diceNum > 0;
 	}
 
 	get isRattled() {
-		return this.rattled.diceNum > 0;
+		return this.rattled.pool.diceNum > 0;
 	}
 
 	get orderedStats() {
