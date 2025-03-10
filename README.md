@@ -75,3 +75,18 @@ A suspense tracker will appear directly above the Macro Bar. This is a global tr
 ### Quick Pools
 
 To the right of the suspense tracker, GMs can create quick pools. The quick pools are unique to each Foundry scene. As with suspense, GMs can control whether or not these are visible to players, but individual quick pools can also be shown/hidden.
+
+## Licenses
+
+See LICENSE.md for full details.
+
+### Content Licenses
+
+Grimwild © 2024 by J.D. Maxwell and Oddity Press, licensed under CC BY 4.0.
+Grimwild is based on Moxie © 2024 by J.D. Maxwell and Oddity Press, licensed under CC BY 4.0.
+
+Compendium content from Grimwild is used with permission from Oddity Press.
+
+### Image Licenses
+
+Logos and page textures in the assets/ directory are © 2024 by Oddity Press and used with permission.
