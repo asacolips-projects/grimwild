@@ -17,6 +17,7 @@ import * as utils from "./helpers/utils.js";
 import * as models from "./data/_module.mjs";
 
 import { SUSPENSE_TRACKER } from "./controls/suspense.mjs";
+import { GrimwildRollSheet } from "./sheets/roll-sheet.mjs";
 
 /* -------------------------------------------- */
 /*  Init Hook                                   */
@@ -63,6 +64,8 @@ Hooks.once("init", function () {
 	// Dice.
 	CONFIG.Dice.GrimwildRoll = dice.GrimwildRoll;
 	CONFIG.Dice.rolls.push(dice.GrimwildRoll);
+	CONFIG.Dice.GrimwildChatRoll = dice.GrimwildChatRoll;
+	CONFIG.Dice.rolls.push(dice.GrimwildChatRoll);
 	CONFIG.Dice.GrimwildDicePool = dice.GrimwildDiePoolRoll;
 	CONFIG.Dice.rolls.push(dice.GrimwildDiePoolRoll);
 
@@ -112,6 +115,11 @@ Hooks.once("init", function () {
 		makeDefault: true,
 		label: "Grimwild Vue Sheet",
 		types: ["talent", "challenge"]
+	});
+	Messages.registerSheet("grimwild", GrimwildRollSheet, {
+		makeDefault: true,
+		label: "Grimwild Roll Sheet",
+		types: ["grimwildroll"]
 	});
 
 	// Handlebars utilities.
