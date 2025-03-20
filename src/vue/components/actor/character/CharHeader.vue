@@ -33,8 +33,16 @@
 					</div>
 
 					<div v-if="statGroupKey === 0" class="harm-bloodied form-group">
-						<label>{{ game.i18n.localize('GRIMWILD.Damage.bloodied') }}</label>
-						<input type="checkbox" name="system.bloodied.marked" v-model="context.system.bloodied.marked"/>
+						<div class="flexcol">
+							<label>
+								<input type="checkbox" name="system.bloodied.marked" v-model="context.system.bloodied.marked"/>
+								{{ game.i18n.localize('GRIMWILD.Damage.bloodied') }}
+							</label>
+							<label>
+								<input type="checkbox" name="system.bloodied.dropped" v-model="context.system.bloodied.dropped"/>
+								{{ game.i18n.localize('GRIMWILD.Damage.dropped') }}
+							</label>
+						</div>
 						<RollPoolInput
 							button-action="rollPool"
 							field="bloodied"
@@ -44,8 +52,16 @@
 						/>
 					</div>
 					<div v-if="statGroupKey === 1" class="harm-rattled form-group">
-						<label>{{ game.i18n.localize('GRIMWILD.Damage.rattled') }}</label>
-						<input type="checkbox" name="system.rattled.marked" v-model="context.system.rattled.marked"/>
+						<div class="flexcol">
+							<label>
+								<input type="checkbox" name="system.rattled.marked" v-model="context.system.rattled.marked"/>
+								{{ game.i18n.localize('GRIMWILD.Damage.rattled') }}
+							</label>
+							<label>
+								<input type="checkbox" name="system.rattled.dropped" v-model="context.system.rattled.dropped"/>
+								{{ game.i18n.localize('GRIMWILD.Damage.dropped') }}
+							</label>
+						</div>
 						<RollPoolInput
 							button-action="rollPool"
 							field="rattled"

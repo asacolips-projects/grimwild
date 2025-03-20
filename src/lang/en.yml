@@ -36,6 +36,7 @@ GRIMWILD:
     conditions: Conditions
     ignored: ignored from harm
     vex: Vex
+    dropped: Dropped
   Traits:
     brave: Brave
     caring: Caring

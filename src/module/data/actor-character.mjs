@@ -31,11 +31,13 @@ export default class GrimwildCharacter extends GrimwildActorBase {
 
 		schema.bloodied = new fields.SchemaField({
 			pool: new DicePoolField(),
-			marked: new fields.BooleanField()
+			marked: new fields.BooleanField(),
+			dropped: new fields.BooleanField(),
 		});
 		schema.rattled = new fields.SchemaField({
 			pool: new DicePoolField(),
-			marked: new fields.BooleanField()
+			marked: new fields.BooleanField(),
+			dropped: new fields.BooleanField(),
 		});
 		schema.conditions = new fields.ArrayField(new fields.SchemaField({
 			name: new fields.StringField(),

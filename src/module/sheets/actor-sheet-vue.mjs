@@ -35,7 +35,7 @@ export class GrimwildActorSheetVue extends VueRenderingMixin(GrimwildBaseVueActo
 		editPermission: DOCUMENT_OWNERSHIP_LEVELS.OWNER,
 		position: {
 			width: 820,
-			height: 720
+			height: 750
 		},
 		window: {
 			resizable: true,
