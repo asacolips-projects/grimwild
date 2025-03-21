@@ -1,3 +1,6 @@
+import GrimwildChatRoll from "../dice/chat-rolls.mjs";
+import { GrimwildRollSheet } from "../sheets/roll-sheet.mjs";
+
 export class GrimwildChatMessage extends ChatMessage {
 	/** @inheritDoc */
 	async getHTML(...args) {
@@ -93,7 +96,9 @@ export class GrimwildChatMessage extends ChatMessage {
 	 */
 	get actions() {
 		return {
-			updateSpark: this._updateSpark
+			updateSpark: this._updateSpark,
+			updateDifficulty: this._updateDifficulty,
+			configureRoll: this._configureRoll
 		};
 	}
 
@@ -164,5 +169,53 @@ export class GrimwildChatMessage extends ChatMessage {
 		else {
 			ui.notifications.warn(`${actor.name} already has maximum spark. Use it more often!`);
 		}
+	}
+
+	_configureRoll(event, target) {
+		this.sheet.render(true);
+	}
+
+	_updateDifficulty(event, target) {
+		this.rolls[0].options.difficulty = parseInt(target.dataset.difficulty);
+		this.update({ rolls: this.rolls });
+	}
+
+	async performRoll() {
+		const roll = this.rolls.length == 1 && this.rolls[0] instanceof GrimwildChatRoll ? this.rolls[0] : null;
+		if (roll) {
+			const rollData = {};
+			const options = {};
+			rollData.thorns = roll.thorns;
+			rollData.statDice = roll.dice;
+			options.assists = roll.assisters;
+			const formula = "{(@statDice)d6kh, (@thorns)d8}";
+			const newRoll = new grimwild.roll(formula, rollData, options);
+			await newRoll.evaluate();
+			await game.dice3d?.showForRoll(newRoll);
+			await this.update({ rolls: [newRoll] });
+
+			// Not supported yet
+			// if (rollDialog.sparkUsed > 0) {
+			// 	let sparkUsed = rollDialog.sparkUsed;
+			// 	const newSpark = this.spark;
+			// 	for (const step in newSpark.steps) {
+			// 		if (newSpark.steps[step] && sparkUsed > 0) {
+			// 			newSpark.steps[step] = false;
+			// 			sparkUsed--;
+			// 		}
+			// 	}
+			// 	const actor = game.actors.get(this.parent.id);
+
+			// 	await actor.update({ "system.spark": newSpark });
+			// 	actor.sheet.render(true);
+			// }
+		}
+	}
+
+	_getSheetClass() {
+		if (this.rolls.length == 1 && this.rolls[0] instanceof GrimwildChatRoll) {
+			return GrimwildRollSheet;
+		}
+		return super._getSheetClass();
 	}
 }

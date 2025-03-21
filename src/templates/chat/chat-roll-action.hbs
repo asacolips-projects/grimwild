@@ -1,0 +1,55 @@
+{{#unless isPrivate}}
+<section class="grimwild-chat grimwild-roll {{result}} stroke stroke-top">
+  {{#if rolled}}
+    <div class="results">
+      <h2>{{#if isCut }}
+        {{localize (concat "GRIMWILD.Dice.results." rawResult)}} &#8594; 
+        {{/if}}
+        {{localize (concat "GRIMWILD.Dice.results." result)}}</h2>
+      <em>{{stat}}</em>
+    </div>
+    <div class="dice-tooltip expanded">
+      <section class="tooltip-part">
+        <div class="dice">
+          <ul class="dice-rolls">
+            {{#each dice as |die key|}}
+              <li class="roll die d6 {{grimwildDie die.result}}">{{die.result}}</li>
+            {{/each}}
+          </ul>
+          {{#each assists}}
+            <ul class="dice-rolls">
+              <span> &#8594; {{@key}}</span>
+              {{#each this as |die key|}}
+                <li class="roll die d6 {{grimwildDie die.result}}">{{die.result}}</li>
+              {{/each}}
+            </ul>
+            {{/each}}
+          <ul class="dice-rolls">
+            {{#each thorns as |die key|}}
+              <li class="roll die d8 {{grimwildThorn die.result}}">{{die.result}}</li>
+            {{/each}}
+          </ul>
+        </div>
+      </section>
+    </div>
+    {{#if hasActions}}
+    <div class="action-links">
+      {{#if (eq result "disaster")}}
+      <button data-action="updateSpark"><i class="fas fa-bolt"></i> Take spark</button>
+      {{/if}}
+    </div>
+    {{/if}}
+  {{else}}
+    <h2>{{name}} is rolling {{localize (concat "GRIMWILD.Stat." stat ".long")}}</h2>
+    <ul>
+        <li>Difficulty: {{difficulty}}</li>
+    </ul>
+    <button data-action="configureRoll"><i class="fas fa-dice-d6"></i> Configure roll</button>
+    {{#if isGM}}
+        <button data-action="updateDifficulty" data-difficulty="1"><i class="fas fa-1"></i> Set difficulty to 1</button>
+        <button data-action="updateDifficulty" data-difficulty="2"><i class="fas fa-2"></i> Set difficulty to 2</button>
+        <button data-action="updateDifficulty" data-difficulty="3"><i class="fas fa-3"></i> Set difficulty to 3</button>
+    {{/if}}
+  {{/if}}
+</section>
+{{/unless}}

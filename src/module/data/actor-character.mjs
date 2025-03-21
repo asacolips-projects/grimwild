@@ -1,6 +1,7 @@
 import GrimwildActorBase from "./base-actor.mjs";
 import { DicePoolField } from "../helpers/schema.mjs";
 import { GrimwildRollDialog } from "../apps/roll-dialog.mjs";
+import GrimwildChatRoll from "../dice/chat-rolls.mjs";
 
 export default class GrimwildCharacter extends GrimwildActorBase {
 	static LOCALIZATION_PREFIXES = [
@@ -261,10 +262,43 @@ export default class GrimwildCharacter extends GrimwildActorBase {
 		return data;
 	}
 
-	async roll(options) {
+	async roll(options, event) {
 		const rollData = this.getRollData();
 
 		if (options?.stat && rollData?.stats?.[options.stat]) {
+			if (!event.shiftKey) {
+				const chatRollData = {
+					name: this?.name ?? this?.parent?.name,
+					spark: rollData?.spark,
+					stat: options.stat,
+					diceDefault: rollData?.stats?.[options.stat].value,
+					isBloodied: rollData?.isBloodied,
+					isRattled: rollData?.isRattled,
+					isMarked: rollData?.stats?.[options.stat].marked,
+					isVex: false,
+					difficulty: 0
+				};
+
+				const roll = new GrimwildChatRoll(undefined, chatRollData, ({ ...options, ...chatRollData }));
+				roll._evaluated = true;
+
+				const message = await CONFIG.ChatMessage.documentClass.create(
+					{
+						user: game.user.id,
+						actor: this,
+						speaker: ChatMessage.getSpeaker({ actor: this }),
+						content: "Foo",
+						rolls: [roll]
+					},
+					{
+						rollMode: game.settings.get("core", "rollMode")
+					}
+				);
+				message.sheet?.render(true);
+
+				return;
+			}
+
 			const rollDialog = await GrimwildRollDialog.open({
 				rollData: {
 					name: this?.name ?? this?.parent?.name,
@@ -305,7 +339,6 @@ export default class GrimwildCharacter extends GrimwildActorBase {
 				speaker: ChatMessage.getSpeaker({ actor: this }),
 				rollMode: game.settings.get("core", "rollMode")
 			});
-
 		}
 	}
 
