@@ -1,7 +1,5 @@
 import GrimwildActorBase from "./base-actor.mjs";
 import { DicePoolField } from "../helpers/schema.mjs";
-import { GrimwildRollDialog } from "../apps/roll-dialog.mjs";
-import GrimwildChatRoll from "../dice/chat-rolls.mjs";
 
 export default class GrimwildCharacter extends GrimwildActorBase {
 	static LOCALIZATION_PREFIXES = [
@@ -275,100 +273,64 @@ export default class GrimwildCharacter extends GrimwildActorBase {
 		const rollData = this.getRollData();
 
 		if (options?.stat && rollData?.stats?.[options.stat]) {
-			if (!event.shiftKey) {
-				const chatRollData = {
-					name: this?.name ?? this?.parent?.name,
-					spark: rollData?.spark,
-					stat: options.stat,
-					diceDefault: rollData?.stats?.[options.stat].value,
-					isBloodied: rollData?.isBloodied,
-					isRattled: rollData?.isRattled,
-					isMarked: rollData?.stats?.[options.stat].marked,
-					isVex: false,
-					difficulty: 0
-				};
+			const chatRollData = {
+				name: this?.name ?? this?.parent?.name,
+				actorId: this?.parent?.id,
+				spark: rollData?.spark,
+				stat: options.stat,
+				diceDefault: rollData?.stats?.[options.stat].value,
+				isBloodied: rollData?.isBloodied,
+				isRattled: rollData?.isRattled,
+				isMarked: rollData?.stats?.[options.stat].marked,
+				isVex: false,
+				difficulty: 0,
+				conditions: rollData?.conditions
+			};
 
-				const roll = new GrimwildChatRoll(undefined, chatRollData, ({ ...options, ...chatRollData }));
-				roll._evaluated = true;
+			const roll = new grimwild.rolls.configure(undefined, chatRollData, { ...options, ...chatRollData });
+			roll._evaluated = true;
 
-				const message = await CONFIG.ChatMessage.documentClass.create(
-					{
-						user: game.user.id,
-						actor: this,
-						speaker: ChatMessage.getSpeaker({ actor: this }),
-						content: "Foo",
-						rolls: [roll]
-					},
-					{
-						rollMode: game.settings.get("core", "rollMode")
-					}
-				);
-				message.sheet?.render(true);
-
-				return;
-			}
-
-			const rollDialog = await GrimwildRollDialog.open({
-				rollData: {
-					name: this?.name ?? this?.parent?.name,
-					spark: rollData?.spark,
-					stat: options.stat,
-					diceDefault: rollData?.stats?.[options.stat].value,
-					isBloodied: rollData?.isBloodied,
-					isRattled: rollData?.isRattled,
-					isMarked: rollData?.stats?.[options.stat].marked
+			const message = await CONFIG.ChatMessage.documentClass.create(
+				{
+					user: game.user.id,
+					actor: this,
+					speaker: ChatMessage.getSpeaker({ actor: this.parent }),
+					content: "",
+					rolls: [roll],
+					sound: CONFIG.sounds.notification
+				},
+				{
+					rollMode: game.settings.get("core", "rollMode")
 				}
-			});
-			// bail out if they closed the dialog
-			if (rollDialog === null) {
-				return;
-			}
-			rollData.thorns = rollDialog.thorns;
-			rollData.statDice = rollDialog.dice;
-			options.assists = rollDialog.assisters;
-			const formula = "{(@statDice)d6kh, (@thorns)d8}";
-			const roll = new grimwild.roll(formula, rollData, options);
-
-			const updates = {};
-
-			// Remove used spark.
-			if (rollDialog.sparkUsed > 0) {
-				let sparkUsed = rollDialog.sparkUsed;
-				const newSpark = {
-					steps: this.spark.steps
-				};
-				// All of your spark is used.
-				if (sparkUsed > 1 || this.spark.value === 1) {
-					newSpark.steps[0] = false;
-					newSpark.steps[1] = false;
-				}
-				// If half of your spark is used.
-				else if (sparkUsed === 1 && this.spark.value > 1) {
-					newSpark.steps[0] = true;
-					newSpark.steps[1] = false;
-				}
-				updates["system.spark"] = newSpark;
-			}
-
-			// Remove marks.
-			if (rollData?.stats?.[options.stat].marked) {
-				updates[`system.stats.${options.stat}.marked`] = false;
-			}
-
-			// Handle the updates.
-			const actor = game.actors.get(this.parent.id);
-			await actor.update(updates);
-			actor.sheet.render(true);
-
-			await roll.toMessage({
-				actor: this,
-				speaker: ChatMessage.getSpeaker({ actor: this }),
-				rollMode: game.settings.get("core", "rollMode")
-			});
-
-			await this.updateCombatActionCount();
-
+			);
+			message.sheet?.render(true);
 		}
+	}
+
+	async assist(chatMessage, event) {
+		const chatRollData = {
+			name: this?.name ?? this?.parent?.name,
+			rollMessageId: chatMessage.id,
+			actorId: this.parent.id
+		};
+		const roll = new grimwild.rolls.assist(undefined, chatRollData, chatRollData);
+		roll._evaluated = true;
+
+		await CONFIG.ChatMessage.documentClass.create(
+			{
+				user: game.user.id,
+				actor: this,
+				speaker: ChatMessage.getSpeaker({ actor: this.parent }),
+				content: "",
+				rolls: [roll],
+				sound: CONFIG.sounds.notification
+			},
+			{
+				rollMode: game.settings.get("core", "rollMode")
+			}
+		);
+
+		await this.updateCombatActionCount();
 	}
 
 	/**

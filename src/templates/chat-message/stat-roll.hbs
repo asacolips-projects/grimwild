@@ -9,32 +9,40 @@
 				</div>
 				<div class="dialog-spark grimwild-form-group">
 					<label for="spark">{{localize "GRIMWILD.Actor.Character.FIELDS.spark.label"}}</label>
-					{{#if hasSpark}}
+					{{#if sparkArray.length}}
 						{{#each sparkArray}}
-							<input type="checkbox" class="spark sparkCheck" id="spark-{{this}}" name="sparkUsed.{{this}}" data-action-change="updateOptions" {{#if (lt this ../sparkUsed)}}checked{{/if}}>
+							<input type="checkbox" class="spark sparkCheck" id="spark-{{this}}" name="sparkUsed.{{this}}" {{#if (lt this ../sparkUsed)}}checked{{/if}}>
 						{{/each}}
 					{{else}}
 						<p>None</p>
 					{{/if}}
-					{{!-- <input type="number" class="rollDice rollDiceInput" id="spark" name="spark" data-prev="0" data-action-input="updateDice" value="0" min="0" max="{{spark}}"> --}}
+				</div>
+				<div class="grimwild-form-group">
+					<label for="setup">{{localize "GRIMWILD.Damage.setup"}}</label>
+					<input type="checkbox" class="dice diceCheck" id="setup" name="isSetup" {{#if isSetup}}checked{{/if}}>
+				</div>
+				<div class="grimwild-form-group">
+					<label for="potent">{{localize "GRIMWILD.Damage.potent"}}</label>
+					<input type="checkbox" class="dice diceCheck" id="potent" name="isPotent" {{#if isPotent}}checked{{/if}}>
 				</div>
 			</div>
-			<div class="dialog-assists">
-				<hr>
-				<div id="assistContainer">
-							<!-- Rows will be added here dynamically -->
-						<datalist id="assistants-list">
-							{{#each assistants as |assistant index|}}
-							<option value="{{assistant}}"></option>
-							{{/each}}
-						</datalist>
-				</div>
-				<button type="button" id="addAssist" data-action="addAssist"><i class="fas fa-plus"></i>{{localize "GRIMWILD.Dice.assist"}}</button>
-				<hr>
-			</div>
+            {{#if assistants.length}}
+                <div class="dialog-assists">
+                    <hr>
+                    <div id="assistContainer">
+                        <legend>{{localize "GRIMWILD.Dice.assistedBy"}}</legend>
+                        <ul id="assistants-list">
+                            {{#each assistants as |assistant index|}}
+                                <li>{{assistant.name}}</li>
+                            {{/each}}
+                        </ul>
+                    </div>
+                    <hr>
+                </div>
+            {{/if}}
 			<div class="dialog-total grimwild-form-group">
 				<label class="total">{{localize "GRIMWILD.Dice.total"}}</label>
-				<span id="totalDice" class="total">0</span>
+				<span id="totalDice" class="total">{{totalDice}}</span>
 			</div>
 		</fieldset>
 
@@ -58,21 +66,28 @@
 					<input type="checkbox" class="thorn thornCheck" id="vex" name="isVex" {{#if isVex}}checked{{/if}}>
 				</div>
 			</div>
+            {{#if conditionArray.length}}
+                <hr>
+                <div class="dialog-harm grimwild-checkbox-group">
+                    {{#each conditionArray as |condition n|}}
+                        <div class="grimwild-form-group">
+                            <label for="conditionsApplied{{n}}">{{condition.condition.name}}</label>
+                            <input type="checkbox" class="thorn thornCheck" id="conditionsApplied{{n}}" name="conditionsApplied.{{n}}" {{#if condition.isSelected}}checked{{/if}}>
+                        </div>
+                    {{/each}}
+                </div>
+            {{/if}}
 			<div class="dialog-difficulty">
 				<hr>
 				<div class="grimwild-form-group">
-					<label for="conditions">{{localize "GRIMWILD.Damage.conditions"}}</label>
-					<input type="number" class="thorn thornInput" id="conditions" name="conditions" value="{{conditions}}" min="0">
-				</div>
-				<div class="grimwild-form-group">
-					<label for="difficulty">{{localize "GRIMWILD.Dice.difficulty"}}</label>
+					<label for="difficulty">{{localize "GRIMWILD.Dice.difficulty"}}{{#if isPotent}} ({{localize "GRIMWILD.Dice.ignoredByPotency"}}){{/if}}</label>
 					<input type="number" class="thorn thornInput" id="difficulty" name="difficulty" value="{{difficulty}}" min="0">
 				</div>
 				<hr>
 			</div>
 			<div class="dialog-total grimwild-form-group">
 				<label class="total">{{localize "GRIMWILD.Dice.total"}}</label>
-				<span id="totalThorns" class="total">0</span>
+				<span id="totalThorns" class="total">{{totalThorns}}</span>
 			</div>
 		</fieldset>
 	</section>
