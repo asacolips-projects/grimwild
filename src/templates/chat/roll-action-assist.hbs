@@ -1,0 +1,29 @@
+{{#unless isPrivate}}
+<section class="grimwild-chat grimwild-roll {{result}} stroke stroke-top">
+    {{#if targetRollOptions}}
+        <h3>{{localize "GRIMWILD.Dice.isAssisting" assisting=assistingActor.name rolling=rollingActor.name}}</h3>
+        {{#if dice}}
+            <div class="dice-tooltip expanded">
+                <section class="tooltip-part">
+                <div class="dice">
+                    <ul class="dice-rolls">
+                    {{#each dice as |die key|}}
+                        <li class="roll die d6 {{grimwildDie die.result}}">{{die.result}}</li>
+                    {{/each}}
+                    </ul>
+                </div>
+                </section>
+            </div>
+        {{/if}}
+        {{#if isOwner}}
+            {{#unless dice}}
+                <div class="action-links">
+                    <button data-action="rollAssist"><i class="fas fa-dice-d6"></i> {{localize "GRIMWILD.Dialog.Roll"}}</button>
+                </div>
+            {{/unless}}
+        {{/if}}
+    {{else}}
+        Roll has expired
+    {{/if}}
+</section>
+{{/unless}}

@@ -40,16 +40,25 @@
     </div>
     {{/if}}
   {{else}}
-    <h2>{{name}} is rolling {{localize (concat "GRIMWILD.Stat." stat ".long")}}</h2>
-    <ul>
-        <li>Difficulty: {{difficulty}}</li>
-    </ul>
-    <button data-action="configureRoll"><i class="fas fa-dice-d6"></i> Configure roll</button>
-    {{#if isGM}}
-        <button data-action="updateDifficulty" data-difficulty="1"><i class="fas fa-1"></i> Set difficulty to 1</button>
-        <button data-action="updateDifficulty" data-difficulty="2"><i class="fas fa-2"></i> Set difficulty to 2</button>
-        <button data-action="updateDifficulty" data-difficulty="3"><i class="fas fa-3"></i> Set difficulty to 3</button>
-    {{/if}}
+    <h2>{{localize "GRIMWILD.Dice.isRolling" name=name pool=(localize (concat "GRIMWILD.Stat." stat ".long"))}}</h2>
+    <div class="dice-actions">
+        <div class="segment">
+            {{#if isOwner}}
+                <button class="configure" data-action="configureRoll"><i class="fas fa-dice-d6"></i> {{localize "GRIMWILD.Dice.configure"}}</button>
+            {{/if}}
+            {{#if hasAssistingActor}}
+                <button class="assist" data-action="assistRoll" data-actor-id="{{assistingActor.id}}"><i class="fas fa-handshake-angle"></i> {{localize "GRIMWILD.Dice.assist"}}</button>
+            {{/if}}
+        </div>
+                {{#if isGM}}
+        <div class="segment difficulty">
+                    <label>{{localize "GRIMWILD.Dice.difficulty"}}</label>
+                    <button class="option {{#if (eq difficulty 1)}}active{{/if}}" data-action="updateDifficulty" data-difficulty="1">1</button>
+                    <button class="option {{#if (eq difficulty 2)}}active{{/if}}" data-action="updateDifficulty" data-difficulty="2">2</button>
+                    <button class="option {{#if (eq difficulty 3)}}active{{/if}}" data-action="updateDifficulty" data-difficulty="3">3</button>
+        </div>
+                {{/if}}
+    </div>
   {{/if}}
 </section>
 {{/unless}}

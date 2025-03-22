@@ -6,6 +6,9 @@
       {{/if}}
       {{localize (concat "GRIMWILD.Dice.results." result)}}</h2>
     <em>{{stat}}</em>
+    {{#if isWaitingForAssists}}
+      <h3>{{localize "GRIMWILD.Dice.waitingForAssists"}}</h3>
+    {{/if}}
   </div>
   <div class="dice-tooltip expanded">
     <section class="tooltip-part">

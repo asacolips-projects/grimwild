@@ -6,7 +6,7 @@ export class GrimwildRollSheet extends api.HandlebarsApplicationMixin(
 	sheets.ItemSheetV2
 ) {
 	static DEFAULT_OPTIONS = {
-		id: "foo-form",
+		id: "configure-roll-form",
 		form: {
 			handler: GrimwildRollSheet.#onSubmit,
 			closeOnSubmit: false,
@@ -27,7 +27,7 @@ export class GrimwildRollSheet extends api.HandlebarsApplicationMixin(
 
 	static PARTS = {
 		main: {
-			template: "systems/grimwild/templates/dialog/chat-stat-roll.hbs"
+			template: "systems/grimwild/templates/chat-message/stat-roll.hbs"
 		}
 	};
 
@@ -35,19 +35,43 @@ export class GrimwildRollSheet extends api.HandlebarsApplicationMixin(
 		return "Grimwild Roll";
 	}
 
-	_prepareContext(options) {
-		const rollOptions = this.document.rolls[0].options;
-		const hasSpark = rollOptions.spark > 0;
-		const sparkArray = Array.from({ length: rollOptions.spark }, (_, i) => i);
-		// Ignore mark if there is associated harm
-		const markIgnored = rollOptions.isMarked
-			&& ((rollOptions.isBloodied && isPhysicalStat(rollOptions.stat))
-			|| (rollOptions.isRattled && isMentalStat(rollOptions.stat)));
-		// Do not check marked if it is ignored
-		const isMarked = rollOptions.isMarked && !markIgnored;
-		const assistants = game.actors.filter((a) => a.type === "character" && a.name !== rollOptions.name).map((a) => a.name);
+    _insertElement(element) {
+        super._insertElement(element);
 
-		return { ...rollOptions, hasSpark, sparkArray, markIgnored, isMarked, assistants };
+        // Rerender if assist messages are created or deleted
+        this.createChatMessageHook = Hooks.on("createChatMessage", (message, options, user) => {
+            if (message.rolls[0]?.options.rollMessageId) {
+                this.render(true);
+            }
+        });
+        this.deleteChatMessageHook = Hooks.on("deleteChatMessage", (message, options, user) => {
+            if (message.rolls[0]?.options.rollMessageId) {
+                this.render(true);
+            }
+        });
+    }
+
+    async close(options) {
+        super.close(options);
+
+        Hooks.off("createChatMessage", this.createChatMessageHook);
+        Hooks.off("deleteChatMessage", this.deleteChatMessageHook);
+    }
+
+	_prepareContext(options) {
+        const roll = this.document.rolls[0]
+		const sparkArray = Array.from({ length: roll.options.spark }, (_, i) => i);
+        const conditionArray = roll.options.conditions?.map((condition, index) => ({
+            condition,
+            isSelected: roll.options.conditionsApplied?.includes(index)
+        }));
+        const markIgnored = roll.isMarkIgnored
+        const assistants = roll.assistants;
+
+        const totalDice = roll.dice;
+        const totalThorns = roll.thorns;
+
+		return { ...roll.options, sparkArray, conditionArray, markIgnored, assistants, totalDice, totalThorns };
 	}
 
 	_onRender(context, options) {}
@@ -59,7 +83,8 @@ export class GrimwildRollSheet extends api.HandlebarsApplicationMixin(
 
 	static async #onSubmit(event, form, formData) {
 		const data = foundry.utils.expandObject(formData.object);
-		data.sparkUsed = data.sparkUsed ? Object.values(data.sparkUsed).reduce((acc, cur) => acc + cur ? 1 : 0, 0) : 0;
+		data.sparkUsed = data.sparkUsed ? Object.values(data.sparkUsed).reduce((acc, cur) => acc + (cur ? 1 : 0), 0) : 0;
+		data.conditionsApplied = data.conditionsApplied ? Object.entries(data.conditionsApplied).filter(([key, value]) => value).map(([key, value]) => parseInt(key)) : [];
 		const diff = foundry.utils.diffObject(this.document.rolls[0].options, data);
 
 		this.document.rolls[0].options = Object.assign(this.document.rolls[0].options, diff);
