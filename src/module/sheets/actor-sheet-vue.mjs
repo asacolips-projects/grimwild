@@ -635,7 +635,7 @@ export class GrimwildActorSheetVue extends VueRenderingMixin(GrimwildBaseVueActo
 				if (item) return item.roll();
 				break;
 			case "stat":
-				await this.document.system.roll({ stat: dataset.stat });
+				await this.document.system.roll({ stat: dataset.stat }, event);
 				break;
 		}
 
