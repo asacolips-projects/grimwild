@@ -34,7 +34,7 @@
 		padding: 8px;
 		border-radius: 8px;
 
-		.theme-light & {
+		body.theme-light & {
 			border-color:var(--color-border-light-2);
 		}
 	}
@@ -84,7 +84,7 @@ header.sheet-header {
 			justify-content: center;
 			text-align: center;
 
-			.theme-light & {
+			body.theme-light & {
 				border-color:var(--color-border-light-2);
 			}
 

@@ -67,7 +67,7 @@
 			break-inside: avoid-column;
 			padding: 4px;
 
-			.theme-dark & {
+			body.theme-dark & {
 				background: var(--background);
 			}
 
@@ -75,7 +75,7 @@
 				background: #ffffff44;
 				padding: 0 2px;
 
-				.theme-dark & {
+				body.theme-dark & {
 					background: #ffffff11;
 				}
 

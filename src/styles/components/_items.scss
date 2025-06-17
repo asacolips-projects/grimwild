@@ -93,7 +93,7 @@
 			&:hover {
 				color: #ffffff;
 
-				.theme-light & {
+				body.theme-light & {
 					color: #444;
 				}
 			}

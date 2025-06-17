@@ -8,7 +8,7 @@
 		height: auto;
 		line-height: 1.8;
 
-		.theme-light & {
+		body.theme-light & {
 			background: #ffffff33;
 			border-color: #00000022;
 		}

@@ -6,7 +6,18 @@
 	border: 1px solid #000000aa;
 	margin-bottom: 5px;
 
-	.theme-light & {
+	body.theme-dark & {
+		--color-text-primary: #ddd;
+	}
+
+	body.theme-dark & {
+		button,
+		a.button {
+			--button-text-color: #ddd;
+		}
+	}
+
+	body.theme-light & {
 		background: #fff9ef;
 		color: #222;
 	}
@@ -15,7 +26,7 @@
 		background-color: #491f49;
 		border: 1px solid #642764;
 
-		.theme-light & {
+		body.theme-light & {
 			background: #ffeffe;
 			border: 2px solid #b423b4;
 		}
@@ -25,7 +36,7 @@
 		background-color: #213046;
 		border: 1px solid #304d77;
 
-		.theme-light & {
+		body.theme-light & {
 			background: #effcff;
 			border: 2px solid #2392b4;
 		}
@@ -48,7 +59,7 @@
 		border-radius: 5px;
 	}
 
-	.theme-light &::before {
+	body.theme-light &::before {
 		background-image: url("../assets/grimwild-page-texture-light.webp");
 	}
 
@@ -67,7 +78,7 @@
 		flex: 3;
 		align-items: center;
 
-		.theme-light & {
+		body.theme-light & {
 			color: #222;
 		}
 
@@ -144,7 +155,7 @@
 	.message-header {
 		color: #999;
 
-		.theme-light & {
+		body.theme-light & {
 			color: #555;
 		}
 	}
@@ -174,7 +185,7 @@
 			background: #ffffff09;
 			border-radius: 5px;
 
-			.theme-light & {
+			body.theme-light & {
 				background: #00000012;
 			}
 
@@ -199,41 +210,41 @@
 			text-decoration: none;
 			cursor: pointer;
 			font-size: var(--font-size-14);
-			
+
 			> i {
 				pointer-events: none;
 				margin-right: 0.25rem;
 			}
-	
+
 			> label {
 				pointer-events: none;
 			}
-	
+
 			&:disabled {
 				pointer-events: none;
 			}
-	
+
 			&:hover {
 				background: var(--button-hover-background-color);
 				color: var(--button-hover-text-color);
 				border-color: var(--button-hover-border-color);
 				transition: background-color 0.5s, border-color 0.5s;
 			}
-	
+
 			&:focus {
 				outline: 1px solid var(--button-focus-outline-color);
 				box-shadow: 0 0 4px var(--button-focus-outline-color);
 			}
-	
+
 			&.icon > i {
 				margin: 0;
 			}
-	
+
 			&.active {
 				outline: 1px solid var(--button-focus-outline-color);
 				box-shadow: 0 0 4px var(--button-focus-outline-color);
 			}
-	
+
 			&.bright {
 				text-transform: uppercase;
 			}
