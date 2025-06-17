@@ -43,13 +43,13 @@
 								{{ game.i18n.localize('GRIMWILD.Damage.dropped') }}
 							</label>
 						</div>
-						<RollPoolInput
+						<!-- <RollPoolInput
 							button-action="rollPool"
 							field="bloodied"
 							field-name="system.bloodied.pool.diceNum"
 							:pool="context.system.bloodied.pool"
 							min="0"
-						/>
+						/> -->
 					</div>
 					<div v-if="statGroupKey === 1" class="harm-rattled form-group">
 						<div class="flexcol">
@@ -62,13 +62,13 @@
 								{{ game.i18n.localize('GRIMWILD.Damage.dropped') }}
 							</label>
 						</div>
-						<RollPoolInput
+						<!-- <RollPoolInput
 							button-action="rollPool"
 							field="rattled"
 							field-name="system.rattled.pool.diceNum"
 							:pool="context.system.rattled.pool"
 							min="0"
-						/>
+						/> -->
 					</div>
 
 				</div>
