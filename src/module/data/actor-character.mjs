@@ -176,24 +176,30 @@ export default class GrimwildCharacter extends GrimwildActorBase {
 	}
 
 	async _preUpdate(changes, options, user) {
-		// const checkPool = (change, source) => {
-		// 	if (change) {
-		// 		// Start the healing pool
-		// 		if (change.marked && !source.marked && !change.pool.diceNum && !source.pool.diceNum) {
-		// 			change.pool.diceNum = 3;
-		// 		}
-		// 		// Cancel the healing pool
-		// 		if (!change.marked && source.marked && change.pool.diceNum == source.pool.diceNum) {
-		// 			change.pool.diceNum = 0;
-		// 		}
-		// 		// Pool expired
-		// 		if (source.marked && !change.pool.diceNum && source.pool.diceNum) {
-		// 			change.marked = false;
-		// 		}
-		// 	}
-		// }
-		// checkPool(changes.system.bloodied, this._source.bloodied);
-		// checkPool(changes.system.rattled, this._source.rattled);
+		if (game.settings.get("grimwild", "enableHarmPools")) {
+			const checkPool = (change, source) => {
+				if (change) {
+					// Start the healing pool
+					if (change.marked && !source.marked && !change.pool.diceNum && !source.pool.diceNum) {
+						change.pool.diceNum = 1;
+					}
+					// Cancel the healing pool
+					if (!change.marked && source.marked && change.pool.diceNum == source.pool.diceNum) {
+						change.pool.diceNum = 0;
+					}
+					// Pool started
+					if (!source.marked && change.pool.diceNum && !source.pool.diceNum) {
+						change.marked = true;
+					}
+					// Pool expired
+					if (source.marked && !change.pool.diceNum && source.pool.diceNum) {
+						change.marked = false;
+					}
+				}
+			}
+			checkPool(changes.system.bloodied, this._source.bloodied);
+			checkPool(changes.system.rattled, this._source.rattled);
+		}
 
 		const checkSteps = (change, source) => {
 			if (change) {

@@ -32,7 +32,7 @@
 						</div>
 					</div>
 
-					<div v-if="statGroupKey === 0" class="harm-bloodied form-group">
+					<div v-if="statGroupKey === 0" class="harm harm-bloodied form-group">
 						<div class="flexcol">
 							<label>
 								<input type="checkbox" name="system.bloodied.marked" v-model="context.system.bloodied.marked"/>
@@ -43,15 +43,18 @@
 								{{ game.i18n.localize('GRIMWILD.Damage.dropped') }}
 							</label>
 						</div>
-						<!-- <RollPoolInput
+						<RollPoolInput
+							v-if="context?.enableHarm"
 							button-action="rollPool"
 							field="bloodied"
 							field-name="system.bloodied.pool.diceNum"
 							:pool="context.system.bloodied.pool"
 							min="0"
-						/> -->
+							:max="context?.maxBloodied"
+							:suffix="context?.maxBloodied ? `/ ${context.maxBloodied}` : 'd'"
+						/>
 					</div>
-					<div v-if="statGroupKey === 1" class="harm-rattled form-group">
+					<div v-if="statGroupKey === 1" class="harm harm-rattled form-group">
 						<div class="flexcol">
 							<label>
 								<input type="checkbox" name="system.rattled.marked" v-model="context.system.rattled.marked"/>
@@ -62,13 +65,16 @@
 								{{ game.i18n.localize('GRIMWILD.Damage.dropped') }}
 							</label>
 						</div>
-						<!-- <RollPoolInput
+						<RollPoolInput
+							v-if="context?.enableHarm"
 							button-action="rollPool"
 							field="rattled"
 							field-name="system.rattled.pool.diceNum"
 							:pool="context.system.rattled.pool"
 							min="0"
-						/> -->
+							:max="context?.maxRattled"
+							:suffix="context?.maxRattled ? `/ ${context.maxRattled}` : 'd'"
+						/>
 					</div>
 
 				</div>

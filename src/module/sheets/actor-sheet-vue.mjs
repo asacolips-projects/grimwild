@@ -194,6 +194,77 @@ export class GrimwildActorSheetVue extends VueRenderingMixin(GrimwildBaseVueActo
 			}
 		}
 
+		// Handle the custom harm homebrew.
+		if (game.settings.get("grimwild", "enableHarmPools")) {
+			context.enableHarm = true;
+
+			// Override to make it class-based.
+			const actorPath = this.document.system.path?.toLocaleLowerCase().trim() ?? "";
+			context.maxBloodied = game.settings.get("grimwild", "maxBloodied");
+			context.maxRattled = game.settings.get("grimwild", "maxRattled");
+			// const pathValues = {
+			// 	artificer: {
+			// 		maxBloodied: 4,
+			// 		maxRattled: 4
+			// 	},
+			// 	bard: {
+			// 		maxBloodied: 4,
+			// 		maxRattled: 4,
+			// 	},
+			// 	berserker: {
+			// 		maxBloodied: 6,
+			// 		maxRattled: 2,
+			// 	},
+			// 	cleric: {
+			// 		maxBloodied: 4,
+			// 		maxRattled: 4,
+			// 	},
+			// 	druid: {
+			// 		maxBloodied: 4,
+			// 		maxRattled: 4,
+			// 	},
+			// 	fighter: {
+			// 		maxBloodied: 5,
+			// 		maxRattled: 3,
+			// 	},
+			// 	monk: {
+			// 		maxBloodied: 3,
+			// 		maxRattled: 5,
+			// 	},
+			// 	paladin: {
+			// 		maxBloodied: 4,
+			// 		maxRattled: 4,
+			// 	},
+			// 	psion: {
+			// 		maxBloodied: 2,
+			// 		maxRattled: 6,
+			// 	},
+			// 	ranger: {
+			// 		maxBloodied: 4,
+			// 		maxRattled: 4,
+			// 	},
+			// 	rogue: {
+			// 		maxBloodied: 4,
+			// 		maxRattled: 4,
+			// 	},
+			// 	sorcerer: {
+			// 		maxBloodied: 3,
+			// 		maxRattled: 5,
+			// 	},
+			// 	warlock: {
+			// 		maxBloodied: 3,
+			// 		maxRattled: 5,
+			// 	},
+			// 	wizard: {
+			// 		maxBloodied: 3,
+			// 		maxRattled: 5,
+			// 	},
+			// }
+
+			// context.maxBloodied = pathValues?.[actorPath]?.maxBloodied ?? game.settings.get("grimwild", "maxBloodied");
+			// context.maxRattled = pathValues?.[actorPath]?.maxRattled ?? game.settings.get("grimwild", "maxRattled");
+		}
+
 		return context;
 	}
 

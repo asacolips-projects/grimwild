@@ -172,6 +172,32 @@ Hooks.once("init", function () {
 	};
 
 	SUSPENSE_TRACKER.init();
+
+	// Enable harm pools.
+	game.settings.register("grimwild", "enableHarmPools", {
+		name: game.i18n.localize("GRIMWILD.Settings.enableHarmPools.name"),
+		hint: game.i18n.localize("GRIMWILD.Settings.enableHarmPools.hint"),
+		scope: "world",
+		config: true,
+		type: Boolean,
+		default: false
+	});
+
+	game.settings.register("grimwild", "maxBloodied", {
+		name: game.i18n.localize("GRIMWILD.Settings.maxBloodied.name"),
+		hint: game.i18n.localize("GRIMWILD.Settings.maxBloodied.hint"),
+		scope: "world",
+		config: true,
+		type: Number,
+	});
+
+	game.settings.register("grimwild", "maxRattled", {
+		name: game.i18n.localize("GRIMWILD.Settings.maxRattled.name"),
+		hint: game.i18n.localize("GRIMWILD.Settings.maxRattled.hint"),
+		scope: "world",
+		config: true,
+		type: Number,
+	});
 });
 
 /* -------------------------------------------- */
