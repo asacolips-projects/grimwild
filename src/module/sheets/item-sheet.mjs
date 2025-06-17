@@ -119,7 +119,7 @@ export class GrimwildItemSheet extends api.HandlebarsApplicationMixin(
 				context.tab = context.tabs[partId];
 				// Enrich description info for display
 				// Enrichment turns text like `[[/r 1d20]]` into buttons
-				context.enrichedDescription = await TextEditor.enrichHTML(
+				context.enrichedDescription = await foundry.applications.ux.TextEditor.implementation.enrichHTML(
 					this.item.system.description,
 					{
 						// Whether to show secret blocks in the finished html
@@ -385,7 +385,7 @@ export class GrimwildItemSheet extends api.HandlebarsApplicationMixin(
 	 * @protected
 	 */
 	async _onDrop(event) {
-		const data = TextEditor.getDragEventData(event);
+		const data = foundry.applications.ux.TextEditor.implementation.getDragEventData(event);
 		const item = this.item;
 		const allowed = Hooks.call("dropItemSheetData", item, this, data);
 		if (allowed === false) return;
@@ -530,7 +530,7 @@ export class GrimwildItemSheet extends api.HandlebarsApplicationMixin(
 				dragover: this._onDragOver.bind(this),
 				drop: this._onDrop.bind(this)
 			};
-			return new DragDrop(d);
+			return new foundry.applications.ux.DragDrop.implementation(d);
 		});
 	}
 }

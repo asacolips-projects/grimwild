@@ -132,7 +132,7 @@ export class GrimwildActorSheet extends api.HandlebarsApplicationMixin(
 				context.tab = context.tabs[partId];
 				// Enrich biography info for display
 				// Enrichment turns text like `[[/r 1d20]]` into buttons
-				context.enrichedBiography = await TextEditor.enrichHTML(
+				context.enrichedBiography = await foundry.applications.ux.TextEditor.implementation.enrichHTML(
 					this.actor.system.biography,
 					{
 						// Whether to show secret blocks in the finished html
@@ -491,7 +491,7 @@ export class GrimwildActorSheet extends api.HandlebarsApplicationMixin(
 	 * @protected
 	 */
 	async _onDrop(event) {
-		const data = TextEditor.getDragEventData(event);
+		const data = foundry.applications.ux.TextEditor.implementation.getDragEventData(event);
 		const actor = this.actor;
 		const allowed = Hooks.call("dropActorSheetData", actor, this, data);
 		if (allowed === false) return;
@@ -719,7 +719,7 @@ export class GrimwildActorSheet extends api.HandlebarsApplicationMixin(
 				dragover: this._onDragOver.bind(this),
 				drop: this._onDrop.bind(this)
 			};
-			return new DragDrop(d);
+			return new foundry.applications.ux.DragDrop.implementation(d);
 		});
 	}
 

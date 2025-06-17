@@ -81,7 +81,7 @@ export default class GrimwildRoll extends Roll {
 			chatData.hasActions = true;
 		}
 
-		return renderTemplate(template, chatData);
+		return foundry.applications.handlebars.renderTemplate(template, chatData);
 	}
 }
 
