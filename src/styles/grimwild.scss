@@ -47,6 +47,8 @@
 
 #sus-control {
   #ui-bottom & {
+    display: flex;
+    flex-direction: row;
     justify-content: flex-start;
     margin-bottom: 4px;
     gap: 2px;

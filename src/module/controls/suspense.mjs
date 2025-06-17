@@ -151,6 +151,7 @@ class SuspenseTracker {
 		if (!susControl) {
 			susControl = document.createElement("div");
 			susControl.setAttribute("id", "sus-control");
+			susControl.setAttribute("class", "faded-ui");
 			document.getElementById("ui-bottom").prepend(susControl);
 		}
 
