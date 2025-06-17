@@ -28,14 +28,6 @@ export class GrimwildItemSheetVue extends VueRenderingMixin(GrimwildBaseVueItemS
 		},
 		window: {
 			resizable: true,
-			controls: [
-				{
-					action: "showItemArtwork",
-					icon: "fa-solid fa-image",
-					label: "ITEM.ViewArt",
-					ownership: "OWNER"
-				}
-			]
 		},
 		tag: "form",
 		actions: {

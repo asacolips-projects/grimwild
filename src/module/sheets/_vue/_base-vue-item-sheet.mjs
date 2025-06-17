@@ -10,7 +10,7 @@ export class GrimwildBaseVueItemSheet extends foundry.applications.sheets.ItemSh
 		window: {
 			controls: [
 				{
-					action: "onShowArtwork",
+					action: "showItemArtwork",
 					icon: "fa-solid fa-image",
 					label: "ITEM.ViewArt",
 					ownership: "OWNER"

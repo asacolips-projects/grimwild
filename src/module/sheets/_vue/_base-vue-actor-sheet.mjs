@@ -20,26 +20,26 @@ export class GrimwildBaseVueActorSheet extends ActorSheetV2 {
 			height: 600
 		},
 		window: {
-			controls: [
-				{
-					action: "configurePrototypeToken",
-					icon: "fa-solid fa-user-circle",
-					label: "TOKEN.TitlePrototype",
-					ownership: "OWNER"
-				},
-				{
-					action: "showPortraitArtwork",
-					icon: "fa-solid fa-image",
-					label: "SIDEBAR.CharArt",
-					ownership: "OWNER"
-				},
-				{
-					action: "showTokenArtwork",
-					icon: "fa-solid fa-image",
-					label: "SIDEBAR.TokenArt",
-					ownership: "OWNER"
-				}
-			]
+			// controls: [
+			// 	{
+			// 		action: "configurePrototypeToken",
+			// 		icon: "fa-solid fa-user-circle",
+			// 		label: "TOKEN.TitlePrototype",
+			// 		ownership: "OWNER"
+			// 	},
+			// 	{
+			// 		action: "showPortraitArtwork",
+			// 		icon: "fa-solid fa-image",
+			// 		label: "SIDEBAR.CharArt",
+			// 		ownership: "OWNER"
+			// 	},
+			// 	{
+			// 		action: "showTokenArtwork",
+			// 		icon: "fa-solid fa-image",
+			// 		label: "SIDEBAR.TokenArt",
+			// 		ownership: "OWNER"
+			// 	}
+			// ]
 		},
 		actions: {
 			onEditImage: this._onEditImage,
