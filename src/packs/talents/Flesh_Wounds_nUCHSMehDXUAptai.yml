@@ -6,9 +6,9 @@ img: icons/skills/wounds/injury-triple-slash-bleed.webp
 system:
   description: >-
     <p>When you take physical damage, only a disaster can drop you. You can get
-    bloodied multiple times. Each extra time inflicts +1t on rolls and increases
-    your heal pool by 4d. These extra thorns can never be ignored <em>(e.g.,
-    Frenzy and Conviction talents)</em>.</p>
+    bloodied multiple times. Each extra time inflicts +1t on rolls. These extra
+    thorns can never be ignored <em>(e.g., Frenzy and Oathsworn talents)</em>
+    and they also apply thorns to any attempt to heal you.</p>
   core: false
   notes:
     description: ''
@@ -22,7 +22,6 @@ system:
         showSteps: true
       pool:
         diceNum: 0
-        max: null
   path: berserker
 effects: []
 sort: 0
@@ -33,11 +32,11 @@ flags: {}
 _stats:
   compendiumSource: null
   duplicateSource: null
-  coreVersion: '12.331'
+  coreVersion: '13.345'
   systemId: grimwild
-  systemVersion: 0.1.0
+  systemVersion: 0.2.0
   createdTime: 1739062678115
-  modifiedTime: 1739746140500
-  lastModifiedBy: Dl5Tvf37OuEHwdAh
+  modifiedTime: 1750165249599
+  lastModifiedBy: UV77mtxQgW7KpS6B
+  exportSource: null
 _key: '!items!nUCHSMehDXUAptai'
-

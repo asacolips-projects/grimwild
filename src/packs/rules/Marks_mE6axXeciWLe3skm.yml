@@ -14,16 +14,15 @@ pages:
     text:
       format: 1
       content: >-
-        <p>Lesser damage, a temporary hindrance to a stat <em>(winded,
+        <p>Light damage, a temporary hindrance to a stat <em>(winded,
         confused)</em>. <em><strong>Take +1t on the next roll with that stat,
         then clear the mark.</strong></em></p><p>If a stat is already marked,
-        mark its paired stat instead—for physical, BRAWN/AGILITY, and for
-        mental, WITS/PRESENCE. If both are already marked, take the related
-        @UUID[Compendium.grimwild.rules.JournalEntry.kAGyEflDClkS3viS]{Harm}.
-        Note that a mark can be taken even if you already have the related
-        harm.</p><p>Marks are often combined with another mark or other
-        consequences when inflicted directly <em>(Agility mark + thrown off your
-        horse)</em>. You also take a mark when you
+        you take
+        @UUID[Compendium.grimwild.rules.JournalEntry.kAGyEflDClkS3viS]{Harm}
+        instead. As long as a stat is umarked, even if you have its related
+        harm, you can take a mark to it.</p><p>Marks are often combined with
+        another mark or other consequences when inflicted directly <em>(Agility
+        mark + thrown off your horse)</em>. You also take a mark when you
         @UUID[Compendium.grimwild.rules.JournalEntry.i7KRerD2wyqcWclD]{Push
         Yourself}.</p>
     video:
@@ -37,12 +36,14 @@ pages:
     _stats:
       compendiumSource: null
       duplicateSource: null
-      coreVersion: '12.331'
+      coreVersion: '13.345'
       systemId: grimwild
       systemVersion: 0.1.0
       createdTime: null
-      modifiedTime: 1738610746406
-      lastModifiedBy: Dl5Tvf37OuEHwdAh
+      modifiedTime: 1750166240450
+      lastModifiedBy: UV77mtxQgW7KpS6B
+      exportSource: null
+    category: null
     _key: '!journal.pages!mE6axXeciWLe3skm.mHg9OT7eskj9alwg'
 sort: 0
 ownership:
@@ -52,12 +53,12 @@ flags: {}
 _stats:
   compendiumSource: null
   duplicateSource: null
-  coreVersion: '12.331'
+  coreVersion: '13.345'
   systemId: grimwild
   systemVersion: 0.1.0
   createdTime: 1738510549034
   modifiedTime: 1738510549034
   lastModifiedBy: Dl5Tvf37OuEHwdAh
+  exportSource: null
 categories: []
 _key: '!journal!mE6axXeciWLe3skm'
-
