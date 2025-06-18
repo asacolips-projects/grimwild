@@ -197,8 +197,8 @@ export default class GrimwildCharacter extends GrimwildActorBase {
 					}
 				}
 			}
-			checkPool(changes.system.bloodied, this._source.bloodied);
-			checkPool(changes.system.rattled, this._source.rattled);
+			checkPool(changes.system?.bloodied, this._source.bloodied);
+			checkPool(changes.system?.rattled, this._source.rattled);
 		}
 
 		const checkSteps = (change, source) => {
@@ -213,8 +213,8 @@ export default class GrimwildCharacter extends GrimwildActorBase {
 				}
 			}
 		}
-		checkSteps(changes.system.spark, this._source.spark);
-		checkSteps(changes.system.story, this._source.story);
+		checkSteps(changes.system?.spark, this._source.spark);
+		checkSteps(changes.system?.story, this._source.story);
 	}
 
 	prepareDerivedData() {

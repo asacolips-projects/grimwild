@@ -20,7 +20,7 @@
 				:min="min"
 				:max="max"
 			/>
-			<span class="roll-pool-suffix">{{ suffix }}</span>
+			<span class="roll-pool-suffix">{{ suffix ?? 'd' }}</span>
 		</template>
 	</div>
 </template>
@@ -46,7 +46,6 @@ const props = defineProps([
 
 if (!props.buttonAction) props.buttonAction = 'rollPool';
 if (!props.min) props.min = 0;
-if (!props.suffix) props.suffix = 'd';
 
 let fieldNameProp = null;
 if (props.fieldName) {

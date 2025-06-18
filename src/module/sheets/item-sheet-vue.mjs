@@ -105,8 +105,7 @@ export class GrimwildItemSheetVue extends VueRenderingMixin(GrimwildBaseVueItemS
 			}
 		}
 
-		// Debug. @todo remove.
-		// console.log('context', context);
+		Hooks.callAll("grimwildItemSheetVuePrepareContext", this, context);
 
 		return context;
 	}

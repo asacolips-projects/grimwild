@@ -144,7 +144,7 @@ export class GrimwildActorMonsterSheetVue extends GrimwildActorSheetVue {
 			}
 		}
 
-		console.log("monster", context);
+		Hooks.callAll("grimwildActorMonsterSheetVuePrepareContext", this, context);
 
 		return context;
 	}

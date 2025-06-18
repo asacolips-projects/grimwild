@@ -181,6 +181,8 @@ export class GrimwildActorSheetVue extends VueRenderingMixin(GrimwildBaseVueActo
 			context.maxRattled = game.settings.get("grimwild", "maxRattled");
 		}
 
+		Hooks.callAll("grimwildActorSheetVuePrepareContext", this, context);
+
 		return context;
 	}
 
@@ -314,7 +316,7 @@ export class GrimwildActorSheetVue extends VueRenderingMixin(GrimwildBaseVueActo
 			if (folder) {
 				const otherFolders = compendium.folders.filter((f) => f.id !== folder.id);
 				game.folders._expanded[folder.uuid] = true;
-				otherFolders.forEach((f) => game.folders._expanded[f.uuid] = false);
+				otherFolders.forEach((f) => delete game.folders._expanded[f.uuid]);
 			}
 			// Render the pack.
 			compendium.apps[0].render(true);
