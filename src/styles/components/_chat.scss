@@ -8,12 +8,14 @@
 
 	body.theme-dark & {
 		--color-text-primary: #ddd;
-	}
 
-	body.theme-dark & {
 		button,
 		a.button {
 			--button-text-color: #ddd;
+		}
+
+		h2, h3, h4 {
+			color: #ddd;
 		}
 	}
 

@@ -29,6 +29,6 @@ export default class GrimwildDiePoolRoll extends Roll {
 		chatData.startPool = `${chatData.dice.length}d`;
 		chatData.endPool = `${chatData.dice.length - dropped.length}d`;
 
-		return renderTemplate(template, chatData);
+		return foundry.applications.handlebars.renderTemplate(template, chatData);
 	}
 }
