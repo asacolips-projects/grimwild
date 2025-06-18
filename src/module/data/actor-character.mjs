@@ -291,20 +291,37 @@ export default class GrimwildCharacter extends GrimwildActorBase {
 			options.assists = rollDialog.assisters;
 			const formula = "{(@statDice)d6kh, (@thorns)d8}";
 			const roll = new grimwild.roll(formula, rollData, options);
+
+			const updates = {};
+
+			// Remove used spark.
 			if (rollDialog.sparkUsed > 0) {
 				let sparkUsed = rollDialog.sparkUsed;
-				const newSpark = this.spark;
-				for (const step in newSpark.steps) {
-					if (newSpark.steps[step] && sparkUsed > 0) {
-						newSpark.steps[step] = false;
-						sparkUsed--;
-					}
+				const newSpark = {
+					steps: this.spark.steps
+				};
+				// All of your spark is used.
+				if (sparkUsed > 1 || this.spark.value === 1) {
+					newSpark.steps[0] = false;
+					newSpark.steps[1] = false;
 				}
-				const actor = game.actors.get(this.parent.id);
-
-				await actor.update({ "system.spark": newSpark });
-				actor.sheet.render(true);
+				// If half of your spark is used.
+				else if (sparkUsed === 1 && this.spark.value > 1) {
+					newSpark.steps[0] = true;
+					newSpark.steps[1] = false;
+				}
+				updates["system.spark"] = newSpark;
 			}
+
+			// Remove marks.
+			if (rollData?.stats?.[options.stat].marked) {
+				updates[`system.stats.${options.stat}.marked`] = false;
+			}
+
+			// Handle the updates.
+			const actor = game.actors.get(this.parent.id);
+			await actor.update(updates);
+			actor.sheet.render(true);
 
 			await roll.toMessage({
 				actor: this,

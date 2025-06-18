@@ -154,15 +154,9 @@ export class GrimwildRollDialog extends foundry.applications.api.DialogV2 {
 		// add some preprocessed data
 		rollData.hasSpark = rollData.spark > 0;
 		rollData.sparkArray = Array.from({ length: rollData.spark }, (_, i) => i);
-		// Ignore mark if there is associated harm
-		rollData.markIgnored = rollData.isMarked
-			&& ((rollData.isBloodied && isPhysicalStat(rollData.stat))
-			|| (rollData.isRattled && isMentalStat(rollData.stat)));
-		// Do not check marked if it is ignored
-		rollData.isMarked = rollData.isMarked && !rollData.markIgnored;
 		rollData.assistants = game.actors.filter((a) => a.type === "character" && a.name !== rollData.name).map((a) => a.name);
 
-		options.content = await renderTemplate("systems/grimwild/templates/dialog/stat-roll.hbs", rollData);
+		options.content = await foundry.applications.handlebars.renderTemplate("systems/grimwild/templates/dialog/stat-roll.hbs", rollData);
 		options.render = this._render;
 		options.modal = true;
 		options.window = { title: "Grimwild Roll" };
