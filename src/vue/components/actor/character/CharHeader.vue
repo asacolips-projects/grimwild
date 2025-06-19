@@ -31,33 +31,6 @@
 							</div>
 						</div>
 					</div>
-
-					<div v-if="statGroupKey === 0" class="harm harm-bloodied form-group">
-						<!-- <div class="flexcol">
-							<label>
-								<input type="checkbox" name="system.bloodied.marked" v-model="context.system.bloodied.marked"/>
-								{{ game.i18n.localize('GRIMWILD.Damage.bloodied') }}
-							</label>
-							<label>
-								<input type="checkbox" name="system.bloodied.dropped" v-model="context.system.bloodied.dropped"/>
-								{{ game.i18n.localize('GRIMWILD.Damage.dropped') }}
-							</label>
-						</div> -->
-
-					</div>
-					<div v-if="statGroupKey === 1" class="harm harm-rattled form-group">
-						<!-- <div class="flexcol">
-							<label>
-								<input type="checkbox" name="system.rattled.marked" v-model="context.system.rattled.marked"/>
-								{{ game.i18n.localize('GRIMWILD.Damage.rattled') }}
-							</label>
-							<label>
-								<input type="checkbox" name="system.rattled.dropped" v-model="context.system.rattled.dropped"/>
-								{{ game.i18n.localize('GRIMWILD.Damage.dropped') }}
-							</label>
-						</div> -->
-
-					</div>
 				</div>
 			</div>
 
@@ -101,7 +74,7 @@
 				<!-- Dropped -->
 				<div class="harm harm-dropped">
 					<label>
-						<input type="checkbox" name="system.bloodied.dropped" v-model="context.system.bloodied.dropped"/>
+						<input type="checkbox" name="system.dropped" v-model="context.system.dropped"/>
 						{{ game.i18n.localize('GRIMWILD.Damage.dropped') }}
 					</label>
 				</div>

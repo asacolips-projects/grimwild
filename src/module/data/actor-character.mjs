@@ -39,6 +39,8 @@ export default class GrimwildCharacter extends GrimwildActorBase {
 			marked: new fields.BooleanField(),
 			dropped: new fields.BooleanField(),
 		});
+		schema.dropped = new fields.BooleanField(),
+
 		schema.conditions = new fields.ArrayField(new fields.SchemaField({
 			name: new fields.StringField(),
 			pool: new DicePoolField(),
@@ -352,6 +354,10 @@ export default class GrimwildCharacter extends GrimwildActorBase {
 				pool: oldRattled,
 				marked: false
 			};
+		}
+
+		if (!source.dropped && source.bloodied.dropped || source.rattled.dropped) {
+			source.dropped = true;
 		}
 
 		return super.migrateData(source);
