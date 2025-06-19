@@ -90,23 +90,23 @@ Hooks.once("init", function () {
 	CONFIG.ActiveEffect.legacyTransferral = false;
 
 	// Register sheet application classes
-	Actors.unregisterSheet("core", ActorSheet);
-	Actors.registerSheet("grimwild", GrimwildActorMonsterSheetVue, {
+	foundry.documents.collections.Actors.unregisterSheet("core", foundry.appv1.sheets.ActorSheet);
+	foundry.documents.collections.Actors.registerSheet("grimwild", GrimwildActorMonsterSheetVue, {
 		makeDefault: true,
 		label: "Monster Sheet",
 		types: ["monster", "linkedChallenge"]
 	});
-	Actors.registerSheet("grimwild", GrimwildActorSheetVue, {
+	foundry.documents.collections.Actors.registerSheet("grimwild", GrimwildActorSheetVue, {
 		makeDefault: true,
 		label: "GRIMWILD.SheetLabels.Actor",
 		types: ["character"]
 	});
-	Items.unregisterSheet("core", ItemSheet);
-	Items.registerSheet("grimwild", GrimwildItemSheet, {
+	foundry.documents.collections.Items.unregisterSheet("core", foundry.appv1.sheets.ItemSheet);
+	foundry.documents.collections.Items.registerSheet("grimwild", GrimwildItemSheet, {
 		makeDefault: false,
 		label: "GRIMWILD.SheetLabels.Item"
 	});
-	Items.registerSheet("grimwild", GrimwildItemSheetVue, {
+	foundry.documents.collections.Items.registerSheet("grimwild", GrimwildItemSheetVue, {
 		makeDefault: true,
 		label: "Grimwild Vue Sheet",
 		types: ["talent", "challenge"]
