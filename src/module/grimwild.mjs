@@ -180,7 +180,8 @@ Hooks.once("init", function () {
 		scope: "world",
 		config: true,
 		type: Boolean,
-		default: false
+		default: false,
+		requiresReload: true
 	});
 
 	game.settings.register("grimwild", "maxBloodied", {
