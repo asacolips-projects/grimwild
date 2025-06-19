@@ -94,6 +94,11 @@ GRIMWILD:
     Actor: Grimwild Actor Sheet
     Item: Grimwild Item Sheet
   Actor:
+    Plural:
+      character: Characters
+      monster: Monsters
+      linkedChallenge: Challenges
+      other: Others
     Tabs:
       # Current
       Details: Details
@@ -224,11 +229,14 @@ GRIMWILD:
     Inactive: Inactive Effects
   Dialog:
     Roll: Roll
+  Combat:
+    ActionCount: 'Rolls'
 TYPES:
   Actor:
     character: Character
     monster: Monster
     linkedChallenge: Linked Challenge
+    other: Other
   Item:
     talent: Talent
     arcana: Arcana

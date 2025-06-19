@@ -29,6 +29,10 @@
   @import 'components/challenge';
 }
 
+.combat-sidebar {
+  @import 'components/combat';
+}
+
 .chat-message {
   @import 'components/chat';
 

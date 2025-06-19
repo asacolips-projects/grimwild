@@ -2,6 +2,7 @@
 import { GrimwildActor } from "./documents/actor.mjs";
 import { GrimwildItem } from "./documents/item.mjs";
 import { GrimwildChatMessage } from "./documents/chat-message.mjs";
+import { GrimwildCombat, GrimwildCombatTracker } from "./documents/combat.mjs";
 // Import sheet classes.
 import { GrimwildActorSheet } from "./sheets/actor-sheet.mjs";
 import { GrimwildActorSheetVue } from "./sheets/actor-sheet-vue.mjs";
@@ -27,14 +28,16 @@ globalThis.grimwild = {
 	documents: {
 		GrimwildActor,
 		GrimwildItem,
-		GrimwildChatMessage
+		GrimwildChatMessage,
+		GrimwildCombat
 	},
 	applications: {
 		GrimwildActorSheet,
 		GrimwildActorSheetVue,
 		GrimwildActorMonsterSheetVue,
 		GrimwildItemSheet,
-		GrimwildItemSheetVue
+		GrimwildItemSheetVue,
+		GrimwildCombatTracker
 	},
 	utils: {
 		rollItemMacro
@@ -84,10 +87,9 @@ Hooks.once("init", function () {
 	// Override chat message class.
 	CONFIG.ChatMessage.documentClass = grimwild.documents.GrimwildChatMessage;
 
-	// Active Effects are never copied to the Actor,
-	// but will still apply to the Actor from within the Item
-	// if the transfer property on the Active Effect is true.
-	CONFIG.ActiveEffect.legacyTransferral = false;
+	// Override combat classes.
+	CONFIG.Combat.documentClass = grimwild.documents.GrimwildCombat;
+	CONFIG.ui.combat = grimwild.applications.GrimwildCombatTracker;
 
 	// Register sheet application classes
 	foundry.documents.collections.Actors.unregisterSheet("core", foundry.appv1.sheets.ActorSheet);

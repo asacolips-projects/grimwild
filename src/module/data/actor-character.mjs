@@ -331,6 +331,21 @@ export default class GrimwildCharacter extends GrimwildActorBase {
 				rollMode: game.settings.get("core", "rollMode")
 			});
 
+			await this.updateCombatActionCount();
+
+		}
+	}
+
+	/**
+	 * Update action count for combatants.
+	 */
+	async updateCombatActionCount() {
+		for (const combat of game.combats) {
+			const combatant = combat?.getCombatantByActor(this.parent.id);
+			if (combatant) {
+				const actionCount = Number(combatant.flags?.grimwild?.actionCount ?? 0);
+				await combatant.setFlag("grimwild", "actionCount", actionCount + 1);
+			}
 		}
 	}
 
