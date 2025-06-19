@@ -1,0 +1,303 @@
+folder: null
+name: Giant, Storm
+type: monster
+img: icons/svg/mystery-man.svg
+system:
+  biography: >-
+    <p>Regal rulers of sea and sky, embodying wisdom and natural order. They
+    summon storms to enforce balance, driven to maintain the world's harmony</p>
+  notes: ''
+  role: blaster
+  tier: tough
+  traits:
+    - Crackling Aura
+    - Commanding Presence
+    - Speech
+  moves:
+    - Thunderbolt
+    - Thunderclap
+    - Summon Storm
+  desires:
+    - value: to enforce what it sees as the natural order.
+      are: false
+    - value: to see established order devolve into chaos.
+      are: false
+  sensories:
+    colors:
+      - name: Electric Blue
+        color: '#4682b4'
+      - name: Cloudy Sky
+        color: '#b0c4dd'
+      - name: Stormy Gray
+        color: '#778898'
+    sights: crackling arcs of lightning, regal figure on the horizon
+    sounds: deafening boom, wind rushing, building static hum
+    smells: electrified air, rain-soaked earth, wet stone
+  pool:
+    diceNum: 0
+    max: null
+  tables:
+    - name: Arrives Alongside ...
+      instructions: ''
+      table:
+        - - Hurricane, sweeping away defiance.
+          - Twin tornados, ripping apart the unrepentant.
+          - Hailstorm, battering the guilty into confession.
+          - Lightning storm, searing away deceit.
+          - Torrential downpour, washing away corruption.
+          - Waterspouts, dragging wrongdoers to judgment.
+prototypeToken:
+  name: Giant, Storm
+  displayName: 0
+  actorLink: false
+  appendNumber: false
+  prependAdjective: false
+  width: 1
+  height: 1
+  texture:
+    src: icons/svg/mystery-man.svg
+    anchorX: 0.5
+    anchorY: 0.5
+    offsetX: 0
+    offsetY: 0
+    fit: contain
+    scaleX: 1
+    scaleY: 1
+    rotation: 0
+    tint: '#ffffff'
+    alphaThreshold: 0.75
+  lockRotation: false
+  rotation: 0
+  alpha: 1
+  disposition: -1
+  displayBars: 0
+  bar1:
+    attribute: health
+  bar2:
+    attribute: power
+  light:
+    negative: false
+    priority: 0
+    alpha: 0.5
+    angle: 360
+    bright: 0
+    color: null
+    coloration: 1
+    dim: 0
+    attenuation: 0.5
+    luminosity: 0.5
+    saturation: 0
+    contrast: 0
+    shadows: 0
+    animation:
+      type: null
+      speed: 5
+      intensity: 5
+      reverse: false
+    darkness:
+      min: 0
+      max: 1
+  sight:
+    enabled: false
+    range: 0
+    angle: 360
+    visionMode: basic
+    color: null
+    attenuation: 0.1
+    brightness: 0
+    saturation: 0
+    contrast: 0
+  detectionModes: []
+  occludable:
+    radius: 0
+  ring:
+    enabled: false
+    colors:
+      ring: null
+      background: null
+    effects: 1
+    subject:
+      scale: 1
+      texture: null
+  flags: {}
+  randomImg: false
+  turnMarker:
+    mode: 1
+    animation: null
+    src: null
+    disposition: false
+  movementAction: null
+items:
+  - name: Twin Tornado A
+    type: challenge
+    _id: RPnwAXHX6dRlhmRy
+    img: icons/svg/item-bag.svg
+    system:
+      description: ''
+      roll:
+        diceNum: 0
+        max: null
+      pool:
+        diceNum: 8
+        max: null
+      suspense:
+        steps:
+          - true
+          - true
+      traits: []
+      moves:
+        - Rip Through Town
+        - Debris Barrage
+      failure: []
+    effects: []
+    folder: null
+    sort: 100000
+    ownership:
+      default: 0
+      jgipq2YBy9KMjQWt: 3
+    flags: {}
+    _stats:
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+      coreVersion: '13.345'
+      systemId: grimwild
+      systemVersion: 0.1.7
+      lastModifiedBy: null
+    _key: '!actors.items!IvOdNeSjrmmqV8ZT.RPnwAXHX6dRlhmRy'
+  - name: Head & Magic
+    type: challenge
+    _id: 1qIwXF8G9jbHBole
+    img: icons/svg/item-bag.svg
+    system:
+      description: ''
+      roll:
+        diceNum: 0
+        max: null
+      pool:
+        diceNum: 8
+        max: null
+      suspense:
+        steps:
+          - true
+          - true
+      traits: []
+      moves:
+        - Arcane Static
+        - Summon Elementals
+        - Sheet Lightning
+      failure: []
+    effects: []
+    folder: null
+    sort: 200000
+    ownership:
+      default: 0
+      jgipq2YBy9KMjQWt: 3
+    flags: {}
+    _stats:
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+      coreVersion: '13.345'
+      systemId: grimwild
+      systemVersion: 0.1.7
+      lastModifiedBy: null
+    _key: '!actors.items!IvOdNeSjrmmqV8ZT.1qIwXF8G9jbHBole'
+  - name: Body & Prowess
+    type: challenge
+    _id: nu4ekHaxUcgwIoiB
+    img: icons/svg/item-bag.svg
+    system:
+      description: ''
+      roll:
+        diceNum: 0
+        max: null
+      pool:
+        diceNum: 8
+        max: null
+      suspense:
+        steps:
+          - true
+          - true
+      traits: []
+      moves:
+        - Kick Over Wall
+        - Throw Castle Turret
+        - Shake Off Climbers
+      failure:
+        - pool:
+            diceNum: 0
+            max: null
+          value: ✘ The king dies
+    effects: []
+    folder: null
+    sort: 400000
+    ownership:
+      default: 0
+      jgipq2YBy9KMjQWt: 3
+    flags: {}
+    _stats:
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+      coreVersion: '13.345'
+      systemId: grimwild
+      systemVersion: 0.1.7
+      lastModifiedBy: null
+    _key: '!actors.items!IvOdNeSjrmmqV8ZT.nu4ekHaxUcgwIoiB'
+  - name: Twin Tornado B
+    type: challenge
+    _id: HdIzBUhzJbKxLPep
+    img: icons/svg/item-bag.svg
+    system:
+      description: ''
+      roll:
+        diceNum: 0
+        max: null
+      pool:
+        diceNum: 8
+        max: null
+      suspense:
+        steps:
+          - true
+          - true
+      traits: []
+      moves:
+        - Rip Through Town
+        - Debris Barrage
+      failure: []
+    effects: []
+    folder: null
+    sort: 150000
+    ownership:
+      default: 0
+      jgipq2YBy9KMjQWt: 3
+    flags: {}
+    _stats:
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+      coreVersion: '13.345'
+      systemId: grimwild
+      systemVersion: 0.1.7
+      lastModifiedBy: null
+    _key: '!actors.items!IvOdNeSjrmmqV8ZT.HdIzBUhzJbKxLPep'
+effects: []
+flags: {}
+_stats:
+  compendiumSource: null
+  duplicateSource: null
+  exportSource: null
+  coreVersion: '13.345'
+  systemId: grimwild
+  systemVersion: 0.1.7
+  createdTime: 1750368418511
+  modifiedTime: 1750368418511
+  lastModifiedBy: jgipq2YBy9KMjQWt
+ownership:
+  default: 0
+  jgipq2YBy9KMjQWt: 3
+_id: IvOdNeSjrmmqV8ZT
+sort: 0
+_key: '!actors!IvOdNeSjrmmqV8ZT'
+

@@ -1,0 +1,149 @@
+folder: null
+name: Grick
+type: monster
+img: icons/svg/mystery-man.svg
+system:
+  biography: >-
+    <p>Slithering, worm-like creatures with hooked tentacles and a beak. They
+    hide in dark caverns, taking great care to ambush prey with precise
+    strikes.</p>
+  notes: ''
+  role: lurker
+  tier: tough
+  traits:
+    - Rocky Camouflage
+    - Extended Reach
+  moves:
+    - Tentacle Swipe
+    - Beak Snap
+    - Hasty Retreat
+  desires:
+    - value: to leave no trace of its hunt.
+      are: false
+    - value: to miss a chance at a meal.
+      are: false
+  sensories:
+    colors:
+      - name: Slate Gray
+        color: '#708090'
+      - name: Mauve Gray
+        color: '#b783a7'
+      - name: Dark Olive
+        color: '#566b30'
+    sights: squirming tentacles, intense gaze, faint movement
+    sounds: soft slithering, faint clicking, sudden snapping
+    smells: musty earth, damp rock, faintly fishy scent
+  pool:
+    diceNum: 0
+    max: null
+  tables:
+    - name: Side Effects of Magical Experimentation
+      instructions: ''
+      table:
+        - - Cloaks the whole area in darkness.
+          - Bursts into blinding light when it strikes.
+          - Releases a cloud of sleep gas when struck.
+          - Lets out shrill, echoing whistles.
+          - Absorbs all sound into utter silence.
+          - Tentacles stretch three times normal length.
+prototypeToken:
+  name: Grick
+  displayName: 0
+  actorLink: false
+  appendNumber: false
+  prependAdjective: false
+  width: 1
+  height: 1
+  texture:
+    src: icons/svg/mystery-man.svg
+    anchorX: 0.5
+    anchorY: 0.5
+    offsetX: 0
+    offsetY: 0
+    fit: contain
+    scaleX: 1
+    scaleY: 1
+    rotation: 0
+    tint: '#ffffff'
+    alphaThreshold: 0.75
+  lockRotation: false
+  rotation: 0
+  alpha: 1
+  disposition: -1
+  displayBars: 0
+  bar1:
+    attribute: health
+  bar2:
+    attribute: power
+  light:
+    negative: false
+    priority: 0
+    alpha: 0.5
+    angle: 360
+    bright: 0
+    color: null
+    coloration: 1
+    dim: 0
+    attenuation: 0.5
+    luminosity: 0.5
+    saturation: 0
+    contrast: 0
+    shadows: 0
+    animation:
+      type: null
+      speed: 5
+      intensity: 5
+      reverse: false
+    darkness:
+      min: 0
+      max: 1
+  sight:
+    enabled: false
+    range: 0
+    angle: 360
+    visionMode: basic
+    color: null
+    attenuation: 0.1
+    brightness: 0
+    saturation: 0
+    contrast: 0
+  detectionModes: []
+  occludable:
+    radius: 0
+  ring:
+    enabled: false
+    colors:
+      ring: null
+      background: null
+    effects: 1
+    subject:
+      scale: 1
+      texture: null
+  flags: {}
+  randomImg: false
+  turnMarker:
+    mode: 1
+    animation: null
+    src: null
+    disposition: false
+  movementAction: null
+items: []
+effects: []
+flags: {}
+_stats:
+  compendiumSource: null
+  duplicateSource: null
+  exportSource: null
+  coreVersion: '13.345'
+  systemId: grimwild
+  systemVersion: 0.1.7
+  createdTime: 1750368422042
+  modifiedTime: 1750368422042
+  lastModifiedBy: jgipq2YBy9KMjQWt
+ownership:
+  default: 0
+  jgipq2YBy9KMjQWt: 3
+_id: th6MCwIhPI9F3jye
+sort: 0
+_key: '!actors!th6MCwIhPI9F3jye'
+

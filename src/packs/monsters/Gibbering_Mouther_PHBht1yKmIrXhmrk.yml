@@ -1,0 +1,149 @@
+folder: null
+name: Gibbering Mouther
+type: monster
+img: icons/svg/mystery-man.svg
+system:
+  biography: >-
+    <p>Writhing masses of eyes and mouths, constantly babbling incoherently.
+    They confuse and madden foes with the chaotic sounds and frenzied
+    mayhem.</p>
+  notes: ''
+  role: brute
+  tier: tough
+  traits:
+    - Maddening Babble
+    - Chaotic Form
+  moves:
+    - Blinding Spittle
+    - Mind Haze
+    - Swallow Whole
+  desires:
+    - value: to add more eyes and mouths to itself.
+      are: false
+    - value: for its gibberish to be understood.
+      are: false
+  sensories:
+    colors:
+      - name: Pale Flesh
+        color: '#fee4c3'
+      - name: Meaty Red
+        color: '#8b0101'
+      - name: Fleshy Pink
+        color: '#c18680'
+    sights: droplets of saliva, bits of meat, bubbling flesh
+    sounds: slurping, high-pitched screeches, moans, laughter
+    smells: sour odor of bile and rot, viscera, rancid meat
+  pool:
+    diceNum: 0
+    max: null
+  tables:
+    - name: Voices in the Chaos
+      instructions: ''
+      table:
+        - - Familiar voices calling your name.
+          - Fragments of broken promises.
+          - Pleas for help and forgiveness.
+          - Mocking tones from an old enemy.
+          - Chants from forgotten rituals.
+          - Your own voice, screaming your thoughts.
+prototypeToken:
+  name: Gibbering Mouther
+  displayName: 0
+  actorLink: false
+  appendNumber: false
+  prependAdjective: false
+  width: 1
+  height: 1
+  texture:
+    src: icons/svg/mystery-man.svg
+    anchorX: 0.5
+    anchorY: 0.5
+    offsetX: 0
+    offsetY: 0
+    fit: contain
+    scaleX: 1
+    scaleY: 1
+    rotation: 0
+    tint: '#ffffff'
+    alphaThreshold: 0.75
+  lockRotation: false
+  rotation: 0
+  alpha: 1
+  disposition: -1
+  displayBars: 0
+  bar1:
+    attribute: health
+  bar2:
+    attribute: power
+  light:
+    negative: false
+    priority: 0
+    alpha: 0.5
+    angle: 360
+    bright: 0
+    color: null
+    coloration: 1
+    dim: 0
+    attenuation: 0.5
+    luminosity: 0.5
+    saturation: 0
+    contrast: 0
+    shadows: 0
+    animation:
+      type: null
+      speed: 5
+      intensity: 5
+      reverse: false
+    darkness:
+      min: 0
+      max: 1
+  sight:
+    enabled: false
+    range: 0
+    angle: 360
+    visionMode: basic
+    color: null
+    attenuation: 0.1
+    brightness: 0
+    saturation: 0
+    contrast: 0
+  detectionModes: []
+  occludable:
+    radius: 0
+  ring:
+    enabled: false
+    colors:
+      ring: null
+      background: null
+    effects: 1
+    subject:
+      scale: 1
+      texture: null
+  flags: {}
+  randomImg: false
+  turnMarker:
+    mode: 1
+    animation: null
+    src: null
+    disposition: false
+  movementAction: null
+items: []
+effects: []
+flags: {}
+_stats:
+  compendiumSource: null
+  duplicateSource: null
+  exportSource: null
+  coreVersion: '13.345'
+  systemId: grimwild
+  systemVersion: 0.1.7
+  createdTime: 1750368419429
+  modifiedTime: 1750368419429
+  lastModifiedBy: jgipq2YBy9KMjQWt
+ownership:
+  default: 0
+  jgipq2YBy9KMjQWt: 3
+_id: PHBht1yKmIrXhmrk
+sort: 0
+_key: '!actors!PHBht1yKmIrXhmrk'
+

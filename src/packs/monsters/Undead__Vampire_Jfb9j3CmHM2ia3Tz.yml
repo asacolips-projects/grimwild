@@ -1,0 +1,184 @@
+folder: null
+name: Undead, Vampire
+type: monster
+img: icons/svg/mystery-man.svg
+system:
+  biography: >-
+    <p>Elegant, nocturnal hunters driven by a thirst for blood. They seamlessly
+    integrate into society, all while avoiding daylight at all costs.</p>
+  notes: ''
+  role: brute
+  tier: tough
+  traits:
+    - Unnatural Allure
+    - Supernatural Strength
+    - Speech
+  moves:
+    - Blood Drain
+    - Regeneration
+    - Reveal Teeth
+  desires:
+    - value: to pursue its desires, with no end-goal in mind.
+      are: false
+    - value: to be reminded of when it was mortal.
+      are: false
+  sensories:
+    colors:
+      - name: Deep Crimson
+        color: '#7c0902'
+      - name: Midnight Black
+        color: '#2f2f2f'
+      - name: Moonlit Ivory
+        color: '#e1d9c2'
+    sights: flickering candelight, blood-stained velvet
+    sounds: soft whispers, the rustle of fabric
+    smells: old blood, faint rose perfume
+  pool:
+    diceNum: 0
+    max: null
+  tables:
+    - name: Siring Intentions
+      instructions: ''
+      table:
+        - - Punish them for betraying your trust.
+          - Offer them a twisted redemption.
+          - Teach them the vanity of mortal life.
+          - Preserve their forbidden love.
+          - Trap them in unending regret.
+          - Use them to control those they once loved.
+    - name: From Hero to Vampire
+      instructions: >-
+        Roll 2d6 (pick 1) for path/core. Roll 1d8 and count on their talent list
+        (on 8, roll 2d8). Adapt as traits and moves.
+      table:
+        - - Bard
+          - Berserker
+          - Cleric
+          - Druid
+          - Fighter
+          - Monk
+        - - Paladin
+          - Ranger
+          - Rogue
+          - Sorcerer
+          - Warlock
+          - Wizard
+    - name: Power
+      instructions: For every 50 years of unlife, roll a new power.
+      table:
+        - - Bat, mist, or wolf form
+          - Mesmerising Gaze
+          - Cling to walls
+          - Preternatural speed
+          - Lifesense
+          - Call vermin
+    - name: Weakness
+      instructions: For every 50 years of unlife, roll a new weakness.
+      table:
+        - - Holy symbols
+          - Garlic
+          - Running water
+          - Lacking reflection
+          - Invitation only
+          - Extreme thirst
+prototypeToken:
+  name: Undead, Vampire
+  displayName: 0
+  actorLink: false
+  appendNumber: false
+  prependAdjective: false
+  width: 1
+  height: 1
+  texture:
+    src: icons/svg/mystery-man.svg
+    anchorX: 0.5
+    anchorY: 0.5
+    offsetX: 0
+    offsetY: 0
+    fit: contain
+    scaleX: 1
+    scaleY: 1
+    rotation: 0
+    tint: '#ffffff'
+    alphaThreshold: 0.75
+  lockRotation: false
+  rotation: 0
+  alpha: 1
+  disposition: -1
+  displayBars: 0
+  bar1:
+    attribute: health
+  bar2:
+    attribute: power
+  light:
+    negative: false
+    priority: 0
+    alpha: 0.5
+    angle: 360
+    bright: 0
+    color: null
+    coloration: 1
+    dim: 0
+    attenuation: 0.5
+    luminosity: 0.5
+    saturation: 0
+    contrast: 0
+    shadows: 0
+    animation:
+      type: null
+      speed: 5
+      intensity: 5
+      reverse: false
+    darkness:
+      min: 0
+      max: 1
+  sight:
+    enabled: false
+    range: 0
+    angle: 360
+    visionMode: basic
+    color: null
+    attenuation: 0.1
+    brightness: 0
+    saturation: 0
+    contrast: 0
+  detectionModes: []
+  occludable:
+    radius: 0
+  ring:
+    enabled: false
+    colors:
+      ring: null
+      background: null
+    effects: 1
+    subject:
+      scale: 1
+      texture: null
+  flags: {}
+  randomImg: false
+  turnMarker:
+    mode: 1
+    animation: null
+    src: null
+    disposition: false
+  movementAction: null
+items: []
+effects: []
+flags: {}
+_stats:
+  compendiumSource: null
+  duplicateSource: null
+  exportSource: null
+  coreVersion: '13.345'
+  systemId: grimwild
+  systemVersion: 0.1.7
+  createdTime: 1750368458101
+  modifiedTime: 1750368458101
+  lastModifiedBy: jgipq2YBy9KMjQWt
+ownership:
+  default: 0
+  jgipq2YBy9KMjQWt: 3
+_id: Jfb9j3CmHM2ia3Tz
+sort: 0
+_key: '!actors!Jfb9j3CmHM2ia3Tz'
+

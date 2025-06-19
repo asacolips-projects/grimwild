@@ -1,0 +1,150 @@
+folder: null
+name: Pegasus
+type: monster
+img: icons/svg/mystery-man.svg
+system:
+  biography: >-
+    <p>Majestic, winged horses with a noble spirit. They soar through the skies,
+    drawn to those with courage and kindess, appearing in moments of dire
+    need.</p>
+  notes: ''
+  role: protector
+  tier: tough
+  traits:
+    - Graceful Flier
+    - Pure-hearted
+    - Understands Language
+  moves:
+    - Winged Charge
+    - Wing Buffet
+    - Celestial Whinny
+  desires:
+    - value: to come to aid in dire moments.
+      are: false
+    - value: to be ridden.
+      are: false
+  sensories:
+    colors:
+      - name: Silver Gray
+        color: '#c0c0c0'
+      - name: Sky Blue
+        color: '#b0c4dd'
+      - name: Cloud White
+        color: '#e4e7ec'
+    sights: shimmering feathers, graceful gait
+    sounds: powerful wing beats, soft neighing, wind rushing
+    smells: fresh air, faint scent of wildflowers
+  pool:
+    diceNum: 0
+    max: null
+  tables:
+    - name: Carried Messages
+      instructions: ''
+      table:
+        - - Royal summons, sealed with enchanted wax.
+          - Love letter filled with terrible poetry.
+          - Battle plan hastily scrawled.
+          - Desperate plea from a sworn enemy.
+          - Ransom note tied with black string.
+          - Official declaration of invasion.
+prototypeToken:
+  name: Pegasus
+  displayName: 0
+  actorLink: false
+  appendNumber: false
+  prependAdjective: false
+  width: 1
+  height: 1
+  texture:
+    src: icons/svg/mystery-man.svg
+    anchorX: 0.5
+    anchorY: 0.5
+    offsetX: 0
+    offsetY: 0
+    fit: contain
+    scaleX: 1
+    scaleY: 1
+    rotation: 0
+    tint: '#ffffff'
+    alphaThreshold: 0.75
+  lockRotation: false
+  rotation: 0
+  alpha: 1
+  disposition: -1
+  displayBars: 0
+  bar1:
+    attribute: health
+  bar2:
+    attribute: power
+  light:
+    negative: false
+    priority: 0
+    alpha: 0.5
+    angle: 360
+    bright: 0
+    color: null
+    coloration: 1
+    dim: 0
+    attenuation: 0.5
+    luminosity: 0.5
+    saturation: 0
+    contrast: 0
+    shadows: 0
+    animation:
+      type: null
+      speed: 5
+      intensity: 5
+      reverse: false
+    darkness:
+      min: 0
+      max: 1
+  sight:
+    enabled: false
+    range: 0
+    angle: 360
+    visionMode: basic
+    color: null
+    attenuation: 0.1
+    brightness: 0
+    saturation: 0
+    contrast: 0
+  detectionModes: []
+  occludable:
+    radius: 0
+  ring:
+    enabled: false
+    colors:
+      ring: null
+      background: null
+    effects: 1
+    subject:
+      scale: 1
+      texture: null
+  flags: {}
+  randomImg: false
+  turnMarker:
+    mode: 1
+    animation: null
+    src: null
+    disposition: false
+  movementAction: null
+items: []
+effects: []
+flags: {}
+_stats:
+  compendiumSource: null
+  duplicateSource: null
+  exportSource: null
+  coreVersion: '13.345'
+  systemId: grimwild
+  systemVersion: 0.1.7
+  createdTime: 1750368443999
+  modifiedTime: 1750368443999
+  lastModifiedBy: jgipq2YBy9KMjQWt
+ownership:
+  default: 0
+  jgipq2YBy9KMjQWt: 3
+_id: htxmxZ2Yjvgy2twS
+sort: 0
+_key: '!actors!htxmxZ2Yjvgy2twS'
+

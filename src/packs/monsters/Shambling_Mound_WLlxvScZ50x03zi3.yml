@@ -1,0 +1,148 @@
+folder: null
+name: Shambling Mound
+type: monster
+img: icons/svg/mystery-man.svg
+system:
+  biography: >-
+    <p>Hulking masses of vines and swamp muck lumbering through marshes. They
+    engulf prey and grow larger with each and every victim.</p>
+  notes: ''
+  role: brute
+  tier: tough
+  traits:
+    - Absorbs And Grows
+    - Swampy Camouflage
+  moves:
+    - Regrowth
+    - Vine Lash
+    - Engulf
+  desires:
+    - value: to find and consume prosperity.
+      are: false
+    - value: to consume desiccated creatures.
+      are: false
+  sensories:
+    colors:
+      - name: Vine Green
+        color: '#566b30'
+      - name: Muck Brown
+        color: '#4b3621'
+      - name: Rotting Green
+        color: '#395f0a'
+    sights: mass of tangled vines, streaks in the muck
+    sounds: wet sloshing, cracking branches, earthy groan
+    smells: rotting vegetation, swamp muck, wet earth
+  pool:
+    diceNum: 0
+    max: null
+  tables:
+    - name: Buried Within
+      instructions: ''
+      table:
+        - - Grand druid, sleeping within a cocoon.
+          - Ancient coffin, sealing away a cursed vampire.
+          - Nearly endless amount of animated skeletons.
+          - Mask of twisted vines that whispers riddles.
+          - Fey gateway, pulsing with otherwordly energy.
+          - Warbanner of the true queen.
+prototypeToken:
+  name: Shambling Mound
+  displayName: 0
+  actorLink: false
+  appendNumber: false
+  prependAdjective: false
+  width: 1
+  height: 1
+  texture:
+    src: icons/svg/mystery-man.svg
+    anchorX: 0.5
+    anchorY: 0.5
+    offsetX: 0
+    offsetY: 0
+    fit: contain
+    scaleX: 1
+    scaleY: 1
+    rotation: 0
+    tint: '#ffffff'
+    alphaThreshold: 0.75
+  lockRotation: false
+  rotation: 0
+  alpha: 1
+  disposition: -1
+  displayBars: 0
+  bar1:
+    attribute: health
+  bar2:
+    attribute: power
+  light:
+    negative: false
+    priority: 0
+    alpha: 0.5
+    angle: 360
+    bright: 0
+    color: null
+    coloration: 1
+    dim: 0
+    attenuation: 0.5
+    luminosity: 0.5
+    saturation: 0
+    contrast: 0
+    shadows: 0
+    animation:
+      type: null
+      speed: 5
+      intensity: 5
+      reverse: false
+    darkness:
+      min: 0
+      max: 1
+  sight:
+    enabled: false
+    range: 0
+    angle: 360
+    visionMode: basic
+    color: null
+    attenuation: 0.1
+    brightness: 0
+    saturation: 0
+    contrast: 0
+  detectionModes: []
+  occludable:
+    radius: 0
+  ring:
+    enabled: false
+    colors:
+      ring: null
+      background: null
+    effects: 1
+    subject:
+      scale: 1
+      texture: null
+  flags: {}
+  randomImg: false
+  turnMarker:
+    mode: 1
+    animation: null
+    src: null
+    disposition: false
+  movementAction: null
+items: []
+effects: []
+flags: {}
+_stats:
+  compendiumSource: null
+  duplicateSource: null
+  exportSource: null
+  coreVersion: '13.345'
+  systemId: grimwild
+  systemVersion: 0.1.7
+  createdTime: 1750368452835
+  modifiedTime: 1750368452835
+  lastModifiedBy: jgipq2YBy9KMjQWt
+ownership:
+  default: 0
+  jgipq2YBy9KMjQWt: 3
+_id: WLlxvScZ50x03zi3
+sort: 0
+_key: '!actors!WLlxvScZ50x03zi3'
+

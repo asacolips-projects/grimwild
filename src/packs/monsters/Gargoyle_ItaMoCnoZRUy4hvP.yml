@@ -1,0 +1,150 @@
+folder: null
+name: Gargoyle
+type: monster
+img: icons/svg/mystery-man.svg
+system:
+  biography: >-
+    <p>Winged stone-like creatures that masquerade as part of buildings, serving
+    as guardians. They can remain motionless for years until intruders
+    approach.</p>
+  notes: ''
+  role: protector
+  tier: tough
+  traits:
+    - Stone Camouflage
+    - Eternal Vigilance
+    - Speech
+  moves:
+    - Jump Scare
+    - Snatch and Fly
+    - Stone Talons
+  desires:
+    - value: to let intruders go past the point of no return.
+      are: false
+    - value: to outlive its duty.
+      are: false
+  sensories:
+    colors:
+      - name: Stone Gray
+        color: '#696969'
+      - name: Ash Black
+        color: '#2f2f2f'
+      - name: Mossy Green
+        color: '#6a8e22'
+    sights: nothing of interest, wings unfurling, eyes opening
+    sounds: slow scrape of stone, soft whoosh of wings, heavy thud
+    smells: dusty earth, ancient stone, tang of rainwater
+  pool:
+    diceNum: 0
+    max: null
+  tables:
+    - name: Odd Wards
+      instructions: ''
+      table:
+        - - Door that must remain opened.
+          - Throne meant for a fallen king.
+          - Gate that seemingly leads nowhere.
+          - Altar long without its god.
+          - Bell tower, never once chimed.
+          - Empty stepwell, its community now dust.
+prototypeToken:
+  name: Gargoyle
+  displayName: 0
+  actorLink: false
+  appendNumber: false
+  prependAdjective: false
+  width: 1
+  height: 1
+  texture:
+    src: icons/svg/mystery-man.svg
+    anchorX: 0.5
+    anchorY: 0.5
+    offsetX: 0
+    offsetY: 0
+    fit: contain
+    scaleX: 1
+    scaleY: 1
+    rotation: 0
+    tint: '#ffffff'
+    alphaThreshold: 0.75
+  lockRotation: false
+  rotation: 0
+  alpha: 1
+  disposition: -1
+  displayBars: 0
+  bar1:
+    attribute: health
+  bar2:
+    attribute: power
+  light:
+    negative: false
+    priority: 0
+    alpha: 0.5
+    angle: 360
+    bright: 0
+    color: null
+    coloration: 1
+    dim: 0
+    attenuation: 0.5
+    luminosity: 0.5
+    saturation: 0
+    contrast: 0
+    shadows: 0
+    animation:
+      type: null
+      speed: 5
+      intensity: 5
+      reverse: false
+    darkness:
+      min: 0
+      max: 1
+  sight:
+    enabled: false
+    range: 0
+    angle: 360
+    visionMode: basic
+    color: null
+    attenuation: 0.1
+    brightness: 0
+    saturation: 0
+    contrast: 0
+  detectionModes: []
+  occludable:
+    radius: 0
+  ring:
+    enabled: false
+    colors:
+      ring: null
+      background: null
+    effects: 1
+    subject:
+      scale: 1
+      texture: null
+  flags: {}
+  randomImg: false
+  turnMarker:
+    mode: 1
+    animation: null
+    src: null
+    disposition: false
+  movementAction: null
+items: []
+effects: []
+flags: {}
+_stats:
+  compendiumSource: null
+  duplicateSource: null
+  exportSource: null
+  coreVersion: '13.345'
+  systemId: grimwild
+  systemVersion: 0.1.7
+  createdTime: 1750368409704
+  modifiedTime: 1750368409704
+  lastModifiedBy: jgipq2YBy9KMjQWt
+ownership:
+  default: 0
+  jgipq2YBy9KMjQWt: 3
+_id: ItaMoCnoZRUy4hvP
+sort: 0
+_key: '!actors!ItaMoCnoZRUy4hvP'
+

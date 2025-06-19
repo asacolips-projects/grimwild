@@ -1,0 +1,149 @@
+folder: null
+name: Dire Centipede
+type: monster
+img: icons/svg/mystery-man.svg
+system:
+  biography: >-
+    <p>Gigantic, armored insects with venomous pincers and countless legs. They
+    skitter through dark tunnels, creating a labyrinthine network of hunting
+    grounds.</p>
+  notes: ''
+  role: skirmisher
+  tier: tough
+  traits:
+    - Cling to Walls
+    - Terrifying Speed
+  moves:
+    - Warning Hiss
+    - Drop Down
+    - Snip Off Limbs
+  desires:
+    - value: to expand its labyrinth of tunnels.
+      are: false
+    - value: bright light or loud noises.
+      are: false
+  sensories:
+    colors:
+      - name: Burnt Sienna
+        color: '#e97451'
+      - name: Earthy Brown
+        color: '#8b4512'
+      - name: Chitin Black
+        color: '#2f2f2f'
+    sights: endlessly writhing legs, shining chitin, twitching pincers
+    sounds: rhythmic clicking, sharp hiss, unsettling rustling
+    smells: nutty insect aroma, sour rotting wood
+  pool:
+    diceNum: 0
+    max: null
+  tables:
+    - name: Home Tunnels
+      instructions: ''
+      table:
+        - - Tunnels filled with towering mushrooms.
+          - The ruins of a lavish underground palace.
+          - Enormous cavern full of bioluminescence.
+          - Through the bones of a buried giant.
+          - Flooded sea caves, where it hunts for sharks.
+          - Through twisting roots of colossal trees.
+prototypeToken:
+  name: Dire Centipede
+  displayName: 0
+  actorLink: false
+  appendNumber: false
+  prependAdjective: false
+  width: 1
+  height: 1
+  texture:
+    src: icons/svg/mystery-man.svg
+    anchorX: 0.5
+    anchorY: 0.5
+    offsetX: 0
+    offsetY: 0
+    fit: contain
+    scaleX: 1
+    scaleY: 1
+    rotation: 0
+    tint: '#ffffff'
+    alphaThreshold: 0.75
+  lockRotation: false
+  rotation: 0
+  alpha: 1
+  disposition: -1
+  displayBars: 0
+  bar1:
+    attribute: health
+  bar2:
+    attribute: power
+  light:
+    negative: false
+    priority: 0
+    alpha: 0.5
+    angle: 360
+    bright: 0
+    color: null
+    coloration: 1
+    dim: 0
+    attenuation: 0.5
+    luminosity: 0.5
+    saturation: 0
+    contrast: 0
+    shadows: 0
+    animation:
+      type: null
+      speed: 5
+      intensity: 5
+      reverse: false
+    darkness:
+      min: 0
+      max: 1
+  sight:
+    enabled: false
+    range: 0
+    angle: 360
+    visionMode: basic
+    color: null
+    attenuation: 0.1
+    brightness: 0
+    saturation: 0
+    contrast: 0
+  detectionModes: []
+  occludable:
+    radius: 0
+  ring:
+    enabled: false
+    colors:
+      ring: null
+      background: null
+    effects: 1
+    subject:
+      scale: 1
+      texture: null
+  flags: {}
+  randomImg: false
+  turnMarker:
+    mode: 1
+    animation: null
+    src: null
+    disposition: false
+  movementAction: null
+items: []
+effects: []
+flags: {}
+_stats:
+  compendiumSource: null
+  duplicateSource: null
+  exportSource: null
+  coreVersion: '13.345'
+  systemId: grimwild
+  systemVersion: 0.1.7
+  createdTime: 1750368373777
+  modifiedTime: 1750368379620
+  lastModifiedBy: jgipq2YBy9KMjQWt
+ownership:
+  default: 0
+  jgipq2YBy9KMjQWt: 3
+_id: mtNH98nx4OUgxgcP
+sort: 1700000
+_key: '!actors!mtNH98nx4OUgxgcP'
+

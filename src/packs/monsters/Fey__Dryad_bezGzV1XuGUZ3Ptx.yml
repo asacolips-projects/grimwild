@@ -1,0 +1,150 @@
+folder: null
+name: Fey, Dryad
+type: monster
+img: icons/svg/mystery-man.svg
+system:
+  biography: >-
+    <p>Mystical tree spirits that embody the essence of a specific tree,
+    guarding it and the surrounding grove. They are fiercely protective of their
+    home.</p>
+  notes: ''
+  role: protector
+  tier: tough
+  traits:
+    - Melds With Trees
+    - One With Nature
+    - Speech
+  moves:
+    - Entangling Roots
+    - Charm Person
+    - Blossoming Burst
+  desires:
+    - value: to welcome those with good intentions.
+      are: false
+    - value: any form of unnatural change.
+      are: false
+  sensories:
+    colors:
+      - name: Mossy Green
+        color: '#566b30'
+      - name: Bark Brown
+        color: '#8b4512'
+      - name: Forest Green
+        color: '#495d3a'
+    sights: twisting vines, blooming flowers, swirling leaves
+    sounds: soft rustling, melodic birdsong, crackle of twigs
+    smells: earthy scent, woody aroma, crisp fresh leaves
+  pool:
+    diceNum: 0
+    max: null
+  tables:
+    - name: Aboreal Lineage
+      instructions: ''
+      table:
+        - - Weeping willow, shy but playful.
+          - Oak, stern and steadfast.
+          - Maple, sweet and protective.
+          - Ash, resilient and wise.
+          - Elm, mournful but warm-hearted.
+          - Yew, resilient and vengeful.
+prototypeToken:
+  name: Fey, Dryad
+  displayName: 0
+  actorLink: false
+  appendNumber: false
+  prependAdjective: false
+  width: 1
+  height: 1
+  texture:
+    src: icons/svg/mystery-man.svg
+    anchorX: 0.5
+    anchorY: 0.5
+    offsetX: 0
+    offsetY: 0
+    fit: contain
+    scaleX: 1
+    scaleY: 1
+    rotation: 0
+    tint: '#ffffff'
+    alphaThreshold: 0.75
+  lockRotation: false
+  rotation: 0
+  alpha: 1
+  disposition: -1
+  displayBars: 0
+  bar1:
+    attribute: health
+  bar2:
+    attribute: power
+  light:
+    negative: false
+    priority: 0
+    alpha: 0.5
+    angle: 360
+    bright: 0
+    color: null
+    coloration: 1
+    dim: 0
+    attenuation: 0.5
+    luminosity: 0.5
+    saturation: 0
+    contrast: 0
+    shadows: 0
+    animation:
+      type: null
+      speed: 5
+      intensity: 5
+      reverse: false
+    darkness:
+      min: 0
+      max: 1
+  sight:
+    enabled: false
+    range: 0
+    angle: 360
+    visionMode: basic
+    color: null
+    attenuation: 0.1
+    brightness: 0
+    saturation: 0
+    contrast: 0
+  detectionModes: []
+  occludable:
+    radius: 0
+  ring:
+    enabled: false
+    colors:
+      ring: null
+      background: null
+    effects: 1
+    subject:
+      scale: 1
+      texture: null
+  flags: {}
+  randomImg: false
+  turnMarker:
+    mode: 1
+    animation: null
+    src: null
+    disposition: false
+  movementAction: null
+items: []
+effects: []
+flags: {}
+_stats:
+  compendiumSource: null
+  duplicateSource: null
+  exportSource: null
+  coreVersion: '13.345'
+  systemId: grimwild
+  systemVersion: 0.1.7
+  createdTime: 1750368405666
+  modifiedTime: 1750368405666
+  lastModifiedBy: jgipq2YBy9KMjQWt
+ownership:
+  default: 0
+  jgipq2YBy9KMjQWt: 3
+_id: bezGzV1XuGUZ3Ptx
+sort: 0
+_key: '!actors!bezGzV1XuGUZ3Ptx'
+
