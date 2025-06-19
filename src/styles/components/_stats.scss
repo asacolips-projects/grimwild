@@ -30,7 +30,8 @@
 	}
 
 	.stats-physical,
-	.stats-mental {
+	.stats-mental,
+	& + .stats-harm {
 		border: 1px solid var(--color-fieldset-border);
 		padding: 8px;
 		border-radius: 8px;
@@ -48,23 +49,58 @@
 	}
 }
 
-.harm {
-	> .form-group {
-		display: flex;
-		flex-direction: row;
-		flex-wrap: nowrap;
-		justify-content: center;
+.stats-harm {
+	align-items: flex-start;
 
-		label {
-			flex: 0 0 auto;
-			text-align: right;
-		}
-
-		input[type="number"] {
-			flex: 0 0 36px;
-			text-align: center;
-		}
+	label,
+	input {
+		margin: 0;
+		line-height: 1;
 	}
+
+	label {
+		display: flex;
+		align-items: center;
+		gap: 4px;
+	}
+}
+
+.harm {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	gap: 4px;
+
+	label {
+		flex: 0 0 auto;
+		text-align: right;
+	}
+
+	input[type="number"] {
+		flex: 0 0 36px;
+		text-align: center;
+	}
+}
+
+.harm-bloodied,
+.harm-rattled {
+	position: relative;
+
+	&::after {
+		display: block;
+		content: '';
+		height: 100%;
+		width: 1px;
+		background: var(--color-fieldset-border);
+		position: absolute;
+		right: -5px;
+		top: 0;
+	}
+}
+
+.header-fields {
+	gap: 12px;
 }
 
 header.sheet-header {
