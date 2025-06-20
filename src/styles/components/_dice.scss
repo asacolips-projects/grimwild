@@ -5,7 +5,9 @@ h2 {
 
 &.crit h2,
 &.perfect h2 {
-	color: #00bd00;
+	body.theme-dark & {
+		color: #00bd00;
+	}
 
 	body.theme-light & {
 		color: #007a00;
@@ -13,7 +15,9 @@ h2 {
 }
 
 &.messy h2 {
-	color: #ffd400;
+	body.theme-dark & {
+		color: #ffd400;
+	}
 
 	body.theme-light & {
 		color: #d68c03;
@@ -21,7 +25,9 @@ h2 {
 }
 
 &.grim h2 {
-	color: #999;
+	body.theme-dark & {
+		color: #999;
+	}
 
 	body.theme-light & {
 		color: #555;
@@ -29,7 +35,9 @@ h2 {
 }
 
 &.disaster h2 {
-	color: #ff5c37;
+	body.theme-dark & {
+		color: #ff5c37;
+	}
 
 	body.theme-light & {
 		color: #9c1e01;
