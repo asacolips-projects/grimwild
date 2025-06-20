@@ -39,7 +39,8 @@ export default class GrimwildCharacter extends GrimwildActorBase {
 			marked: new fields.BooleanField(),
 			dropped: new fields.BooleanField()
 		});
-		schema.dropped = new fields.BooleanField(),
+
+		schema.dropped = new fields.BooleanField();
 
 		schema.conditions = new fields.ArrayField(new fields.SchemaField({
 			name: new fields.StringField(),
@@ -186,7 +187,7 @@ export default class GrimwildCharacter extends GrimwildActorBase {
 						change.pool.diceNum = 1;
 					}
 					// Cancel the healing pool
-					if (!change.marked && source.marked && change.pool.diceNum == source.pool.diceNum) {
+					if (!change.marked && source.marked && change.pool.diceNum === source.pool.diceNum) {
 						change.pool.diceNum = 0;
 					}
 					// Pool started
@@ -353,6 +354,7 @@ export default class GrimwildCharacter extends GrimwildActorBase {
 	 * Migrate a document to a newer schema.
 	 *
 	 * @param {object} source Source document.
+	 * @returns {object} Source document with migrated data values.
 	 */
 	static migrateData(source) {
 		if (!source.bloodied?.pool && source.bloodied?.diceNum) {

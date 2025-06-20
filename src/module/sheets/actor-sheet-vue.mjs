@@ -202,7 +202,10 @@ export class GrimwildActorSheetVue extends VueRenderingMixin(GrimwildBaseVueActo
 		for (let field of fields) {
 			const editorValue = this.actor.system?.[field] ?? foundry.utils.getProperty(this.actor.system, field);
 			context.editors[`system.${field}`] = {
-				enriched: await foundry.applications.ux.TextEditor.implementation.enrichHTML(editorValue, enrichmentOptions),
+				enriched: await foundry.applications.ux.TextEditor.implementation.enrichHTML(
+					editorValue,
+					enrichmentOptions
+				),
 				element: foundry.applications.elements.HTMLProseMirrorElement.create({
 					...editorOptions,
 					name: `system.${field}`,
@@ -230,7 +233,10 @@ export class GrimwildActorSheetVue extends VueRenderingMixin(GrimwildBaseVueActo
 							?? foundry.utils.getProperty(item.system, itemField);
 						// Add editor settings.
 						context.editors[`items.${item.id}.system.${itemField}`] = {
-							enriched: await foundry.applications.ux.TextEditor.implementation.enrichHTML(editorValue, itemEnrichmentOptions),
+							enriched: await foundry.applications.ux.TextEditor.implementation.enrichHTML(
+								editorValue,
+								itemEnrichmentOptions
+							),
 							element: null
 						};
 					}

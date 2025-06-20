@@ -86,8 +86,10 @@ export default class GrimwildRoll extends Roll {
 }
 
 /**
+ * Set success constraints.
  *
- * @param success
+ * @param {number} success Current success value.
+ * @returns {number} Constrained success value.
  */
 function setSuccessConstraint(success) {
 	if (success < -1) {
@@ -100,8 +102,10 @@ function setSuccessConstraint(success) {
 }
 
 /**
+ * Convert success to result status.
  *
- * @param success
+ * @param {number} success Success value.
+ * @returns {string} Success status as a string.
  */
 function successToResult(success) {
 	switch (success) {

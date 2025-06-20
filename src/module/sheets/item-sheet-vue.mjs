@@ -127,7 +127,10 @@ export class GrimwildItemSheetVue extends VueRenderingMixin(GrimwildBaseVueItemS
 		for (let field of fields) {
 			const editorValue = this.item.system?.[field] ?? foundry.utils.getProperty(this.item.system, field);
 			context.editors[`system.${field}`] = {
-				enriched: await foundry.applications.ux.TextEditor.implementation.enrichHTML(editorValue, enrichmentOptions),
+				enriched: await foundry.applications.ux.TextEditor.implementation.enrichHTML(
+					editorValue,
+					enrichmentOptions
+				),
 				element: foundry.applications.elements.HTMLProseMirrorElement.create({
 					...editorOptions,
 					name: `system.${field}`,

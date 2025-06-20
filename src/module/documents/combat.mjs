@@ -78,7 +78,6 @@ export class GrimwildCombatTracker extends foundry.applications.sidebar.tabs.Com
 	async _prepareTrackerContext(context, options) {
 		const combat = this.viewed;
 		if (!combat) return;
-		let hasDecimals = false;
 		const turns = context.turns = {
 			character: [],
 			monster: [],
@@ -87,8 +86,6 @@ export class GrimwildCombatTracker extends foundry.applications.sidebar.tabs.Com
 		for (const [i, combatant] of combat.turns.entries()) {
 			if (!combatant.visible) continue;
 			const turn = await this._prepareTurnContext(combat, combatant, i);
-			// console.log('TURN', turn);
-			if (turn.hasDecimals) hasDecimals = true;
 			if (turns?.[turn.type]) {
 				turns[turn.type].push(turn);
 			}

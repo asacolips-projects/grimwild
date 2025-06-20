@@ -195,7 +195,6 @@ export class GrimwildBaseVueActorSheet extends ActorSheetV2 {
 	static async _toggleItem(event, target) {
 		const { itemId } = target.dataset;
 		if (itemId && typeof this.activeItems[itemId] !== "undefined") {
-			console.log("itemId", this.activeItems[itemId]);
 			this.activeItems[itemId] = !this.activeItems[itemId];
 		}
 		else {

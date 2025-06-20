@@ -1,5 +1,3 @@
-import { isMentalStat, isPhysicalStat } from "../helpers/config.mjs";
-
 /**
  * @typedef {object} GrimwildRollDialogOptions
  * @property {GrimwildRollDialogRollData} rollData  The data to be injected into the roll dialog
@@ -123,8 +121,7 @@ export class GrimwildRollDialog extends foundry.applications.api.DialogV2 {
 	 * Render function to set the initial dice and thorns on the dialog
 	 *
 	 * @param {any} event           The render event for the dialog
-	 * @param {any} options    Render options.
-	 * @param application
+	 * @param {any} application     Application instance.
 	 */
 	static _render(event, application) {
 		// set first thorns value

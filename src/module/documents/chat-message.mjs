@@ -90,6 +90,8 @@ export class GrimwildChatMessage extends ChatMessage {
 
 	/**
 	 * Simulate this.options.actions from ApplicationV2.
+	 *
+	 * @returns {object} actions
 	 */
 	get actions() {
 		return {

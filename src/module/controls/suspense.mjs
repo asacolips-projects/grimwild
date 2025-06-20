@@ -16,7 +16,9 @@ function setSuspense(value) {
 }
 
 /**
+ * Get current rendered scene pools.
  *
+ * @returns {string} HTML for pools.
  */
 function getScenePools() {
 	const scene = getScene();
@@ -58,7 +60,9 @@ function getScenePools() {
 }
 
 /**
+ * Add a quick pool to the list.
  *
+ * @returns {string|undefined} Empty string.
  */
 function addQuickPool() {
 	const scene = getScene();
@@ -72,12 +76,17 @@ function addQuickPool() {
 }
 
 /**
+ * Get the current scene.
  *
+ * @returns {Scene} active scene.
  */
 function getScene() {
 	return canvas?.scene ?? game.scenes.active;
 }
 
+/**
+ * Suspense tracker class.
+ */
 class SuspenseTracker {
 	init() {
 		console.log("Suspense: initialising");
@@ -123,8 +132,6 @@ class SuspenseTracker {
 		const susVisibleToPlayers = game.settings.get("grimwild", "suspenseVisible");
 		const quickPoolsVisibleToPlayers = game.settings.get("grimwild", "quickPoolsVisible");
 
-		console.log("CLASS RENDER", getScene());
-
 		let susControl = document.getElementById("sus-control");
 
 		if (!isGM && !susVisibleToPlayers && !quickPoolsVisibleToPlayers) {
@@ -168,7 +175,6 @@ class SuspenseTracker {
 			document.querySelectorAll(".js-quick-pool-delete").forEach((element) => element.addEventListener("click", (event) => {
 				const { pool } = event.currentTarget.dataset;
 				const scene = getScene();
-				console.log("POOL", pool);
 				if (!scene) return;
 				const quickPools = scene.getFlag("grimwild", "quickPools");
 				quickPools.splice(pool, 1);
@@ -178,7 +184,6 @@ class SuspenseTracker {
 			document.querySelectorAll(".js-quick-pool-display").forEach((element) => element.addEventListener("click", (event) => {
 				const { pool } = event.currentTarget.dataset;
 				const scene = getScene();
-				console.log("POOL", pool);
 				if (!scene) return;
 				const quickPools = scene.getFlag("grimwild", "quickPools");
 				quickPools[pool].visible = !quickPools[pool].visible;
@@ -201,11 +206,9 @@ class SuspenseTracker {
 			}));
 
 			document.querySelectorAll(".js-quick-pool-roll").forEach((element) => element.addEventListener("click", async (event) => {
-				console.log(event);
 				let { visible, rollData, pool } = event.currentTarget.dataset;
 				rollData = Number.isNumeric(rollData) ? Number(rollData) : 0;
 				const scene = getScene();
-				console.log("rollData", rollData, event.currentTarget);
 				if (!scene || !rollData) return;
 				const quickPools = scene.getFlag("grimwild", "quickPools");
 
