@@ -191,7 +191,7 @@ Hooks.once("init", function () {
 		hint: game.i18n.localize("GRIMWILD.Settings.maxBloodied.hint"),
 		scope: "world",
 		config: true,
-		type: Number,
+		type: Number
 	});
 
 	game.settings.register("grimwild", "maxRattled", {
@@ -199,7 +199,7 @@ Hooks.once("init", function () {
 		hint: game.i18n.localize("GRIMWILD.Settings.maxRattled.hint"),
 		scope: "world",
 		config: true,
-		type: Number,
+		type: Number
 	});
 });
 

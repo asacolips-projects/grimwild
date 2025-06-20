@@ -27,7 +27,7 @@ export class GrimwildItemSheetVue extends VueRenderingMixin(GrimwildBaseVueItemS
 			// height: 720,
 		},
 		window: {
-			resizable: true,
+			resizable: true
 		},
 		tag: "form",
 		actions: {

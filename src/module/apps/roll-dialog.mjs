@@ -124,6 +124,7 @@ export class GrimwildRollDialog extends foundry.applications.api.DialogV2 {
 	 *
 	 * @param {any} event           The render event for the dialog
 	 * @param {any} options    Render options.
+	 * @param application
 	 */
 	static _render(event, application) {
 		// set first thorns value

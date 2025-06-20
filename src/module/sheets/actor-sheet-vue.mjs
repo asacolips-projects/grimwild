@@ -38,7 +38,7 @@ export class GrimwildActorSheetVue extends VueRenderingMixin(GrimwildBaseVueActo
 			height: 750
 		},
 		window: {
-			resizable: true,
+			resizable: true
 		},
 		tag: "form",
 		actions: {

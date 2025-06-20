@@ -6,34 +6,34 @@ export class GrimwildCombat extends foundry.documents.Combat {
 	/** @inheritdoc */
 	async _onEnter(combatant) {
 		let currentInit = 200;
-		const characters = this.combatants.filter(c => c.actor.type === "character").sort((a, b) => a.initiative - b.initiative);
-		const monsters = this.combatants.filter(c => c.actor.type === "monster").sort((a, b) => a.initiative - b.initiative);
+		const characters = this.combatants.filter((c) => c.actor.type === "character").sort((a, b) => a.initiative - b.initiative);
+		const monsters = this.combatants.filter((c) => c.actor.type === "monster").sort((a, b) => a.initiative - b.initiative);
 
 		// Iterate over characters.
 		for (let c of characters) {
 			if (c.id !== combatant.id) {
-				await c.update({'initiative': currentInit});
+				await c.update({ initiative: currentInit });
 				currentInit -= 10;
 			}
 		}
 
 		// Add current character.
 		if (combatant.actor.type === "character") {
-			await combatant.update({'initiative': currentInit});
+			await combatant.update({ initiative: currentInit });
 			currentInit -= 10;
 		}
 
 		// Iterate over monsters.
 		for (let c of monsters) {
 			if (c.id !== combatant.id) {
-				await c.update({'initiative': currentInit});
+				await c.update({ initiative: currentInit });
 				currentInit -= 10;
 			}
 		}
 
 		// Add current monster.
 		if (combatant.actor.type === "monster") {
-			await combatant.update({'initiative': currentInit});
+			await combatant.update({ initiative: currentInit });
 			currentInit -= 10;
 		}
 	}
@@ -45,15 +45,15 @@ export class GrimwildCombat extends foundry.documents.Combat {
 
 export class GrimwildCombatTracker extends foundry.applications.sidebar.tabs.CombatTracker {
 	/** @inheritDoc */
-  static DEFAULT_OPTIONS = {
-    window: {
-      title: "COMBAT.SidebarTitle"
-    },
-    actions: {
+	static DEFAULT_OPTIONS = {
+		window: {
+			title: "COMBAT.SidebarTitle"
+		},
+		actions: {
 			toggleHarm: GrimwildCombatTracker.#onToggleHarm,
-			toggleSpark: GrimwildCombatTracker.#onToggleSpark,
-    }
-  };
+			toggleSpark: GrimwildCombatTracker.#onToggleSpark
+		}
+	};
 
 	/** @override */
 	static PARTS = {
@@ -77,18 +77,18 @@ export class GrimwildCombatTracker extends foundry.applications.sidebar.tabs.Com
 	 */
 	async _prepareTrackerContext(context, options) {
 		const combat = this.viewed;
-		if ( !combat ) return;
+		if (!combat) return;
 		let hasDecimals = false;
 		const turns = context.turns = {
 			character: [],
 			monster: [],
-			other: [],
+			other: []
 		};
-		for ( const [i, combatant] of combat.turns.entries() ) {
-			if ( !combatant.visible ) continue;
+		for (const [i, combatant] of combat.turns.entries()) {
+			if (!combatant.visible) continue;
 			const turn = await this._prepareTurnContext(combat, combatant, i);
 			// console.log('TURN', turn);
-			if ( turn.hasDecimals ) hasDecimals = true;
+			if (turn.hasDecimals) hasDecimals = true;
 			if (turns?.[turn.type]) {
 				turns[turn.type].push(turn);
 			}
@@ -140,12 +140,12 @@ export class GrimwildCombatTracker extends foundry.applications.sidebar.tabs.Com
 		event.preventDefault();
 		const { combatantId } = event.target.closest(".combatant[data-combatant-id]")?.dataset ?? {};
 		const { harm } = target.dataset ?? false;
-    const combatant = this.viewed.combatants.get(combatantId);
+		const combatant = this.viewed.combatants.get(combatantId);
 		if (!combatant || !harm) return;
 		const actor = combatant.actor;
 		if (!actor.isOwner) return;
 		const harmValue = actor.system?.[harm].marked;
-		actor.update({[`system.${harm}.marked`]: !harmValue});
+		actor.update({ [`system.${harm}.marked`]: !harmValue });
 	}
 
 	static #onToggleSpark(...args) {
@@ -155,7 +155,7 @@ export class GrimwildCombatTracker extends foundry.applications.sidebar.tabs.Com
 	async _onToggleSpark(event, target) {
 		event.preventDefault();
 		const { combatantId } = event.target.closest(".combatant[data-combatant-id]")?.dataset ?? {};
-    const combatant = this.viewed.combatants.get(combatantId);
+		const combatant = this.viewed.combatants.get(combatantId);
 		if (!combatant) return;
 		const actor = combatant.actor;
 		if (!actor.isOwner) return;
@@ -167,6 +167,6 @@ export class GrimwildCombatTracker extends foundry.applications.sidebar.tabs.Com
 		if (spark === 1) steps = [true, false];
 		if (spark === 2) steps = [true, true];
 
-		actor.update({"system.spark.steps": steps});
+		actor.update({ "system.spark.steps": steps });
 	}
 }

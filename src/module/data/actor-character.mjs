@@ -32,12 +32,12 @@ export default class GrimwildCharacter extends GrimwildActorBase {
 		schema.bloodied = new fields.SchemaField({
 			pool: new DicePoolField(),
 			marked: new fields.BooleanField(),
-			dropped: new fields.BooleanField(),
+			dropped: new fields.BooleanField()
 		});
 		schema.rattled = new fields.SchemaField({
 			pool: new DicePoolField(),
 			marked: new fields.BooleanField(),
-			dropped: new fields.BooleanField(),
+			dropped: new fields.BooleanField()
 		});
 		schema.dropped = new fields.BooleanField(),
 
@@ -198,7 +198,7 @@ export default class GrimwildCharacter extends GrimwildActorBase {
 						change.marked = false;
 					}
 				}
-			}
+			};
 			checkPool(changes.system?.bloodied, this._source.bloodied);
 			checkPool(changes.system?.rattled, this._source.rattled);
 		}
@@ -214,7 +214,7 @@ export default class GrimwildCharacter extends GrimwildActorBase {
 					change.steps[1] = false;
 				}
 			}
-		}
+		};
 		checkSteps(changes.system?.spark, this._source.spark);
 		checkSteps(changes.system?.story, this._source.story);
 	}
