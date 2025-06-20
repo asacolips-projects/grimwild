@@ -7,6 +7,7 @@
     "clean": "gulp clean",
     "content:pack": "gulp pack",
     "content:unpack": "gulp unpack",
+    "symlinks:create": "node ./tools/create-symlink.mjs",
     "lint": "eslint --ext .js,.cjs,.mjs .",
     "lint:fix": "eslint --ext .js,.cjs,.mjs --fix .",
     "lint:warnings": "eslint --max-warnings 0 --ext .js,.cjs,.mjs .",

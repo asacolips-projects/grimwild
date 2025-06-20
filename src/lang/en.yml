@@ -16,6 +16,15 @@ GRIMWILD:
     diceSoNiceOverride:
       name: Always use Grimwild 3d Dice
       hint: Override Dice So Nice settings on Grimwild rolls and pools to use the system's custom color scheme. (User setting)
+    enableHarmPools:
+      name: "[Homebrew] Enable harm pools on characters"
+      hint: Adds pool inputs to Bloodied and Rattled, similar to Grimwild's v1.3 rules text.
+    maxBloodied:
+      name: "[Homebrew] Max bloodied value"
+      hint: Maximum value to use for the Bloodied input if harm pools are enabled.
+    maxRattled:
+      name: "[Homebrew] Max rattled value"
+      hint: Maximum value to use for the Rattled input if harm pools are enabled.
   Stat:
     bra:
       long: Brawn
@@ -85,6 +94,11 @@ GRIMWILD:
     Actor: Grimwild Actor Sheet
     Item: Grimwild Item Sheet
   Actor:
+    Plural:
+      character: Characters
+      monster: Monsters
+      linkedChallenge: Challenges
+      other: Others
     Tabs:
       # Current
       Details: Details
@@ -215,11 +229,14 @@ GRIMWILD:
     Inactive: Inactive Effects
   Dialog:
     Roll: Roll
+  Combat:
+    ActionCount: 'Rolls'
 TYPES:
   Actor:
     character: Character
     monster: Monster
     linkedChallenge: Linked Challenge
+    other: Other
   Item:
     talent: Talent
     arcana: Arcana

@@ -7,7 +7,7 @@ h2 {
 &.perfect h2 {
 	color: #00bd00;
 
-	.theme-light & {
+	body.theme-light & {
 		color: #007a00;
 	}
 }
@@ -15,7 +15,7 @@ h2 {
 &.messy h2 {
 	color: #ffd400;
 
-	.theme-light & {
+	body.theme-light & {
 		color: #d68c03;
 	}
 }
@@ -23,7 +23,7 @@ h2 {
 &.grim h2 {
 	color: #999;
 
-	.theme-light & {
+	body.theme-light & {
 		color: #555;
 	}
 }
@@ -31,7 +31,7 @@ h2 {
 &.disaster h2 {
 	color: #ff5c37;
 
-	.theme-light & {
+	body.theme-light & {
 		color: #9c1e01;
 	}
 }
@@ -64,7 +64,7 @@ h2 {
 		margin: 0;
 		width: 24px;
 		height: 24px;
-		line-height: 28px;
+		line-height: 24px;
 	}
 
 	.d8 {
@@ -73,7 +73,7 @@ h2 {
 		position: relative;
 		z-index: 1;
 		height: 28px;
-		line-height: 32px;
+		line-height: 28px;
 
 		&::before,
 		&::after {

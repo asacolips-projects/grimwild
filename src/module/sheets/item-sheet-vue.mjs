@@ -27,15 +27,7 @@ export class GrimwildItemSheetVue extends VueRenderingMixin(GrimwildBaseVueItemS
 			// height: 720,
 		},
 		window: {
-			resizable: true,
-			controls: [
-				{
-					action: "showItemArtwork",
-					icon: "fa-solid fa-image",
-					label: "ITEM.ViewArt",
-					ownership: "OWNER"
-				}
-			]
+			resizable: true
 		},
 		tag: "form",
 		actions: {
@@ -113,8 +105,7 @@ export class GrimwildItemSheetVue extends VueRenderingMixin(GrimwildBaseVueItemS
 			}
 		}
 
-		// Debug. @todo remove.
-		// console.log('context', context);
+		Hooks.callAll("grimwildItemSheetVuePrepareContext", this, context);
 
 		return context;
 	}
@@ -136,7 +127,10 @@ export class GrimwildItemSheetVue extends VueRenderingMixin(GrimwildBaseVueItemS
 		for (let field of fields) {
 			const editorValue = this.item.system?.[field] ?? foundry.utils.getProperty(this.item.system, field);
 			context.editors[`system.${field}`] = {
-				enriched: await TextEditor.enrichHTML(editorValue, enrichmentOptions),
+				enriched: await foundry.applications.ux.TextEditor.implementation.enrichHTML(
+					editorValue,
+					enrichmentOptions
+				),
 				element: foundry.applications.elements.HTMLProseMirrorElement.create({
 					...editorOptions,
 					name: `system.${field}`,

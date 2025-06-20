@@ -8,6 +8,9 @@
 	.trait,
 	.desire {
 		input[type="checkbox"] {
+			flex: 20px 0;
+			height: 20px;
+
 			&::after {
 				content: '';
 			}

@@ -12,14 +12,14 @@
 	}
 }
 
-.application {
+.grimwild.application {
 	.window-content {
 		display: flex;
 		flex-direction: column;
 	}
 
 	hr {
-		.theme-light & {
+		body.theme-light & {
 			color: var(--grimwild-c-tan);
 			background-image: linear-gradient(90deg, transparent 0%, var(--grimwild-c-tan) 50%, transparent 100%);
 			opacity: 0.25;
@@ -43,7 +43,7 @@
 .grimwild {
 	font-family: $font-body;
 
-	.theme-light & {
+	body.theme-light & {
 		background: #fff9ef;
 	}
 
@@ -62,7 +62,7 @@
 			font-family: $font-body;
 		}
 
-		.theme-dark &::before {
+		body.theme-dark &::before {
 			content: '';
 			display: block;
 			position: absolute;
@@ -78,7 +78,7 @@
 			pointer-events: none;
 		}
 
-		.theme-light &::before {
+		body.theme-light &::before {
 			content: '';
 			display: block;
 			position: absolute;
@@ -118,7 +118,7 @@
 		input {
 			color: #ddd;
 
-			.theme-light & {
+			body.theme-light & {
 				color: inherit;
 			}
 		}
@@ -127,12 +127,12 @@
 		.inline-roll {
 			background: #222;
 
-			.theme-light & {
+			body.theme-light & {
 				background: inherit;
 			}
 		}
 
-		.theme-light & {
+		body.theme-light & {
 			background: #effcff;
 			color: inherit;
 		}
@@ -158,7 +158,7 @@
 			border-radius: 5px;
 		}
 
-		.theme-light &::before {
+		body.theme-light &::before {
 			background-image: url("../assets/grimwild-page-texture-light.webp");
 			mask-image: linear-gradient(to bottom, black, transparent);
 		}

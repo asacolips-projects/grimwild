@@ -32,13 +32,16 @@ export default class GrimwildCharacter extends GrimwildActorBase {
 		schema.bloodied = new fields.SchemaField({
 			pool: new DicePoolField(),
 			marked: new fields.BooleanField(),
-			dropped: new fields.BooleanField(),
+			dropped: new fields.BooleanField()
 		});
 		schema.rattled = new fields.SchemaField({
 			pool: new DicePoolField(),
 			marked: new fields.BooleanField(),
-			dropped: new fields.BooleanField(),
+			dropped: new fields.BooleanField()
 		});
+
+		schema.dropped = new fields.BooleanField();
+
 		schema.conditions = new fields.ArrayField(new fields.SchemaField({
 			name: new fields.StringField(),
 			pool: new DicePoolField(),
@@ -143,11 +146,11 @@ export default class GrimwildCharacter extends GrimwildActorBase {
 	}
 
 	get isBloodied() {
-		return this.bloodied.pool.diceNum > 0;
+		return this.bloodied.marked;
 	}
 
 	get isRattled() {
-		return this.rattled.pool.diceNum > 0;
+		return this.rattled.marked;
 	}
 
 	get orderedStats() {
@@ -176,24 +179,30 @@ export default class GrimwildCharacter extends GrimwildActorBase {
 	}
 
 	async _preUpdate(changes, options, user) {
-		const checkPool = (change, source) => {
-			if (change) {
-				// Start the healing pool
-				if (change.marked && !source.marked && !change.pool.diceNum && !source.pool.diceNum) {
-					change.pool.diceNum = 3;
+		if (game.settings.get("grimwild", "enableHarmPools")) {
+			const checkPool = (change, source) => {
+				if (change) {
+					// Start the healing pool
+					if (change.marked && !source.marked && !change.pool.diceNum && !source.pool.diceNum) {
+						change.pool.diceNum = 1;
+					}
+					// Cancel the healing pool
+					if (!change.marked && source.marked && change.pool.diceNum === source.pool.diceNum) {
+						change.pool.diceNum = 0;
+					}
+					// Pool started
+					if (!source.marked && change.pool.diceNum && !source.pool.diceNum) {
+						change.marked = true;
+					}
+					// Pool expired
+					if (source.marked && !change.pool.diceNum && source.pool.diceNum) {
+						change.marked = false;
+					}
 				}
-				// Cancel the healing pool
-				if (!change.marked && source.marked && change.pool.diceNum == source.pool.diceNum) {
-					change.pool.diceNum = 0;
-				}
-				// Pool expired
-				if (source.marked && !change.pool.diceNum && source.pool.diceNum) {
-					change.marked = false;
-				}
-			}
+			};
+			checkPool(changes.system?.bloodied, this._source.bloodied);
+			checkPool(changes.system?.rattled, this._source.rattled);
 		}
-		checkPool(changes.system.bloodied, this._source.bloodied);
-		checkPool(changes.system.rattled, this._source.rattled);
 
 		const checkSteps = (change, source) => {
 			if (change) {
@@ -206,9 +215,9 @@ export default class GrimwildCharacter extends GrimwildActorBase {
 					change.steps[1] = false;
 				}
 			}
-		}
-		checkSteps(changes.system.spark, this._source.spark);
-		checkSteps(changes.system.story, this._source.story);
+		};
+		checkSteps(changes.system?.spark, this._source.spark);
+		checkSteps(changes.system?.story, this._source.story);
 	}
 
 	prepareDerivedData() {
@@ -285,20 +294,37 @@ export default class GrimwildCharacter extends GrimwildActorBase {
 			options.assists = rollDialog.assisters;
 			const formula = "{(@statDice)d6kh, (@thorns)d8}";
 			const roll = new grimwild.roll(formula, rollData, options);
+
+			const updates = {};
+
+			// Remove used spark.
 			if (rollDialog.sparkUsed > 0) {
 				let sparkUsed = rollDialog.sparkUsed;
-				const newSpark = this.spark;
-				for (const step in newSpark.steps) {
-					if (newSpark.steps[step] && sparkUsed > 0) {
-						newSpark.steps[step] = false;
-						sparkUsed--;
-					}
+				const newSpark = {
+					steps: this.spark.steps
+				};
+				// All of your spark is used.
+				if (sparkUsed > 1 || this.spark.value === 1) {
+					newSpark.steps[0] = false;
+					newSpark.steps[1] = false;
 				}
-				const actor = game.actors.get(this.parent.id);
-
-				await actor.update({ "system.spark": newSpark });
-				actor.sheet.render(true);
+				// If half of your spark is used.
+				else if (sparkUsed === 1 && this.spark.value > 1) {
+					newSpark.steps[0] = true;
+					newSpark.steps[1] = false;
+				}
+				updates["system.spark"] = newSpark;
 			}
+
+			// Remove marks.
+			if (rollData?.stats?.[options.stat].marked) {
+				updates[`system.stats.${options.stat}.marked`] = false;
+			}
+
+			// Handle the updates.
+			const actor = game.actors.get(this.parent.id);
+			await actor.update(updates);
+			actor.sheet.render(true);
 
 			await roll.toMessage({
 				actor: this,
@@ -306,6 +332,27 @@ export default class GrimwildCharacter extends GrimwildActorBase {
 				rollMode: game.settings.get("core", "rollMode")
 			});
 
+			await this.updateCombatActionCount();
+
+		}
+	}
+
+	/**
+	 * Update action count for combatants.
+	 */
+	async updateCombatActionCount() {
+		for (const combat of game.combats) {
+			const combatant = combat?.getCombatantByActor(this.parent.id);
+			if (combatant) {
+				const actionCount = Number(combatant.flags?.grimwild?.actionCount ?? 0);
+				await combatant.setFlag("grimwild", "actionCount", actionCount + 1);
+
+				// Update the active turn.
+				const combatantTurn = combat.turns.findIndex((c) => c.id === combatant.id);
+				if (combatantTurn !== undefined) {
+					combat.update({'turn': combatantTurn});
+				}
+			}
 		}
 	}
 
@@ -313,6 +360,7 @@ export default class GrimwildCharacter extends GrimwildActorBase {
 	 * Migrate a document to a newer schema.
 	 *
 	 * @param {object} source Source document.
+	 * @returns {object} Source document with migrated data values.
 	 */
 	static migrateData(source) {
 		if (!source.bloodied?.pool && source.bloodied?.diceNum) {

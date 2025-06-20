@@ -3,6 +3,8 @@
 .vs/
 foundry.js
 jsconfig.json
+foundry
+foundry-config.yaml
 
 # Node Modules
 node_modules/

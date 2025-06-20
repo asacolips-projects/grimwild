@@ -2,6 +2,7 @@
 import { GrimwildActor } from "./documents/actor.mjs";
 import { GrimwildItem } from "./documents/item.mjs";
 import { GrimwildChatMessage } from "./documents/chat-message.mjs";
+import { GrimwildCombat, GrimwildCombatTracker } from "./documents/combat.mjs";
 // Import sheet classes.
 import { GrimwildActorSheet } from "./sheets/actor-sheet.mjs";
 import { GrimwildActorSheetVue } from "./sheets/actor-sheet-vue.mjs";
@@ -27,14 +28,16 @@ globalThis.grimwild = {
 	documents: {
 		GrimwildActor,
 		GrimwildItem,
-		GrimwildChatMessage
+		GrimwildChatMessage,
+		GrimwildCombat
 	},
 	applications: {
 		GrimwildActorSheet,
 		GrimwildActorSheetVue,
 		GrimwildActorMonsterSheetVue,
 		GrimwildItemSheet,
-		GrimwildItemSheetVue
+		GrimwildItemSheetVue,
+		GrimwildCombatTracker
 	},
 	utils: {
 		rollItemMacro
@@ -84,29 +87,28 @@ Hooks.once("init", function () {
 	// Override chat message class.
 	CONFIG.ChatMessage.documentClass = grimwild.documents.GrimwildChatMessage;
 
-	// Active Effects are never copied to the Actor,
-	// but will still apply to the Actor from within the Item
-	// if the transfer property on the Active Effect is true.
-	CONFIG.ActiveEffect.legacyTransferral = false;
+	// Override combat classes.
+	CONFIG.Combat.documentClass = grimwild.documents.GrimwildCombat;
+	CONFIG.ui.combat = grimwild.applications.GrimwildCombatTracker;
 
 	// Register sheet application classes
-	Actors.unregisterSheet("core", ActorSheet);
-	Actors.registerSheet("grimwild", GrimwildActorMonsterSheetVue, {
+	foundry.documents.collections.Actors.unregisterSheet("core", foundry.appv1.sheets.ActorSheet);
+	foundry.documents.collections.Actors.registerSheet("grimwild", GrimwildActorMonsterSheetVue, {
 		makeDefault: true,
 		label: "Monster Sheet",
 		types: ["monster", "linkedChallenge"]
 	});
-	Actors.registerSheet("grimwild", GrimwildActorSheetVue, {
+	foundry.documents.collections.Actors.registerSheet("grimwild", GrimwildActorSheetVue, {
 		makeDefault: true,
 		label: "GRIMWILD.SheetLabels.Actor",
 		types: ["character"]
 	});
-	Items.unregisterSheet("core", ItemSheet);
-	Items.registerSheet("grimwild", GrimwildItemSheet, {
+	foundry.documents.collections.Items.unregisterSheet("core", foundry.appv1.sheets.ItemSheet);
+	foundry.documents.collections.Items.registerSheet("grimwild", GrimwildItemSheet, {
 		makeDefault: false,
 		label: "GRIMWILD.SheetLabels.Item"
 	});
-	Items.registerSheet("grimwild", GrimwildItemSheetVue, {
+	foundry.documents.collections.Items.registerSheet("grimwild", GrimwildItemSheetVue, {
 		makeDefault: true,
 		label: "Grimwild Vue Sheet",
 		types: ["talent", "challenge"]
@@ -172,6 +174,33 @@ Hooks.once("init", function () {
 	};
 
 	SUSPENSE_TRACKER.init();
+
+	// Enable harm pools.
+	game.settings.register("grimwild", "enableHarmPools", {
+		name: game.i18n.localize("GRIMWILD.Settings.enableHarmPools.name"),
+		hint: game.i18n.localize("GRIMWILD.Settings.enableHarmPools.hint"),
+		scope: "world",
+		config: true,
+		type: Boolean,
+		default: false,
+		requiresReload: true
+	});
+
+	game.settings.register("grimwild", "maxBloodied", {
+		name: game.i18n.localize("GRIMWILD.Settings.maxBloodied.name"),
+		hint: game.i18n.localize("GRIMWILD.Settings.maxBloodied.hint"),
+		scope: "world",
+		config: true,
+		type: Number
+	});
+
+	game.settings.register("grimwild", "maxRattled", {
+		name: game.i18n.localize("GRIMWILD.Settings.maxRattled.name"),
+		hint: game.i18n.localize("GRIMWILD.Settings.maxRattled.hint"),
+		scope: "world",
+		config: true,
+		type: Number
+	});
 });
 
 /* -------------------------------------------- */
@@ -211,18 +240,15 @@ Hooks.once("ready", function () {
 
 Hooks.once("renderHotbar", function () {
 	SUSPENSE_TRACKER.render();
-	console.log("RENDERING");
 });
 
 Hooks.on("updateScene", (document, changed, options, userId) => {
-	console.log("DOCUMENT", document);
 	if (document.flags?.grimwild?.quickPools) {
 		SUSPENSE_TRACKER.render();
 	}
 });
 
 Hooks.on("renderSceneControls", (application, html, data) => {
-	console.log("scene!");
 	SUSPENSE_TRACKER.render();
 });
 

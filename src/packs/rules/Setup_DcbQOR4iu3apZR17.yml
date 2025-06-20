@@ -28,12 +28,14 @@ pages:
     _stats:
       compendiumSource: null
       duplicateSource: null
-      coreVersion: '12.331'
+      coreVersion: '13.345'
       systemId: grimwild
       systemVersion: 0.1.0
       createdTime: null
       modifiedTime: 1738611470327
       lastModifiedBy: Dl5Tvf37OuEHwdAh
+      exportSource: null
+    category: null
     _key: '!journal.pages!DcbQOR4iu3apZR17.R0lYIzI6uaOE9gZL'
 folder: p3IcETq9NG4OSRkx
 sort: 300000
@@ -44,12 +46,12 @@ flags: {}
 _stats:
   compendiumSource: null
   duplicateSource: null
-  coreVersion: '12.331'
+  coreVersion: '13.345'
   systemId: grimwild
   systemVersion: 0.1.0
   createdTime: 1738366919492
   modifiedTime: 1738366919492
   lastModifiedBy: Dl5Tvf37OuEHwdAh
+  exportSource: null
 categories: []
 _key: '!journal!DcbQOR4iu3apZR17'
-

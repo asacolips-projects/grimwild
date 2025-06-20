@@ -1,5 +1,3 @@
-import { isMentalStat, isPhysicalStat } from "../helpers/config.mjs";
-
 /**
  * @typedef {object} GrimwildRollDialogOptions
  * @property {GrimwildRollDialogRollData} rollData  The data to be injected into the roll dialog
@@ -123,10 +121,11 @@ export class GrimwildRollDialog extends foundry.applications.api.DialogV2 {
 	 * Render function to set the initial dice and thorns on the dialog
 	 *
 	 * @param {any} event           The render event for the dialog
-	 * @param {HTMLElement} html    The HTML element of the dialog
+	 * @param {any} application     Application instance.
 	 */
-	static _render(event, html) {
+	static _render(event, application) {
 		// set first thorns value
+		const html = application.element;
 		const checkTotal = Array.from(html.querySelectorAll(".thornCheck")).reduce((sum, checkbox) => sum + (checkbox.checked ? 1 : 0), 0);
 		const numTotal = Array.from(html.querySelectorAll(".thornInput")).reduce((sum, number) => sum + parseInt(number.value || 0, 10), 0);
 		html.querySelector("#totalThorns").textContent = numTotal + checkTotal;
@@ -153,15 +152,9 @@ export class GrimwildRollDialog extends foundry.applications.api.DialogV2 {
 		// add some preprocessed data
 		rollData.hasSpark = rollData.spark > 0;
 		rollData.sparkArray = Array.from({ length: rollData.spark }, (_, i) => i);
-		// Ignore mark if there is associated harm
-		rollData.markIgnored = rollData.isMarked
-			&& ((rollData.isBloodied && isPhysicalStat(rollData.stat))
-			|| (rollData.isRattled && isMentalStat(rollData.stat)));
-		// Do not check marked if it is ignored
-		rollData.isMarked = rollData.isMarked && !rollData.markIgnored;
 		rollData.assistants = game.actors.filter((a) => a.type === "character" && a.name !== rollData.name).map((a) => a.name);
 
-		options.content = await renderTemplate("systems/grimwild/templates/dialog/stat-roll.hbs", rollData);
+		options.content = await foundry.applications.handlebars.renderTemplate("systems/grimwild/templates/dialog/stat-roll.hbs", rollData);
 		options.render = this._render;
 		options.modal = true;
 		options.window = { title: "Grimwild Roll" };
@@ -171,7 +164,7 @@ export class GrimwildRollDialog extends foundry.applications.api.DialogV2 {
 				label: game.i18n.localize("GRIMWILD.Dialog.Roll"),
 				action: "roll",
 				callback: (event, button, dialog) => {
-					const assists = dialog.querySelectorAll(".assist-value");
+					const assists = dialog.element.querySelectorAll(".assist-value");
 					const assisters = {};
 					Array.from(assists).forEach((assist) => {
 						const nameInput = assist.closest(".grimwild-form-group").querySelector(".assist-name");
@@ -183,7 +176,7 @@ export class GrimwildRollDialog extends foundry.applications.api.DialogV2 {
 							assisters[name] = value;
 						}
 					});
-					const sparks = dialog.querySelectorAll(".sparkCheck");
+					const sparks = dialog.element.querySelectorAll(".sparkCheck");
 					const sparkUsed = Array.from(sparks).reduce((sum, checkbox) => sum + (checkbox.checked ? 1 : 0), 0);
 					return {
 						dice: button.form.elements.totalDiceInput.value,

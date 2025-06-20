@@ -1,3 +1,9 @@
+#sus-control {
+	display: flex;
+	transition: opacity var(--ui-fade-delay) var(--ui-fade-duration), transform 250ms ease;
+	opacity: 1;
+}
+
 #sus-control-inner {
 	display: flex;
 	justify-content: left;
@@ -16,12 +22,17 @@
 .quick-pool-adjust {
 	writing-mode: vertical-rl;
 	text-orientation: mixed;
+
+	button {
+		height: 100%;
+	}
 }
 
 button {
 	background-color: var(--sus-bg);
 	pointer-events: all;
-	border-color: var(--sus-bg-highlight);
+	border: none;
+	// border-color: var(--sus-bg-highlight);
 	margin: 0;
 	line-height: inherit;
 	flex: 1;
@@ -29,7 +40,7 @@ button {
 
 	&.hover-highlight:hover {
 		background-color: var(--sus-bg-highlight);
-		box-shadow: 0 0 10px var(--color-warm-2) inset;
+		// box-shadow: 0 0 10px var(--color-warm-2) inset;
 	}
 
 	&.button-icon {
@@ -81,11 +92,11 @@ button {
 #sus-display,
 .quick-pool {
 	background: var(--sus-bg);
-	
+
 	padding: 2px;
-	border: 2px solid;
+	border: none;
 	border-radius: 4px;
-	border-color: var(--sus-bg-highlight);
+	// border-color: var(--sus-bg-highlight);
 	margin: 0;
 	pointer-events: all;
 	height: 100%;
@@ -110,7 +121,7 @@ button {
 .quick-pool-label {
 	padding: 2px;
 	max-height: fit-content;
-	text-transform: uppercase;
+	// text-transform: uppercase;
 	display: flex;
 	flex-direction: row;
 	align-items: center;

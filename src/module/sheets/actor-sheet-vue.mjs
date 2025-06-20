@@ -38,27 +38,7 @@ export class GrimwildActorSheetVue extends VueRenderingMixin(GrimwildBaseVueActo
 			height: 750
 		},
 		window: {
-			resizable: true,
-			controls: [
-				{
-					action: "configurePrototypeToken",
-					icon: "fa-solid fa-user-circle",
-					label: "TOKEN.TitlePrototype",
-					ownership: "OWNER"
-				},
-				{
-					action: "showPortraitArtwork",
-					icon: "fa-solid fa-image",
-					label: "SIDEBAR.CharArt",
-					ownership: "OWNER"
-				},
-				{
-					action: "showTokenArtwork",
-					icon: "fa-solid fa-image",
-					label: "SIDEBAR.TokenArt",
-					ownership: "OWNER"
-				}
-			]
+			resizable: true
 		},
 		tag: "form",
 		actions: {
@@ -194,6 +174,15 @@ export class GrimwildActorSheetVue extends VueRenderingMixin(GrimwildBaseVueActo
 			}
 		}
 
+		// Handle the custom harm homebrew.
+		if (game.settings.get("grimwild", "enableHarmPools")) {
+			context.enableHarm = true;
+			context.maxBloodied = game.settings.get("grimwild", "maxBloodied");
+			context.maxRattled = game.settings.get("grimwild", "maxRattled");
+		}
+
+		Hooks.callAll("grimwildActorSheetVuePrepareContext", this, context);
+
 		return context;
 	}
 
@@ -213,7 +202,10 @@ export class GrimwildActorSheetVue extends VueRenderingMixin(GrimwildBaseVueActo
 		for (let field of fields) {
 			const editorValue = this.actor.system?.[field] ?? foundry.utils.getProperty(this.actor.system, field);
 			context.editors[`system.${field}`] = {
-				enriched: await TextEditor.enrichHTML(editorValue, enrichmentOptions),
+				enriched: await foundry.applications.ux.TextEditor.implementation.enrichHTML(
+					editorValue,
+					enrichmentOptions
+				),
 				element: foundry.applications.elements.HTMLProseMirrorElement.create({
 					...editorOptions,
 					name: `system.${field}`,
@@ -241,7 +233,10 @@ export class GrimwildActorSheetVue extends VueRenderingMixin(GrimwildBaseVueActo
 							?? foundry.utils.getProperty(item.system, itemField);
 						// Add editor settings.
 						context.editors[`items.${item.id}.system.${itemField}`] = {
-							enriched: await TextEditor.enrichHTML(editorValue, itemEnrichmentOptions),
+							enriched: await foundry.applications.ux.TextEditor.implementation.enrichHTML(
+								editorValue,
+								itemEnrichmentOptions
+							),
 							element: null
 						};
 					}
@@ -327,7 +322,7 @@ export class GrimwildActorSheetVue extends VueRenderingMixin(GrimwildBaseVueActo
 			if (folder) {
 				const otherFolders = compendium.folders.filter((f) => f.id !== folder.id);
 				game.folders._expanded[folder.uuid] = true;
-				otherFolders.forEach((f) => game.folders._expanded[f.uuid] = false);
+				otherFolders.forEach((f) => delete game.folders._expanded[f.uuid]);
 			}
 			// Render the pack.
 			compendium.apps[0].render(true);

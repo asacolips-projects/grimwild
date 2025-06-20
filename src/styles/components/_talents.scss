@@ -44,7 +44,7 @@
 		padding: 8px;
 		border-radius: 4px;
 
-		.theme-light & {
+		body.theme-light & {
 			background: #00000012;
 		}
 	}
@@ -56,7 +56,7 @@
 		margin: 1px;
 		flex-wrap: nowrap;
 
-		.theme-light & {
+		body.theme-light & {
 			background: #00000012;
 		}
 
@@ -70,11 +70,11 @@
 		white-space: nowrap;
 
 		input {
-			width: 0;
+			width: auto;
 			padding: 0;
 			height: auto;
 			line-height: 1;
-			flex: 0;
+			flex: 1;
 			border: 1px solid;
 			text-align: center;
 		}

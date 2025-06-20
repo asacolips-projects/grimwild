@@ -1,0 +1,55 @@
+.combat-tracker-subtype {
+  font-family: $font-display;
+  text-transform: uppercase;
+  text-align: center;
+  padding: 8px;
+  margin: 12px 0 0;
+  line-height: 1;
+  background: #00000055;
+}
+
+.combatant-controls {
+  .token-resources {
+    display: flex;
+    flex-direction: row;
+    gap: 4px;
+
+    .resource-spark {
+      color: #6ebbbf;
+    }
+
+    .resource-bloodied,
+    .resource-rattled {
+      opacity: 0.25;
+
+      &.active {
+        opacity: 1;
+      }
+    }
+
+    .resource-bloodied {
+      color: #da4b4b;
+    }
+
+    .resource-rattled {
+      color: #c05ac0;
+    }
+  }
+}
+
+.combat-tracker {
+  .combatant-header {
+    background: #00000055;
+    padding-top: 0;
+    border-bottom: 1px solid #ffffff33;
+    .token-image {
+      height: 0;
+    }
+  }
+
+  .token-initiative {
+    border-left: 1px solid #ffffff33;
+    flex: 0 0 50px;
+    text-align: center;
+  }
+}
