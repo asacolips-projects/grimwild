@@ -346,6 +346,12 @@ export default class GrimwildCharacter extends GrimwildActorBase {
 			if (combatant) {
 				const actionCount = Number(combatant.flags?.grimwild?.actionCount ?? 0);
 				await combatant.setFlag("grimwild", "actionCount", actionCount + 1);
+
+				// Update the active turn.
+				const combatantTurn = combat.turns.findIndex((c) => c.id === combatant.id);
+				if (combatantTurn !== undefined) {
+					combat.update({'turn': combatantTurn});
+				}
 			}
 		}
 	}
