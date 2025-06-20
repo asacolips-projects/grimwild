@@ -1,0 +1,188 @@
+folder: null
+name: Dragon, Fire
+type: monster
+img: icons/svg/mystery-man.svg
+system:
+  biography: >-
+    <p>Massive, scaled beasts with wings and elemental breath attacks. They
+    hoard treasures and instill deep, instinctual fears as a top apex
+    predator.</p>
+  notes: <p></p>
+  role: blaster
+  tier: tough
+  traits:
+    - Frightful Presence
+    - Ancient Memories
+    - Speech
+  moves:
+    - Elemental Breath
+    - Wing Buffet
+    - Chomp Down
+  desires:
+    - value: to assert its supremacy over all.
+      are: false
+    - value: to be humbled in any way.
+      are: false
+  sensories:
+    colors:
+      - name: Scale Emerald
+        color: '#4f7251'
+      - name: Crimson Flame
+        color: '#8b0101'
+      - name: Gold Accent
+        color: '#daa521'
+    sights: massive features, self-important posture
+    sounds: thunderous roar, wings beating, intake of breath
+    smells: faint scent of gold and ancient relics
+  pool:
+    diceNum: 0
+    max: null
+  tables:
+    - name: Hoarding instincts
+      instructions: besides gold
+      table:
+        - - Scrolls filled with lost languages.
+          - Crown jewels of forgotten kingdoms.
+          - Gravestones of great heroes.
+          - Maps of the world.
+          - Weapons forged in time of great need.
+          - Holy symbols of fallen gods.
+prototypeToken:
+  name: Dragon
+  displayName: 0
+  actorLink: false
+  appendNumber: false
+  prependAdjective: false
+  width: 1
+  height: 1
+  texture:
+    src: icons/svg/mystery-man.svg
+    anchorX: 0.5
+    anchorY: 0.5
+    offsetX: 0
+    offsetY: 0
+    fit: contain
+    scaleX: 1
+    scaleY: 1
+    rotation: 0
+    tint: '#ffffff'
+    alphaThreshold: 0.75
+  lockRotation: false
+  rotation: 0
+  alpha: 1
+  disposition: -1
+  displayBars: 0
+  bar1:
+    attribute: health
+  bar2:
+    attribute: power
+  light:
+    negative: false
+    priority: 0
+    alpha: 0.5
+    angle: 360
+    bright: 0
+    color: null
+    coloration: 1
+    dim: 0
+    attenuation: 0.5
+    luminosity: 0.5
+    saturation: 0
+    contrast: 0
+    shadows: 0
+    animation:
+      type: null
+      speed: 5
+      intensity: 5
+      reverse: false
+    darkness:
+      min: 0
+      max: 1
+  sight:
+    enabled: false
+    range: 0
+    angle: 360
+    visionMode: basic
+    color: null
+    attenuation: 0.1
+    brightness: 0
+    saturation: 0
+    contrast: 0
+  detectionModes: []
+  occludable:
+    radius: 0
+  ring:
+    enabled: false
+    colors:
+      ring: null
+      background: null
+    effects: 1
+    subject:
+      scale: 1
+      texture: null
+  flags: {}
+  randomImg: false
+  turnMarker:
+    mode: 1
+    animation: null
+    src: null
+    disposition: false
+  movementAction: null
+items:
+  - name: Fire
+    type: challenge
+    _id: 3ncdhDHn8vOXzz8q
+    img: icons/svg/item-bag.svg
+    system:
+      description: ''
+      roll:
+        diceNum: 0
+        max: null
+      pool:
+        diceNum: 0
+        max: null
+      suspense:
+        steps:
+          - true
+          - true
+      traits: []
+      moves:
+        - Burn Barriers
+        - Melt Weapons
+        - Smoke Screen
+      failure: []
+    effects: []
+    folder: null
+    sort: 0
+    ownership:
+      default: 0
+      jgipq2YBy9KMjQWt: 3
+    flags: {}
+    _stats:
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+      coreVersion: '13.345'
+      systemId: grimwild
+      systemVersion: 0.1.7
+      lastModifiedBy: null
+    _key: '!actors.items!LTng51WCMn0pvIQp.3ncdhDHn8vOXzz8q'
+effects: []
+flags: {}
+_stats:
+  compendiumSource: null
+  duplicateSource: null
+  exportSource: null
+  coreVersion: '13.345'
+  systemId: grimwild
+  systemVersion: 0.1.7
+  createdTime: 1750368391082
+  modifiedTime: 1750368391082
+  lastModifiedBy: jgipq2YBy9KMjQWt
+ownership:
+  default: 0
+  jgipq2YBy9KMjQWt: 3
+_id: LTng51WCMn0pvIQp
+sort: 0
+_key: '!actors!LTng51WCMn0pvIQp'
+

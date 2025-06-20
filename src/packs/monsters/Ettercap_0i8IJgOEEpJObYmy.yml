@@ -1,0 +1,378 @@
+folder: null
+name: Ettercap
+type: monster
+img: icons/svg/mystery-man.svg
+system:
+  biography: >-
+    <p>Hunched, two-legged spider-like creature with web-spinning claws. They
+    lurk within a maze of webbed traps and often control huge spider
+    colonies.</p>
+  notes: ''
+  role: tactician
+  tier: tough
+  traits:
+    - Clever Silk Traps
+    - Clings To Walls
+    - Speech (Rarely)
+  moves:
+    - Sling Webbing
+    - Venomous Bite
+    - Web Skitter
+  desires:
+    - value: to never face danger directly.
+      are: false
+    - value: for its hard work webbing to be destroyed.
+      are: false
+  sensories:
+    colors:
+      - name: Spider Gray
+        color: '#808080'
+      - name: Venom Purple
+        color: '#6c4c7d'
+      - name: Forest Green
+        color: '#495d3a'
+    sights: webs between trees, struggling victims, shiny fangs
+    sounds: faint skitter of legs, whirr of web-spinning
+    smells: rotting wood, wet earth, decaying bodies
+  pool:
+    diceNum: 0
+    max: null
+  tables:
+    - name: Webbed Domains
+      instructions: ''
+      table:
+        - - Bramble patch, every inch covered in webs.
+          - Long, narrow, winding canyons.
+          - Massive, abandoned library in the capital.
+          - Granaries abandoned during the famine.
+          - Derelict shipwreck, sails webbed over.
+          - Sunken pitfall in the middle of the woods.
+prototypeToken:
+  name: Ettercap
+  displayName: 0
+  actorLink: false
+  appendNumber: false
+  prependAdjective: false
+  width: 1
+  height: 1
+  texture:
+    src: icons/svg/mystery-man.svg
+    anchorX: 0.5
+    anchorY: 0.5
+    offsetX: 0
+    offsetY: 0
+    fit: contain
+    scaleX: 1
+    scaleY: 1
+    rotation: 0
+    tint: '#ffffff'
+    alphaThreshold: 0.75
+  lockRotation: false
+  rotation: 0
+  alpha: 1
+  disposition: -1
+  displayBars: 0
+  bar1:
+    attribute: health
+  bar2:
+    attribute: power
+  light:
+    negative: false
+    priority: 0
+    alpha: 0.5
+    angle: 360
+    bright: 0
+    color: null
+    coloration: 1
+    dim: 0
+    attenuation: 0.5
+    luminosity: 0.5
+    saturation: 0
+    contrast: 0
+    shadows: 0
+    animation:
+      type: null
+      speed: 5
+      intensity: 5
+      reverse: false
+    darkness:
+      min: 0
+      max: 1
+  sight:
+    enabled: false
+    range: 0
+    angle: 360
+    visionMode: basic
+    color: null
+    attenuation: 0.1
+    brightness: 0
+    saturation: 0
+    contrast: 0
+  detectionModes: []
+  occludable:
+    radius: 0
+  ring:
+    enabled: false
+    colors:
+      ring: null
+      background: null
+    effects: 1
+    subject:
+      scale: 1
+      texture: null
+  flags: {}
+  randomImg: false
+  turnMarker:
+    mode: 1
+    animation: null
+    src: null
+    disposition: false
+  movementAction: null
+items:
+  - name: Alarm Stands
+    type: challenge
+    _id: 5YlWvrIEnYY3mlEY
+    img: icons/svg/item-bag.svg
+    system:
+      description: ''
+      roll:
+        diceNum: 0
+        max: null
+      pool:
+        diceNum: 4
+        max: null
+      suspense:
+        steps:
+          - true
+          - true
+      traits:
+        - Nearly invisible
+      moves:
+        - Startled Spider
+        - Another victim
+      failure: []
+    effects: []
+    folder: null
+    sort: 0
+    ownership:
+      default: 0
+      jgipq2YBy9KMjQWt: 3
+    flags: {}
+    _stats:
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+      coreVersion: '13.345'
+      systemId: grimwild
+      systemVersion: 0.1.7
+      lastModifiedBy: null
+    _key: '!actors.items!0i8IJgOEEpJObYmy.5YlWvrIEnYY3mlEY'
+  - name: Holding Traps
+    type: challenge
+    _id: RMCNsi31iDtU8jT1
+    img: icons/svg/item-bag.svg
+    system:
+      description: ''
+      roll:
+        diceNum: 0
+        max: null
+      pool:
+        diceNum: 4
+        max: null
+      suspense:
+        steps:
+          - true
+          - true
+      traits:
+        - Incredibly sticky
+      moves:
+        - Ensnaring Pull
+        - Tangling Webs
+      failure: []
+    effects: []
+    folder: null
+    sort: 0
+    ownership:
+      default: 0
+      jgipq2YBy9KMjQWt: 3
+    flags: {}
+    _stats:
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+      coreVersion: '13.345'
+      systemId: grimwild
+      systemVersion: 0.1.7
+      lastModifiedBy: null
+    _key: '!actors.items!0i8IJgOEEpJObYmy.RMCNsi31iDtU8jT1'
+  - name: Deadly Traps
+    type: challenge
+    _id: eXQ6apVjSPhWG2Ln
+    img: icons/svg/item-bag.svg
+    system:
+      description: ''
+      roll:
+        diceNum: 0
+        max: null
+      pool:
+        diceNum: 4
+        max: null
+      suspense:
+        steps:
+          - true
+          - true
+      traits:
+        - Serrated webbing
+      moves:
+        - Neck Slice
+        - Constricting Web
+      failure: []
+    effects: []
+    folder: null
+    sort: 0
+    ownership:
+      default: 0
+      jgipq2YBy9KMjQWt: 3
+    flags: {}
+    _stats:
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+      coreVersion: '13.345'
+      systemId: grimwild
+      systemVersion: 0.1.7
+      lastModifiedBy: null
+    _key: '!actors.items!0i8IJgOEEpJObYmy.eXQ6apVjSPhWG2Ln'
+  - name: Cocoons
+    type: challenge
+    _id: IgOlri1qvYxhBha8
+    img: icons/svg/item-bag.svg
+    system:
+      description: ''
+      roll:
+        diceNum: 0
+        max: null
+      pool:
+        diceNum: 4
+        max: null
+      suspense:
+        steps:
+          - true
+          - true
+      traits:
+        - Wriggling Victims
+      moves:
+        - Desperate Pleas
+        - Horrific Feasting
+      failure: []
+    effects: []
+    folder: null
+    sort: 0
+    ownership:
+      default: 0
+      jgipq2YBy9KMjQWt: 3
+    flags: {}
+    _stats:
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+      coreVersion: '13.345'
+      systemId: grimwild
+      systemVersion: 0.1.7
+      lastModifiedBy: null
+    _key: '!actors.items!0i8IJgOEEpJObYmy.IgOlri1qvYxhBha8'
+  - name: Spider Nest
+    type: challenge
+    _id: 0Z4BcKOask7goYX4
+    img: icons/svg/item-bag.svg
+    system:
+      description: ''
+      roll:
+        diceNum: 0
+        max: null
+      pool:
+        diceNum: 8
+        max: null
+      suspense:
+        steps:
+          - true
+          - true
+      traits:
+        - Rabbit-sized Spiders
+      moves:
+        - Split Up Prey
+        - Biting Frenzy
+      failure: []
+    effects: []
+    folder: null
+    sort: 0
+    ownership:
+      default: 0
+      jgipq2YBy9KMjQWt: 3
+    flags: {}
+    _stats:
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+      coreVersion: '13.345'
+      systemId: grimwild
+      systemVersion: 0.1.7
+      lastModifiedBy: null
+    _key: '!actors.items!0i8IJgOEEpJObYmy.0Z4BcKOask7goYX4'
+  - name: Ettercap
+    type: challenge
+    _id: rl2OE93IgTTURNpJ
+    img: icons/svg/item-bag.svg
+    system:
+      description: ''
+      roll:
+        diceNum: 0
+        max: null
+      pool:
+        diceNum: 6
+        max: null
+      suspense:
+        steps:
+          - true
+          - true
+      traits:
+        - Can appear anytime
+      moves:
+        - Lethal Bite
+        - Flee To Safety
+      failure: []
+    effects: []
+    folder: null
+    sort: 0
+    ownership:
+      default: 0
+      jgipq2YBy9KMjQWt: 3
+    flags: {}
+    _stats:
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+      coreVersion: '13.345'
+      systemId: grimwild
+      systemVersion: 0.1.7
+      lastModifiedBy: null
+    _key: '!actors.items!0i8IJgOEEpJObYmy.rl2OE93IgTTURNpJ'
+effects: []
+flags: {}
+_stats:
+  compendiumSource: null
+  duplicateSource: null
+  exportSource: null
+  coreVersion: '13.345'
+  systemId: grimwild
+  systemVersion: 0.1.7
+  createdTime: 1750368401053
+  modifiedTime: 1750368401053
+  lastModifiedBy: jgipq2YBy9KMjQWt
+ownership:
+  default: 0
+  jgipq2YBy9KMjQWt: 3
+_id: 0i8IJgOEEpJObYmy
+sort: 0
+_key: '!actors!0i8IJgOEEpJObYmy'
+

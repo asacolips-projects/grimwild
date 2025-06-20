@@ -1,0 +1,150 @@
+folder: null
+name: Troll
+type: monster
+img: icons/svg/mystery-man.svg
+system:
+  biography: >-
+    <p>Regenerating creatures that lair in overlooked places, hoarding strange
+    trophies. They make simple demands and usually negotiate before cracking
+    skulls.</p>
+  notes: ''
+  role: marauder
+  tier: tough
+  traits:
+    - Regenerates
+    - Weak vs. Fire, Acid
+    - Speech (Grunts, Gestures)
+  moves:
+    - Convincing Offer
+    - Hurl Enemy
+    - Topple Trees
+  desires:
+    - value: its lair to be filled with bones and trophies.
+      are: false
+    - value: to let on that it's more cunning than it looks.
+      are: false
+  sensories:
+    colors:
+      - name: Earthy Brown
+        color: '#8b4512'
+      - name: Granite Gray
+        color: '#696969'
+      - name: Muddy Green
+        color: '#6a8e22'
+    sights: an oddly shaped mound, glint of sharp claws
+    sounds: low grumbling, crunch of bones, wet chewing
+    smells: stale swamp water, wet fur, strong musk of mold
+  pool:
+    diceNum: 0
+    max: null
+  tables:
+    - name: Overlooked Lairs
+      instructions: ''
+      table:
+        - - Abandoned mill, half-sunk in the swamp.
+          - Ruined bathhouse, flooded with muck.
+          - Crumbling fort lost in dense woods.
+          - Hollowed-out tree astride a grain field.
+          - Ruined chapel overtaken by brambles.
+          - Rocky cave behind a waterfall.
+prototypeToken:
+  name: Troll
+  displayName: 0
+  actorLink: false
+  appendNumber: false
+  prependAdjective: false
+  width: 1
+  height: 1
+  texture:
+    src: icons/svg/mystery-man.svg
+    anchorX: 0.5
+    anchorY: 0.5
+    offsetX: 0
+    offsetY: 0
+    fit: contain
+    scaleX: 1
+    scaleY: 1
+    rotation: 0
+    tint: '#ffffff'
+    alphaThreshold: 0.75
+  lockRotation: false
+  rotation: 0
+  alpha: 1
+  disposition: -1
+  displayBars: 0
+  bar1:
+    attribute: health
+  bar2:
+    attribute: power
+  light:
+    negative: false
+    priority: 0
+    alpha: 0.5
+    angle: 360
+    bright: 0
+    color: null
+    coloration: 1
+    dim: 0
+    attenuation: 0.5
+    luminosity: 0.5
+    saturation: 0
+    contrast: 0
+    shadows: 0
+    animation:
+      type: null
+      speed: 5
+      intensity: 5
+      reverse: false
+    darkness:
+      min: 0
+      max: 1
+  sight:
+    enabled: false
+    range: 0
+    angle: 360
+    visionMode: basic
+    color: null
+    attenuation: 0.1
+    brightness: 0
+    saturation: 0
+    contrast: 0
+  detectionModes: []
+  occludable:
+    radius: 0
+  ring:
+    enabled: false
+    colors:
+      ring: null
+      background: null
+    effects: 1
+    subject:
+      scale: 1
+      texture: null
+  flags: {}
+  randomImg: false
+  turnMarker:
+    mode: 1
+    animation: null
+    src: null
+    disposition: false
+  movementAction: null
+items: []
+effects: []
+flags: {}
+_stats:
+  compendiumSource: null
+  duplicateSource: null
+  exportSource: null
+  coreVersion: '13.345'
+  systemId: grimwild
+  systemVersion: 0.1.7
+  createdTime: 1750368454557
+  modifiedTime: 1750368454557
+  lastModifiedBy: jgipq2YBy9KMjQWt
+ownership:
+  default: 0
+  jgipq2YBy9KMjQWt: 3
+_id: iOMIQa15K1way7RZ
+sort: 0
+_key: '!actors!iOMIQa15K1way7RZ'
+

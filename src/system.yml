@@ -91,6 +91,14 @@ packs:
     ownership:
       PLAYER: LIMITED
       ASSISTANT: OWNER
+  - name: monsters
+    label: Monsters
+    type: Actor
+    path: packs/monsters
+    system: grimwild
+    ownership:
+      PLAYER: OBSERVER
+      ASSISTANT: OWNER
   - name: macros
     label: Grimwild Macros
     type: Macro

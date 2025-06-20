@@ -1,0 +1,150 @@
+folder: null
+name: Undead, Ghast
+type: monster
+img: icons/svg/mystery-man.svg
+system:
+  biography: >-
+    <p>Rotting corpses driven by an ancient plague that wishes to spread once
+    more. They're full of hunger and rage, and leave victims messily scattered
+    about.</p>
+  notes: ''
+  role: brute
+  tier: tough
+  traits:
+    - Rotting Stench
+    - Plague Carrier
+    - Speech (Archaic)
+  moves:
+    - Putrid Exhale
+    - Festering Claws
+    - Numbing Grasp
+  desires:
+    - value: to feed, inadvertently spreading the plague.
+      are: false
+    - value: to give up on a fleshy meal.
+      are: false
+  sensories:
+    colors:
+      - name: Weathered Flesh
+        color: '#8a7d6c'
+      - name: Decayed Green
+        color: '#395f0a'
+      - name: Bloodstain Red
+        color: '#7c0902'
+    sights: pallid skin, jagged teeth, bloated and yellowed
+    sounds: guttural snarls, heavy breathing, slap of bare feet
+    smells: decayed flesh, sour stench, mold
+  pool:
+    diceNum: 0
+    max: null
+  tables:
+    - name: Bygone Plagues
+      instructions: ''
+      table:
+        - - The Weeping Rot, turning flesh to black ooze.
+          - The Crimson Blight, causing veins to burst.
+          - The Ashen Grip, hardening limbs into stone.
+          - The Vile Verdancy, growing plants from wounds.
+          - The Choking Miasma, filling lungs with sludge.
+          - The Thorned Decay, sprouting barbs from skin.
+prototypeToken:
+  name: Undead, Ghast
+  displayName: 0
+  actorLink: false
+  appendNumber: false
+  prependAdjective: false
+  width: 1
+  height: 1
+  texture:
+    src: icons/svg/mystery-man.svg
+    anchorX: 0.5
+    anchorY: 0.5
+    offsetX: 0
+    offsetY: 0
+    fit: contain
+    scaleX: 1
+    scaleY: 1
+    rotation: 0
+    tint: '#ffffff'
+    alphaThreshold: 0.75
+  lockRotation: false
+  rotation: 0
+  alpha: 1
+  disposition: -1
+  displayBars: 0
+  bar1:
+    attribute: health
+  bar2:
+    attribute: power
+  light:
+    negative: false
+    priority: 0
+    alpha: 0.5
+    angle: 360
+    bright: 0
+    color: null
+    coloration: 1
+    dim: 0
+    attenuation: 0.5
+    luminosity: 0.5
+    saturation: 0
+    contrast: 0
+    shadows: 0
+    animation:
+      type: null
+      speed: 5
+      intensity: 5
+      reverse: false
+    darkness:
+      min: 0
+      max: 1
+  sight:
+    enabled: false
+    range: 0
+    angle: 360
+    visionMode: basic
+    color: null
+    attenuation: 0.1
+    brightness: 0
+    saturation: 0
+    contrast: 0
+  detectionModes: []
+  occludable:
+    radius: 0
+  ring:
+    enabled: false
+    colors:
+      ring: null
+      background: null
+    effects: 1
+    subject:
+      scale: 1
+      texture: null
+  flags: {}
+  randomImg: false
+  turnMarker:
+    mode: 1
+    animation: null
+    src: null
+    disposition: false
+  movementAction: null
+items: []
+effects: []
+flags: {}
+_stats:
+  compendiumSource: null
+  duplicateSource: null
+  exportSource: null
+  coreVersion: '13.345'
+  systemId: grimwild
+  systemVersion: 0.1.7
+  createdTime: 1750368455423
+  modifiedTime: 1750368455423
+  lastModifiedBy: jgipq2YBy9KMjQWt
+ownership:
+  default: 0
+  jgipq2YBy9KMjQWt: 3
+_id: kDFZqpFehl8Agl2r
+sort: 0
+_key: '!actors!kDFZqpFehl8Agl2r'
+

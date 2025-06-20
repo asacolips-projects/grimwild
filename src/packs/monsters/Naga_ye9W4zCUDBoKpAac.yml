@@ -1,0 +1,162 @@
+folder: null
+name: Naga
+type: monster
+img: icons/svg/mystery-man.svg
+system:
+  biography: >-
+    <p>Malevolent serpentine figures, guarding ancient wisdom. They defend
+    sacred groves and lost ruins with potent magic against any who dare
+    trespass.</p>
+  notes: ''
+  role: blaster
+  tier: tough
+  traits:
+    - Serpentine Grace
+    - Ancient Wisdom
+    - Speech
+  moves:
+    - Venomous Fangs
+    - Constrict
+    - Hex Magic
+  desires:
+    - value: to keep its secrets for itself, no matter the cost.
+      are: false
+    - value: to be insulted with offers, as if it can be bought.
+      are: false
+  sensories:
+    colors:
+      - name: Scaled Green
+        color: '#2e8a57'
+      - name: Reptilian Blue
+        color: '#4682b4'
+      - name: Aged Gold
+        color: '#b8860b'
+    sights: iridescent scales, gleaming eyes
+    sounds: hiss of scales sliding across stone, whispering
+    smells: exotic incense, floral notes mixed with musk
+  pool:
+    diceNum: 0
+    max: null
+  tables:
+    - name: Forbidden Knowledge
+      instructions: (Roll 3 & Interpret)
+      table:
+        - - secret
+          - twisted
+          - 'false'
+          - 'true'
+          - blasphemous
+          - shattered
+        - - scrolls of
+          - visions of
+          - rites of
+          - pacts of
+          - elixirs of
+          - ciphers of
+        - - immortality
+          - soulbinding
+          - necromancy
+          - teleportation
+          - polymorphing
+          - godhood
+prototypeToken:
+  name: Naga
+  displayName: 0
+  actorLink: false
+  appendNumber: false
+  prependAdjective: false
+  width: 1
+  height: 1
+  texture:
+    src: icons/svg/mystery-man.svg
+    anchorX: 0.5
+    anchorY: 0.5
+    offsetX: 0
+    offsetY: 0
+    fit: contain
+    scaleX: 1
+    scaleY: 1
+    rotation: 0
+    tint: '#ffffff'
+    alphaThreshold: 0.75
+  lockRotation: false
+  rotation: 0
+  alpha: 1
+  disposition: -1
+  displayBars: 0
+  bar1:
+    attribute: health
+  bar2:
+    attribute: power
+  light:
+    negative: false
+    priority: 0
+    alpha: 0.5
+    angle: 360
+    bright: 0
+    color: null
+    coloration: 1
+    dim: 0
+    attenuation: 0.5
+    luminosity: 0.5
+    saturation: 0
+    contrast: 0
+    shadows: 0
+    animation:
+      type: null
+      speed: 5
+      intensity: 5
+      reverse: false
+    darkness:
+      min: 0
+      max: 1
+  sight:
+    enabled: false
+    range: 0
+    angle: 360
+    visionMode: basic
+    color: null
+    attenuation: 0.1
+    brightness: 0
+    saturation: 0
+    contrast: 0
+  detectionModes: []
+  occludable:
+    radius: 0
+  ring:
+    enabled: false
+    colors:
+      ring: null
+      background: null
+    effects: 1
+    subject:
+      scale: 1
+      texture: null
+  flags: {}
+  randomImg: false
+  turnMarker:
+    mode: 1
+    animation: null
+    src: null
+    disposition: false
+  movementAction: null
+items: []
+effects: []
+flags: {}
+_stats:
+  compendiumSource: null
+  duplicateSource: null
+  exportSource: null
+  coreVersion: '13.345'
+  systemId: grimwild
+  systemVersion: 0.1.7
+  createdTime: 1750368438175
+  modifiedTime: 1750368438175
+  lastModifiedBy: jgipq2YBy9KMjQWt
+ownership:
+  default: 0
+  jgipq2YBy9KMjQWt: 3
+_id: ye9W4zCUDBoKpAac
+sort: 0
+_key: '!actors!ye9W4zCUDBoKpAac'
+

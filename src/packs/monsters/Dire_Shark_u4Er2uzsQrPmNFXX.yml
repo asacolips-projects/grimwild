@@ -1,0 +1,149 @@
+folder: null
+name: Dire Shark
+type: monster
+img: icons/svg/mystery-man.svg
+system:
+  biography: >-
+    <p>Massive beasts of the ocean's depth, with rows of serrated teeth and a
+    sleek, powerful body. They prowl the seas, always in search of sizable
+    prey</p>
+  notes: ''
+  role: predator
+  tier: tough
+  traits:
+    - Blends Into The Depths
+    - Knows No Fear
+  moves:
+    - From The Depths
+    - Frenzied Thrash
+    - Bite Off A Chunk
+  desires:
+    - value: to instill deep fear long before it strikes.
+      are: false
+    - value: for ships to operate in its waters.
+      are: false
+  sensories:
+    colors:
+      - name: Ocean Gray
+        color: '#7a899c'
+      - name: Bone White
+        color: '#d7d4c5'
+      - name: Deep Blue
+        color: '#254e86'
+    sights: patch of red-stained ocean, ominous dorsal fin
+    sounds: heavy thud hitting the ship, eerie silence
+    smells: briny saltwater, upturned seawater
+  pool:
+    diceNum: 0
+    max: null
+  tables:
+    - name: Destroyed Ships
+      instructions: ''
+      table:
+        - - Royal flagship, crown jewels still aboard.
+          - War galleon, with the spoils of war.
+          - Passenger liner, still barely floating.
+          - Submarine, the survivors in a deep sea cave.
+          - Ghost ship, having cursed the waters for decades.
+          - Orcish warship, fused to its back by dark magic.
+prototypeToken:
+  name: Dire Shark
+  displayName: 0
+  actorLink: false
+  appendNumber: false
+  prependAdjective: false
+  width: 1
+  height: 1
+  texture:
+    src: icons/svg/mystery-man.svg
+    anchorX: 0.5
+    anchorY: 0.5
+    offsetX: 0
+    offsetY: 0
+    fit: contain
+    scaleX: 1
+    scaleY: 1
+    rotation: 0
+    tint: '#ffffff'
+    alphaThreshold: 0.75
+  lockRotation: false
+  rotation: 0
+  alpha: 1
+  disposition: -1
+  displayBars: 0
+  bar1:
+    attribute: health
+  bar2:
+    attribute: power
+  light:
+    negative: false
+    priority: 0
+    alpha: 0.5
+    angle: 360
+    bright: 0
+    color: null
+    coloration: 1
+    dim: 0
+    attenuation: 0.5
+    luminosity: 0.5
+    saturation: 0
+    contrast: 0
+    shadows: 0
+    animation:
+      type: null
+      speed: 5
+      intensity: 5
+      reverse: false
+    darkness:
+      min: 0
+      max: 1
+  sight:
+    enabled: false
+    range: 0
+    angle: 360
+    visionMode: basic
+    color: null
+    attenuation: 0.1
+    brightness: 0
+    saturation: 0
+    contrast: 0
+  detectionModes: []
+  occludable:
+    radius: 0
+  ring:
+    enabled: false
+    colors:
+      ring: null
+      background: null
+    effects: 1
+    subject:
+      scale: 1
+      texture: null
+  flags: {}
+  randomImg: false
+  turnMarker:
+    mode: 1
+    animation: null
+    src: null
+    disposition: false
+  movementAction: null
+items: []
+effects: []
+flags: {}
+_stats:
+  compendiumSource: null
+  duplicateSource: null
+  exportSource: null
+  coreVersion: '13.345'
+  systemId: grimwild
+  systemVersion: 0.1.7
+  createdTime: 1750368381470
+  modifiedTime: 1750368381470
+  lastModifiedBy: jgipq2YBy9KMjQWt
+ownership:
+  default: 0
+  jgipq2YBy9KMjQWt: 3
+_id: u4Er2uzsQrPmNFXX
+sort: 0
+_key: '!actors!u4Er2uzsQrPmNFXX'
+

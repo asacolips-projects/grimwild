@@ -1,0 +1,227 @@
+folder: null
+name: Ettin, Runejaw & Goldmaw
+type: monster
+img: icons/svg/mystery-man.svg
+system:
+  biography: >-
+    <p>Towering, two-headed figure with mismatched weapons. They lumber through
+    the wilderness, both heads bickering endlessly about trivial matters.</p>
+  notes: >-
+    <p>To pass an ettin without a fight, you'll need to persuade both heads.
+    Remember, they're dim and don't get along</p>
+  role: brute
+  tier: tough
+  traits:
+    - Constantly Bickering
+    - Clumsy Stride
+    - Speech
+  moves:
+    - Swing Weapons
+    - Headbutts
+    - Dual Shouting
+  desires:
+    - value: simple pleasures both heads can agree on.
+      are: false
+    - value: to do anything that requires precision.
+      are: false
+  sensories:
+    colors:
+      - name: Fleshy Gray
+        color: '#a9a9a9'
+      - name: Dark Leather
+        color: '#4b3621'
+      - name: Ashen White
+        color: '#e3e0d1'
+    sights: chaotic movements, dragging feet, frustrated glaring
+    sounds: constant bickering, clumsy thuds, mismatched words
+    smells: sweaty musk, animal hides, unkempt hair
+  pool:
+    diceNum: 0
+    max: null
+  tables:
+    - name: Unlikely Protector of ...
+      instructions: ''
+      table:
+        - - Three old witches, who use it as a bodyguard.
+          - Ragtag group of orphans that saved it.
+          - Goblins, because they worship it as a god.
+          - Hamlet of farmers, who feed it.
+          - Wandering circus, using it as a bouncer.
+          - Hermit, friends with both heads.
+prototypeToken:
+  name: Dragon
+  displayName: 0
+  actorLink: false
+  appendNumber: false
+  prependAdjective: false
+  width: 1
+  height: 1
+  texture:
+    src: icons/svg/mystery-man.svg
+    anchorX: 0.5
+    anchorY: 0.5
+    offsetX: 0
+    offsetY: 0
+    fit: contain
+    scaleX: 1
+    scaleY: 1
+    rotation: 0
+    tint: '#ffffff'
+    alphaThreshold: 0.75
+  lockRotation: false
+  rotation: 0
+  alpha: 1
+  disposition: -1
+  displayBars: 0
+  bar1:
+    attribute: health
+  bar2:
+    attribute: power
+  light:
+    negative: false
+    priority: 0
+    alpha: 0.5
+    angle: 360
+    bright: 0
+    color: null
+    coloration: 1
+    dim: 0
+    attenuation: 0.5
+    luminosity: 0.5
+    saturation: 0
+    contrast: 0
+    shadows: 0
+    animation:
+      type: null
+      speed: 5
+      intensity: 5
+      reverse: false
+    darkness:
+      min: 0
+      max: 1
+  sight:
+    enabled: false
+    range: 0
+    angle: 360
+    visionMode: basic
+    color: null
+    attenuation: 0.1
+    brightness: 0
+    saturation: 0
+    contrast: 0
+  detectionModes: []
+  occludable:
+    radius: 0
+  ring:
+    enabled: false
+    colors:
+      ring: null
+      background: null
+    effects: 1
+    subject:
+      scale: 1
+      texture: null
+  flags: {}
+  randomImg: false
+  turnMarker:
+    mode: 1
+    animation: null
+    src: null
+    disposition: false
+  movementAction: null
+items:
+  - name: Runejaw
+    type: challenge
+    _id: f20aa0akSO6OlPWG
+    img: icons/svg/item-bag.svg
+    system:
+      description: ''
+      roll:
+        diceNum: 0
+        max: null
+      pool:
+        diceNum: 6
+        max: null
+      suspense:
+        steps:
+          - false
+          - false
+      traits:
+        - Cryptic, curious
+        - Seeks to prophesize
+        - Reacts to symbolism
+      moves: []
+      failure: []
+    effects: []
+    folder: null
+    sort: 0
+    ownership:
+      default: 0
+      jgipq2YBy9KMjQWt: 3
+    flags: {}
+    _stats:
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+      coreVersion: '13.345'
+      systemId: grimwild
+      systemVersion: 0.1.7
+      lastModifiedBy: null
+    _key: '!actors.items!KkFsnYfldYWfUGwp.f20aa0akSO6OlPWG'
+  - name: Goldmaw
+    type: challenge
+    _id: pq61xMmWuTGft4b3
+    img: icons/svg/item-bag.svg
+    system:
+      description: ''
+      roll:
+        diceNum: 0
+        max: null
+      pool:
+        diceNum: 6
+        max: null
+      suspense:
+        steps:
+          - false
+          - false
+      traits:
+        - Sharp, Greedy
+        - Seeks material gain
+        - Reacts to rare goods
+      moves: []
+      failure: []
+    effects: []
+    folder: null
+    sort: 0
+    ownership:
+      default: 0
+      jgipq2YBy9KMjQWt: 3
+    flags: {}
+    _stats:
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+      coreVersion: '13.345'
+      systemId: grimwild
+      systemVersion: 0.1.7
+      lastModifiedBy: null
+    _key: '!actors.items!KkFsnYfldYWfUGwp.pq61xMmWuTGft4b3'
+effects: []
+flags: {}
+_stats:
+  compendiumSource: null
+  duplicateSource: null
+  exportSource: null
+  coreVersion: '13.345'
+  systemId: grimwild
+  systemVersion: 0.1.7
+  createdTime: 1750368403818
+  modifiedTime: 1750368403818
+  lastModifiedBy: jgipq2YBy9KMjQWt
+ownership:
+  default: 0
+  jgipq2YBy9KMjQWt: 3
+_id: KkFsnYfldYWfUGwp
+sort: 0
+_key: '!actors!KkFsnYfldYWfUGwp'
+

@@ -1,0 +1,150 @@
+folder: null
+name: Medusa
+type: monster
+img: icons/svg/mystery-man.svg
+system:
+  biography: >-
+    <p>Cursed figures with serpentine hair and a gaze that turns onlookers into
+    stone. They hide in ancient ruins, haunted by past sorrow and
+    bitterness.</p>
+  notes: ''
+  role: trickster
+  tier: tough
+  traits:
+    - Vigilant Serpent Hair
+    - Unnatural Beauty
+    - Speech
+  moves:
+    - Petrifying Gaze
+    - Snake Hair Strike
+    - Hypnotic Charm
+  desires:
+    - value: for you to just go away.
+      are: false
+    - value: to be reminded of its past.
+      are: false
+  sensories:
+    colors:
+      - name: Viper Green
+        color: '#2e8a57'
+      - name: Bronze Gold
+        color: '#cd8032'
+      - name: Ancient Stone
+        color: '#778898'
+    sights: writhing serpent hair, statues of victims, angry eyes
+    sounds: soft hissing, vengeful muttering, sudden snap of scales
+    smells: ancient rot, moss-covered stone, stagnant air
+  pool:
+    diceNum: 0
+    max: null
+  tables:
+    - name: Curse Origins
+      instructions: ''
+      table:
+        - - Vanity, punished by a mirror that never reflects.
+          - Lies, broke a promise made in desperation.
+          - Greed, forced to forever protect the relic it stole.
+          - Paranoia, having been betrayed countless times.
+          - Jealousy, spawned from unfulfilled longing.
+          - Hubris, having believed itself above the gods.
+prototypeToken:
+  name: Medusa
+  displayName: 0
+  actorLink: false
+  appendNumber: false
+  prependAdjective: false
+  width: 1
+  height: 1
+  texture:
+    src: icons/svg/mystery-man.svg
+    anchorX: 0.5
+    anchorY: 0.5
+    offsetX: 0
+    offsetY: 0
+    fit: contain
+    scaleX: 1
+    scaleY: 1
+    rotation: 0
+    tint: '#ffffff'
+    alphaThreshold: 0.75
+  lockRotation: false
+  rotation: 0
+  alpha: 1
+  disposition: -1
+  displayBars: 0
+  bar1:
+    attribute: health
+  bar2:
+    attribute: power
+  light:
+    negative: false
+    priority: 0
+    alpha: 0.5
+    angle: 360
+    bright: 0
+    color: null
+    coloration: 1
+    dim: 0
+    attenuation: 0.5
+    luminosity: 0.5
+    saturation: 0
+    contrast: 0
+    shadows: 0
+    animation:
+      type: null
+      speed: 5
+      intensity: 5
+      reverse: false
+    darkness:
+      min: 0
+      max: 1
+  sight:
+    enabled: false
+    range: 0
+    angle: 360
+    visionMode: basic
+    color: null
+    attenuation: 0.1
+    brightness: 0
+    saturation: 0
+    contrast: 0
+  detectionModes: []
+  occludable:
+    radius: 0
+  ring:
+    enabled: false
+    colors:
+      ring: null
+      background: null
+    effects: 1
+    subject:
+      scale: 1
+      texture: null
+  flags: {}
+  randomImg: false
+  turnMarker:
+    mode: 1
+    animation: null
+    src: null
+    disposition: false
+  movementAction: null
+items: []
+effects: []
+flags: {}
+_stats:
+  compendiumSource: null
+  duplicateSource: null
+  exportSource: null
+  coreVersion: '13.345'
+  systemId: grimwild
+  systemVersion: 0.1.7
+  createdTime: 1750368435363
+  modifiedTime: 1750368435363
+  lastModifiedBy: jgipq2YBy9KMjQWt
+ownership:
+  default: 0
+  jgipq2YBy9KMjQWt: 3
+_id: v1m1elKj9PAhhCiw
+sort: 0
+_key: '!actors!v1m1elKj9PAhhCiw'
+

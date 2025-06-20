@@ -1,0 +1,150 @@
+folder: null
+name: Doppelganger
+type: monster
+img: icons/svg/mystery-man.svg
+system:
+  biography: >-
+    <p>Shapeshifting figures with gray, featureless skin. They can perfectly
+    mimic any humanoid, infiltrating societies to achieve their own mysterious
+    goals.</p>
+  notes: ''
+  role: trickster
+  tier: tough
+  traits:
+    - Shapechanger
+    - Mindreader
+    - Speech, Telepathy
+  moves:
+    - Shift Appearance
+    - Mental Probe
+    - Psychic Scream
+  desires:
+    - value: to experience new lives.
+      are: false
+    - value: its true form to be seen.
+      are: false
+  sensories:
+    colors:
+      - name: Neutral Gray
+        color: '#7a7d82'
+      - name: ''
+        color: null
+      - name: ''
+        color: null
+    sights: shifting facial features, subtle posture changes
+    sounds: disconcerting silence, soft self-reprimanding
+    smells: a smell fully unexpected of that person
+  pool:
+    diceNum: 0
+    max: null
+  tables:
+    - name: Identities you know
+      instructions: ''
+      table:
+        - - Noble's trusted advisor, met last winter.
+          - The second-to-last person the PCs met.
+          - Old flame of a PC, thought long dead.
+          - Wandering monk, seen only days ago.
+          - Previous PC, from this campaign or another.
+          - Executed thief, now walking free.
+prototypeToken:
+  name: Doppelganger
+  displayName: 0
+  actorLink: false
+  appendNumber: false
+  prependAdjective: false
+  width: 1
+  height: 1
+  texture:
+    src: icons/svg/mystery-man.svg
+    anchorX: 0.5
+    anchorY: 0.5
+    offsetX: 0
+    offsetY: 0
+    fit: contain
+    scaleX: 1
+    scaleY: 1
+    rotation: 0
+    tint: '#ffffff'
+    alphaThreshold: 0.75
+  lockRotation: false
+  rotation: 0
+  alpha: 1
+  disposition: -1
+  displayBars: 0
+  bar1:
+    attribute: health
+  bar2:
+    attribute: power
+  light:
+    negative: false
+    priority: 0
+    alpha: 0.5
+    angle: 360
+    bright: 0
+    color: null
+    coloration: 1
+    dim: 0
+    attenuation: 0.5
+    luminosity: 0.5
+    saturation: 0
+    contrast: 0
+    shadows: 0
+    animation:
+      type: null
+      speed: 5
+      intensity: 5
+      reverse: false
+    darkness:
+      min: 0
+      max: 1
+  sight:
+    enabled: false
+    range: 0
+    angle: 360
+    visionMode: basic
+    color: null
+    attenuation: 0.1
+    brightness: 0
+    saturation: 0
+    contrast: 0
+  detectionModes: []
+  occludable:
+    radius: 0
+  ring:
+    enabled: false
+    colors:
+      ring: null
+      background: null
+    effects: 1
+    subject:
+      scale: 1
+      texture: null
+  flags: {}
+  randomImg: false
+  turnMarker:
+    mode: 1
+    animation: null
+    src: null
+    disposition: false
+  movementAction: null
+items: []
+effects: []
+flags: {}
+_stats:
+  compendiumSource: null
+  duplicateSource: null
+  exportSource: null
+  coreVersion: '13.345'
+  systemId: grimwild
+  systemVersion: 0.1.7
+  createdTime: 1750368384874
+  modifiedTime: 1750368384874
+  lastModifiedBy: jgipq2YBy9KMjQWt
+ownership:
+  default: 0
+  jgipq2YBy9KMjQWt: 3
+_id: o8DARi7C5xH9AwWE
+sort: 0
+_key: '!actors!o8DARi7C5xH9AwWE'
+

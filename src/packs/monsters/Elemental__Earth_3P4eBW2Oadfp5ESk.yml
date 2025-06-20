@@ -1,0 +1,150 @@
+folder: null
+name: Elemental, Earth
+type: monster
+img: icons/svg/mystery-man.svg
+system:
+  biography: >-
+    <p>Massive, rock-like creatures embodying the raw strength of the earth.
+    They're slow but nearly unstoppable, lumbering through anything in their
+    way</p>
+  notes: ''
+  role: brute
+  tier: tough
+  traits:
+    - Rock-solid
+    - Tremor Sense
+    - Speech
+  moves:
+    - Earthquake
+    - Stone Spires
+    - Boulder Toss
+  desires:
+    - value: to endure beyond time.
+      are: false
+    - value: for its form to be chipped away.
+      are: false
+  sensories:
+    colors:
+      - name: Mossy Green
+        color: '#566b30'
+      - name: Rocky Brown
+        color: '#8b4512'
+      - name: Stone Gray
+        color: '#696969'
+    sights: ground trembling, boulders rolling, spikes of stone
+    sounds: rumbling groans, deafening crack of rocks, thumps
+    smells: loamy disturbed soil, moss, wet stone, mineral tang
+  pool:
+    diceNum: 0
+    max: null
+  tables:
+    - name: Biome & Personality
+      instructions: ''
+      table:
+        - - Forest, rooted and protective.
+          - Badlands, harsh and unforgiving.
+          - Mountains, proud and resilient.
+          - Caves, brooding and watchful.
+          - Mudflats, slow but determined.
+          - Grasslands, patient and enduring.
+prototypeToken:
+  name: Elemental, Earth
+  displayName: 0
+  actorLink: false
+  appendNumber: false
+  prependAdjective: false
+  width: 1
+  height: 1
+  texture:
+    src: icons/svg/mystery-man.svg
+    anchorX: 0.5
+    anchorY: 0.5
+    offsetX: 0
+    offsetY: 0
+    fit: contain
+    scaleX: 1
+    scaleY: 1
+    rotation: 0
+    tint: '#ffffff'
+    alphaThreshold: 0.75
+  lockRotation: false
+  rotation: 0
+  alpha: 1
+  disposition: -1
+  displayBars: 0
+  bar1:
+    attribute: health
+  bar2:
+    attribute: power
+  light:
+    negative: false
+    priority: 0
+    alpha: 0.5
+    angle: 360
+    bright: 0
+    color: null
+    coloration: 1
+    dim: 0
+    attenuation: 0.5
+    luminosity: 0.5
+    saturation: 0
+    contrast: 0
+    shadows: 0
+    animation:
+      type: null
+      speed: 5
+      intensity: 5
+      reverse: false
+    darkness:
+      min: 0
+      max: 1
+  sight:
+    enabled: false
+    range: 0
+    angle: 360
+    visionMode: basic
+    color: null
+    attenuation: 0.1
+    brightness: 0
+    saturation: 0
+    contrast: 0
+  detectionModes: []
+  occludable:
+    radius: 0
+  ring:
+    enabled: false
+    colors:
+      ring: null
+      background: null
+    effects: 1
+    subject:
+      scale: 1
+      texture: null
+  flags: {}
+  randomImg: false
+  turnMarker:
+    mode: 1
+    animation: null
+    src: null
+    disposition: false
+  movementAction: null
+items: []
+effects: []
+flags: {}
+_stats:
+  compendiumSource: null
+  duplicateSource: null
+  exportSource: null
+  coreVersion: '13.345'
+  systemId: grimwild
+  systemVersion: 0.1.7
+  createdTime: 1750368395695
+  modifiedTime: 1750368395695
+  lastModifiedBy: jgipq2YBy9KMjQWt
+ownership:
+  default: 0
+  jgipq2YBy9KMjQWt: 3
+_id: 3P4eBW2Oadfp5ESk
+sort: 0
+_key: '!actors!3P4eBW2Oadfp5ESk'
+

@@ -1,0 +1,150 @@
+folder: null
+name: Fey, Faery
+type: monster
+img: icons/svg/mystery-man.svg
+system:
+  biography: >-
+    <p>Tiny, winged creatures with a mischevious nature. They flit through
+    meadows, casting illusions and playing tricks on wanderers for their own
+    amusement.</p>
+  notes: ''
+  role: trickster
+  tier: tough
+  traits:
+    - Swarm Together
+    - Invisibility-At-Will
+    - Speech
+  moves:
+    - Fairy Dust
+    - Dazzling Lights
+    - Minor Illusions
+  desires:
+    - value: to play mostly harmless tricks on mortals.
+      are: false
+    - value: to be anywhere near iron.
+      are: false
+  sensories:
+    colors:
+      - name: Petal Pink
+        color: '#d2a5a0'
+      - name: Soft Lavender
+        color: '#9470dc'
+      - name: Pale Blue
+        color: '#a9c4d5'
+    sights: glittering trails, darting figures, fleeting glimpses
+    sounds: airy giggling, fluttering of tiny wings, melodic chimes
+    smells: delicate nectar, lavender and jasmine, sugary aroma
+  pool:
+    diceNum: 0
+    max: null
+  tables:
+    - name: Fairy Circles
+      instructions: ''
+      table:
+        - - Mushrooms glowing faintly in the dusk.
+          - Ring of sunflowers in a grassy field.
+          - Fallen leaves after a rain.
+          - Precarious pebble towers, defying gravity.
+          - Dancing fireflies in a glowing spiral.
+          - Ring of acorns around a sapling.
+prototypeToken:
+  name: Fey, Faery
+  displayName: 0
+  actorLink: false
+  appendNumber: false
+  prependAdjective: false
+  width: 1
+  height: 1
+  texture:
+    src: icons/svg/mystery-man.svg
+    anchorX: 0.5
+    anchorY: 0.5
+    offsetX: 0
+    offsetY: 0
+    fit: contain
+    scaleX: 1
+    scaleY: 1
+    rotation: 0
+    tint: '#ffffff'
+    alphaThreshold: 0.75
+  lockRotation: false
+  rotation: 0
+  alpha: 1
+  disposition: -1
+  displayBars: 0
+  bar1:
+    attribute: health
+  bar2:
+    attribute: power
+  light:
+    negative: false
+    priority: 0
+    alpha: 0.5
+    angle: 360
+    bright: 0
+    color: null
+    coloration: 1
+    dim: 0
+    attenuation: 0.5
+    luminosity: 0.5
+    saturation: 0
+    contrast: 0
+    shadows: 0
+    animation:
+      type: null
+      speed: 5
+      intensity: 5
+      reverse: false
+    darkness:
+      min: 0
+      max: 1
+  sight:
+    enabled: false
+    range: 0
+    angle: 360
+    visionMode: basic
+    color: null
+    attenuation: 0.1
+    brightness: 0
+    saturation: 0
+    contrast: 0
+  detectionModes: []
+  occludable:
+    radius: 0
+  ring:
+    enabled: false
+    colors:
+      ring: null
+      background: null
+    effects: 1
+    subject:
+      scale: 1
+      texture: null
+  flags: {}
+  randomImg: false
+  turnMarker:
+    mode: 1
+    animation: null
+    src: null
+    disposition: false
+  movementAction: null
+items: []
+effects: []
+flags: {}
+_stats:
+  compendiumSource: null
+  duplicateSource: null
+  exportSource: null
+  coreVersion: '13.345'
+  systemId: grimwild
+  systemVersion: 0.1.7
+  createdTime: 1750368406800
+  modifiedTime: 1750368406800
+  lastModifiedBy: jgipq2YBy9KMjQWt
+ownership:
+  default: 0
+  jgipq2YBy9KMjQWt: 3
+_id: 4Px4ZxcnlB79MZKd
+sort: 0
+_key: '!actors!4Px4ZxcnlB79MZKd'
+

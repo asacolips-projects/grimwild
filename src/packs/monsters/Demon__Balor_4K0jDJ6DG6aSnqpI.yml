@@ -1,0 +1,342 @@
+folder: null
+name: Demon, Balor
+type: monster
+img: icons/svg/mystery-man.svg
+system:
+  biography: >-
+    <p>Towering embodiments of pure evil, with massive bat-like wings. They rule
+    with chaos and destruction, and have an insatiable hunger for more
+    power.</p>
+  notes: >-
+    <p>Story pitch: HELL TO PAY.</p><p>"The balor emerges from the shattered
+    summoning circle as the cathedral erupts in flames around it. Those who
+    disturbed it lie dead and now the capital will feel its fury."</p>
+  role: overseer
+  tier: tough
+  traits:
+    - Pierces Deceptions
+    - Fiery Aura
+    - Speech, Telepathy
+  moves:
+    - Burning Whip
+    - Crackling Sword
+    - Booming Teleport
+  desires:
+    - value: to bask in its own greatness.
+      are: false
+    - value: its absolute control to waver, even for a second.
+      are: false
+  sensories:
+    colors:
+      - name: Inferno Red
+        color: '#b22222'
+      - name: Smoky Black
+        color: '#2f2f2f'
+      - name: Ember Orange
+        color: '#ff4500'
+    sights: chaotic dancing flames, large smoking footprints
+    sounds: whip cracks, crackling lightning, guttural chanting
+    smells: overwhelming brimstone, smothering ash
+  pool:
+    diceNum: 0
+    max: null
+  tables:
+    - name: Death Throes
+      instructions: Roll 2
+      table:
+        - - Devastating explosion, reducing all to ash.
+          - Brilliant flash, blinding all that witness it.
+          - Lava geysers erupt from the ground.
+          - Hellfire meteors bombard the area.
+          - Blazing cyclone and molten rain wreak havoc.
+          - A portal to the abyss opens, compelling entrance.
+prototypeToken:
+  name: Demon, Balor
+  displayName: 0
+  actorLink: false
+  appendNumber: false
+  prependAdjective: false
+  width: 1
+  height: 1
+  texture:
+    src: icons/svg/mystery-man.svg
+    anchorX: 0.5
+    anchorY: 0.5
+    offsetX: 0
+    offsetY: 0
+    fit: contain
+    scaleX: 1
+    scaleY: 1
+    rotation: 0
+    tint: '#ffffff'
+    alphaThreshold: 0.75
+  lockRotation: false
+  rotation: 0
+  alpha: 1
+  disposition: -1
+  displayBars: 0
+  bar1:
+    attribute: health
+  bar2:
+    attribute: power
+  light:
+    negative: false
+    priority: 0
+    alpha: 0.5
+    angle: 360
+    bright: 0
+    color: null
+    coloration: 1
+    dim: 0
+    attenuation: 0.5
+    luminosity: 0.5
+    saturation: 0
+    contrast: 0
+    shadows: 0
+    animation:
+      type: null
+      speed: 5
+      intensity: 5
+      reverse: false
+    darkness:
+      min: 0
+      max: 1
+  sight:
+    enabled: false
+    range: 0
+    angle: 360
+    visionMode: basic
+    color: null
+    attenuation: 0.1
+    brightness: 0
+    saturation: 0
+    contrast: 0
+  detectionModes: []
+  occludable:
+    radius: 0
+  ring:
+    enabled: false
+    colors:
+      ring: null
+      background: null
+    effects: 1
+    subject:
+      scale: 1
+      texture: null
+  flags: {}
+  randomImg: false
+  turnMarker:
+    mode: 1
+    animation: null
+    src: null
+    disposition: false
+  movementAction: null
+items:
+  - name: Head
+    type: challenge
+    _id: pDGl6EoysNRgf25k
+    img: icons/svg/item-bag.svg
+    system:
+      description: ''
+      roll:
+        diceNum: 0
+        max: null
+      pool:
+        diceNum: 8
+        max: null
+      suspense:
+        steps:
+          - true
+          - true
+      traits:
+        - Well-defended
+      moves:
+        - Horrific Taunts
+        - Cruel
+      failure: []
+    effects: []
+    folder: null
+    sort: 0
+    ownership:
+      default: 0
+      jgipq2YBy9KMjQWt: 3
+    flags: {}
+    _stats:
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+      coreVersion: '13.345'
+      systemId: grimwild
+      systemVersion: 0.1.7
+      lastModifiedBy: null
+    _key: '!actors.items!4K0jDJ6DG6aSnqpI.pDGl6EoysNRgf25k'
+  - name: Burning Whip
+    type: challenge
+    _id: rm165nOj5917NVJJ
+    img: icons/svg/item-bag.svg
+    system:
+      description: ''
+      roll:
+        diceNum: 0
+        max: null
+      pool:
+        diceNum: 4
+        max: null
+      suspense:
+        steps:
+          - true
+          - true
+      traits:
+        - Protects the Head
+      moves:
+        - Whipcrack
+        - Drag in close
+      failure: []
+    effects: []
+    folder: null
+    sort: 0
+    ownership:
+      default: 0
+      jgipq2YBy9KMjQWt: 3
+    flags: {}
+    _stats:
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+      coreVersion: '13.345'
+      systemId: grimwild
+      systemVersion: 0.1.7
+      lastModifiedBy: null
+    _key: '!actors.items!4K0jDJ6DG6aSnqpI.rm165nOj5917NVJJ'
+  - name: Demonic Magic
+    type: challenge
+    _id: Fy9mzsxl1NjlYTGj
+    img: icons/svg/item-bag.svg
+    system:
+      description: ''
+      roll:
+        diceNum: 0
+        max: null
+      pool:
+        diceNum: 8
+        max: null
+      suspense:
+        steps:
+          - true
+          - true
+      traits:
+        - Ward the balor
+      moves:
+        - Summon Demons
+        - Create Firestorm
+      failure: []
+    effects: []
+    folder: null
+    sort: 0
+    ownership:
+      default: 0
+      jgipq2YBy9KMjQWt: 3
+    flags: {}
+    _stats:
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+      coreVersion: '13.345'
+      systemId: grimwild
+      systemVersion: 0.1.7
+      lastModifiedBy: null
+    _key: '!actors.items!4K0jDJ6DG6aSnqpI.Fy9mzsxl1NjlYTGj'
+  - name: Crackling Sword
+    type: challenge
+    _id: IQIwLgygxAPNaiPM
+    img: icons/svg/item-bag.svg
+    system:
+      description: ''
+      roll:
+        diceNum: 0
+        max: null
+      pool:
+        diceNum: 4
+        max: null
+      suspense:
+        steps:
+          - true
+          - true
+      traits:
+        - Protects the head
+      moves:
+        - Behead
+        - Arcing Strike
+      failure: []
+    effects: []
+    folder: null
+    sort: 0
+    ownership:
+      default: 0
+      jgipq2YBy9KMjQWt: 3
+    flags: {}
+    _stats:
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+      coreVersion: '13.345'
+      systemId: grimwild
+      systemVersion: 0.1.7
+      lastModifiedBy: null
+    _key: '!actors.items!4K0jDJ6DG6aSnqpI.IQIwLgygxAPNaiPM'
+  - name: Body
+    type: challenge
+    _id: 37wVsrVhRvbo5fyX
+    img: icons/svg/item-bag.svg
+    system:
+      description: ''
+      roll:
+        diceNum: 0
+        max: null
+      pool:
+        diceNum: 8
+        max: null
+      suspense:
+        steps:
+          - true
+          - true
+      traits:
+        - Impenetrable Hide
+        - Immensely strong
+      moves: []
+      failure: []
+    effects: []
+    folder: null
+    sort: 0
+    ownership:
+      default: 0
+      jgipq2YBy9KMjQWt: 3
+    flags: {}
+    _stats:
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+      coreVersion: '13.345'
+      systemId: grimwild
+      systemVersion: 0.1.7
+      lastModifiedBy: null
+    _key: '!actors.items!4K0jDJ6DG6aSnqpI.37wVsrVhRvbo5fyX'
+effects: []
+flags: {}
+_stats:
+  compendiumSource: null
+  duplicateSource: null
+  exportSource: null
+  coreVersion: '13.345'
+  systemId: grimwild
+  systemVersion: 0.1.7
+  createdTime: 1750368365475
+  modifiedTime: 1750368379620
+  lastModifiedBy: jgipq2YBy9KMjQWt
+ownership:
+  default: 0
+  jgipq2YBy9KMjQWt: 3
+_id: 4K0jDJ6DG6aSnqpI
+sort: 900000
+_key: '!actors!4K0jDJ6DG6aSnqpI'
+

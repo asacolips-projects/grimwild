@@ -1,0 +1,156 @@
+folder: null
+name: Phoenix
+type: monster
+img: icons/svg/mystery-man.svg
+system:
+  biography: >-
+    <p>Mythical birds of fire, emerging to bring both destruction and new
+    beginnings. As they blaze across the sky, their embers spread cleansing
+    infernos.</p>
+  notes: ''
+  role: blaster
+  tier: tough
+  traits:
+    - Radiates Intense Heat
+    - Reborn Upon Death
+    - Speech
+  moves:
+    - Flame Burst
+    - Ember Trail
+    - Call Firestorm
+  desires:
+    - value: to only come when they're needed most.
+      are: false
+    - value: to face the pain and horror of its rebirth.
+      are: false
+  sensories:
+    colors:
+      - name: Inferno Gold
+        color: '#daa521'
+      - name: Flaming Orange
+        color: '#d63900'
+      - name: Ash Gray
+        color: '#bebebe'
+    sights: fiery wings, glowing ember trails, vibrant plumage
+    sounds: crackling flames, occasional soft cooing
+    smells: warm ash, hints of sulfur, sweet smokiness
+  pool:
+    diceNum: 0
+    max: null
+  tables:
+    - name: Alchemical Powers
+      instructions: (Roll 2 per part secured)
+      table:
+        - - Immunity to fire
+          - Cure any disease
+          - Massive, fiery wings
+          - Resurrection
+          - Telepathy
+          - Summon firelings
+        - - Flaming Touch
+          - Slip between realities
+          - Fiery rebuke aura
+          - Cinder trail
+          - Flame divination
+          - Blazing speed
+prototypeToken:
+  name: Phoenix
+  displayName: 0
+  actorLink: false
+  appendNumber: false
+  prependAdjective: false
+  width: 1
+  height: 1
+  texture:
+    src: icons/svg/mystery-man.svg
+    anchorX: 0.5
+    anchorY: 0.5
+    offsetX: 0
+    offsetY: 0
+    fit: contain
+    scaleX: 1
+    scaleY: 1
+    rotation: 0
+    tint: '#ffffff'
+    alphaThreshold: 0.75
+  lockRotation: false
+  rotation: 0
+  alpha: 1
+  disposition: -1
+  displayBars: 0
+  bar1:
+    attribute: health
+  bar2:
+    attribute: power
+  light:
+    negative: false
+    priority: 0
+    alpha: 0.5
+    angle: 360
+    bright: 0
+    color: null
+    coloration: 1
+    dim: 0
+    attenuation: 0.5
+    luminosity: 0.5
+    saturation: 0
+    contrast: 0
+    shadows: 0
+    animation:
+      type: null
+      speed: 5
+      intensity: 5
+      reverse: false
+    darkness:
+      min: 0
+      max: 1
+  sight:
+    enabled: false
+    range: 0
+    angle: 360
+    visionMode: basic
+    color: null
+    attenuation: 0.1
+    brightness: 0
+    saturation: 0
+    contrast: 0
+  detectionModes: []
+  occludable:
+    radius: 0
+  ring:
+    enabled: false
+    colors:
+      ring: null
+      background: null
+    effects: 1
+    subject:
+      scale: 1
+      texture: null
+  flags: {}
+  randomImg: false
+  turnMarker:
+    mode: 1
+    animation: null
+    src: null
+    disposition: false
+  movementAction: null
+items: []
+effects: []
+flags: {}
+_stats:
+  compendiumSource: null
+  duplicateSource: null
+  exportSource: null
+  coreVersion: '13.345'
+  systemId: grimwild
+  systemVersion: 0.1.7
+  createdTime: 1750368447217
+  modifiedTime: 1750368447217
+  lastModifiedBy: jgipq2YBy9KMjQWt
+ownership:
+  default: 0
+  jgipq2YBy9KMjQWt: 3
+_id: b84JWSCofsFYOp2E
+sort: 0
+_key: '!actors!b84JWSCofsFYOp2E'
+

@@ -1,0 +1,148 @@
+name: Dire Bear
+type: monster
+img: icons/svg/mystery-man.svg
+system:
+  biography: >-
+    <p>Fiercely territorial, collosal animals with thick fur and enormous claws.
+    It responds viciously to any intrusion into its territory.</p>
+  notes: ''
+  role: brute
+  tier: tough
+  traits:
+    - Dense Fur
+    - Surprising Speed
+  moves:
+    - Testing Charge
+    - Bellowing Roar
+    - Mauling Grapple
+  desires:
+    - value: to foster the next generation of new rulers.
+      are: false
+    - value: for its boundaries to be broken.
+      are: false
+  sensories:
+    colors:
+      - name: Deep Brown
+        color: '#371c06'
+      - name: Furry Black
+        color: '#221c1c'
+      - name: Grizzly Brown
+        color: '#623d09'
+    sights: snapped trees, breath steaming in the cold air
+    sounds: deafening roar echoing, pounding footsteps
+    smells: crisp pine, overturnt earth, wet fur.
+  pool:
+    diceNum: 0
+    max: null
+  tables:
+    - name: Territory Woes
+      instructions: ''
+      table:
+        - - It has far too many cuby.
+          - Grand hunt has been called for it.
+          - Another dire apex predator has arrived.
+          - Civilization encroaches on its borders.
+          - Totemic wards restrict its roaming grounds.
+          - Goblins wage war against orcs in its lands.
+prototypeToken:
+  name: Dire Bear
+  displayName: 0
+  actorLink: false
+  appendNumber: false
+  prependAdjective: false
+  width: 1
+  height: 1
+  texture:
+    src: icons/svg/mystery-man.svg
+    anchorX: 0.5
+    anchorY: 0.5
+    offsetX: 0
+    offsetY: 0
+    fit: contain
+    scaleX: 1
+    scaleY: 1
+    rotation: 0
+    tint: '#ffffff'
+    alphaThreshold: 0.75
+  lockRotation: false
+  rotation: 0
+  alpha: 1
+  disposition: -1
+  displayBars: 0
+  bar1:
+    attribute: null
+  bar2:
+    attribute: null
+  light:
+    negative: false
+    priority: 0
+    alpha: 0.5
+    angle: 360
+    bright: 0
+    color: null
+    coloration: 1
+    dim: 0
+    attenuation: 0.5
+    luminosity: 0.5
+    saturation: 0
+    contrast: 0
+    shadows: 0
+    animation:
+      type: null
+      speed: 5
+      intensity: 5
+      reverse: false
+    darkness:
+      min: 0
+      max: 1
+  sight:
+    enabled: false
+    range: 0
+    angle: 360
+    visionMode: basic
+    color: null
+    attenuation: 0.1
+    brightness: 0
+    saturation: 0
+    contrast: 0
+  detectionModes: []
+  occludable:
+    radius: 0
+  ring:
+    enabled: false
+    colors:
+      ring: null
+      background: null
+    effects: 0
+    subject:
+      scale: 1
+      texture: null
+  flags: {}
+  randomImg: false
+  turnMarker:
+    mode: 1
+    animation: null
+    src: null
+    disposition: false
+  movementAction: null
+items: []
+effects: []
+folder: null
+flags: {}
+_stats:
+  compendiumSource: null
+  duplicateSource: null
+  exportSource: null
+  coreVersion: '13.345'
+  systemId: grimwild
+  systemVersion: 0.1.7
+  createdTime: 1750368371339
+  modifiedTime: 1750368379620
+  lastModifiedBy: jgipq2YBy9KMjQWt
+ownership:
+  default: 0
+  jgipq2YBy9KMjQWt: 3
+_id: GsZvTAh6Vhk7SNIE
+sort: 1600000
+_key: '!actors!GsZvTAh6Vhk7SNIE'
+

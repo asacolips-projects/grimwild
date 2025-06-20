@@ -1,0 +1,173 @@
+folder: null
+name: Sphinx
+type: monster
+img: icons/svg/mystery-man.svg
+system:
+  biography: >-
+    <p>Majestic creatures with the body of a lion and head of a human. They
+    guard secrets and grant wishes, testing people with riddles to prove their
+    worth.</p>
+  notes: ''
+  role: tactician
+  tier: tough
+  traits:
+    - Master of Riddles
+    - Unfooled by Deception
+    - Speech
+  moves:
+    - Wing Buffet
+    - Divination Spell
+    - Teleport
+  desires:
+    - value: to allow the truly worthy to pass by.
+      are: false
+    - value: to face trickery or deception of any kind.
+      are: false
+  sensories:
+    colors:
+      - name: Ancient Gold
+        color: '#b8860b'
+      - name: Dusky Blue
+        color: '#49646b'
+      - name: Desert Sand
+        color: '#d1b48c'
+    sights: golden fur, regal posture, watchful eyes
+    sounds: resonant voice, wind sweeping by, distant roars
+    smells: warm sand, ancient incense, faint floral scents
+  pool:
+    diceNum: 0
+    max: null
+  tables:
+    - name: Wish Choices
+      instructions: ''
+      table:
+        - - Ask any yes or no question.
+          - Ask for any one item and it is yours.
+          - Ask to be any age you would like—forever?
+          - Ask for any one being to cease to be.
+          - Ask for any one being to be brought back.
+          - Ask for a chance to correct a single regret.
+    - name: Riddle
+      instructions: >-
+        Roll 3, choose 1 or 2, pose it as a riddle (if relatively close, accept
+        it. combine two for a tough riddle.)
+      table:
+        - - It flows but has no shape
+          - It grows taller, then vanishes.
+          - It travels far but takes no steps.
+          - It burns but leaves no ashes.
+          - It counts the moments but has no hands.
+          - It falls but makes no sound.
+        - - It's cold but not frozen.
+          - It's bright but not hot.
+          - It hums when the world is still.
+          - It's full but never complete.
+          - It's fleeting but always returns.
+          - It's hidden in plain sight.
+        - - It grows when light dims.
+          - It follows you on sunny days.
+          - It stares back from still waters.
+          - It's buried but not dead.
+          - It's a silent companion.
+          - It's a path without end.
+prototypeToken:
+  name: Sphinx
+  displayName: 0
+  actorLink: false
+  appendNumber: false
+  prependAdjective: false
+  width: 1
+  height: 1
+  texture:
+    src: icons/svg/mystery-man.svg
+    anchorX: 0.5
+    anchorY: 0.5
+    offsetX: 0
+    offsetY: 0
+    fit: contain
+    scaleX: 1
+    scaleY: 1
+    rotation: 0
+    tint: '#ffffff'
+    alphaThreshold: 0.75
+  lockRotation: false
+  rotation: 0
+  alpha: 1
+  disposition: -1
+  displayBars: 0
+  bar1:
+    attribute: health
+  bar2:
+    attribute: power
+  light:
+    negative: false
+    priority: 0
+    alpha: 0.5
+    angle: 360
+    bright: 0
+    color: null
+    coloration: 1
+    dim: 0
+    attenuation: 0.5
+    luminosity: 0.5
+    saturation: 0
+    contrast: 0
+    shadows: 0
+    animation:
+      type: null
+      speed: 5
+      intensity: 5
+      reverse: false
+    darkness:
+      min: 0
+      max: 1
+  sight:
+    enabled: false
+    range: 0
+    angle: 360
+    visionMode: basic
+    color: null
+    attenuation: 0.1
+    brightness: 0
+    saturation: 0
+    contrast: 0
+  detectionModes: []
+  occludable:
+    radius: 0
+  ring:
+    enabled: false
+    colors:
+      ring: null
+      background: null
+    effects: 1
+    subject:
+      scale: 1
+      texture: null
+  flags: {}
+  randomImg: false
+  turnMarker:
+    mode: 1
+    animation: null
+    src: null
+    disposition: false
+  movementAction: null
+items: []
+effects: []
+flags: {}
+_stats:
+  compendiumSource: null
+  duplicateSource: null
+  exportSource: null
+  coreVersion: '13.345'
+  systemId: grimwild
+  systemVersion: 0.1.7
+  createdTime: 1750368453713
+  modifiedTime: 1750368453713
+  lastModifiedBy: jgipq2YBy9KMjQWt
+ownership:
+  default: 0
+  jgipq2YBy9KMjQWt: 3
+_id: h8hzuAzUEFtPUmHP
+sort: 0
+_key: '!actors!h8hzuAzUEFtPUmHP'
+
