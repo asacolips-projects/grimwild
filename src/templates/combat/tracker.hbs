@@ -44,9 +44,9 @@
 						</div>
 						{{#if (eq type "character")}}
 						<div class="token-resources">
-							<span class="resource resource-spark" data-tooltip="{{localize 'GRIMWILD.Actor.Character.FIELDS.spark.label'}}"><i class="fas fa-bolt"></i>{{spark.value}}</span>
-							<span class="resource resource-bloodied {{#if bloodied.marked}}active{{/if}}" data-tooltip="{{localize 'GRIMWILD.Damage.bloodied'}}"><i class="fas fa-droplet"></i></span>
-							<span class="resource resource-rattled {{#if rattled.marked}}active{{/if}}" data-tooltip="{{localize 'GRIMWILD.Damage.rattled'}}"><i class="fas fa-brain"></i></span>
+							<span class="resource resource-spark" data-action="toggleSpark" data-tooltip="{{localize 'GRIMWILD.Actor.Character.FIELDS.spark.label'}}"><i class="fas fa-bolt"></i>{{spark.value}}</span>
+							<span class="resource resource-bloodied {{#if bloodied.marked}}active{{/if}}" data-action="toggleHarm" data-harm="bloodied" data-tooltip="{{localize 'GRIMWILD.Damage.bloodied'}}"><i class="fas fa-droplet"></i></span>
+							<span class="resource resource-rattled {{#if rattled.marked}}active{{/if}}" data-action="toggleHarm" data-harm="rattled" data-tooltip="{{localize 'GRIMWILD.Damage.rattled'}}"><i class="fas fa-brain"></i></span>
 						</div>
 						{{/if}}
 					</div>

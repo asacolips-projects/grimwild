@@ -44,6 +44,17 @@ export class GrimwildCombat extends foundry.documents.Combat {
 }
 
 export class GrimwildCombatTracker extends foundry.applications.sidebar.tabs.CombatTracker {
+	/** @inheritDoc */
+  static DEFAULT_OPTIONS = {
+    window: {
+      title: "COMBAT.SidebarTitle"
+    },
+    actions: {
+			toggleHarm: GrimwildCombatTracker.#onToggleHarm,
+			toggleSpark: GrimwildCombatTracker.#onToggleSpark,
+    }
+  };
+
 	/** @override */
 	static PARTS = {
 		header: {
@@ -116,5 +127,46 @@ export class GrimwildCombatTracker extends foundry.applications.sidebar.tabs.Com
 	async render(options = {}, _options = {}) {
 		const renderResult = await super.render(options);
 		return renderResult;
+	}
+
+	/* --------------------------------------------------------------------------------------------*/
+	/* ACTIONS */
+	/* --------------------------------------------------------------------------------------------*/
+	static #onToggleHarm(...args) {
+		return this._onToggleHarm(...args);
+	}
+
+	async _onToggleHarm(event, target) {
+		event.preventDefault();
+		const { combatantId } = event.target.closest(".combatant[data-combatant-id]")?.dataset ?? {};
+		const { harm } = target.dataset ?? false;
+    const combatant = this.viewed.combatants.get(combatantId);
+		if (!combatant || !harm) return;
+		const actor = combatant.actor;
+		if (!actor.isOwner) return;
+		const harmValue = actor.system?.[harm].marked;
+		actor.update({[`system.${harm}.marked`]: !harmValue});
+	}
+
+	static #onToggleSpark(...args) {
+		return this._onToggleSpark(...args);
+	}
+
+	async _onToggleSpark(event, target) {
+		event.preventDefault();
+		const { combatantId } = event.target.closest(".combatant[data-combatant-id]")?.dataset ?? {};
+    const combatant = this.viewed.combatants.get(combatantId);
+		if (!combatant) return;
+		const actor = combatant.actor;
+		if (!actor.isOwner) return;
+
+		let spark = actor.system.spark.value;
+		spark = spark < 2 ? spark + 1 : 0;
+
+		let steps = [false, false];
+		if (spark === 1) steps = [true, false];
+		if (spark === 2) steps = [true, true];
+
+		actor.update({"system.spark.steps": steps});
 	}
 }
