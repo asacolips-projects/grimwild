@@ -371,10 +371,6 @@ export default class GrimwildCharacter extends GrimwildActorBase {
 			};
 		}
 
-		if (!source.dropped && source.bloodied.dropped || source.rattled.dropped) {
-			source.dropped = true;
-		}
-
 		return super.migrateData(source);
 	}
 }
