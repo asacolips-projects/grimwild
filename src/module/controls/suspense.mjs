@@ -97,7 +97,7 @@ class SuspenseTracker {
 			config: true,
 			type: Boolean,
 			default: true,
-			onChange: (_) => this.render()
+			onChange: this.render
 		});
 		game.settings.register("grimwild", "quickPoolsVisible", {
 			name: game.i18n.localize("GRIMWILD.Settings.quickPoolsVisible.name"),
@@ -106,7 +106,7 @@ class SuspenseTracker {
 			config: true,
 			type: Boolean,
 			default: true,
-			onChange: (_) => this.render()
+			onChange: this.render
 		});
 		game.settings.register("grimwild", "quickPoolsVisibleDefault", {
 			name: game.i18n.localize("GRIMWILD.Settings.quickPoolsVisibleDefault.name"),
@@ -115,7 +115,7 @@ class SuspenseTracker {
 			config: true,
 			type: Boolean,
 			default: false,
-			onChange: (_) => this.render()
+			onChange: this.render
 		});
 		game.settings.register("grimwild", "suspense", {
 			name: "Suspense",
@@ -127,7 +127,7 @@ class SuspenseTracker {
 		});
 	}
 
-	render(value) {
+	async render(value) {
 		const isGM = game.user.isGM;
 		const susVisibleToPlayers = game.settings.get("grimwild", "suspenseVisible");
 		const quickPoolsVisibleToPlayers = game.settings.get("grimwild", "quickPoolsVisible");
@@ -164,15 +164,20 @@ class SuspenseTracker {
 
 		const quickPoolHtml = isGM || quickPoolsVisibleToPlayers ? getScenePools() : "";
 		susControl.innerHTML = `${susControlInnerHTML}${quickPoolHtml}`;
+		const susElement = document.querySelector("#sus-control");
+		const poolElement = document.querySelector('.quick-pool-inner');
 
-		if (isGM) {
-			document.getElementById("js-sus-up").onclick = () => setSuspense(getSuspense() + 1);
-			document.getElementById("js-sus-dn").onclick = () => {
+		if (isGM && susElement) {
+			susElement.querySelector("#js-sus-up").onclick = () => setSuspense(getSuspense() + 1);
+			susElement.querySelector("#js-sus-dn").onclick = () => {
 				setSuspense(Math.max(getSuspense() - 1, 0));
 			};
-			document.querySelector(".js-quick-pool-add").onclick = () => addQuickPool();
+		}
 
-			document.querySelectorAll(".js-quick-pool-delete").forEach((element) => element.addEventListener("click", (event) => {
+		if (isGM && poolElement) {
+			poolElement.querySelector(".js-quick-pool-add").onclick = () => addQuickPool();
+
+			poolElement.querySelectorAll(".js-quick-pool-delete").forEach((element) => element.addEventListener("click", (event) => {
 				const { pool } = event.currentTarget.dataset;
 				const scene = getScene();
 				if (!scene) return;
@@ -181,7 +186,7 @@ class SuspenseTracker {
 				scene.setFlag("grimwild", "quickPools", quickPools);
 			}));
 
-			document.querySelectorAll(".js-quick-pool-display").forEach((element) => element.addEventListener("click", (event) => {
+			poolElement.querySelectorAll(".js-quick-pool-display").forEach((element) => element.addEventListener("click", (event) => {
 				const { pool } = event.currentTarget.dataset;
 				const scene = getScene();
 				if (!scene) return;
@@ -190,7 +195,7 @@ class SuspenseTracker {
 				scene.setFlag("grimwild", "quickPools", quickPools);
 			}));
 
-			document.querySelectorAll(".js-quick-pool-text").forEach((element) => element.addEventListener("focusout", (event) => {
+			poolElement.querySelectorAll(".js-quick-pool-text").forEach((element) => element.addEventListener("focusout", (event) => {
 				const { pool, field } = event.currentTarget.dataset;
 				const scene = getScene();
 				if (!scene) return;
@@ -205,7 +210,7 @@ class SuspenseTracker {
 				scene.setFlag("grimwild", "quickPools", quickPools);
 			}));
 
-			document.querySelectorAll(".js-quick-pool-roll").forEach((element) => element.addEventListener("click", async (event) => {
+			poolElement.querySelectorAll(".js-quick-pool-roll").forEach((element) => element.addEventListener("click", async (event) => {
 				let { visible, rollData, pool } = event.currentTarget.dataset;
 				rollData = Number.isNumeric(rollData) ? Number(rollData) : 0;
 				const scene = getScene();
@@ -243,7 +248,8 @@ class SuspenseTracker {
 			// flash the display to notify players that the suspense value changed
 			// a numerical value should only be passed in if triggered by the setting value changing
 			// not by the initial render, or the visibilty toggle re-render
-			const display = document.getElementById("sus-display");
+			const display = document.querySelector("#sus-display");
+			if (!display) return;
 			display.classList.add("flash");
 			setTimeout(() => display.classList.remove("flash"), 50);
 		}
