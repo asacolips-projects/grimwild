@@ -1,5 +1,7 @@
 import { isMentalStat, isPhysicalStat } from "../helpers/config.mjs";
 
+const { renderTemplate } = foundry.applications.handlebars;
+
 export class GrimwildConfigurationRoll extends Roll {
 	static CHAT_TEMPLATE = "systems/grimwild/templates/chat/roll-action-config.hbs";
 

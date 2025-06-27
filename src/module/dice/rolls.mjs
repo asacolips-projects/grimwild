@@ -13,7 +13,7 @@ export default class GrimwildRoll extends Roll {
 	async render({ flavor, template=this.constructor.CHAT_TEMPLATE, isPrivate=false }={}) {
 		if (!this._evaluated) await this.evaluate();
 
-		const assistMessages = this.options.assistMessageIds.map(id => game.messages.get(id)).filter(m => m);
+		const assistMessages = this.options.assistMessageIds?.map(id => game.messages.get(id)).filter(m => m) ?? [];
 		const assists = assistMessages.reduce((cur, message) => {
 			const value = message?.rolls[0]?.dice[0]?.results;
 			const name = game.actors.get(message?.rolls[0]?.options.actorId)?.name;

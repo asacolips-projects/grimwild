@@ -122,7 +122,7 @@ Hooks.once("init", function () {
 		label: "Grimwild Vue Sheet",
 		types: ["talent", "challenge"]
 	});
-	Messages.registerSheet("grimwild", GrimwildRollSheet, {
+	foundry.documents.collections.ChatMessages.registerSheet("grimwild", GrimwildRollSheet, {
 		makeDefault: true,
 		label: "Grimwild Roll Sheet",
 		types: ["grimwildroll"]

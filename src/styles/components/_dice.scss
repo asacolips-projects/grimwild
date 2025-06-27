@@ -150,14 +150,15 @@ h2 {
 		&.difficulty {
 			flex: 0 0 auto;
 			flex-direction: row;
-			gap: 0;
+			gap: 1px;
 			align-items: baseline;
 		}
 	}
 
 	button {
 		height: 1.5rem;
-		line-height: 1.4rem;
+		line-height: 1.5rem;
+		min-height: 1.5rem;
 		text-align: center;
 		white-space: nowrap;
 		background: var(--button-background-color);

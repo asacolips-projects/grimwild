@@ -18,7 +18,8 @@ export class GrimwildRollSheet extends api.HandlebarsApplicationMixin(
 		},
 		tag: "form",
 		window: {
-			icon: "fas fa-dice-d6"
+			icon: "fas fa-dice-d6",
+			contentClasses: ["standard-form"]
 		},
 		actions: {
 			performRoll: GrimwildRollSheet.performRoll
