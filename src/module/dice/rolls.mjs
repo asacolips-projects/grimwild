@@ -13,6 +13,17 @@ export default class GrimwildRoll extends Roll {
 	async render({ flavor, template=this.constructor.CHAT_TEMPLATE, isPrivate=false }={}) {
 		if (!this._evaluated) await this.evaluate();
 
+		const assistMessages = this.options.assistMessageIds?.map(id => game.messages.get(id)).filter(m => m) ?? [];
+		const assists = assistMessages.reduce((cur, message) => {
+			const value = message?.rolls[0]?.dice[0]?.results;
+			const name = game.actors.get(message?.rolls[0]?.options.actorId)?.name;
+
+			if (name && value) {
+				cur[name] = value;
+			}
+			return cur;
+		}, {});
+
 		const chatData = {
 			formula: isPrivate ? "???" : this._formula,
 			flavor: isPrivate ? null : flavor ?? this.options.flavor,
@@ -21,7 +32,8 @@ export default class GrimwildRoll extends Roll {
 			total: isPrivate ? "?" : this.total,
 			dice: this.dice[0].results,
 			thorns: this.dice[1].results,
-			assists: {},
+			assists,
+			isWaitingForAssists: Object.values(assists).length !== assistMessages.length,
 			crit: false,
 			success: 0,
 			rawSuccess: 0,
@@ -31,10 +43,12 @@ export default class GrimwildRoll extends Roll {
 			hasActions: false
 		};
 
-		const sixes = chatData.dice.filter((die) => die.result === 6);
+		const dice = [...chatData.dice, ...Object.values(assists).flat()];
+
+		const sixes = dice.filter((die) => die.result === 6);
 		const cuts = chatData.thorns.filter((die) => die.result >= 7);
 
-		const diceTotal = this.dice[0].total;
+		const diceTotal = Math.max(this.dice[0].total, ...Object.values(assists).flat().flatMap(result => result.result));
 
 		// Handle initial results.
 		if (diceTotal === 6) {
@@ -67,14 +81,6 @@ export default class GrimwildRoll extends Roll {
 		chatData.result = successToResult(chatData.success);
 		chatData.rawResult = successToResult(chatData.rawSuccess);
 		chatData.isCut = chatData.success !== chatData.rawSuccess;
-
-		// Separate assist dice from other dice
-		if (this.options?.assists) {
-			for (const [name, diceNum] of Object.entries(this.options.assists)) {
-				const assistResults = chatData.dice.splice(diceNum * -1);
-				chatData.assists[name] = assistResults;
-			}
-		}
 
 		// Handle actions.
 		if (chatData.result === "disaster") {

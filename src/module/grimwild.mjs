@@ -17,6 +17,7 @@ import * as utils from "./helpers/utils.js";
 import * as models from "./data/_module.mjs";
 
 import { SUSPENSE_TRACKER } from "./controls/suspense.mjs";
+import { GrimwildRollSheet } from "./sheets/roll-sheet.mjs";
 
 /* -------------------------------------------- */
 /*  Init Hook                                   */
@@ -43,7 +44,11 @@ globalThis.grimwild = {
 		rollItemMacro
 	},
 	models,
-	roll: dice.GrimwildRoll,
+	rolls: {
+		configure: dice.GrimwildConfigurationRoll,
+		assist: dice.GrimwildAssistRoll,
+		dice: dice.GrimwildRoll
+	},
 	diePools: dice.GrimwildDiePoolRoll
 };
 
@@ -63,6 +68,10 @@ Hooks.once("init", function () {
 	// Dice.
 	CONFIG.Dice.GrimwildRoll = dice.GrimwildRoll;
 	CONFIG.Dice.rolls.push(dice.GrimwildRoll);
+	CONFIG.Dice.GrimwildConfigurationRoll = dice.GrimwildConfigurationRoll;
+	CONFIG.Dice.rolls.push(dice.GrimwildConfigurationRoll);
+	CONFIG.Dice.GrimwildAssistRoll = dice.GrimwildAssistRoll
+	CONFIG.Dice.rolls.push(dice.GrimwildAssistRoll);
 	CONFIG.Dice.GrimwildDicePool = dice.GrimwildDiePoolRoll;
 	CONFIG.Dice.rolls.push(dice.GrimwildDiePoolRoll);
 
@@ -112,6 +121,11 @@ Hooks.once("init", function () {
 		makeDefault: true,
 		label: "Grimwild Vue Sheet",
 		types: ["talent", "challenge"]
+	});
+	foundry.documents.collections.ChatMessages.registerSheet("grimwild", GrimwildRollSheet, {
+		makeDefault: true,
+		label: "Grimwild Roll Sheet",
+		types: ["grimwildroll"]
 	});
 
 	// Handlebars utilities.
@@ -365,3 +379,42 @@ function rollItemMacro(itemUuid) {
 		item.roll();
 	});
 }
+
+// Configuration rolls need to update assist button states when tokens are selected
+Hooks.on("controlToken", async () => {
+	for (const message of game.messages) {
+		const roll = message.rolls[0];
+		if (roll && roll instanceof grimwild.rolls.configure) {
+			ui.chat.updateMessage(message);
+		}
+	}
+});
+
+// Configuration rolls need to update assist button states when messages are deleted
+// Dice rolls need to update assists when assist messages are deleted
+Hooks.on("deleteChatMessage", async () => {
+	for (const message of game.messages) {
+		const roll = message.rolls[0];
+		if (roll && (roll instanceof grimwild.rolls.configure || roll instanceof grimwild.rolls.dice)) {
+			ui.chat.updateMessage(message);
+		}
+	}
+});
+
+// Dice rolls need to update assists when assist messages are updated
+Hooks.on("updateChatMessage", async () => {
+	for (const message of game.messages) {
+		const roll = message.rolls[0];
+		if (roll && roll instanceof grimwild.rolls.dice) {
+			ui.chat.updateMessage(message);
+		}
+	}
+});
+
+// Configuration rolls need to know the id of the message they are attached to for assist detection
+Hooks.on("createChatMessage", (message) => {
+	if (message.rolls[0] instanceof grimwild.rolls.configure) {
+		message.rolls[0].options.chatMessageId = message.id;
+		message.update({ rolls: message.rolls });
+	}
+});

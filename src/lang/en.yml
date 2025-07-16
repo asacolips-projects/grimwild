@@ -46,6 +46,8 @@ GRIMWILD:
     ignored: ignored from harm
     vex: Vex
     dropped: Dropped
+    setup: Setup
+    potent: Potent
   Traits:
     brave: Brave
     caring: Caring
@@ -83,7 +85,13 @@ GRIMWILD:
       disaster: Disaster
     thorns: Thorns
     difficulty: Difficulty
+    ignoredByPotency: ignored by potency
     total: Total
+    configure: Configure roll
+    isRolling: '{name} is rolling {pool}'
+    isAssisting: '{assisting} is assisting {rolling}'
+    assistedBy: Assisted by
+    waitingForAssists: Waiting for assists...
   Resources:
     pools: Pools
     points: Points

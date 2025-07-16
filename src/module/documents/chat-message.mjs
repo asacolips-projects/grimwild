@@ -1,3 +1,5 @@
+import { GrimwildRollSheet } from "../sheets/roll-sheet.mjs";
+
 export class GrimwildChatMessage extends ChatMessage {
 	/** @inheritDoc */
 	async renderHTML(...args) {
@@ -95,7 +97,11 @@ export class GrimwildChatMessage extends ChatMessage {
 	 */
 	get actions() {
 		return {
-			updateSpark: this._updateSpark
+			updateSpark: this._updateSpark,
+			updateDifficulty: this._updateDifficulty,
+			configureRoll: this._configureRoll,
+			assistRoll: this._assistRoll,
+			rollAssist: this._rollAssist
 		};
 	}
 
@@ -166,5 +172,61 @@ export class GrimwildChatMessage extends ChatMessage {
 		else {
 			ui.notifications.warn(`${actor.name} already has maximum spark. Use it more often!`);
 		}
+	}
+
+	_configureRoll(event, target) {
+		this.sheet.render(true);
+	}
+
+	async _assistRoll(event, target) {
+		const actorId = target.dataset.actorId;
+		const assistingActor = game.actors.get(actorId);
+		await assistingActor?.system.assist(this, event);
+		ui.chat.updateMessage(this);
+	}
+
+	async _rollAssist(event, target) {
+		const newRoll = new grimwild.rolls.assist("1d6", {}, this.rolls[0]?.options);
+		await newRoll.evaluate();
+		await game.dice3d?.showForRoll(newRoll);
+		await this.update({ rolls: [newRoll] });
+	}
+
+	_updateDifficulty(event, target) {
+		this.rolls[0].options.difficulty = parseInt(target.dataset.difficulty);
+		this.update({ rolls: this.rolls });
+	}
+
+	async performRoll() {
+		const roll = this.rolls.length == 1 && this.rolls[0] instanceof grimwild.rolls.configure ? this.rolls[0] : null;
+		if (roll) {
+			const rollData = {};
+			const options = {};
+			rollData.thorns = roll.thorns;
+			rollData.statDice = roll.dice;
+			options.assistMessageIds = roll.assistMessages.map(message => message.id);
+			options.actorId = roll.options.actorId;
+			const formula = "{(@statDice)d6kh, (@thorns)d8}";
+			const newRoll = new grimwild.rolls.dice(formula, rollData, options);
+			await newRoll.evaluate();
+			await game.dice3d?.showForRoll(newRoll);
+			await this.update({ rolls: [newRoll] });
+
+			const actor = game.actors.get(roll.options.actorId);
+			const sparkUsed = roll.options.sparkUsed ?? 0;
+			if (actor && sparkUsed > 0) {
+				const value = Math.max(actor.system.spark.value - sparkUsed, 0);
+				const steps = [...Array(2).keys()].map(n => n < value);
+
+				await actor.update({ "system.spark": { steps, value } });
+			}
+		}
+	}
+
+	_getSheetClass() {
+		if (this.rolls.length == 1 && this.rolls[0] instanceof grimwild.rolls.configure) {
+			return GrimwildRollSheet;
+		}
+		return super._getSheetClass();
 	}
 }
