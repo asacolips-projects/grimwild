@@ -1,14 +1,14 @@
-id: grimwild
-title: Grimwild
-description: The Grimwild system for FoundryVTT!
+id: grimwild-action
+title: Grimwild Action
+description: The Grimwild Action system for FoundryVTT!
 version: '0.2.1'
 compatibility:
   minimum: '13'
   verified: '13.345'
   maximum: '13'
 
-manifest: https://asacolips-artifacts.s3.amazonaws.com/grimwild/latest/system.json
-download: https://asacolips-artifacts.s3.amazonaws.com/grimwild/latest/grimwild.zip
+manifest: https://asacolips-artifacts.s3.amazonaws.com/grimwild-action/latest/system.json
+download: https://asacolips-artifacts.s3.amazonaws.com/grimwild-action/latest/grimwild-action.zip
 
 authors:
   - name: Asacolips
@@ -65,13 +65,13 @@ bugs: Replace this with a link to file issues or tickets
 changelog: CHANGELOG.md
 
 # World background
-background: systems/grimwild/assets/grimwild-system-splash.webp
+background: systems/grimwild-action/assets/grimwild-system-splash.webp
 
 # Setup menu thumbnail
 media:
   - type: setup
-    url: systems/grimwild/assets/grimwild-system-logo.webp
-    thumbnail: systems/grimwild/assets/grimwild-system-logo.webp
+    url: systems/grimwild-action/assets/grimwild-system-logo.webp
+    thumbnail: systems/grimwild-action/assets/grimwild-system-logo.webp
 
 esmodules:
   - module/grimwild.mjs
@@ -87,7 +87,7 @@ packs:
     label: Crucibles
     type: RollTable
     path: packs/crucibles
-    system: grimwild
+    system: grimwild-action
     ownership:
       PLAYER: LIMITED
       ASSISTANT: OWNER
@@ -95,7 +95,7 @@ packs:
     label: Monsters
     type: Actor
     path: packs/monsters
-    system: grimwild
+    system: grimwild-action
     ownership:
       PLAYER: OBSERVER
       ASSISTANT: OWNER
@@ -103,22 +103,22 @@ packs:
     label: Grimwild Macros
     type: Macro
     path: packs/macros
-    system: grimwild
+    system: grimwild-action
   - name: rules
     label: Grimwild Rules
     type: JournalEntry
     path: packs/rules
-    system: grimwild
+    system: grimwild-action
   - name: gm_toolkit
     label: GM Toolkit
     type: JournalEntry
     path: packs/gm_toolkit
-    system: grimwild
+    system: grimwild-action
   - name: talents
     label: Talents
     type: Item
     path: packs/talents
-    system: grimwild
+    system: grimwild-action
 packFolders: []
 
 socket: true
