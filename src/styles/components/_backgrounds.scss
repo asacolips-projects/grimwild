@@ -11,3 +11,28 @@
 		bottom: -16px;
 	}
 }
+
+// Backgrounds styling for compact readability
+.backgrounds {
+	.background-name {
+		input[type="text"] {
+			font-weight: bold;
+			margin-bottom: 4px;
+		}
+	}
+
+		.wises {
+			// Normalize vertical spacing between wise inputs
+			> .form-group.stacked {
+				gap: 2px;
+			}
+
+			.form-group.stacked {
+				input[type="text"] {
+					font-size: 0.9em; // slightly smaller for wises
+					font-weight: 200; // lighter than bold
+				}
+
+			}
+		}
+	}

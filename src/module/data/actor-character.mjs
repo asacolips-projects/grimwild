@@ -86,12 +86,13 @@ export default class GrimwildCharacter extends GrimwildActorBase {
 				wises: new fields.ArrayField(new fields.StringField())
 			}),
 			{
-				initial: [
-					{ name: "", wises: ["", "", ""] },
-					{ name: "", wises: ["", "", ""] }
-				]
-			}
-		);
+                initial: [
+                    { name: "", wises: ["", "", "", ""] },
+                    { name: "", wises: ["", "", "", ""] },
+                    { name: "", wises: ["", "", "", ""] }
+                ]
+            }
+        );
 
 		schema.traits = new fields.ArrayField(
 			new fields.SchemaField({
@@ -378,6 +379,22 @@ export default class GrimwildCharacter extends GrimwildActorBase {
 				marked: false
 			};
 		}
+
+        // Ensure three backgrounds exist and each has four wises
+        if (!Array.isArray(source.backgrounds)) {
+            source.backgrounds = [];
+        }
+        // Normalize existing backgrounds
+        source.backgrounds = source.backgrounds.map((bg) => {
+            const name = bg?.name ?? "";
+            let wises = Array.isArray(bg?.wises) ? bg.wises.slice(0, 4) : [];
+            while (wises.length < 4) wises.push("");
+            return { name, wises };
+        });
+        // Add missing background slots up to three
+        while (source.backgrounds.length < 3) {
+            source.backgrounds.push({ name: "", wises: ["", "", "", ""] });
+        }
 
 		return super.migrateData(source);
 	}

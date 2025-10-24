@@ -13,7 +13,7 @@
     "lint:warnings": "eslint --max-warnings 0 --ext .js,.cjs,.mjs .",
     "lint:errors": "eslint --quiet --ext .js,.cjs,.mjs .",
     "lint:fix:errors": "eslint --quiet --ext .js,.cjs,.mjs --fix .",
-    "postbuild": "npx cpx \"dist/**/*\" \"E:/Foundry Portable/Data/systems/grimwild-action\" --update --parents"
+    "postbuild": "npx cpx \"dist/**/*\" \"E:/Foundry Portable/Data/systems/grimwild-action\" --update"
   },
   "devDependencies": {
     "@babel/eslint-parser": "^7.22.9",
