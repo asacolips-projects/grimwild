@@ -5,7 +5,6 @@
 			<legend>{{ context.systemFields.backgrounds.label }}</legend>
 			<div :class="`background flexcol ${key === 0 ? 'stroke stroke-bottom' : ''}`" v-for="(background, key) in context.system.backgrounds" :key="key">
 				<div class="background-name form-group stacked">
-					<label>{{ game.i18n.localize('Name') }}</label>
 					<input type="text"
 						:name="`system.backgrounds.${key}.name`"
 						v-model="background.name"
@@ -13,19 +12,26 @@
 					/>
 				</div>
 				<div class="wises form-group stacked">
-					<label>{{ game.i18n.localize('GRIMWILD.Actor.Character.FIELDS.backgrounds.FIELDS.wises.label') }}</label>
 					<div class="form-group stacked">
 						<input type="text"
 							:name="`system.backgrounds.${key}.wises.${0}`"
 							v-model="background.wises[0]"
+							:placeholder="game.i18n.localize('GRIMWILD.Actor.Character.FIELDS.backgrounds.FIELDS.wises.label')"
 						/>
 						<input type="text"
 							:name="`system.backgrounds.${key}.wises.${1}`"
 							v-model="background.wises[1]"
+							:placeholder="game.i18n.localize('GRIMWILD.Actor.Character.FIELDS.backgrounds.FIELDS.wises.label')"
 						/>
 						<input type="text"
 							:name="`system.backgrounds.${key}.wises.${2}`"
 							v-model="background.wises[2]"
+							:placeholder="game.i18n.localize('GRIMWILD.Actor.Character.FIELDS.backgrounds.FIELDS.wises.label')"
+						/>
+						<input type="text"
+							:name="`system.backgrounds.${key}.wises.${3}`"
+							v-model="background.wises[3]"
+							:placeholder="game.i18n.localize('GRIMWILD.Actor.Character.FIELDS.backgrounds.FIELDS.wises.label')"
 						/>
 					</div>
 				</div>

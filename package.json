@@ -12,17 +12,19 @@
     "lint:fix": "eslint --ext .js,.cjs,.mjs --fix .",
     "lint:warnings": "eslint --max-warnings 0 --ext .js,.cjs,.mjs .",
     "lint:errors": "eslint --quiet --ext .js,.cjs,.mjs .",
-    "lint:fix:errors": "eslint --quiet --ext .js,.cjs,.mjs --fix ."
+    "lint:fix:errors": "eslint --quiet --ext .js,.cjs,.mjs --fix .",
+    "postbuild": "npx cpx \"dist/**/*\" \"E:/Foundry Portable/Data/systems/grimwild-action\" --update"
   },
   "devDependencies": {
     "@babel/eslint-parser": "^7.22.9",
-    "@modyfi/vite-plugin-yaml": "^1.1.0",
     "@foundryvtt/foundryvtt-cli": "^1.0.3",
+    "@modyfi/vite-plugin-yaml": "^1.1.0",
     "@rollup/plugin-node-resolve": "^15.2.3",
     "@rollup/stream": "^3.0.1",
     "@stylistic/eslint-plugin-js": "^1.5.1",
     "@typhonjs-fvtt/eslint-config-foundry.js": "^0.8.0",
     "@vitejs/plugin-vue": "^5.0.5",
+    "cpx": "^1.5.0",
     "eslint": "^8.55.0",
     "eslint-plugin-jsdoc": "^46.9.0",
     "fs-extra": "^11.2.0",
