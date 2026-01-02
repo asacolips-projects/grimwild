@@ -17,6 +17,7 @@ import * as utils from "./helpers/utils.js";
 import * as models from "./data/_module.mjs";
 
 import { SUSPENSE_TRACKER } from "./controls/suspense.mjs";
+import { GrimwildTokenHud } from "./apps/token-hud.mjs";
 
 /* -------------------------------------------- */
 /*  Init Hook                                   */
@@ -90,6 +91,8 @@ Hooks.once("init", function () {
 	// Override combat classes.
 	CONFIG.Combat.documentClass = grimwild.documents.GrimwildCombat;
 	CONFIG.ui.combat = grimwild.applications.GrimwildCombatTracker;
+
+	CONFIG.Token.hudClass = GrimwildTokenHud;
 
 	// Register sheet application classes
 	foundry.documents.collections.Actors.unregisterSheet("core", foundry.appv1.sheets.ActorSheet);
