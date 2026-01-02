@@ -1,3 +1,5 @@
+import { GrimwildActor } from "./actor.mjs";
+
 export class GrimwildChatMessage extends ChatMessage {
 	/** @inheritDoc */
 	async renderHTML(...args) {
@@ -75,11 +77,19 @@ export class GrimwildChatMessage extends ChatMessage {
 		// Handle event listeners.
 		const click = this.#onClick.bind(this);
 		const sparkTakenArray = this.getFlag("grimwild", "sparkTaken") ?? [];
+		const damageTakenArray = this.getFlag("grimwild", "damageTaken") ?? [];
 		const sparkTaken = sparkTakenArray.includes(game.user.id);
+		const damageTaken = damageTakenArray.includes(game.user.id);
 		html.querySelectorAll("[data-action]")?.forEach((element) => {
 			const { action } = element.dataset;
 			if (action === "updateSpark") {
 				if (sparkTaken) {
+					element.setAttribute("disabled", true);
+					return;
+				}
+			}
+			else if (['applyMark', 'applyHarm'].includes(action)) {
+				if (damageTaken) {
 					element.setAttribute("disabled", true);
 					return;
 				}
@@ -95,7 +105,9 @@ export class GrimwildChatMessage extends ChatMessage {
 	 */
 	get actions() {
 		return {
-			updateSpark: this._updateSpark
+			updateSpark: this._updateSpark,
+			applyMark: this._applyHarm,
+			applyHarm: this._applyHarm,
 		};
 	}
 
@@ -166,5 +178,100 @@ export class GrimwildChatMessage extends ChatMessage {
 		else {
 			ui.notifications.warn(`${actor.name} already has maximum spark. Use it more often!`);
 		}
+	}
+
+	/**
+	 * Handle updating marks on actors.
+	 *
+	 * @param {PointerEvent} event The originating click event
+	 * @param {HTMLElement} target The capturing HTML element which defined a [data-action]
+	 */
+	async _applyHarm(event, target) {
+		const actor = game.user.character ?? canvas.tokens.controlled?.[0]?.actor;
+		if (!actor) {
+			ui.notifications.warn("No active characters on this user to add a mark to.");
+			return;
+		}
+
+		// Retrieve the stat to check.
+		const { stat, harm } = target?.dataset ?? {};
+		const update = {};
+		let harmUpdate = {};
+		// Handle marks.
+		if (stat) {
+			if (['bra', 'agi', 'wit', 'pre'].includes(stat)) {
+				const isMarked = actor.system.stats[stat].marked;
+				if (!isMarked) {
+					update[`system.stats.${stat}.marked`] = true;
+				}
+				else {
+					if (['bra', 'agi'].includes(stat)) {
+						harmUpdate = this.calculateHarm(actor, 'bloodied');
+					}
+					else {
+						harmUpdate = this.calculateHarm(actor, 'rattled');
+					}
+				}
+			}
+		}
+
+		// Handle harm.
+		if (harm) {
+			if (['bloodied', 'rattled'].includes(harm)) {
+				harmUpdate = this.calculateHarm(actor, harm);
+			}
+		}
+
+		// Apply updates.
+		actor.update({
+			...update,
+			...harmUpdate
+		});
+		const damageTakenArray = this.getFlag("grimwild", "damageTaken") ?? [];
+		if (!damageTakenArray.includes(game.user.id)) {
+			damageTakenArray.push(game.user.id);
+		}
+		// If this is the GM, update the message directly.
+		if (game.user.isGM) {
+			this.setFlag("grimwild", "damageTaken", damageTakenArray);
+		}
+		// Otherwise, emit a socket so that the active GM can update it.
+		else {
+			game.socket.emit("system.grimwild", {
+				type: "updateMessage",
+				flag: "grimwild.damageTaken",
+				message: this.id,
+				data: damageTakenArray
+			});
+		}
+	}
+
+	/**
+	 * Helper function to calculate harm
+	 *
+	 * @param {GrimwildActor} actor Actor to check the data for.
+	 * @param {string} harm 'bloodied' or 'rattled'
+	 * @returns {object} Foundry update object for the actor
+	 */
+	calculateHarm(actor, harm) {
+		const harmPools = game.settings.get("grimwild", "enableHarmPools");
+		const maxHarm = game.settings.get("grimwild", `max${harm === 'bloodied' ? 'Bloodied' : 'Rattled'}`) ?? 1;
+		const update = {};
+		if (!actor.system[harm == 'bloodied' ? 'isBloodied' : 'isRattled']) {
+			update[`system.${harm}.marked`] = true;
+			if (harmPools) {
+				update[`system.${harm}.pool.diceNum`] = 1;
+			}
+		}
+		else {
+			if (!harmPools || actor.system[harm].pool.diceNum >= maxHarm) {
+				update[`system.dropped`] = true;
+			}
+			else {
+				update[`system.${harm}.pool.diceNum`] = actor.system[harm].pool.diceNum + 1;
+			}
+		}
+
+		return update;
 	}
 }
