@@ -6,6 +6,10 @@
 	border: 1px solid #000000aa;
 	margin-bottom: 5px;
 
+	h1 {
+		font-size: 28px;
+	}
+
 	body.theme-dark & {
 		--color-text-primary: #ddd;
 
@@ -14,8 +18,16 @@
 			--button-text-color: #ddd;
 		}
 
-		h2, h3, h4 {
+		h1, h2, h3, h4 {
 			color: #ddd;
+		}
+
+		strong {
+			color: var(--color-warm-1);
+		}
+
+		em {
+			color: var(--color-level-info);
 		}
 	}
 
@@ -251,6 +263,18 @@
 				text-transform: uppercase;
 			}
 		}
+	}
 
+	.action-row {
+		border-top: 1px solid #ffffff33;
+		margin: 0;
+		padding: 8px 0;
+		gap: 2px;
+	}
+
+	.action-marks {
+		button {
+			padding: 0;
+		}
 	}
 }
