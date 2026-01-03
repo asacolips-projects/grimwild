@@ -6,6 +6,10 @@ jsconfig.json
 foundry
 foundry-config.yaml
 
+# Important files
+.env
+.env.*
+
 # Node Modules
 node_modules/
 dist/
