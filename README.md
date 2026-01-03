@@ -1,6 +1,6 @@
 # Grimwild
 
-![Foundry v12.331](https://img.shields.io/badge/Foundry-v12.331-green) ![Foundry v13](https://img.shields.io/badge/Foundry-v13-yellow)
+![Foundry v13.351](https://img.shields.io/badge/Foundry-v13.351-green)
 
 A FoundryVTT system for the [Grimwild](https://www.odditypress.com/) RPG.
 
@@ -57,6 +57,10 @@ Rolls can be generated directly from character and monster sheets, or you can ro
 - `/r 4d` - Roll a 4 dice roll.
 - `/r 4d2t` - Roll a 4 dice roll with 2 thorns.
 - `/r 4p` - Roll a 4 dice pool. This isn't tracked anywhere, but it will note how the pool should change in the result.
+
+### Marks and Harm
+
+Any rolls that include a Messy, Grim, or Disaster result will have buttons on them to apply marks, Bloodied, or Rattled. Clicking one of the buttons will apply that kind of harm to the character associated with your account, or to the currently selected character token if you have multiple.
 
 ### Dice So Nice
 
