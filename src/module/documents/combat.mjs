@@ -41,6 +41,22 @@ export class GrimwildCombat extends foundry.documents.Combat {
 	/** @inheritdoc */
 	async _onStartRound(context) {
 	}
+
+	resetActions() {
+		for (let combatant of this.combatants) {
+			combatant.setFlag("grimwild", "actionCount", 0);
+		}
+	}
+
+	async spotlightCombatant(combatantId) {
+		const turn = this.turns.findIndex((c) => c.id === combatantId);
+		if (turn > -1) {
+			const updateData = { round: this.round, turn };
+			const updateOptions = {};
+			Hooks.callAll("combatTurn", this, updateData, updateOptions);
+			await this.update(updateData, updateOptions);
+		}
+	}
 }
 
 export class GrimwildCombatTracker extends foundry.applications.sidebar.tabs.CombatTracker {
@@ -51,14 +67,15 @@ export class GrimwildCombatTracker extends foundry.applications.sidebar.tabs.Com
 		},
 		actions: {
 			toggleHarm: GrimwildCombatTracker.#onToggleHarm,
-			toggleSpark: GrimwildCombatTracker.#onToggleSpark
+			toggleSpark: GrimwildCombatTracker.#onToggleSpark,
+			spotlight: GrimwildCombatTracker.#onSpotlight
 		}
 	};
 
 	/** @override */
 	static PARTS = {
 		header: {
-			template: "templates/sidebar/tabs/combat/header.hbs"
+			template: "systems/grimwild/templates/combat/header.hbs"
 		},
 		tracker: {
 			template: "systems/grimwild/templates/combat/tracker.hbs"
@@ -120,6 +137,51 @@ export class GrimwildCombatTracker extends foundry.applications.sidebar.tabs.Com
 		return turn;
 	}
 
+	_getCombatContextOptions() {
+		return [{
+			name: "GRIMWILD.Combat.ResetActionCount",
+			icon: '<i class="fa-solid fa-arrow-rotate-left"></i>',
+			condition: () => game.user.isGM && (this.viewed?.turns.length > 0),
+			callback: () => this.viewed.resetActions()
+		}, {
+			name: "COMBAT.Settings",
+			icon: '<i class="fa-solid fa-gear"></i>',
+			condition: () => game.user.isGM,
+			callback: () => new foundry.applications.apps.CombatTrackerConfig().render({ force: true })
+		}, {
+			name: "COMBAT.Delete",
+			icon: '<i class="fa-solid fa-trash"></i>',
+			condition: () => game.user.isGM && !!this.viewed,
+			callback: () => this.viewed.endCombat()
+		}];
+	}
+
+	_getEntryContextOptions() {
+		const getCombatant = (li) => this.viewed.combatants.get(li.dataset.combatantId);
+		return [{
+			name: "COMBAT.CombatantUpdate",
+			icon: '<i class="fa-solid fa-pen-to-square"></i>',
+			condition: () => game.user.isGM,
+			callback: (li) => getCombatant(li)?.sheet.render({
+				force: true,
+				position: {
+					top: Math.min(li.offsetTop, window.innerHeight - 350),
+					left: window.innerWidth - 720
+				}
+			})
+		}, {
+			name: "GRIMWILD.Combat.ResetActionCount",
+			icon: '<i class="fa-solid fa-arrow-rotate-left"></i>',
+			condition: (li) => game.user.isGM,
+			callback: (li) => getCombatant(li)?.setFlag("grimwild", "actionCount", 0)
+		}, {
+			name: "COMBAT.CombatantRemove",
+			icon: '<i class="fa-solid fa-trash"></i>',
+			condition: () => game.user.isGM,
+			callback: (li) => getCombatant(li)?.delete()
+		}];
+	}
+
 	/** @inheritdoc */
 	async render(options = {}, _options = {}) {
 		const renderResult = await super.render(options);
@@ -165,5 +227,16 @@ export class GrimwildCombatTracker extends foundry.applications.sidebar.tabs.Com
 		if (spark === 2) steps = [true, true];
 
 		actor.update({ "system.spark.steps": steps });
+	}
+
+	static #onSpotlight(...args) {
+		return this._onSpotlight(...args);
+	}
+
+	async _onSpotlight(event, target) {
+		event.preventDefault();
+
+		const { combatantId } = event.target.closest(".combatant[data-combatant-id]")?.dataset ?? {};
+		this.viewed.spotlightCombatant(combatantId);
 	}
 }
