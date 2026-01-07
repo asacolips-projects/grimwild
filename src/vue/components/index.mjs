@@ -3,6 +3,7 @@ export { default as CharSidebar } from "@/components/actor/character/CharSidebar
 export { default as CharHeader } from "@/components/actor/character/CharHeader.vue";
 export { default as CharDetails } from "@/components/actor/character/CharDetails.vue";
 export { default as CharTalents } from "@/components/actor/character/CharTalents.vue";
+export { default as CharArcana } from "@/components/actor/character/CharArcana.vue";
 export { default as CharEffects } from "@/components/actor/character/CharEffects.vue";
 // Monster.
 export { default as MonsterHeader } from "@/components/actor/monster/MonsterHeader.vue";
@@ -16,6 +17,7 @@ export { default as ItemDescription } from "@/components/item/ItemDescription.vu
 export { default as ItemHeader } from "@/components/item/ItemHeader.vue";
 export { default as ItemAttributes } from "@/components/item/ItemAttributes.vue";
 export { default as TalentTrackers } from "@/components/item/talent/TalentTrackers.vue";
+export { default as ArcanaDetails } from "@/components/item/arcana/ArcanaDetails.vue";
 export { default as ChallengeTraitsMoves } from "@/components/item/challenge/ChallengeTraitsMoves.vue";
 // Parts.
 export { default as Tabs } from "@/components/parts/Tabs.vue";

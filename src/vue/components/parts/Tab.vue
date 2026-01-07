@@ -1,5 +1,5 @@
 <template>
-  <div :class="`tab tab-${tab.key} ${tab.active ? 'active' : ''} ${classes ? classes : ''}`" :data-group="group" :data-tab="tab.key">
+  <div :class="`tab tab-${tab.key} ${['arcana', 'talents'].includes(tab.key) ? 'tab-items' : ''} ${tab.active ? 'active' : ''} ${classes ? classes : ''}`" :data-group="group" :data-tab="tab.key">
     <slot></slot>
   </div>
 </template>
