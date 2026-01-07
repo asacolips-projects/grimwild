@@ -1,0 +1,22 @@
+name: Twigbow
+type: arcana
+img: icons/svg/mystery-man.svg
+system:
+  description: <p>Always supplies its wielder with arrows when among nature.</p>
+  notes:
+    description: ''
+    label: ''
+  trackers: []
+  limitations: <p>Only works near trees.</p>
+  touchstones: nature—arrows—resourcefulness
+  tier: minor
+effects: []
+folder: null
+ownership:
+  default: 0
+flags:
+  core:
+    sheetClass: ''
+_id: YdfnyrypNjAIyV9z
+sort: 0
+_key: '!items!YdfnyrypNjAIyV9z'

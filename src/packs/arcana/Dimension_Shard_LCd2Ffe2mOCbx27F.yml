@@ -1,0 +1,22 @@
+name: Dimension Shard
+type: arcana
+img: icons/svg/mystery-man.svg
+system:
+  description: <p>Holds a small, town-sized refuge dimension where time flows differently.</p>
+  notes:
+    description: ''
+    label: ''
+  trackers: []
+  limitations: <p>Time passes 10 times faster or slower inside, chosen randomly.</p>
+  touchstones: refuge—time—change
+  tier: mythic
+effects: []
+folder: null
+ownership:
+  default: 0
+flags:
+  core:
+    sheetClass: ''
+_id: LCd2Ffe2mOCbx27F
+sort: 0
+_key: '!items!LCd2Ffe2mOCbx27F'

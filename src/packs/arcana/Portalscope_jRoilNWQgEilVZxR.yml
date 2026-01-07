@@ -1,0 +1,31 @@
+name: Portalscope
+type: arcana
+img: icons/svg/mystery-man.svg
+system:
+  description: <p>Instantly teleports you safely to a place you can see through it.</p>
+  notes:
+    description: ''
+    label: ''
+  trackers:
+    - type: points
+      label: Uses
+      pool:
+        diceNum: 1
+        max: 1
+      points:
+        showSteps: false
+        value: 1
+        max: 1
+  limitations: <p>Single use, then reverts to a mundane spyglass.</p>
+  touchstones: teleportation—vision—escape
+  tier: major
+effects: []
+folder: null
+ownership:
+  default: 0
+flags:
+  core:
+    sheetClass: ''
+_id: jRoilNWQgEilVZxR
+sort: 0
+_key: '!items!jRoilNWQgEilVZxR'

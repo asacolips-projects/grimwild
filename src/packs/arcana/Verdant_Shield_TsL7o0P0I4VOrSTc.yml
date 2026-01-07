@@ -1,0 +1,22 @@
+name: Verdant Shield
+type: arcana
+img: icons/svg/mystery-man.svg
+system:
+  description: <p>When struck, releases life energy causing plants to grow and ensnare foes.</p>
+  notes:
+    description: ''
+    label: ''
+  trackers: []
+  limitations: <p>Push yourself to use it. It uses your own life energy.</p>
+  touchstones: reaction—verdancy—entanglement
+  tier: major
+effects: []
+folder: null
+ownership:
+  default: 0
+flags:
+  core:
+    sheetClass: ''
+_id: TsL7o0P0I4VOrSTc
+sort: 0
+_key: '!items!TsL7o0P0I4VOrSTc'

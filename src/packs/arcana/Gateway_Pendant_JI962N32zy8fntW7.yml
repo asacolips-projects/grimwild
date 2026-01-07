@@ -1,0 +1,22 @@
+name: Gateway Pendant
+type: arcana
+img: icons/svg/mystery-man.svg
+system:
+  description: <p>Opens a portal to a place the wielder cherishes deeply.</p>
+  notes:
+    description: ''
+    label: ''
+  trackers: []
+  limitations: <p>When you arrive, all memories of that place are lost.</p>
+  touchstones: portal—memory—longing
+  tier: mythic
+effects: []
+folder: null
+ownership:
+  default: 0
+flags:
+  core:
+    sheetClass: ''
+_id: JI962N32zy8fntW7
+sort: 0
+_key: '!items!JI962N32zy8fntW7'

@@ -1,0 +1,22 @@
+name: Staff of Disillusionment
+type: arcana
+img: icons/svg/mystery-man.svg
+system:
+  description: <p>Glows brightly red when an illusion is present nearby.</p>
+  notes:
+    description: ''
+    label: ''
+  trackers: []
+  limitations: <p>None.</p>
+  touchstones: perception—focus—truth
+  tier: minor
+effects: []
+folder: null
+ownership:
+  default: 0
+flags:
+  core:
+    sheetClass: ''
+_id: KctZWfSYS5t4Pc1F
+sort: 0
+_key: '!items!KctZWfSYS5t4Pc1F'

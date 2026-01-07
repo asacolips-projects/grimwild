@@ -1,0 +1,31 @@
+name: Codex of Flesh
+type: arcana
+img: icons/svg/mystery-man.svg
+system:
+  description: <p>Turns into and acts like anyone who writes their name inside for 1 day.</p>
+  notes:
+    description: ''
+    label: ''
+  trackers:
+    - type: points
+      label: Uses
+      pool:
+        diceNum: 1
+        max: 1
+      points:
+        showSteps: false
+        value: 1
+        max: 1
+  limitations: <p>Can mimic each person once. Destroyed if seen by them.</p>
+  touchstones: transformation—identity—knowledge
+  tier: major
+effects: []
+folder: null
+ownership:
+  default: 0
+flags:
+  core:
+    sheetClass: ''
+_id: 56QkFQdl40mJto3d
+sort: 0
+_key: '!items!56QkFQdl40mJto3d'

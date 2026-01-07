@@ -1,0 +1,22 @@
+name: Chitterfang
+type: arcana
+img: icons/svg/mystery-man.svg
+system:
+  description: <p>Vibrates like insect wings, striking with an unsettling hum.</p>
+  notes:
+    description: ''
+    label: ''
+  trackers: []
+  limitations: <p>Loses power when the living bug on the hilt occasionally leaves.</p>
+  touchstones: insect—precision—resonance
+  tier: minor
+effects: []
+folder: null
+ownership:
+  default: 0
+flags:
+  core:
+    sheetClass: ''
+_id: 0wccUCnvdVuWPZsk
+sort: 0
+_key: '!items!0wccUCnvdVuWPZsk'

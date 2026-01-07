@@ -1,0 +1,22 @@
+name: Orb of Worlds
+type: arcana
+img: icons/svg/mystery-man.svg
+system:
+  description: <p>Reveals visions of distant realms and planes of existence.</p>
+  notes:
+    description: ''
+    label: ''
+  trackers: []
+  limitations: <p>Take rattled when used.</p>
+  touchstones: visions—realms—distant
+  tier: mythic
+effects: []
+folder: null
+ownership:
+  default: 0
+flags:
+  core:
+    sheetClass: ''
+_id: bWTwnDUijeVGxeXA
+sort: 0
+_key: '!items!bWTwnDUijeVGxeXA'

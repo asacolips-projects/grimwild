@@ -1,0 +1,22 @@
+name: Pick Me Up Teapot
+type: arcana
+img: icons/svg/mystery-man.svg
+system:
+  description: <p>Brews warm tea that removes all fatigue you might feel.</p>
+  notes:
+    description: ''
+    label: ''
+  trackers: []
+  limitations: <p>Defense roll against vexed when drank—it can overdo it.</p>
+  touchstones: rejuvenation—comfort—excess
+  tier: minor
+effects: []
+folder: null
+ownership:
+  default: 0
+flags:
+  core:
+    sheetClass: ''
+_id: 3cZhOjnEuEXWMno8
+sort: 0
+_key: '!items!3cZhOjnEuEXWMno8'

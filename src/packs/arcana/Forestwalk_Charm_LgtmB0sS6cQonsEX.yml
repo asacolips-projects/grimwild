@@ -1,0 +1,22 @@
+name: Forestwalk Charm
+type: arcana
+img: icons/svg/mystery-man.svg
+system:
+  description: <p>Allows you to move through dense foliage as effortlessly as walking a street.</p>
+  notes:
+    description: ''
+    label: ''
+  trackers: []
+  limitations: <p>None.</p>
+  touchstones: nature—movement—ease
+  tier: major
+effects: []
+folder: null
+ownership:
+  default: 0
+flags:
+  core:
+    sheetClass: ''
+_id: LgtmB0sS6cQonsEX
+sort: 0
+_key: '!items!LgtmB0sS6cQonsEX'

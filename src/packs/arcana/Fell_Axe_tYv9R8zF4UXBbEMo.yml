@@ -1,0 +1,22 @@
+name: Fell Axe
+type: arcana
+img: icons/svg/mystery-man.svg
+system:
+  description: <p>Killing something with this axe ensures they can never be brought back.</p>
+  notes:
+    description: ''
+    label: ''
+  trackers: []
+  limitations: <p>Demands you kill any you wield this against.</p>
+  touchstones: necromancy—violence—death
+  tier: major
+effects: []
+folder: null
+ownership:
+  default: 0
+flags:
+  core:
+    sheetClass: ''
+_id: tYv9R8zF4UXBbEMo
+sort: 0
+_key: '!items!tYv9R8zF4UXBbEMo'

@@ -1,0 +1,31 @@
+name: Ring of Good Fortune
+type: arcana
+img: icons/svg/mystery-man.svg
+system:
+  description: <p>Adds up to 3 points to any of your own story rolls.</p>
+  notes:
+    description: ''
+    label: ''
+  trackers:
+    - type: points
+      label: Uses
+      pool:
+        diceNum: 1
+        max: 1
+      points:
+        showSteps: false
+        value: 3
+        max: 3
+  limitations: <p>Holds 3 points, replenished by taking 3 points from a story roll.</p>
+  touchstones: luck—balance—timing
+  tier: mythic
+effects: []
+folder: null
+ownership:
+  default: 0
+flags:
+  core:
+    sheetClass: ''
+_id: nh3fYtmIXmUJodWz
+sort: 0
+_key: '!items!nh3fYtmIXmUJodWz'

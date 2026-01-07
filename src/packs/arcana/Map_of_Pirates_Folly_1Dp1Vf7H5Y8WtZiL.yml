@@ -1,0 +1,22 @@
+name: Map of Pirate's Folly
+type: arcana
+img: icons/svg/mystery-man.svg
+system:
+  description: <p>Reveals the location of a treasure, which may or may not be real.</p>
+  notes:
+    description: ''
+    label: ''
+  trackers: []
+  limitations: <p>Must loudly declare in public that you’re on a treasure hunt.</p>
+  touchstones: maps—treasure—deception
+  tier: minor
+effects: []
+folder: null
+ownership:
+  default: 0
+flags:
+  core:
+    sheetClass: ''
+_id: 1Dp1Vf7H5Y8WtZiL
+sort: 0
+_key: '!items!1Dp1Vf7H5Y8WtZiL'

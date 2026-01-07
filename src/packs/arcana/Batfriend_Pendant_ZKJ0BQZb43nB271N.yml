@@ -1,0 +1,22 @@
+name: Batfriend Pendant
+type: arcana
+img: icons/svg/mystery-man.svg
+system:
+  description: <p>Warns of approaching intruders while outdoors at night.</p>
+  notes:
+    description: ''
+    label: ''
+  trackers: []
+  limitations: <p>Only works outdoors at night.</p>
+  touchstones: bats—vigilance—companionship
+  tier: minor
+effects: []
+folder: null
+ownership:
+  default: 0
+flags:
+  core:
+    sheetClass: ''
+_id: ZKJ0BQZb43nB271N
+sort: 0
+_key: '!items!ZKJ0BQZb43nB271N'

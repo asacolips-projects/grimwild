@@ -1,0 +1,22 @@
+name: Widow's Revenge
+type: arcana
+img: icons/svg/mystery-man.svg
+system:
+  description: <p>When you are dropped, the spider climbs off and attacks your killer.</p>
+  notes:
+    description: ''
+    label: ''
+  trackers: []
+  limitations: <p>If killed, the spider is gone forever. It also despises murder.</p>
+  touchstones: spider—venom—command
+  tier: minor
+effects: []
+folder: null
+ownership:
+  default: 0
+flags:
+  core:
+    sheetClass: ''
+_id: cvyiHjzDotwBiPg9
+sort: 0
+_key: '!items!cvyiHjzDotwBiPg9'

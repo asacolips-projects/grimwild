@@ -1,0 +1,22 @@
+name: Steadyhand Dagger
+type: arcana
+img: icons/svg/mystery-man.svg
+system:
+  description: <p>Ignore thorns from rattled when using this dagger.</p>
+  notes:
+    description: ''
+    label: ''
+  trackers: []
+  limitations: <p>Will leap to your hand if you take vex.</p>
+  touchstones: courage—precision—malice
+  tier: minor
+effects: []
+folder: null
+ownership:
+  default: 0
+flags:
+  core:
+    sheetClass: ''
+_id: vMBiW88mSdzwN4v2
+sort: 0
+_key: '!items!vMBiW88mSdzwN4v2'

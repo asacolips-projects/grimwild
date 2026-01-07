@@ -1,0 +1,22 @@
+name: Fangbound Ledger
+type: arcana
+img: icons/svg/mystery-man.svg
+system:
+  description: <p>Bites anyone but its owner.</p>
+  notes:
+    description: ''
+    label: ''
+  trackers: []
+  limitations: <p>If not written into, reveals its secrets to passers-by.</p>
+  touchstones: secrets—protection—temptation
+  tier: minor
+effects: []
+folder: null
+ownership:
+  default: 0
+flags:
+  core:
+    sheetClass: ''
+_id: AxlC7Ra03zNm17p5
+sort: 0
+_key: '!items!AxlC7Ra03zNm17p5'

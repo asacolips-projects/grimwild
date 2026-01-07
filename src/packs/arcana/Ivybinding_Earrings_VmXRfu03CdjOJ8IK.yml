@@ -1,0 +1,22 @@
+name: Ivybinding Earrings
+type: arcana
+img: icons/svg/mystery-man.svg
+system:
+  description: <p>Ivy tendrils restrain the wearer when a command is spoken.</p>
+  notes:
+    description: ''
+    label: ''
+  trackers: []
+  limitations: <p>The wearer must be able to hear the command.</p>
+  touchstones: nature—binding—trickery
+  tier: major
+effects: []
+folder: null
+ownership:
+  default: 0
+flags:
+  core:
+    sheetClass: ''
+_id: VmXRfu03CdjOJ8IK
+sort: 0
+_key: '!items!VmXRfu03CdjOJ8IK'

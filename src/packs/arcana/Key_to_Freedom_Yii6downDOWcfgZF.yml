@@ -1,0 +1,22 @@
+name: Key to Freedom
+type: arcana
+img: icons/svg/mystery-man.svg
+system:
+  description: <p>Locates anyone, unlocking all doors in its path, and teleports them to safety.</p>
+  notes:
+    description: ''
+    label: ''
+  trackers: []
+  limitations: <p>Located person becomes its new owner.</p>
+  touchstones: discovery—freedom—key
+  tier: mythic
+effects: []
+folder: null
+ownership:
+  default: 0
+flags:
+  core:
+    sheetClass: ''
+_id: Yii6downDOWcfgZF
+sort: 0
+_key: '!items!Yii6downDOWcfgZF'

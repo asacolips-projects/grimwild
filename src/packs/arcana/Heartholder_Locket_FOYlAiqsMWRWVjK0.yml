@@ -1,0 +1,22 @@
+name: Heartholder Locket
+type: arcana
+img: icons/svg/mystery-man.svg
+system:
+  description: <p>Teleports the one you hold dearest directly to you.</p>
+  notes:
+    description: ''
+    label: ''
+  trackers: []
+  limitations: <p>Only works if their feelings for you are mutual.</p>
+  touchstones: love—teleportation—openness
+  tier: mythic
+effects: []
+folder: null
+ownership:
+  default: 0
+flags:
+  core:
+    sheetClass: ''
+_id: FOYlAiqsMWRWVjK0
+sort: 0
+_key: '!items!FOYlAiqsMWRWVjK0'

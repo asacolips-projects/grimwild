@@ -1,0 +1,31 @@
+name: Spiderheart Wand
+type: arcana
+img: icons/svg/mystery-man.svg
+system:
+  description: <p>Calls normal spiders to weave normal webs wherever you point.</p>
+  notes:
+    description: ''
+    label: ''
+  trackers:
+    - type: pool
+      label: Power
+      pool:
+        diceNum: 4
+        max: 4
+      points:
+        showSteps: false
+        value: 1
+        max: 1
+  limitations: <p>4d power pool, replenished by eating silk-wrapped bugs.</p>
+  touchstones: spiders—web—control
+  tier: minor
+effects: []
+folder: null
+ownership:
+  default: 0
+flags:
+  core:
+    sheetClass: ''
+_id: YZZ4M0ROb6gXZxIk
+sort: 0
+_key: '!items!YZZ4M0ROb6gXZxIk'

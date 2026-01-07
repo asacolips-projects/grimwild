@@ -1,0 +1,22 @@
+name: Ring of Piercing Gaze
+type: arcana
+img: icons/svg/mystery-man.svg
+system:
+  description: <p>Peer through fog, smoke, or walls.</p>
+  notes:
+    description: ''
+    label: ''
+  trackers: []
+  limitations: <p>If you see something sentient, it can also see you.</p>
+  touchstones: perception—clarity—connection
+  tier: minor
+effects: []
+folder: null
+ownership:
+  default: 0
+flags:
+  core:
+    sheetClass: ''
+_id: KhWKisBuLSyFeJtl
+sort: 0
+_key: '!items!KhWKisBuLSyFeJtl'

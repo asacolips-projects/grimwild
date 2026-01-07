@@ -1,0 +1,22 @@
+name: Everbloody Sword
+type: arcana
+img: icons/svg/mystery-man.svg
+system:
+  description: <p>Ignores thorns from difficulty in battle against foes not already bleeding.</p>
+  notes:
+    description: ''
+    label: ''
+  trackers: []
+  limitations: <p>When not bloodied after wielding this in a fight, take bloodied.</p>
+  touchstones: blood—sharpness—sacrifice
+  tier: major
+effects: []
+folder: null
+ownership:
+  default: 0
+flags:
+  core:
+    sheetClass: ''
+_id: Xjo47mBZHPgOtGGZ
+sort: 0
+_key: '!items!Xjo47mBZHPgOtGGZ'

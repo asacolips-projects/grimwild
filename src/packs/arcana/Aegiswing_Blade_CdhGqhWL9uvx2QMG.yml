@@ -1,0 +1,22 @@
+name: Aegiswing Blade
+type: arcana
+img: icons/svg/mystery-man.svg
+system:
+  description: <p>Fights alongside you as a trusted ally, as if a level 1 fighter with Bulwark.</p>
+  notes:
+    description: ''
+    label: ''
+  trackers: []
+  limitations: <p>If it is destroyed, you die.</p>
+  touchstones: flight—protection—loyalty
+  tier: mythic
+effects: []
+folder: null
+ownership:
+  default: 0
+flags:
+  core:
+    sheetClass: ''
+_id: CdhGqhWL9uvx2QMG
+sort: 0
+_key: '!items!CdhGqhWL9uvx2QMG'

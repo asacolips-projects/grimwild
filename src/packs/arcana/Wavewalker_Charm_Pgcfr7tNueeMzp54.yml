@@ -1,0 +1,31 @@
+name: Wavewalker Charm
+type: arcana
+img: icons/svg/mystery-man.svg
+system:
+  description: <p>Lets the bearer stride across water as if it were solid ground.</p>
+  notes:
+    description: ''
+    label: ''
+  trackers:
+    - type: pool
+      label: Power
+      pool:
+        diceNum: 4
+        max: 4
+      points:
+        showSteps: false
+        value: 1
+        max: 1
+  limitations: <p>4d Sink, triggered by any action roll while using.</p>
+  touchstones: freedom—water—grace
+  tier: major
+effects: []
+folder: null
+ownership:
+  default: 0
+flags:
+  core:
+    sheetClass: ''
+_id: Pgcfr7tNueeMzp54
+sort: 0
+_key: '!items!Pgcfr7tNueeMzp54'

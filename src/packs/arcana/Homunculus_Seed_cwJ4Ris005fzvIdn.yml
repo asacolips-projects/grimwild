@@ -1,0 +1,22 @@
+name: Homunculus Seed
+type: arcana
+img: icons/svg/mystery-man.svg
+system:
+  description: <p>Grows a living copy of someone, complete with their memories.</p>
+  notes:
+    description: ''
+    label: ''
+  trackers: []
+  limitations: <p>Must be planted and grow for a year and a day.</p>
+  touchstones: replication—life—mystery
+  tier: mythic
+effects: []
+folder: null
+ownership:
+  default: 0
+flags:
+  core:
+    sheetClass: ''
+_id: cwJ4Ris005fzvIdn
+sort: 0
+_key: '!items!cwJ4Ris005fzvIdn'

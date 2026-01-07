@@ -1,0 +1,31 @@
+name: Disturbing Counselor
+type: arcana
+img: icons/svg/mystery-man.svg
+system:
+  description: <p>Offers guidance on statecraft and reveals political secrets.</p>
+  notes:
+    description: ''
+    label: ''
+  trackers:
+    - type: pool
+      label: Power
+      pool:
+        diceNum: 4
+        max: 4
+      points:
+        showSteps: false
+        value: 1
+        max: 1
+  limitations: <p>4d power pool, replenished by feeding its unnerving vices.</p>
+  touchstones: wisdom—secrets—statecraft
+  tier: major
+effects: []
+folder: null
+ownership:
+  default: 0
+flags:
+  core:
+    sheetClass: ''
+_id: Umen713hpLp2Z0vG
+sort: 0
+_key: '!items!Umen713hpLp2Z0vG'

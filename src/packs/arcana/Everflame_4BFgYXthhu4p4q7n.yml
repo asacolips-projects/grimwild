@@ -1,0 +1,22 @@
+name: Everflame
+type: arcana
+img: icons/svg/mystery-man.svg
+system:
+  description: <p>Burns endlessly, no matter what you do to extinguish it.</p>
+  notes:
+    description: ''
+    label: ''
+  trackers: []
+  limitations: <p>You're always stuck carrying a flaming object.</p>
+  touchstones: fire—light—perseverance.
+  tier: minor
+effects: []
+folder: null
+ownership:
+  default: 0
+flags:
+  core:
+    sheetClass: ''
+_id: 4BFgYXthhu4p4q7n
+sort: 0
+_key: '!items!4BFgYXthhu4p4q7n'

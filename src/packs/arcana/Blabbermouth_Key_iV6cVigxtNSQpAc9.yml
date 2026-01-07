@@ -1,0 +1,31 @@
+name: Blabbermouth Key
+type: arcana
+img: icons/svg/mystery-man.svg
+system:
+  description: <p>Answers a question about a lock’s owner, but subsequent ones are half-truths.</p>
+  notes:
+    description: ''
+    label: ''
+  trackers:
+    - type: pool
+      label: Power
+      pool:
+        diceNum: 4
+        max: 4
+      points:
+        showSteps: false
+        value: 1
+        max: 1
+  limitations: <p>4d resource pool, replenished by telling it a well-kept secret.</p>
+  touchstones: keys—locks—truths
+  tier: major
+effects: []
+folder: null
+ownership:
+  default: 0
+flags:
+  core:
+    sheetClass: ''
+_id: iV6cVigxtNSQpAc9
+sort: 0
+_key: '!items!iV6cVigxtNSQpAc9'

@@ -1,0 +1,22 @@
+name: Gilded Spectacles
+type: arcana
+img: icons/svg/mystery-man.svg
+system:
+  description: <p>Reveals the best qualities and talents in everyone.</p>
+  notes:
+    description: ''
+    label: ''
+  trackers: []
+  limitations: <p>Spend spark to use. Exaggerates those qualities.</p>
+  touchstones: insight—exaggeration—appreciation
+  tier: minor
+effects: []
+folder: null
+ownership:
+  default: 0
+flags:
+  core:
+    sheetClass: ''
+_id: EwqS4kyei3n2DOLQ
+sort: 0
+_key: '!items!EwqS4kyei3n2DOLQ'

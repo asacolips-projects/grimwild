@@ -1,0 +1,22 @@
+name: Poisonheart Pendant
+type: arcana
+img: icons/svg/mystery-man.svg
+system:
+  description: <p>Twists relationships into spite and obsession, entangling emotions in toxicity.</p>
+  notes:
+    description: ''
+    label: ''
+  trackers: []
+  limitations: <p>Only works on the one wearing it.</p>
+  touchstones: corruption—emotion—obsession
+  tier: major
+effects: []
+folder: null
+ownership:
+  default: 0
+flags:
+  core:
+    sheetClass: ''
+_id: HWskoPKFgjHE5Ymx
+sort: 0
+_key: '!items!HWskoPKFgjHE5Ymx'

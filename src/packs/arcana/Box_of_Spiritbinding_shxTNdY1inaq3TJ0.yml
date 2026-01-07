@@ -1,0 +1,31 @@
+name: Box of Spiritbinding
+type: arcana
+img: icons/svg/mystery-man.svg
+system:
+  description: <p>Holds a ghost you can summon. If empty, you can trap a spirit inside.</p>
+  notes:
+    description: ''
+    label: ''
+  trackers:
+    - type: pool
+      label: Power
+      pool:
+        diceNum: 4
+        max: 4
+      points:
+        showSteps: false
+        value: 1
+        max: 1
+  limitations: <p>4d Ghost Escapes, rolled with each use.</p>
+  touchstones: ghosts—binding—horrifying
+  tier: major
+effects: []
+folder: null
+ownership:
+  default: 0
+flags:
+  core:
+    sheetClass: ''
+_id: shxTNdY1inaq3TJ0
+sort: 0
+_key: '!items!shxTNdY1inaq3TJ0'

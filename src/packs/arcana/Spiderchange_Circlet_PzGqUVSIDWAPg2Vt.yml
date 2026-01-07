@@ -1,0 +1,22 @@
+name: Spiderchange Circlet
+type: arcana
+img: icons/svg/mystery-man.svg
+system:
+  description: <p>Transforms you into a spider, gaining limbs, fangs, webber, and instincts.</p>
+  notes:
+    description: ''
+    label: ''
+  trackers: []
+  limitations: <p>Only activates when it decides it's needed.</p>
+  touchstones: transformation—instincts—spider
+  tier: mythic
+effects: []
+folder: null
+ownership:
+  default: 0
+flags:
+  core:
+    sheetClass: ''
+_id: PzGqUVSIDWAPg2Vt
+sort: 0
+_key: '!items!PzGqUVSIDWAPg2Vt'

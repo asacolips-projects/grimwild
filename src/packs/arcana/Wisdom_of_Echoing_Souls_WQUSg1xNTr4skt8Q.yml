@@ -1,0 +1,22 @@
+name: Wisdom of Echoing Souls
+type: arcana
+img: icons/svg/mystery-man.svg
+system:
+  description: <p>Contains faint impressions of previous owners. Gives three wises.</p>
+  notes:
+    description: ''
+    label: ''
+  trackers: []
+  limitations: <p>Spend spark to use it. Occasionally demands a favor.</p>
+  touchstones: wisdom—history—guidance
+  tier: major
+effects: []
+folder: null
+ownership:
+  default: 0
+flags:
+  core:
+    sheetClass: ''
+_id: WQUSg1xNTr4skt8Q
+sort: 0
+_key: '!items!WQUSg1xNTr4skt8Q'
