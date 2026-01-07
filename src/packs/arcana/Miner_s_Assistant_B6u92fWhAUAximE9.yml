@@ -1,0 +1,41 @@
+name: Miner's Assistant
+type: arcana
+img: icons/sundries/lights/lantern-iron-yellow.webp
+system:
+  description: <p>Burns brighter the deeper you go.</p>
+  notes:
+    description: ''
+    label: ''
+  trackers:
+    - type: pool
+      label: Power
+      pool:
+        diceNum: 4
+        max: 4
+      points:
+        showSteps: false
+        value: 1
+        max: 1
+  limitations: <p>If a powerful creature lurks nearby, leads you to its new owner.</p>
+  touchstones: light—depth—guidance
+  tier: minor
+effects: []
+folder: null
+ownership:
+  default: 0
+flags:
+  core:
+    sheetClass: ''
+_id: B6u92fWhAUAximE9
+sort: 0
+_stats:
+  coreVersion: '13.351'
+  systemId: null
+  systemVersion: null
+  createdTime: null
+  modifiedTime: 1767754610169
+  lastModifiedBy: UV77mtxQgW7KpS6B
+  compendiumSource: null
+  duplicateSource: null
+  exportSource: null
+_key: '!items!B6u92fWhAUAximE9'

@@ -1,0 +1,41 @@
+name: Jar of Fluttering Mischief
+type: arcana
+img: icons/consumables/potions/potion-jug-corked-skull-poison-brown-green.webp
+system:
+  description: <p>Releases butterfly swarms to distract and tickle someone nearby.</p>
+  notes:
+    description: ''
+    label: ''
+  trackers:
+    - type: pool
+      label: Power
+      pool:
+        diceNum: 4
+        max: 4
+      points:
+        showSteps: false
+        value: 1
+        max: 1
+  limitations: <p>4d power pool, replenished by hearing a child's hearty laughter.</p>
+  touchstones: butterflies—distraction—playfulness
+  tier: minor
+effects: []
+folder: null
+ownership:
+  default: 0
+flags:
+  core:
+    sheetClass: ''
+_id: zMjdMjNmeNviDBvQ
+sort: 0
+_stats:
+  coreVersion: '13.351'
+  systemId: null
+  systemVersion: null
+  createdTime: null
+  modifiedTime: 1767754548283
+  lastModifiedBy: UV77mtxQgW7KpS6B
+  compendiumSource: null
+  duplicateSource: null
+  exportSource: null
+_key: '!items!zMjdMjNmeNviDBvQ'

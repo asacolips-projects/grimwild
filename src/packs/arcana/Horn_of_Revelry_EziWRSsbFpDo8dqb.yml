@@ -1,0 +1,34 @@
+name: Horn of Revelry
+type: arcana
+img: icons/commodities/bones/horn-drinking-white.webp
+system:
+  description: >-
+    <p>Draws people to you who want to share stories. If you listen, they cheer
+    up.</p>
+  notes:
+    description: ''
+    label: ''
+  trackers: []
+  limitations: <p>Spend spark to use.</p>
+  touchstones: charisma—revelry—festivity
+  tier: minor
+effects: []
+folder: null
+ownership:
+  default: 0
+flags:
+  core:
+    sheetClass: ''
+_id: EziWRSsbFpDo8dqb
+sort: 0
+_stats:
+  coreVersion: '13.351'
+  systemId: null
+  systemVersion: null
+  createdTime: null
+  modifiedTime: 1767754345697
+  lastModifiedBy: UV77mtxQgW7KpS6B
+  compendiumSource: null
+  duplicateSource: null
+  exportSource: null
+_key: '!items!EziWRSsbFpDo8dqb'
