@@ -1,6 +1,6 @@
 name: Homunculus Seed
 type: arcana
-img: icons/svg/mystery-man.svg
+img: systems/grimwild/assets/arcana/homunuculus-seed.png
 system:
   description: <p>Grows a living copy of someone, complete with their memories.</p>
   notes:

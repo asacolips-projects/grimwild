@@ -1,6 +1,6 @@
 name: Fangbound Ledger
 type: arcana
-img: icons/svg/mystery-man.svg
+img: systems/grimwild/assets/arcana/fangbound-ledger.png
 system:
   description: <p>Bites anyone but its owner.</p>
   notes:

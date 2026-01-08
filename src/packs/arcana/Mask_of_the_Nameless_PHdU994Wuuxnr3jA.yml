@@ -1,6 +1,6 @@
 name: Mask of the Nameless
 type: arcana
-img: icons/svg/mystery-man.svg
+img: systems/grimwild/assets/arcana/mask-of-the-nameless.png
 system:
   description: <p>Erases your identity from the minds of all.</p>
   notes:

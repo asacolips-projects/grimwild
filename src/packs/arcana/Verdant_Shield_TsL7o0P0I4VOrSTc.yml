@@ -1,6 +1,6 @@
 name: Verdant Shield
 type: arcana
-img: icons/svg/mystery-man.svg
+img: systems/grimwild/assets/arcana/verdant-shield.png
 system:
   description: <p>When struck, releases life energy causing plants to grow and ensnare foes.</p>
   notes:

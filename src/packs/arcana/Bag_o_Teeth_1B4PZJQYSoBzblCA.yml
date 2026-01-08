@@ -1,6 +1,6 @@
 name: Bag o' Teeth
 type: arcana
-img: icons/svg/mystery-man.svg
+img: systems/grimwild/assets/arcana/bag-o-teeth.png
 system:
   description: <p>Place a tooth in the bag. One time later, create an illusion of that creature.</p>
   notes:
