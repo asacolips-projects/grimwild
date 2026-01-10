@@ -25,8 +25,6 @@ const release_data = {
   }
 };
 
-console.log('FVTT_TOKEN', argv.fvtt_token);
-
 const response = await fetch("https://api.foundryvtt.com/_api/packages/release_version/", {
   headers: {
     'Content-Type': 'application/json',
