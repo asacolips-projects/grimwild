@@ -1,6 +1,6 @@
 name: Gilded Spectacles
 type: arcana
-img: icons/svg/mystery-man.svg
+img: icons/equipment/head/goggles-leather-blue.webp
 system:
   description: <p>Reveals the best qualities and talents in everyone.</p>
   notes:
@@ -19,4 +19,14 @@ flags:
     sheetClass: ''
 _id: EwqS4kyei3n2DOLQ
 sort: 0
+_stats:
+  coreVersion: '13.351'
+  systemId: null
+  systemVersion: null
+  createdTime: null
+  modifiedTime: 1768053588019
+  lastModifiedBy: UV77mtxQgW7KpS6B
+  compendiumSource: null
+  duplicateSource: null
+  exportSource: null
 _key: '!items!EwqS4kyei3n2DOLQ'

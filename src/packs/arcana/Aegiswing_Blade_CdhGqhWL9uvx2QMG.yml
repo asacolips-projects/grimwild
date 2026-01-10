@@ -1,8 +1,10 @@
 name: Aegiswing Blade
 type: arcana
-img: icons/svg/mystery-man.svg
+img: icons/weapons/swords/sword-gold-holy.webp
 system:
-  description: <p>Fights alongside you as a trusted ally, as if a level 1 fighter with Bulwark.</p>
+  description: >-
+    <p>Fights alongside you as a trusted ally, as if a level 1 fighter with
+    Bulwark.</p>
   notes:
     description: ''
     label: ''
@@ -19,4 +21,14 @@ flags:
     sheetClass: ''
 _id: CdhGqhWL9uvx2QMG
 sort: 0
+_stats:
+  coreVersion: '13.351'
+  systemId: null
+  systemVersion: null
+  createdTime: null
+  modifiedTime: 1768052411313
+  lastModifiedBy: UV77mtxQgW7KpS6B
+  compendiumSource: null
+  duplicateSource: null
+  exportSource: null
 _key: '!items!CdhGqhWL9uvx2QMG'

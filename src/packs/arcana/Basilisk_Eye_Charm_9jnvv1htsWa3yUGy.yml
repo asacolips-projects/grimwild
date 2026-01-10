@@ -1,8 +1,10 @@
 name: Basilisk Eye Charm
 type: arcana
-img: icons/svg/mystery-man.svg
+img: icons/creatures/eyes/slime-stalk-green.webp
 system:
-  description: <p>Turns someone to stone with a gaze and grants immunity to petrification.</p>
+  description: >-
+    <p>Turns someone to stone with a gaze and grants immunity to
+    petrification.</p>
   notes:
     description: ''
     label: ''
@@ -28,4 +30,14 @@ flags:
     sheetClass: ''
 _id: 9jnvv1htsWa3yUGy
 sort: 0
+_stats:
+  coreVersion: '13.351'
+  systemId: null
+  systemVersion: null
+  createdTime: null
+  modifiedTime: 1768052528287
+  lastModifiedBy: UV77mtxQgW7KpS6B
+  compendiumSource: null
+  duplicateSource: null
+  exportSource: null
 _key: '!items!9jnvv1htsWa3yUGy'

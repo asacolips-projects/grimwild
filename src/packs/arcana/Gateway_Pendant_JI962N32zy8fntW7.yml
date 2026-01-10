@@ -1,6 +1,6 @@
 name: Gateway Pendant
 type: arcana
-img: icons/svg/mystery-man.svg
+img: icons/equipment/neck/pendant-round-gold-blue.webp
 system:
   description: <p>Opens a portal to a place the wielder cherishes deeply.</p>
   notes:
@@ -19,4 +19,14 @@ flags:
     sheetClass: ''
 _id: JI962N32zy8fntW7
 sort: 0
+_stats:
+  coreVersion: '13.351'
+  systemId: null
+  systemVersion: null
+  createdTime: null
+  modifiedTime: 1768053546806
+  lastModifiedBy: UV77mtxQgW7KpS6B
+  compendiumSource: null
+  duplicateSource: null
+  exportSource: null
 _key: '!items!JI962N32zy8fntW7'

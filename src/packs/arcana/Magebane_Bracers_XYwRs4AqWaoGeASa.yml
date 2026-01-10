@@ -1,6 +1,6 @@
 name: Magebane Bracers
 type: arcana
-img: icons/svg/mystery-man.svg
+img: icons/equipment/wrist/bracer-leather-purple-steel.webp
 system:
   description: <p>Always roll Brawn on defense rolls against magical attacks.</p>
   notes:
@@ -28,4 +28,14 @@ flags:
     sheetClass: ''
 _id: XYwRs4AqWaoGeASa
 sort: 0
+_stats:
+  coreVersion: '13.351'
+  systemId: null
+  systemVersion: null
+  createdTime: null
+  modifiedTime: 1768053970987
+  lastModifiedBy: UV77mtxQgW7KpS6B
+  compendiumSource: null
+  duplicateSource: null
+  exportSource: null
 _key: '!items!XYwRs4AqWaoGeASa'

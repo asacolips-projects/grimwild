@@ -1,6 +1,6 @@
 name: Staff of Disillusionment
 type: arcana
-img: icons/svg/mystery-man.svg
+img: icons/weapons/staves/staff-ornate-red.webp
 system:
   description: <p>Glows brightly red when an illusion is present nearby.</p>
   notes:
@@ -19,4 +19,14 @@ flags:
     sheetClass: ''
 _id: KctZWfSYS5t4Pc1F
 sort: 0
+_stats:
+  coreVersion: '13.351'
+  systemId: null
+  systemVersion: null
+  createdTime: null
+  modifiedTime: 1768055371210
+  lastModifiedBy: UV77mtxQgW7KpS6B
+  compendiumSource: null
+  duplicateSource: null
+  exportSource: null
 _key: '!items!KctZWfSYS5t4Pc1F'

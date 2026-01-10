@@ -1,8 +1,10 @@
 name: Verdant Shield
 type: arcana
-img: systems/grimwild/assets/arcana/verdant-shield.png
+img: icons/equipment/shield/heater-emossed-spiral-green.webp
 system:
-  description: <p>When struck, releases life energy causing plants to grow and ensnare foes.</p>
+  description: >-
+    <p>When struck, releases life energy causing plants to grow and ensnare
+    foes.</p>
   notes:
     description: ''
     label: ''
@@ -19,4 +21,14 @@ flags:
     sheetClass: ''
 _id: TsL7o0P0I4VOrSTc
 sort: 0
+_stats:
+  coreVersion: '13.351'
+  systemId: null
+  systemVersion: null
+  createdTime: null
+  modifiedTime: 1768055455198
+  lastModifiedBy: UV77mtxQgW7KpS6B
+  compendiumSource: null
+  duplicateSource: null
+  exportSource: null
 _key: '!items!TsL7o0P0I4VOrSTc'

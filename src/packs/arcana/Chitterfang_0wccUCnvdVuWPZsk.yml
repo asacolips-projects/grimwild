@@ -1,6 +1,6 @@
 name: Chitterfang
 type: arcana
-img: icons/svg/mystery-man.svg
+img: icons/weapons/daggers/dagger-straight-green.webp
 system:
   description: <p>Vibrates like insect wings, striking with an unsettling hum.</p>
   notes:
@@ -19,4 +19,14 @@ flags:
     sheetClass: ''
 _id: 0wccUCnvdVuWPZsk
 sort: 0
+_stats:
+  coreVersion: '13.351'
+  systemId: null
+  systemVersion: null
+  createdTime: null
+  modifiedTime: 1768052726575
+  lastModifiedBy: UV77mtxQgW7KpS6B
+  compendiumSource: null
+  duplicateSource: null
+  exportSource: null
 _key: '!items!0wccUCnvdVuWPZsk'

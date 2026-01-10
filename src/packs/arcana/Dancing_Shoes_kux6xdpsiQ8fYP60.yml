@@ -1,6 +1,6 @@
 name: Dancing Shoes
 type: arcana
-img: icons/svg/mystery-man.svg
+img: icons/equipment/feet/boots-collared-pink.webp
 system:
   description: <p>Lets you dance with flawless grace, granting potency for 4d Runs Out.</p>
   notes:
@@ -19,4 +19,14 @@ flags:
     sheetClass: ''
 _id: kux6xdpsiQ8fYP60
 sort: 0
+_stats:
+  coreVersion: '13.351'
+  systemId: null
+  systemVersion: null
+  createdTime: null
+  modifiedTime: 1768053013355
+  lastModifiedBy: UV77mtxQgW7KpS6B
+  compendiumSource: null
+  duplicateSource: null
+  exportSource: null
 _key: '!items!kux6xdpsiQ8fYP60'

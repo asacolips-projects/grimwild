@@ -1,6 +1,6 @@
 name: Steadyhand Dagger
 type: arcana
-img: icons/svg/mystery-man.svg
+img: icons/weapons/daggers/dagger-bone-black.webp
 system:
   description: <p>Ignore thorns from rattled when using this dagger.</p>
   notes:
@@ -19,4 +19,14 @@ flags:
     sheetClass: ''
 _id: vMBiW88mSdzwN4v2
 sort: 0
+_stats:
+  coreVersion: '13.351'
+  systemId: null
+  systemVersion: null
+  createdTime: null
+  modifiedTime: 1768055419493
+  lastModifiedBy: UV77mtxQgW7KpS6B
+  compendiumSource: null
+  duplicateSource: null
+  exportSource: null
 _key: '!items!vMBiW88mSdzwN4v2'

@@ -1,6 +1,6 @@
 name: Orb of Worlds
 type: arcana
-img: icons/svg/mystery-man.svg
+img: icons/commodities/gems/pearl-storm.webp
 system:
   description: <p>Reveals visions of distant realms and planes of existence.</p>
   notes:
@@ -19,4 +19,14 @@ flags:
     sheetClass: ''
 _id: bWTwnDUijeVGxeXA
 sort: 0
+_stats:
+  coreVersion: '13.351'
+  systemId: null
+  systemVersion: null
+  createdTime: null
+  modifiedTime: 1768054636687
+  lastModifiedBy: UV77mtxQgW7KpS6B
+  compendiumSource: null
+  duplicateSource: null
+  exportSource: null
 _key: '!items!bWTwnDUijeVGxeXA'

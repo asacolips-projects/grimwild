@@ -1,6 +1,6 @@
 name: Crystalshard Sprig
 type: arcana
-img: icons/svg/mystery-man.svg
+img: icons/weapons/staves/staff-engraved-red.webp
 system:
   description: <p>Fires crystal shards that encase targets.</p>
   notes:
@@ -28,4 +28,14 @@ flags:
     sheetClass: ''
 _id: Yq23eNjCctj58Vfu
 sort: 0
+_stats:
+  coreVersion: '13.351'
+  systemId: null
+  systemVersion: null
+  createdTime: null
+  modifiedTime: 1768052959887
+  lastModifiedBy: UV77mtxQgW7KpS6B
+  compendiumSource: null
+  duplicateSource: null
+  exportSource: null
 _key: '!items!Yq23eNjCctj58Vfu'

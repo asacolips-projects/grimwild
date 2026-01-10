@@ -1,6 +1,6 @@
 name: Ring of Draconic Mirage
 type: arcana
-img: icons/svg/mystery-man.svg
+img: icons/equipment/finger/ring-ouroboros-copper.webp
 system:
   description: <p>Summons an illusory dragon that soars overhead.</p>
   notes:
@@ -9,13 +9,12 @@ system:
   trackers:
     - type: points
       label: Uses
-      pool:
-        diceNum: 1
-        max: 1
       points:
-        showSteps: false
         value: 1
         max: 1
+        showSteps: false
+      pool:
+        diceNum: 0
   limitations: <p>Usable once per session. The dragon acts unpredictably.</p>
   touchstones: dragon—illusion—awe
   tier: major
@@ -28,4 +27,14 @@ flags:
     sheetClass: ''
 _id: mM5c4RKpgf3zEis7
 sort: 0
+_stats:
+  coreVersion: '13.351'
+  systemId: grimwild
+  systemVersion: 0.3.1
+  createdTime: null
+  modifiedTime: 1768054984646
+  lastModifiedBy: UV77mtxQgW7KpS6B
+  compendiumSource: null
+  duplicateSource: null
+  exportSource: null
 _key: '!items!mM5c4RKpgf3zEis7'

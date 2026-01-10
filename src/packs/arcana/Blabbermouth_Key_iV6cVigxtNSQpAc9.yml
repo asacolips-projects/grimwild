@@ -1,8 +1,10 @@
 name: Blabbermouth Key
 type: arcana
-img: icons/svg/mystery-man.svg
+img: icons/sundries/misc/key-brass.webp
 system:
-  description: <p>Answers a question about a lock’s owner, but subsequent ones are half-truths.</p>
+  description: >-
+    <p>Answers a question about a lock’s owner, but subsequent ones are
+    half-truths.</p>
   notes:
     description: ''
     label: ''
@@ -28,4 +30,14 @@ flags:
     sheetClass: ''
 _id: iV6cVigxtNSQpAc9
 sort: 0
+_stats:
+  coreVersion: '13.351'
+  systemId: null
+  systemVersion: null
+  createdTime: null
+  modifiedTime: 1768052583506
+  lastModifiedBy: UV77mtxQgW7KpS6B
+  compendiumSource: null
+  duplicateSource: null
+  exportSource: null
 _key: '!items!iV6cVigxtNSQpAc9'

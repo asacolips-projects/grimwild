@@ -1,6 +1,6 @@
 name: Spiderheart Wand
 type: arcana
-img: icons/svg/mystery-man.svg
+img: icons/weapons/staves/staff-spiked.webp
 system:
   description: <p>Calls normal spiders to weave normal webs wherever you point.</p>
   notes:
@@ -28,4 +28,14 @@ flags:
     sheetClass: ''
 _id: YZZ4M0ROb6gXZxIk
 sort: 0
+_stats:
+  coreVersion: '13.351'
+  systemId: null
+  systemVersion: null
+  createdTime: null
+  modifiedTime: 1768055355148
+  lastModifiedBy: UV77mtxQgW7KpS6B
+  compendiumSource: null
+  duplicateSource: null
+  exportSource: null
 _key: '!items!YZZ4M0ROb6gXZxIk'

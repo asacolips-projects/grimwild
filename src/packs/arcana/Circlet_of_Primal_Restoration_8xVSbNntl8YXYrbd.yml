@@ -1,6 +1,6 @@
 name: Circlet of Primal Restoration
 type: arcana
-img: systems/grimwild/assets/arcana/circlet-of-primal-restoration.png
+img: icons/equipment/finger/ring-crown-gold-pink.webp
 system:
   description: <p>Regrows a lost limb over the course of one horribly painful hour.</p>
   notes:
@@ -19,4 +19,14 @@ flags:
     sheetClass: ''
 _id: 8xVSbNntl8YXYrbd
 sort: 0
+_stats:
+  coreVersion: '13.351'
+  systemId: null
+  systemVersion: null
+  createdTime: null
+  modifiedTime: 1768052817502
+  lastModifiedBy: UV77mtxQgW7KpS6B
+  compendiumSource: null
+  duplicateSource: null
+  exportSource: null
 _key: '!items!8xVSbNntl8YXYrbd'

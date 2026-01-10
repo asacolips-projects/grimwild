@@ -1,6 +1,6 @@
 name: Box of Spiritbinding
 type: arcana
-img: icons/svg/mystery-man.svg
+img: icons/containers/boxes/box-gift-blue.webp
 system:
   description: <p>Holds a ghost you can summon. If empty, you can trap a spirit inside.</p>
   notes:
@@ -28,4 +28,14 @@ flags:
     sheetClass: ''
 _id: shxTNdY1inaq3TJ0
 sort: 0
+_stats:
+  coreVersion: '13.351'
+  systemId: null
+  systemVersion: null
+  createdTime: null
+  modifiedTime: 1768052617479
+  lastModifiedBy: UV77mtxQgW7KpS6B
+  compendiumSource: null
+  duplicateSource: null
+  exportSource: null
 _key: '!items!shxTNdY1inaq3TJ0'

@@ -1,6 +1,6 @@
 name: Ring of Piercing Gaze
 type: arcana
-img: icons/svg/mystery-man.svg
+img: icons/equipment/finger/ring-eye-silver-green.webp
 system:
   description: <p>Peer through fog, smoke, or walls.</p>
   notes:
@@ -19,4 +19,14 @@ flags:
     sheetClass: ''
 _id: KhWKisBuLSyFeJtl
 sort: 0
+_stats:
+  coreVersion: '13.351'
+  systemId: null
+  systemVersion: null
+  createdTime: null
+  modifiedTime: 1768055000152
+  lastModifiedBy: UV77mtxQgW7KpS6B
+  compendiumSource: null
+  duplicateSource: null
+  exportSource: null
 _key: '!items!KhWKisBuLSyFeJtl'

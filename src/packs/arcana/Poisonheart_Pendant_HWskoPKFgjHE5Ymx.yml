@@ -1,8 +1,10 @@
 name: Poisonheart Pendant
 type: arcana
-img: icons/svg/mystery-man.svg
+img: icons/equipment/neck/amulet-round-faceted-green.webp
 system:
-  description: <p>Twists relationships into spite and obsession, entangling emotions in toxicity.</p>
+  description: >-
+    <p>Twists relationships into spite and obsession, entangling emotions in
+    toxicity.</p>
   notes:
     description: ''
     label: ''
@@ -19,4 +21,14 @@ flags:
     sheetClass: ''
 _id: HWskoPKFgjHE5Ymx
 sort: 0
+_stats:
+  coreVersion: '13.351'
+  systemId: null
+  systemVersion: null
+  createdTime: null
+  modifiedTime: 1768054881726
+  lastModifiedBy: UV77mtxQgW7KpS6B
+  compendiumSource: null
+  duplicateSource: null
+  exportSource: null
 _key: '!items!HWskoPKFgjHE5Ymx'

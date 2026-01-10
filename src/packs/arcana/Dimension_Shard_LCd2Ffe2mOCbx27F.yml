@@ -1,8 +1,10 @@
 name: Dimension Shard
 type: arcana
-img: icons/svg/mystery-man.svg
+img: icons/commodities/gems/gem-faceted-diamond-pink.webp
 system:
-  description: <p>Holds a small, town-sized refuge dimension where time flows differently.</p>
+  description: >-
+    <p>Holds a small, town-sized refuge dimension where time flows
+    differently.</p>
   notes:
     description: ''
     label: ''
@@ -19,4 +21,14 @@ flags:
     sheetClass: ''
 _id: LCd2Ffe2mOCbx27F
 sort: 0
+_stats:
+  coreVersion: '13.351'
+  systemId: null
+  systemVersion: null
+  createdTime: null
+  modifiedTime: 1768053128359
+  lastModifiedBy: UV77mtxQgW7KpS6B
+  compendiumSource: null
+  duplicateSource: null
+  exportSource: null
 _key: '!items!LCd2Ffe2mOCbx27F'

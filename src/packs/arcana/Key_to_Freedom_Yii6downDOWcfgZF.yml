@@ -1,8 +1,10 @@
 name: Key to Freedom
 type: arcana
-img: icons/svg/mystery-man.svg
+img: icons/sundries/misc/key-short-glowing.webp
 system:
-  description: <p>Locates anyone, unlocking all doors in its path, and teleports them to safety.</p>
+  description: >-
+    <p>Locates anyone, unlocking all doors in its path, and teleports them to
+    safety.</p>
   notes:
     description: ''
     label: ''
@@ -19,4 +21,14 @@ flags:
     sheetClass: ''
 _id: Yii6downDOWcfgZF
 sort: 0
+_stats:
+  coreVersion: '13.351'
+  systemId: null
+  systemVersion: null
+  createdTime: null
+  modifiedTime: 1768053924152
+  lastModifiedBy: UV77mtxQgW7KpS6B
+  compendiumSource: null
+  duplicateSource: null
+  exportSource: null
 _key: '!items!Yii6downDOWcfgZF'

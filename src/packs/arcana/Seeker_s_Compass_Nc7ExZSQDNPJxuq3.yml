@@ -1,0 +1,43 @@
+name: Seeker's Compass
+type: arcana
+img: icons/tools/navigation/compass-brass-blue-red.webp
+system:
+  description: >-
+    <p>Ask it "Where can I find ~?" and it will tell you. You always believe
+    it.</p>
+  notes:
+    description: ''
+    label: ''
+  trackers:
+    - type: pool
+      label: Power
+      pool:
+        diceNum: 4
+        max: 4
+      points:
+        showSteps: false
+        value: 1
+        max: 1
+  limitations: <p>4d power pool, rolled as a story roll. Replenished at 0d.</p>
+  touchstones: guidance—trust—hope
+  tier: minor
+effects: []
+folder: null
+ownership:
+  default: 0
+flags:
+  core:
+    sheetClass: ''
+_id: Nc7ExZSQDNPJxuq3
+sort: 0
+_stats:
+  coreVersion: '13.351'
+  systemId: null
+  systemVersion: null
+  createdTime: null
+  modifiedTime: 1768055021178
+  lastModifiedBy: UV77mtxQgW7KpS6B
+  compendiumSource: null
+  duplicateSource: null
+  exportSource: null
+_key: '!items!Nc7ExZSQDNPJxuq3'

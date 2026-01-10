@@ -1,6 +1,6 @@
 name: Shadowcleave Axe
 type: arcana
-img: icons/svg/mystery-man.svg
+img: icons/weapons/axes/axe-double-evil.webp
 system:
   description: <p>Drains light from the air, creating an aura of shadows.</p>
   notes:
@@ -28,4 +28,14 @@ flags:
     sheetClass: ''
 _id: 6GRg2Q7c40v1WaTE
 sort: 0
+_stats:
+  coreVersion: '13.351'
+  systemId: null
+  systemVersion: null
+  createdTime: null
+  modifiedTime: 1768055067238
+  lastModifiedBy: UV77mtxQgW7KpS6B
+  compendiumSource: null
+  duplicateSource: null
+  exportSource: null
 _key: '!items!6GRg2Q7c40v1WaTE'

@@ -1,0 +1,32 @@
+name: Shepherd's Crook of the Lost
+type: arcana
+img: icons/weapons/staves/staff-simple-spiral-grey.webp
+system:
+  description: <p>Draws wanderers and the forsaken to your side.</p>
+  notes:
+    description: ''
+    label: ''
+  trackers: []
+  limitations: <p>None, except the weight of those who find you.</p>
+  touchstones: guidance—connection—burden
+  tier: mythic
+effects: []
+folder: null
+ownership:
+  default: 0
+flags:
+  core:
+    sheetClass: ''
+_id: QiX50h4I0MgSvF64
+sort: 0
+_stats:
+  coreVersion: '13.351'
+  systemId: null
+  systemVersion: null
+  createdTime: null
+  modifiedTime: 1768055103741
+  lastModifiedBy: UV77mtxQgW7KpS6B
+  compendiumSource: null
+  duplicateSource: null
+  exportSource: null
+_key: '!items!QiX50h4I0MgSvF64'

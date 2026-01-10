@@ -1,8 +1,10 @@
 name: Wand of Starlight Blades
 type: arcana
-img: icons/svg/mystery-man.svg
+img: icons/weapons/staves/staff-ornate-blue-jewel.webp
 system:
-  description: <p>Sends out shimmering tendrils of light, cutting through darkness and foes.</p>
+  description: >-
+    <p>Sends out shimmering tendrils of light, cutting through darkness and
+    foes.</p>
   notes:
     description: ''
     label: ''
@@ -28,4 +30,14 @@ flags:
     sheetClass: ''
 _id: bVDv4NmosgLzZxwx
 sort: 0
+_stats:
+  coreVersion: '13.351'
+  systemId: null
+  systemVersion: null
+  createdTime: null
+  modifiedTime: 1768055545664
+  lastModifiedBy: UV77mtxQgW7KpS6B
+  compendiumSource: null
+  duplicateSource: null
+  exportSource: null
 _key: '!items!bVDv4NmosgLzZxwx'

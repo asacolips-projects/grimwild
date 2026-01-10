@@ -1,6 +1,6 @@
 name: Fangbound Ledger
 type: arcana
-img: systems/grimwild/assets/arcana/fangbound-ledger.png
+img: icons/sundries/books/book-mimic.webp
 system:
   description: <p>Bites anyone but its owner.</p>
   notes:
@@ -19,4 +19,14 @@ flags:
     sheetClass: ''
 _id: AxlC7Ra03zNm17p5
 sort: 0
+_stats:
+  coreVersion: '13.351'
+  systemId: null
+  systemVersion: null
+  createdTime: null
+  modifiedTime: 1768052869171
+  lastModifiedBy: UV77mtxQgW7KpS6B
+  compendiumSource: null
+  duplicateSource: null
+  exportSource: null
 _key: '!items!AxlC7Ra03zNm17p5'

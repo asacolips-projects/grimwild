@@ -1,0 +1,32 @@
+name: Fear's End
+type: arcana
+img: icons/sundries/flags/banner-flag-pirate-blue.webp
+system:
+  description: <p>When flown over a ship, appears as the viewer’s home nation’s flag.</p>
+  notes:
+    description: ''
+    label: ''
+  trackers: []
+  limitations: <p>Displays an enemy nation's flag to those with evil hearts.</p>
+  touchstones: flag—trickery—hope
+  tier: minor
+effects: []
+folder: null
+ownership:
+  default: 0
+flags:
+  core:
+    sheetClass: ''
+_id: hAos3rmjey3OnR4u
+sort: 0
+_stats:
+  coreVersion: '13.351'
+  systemId: null
+  systemVersion: null
+  createdTime: null
+  modifiedTime: 1768053392813
+  lastModifiedBy: UV77mtxQgW7KpS6B
+  compendiumSource: null
+  duplicateSource: null
+  exportSource: null
+_key: '!items!hAos3rmjey3OnR4u'

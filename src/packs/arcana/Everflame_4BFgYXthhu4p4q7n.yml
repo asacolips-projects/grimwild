@@ -1,6 +1,6 @@
 name: Everflame
 type: arcana
-img: icons/svg/mystery-man.svg
+img: icons/sundries/lights/torch-brown-lit.webp
 system:
   description: <p>Burns endlessly, no matter what you do to extinguish it.</p>
   notes:
@@ -19,4 +19,14 @@ flags:
     sheetClass: ''
 _id: 4BFgYXthhu4p4q7n
 sort: 0
+_stats:
+  coreVersion: '13.351'
+  systemId: null
+  systemVersion: null
+  createdTime: null
+  modifiedTime: 1768053318880
+  lastModifiedBy: UV77mtxQgW7KpS6B
+  compendiumSource: null
+  duplicateSource: null
+  exportSource: null
 _key: '!items!4BFgYXthhu4p4q7n'

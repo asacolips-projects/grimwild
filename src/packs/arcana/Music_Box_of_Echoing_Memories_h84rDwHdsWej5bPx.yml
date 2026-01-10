@@ -1,6 +1,6 @@
 name: Music Box of Echoing Memories
 type: arcana
-img: icons/svg/mystery-man.svg
+img: icons/containers/chest/chest-reinforced-box-brown.webp
 system:
   description: <p>Plays soft melodies that evoke fleeting, bittersweet memories.</p>
   notes:
@@ -28,4 +28,14 @@ flags:
     sheetClass: ''
 _id: h84rDwHdsWej5bPx
 sort: 0
+_stats:
+  coreVersion: '13.351'
+  systemId: null
+  systemVersion: null
+  createdTime: null
+  modifiedTime: 1768054563849
+  lastModifiedBy: UV77mtxQgW7KpS6B
+  compendiumSource: null
+  duplicateSource: null
+  exportSource: null
 _key: '!items!h84rDwHdsWej5bPx'

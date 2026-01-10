@@ -1,6 +1,6 @@
 name: Jar of Bound Power
 type: arcana
-img: icons/svg/mystery-man.svg
+img: icons/creatures/magical/fae-fairy-winged-glowing-green.webp
 system:
   description: <p>Holds a terrible force disguised as a harmless fairy.</p>
   notes:
@@ -19,4 +19,14 @@ flags:
     sheetClass: ''
 _id: QP2XEps2C6b0q8cY
 sort: 0
+_stats:
+  coreVersion: '13.351'
+  systemId: null
+  systemVersion: null
+  createdTime: null
+  modifiedTime: 1768053843966
+  lastModifiedBy: UV77mtxQgW7KpS6B
+  compendiumSource: null
+  duplicateSource: null
+  exportSource: null
 _key: '!items!QP2XEps2C6b0q8cY'

@@ -1,6 +1,6 @@
 name: Ship in a Bottle
 type: arcana
-img: icons/svg/mystery-man.svg
+img: icons/environment/settlement/ship.webp
 system:
   description: <p>Transforms into a full-sized ship crewed by sailors for seven days.</p>
   notes:
@@ -19,4 +19,14 @@ flags:
     sheetClass: ''
 _id: nbWbl8GLsQQGmfV7
 sort: 0
+_stats:
+  coreVersion: '13.351'
+  systemId: null
+  systemVersion: null
+  createdTime: null
+  modifiedTime: 1768055153345
+  lastModifiedBy: UV77mtxQgW7KpS6B
+  compendiumSource: null
+  duplicateSource: null
+  exportSource: null
 _key: '!items!nbWbl8GLsQQGmfV7'

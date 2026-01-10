@@ -1,6 +1,6 @@
 name: Homunculus Seed
 type: arcana
-img: systems/grimwild/assets/arcana/homunuculus-seed.png
+img: icons/creatures/magical/humanoid-silhouette-glowing-pink.webp
 system:
   description: <p>Grows a living copy of someone, complete with their memories.</p>
   notes:
@@ -19,4 +19,14 @@ flags:
     sheetClass: ''
 _id: cwJ4Ris005fzvIdn
 sort: 0
+_stats:
+  coreVersion: '13.351'
+  systemId: null
+  systemVersion: null
+  createdTime: null
+  modifiedTime: 1768053678331
+  lastModifiedBy: UV77mtxQgW7KpS6B
+  compendiumSource: null
+  duplicateSource: null
+  exportSource: null
 _key: '!items!cwJ4Ris005fzvIdn'

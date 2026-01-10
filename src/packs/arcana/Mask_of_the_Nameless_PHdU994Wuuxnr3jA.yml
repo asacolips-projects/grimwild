@@ -1,6 +1,6 @@
 name: Mask of the Nameless
 type: arcana
-img: systems/grimwild/assets/arcana/mask-of-the-nameless.png
+img: icons/equipment/head/mask-carved-wood-white.webp
 system:
   description: <p>Erases your identity from the minds of all.</p>
   notes:
@@ -9,13 +9,12 @@ system:
   trackers:
     - type: points
       label: Uses
-      pool:
-        diceNum: 1
-        max: 1
       points:
-        showSteps: false
         value: 3
         max: 3
+        showSteps: false
+      pool:
+        diceNum: 0
   limitations: <p>Only usable three times. Randomly temporary or permanent.</p>
   touchstones: anonymity—face—oblivion
   tier: mythic
@@ -28,4 +27,14 @@ flags:
     sheetClass: ''
 _id: PHdU994Wuuxnr3jA
 sort: 0
+_stats:
+  coreVersion: '13.351'
+  systemId: grimwild
+  systemVersion: 0.3.1
+  createdTime: null
+  modifiedTime: 1768054057545
+  lastModifiedBy: UV77mtxQgW7KpS6B
+  compendiumSource: null
+  duplicateSource: null
+  exportSource: null
 _key: '!items!PHdU994Wuuxnr3jA'
