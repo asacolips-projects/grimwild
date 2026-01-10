@@ -11,20 +11,20 @@ system:
   touchstones: bats—vigilance—companionship
   tier: minor
 effects: []
-folder: null
+folder: oqUqojrnxgojYi6E
 ownership:
   default: 0
 flags:
   core:
     sheetClass: ''
 _id: ZKJ0BQZb43nB271N
-sort: 0
+sort: 200000
 _stats:
   coreVersion: '13.351'
   systemId: null
   systemVersion: null
   createdTime: null
-  modifiedTime: 1768052560800
+  modifiedTime: 1768055809728
   lastModifiedBy: UV77mtxQgW7KpS6B
   compendiumSource: null
   duplicateSource: null

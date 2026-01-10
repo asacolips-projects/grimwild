@@ -22,20 +22,20 @@ system:
   touchstones: keys—locks—truths
   tier: major
 effects: []
-folder: null
+folder: TXQhZm5xNEInpO1T
 ownership:
   default: 0
 flags:
   core:
     sheetClass: ''
 _id: iV6cVigxtNSQpAc9
-sort: 0
+sort: 200000
 _stats:
   coreVersion: '13.351'
   systemId: null
   systemVersion: null
   createdTime: null
-  modifiedTime: 1768052583506
+  modifiedTime: 1768055815276
   lastModifiedBy: UV77mtxQgW7KpS6B
   compendiumSource: null
   duplicateSource: null

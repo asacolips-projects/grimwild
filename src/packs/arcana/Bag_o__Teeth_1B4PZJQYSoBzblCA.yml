@@ -21,20 +21,20 @@ system:
   touchstones: illusions—teeth—memory
   tier: minor
 effects: []
-folder: null
+folder: oqUqojrnxgojYi6E
 ownership:
   default: 0
 flags:
   core:
     sheetClass: ''
 _id: 1B4PZJQYSoBzblCA
-sort: 0
+sort: 100000
 _stats:
   coreVersion: '13.351'
   systemId: grimwild
   systemVersion: 0.3.1
   createdTime: null
-  modifiedTime: 1768052461539
+  modifiedTime: 1768055799858
   lastModifiedBy: UV77mtxQgW7KpS6B
   compendiumSource: null
   duplicateSource: null

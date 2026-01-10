@@ -22,20 +22,20 @@ system:
   touchstones: petrification—gaze—protection
   tier: major
 effects: []
-folder: null
+folder: TXQhZm5xNEInpO1T
 ownership:
   default: 0
 flags:
   core:
     sheetClass: ''
 _id: 9jnvv1htsWa3yUGy
-sort: 0
+sort: 100000
 _stats:
   coreVersion: '13.351'
   systemId: null
   systemVersion: null
   createdTime: null
-  modifiedTime: 1768052528287
+  modifiedTime: 1768055805536
   lastModifiedBy: UV77mtxQgW7KpS6B
   compendiumSource: null
   duplicateSource: null
