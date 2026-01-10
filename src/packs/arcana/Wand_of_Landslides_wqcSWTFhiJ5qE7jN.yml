@@ -1,0 +1,32 @@
+name: Wand of Landslides
+type: arcana
+img: icons/weapons/staves/staff-simple-knotted.webp
+system:
+  description: <p>Commands stone and soil to rise or fall at your will.</p>
+  notes:
+    description: ''
+    label: ''
+  trackers: []
+  limitations: <p>Roll Brawn to use it. Destabilizes the tectonics in the region.</p>
+  touchstones: earth—control—colossal
+  tier: mythic
+effects: []
+folder: PNHXnKBouD6bBJIK
+ownership:
+  default: 0
+flags:
+  core:
+    sheetClass: ''
+_id: wqcSWTFhiJ5qE7jN
+sort: 0
+_stats:
+  coreVersion: '13.351'
+  systemId: null
+  systemVersion: null
+  createdTime: null
+  modifiedTime: 1768055531598
+  lastModifiedBy: UV77mtxQgW7KpS6B
+  compendiumSource: null
+  duplicateSource: null
+  exportSource: null
+_key: '!items!wqcSWTFhiJ5qE7jN'

@@ -1,0 +1,32 @@
+name: Steadyhand Dagger
+type: arcana
+img: icons/weapons/daggers/dagger-bone-black.webp
+system:
+  description: <p>Ignore thorns from rattled when using this dagger.</p>
+  notes:
+    description: ''
+    label: ''
+  trackers: []
+  limitations: <p>Will leap to your hand if you take vex.</p>
+  touchstones: courage—precision—malice
+  tier: minor
+effects: []
+folder: oqUqojrnxgojYi6E
+ownership:
+  default: 0
+flags:
+  core:
+    sheetClass: ''
+_id: vMBiW88mSdzwN4v2
+sort: 0
+_stats:
+  coreVersion: '13.351'
+  systemId: null
+  systemVersion: null
+  createdTime: null
+  modifiedTime: 1768055419493
+  lastModifiedBy: UV77mtxQgW7KpS6B
+  compendiumSource: null
+  duplicateSource: null
+  exportSource: null
+_key: '!items!vMBiW88mSdzwN4v2'

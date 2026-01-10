@@ -1,0 +1,40 @@
+name: Ring of Good Fortune
+type: arcana
+img: icons/equipment/finger/ring-band-gold-purple.webp
+system:
+  description: <p>Adds up to 3 points to any of your own story rolls.</p>
+  notes:
+    description: ''
+    label: ''
+  trackers:
+    - type: points
+      label: Uses
+      points:
+        value: 3
+        max: 3
+        showSteps: false
+      pool:
+        diceNum: 0
+  limitations: <p>Holds 3 points, replenished by taking 3 points from a story roll.</p>
+  touchstones: luck—balance—timing
+  tier: mythic
+effects: []
+folder: PNHXnKBouD6bBJIK
+ownership:
+  default: 0
+flags:
+  core:
+    sheetClass: ''
+_id: nh3fYtmIXmUJodWz
+sort: 0
+_stats:
+  coreVersion: '13.351'
+  systemId: grimwild
+  systemVersion: 0.3.1
+  createdTime: null
+  modifiedTime: 1768054982387
+  lastModifiedBy: UV77mtxQgW7KpS6B
+  compendiumSource: null
+  duplicateSource: null
+  exportSource: null
+_key: '!items!nh3fYtmIXmUJodWz'

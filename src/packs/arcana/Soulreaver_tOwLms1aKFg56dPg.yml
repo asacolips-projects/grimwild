@@ -1,0 +1,43 @@
+name: Soulreaver
+type: arcana
+img: icons/weapons/swords/greatsword-guard-split-eyes.webp
+system:
+  description: >-
+    <p>Stores the souls of slain worthy foes to unleash devastating final
+    blows.</p>
+  notes:
+    description: ''
+    label: ''
+  trackers:
+    - type: pool
+      label: Power
+      pool:
+        diceNum: 4
+        max: 4
+      points:
+        showSteps: false
+        value: 1
+        max: 1
+  limitations: <p>Each kill banks 1d (3d), spendable to take +1d in a fight.</p>
+  touchstones: souls—death—finality
+  tier: mythic
+effects: []
+folder: PNHXnKBouD6bBJIK
+ownership:
+  default: 0
+flags:
+  core:
+    sheetClass: ''
+_id: tOwLms1aKFg56dPg
+sort: 0
+_stats:
+  coreVersion: '13.351'
+  systemId: null
+  systemVersion: null
+  createdTime: null
+  modifiedTime: 1768055214275
+  lastModifiedBy: UV77mtxQgW7KpS6B
+  compendiumSource: null
+  duplicateSource: null
+  exportSource: null
+_key: '!items!tOwLms1aKFg56dPg'

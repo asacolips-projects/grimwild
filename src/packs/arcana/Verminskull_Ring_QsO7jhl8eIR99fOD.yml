@@ -1,0 +1,41 @@
+name: Verminskull Ring
+type: arcana
+img: icons/equipment/finger/ring-inlay-skull-silver.webp
+system:
+  description: <p>Commands vermin to devour, reveal secrets, or retrieve valuables.</p>
+  notes:
+    description: ''
+    label: ''
+  trackers:
+    - type: pool
+      label: Power
+      pool:
+        diceNum: 8
+        max: 8
+      points:
+        showSteps: false
+        value: 1
+        max: 1
+  limitations: <p>8d power pool, refreshed by feeding one of your fingers.</p>
+  touchstones: vermin—command—swarm
+  tier: mythic
+effects: []
+folder: PNHXnKBouD6bBJIK
+ownership:
+  default: 0
+flags:
+  core:
+    sheetClass: ''
+_id: QsO7jhl8eIR99fOD
+sort: 0
+_stats:
+  coreVersion: '13.351'
+  systemId: null
+  systemVersion: null
+  createdTime: null
+  modifiedTime: 1768055489882
+  lastModifiedBy: UV77mtxQgW7KpS6B
+  compendiumSource: null
+  duplicateSource: null
+  exportSource: null
+_key: '!items!QsO7jhl8eIR99fOD'

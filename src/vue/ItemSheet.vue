@@ -17,7 +17,7 @@
 							<!-- Description -->
 							<ItemDescription :item="context.item" :context="context"/>
 							<!-- Notes -->
-							<fieldset v-if="context.item.type === 'talent'">
+							<fieldset v-if="context.system?.notes">
 								<legend>Notes</legend>
 								<div class="notes form-group stacked">
 									<label>Label</label>
@@ -28,12 +28,15 @@
 								</div>
 							</fieldset>
 						</Tab>
-				
+
 						<!-- Attack fields -->
 						<Tab group="primary" :tab="tabs.primary.attributes">
+							<!-- Arcana Details -->
+							<ArcanaDetails v-if="context.item.type === 'arcana'" :context="context"/>
+							<!-- Trackers -->
 							<ItemAttributes :context="context" />
 						</Tab>
-		
+
 						<!-- @todo Active effects disabled for now. -->
 						<!-- Active Effect Fields -->
 						<!-- <Tab group="primary" :tab="tabs.primary.effects">
@@ -54,7 +57,8 @@ import {
 	ItemHeader,
 	ItemDescription,
 	ItemAttributes,
-	Prosemirror
+	Prosemirror,
+	ArcanaDetails
 } from '@/components';
 import { reactive, toRaw } from 'vue';
 

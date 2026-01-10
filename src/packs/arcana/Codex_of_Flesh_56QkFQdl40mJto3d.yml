@@ -1,0 +1,42 @@
+name: Codex of Flesh
+type: arcana
+img: icons/sundries/books/book-reye-reptile-brown.webp
+system:
+  description: >-
+    <p>Turns into and acts like anyone who writes their name inside for 1
+    day.</p>
+  notes:
+    description: ''
+    label: ''
+  trackers:
+    - type: points
+      label: Uses
+      points:
+        value: 1
+        max: 1
+        showSteps: false
+      pool:
+        diceNum: 0
+  limitations: <p>Can mimic each person once. Destroyed if seen by them.</p>
+  touchstones: transformation—identity—knowledge
+  tier: major
+effects: []
+folder: TXQhZm5xNEInpO1T
+ownership:
+  default: 0
+flags:
+  core:
+    sheetClass: ''
+_id: 56QkFQdl40mJto3d
+sort: 0
+_stats:
+  coreVersion: '13.351'
+  systemId: grimwild
+  systemVersion: 0.3.1
+  createdTime: null
+  modifiedTime: 1768052854223
+  lastModifiedBy: UV77mtxQgW7KpS6B
+  compendiumSource: null
+  duplicateSource: null
+  exportSource: null
+_key: '!items!56QkFQdl40mJto3d'

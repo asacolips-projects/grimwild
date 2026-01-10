@@ -1,0 +1,32 @@
+name: Twigbow
+type: arcana
+img: icons/weapons/bows/shortbow-leaves-green.webp
+system:
+  description: <p>Always supplies its wielder with arrows when among nature.</p>
+  notes:
+    description: ''
+    label: ''
+  trackers: []
+  limitations: <p>Only works near trees.</p>
+  touchstones: nature—arrows—resourcefulness
+  tier: minor
+effects: []
+folder: oqUqojrnxgojYi6E
+ownership:
+  default: 0
+flags:
+  core:
+    sheetClass: ''
+_id: YdfnyrypNjAIyV9z
+sort: 0
+_stats:
+  coreVersion: '13.351'
+  systemId: null
+  systemVersion: null
+  createdTime: null
+  modifiedTime: 1768055432699
+  lastModifiedBy: UV77mtxQgW7KpS6B
+  compendiumSource: null
+  duplicateSource: null
+  exportSource: null
+_key: '!items!YdfnyrypNjAIyV9z'

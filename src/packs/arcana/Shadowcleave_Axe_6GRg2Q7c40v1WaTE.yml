@@ -1,0 +1,41 @@
+name: Shadowcleave Axe
+type: arcana
+img: icons/weapons/axes/axe-double-evil.webp
+system:
+  description: <p>Drains light from the air, creating an aura of shadows.</p>
+  notes:
+    description: ''
+    label: ''
+  trackers:
+    - type: pool
+      label: Power
+      pool:
+        diceNum: 4
+        max: 4
+      points:
+        showSteps: false
+        value: 1
+        max: 1
+  limitations: <p>4d resource pool, replenished by killing two+ foes in one strike.</p>
+  touchstones: shadows—cleaving—weight
+  tier: major
+effects: []
+folder: TXQhZm5xNEInpO1T
+ownership:
+  default: 0
+flags:
+  core:
+    sheetClass: ''
+_id: 6GRg2Q7c40v1WaTE
+sort: 0
+_stats:
+  coreVersion: '13.351'
+  systemId: null
+  systemVersion: null
+  createdTime: null
+  modifiedTime: 1768055067238
+  lastModifiedBy: UV77mtxQgW7KpS6B
+  compendiumSource: null
+  duplicateSource: null
+  exportSource: null
+_key: '!items!6GRg2Q7c40v1WaTE'

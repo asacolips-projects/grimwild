@@ -1,0 +1,32 @@
+name: Pick Me Up Teapot
+type: arcana
+img: icons/consumables/drinks/coconut-fruit-milk.webp
+system:
+  description: <p>Brews warm tea that removes all fatigue you might feel.</p>
+  notes:
+    description: ''
+    label: ''
+  trackers: []
+  limitations: <p>Defense roll against vexed when drank—it can overdo it.</p>
+  touchstones: rejuvenation—comfort—excess
+  tier: minor
+effects: []
+folder: oqUqojrnxgojYi6E
+ownership:
+  default: 0
+flags:
+  core:
+    sheetClass: ''
+_id: 3cZhOjnEuEXWMno8
+sort: 0
+_stats:
+  coreVersion: '13.351'
+  systemId: null
+  systemVersion: null
+  createdTime: null
+  modifiedTime: 1768054858088
+  lastModifiedBy: UV77mtxQgW7KpS6B
+  compendiumSource: null
+  duplicateSource: null
+  exportSource: null
+_key: '!items!3cZhOjnEuEXWMno8'

@@ -1,0 +1,20 @@
+type: Item
+folder: null
+name: Minor
+color: null
+sorting: a
+_id: oqUqojrnxgojYi6E
+description: ''
+sort: 0
+flags: {}
+_stats:
+  compendiumSource: null
+  duplicateSource: null
+  exportSource: null
+  coreVersion: '13.351'
+  systemId: grimwild
+  systemVersion: 0.3.1
+  createdTime: 1768055779612
+  modifiedTime: 1768055779612
+  lastModifiedBy: UV77mtxQgW7KpS6B
+_key: '!folders!oqUqojrnxgojYi6E'

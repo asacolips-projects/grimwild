@@ -1,0 +1,34 @@
+name: Forestwalk Charm
+type: arcana
+img: icons/equipment/neck/necklace-simple-carved-wood-green.webp
+system:
+  description: >-
+    <p>Allows you to move through dense foliage as effortlessly as walking a
+    street.</p>
+  notes:
+    description: ''
+    label: ''
+  trackers: []
+  limitations: <p>None.</p>
+  touchstones: nature—movement—ease
+  tier: major
+effects: []
+folder: TXQhZm5xNEInpO1T
+ownership:
+  default: 0
+flags:
+  core:
+    sheetClass: ''
+_id: LgtmB0sS6cQonsEX
+sort: 0
+_stats:
+  coreVersion: '13.351'
+  systemId: null
+  systemVersion: null
+  createdTime: null
+  modifiedTime: 1768053518291
+  lastModifiedBy: UV77mtxQgW7KpS6B
+  compendiumSource: null
+  duplicateSource: null
+  exportSource: null
+_key: '!items!LgtmB0sS6cQonsEX'

@@ -1,0 +1,34 @@
+name: Spiderchange Circlet
+type: arcana
+img: icons/equipment/finger/ring-cabochon-silver-gold-red.webp
+system:
+  description: >-
+    <p>Transforms you into a spider, gaining limbs, fangs, webber, and
+    instincts.</p>
+  notes:
+    description: ''
+    label: ''
+  trackers: []
+  limitations: <p>Only activates when it decides it's needed.</p>
+  touchstones: transformation—instincts—spider
+  tier: mythic
+effects: []
+folder: PNHXnKBouD6bBJIK
+ownership:
+  default: 0
+flags:
+  core:
+    sheetClass: ''
+_id: PzGqUVSIDWAPg2Vt
+sort: 0
+_stats:
+  coreVersion: '13.351'
+  systemId: null
+  systemVersion: null
+  createdTime: null
+  modifiedTime: 1768055289195
+  lastModifiedBy: UV77mtxQgW7KpS6B
+  compendiumSource: null
+  duplicateSource: null
+  exportSource: null
+_key: '!items!PzGqUVSIDWAPg2Vt'

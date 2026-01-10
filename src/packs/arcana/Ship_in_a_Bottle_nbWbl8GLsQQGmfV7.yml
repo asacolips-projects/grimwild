@@ -1,0 +1,32 @@
+name: Ship in a Bottle
+type: arcana
+img: icons/environment/settlement/ship.webp
+system:
+  description: <p>Transforms into a full-sized ship crewed by sailors for seven days.</p>
+  notes:
+    description: ''
+    label: ''
+  trackers: []
+  limitations: <p>Must reach a port within 7 days. Crew requires shore time.</p>
+  touchstones: transformation—voyage—ship
+  tier: mythic
+effects: []
+folder: PNHXnKBouD6bBJIK
+ownership:
+  default: 0
+flags:
+  core:
+    sheetClass: ''
+_id: nbWbl8GLsQQGmfV7
+sort: 0
+_stats:
+  coreVersion: '13.351'
+  systemId: null
+  systemVersion: null
+  createdTime: null
+  modifiedTime: 1768055153345
+  lastModifiedBy: UV77mtxQgW7KpS6B
+  compendiumSource: null
+  duplicateSource: null
+  exportSource: null
+_key: '!items!nbWbl8GLsQQGmfV7'

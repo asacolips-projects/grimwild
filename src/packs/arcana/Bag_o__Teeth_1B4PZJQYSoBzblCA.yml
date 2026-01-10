@@ -1,0 +1,42 @@
+name: Bag o' Teeth
+type: arcana
+img: icons/containers/bags/sack-leather-stitched-brown.webp
+system:
+  description: >-
+    <p>Place a tooth in the bag. One time later, create an illusion of that
+    creature.</p>
+  notes:
+    description: ''
+    label: ''
+  trackers:
+    - type: points
+      label: Uses
+      points:
+        value: 1
+        max: 1
+        showSteps: false
+      pool:
+        diceNum: 0
+  limitations: <p>Only 1 tooth ever per creature type.</p>
+  touchstones: illusions—teeth—memory
+  tier: minor
+effects: []
+folder: oqUqojrnxgojYi6E
+ownership:
+  default: 0
+flags:
+  core:
+    sheetClass: ''
+_id: 1B4PZJQYSoBzblCA
+sort: 100000
+_stats:
+  coreVersion: '13.351'
+  systemId: grimwild
+  systemVersion: 0.3.1
+  createdTime: null
+  modifiedTime: 1768055799858
+  lastModifiedBy: UV77mtxQgW7KpS6B
+  compendiumSource: null
+  duplicateSource: null
+  exportSource: null
+_key: '!items!1B4PZJQYSoBzblCA'

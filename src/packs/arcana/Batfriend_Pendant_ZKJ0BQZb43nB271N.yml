@@ -1,0 +1,32 @@
+name: Batfriend Pendant
+type: arcana
+img: icons/creatures/mammals/bat-giant-tattered-purple.webp
+system:
+  description: <p>Warns of approaching intruders while outdoors at night.</p>
+  notes:
+    description: ''
+    label: ''
+  trackers: []
+  limitations: <p>Only works outdoors at night.</p>
+  touchstones: bats—vigilance—companionship
+  tier: minor
+effects: []
+folder: oqUqojrnxgojYi6E
+ownership:
+  default: 0
+flags:
+  core:
+    sheetClass: ''
+_id: ZKJ0BQZb43nB271N
+sort: 200000
+_stats:
+  coreVersion: '13.351'
+  systemId: null
+  systemVersion: null
+  createdTime: null
+  modifiedTime: 1768055809728
+  lastModifiedBy: UV77mtxQgW7KpS6B
+  compendiumSource: null
+  duplicateSource: null
+  exportSource: null
+_key: '!items!ZKJ0BQZb43nB271N'

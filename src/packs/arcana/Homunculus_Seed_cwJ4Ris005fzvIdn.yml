@@ -1,0 +1,32 @@
+name: Homunculus Seed
+type: arcana
+img: icons/creatures/magical/humanoid-silhouette-glowing-pink.webp
+system:
+  description: <p>Grows a living copy of someone, complete with their memories.</p>
+  notes:
+    description: ''
+    label: ''
+  trackers: []
+  limitations: <p>Must be planted and grow for a year and a day.</p>
+  touchstones: replication—life—mystery
+  tier: mythic
+effects: []
+folder: PNHXnKBouD6bBJIK
+ownership:
+  default: 0
+flags:
+  core:
+    sheetClass: ''
+_id: cwJ4Ris005fzvIdn
+sort: 0
+_stats:
+  coreVersion: '13.351'
+  systemId: null
+  systemVersion: null
+  createdTime: null
+  modifiedTime: 1768053678331
+  lastModifiedBy: UV77mtxQgW7KpS6B
+  compendiumSource: null
+  duplicateSource: null
+  exportSource: null
+_key: '!items!cwJ4Ris005fzvIdn'

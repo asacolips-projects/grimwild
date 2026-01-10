@@ -121,7 +121,8 @@ export class GrimwildItemSheetVue extends VueRenderingMixin(GrimwildBaseVueItemS
 		// Enrich other fields.
 		const fields = [
 			"description",
-			"notes.description"
+			"notes.description",
+			"limitations"
 		];
 
 		for (let field of fields) {

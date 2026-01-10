@@ -1,0 +1,44 @@
+name: Ring of Vipers
+type: arcana
+img: icons/equipment/finger/ring-eye-purple-yellow.webp
+system:
+  description: >-
+    <p class="p1">The poisonous viper on the ring will uncoil and become a real
+    viper.</p>
+  notes:
+    description: ''
+    label: ''
+  trackers:
+    - type: pool
+      label: Power
+      pool:
+        diceNum: 4
+        max: 4
+      points:
+        showSteps: false
+        value: 1
+        max: 1
+  limitations: <p>4d power pool, refreshed by being bitten by the viper.</p>
+  touchstones: viper—venom—whispers
+  tier: minor
+effects: []
+folder: oqUqojrnxgojYi6E
+ownership:
+  default: 0
+  UV77mtxQgW7KpS6B: 3
+flags:
+  core:
+    sheetClass: ''
+_stats:
+  compendiumSource: null
+  duplicateSource: null
+  exportSource: null
+  coreVersion: '13.351'
+  systemId: grimwild
+  systemVersion: 0.3.1
+  createdTime: 1767753348257
+  modifiedTime: 1767753348257
+  lastModifiedBy: UV77mtxQgW7KpS6B
+_id: L6YS3x1LtTEkz22k
+sort: 0
+_key: '!items!L6YS3x1LtTEkz22k'

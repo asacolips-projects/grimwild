@@ -119,6 +119,11 @@ packs:
     type: Item
     path: packs/talents
     system: grimwild
+  - name: arcana
+    label: Arcana
+    type: Item
+    path: packs/arcana
+    system: grimwild
 packFolders: []
 
 socket: true

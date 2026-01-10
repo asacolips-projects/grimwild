@@ -1,5 +1,5 @@
 <template>
-	<TalentTrackers v-if="context.item.type === 'talent'" :context="context"/>
+	<TalentTrackers v-if="['arcana', 'talent'].includes(context.item.type)" :context="context"/>
 	<ChallengeTraitsMoves v-if="context.item.type === 'challenge'" :context="context" />
 </template>
 

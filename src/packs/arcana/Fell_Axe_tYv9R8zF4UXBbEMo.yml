@@ -1,0 +1,34 @@
+name: Fell Axe
+type: arcana
+img: icons/weapons/axes/axe-battle-worn-eye.webp
+system:
+  description: >-
+    <p>Killing something with this axe ensures they can never be brought
+    back.</p>
+  notes:
+    description: ''
+    label: ''
+  trackers: []
+  limitations: <p>Demands you kill any you wield this against.</p>
+  touchstones: necromancy—violence—death
+  tier: major
+effects: []
+folder: TXQhZm5xNEInpO1T
+ownership:
+  default: 0
+flags:
+  core:
+    sheetClass: ''
+_id: tYv9R8zF4UXBbEMo
+sort: 0
+_stats:
+  coreVersion: '13.351'
+  systemId: null
+  systemVersion: null
+  createdTime: null
+  modifiedTime: 1768053440107
+  lastModifiedBy: UV77mtxQgW7KpS6B
+  compendiumSource: null
+  duplicateSource: null
+  exportSource: null
+_key: '!items!tYv9R8zF4UXBbEMo'

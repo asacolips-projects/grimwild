@@ -5,6 +5,7 @@ foundry.js
 jsconfig.json
 foundry
 foundry-config.yaml
+.DS_Store
 
 # Important files
 .env

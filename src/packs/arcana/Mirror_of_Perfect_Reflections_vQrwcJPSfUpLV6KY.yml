@@ -1,0 +1,32 @@
+name: Mirror of Perfect Reflections
+type: arcana
+img: icons/magic/control/mouth-smile-deception-purple.webp
+system:
+  description: <p>Shows a fleeting glimpse of the viewer's best self.</p>
+  notes:
+    description: ''
+    label: ''
+  trackers: []
+  limitations: <p>Take rattled when used, knowing that's not you now.</p>
+  touchstones: reflection—insight—hope
+  tier: minor
+effects: []
+folder: oqUqojrnxgojYi6E
+ownership:
+  default: 0
+flags:
+  core:
+    sheetClass: ''
+_id: vQrwcJPSfUpLV6KY
+sort: 0
+_stats:
+  coreVersion: '13.351'
+  systemId: null
+  systemVersion: null
+  createdTime: null
+  modifiedTime: 1768054537441
+  lastModifiedBy: UV77mtxQgW7KpS6B
+  compendiumSource: null
+  duplicateSource: null
+  exportSource: null
+_key: '!items!vQrwcJPSfUpLV6KY'

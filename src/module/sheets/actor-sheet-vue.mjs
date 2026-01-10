@@ -21,6 +21,11 @@ export class GrimwildActorSheetVue extends VueRenderingMixin(GrimwildBaseVueActo
 			talent: [
 				"description",
 				"notes.description"
+			],
+			arcana: [
+				"description",
+				"notes.description",
+				"limitations"
 			]
 		}
 	};
@@ -54,12 +59,12 @@ export class GrimwildActorSheetVue extends VueRenderingMixin(GrimwildBaseVueActo
 			createArrayEntry: this._createArrayEntry,
 			deleteArrayEntry: this._deleteArrayEntry,
 			changeXp: this._changeXp,
-			updateTalentTracker: this._updateTalentTracker,
+			updateItemTracker: this._updateItemTracker,
 			rollPool: this._rollPool,
 			roll: this._onRoll
 		},
 		changeActions: {
-			updateTalentTracker: this._updateTalentTracker
+			updateItemTracker: this._updateItemTracker
 		},
 		// Custom property that's merged into `this.options`
 		dragDrop: [{ dragSelector: "[data-drag]", dropSelector: null }],
@@ -269,6 +274,12 @@ export class GrimwildActorSheetVue extends VueRenderingMixin(GrimwildBaseVueActo
 				label: game.i18n.localize("GRIMWILD.Actor.Tabs.Talents"),
 				active: false
 			};
+
+			context.tabs.primary.arcana = {
+				key: "arcana",
+				label: game.i18n.localize("GRIMWILD.Actor.Tabs.Arcana"),
+				active: false
+			};
 		}
 
 		// Tabs available to all actors.
@@ -473,7 +484,7 @@ export class GrimwildActorSheetVue extends VueRenderingMixin(GrimwildBaseVueActo
 	 * @param {HTMLElement} target The capturing HTML element which defined a [data-action]
 	 * @private
 	 */
-	static async _updateTalentTracker(event, target) {
+	static async _updateItemTracker(event, target) {
 		event.preventDefault();
 		// Retrieve props.
 		const {

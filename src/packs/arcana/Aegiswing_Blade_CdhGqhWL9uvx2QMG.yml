@@ -1,0 +1,34 @@
+name: Aegiswing Blade
+type: arcana
+img: icons/weapons/swords/sword-gold-holy.webp
+system:
+  description: >-
+    <p>Fights alongside you as a trusted ally, as if a level 1 fighter with
+    Bulwark.</p>
+  notes:
+    description: ''
+    label: ''
+  trackers: []
+  limitations: <p>If it is destroyed, you die.</p>
+  touchstones: flight—protection—loyalty
+  tier: mythic
+effects: []
+folder: PNHXnKBouD6bBJIK
+ownership:
+  default: 0
+flags:
+  core:
+    sheetClass: ''
+_id: CdhGqhWL9uvx2QMG
+sort: 100000
+_stats:
+  coreVersion: '13.351'
+  systemId: null
+  systemVersion: null
+  createdTime: null
+  modifiedTime: 1768055792567
+  lastModifiedBy: UV77mtxQgW7KpS6B
+  compendiumSource: null
+  duplicateSource: null
+  exportSource: null
+_key: '!items!CdhGqhWL9uvx2QMG'

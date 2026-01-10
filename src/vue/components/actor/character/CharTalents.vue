@@ -62,7 +62,7 @@
 									<!-- Pools -->
 									<div v-if="tracker.type === 'pool'" class="tracker-value-pool">
 										<input type="number"
-											data-action-change="updateTalentTracker"
+											data-action-change="updateItemTracker"
 											:data-item-id="item.id"
 											:data-tracker-key="trackerKey"
 											:value="tracker.pool.diceNum"
@@ -76,7 +76,7 @@
 										<div v-if="tracker.points.showSteps" class="tracker-steps flexrow">
 											<template v-for="(num, i) in tracker.points.max" :key="i">
 												<input type="checkbox"
-													data-action="updateTalentTracker"
+													data-action="updateItemTracker"
 													:data-item-id="item.id"
 													:data-tracker-key="trackerKey"
 													:data-tracker-step-key="i"
@@ -89,7 +89,7 @@
 										<!-- Numeric points -->
 										<div v-else class="tracker-value-numeric">
 											<input type="number"
-												data-action-change="updateTalentTracker"
+												data-action-change="updateItemTracker"
 												:data-item-id="item.id"
 												:data-tracker-key="trackerKey"
 												:value="tracker.points.value"

@@ -1,0 +1,32 @@
+name: Jar of Bound Power
+type: arcana
+img: icons/creatures/magical/fae-fairy-winged-glowing-green.webp
+system:
+  description: <p>Holds a terrible force disguised as a harmless fairy.</p>
+  notes:
+    description: ''
+    label: ''
+  trackers: []
+  limitations: <p>Shatters violently if mishandled, unleashing its full power.</p>
+  touchstones: malevolence—containment—destruction
+  tier: mythic
+effects: []
+folder: PNHXnKBouD6bBJIK
+ownership:
+  default: 0
+flags:
+  core:
+    sheetClass: ''
+_id: QP2XEps2C6b0q8cY
+sort: 0
+_stats:
+  coreVersion: '13.351'
+  systemId: null
+  systemVersion: null
+  createdTime: null
+  modifiedTime: 1768053843966
+  lastModifiedBy: UV77mtxQgW7KpS6B
+  compendiumSource: null
+  duplicateSource: null
+  exportSource: null
+_key: '!items!QP2XEps2C6b0q8cY'

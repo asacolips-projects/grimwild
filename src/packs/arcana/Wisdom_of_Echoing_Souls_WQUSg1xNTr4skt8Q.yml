@@ -1,0 +1,32 @@
+name: Wisdom of Echoing Souls
+type: arcana
+img: icons/equipment/neck/pendant-rounded-blue.webp
+system:
+  description: <p>Contains faint impressions of previous owners. Gives three wises.</p>
+  notes:
+    description: ''
+    label: ''
+  trackers: []
+  limitations: <p>Spend spark to use it. Occasionally demands a favor.</p>
+  touchstones: wisdom—history—guidance
+  tier: major
+effects: []
+folder: TXQhZm5xNEInpO1T
+ownership:
+  default: 0
+flags:
+  core:
+    sheetClass: ''
+_id: WQUSg1xNTr4skt8Q
+sort: 0
+_stats:
+  coreVersion: '13.351'
+  systemId: null
+  systemVersion: null
+  createdTime: null
+  modifiedTime: 1768055686390
+  lastModifiedBy: UV77mtxQgW7KpS6B
+  compendiumSource: null
+  duplicateSource: null
+  exportSource: null
+_key: '!items!WQUSg1xNTr4skt8Q'

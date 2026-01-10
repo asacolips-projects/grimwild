@@ -1,0 +1,34 @@
+name: Dimension Shard
+type: arcana
+img: icons/commodities/gems/gem-faceted-diamond-pink.webp
+system:
+  description: >-
+    <p>Holds a small, town-sized refuge dimension where time flows
+    differently.</p>
+  notes:
+    description: ''
+    label: ''
+  trackers: []
+  limitations: <p>Time passes 10 times faster or slower inside, chosen randomly.</p>
+  touchstones: refuge—time—change
+  tier: mythic
+effects: []
+folder: PNHXnKBouD6bBJIK
+ownership:
+  default: 0
+flags:
+  core:
+    sheetClass: ''
+_id: LCd2Ffe2mOCbx27F
+sort: 0
+_stats:
+  coreVersion: '13.351'
+  systemId: null
+  systemVersion: null
+  createdTime: null
+  modifiedTime: 1768053128359
+  lastModifiedBy: UV77mtxQgW7KpS6B
+  compendiumSource: null
+  duplicateSource: null
+  exportSource: null
+_key: '!items!LCd2Ffe2mOCbx27F'
