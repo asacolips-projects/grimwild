@@ -11,7 +11,7 @@ concurrency:
 env:
   AWS_ACCESS_KEY_ID: "${{ secrets.AWS_ACCESS_KEY_ID }}"
   AWS_SECRET_ACCESS_KEY: "${{ secrets.AWS_SECRET_ACCESS_KEY }}"
-  # FVTT_PACKAGE_TOKEN: "${{ secrets.FVTT_PACKAGE_TOKEN }}" # Temporarily disabled.
+  FVTT_PACKAGE_TOKEN: "${{ secrets.FVTT_PACKAGE_TOKEN }}"
   S3_BUCKET: asacolips-artifacts
   REF_TYPE: ${{ github.ref_type }}
   REF: "${{ github.head_ref || github.ref_name}}"
@@ -76,7 +76,6 @@ jobs:
   #####################################################################
   ### FVTT Package Manager Release Job ################################
   #####################################################################
-
   fvtt_release:
     name: FVTT Package Release
     needs: deploy
