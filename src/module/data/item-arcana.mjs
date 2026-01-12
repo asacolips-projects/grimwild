@@ -55,32 +55,32 @@ export default class GrimwildArcana extends GrimwildItemBase {
 		}));
 
 		// OBSOLETE ----------------------------------------------
-		// schema.quantity = new fields.NumberField({
-		// 	...requiredInteger,
-		// 	initial: 1,
-		// 	min: 1
-		// });
-		// schema.weight = new fields.NumberField({
-		// 	required: true,
-		// 	nullable: false,
-		// 	initial: 0,
-		// 	min: 0
-		// });
+		schema.quantity = new fields.NumberField({
+			...requiredInteger,
+			initial: 1,
+			min: 1
+		});
+		schema.weight = new fields.NumberField({
+			required: true,
+			nullable: false,
+			initial: 0,
+			min: 0
+		});
 
-		// // Break down roll formula into three independent fields
-		// schema.roll = new fields.SchemaField({
-		// 	diceNum: new fields.NumberField({
-		// 		...requiredInteger,
-		// 		initial: 1,
-		// 		min: 1
-		// 	}),
-		// 	diceSize: new fields.StringField({ initial: "d20" }),
-		// 	diceBonus: new fields.StringField({
-		// 		initial: "+@str.mod+ceil(@lvl / 2)"
-		// 	})
-		// });
+		// Break down roll formula into three independent fields
+		schema.roll = new fields.SchemaField({
+			diceNum: new fields.NumberField({
+				...requiredInteger,
+				initial: 1,
+				min: 1
+			}),
+			diceSize: new fields.StringField({ initial: "d20" }),
+			diceBonus: new fields.StringField({
+				initial: "+@str.mod+ceil(@lvl / 2)"
+			})
+		});
 
-		// schema.formula = new fields.StringField({ blank: true });
+		schema.formula = new fields.StringField({ blank: true });
 		// --------------------------------------------------------
 
 		return schema;
