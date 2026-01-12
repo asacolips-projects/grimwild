@@ -465,14 +465,30 @@ export class GrimwildActorSheetVue extends VueRenderingMixin(GrimwildBaseVueActo
 	static async _changeXp(event, target) {
 		event.preventDefault();
 		const dataset = target.dataset;
+		const slowXp = game.settings.get("grimwild", "slowXp");
+		const actorXp = this.document.system.xp.value;
 		if (dataset.xp) {
 			// Retrieve incoming XP.
 			const xp = Number(dataset.xp);
 			// Determine if we should use the new XP value, or
 			// decrement it so that it behaves like a toggle.
-			const newXp = xp !== this.document.system.xp.value
-				? xp
-				: this.document.system.xp.value - 1;
+			let newXp = xp;
+			// If it's equal to the pip, we need to decrement it to the
+			// previous pip.
+			if (xp === actorXp) {
+				newXp = (slowXp) ? xp - 2 : xp - 1;
+			}
+			// If it's less than the pip, we need to increase it.
+			else if (actorXp < xp) {
+				// Slow XP requires two clicks to max.
+				if (slowXp) {
+					newXp = actorXp < xp - 1 ? xp - 1 : xp;
+				}
+				// Fast XP is one click.
+				else {
+					newXp = xp;
+				}
+			}
 			await this.document.update({ "system.xp.value": newXp });
 		}
 	}

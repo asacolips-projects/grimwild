@@ -25,6 +25,9 @@ GRIMWILD:
     maxRattled:
       name: "[Homebrew] Max rattled value"
       hint: Maximum value to use for the Rattled input if harm pools are enabled.
+    slowXp:
+      name: "Slow XP"
+      hint: Enable to use half-rate XP where it takes two pips per XP checkbox to be filled.
   Stat:
     bra:
       long: Brawn

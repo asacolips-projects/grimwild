@@ -58,13 +58,15 @@
 						<span>{{ context.system.xp.value }}</span>
 					</span>
 				</div>
-				<div v-for="(level, levelKey) in actor.system.xp.steps" :key="levelKey">
+				<div v-for="(level, levelKey) in xpArray" :key="levelKey">
 					<template v-for="(xp, xpKey) in level" :key="xpKey">
+						<!-- Use checkboxes for semantic handling of the XP. -->
 						<input type="checkbox"
-							:data-level="level"
+							:data-level="levelKey + 1"
 							:data-xp="xp"
 							data-action="changeXp"
-							:checked="xp <= context.actor.system.xp.value"
+							:checked="isCheckedXp(xp)"
+							:class="`xp-checkbox ${getXpClass(xp)}`"
 						/>
 					</template>
 				</div>
@@ -77,5 +79,32 @@
 import { inject } from 'vue';
 const props = defineProps(['context']);
 const actor = inject('rawDocument');
+const slowXp = game.settings.get('grimwild', 'slowXp');
+const xpArray = actor.system.xp.steps.map((xpSteps) => {
+	return slowXp
+		? xpSteps.map((xp) => xp * 2)
+		: xpSteps;
+});
 
+function isCheckedXp(xp) {
+	let result = false;
+	if (actor.system.xp.value >= xp) {
+		result = true;
+	}
+	if (slowXp && actor.system.xp.value == xp - 1) {
+		result = true;
+	}
+	return result;
+}
+
+function getXpClass(xp) {
+	let result = 'empty';
+	if (actor.system.xp.value >= xp) {
+		result = 'full';
+	}
+	if (slowXp && actor.system.xp.value == xp - 1) {
+		result = 'half';
+	}
+	return `xp-${result}`;
+}
 </script>

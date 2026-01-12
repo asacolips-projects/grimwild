@@ -122,6 +122,18 @@ Hooks.once("init", function () {
 	utils.registerHandlebarsHelpers();
 
 	// Custom settings.
+	// Slow XP.
+	game.settings.register("grimwild", "slowXp", {
+		name: game.i18n.localize("GRIMWILD.Settings.slowXp.name"),
+		hint: game.i18n.localize("GRIMWILD.Settings.slowXp.hint"),
+		scope: "world",
+		config: true,
+		type: Boolean,
+		default: false,
+		requiresReload: true
+	});
+
+	// Override 3d dice.
 	if (game.modules.get("dice-so-nice")) {
 		game.settings.register("grimwild", "diceSoNiceOverride", {
 			name: game.i18n.localize("GRIMWILD.Settings.diceSoNiceOverride.name"),
