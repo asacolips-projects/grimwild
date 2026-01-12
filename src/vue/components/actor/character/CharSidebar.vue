@@ -107,5 +107,4 @@ function getXpClass(xp) {
 	}
 	return `xp-${result}`;
 }
-console.log('xpArray', xpArray);
 </script>
