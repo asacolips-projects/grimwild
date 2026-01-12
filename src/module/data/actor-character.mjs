@@ -134,14 +134,21 @@ export default class GrimwildCharacter extends GrimwildActorBase {
 	get level() {
 		if (this.xp.value < 2) return 1;
 
-		let step = 2;
-		let threshold = 2;
+		// 2x XP for slow XP progression.
+		let multiplier = game.settings.get("grimwild", "slowXp") ? 2 : 1;
 
+		// Step is the level we're evaluating against.
+		let step = 2;
+		// Threshold should be the sum of all XP to be that level. So prior XP + (step * multiplier).
+		let threshold = 2 * multiplier;
+
+		// Iterate and compare against thresholds.
 		while (this.xp.value >= threshold) {
 			step++;
-			threshold += step; // Increment threshold by the next step value
+			threshold += (step * multiplier); // Increment threshold by the next step value
 		}
 
+		// We're evaluating the next level, so return step - 1 to get actual level.
 		return step - 1;
 	}
 

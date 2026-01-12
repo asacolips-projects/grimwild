@@ -58,14 +58,30 @@
 						<span>{{ context.system.xp.value }}</span>
 					</span>
 				</div>
-				<div v-for="(level, levelKey) in actor.system.xp.steps" :key="levelKey">
+				<div v-for="(level, levelKey) in xpArray" :key="levelKey">
 					<template v-for="(xp, xpKey) in level" :key="xpKey">
+						<!-- Use checkboxes for semantic handling of the XP. -->
+						<input type="checkbox"
+							v-if="slowXp"
+							:data-level="level"
+							:data-xp="xp - 1"
+							data-action="changeXp"
+							:checked="xp - 1 <= context.actor.system.xp.value"
+							class="hidden"
+						/>
 						<input type="checkbox"
 							:data-level="level"
 							:data-xp="xp"
 							data-action="changeXp"
 							:checked="xp <= context.actor.system.xp.value"
+							class="hidden"
 						/>
+						<span class="xp-checkbox"
+							:data-level="level"
+							:data-xp="xp"
+							data-action="changeXp"
+							:data-slow="slowXp"
+						><i :class="`xpCheckbox ${getXpIcon(xp)}`"></i></span>
 					</template>
 				</div>
 			</div>
@@ -77,5 +93,22 @@
 import { inject } from 'vue';
 const props = defineProps(['context']);
 const actor = inject('rawDocument');
+const slowXp = game.settings.get('grimwild', 'slowXp');
+const xpArray = actor.system.xp.steps.map((xpSteps) => {
+	return slowXp
+		? xpSteps.map((xp) => xp * 2)
+		: xpSteps;
+});
 
+function getXpIcon(xp) {
+	let result = 'far fa-square-full';
+	if (actor.system.xp.value >= xp) {
+		result = 'fas fa-square-check';
+	}
+	if (slowXp && actor.system.xp.value == xp - 1) {
+		result = 'far fa-square-xmark';
+	}
+	return result;
+}
+console.log('xpArray', xpArray);
 </script>
