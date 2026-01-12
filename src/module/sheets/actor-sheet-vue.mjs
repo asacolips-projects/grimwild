@@ -465,7 +465,7 @@ export class GrimwildActorSheetVue extends VueRenderingMixin(GrimwildBaseVueActo
 	static async _changeXp(event, target) {
 		event.preventDefault();
 		const dataset = target.dataset;
-		const slowXp = dataset.slow;
+		const slowXp = game.settings.get("grimwild", "slowXp");
 		const actorXp = this.document.system.xp.value;
 		if (dataset.xp) {
 			// Retrieve incoming XP.

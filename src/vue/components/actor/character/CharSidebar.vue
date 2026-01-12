@@ -62,26 +62,12 @@
 					<template v-for="(xp, xpKey) in level" :key="xpKey">
 						<!-- Use checkboxes for semantic handling of the XP. -->
 						<input type="checkbox"
-							v-if="slowXp"
-							:data-level="level"
-							:data-xp="xp - 1"
-							data-action="changeXp"
-							:checked="xp - 1 <= context.actor.system.xp.value"
-							class="hidden"
-						/>
-						<input type="checkbox"
-							:data-level="level"
+							:data-level="levelKey + 1"
 							:data-xp="xp"
 							data-action="changeXp"
-							:checked="xp <= context.actor.system.xp.value"
-							class="hidden"
+							:checked="isCheckedXp(xp)"
+							:class="`xp-checkbox ${getXpClass(xp)}`"
 						/>
-						<span class="xp-checkbox"
-							:data-level="level"
-							:data-xp="xp"
-							data-action="changeXp"
-							:data-slow="slowXp"
-						><i :class="`xpCheckbox ${getXpIcon(xp)}`"></i></span>
 					</template>
 				</div>
 			</div>
@@ -100,15 +86,26 @@ const xpArray = actor.system.xp.steps.map((xpSteps) => {
 		: xpSteps;
 });
 
-function getXpIcon(xp) {
-	let result = 'far fa-square-full';
+function isCheckedXp(xp) {
+	let result = false;
 	if (actor.system.xp.value >= xp) {
-		result = 'fas fa-square-check';
+		result = true;
 	}
 	if (slowXp && actor.system.xp.value == xp - 1) {
-		result = 'far fa-square-xmark';
+		result = true;
 	}
 	return result;
+}
+
+function getXpClass(xp) {
+	let result = 'empty';
+	if (actor.system.xp.value >= xp) {
+		result = 'full';
+	}
+	if (slowXp && actor.system.xp.value == xp - 1) {
+		result = 'half';
+	}
+	return `xp-${result}`;
 }
 console.log('xpArray', xpArray);
 </script>
