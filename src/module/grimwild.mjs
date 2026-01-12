@@ -130,6 +130,7 @@ Hooks.once("init", function () {
 		config: true,
 		type: Boolean,
 		default: false,
+		requiresReload: true
 	});
 
 	// Override 3d dice.
