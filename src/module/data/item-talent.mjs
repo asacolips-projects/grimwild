@@ -1,4 +1,4 @@
-import { DicePoolField } from "../helpers/schema.mjs";
+import { DicePoolField, CrucibleTableField } from "../helpers/schema.mjs";
 import GrimwildItemBase from "./base-item.mjs";
 
 export default class GrimwildTalent extends GrimwildItemBase {
@@ -51,7 +51,52 @@ export default class GrimwildTalent extends GrimwildItemBase {
 			})
 		}));
 
+		// Crucible.
+		schema.crucible = new CrucibleTableField();
+
 		return schema;
+	}
+
+	async rollCrucible(options = {}) {
+		const row = new Roll('d6');
+		const col = new Roll('d6');
+
+		await row.roll();
+		await col.roll();
+
+		const result = [
+			this.crucible.table[row.result][col.result],
+			this.crucible.table[col.result][row.result],
+		];
+
+		if (options?.toMessage) {
+			ChatMessage.create({
+				speaker: ChatMessage.getSpeaker({ actor: this.parent }),
+				content: `
+				  <section class="grimwild-chat grimwild-roll stroke stroke-top">
+						<div class="results">
+							<h2>${this.crucible.name ?? 'Crucible'}</h2>
+							<div class="crucible-results flexcol">
+								<strong>${result[0]}</strong>
+								<strong>${result[1]}</strong>
+							</div>
+						</div>
+						<div class="dice-tooltip expanded">
+							<section class="tooltip-part">
+								<div class="dice">
+									<ul class="dice-rolls">
+										<li class="roll die d6 grim">${row.result}</li>
+										<li class="roll die d6 grim">${col.result}</li>
+									</ul>
+								</div>
+							</section>
+						</div>
+					</section>
+				`,
+			})
+		}
+
+		return result;
 	}
 
 	/**

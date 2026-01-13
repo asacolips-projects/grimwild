@@ -16,6 +16,7 @@ export { default as MonsterDesires } from "@/components/actor/monster/MonsterDes
 export { default as ItemDescription } from "@/components/item/ItemDescription.vue";
 export { default as ItemHeader } from "@/components/item/ItemHeader.vue";
 export { default as ItemAttributes } from "@/components/item/ItemAttributes.vue";
+export { default as ItemCrucible } from "@/components/item/ItemCrucible.vue";
 export { default as TalentTrackers } from "@/components/item/talent/TalentTrackers.vue";
 export { default as ArcanaDetails } from "@/components/item/arcana/ArcanaDetails.vue";
 export { default as ChallengeTraitsMoves } from "@/components/item/challenge/ChallengeTraitsMoves.vue";

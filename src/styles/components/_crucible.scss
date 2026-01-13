@@ -1,0 +1,31 @@
+.crucible {
+  .form-group {
+    max-width: 100%;
+  }
+
+  .responsive-table {
+    // Arbitrary number, it will be expanded by flexbox.
+    width: 300px;
+  }
+
+  table {
+    margin: 0;
+    display: block;
+    overflow-x: auto;
+    white-space: nowrap;
+
+    tbody {
+      display: table;
+      width: 100%;
+    }
+
+    tr:nth-child(even) {
+      background-color: #ffffff0a;
+    }
+
+    td {
+      padding: 4px;
+      border: 1px dashed #ffffff33;
+    }
+  }
+}
