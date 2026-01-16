@@ -4,6 +4,7 @@ export default class GrimwildCrucibleRoll extends Roll {
 
 	constructor(formula, data, options) {
 		super(formula, data, options);
+    console.log('crucible', this);
 		if (game.dice3d && game.settings.get("grimwild", "diceSoNiceOverride")) {
 			if (!this.options.appearance) this.options.appearance = {};
 			this.options.appearance.system = "grimwild";
@@ -12,6 +13,7 @@ export default class GrimwildCrucibleRoll extends Roll {
 	}
 
 	async render({ flavor, template=this.constructor.CHAT_TEMPLATE, isPrivate=false }={}) {
+    console.log('crucible', this);
 		if (!this._evaluated) await this.evaluate();
 
 		const chatData = {

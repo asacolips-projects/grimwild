@@ -59,6 +59,13 @@ export default class GrimwildTalent extends GrimwildItemBase {
 
 	async rollCrucible(options = {}) {
 		// @TODO use the GrimwildCrucibleRoll class.
+		// const r = new grimwild.rollCrucible('{2d6}', {}, {crucible: this.crucible});
+		// await r.roll();
+		// console.log('crucible', r);
+		// if (options.toMessage) {
+		// 	r.toMessage();
+		// }
+
 		const row = new Roll('d6');
 		const col = new Roll('d6');
 
