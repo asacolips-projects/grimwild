@@ -58,6 +58,7 @@ export default class GrimwildTalent extends GrimwildItemBase {
 	}
 
 	async rollCrucible(options = {}) {
+		// @TODO use the GrimwildCrucibleRoll class.
 		const row = new Roll('d6');
 		const col = new Roll('d6');
 

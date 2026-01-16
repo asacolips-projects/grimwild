@@ -45,7 +45,8 @@ globalThis.grimwild = {
 	},
 	models,
 	roll: dice.GrimwildRoll,
-	diePools: dice.GrimwildDiePoolRoll
+	rollCrucible: dice.GrimwildCrucibleRoll,
+	diePools: dice.GrimwildDiePoolRoll,
 };
 
 Hooks.once("init", function () {
