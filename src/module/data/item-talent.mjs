@@ -58,50 +58,10 @@ export default class GrimwildTalent extends GrimwildItemBase {
 	}
 
 	async rollCrucible(options = {}) {
-		// @TODO use the GrimwildCrucibleRoll class.
-		// const r = new grimwild.rollCrucible('{2d6}', {}, {crucible: this.crucible});
-		// await r.roll();
-		// console.log('crucible', r);
-		// if (options.toMessage) {
-		// 	r.toMessage();
-		// }
-
-		const row = new Roll('d6');
-		const col = new Roll('d6');
-
-		await row.roll();
-		await col.roll();
-
-		const result = [
-			this.crucible.table[row.result][col.result],
-			this.crucible.table[col.result][row.result],
-		];
-
-		if (options?.toMessage) {
-			ChatMessage.create({
-				speaker: ChatMessage.getSpeaker({ actor: this.parent }),
-				content: `
-				  <section class="grimwild-chat grimwild-roll stroke stroke-top">
-						<div class="results">
-							<h2>${this.crucible.name ?? 'Crucible'}</h2>
-							<div class="crucible-results flexcol">
-								<strong>${result[0]}</strong>
-								<strong>${result[1]}</strong>
-							</div>
-						</div>
-						<div class="dice-tooltip expanded">
-							<section class="tooltip-part">
-								<div class="dice">
-									<ul class="dice-rolls">
-										<li class="roll die d6 grim">${row.result}</li>
-										<li class="roll die d6 grim">${col.result}</li>
-									</ul>
-								</div>
-							</section>
-						</div>
-					</section>
-				`,
-			})
+		const result = new grimwild.rollCrucible('{2d6}', {}, {crucible: this.crucible});
+		await result.roll();
+		if (options.toMessage) {
+			result.toMessage();
 		}
 
 		return result;

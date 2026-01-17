@@ -67,6 +67,8 @@ Hooks.once("init", function () {
 	CONFIG.Dice.rolls.push(dice.GrimwildRoll);
 	CONFIG.Dice.GrimwildDicePool = dice.GrimwildDiePoolRoll;
 	CONFIG.Dice.rolls.push(dice.GrimwildDiePoolRoll);
+	CONFIG.Dice.GrimwildCrucibleRoll = dice.GrimwildCrucibleRoll;
+	CONFIG.Dice.rolls.push(dice.GrimwildCrucibleRoll);
 
 	// Define custom Document and DataModel classes
 	CONFIG.Actor.documentClass = GrimwildActor;
