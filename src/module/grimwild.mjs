@@ -312,6 +312,46 @@ Hooks.once("ready", function () {
 				}
 			}
 		}
+
+		if (event.target?.classList.contains("create-crucible")) {
+			event.preventDefault();
+			try {
+				const crucibleName = await foundry.applications.api.DialogV2.prompt({
+					window: { title: "Create Crucible Table" },
+					content: `
+						<div class="form-group">
+							<label for="name">${game.i18n.localize("Name")}</label>
+							<input name="name" type="text" value="" placeholder="Crucible name" autofocus/>
+						</div>`,
+					ok: {
+						label: "Create Crucible Table",
+						callback: (event, button, dialog) => button.form.elements.name.value
+					}
+				});
+				const defaultData = Array.fromRange(36,1).map(result => {
+					return {
+						name: "",
+						range: [result, result],
+						weight: 1,
+						type: "text"
+					};
+				});
+				RollTable.create({
+					name: crucibleName?.length > 0 ? crucibleName : "Crucible",
+					formula: "1d36",
+					results: defaultData,
+					flags: {
+						core: {
+							sheetClass: "grimwild.GrimwildRollTableCrucibleSheet"
+						}
+					}
+				});
+			}
+			catch (error) {
+				console.error(error);
+				return;
+			}
+		}
 	});
 });
 
@@ -327,6 +367,14 @@ Hooks.on("updateScene", (document, changed, options, userId) => {
 
 Hooks.on("renderSceneControls", (application, html, data) => {
 	SUSPENSE_TRACKER.render();
+});
+
+Hooks.on("renderDocumentDirectory", (application, html, data) => {
+	if (data.documentName === "RollTable") {
+		html.querySelector(".header-actions").insertAdjacentHTML("afterbegin", `
+			<button type="button" class="create-crucible" data-action="createCrucible"><i class="fas fa-grip"></i><span>Create Crucible</span></button>
+		`);
+	}
 });
 
 /* -------------------------------------------- */
