@@ -40,8 +40,6 @@ system:
       pool:
         diceNum: 0
   path: wizard
-  crucible:
-    instructions: ''
 effects: []
 sort: 0
 ownership:

@@ -1,0 +1,57 @@
+folder: V3M0EcoDlbmFxQPL
+name: GM Crucibles
+_id: czz9p07Cxj5KiIQu
+pages:
+  - sort: 100000
+    name: GM Crucibles
+    type: text
+    _id: JoYMnN7cbo9HmXPW
+    system: {}
+    title:
+      show: false
+      level: 1
+    image: {}
+    text:
+      format: 1
+      content: >-
+        <p>@CRUCIBLE[Compendium.grimwild.crucibles.RollTable.KAx8TYWLRm4w3jMW]{GM
+        Crucible 1}</p><hr
+        /><p>@CRUCIBLE[Compendium.grimwild.crucibles.RollTable.L0E7bnZtFjI51p3y]{GM
+        Crucible 2}</p>
+    video:
+      controls: true
+      volume: 0.5
+    src: null
+    category: null
+    ownership:
+      default: -1
+      UV77mtxQgW7KpS6B: 3
+    flags: {}
+    _stats:
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+      coreVersion: '13.351'
+      systemId: grimwild
+      systemVersion: 0.4.0
+      createdTime: 1768769652047
+      modifiedTime: 1768769688239
+      lastModifiedBy: UV77mtxQgW7KpS6B
+    _key: '!journal.pages!czz9p07Cxj5KiIQu.JoYMnN7cbo9HmXPW'
+categories: []
+sort: 0
+ownership:
+  default: 0
+  UV77mtxQgW7KpS6B: 3
+flags: {}
+_stats:
+  compendiumSource: null
+  duplicateSource: null
+  exportSource: null
+  coreVersion: '13.351'
+  systemId: grimwild
+  systemVersion: 0.4.0
+  createdTime: 1768769643455
+  modifiedTime: 1768769643455
+  lastModifiedBy: UV77mtxQgW7KpS6B
+_key: '!journal!czz9p07Cxj5KiIQu'

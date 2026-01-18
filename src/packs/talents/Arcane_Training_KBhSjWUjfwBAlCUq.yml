@@ -32,8 +32,6 @@ system:
       pool:
         diceNum: 0
   path: fighter
-  crucible:
-    instructions: ''
 effects: []
 sort: 0
 ownership:

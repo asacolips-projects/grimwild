@@ -8,7 +8,9 @@ system:
     <p>Each session, you have a <em><strong>4d Potions</strong></em> resource
     pool. You can have a minor potion and roll the pool, or drop 1 and roll for
     a major potion. You know recipes for your spell theorems, plus two more
-    rolled on the Spell Crucible. Learn new recipes by sacrificing potions.</p>
+    rolled on the
+    @UUID[Compendium.grimwild.rules.JournalEntry.WJWQtGwZcUubnCMj]{Spell
+    Crucible}. Learn new recipes by sacrificing potions.</p>
   core: false
   notes:
     description: <p><em>Write down your recipes here.</em></p>
@@ -33,11 +35,11 @@ flags: {}
 _stats:
   compendiumSource: null
   duplicateSource: null
-  coreVersion: '13.345'
+  coreVersion: '13.351'
   systemId: grimwild
-  systemVersion: 0.1.0
+  systemVersion: 0.4.0
   createdTime: 1739542636102
-  modifiedTime: 1739542636102
-  lastModifiedBy: Dl5Tvf37OuEHwdAh
+  modifiedTime: 1768767417994
+  lastModifiedBy: UV77mtxQgW7KpS6B
   exportSource: null
 _key: '!items!KQM82DlCYc9UZiJD'
