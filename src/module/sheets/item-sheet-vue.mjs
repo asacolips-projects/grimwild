@@ -23,7 +23,7 @@ export class GrimwildItemSheetVue extends VueRenderingMixin(GrimwildBaseVueItemS
 		viewPermission: DOCUMENT_OWNERSHIP_LEVELS.LIMITED,
 		editPermission: DOCUMENT_OWNERSHIP_LEVELS.OWNER,
 		position: {
-			width: 478
+			width: 600
 			// height: 720,
 		},
 		window: {
@@ -40,7 +40,9 @@ export class GrimwildItemSheetVue extends VueRenderingMixin(GrimwildBaseVueItemS
 			deleteTracker: this._deleteTracker,
 			createArrayEntry: this._createArrayEntry,
 			deleteArrayEntry: this._deleteArrayEntry,
-			rollPool: this._rollPool
+			rollPool: this._rollPool,
+			// @TODO restore when crucibles are added back to talents.
+			// rollCrucible: this._rollCrucible
 		},
 		// Custom property that's merged into `this.options`
 		dragDrop: [{ dragSelector: "[data-drag]", dropSelector: null }],
@@ -346,8 +348,8 @@ export class GrimwildItemSheetVue extends VueRenderingMixin(GrimwildBaseVueItemS
 	}
 
 	/**
-	 * Handle rolling pools on the character sheet.
-	 * @todo abstract this to the actor itself.
+	 * Handle rolling pools on the item sheet.
+	 * @todo abstract this to the item itself.
 	 *
 	 * @param {PointerEvent} event The originating click event
 	 * @param {HTMLElement} target The capturing HTML element which defined a [data-action]
@@ -411,4 +413,19 @@ export class GrimwildItemSheetVue extends VueRenderingMixin(GrimwildBaseVueItemS
 			}
 		}
 	}
+
+	// @TODO restore when crucibles are added back to talents.
+	// /**
+	//  * Handle rolling crucibles on the item sheet.
+	//  * @todo abstract this to the item itself.
+	//  *
+	//  * @param {PointerEvent} event The originating click event
+	//  * @param {HTMLElement} target The capturing HTML element which defined a [data-action]
+	//  * @returns
+	//  * @private
+	//  */
+	// static async _rollCrucible(event, target) {
+	// 	event.preventDefault();
+	// 	await this.document.system.rollCrucible({ toMessage: true });
+	// }
 }

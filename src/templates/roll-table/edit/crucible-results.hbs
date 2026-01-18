@@ -1,0 +1,19 @@
+<section class="tab active" data-group="{{tab.group}}" data-tab="{{tab.id}}">
+    <table class="flexcol" data-results>
+        <tbody class="crucible-inputs scrollable grid grid-6col">
+            {{#each results as |result i|}}
+            <tr class="flexrow{{#if result.drawn}} drawn{{/if}}" data-result-id="{{result.id}}">
+                <td class="details">
+                    <div class="form-group slim stacked">
+                      <div class="form-fields">
+                        <input type="text" name="results.{{i}}.name" value="{{result.name}}" id="{{result.id}}"/>
+                      </div>
+                    </div>
+                </td>
+
+                <input type="hidden" name="results.{{i}}._id" value="{{result.id}}">
+            </tr>
+            {{/each}}
+        </tbody>
+    </table>
+</section>

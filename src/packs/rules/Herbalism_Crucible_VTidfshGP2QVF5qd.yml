@@ -1,0 +1,57 @@
+folder: vUGdoKGy7PZ2fdfW
+name: Herbalism Crucible
+_id: VTidfshGP2QVF5qd
+pages:
+  - sort: 100000
+    name: Herbalism Crucible
+    type: text
+    _id: w7rxyVPbxAskLAdq
+    system: {}
+    title:
+      show: false
+      level: 1
+    image: {}
+    text:
+      format: 1
+      content: >-
+        <p>@CRUCIBLE[Compendium.grimwild.crucibles.RollTable.NyXKbhDPuI89I47r]{Herbalism
+        1}</p><hr
+        /><p>@CRUCIBLE[Compendium.grimwild.crucibles.RollTable.b3bE4RnBpBwA1ZHZ]{Herbalism
+        2}</p>
+    video:
+      controls: true
+      volume: 0.5
+    src: null
+    category: null
+    ownership:
+      default: -1
+      UV77mtxQgW7KpS6B: 3
+    flags: {}
+    _stats:
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+      coreVersion: '13.351'
+      systemId: grimwild
+      systemVersion: 0.4.0
+      createdTime: 1768770213971
+      modifiedTime: 1768770241904
+      lastModifiedBy: UV77mtxQgW7KpS6B
+    _key: '!journal.pages!VTidfshGP2QVF5qd.w7rxyVPbxAskLAdq'
+categories: []
+sort: 0
+ownership:
+  default: 0
+  UV77mtxQgW7KpS6B: 3
+flags: {}
+_stats:
+  compendiumSource: null
+  duplicateSource: null
+  exportSource: null
+  coreVersion: '13.351'
+  systemId: grimwild
+  systemVersion: 0.4.0
+  createdTime: 1768770207658
+  modifiedTime: 1768770207658
+  lastModifiedBy: UV77mtxQgW7KpS6B
+_key: '!journal!VTidfshGP2QVF5qd'

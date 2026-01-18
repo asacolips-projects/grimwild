@@ -20,6 +20,7 @@
   @import 'components/forms';
   @import 'components/items';
   @import 'components/effects';
+  @import 'components/crucible';
   @import 'components/stats';
   @import 'components/backgrounds';
   @import 'components/character';
@@ -38,6 +39,27 @@
 
   .grimwild-chat {
     @import 'components/dice';
+  }
+}
+
+.grimwild-crucible-sheet {
+  .crucible-inputs {
+    label {
+      display: none;
+    }
+
+    .form-fields {
+      flex-direction: column;
+    }
+
+    tr {
+      background: transparent;
+    }
+
+    td {
+      padding: 0;
+      background: transparent;
+    }
   }
 }
 

@@ -357,7 +357,7 @@ export default class GrimwildCharacter extends GrimwildActorBase {
 				// Update the active turn.
 				const combatantTurn = combat.turns.findIndex((c) => c.id === combatant.id);
 				if (combatantTurn !== undefined) {
-					combat.update({'turn': combatantTurn});
+					combat.update({ turn: combatantTurn });
 				}
 			}
 		}

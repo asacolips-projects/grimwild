@@ -1,0 +1,23 @@
+{{#unless isPrivate}}
+<section class="grimwild-chat grimwild-roll stroke stroke-top">
+	<div class="results">
+		<h2>{{ name }}</h2>
+		<div class="crucible-results flexcol">
+			{{#each crucible as |result key|}}
+			<strong>{{ result }}</strong>
+			{{/each}}
+		</div>
+	</div>
+	<div class="dice-tooltip expanded">
+		<section class="tooltip-part">
+			<div class="dice">
+				<ul class="dice-rolls">
+					{{#each dice as |die key|}}
+					<li class="roll die d6 grim">{{ die.result }}</li>
+					{{/each}}
+				</ul>
+			</div>
+		</section>
+	</div>
+</section>
+{{/unless}}

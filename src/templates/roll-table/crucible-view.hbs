@@ -1,0 +1,27 @@
+<header class="sheet-header flexrow">
+    <img src="{{document.img}}" alt="{{localize "DOCUMENT.FIELDS.img.label"}}">
+    <h1>{{document.name}}</h1>
+    <h4>{{formula}}</h4>
+    <button data-action="changeMode">
+        <i class="fa-solid fa-pen" inert></i>
+        <span>{{localize "TABLE.ACTIONS.ChangeMode.Edit"}}</span>
+    </button>
+</header>
+
+{{{descriptionHTML}}}
+
+<table class="crucible-table flexcol" data-results>
+    <tbody class="scrollable grid grid-6col">
+        {{#each results as |result i|}}
+        <tr class="flexrcol{{#if result.drawn}} drawn{{/if}}" data-result-id="{{result.id}}">
+            <td class="details">
+                {{> "templates/sheets/roll-table/result-details.hbs" result=result}}
+            </td>
+            <td class="controls flexrow">
+                <button class="inline-control icon fa-solid fa-up-from-bracket" data-action="drawSpecificResult"
+                        data-tooltip aria-label="{{localize "TABLE.ACTIONS.DrawSpecificResult"}}"></button>
+            </td>
+        </tr>
+        {{/each}}
+    </tbody>
+</table>

@@ -1,5 +1,3 @@
-import { GrimwildActor } from "./actor.mjs";
-
 export class GrimwildChatMessage extends ChatMessage {
 	/** @inheritDoc */
 	async renderHTML(...args) {
@@ -88,7 +86,7 @@ export class GrimwildChatMessage extends ChatMessage {
 					return;
 				}
 			}
-			else if (['applyMark', 'applyHarm'].includes(action)) {
+			else if (["applyMark", "applyHarm"].includes(action)) {
 				if (damageTaken) {
 					element.setAttribute("disabled", true);
 					return;
@@ -107,7 +105,7 @@ export class GrimwildChatMessage extends ChatMessage {
 		return {
 			updateSpark: this._updateSpark,
 			applyMark: this._applyHarm,
-			applyHarm: this._applyHarm,
+			applyHarm: this._applyHarm
 		};
 	}
 
@@ -199,25 +197,23 @@ export class GrimwildChatMessage extends ChatMessage {
 		let harmUpdate = {};
 		// Handle marks.
 		if (stat) {
-			if (['bra', 'agi', 'wit', 'pre'].includes(stat)) {
+			if (["bra", "agi", "wit", "pre"].includes(stat)) {
 				const isMarked = actor.system.stats[stat].marked;
 				if (!isMarked) {
 					update[`system.stats.${stat}.marked`] = true;
 				}
+				else if (["bra", "agi"].includes(stat)) {
+					harmUpdate = this.calculateHarm(actor, "bloodied");
+				}
 				else {
-					if (['bra', 'agi'].includes(stat)) {
-						harmUpdate = this.calculateHarm(actor, 'bloodied');
-					}
-					else {
-						harmUpdate = this.calculateHarm(actor, 'rattled');
-					}
+					harmUpdate = this.calculateHarm(actor, "rattled");
 				}
 			}
 		}
 
 		// Handle harm.
 		if (harm) {
-			if (['bloodied', 'rattled'].includes(harm)) {
+			if (["bloodied", "rattled"].includes(harm)) {
 				harmUpdate = this.calculateHarm(actor, harm);
 			}
 		}
@@ -255,21 +251,19 @@ export class GrimwildChatMessage extends ChatMessage {
 	 */
 	calculateHarm(actor, harm) {
 		const harmPools = game.settings.get("grimwild", "enableHarmPools");
-		const maxHarm = game.settings.get("grimwild", `max${harm === 'bloodied' ? 'Bloodied' : 'Rattled'}`) ?? 1;
+		const maxHarm = game.settings.get("grimwild", `max${harm === "bloodied" ? "Bloodied" : "Rattled"}`) ?? 1;
 		const update = {};
-		if (!actor.system[harm == 'bloodied' ? 'isBloodied' : 'isRattled']) {
+		if (!actor.system[harm === "bloodied" ? "isBloodied" : "isRattled"]) {
 			update[`system.${harm}.marked`] = true;
 			if (harmPools) {
 				update[`system.${harm}.pool.diceNum`] = 1;
 			}
 		}
+		else if (!harmPools || actor.system[harm].pool.diceNum >= maxHarm) {
+			update["system.dropped"] = true;
+		}
 		else {
-			if (!harmPools || actor.system[harm].pool.diceNum >= maxHarm) {
-				update[`system.dropped`] = true;
-			}
-			else {
-				update[`system.${harm}.pool.diceNum`] = actor.system[harm].pool.diceNum + 1;
-			}
+			update[`system.${harm}.pool.diceNum`] = actor.system[harm].pool.diceNum + 1;
 		}
 
 		return update;

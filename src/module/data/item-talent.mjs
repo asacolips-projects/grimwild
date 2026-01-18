@@ -51,8 +51,22 @@ export default class GrimwildTalent extends GrimwildItemBase {
 			})
 		}));
 
+		// @TODO refactor this to use roll tables.
+		// Crucible.
+		// schema.crucible = new CrucibleTableField();
+
 		return schema;
 	}
+
+	// async rollCrucible(options = {}) {
+	// 	const result = new grimwild.rollCrucible('{2d6}', {}, {crucible: this.crucible});
+	// 	await result.roll();
+	// 	if (options.toMessage) {
+	// 		result.toMessage();
+	// 	}
+
+	// 	return result;
+	// }
 
 	/**
 	 * Migrate source data from prior format to the new specification.

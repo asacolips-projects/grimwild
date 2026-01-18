@@ -1,0 +1,20 @@
+type: RollTable
+folder: null
+name: Spell Crucible
+color: '#540877'
+sorting: a
+_id: FgSiOlAfW7ad583I
+description: ''
+sort: 0
+flags: {}
+_stats:
+  compendiumSource: null
+  duplicateSource: null
+  exportSource: null
+  coreVersion: '13.351'
+  systemId: grimwild
+  systemVersion: 0.4.0
+  createdTime: 1768696659424
+  modifiedTime: 1768696659424
+  lastModifiedBy: UV77mtxQgW7KpS6B
+_key: '!folders!FgSiOlAfW7ad583I'

@@ -5,11 +5,13 @@ _id: PbpG5CeFndV9DXjn
 img: icons/consumables/plants/leaf-hastate-glowing-green.webp
 system:
   description: >-
-    <p>Before each session, use the Herbalism Crucible to make two herb names
-    <em>(snakeberry, blastbane)</em>. You have <em><strong>1 minor potion of 1
-    and 1 major potion of the other</strong></em>. The name is the touchstone.
-    They lose effect after the session. One time only, you can have 1 mythic
-    potion <em>(choose after rolling)</em>.</p>
+    <p>Before each session, use the
+    @UUID[Compendium.grimwild.rules.JournalEntry.VTidfshGP2QVF5qd]{Herbalism
+    Crucible} to make two herb names <em>(snakeberry, blastbane)</em>. You have
+    <em><strong>1 minor potion of 1 and 1 major potion of the
+    other</strong></em>. The name is the touchstone. They lose effect after the
+    session. One time only, you can have 1 mythic potion <em>(choose after
+    rolling)</em>.</p>
   core: false
   notes:
     description: <p><em>Write your two herb names here</em></p>
@@ -41,11 +43,11 @@ flags: {}
 _stats:
   compendiumSource: null
   duplicateSource: null
-  coreVersion: '13.345'
+  coreVersion: '13.351'
   systemId: grimwild
-  systemVersion: 0.2.0
+  systemVersion: 0.4.0
   createdTime: 1739109608751
-  modifiedTime: 1750165688362
+  modifiedTime: 1768770300990
   lastModifiedBy: UV77mtxQgW7KpS6B
   exportSource: null
 _key: '!items!PbpG5CeFndV9DXjn'

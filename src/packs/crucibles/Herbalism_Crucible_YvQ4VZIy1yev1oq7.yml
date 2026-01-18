@@ -1,0 +1,20 @@
+type: RollTable
+folder: null
+name: Herbalism Crucible
+color: '#244503'
+sorting: a
+_id: YvQ4VZIy1yev1oq7
+description: ''
+sort: 0
+flags: {}
+_stats:
+  compendiumSource: null
+  duplicateSource: null
+  exportSource: null
+  coreVersion: '13.351'
+  systemId: grimwild
+  systemVersion: 0.4.0
+  createdTime: 1768770175903
+  modifiedTime: 1768770182369
+  lastModifiedBy: UV77mtxQgW7KpS6B
+_key: '!folders!YvQ4VZIy1yev1oq7'

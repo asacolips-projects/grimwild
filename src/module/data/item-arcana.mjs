@@ -19,7 +19,7 @@ export default class GrimwildArcana extends GrimwildItemBase {
 
 		// Arcana type.
 		schema.tier = new fields.StringField({
-			initial: 'minor',
+			initial: "minor"
 		});
 
 		// Arbitrary notes.
