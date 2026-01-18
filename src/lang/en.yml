@@ -98,6 +98,7 @@ GRIMWILD:
   SheetLabels:
     Actor: Grimwild Actor Sheet
     Item: Grimwild Item Sheet
+    RollTable: Grimwild Crucible Sheet
   Actor:
     Plural:
       character: Characters

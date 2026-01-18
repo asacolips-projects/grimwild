@@ -42,6 +42,27 @@
   }
 }
 
+.grimwild-crucible-sheet {
+  .crucible-inputs {
+    label {
+      display: none;
+    }
+
+    .form-fields {
+      flex-direction: column;
+    }
+
+    tr {
+      background: transparent;
+    }
+
+    td {
+      padding: 0;
+      background: transparent;
+    }
+  }
+}
+
 .dialog {
   @import 'components/dialog';
 }

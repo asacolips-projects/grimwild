@@ -3,12 +3,14 @@ import { GrimwildActor } from "./documents/actor.mjs";
 import { GrimwildItem } from "./documents/item.mjs";
 import { GrimwildChatMessage } from "./documents/chat-message.mjs";
 import { GrimwildCombat, GrimwildCombatTracker } from "./documents/combat.mjs";
+import { GrimwildRollTable } from "./documents/roll-table.mjs";
 // Import sheet classes.
 import { GrimwildActorSheet } from "./sheets/actor-sheet.mjs";
 import { GrimwildActorSheetVue } from "./sheets/actor-sheet-vue.mjs";
 import { GrimwildActorMonsterSheetVue } from "./sheets/actor-monster-sheet-vue.mjs";
 import { GrimwildItemSheet } from "./sheets/item-sheet.mjs";
 import { GrimwildItemSheetVue } from "./sheets/item-sheet-vue.mjs";
+import { GrimwildRollTableCrucibleSheet } from "./sheets/table-crucible-sheet.mjs";
 // Import helper/utility classes and constants.
 import { GRIMWILD } from "./helpers/config.mjs";
 import * as dice from "./dice/_module.mjs";
@@ -30,7 +32,8 @@ globalThis.grimwild = {
 		GrimwildActor,
 		GrimwildItem,
 		GrimwildChatMessage,
-		GrimwildCombat
+		GrimwildCombat,
+		GrimwildRollTable,
 	},
 	applications: {
 		GrimwildActorSheet,
@@ -38,7 +41,8 @@ globalThis.grimwild = {
 		GrimwildActorMonsterSheetVue,
 		GrimwildItemSheet,
 		GrimwildItemSheetVue,
-		GrimwildCombatTracker
+		GrimwildCombatTracker,
+		GrimwildRollTableCrucibleSheet
 	},
 	utils: {
 		rollItemMacro
@@ -94,8 +98,10 @@ Hooks.once("init", function () {
 	// Override combat classes.
 	CONFIG.Combat.documentClass = grimwild.documents.GrimwildCombat;
 	CONFIG.ui.combat = grimwild.applications.GrimwildCombatTracker;
-
 	CONFIG.Token.hudClass = GrimwildTokenHud;
+
+	// Override the rolltable class.
+	CONFIG.RollTable.documentClass = grimwild.documents.GrimwildRollTable;
 
 	// Register sheet application classes
 	foundry.documents.collections.Actors.unregisterSheet("core", foundry.appv1.sheets.ActorSheet);
@@ -118,6 +124,10 @@ Hooks.once("init", function () {
 		makeDefault: true,
 		label: "Grimwild Vue Sheet",
 		types: ["talent", "challenge", "arcana"]
+	});
+	foundry.documents.collections.RollTables.registerSheet("grimwild", GrimwildRollTableCrucibleSheet, {
+		makeDefault: false,
+		label: "GRIMWILD.SheetLabels.RollTable",
 	});
 
 	// Handlebars utilities.
@@ -231,6 +241,42 @@ Handlebars.registerHelper("toLowerCase", function (str) {
 });
 
 /* -------------------------------------------- */
+/*  Setup Hook                                  */
+/* -------------------------------------------- */
+Hooks.once("setup", function () {
+	CONFIG.TextEditor.enrichers.push(
+		{
+			pattern: /@CRUCIBLE\[([^\]]*)\]{*([^}]*)}*/gim,
+			enricher: async (match, options) => {
+				const [fullMatch, uuid, content] = match;
+				const el = document.createElement("div");
+				el.innerHTML = `${content}`;
+
+				const rollTable = await fromUuid(uuid);
+				if (rollTable && rollTable.isCrucible()) {
+					el.innerHTML = `
+					<div class="crucible-results">
+						<div class="flexrow">
+							<strong>${rollTable.name}</strong>
+							<button type="button" data-uuid="${uuid}" class="enriched-crucible-roll"><i class="fas fa-dice-d6"></i> Roll Crucible</button>
+						</div>
+						<table class="flexcol">
+							<tbody class="scrollable grid grid-6col">
+							${rollTable.results.map((result) => `<tr class="flexrow"><td>${result.name}</td></tr>`).join('')}
+							</tbody>
+						</table>
+					</div>
+					`;
+					return el;
+				}
+
+				return fullMatch;
+			}
+		}
+	);
+});
+
+/* -------------------------------------------- */
 /*  Ready Hook                                  */
 /* -------------------------------------------- */
 
@@ -254,6 +300,19 @@ Hooks.once("ready", function () {
 			}
 		}
 	});
+
+	document.addEventListener('click', async (event) => {
+		if (event.target?.classList.contains('enriched-crucible-roll')) {
+			event.preventDefault();
+			const { uuid } = event.target.dataset;
+			if (uuid) {
+				const rollTable = await fromUuid(uuid);
+				if (rollTable.isCrucible()) {
+					rollTable.rollCrucible({toMessage: true});
+				}
+			}
+		}
+	})
 });
 
 Hooks.once("renderHotbar", function () {
