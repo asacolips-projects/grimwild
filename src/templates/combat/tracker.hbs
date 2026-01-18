@@ -5,7 +5,11 @@
 		<div class="combatant combatant-header">
 			<div class="token-image"></div>
 			<div class="token-name">{{localize "Name"}}</div>
-			<div class="token-initiative">{{localize "GRIMWILD.Combat.ActionCount"}}</div>
+			{{#if @root.tokenActions}}
+				<div class="token-initiative">{{localize "GRIMWILD.Combat.TokenActions"}}</div>
+			{{else}}
+				<div class="token-initiative">{{localize "GRIMWILD.Combat.ActionCount"}}</div>
+			{{/if}}
 		</div>
 		{{/if}}
 		{{#each turnsOfType}}
@@ -47,8 +51,8 @@
 						{{#if (eq type "character")}}
 						<div class="token-resources">
 							<span class="resource resource-spark" data-action="toggleSpark" data-tooltip="{{localize 'GRIMWILD.Actor.Character.FIELDS.spark.label'}}"><i class="fas fa-bolt"></i>{{spark.value}}</span>
-							<span class="resource resource-bloodied {{#if bloodied.marked}}active{{/if}}" data-action="toggleHarm" data-harm="bloodied" data-tooltip="{{localize 'GRIMWILD.Damage.bloodied'}}"><i class="fas fa-droplet"></i></span>
-							<span class="resource resource-rattled {{#if rattled.marked}}active{{/if}}" data-action="toggleHarm" data-harm="rattled" data-tooltip="{{localize 'GRIMWILD.Damage.rattled'}}"><i class="fas fa-brain"></i></span>
+							<span class="resource resource-bloodied {{#if bloodied.marked}}active{{/if}}" data-action="toggleHarm" data-harm="bloodied" data-tooltip="{{localize 'GRIMWILD.Damage.bloodied'}}"><i class="fas fa-droplet"></i>{{#if @root.enableHarmPools}}{{bloodied.pool.diceNum}}{{/if}}</span>
+							<span class="resource resource-rattled {{#if rattled.marked}}active{{/if}}" data-action="toggleHarm" data-harm="rattled" data-tooltip="{{localize 'GRIMWILD.Damage.rattled'}}"><i class="fas fa-brain"></i>{{#if @root.enableHarmPools}}{{rattled.pool.diceNum}}{{/if}}</span>
 						</div>
 						{{/if}}
 					</div>

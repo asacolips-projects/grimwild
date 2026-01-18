@@ -40,11 +40,15 @@ export class GrimwildCombat extends foundry.documents.Combat {
 
 	/** @inheritdoc */
 	async _onStartRound(context) {
+		if (game.settings.get("grimwild", "tokenActions")) {
+			this.resetActions();
+		}
 	}
 
 	resetActions() {
 		for (let combatant of this.combatants) {
 			combatant.setFlag("grimwild", "actionCount", 0);
+			combatant.actor.update({"system.tokenActions.value": 2});
 		}
 	}
 
@@ -111,6 +115,9 @@ export class GrimwildCombatTracker extends foundry.applications.sidebar.tabs.Com
 			}
 		}
 
+		context.tokenActions = game.settings.get("grimwild", "tokenActions");
+		context.enableHarmPools = game.settings.get("grimwild", "enableHarmPools");
+
 		if (!turns.character.length) delete turns.character;
 		if (!turns.monster.length) delete turns.monster;
 		if (!turns.other.length) delete turns.other;
@@ -131,7 +138,9 @@ export class GrimwildCombatTracker extends foundry.applications.sidebar.tabs.Com
 			turn.spark = combatant.actor.system.spark;
 			turn.bloodied = combatant.actor.system.bloodied;
 			turn.rattled = combatant.actor.system.rattled;
-			turn.actionCount = combatant.flags?.grimwild?.actionCount ?? 0;
+			turn.actionCount = game.settings.get("grimwild", "tokenActions")
+				? combatant.actor.system.tokenActions.value ?? 0
+				: combatant.flags?.grimwild?.actionCount ?? 0;
 		}
 
 		return turn;
@@ -173,7 +182,13 @@ export class GrimwildCombatTracker extends foundry.applications.sidebar.tabs.Com
 			name: "GRIMWILD.Combat.ResetActionCount",
 			icon: '<i class="fa-solid fa-arrow-rotate-left"></i>',
 			condition: (li) => game.user.isGM,
-			callback: (li) => getCombatant(li)?.setFlag("grimwild", "actionCount", 0)
+			callback: (li) => {
+				const combatant = getCombatant(li);
+				if (combatant) {
+					combatant?.setFlag("grimwild", "actionCount", 0)
+					combatant?.actor.update({"system.tokenActions.value": 2});
+				}
+			}
 		}, {
 			name: "COMBAT.CombatantRemove",
 			icon: '<i class="fa-solid fa-trash"></i>',
@@ -200,11 +215,16 @@ export class GrimwildCombatTracker extends foundry.applications.sidebar.tabs.Com
 		const { combatantId } = event.target.closest(".combatant[data-combatant-id]")?.dataset ?? {};
 		const { harm } = target.dataset ?? false;
 		const combatant = this.viewed.combatants.get(combatantId);
+		const update = {};
 		if (!combatant || !harm) return;
 		const actor = combatant.actor;
 		if (!actor.isOwner) return;
-		const harmValue = actor.system?.[harm].marked;
-		actor.update({ [`system.${harm}.marked`]: !harmValue });
+		let harmValue = actor.system?.[harm].marked;
+		update[`system.${harm}.marked`] = !harmValue;
+		if (game.settings.get("grimwild", "enableHarmPools")) {
+			update[`system.${harm}.pool.diceNum`] = actor.system?.[harm].pool.diceNum > 0 ? 0 : 1;
+		}
+		actor.update(update);
 	}
 
 	static #onToggleSpark(...args) {
