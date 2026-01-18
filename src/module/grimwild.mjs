@@ -315,16 +315,17 @@ Hooks.once("ready", function () {
 
 		if (event.target?.classList.contains("create-crucible")) {
 			event.preventDefault();
+			const label = game.i18n.format("DOCUMENT.Create", {type: "Crucible Table"});
 			try {
 				const crucibleName = await foundry.applications.api.DialogV2.prompt({
-					window: { title: "Create Crucible Table" },
+					window: { title: label },
 					content: `
 						<div class="form-group">
 							<label for="name">${game.i18n.localize("Name")}</label>
 							<input name="name" type="text" value="" placeholder="Crucible name" autofocus/>
 						</div>`,
 					ok: {
-						label: "Create Crucible Table",
+						label: label,
 						callback: (event, button, dialog) => button.form.elements.name.value
 					}
 				});
@@ -372,7 +373,7 @@ Hooks.on("renderSceneControls", (application, html, data) => {
 Hooks.on("renderDocumentDirectory", (application, html, data) => {
 	if (data.documentName === "RollTable") {
 		html.querySelector(".header-actions").insertAdjacentHTML("afterbegin", `
-			<button type="button" class="create-crucible" data-action="createCrucible"><i class="fas fa-grip"></i><span>Create Crucible</span></button>
+			<button type="button" class="create-crucible" data-action="createCrucible"><i class="fas fa-grip"></i><span>${game.i18n.format("DOCUMENT.Create", {type: "Crucible"})}</span></button>
 		`);
 	}
 });
