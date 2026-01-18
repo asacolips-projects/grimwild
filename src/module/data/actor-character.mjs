@@ -128,6 +128,20 @@ export default class GrimwildCharacter extends GrimwildActorBase {
 			})
 		);
 
+		schema.tokenActions = new fields.SchemaField({
+			value: new fields.NumberField({
+				...requiredInteger,
+				max: 2,
+				initial: 2,
+				min: 0
+			}),
+			max: new fields.NumberField({
+				...requiredInteger,
+				initial: 2,
+				min: 0
+			})
+		});
+
 		return schema;
 	}
 
@@ -353,6 +367,9 @@ export default class GrimwildCharacter extends GrimwildActorBase {
 			if (combatant) {
 				const actionCount = Number(combatant.flags?.grimwild?.actionCount ?? 0);
 				await combatant.setFlag("grimwild", "actionCount", actionCount + 1);
+
+				const actor = combatant.actor;
+				await actor.update({"system.tokenActions.value": Math.max(actor.system.tokenActions.value - 1, 0)});
 
 				// Update the active turn.
 				const combatantTurn = combat.turns.findIndex((c) => c.id === combatant.id);

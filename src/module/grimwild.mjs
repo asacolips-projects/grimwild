@@ -146,6 +146,16 @@ Hooks.once("init", function () {
 		requiresReload: true
 	});
 
+	game.settings.register("grimwild", "tokenActions", {
+		name: game.i18n.localize("GRIMWILD.Settings.tokenActions.name"),
+		hint: game.i18n.localize("GRIMWILD.Settings.tokenActions.hint"),
+		scope: "world",
+		config: true,
+		type: Boolean,
+		default: false,
+		requiresReload: true
+	});
+
 	// Override 3d dice.
 	if (game.modules.get("dice-so-nice")) {
 		game.settings.register("grimwild", "diceSoNiceOverride", {

@@ -28,6 +28,9 @@ GRIMWILD:
     slowXp:
       name: "Slow XP"
       hint: Enable to use half-rate XP where it takes two pips per XP checkbox to be filled.
+    tokenActions:
+      name: "[Variant] Token Initiative"
+      hint: Enable the variant <strong>Token Initiative</strong> rule that gives each players 2 tokens per "round" of combat/scenes. Otherwise, a simple action counter will be used to count how many actions have been taken.
   Stat:
     bra:
       long: Brawn
@@ -248,6 +251,7 @@ GRIMWILD:
     ActionCount: 'Rolls'
     ResetActionCount: Reset Action Count
     SpotlightActor: Spotlight
+    TokenActions: 'Actions'
 TYPES:
   Actor:
     character: Character
