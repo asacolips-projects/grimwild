@@ -7,7 +7,9 @@ system:
   description: >-
     <p>You have spellcasting as the Spellcraft talent. You roll Wits and can
     cast 3 spells and 1 potent spell per session. You know 3 spell theorems,
-    created with the Spell Crucible, and can learn new spells from scrolls.</p>
+    created with the
+    @UUID[Compendium.grimwild.rules.JournalEntry.WJWQtGwZcUubnCMj.JournalEntryPage.oAUafgvMOjLisdE2]{Spell
+    Crucible}, and can learn new spells from scrolls.</p>
   core: false
   notes:
     description: <p><em>Write down your spell theorems here.</em></p>
@@ -21,7 +23,6 @@ system:
         showSteps: true
       pool:
         diceNum: 0
-        max: null
     - type: points
       label: Potent
       points:
@@ -30,8 +31,9 @@ system:
         showSteps: true
       pool:
         diceNum: 0
-        max: null
   path: fighter
+  crucible:
+    instructions: ''
 effects: []
 sort: 0
 ownership:
@@ -41,11 +43,11 @@ flags: {}
 _stats:
   compendiumSource: null
   duplicateSource: null
-  coreVersion: '13.345'
+  coreVersion: '13.351'
   systemId: grimwild
-  systemVersion: 0.1.0
+  systemVersion: 0.4.0
   createdTime: 1739111225522
-  modifiedTime: 1739111225522
-  lastModifiedBy: Dl5Tvf37OuEHwdAh
+  modifiedTime: 1768698408821
+  lastModifiedBy: UV77mtxQgW7KpS6B
   exportSource: null
 _key: '!items!KBhSjWUjfwBAlCUq'

@@ -1,0 +1,74 @@
+folder: vUGdoKGy7PZ2fdfW
+name: Spell Crucible
+_id: WJWQtGwZcUubnCMj
+pages:
+  - sort: 100000
+    name: Spell Crucible
+    type: text
+    _id: oAUafgvMOjLisdE2
+    system: {}
+    title:
+      show: false
+      level: 1
+    image: {}
+    text:
+      format: 1
+      content: >-
+        <p><em>Roll style, esence, and form. Choose 2, then assign a
+        school.</em></p><p>@CRUCIBLE[Compendium.grimwild.crucibles.RollTable.It97TCUGhQfa7I5n]{Style}</p><hr
+        /><p>@CRUCIBLE[Compendium.grimwild.crucibles.RollTable.1sh14AQ5dmCICtQZ]{Essence}</p><hr
+        /><p>@CRUCIBLE[Compendium.grimwild.crucibles.RollTable.XO9Fu2nSiTKNTrbM]{Form}</p><h2><strong>Magic
+        Schools</strong></h2><p><em>Choose, or roll for it
+        @UUID[Compendium.grimwild.crucibles.RollTable.tnEydB0CU9F9LWNI]{Magic
+        Schools}</em></p><ul><li><p><strong>A</strong><span
+        class="s2"><strong>bj</strong></span><strong>uration</strong>: Protects,
+        blocks, dispels, or banishes.</p></li><li><p
+        class="p1"><strong>Conjuration</strong>: Summons creatures, objects, and
+        teleports.</p></li><li><p class="p1"><span
+        class="s3"><strong>Divination</strong>: Reveals information, predicts
+        the future, and reads minds.</span></p></li><li><p class="p1"><span
+        class="s2"><strong>Enchantment</strong></span>: Charms, influences, and
+        curses sentient creatures.</p></li><li><p
+        class="p1"><strong>Evocation</strong>: Creates and controls elemental
+        and magical forces.</p></li><li><p class="p1"><strong>Illusion</strong>:
+        Generates false images and sensory deceptions.</p></li><li><p
+        class="p1"><strong>Necromancy</strong>: Manipulates life, death, and the
+        undead.</p></li><li><p class="p1"><strong>Transmutation</strong>:
+        Transforms matter and alters physical properties.</p></li></ul>
+    video:
+      controls: true
+      volume: 0.5
+    src: null
+    category: null
+    ownership:
+      default: -1
+      UV77mtxQgW7KpS6B: 3
+    flags: {}
+    _stats:
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+      coreVersion: '13.351'
+      systemId: grimwild
+      systemVersion: 0.4.0
+      createdTime: 1768697386279
+      modifiedTime: 1768697818710
+      lastModifiedBy: UV77mtxQgW7KpS6B
+    _key: '!journal.pages!WJWQtGwZcUubnCMj.oAUafgvMOjLisdE2'
+categories: []
+sort: 0
+ownership:
+  default: 0
+  UV77mtxQgW7KpS6B: 3
+flags: {}
+_stats:
+  compendiumSource: null
+  duplicateSource: null
+  exportSource: null
+  coreVersion: '13.351'
+  systemId: grimwild
+  systemVersion: 0.4.0
+  createdTime: 1768697379136
+  modifiedTime: 1768697379136
+  lastModifiedBy: UV77mtxQgW7KpS6B
+_key: '!journal!WJWQtGwZcUubnCMj'

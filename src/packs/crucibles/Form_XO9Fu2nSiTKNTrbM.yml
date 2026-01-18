@@ -1,0 +1,747 @@
+name: Form
+img: icons/magic/control/buff-flight-wings-purple.webp
+description: ''
+results:
+  - name: Beacon
+    range:
+      - 1
+      - 1
+    weight: 1
+    _id: qpGttcNk7h0ULglX
+    type: text
+    img: null
+    description: ''
+    drawn: false
+    flags: {}
+    _stats:
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+      coreVersion: '13.351'
+      systemId: grimwild
+      systemVersion: 0.4.0
+      lastModifiedBy: null
+    _key: '!tables.results!XO9Fu2nSiTKNTrbM.qpGttcNk7h0ULglX'
+  - name: Servant
+    range:
+      - 2
+      - 2
+    weight: 1
+    _id: AkAHxB9qzHcqWB5E
+    type: text
+    img: null
+    description: ''
+    drawn: false
+    flags: {}
+    _stats:
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+      coreVersion: '13.351'
+      systemId: grimwild
+      systemVersion: 0.4.0
+      lastModifiedBy: null
+    _key: '!tables.results!XO9Fu2nSiTKNTrbM.AkAHxB9qzHcqWB5E'
+  - name: Vision
+    range:
+      - 3
+      - 3
+    weight: 1
+    _id: 9GCTjTIEO1us0tHB
+    type: text
+    img: null
+    description: ''
+    drawn: false
+    flags: {}
+    _stats:
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+      coreVersion: '13.351'
+      systemId: grimwild
+      systemVersion: 0.4.0
+      lastModifiedBy: null
+    _key: '!tables.results!XO9Fu2nSiTKNTrbM.9GCTjTIEO1us0tHB'
+  - name: Sentinel
+    range:
+      - 4
+      - 4
+    weight: 1
+    _id: 8x2VmMbu1CT7yB3V
+    type: text
+    img: null
+    description: ''
+    drawn: false
+    flags: {}
+    _stats:
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+      coreVersion: '13.351'
+      systemId: grimwild
+      systemVersion: 0.4.0
+      lastModifiedBy: null
+    _key: '!tables.results!XO9Fu2nSiTKNTrbM.8x2VmMbu1CT7yB3V'
+  - name: Ray
+    range:
+      - 5
+      - 5
+    weight: 1
+    _id: 2ZxeZTGdUtFrv5BH
+    type: text
+    img: null
+    description: ''
+    drawn: false
+    flags: {}
+    _stats:
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+      coreVersion: '13.351'
+      systemId: grimwild
+      systemVersion: 0.4.0
+      lastModifiedBy: null
+    _key: '!tables.results!XO9Fu2nSiTKNTrbM.2ZxeZTGdUtFrv5BH'
+  - name: Poison
+    range:
+      - 6
+      - 6
+    weight: 1
+    _id: ChLmhy3dpILEvz44
+    type: text
+    img: null
+    description: ''
+    drawn: false
+    flags: {}
+    _stats:
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+      coreVersion: '13.351'
+      systemId: grimwild
+      systemVersion: 0.4.0
+      lastModifiedBy: null
+    _key: '!tables.results!XO9Fu2nSiTKNTrbM.ChLmhy3dpILEvz44'
+  - name: Ring
+    range:
+      - 7
+      - 7
+    weight: 1
+    _id: DCRTCW8zjH5OlCaI
+    type: text
+    img: null
+    description: ''
+    drawn: false
+    flags: {}
+    _stats:
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+      coreVersion: '13.351'
+      systemId: grimwild
+      systemVersion: 0.4.0
+      lastModifiedBy: null
+    _key: '!tables.results!XO9Fu2nSiTKNTrbM.DCRTCW8zjH5OlCaI'
+  - name: Crown
+    range:
+      - 8
+      - 8
+    weight: 1
+    _id: ftZGmfUgbPLzDOWi
+    type: text
+    img: null
+    description: ''
+    drawn: false
+    flags: {}
+    _stats:
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+      coreVersion: '13.351'
+      systemId: grimwild
+      systemVersion: 0.4.0
+      lastModifiedBy: null
+    _key: '!tables.results!XO9Fu2nSiTKNTrbM.ftZGmfUgbPLzDOWi'
+  - name: Disk
+    range:
+      - 9
+      - 9
+    weight: 1
+    _id: 1TWFoNSaMN07zt43
+    type: text
+    img: null
+    description: ''
+    drawn: false
+    flags: {}
+    _stats:
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+      coreVersion: '13.351'
+      systemId: grimwild
+      systemVersion: 0.4.0
+      lastModifiedBy: null
+    _key: '!tables.results!XO9Fu2nSiTKNTrbM.1TWFoNSaMN07zt43'
+  - name: Web
+    range:
+      - 10
+      - 10
+    weight: 1
+    _id: XNpxbFanT66bibTp
+    type: text
+    img: null
+    description: ''
+    drawn: false
+    flags: {}
+    _stats:
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+      coreVersion: '13.351'
+      systemId: grimwild
+      systemVersion: 0.4.0
+      lastModifiedBy: null
+    _key: '!tables.results!XO9Fu2nSiTKNTrbM.XNpxbFanT66bibTp'
+  - name: Guide
+    range:
+      - 11
+      - 11
+    weight: 1
+    _id: WxGfxJfwhmkWvejC
+    type: text
+    img: null
+    description: ''
+    drawn: false
+    flags: {}
+    _stats:
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+      coreVersion: '13.351'
+      systemId: grimwild
+      systemVersion: 0.4.0
+      lastModifiedBy: null
+    _key: '!tables.results!XO9Fu2nSiTKNTrbM.WxGfxJfwhmkWvejC'
+  - name: Embers
+    range:
+      - 12
+      - 12
+    weight: 1
+    _id: Xrm3Dbioh5xYRA6A
+    type: text
+    img: null
+    description: ''
+    drawn: false
+    flags: {}
+    _stats:
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+      coreVersion: '13.351'
+      systemId: grimwild
+      systemVersion: 0.4.0
+      lastModifiedBy: null
+    _key: '!tables.results!XO9Fu2nSiTKNTrbM.Xrm3Dbioh5xYRA6A'
+  - name: Chains
+    range:
+      - 13
+      - 13
+    weight: 1
+    _id: cGjlToYnzPuNJeQM
+    type: text
+    img: null
+    description: ''
+    drawn: false
+    flags: {}
+    _stats:
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+      coreVersion: '13.351'
+      systemId: grimwild
+      systemVersion: 0.4.0
+      lastModifiedBy: null
+    _key: '!tables.results!XO9Fu2nSiTKNTrbM.cGjlToYnzPuNJeQM'
+  - name: Word
+    range:
+      - 14
+      - 14
+    weight: 1
+    _id: CV7ISKvsZLPJYp88
+    type: text
+    img: null
+    description: ''
+    drawn: false
+    flags: {}
+    _stats:
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+      coreVersion: '13.351'
+      systemId: grimwild
+      systemVersion: 0.4.0
+      lastModifiedBy: null
+    _key: '!tables.results!XO9Fu2nSiTKNTrbM.CV7ISKvsZLPJYp88'
+  - name: Fang
+    range:
+      - 15
+      - 15
+    weight: 1
+    _id: wCEXCvuz8MQYEfNQ
+    type: text
+    img: null
+    description: ''
+    drawn: false
+    flags: {}
+    _stats:
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+      coreVersion: '13.351'
+      systemId: grimwild
+      systemVersion: 0.4.0
+      lastModifiedBy: null
+    _key: '!tables.results!XO9Fu2nSiTKNTrbM.wCEXCvuz8MQYEfNQ'
+  - name: Gate
+    range:
+      - 16
+      - 16
+    weight: 1
+    _id: hXHfiL04MHJNotlo
+    type: text
+    img: null
+    description: ''
+    drawn: false
+    flags: {}
+    _stats:
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+      coreVersion: '13.351'
+      systemId: grimwild
+      systemVersion: 0.4.0
+      lastModifiedBy: null
+    _key: '!tables.results!XO9Fu2nSiTKNTrbM.hXHfiL04MHJNotlo'
+  - name: Wall
+    range:
+      - 17
+      - 17
+    weight: 1
+    _id: ox7VKwu4ksbXqtZx
+    type: text
+    img: null
+    description: ''
+    drawn: false
+    flags: {}
+    _stats:
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+      coreVersion: '13.351'
+      systemId: grimwild
+      systemVersion: 0.4.0
+      lastModifiedBy: null
+    _key: '!tables.results!XO9Fu2nSiTKNTrbM.ox7VKwu4ksbXqtZx'
+  - name: Dark
+    range:
+      - 18
+      - 18
+    weight: 1
+    _id: ub72C5FXnK9ZlP5V
+    type: text
+    img: null
+    description: ''
+    drawn: false
+    flags: {}
+    _stats:
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+      coreVersion: '13.351'
+      systemId: grimwild
+      systemVersion: 0.4.0
+      lastModifiedBy: null
+    _key: '!tables.results!XO9Fu2nSiTKNTrbM.ub72C5FXnK9ZlP5V'
+  - name: Eye
+    range:
+      - 19
+      - 19
+    weight: 1
+    _id: QmbKTgYxz91tfPk2
+    type: text
+    img: null
+    description: ''
+    drawn: false
+    flags: {}
+    _stats:
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+      coreVersion: '13.351'
+      systemId: grimwild
+      systemVersion: 0.4.0
+      lastModifiedBy: null
+    _key: '!tables.results!XO9Fu2nSiTKNTrbM.QmbKTgYxz91tfPk2'
+  - name: Aura
+    range:
+      - 20
+      - 20
+    weight: 1
+    _id: AqLgkfkBy6uqfOk1
+    type: text
+    img: null
+    description: ''
+    drawn: false
+    flags: {}
+    _stats:
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+      coreVersion: '13.351'
+      systemId: grimwild
+      systemVersion: 0.4.0
+      lastModifiedBy: null
+    _key: '!tables.results!XO9Fu2nSiTKNTrbM.AqLgkfkBy6uqfOk1'
+  - name: Gust
+    range:
+      - 21
+      - 21
+    weight: 1
+    _id: HsBPcgCZtUuamUPm
+    type: text
+    img: null
+    description: ''
+    drawn: false
+    flags: {}
+    _stats:
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+      coreVersion: '13.351'
+      systemId: grimwild
+      systemVersion: 0.4.0
+      lastModifiedBy: null
+    _key: '!tables.results!XO9Fu2nSiTKNTrbM.HsBPcgCZtUuamUPm'
+  - name: Whispers
+    range:
+      - 22
+      - 22
+    weight: 1
+    _id: pfJgPPTXfTmGwWYQ
+    type: text
+    img: null
+    description: ''
+    drawn: false
+    flags: {}
+    _stats:
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+      coreVersion: '13.351'
+      systemId: grimwild
+      systemVersion: 0.4.0
+      lastModifiedBy: null
+    _key: '!tables.results!XO9Fu2nSiTKNTrbM.pfJgPPTXfTmGwWYQ'
+  - name: Wings
+    range:
+      - 23
+      - 23
+    weight: 1
+    _id: Id3hWKIW9GLKUyt4
+    type: text
+    img: null
+    description: ''
+    drawn: false
+    flags: {}
+    _stats:
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+      coreVersion: '13.351'
+      systemId: grimwild
+      systemVersion: 0.4.0
+      lastModifiedBy: null
+    _key: '!tables.results!XO9Fu2nSiTKNTrbM.Id3hWKIW9GLKUyt4'
+  - name: Wave
+    range:
+      - 24
+      - 24
+    weight: 1
+    _id: 1IIzc6Y3rHJuKnDc
+    type: text
+    img: null
+    description: ''
+    drawn: false
+    flags: {}
+    _stats:
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+      coreVersion: '13.351'
+      systemId: grimwild
+      systemVersion: 0.4.0
+      lastModifiedBy: null
+    _key: '!tables.results!XO9Fu2nSiTKNTrbM.1IIzc6Y3rHJuKnDc'
+  - name: Cascade
+    range:
+      - 25
+      - 25
+    weight: 1
+    _id: sFIUwChbevoCaSdd
+    type: text
+    img: null
+    description: ''
+    drawn: false
+    flags: {}
+    _stats:
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+      coreVersion: '13.351'
+      systemId: grimwild
+      systemVersion: 0.4.0
+      lastModifiedBy: null
+    _key: '!tables.results!XO9Fu2nSiTKNTrbM.sFIUwChbevoCaSdd'
+  - name: Shield
+    range:
+      - 26
+      - 26
+    weight: 1
+    _id: nlhFqbae8TZXSGar
+    type: text
+    img: null
+    description: ''
+    drawn: false
+    flags: {}
+    _stats:
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+      coreVersion: '13.351'
+      systemId: grimwild
+      systemVersion: 0.4.0
+      lastModifiedBy: null
+    _key: '!tables.results!XO9Fu2nSiTKNTrbM.nlhFqbae8TZXSGar'
+  - name: Swarm
+    range:
+      - 27
+      - 27
+    weight: 1
+    _id: OJtejyHcgmgTkDNj
+    type: text
+    img: null
+    description: ''
+    drawn: false
+    flags: {}
+    _stats:
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+      coreVersion: '13.351'
+      systemId: grimwild
+      systemVersion: 0.4.0
+      lastModifiedBy: null
+    _key: '!tables.results!XO9Fu2nSiTKNTrbM.OJtejyHcgmgTkDNj'
+  - name: Pillar
+    range:
+      - 28
+      - 28
+    weight: 1
+    _id: 8mImGfdE1B0bKmNp
+    type: text
+    img: null
+    description: ''
+    drawn: false
+    flags: {}
+    _stats:
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+      coreVersion: '13.351'
+      systemId: grimwild
+      systemVersion: 0.4.0
+      lastModifiedBy: null
+    _key: '!tables.results!XO9Fu2nSiTKNTrbM.8mImGfdE1B0bKmNp'
+  - name: Claw
+    range:
+      - 29
+      - 29
+    weight: 1
+    _id: DhFIhvBdLgg4h1Gu
+    type: text
+    img: null
+    description: ''
+    drawn: false
+    flags: {}
+    _stats:
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+      coreVersion: '13.351'
+      systemId: grimwild
+      systemVersion: 0.4.0
+      lastModifiedBy: null
+    _key: '!tables.results!XO9Fu2nSiTKNTrbM.DhFIhvBdLgg4h1Gu'
+  - name: Dream
+    range:
+      - 30
+      - 30
+    weight: 1
+    _id: cEsrdwIS6mehPHBq
+    type: text
+    img: null
+    description: ''
+    drawn: false
+    flags: {}
+    _stats:
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+      coreVersion: '13.351'
+      systemId: grimwild
+      systemVersion: 0.4.0
+      lastModifiedBy: null
+    _key: '!tables.results!XO9Fu2nSiTKNTrbM.cEsrdwIS6mehPHBq'
+  - name: Bubble
+    range:
+      - 31
+      - 31
+    weight: 1
+    _id: jnVk3Vtq0XaqsT1S
+    type: text
+    img: null
+    description: ''
+    drawn: false
+    flags: {}
+    _stats:
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+      coreVersion: '13.351'
+      systemId: grimwild
+      systemVersion: 0.4.0
+      lastModifiedBy: null
+    _key: '!tables.results!XO9Fu2nSiTKNTrbM.jnVk3Vtq0XaqsT1S'
+  - name: Hand
+    range:
+      - 32
+      - 32
+    weight: 1
+    _id: WU3VYDlJdegruTUX
+    type: text
+    img: null
+    description: ''
+    drawn: false
+    flags: {}
+    _stats:
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+      coreVersion: '13.351'
+      systemId: grimwild
+      systemVersion: 0.4.0
+      lastModifiedBy: null
+    _key: '!tables.results!XO9Fu2nSiTKNTrbM.WU3VYDlJdegruTUX'
+  - name: Dance
+    range:
+      - 33
+      - 33
+    weight: 1
+    _id: FNxTyLD0h1s0clYP
+    type: text
+    img: null
+    description: ''
+    drawn: false
+    flags: {}
+    _stats:
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+      coreVersion: '13.351'
+      systemId: grimwild
+      systemVersion: 0.4.0
+      lastModifiedBy: null
+    _key: '!tables.results!XO9Fu2nSiTKNTrbM.FNxTyLD0h1s0clYP'
+  - name: Explosion
+    range:
+      - 34
+      - 34
+    weight: 1
+    _id: liYMLjx3KGhZVs7k
+    type: text
+    img: null
+    description: ''
+    drawn: false
+    flags: {}
+    _stats:
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+      coreVersion: '13.351'
+      systemId: grimwild
+      systemVersion: 0.4.0
+      lastModifiedBy: null
+    _key: '!tables.results!XO9Fu2nSiTKNTrbM.liYMLjx3KGhZVs7k'
+  - name: Mask
+    range:
+      - 35
+      - 35
+    weight: 1
+    _id: 8v3NWPoMikBHHpIE
+    type: text
+    img: null
+    description: ''
+    drawn: false
+    flags: {}
+    _stats:
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+      coreVersion: '13.351'
+      systemId: grimwild
+      systemVersion: 0.4.0
+      lastModifiedBy: null
+    _key: '!tables.results!XO9Fu2nSiTKNTrbM.8v3NWPoMikBHHpIE'
+  - name: Rot
+    range:
+      - 36
+      - 36
+    weight: 1
+    _id: 0RrUSTno6kOgQiR5
+    type: text
+    img: null
+    description: ''
+    drawn: false
+    flags: {}
+    _stats:
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+      coreVersion: '13.351'
+      systemId: grimwild
+      systemVersion: 0.4.0
+      lastModifiedBy: null
+    _key: '!tables.results!XO9Fu2nSiTKNTrbM.0RrUSTno6kOgQiR5'
+replacement: true
+displayRoll: true
+folder: FgSiOlAfW7ad583I
+ownership:
+  default: 0
+  UV77mtxQgW7KpS6B: 3
+flags:
+  core:
+    sheetClass: grimwild.GrimwildRollTableCrucibleSheet
+_stats:
+  compendiumSource: null
+  duplicateSource: null
+  exportSource: null
+  coreVersion: '13.351'
+  systemId: grimwild
+  systemVersion: 0.4.0
+  createdTime: 1768696643400
+  modifiedTime: 1768696661713
+  lastModifiedBy: UV77mtxQgW7KpS6B
+formula: 1d36
+_id: XO9Fu2nSiTKNTrbM
+sort: 200000
+_key: '!tables!XO9Fu2nSiTKNTrbM'

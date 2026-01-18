@@ -7,14 +7,17 @@ system:
   description: >-
     <p>You have spellcasting ability. You roll Wits to cast and the spell
     theorem you are casting serves as its touchstone. You know 4 spell theorems
-    inscribed in your spellbook, created using the Spell Crucible. Each session,
-    you can cast 4 spells and 2 potent spells. You choose which spell theorem to
-    use when you cast.</p><p>You can learn new spell theorems from studying and
-    experimenting with scrolls, which you might find as treasure or obtain from
-    other wizards. This consumes the scroll.</p><hr
-    /><p><strong>GROWTH</strong>: Every 2 levels, increase the castings of
-    spells and potent spells per session by 1 and create 1 new theorem with the
-    Spell Crucible.</p>
+    inscribed in your spellbook, created using the
+    @UUID[Compendium.grimwild.rules.JournalEntry.WJWQtGwZcUubnCMj.JournalEntryPage.oAUafgvMOjLisdE2]{Spell
+    Crucible}. Each session, you can cast 4 spells and 2 potent spells. You
+    choose which spell theorem to use when you cast.</p><p>You can learn new
+    spell theorems from studying and experimenting with scrolls, which you might
+    find as treasure or obtain from other wizards. This consumes the
+    scroll.</p><hr /><p><strong>GROWTH</strong>: Every 2 levels, increase the
+    castings of spells and potent spells per session by 1 and create 1 new
+    theorem with the
+    <strong>@UUID[Compendium.grimwild.rules.JournalEntry.WJWQtGwZcUubnCMj.JournalEntryPage.oAUafgvMOjLisdE2]{Spell
+    Crucible}</strong>.</p>
   core: true
   notes:
     description: <p><em>Write down your spell theorems here.</em></p>
@@ -28,7 +31,6 @@ system:
         showSteps: true
       pool:
         diceNum: 0
-        max: null
     - type: points
       label: Potent Spells
       points:
@@ -37,8 +39,9 @@ system:
         showSteps: true
       pool:
         diceNum: 0
-        max: null
   path: wizard
+  crucible:
+    instructions: ''
 effects: []
 sort: 0
 ownership:
@@ -48,11 +51,11 @@ flags: {}
 _stats:
   compendiumSource: null
   duplicateSource: null
-  coreVersion: '13.345'
+  coreVersion: '13.351'
   systemId: grimwild
-  systemVersion: 0.1.0
+  systemVersion: 0.4.0
   createdTime: 1739542636102
-  modifiedTime: 1739542636102
-  lastModifiedBy: Dl5Tvf37OuEHwdAh
+  modifiedTime: 1768698501780
+  lastModifiedBy: UV77mtxQgW7KpS6B
   exportSource: null
 _key: '!items!AxZp1G4i81EHnKl3'

@@ -1,0 +1,749 @@
+name: Style
+img: icons/magic/control/buff-flight-wings-runes-red.webp
+description: ''
+results:
+  - type: text
+    weight: 1
+    range:
+      - 1
+      - 1
+    _id: 4FJzqBLC18rOWm88
+    name: Binding
+    img: icons/svg/d20-black.svg
+    description: ''
+    drawn: false
+    flags: {}
+    _stats:
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+      coreVersion: '13.351'
+      systemId: grimwild
+      systemVersion: 0.4.0
+      lastModifiedBy: null
+    documentUuid: null
+    _key: '!tables.results!It97TCUGhQfa7I5n.4FJzqBLC18rOWm88'
+  - type: text
+    weight: 1
+    range:
+      - 2
+      - 2
+    _id: lAdH3OG4z94eCcaU
+    name: Shimmering
+    img: icons/svg/d20-black.svg
+    description: ''
+    drawn: false
+    flags: {}
+    _stats:
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+      coreVersion: '13.351'
+      systemId: grimwild
+      systemVersion: 0.4.0
+      lastModifiedBy: null
+    documentUuid: null
+    _key: '!tables.results!It97TCUGhQfa7I5n.lAdH3OG4z94eCcaU'
+  - type: text
+    weight: 1
+    range:
+      - 3
+      - 3
+    _id: O8DNeH6b3aSK8oYV
+    name: Curious
+    img: icons/svg/d20-black.svg
+    description: ''
+    drawn: false
+    flags: {}
+    _stats:
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+      coreVersion: '13.351'
+      systemId: grimwild
+      systemVersion: 0.4.0
+      lastModifiedBy: null
+    _key: '!tables.results!It97TCUGhQfa7I5n.O8DNeH6b3aSK8oYV'
+  - name: Oozing
+    range:
+      - 1
+      - 1
+    weight: 1
+    _id: EuzNYwCFVzUkZdmD
+    type: text
+    img: icons/svg/d20-black.svg
+    description: ''
+    drawn: false
+    flags: {}
+    _stats:
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+      coreVersion: '13.351'
+      systemId: grimwild
+      systemVersion: 0.4.0
+      lastModifiedBy: null
+    _key: '!tables.results!It97TCUGhQfa7I5n.EuzNYwCFVzUkZdmD'
+  - name: Shielding
+    range:
+      - 2
+      - 2
+    weight: 1
+    _id: K6YZKe7mqbBkyOhs
+    type: text
+    img: icons/svg/d20-black.svg
+    description: ''
+    drawn: false
+    flags: {}
+    _stats:
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+      coreVersion: '13.351'
+      systemId: grimwild
+      systemVersion: 0.4.0
+      lastModifiedBy: null
+    _key: '!tables.results!It97TCUGhQfa7I5n.K6YZKe7mqbBkyOhs'
+  - name: Shadowy
+    range:
+      - 3
+      - 3
+    weight: 1
+    _id: mC4clhujDSx54frT
+    type: text
+    img: icons/svg/d20-black.svg
+    description: ''
+    drawn: false
+    flags: {}
+    _stats:
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+      coreVersion: '13.351'
+      systemId: grimwild
+      systemVersion: 0.4.0
+      lastModifiedBy: null
+    _key: '!tables.results!It97TCUGhQfa7I5n.mC4clhujDSx54frT'
+  - name: Flaming
+    range:
+      - 4
+      - 4
+    weight: 1
+    _id: 9dsTMQwIB5UH1mrf
+    type: text
+    img: icons/svg/d20-black.svg
+    description: ''
+    drawn: false
+    flags: {}
+    _stats:
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+      coreVersion: '13.351'
+      systemId: grimwild
+      systemVersion: 0.4.0
+      lastModifiedBy: null
+    _key: '!tables.results!It97TCUGhQfa7I5n.9dsTMQwIB5UH1mrf'
+  - name: Slow
+    range:
+      - 5
+      - 5
+    weight: 1
+    _id: bkhPAVQx7H1wDQEn
+    type: text
+    img: icons/svg/d20-black.svg
+    description: ''
+    drawn: false
+    flags: {}
+    _stats:
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+      coreVersion: '13.351'
+      systemId: grimwild
+      systemVersion: 0.4.0
+      lastModifiedBy: null
+    _key: '!tables.results!It97TCUGhQfa7I5n.bkhPAVQx7H1wDQEn'
+  - name: Wrathful
+    range:
+      - 6
+      - 6
+    weight: 1
+    _id: oxkp1TWHwOQcYUpj
+    type: text
+    img: icons/svg/d20-black.svg
+    description: ''
+    drawn: false
+    flags: {}
+    _stats:
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+      coreVersion: '13.351'
+      systemId: grimwild
+      systemVersion: 0.4.0
+      lastModifiedBy: null
+    _key: '!tables.results!It97TCUGhQfa7I5n.oxkp1TWHwOQcYUpj'
+  - name: Petrifying
+    range:
+      - 7
+      - 7
+    weight: 1
+    _id: FmEkIBxmJcD8OYkj
+    type: text
+    img: icons/svg/d20-black.svg
+    description: ''
+    drawn: false
+    flags: {}
+    _stats:
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+      coreVersion: '13.351'
+      systemId: grimwild
+      systemVersion: 0.4.0
+      lastModifiedBy: null
+    _key: '!tables.results!It97TCUGhQfa7I5n.FmEkIBxmJcD8OYkj'
+  - name: Hungry
+    range:
+      - 8
+      - 8
+    weight: 1
+    _id: JoHnSxKJpUEOOSSi
+    type: text
+    img: icons/svg/d20-black.svg
+    description: ''
+    drawn: false
+    flags: {}
+    _stats:
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+      coreVersion: '13.351'
+      systemId: grimwild
+      systemVersion: 0.4.0
+      lastModifiedBy: null
+    _key: '!tables.results!It97TCUGhQfa7I5n.JoHnSxKJpUEOOSSi'
+  - name: Majestic
+    range:
+      - 9
+      - 9
+    weight: 1
+    _id: 7oDocKDVI9n74xZt
+    type: text
+    img: icons/svg/d20-black.svg
+    description: ''
+    drawn: false
+    flags: {}
+    _stats:
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+      coreVersion: '13.351'
+      systemId: grimwild
+      systemVersion: 0.4.0
+      lastModifiedBy: null
+    _key: '!tables.results!It97TCUGhQfa7I5n.7oDocKDVI9n74xZt'
+  - name: Charming
+    range:
+      - 10
+      - 10
+    weight: 1
+    _id: FjvOMKSflm0M1mew
+    type: text
+    img: icons/svg/d20-black.svg
+    description: ''
+    drawn: false
+    flags: {}
+    _stats:
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+      coreVersion: '13.351'
+      systemId: grimwild
+      systemVersion: 0.4.0
+      lastModifiedBy: null
+    _key: '!tables.results!It97TCUGhQfa7I5n.FjvOMKSflm0M1mew'
+  - name: Silent
+    range:
+      - 11
+      - 11
+    weight: 1
+    _id: vMQwN3N9jnNqb7h7
+    type: text
+    img: icons/svg/d20-black.svg
+    description: ''
+    drawn: false
+    flags: {}
+    _stats:
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+      coreVersion: '13.351'
+      systemId: grimwild
+      systemVersion: 0.4.0
+      lastModifiedBy: null
+    _key: '!tables.results!It97TCUGhQfa7I5n.vMQwN3N9jnNqb7h7'
+  - name: Dazzling
+    range:
+      - 12
+      - 12
+    weight: 1
+    _id: HOuaEPPrzYHYo7FE
+    type: text
+    img: icons/svg/d20-black.svg
+    description: ''
+    drawn: false
+    flags: {}
+    _stats:
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+      coreVersion: '13.351'
+      systemId: grimwild
+      systemVersion: 0.4.0
+      lastModifiedBy: null
+    _key: '!tables.results!It97TCUGhQfa7I5n.HOuaEPPrzYHYo7FE'
+  - name: Piercing
+    range:
+      - 13
+      - 13
+    weight: 1
+    _id: IyzUnZLMh7bS32Fy
+    type: text
+    img: icons/svg/d20-black.svg
+    description: ''
+    drawn: false
+    flags: {}
+    _stats:
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+      coreVersion: '13.351'
+      systemId: grimwild
+      systemVersion: 0.4.0
+      lastModifiedBy: null
+    _key: '!tables.results!It97TCUGhQfa7I5n.IyzUnZLMh7bS32Fy'
+  - name: Jovial
+    range:
+      - 14
+      - 14
+    weight: 1
+    _id: 9kA3fH4yaDNDz8dr
+    type: text
+    img: icons/svg/d20-black.svg
+    description: ''
+    drawn: false
+    flags: {}
+    _stats:
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+      coreVersion: '13.351'
+      systemId: grimwild
+      systemVersion: 0.4.0
+      lastModifiedBy: null
+    _key: '!tables.results!It97TCUGhQfa7I5n.9kA3fH4yaDNDz8dr'
+  - name: Frenzied
+    range:
+      - 15
+      - 15
+    weight: 1
+    _id: zHczUgzCVZewSFWi
+    type: text
+    img: icons/svg/d20-black.svg
+    description: ''
+    drawn: false
+    flags: {}
+    _stats:
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+      coreVersion: '13.351'
+      systemId: grimwild
+      systemVersion: 0.4.0
+      lastModifiedBy: null
+    _key: '!tables.results!It97TCUGhQfa7I5n.zHczUgzCVZewSFWi'
+  - name: Cryptic
+    range:
+      - 16
+      - 16
+    weight: 1
+    _id: pDne0FeAWrGF87io
+    type: text
+    img: icons/svg/d20-black.svg
+    description: ''
+    drawn: false
+    flags: {}
+    _stats:
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+      coreVersion: '13.351'
+      systemId: grimwild
+      systemVersion: 0.4.0
+      lastModifiedBy: null
+    _key: '!tables.results!It97TCUGhQfa7I5n.pDne0FeAWrGF87io'
+  - name: WIthering
+    range:
+      - 17
+      - 17
+    weight: 1
+    _id: Z3vkjan1iB7GGqLR
+    type: text
+    img: icons/svg/d20-black.svg
+    description: ''
+    drawn: false
+    flags: {}
+    _stats:
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+      coreVersion: '13.351'
+      systemId: grimwild
+      systemVersion: 0.4.0
+      lastModifiedBy: null
+    _key: '!tables.results!It97TCUGhQfa7I5n.Z3vkjan1iB7GGqLR'
+  - name: Primal
+    range:
+      - 18
+      - 18
+    weight: 1
+    _id: LW79D8wEY3M8x5Eb
+    type: text
+    img: icons/svg/d20-black.svg
+    description: ''
+    drawn: false
+    flags: {}
+    _stats:
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+      coreVersion: '13.351'
+      systemId: grimwild
+      systemVersion: 0.4.0
+      lastModifiedBy: null
+    _key: '!tables.results!It97TCUGhQfa7I5n.LW79D8wEY3M8x5Eb'
+  - name: Screaming
+    range:
+      - 19
+      - 19
+    weight: 1
+    _id: rP49d4kx8PkOIkE4
+    type: text
+    img: icons/svg/d20-black.svg
+    description: ''
+    drawn: false
+    flags: {}
+    _stats:
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+      coreVersion: '13.351'
+      systemId: grimwild
+      systemVersion: 0.4.0
+      lastModifiedBy: null
+    _key: '!tables.results!It97TCUGhQfa7I5n.rP49d4kx8PkOIkE4'
+  - name: Thunderous
+    range:
+      - 20
+      - 20
+    weight: 1
+    _id: gvMFZeEJPOh6x4gn
+    type: text
+    img: icons/svg/d20-black.svg
+    description: ''
+    drawn: false
+    flags: {}
+    _stats:
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+      coreVersion: '13.351'
+      systemId: grimwild
+      systemVersion: 0.4.0
+      lastModifiedBy: null
+    _key: '!tables.results!It97TCUGhQfa7I5n.gvMFZeEJPOh6x4gn'
+  - name: Prismatic
+    range:
+      - 21
+      - 21
+    weight: 1
+    _id: vKnO5EeLxjUQXqiW
+    type: text
+    img: icons/svg/d20-black.svg
+    description: ''
+    drawn: false
+    flags: {}
+    _stats:
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+      coreVersion: '13.351'
+      systemId: grimwild
+      systemVersion: 0.4.0
+      lastModifiedBy: null
+    _key: '!tables.results!It97TCUGhQfa7I5n.vKnO5EeLxjUQXqiW'
+  - name: Freezing
+    range:
+      - 22
+      - 22
+    weight: 1
+    _id: ANc79BG024MCloTF
+    type: text
+    img: icons/svg/d20-black.svg
+    description: ''
+    drawn: false
+    flags: {}
+    _stats:
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+      coreVersion: '13.351'
+      systemId: grimwild
+      systemVersion: 0.4.0
+      lastModifiedBy: null
+    _key: '!tables.results!It97TCUGhQfa7I5n.ANc79BG024MCloTF'
+  - name: Seeping
+    range:
+      - 23
+      - 23
+    weight: 1
+    _id: T7VVpQC8ILFbr2vj
+    type: text
+    img: icons/svg/d20-black.svg
+    description: ''
+    drawn: false
+    flags: {}
+    _stats:
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+      coreVersion: '13.351'
+      systemId: grimwild
+      systemVersion: 0.4.0
+      lastModifiedBy: null
+    _key: '!tables.results!It97TCUGhQfa7I5n.T7VVpQC8ILFbr2vj'
+  - name: Ferocious
+    range:
+      - 24
+      - 24
+    weight: 1
+    _id: WXY1ieLPutsfixwZ
+    type: text
+    img: icons/svg/d20-black.svg
+    description: ''
+    drawn: false
+    flags: {}
+    _stats:
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+      coreVersion: '13.351'
+      systemId: grimwild
+      systemVersion: 0.4.0
+      lastModifiedBy: null
+    _key: '!tables.results!It97TCUGhQfa7I5n.WXY1ieLPutsfixwZ'
+  - name: Grasping
+    range:
+      - 25
+      - 25
+    weight: 1
+    _id: N5jirdOc5w4cSJz2
+    type: text
+    img: icons/svg/d20-black.svg
+    description: ''
+    drawn: false
+    flags: {}
+    _stats:
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+      coreVersion: '13.351'
+      systemId: grimwild
+      systemVersion: 0.4.0
+      lastModifiedBy: null
+    _key: '!tables.results!It97TCUGhQfa7I5n.N5jirdOc5w4cSJz2'
+  - name: Venomous
+    range:
+      - 26
+      - 26
+    weight: 1
+    _id: IILcA6Eg5w9rcunU
+    type: text
+    img: icons/svg/d20-black.svg
+    description: ''
+    drawn: false
+    flags: {}
+    _stats:
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+      coreVersion: '13.351'
+      systemId: grimwild
+      systemVersion: 0.4.0
+      lastModifiedBy: null
+    _key: '!tables.results!It97TCUGhQfa7I5n.IILcA6Eg5w9rcunU'
+  - name: Sickening
+    range:
+      - 27
+      - 27
+    weight: 1
+    _id: WvDi5Lbk6Z6g1s9w
+    type: text
+    img: icons/svg/d20-black.svg
+    description: ''
+    drawn: false
+    flags: {}
+    _stats:
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+      coreVersion: '13.351'
+      systemId: grimwild
+      systemVersion: 0.4.0
+      lastModifiedBy: null
+    _key: '!tables.results!It97TCUGhQfa7I5n.WvDi5Lbk6Z6g1s9w'
+  - name: Mesmerising
+    range:
+      - 28
+      - 28
+    weight: 1
+    _id: mlOthKUPJta2IzbO
+    type: text
+    img: icons/svg/d20-black.svg
+    description: ''
+    drawn: false
+    flags: {}
+    _stats:
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+      coreVersion: '13.351'
+      systemId: grimwild
+      systemVersion: 0.4.0
+      lastModifiedBy: null
+    _key: '!tables.results!It97TCUGhQfa7I5n.mlOthKUPJta2IzbO'
+  - name: Unseen
+    range:
+      - 29
+      - 29
+    weight: 1
+    _id: pWHMuGC3q67MEkT4
+    type: text
+    img: icons/svg/d20-black.svg
+    description: ''
+    drawn: false
+    flags: {}
+    _stats:
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+      coreVersion: '13.351'
+      systemId: grimwild
+      systemVersion: 0.4.0
+      lastModifiedBy: null
+    _key: '!tables.results!It97TCUGhQfa7I5n.pWHMuGC3q67MEkT4'
+  - name: Expanding
+    range:
+      - 30
+      - 30
+    weight: 1
+    _id: w2mc0KdQhMeOmJZj
+    type: text
+    img: icons/svg/d20-black.svg
+    description: ''
+    drawn: false
+    flags: {}
+    _stats:
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+      coreVersion: '13.351'
+      systemId: grimwild
+      systemVersion: 0.4.0
+      lastModifiedBy: null
+    _key: '!tables.results!It97TCUGhQfa7I5n.w2mc0KdQhMeOmJZj'
+  - name: Swift
+    range:
+      - 31
+      - 31
+    weight: 1
+    _id: 9O7PcC8IhciDw76x
+    type: text
+    img: icons/svg/d20-black.svg
+    description: ''
+    drawn: false
+    flags: {}
+    _stats:
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+      coreVersion: '13.351'
+      systemId: grimwild
+      systemVersion: 0.4.0
+      lastModifiedBy: null
+    _key: '!tables.results!It97TCUGhQfa7I5n.9O7PcC8IhciDw76x'
+  - name: Phantom
+    range:
+      - 32
+      - 32
+    weight: 1
+    _id: znTcWYVBZ2s0Hgks
+    type: text
+    img: icons/svg/d20-black.svg
+    description: ''
+    drawn: false
+    flags: {}
+    _stats:
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+      coreVersion: '13.351'
+      systemId: grimwild
+      systemVersion: 0.4.0
+      lastModifiedBy: null
+    _key: '!tables.results!It97TCUGhQfa7I5n.znTcWYVBZ2s0Hgks'
+  - name: Terrible
+    range:
+      - 33
+      - 33
+    weight: 1
+    _id: Dd27OudjS7OxiEhj
+    type: text
+    img: icons/svg/d20-black.svg
+    description: ''
+    drawn: false
+    flags: {}
+    _stats:
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+      coreVersion: '13.351'
+      systemId: grimwild
+      systemVersion: 0.4.0
+      lastModifiedBy: null
+    _key: '!tables.results!It97TCUGhQfa7I5n.Dd27OudjS7OxiEhj'
+replacement: true
+displayRoll: true
+folder: FgSiOlAfW7ad583I
+ownership:
+  default: 0
+  UV77mtxQgW7KpS6B: 3
+flags:
+  core:
+    sheetClass: grimwild.GrimwildRollTableCrucibleSheet
+_stats:
+  compendiumSource: null
+  duplicateSource: null
+  exportSource: null
+  coreVersion: '13.351'
+  systemId: grimwild
+  systemVersion: 0.4.0
+  createdTime: 1768696645089
+  modifiedTime: 1768697076429
+  lastModifiedBy: UV77mtxQgW7KpS6B
+formula: 1d36
+_id: It97TCUGhQfa7I5n
+sort: 0
+_key: '!tables!It97TCUGhQfa7I5n'
