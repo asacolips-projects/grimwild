@@ -67,7 +67,7 @@ export default class GrimwildRoll extends Roll {
 		chatData.result = successToResult(chatData.success);
 		chatData.rawResult = successToResult(chatData.rawSuccess);
 		chatData.isCut = chatData.success !== chatData.rawSuccess;
-		chatData.isFail = ['disaster', 'grim', 'messy'].includes(chatData.result);
+		chatData.isFail = ["disaster", "grim", "messy"].includes(chatData.result);
 
 		// Separate assist dice from other dice
 		if (this.options?.assists) {

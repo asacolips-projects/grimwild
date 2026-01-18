@@ -165,7 +165,7 @@ class SuspenseTracker {
 		const quickPoolHtml = isGM || quickPoolsVisibleToPlayers ? getScenePools() : "";
 		susControl.innerHTML = `${susControlInnerHTML}${quickPoolHtml}`;
 		const susElement = document.querySelector("#sus-control");
-		const poolElement = document.querySelector('.quick-pool-inner');
+		const poolElement = document.querySelector(".quick-pool-inner");
 
 		if (isGM && susElement) {
 			susElement.querySelector("#js-sus-up").onclick = () => setSuspense(getSuspense() + 1);

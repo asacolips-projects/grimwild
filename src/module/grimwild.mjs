@@ -33,7 +33,7 @@ globalThis.grimwild = {
 		GrimwildItem,
 		GrimwildChatMessage,
 		GrimwildCombat,
-		GrimwildRollTable,
+		GrimwildRollTable
 	},
 	applications: {
 		GrimwildActorSheet,
@@ -50,7 +50,7 @@ globalThis.grimwild = {
 	models,
 	roll: dice.GrimwildRoll,
 	rollCrucible: dice.GrimwildCrucibleRoll,
-	diePools: dice.GrimwildDiePoolRoll,
+	diePools: dice.GrimwildDiePoolRoll
 };
 
 Hooks.once("init", function () {
@@ -127,7 +127,7 @@ Hooks.once("init", function () {
 	});
 	foundry.documents.collections.RollTables.registerSheet("grimwild", GrimwildRollTableCrucibleSheet, {
 		makeDefault: false,
-		label: "GRIMWILD.SheetLabels.RollTable",
+		label: "GRIMWILD.SheetLabels.RollTable"
 	});
 
 	// Handlebars utilities.
@@ -262,7 +262,7 @@ Hooks.once("setup", function () {
 						</div>
 						<table class="flexcol">
 							<tbody class="scrollable grid grid-6col">
-							${rollTable.results.map((result) => `<tr class="flexrow"><td>${result.name}</td></tr>`).join('')}
+							${rollTable.results.map((result) => `<tr class="flexrow"><td>${result.name}</td></tr>`).join("")}
 							</tbody>
 						</table>
 					</div>
@@ -301,18 +301,18 @@ Hooks.once("ready", function () {
 		}
 	});
 
-	document.addEventListener('click', async (event) => {
-		if (event.target?.classList.contains('enriched-crucible-roll')) {
+	document.addEventListener("click", async (event) => {
+		if (event.target?.classList.contains("enriched-crucible-roll")) {
 			event.preventDefault();
 			const { uuid } = event.target.dataset;
 			if (uuid) {
 				const rollTable = await fromUuid(uuid);
 				if (rollTable.isCrucible()) {
-					rollTable.rollCrucible({toMessage: true});
+					rollTable.rollCrucible({ toMessage: true });
 				}
 			}
 		}
-	})
+	});
 });
 
 Hooks.once("renderHotbar", function () {

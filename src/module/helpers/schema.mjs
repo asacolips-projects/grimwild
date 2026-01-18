@@ -50,7 +50,7 @@ export class CrucibleTableField extends fields.SchemaField {
 			// Table roll instructions.
 			instructions: new fields.StringField(optionalString),
 			// Table results. Outer schema is columns, inner schema is rows.
-			table: tableSchema,
+			table: tableSchema
 		};
 
 		super(tableFields, options, context);

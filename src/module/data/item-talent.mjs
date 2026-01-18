@@ -1,4 +1,4 @@
-import { DicePoolField, CrucibleTableField } from "../helpers/schema.mjs";
+import { DicePoolField } from "../helpers/schema.mjs";
 import GrimwildItemBase from "./base-item.mjs";
 
 export default class GrimwildTalent extends GrimwildItemBase {

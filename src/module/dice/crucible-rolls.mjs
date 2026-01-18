@@ -11,7 +11,7 @@ export default class GrimwildCrucibleRoll extends Roll {
 		}
 
 		if (!this.options.crucible) {
-			throw new Error(`A crucible object must be supplied in options.crucible for this roll.`);
+			throw new Error("A crucible object must be supplied in options.crucible for this roll.");
 		}
 	}
 
@@ -26,11 +26,11 @@ export default class GrimwildCrucibleRoll extends Roll {
 			tooltip: isPrivate ? "" : await this.getTooltip(),
 			stat: this.options.stat,
 			dice: dice,
-			name: this.options.crucible?.name ?? 'Crucible',
-      crucible: {
-        0: this.options.crucible.table[dice[0].result][dice[1].result],
-        1: this.options.crucible.table[dice[1].result][dice[0].result],
-      },
+			name: this.options.crucible?.name ?? "Crucible",
+			crucible: {
+				0: this.options.crucible.table[dice[0].result][dice[1].result],
+				1: this.options.crucible.table[dice[1].result][dice[0].result]
+			},
 			isPrivate: isPrivate
 		};
 

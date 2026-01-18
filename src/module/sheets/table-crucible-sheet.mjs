@@ -17,12 +17,12 @@ export class GrimwildRollTableCrucibleSheet extends api.HandlebarsApplicationMix
 			icon: "fa-solid fa-table-list",
 			resizable: true
 		},
-		position: {width: 720},
+		position: { width: 720 },
 		form: {
 			closeOnSubmit: false
 		},
 		actions: {
-			drawResult: GrimwildRollTableCrucibleSheet.#onDrawResult,
+			drawResult: GrimwildRollTableCrucibleSheet.#onDrawResult
 		}
 	};
 
@@ -34,30 +34,30 @@ export class GrimwildRollTableCrucibleSheet extends api.HandlebarsApplicationMix
 			scrollable: ["table[data-results] tbody"],
 			root: true
 		},
-		header: {template: "templates/sheets/roll-table/edit/header.hbs"},
-		tabs: {template: "templates/generic/tab-navigation.hbs"},
+		header: { template: "templates/sheets/roll-table/edit/header.hbs" },
+		tabs: { template: "templates/generic/tab-navigation.hbs" },
 		results: {
 			template: "systems/grimwild/templates/roll-table/edit/crucible-results.hbs",
 			templates: ["templates/sheets/roll-table/result-details.hbs"],
 			scrollable: ["table[data-results] tbody"]
 		},
-		summary: {template: "templates/sheets/roll-table/edit/summary.hbs"},
-		footer: {template: "templates/generic/form-footer.hbs"}
+		summary: { template: "templates/sheets/roll-table/edit/summary.hbs" },
+		footer: { template: "templates/generic/form-footer.hbs" }
 	};
 
 	static MODE_PARTS = {
 		edit: ["header", "results", "footer"],
 		view: ["sheet", "footer"]
-	}
+	};
 
 	grid = {
-		1: {1: '', 2: '', 3: '', 4: '', 5: '', 6: ''},
-		2: {1: '', 2: '', 3: '', 4: '', 5: '', 6: ''},
-		3: {1: '', 2: '', 3: '', 4: '', 5: '', 6: ''},
-		4: {1: '', 2: '', 3: '', 4: '', 5: '', 6: ''},
-		5: {1: '', 2: '', 3: '', 4: '', 5: '', 6: ''},
-		6: {1: '', 2: '', 3: '', 4: '', 5: '', 6: ''},
-	}
+		1: { 1: "", 2: "", 3: "", 4: "", 5: "", 6: "" },
+		2: { 1: "", 2: "", 3: "", 4: "", 5: "", 6: "" },
+		3: { 1: "", 2: "", 3: "", 4: "", 5: "", 6: "" },
+		4: { 1: "", 2: "", 3: "", 4: "", 5: "", 6: "" },
+		5: { 1: "", 2: "", 3: "", 4: "", 5: "", 6: "" },
+		6: { 1: "", 2: "", 3: "", 4: "", 5: "", 6: "" }
+	};
 
 	/** @inheritDoc */
 	_prepareSubmitData(event, form, formData, updateData) {
@@ -70,14 +70,14 @@ export class GrimwildRollTableCrucibleSheet extends api.HandlebarsApplicationMix
 
 	/** @inheritDoc */
 	async submit(options) {
-		if ( !this.isEditMode ) return;
+		if (!this.isEditMode) return;
 		return super.submit(options);
 	}
 
 	/** @inheritDoc */
 	_configureRenderOptions(options) {
-		if ( !this.isEditable ) this.mode = "view";
-		else if ( options.isFirstRender && !this.document.results.size ) this.mode = "edit";
+		if (!this.isEditable) this.mode = "view";
+		else if (options.isFirstRender && !this.document.results.size) this.mode = "edit";
 		return super._configureRenderOptions(options);
 	}
 
@@ -87,21 +87,21 @@ export class GrimwildRollTableCrucibleSheet extends api.HandlebarsApplicationMix
 	_configureRenderParts(options) {
 		const parts = super._configureRenderParts(options);
 		const allowedParts = this.constructor.MODE_PARTS[this.mode];
-		for ( const partId in parts ) {
-			if ( !allowedParts.includes(partId) ) delete parts[partId];
+		for (const partId in parts) {
+			if (!allowedParts.includes(partId)) delete parts[partId];
 		}
 		return parts;
 	}
 
 	_prepareTabs(group) {
-		return {tabs: {}};
+		return { tabs: {} };
 	}
 
 	/** @inheritDoc */
 	async _preparePartContext(partId, context, options) {
 		context = await super._preparePartContext(partId, context, options);
-		const {description, results, isOwner} = context.document;
-		switch ( partId ) {
+		const { description, results, isOwner } = context.document;
+		switch (partId) {
 			case "results":
 				context.tab = context.tabs.results;
 				context.resultFields = foundry.documents.TableResult.schema.fields;
@@ -113,7 +113,7 @@ export class GrimwildRollTableCrucibleSheet extends api.HandlebarsApplicationMix
 			//   context.formulaPlaceholder = `1d${results.size || 20}`;
 			//   break;
 			case "sheet": // Lone view-mode part
-				context.descriptionHTML = await TextEditor.implementation.enrichHTML(description, {secrets: isOwner});
+				context.descriptionHTML = await TextEditor.implementation.enrichHTML(description, { secrets: isOwner });
 				context.formula = context.source.formula || `1d${results.size || 20}`;
 				await this._prepareCrucibleGrid(context);
 				break;
@@ -132,7 +132,7 @@ export class GrimwildRollTableCrucibleSheet extends api.HandlebarsApplicationMix
 						label: "TABLE.ACTIONS.DrawResult"
 					}
 				];
-				if ( this.isEditMode ) {
+				if (this.isEditMode) {
 					context.buttons.unshift({
 						type: "submit",
 						icon: "fa-solid fa-floppy-disk",
@@ -161,8 +161,8 @@ export class GrimwildRollTableCrucibleSheet extends api.HandlebarsApplicationMix
 			img: result.icon,
 			name: result.name,
 			fields: result.schema.fields,
-			description: await TextEditor.implementation.enrichHTML(result.description, {relativeTo: result,
-				secrets: result.isOwner}),
+			description: await TextEditor.implementation.enrichHTML(result.description, { relativeTo: result,
+				secrets: result.isOwner }),
 			documentLink: result.documentToAnchor()?.outerHTML,
 			weight: result.weight,
 			range,
@@ -172,7 +172,7 @@ export class GrimwildRollTableCrucibleSheet extends api.HandlebarsApplicationMix
 
 	async _prepareCrucibleGrid(context) {
 		const { results } = context.document;
-		const getSortedResults = () => results.contents.sort(this._sortResults.bind(this)).slice(0,36);
+		const getSortedResults = () => results.contents.sort(this._sortResults.bind(this)).slice(0, 36);
 		context.results = await Promise.all(getSortedResults().map(this._prepareResult.bind(this)));
 		context.grid = this.document.getCrucibleTable();
 	}
@@ -194,26 +194,26 @@ export class GrimwildRollTableCrucibleSheet extends api.HandlebarsApplicationMix
 		}).bind(this.element);
 
 		// Allow draws with replacement by observers even if the Table is not editable
-		if ( !options.parts.includes("footer") ) return;
+		if (!options.parts.includes("footer")) return;
 		const table = context.document;
 		const drawButton = this.element.querySelector("button[data-action=drawResult]");
-		if ( table.replacement && table.testUserPermission(game.user, "OBSERVER") ) {
+		if (table.replacement && table.testUserPermission(game.user, "OBSERVER")) {
 			drawButton.disabled = false;
 		}
 		// Disallow draws without replacement from compendium Tables
-		else if ( !table.replacement && table.pack ) {
+		else if (!table.replacement && table.pack) {
 			drawButton.disabled = true;
 		}
 	}
 
 	static async #onDrawResult(_event, button) {
-		if ( this.form ) await this.submit({operation: {render: false}});
+		if (this.form) await this.submit({ operation: { render: false } });
 		button.disabled = true;
 
-		await this.document.rollCrucible({toMessage: true});
+		await this.document.rollCrucible({ toMessage: true });
 
 		// Reenable the button if drawing with replacement since the draw won't trigger a sheet re-render
 		const table = this.document;
-		if ( table.replacement ) button.disabled = false;
+		if (table.replacement) button.disabled = false;
 	}
 }
