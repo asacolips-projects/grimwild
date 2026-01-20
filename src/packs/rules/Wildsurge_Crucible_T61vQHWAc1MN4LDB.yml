@@ -1,0 +1,87 @@
+folder: vUGdoKGy7PZ2fdfW
+name: Wildsurge Crucible
+_id: T61vQHWAc1MN4LDB
+pages:
+  - sort: 100000
+    name: Wildsurge Crucible
+    type: text
+    _id: 1XlO2O0wK4WGzkld
+    system: {}
+    title:
+      show: false
+      level: 1
+    image: {}
+    text:
+      format: 1
+      content: >-
+        <p><span style="box-sizing:border-box;margin:0.5rem
+        0px;scrollbar-width:thin;scrollbar-color:rgb(93, 20, 43) rgba(0, 0, 0,
+        0);color:rgb(239, 230, 216);font-family:Signika, 'Palatino Linotype',
+        sans-serif;font-size:14px;font-style:normal;font-variant-ligatures:normal;font-variant-caps:normal;font-weight:400;letter-spacing:normal;orphans:2;text-align:start;text-indent:0px;text-transform:none;widows:2;word-spacing:0px;-webkit-text-stroke-width:0px;white-space:normal;background-color:rgba(11,
+        10, 19,
+        0.9);text-decoration-thickness:initial;text-decoration-style:initial;text-decoration-color:initial">For
+        truly wild surges, you can let it be completely random instead of
+        deciding as a group. Roll these all at once: [[/r 2d]]{2d story roll},
+        wild surge crucible below, and [[/r 2d8]]. The d8 determine a sorcery
+        path and sorcery technique.</span><span class="p2"
+        style="box-sizing:border-box;margin:0.5rem
+        0px;scrollbar-width:thin;scrollbar-color:rgb(93, 20, 43) rgba(0, 0, 0,
+        0);color:rgb(239, 230, 216);font-family:Signika, 'Palatino Linotype',
+        sans-serif;font-size:14px;font-style:normal;font-variant-ligatures:normal;font-variant-caps:normal;font-weight:400;letter-spacing:normal;orphans:2;text-align:start;text-indent:0px;text-transform:none;widows:2;word-spacing:0px;-webkit-text-stroke-width:0px;white-space:normal;background-color:rgba(11,
+        10, 19,
+        0.9);text-decoration-thickness:initial;text-decoration-style:initial;text-decoration-color:initial">To
+        randomly select a target, roll an additional [[/r 2d]]. Assign numbers
+        to each PC and use remaining numbers for NPCs or the environment. On
+        doubles, it targets that thing as if a critical or disaster. On an
+        actual critical, it targets everything.</span></p><hr /><p><span
+        style="box-sizing:border-box;margin:0.5rem
+        0px;scrollbar-width:thin;scrollbar-color:rgb(93, 20, 43) rgba(0, 0, 0,
+        0);color:rgb(239, 230, 216);font-family:Signika, 'Palatino Linotype',
+        sans-serif;font-size:14px;font-style:normal;font-variant-ligatures:normal;font-variant-caps:normal;font-weight:400;letter-spacing:normal;orphans:2;text-align:start;text-indent:0px;text-transform:none;widows:2;word-spacing:0px;-webkit-text-stroke-width:0px;white-space:normal;background-color:rgba(11,
+        10, 19,
+        0.9);text-decoration-thickness:initial;text-decoration-style:initial;text-decoration-color:initial">@CRUCIBLE[Compendium.grimwild.crucibles.RollTable.o9zE97tH5RUpn9GP]{Wild
+        Surge Crucible 1}</span></p><hr /><p><span
+        style="box-sizing:border-box;margin:0.5rem
+        0px;scrollbar-width:thin;scrollbar-color:rgb(93, 20, 43) rgba(0, 0, 0,
+        0);color:rgb(239, 230, 216);font-family:Signika, 'Palatino Linotype',
+        sans-serif;font-size:14px;font-style:normal;font-variant-ligatures:normal;font-variant-caps:normal;font-weight:400;letter-spacing:normal;orphans:2;text-align:start;text-indent:0px;text-transform:none;widows:2;word-spacing:0px;-webkit-text-stroke-width:0px;white-space:normal;background-color:rgba(11,
+        10, 19,
+        0.9);text-decoration-thickness:initial;text-decoration-style:initial;text-decoration-color:initial">@CRUCIBLE[Compendium.grimwild.crucibles.RollTable.7IpCiKXDnmcjS7lf]{Wild
+        Surge Crucible 2}</span></p>
+    video:
+      controls: true
+      volume: 0.5
+    src: null
+    category: null
+    ownership:
+      default: -1
+      UV77mtxQgW7KpS6B: 3
+    flags: {}
+    _stats:
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+      coreVersion: '13.351'
+      systemId: grimwild
+      systemVersion: 0.5.0
+      createdTime: 1768923372430
+      modifiedTime: 1768923452531
+      lastModifiedBy: UV77mtxQgW7KpS6B
+    _key: '!journal.pages!T61vQHWAc1MN4LDB.1XlO2O0wK4WGzkld'
+categories: []
+sort: 0
+ownership:
+  default: 0
+  UV77mtxQgW7KpS6B: 3
+flags: {}
+_stats:
+  compendiumSource: null
+  duplicateSource: null
+  exportSource: null
+  coreVersion: '13.351'
+  systemId: grimwild
+  systemVersion: 0.5.0
+  createdTime: 1768923364487
+  modifiedTime: 1768923364487
+  lastModifiedBy: UV77mtxQgW7KpS6B
+_key: '!journal!T61vQHWAc1MN4LDB'

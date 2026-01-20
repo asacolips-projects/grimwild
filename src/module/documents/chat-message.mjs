@@ -75,9 +75,9 @@ export class GrimwildChatMessage extends ChatMessage {
 		// Handle event listeners.
 		const click = this.#onClick.bind(this);
 		const sparkTakenArray = this.getFlag("grimwild", "sparkTaken") ?? [];
-		const damageTakenArray = this.getFlag("grimwild", "damageTaken") ?? [];
+		// const damageTakenArray = this.getFlag("grimwild", "damageTaken") ?? [];
 		const sparkTaken = sparkTakenArray.includes(game.user.id);
-		const damageTaken = damageTakenArray.includes(game.user.id);
+		// const damageTaken = damageTakenArray.includes(game.user.id);
 		html.querySelectorAll("[data-action]")?.forEach((element) => {
 			const { action } = element.dataset;
 			if (action === "updateSpark") {
@@ -87,10 +87,10 @@ export class GrimwildChatMessage extends ChatMessage {
 				}
 			}
 			else if (["applyMark", "applyHarm"].includes(action)) {
-				if (damageTaken) {
-					element.setAttribute("disabled", true);
-					return;
-				}
+				// if (damageTaken) {
+					// element.setAttribute("disabled", true);
+					// return;
+				// }
 			}
 			element.addEventListener("click", click);
 		});
@@ -256,7 +256,8 @@ export class GrimwildChatMessage extends ChatMessage {
 		if (!actor.system[harm === "bloodied" ? "isBloodied" : "isRattled"]) {
 			update[`system.${harm}.marked`] = true;
 			if (harmPools) {
-				update[`system.${harm}.pool.diceNum`] = 1;
+				const newHarmPool = Math.min(actor.system[harm].pool.diceNum + 1, maxHarm);
+				update[`system.${harm}.pool.diceNum`] = newHarmPool;
 			}
 		}
 		else if (!harmPools || actor.system[harm].pool.diceNum >= maxHarm) {

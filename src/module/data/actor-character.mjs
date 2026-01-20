@@ -303,7 +303,8 @@ export default class GrimwildCharacter extends GrimwildActorBase {
 					diceDefault: rollData?.stats?.[options.stat].value,
 					isBloodied: rollData?.isBloodied,
 					isRattled: rollData?.isRattled,
-					isMarked: rollData?.stats?.[options.stat].marked
+					isMarked: rollData?.stats?.[options.stat].marked,
+					actor: this.parent,
 				}
 			});
 			// bail out if they closed the dialog
