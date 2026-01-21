@@ -16,10 +16,12 @@ system:
     technique as touch- stones. You can push yourself to cast a
     <em><strong>potent spell</strong></em>, but gain no free activation of
     it.</p><p>When casting, rolling two or more 1s (including thorns) triggers a
-    secondary <strong>wild surge</strong>—raw magic spirals out of your control.
-    <em><strong>Make a 2d story roll</strong> </em>to see what happens. The
-    effect might stem from your touchstones, raw magical essence, or something
-    chaotically random. Use the
+    secondary
+    <strong>@UUID[Compendium.grimwild.rules.JournalEntry.T61vQHWAc1MN4LDB]{wild
+    surge}</strong>—raw magic spirals out of your control. <em><strong>Make a
+    [[/r 2d]]{2d story roll}</strong> </em>to see what happens. The effect might
+    stem from your touchstones, raw magical essence, or something chaotically
+    random. Use the
     @UUID[Compendium.grimwild.gm_toolkit.JournalEntry.czz9p07Cxj5KiIQu]{GM
     Crucibles} or ask around your group for ideas.</p><hr
     /><p><strong>GROWTH</strong>: Every 2 levels, gain a new technique or magic
@@ -41,9 +43,9 @@ _stats:
   duplicateSource: null
   coreVersion: '13.351'
   systemId: grimwild
-  systemVersion: 0.4.0
+  systemVersion: 0.5.0
   createdTime: 1739139357959
-  modifiedTime: 1768769887601
+  modifiedTime: 1768923519685
   lastModifiedBy: UV77mtxQgW7KpS6B
   exportSource: null
 _key: '!items!MnncHMBYzPHIQJWG'

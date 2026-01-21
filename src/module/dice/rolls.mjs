@@ -21,6 +21,7 @@ export default class GrimwildRoll extends Roll {
 			total: isPrivate ? "?" : this.total,
 			dice: this.dice[0].results,
 			thorns: this.dice[1].results,
+			stat: this.options?.stat ?? null,
 			assists: {},
 			crit: false,
 			success: 0,

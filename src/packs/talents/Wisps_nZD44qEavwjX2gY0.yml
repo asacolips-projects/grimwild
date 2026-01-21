@@ -24,7 +24,6 @@ system:
         showSteps: true
       pool:
         diceNum: 0
-        max: null
   path: sorcerer
 effects: []
 sort: 0
@@ -35,11 +34,11 @@ flags: {}
 _stats:
   compendiumSource: null
   duplicateSource: null
-  coreVersion: '13.345'
+  coreVersion: '13.351'
   systemId: grimwild
-  systemVersion: 0.1.0
+  systemVersion: 0.5.0
   createdTime: 1739139357959
-  modifiedTime: 1739747232925
-  lastModifiedBy: Dl5Tvf37OuEHwdAh
+  modifiedTime: 1768923586280
+  lastModifiedBy: UV77mtxQgW7KpS6B
   exportSource: null
 _key: '!items!nZD44qEavwjX2gY0'

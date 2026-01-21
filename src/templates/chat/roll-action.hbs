@@ -5,7 +5,7 @@
       {{localize (concat "GRIMWILD.Dice.results." rawResult)}} &#8594;
       {{/if}}
       {{localize (concat "GRIMWILD.Dice.results." result)}}</h2>
-    <em>{{stat}}</em>
+    {{#if stat}}<strong class="dice-stat">{{localize (concat "GRIMWILD.Stat." stat ".long")}}</strong>{{/if}}
   </div>
   <div class="dice-tooltip expanded">
     <section class="tooltip-part">
@@ -31,7 +31,6 @@
       </div>
     </section>
   </div>
-  {{#if hasActions}}
   <div class="action-links">
     {{#if isFail }}
     <div class="action-row action-marks flexrow">
@@ -47,12 +46,12 @@
       <button data-action="applyHarm" data-harm="rattled"><i class="fas fa-brain"></i> Rattled</button>
     </div>
     {{/if}}
-    {{#if (eq result "disaster")}}
-    <div class="action-row action-spark">
+    <div class="action-row action-spark flexcol">
       <button data-action="updateSpark"><i class="fas fa-bolt"></i> Take spark</button>
+      {{#if (eq result "disaster")}}
+      <div class="spark-footnote"><em>Disasters</em> grant spark</div>
+      {{/if}}
     </div>
-    {{/if}}
   </div>
-  {{/if}}
 </section>
 {{/unless}}
