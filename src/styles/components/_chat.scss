@@ -36,6 +36,20 @@
 		color: #222;
 	}
 
+	.spark-footnote {
+		padding: 4px 0;
+
+		em {
+			body.theme-dark & {
+				color: #ff5c37;
+			}
+
+			body.theme-light & {
+				color: #9c1e01;
+			}
+		}
+	}
+
 	&.whisper {
 		background-color: #491f49;
 		border: 1px solid #642764;
