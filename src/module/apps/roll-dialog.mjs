@@ -156,10 +156,11 @@ export class GrimwildRollDialog extends foundry.applications.api.DialogV2 {
 		// Add weapon mastery as an assistant.
 		if (rollData.actor) {
 			const path = rollData.actor.system.path;
-			const weaponMastery = rollData.actor.itemTypes.talent.filter(t => t.name.trim().toLowerCase().includes('weapon mastery'));
+			const weaponMastery = rollData.actor.itemTypes.talent.filter((t) => t.name.trim().toLowerCase()
+				.includes("weapon mastery"));
 
-			if (path.trim().toLowerCase() === 'fighter' || weaponMastery.length > 0) {
-				rollData.assistants.push('Weapon Mastery');
+			if (path.trim().toLowerCase() === "fighter" || weaponMastery.length > 0) {
+				rollData.assistants.push("Weapon Mastery");
 			}
 		}
 

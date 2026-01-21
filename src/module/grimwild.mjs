@@ -325,7 +325,7 @@ Hooks.once("ready", function () {
 
 		if (event.target?.classList.contains("create-crucible")) {
 			event.preventDefault();
-			const label = game.i18n.format("DOCUMENT.Create", {type: "Crucible Table"});
+			const label = game.i18n.format("DOCUMENT.Create", { type: "Crucible Table" });
 			try {
 				const crucibleName = await foundry.applications.api.DialogV2.prompt({
 					window: { title: label },
@@ -339,7 +339,7 @@ Hooks.once("ready", function () {
 						callback: (event, button, dialog) => button.form.elements.name.value
 					}
 				});
-				const defaultData = Array.fromRange(36,1).map(result => {
+				const defaultData = Array.fromRange(36, 1).map((result) => {
 					return {
 						name: "",
 						range: [result, result],
@@ -358,9 +358,9 @@ Hooks.once("ready", function () {
 					}
 				});
 			}
-			catch (error) {
+			catch(error) {
 				console.error(error);
-				return;
+
 			}
 		}
 	});
@@ -383,7 +383,7 @@ Hooks.on("renderSceneControls", (application, html, data) => {
 Hooks.on("renderDocumentDirectory", (application, html, data) => {
 	if (data.documentName === "RollTable") {
 		html.querySelector(".header-actions").insertAdjacentHTML("afterbegin", `
-			<button type="button" class="create-crucible" data-action="createCrucible"><i class="fas fa-grip"></i><span>${game.i18n.format("DOCUMENT.Create", {type: "Crucible"})}</span></button>
+			<button type="button" class="create-crucible" data-action="createCrucible"><i class="fas fa-grip"></i><span>${game.i18n.format("DOCUMENT.Create", { type: "Crucible" })}</span></button>
 		`);
 	}
 });

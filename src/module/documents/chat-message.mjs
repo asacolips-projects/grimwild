@@ -88,8 +88,8 @@ export class GrimwildChatMessage extends ChatMessage {
 			}
 			else if (["applyMark", "applyHarm"].includes(action)) {
 				// if (damageTaken) {
-					// element.setAttribute("disabled", true);
-					// return;
+				// element.setAttribute("disabled", true);
+				// return;
 				// }
 			}
 			element.addEventListener("click", click);

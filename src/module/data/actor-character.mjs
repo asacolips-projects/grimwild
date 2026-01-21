@@ -304,7 +304,7 @@ export default class GrimwildCharacter extends GrimwildActorBase {
 					isBloodied: rollData?.isBloodied,
 					isRattled: rollData?.isRattled,
 					isMarked: rollData?.stats?.[options.stat].marked,
-					actor: this.parent,
+					actor: this.parent
 				}
 			});
 			// bail out if they closed the dialog
@@ -370,7 +370,7 @@ export default class GrimwildCharacter extends GrimwildActorBase {
 				await combatant.setFlag("grimwild", "actionCount", actionCount + 1);
 
 				const actor = combatant.actor;
-				await actor.update({"system.tokenActions.value": Math.max(actor.system.tokenActions.value - 1, 0)});
+				await actor.update({ "system.tokenActions.value": Math.max(actor.system.tokenActions.value - 1, 0) });
 
 				// Update the active turn.
 				const combatantTurn = combat.turns.findIndex((c) => c.id === combatant.id);

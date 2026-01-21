@@ -48,7 +48,7 @@ export class GrimwildCombat extends foundry.documents.Combat {
 	resetActions() {
 		for (let combatant of this.combatants) {
 			combatant.setFlag("grimwild", "actionCount", 0);
-			combatant.actor.update({"system.tokenActions.value": 2});
+			combatant.actor.update({ "system.tokenActions.value": 2 });
 		}
 	}
 
@@ -185,8 +185,8 @@ export class GrimwildCombatTracker extends foundry.applications.sidebar.tabs.Com
 			callback: (li) => {
 				const combatant = getCombatant(li);
 				if (combatant) {
-					combatant?.setFlag("grimwild", "actionCount", 0)
-					combatant?.actor.update({"system.tokenActions.value": 2});
+					combatant?.setFlag("grimwild", "actionCount", 0);
+					combatant?.actor.update({ "system.tokenActions.value": 2 });
 				}
 			}
 		}, {
