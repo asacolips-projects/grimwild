@@ -149,7 +149,7 @@ export class GrimwildCombatTracker extends foundry.applications.sidebar.tabs.Com
 	_getCombatContextOptions() {
 		return [{
 			name: game.settings.get("grimwild", "tokenActions")
-			  ? "GRIMWILD.Combat.ResetActionTokens"
+				? "GRIMWILD.Combat.ResetActionTokens"
 				: "GRIMWILD.Combat.ResetActionCount",
 			icon: '<i class="fa-solid fa-arrow-rotate-left"></i>',
 			condition: () => game.user.isGM && (this.viewed?.turns.length > 0),
@@ -182,7 +182,7 @@ export class GrimwildCombatTracker extends foundry.applications.sidebar.tabs.Com
 			})
 		}, {
 			name: game.settings.get("grimwild", "tokenActions")
-			  ? "GRIMWILD.Combat.ResetActionTokens"
+				? "GRIMWILD.Combat.ResetActionTokens"
 				: "GRIMWILD.Combat.ResetActionCount",
 			icon: '<i class="fa-solid fa-arrow-rotate-left"></i>',
 			condition: (li) => game.user.isGM,
@@ -203,7 +203,7 @@ export class GrimwildCombatTracker extends foundry.applications.sidebar.tabs.Com
 				callback: (li) => {
 					const combatant = getCombatant(li);
 					if (combatant) {
-						combatant?.actor.update({ "system.tokenActions.value": Math.min(combatant.actor.system.tokenActions.value + 1, 2)});
+						combatant?.actor.update({ "system.tokenActions.value": Math.min(combatant.actor.system.tokenActions.value + 1, 2) });
 					}
 				}
 			});
@@ -214,10 +214,10 @@ export class GrimwildCombatTracker extends foundry.applications.sidebar.tabs.Com
 				callback: (li) => {
 					const combatant = getCombatant(li);
 					if (combatant) {
-						combatant?.actor.update({ "system.tokenActions.value": Math.max(combatant.actor.system.tokenActions.value - 1, 0)});
+						combatant?.actor.update({ "system.tokenActions.value": Math.max(combatant.actor.system.tokenActions.value - 1, 0) });
 					}
 				}
-			})
+			});
 		}
 
 		contextOptions.push({
