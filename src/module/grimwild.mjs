@@ -44,7 +44,7 @@ globalThis.grimwild = {
 		GrimwildItemSheetVue,
 		GrimwildCombatTracker,
 		GrimwildRollTableCrucibleSheet,
-		GrimwildRollDialog,
+		GrimwildRollDialog
 	},
 	utils: {
 		rollItemMacro

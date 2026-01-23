@@ -702,7 +702,7 @@ export class GrimwildActorSheetVue extends VueRenderingMixin(GrimwildBaseVueActo
 				update[`system.${field}`] = fieldData;
 			}
 
-			//Handle actor updates.
+			// Handle actor updates.
 			if (Object.keys(update).length > 0) {
 				await this.document.update(update);
 			}
