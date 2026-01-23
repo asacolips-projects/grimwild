@@ -6,6 +6,12 @@
       {{/if}}
       {{localize (concat "GRIMWILD.Dice.results." result)}}</h2>
     {{#if stat}}<strong class="dice-stat">{{localize (concat "GRIMWILD.Stat." stat ".long")}}</strong>{{/if}}
+    {{#if startPool}}
+    <div class="pool-result">
+      <strong>{{ startPool }} &#8594; {{ endPool }}</strong>
+    </div>
+    {{/if}}
+    <div></div>
   </div>
   <div class="dice-tooltip expanded">
     <section class="tooltip-part">

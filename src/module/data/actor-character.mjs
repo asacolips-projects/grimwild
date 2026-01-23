@@ -300,6 +300,7 @@ export default class GrimwildCharacter extends GrimwildActorBase {
 					name: this?.name ?? this?.parent?.name,
 					spark: rollData?.spark,
 					stat: options.stat,
+					diceLabel: game.i18n.localize(`GRIMWILD.Stat.${options.stat}.long`),
 					diceDefault: rollData?.stats?.[options.stat].value,
 					isBloodied: rollData?.isBloodied,
 					isRattled: rollData?.isRattled,

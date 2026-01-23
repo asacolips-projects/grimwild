@@ -183,7 +183,9 @@ export class GrimwildRollDialog extends foundry.applications.api.DialogV2 {
 						if (value !== 0) {
 							// Ensure there is a name to the assist
 							const name = nameInput.value || "Assist";
-							assisters[name] = value;
+							assisters[name] = !assisters[name]
+								? value
+								: assisters[name] + value;
 						}
 					});
 					const sparks = dialog.element.querySelectorAll(".sparkCheck");
