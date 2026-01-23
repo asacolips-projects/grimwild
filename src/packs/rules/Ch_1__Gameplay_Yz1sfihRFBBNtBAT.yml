@@ -1,0 +1,20 @@
+type: JournalEntry
+folder: null
+name: 'Ch 1: Gameplay'
+color: null
+sorting: a
+_id: Yz1sfihRFBBNtBAT
+description: ''
+sort: 100000
+flags: {}
+_stats:
+  compendiumSource: null
+  duplicateSource: null
+  exportSource: null
+  coreVersion: '13.351'
+  systemId: grimwild
+  systemVersion: 0.5.1
+  createdTime: 1769190631995
+  modifiedTime: 1769190674324
+  lastModifiedBy: UV77mtxQgW7KpS6B
+_key: '!folders!Yz1sfihRFBBNtBAT'

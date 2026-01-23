@@ -1,0 +1,281 @@
+folder: Yz1sfihRFBBNtBAT
+name: Getting Started
+_id: VokbqvWEBNv1Zom8
+pages:
+  - sort: 100000
+    name: What is Grimwild?
+    type: text
+    _id: eB4VhNbZbnsWhlk6
+    system: {}
+    title:
+      show: true
+      level: 1
+    image: {}
+    text:
+      format: 1
+      content: >-
+        <p><em><strong>Grimwild is a game of cinematic fantasy
+        adventure.</strong></em> You go on quests, delve into dungeons, and
+        explore the wilderness. It’s set in a world of your choosing, or one you
+        create together—the key being it's a world in need of adventurers.
+        Grimwild isn't a setting. That's up to you. This game gives you the
+        rules, monsters, and adventurers to play a campaign in that setting that
+        feels like a fun, ensemble cast TV series, each session a new
+        episode.</p><p><em><strong>Gameplay flows smoothly.</strong></em> The
+        rules resolve actions quickly, favoring the dramatic over the realistic.
+        They provide a strong framework to pace the game, manage tension, and
+        create great scenes. They give significant creative freedom to add set
+        dressing and even larger details into scenes to play off of, keeping the
+        story moving forward and prioritizing common sense over detailed
+        tracking.</p><p><em><strong>The story is character-driven.</strong></em>
+        As players, you work together to decide your adventuring party's
+        identity, then make characters that fit well within it. You set your
+        group arcs, then choose your own character arcs, broad themes that give
+        you experience when you bring them into play and help steer the
+        story.</p><p><em><strong>Characters are revealed through
+        play.</strong></em> You start with a clear concept that fits well within
+        your party, but you don't necessarily need all of the details
+        upfront—focus on what sounds fun to bring into play. You can always use
+        the tools the game gives you to add details about your past and connect
+        the dots as they come up, leaving plenty of space to grow together into
+        a cohesive, colorful party.</p><p><em><strong>Things get
+        dramatic.</strong></em> You're rewarded for playing into your traits in
+        ways that complicate the situation, giving good reason to think
+        in-character and sometimes picking the less than optimal path.
+        Inevitably, sparks fly, leading to in-fighting between protagonists,
+        just like any great story with characters driven by their own
+        motivations. This is all cleanly resolved with quarrels—a simple roll to
+        move things forward, encouraging and providing a release valve for this
+        friction!</p><p><em><strong>The story is a maelstrom of dice rolls and
+        fun ideas.</strong></em> From all this pushing and pulling on the
+        narrative, storylines and side plots emerge. In spite of the tension,
+        the choices you make about your party's arcs and the characters growing
+        together over time give compelling reason to stay together and focused.
+        It's a TV show that you're the main characters of, messy and fun and
+        full of surprises.</p>
+    video:
+      controls: true
+      volume: 0.5
+    src: null
+    category: null
+    ownership:
+      default: -1
+      UV77mtxQgW7KpS6B: 3
+    flags: {}
+    _stats:
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+      coreVersion: '13.351'
+      systemId: grimwild
+      systemVersion: 0.5.1
+      createdTime: 1769190743201
+      modifiedTime: 1769190881119
+      lastModifiedBy: UV77mtxQgW7KpS6B
+    _key: '!journal.pages!VokbqvWEBNv1Zom8.eB4VhNbZbnsWhlk6'
+  - sort: 200000
+    name: Getting Started
+    type: text
+    _id: srvYPUvNyJj24wOp
+    system: {}
+    title:
+      show: true
+      level: 1
+    image: {}
+    text:
+      format: 1
+      content: >-
+        <p><em>Grimwild</em> is a tabletop roleplaying game, which this book
+        assumes you're familiar with. The basics aren't covered here, but there
+        are plenty of resources online and you can always join our <a
+        href="https://discord.gg/RvmBD2XXXW">Discord community</a> to ask
+        questions.</p><p><em><strong>Thematically</strong></em>,
+        <em>Grimwild</em> draws heavily on the heroic fantasy of <em>Dungeons
+        &amp; Dragons</em> and wears this influence on its sleeve. It’s
+        especially rooted in modern <em>D&amp;D</em>, from 3rd edition onwards.
+        Inspiration was also taken from <em>Dungeon World</em> and its many
+        descendents, like <em>Unlimited Dungeons</em>, <em>Chasing
+        Adventure</em>, <em>Homebrew World</em>, and
+        <em>Stonetop</em>.</p><p><em><strong>Mechanically</strong></em>, the
+        <em><strong>Moxie</strong></em> system that <em>Grimwild</em> is built
+        on draws from a variety of character-driven games, with the biggest
+        influences being <em>Burning Wheel</em>, <em>Cortex Prime</em>,
+        <em>Blades in the Dark</em>, and <em>Fate</em>.</p><h2>To Play, You
+        Need</h2><ul><li><p><strong>Players</strong>: You need one person as the
+        gamemaster (GM) and some players, <em>ideally three or four</em>.
+        Guidelines for solo and duet play are in <em>Ch. 7: Extras</em>
+        (@XX).</p></li></ul><ul><li><p><strong>Time</strong>: Sessions work best
+        at 3 hours. For longer sessions, consider using
+        <strong>downtime</strong> (@XX) to break them up and reset per-session
+        rules.</p></li></ul><ul><li><p><strong>Rules</strong>: All players
+        should know the core rules, including GM rules. They're short, free, and
+        referenced on the sheets. It makes play go much more
+        smoothly.</p></li></ul><ul><li><p><strong>Understanding</strong>: Read
+        the rules once, then re-read them again. They'll make more
+        sense.</p></li></ul><ul><li><p><strong>Dice</strong>: Each player needs
+        4-6 d6s, notated as <em><strong>d</strong></em> (<em>e.g., 2d, 4d</em>),
+        and 2-4 d8s, called <strong>thorns </strong>(@XX) and notated as
+        <em><strong>t</strong></em> (<em>e.g., 1t, 3t</em>). The GM needs 8
+        d6s.</p></li><li><p><strong>Sheets</strong>: Character, GM, and
+        reference sheets are available at drivethrurpg.com (though you might
+        prefer the sheets in this Foundry system!). A smaller version of the
+        blank character sheet can be found in the
+        back.</p></li></ul><ul><li><p><strong>Safety</strong>: To help everyone
+        feel comfortable with the themes within your campaigns, use the TTRPG
+        Safety Toolkit: <a
+        href="https://bit.ly/ttrpgsafetytoolkit">bit.ly/ttrpgsafetytoolkit</a>.</p></li></ul><h2>Conventions
+        in this Book</h2><ul><li><p><strong>System Terms</strong>: These are
+        <strong>bolded</strong> when first introduced or when clarity is needed.
+        Otherwise, they're not specifically styled. Emphasis is shown with
+        <em>italics</em>, sometimes <em><strong>boldly</strong></em>. When
+        unsure, reference the index in the
+        back.</p></li></ul><ul><li><p><strong>Pools (@XX)</strong>: In Grimwild,
+        "pool" always refers to diminishing pools (@XX), differing from its
+        broader use in other RPGs.</p></li></ul><ul><li><p><strong>D66
+        Tables</strong>: These are 6x6 random tables. Roll 2d6: one die for the
+        tens place, the other for the ones place (<em>e.g., 1 and 3 is 13 or
+        31</em>). Look at both results (<em>13 = column 1, row 3; 31 = column 3,
+        row 1</em>) and choose the one that grabs
+        you.</p></li></ul><ul><li><p><strong>Crucibles (@XX)</strong>: These are
+        d66 tables that provide a few words to smash together for inspiration.
+        Interpret them literally or figuratively. Re-roll if needed. They can be
+        created in Foundry by going to the Roll Tables tab of the sidebar and
+        using the <strong>Create Crucible</strong>
+        button.</p></li></ul><ul><li><p><strong>The Reader</strong>: This book
+        addresses the reader as "you," typically from the player perspective. In
+        Chapter 3 (@XX), "you" is the GM
+        perspective.</p></li></ul><ul><li><p><strong>Made with Moxie</strong>:
+        Most of chapters 1 and 2 are the core Moxie system.</p></li></ul>
+    video:
+      controls: true
+      volume: 0.5
+    src: null
+    category: null
+    ownership:
+      default: -1
+      UV77mtxQgW7KpS6B: 3
+    flags: {}
+    _stats:
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+      coreVersion: '13.351'
+      systemId: grimwild
+      systemVersion: 0.5.1
+      createdTime: 1769190907158
+      modifiedTime: 1769191683218
+      lastModifiedBy: UV77mtxQgW7KpS6B
+    _key: '!journal.pages!VokbqvWEBNv1Zom8.srvYPUvNyJj24wOp'
+  - sort: 300000
+    name: Gameplay Overview
+    type: text
+    _id: fwO4RCxy96sEXVca
+    system: {}
+    title:
+      show: true
+      level: 1
+    image: {}
+    text:
+      format: 1
+      content: >-
+        <p><em>Grimwild</em> is built with the <em><strong>Moxie</strong></em>
+        cinematic toolkit, a tabletop RPG ruleset that focuses on cinematic
+        action and character-driven gameplay. Below is how the key parts tie
+        together and an intro to the game's terms. The rules are explained
+        throughout chapters 1 and 2, followed by <em><strong>examples of
+        play</strong></em>. The game uses a lot of its own terminology, so
+        here's a <em><strong>basic rundown of the key parts</strong></em> which
+        you'll encounter throughout the rules. Don't worry about understanding
+        all of this right now!</p><h2>Setting up the Game</h2><p><em><strong>As
+        a group</strong></em>, form an <strong>adventuring party</strong> by
+        choosing a few key words that clearly say <em>what your party is</em>
+        and <em>what it's not</em>. Your PCs have already adventured together,
+        each fitting into the party concept in some way. This cuts right to the
+        story in progress, ready to jump into your next adventure.</p><p>Make
+        characters by choosing two <strong>backgrounds (@XX)</strong> that
+        reflect your past, like your heritage and professions, along with an
+        <strong>adventurer path (@XX)</strong> that grants a powerful
+        <strong>core talent</strong>. Assign <strong>stats (@XX)</strong>,
+        <strong>traits (@XX)</strong>, and <strong>desires (@XX)</strong>, then
+        forge <strong>bonds (@XX)</strong> with the other PCs. Establish group
+        and character <strong>story arcs (@XX)</strong>, which you play towards
+        to drive the story.</p><h2>Playing the Game</h2><p><em><strong>As a
+        player</strong></em>, describe what your character thinks, feels, and
+        does. When you try something risky, you make an <strong>action roll
+        (@XX)</strong>. When the GM puts you in direct danger, you make a
+        <strong>defense roll (@XX)</strong>. You can also make a <strong>montage
+        roll (@XX)</strong> to skip past parts you don’t want to play out in
+        detail. Rolls are made with a handful of d6s equal to a stat, keeping
+        the highest to set the <strong>outcome (@XX)</strong>:
+        <strong>perfect</strong>, <strong>messy</strong>, or
+        <strong>grim</strong>. Rolling two 6s is a <strong>critical
+        (@XX)</strong> and you choose a bonus. Difficulty and damage add one or
+        more d8s called <strong>thorns (@XX)</strong> to your roll, which might
+        <strong>cut (@XX)</strong> the outcome down a level. If a grim gets cut,
+        it’s a <strong>disaster (@XX)</strong> and things get really bad for
+        you!</p><p>Use your creative freedom to add <strong>set dressing
+        (@XX)</strong> to scenes to play off of, and a narrative currency called
+        <strong>story (@XX)</strong> to declare significant <strong>story
+        details (@XX)</strong> to push the fiction. Earn <strong>spark
+        (@XX)</strong> by introducing character-related complications called
+        <strong>tangles (@XX)</strong> and facing adversity, then spend it to
+        gain a bonus on rolls.</p><p>After each session, you earn
+        <strong>experience (@XX)</strong> (XP) towards increasing in
+        <strong>level (@XX)</strong>, which grants new <strong>talents
+        (@XX)</strong>.</p><h2>Running the Game</h2><p><em><strong>As the
+        GM</strong></em>, present dilemmas and drama, then let the players come
+        up with solutions. Keep the spotlight moving to give everyone screen
+        time and prompt the players to describe their actions. Map the fiction
+        to rules, and make rulings to fill in gaps. Open the door wide for
+        collaboration and enjoy the story.</p><p>Use <strong>GM moves
+        (@XX)</strong> as tools and guiding principles to act as the world and
+        pace the story. <strong>Impact moves (@XX)</strong> hit the PCs with
+        direct consequences. They require <strong>prompting</strong> from
+        <strong>foreshadowing</strong>, grim rolls, or by spending
+        <strong>suspense (@XX)</strong>, gained from making <strong>suspense
+        moves (@XX)</strong> or holding off on making a prompted impact
+        move.</p><p>Make <strong>story rolls (@XX)</strong> to disclaim
+        decision-making and use the
+        <strong>@UUID[Compendium.grimwild.gm_toolkit.JournalEntry.czz9p07Cxj5KiIQu]{GM
+        crucible}</strong> to help come up with ideas. Control the camera to
+        create a cinematic feel, zooming in and out on what’s important. Use
+        <strong>diminishing pools (@XX)</strong> to create and track tension and
+        <strong>challenges (@XX)</strong> to represent the toughest, most
+        interesting obstacles PCs face.</p>
+    video:
+      controls: true
+      volume: 0.5
+    src: null
+    category: null
+    ownership:
+      default: -1
+      UV77mtxQgW7KpS6B: 3
+    flags: {}
+    _stats:
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+      coreVersion: '13.351'
+      systemId: grimwild
+      systemVersion: 0.5.1
+      createdTime: 1769191764943
+      modifiedTime: 1769193012901
+      lastModifiedBy: UV77mtxQgW7KpS6B
+    _key: '!journal.pages!VokbqvWEBNv1Zom8.fwO4RCxy96sEXVca'
+categories: []
+sort: 0
+ownership:
+  default: 0
+  UV77mtxQgW7KpS6B: 3
+flags: {}
+_stats:
+  compendiumSource: null
+  duplicateSource: null
+  exportSource: null
+  coreVersion: '13.351'
+  systemId: grimwild
+  systemVersion: 0.5.1
+  createdTime: 1769190725553
+  modifiedTime: 1769191726532
+  lastModifiedBy: UV77mtxQgW7KpS6B
+_key: '!journal!VokbqvWEBNv1Zom8'

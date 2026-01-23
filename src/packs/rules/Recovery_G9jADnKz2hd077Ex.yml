@@ -4,16 +4,17 @@ folder: null
 type: JournalEntry
 _id: G9jADnKz2hd077Ex
 description: ''
-sort: 100000
+sort: 400000
 color: null
 flags: {}
 _stats:
   compendiumSource: null
   duplicateSource: null
-  coreVersion: '12.331'
+  coreVersion: '13.351'
   systemId: grimwild
   systemVersion: 0.1.0
   createdTime: 1738510552158
-  modifiedTime: 1738510552175
-  lastModifiedBy: Dl5Tvf37OuEHwdAh
+  modifiedTime: 1769190674324
+  lastModifiedBy: UV77mtxQgW7KpS6B
+  exportSource: null
 _key: '!folders!G9jADnKz2hd077Ex'
