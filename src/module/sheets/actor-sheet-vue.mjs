@@ -659,6 +659,21 @@ export class GrimwildActorSheetVue extends VueRenderingMixin(GrimwildBaseVueActo
 				if (game.dice3d && msg?.id) {
 					await game.dice3d.waitFor3DAnimationByMessageID(msg.id);
 				}
+				// Update the action count.
+				for (const combat of game.combats) {
+					const combatant = combat?.getCombatantsByActor(this.actor.id)?.[0] || null;
+					if (combatant) {
+						const actionCount = Number(combatant.flags?.grimwild?.actionCount ?? 0);
+						await combatant.setFlag("grimwild", "actionCount", actionCount + 1);
+						update["system.tokenActions.value"] = Math.max(this.actor.system.tokenActions.value - 1, 0);
+
+						// Update the active turn.
+						const combatantTurn = combat.turns.findIndex((c) => c.id === combatant.id);
+						if (combatantTurn !== undefined) {
+							combat.update({ turn: combatantTurn });
+						}
+					}
+				}
 			}
 			else {
 				const roll = new grimwild.diePools(`{${pool.diceNum}d6}`, rollData);

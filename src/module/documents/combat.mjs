@@ -148,7 +148,9 @@ export class GrimwildCombatTracker extends foundry.applications.sidebar.tabs.Com
 
 	_getCombatContextOptions() {
 		return [{
-			name: "GRIMWILD.Combat.ResetActionCount",
+			name: game.settings.get("grimwild", "tokenActions")
+			  ? "GRIMWILD.Combat.ResetActionTokens"
+				: "GRIMWILD.Combat.ResetActionCount",
 			icon: '<i class="fa-solid fa-arrow-rotate-left"></i>',
 			condition: () => game.user.isGM && (this.viewed?.turns.length > 0),
 			callback: () => this.viewed.resetActions()
@@ -167,7 +169,7 @@ export class GrimwildCombatTracker extends foundry.applications.sidebar.tabs.Com
 
 	_getEntryContextOptions() {
 		const getCombatant = (li) => this.viewed.combatants.get(li.dataset.combatantId);
-		return [{
+		const contextOptions = [{
 			name: "COMBAT.CombatantUpdate",
 			icon: '<i class="fa-solid fa-pen-to-square"></i>',
 			condition: () => game.user.isGM,
@@ -179,7 +181,9 @@ export class GrimwildCombatTracker extends foundry.applications.sidebar.tabs.Com
 				}
 			})
 		}, {
-			name: "GRIMWILD.Combat.ResetActionCount",
+			name: game.settings.get("grimwild", "tokenActions")
+			  ? "GRIMWILD.Combat.ResetActionTokens"
+				: "GRIMWILD.Combat.ResetActionCount",
 			icon: '<i class="fa-solid fa-arrow-rotate-left"></i>',
 			condition: (li) => game.user.isGM,
 			callback: (li) => {
@@ -189,12 +193,41 @@ export class GrimwildCombatTracker extends foundry.applications.sidebar.tabs.Com
 					combatant?.actor.update({ "system.tokenActions.value": 2 });
 				}
 			}
-		}, {
+		}];
+
+		if (game.settings.get("grimwild", "tokenActions")) {
+			contextOptions.push({
+				name: "GRIMWILD.Combat.AddActionToken",
+				icon: '<i class="fa-solid fa-plus"></i>',
+				condition: (li) => game.user.isGM && getCombatant(li)?.actor.system.tokenActions.value < 2,
+				callback: (li) => {
+					const combatant = getCombatant(li);
+					if (combatant) {
+						combatant?.actor.update({ "system.tokenActions.value": Math.min(combatant.actor.system.tokenActions.value + 1, 2)});
+					}
+				}
+			});
+			contextOptions.push({
+				name: "GRIMWILD.Combat.RemoveActionToken",
+				icon: '<i class="fa-solid fa-minus"></i>',
+				condition: (li) => game.user.isGM && getCombatant(li)?.actor.system.tokenActions.value > 0,
+				callback: (li) => {
+					const combatant = getCombatant(li);
+					if (combatant) {
+						combatant?.actor.update({ "system.tokenActions.value": Math.max(combatant.actor.system.tokenActions.value - 1, 0)});
+					}
+				}
+			})
+		}
+
+		contextOptions.push({
 			name: "COMBAT.CombatantRemove",
 			icon: '<i class="fa-solid fa-trash"></i>',
 			condition: () => game.user.isGM,
 			callback: (li) => getCombatant(li)?.delete()
-		}];
+		});
+
+		return contextOptions;
 	}
 
 	/** @inheritdoc */
