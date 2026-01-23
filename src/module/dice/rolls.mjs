@@ -32,6 +32,16 @@ export default class GrimwildRoll extends Roll {
 			hasActions: false
 		};
 
+		if (this.options.pool) {
+			const dropped = chatData.dice.slice(0, this.options.pool.diceNum).filter((die) => die.result < 4);
+			chatData.startPool = !isPrivate
+				? `${this.options.pool.diceNum}d`
+				: "???";
+			chatData.endPool = !isPrivate
+				? `${this.options.pool.diceNum - dropped.length}d`
+				: "???";
+		}
+
 		const sixes = chatData.dice.filter((die) => die.result === 6);
 		const cuts = chatData.thorns.filter((die) => die.result >= 7);
 

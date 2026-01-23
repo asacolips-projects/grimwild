@@ -11,6 +11,7 @@ import { GrimwildActorMonsterSheetVue } from "./sheets/actor-monster-sheet-vue.m
 import { GrimwildItemSheet } from "./sheets/item-sheet.mjs";
 import { GrimwildItemSheetVue } from "./sheets/item-sheet-vue.mjs";
 import { GrimwildRollTableCrucibleSheet } from "./sheets/table-crucible-sheet.mjs";
+import { GrimwildRollDialog } from "./apps/roll-dialog.mjs";
 // Import helper/utility classes and constants.
 import { GRIMWILD } from "./helpers/config.mjs";
 import * as dice from "./dice/_module.mjs";
@@ -42,7 +43,8 @@ globalThis.grimwild = {
 		GrimwildItemSheet,
 		GrimwildItemSheetVue,
 		GrimwildCombatTracker,
-		GrimwildRollTableCrucibleSheet
+		GrimwildRollTableCrucibleSheet,
+		GrimwildRollDialog,
 	},
 	utils: {
 		rollItemMacro

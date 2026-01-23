@@ -570,6 +570,8 @@ export class GrimwildActorSheetVue extends VueRenderingMixin(GrimwildBaseVueActo
 		let pool = null;
 		let rollData = {};
 		let fieldData = null;
+		let dropped = [];
+		const update = {};
 
 		// Handle item pools (talents).
 		if (itemId) {
@@ -591,27 +593,97 @@ export class GrimwildActorSheetVue extends VueRenderingMixin(GrimwildBaseVueActo
 
 		// Handle roll.
 		if (pool.diceNum > 0) {
-			const roll = new grimwild.diePools(`{${pool.diceNum}d6}`, rollData);
-			const result = await roll.evaluate();
-			const dice = result.dice[0].results;
-			const dropped = dice.filter((die) => die.result < 4);
+			if (tracker.pool.powerPool) {
+				const options = {};
+				const rollData = this.actor.getRollData();
+				const rollDialog = await grimwild.applications.GrimwildRollDialog.open({
+					rollData: {
+						name: this.actor.name,
+						spark: rollData?.spark,
+						stat: null,
+						diceLabel: `[${item.name}] ${tracker.label}`,
+						diceDefault: pool.diceNum,
+						isBloodied: rollData?.isBloodied,
+						isRattled: rollData?.isRattled,
+						isMarked: false,
+						actor: this.actor
+					}
+				});
+				if (rollDialog === null) {
+					return;
+				}
 
-			// Initialize chat data.
-			const speaker = ChatMessage.getSpeaker({ actor: this.actor });
-			const rollMode = game.settings.get("core", "rollMode");
-			const label = item
-				? `[${item.type}] ${item.name}`
-				: `[${field}] ${fieldData[key]?.name ?? ""}`;
-			// Send to chat.
-			const msg = await roll.toMessage({
-				speaker: speaker,
-				rollMode: rollMode,
-				flavor: label
-			});
-			// Wait for Dice So Nice if enabled.
-			if (game.dice3d && msg?.id) {
-				await game.dice3d.waitFor3DAnimationByMessageID(msg.id);
+				rollData.thorns = rollDialog.thorns;
+				rollData.statDice = rollDialog.dice;
+				options.assists = rollDialog.assisters;
+				options.pool = tracker.pool;
+				const formula = `{${rollData.statDice}d6kh, ${rollData.thorns}d8}`;
+				const roll = new grimwild.roll(formula, rollData, options);
+				const result = await roll.evaluate();
+				// Limit to just the pool dice when checking for dropped dice.
+				const dice = result.dice[0].results.slice(0, pool.diceNum);
+				dropped = dice.filter((die) => die.result < 4);
+
+				// Add spark to the update.
+				if (rollDialog.sparkUsed > 0) {
+					let sparkUsed = rollDialog.sparkUsed;
+					const newSpark = {
+						steps: this.document.system.spark.steps
+					};
+					// All of your spark is used.
+					if (sparkUsed > 1 || this.document.system.spark.value === 1) {
+						newSpark.steps[0] = false;
+						newSpark.steps[1] = false;
+					}
+					// If half of your spark is used.
+					else if (sparkUsed === 1 && this.document.system.spark.value > 1) {
+						newSpark.steps[0] = true;
+						newSpark.steps[1] = false;
+					}
+					update["system.spark"] = newSpark;
+				}
+
+				// Initialize chat data.
+				const speaker = ChatMessage.getSpeaker({ actor: this.actor });
+				const rollMode = game.settings.get("core", "rollMode");
+				const label = item && tracker.label
+					? `[${item.name}] ${tracker.label}`
+					: (item ? item.name : `[${field}] ${fieldData[key]?.name ?? ""}`);
+				// Send to chat.
+				const msg = await roll.toMessage({
+					speaker: speaker,
+					rollMode: rollMode,
+					flavor: label
+				});
+				// Wait for Dice So Nice if enabled.
+				if (game.dice3d && msg?.id) {
+					await game.dice3d.waitFor3DAnimationByMessageID(msg.id);
+				}
 			}
+			else {
+				const roll = new grimwild.diePools(`{${pool.diceNum}d6}`, rollData);
+				const result = await roll.evaluate();
+				const dice = result.dice[0].results;
+				dropped = dice.filter((die) => die.result < 4);
+
+				// Initialize chat data.
+				const speaker = ChatMessage.getSpeaker({ actor: this.actor });
+				const rollMode = game.settings.get("core", "rollMode");
+				const label = item
+					? `[${item.type}] ${item.name}`
+					: `[${field}] ${fieldData[key]?.name ?? ""}`;
+				// Send to chat.
+				const msg = await roll.toMessage({
+					speaker: speaker,
+					rollMode: rollMode,
+					flavor: label
+				});
+				// Wait for Dice So Nice if enabled.
+				if (game.dice3d && msg?.id) {
+					await game.dice3d.waitFor3DAnimationByMessageID(msg.id);
+				}
+			}
+
 			// Recalculate the pool value.
 			pool.diceNum -= dropped.length;
 			// Update the item.
@@ -627,11 +699,12 @@ export class GrimwildActorSheetVue extends VueRenderingMixin(GrimwildBaseVueActo
 				else {
 					fieldData.pool = pool;
 				}
-				const update = {};
 				update[`system.${field}`] = fieldData;
-				await this.document.update({
-					[`system.${field}`]: fieldData
-				});
+			}
+
+			//Handle actor updates.
+			if (Object.keys(update).length > 0) {
+				await this.document.update(update);
 			}
 		}
 	}

@@ -4,7 +4,7 @@
 			<legend>{{localize "GRIMWILD.Dice.dice"}}</legend>
 			<div class="dialog-character">
 				<div class="dialog-stats grimwild-form-group">
-					<label for="stat">{{localize (concat "GRIMWILD.Stat." stat ".long")}}</label>
+					<label for="stat">{{diceLabel}}</label>
 					<input type="number" class="rollDice rollDiceInput" id="stat" name="stat" data-prev="{{diceDefault}}" data-action-input="updateDice" value="{{diceDefault}}" min="0">
 				</div>
 				<div class="dialog-spark grimwild-form-group">

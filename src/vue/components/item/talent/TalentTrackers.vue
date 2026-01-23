@@ -7,12 +7,18 @@
 				<!-- Tracker -->
 				<div v-for="(tracker, trackerKey) in context.system.trackers" :key="trackerKey" class="form-group stacked trackers-group">
 					<!-- Type -->
-					<div class="tracker-type form-group stacked">
-						<label>Type</label>
-						<select :name="`system.trackers.${trackerKey}.type`" v-model="tracker.type">
-							<option value="pool">Pool</option>
-							<option value="points">Points</option>
-						</select>
+					<div class="tracker-type-group form-group">
+						<div class="tracker-type form-group stacked">
+							<label>Type</label>
+							<select :name="`system.trackers.${trackerKey}.type`" v-model="tracker.type">
+								<option value="pool">Pool</option>
+								<option value="points">Points</option>
+							</select>
+						</div>
+						<div v-if="tracker.type === 'pool'" class="tracker-power-pool form-group stacked">
+							<label>Power Pool</label>
+							<input type="checkbox" :name="`system.trackers.${trackerKey}.pool.powerPool`" v-model="tracker.pool.powerPool">
+						</div>
 					</div>
 					<!-- Options -->
 					<div class="tracker-options form-group">
