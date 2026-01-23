@@ -250,6 +250,9 @@ GRIMWILD:
   Combat:
     ActionCount: 'Rolls'
     ResetActionCount: Reset Action Count
+    ResetActionTokens: Reset Action Tokens
+    AddActionToken: Add Action Token
+    RemoveActionToken: Remove Action Token
     SpotlightActor: Spotlight
     TokenActions: 'Actions'
 TYPES:
