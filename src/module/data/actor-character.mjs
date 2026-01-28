@@ -356,7 +356,6 @@ export default class GrimwildCharacter extends GrimwildActorBase {
 			});
 
 			await this.updateCombatActionCount();
-
 		}
 	}
 
@@ -365,7 +364,7 @@ export default class GrimwildCharacter extends GrimwildActorBase {
 	 */
 	async updateCombatActionCount() {
 		for (const combat of game.combats) {
-			const combatant = combat?.getCombatantByActor(this.parent.id);
+			const combatant = combat?.getCombatantsByActor(this.parent.id)?.[0] || null;
 			if (combatant) {
 				const actionCount = Number(combatant.flags?.grimwild?.actionCount ?? 0);
 				await combatant.setFlag("grimwild", "actionCount", actionCount + 1);

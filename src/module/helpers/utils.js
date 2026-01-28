@@ -36,6 +36,9 @@ class GrimwildHandlebarsHelpers {
 		else if (total > 3) {
 			return "messy";
 		}
+		else if (total === 1) {
+			return "wild";
+		}
 
 		return "grim";
 
