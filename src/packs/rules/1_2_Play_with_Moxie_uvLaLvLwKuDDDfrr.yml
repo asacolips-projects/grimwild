@@ -1,0 +1,312 @@
+folder: Yz1sfihRFBBNtBAT
+name: 1.2 Play with Moxie
+_id: uvLaLvLwKuDDDfrr
+pages:
+  - sort: 100000
+    name: Play with Moxie
+    type: text
+    _id: mPiAgLG9dUjc8NBf
+    system: {}
+    title:
+      show: true
+      level: 1
+    image: {}
+    text:
+      format: 1
+      content: >-
+        <p><em>Grimwild</em> is built with the <em>Moxie</em> ruleset and
+        designed for <strong>cinematic gameplay</strong>. The heart of that is
+        <em><strong>narrative collaboration</strong></em>. It's all about
+        creating a <em>shared imagination space</em>, <em>managing the
+        spotlight</em>, and <em>diving into narration</em>. The rules will get
+        you halfway there—they're all pointing towards keeping the pace flowing
+        quickly and the action dramatic. The other half is in your hands, the
+        players at the table, and the attitude you all approach the game
+        with.</p>
+    video:
+      controls: true
+      volume: 0.5
+    src: null
+    category: null
+    ownership:
+      default: -1
+      UV77mtxQgW7KpS6B: 3
+    flags: {}
+    _stats:
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+      coreVersion: '13.351'
+      systemId: grimwild
+      systemVersion: 0.5.2
+      createdTime: 1769563404281
+      modifiedTime: 1769563473615
+      lastModifiedBy: UV77mtxQgW7KpS6B
+    _key: '!journal.pages!uvLaLvLwKuDDDfrr.mPiAgLG9dUjc8NBf'
+  - sort: 200000
+    name: Play Cinematically
+    type: text
+    _id: hPsNWVY8NNtuesvB
+    system: {}
+    title:
+      show: true
+      level: 1
+    image: {}
+    text:
+      format: 1
+      content: >-
+        <p><em><strong>Trust in the collaborative process.</strong></em>
+        Everyone at the table adds details into the story. You have to work
+        together and play off of each other or the game, and the story you're
+        telling, will fall flat.</p><p><em><strong>Use the camera, your shared
+        imagination.</strong></em> Each player has two perspectives, from your
+        character and as the audience watching this TV show. Use the camera and
+        vivid description to paint a cool scene in everyone's
+        mind.</p><p><em><strong>Tell us what it looks like, before and after
+        your rolls. </strong></em>Give details about what you do, don’t just
+        leave it at broad statements. Zoom in and out. Use the camera to show
+        things outside of your own character as well—pan around, cut to other
+        scenes, and describe NPCs. Invoke cinematic vibes and create great
+        scenes.</p>
+    video:
+      controls: true
+      volume: 0.5
+    src: null
+    category: null
+    ownership:
+      default: -1
+      UV77mtxQgW7KpS6B: 3
+    flags: {}
+    _stats:
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+      coreVersion: '13.351'
+      systemId: grimwild
+      systemVersion: 0.5.2
+      createdTime: 1769563485501
+      modifiedTime: 1769563551174
+      lastModifiedBy: UV77mtxQgW7KpS6B
+    _key: '!journal.pages!uvLaLvLwKuDDDfrr.hPsNWVY8NNtuesvB'
+  - sort: 300000
+    name: Play in Good Faith
+    type: text
+    _id: 4OvUSYJGgYxd9JJs
+    system: {}
+    title:
+      show: true
+      level: 1
+    image: {}
+    text:
+      format: 1
+      content: >-
+        <p><em><strong>Don’t be a weasel.</strong></em> Do what your character
+        would do, then let the GM map it back to the rules. Don’t overdo it
+        trying to work your way into better rolls. The fun is letting the story
+        flow naturally. When you ask the rules what happens next, follow where
+        it points with enthusiasm.</p><p><em><strong>Separate player and
+        character knowledge.</strong></em> It’s more fun when everyone knows
+        what’s going on in the game. Don’t keep secrets from each other, keep
+        them from characters. As a player, be aware of what your character knows
+        and doesn’t know and play towards both.</p><p><em><strong>Use the
+        meta-channel sparingly.</strong></em> This is conversation about the
+        game between players. It’s unavoidable, but minimize it to keep that
+        shared imagination in sync at the table. For anything longer than a
+        quick question, call for a pause to talk things through, a clean break
+        point to resume from later.</p><p><em><strong>Know the
+        rules.</strong></em> Everyone can get a copy of the game PDF (<em>it's
+        free!</em>). The rules say a lot about the types of stories to be told
+        with the game, and the less time you spend talking about the rules, the
+        more time you have for roleplaying. Making a cheat sheet on rules you
+        often forget can be a big help, or even just skimming the book
+        pre-game.</p>
+    video:
+      controls: true
+      volume: 0.5
+    src: null
+    category: null
+    ownership:
+      default: -1
+      UV77mtxQgW7KpS6B: 3
+    flags: {}
+    _stats:
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+      coreVersion: '13.351'
+      systemId: grimwild
+      systemVersion: 0.5.2
+      createdTime: 1769563562581
+      modifiedTime: 1769563644217
+      lastModifiedBy: UV77mtxQgW7KpS6B
+    _key: '!journal.pages!uvLaLvLwKuDDDfrr.4OvUSYJGgYxd9JJs'
+  - sort: 400000
+    name: Play to Tell a Story
+    type: text
+    _id: EkBjZdF9gxK9EKll
+    system: {}
+    title:
+      show: true
+      level: 1
+    image: {}
+    text:
+      format: 1
+      content: >-
+        <p>Think of the game as a series of improv prompts, posed by yourselves
+        and the rules. When you respond to them, consider the
+        following:</p><ul><li><p><em>What would my character
+        do?</em></p></li><li><p><em>What would make for a cool
+        scene?</em></p></li><li><p><em>What would move the story
+        forward?</em></p></li><li><p><em>What opens the door to get others
+        involved?</em></p></li></ul><p><em><strong>Don’t talk yourself out of
+        fun.</strong></em> The first idea that jumps into your head is often the
+        one you should go with. Don’t overthink or rationalize yourself out of
+        it. Like any great TV show character, go where the fun lies. Great
+        stories involve excitement, danger, and hard
+        choices.</p><p><em><strong>Open doors and step through
+        them.</strong></em> The best scenes involve characters playing off of
+        each other, so make chances for others to get involved. When someone
+        invites you into a scene, step through that door—even if it means a bit
+        of mental gymnastics to justify your character’s actions. And as long as
+        you step through the door at times, remember that it can be just as
+        interesting to close the door instead.</p><p><em><strong>Work the
+        spotlight.</strong></em> There’s no turn order of any kind, but there is
+        screen time. Strive to make sure everyone gets their fair share,
+        including yourself.</p><ul><li><p><strong>Grab the spotlight</strong>
+        when there’s a lull or you have a great
+        idea.</p></li></ul><ul><li><p><strong>Share the spotlight</strong> by
+        opening doors or following up on another PC’s
+        actions.</p></li></ul><ul><li><p><strong>Pass the spotlight</strong>
+        when you’ve been holding it too
+        long.</p></li></ul><ul><li><p><strong>Point the spotlight</strong> to
+        see another PC’s response or what they’ve been up
+        to.</p></li></ul><ul><li><p><strong>Never steal the spotlight</strong>.
+        Everyone works hard to set up their
+        moment.</p></li></ul><p><em><strong>Don't play to win, play to tell
+        stories.</strong></em> Work towards the same goal—to tell a great story
+        where everyone's character has a chance to grow. Failure isn't losing,
+        it's just another opportunity to have a great scene. Of course, your
+        character wants to succeed! However, your goal as a player is keeping
+        the story interesting. Play into the bad luck just as you do the good to
+        help ensure you craft compelling stories.</p>
+    video:
+      controls: true
+      volume: 0.5
+    src: null
+    category: null
+    ownership:
+      default: -1
+      UV77mtxQgW7KpS6B: 3
+    flags: {}
+    _stats:
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+      coreVersion: '13.351'
+      systemId: grimwild
+      systemVersion: 0.5.2
+      createdTime: 1769563657074
+      modifiedTime: 1769563842775
+      lastModifiedBy: UV77mtxQgW7KpS6B
+    _key: '!journal.pages!uvLaLvLwKuDDDfrr.EkBjZdF9gxK9EKll'
+  - sort: 500000
+    name: Play Characters That Grow
+    type: text
+    _id: NhP9WkhEZjqfMlQ5
+    system: {}
+    title:
+      show: true
+      level: 1
+    image: {}
+    text:
+      format: 1
+      content: >-
+        <p><em><strong>Leave lots of blank space.</strong></em> Your PC starts
+        with a past and connections to the world, but it's best as latticework.
+        Learn who they are through play. Leave space for the other PCs and story
+        to fit in.</p><p><em><strong>Don’t be afraid to change.</strong></em>
+        PCs often go through hell. Any dramatic story has adversity. Let what
+        happens change who they are. Announce what your PC's thinking,
+        especially big shifts. If nobody else at the table knows, it’s not
+        really happening in that shared imagination.</p><p><em><strong>Don’t be
+        afraid to stay the same.</strong></em> Some aspects of your character
+        might be immutable. That’s also part of what makes a great character.
+        There can be those things they will stick to, even to the bitter end.
+        Just make sure it’s worth it, and fun. Don’t die on small hills—<em>die
+        on entertaining ones</em>.</p><p><em><strong>Make time for smaller
+        moments.</strong></em> Quiet time, a conversation about nothing,
+        introspection, reflection—these make for great scenes to flesh out your
+        characters and the world. Don't just rush from action scene to action
+        scene.</p><p><em><strong>Most importantly, do stuff!</strong></em> Find
+        reasons to get into the spotlight, push story arcs forward, and make fun
+        scenes. When there's no opportunity, add some details to the story to
+        create one!</p>
+    video:
+      controls: true
+      volume: 0.5
+    src: null
+    category: null
+    ownership:
+      default: -1
+      UV77mtxQgW7KpS6B: 3
+    flags: {}
+    _stats:
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+      coreVersion: '13.351'
+      systemId: grimwild
+      systemVersion: 0.5.2
+      createdTime: 1769563858039
+      modifiedTime: 1769563944352
+      lastModifiedBy: UV77mtxQgW7KpS6B
+    _key: '!journal.pages!uvLaLvLwKuDDDfrr.NhP9WkhEZjqfMlQ5'
+  - sort: 600000
+    name: Character Sheet
+    type: text
+    _id: uy7a8y8czRm94JhT
+    system: {}
+    title:
+      show: true
+      level: 1
+    image: {}
+    text:
+      format: 1
+      content: <p>[screenshot of the Foundry character sheet and how to use it]</p>
+    video:
+      controls: true
+      volume: 0.5
+    src: null
+    category: null
+    ownership:
+      default: -1
+      UV77mtxQgW7KpS6B: 3
+    flags: {}
+    _stats:
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+      coreVersion: '13.351'
+      systemId: grimwild
+      systemVersion: 0.5.2
+      createdTime: 1769563958577
+      modifiedTime: 1769563977319
+      lastModifiedBy: UV77mtxQgW7KpS6B
+    _key: '!journal.pages!uvLaLvLwKuDDDfrr.uy7a8y8czRm94JhT'
+categories: []
+sort: 0
+ownership:
+  default: 0
+  UV77mtxQgW7KpS6B: 3
+flags: {}
+_stats:
+  compendiumSource: null
+  duplicateSource: null
+  exportSource: null
+  coreVersion: '13.351'
+  systemId: grimwild
+  systemVersion: 0.5.1
+  createdTime: 1769193046523
+  modifiedTime: 1769563225753
+  lastModifiedBy: UV77mtxQgW7KpS6B
+_key: '!journal!uvLaLvLwKuDDDfrr'
