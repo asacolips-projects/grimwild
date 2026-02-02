@@ -593,7 +593,7 @@ export class GrimwildActorSheetVue extends VueRenderingMixin(GrimwildBaseVueActo
 
 		// Handle roll.
 		if (pool.diceNum > 0) {
-			if (tracker.pool.powerPool) {
+			if (itemId && tracker && tracker.pool.powerPool) {
 				const options = {};
 				const rollData = this.actor.getRollData();
 				const rollDialog = await grimwild.applications.GrimwildRollDialog.open({
