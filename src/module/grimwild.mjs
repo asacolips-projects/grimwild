@@ -432,7 +432,7 @@ Hooks.once("diceSoNiceReady", (dice3d) => {
 		outline: "#000000",
 		edge: "#444444",
 		texture: "none",
-		material: "glass"
+		material: "plastic"
 	});
 	// Preload grimwild dice.
 	dice3d.DiceFactory.preloadPresets(true, null, { global: { system: "grimwild" } });
