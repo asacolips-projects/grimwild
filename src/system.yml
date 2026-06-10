@@ -3,9 +3,9 @@ title: Grimwild
 description: The Grimwild system for FoundryVTT!
 version: '0.5.3'
 compatibility:
-  minimum: '13'
-  verified: '13.351'
-  maximum: '13'
+  minimum: '14'
+  verified: '14.363'
+  maximum: '14'
 
 manifest: https://asacolips-artifacts.s3.amazonaws.com/grimwild/latest/system.json
 download: https://asacolips-artifacts.s3.amazonaws.com/grimwild/latest/grimwild.zip
