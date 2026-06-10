@@ -64,8 +64,8 @@ export class GrimwildChatMessage extends ChatMessage {
 		messageVisibility.classList.add("message-visibility");
 		if (this.whisper.length > 0) {
 			messageVisibility.innerHTML = this.blind
-				? `<i class="fas fa-eye-slash"></i> ${game.i18n.localize("CHAT.RollBlind")}`
-				: `<i class="fas fa-eye-slash"></i> ${game.i18n.localize("CHAT.RollPrivate")}`;
+				? `<i class="fas fa-eye-slash"></i> ${game.i18n.localize("CHAT.MODES.blind")}`
+				: `<i class="fas fa-eye-slash"></i> ${game.i18n.localize("CHAT.MODES.gm")}`;
 		}
 
 		footer.appendChild(messageVisibility);
