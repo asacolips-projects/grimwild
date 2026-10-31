@@ -228,8 +228,10 @@ export class GrimwildItemSheet extends api.HandlebarsApplicationMixin(
 				target.src = path;
 				this.document.update({ img: path });
 			},
-			top: this.position.top + 40,
-			left: this.position.left + 10
+			position: {
+				top: this.position.top + 40,
+				left: this.position.left + 10
+			}
 		});
 		return fp.browse();
 	}
@@ -445,7 +447,7 @@ export class GrimwildItemSheet extends api.HandlebarsApplicationMixin(
 		}
 
 		// Perform the sort
-		const sortUpdates = SortingHelpers.performIntegerSort(effect, {
+		const sortUpdates = foundry.utils.performIntegerSort(effect, {
 			target,
 			siblings
 		});

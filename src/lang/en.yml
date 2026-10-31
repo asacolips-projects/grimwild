@@ -30,7 +30,10 @@ GRIMWILD:
       hint: Enable to use half-rate XP where it takes two pips per XP checkbox to be filled.
     tokenActions:
       name: "[Variant] Token Initiative"
-      hint: Enable the variant <strong>Token Initiative</strong> rule that gives each players 2 tokens per "round" of combat/scenes. Otherwise, a simple action counter will be used to count how many actions have been taken.
+      hint: Enable the variant Token Initiative rule that gives each players 2 tokens per "round" of combat/scenes. Otherwise, a simple action counter will be used to count how many actions have been taken.
+    ceRules:
+      name: "Community Edition Rules"
+      hint: "Enable rules from Grimwild: Community Edition, like Desperate harm and weapon styles."
   Stat:
     bra:
       long: Brawn

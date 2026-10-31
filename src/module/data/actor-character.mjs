@@ -39,6 +39,11 @@ export default class GrimwildCharacter extends GrimwildActorBase {
 			marked: new fields.BooleanField(),
 			dropped: new fields.BooleanField()
 		});
+		schema.desperate = new fields.SchemaField({
+			pool: new DicePoolField(),
+			marked: new fields.BooleanField(),
+			dropped: new fields.BooleanField()
+		});
 
 		schema.dropped = new fields.BooleanField();
 
@@ -174,6 +179,10 @@ export default class GrimwildCharacter extends GrimwildActorBase {
 		return this.rattled.marked;
 	}
 
+	get isDesperate() {
+		return this.desperate.marked;
+	}
+
 	get orderedStats() {
 		const orderedStats = [];
 		for (let [k, v] of Object.entries(this.stats)) {
@@ -285,6 +294,7 @@ export default class GrimwildCharacter extends GrimwildActorBase {
 		// Handle getters.
 		data.isBloodied = this.isBloodied;
 		data.isRattled = this.isRattled;
+		data.isDesperate = this.isDesperate;
 		data.spark = this.spark.value;
 		data.id = this.parent.id;
 
@@ -304,6 +314,7 @@ export default class GrimwildCharacter extends GrimwildActorBase {
 					diceDefault: rollData?.stats?.[options.stat].value,
 					isBloodied: rollData?.isBloodied,
 					isRattled: rollData?.isRattled,
+					isDesperate: rollData?.isDesperate,
 					isMarked: rollData?.stats?.[options.stat].marked,
 					actor: this.parent
 				}
@@ -351,8 +362,7 @@ export default class GrimwildCharacter extends GrimwildActorBase {
 
 			await roll.toMessage({
 				actor: this,
-				speaker: ChatMessage.getSpeaker({ actor: this }),
-				rollMode: game.settings.get("core", "rollMode")
+				speaker: ChatMessage.getSpeaker({ actor: this })
 			});
 
 			await this.updateCombatActionCount();

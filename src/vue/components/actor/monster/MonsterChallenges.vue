@@ -66,12 +66,12 @@
 						</div>
 						<div class="item-controls">
 							<a class="item-control item-edit"
-								:title="game.i18n.format('DOCUMENT.Edit', {type: 'talent'})"
+								:title="game.i18n.localize('DOCUMENT.Edit', {type: 'talent'})"
 								data-action="viewDoc"
 							><i class="fas fa-edit"></i></a>
 							<a class="item-control item-delete"
 								v-if="context.editable"
-								:title="game.i18n.format('DOCUMENT.Delete', {type: 'talent'})"
+								:title="game.i18n.localize('DOCUMENT.Delete', {type: 'talent'})"
 								data-action="deleteDoc"
 							><i class="fas fa-trash"></i></a>
 						</div>

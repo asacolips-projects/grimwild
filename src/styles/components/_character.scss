@@ -15,8 +15,9 @@
 				content: '';
 			}
 
-			&:not(:checked) {
+			&.input-not {
 				&::before {
+					font-family: var(--font-awesome);
 					color: var(--color-level-error);
 					content: "\f00d";
 				}
@@ -25,8 +26,9 @@
 				}
 			}
 
-			&:checked {
+			&.input-are {
 				&::before {
+					font-family: var(--font-awesome);
 					color: var(--color-level-success);
 					content: '\f00c';
 				}

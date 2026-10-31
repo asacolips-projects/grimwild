@@ -148,32 +148,32 @@ export class GrimwildCombatTracker extends foundry.applications.sidebar.tabs.Com
 
 	_getCombatContextOptions() {
 		return [{
-			name: game.settings.get("grimwild", "tokenActions")
+			label: game.settings.get("grimwild", "tokenActions")
 				? "GRIMWILD.Combat.ResetActionTokens"
 				: "GRIMWILD.Combat.ResetActionCount",
 			icon: '<i class="fa-solid fa-arrow-rotate-left"></i>',
-			condition: () => game.user.isGM && (this.viewed?.turns.length > 0),
-			callback: () => this.viewed.resetActions()
+			visible: () => game.user.isGM && (this.viewed?.turns.length > 0),
+			onClick: () => this.viewed.resetActions()
 		}, {
-			name: "COMBAT.Settings",
+			label: "COMBAT.Settings",
 			icon: '<i class="fa-solid fa-gear"></i>',
-			condition: () => game.user.isGM,
-			callback: () => new foundry.applications.apps.CombatTrackerConfig().render({ force: true })
+			visible: () => game.user.isGM,
+			onClick: () => new foundry.applications.apps.CombatTrackerConfig().render({ force: true })
 		}, {
-			name: "COMBAT.Delete",
+			label: "COMBAT.Delete",
 			icon: '<i class="fa-solid fa-trash"></i>',
-			condition: () => game.user.isGM && !!this.viewed,
-			callback: () => this.viewed.endCombat()
+			visible: () => game.user.isGM && !!this.viewed,
+			onClick: () => this.viewed.endCombat()
 		}];
 	}
 
 	_getEntryContextOptions() {
 		const getCombatant = (li) => this.viewed.combatants.get(li.dataset.combatantId);
 		const contextOptions = [{
-			name: "COMBAT.CombatantUpdate",
+			label: "COMBAT.CombatantUpdate",
 			icon: '<i class="fa-solid fa-pen-to-square"></i>',
-			condition: () => game.user.isGM,
-			callback: (li) => getCombatant(li)?.sheet.render({
+			visible: () => game.user.isGM,
+			onClick: (event, li) => getCombatant(li)?.sheet.render({
 				force: true,
 				position: {
 					top: Math.min(li.offsetTop, window.innerHeight - 350),
@@ -181,12 +181,12 @@ export class GrimwildCombatTracker extends foundry.applications.sidebar.tabs.Com
 				}
 			})
 		}, {
-			name: game.settings.get("grimwild", "tokenActions")
+			label: game.settings.get("grimwild", "tokenActions")
 				? "GRIMWILD.Combat.ResetActionTokens"
 				: "GRIMWILD.Combat.ResetActionCount",
 			icon: '<i class="fa-solid fa-arrow-rotate-left"></i>',
-			condition: (li) => game.user.isGM,
-			callback: (li) => {
+			visible: (li) => game.user.isGM,
+			onClick: (event, li) => {
 				const combatant = getCombatant(li);
 				if (combatant) {
 					combatant?.setFlag("grimwild", "actionCount", 0);
@@ -197,10 +197,10 @@ export class GrimwildCombatTracker extends foundry.applications.sidebar.tabs.Com
 
 		if (game.settings.get("grimwild", "tokenActions")) {
 			contextOptions.push({
-				name: "GRIMWILD.Combat.AddActionToken",
+				label: "GRIMWILD.Combat.AddActionToken",
 				icon: '<i class="fa-solid fa-plus"></i>',
-				condition: (li) => game.user.isGM && getCombatant(li)?.actor.system.tokenActions.value < 2,
-				callback: (li) => {
+				visible: (li) => game.user.isGM && getCombatant(li)?.actor.system.tokenActions.value < 2,
+				onClick: (event, li) => {
 					const combatant = getCombatant(li);
 					if (combatant) {
 						combatant?.actor.update({ "system.tokenActions.value": Math.min(combatant.actor.system.tokenActions.value + 1, 2) });
@@ -208,10 +208,10 @@ export class GrimwildCombatTracker extends foundry.applications.sidebar.tabs.Com
 				}
 			});
 			contextOptions.push({
-				name: "GRIMWILD.Combat.RemoveActionToken",
+				label: "GRIMWILD.Combat.RemoveActionToken",
 				icon: '<i class="fa-solid fa-minus"></i>',
-				condition: (li) => game.user.isGM && getCombatant(li)?.actor.system.tokenActions.value > 0,
-				callback: (li) => {
+				visible: (li) => game.user.isGM && getCombatant(li)?.actor.system.tokenActions.value > 0,
+				onClick: (event, li) => {
 					const combatant = getCombatant(li);
 					if (combatant) {
 						combatant?.actor.update({ "system.tokenActions.value": Math.max(combatant.actor.system.tokenActions.value - 1, 0) });
@@ -221,19 +221,13 @@ export class GrimwildCombatTracker extends foundry.applications.sidebar.tabs.Com
 		}
 
 		contextOptions.push({
-			name: "COMBAT.CombatantRemove",
+			label: "COMBAT.CombatantRemove",
 			icon: '<i class="fa-solid fa-trash"></i>',
-			condition: () => game.user.isGM,
-			callback: (li) => getCombatant(li)?.delete()
+			visible: () => game.user.isGM,
+			onClick: (event, li) => getCombatant(li)?.delete()
 		});
 
 		return contextOptions;
-	}
-
-	/** @inheritdoc */
-	async render(options = {}, _options = {}) {
-		const renderResult = await super.render(options);
-		return renderResult;
 	}
 
 	/* --------------------------------------------------------------------------------------------*/

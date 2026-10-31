@@ -79,7 +79,7 @@ export class GrimwildBaseVueItemSheet extends foundry.applications.sheets.ItemSh
 	 */
 	static #onShowArtwork(event) {
 		const { img, name, uuid } = this.document;
-		new ImagePopout(img, { title: name, uuid: uuid }).render(true);
+		new ImagePopout({ src: img, uuid, window: { title: name } }).render(true);
 	}
 
 	/**
@@ -114,8 +114,10 @@ export class GrimwildBaseVueItemSheet extends foundry.applications.sheets.ItemSh
 				target.src = path;
 				this.document.update({ [attr]: path });
 			},
-			top: this.position.top + 40,
-			left: this.position.left + 10
+			position: {
+				top: this.position.top + 40,
+				left: this.position.left + 10
+			}
 		});
 		return fp.browse();
 	}
@@ -127,7 +129,7 @@ export class GrimwildBaseVueItemSheet extends foundry.applications.sheets.ItemSh
 	 */
 	static _onShowArtwork(event) {
 		const { img, name, uuid } = this.document;
-		new ImagePopout(img, { title: name, uuid: uuid }).render(true);
+		new ImagePopout({ src: img, uuid, window: { title: name } }).render(true);
 	}
 
 	/**
