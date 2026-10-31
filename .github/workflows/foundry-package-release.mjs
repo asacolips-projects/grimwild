@@ -25,7 +25,7 @@ const release_data = {
   }
 };
 
-const response = await fetch("https://api.foundryvtt.com/_api/packages/release_version/", {
+const response = await fetch("https://foundryvtt.com/_api/packages/release_version/", {
   headers: {
     'Content-Type': 'application/json',
     'Authorization': `${argv.fvtt_token}`
