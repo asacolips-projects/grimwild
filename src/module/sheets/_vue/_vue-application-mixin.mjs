@@ -172,7 +172,11 @@ export default function VueRenderingMixin(BaseApplication) {
 		 * @override
 		 */
 		async close(options = {}) {
-			if (this.options.form.submitOnClose && this.isEditable) {
+			// Only submit on close if the document still exists in its collection. Core treats a
+			// submission for a missing document as a creation request, which document sheets don't
+			// support - this occurs when a document is deleted while its sheet is open.
+			if (this.options.form.submitOnClose && this.isEditable
+				&& this.document?.collection?.has(this.document.id)) {
 				await this.submit();
 			}
 			// Unmount the vue instance.

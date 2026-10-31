@@ -42,7 +42,7 @@ export default class GrimwildCharacter extends GrimwildActorBase {
 		schema.desperate = new fields.SchemaField({
 			pool: new DicePoolField(),
 			marked: new fields.BooleanField(),
-			dropped: new fields.BooleanField(),
+			dropped: new fields.BooleanField()
 		});
 
 		schema.dropped = new fields.BooleanField();
