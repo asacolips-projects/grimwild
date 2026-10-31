@@ -645,14 +645,12 @@ export class GrimwildActorSheetVue extends VueRenderingMixin(GrimwildBaseVueActo
 
 				// Initialize chat data.
 				const speaker = ChatMessage.getSpeaker({ actor: this.actor });
-				const rollMode = game.settings.get("core", "rollMode");
 				const label = item && tracker.label
 					? `[${item.name}] ${tracker.label}`
 					: (item ? item.name : `[${field}] ${fieldData[key]?.name ?? ""}`);
 				// Send to chat.
 				const msg = await roll.toMessage({
 					speaker: speaker,
-					rollMode: rollMode,
 					flavor: label
 				});
 				// Wait for Dice So Nice if enabled.
@@ -683,14 +681,12 @@ export class GrimwildActorSheetVue extends VueRenderingMixin(GrimwildBaseVueActo
 
 				// Initialize chat data.
 				const speaker = ChatMessage.getSpeaker({ actor: this.actor });
-				const rollMode = game.settings.get("core", "rollMode");
 				const label = item
 					? `[${item.type}] ${item.name}`
 					: `[${field}] ${fieldData[key]?.name ?? ""}`;
 				// Send to chat.
 				const msg = await roll.toMessage({
 					speaker: speaker,
-					rollMode: rollMode,
 					flavor: label
 				});
 				// Wait for Dice So Nice if enabled.
@@ -755,8 +751,7 @@ export class GrimwildActorSheetVue extends VueRenderingMixin(GrimwildBaseVueActo
 			let roll = new Roll(dataset.roll, this.actor.getRollData());
 			await roll.toMessage({
 				speaker: ChatMessage.getSpeaker({ actor: this.actor }),
-				flavor: label,
-				rollMode: game.settings.get("core", "rollMode")
+				flavor: label
 			});
 			return roll;
 		}

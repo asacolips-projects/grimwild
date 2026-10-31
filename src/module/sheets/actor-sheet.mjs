@@ -293,8 +293,10 @@ export class GrimwildActorSheet extends api.HandlebarsApplicationMixin(
 				target.src = path;
 				this.document.update({ img: path });
 			},
-			top: this.position.top + 40,
-			left: this.position.left + 10
+			position: {
+				top: this.position.top + 40,
+				left: this.position.left + 10
+			}
 		});
 		return fp.browse();
 	}
@@ -402,8 +404,7 @@ export class GrimwildActorSheet extends api.HandlebarsApplicationMixin(
 			let roll = new Roll(dataset.roll, this.actor.getRollData());
 			await roll.toMessage({
 				speaker: ChatMessage.getSpeaker({ actor: this.actor }),
-				flavor: label,
-				rollMode: game.settings.get("core", "rollMode")
+				flavor: label
 			});
 			return roll;
 		}
@@ -553,7 +554,7 @@ export class GrimwildActorSheet extends api.HandlebarsApplicationMixin(
 		}
 
 		// Perform the sort
-		const sortUpdates = SortingHelpers.performIntegerSort(effect, {
+		const sortUpdates = foundry.utils.performIntegerSort(effect, {
 			target,
 			siblings
 		});
@@ -675,7 +676,7 @@ export class GrimwildActorSheet extends api.HandlebarsApplicationMixin(
 		}
 
 		// Perform the sort
-		const sortUpdates = SortingHelpers.performIntegerSort(item, {
+		const sortUpdates = foundry.utils.performIntegerSort(item, {
 			target,
 			siblings
 		});

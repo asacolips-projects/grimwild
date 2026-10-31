@@ -223,15 +223,14 @@ class SuspenseTracker {
 					const dice = result.dice[0].results;
 					const dropped = dice.filter((die) => die.result < 4);
 
-					const speaker = ChatMessage.getSpeaker();
-					const rollMode = visible === "true" ? game.settings.get("core", "rollMode") : CONST.DICE_ROLL_MODES.PRIVATE;
-					const label = `[pool] ${event.target.closest(".quick-pool").querySelector(".quick-pool-label .js-quick-pool-text").innerText}`;
-					// Send to chat.
-					const msg = await roll.toMessage({
-						speaker: speaker,
-						rollMode: rollMode,
-						flavor: label
-					}, { rollMode: rollMode });
+				const speaker = ChatMessage.getSpeaker();
+				// Hidden pools are rolled as a private GM message; otherwise use the default message mode.
+				const label = `[pool] ${event.target.closest(".quick-pool").querySelector(".quick-pool-label .js-quick-pool-text").innerText}`;
+				// Send to chat.
+				const msg = await roll.toMessage({
+					speaker: speaker,
+					flavor: label
+				}, visible === "true" ? {} : { messageMode: "gm" });
 
 					if (game.dice3d && msg?.id) {
 						await game.dice3d.waitFor3DAnimationByMessageID(msg.id);

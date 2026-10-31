@@ -240,12 +240,10 @@ export class GrimwildActorMonsterSheetVue extends GrimwildActorSheetVue {
 
 			// Initialize chat data.
 			const speaker = ChatMessage.getSpeaker({ actor: this.actor });
-			const rollMode = game.settings.get("core", "rollMode");
 			const label = `[${field}] ${this.document.name}`;
 			// Send to chat.
 			const msg = await roll.toMessage({
 				speaker: speaker,
-				rollMode: rollMode,
 				flavor: label
 			});
 			// Wait for Dice So Nice if enabled.

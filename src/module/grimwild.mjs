@@ -106,7 +106,6 @@ Hooks.once("init", function () {
 	CONFIG.RollTable.documentClass = grimwild.documents.GrimwildRollTable;
 
 	// Register sheet application classes
-	foundry.documents.collections.Actors.unregisterSheet("core", foundry.appv1.sheets.ActorSheet);
 	foundry.documents.collections.Actors.registerSheet("grimwild", GrimwildActorMonsterSheetVue, {
 		makeDefault: true,
 		label: "Monster Sheet",
@@ -117,7 +116,6 @@ Hooks.once("init", function () {
 		label: "GRIMWILD.SheetLabels.Actor",
 		types: ["character"]
 	});
-	foundry.documents.collections.Items.unregisterSheet("core", foundry.appv1.sheets.ItemSheet);
 	foundry.documents.collections.Items.registerSheet("grimwild", GrimwildItemSheet, {
 		makeDefault: false,
 		label: "GRIMWILD.SheetLabels.Item"
@@ -148,11 +146,23 @@ Hooks.once("init", function () {
 		requiresReload: true
 	});
 
+	// Initiative override.
 	game.settings.register("grimwild", "tokenActions", {
 		name: game.i18n.localize("GRIMWILD.Settings.tokenActions.name"),
 		hint: game.i18n.localize("GRIMWILD.Settings.tokenActions.hint"),
 		scope: "world",
 		config: true,
+		type: Boolean,
+		default: false,
+		requiresReload: true
+	});
+
+	// CE Rules.
+	game.settings.register("grimwild", "ceRules", {
+		name: game.i18n.localize("GRIMWILD.Settings.ceRules.name"),
+		hint: game.i18n.localize("GRIMWILD.Settings.ceRules.hint"),
+		scope: "world",
+		config: false, // Enable this later, hidden for now.
 		type: Boolean,
 		default: false,
 		requiresReload: true
@@ -327,7 +337,7 @@ Hooks.once("ready", function () {
 
 		if (event.target?.classList.contains("create-crucible")) {
 			event.preventDefault();
-			const label = game.i18n.format("DOCUMENT.Create", { type: "Crucible Table" });
+			const label = game.i18n.localize("DOCUMENT.Create", { type: "Crucible Table" });
 			try {
 				const crucibleName = await foundry.applications.api.DialogV2.prompt({
 					window: { title: label },
@@ -385,7 +395,7 @@ Hooks.on("renderSceneControls", (application, html, data) => {
 Hooks.on("renderDocumentDirectory", (application, html, data) => {
 	if (data.documentName === "RollTable") {
 		html.querySelector(".header-actions").insertAdjacentHTML("afterbegin", `
-			<button type="button" class="create-crucible" data-action="createCrucible"><i class="fas fa-grip"></i><span>${game.i18n.format("DOCUMENT.Create", { type: "Crucible" })}</span></button>
+			<button type="button" class="create-crucible" data-action="createCrucible"><i class="fas fa-grip"></i><span>${game.i18n.localize("DOCUMENT.Create", { type: "Crucible" })}</span></button>
 		`);
 	}
 });
