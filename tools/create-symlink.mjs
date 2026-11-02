@@ -17,14 +17,14 @@ if (fs.existsSync("foundry-config.yaml")) {
 		if (nested) fileRoot = path.join(foundryConfig.installPath, "resources", "app");
 		else fileRoot = foundryConfig.installPath;
 	}
-	catch(err) {
+	catch (err) {
 		console.error(`Error reading foundry-config.yaml: ${err}`);
 	}
 
 	try {
 		await fs.promises.mkdir("foundry");
 	}
-	catch(e) {
+	catch (e) {
 		if (e.code !== "EEXIST") throw e;
 	}
 
@@ -33,7 +33,7 @@ if (fs.existsSync("foundry-config.yaml")) {
 		try {
 			await fs.promises.symlink(path.join(fileRoot, p), path.join("foundry", p));
 		}
-		catch(e) {
+		catch (e) {
 			if (e.code !== "EEXIST") throw e;
 		}
 	}
@@ -42,7 +42,7 @@ if (fs.existsSync("foundry-config.yaml")) {
 	try {
 		await fs.promises.symlink(path.join(fileRoot, "public", "lang"), path.join("foundry", "lang"));
 	}
-	catch(e) {
+	catch (e) {
 		if (e.code !== "EEXIST") throw e;
 	}
 }

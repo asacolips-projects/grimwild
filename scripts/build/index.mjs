@@ -125,7 +125,7 @@ async function main() {
 	try {
 		await runTask(options.task, options);
 	}
-	catch(error) {
+	catch (error) {
 		log(options.task, error.message);
 		process.exit(1);
 	}

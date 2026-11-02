@@ -57,7 +57,7 @@ export function foundrySystemBuild(options = {}) {
 			try {
 				await compileScss();
 			}
-			catch(error) {
+			catch (error) {
 				log("watch:scss", error.message);
 			}
 		}, DEBOUNCE_MS);
@@ -66,7 +66,7 @@ export function foundrySystemBuild(options = {}) {
 			try {
 				await compileYaml();
 			}
-			catch(error) {
+			catch (error) {
 				log("watch:yaml", error.message);
 			}
 		}, DEBOUNCE_MS);
@@ -78,7 +78,7 @@ export function foundrySystemBuild(options = {}) {
 			try {
 				await copyChangedPaths(changed, { prod });
 			}
-			catch(error) {
+			catch (error) {
 				log("watch:copy", error.message);
 			}
 		}, DEBOUNCE_MS);

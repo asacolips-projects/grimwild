@@ -370,9 +370,8 @@ Hooks.once("ready", function () {
 					}
 				});
 			}
-			catch(error) {
+			catch (error) {
 				console.error(error);
-
 			}
 		}
 	});

@@ -49,7 +49,7 @@ export async function compileScss() {
 				silenceDeprecations: ["legacy-js-api", "import"]
 			});
 		}
-		catch(error) {
+		catch (error) {
 			failed += 1;
 			log("scss", error.toString());
 			continue;

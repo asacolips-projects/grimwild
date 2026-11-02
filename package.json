@@ -7,31 +7,36 @@
     "content:pack": "node scripts/build/index.mjs --task=compilePacks",
     "content:unpack": "node scripts/build/index.mjs --task=extractPacks",
     "symlinks:create": "node ./tools/create-symlink.mjs",
-    "lint": "eslint --ext .js,.cjs,.mjs,.vue .",
-    "lint:fix": "eslint --ext .js,.cjs,.mjs,.vue --fix .",
-    "lint:warnings": "eslint --max-warnings 0 --ext .js,.cjs,.mjs,.vue .",
-    "lint:errors": "eslint --quiet --ext .js,.cjs,.mjs,.vue .",
-    "lint:fix:errors": "eslint --quiet --ext .js,.cjs,.mjs,.vue --fix ."
+    "lint": "eslint .",
+    "lint:fix": "eslint --fix .",
+    "lint:warnings": "eslint --max-warnings 0 .",
+    "lint:errors": "eslint --quiet .",
+    "lint:fix:errors": "eslint --quiet --fix ."
   },
   "devDependencies": {
-    "@babel/eslint-parser": "^7.22.9",
-    "@foundryvtt/foundryvtt-cli": "^1.0.3",
-    "@stylistic/eslint-plugin-js": "^1.5.1",
+    "@eslint/js": "^10.0.1",
+    "@foundryvtt/foundryvtt-cli": "^3.0.5",
+    "@stylistic/eslint-plugin": "^5.10.0",
     "@typhonjs-fvtt/eslint-config-foundry.js": "^0.8.0",
-    "@vitejs/plugin-vue": "^5.0.5",
+    "@vitejs/plugin-vue": "^6.0.10",
     "autoprefixer": "^10.4.21",
-    "chokidar": "^4.0.3",
-    "eslint": "^8.55.0",
-    "eslint-plugin-jsdoc": "^46.9.0",
-    "eslint-plugin-vue": "^9.33.0",
-    "glob": "^11.0.3",
+    "chokidar": "^6.0.0",
+    "eslint": "^10.14.0",
+    "eslint-plugin-jsdoc": "^65.4.2",
+    "eslint-plugin-vue": "^10.12.0",
+    "glob": "^14.0.3",
+    "globals": "^17.14.0",
     "js-yaml": "^4.1.0",
-    "minimatch": "^10.0.3",
+    "minimatch": "^11.0.4",
     "postcss": "^8.5.6",
     "sass": "^1.89.2",
-    "vite": "^5.3.4"
+    "vite": "^8.3.5",
+    "vue-eslint-parser": "^10.4.1"
   },
   "dependencies": {
-    "vue": "3.5.16"
+    "vue": "3.5.44"
+  },
+  "overrides": {
+    "minimatch": "^11.0.4"
   }
 }
