@@ -2,7 +2,7 @@
 
 ## Requirements
 
-- Node v20.14.0 (see `.nvmrc`). Use nvm or fnm to select it:
+- Node v24 (see `.nvmrc`). Use [nvm](https://github.com/nvm-sh/nvm) or [fnm](https://github.com/schniz/fnm) to select it:
 
   ```bash
   nvm use    # or: fnm use
