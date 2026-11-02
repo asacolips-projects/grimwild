@@ -1,5 +1,6 @@
 import VueRenderingMixin from "./_vue/_vue-application-mixin.mjs";
 import { GrimwildBaseVueItemSheet } from "./_vue/_base-vue-item-sheet.mjs";
+import { createArrayEntry, deleteArrayEntry, rollPoolDice } from "./_vue/_shared-actions.mjs";
 import { ItemSheetVue } from "../../vue/components.vue.es.mjs";
 
 const { DOCUMENT_OWNERSHIP_LEVELS } = CONST;
@@ -12,10 +13,6 @@ export class GrimwildItemSheetVue extends VueRenderingMixin(GrimwildBaseVueItemS
 		}
 	};
 
-	constructor(options = {}) {
-		super(options);
-	}
-
 	/** @override */
 	static DEFAULT_OPTIONS = {
 		classes: ["grimwild", "item"],
@@ -24,7 +21,6 @@ export class GrimwildItemSheetVue extends VueRenderingMixin(GrimwildBaseVueItemS
 		editPermission: DOCUMENT_OWNERSHIP_LEVELS.OWNER,
 		position: {
 			width: 600
-			// height: 720,
 		},
 		window: {
 			resizable: true
@@ -44,8 +40,6 @@ export class GrimwildItemSheetVue extends VueRenderingMixin(GrimwildBaseVueItemS
 			// @TODO restore when crucibles are added back to talents.
 			// rollCrucible: this._rollCrucible
 		},
-		// Custom property that's merged into `this.options`
-		dragDrop: [{ dragSelector: "[data-drag]", dropSelector: null }],
 		form: {
 			submitOnChange: true,
 			submitOnClose: true
@@ -69,8 +63,6 @@ export class GrimwildItemSheetVue extends VueRenderingMixin(GrimwildBaseVueItemS
 			rollData: this.item.getRollData() ?? {},
 			// Adding a pointer to CONFIG.GRIMWILD
 			config: CONFIG.GRIMWILD,
-			// Force re-renders. Defined in the vue mixin.
-			_renderKey: this._renderKey ?? 0,
 			// Necessary for formInput and formFields helpers
 			fields: this.document.schema.fields,
 			systemFields: this.document.system.schema.fields
@@ -89,23 +81,9 @@ export class GrimwildItemSheetVue extends VueRenderingMixin(GrimwildBaseVueItemS
 			relativeTo: this.item
 		};
 
-		const editorOptions = {
-			toggled: true,
-			collaborate: true,
-			documentUUID: this.document.uuid,
-			height: 200
-		};
-
 		// Handle enriching fields.
 		context.editors = {};
-		await this._enrichFields(context, enrichmentOptions, editorOptions);
-
-		// Make another pass through the editors to fix the element contents.
-		for (let [field, editor] of Object.entries(context.editors)) {
-			if (context.editors?.[field].element) {
-				context.editors[field].element.innerHTML = context.editors[field].enriched;
-			}
-		}
+		await this._enrichFields(context, enrichmentOptions);
 
 		Hooks.callAll("grimwildItemSheetVuePrepareContext", this, context);
 
@@ -113,13 +91,16 @@ export class GrimwildItemSheetVue extends VueRenderingMixin(GrimwildBaseVueItemS
 	}
 
 	/**
-	 * Enrich values for action fields.
+	 * Enrich values for editable document fields.
+	 *
+	 * Editors are exposed to Vue as metadata only; the ProseMirror element
+	 * itself is created and owned by the Prosemirror component. Non-editable
+	 * viewers only receive the enriched HTML.
 	 *
 	 * @param {object} context
 	 * @param {object} enrichmentOptions
-	 * @param {object} editorOptions
 	 */
-	async _enrichFields(context, enrichmentOptions, editorOptions) {
+	async _enrichFields(context, enrichmentOptions) {
 		// Enrich other fields.
 		const fields = [
 			"description",
@@ -129,17 +110,18 @@ export class GrimwildItemSheetVue extends VueRenderingMixin(GrimwildBaseVueItemS
 
 		for (let field of fields) {
 			const editorValue = this.item.system?.[field] ?? foundry.utils.getProperty(this.item.system, field);
-			context.editors[`system.${field}`] = {
+			const editor = {
 				enriched: await foundry.applications.ux.TextEditor.implementation.enrichHTML(
 					editorValue,
 					enrichmentOptions
-				),
-				element: foundry.applications.elements.HTMLProseMirrorElement.create({
-					...editorOptions,
-					name: `system.${field}`,
-					value: editorValue ?? ""
-				})
+				)
 			};
+			if (this.isEditable) {
+				editor.name = `system.${field}`;
+				editor.value = editorValue ?? "";
+				editor.height = 200;
+			}
+			context.editors[`system.${field}`] = editor;
 		}
 	}
 
@@ -190,7 +172,7 @@ export class GrimwildItemSheetVue extends VueRenderingMixin(GrimwildBaseVueItemS
 	/**
 	 * Handle creating a new tracker entry.
 	 *
-	 * @this GrimwildActorSheet
+	 * @this GrimwildItemSheetVue
 	 * @param {PointerEvent} event   The originating click event
 	 * @param {HTMLElement} target   The capturing HTML element which defined a [data-action]
 	 * @private
@@ -214,7 +196,7 @@ export class GrimwildItemSheetVue extends VueRenderingMixin(GrimwildBaseVueItemS
 	/**
 	 * Handle deleting an existing tracker entry.
 	 *
-	 * @this GrimwildActorSheet
+	 * @this GrimwildItemSheetVue
 	 * @param {PointerEvent} event   The originating click event
 	 * @param {HTMLElement} target   The capturing HTML element which defined a [data-action]
 	 * @private
@@ -233,123 +215,31 @@ export class GrimwildItemSheetVue extends VueRenderingMixin(GrimwildBaseVueItemS
 	}
 
 	/**
-	 * Handle creating a new bond entry.
+	 * Handle creating a new array entry.
 	 *
-	 * @this GrimwildActorSheet
+	 * @this GrimwildItemSheetVue
 	 * @param {PointerEvent} event   The originating click event
 	 * @param {HTMLElement} target   The capturing HTML element which defined a [data-action]
 	 * @private
 	 */
 	static async _createArrayEntry(event, target) {
-		event.preventDefault();
-		const {
-			field,
-			fieldType,
-			count
-		} = target.dataset;
-
-		// Retrieve the current field value.
-		const entries = !field.startsWith("system.")
-			? this.document.system[field]
-			: foundry.utils.getProperty(this.document, field);
-		// Retrieve the schema.
-		const schema = this.document.system.schema.fields?.[field];
-		const fieldConstructor = fieldType ?? schema?.element.constructor.name;
-		if (!fieldConstructor) return;
-		// Determine the default value of the new entry.
-		let defaultValue = {};
-		switch (fieldConstructor) {
-			case "StringField":
-				defaultValue = "";
-				break;
-
-			case "ArrayField":
-				defaultValue = [];
-				break;
-
-			default:
-				break;
-		}
-
-		// If we're adding multiple entries at once, such as an 6 strings,
-		// handle that now.
-		let entry = null;
-		if (count) {
-			entry = [];
-			for (let i = 0; i < count; i++) {
-				entry.push(defaultValue);
-			}
-		}
-		else {
-			entry = defaultValue;
-		}
-
-		// Push the new entry.
-		entries.push(entry);
-
-		// Build our final data.
-		let updateData = null;
-		let systemField = field;
-		if (field.startsWith("system.")) {
-			systemField = field.split(".")[1];
-			updateData = this.document.system[systemField];
-			foundry.utils.setProperty(updateData, field.split("system.")[1], entries);
-		}
-		else {
-			updateData = entries;
-		}
-
-		// Perform the update.
-		await this.document.update({
-			[`system.${field}`]: entries
-		});
-		this._arrayEntryKey++;
-		this.render();
+		await createArrayEntry(this, event, target);
 	}
 
 	/**
-	 * Handle deleting an existing bond entry.
+	 * Handle deleting an existing array entry.
 	 *
-	 * @this GrimwildActorSheet
+	 * @this GrimwildItemSheetVue
 	 * @param {PointerEvent} event   The originating click event
 	 * @param {HTMLElement} target   The capturing HTML element which defined a [data-action]
 	 * @private
 	 */
 	static async _deleteArrayEntry(event, target) {
-		event.preventDefault();
-		const {
-			field,
-			key
-		} = target.dataset;
-		// Retrieve the current field value.
-		const entries = !field.startsWith("system.")
-			? this.document.system[field]
-			: foundry.utils.getProperty(this.document, field);
-		entries.splice(key, 1);
-
-		// Build our final data.
-		let updateData = null;
-		let systemField = field;
-		if (field.startsWith("system.")) {
-			systemField = field.split(".")[1];
-			updateData = this.document.system[systemField];
-			foundry.utils.setProperty(updateData, field.split("system.")[1], entries);
-		}
-		else {
-			updateData = entries;
-		}
-
-		// Perform the update.
-		await this.document.update({
-			[`system.${field}`]: entries
-		});
-		this._arrayEntryKey++;
-		this.render(true);
+		await deleteArrayEntry(this, event, target);
 	}
 
 	/**
 	 * Handle rolling pools on the item sheet.
-	 * @todo abstract this to the item itself.
 	 *
 	 * @param {PointerEvent} event The originating click event
 	 * @param {HTMLElement} target The capturing HTML element which defined a [data-action]
@@ -358,68 +248,42 @@ export class GrimwildItemSheetVue extends VueRenderingMixin(GrimwildBaseVueItemS
 	static async _rollPool(event, target) {
 		event.preventDefault();
 		// Retrieve props.
-		const {
-			field,
-			key
-		} = target.dataset;
-
-		// Prepare variables.
-		let pool = null;
-		let rollData = {};
-		let fieldData = null;
+		const { field, key } = target.dataset;
 
 		// Retrieve pool.
-		fieldData = this.document.system?.[field] ?? null;
+		const fieldData = this.document.system?.[field] ?? null;
 		if (!fieldData) return;
-		pool = !fieldData?.diceNum ? fieldData?.[key]?.pool : fieldData;
+		const pool = !fieldData?.diceNum ? fieldData?.[key]?.pool : fieldData;
 		if (!pool?.diceNum) return;
 
-		// Handle roll.
-		if (pool.diceNum > 0) {
-			const roll = new grimwild.diePools(`{${pool.diceNum}d6}`, rollData);
-			const result = await roll.evaluate();
-			const dice = result.dice[0].results;
-			const dropped = dice.filter((die) => die.result < 4);
+		// Roll the pool and send it to chat.
+		const droppedCount = await rollPoolDice({
+			diceNum: pool.diceNum,
+			speaker: ChatMessage.getSpeaker({ actor: this?.actor ?? game.user?.character }),
+			label: `[${field}] ${this.document.name}`
+		});
 
-			// Initialize chat data.
-			const speaker = ChatMessage.getSpeaker({ actor: this?.actor ?? game.user?.character });
-			const label = `[${field}] ${this.document.name}`;
-			// Send to chat.
-			const msg = await roll.toMessage({
-				speaker: speaker,
-				flavor: label
+		// Recalculate the pool value and persist.
+		pool.diceNum -= droppedCount;
+		if (fieldData?.diceNum) {
+			await this.document.update({
+				[`system.${field}`]: pool
 			});
-			// Wait for Dice So Nice if enabled.
-			if (game.dice3d && msg?.id) {
-				await game.dice3d.waitFor3DAnimationByMessageID(msg.id);
-			}
-			// Recalculate the pool value.
-			pool.diceNum -= dropped.length;
-			if (fieldData?.diceNum) {
-				// Otherwise, update the condition.
-				await this.document.update({
-					[`system.${field}`]: pool
-				});
-			}
-			else {
-				fieldData[key].pool = pool;
-				const update = {};
-				update[`system.${field}`] = fieldData;
-				await this.document.update({
-					[`system.${field}`]: fieldData
-				});
-			}
+		}
+		else {
+			fieldData[key].pool = pool;
+			await this.document.update({
+				[`system.${field}`]: fieldData
+			});
 		}
 	}
 
 	// @TODO restore when crucibles are added back to talents.
 	// /**
 	//  * Handle rolling crucibles on the item sheet.
-	//  * @todo abstract this to the item itself.
 	//  *
 	//  * @param {PointerEvent} event The originating click event
 	//  * @param {HTMLElement} target The capturing HTML element which defined a [data-action]
-	//  * @returns
 	//  * @private
 	//  */
 	// static async _rollCrucible(event, target) {

@@ -3,5 +3,5 @@
 </template>
 
 <script setup>
-const props = defineProps(['actor', 'context']);
+const props = defineProps(["actor", "context"]);
 </script>

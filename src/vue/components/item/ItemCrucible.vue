@@ -31,8 +31,8 @@
         <div class="responsive-table">
           <table>
             <tbody>
-              <tr v-for="row in d66Array">
-                <td v-for="column in d66Array">
+              <tr v-for="row in d66Array" :key="row">
+                <td v-for="column in d66Array" :key="`${row}.${column}`">
                   <input type="text"
                     v-if="editMode"
                     :name="`system.crucible.table.${row}.${column}`"
@@ -50,13 +50,15 @@
 </template>
 
 <script setup>
-import { inject, ref } from 'vue';
-const props = defineProps(['context']);
-const item = inject('rawDocument');
+import { ref } from "vue";
+const props = defineProps(["context"]);
 const d66Array = Array.fromRange(6, 1);
 
 const editMode = ref(false);
+/**
+ * Toggle the crucible between view and edit modes.
+ */
 function toggleEdit() {
-  editMode.value = !editMode.value;
+	editMode.value = !editMode.value;
 }
 </script>

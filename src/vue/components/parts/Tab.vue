@@ -5,12 +5,8 @@
 </template>
 
 <script>
-  export default {
-    name: 'Tab',
-    props: ['context', 'actor', 'tab', 'group', 'classes']
-  }
+export default {
+	name: "Tab",
+	props: ["tab", "group", "classes"]
+};
 </script>
-
-<style lang="scss">
-
-</style>

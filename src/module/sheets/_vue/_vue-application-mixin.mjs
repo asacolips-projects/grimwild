@@ -1,7 +1,64 @@
-import { createApp } from "../../../lib/vue.esm-browser.js";
+import { createApp, reactive } from "../../../lib/vue.esm-browser.js";
+
+/* -------------------------------------------- */
+/*  Context synchronization helpers             */
+/* -------------------------------------------- */
+
+/**
+ * Determine whether a context value should be passed into the reactive store by
+ * reference. Documents, data fields, and DOM nodes keep their identity; plain
+ * objects and arrays (including live DataModels such as `system`) are
+ * shallow-cloned by syncVueContext so that a new identity triggers reactivity
+ * on every render.
+ * @param {*} value  The value to test.
+ * @returns {boolean} Whether the value passes through by reference.
+ */
+function passesByReference(value) {
+	if ((value === null) || (typeof value !== "object")) return false;
+	if (value instanceof Node) return true;
+	if (value instanceof foundry.abstract.Document) return true;
+	if (value instanceof foundry.data.fields.DataField) return true;
+	return false;
+}
+
+/**
+ * Synchronize a reactive store with a freshly prepared render context.
+ *
+ * Keys absent from the new context are removed, and every key of the new
+ * context is (re)assigned. Plain objects and arrays are shallow-cloned on
+ * assignment so that live references which are identical across renders (for
+ * example `context.system`) still produce a new identity and propagate
+ * document updates to the mounted components.
+ *
+ * @param {object} store     The reactive store backing the Vue application.
+ * @param {object} context   The newly prepared render context.
+ */
+function syncVueContext(store, context) {
+	for (const key of Object.keys(store)) {
+		if (!(key in context)) delete store[key];
+	}
+	for (const [key, value] of Object.entries(context)) {
+		if (passesByReference(value) || (value === null) || (typeof value !== "object")) {
+			store[key] = value;
+		}
+		else if (Array.isArray(value)) {
+			store[key] = [...value];
+		}
+		else {
+			store[key] = { ...value };
+		}
+	}
+}
 
 /**
  * Vue rendering mixin for ApplicationV2.
+ *
+ * The mixin relies on the ApplicationV2 renderer contract: `_renderHTML` is
+ * awaited with the prepared context on every render, and `_replaceHTML` is
+ * invoked afterwards with the application's content element. The first
+ * `_replaceHTML` mounts a Vue application into the content element; every
+ * subsequent render only synchronizes the reactive store, leaving the mounted
+ * components (and anything they host, such as ProseMirror editors) untouched.
  *
  * @param {Constructor} BaseApplication
  * @returns {VueApplication}
@@ -13,11 +70,14 @@ export default function VueRenderingMixin(BaseApplication) {
 		/** Vue application instance created with createApp(). */
 		vueApp = null;
 
-		/** Vue root for the mounted application instance. */
+		/** The mounted root component instance. */
 		vueRoot = null;
 
-		/** Constant to force updates on change. */
-		_renderKey = 0;
+		/** Reactive store shared with the mounted components as `context`. */
+		vueContext = null;
+
+		/** Context prepared by the current render, pending the first mount. */
+		#pendingContext = null;
 
 		/**
 		 * Object to store vue parts.
@@ -43,8 +103,8 @@ export default function VueRenderingMixin(BaseApplication) {
 		 *
 		 * @example
 		 * {
-		 *   'document-sheet': DocumentSheet,
-		 *   'foobar': Foobar,
+		 *   'document-sheet': DocumentSheetVue,
+		 *   'foobar': FoobarVue,
 		 * }
 		 *
 		 * @returns {object} Object with component tags mapped to components.
@@ -77,47 +137,56 @@ export default function VueRenderingMixin(BaseApplication) {
 		}
 
 		/**
-		 * Render the outer framing HTMLElement and mount the Vue application.
+		 * Prepare the render context and route it to the Vue store.
 		 *
-		 * This occurs when the application is opened, but not on subsequent renders.
+		 * On the first render the context is stashed until `_replaceHTML` mounts
+		 * the application; on subsequent renders the store is synchronized so the
+		 * mounted components update reactively.
 		 *
+		 * @param {ApplicationRenderContext} context
 		 * @param {RenderOptions} options
-		 * @returns {Promise<HTMLElement>}
+		 * @returns {Promise<void>}
 		 *
 		 * @protected
 		 * @override
 		 */
-		async _renderFrame(options) {
-			// Retrieve the context and element.
-			const context = await this._prepareContext(options);
-			const element = await super._renderFrame(options);
+		async _renderHTML(context, options) {
+			if (this.vueContext) {
+				syncVueContext(this.vueContext, context);
+			}
+			else {
+				this.#pendingContext = context;
+			}
+		}
 
-			// Grab our application target and render our parts.
-			const target = this.hasFrame ? element.querySelector(".window-content") : element;
-			target.innerHTML = this.vueTemplates.join("");
+		/**
+		 * Mount the Vue application into the content element on first render.
+		 *
+		 * Subsequent renders are handled entirely by the store synchronization in
+		 * `_renderHTML`, so the mounted DOM is left untouched.
+		 *
+		 * @param {*} result            The result of `_renderHTML` (unused).
+		 * @param {HTMLElement} content  The application's content element.
+		 * @param {RenderOptions} options
+		 *
+		 * @protected
+		 * @override
+		 */
+		_replaceHTML(result, content, options) {
+			if (this.vueApp) return;
+
+			// Render our mount points and create the reactive store.
+			content.innerHTML = this.vueTemplates.join("");
+			this.vueContext = reactive({});
+			syncVueContext(this.vueContext, this.#pendingContext);
+			this.#pendingContext = null;
 
 			// Create and store the Vue application instance.
 			this.vueApp = createApp({
-				// Data available in the template.
-				data() {
-					return {
-						context: context
-					};
-				},
-				// Components allowed by the application.
-				components: this.vueComponents,
-				// Method to update the template data on subsequent changes.
-				methods: {
-					updateContext(newContext) {
-						// Note that 'this' refers to this.vueApp, not the full AppV2 instance.
-						for (let key of Object.keys(this.context)) {
-							if (newContext[key]) {
-								this.context[key] = newContext[key];
-							}
-						}
-					}
-				}
+				setup: () => ({ context: this.vueContext }),
+				components: this.vueComponents
 			});
+
 			// Expose global Foundry variables.
 			this.vueApp.config.globalProperties.game = game;
 			this.vueApp.config.globalProperties.CONFIG = CONFIG;
@@ -127,40 +196,29 @@ export default function VueRenderingMixin(BaseApplication) {
 			this.vueApp.provide("rawDocument", this.document);
 
 			// Mount and store the vue application.
-			this.vueRoot = this.vueApp.mount(target);
-
-			return element;
+			this.vueRoot = this.vueApp.mount(content);
 		}
 
 		/**
-		 * Handle updates for the Vue application instance.
+		 * Unmount the Vue application when the application frame is torn down.
 		 *
-		 * Normally, this would render the HTML for the content within the application.
-		 * However, for Vue, all we want to do is update the 'context' property that's
-		 * passed into the Vue application instance.
+		 * This is the authoritative cleanup point on the close path: a render
+		 * queued while the close sequence is running (e.g. from submitOnClose
+		 * triggering a document update) may otherwise mount a new Vue instance
+		 * onto the closing frame after close() has already cleaned up, leaving
+		 * state behind that would block the next mount when the sheet is
+		 * reopened.
 		 *
-		 * Unlinke _renderFrame(), this occurs on every update for the application.
-		 *
-		 * @param {ApplicationRenderContext} context
-		 * @param {RenderOptions} options
-		 * @returns {Promise<string>}
-		 *
+		 * @param {ApplicationClosingOptions} options
 		 * @protected
 		 * @override
 		 */
-		async _renderHTML(context, options) {
-			// Force certain updates.
-			this._renderKey++;
-			context._renderKey = this._renderKey;
-			// Update the application root with new values.
-			this.vueRoot.updateContext(context);
-			// Return doesn't matter, Vue handles updates.
-
-		}
-
-		/** @override */
-		_replaceHTML(result, content, options) {
-			// Pass. We don't need this in Vue land! But Foundry itself does...
+		_tearDown(options) {
+			this.vueApp?.unmount();
+			this.vueApp = null;
+			this.vueRoot = null;
+			this.vueContext = null;
+			super._tearDown(options);
 		}
 
 		/**
@@ -172,16 +230,23 @@ export default function VueRenderingMixin(BaseApplication) {
 		 * @override
 		 */
 		async close(options = {}) {
-			// Only submit on close if the document still exists in its collection. Core treats a
-			// submission for a missing document as a creation request, which document sheets don't
-			// support - this occurs when a document is deleted while its sheet is open.
-			if (this.options.form.submitOnClose && this.isEditable
-				&& this.document?.collection?.has(this.document.id)) {
-				await this.submit();
+			try {
+				// Only submit on close if the document still exists in its collection. Core treats a
+				// submission for a missing document as a creation request, which document sheets don't
+				// support - this occurs when a document is deleted while its sheet is open.
+				if (this.options.form.submitOnClose && this.isEditable
+					&& this.document?.collection?.has(this.document.id)) {
+					await this.submit();
+				}
 			}
-			// Unmount the vue instance.
-			if (this.vueApp) this.vueApp.unmount();
-			await super.close(options);
+			finally {
+				// Unmount the vue instance even if submission failed.
+				this.vueApp?.unmount();
+				this.vueApp = null;
+				this.vueRoot = null;
+				this.vueContext = null;
+				await super.close(options);
+			}
 		}
 	}
 

@@ -33,21 +33,21 @@
 				class="form-group"
 			>
 				<div class="form-group">
-					<input type="text" 
+					<input type="text"
 						:name="`system.sensories.colors.${colorKey}.name`"
 						v-model="color.name"
 						placeholder="Name of color"
 					/>
 				</div>
-				<div class="form-group"
-					v-html="context.customElements[`system.sensories.colors.${colorKey}.color`].outerHTML"
-				></div>
+				<div class="form-group">
+					<ColorPicker :picker="context.customElements[`system.sensories.colors.${colorKey}.color`]" :editable="context.editable"/>
+				</div>
 			</div>
 		</div>
 	</fieldset>
 </template>
 
 <script setup>
-import { Prosemirror } from '@/components';
-const props = defineProps(['context']);
+import { ColorPicker, Prosemirror } from "@/components";
+const props = defineProps(["context"]);
 </script>

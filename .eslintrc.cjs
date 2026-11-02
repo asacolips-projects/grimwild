@@ -21,7 +21,7 @@ module.exports = {
 		"jsdoc"
 	],
 
-	ignorePatterns: ["foundry", "gulpfile.mjs", "update-build-tags.js"],
+	ignorePatterns: ["foundry", "update-build-tags.js"],
 
 	rules: {
 		"array-bracket-spacing": ["warn", "never"],
@@ -241,9 +241,33 @@ module.exports = {
 
 	overrides: [
 		{
-			files: ["./*.js", "./*.cjs", "./*.mjs"],
+			files: ["./*.js", "./*.cjs", "./*.mjs", "scripts/**/*.mjs", "vite/**/*.mjs", "tools/**/*.mjs"],
 			env: {
 				node: true
+			}
+		},
+		{
+			files: ["**/*.vue"],
+			extends: ["plugin:vue/vue3-essential"],
+			parser: "vue-eslint-parser",
+			parserOptions: {
+				parser: "@babel/eslint-parser",
+				ecmaVersion: 13,
+				extraFileExtensions: [".vue"],
+				sourceType: "module",
+				requireConfigFile: false
+			},
+			rules: {
+				// defineProps results are consumed by the template, not the script.
+				"no-unused-vars": ["warn", { args: "none", destructuredArrayIgnorePattern: "^.", varsIgnorePattern: "^props$" }],
+				// Tab state and sheet-owned objects like activeItems are mutated
+				// through props by design.
+				"vue/no-mutating-props": "off",
+				// Tabs/Tab/Prosemirror predate this config; renaming their tags is
+				// not worth the churn.
+				"vue/multi-word-component-names": "off",
+				// Template attribute lists get long; the rule is style-only.
+				"max-len": "off"
 			}
 		}
 	],

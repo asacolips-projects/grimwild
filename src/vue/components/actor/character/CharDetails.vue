@@ -107,6 +107,6 @@
 <script setup>
 import {
 	RollPoolInput
-} from '@/components';
-const props = defineProps(['actor', 'context']);
+} from "@/components";
+const props = defineProps(["actor", "context"]);
 </script>

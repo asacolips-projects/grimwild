@@ -1,5 +1,6 @@
 import { MonsterSheetVue } from "../../vue/components.vue.es.mjs";
 import { GrimwildActorSheetVue } from "./actor-sheet-vue.mjs";
+import { rollPoolDice } from "./_vue/_shared-actions.mjs";
 
 const { DOCUMENT_OWNERSHIP_LEVELS } = CONST;
 
@@ -53,26 +54,11 @@ export class GrimwildActorMonsterSheetVue extends GrimwildActorSheetVue {
 			updateItemField: this._updateItemField,
 			updateChallengePool: this._updateChallengePool
 		},
-		// Custom property that's merged into `this.options`
-		dragDrop: [{ dragSelector: "[data-drag]", dropSelector: null }],
 		form: {
 			submitOnChange: true,
 			submitOnClose: true
 		}
 	};
-
-	/**
-	 * Actions performed after any render of the Application.
-	 * Post-render steps are not awaited by the render process.
-	 * @param {ApplicationRenderContext} context      Prepared context data
-	 * @param {RenderOptions} options                 Provided render options
-	 * @protected
-	 */
-	_onRender(context, options) {
-		super._onRender(context, options);
-		// @todo figure out how to attach this to the application frame rather than
-		// using render key to prevent redundant events.
-	}
 
 	async _prepareContext(options) {
 		// Output initialization
@@ -90,10 +76,6 @@ export class GrimwildActorMonsterSheetVue extends GrimwildActorSheetVue {
 			rollData: this.actor.getRollData() ?? {},
 			// Adding a pointer to CONFIG.GRIMWILD
 			config: CONFIG.GRIMWILD,
-			// Force re-renders. Defined in the vue mixin.
-			_renderKey: this._renderKey ?? 0,
-			_arrayEntryKey: this._arrayEntryKey ?? 0,
-			// tabs: this._getTabs(options.parts),
 			// Necessary for formInput and formFields helpers
 			fields: this.document.schema.fields,
 			systemFields: this.document.system.schema.fields
@@ -115,32 +97,19 @@ export class GrimwildActorMonsterSheetVue extends GrimwildActorSheetVue {
 			relativeTo: this.actor
 		};
 
-		const editorOptions = {
-			toggled: true,
-			collaborate: true,
-			documentUUID: this.document.uuid,
-			height: 300
-		};
-
 		// Handle enriching fields.
 		context.editors = {};
-		await this._enrichFields(context, enrichmentOptions, editorOptions);
+		await this._enrichFields(context, enrichmentOptions);
 
-		// Make another pass through the editors to fix the element contents.
-		for (let [field, editor] of Object.entries(context.editors)) {
-			if (context.editors[field].element) {
-				context.editors[field].element.innerHTML = context.editors[field].enriched;
-			}
-		}
-
-		// Handle other custom elements.
+		// Handle other custom elements. Exposed as metadata only; the
+		// ColorPicker component creates the element for editable sheets.
 		if (this.document.type === "monster") {
 			context.customElements = {};
 			for (let [colorKey, color] of this.document.system.sensories.colors.entries()) {
-				context.customElements[`system.sensories.colors.${colorKey}.color`] = foundry.applications.elements.HTMLColorPickerElement.create({
+				context.customElements[`system.sensories.colors.${colorKey}.color`] = {
 					name: `system.sensories.colors.${colorKey}.color`,
 					value: color.color
-				});
+				};
 			}
 		}
 
@@ -205,8 +174,7 @@ export class GrimwildActorMonsterSheetVue extends GrimwildActorSheetVue {
 	 **************/
 
 	/**
-	 * Handle rolling pools on the character sheet.
-	 * @todo abstract this to the actor itself.
+	 * Handle rolling pools on the monster sheet.
 	 *
 	 * @param {PointerEvent} event The originating click event
 	 * @param {HTMLElement} target The capturing HTML element which defined a [data-action]
@@ -221,48 +189,32 @@ export class GrimwildActorMonsterSheetVue extends GrimwildActorSheetVue {
 			itemId
 		} = target.dataset;
 
-		// Prepare variables.
-		let rollData = {};
-
 		// Retrieve pool.
-		const item = itemId ? this.document.items.get(itemId) : false;
 		// @todo improve this to work with more nested field types.
-		let pool = !item
+		const item = itemId ? this.document.items.get(itemId) : false;
+		const pool = !item
 			? (this.document.system?.[field] ?? null)
 			: (item.system?.[field]?.[key]?.pool ?? null);
+		if (!pool?.diceNum) return;
 
-		// Handle roll.
-		if (pool?.diceNum > 0) {
-			const roll = new grimwild.diePools(`{${pool.diceNum}d6}`, rollData);
-			const result = await roll.evaluate();
-			const dice = result.dice[0].results;
-			const dropped = dice.filter((die) => die.result < 4);
+		// Roll the pool and send it to chat.
+		const droppedCount = await rollPoolDice({
+			diceNum: pool.diceNum,
+			speaker: ChatMessage.getSpeaker({ actor: this.actor }),
+			label: `[${field}] ${this.document.name}`
+		});
 
-			// Initialize chat data.
-			const speaker = ChatMessage.getSpeaker({ actor: this.actor });
-			const label = `[${field}] ${this.document.name}`;
-			// Send to chat.
-			const msg = await roll.toMessage({
-				speaker: speaker,
-				flavor: label
+		// Recalculate the pool value and persist.
+		pool.diceNum -= droppedCount;
+		if (!item) {
+			await this.document.update({
+				[`system.${field}`]: pool
 			});
-			// Wait for Dice So Nice if enabled.
-			if (game.dice3d && msg?.id) {
-				await game.dice3d.waitFor3DAnimationByMessageID(msg.id);
-			}
-			// Recalculate the pool value.
-			pool.diceNum -= dropped.length;
-			// Otherwise, update the condition.
-			if (!item) {
-				await this.document.update({
-					[`system.${field}`]: pool
-				});
-			}
-			else {
-				const update = item.system.toObject()[field];
-				update[key].pool = pool;
-				await item.update({ [`system.${field}`]: update });
-			}
+		}
+		else {
+			const update = item.system.toObject()[field];
+			update[key].pool = pool;
+			await item.update({ [`system.${field}`]: update });
 		}
 	}
 
@@ -270,7 +222,7 @@ export class GrimwildActorMonsterSheetVue extends GrimwildActorSheetVue {
 	 * Handle updating fields on embedded documents.
 	 *
 	 * @param {PointerEvent} event The originating click event
-	 * @param {HTMLElement} target The capturing HTML element which defined a [data-action]
+	 * @param {HTMLElement} target The capturing HTML element which defined a [data-action-change]
 	 * @private
 	 */
 	static async _updateItemField(event, target) {
@@ -318,7 +270,7 @@ export class GrimwildActorMonsterSheetVue extends GrimwildActorSheetVue {
 	 * Handle updating pools on embedded challenge items.
 	 *
 	 * @param {PointerEvent} event The originating click event
-	 * @param {HTMLElement} target The capturing HTML element which defined a [data-action]
+	 * @param {HTMLElement} target The capturing HTML element which defined a [data-action-change]
 	 * @private
 	 */
 	static async _updateChallengePool(event, target) {

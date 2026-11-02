@@ -24,8 +24,8 @@
 
 <script setup>
 import {
-  Prosemirror
-} from '@/components';
+	Prosemirror
+} from "@/components";
 
-const props = defineProps(['context']);
+const props = defineProps(["context"]);
 </script>

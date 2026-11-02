@@ -1,8 +1,7 @@
 <template>
 	<section class="monster-tables-wrapper form-group stacked ">
-		<!-- Use the _arrayEntryKey prop to refresh when the array fields are modified. -->
-		<div class="monster-tables form-group stacked" :key="context._arrayEntryKey">
-			<!-- Wrapper for ables. -->
+		<div class="monster-tables form-group stacked">
+			<!-- Wrapper for tables. -->
 			<fieldset class="add-another-entries" v-for="(table, tableKey) in context.system.tables" :key="tableKey">
 				<legend>Table</legend>
 				<!-- Delete this table. -->
@@ -15,8 +14,8 @@
 				<!-- Table Name. -->
 				<div class="form-group">
 					<label>Table name</label>
-					<input type="text" 
-						:name="`system.tables.${tableKey}.name`" 
+					<input type="text"
+						:name="`system.tables.${tableKey}.name`"
 						placeholder="Hoarding Instincts"
 						v-model="table.name"
 					/>
@@ -24,43 +23,26 @@
 				<!-- Table Instructions. -->
 				<div class="form-group">
 					<label>Table instructions</label>
-					<input type="text" 
-						:name="`system.tables.${tableKey}.instructions`" 
+					<input type="text"
+						:name="`system.tables.${tableKey}.instructions`"
 						placeholder="besides gold"
 						v-model="table.instructions"
 					/>
 				</div>
-				<!-- Table d6 groups. -->
+				<!-- Table d6 groups. The crucible table schema is a fixed 6x6 grid:
+					six columns (the first d6), each with six rows (the second d6). -->
 				<div class="tables-wrapper form-group stacked">
-					<div class="form-group stacked">
-						<!-- d6 Table group. -->
-						<fieldset class="tables-wrapper add-another-entries" v-for="(col, colKey) in table.table" :key="colKey">
-							<legend>d6</legend>
-							<!-- Delete this group. -->
-							<button class="legend-control entry-delete"
-								title="Delete d6 group"
-								data-action="deleteArrayEntry"
-								:data-field="`system.tables.${tableKey}.table`"
-								:data-key="colKey"
-							><i class="fas fa-trash"></i></button>
-							<!-- Table rows for 1-6. -->
-							<div v-for="(row, rowKey) in col" :key="rowKey" class="form-group">
-								<label>{{ rowKey + 1 }}</label>
-								<input type="text"
-									:name="`system.tables.${tableKey}.table.${colKey}.${rowKey}`"
-									v-model="context.system.tables[tableKey]['table'][colKey][rowKey]"
-								/>
-							</div>
-						</fieldset>
-					</div>
-					<!-- Control to add table group. -->
-					<button class="table-control entry-create"
-						title="Add table group"
-						data-action="createArrayEntry"
-						:data-field="`system.tables.${tableKey}.table`"
-						data-field-type="StringField"
-						data-count="6"
-					><i class="fas fa-plus"></i>Add d6 table group</button>
+					<fieldset class="tables-wrapper" v-for="(col, colKey) in table.table" :key="colKey">
+						<legend>d6 {{ colKey }}</legend>
+						<!-- Table rows for 1-6. -->
+						<div v-for="(row, rowKey) in col" :key="rowKey" class="form-group">
+							<label>{{ rowKey }}</label>
+							<input type="text"
+								:name="`system.tables.${tableKey}.table.${colKey}.${rowKey}`"
+								v-model="context.system.tables[tableKey]['table'][colKey][rowKey]"
+							/>
+						</div>
+					</fieldset>
 				</div>
 			</fieldset>
 			<!-- Add table -->
@@ -74,8 +56,5 @@
 </template>
 
 <script setup>
-import { inject } from "vue";
-// import { RollPoolInput } from "@/components";
 const props = defineProps(["context"]);
-// const actor = inject("rawDocument");
 </script>

@@ -1,5 +1,6 @@
 import VueRenderingMixin from "./_vue/_vue-application-mixin.mjs";
 import { GrimwildBaseVueActorSheet } from "./_vue/_base-vue-actor-sheet.mjs";
+import { createArrayEntry, deleteArrayEntry, rollPoolDice } from "./_vue/_shared-actions.mjs";
 import { DocumentSheetVue } from "../../vue/components.vue.es.mjs";
 
 const { DOCUMENT_OWNERSHIP_LEVELS } = CONST;
@@ -29,8 +30,6 @@ export class GrimwildActorSheetVue extends VueRenderingMixin(GrimwildBaseVueActo
 			]
 		}
 	};
-
-	_arrayEntryKey = 0;
 
 	/** @override */
 	static DEFAULT_OPTIONS = {
@@ -66,26 +65,11 @@ export class GrimwildActorSheetVue extends VueRenderingMixin(GrimwildBaseVueActo
 		changeActions: {
 			updateItemTracker: this._updateItemTracker
 		},
-		// Custom property that's merged into `this.options`
-		dragDrop: [{ dragSelector: "[data-drag]", dropSelector: null }],
 		form: {
 			submitOnChange: true,
 			submitOnClose: true
 		}
 	};
-
-	/**
-	 * Actions performed after any render of the Application.
-	 * Post-render steps are not awaited by the render process.
-	 * @param {ApplicationRenderContext} context      Prepared context data
-	 * @param {RenderOptions} options                 Provided render options
-	 * @protected
-	 */
-	_onRender(context, options) {
-		super._onRender(context, options);
-		// @todo figure out how to attach this to the application frame rather than
-		// using render key to prevent redundant events.
-	}
 
 	/**
 	 * Attach listeners to the application frame.
@@ -136,10 +120,6 @@ export class GrimwildActorSheetVue extends VueRenderingMixin(GrimwildBaseVueActo
 			rollData: this.actor.getRollData() ?? {},
 			// Adding a pointer to CONFIG.GRIMWILD
 			config: CONFIG.GRIMWILD,
-			// Force re-renders. Defined in the vue mixin.
-			_renderKey: this._renderKey ?? 0,
-			_arrayEntryKey: this._arrayEntryKey ?? 0,
-			// tabs: this._getTabs(options.parts),
 			// Necessary for formInput and formFields helpers
 			fields: this.document.schema.fields,
 			systemFields: this.document.system.schema.fields
@@ -161,23 +141,9 @@ export class GrimwildActorSheetVue extends VueRenderingMixin(GrimwildBaseVueActo
 			relativeTo: this.actor
 		};
 
-		const editorOptions = {
-			toggled: true,
-			collaborate: true,
-			documentUUID: this.document.uuid,
-			height: 300
-		};
-
 		// Handle enriching fields.
 		context.editors = {};
-		await this._enrichFields(context, enrichmentOptions, editorOptions);
-
-		// Make another pass through the editors to fix the element contents.
-		for (let [field, editor] of Object.entries(context.editors)) {
-			if (context.editors[field].element) {
-				context.editors[field].element.innerHTML = context.editors[field].enriched;
-			}
-		}
+		await this._enrichFields(context, enrichmentOptions);
 
 		// Handle the custom harm homebrew.
 		if (game.settings.get("grimwild", "enableHarmPools")) {
@@ -192,13 +158,16 @@ export class GrimwildActorSheetVue extends VueRenderingMixin(GrimwildBaseVueActo
 	}
 
 	/**
-	 * Enrich values for action fields.
+	 * Enrich values for editable document fields.
+	 *
+	 * Editors are exposed to Vue as metadata only; the ProseMirror element
+	 * itself is created and owned by the Prosemirror component. Non-editable
+	 * viewers only receive the enriched HTML.
 	 *
 	 * @param {object} context
 	 * @param {object} enrichmentOptions
-	 * @param {object} editorOptions
 	 */
-	async _enrichFields(context, enrichmentOptions, editorOptions) {
+	async _enrichFields(context, enrichmentOptions) {
 		// Enrich other fields.
 		const fields = this.enrichmentOptions.documentFields;
 		const itemTypes = this.enrichmentOptions.itemFields;
@@ -206,17 +175,18 @@ export class GrimwildActorSheetVue extends VueRenderingMixin(GrimwildBaseVueActo
 		// Enrich actor fields.
 		for (let field of fields) {
 			const editorValue = this.actor.system?.[field] ?? foundry.utils.getProperty(this.actor.system, field);
-			context.editors[`system.${field}`] = {
+			const editor = {
 				enriched: await foundry.applications.ux.TextEditor.implementation.enrichHTML(
 					editorValue,
 					enrichmentOptions
-				),
-				element: foundry.applications.elements.HTMLProseMirrorElement.create({
-					...editorOptions,
-					name: `system.${field}`,
-					value: editorValue ?? ""
-				})
+				)
 			};
+			if (this.isEditable) {
+				editor.name = `system.${field}`;
+				editor.value = editorValue ?? "";
+				editor.height = 300;
+			}
+			context.editors[`system.${field}`] = editor;
 		}
 
 		// Enrich item fields.
@@ -230,19 +200,17 @@ export class GrimwildActorSheetVue extends VueRenderingMixin(GrimwildBaseVueActo
 						rollData: item.getRollData() ?? this.actor.getRollData(),
 						relativeTo: item
 					};
-					// Iterate over each field within those items.
+					// Iterate over each field within those items. These are enriched
+					// text only - ProseMirror editors for them should be edited
+					// directly on the item.
 					for (let itemField of itemFields) {
-						// Retrieve and enrich the field. Ignore creating prosemirror editors
-						// since those should be edited directly on the item.
 						const editorValue = item.system?.[itemField]
 							?? foundry.utils.getProperty(item.system, itemField);
-						// Add editor settings.
 						context.editors[`items.${item.id}.system.${itemField}`] = {
 							enriched: await foundry.applications.ux.TextEditor.implementation.enrichHTML(
 								editorValue,
 								itemEnrichmentOptions
-							),
-							element: null
+							)
 						};
 					}
 				}
@@ -341,118 +309,27 @@ export class GrimwildActorSheetVue extends VueRenderingMixin(GrimwildBaseVueActo
 	}
 
 	/**
-	 * Handle creating a new bond entry.
+	 * Handle creating a new array entry.
 	 *
-	 * @this GrimwildActorSheet
+	 * @this GrimwildActorSheetVue
 	 * @param {PointerEvent} event   The originating click event
 	 * @param {HTMLElement} target   The capturing HTML element which defined a [data-action]
 	 * @private
 	 */
 	static async _createArrayEntry(event, target) {
-		event.preventDefault();
-		const {
-			field,
-			fieldType,
-			count
-		} = target.dataset;
-
-		// Retrieve the current field value.
-		const entries = !field.startsWith("system.")
-			? this.document.system[field]
-			: foundry.utils.getProperty(this.document, field);
-		// Retrieve the schema.
-		const schema = this.document.system.schema.fields?.[field];
-		const fieldConstructor = fieldType ?? schema?.element.constructor.name;
-		if (!fieldConstructor) return;
-		// Determine the default value of the new entry.
-		let defaultValue = {};
-		switch (fieldConstructor) {
-			case "StringField":
-				defaultValue = "";
-				break;
-
-			case "ArrayField":
-				defaultValue = [];
-				break;
-
-			default:
-				break;
-		}
-
-		// If we're adding multiple entries at once, such as an 6 strings,
-		// handle that now.
-		let entry = null;
-		if (count) {
-			entry = [];
-			for (let i = 0; i < count; i++) {
-				entry.push(defaultValue);
-			}
-		}
-		else {
-			entry = defaultValue;
-		}
-
-		// Push the new entry.
-		entries.push(entry);
-
-		// Build our final data.
-		let updateData = null;
-		let systemField = field;
-		if (field.startsWith("system.")) {
-			systemField = field.split(".")[1];
-			updateData = this.document.system[systemField];
-			foundry.utils.setProperty(updateData, field.split("system.")[1], entries);
-		}
-		else {
-			updateData = entries;
-		}
-
-		// Perform the update.
-		await this.document.update({
-			[`system.${field}`]: entries
-		});
-		this._arrayEntryKey++;
-		this.render();
+		await createArrayEntry(this, event, target);
 	}
 
 	/**
-	 * Handle deleting an existing bond entry.
+	 * Handle deleting an existing array entry.
 	 *
-	 * @this GrimwildActorSheet
+	 * @this GrimwildActorSheetVue
 	 * @param {PointerEvent} event   The originating click event
 	 * @param {HTMLElement} target   The capturing HTML element which defined a [data-action]
 	 * @private
 	 */
 	static async _deleteArrayEntry(event, target) {
-		event.preventDefault();
-		const {
-			field,
-			key
-		} = target.dataset;
-		// Retrieve the current field value.
-		const entries = !field.startsWith("system.")
-			? this.document.system[field]
-			: foundry.utils.getProperty(this.document, field);
-		entries.splice(key, 1);
-
-		// Build our final data.
-		let updateData = null;
-		let systemField = field;
-		if (field.startsWith("system.")) {
-			systemField = field.split(".")[1];
-			updateData = this.document.system[systemField];
-			foundry.utils.setProperty(updateData, field.split("system.")[1], entries);
-		}
-		else {
-			updateData = entries;
-		}
-
-		// Perform the update.
-		await this.document.update({
-			[`system.${field}`]: entries
-		});
-		this._arrayEntryKey++;
-		this.render(true);
+		await deleteArrayEntry(this, event, target);
 	}
 
 	/**
@@ -489,6 +366,8 @@ export class GrimwildActorSheetVue extends VueRenderingMixin(GrimwildBaseVueActo
 					newXp = xp;
 				}
 			}
+			// XP can never drop below zero.
+			newXp = Math.max(0, newXp);
 			await this.document.update({ "system.xp.value": newXp });
 		}
 	}
@@ -548,7 +427,6 @@ export class GrimwildActorSheetVue extends VueRenderingMixin(GrimwildBaseVueActo
 
 	/**
 	 * Handle rolling pools on the character sheet.
-	 * @todo abstract this to the actor itself.
 	 *
 	 * @param {PointerEvent} event The originating click event
 	 * @param {HTMLElement} target The capturing HTML element which defined a [data-action]
@@ -565,19 +443,18 @@ export class GrimwildActorSheetVue extends VueRenderingMixin(GrimwildBaseVueActo
 
 		// Prepare variables.
 		let item = null;
-		let trackers = null;
 		let tracker = null;
 		let pool = null;
 		let rollData = {};
 		let fieldData = null;
-		let dropped = [];
+		let droppedCount = 0;
 		const update = {};
 
 		// Handle item pools (talents).
 		if (itemId) {
 			item = this.document.items.get(itemId);
 			if (!item) return;
-			trackers = item.system.trackers;
+			const trackers = item.system.trackers;
 			tracker = trackers?.[key];
 			if (!tracker) return;
 			pool = tracker.pool;
@@ -622,7 +499,7 @@ export class GrimwildActorSheetVue extends VueRenderingMixin(GrimwildBaseVueActo
 				const result = await roll.evaluate();
 				// Limit to just the pool dice when checking for dropped dice.
 				const dice = result.dice[0].results.slice(0, pool.diceNum);
-				dropped = dice.filter((die) => die.result < 4);
+				droppedCount = dice.filter((die) => die.result < 4).length;
 
 				// Add spark to the update.
 				if (rollDialog.sparkUsed > 0) {
@@ -645,9 +522,7 @@ export class GrimwildActorSheetVue extends VueRenderingMixin(GrimwildBaseVueActo
 
 				// Initialize chat data.
 				const speaker = ChatMessage.getSpeaker({ actor: this.actor });
-				const label = item && tracker.label
-					? `[${item.name}] ${tracker.label}`
-					: (item ? item.name : `[${field}] ${fieldData[key]?.name ?? ""}`);
+				const label = `[${item.name}] ${tracker.label}`;
 				// Send to chat.
 				const msg = await roll.toMessage({
 					speaker: speaker,
@@ -674,33 +549,22 @@ export class GrimwildActorSheetVue extends VueRenderingMixin(GrimwildBaseVueActo
 				}
 			}
 			else {
-				const roll = new grimwild.diePools(`{${pool.diceNum}d6}`, rollData);
-				const result = await roll.evaluate();
-				const dice = result.dice[0].results;
-				dropped = dice.filter((die) => die.result < 4);
-
-				// Initialize chat data.
-				const speaker = ChatMessage.getSpeaker({ actor: this.actor });
 				const label = item
 					? `[${item.type}] ${item.name}`
 					: `[${field}] ${fieldData[key]?.name ?? ""}`;
-				// Send to chat.
-				const msg = await roll.toMessage({
-					speaker: speaker,
-					flavor: label
+				droppedCount = await rollPoolDice({
+					diceNum: pool.diceNum,
+					rollData,
+					speaker: ChatMessage.getSpeaker({ actor: this.actor }),
+					label
 				});
-				// Wait for Dice So Nice if enabled.
-				if (game.dice3d && msg?.id) {
-					await game.dice3d.waitFor3DAnimationByMessageID(msg.id);
-				}
 			}
 
 			// Recalculate the pool value.
-			pool.diceNum -= dropped.length;
+			pool.diceNum -= droppedCount;
 			// Update the item.
 			if (item) {
-				trackers[key].pool = pool;
-				await item.update({ "system.trackers": trackers });
+				await item.update({ "system.trackers": item.system.trackers });
 			}
 			// Otherwise, update the condition.
 			else if (fieldData) {
@@ -723,7 +587,7 @@ export class GrimwildActorSheetVue extends VueRenderingMixin(GrimwildBaseVueActo
 	/**
 	 * Handle clickable rolls.
 	 *
-	 * @this GrimwildActorSheet
+	 * @this GrimwildActorSheetVue
 	 * @param {PointerEvent} event   The originating click event
 	 * @param {HTMLElement} target   The capturing HTML element which defined a [data-action]
 	 * @returns {Promise|void} The roll object, or void.

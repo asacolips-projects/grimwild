@@ -4,7 +4,7 @@
 			<CharSidebar :context="context" />
 
 			<!-- Header -->
-			 <section class="grimwild-main flexcol grid-span-3">
+			<section class="grimwild-main flexcol grid-span-3">
 				<CharHeader :context="context" />
 
 				<div class="section--main flexcol">
@@ -44,13 +44,13 @@
 						</Tab>
 
 						<!-- @todo Active effects disabled for now. -->
-						<!-- Active Effect Fields -->
+						<!-- Active Effect Fields (re-add CharEffects to the imports when re-enabling) -->
 						<!-- <Tab group="primary" :tab="tabs.primary.effects">
-							<CharEffects :actor="context.actor" :context="context" :key="context._renderKey"/>
+							<CharEffects :actor="context.actor" :context="context"/>
 						</Tab> -->
 					</section>
 				</div>
-			 </section>
+			</section>
 		</div>
 
 	</div>
@@ -65,17 +65,12 @@ import {
 	CharDetails,
 	CharTalents,
 	CharArcana,
-	CharEffects,
 	Prosemirror
-} from '@/components';
-import { reactive, toRaw } from 'vue';
+} from "@/components";
+import { useTabs } from "@/composables/useTabs";
 
-const props = defineProps(['context']);
-// Convert the tabs into a new reactive variable so that they
-// don't change every time the item is updated.
-const rawTabs = toRaw(props.context.tabs);
-const tabs = reactive({...rawTabs});
-// Retrieve a copy of the full item document instance provided by
-// the VueApplicationMixin.
-// const actor = inject('rawDocument');
+const props = defineProps(["context"]);
+// Copy the tabs into a local reactive object so that tab state (which tab is
+// active) survives context synchronization on re-render.
+const tabs = useTabs(props.context);
 </script>
