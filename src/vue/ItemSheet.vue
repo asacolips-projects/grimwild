@@ -1,10 +1,9 @@
 <template>
 	<div :class="`grimwild-vue standard-form flexcol`">
 		<div class="grimwild-sheet-layout flexcol">
-			<!-- <CharSidebar :context="context" /> -->
 
 			<!-- Header -->
-			 <section class="grimwild-main flexcol grid-span-3">
+			<section class="grimwild-main flexcol grid-span-3">
 				<ItemHeader :context="context" />
 
 				<div class="section--main flexcol">
@@ -44,7 +43,7 @@
 						</Tab> -->
 					</section>
 				</div>
-			 </section>
+			</section>
 		</div>
 
 	</div>
@@ -59,15 +58,11 @@ import {
 	ItemAttributes,
 	Prosemirror,
 	ArcanaDetails
-} from '@/components';
-import { reactive, toRaw } from 'vue';
+} from "@/components";
+import { useTabs } from "@/composables/useTabs";
 
-const props = defineProps(['context']);
-// Convert the tabs into a new reactive variable so that they
-// don't change every time the item is updated.
-const rawTabs = toRaw(props.context.tabs);
-const tabs = reactive({...rawTabs});
-// Retrieve a copy of the full item document instance provided by
-// the VueApplicationMixin.
-// const item = inject('rawDocument');
+const props = defineProps(["context"]);
+// Copy the tabs into a local reactive object so that tab state (which tab is
+// active) survives context synchronization on re-render.
+const tabs = useTabs(props.context);
 </script>

@@ -40,18 +40,18 @@ function getScenePools() {
 						</div>
 					</div>
 					${game.user.isGM
-		? `<div class="flex-col flex-center">
+							? `<div class="flex-col flex-center">
 						<button class="button-icon js-quick-pool-roll" type="button" data-visible="${pool.visible}" data-roll-data="${pool.diceNum}" data-pool="${index}"><i class="fas fa-dice-d6"></i></button>
 						<button class="button-icon js-quick-pool-display" type="button" data-pool="${index}"><i class="fas fa-eye${pool.visible ? "" : "-slash dim"}"></i></button>
 						<button class="button-icon js-quick-pool-delete" data-pool="${index}" type="button"><i class="fas fa-trash"></i></button>
 					</div>` : ""
-}
+					}
 				</div>
 			`)
-		.join("")}
+				.join("")}
 		</div>
 		${game.user.isGM
-		? `<div class="quick-pool-adjust">
+			? `<div class="quick-pool-adjust">
 			<button class="hover-highlight js-quick-pool-add">+ Pool</button>
 		</div>` : ""}
 	</div>

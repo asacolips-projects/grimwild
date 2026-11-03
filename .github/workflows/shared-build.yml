@@ -18,7 +18,7 @@ jobs:
     name: Build
     runs-on: ubuntu-latest
     container:
-      image: node:20
+      image: node:24
     if: github.repository_owner == 'asacolips-projects'
     timeout-minutes: 60
     steps:
@@ -33,8 +33,8 @@ jobs:
       uses: actions/cache@v4
       with:
         path: node_modules/
-        key: node-${{ hashFiles('package-lock.json') }}
-        restore-keys: node-
+        key: node24-${{ hashFiles('package-lock.json') }}
+        restore-keys: node24-
 
     - name: Install NPM dependencies
       run: npm install

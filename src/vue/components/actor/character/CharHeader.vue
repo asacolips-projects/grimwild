@@ -10,10 +10,10 @@
 						<div v-for="(stat, statKey) in statGroup" :key="statKey" :class="`stat stat-${stat} form-group stacked`">
 							<label>
 								<button type="button"
-									data-action="roll"
-									data-roll-type="stat"
-									:data-stat="stat"
-								><i class="fas fa-dice-d6"></i> {{actor.system.stats[stat].label}}</button>
+										data-action="roll"
+										data-roll-type="stat"
+										:data-stat="stat"
+									><i class="fas fa-dice-d6"></i> {{context.system.stats[stat].label}}</button>
 							</label>
 							<div class="flexrow">
 								<input type="checkbox"
@@ -113,8 +113,6 @@
 </template>
 
 <script setup>
-import { inject } from "vue";
 import { RollPoolInput } from "@/components";
 const props = defineProps(["context"]);
-const actor = inject("rawDocument");
 </script>

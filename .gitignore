@@ -14,7 +14,7 @@ foundry-config.yaml
 # Node Modules
 node_modules/
 dist/
-build/
+/build/
 /grimwild/
 /grimwild.zip
 foundry

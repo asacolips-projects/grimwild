@@ -19,9 +19,9 @@
 		</div>
 		<ol class="items-list grid-span-3">
 			<!-- Challenge rows -->
-			<li v-for="(item, id) in context.itemTypes.challenge" :key="id"
-				:class="`item challenge flexcol ${context.activeItems?.[item._id] ? 'active' : ''}`"
-				:data-item-id="item._id"
+			<li v-for="item in context.itemTypes.challenge" :key="item.id"
+				:class="`item challenge flexcol ${context.activeItems?.[item.id] ? 'active' : ''}`"
+				:data-item-id="item.id"
 				data-drag="true"
 				draggable="true"
 				data-document-class="Item"
@@ -53,14 +53,14 @@
 									data-field="system.suspense.steps"
 									data-key="0"
 									:data-item-id="item.id"
-									v-model="item.system.suspense.steps[0]"
+									:checked="item.system.suspense.steps[0]"
 								/>
 								<input type="checkbox"
 									data-action-change="updateItemField"
 									data-field="system.suspense.steps"
 									data-key="1"
 									:data-item-id="item.id"
-									v-model="item.system.suspense.steps[1]"
+									:checked="item.system.suspense.steps[1]"
 								/>
 							</div>
 						</div>

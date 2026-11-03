@@ -53,30 +53,28 @@
 </template>
 
 <script setup>
-import { inject } from "vue";
 import { RollPoolInput } from "@/components";
 const props = defineProps(["context"]);
-const actor = inject("rawDocument");
 
 const tiers = {
-	mook: 'Mook',
-	tough: 'Tough',
-	elite: 'Elite',
-	boss: 'Boss'
+	mook: "Mook",
+	tough: "Tough",
+	elite: "Elite",
+	boss: "Boss"
 };
 
 const roles = {
-	blaster: 'Blaster',
-	brute: 'Brute',
-	lurker: 'Lurker',
-	marauder: 'Marauder',
-	marksman: 'Marksman',
-	overseer: 'Overseer',
-	predator: 'Predator',
-	protector: 'Protector',
-	skirmisher: 'Skirmisher',
-	swarmer: 'Swarmer',
-	tactician: 'Tactician',
-	trickster: 'Trickster',
-}
+	blaster: "Blaster",
+	brute: "Brute",
+	lurker: "Lurker",
+	marauder: "Marauder",
+	marksman: "Marksman",
+	overseer: "Overseer",
+	predator: "Predator",
+	protector: "Protector",
+	skirmisher: "Skirmisher",
+	swarmer: "Swarmer",
+	tactician: "Tactician",
+	trickster: "Trickster"
+};
 </script>

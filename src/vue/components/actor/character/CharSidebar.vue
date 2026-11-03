@@ -76,34 +76,42 @@
 </template>
 
 <script setup>
-import { inject } from 'vue';
-const props = defineProps(['context']);
-const actor = inject('rawDocument');
-const slowXp = game.settings.get('grimwild', 'slowXp');
-const xpArray = actor.system.xp.steps.map((xpSteps) => {
+const props = defineProps(["context"]);
+const slowXp = game.settings.get("grimwild", "slowXp");
+const xpArray = props.context.system.xp.steps.map((xpSteps) => {
 	return slowXp
 		? xpSteps.map((xp) => xp * 2)
 		: xpSteps;
 });
 
+/**
+ * Check whether an XP pip should display as checked.
+ * @param {number} xp  The XP value of the pip.
+ * @returns {boolean} Whether the pip is checked.
+ */
 function isCheckedXp(xp) {
 	let result = false;
-	if (actor.system.xp.value >= xp) {
+	if (props.context.system.xp.value >= xp) {
 		result = true;
 	}
-	if (slowXp && actor.system.xp.value == xp - 1) {
+	if (slowXp && props.context.system.xp.value === xp - 1) {
 		result = true;
 	}
 	return result;
 }
 
+/**
+ * Get the fill state class for an XP pip.
+ * @param {number} xp  The XP value of the pip.
+ * @returns {string} The state class (xp-full, xp-half, or xp-empty).
+ */
 function getXpClass(xp) {
-	let result = 'empty';
-	if (actor.system.xp.value >= xp) {
-		result = 'full';
+	let result = "empty";
+	if (props.context.system.xp.value >= xp) {
+		result = "full";
 	}
-	if (slowXp && actor.system.xp.value == xp - 1) {
-		result = 'half';
+	if (slowXp && props.context.system.xp.value === xp - 1) {
+		result = "half";
 	}
 	return `xp-${result}`;
 }

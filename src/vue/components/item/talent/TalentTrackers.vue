@@ -58,8 +58,8 @@
 						<div v-if="tracker.type === 'points'" class="tracker-steps form-group stacked">
 							<label>Display</label>
 							<select :name="`system.trackers.${trackerKey}.points.showSteps`" v-model="tracker.points.showSteps">
-								<option value="false">Number</option>
-								<option value="true">Checkboxes</option>
+								<option :value="false">Number</option>
+								<option :value="true">Checkboxes</option>
 							</select>
 						</div>
 						<!-- Delete control -->
@@ -82,7 +82,5 @@
 </template>
 
 <script setup>
-import { inject } from 'vue';
-const props = defineProps(['context']);
-const item = inject('rawDocument');
+const props = defineProps(["context"]);
 </script>

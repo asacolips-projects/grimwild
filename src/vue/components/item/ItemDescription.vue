@@ -12,6 +12,6 @@
 <script setup>
 import {
 	Prosemirror
-} from '@/components';
-const props = defineProps(['item', 'context']);
+} from "@/components";
+const props = defineProps(["item", "context"]);
 </script>

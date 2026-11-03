@@ -21,7 +21,7 @@ jobs:
     needs: build
     runs-on: ubuntu-latest
     container:
-      image: node:20
+      image: node:24
     timeout-minutes: 60
     steps:
 
@@ -35,8 +35,11 @@ jobs:
       uses: actions/cache@v4
       with:
         path: node_modules/
-        key: node-${{ hashFiles('package-lock.json') }}
-        restore-keys: node-
+        key: node24-${{ hashFiles('package-lock.json') }}
+        restore-keys: node24-
+
+    - name: Install NPM dependencies
+      run: npm install
 
     - name: Lint for errors
       run: npm run lint:errors
@@ -49,7 +52,7 @@ jobs:
     needs: lint_errors
     runs-on: ubuntu-latest
     container:
-      image: node:20
+      image: node:24
     timeout-minutes: 60
     steps:
 
@@ -63,9 +66,12 @@ jobs:
       uses: actions/cache@v4
       with:
         path: node_modules/
-        key: node-${{ hashFiles('package-lock.json') }}
-        restore-keys: node-
+        key: node24-${{ hashFiles('package-lock.json') }}
+        restore-keys: node24-
 
-    - name: Lint for errors
+    - name: Install NPM dependencies
+      run: npm install
+
+    - name: Lint for warnings
       run: npm run lint:warnings
       continue-on-error: true

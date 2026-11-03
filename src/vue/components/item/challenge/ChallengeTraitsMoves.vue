@@ -22,7 +22,7 @@
 			</div>
 		</div>
 	</fieldset>
-	
+
 	<!-- Moves -->
 	<fieldset class="moves-fieldset add-another-entries">
 		<legend>{{ context.systemFields.moves.label }}</legend>
@@ -83,8 +83,6 @@
 </template>
 
 <script setup>
-import { inject } from "vue";
 import { RollPoolInput } from "@/components";
 const props = defineProps(["context"]);
-// const actor = inject("rawDocument");
 </script>

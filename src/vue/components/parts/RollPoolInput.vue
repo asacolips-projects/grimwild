@@ -15,9 +15,9 @@
 				class="roll-pool-input"
 				:data-action-change="inputAction"
 				:data-item-id="itemId"
-				:name="fieldNameProp"
+				:name="inputAction ? null : fieldNameProp"
 				:value="pool.diceNum"
-				:min="min"
+				:min="minProp"
 				:max="max"
 			/>
 			<span class="roll-pool-suffix">{{ suffix ?? 'd' }}</span>
@@ -26,32 +26,32 @@
 </template>
 
 <script setup>
-import { inject } from 'vue';
+import { computed } from "vue";
 const props = defineProps([
-	'name',
-	'buttonAction',
-	'buttonRollType',
-	'buttonLabel',
-	'inputAction',
-	'field',
-	'fieldKey',
-	'fieldName',
-	'noInput',
-	'itemId',
-	'pool',
-	'min',
-	'max',
-	'suffix'
+	"name",
+	"buttonAction",
+	"buttonRollType",
+	"buttonLabel",
+	"inputAction",
+	"field",
+	"fieldKey",
+	"fieldName",
+	"noInput",
+	"itemId",
+	"pool",
+	"min",
+	"max",
+	"suffix"
 ]);
 
-if (!props.buttonAction) props.buttonAction = 'rollPool';
-if (!props.min) props.min = 0;
-
-let fieldNameProp = null;
-if (props.fieldName) {
-	fieldNameProp = props.fieldName;
-} else if (props.field) {
-	fieldNameProp = `system.${props.field}.diceNum`;
-}
-
+// When an inputAction is provided, the targeted change handler owns the write
+// and no name attribute is rendered; otherwise the input joins the form
+// submission under its system path.
+const fieldNameProp = computed(() => {
+	if (props.fieldName) return props.fieldName;
+	if (props.field) return `system.${props.field}.diceNum`;
+	return null;
+});
+const buttonAction = computed(() => props.buttonAction ?? "rollPool");
+const minProp = computed(() => props.min ?? 0);
 </script>

@@ -6,12 +6,9 @@
 </template>
 
 <script setup>
-import { inject } from 'vue';
 import {
 	TalentTrackers,
-	ChallengeTraitsMoves,
-	ItemCrucible,
-} from '@/components';
-const props = defineProps(['context']);
-const actor = inject('rawDocument');
+	ChallengeTraitsMoves
+} from "@/components";
+const props = defineProps(["context"]);
 </script>
