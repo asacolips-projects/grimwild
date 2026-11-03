@@ -31,7 +31,7 @@ The build compiles everything into `dist/` — this is the directory Foundry loa
 Notes:
 
 - Development mode ships the Vue development runtime (includes warnings); production builds ship the minified runtime.
-- Compendium packs are only compiled when requested (full builds set `BUILD_PACKS=1` internally) because packing is slow relative to everything else. If you are editing pack content, run `npm run content:unpack` first to make sure `src/packs/` matches what is in dist, edit the YAML, then `npm run content:pack`.
+- Compendium packs are compiled by full builds and skipped by the dev watch loop, because packing is slow relative to everything else. Set `BUILD_PACKS=1` or `BUILD_PACKS=0` to force either behavior. If you are editing pack content, run `npm run content:unpack` first to make sure `src/packs/` matches what is in dist, edit the YAML, then `npm run content:pack`.
 - The system manifest enables Foundry's hot reload for `styles/`, `lang/`, and `templates/` — CSS, HTML/HBS, and JSON changes show up without a client reload. JavaScript and Vue component changes require reloading the Foundry client.
 
 ## Connecting to Foundry

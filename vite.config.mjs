@@ -8,7 +8,6 @@ const ROOT = import.meta.dirname;
 // https://vitejs.dev/config/
 export default defineConfig(({ mode }) => {
 	const prod = mode === "production";
-	const packs = process.env.BUILD_PACKS === "1";
 
 	return {
 		plugins: [
@@ -19,7 +18,7 @@ export default defineConfig(({ mode }) => {
 					}
 				}
 			}),
-			foundrySystemBuild({ prod, packs })
+			foundrySystemBuild({ prod })
 		],
 		resolve: {
 			alias: {

@@ -29,18 +29,18 @@ function debounce(fn, wait) {
  *
  * @param {object} [options]
  * @param {boolean} [options.prod=false]   Whether this is a production build.
- * @param {boolean} [options.packs=false]  Whether to also clean and compile compendium packs.
  * @returns {import("vite").Plugin}        The Vite plugin.
  */
 export function foundrySystemBuild(options = {}) {
-	const { prod = false, packs = false } = options;
+	const { prod = false } = options;
 	let watcher;
 	let initialBuildDone = false;
 	let isWatch = false;
+	let compilePacks = false;
 
 	/** Run the full build once, packs included when configured. */
 	async function runInitialBuild() {
-		if (packs) {
+		if (compilePacks) {
 			await runBuildTasks({ prod, packs: true });
 		}
 		else {
@@ -132,6 +132,11 @@ export function foundrySystemBuild(options = {}) {
 
 		configResolved(config) {
 			isWatch = Boolean(config.build.watch);
+			// Packing is slow relative to everything else, so full builds include
+			// it and the watch loop skips it. BUILD_PACKS=1/0 forces a behavior,
+			// which keeps npm scripts free of Unix-only env prefixes.
+			compilePacks = process.env.BUILD_PACKS === "1"
+				|| (process.env.BUILD_PACKS !== "0" && !isWatch);
 		},
 
 		async buildStart() {

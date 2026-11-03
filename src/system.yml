@@ -58,11 +58,11 @@ flags:
     - lang
     - templates
 
-url: Replace this with a link to your public repository
-license: LICENSE.txt
-readme: README.md
-bugs: Replace this with a link to file issues or tickets
-changelog: CHANGELOG.md
+url: https://github.com/asacolips-projects/grimwild
+license: https://github.com/asacolips-projects/grimwild/blob/main/LICENSE
+readme: https://github.com/asacolips-projects/grimwild/blob/main/README.md
+bugs: https://github.com/asacolips-projects/grimwild/issues
+changelog: https://github.com/asacolips-projects/grimwild/releases
 
 # World background
 background: systems/grimwild/assets/grimwild-system-splash.webp

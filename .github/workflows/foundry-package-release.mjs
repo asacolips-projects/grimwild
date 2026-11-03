@@ -46,4 +46,6 @@ if (response_data?.status == "success") {
 else {
 	const error_message = response_data?.errors ? JSON.stringify(response_data.errors) : "[unknown error]";
 	console.error(`Error: ${error_message}`);
+	// Fail the workflow step so a failed submission doesn't ship as green.
+	process.exit(1);
 }

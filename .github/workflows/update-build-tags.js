@@ -35,7 +35,10 @@ let bucket = argv.bucket ? argv.bucket : "";
 if (argv.ref_type == "tag") {
 	artifactVersion = argv.tag;
 	system.version = argv.tag;
-	// Determine if this is a pre-release version tag.
+	// Determine if this is a pre-release version tag. Tags use semver-ish
+	// versions with suffixed pre-releases (e.g. 0.6.0.beta-01) for Foundry's
+	// isNewerVersion() compatibility, so a substring match against the channel
+	// marker is intentional here.
 	versionParsed = system.version.match(/beta|alpha/);
 	if (versionParsed && versionParsed[0]) {
 		artifactBranch = versionParsed[0];

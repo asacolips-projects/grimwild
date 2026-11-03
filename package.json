@@ -1,8 +1,8 @@
 {
   "scripts": {
     "dev": "vite build --watch --mode development",
-    "build": "BUILD_PACKS=1 vite build --mode production",
-    "build:dev": "BUILD_PACKS=1 vite build --mode development",
+    "build": "vite build --mode production",
+    "build:dev": "vite build --mode development",
     "clean": "node scripts/build/index.mjs --task=clean",
     "content:pack": "node scripts/build/index.mjs --task=compilePacks",
     "content:unpack": "node scripts/build/index.mjs --task=extractPacks",

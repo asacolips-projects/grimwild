@@ -1,4 +1,4 @@
-import { createApp, reactive } from "../../../lib/vue.esm-browser.js";
+import { createApp, markRaw, reactive } from "../../../lib/vue.esm-browser.js";
 
 /* -------------------------------------------- */
 /*  Context synchronization helpers             */
@@ -41,7 +41,12 @@ function syncVueContext(store, context) {
 		if (!(key in context)) delete store[key];
 	}
 	for (const [key, value] of Object.entries(context)) {
-		if (passesByReference(value) || (value === null) || (typeof value !== "object")) {
+		if (passesByReference(value)) {
+			// Documents, DataFields, and DOM nodes keep their identity across
+			// renders; markRaw keeps Vue from deep-proxying them.
+			store[key] = markRaw(value);
+		}
+		else if ((value === null) || (typeof value !== "object")) {
 			store[key] = value;
 		}
 		else if (value instanceof Map) {
@@ -184,28 +189,42 @@ export default function VueRenderingMixin(BaseApplication) {
 		_replaceHTML(result, content, options) {
 			if (this.vueApp) return;
 
-			// Render our mount points and create the reactive store.
-			content.innerHTML = this.vueTemplates.join("");
-			this.vueContext = reactive({});
-			syncVueContext(this.vueContext, this.#pendingContext);
-			this.#pendingContext = null;
+			try {
+				// Render our mount points and create the reactive store.
+				content.innerHTML = this.vueTemplates.join("");
+				const context = reactive({});
+				syncVueContext(context, this.#pendingContext);
+				this.#pendingContext = null;
 
-			// Create and store the Vue application instance.
-			this.vueApp = createApp({
-				setup: () => ({ context: this.vueContext }),
-				components: this.vueComponents
-			});
+				// Create the Vue application instance.
+				const app = createApp({
+					setup: () => ({ context }),
+					components: this.vueComponents
+				});
 
-			// Expose global Foundry variables.
-			this.vueApp.config.globalProperties.game = game;
-			this.vueApp.config.globalProperties.CONFIG = CONFIG;
-			this.vueApp.config.globalProperties.foundry = foundry;
+				// Expose global Foundry variables.
+				app.config.globalProperties.game = game;
+				app.config.globalProperties.CONFIG = CONFIG;
+				app.config.globalProperties.foundry = foundry;
 
-			// Expose the document.
-			this.vueApp.provide("rawDocument", this.document);
+				// Expose the document.
+				app.provide("rawDocument", this.document);
 
-			// Mount and store the vue application.
-			this.vueRoot = this.vueApp.mount(content);
+				// Mount the vue application. The instance is only kept once
+				// mounting has succeeded, so a failed first render resets instead
+				// of wedging every later render into an empty frame.
+				this.vueRoot = app.mount(content);
+				this.vueApp = app;
+				this.vueContext = context;
+			}
+			catch (error) {
+				// Reset any partial state so the next render can retry the mount.
+				this.vueApp = null;
+				this.vueRoot = null;
+				this.vueContext = null;
+				this.#pendingContext = null;
+				throw error;
+			}
 		}
 
 		/**
