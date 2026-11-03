@@ -10,8 +10,8 @@ import { compileYaml } from "./yaml.mjs";
 import { log, resolveFromRoot, runParallel } from "./utils.mjs";
 
 const TASKS = {
-	css: () => compileScss(),
-	scss: () => compileScss(),
+	css: (options) => compileScss(options),
+	scss: (options) => compileScss(options),
 	yaml: () => compileYaml(),
 	files: () => copyFiles(),
 	copy: () => copyFiles(),
@@ -77,7 +77,7 @@ export async function runTask(taskName, options = {}) {
 export async function runDevTasks({ prod = false } = {}) {
 	await copyVueRuntime({ prod });
 	await runParallel([
-		() => compileScss(),
+		() => compileScss({ prod }),
 		() => compileYaml(),
 		() => copyFiles({ prod })
 	]);
@@ -95,7 +95,7 @@ export async function runBuildTasks({ prod = false, packs = false } = {}) {
 
 	const tasks = [
 		() => copyVueRuntime({ prod }),
-		() => compileScss(),
+		() => compileScss({ prod }),
 		() => compileYaml(),
 		() => copyFiles({ prod })
 	];

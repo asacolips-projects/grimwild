@@ -25,10 +25,13 @@ function passesByReference(value) {
  * Synchronize a reactive store with a freshly prepared render context.
  *
  * Keys absent from the new context are removed, and every key of the new
- * context is (re)assigned. Plain objects and arrays are shallow-cloned on
- * assignment so that live references which are identical across renders (for
- * example `context.system`) still produce a new identity and propagate
- * document updates to the mounted components.
+ * context is (re)assigned. Plain objects, arrays, and Map/Set collections are
+ * shallow-cloned on assignment so that live references which are identical
+ * across renders (for example `context.system`, or a Foundry Collection such
+ * as `context.items`) still produce a new identity and propagate document
+ * updates to the mounted components. Spreading a Map or Set into a plain
+ * object would silently discard its contents, so collections are copied into
+ * a new Map or Set instead.
  *
  * @param {object} store     The reactive store backing the Vue application.
  * @param {object} context   The newly prepared render context.
@@ -40,6 +43,12 @@ function syncVueContext(store, context) {
 	for (const [key, value] of Object.entries(context)) {
 		if (passesByReference(value) || (value === null) || (typeof value !== "object")) {
 			store[key] = value;
+		}
+		else if (value instanceof Map) {
+			store[key] = new Map(value);
+		}
+		else if (value instanceof Set) {
+			store[key] = new Set(value);
 		}
 		else if (Array.isArray(value)) {
 			store[key] = [...value];

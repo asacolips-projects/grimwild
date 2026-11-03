@@ -1,5 +1,6 @@
 import fs from "node:fs";
 import path from "node:path";
+import { fileURLToPath } from "node:url";
 import * as sass from "sass";
 import autoprefixer from "autoprefixer";
 import postcss from "postcss";
@@ -18,11 +19,14 @@ function isEntryPoint(filePath) {
 }
 
 /**
- * Compile SCSS entry points to minified, autoprefixed CSS (with source maps)
- * in dist/styles, mirroring the src/styles tree.
+ * Compile SCSS entry points to autoprefixed CSS in dist/styles, mirroring the
+ * src/styles tree. Development builds emit expanded, source-mapped CSS; the
+ * compressed style is reserved for production, whose builds ship no maps.
+ * @param {object} [options]
+ * @param {boolean} [options.prod=false]  Whether this is a production build.
  * @returns {Promise<void>}
  */
-export async function compileScss() {
+export async function compileScss({ prod = false } = {}) {
 	const files = (await globFiles(SYSTEM_SCSS)).filter(isEntryPoint);
 	const outDir = resolveFromRoot("dist/styles");
 
@@ -42,8 +46,14 @@ export async function compileScss() {
 		let result;
 		try {
 			result = sass.compile(file, {
-				style: "compressed",
-				sourceMap: true,
+				// Compressed output is a single line, and postcss composes source
+				// maps against it with off-by-one source lines once autoprefixer's
+				// insertions shift the line's columns. Expanded output keeps one
+				// generated line per declaration, which composes exactly - and is
+				// the nicer devtools view anyway. Compression only matters for
+				// production, which ships no maps.
+				style: prod ? "compressed" : "expanded",
+				sourceMap: !prod,
 				sourceMapIncludeSources: true,
 				loadPaths: LOAD_PATHS,
 				silenceDeprecations: ["legacy-js-api", "import"]
@@ -55,16 +65,34 @@ export async function compileScss() {
 			continue;
 		}
 
-		const prefixed = await postcss([autoprefixer({ cascade: false })])
-			.process(result.css, { from: file, to: outFile });
+		// Chain the sass source map through postcss as `prev`, so mappings are
+		// composed through autoprefixing instead of being invalidated by it, and
+		// so postcss appends the sourceMappingURL annotation that makes DevTools
+		// load the map. Production builds compile without a map, leaving nothing
+		// to chain.
+		const prefixed = await postcss([autoprefixer({ cascade: false })]).process(
+			result.css,
+			{
+				from: file,
+				to: outFile,
+				map: result.sourceMap
+					? { inline: false, annotation: true, prev: result.sourceMap }
+					: undefined
+			}
+		);
 
 		fs.writeFileSync(outFile, prefixed.css);
 
-		if (result.sourceMap) {
-			const map = {
-				...result.sourceMap,
-				file: path.basename(outFile)
-			};
+		if (prefixed.map) {
+			const map = prefixed.map.toJSON();
+			// PostCSS emits sources for imported partials as absolute file URLs;
+			// normalize everything to paths relative to the map itself so the map
+			// stays resolvable and portable. Mappings reference sources by index,
+			// so rewriting the strings in place is safe.
+			const mapDir = path.dirname(outFile);
+			map.sources = map.sources.map((source) => (source.startsWith("file://")
+				? path.relative(mapDir, fileURLToPath(source)).replaceAll("\\", "/")
+				: source));
 			fs.writeFileSync(`${outFile}.map`, JSON.stringify(map));
 		}
 

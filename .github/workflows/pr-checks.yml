@@ -38,6 +38,9 @@ jobs:
         key: node24-${{ hashFiles('package-lock.json') }}
         restore-keys: node24-
 
+    - name: Install NPM dependencies
+      run: npm install
+
     - name: Lint for errors
       run: npm run lint:errors
 
@@ -66,6 +69,9 @@ jobs:
         key: node24-${{ hashFiles('package-lock.json') }}
         restore-keys: node24-
 
-    - name: Lint for errors
+    - name: Install NPM dependencies
+      run: npm install
+
+    - name: Lint for warnings
       run: npm run lint:warnings
       continue-on-error: true

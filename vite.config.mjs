@@ -28,12 +28,17 @@ export default defineConfig(({ mode }) => {
 			}
 		},
 		build: {
-			sourcemap: true,
+			// Source maps are a development aid only; production builds ship
+			// without them.
+			sourcemap: !prod,
 			minify: prod,
 			outDir: "./dist/vue",
 			lib: {
 				entry: path.resolve(ROOT, "src/vue/index.mjs"),
-				name: "vueComponents",
+				// ES modules only: the sheets import the .mjs output directly, so
+				// emitting the UMD variant would just be dead weight in the release
+				// zip.
+				formats: ["es"],
 				fileName: "components.vue.es"
 			},
 			rollupOptions: {

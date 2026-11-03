@@ -55,7 +55,7 @@ export function foundrySystemBuild(options = {}) {
 
 		const runScss = debounce(async () => {
 			try {
-				await compileScss();
+				await compileScss({ prod });
 			}
 			catch (error) {
 				log("watch:scss", error.message);
