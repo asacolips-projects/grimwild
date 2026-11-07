@@ -173,10 +173,10 @@ export class GrimwildRollDialog extends foundry.applications.api.DialogV2 {
 		// If CE rules are enabled, bloodied only affects physical stats and
 		// rattled only affects mental stats, so hide their inputs when needed.
 		if (rollData.ceRulesEnabled) {
-			if (['wit', 'pre'].includes(rollData.stat)) {
+			if (["wit", "pre"].includes(rollData.stat)) {
 				rollData.showBloodied = false;
 			}
-			if (['bra', 'agi'].includes(rollData.stat)) {
+			if (["bra", "agi"].includes(rollData.stat)) {
 				rollData.showRattled = false;
 			}
 		}
