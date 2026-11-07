@@ -1,0 +1,157 @@
+name: Banshee - Dreadful Business
+description: ''
+formula: 1d6
+results:
+  - name: ''
+    description: <b>Murdered</b> by someone they used to love.
+    range:
+      - 1
+      - 1
+    _id: IWQHrmZv0EEBIvjR
+    type: text
+    img: null
+    weight: 1
+    drawn: false
+    flags: {}
+    _stats:
+      coreVersion: '14.364'
+      systemId: grimwild
+      systemVersion: 0.5.3
+      createdTime: 1783270821421
+      modifiedTime: 1783270821421
+      lastModifiedBy: 79CEe5dKC6Ls5VbU
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+    _key: '!tables.results!cLTazKeyVsmdb08O.IWQHrmZv0EEBIvjR'
+  - name: ''
+    description: <b>Kidnapped</b> as a child, never able to return.
+    range:
+      - 2
+      - 2
+    _id: WJMmSuuKpOzfr7yl
+    type: text
+    img: null
+    weight: 1
+    drawn: false
+    flags: {}
+    _stats:
+      coreVersion: '14.364'
+      systemId: grimwild
+      systemVersion: 0.5.3
+      createdTime: 1783270821421
+      modifiedTime: 1783270821421
+      lastModifiedBy: 79CEe5dKC6Ls5VbU
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+    _key: '!tables.results!cLTazKeyVsmdb08O.WJMmSuuKpOzfr7yl'
+  - name: ''
+    description: <b>Betrayed</b> by their truest friend.
+    range:
+      - 3
+      - 3
+    _id: hCZ1aEw2ruUG5OtV
+    type: text
+    img: null
+    weight: 1
+    drawn: false
+    flags: {}
+    _stats:
+      coreVersion: '14.364'
+      systemId: grimwild
+      systemVersion: 0.5.3
+      createdTime: 1783270821421
+      modifiedTime: 1783270821421
+      lastModifiedBy: 79CEe5dKC6Ls5VbU
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+    _key: '!tables.results!cLTazKeyVsmdb08O.hCZ1aEw2ruUG5OtV'
+  - name: ''
+    description: <b>Falsely accused</b>, and condemned to death.
+    range:
+      - 4
+      - 4
+    _id: 1OYpB7WrOpilHPxl
+    type: text
+    img: null
+    weight: 1
+    drawn: false
+    flags: {}
+    _stats:
+      coreVersion: '14.364'
+      systemId: grimwild
+      systemVersion: 0.5.3
+      createdTime: 1783270821421
+      modifiedTime: 1783270821421
+      lastModifiedBy: 79CEe5dKC6Ls5VbU
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+    _key: '!tables.results!cLTazKeyVsmdb08O.1OYpB7WrOpilHPxl'
+  - name: ''
+    description: <b>Defiled</b> as part of an eldritch ritual.
+    range:
+      - 5
+      - 5
+    _id: 09ldTw1yo0m66vzQ
+    type: text
+    img: null
+    weight: 1
+    drawn: false
+    flags: {}
+    _stats:
+      coreVersion: '14.364'
+      systemId: grimwild
+      systemVersion: 0.5.3
+      createdTime: 1783270821421
+      modifiedTime: 1783270821421
+      lastModifiedBy: 79CEe5dKC6Ls5VbU
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+    _key: '!tables.results!cLTazKeyVsmdb08O.09ldTw1yo0m66vzQ'
+  - name: ''
+    description: <b>Lost everything</b>, because of a jealous rival.
+    range:
+      - 6
+      - 6
+    _id: lQQFwbTWV8VUTSGC
+    type: text
+    img: null
+    weight: 1
+    drawn: false
+    flags: {}
+    _stats:
+      coreVersion: '14.364'
+      systemId: grimwild
+      systemVersion: 0.5.3
+      createdTime: 1783270821421
+      modifiedTime: 1783270821421
+      lastModifiedBy: 79CEe5dKC6Ls5VbU
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+    _key: '!tables.results!cLTazKeyVsmdb08O.lQQFwbTWV8VUTSGC'
+folder: rgX8m8cC6QFqYNJB
+sort: 6500000
+_id: cLTazKeyVsmdb08O
+img: icons/svg/d20-grey.svg
+replacement: true
+displayRoll: true
+ownership:
+  default: 0
+  79CEe5dKC6Ls5VbU: 3
+flags: {}
+_stats:
+  coreVersion: '14.368'
+  systemId: grimwild
+  systemVersion: 0.5.3
+  createdTime: 1783270821421
+  modifiedTime: 1791749998257
+  lastModifiedBy: nF9qxzj59Qn6fNSn
+  compendiumSource: null
+  duplicateSource: null
+  exportSource: null
+_key: '!tables!cLTazKeyVsmdb08O'

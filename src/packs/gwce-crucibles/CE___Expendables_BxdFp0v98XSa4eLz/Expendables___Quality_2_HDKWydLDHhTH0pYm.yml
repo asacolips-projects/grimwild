@@ -1,0 +1,157 @@
+name: Expendables - Quality 2
+description: ''
+formula: 1d6
+results:
+  - name: ''
+    description: flask
+    range:
+      - 1
+      - 1
+    _id: z8mUdEY6kQL4gX9J
+    type: text
+    img: icons/svg/d20-black.svg
+    weight: 1
+    drawn: false
+    flags: {}
+    _stats:
+      coreVersion: '14.368'
+      systemId: grimwild
+      systemVersion: 0.5.3
+      createdTime: 1791746884386
+      modifiedTime: 1791746884386
+      lastModifiedBy: nF9qxzj59Qn6fNSn
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+    _key: '!tables.results!HDKWydLDHhTH0pYm.z8mUdEY6kQL4gX9J'
+  - name: ''
+    description: bottle
+    range:
+      - 2
+      - 2
+    _id: ZtpRQMmJl9ikMZJ6
+    type: text
+    img: icons/svg/d20-black.svg
+    weight: 1
+    drawn: false
+    flags: {}
+    _stats:
+      coreVersion: '14.368'
+      systemId: grimwild
+      systemVersion: 0.5.3
+      createdTime: 1791746884386
+      modifiedTime: 1791746884386
+      lastModifiedBy: nF9qxzj59Qn6fNSn
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+    _key: '!tables.results!HDKWydLDHhTH0pYm.ZtpRQMmJl9ikMZJ6'
+  - name: ''
+    description: vial
+    range:
+      - 3
+      - 3
+    _id: xSNSoNVbPQXvZI2A
+    type: text
+    img: icons/svg/d20-black.svg
+    weight: 1
+    drawn: false
+    flags: {}
+    _stats:
+      coreVersion: '14.368'
+      systemId: grimwild
+      systemVersion: 0.5.3
+      createdTime: 1791746884386
+      modifiedTime: 1791746884386
+      lastModifiedBy: nF9qxzj59Qn6fNSn
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+    _key: '!tables.results!HDKWydLDHhTH0pYm.xSNSoNVbPQXvZI2A'
+  - name: ''
+    description: jug
+    range:
+      - 4
+      - 4
+    _id: A2WUoWfoAl23MP3E
+    type: text
+    img: icons/svg/d20-black.svg
+    weight: 1
+    drawn: false
+    flags: {}
+    _stats:
+      coreVersion: '14.368'
+      systemId: grimwild
+      systemVersion: 0.5.3
+      createdTime: 1791746884386
+      modifiedTime: 1791746884386
+      lastModifiedBy: nF9qxzj59Qn6fNSn
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+    _key: '!tables.results!HDKWydLDHhTH0pYm.A2WUoWfoAl23MP3E'
+  - name: ''
+    description: draft
+    range:
+      - 5
+      - 5
+    _id: uHJkad1RMtXuQSbR
+    type: text
+    img: icons/svg/d20-black.svg
+    weight: 1
+    drawn: false
+    flags: {}
+    _stats:
+      coreVersion: '14.368'
+      systemId: grimwild
+      systemVersion: 0.5.3
+      createdTime: 1791746884386
+      modifiedTime: 1791746884386
+      lastModifiedBy: nF9qxzj59Qn6fNSn
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+    _key: '!tables.results!HDKWydLDHhTH0pYm.uHJkad1RMtXuQSbR'
+  - name: ''
+    description: glass
+    range:
+      - 6
+      - 6
+    _id: qesPorKiRYf5utXv
+    type: text
+    img: icons/svg/d20-black.svg
+    weight: 1
+    drawn: false
+    flags: {}
+    _stats:
+      coreVersion: '14.368'
+      systemId: grimwild
+      systemVersion: 0.5.3
+      createdTime: 1791746884386
+      modifiedTime: 1791746884386
+      lastModifiedBy: nF9qxzj59Qn6fNSn
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+    _key: '!tables.results!HDKWydLDHhTH0pYm.qesPorKiRYf5utXv'
+folder: BxdFp0v98XSa4eLz
+_id: HDKWydLDHhTH0pYm
+img: icons/svg/d20-grey.svg
+replacement: true
+displayRoll: true
+ownership:
+  default: 0
+  nF9qxzj59Qn6fNSn: 3
+flags: {}
+_stats:
+  coreVersion: '14.368'
+  systemId: grimwild
+  systemVersion: 0.5.3
+  createdTime: 1791746884386
+  modifiedTime: 1791746887262
+  lastModifiedBy: nF9qxzj59Qn6fNSn
+  compendiumSource: null
+  duplicateSource: null
+  exportSource: null
+sort: 200000
+_key: '!tables!HDKWydLDHhTH0pYm'

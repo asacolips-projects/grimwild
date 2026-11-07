@@ -1,0 +1,140 @@
+name: Dire Badger
+type: monster
+img: icons/svg/poison.svg
+system:
+  biography: >-
+    <p>This thick-furred creature tunnels through earth and stone, driven by
+    territorial rage and a relentless appetite. It will not stop until its
+    threatener is dead.</p>
+  notes: >-
+    <p>@Embed[Compendium.grimwild.gwce-crucibles.RollTable.kAmc2gLdWUE5arF2]{Dire
+    Badger - Den}</p>
+  role: marauder
+  tier: tough
+  traits:
+    - Burrowing
+    - Relentless
+    - Blind rage (when injured)
+  moves:
+    - Warning Growls
+    - Maul
+    - Drag Down
+  desires:
+    - value: to defend its den and hunting grounds
+      are: false
+    - value: loud noises or visitors, especially both
+      are: false
+  sensories:
+    colors:
+      - name: Cream Stripes
+        color: '#c29f97'
+      - name: Black Underbelly
+        color: '#040101'
+      - name: Furry Brown
+        color: '#47301b'
+    sights: torn earth, broken roots, clawed tunnel walls
+    sounds: snuffling, growls echoing underground, rippling stone
+    smells: damp fur, loamy soil, bloodied roots
+  pool:
+    diceNum: 0
+    powerPool: false
+  tables: []
+prototypeToken:
+  name: Dire Badger
+  displayName: 40
+  actorLink: false
+  width: 1
+  height: 1
+  depth: 1
+  texture:
+    src: icons/svg/poison.svg
+    anchorX: 0.5
+    anchorY: 0.5
+    fit: contain
+    scaleX: 1
+    scaleY: 1
+    tint: '#ffffff'
+    alphaThreshold: 0.75
+  lockRotation: false
+  rotation: 0
+  alpha: 1
+  disposition: -1
+  displayBars: 0
+  bar1:
+    attribute: health
+  bar2:
+    attribute: power
+  light:
+    negative: false
+    priority: 0
+    alpha: 0.5
+    angle: 360
+    bright: 0
+    color: null
+    coloration: 1
+    dim: 0
+    attenuation: 0.5
+    luminosity: 0.5
+    saturation: 0
+    contrast: 0
+    shadows: 0
+    animation:
+      type: null
+      speed: 5
+      intensity: 5
+      reverse: false
+    darkness:
+      min: 0
+      max: 1
+  sight:
+    enabled: false
+    range: 0
+    angle: 360
+    visionMode: basic
+    color: null
+    attenuation: 0.1
+    brightness: 0
+    saturation: 0
+    contrast: 0
+  detectionModes: {}
+  occludable:
+    radius: 0
+  ring:
+    enabled: false
+    colors:
+      ring: null
+      background: null
+    effects: 1
+    subject:
+      scale: 1
+      texture: null
+  turnMarker:
+    mode: 1
+    animation: null
+    src: null
+    disposition: false
+  movementAction: null
+  flags: {}
+  randomImg: false
+  appendNumber: false
+  prependAdjective: false
+items: []
+effects: []
+folder: F8CI5dUSyXiqHSMA
+ownership:
+  default: 0
+  79CEe5dKC6Ls5VbU: 3
+flags: {}
+_stats:
+  coreVersion: '14.364'
+  systemId: grimwild
+  systemVersion: 0.5.3
+  createdTime: 1783200677089
+  modifiedTime: 1783350192935
+  lastModifiedBy: 79CEe5dKC6Ls5VbU
+  exportSource: null
+  compendiumSource: null
+  duplicateSource: null
+_id: mxCRT22RpVLCvFUF
+sort: 600000
+_key: '!actors!mxCRT22RpVLCvFUF'

@@ -1,0 +1,140 @@
+name: Archon
+type: monster
+img: icons/svg/poison.svg
+system:
+  biography: >-
+    <p>As a being of holy purpose and discipline, it upholds celestial law to
+    its fullest. Whether in an elemental, humanoid, or bestial form, it serves
+    justice to the wicked.</p>
+  notes: >-
+    <p>@Embed[Compendium.grimwild.gwce-crucibles.RollTable.JfRhilFX37fHqiat]{Archon
+    - Judgment (Roll if judged unfit)}</p>
+  role: marauder
+  tier: tough
+  traits:
+    - Unwavering law
+    - True sight
+    - Impenetrable armor
+  moves:
+    - Divine Smite
+    - Binding Chains
+    - Summon Archons
+  desires:
+    - value: to enforce divine order and balance
+      are: false
+    - value: to show mercy where none is deserved
+      are: false
+  sensories:
+    colors:
+      - name: Burnished Bronze
+        color: '#c4824a'
+      - name: Cerulean Steel
+        color: '#cbcdd9'
+      - name: White Flame
+        color: '#fcd7b4'
+    sights: gleaming armor, floating rings of light, radiant wings
+    sounds: chiming resonance, low hum of power, booming voice
+    smells: pure oxygen, sacred oils, ash and dust
+  pool:
+    diceNum: 0
+    powerPool: false
+  tables: []
+prototypeToken:
+  name: Archon
+  displayName: 40
+  actorLink: false
+  width: 1
+  height: 1
+  depth: 1
+  texture:
+    src: icons/svg/poison.svg
+    anchorX: 0.5
+    anchorY: 0.5
+    fit: contain
+    scaleX: 1
+    scaleY: 1
+    tint: '#ffffff'
+    alphaThreshold: 0.75
+  lockRotation: false
+  rotation: 0
+  alpha: 1
+  disposition: -1
+  displayBars: 0
+  bar1:
+    attribute: null
+  bar2:
+    attribute: null
+  light:
+    negative: false
+    priority: 0
+    alpha: 0.5
+    angle: 360
+    bright: 0
+    color: null
+    coloration: 1
+    dim: 0
+    attenuation: 0.5
+    luminosity: 0.5
+    saturation: 0
+    contrast: 0
+    shadows: 0
+    animation:
+      type: null
+      speed: 5
+      intensity: 5
+      reverse: false
+    darkness:
+      min: 0
+      max: 1
+  sight:
+    enabled: false
+    range: 0
+    angle: 360
+    visionMode: basic
+    color: null
+    attenuation: 0.1
+    brightness: 0
+    saturation: 0
+    contrast: 0
+  detectionModes: {}
+  occludable:
+    radius: 0
+  ring:
+    enabled: false
+    colors:
+      ring: null
+      background: null
+    effects: 0
+    subject:
+      scale: 1
+      texture: null
+  turnMarker:
+    mode: 1
+    animation: null
+    src: null
+    disposition: false
+  movementAction: null
+  flags: {}
+  randomImg: false
+  appendNumber: false
+  prependAdjective: false
+items: []
+effects: []
+folder: 5Mw8fUEUyxTQZkHw
+ownership:
+  default: 0
+  79CEe5dKC6Ls5VbU: 3
+flags: {}
+_stats:
+  coreVersion: '14.364'
+  systemId: grimwild
+  systemVersion: 0.5.3
+  createdTime: 1783200299560
+  modifiedTime: 1783271030293
+  lastModifiedBy: 79CEe5dKC6Ls5VbU
+  exportSource: null
+  compendiumSource: null
+  duplicateSource: null
+_id: Vt7HG4lx20pcT4L2
+sort: 300000
+_key: '!actors!Vt7HG4lx20pcT4L2'

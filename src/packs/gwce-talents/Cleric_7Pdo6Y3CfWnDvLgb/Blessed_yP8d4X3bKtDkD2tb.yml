@@ -1,0 +1,41 @@
+folder: 7Pdo6Y3CfWnDvLgb
+name: Blessed
+type: talent
+_id: yP8d4X3bKtDkD2tb
+img: /icons/magic/holy/saint-glass-portrait-halo.webp
+system:
+  description: >-
+    <p>Once per session, you can re-roll a roll you just made as your god
+    attempts to intervene. The re-roll is made without any thorns on it. On a
+    perfect, <em><strong>take spark</strong></em>.</p>
+  core: false
+  notes:
+    description: ''
+    label: ''
+  trackers:
+    - type: points
+      label: Re-Roll
+      points:
+        value: 1
+        max: 1
+        showSteps: true
+      pool:
+        diceNum: 0
+        powerPool: false
+effects: []
+sort: 0
+ownership:
+  default: 0
+  79CEe5dKC6Ls5VbU: 3
+flags: {}
+_stats:
+  coreVersion: '14.364'
+  systemId: grimwild
+  systemVersion: 0.5.3
+  createdTime: 1782662614864
+  modifiedTime: 1783008681660
+  lastModifiedBy: 79CEe5dKC6Ls5VbU
+  compendiumSource: null
+  duplicateSource: null
+  exportSource: null
+_key: '!items!yP8d4X3bKtDkD2tb'

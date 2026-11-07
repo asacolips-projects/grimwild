@@ -1,0 +1,34 @@
+folder: TtWJSOkkmQ7qhO1P
+name: Measured Tones
+type: talent
+_id: T9Nt4i51NWRAgi2h
+img: icons/skills/social/diplomacy-handshake.webp
+system:
+  description: >-
+    <p>When you speak in measured tones, people always stop and listen—you can
+    declare <em><strong>low stakes</strong></em> if desired. Unless completely
+    surprised, you can <em><strong>push yourself</strong></em> to
+    <em><strong>interrupt</strong></em> an impact move initiating aggression. If
+    you change their mind, <em><strong>take spark</strong></em>.</p>
+  core: false
+  notes:
+    description: ''
+    label: ''
+  trackers: []
+effects: []
+sort: 0
+ownership:
+  default: 0
+  79CEe5dKC6Ls5VbU: 3
+flags: {}
+_stats:
+  coreVersion: '14.368'
+  systemId: grimwild
+  systemVersion: 0.5.3
+  createdTime: 1782662617708
+  modifiedTime: 1791743346450
+  lastModifiedBy: nF9qxzj59Qn6fNSn
+  compendiumSource: null
+  duplicateSource: null
+  exportSource: null
+_key: '!items!T9Nt4i51NWRAgi2h'

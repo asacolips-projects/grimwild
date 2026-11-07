@@ -1,0 +1,42 @@
+folder: DRRquhcPQ3Tydpoy
+name: Binding Word
+type: talent
+_id: zUu3Y4Sp5I6riC1X
+img: icons/skills/social/diplomacy-writing-letter.webp
+system:
+  description: >-
+    <p>Add <em>contracts</em> as a wise. If you’re present for an agreement, you
+    can make it binding. Both parties know if it’s broken, with the defaulting
+    party afflicted by a potent spell, using the contract details as
+    touchstones. One time only, you can make this a ritual-level effect.</p>
+  core: false
+  notes:
+    description: ''
+    label: ''
+  trackers:
+    - type: points
+      label: Ritual-level (one time only)
+      points:
+        value: 1
+        max: 1
+        showSteps: true
+      pool:
+        diceNum: 0
+        powerPool: false
+effects: []
+sort: 0
+ownership:
+  default: 0
+  79CEe5dKC6Ls5VbU: 3
+flags: {}
+_stats:
+  coreVersion: '14.368'
+  systemId: grimwild
+  systemVersion: 0.5.3
+  createdTime: 1783005319061
+  modifiedTime: 1791745498962
+  lastModifiedBy: nF9qxzj59Qn6fNSn
+  compendiumSource: null
+  duplicateSource: null
+  exportSource: null
+_key: '!items!zUu3Y4Sp5I6riC1X'

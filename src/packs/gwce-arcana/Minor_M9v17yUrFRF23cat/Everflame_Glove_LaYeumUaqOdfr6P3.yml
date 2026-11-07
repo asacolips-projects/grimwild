@@ -1,0 +1,37 @@
+folder: M9v17yUrFRF23cat
+name: Everflame Glove
+type: arcana
+_id: LaYeumUaqOdfr6P3
+img: icons/svg/item-bag.svg
+system:
+  description: >-
+    <p>The wearer can produce and hold an orb of flame in their palm. It
+    illuminates and burns others as normal.</p><p><em><strong>Activated
+    by</strong> snapping your fingers, palm up.</em></p>
+  tier: minor
+  notes:
+    description: >-
+      <p><em>dark leather, fiery core, yellow wisps</em></p><p><em>charred
+      leather, slow bobbing, streaks of fire</em></p><p><em>orb dances on
+      fingers, floats overhead</em></p>
+    label: ''
+  trackers: []
+  touchstones: fire—orb—summon
+  limitations: ''
+effects: []
+sort: 0
+ownership:
+  default: 0
+  nF9qxzj59Qn6fNSn: 3
+flags: {}
+_stats:
+  coreVersion: '14.368'
+  systemId: grimwild
+  systemVersion: 0.5.3
+  createdTime: 1791742449685
+  modifiedTime: 1791742703343
+  lastModifiedBy: nF9qxzj59Qn6fNSn
+  compendiumSource: null
+  duplicateSource: null
+  exportSource: null
+_key: '!items!LaYeumUaqOdfr6P3'

@@ -1,0 +1,20 @@
+type: Item
+folder: null
+name: Warlock
+color: '#6c1337'
+sorting: a
+_id: 6OEIki9pct8qQ0C9
+description: ''
+sort: 1600000
+flags: {}
+_stats:
+  coreVersion: '14.364'
+  systemId: grimwild
+  systemVersion: 0.5.3
+  createdTime: 1782662628484
+  modifiedTime: 1783006776044
+  lastModifiedBy: 79CEe5dKC6Ls5VbU
+  compendiumSource: null
+  duplicateSource: null
+  exportSource: null
+_key: '!folders!6OEIki9pct8qQ0C9'

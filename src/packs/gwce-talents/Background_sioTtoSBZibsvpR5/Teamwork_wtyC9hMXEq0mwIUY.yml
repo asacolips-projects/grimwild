@@ -1,0 +1,33 @@
+folder: sioTtoSBZibsvpR5
+name: Teamwork
+type: talent
+_id: wtyC9hMXEq0mwIUY
+img: icons/svg/item-bag.svg
+system:
+  description: >-
+    <p>Time in a squad or crew taught you to work well with others. When you
+    assist a roll and <em>share the risk</em>, your 5s count as 6s. When taking
+    part in a group montage roll, your 6 result counts towards a critical
+    success.</p>
+  core: false
+  notes:
+    description: ''
+    label: ''
+  trackers: []
+effects: []
+sort: 0
+ownership:
+  default: 0
+  79CEe5dKC6Ls5VbU: 3
+flags: {}
+_stats:
+  coreVersion: '14.364'
+  systemId: grimwild
+  systemVersion: 0.5.3
+  createdTime: 1782662611334
+  modifiedTime: 1782662611334
+  lastModifiedBy: 79CEe5dKC6Ls5VbU
+  compendiumSource: null
+  duplicateSource: null
+  exportSource: null
+_key: '!items!wtyC9hMXEq0mwIUY'

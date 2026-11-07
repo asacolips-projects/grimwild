@@ -1,0 +1,70 @@
+folder: 7Pdo6Y3CfWnDvLgb
+name: Channel Divinity
+type: talent
+_id: a5FCPZXbBkrFhAkr
+img: /icons/magic/holy/prayer-hands-glowing-yellow-green.webp
+system:
+  description: >-
+    <p>You have spellcasting ability, calling upon your deity to channel their
+    magic. You roll a <strong>rite pool</strong> to cast spells, and that pool
+    and your <strong>god’s title</strong> serve as touchstones. Your
+    <strong>major rite</strong> is a <strong>6d power pool</strong>, and your 2
+    <strong>minor rites</strong> are <strong>4d power pools</strong>. They
+    replenish each session. You can drop 1d and roll to cast a potent spell.
+    Spells without risk require no roll, unless
+    potent.</p><hr><p><strong>GROWTH:</strong> At levels 3 and 6, gain +1d to
+    each rite pool.</p>
+  core: false
+  notes:
+    description: >-
+      <p>Name your God, list your 3 tenets, and choose or create a domain of
+      influence.</p>
+    label: Your God
+  trackers:
+    - type: pool
+      pool:
+        powerPool: true
+        diceNum: 6
+        max: 6
+      label: Major Rite
+      points:
+        showSteps: false
+        value: 1
+        max: 1
+    - type: pool
+      pool:
+        powerPool: true
+        diceNum: 4
+        max: 4
+      label: Minor Rite
+      points:
+        showSteps: false
+        value: 1
+        max: 1
+    - type: pool
+      pool:
+        powerPool: true
+        diceNum: 4
+        max: 4
+      label: Minor Rite 2
+      points:
+        showSteps: false
+        value: 1
+        max: 1
+effects: []
+sort: 0
+ownership:
+  default: 0
+  79CEe5dKC6Ls5VbU: 3
+flags: {}
+_stats:
+  coreVersion: '14.364'
+  systemId: grimwild
+  systemVersion: 0.5.3
+  createdTime: 1782662614864
+  modifiedTime: 1783008674175
+  lastModifiedBy: 79CEe5dKC6Ls5VbU
+  compendiumSource: null
+  duplicateSource: null
+  exportSource: null
+_key: '!items!a5FCPZXbBkrFhAkr'

@@ -1,0 +1,157 @@
+name: Cultist - Evil Patron
+description: ''
+formula: 1d6
+results:
+  - name: ''
+    description: <b>Lady of Dreams</b>, weaving nightmares to enthrall.
+    range:
+      - 1
+      - 1
+    _id: BA0xUC3Fks4roo4i
+    type: text
+    img: null
+    weight: 1
+    drawn: false
+    flags: {}
+    _stats:
+      coreVersion: '14.364'
+      systemId: grimwild
+      systemVersion: 0.5.3
+      createdTime: 1783270821340
+      modifiedTime: 1783270821340
+      lastModifiedBy: 79CEe5dKC6Ls5VbU
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+    _key: '!tables.results!51KymxabkgfSd25h.BA0xUC3Fks4roo4i'
+  - name: ''
+    description: <b>Drowned King</b>, raising an army of bloated corpses.
+    range:
+      - 2
+      - 2
+    _id: CFFv43oBLKCKrp3t
+    type: text
+    img: null
+    weight: 1
+    drawn: false
+    flags: {}
+    _stats:
+      coreVersion: '14.364'
+      systemId: grimwild
+      systemVersion: 0.5.3
+      createdTime: 1783270821340
+      modifiedTime: 1783270821340
+      lastModifiedBy: 79CEe5dKC6Ls5VbU
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+    _key: '!tables.results!51KymxabkgfSd25h.CFFv43oBLKCKrp3t'
+  - name: ''
+    description: <b>Crimson Hand</b>, demon who whispers war and fear.
+    range:
+      - 3
+      - 3
+    _id: u3A5t9BRgQOTRs94
+    type: text
+    img: null
+    weight: 1
+    drawn: false
+    flags: {}
+    _stats:
+      coreVersion: '14.364'
+      systemId: grimwild
+      systemVersion: 0.5.3
+      createdTime: 1783270821340
+      modifiedTime: 1783270821340
+      lastModifiedBy: 79CEe5dKC6Ls5VbU
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+    _key: '!tables.results!51KymxabkgfSd25h.u3A5t9BRgQOTRs94'
+  - name: ''
+    description: <b>The Hollow</b>, an ancient god of oblivion.
+    range:
+      - 4
+      - 4
+    _id: 0jHI928JfyxtVTNz
+    type: text
+    img: null
+    weight: 1
+    drawn: false
+    flags: {}
+    _stats:
+      coreVersion: '14.364'
+      systemId: grimwild
+      systemVersion: 0.5.3
+      createdTime: 1783270821340
+      modifiedTime: 1783270821340
+      lastModifiedBy: 79CEe5dKC6Ls5VbU
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+    _key: '!tables.results!51KymxabkgfSd25h.0jHI928JfyxtVTNz'
+  - name: ''
+    description: <b>Eternal Song</b>, the melody that can end the world.
+    range:
+      - 5
+      - 5
+    _id: qwSk7S539PBauG4N
+    type: text
+    img: null
+    weight: 1
+    drawn: false
+    flags: {}
+    _stats:
+      coreVersion: '14.364'
+      systemId: grimwild
+      systemVersion: 0.5.3
+      createdTime: 1783270821340
+      modifiedTime: 1783270821340
+      lastModifiedBy: 79CEe5dKC6Ls5VbU
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+    _key: '!tables.results!51KymxabkgfSd25h.qwSk7S539PBauG4N'
+  - name: ''
+    description: <b>Azure Serpent</b>, hording forbidden knowledge.
+    range:
+      - 6
+      - 6
+    _id: 3H1vszQdelVSZL27
+    type: text
+    img: null
+    weight: 1
+    drawn: false
+    flags: {}
+    _stats:
+      coreVersion: '14.364'
+      systemId: grimwild
+      systemVersion: 0.5.3
+      createdTime: 1783270821340
+      modifiedTime: 1783270821340
+      lastModifiedBy: 79CEe5dKC6Ls5VbU
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+    _key: '!tables.results!51KymxabkgfSd25h.3H1vszQdelVSZL27'
+folder: rgX8m8cC6QFqYNJB
+sort: 2200000
+_id: 51KymxabkgfSd25h
+img: icons/svg/d20-grey.svg
+replacement: true
+displayRoll: true
+ownership:
+  default: 0
+  79CEe5dKC6Ls5VbU: 3
+flags: {}
+_stats:
+  coreVersion: '14.368'
+  systemId: grimwild
+  systemVersion: 0.5.3
+  createdTime: 1783270821340
+  modifiedTime: 1791749998255
+  lastModifiedBy: nF9qxzj59Qn6fNSn
+  compendiumSource: null
+  duplicateSource: null
+  exportSource: null
+_key: '!tables!51KymxabkgfSd25h'

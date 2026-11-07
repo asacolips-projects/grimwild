@@ -1,0 +1,140 @@
+name: Assassin
+type: monster
+img: icons/svg/poison.svg
+system:
+  biography: >-
+    <p>A silent blade in the dark. Cold and professional. They are a master of
+    poison and precision, striking without warning then vanishing soon
+    after.</p>
+  notes: >-
+    <p>@Embed[Compendium.grimwild.gwce-crucibles.RollTable.umwqg3Aje5cwHAcb]{Assassin
+    - Method of Choice}</p>
+  role: brute
+  tier: elite
+  traits:
+    - Expert in poisons, traps
+    - Blends in
+    - Slippery
+  moves:
+    - Assassinate
+    - Quick Swipe
+    - Vanish into Shadow
+  desires:
+    - value: to complete their mission cleanly
+      are: false
+    - value: to be recognized or captured
+      are: false
+  sensories:
+    colors:
+      - name: shadowy black
+        color: '#000000'
+      - name: ashen gray
+        color: '#3a3b37'
+      - name: leather brown
+        color: '#502613'
+    sights: glint of steel, stirring shadow
+    sounds: rustle of cloth, creaking door, muffled gasp, soft clink of a blade
+    smells: oiled leather, perfume masked poison
+  pool:
+    diceNum: 4
+    powerPool: false
+  tables: []
+prototypeToken:
+  name: Assassin
+  displayName: 40
+  actorLink: false
+  width: 1
+  height: 1
+  depth: 1
+  texture:
+    src: icons/svg/poison.svg
+    anchorX: 0.5
+    anchorY: 0.5
+    fit: contain
+    scaleX: 1
+    scaleY: 1
+    tint: '#ffffff'
+    alphaThreshold: 0.75
+  lockRotation: false
+  rotation: 0
+  alpha: 1
+  disposition: -1
+  displayBars: 0
+  bar1:
+    attribute: health
+  bar2:
+    attribute: power
+  light:
+    negative: false
+    priority: 0
+    alpha: 0.5
+    angle: 360
+    bright: 0
+    color: null
+    coloration: 1
+    dim: 0
+    attenuation: 0.5
+    luminosity: 0.5
+    saturation: 0
+    contrast: 0
+    shadows: 0
+    animation:
+      type: null
+      speed: 5
+      intensity: 5
+      reverse: false
+    darkness:
+      min: 0
+      max: 1
+  sight:
+    enabled: false
+    range: 0
+    angle: 360
+    visionMode: basic
+    color: null
+    attenuation: 0.1
+    brightness: 0
+    saturation: 0
+    contrast: 0
+  detectionModes: {}
+  occludable:
+    radius: 0
+  ring:
+    enabled: false
+    colors:
+      ring: null
+      background: null
+    effects: 1
+    subject:
+      scale: 1
+      texture: null
+  turnMarker:
+    mode: 1
+    animation: null
+    src: null
+    disposition: false
+  movementAction: null
+  flags: {}
+  randomImg: false
+  appendNumber: false
+  prependAdjective: false
+items: []
+effects: []
+folder: gibI0IuRkoZYzvNX
+ownership:
+  default: 0
+  79CEe5dKC6Ls5VbU: 3
+flags: {}
+_stats:
+  coreVersion: '14.364'
+  systemId: grimwild
+  systemVersion: 0.5.3
+  createdTime: 1783200629209
+  modifiedTime: 1783271231526
+  lastModifiedBy: 79CEe5dKC6Ls5VbU
+  exportSource: null
+  compendiumSource: null
+  duplicateSource: null
+_id: rQTe6rrKlWvuIdM9
+sort: 500000
+_key: '!actors!rQTe6rrKlWvuIdM9'

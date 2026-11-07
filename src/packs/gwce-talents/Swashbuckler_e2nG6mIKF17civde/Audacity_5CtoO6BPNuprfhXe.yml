@@ -1,0 +1,35 @@
+folder: e2nG6mIKF17civde
+name: Audacity
+type: talent
+_id: 5CtoO6BPNuprfhXe
+img: icons/consumables/drinks/alcohol-beer-mug-yellow.webp
+system:
+  description: >-
+    <p>When you act with pure reckless abandon, <strong>5s count as 6s, but 4s
+    count as 1s</strong>. Regardless of the outcome, those around you are
+    briefly struck by: <em>awe—bewilderment—panic—excitement</em>.</p>
+  core: false
+  notes:
+    description: >-
+      <p><em>These aren't your garden variety bad ideas, these are the kinds of
+      ideas that leave bystanders frozen in place trying to figure out what just
+      happened, and often a part of tangles.</em></p>
+    label: ''
+  trackers: []
+effects: []
+sort: 0
+ownership:
+  default: 0
+  79CEe5dKC6Ls5VbU: 3
+flags: {}
+_stats:
+  coreVersion: '14.368'
+  systemId: grimwild
+  systemVersion: 0.5.3
+  createdTime: 1783005678111
+  modifiedTime: 1791753280263
+  lastModifiedBy: nF9qxzj59Qn6fNSn
+  compendiumSource: null
+  duplicateSource: null
+  exportSource: null
+_key: '!items!5CtoO6BPNuprfhXe'

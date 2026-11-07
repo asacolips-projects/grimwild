@@ -1,0 +1,32 @@
+folder: sioTtoSBZibsvpR5
+name: Thieves' Cant
+type: talent
+_id: 2e9QYFmmpVzrYp5L
+img: icons/svg/item-bag.svg
+system:
+  description: >-
+    <p>You and those you teach can communicate subtly in company, silently over
+    distances, and through signs and markings. When you get a perfect deceiving
+    others, you also <strong>setup</strong> an ally following your lead.</p>
+  core: false
+  notes:
+    description: ''
+    label: ''
+  trackers: []
+effects: []
+sort: 0
+ownership:
+  default: 0
+  79CEe5dKC6Ls5VbU: 3
+flags: {}
+_stats:
+  coreVersion: '14.364'
+  systemId: grimwild
+  systemVersion: 0.5.3
+  createdTime: 1782662611334
+  modifiedTime: 1782662611334
+  lastModifiedBy: 79CEe5dKC6Ls5VbU
+  compendiumSource: null
+  duplicateSource: null
+  exportSource: null
+_key: '!items!2e9QYFmmpVzrYp5L'

@@ -1,0 +1,289 @@
+name: Build a Vassal 1
+description: ''
+formula: 1d12
+results:
+  - name: ''
+    description: squad
+    range:
+      - 1
+      - 1
+    _id: PQmiI8tifjR5SOvJ
+    type: text
+    img: icons/svg/d20-black.svg
+    weight: 1
+    drawn: false
+    flags: {}
+    _stats:
+      coreVersion: '14.364'
+      systemId: grimwild
+      systemVersion: 0.5.3
+      createdTime: 1783126929740
+      modifiedTime: 1783126929740
+      lastModifiedBy: 79CEe5dKC6Ls5VbU
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+    _key: '!tables.results!dw51NQ4yN1V6B4jw.PQmiI8tifjR5SOvJ'
+  - name: ''
+    description: gangly
+    range:
+      - 2
+      - 2
+    _id: rEQoZGy9VdgkDcM3
+    type: text
+    img: icons/svg/d20-black.svg
+    weight: 1
+    drawn: false
+    flags: {}
+    _stats:
+      coreVersion: '14.364'
+      systemId: grimwild
+      systemVersion: 0.5.3
+      createdTime: 1783126929740
+      modifiedTime: 1783126929740
+      lastModifiedBy: 79CEe5dKC6Ls5VbU
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+    _key: '!tables.results!dw51NQ4yN1V6B4jw.rEQoZGy9VdgkDcM3'
+  - name: ''
+    description: robust
+    range:
+      - 3
+      - 3
+    _id: meC0S5gTuAmxGoIE
+    type: text
+    img: icons/svg/d20-black.svg
+    weight: 1
+    drawn: false
+    flags: {}
+    _stats:
+      coreVersion: '14.364'
+      systemId: grimwild
+      systemVersion: 0.5.3
+      createdTime: 1783126929740
+      modifiedTime: 1783126929740
+      lastModifiedBy: 79CEe5dKC6Ls5VbU
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+    _key: '!tables.results!dw51NQ4yN1V6B4jw.meC0S5gTuAmxGoIE'
+  - name: ''
+    description: lithe
+    range:
+      - 4
+      - 4
+    _id: uoos8F6Zxuw8zttV
+    type: text
+    img: icons/svg/d20-black.svg
+    weight: 1
+    drawn: false
+    flags: {}
+    _stats:
+      coreVersion: '14.364'
+      systemId: grimwild
+      systemVersion: 0.5.3
+      createdTime: 1783126929740
+      modifiedTime: 1783126929740
+      lastModifiedBy: 79CEe5dKC6Ls5VbU
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+    _key: '!tables.results!dw51NQ4yN1V6B4jw.uoos8F6Zxuw8zttV'
+  - name: ''
+    description: sleek
+    range:
+      - 5
+      - 5
+    _id: XWVjJW4cPvhPP7Mc
+    type: text
+    img: icons/svg/d20-black.svg
+    weight: 1
+    drawn: false
+    flags: {}
+    _stats:
+      coreVersion: '14.364'
+      systemId: grimwild
+      systemVersion: 0.5.3
+      createdTime: 1783126929740
+      modifiedTime: 1783126929740
+      lastModifiedBy: 79CEe5dKC6Ls5VbU
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+    _key: '!tables.results!dw51NQ4yN1V6B4jw.XWVjJW4cPvhPP7Mc'
+  - name: ''
+    description: imposing
+    range:
+      - 6
+      - 6
+    _id: 5nGn7FgrZsgfqXMm
+    type: text
+    img: icons/svg/d20-black.svg
+    weight: 1
+    drawn: false
+    flags: {}
+    _stats:
+      coreVersion: '14.364'
+      systemId: grimwild
+      systemVersion: 0.5.3
+      createdTime: 1783126929740
+      modifiedTime: 1783126929740
+      lastModifiedBy: 79CEe5dKC6Ls5VbU
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+    _key: '!tables.results!dw51NQ4yN1V6B4jw.5nGn7FgrZsgfqXMm'
+  - name: ''
+    description: tall
+    range:
+      - 7
+      - 7
+    _id: xIS7OEKamXnXcDon
+    type: text
+    img: icons/svg/d20-black.svg
+    weight: 1
+    drawn: false
+    flags: {}
+    _stats:
+      coreVersion: '14.364'
+      systemId: grimwild
+      systemVersion: 0.5.3
+      createdTime: 1783126929740
+      modifiedTime: 1783126929740
+      lastModifiedBy: 79CEe5dKC6Ls5VbU
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+    _key: '!tables.results!dw51NQ4yN1V6B4jw.xIS7OEKamXnXcDon'
+  - name: ''
+    description: angular
+    range:
+      - 8
+      - 8
+    _id: gfc0NmPOTqVJK9jv
+    type: text
+    img: icons/svg/d20-black.svg
+    weight: 1
+    drawn: false
+    flags: {}
+    _stats:
+      coreVersion: '14.364'
+      systemId: grimwild
+      systemVersion: 0.5.3
+      createdTime: 1783126929740
+      modifiedTime: 1783126929740
+      lastModifiedBy: 79CEe5dKC6Ls5VbU
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+    _key: '!tables.results!dw51NQ4yN1V6B4jw.gfc0NmPOTqVJK9jv'
+  - name: ''
+    description: bulky
+    range:
+      - 9
+      - 9
+    _id: LDPBClvhuG7v2OM4
+    type: text
+    img: icons/svg/d20-black.svg
+    weight: 1
+    drawn: false
+    flags: {}
+    _stats:
+      coreVersion: '14.364'
+      systemId: grimwild
+      systemVersion: 0.5.3
+      createdTime: 1783126929740
+      modifiedTime: 1783126929740
+      lastModifiedBy: 79CEe5dKC6Ls5VbU
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+    _key: '!tables.results!dw51NQ4yN1V6B4jw.LDPBClvhuG7v2OM4'
+  - name: ''
+    description: rounded
+    range:
+      - 10
+      - 10
+    _id: dH8GEs2BYL3H9v1t
+    type: text
+    img: icons/svg/d20-black.svg
+    weight: 1
+    drawn: false
+    flags: {}
+    _stats:
+      coreVersion: '14.364'
+      systemId: grimwild
+      systemVersion: 0.5.3
+      createdTime: 1783126929740
+      modifiedTime: 1783126929740
+      lastModifiedBy: 79CEe5dKC6Ls5VbU
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+    _key: '!tables.results!dw51NQ4yN1V6B4jw.dH8GEs2BYL3H9v1t'
+  - name: ''
+    description: hunched
+    range:
+      - 11
+      - 11
+    _id: SNnRycIikNqyimrT
+    type: text
+    img: icons/svg/d20-black.svg
+    weight: 1
+    drawn: false
+    flags: {}
+    _stats:
+      coreVersion: '14.364'
+      systemId: grimwild
+      systemVersion: 0.5.3
+      createdTime: 1783126929740
+      modifiedTime: 1783126929740
+      lastModifiedBy: 79CEe5dKC6Ls5VbU
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+    _key: '!tables.results!dw51NQ4yN1V6B4jw.SNnRycIikNqyimrT'
+  - name: ''
+    description: gaunt
+    range:
+      - 12
+      - 12
+    _id: qsw1bahKEPP8muQ6
+    type: text
+    img: icons/svg/d20-black.svg
+    weight: 1
+    drawn: false
+    flags: {}
+    _stats:
+      coreVersion: '14.364'
+      systemId: grimwild
+      systemVersion: 0.5.3
+      createdTime: 1783126929740
+      modifiedTime: 1783126929740
+      lastModifiedBy: 79CEe5dKC6Ls5VbU
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+    _key: '!tables.results!dw51NQ4yN1V6B4jw.qsw1bahKEPP8muQ6'
+folder: BMqmeR4aw1f48lFI
+sort: 0
+_id: dw51NQ4yN1V6B4jw
+img: icons/svg/d20-grey.svg
+replacement: true
+displayRoll: false
+ownership:
+  default: 0
+  79CEe5dKC6Ls5VbU: 3
+flags: {}
+_stats:
+  coreVersion: '14.368'
+  systemId: grimwild
+  systemVersion: 0.5.3
+  createdTime: 1783126929740
+  modifiedTime: 1791748697095
+  lastModifiedBy: nF9qxzj59Qn6fNSn
+  compendiumSource: null
+  duplicateSource: null
+  exportSource: null
+_key: '!tables!dw51NQ4yN1V6B4jw'

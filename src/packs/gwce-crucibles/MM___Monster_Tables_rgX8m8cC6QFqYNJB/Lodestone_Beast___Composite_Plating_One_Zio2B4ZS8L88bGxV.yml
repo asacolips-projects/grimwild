@@ -1,0 +1,157 @@
+name: Lodestone Beast - Composite Plating One
+description: ''
+formula: 1d6
+results:
+  - name: ''
+    description: iron
+    range:
+      - 1
+      - 1
+    _id: JTZvVKDHb4T391V2
+    type: text
+    img: null
+    weight: 1
+    drawn: false
+    flags: {}
+    _stats:
+      coreVersion: '14.364'
+      systemId: grimwild
+      systemVersion: 0.5.3
+      createdTime: 1783270821379
+      modifiedTime: 1783270821379
+      lastModifiedBy: 79CEe5dKC6Ls5VbU
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+    _key: '!tables.results!Zio2B4ZS8L88bGxV.JTZvVKDHb4T391V2'
+  - name: ''
+    description: copper
+    range:
+      - 2
+      - 2
+    _id: TcOvCnMCN9yXsPh2
+    type: text
+    img: null
+    weight: 1
+    drawn: false
+    flags: {}
+    _stats:
+      coreVersion: '14.364'
+      systemId: grimwild
+      systemVersion: 0.5.3
+      createdTime: 1783270821379
+      modifiedTime: 1783270821379
+      lastModifiedBy: 79CEe5dKC6Ls5VbU
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+    _key: '!tables.results!Zio2B4ZS8L88bGxV.TcOvCnMCN9yXsPh2'
+  - name: ''
+    description: silver
+    range:
+      - 3
+      - 3
+    _id: C1VXrIBRxSCySXJB
+    type: text
+    img: null
+    weight: 1
+    drawn: false
+    flags: {}
+    _stats:
+      coreVersion: '14.364'
+      systemId: grimwild
+      systemVersion: 0.5.3
+      createdTime: 1783270821379
+      modifiedTime: 1783270821379
+      lastModifiedBy: 79CEe5dKC6Ls5VbU
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+    _key: '!tables.results!Zio2B4ZS8L88bGxV.C1VXrIBRxSCySXJB'
+  - name: ''
+    description: gold
+    range:
+      - 4
+      - 4
+    _id: kQNMoklbVecP0Z6C
+    type: text
+    img: null
+    weight: 1
+    drawn: false
+    flags: {}
+    _stats:
+      coreVersion: '14.364'
+      systemId: grimwild
+      systemVersion: 0.5.3
+      createdTime: 1783270821379
+      modifiedTime: 1783270821379
+      lastModifiedBy: 79CEe5dKC6Ls5VbU
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+    _key: '!tables.results!Zio2B4ZS8L88bGxV.kQNMoklbVecP0Z6C'
+  - name: ''
+    description: lead
+    range:
+      - 5
+      - 5
+    _id: ay9A0iEyW1REesBo
+    type: text
+    img: null
+    weight: 1
+    drawn: false
+    flags: {}
+    _stats:
+      coreVersion: '14.364'
+      systemId: grimwild
+      systemVersion: 0.5.3
+      createdTime: 1783270821379
+      modifiedTime: 1783270821379
+      lastModifiedBy: 79CEe5dKC6Ls5VbU
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+    _key: '!tables.results!Zio2B4ZS8L88bGxV.ay9A0iEyW1REesBo'
+  - name: ''
+    description: tin
+    range:
+      - 6
+      - 6
+    _id: I2Rjo1rMnac51PlI
+    type: text
+    img: null
+    weight: 1
+    drawn: false
+    flags: {}
+    _stats:
+      coreVersion: '14.364'
+      systemId: grimwild
+      systemVersion: 0.5.3
+      createdTime: 1783270821379
+      modifiedTime: 1783270821379
+      lastModifiedBy: 79CEe5dKC6Ls5VbU
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+    _key: '!tables.results!Zio2B4ZS8L88bGxV.I2Rjo1rMnac51PlI'
+folder: rgX8m8cC6QFqYNJB
+sort: 4400000
+_id: Zio2B4ZS8L88bGxV
+img: icons/svg/d20-grey.svg
+replacement: true
+displayRoll: true
+ownership:
+  default: 0
+  79CEe5dKC6Ls5VbU: 3
+flags: {}
+_stats:
+  coreVersion: '14.368'
+  systemId: grimwild
+  systemVersion: 0.5.3
+  createdTime: 1783270821379
+  modifiedTime: 1791749998256
+  lastModifiedBy: nF9qxzj59Qn6fNSn
+  compendiumSource: null
+  duplicateSource: null
+  exportSource: null
+_key: '!tables!Zio2B4ZS8L88bGxV'

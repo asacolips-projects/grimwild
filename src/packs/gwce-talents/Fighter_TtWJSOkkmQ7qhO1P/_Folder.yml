@@ -1,0 +1,20 @@
+type: Item
+folder: null
+name: Fighter
+color: '#2f3e4b'
+sorting: a
+_id: TtWJSOkkmQ7qhO1P
+description: ''
+sort: 700000
+flags: {}
+_stats:
+  coreVersion: '14.364'
+  systemId: grimwild
+  systemVersion: 0.5.3
+  createdTime: 1782662617694
+  modifiedTime: 1782662617724
+  lastModifiedBy: 79CEe5dKC6Ls5VbU
+  compendiumSource: null
+  duplicateSource: null
+  exportSource: null
+_key: '!folders!TtWJSOkkmQ7qhO1P'

@@ -1,0 +1,34 @@
+folder: 52a4AL6V02gW1Gh1
+name: Foresight
+type: talent
+_id: Rn2TX6zWBB1ZIXIS
+img: icons/magic/perception/eye-ringed-glow-angry-small-teal.webp
+system:
+  description: >-
+    <p>You can catch small glimpses of the future. Once per session, you can
+    describe a brief course of action while in a calm situation, and the GM will
+    tell you the result. If there’s <em><strong>risk</strong></em>, make a
+    montage roll to see how it would play out. Afterward, you can decide whether
+    to take the action.</p>
+  core: false
+  notes:
+    description: ''
+    label: ''
+  trackers: []
+effects: []
+sort: 0
+ownership:
+  default: 0
+  79CEe5dKC6Ls5VbU: 3
+flags: {}
+_stats:
+  coreVersion: '14.368'
+  systemId: grimwild
+  systemVersion: 0.5.3
+  createdTime: 1782662621571
+  modifiedTime: 1791744225722
+  lastModifiedBy: nF9qxzj59Qn6fNSn
+  compendiumSource: null
+  duplicateSource: null
+  exportSource: null
+_key: '!items!Rn2TX6zWBB1ZIXIS'

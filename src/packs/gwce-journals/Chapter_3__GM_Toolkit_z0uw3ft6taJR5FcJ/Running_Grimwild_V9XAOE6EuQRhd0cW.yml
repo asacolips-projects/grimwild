@@ -1,0 +1,1249 @@
+name: Running Grimwild
+_id: V9XAOE6EuQRhd0cW
+pages:
+  - sort: 100000
+    name: GM Moves
+    type: text
+    _id: 1hwVUU0jguFscQg1
+    system: {}
+    title:
+      show: true
+      level: 1
+    image: {}
+    text:
+      format: 1
+      content: >-
+        <p>A framework for good GMing practices. While they can be called out
+        specifically, they typically sit in the background, left unsaid,
+        aligning naturally with what you do as GM. The players know actions have
+        consequences, and the suspense you've earned can come back to bite them.
+        It shows things aren't arbitrary—the GM is also playing the game, just
+        by different rules.</p><p><strong>Suspense moves</strong> help the
+        players out in some way or escalate tension, earning or offering a way
+        to take suspense when used. Make these moves with good
+        timing.</p><p><strong>Impact moves</strong> deal significant
+        consequences, crank up the tension, and make the world feel powerful.
+        Make these moves when prompted.</p><h2>Prompt</h2><p>This is a trigger
+        for you to make an impact move. They can be caused by things like grim
+        or messy action rolls, a relevant depleted pool, an unaddressed
+        <em><strong>@UUID[.WDm6CTveG7RjIgHI#foreshadow]{foreshadow}</strong></em>
+        move, or by spending <em><strong>suspense</strong></em>. Don't get hung
+        up on making sure an impact move is prompted—if the fiction demands its
+        use, use it. <span style="color:rgb(110, 110, 110)"><em>The berserker
+        jumps off a cliff | the curious rogue drinks a bottle labeled
+        'poison'.</em></span></p><h2>Suspense</h2><p>Pure rising tension and
+        cinematic timing. Gain <em><strong>suspense</strong></em> by skipping a
+        prompted impact move or making certain suspense moves. Spend it to
+        prompt an impact move at any time.</p><p>Skipping an impact move feels
+        like the PCs got off lucky—something should have happened, but didn't.
+        That lingering suspense builds tension, ready to strike later. Use this
+        when no immediate move feels compelling or when you want to shift focus
+        to other scenes.</p><blockquote
+        style="border-style:solid;border-radius:8px"><h4>Reader Lens - Games
+        Without GM Moves</h4><p>The more comfortable you feel with the rules,
+        and the more your table trusts you, the more you can bend, break, or
+        toss out this framework. Most importantly, keep a general idea of your
+        suspense and when you add complications (impact moves), as some talents
+        affect them specifically. As long as everybody at the table is having a
+        good time, you’re doing it right.</p></blockquote>
+    video:
+      controls: true
+      volume: 0.5
+    src: null
+    category: null
+    ownership:
+      default: -1
+      79CEe5dKC6Ls5VbU: 3
+    flags: {}
+    _stats:
+      coreVersion: '14.364'
+      systemId: grimwild
+      systemVersion: 0.5.3
+      createdTime: 1782769816487
+      modifiedTime: 1783186755667
+      lastModifiedBy: 79CEe5dKC6Ls5VbU
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+    _key: '!journal.pages!V9XAOE6EuQRhd0cW.1hwVUU0jguFscQg1'
+  - sort: 200000
+    name: Move Summary
+    type: text
+    _id: N48BPffbdXapf3Io
+    system: {}
+    title:
+      show: true
+      level: 1
+    image: {}
+    text:
+      format: 1
+      content: >-
+        <p>Here are all eight of the GM Moves in Grimwild for quick reference on
+        when to use them and what they do. Remember, these are the scaffolding
+        of the game— guardrails to help you run cinematic games. Use them as
+        much or as little as needed.</p><h2>Suspense Move
+        Summary</h2><ul><li><p><strong>BUILD UP</strong> • <span
+        style="color:#6E6E6E"><em>Add a brief scene before, or as the intro to
+        the challenge ahead.</em></span></p><ul><li><p>Each PC adds a detail to
+        the vignette, and takes spark. The GM takes suspense, often before
+        introducing a challenge.</p></li></ul></li><li><p><strong>CLUE IN
+        </strong><em>• </em><span style="color:#6e6e6e"><em>Cut away, or zoom
+        out to show the forces acting against the
+        PCs.</em></span></p><ul><li><p>The players learn new details and see the
+        direction of the story. The GM takes
+        suspense.</p></li></ul></li><li><p><strong>FORESHADOW </strong>•
+        <em>Telegraph a danger, giving the PCs time to deal with
+        it.</em></p><ul><li><p>The PCs have a chance stop or avoid the danger.
+        The GM can take the impact move if it goes
+        unaddressed.</p></li></ul></li><li><p><strong>RESOLVE </strong>• <span
+        style="color:#6e6e6e"><em>Solve a problem for the PCs and move the story
+        forward.</em></span></p><ul><li><p>The PCs get a way out of a tough
+        situation, by resolving it for them. The GM takes
+        suspense.</p></li></ul></li></ul><h2>Impact Move
+        Summary</h2><ul><li><p><strong>COMPLICATE THINGS</strong> • <span
+        style="color:#6e6e6e"><em>Add or develop a
+        threat.</em></span></p><ul><li><p>The new aspect adds difficulty or
+        danger for PCs. Choose this move when things are too stable, or too
+        easy.</p></li></ul></li><li><p><strong>COUNTER</strong> • <span
+        style="color:#6e6e6e"><em>Stop a PC action, or take away a
+        permission.</em></span></p><ul><li><p>Stop a successful action or
+        permission (usually refunding resources). Choose this move to show a
+        threat's resilience. Be careful of
+        overuse.</p></li></ul></li><li><p><strong>HIT HARD</strong> • <span
+        style="color:#6e6e6e"><em>Apply direct
+        consequences.</em></span></p><ul><li><p>Hit with marks, harm, vex, or
+        conditions. Choose this move when injury is the most dramatic
+        consequence.</p></li></ul></li><li><p><strong>LOCK DOWN</strong> • <span
+        style="color:#6e6e6e"><em>Declare a strict choice, or take an option
+        away permanently.</em></span></p><ul><li><p>Close opportunities, force
+        them to choose. Choose this move to add cinematic
+        edge.</p></li></ul></li></ul>
+    video:
+      controls: true
+      volume: 0.5
+    src: null
+    category: null
+    ownership:
+      default: -1
+      79CEe5dKC6Ls5VbU: 3
+    flags: {}
+    _stats:
+      coreVersion: '14.364'
+      systemId: grimwild
+      systemVersion: 0.5.3
+      createdTime: 1782769833525
+      modifiedTime: 1783186240098
+      lastModifiedBy: 79CEe5dKC6Ls5VbU
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+    _key: '!journal.pages!V9XAOE6EuQRhd0cW.N48BPffbdXapf3Io'
+  - sort: 300000
+    name: Suspense Moves
+    type: text
+    _id: WDm6CTveG7RjIgHI
+    system: {}
+    title:
+      show: true
+      level: 1
+    image: {}
+    text:
+      format: 1
+      content: >-
+        <p><em><strong>Use these moves with cinematic
+        timing</strong></em></p><p>Create familiar moments inspired by TV shows,
+        incentivizing you mechanically to take the time to structure the story
+        cinematically. You move the story forward and introduce ways to prompt
+        impact moves, so they reward you for handling some of the tedium of
+        GMing and remind players to stay engaged. Suspense keeps the world
+        active when things stall. When your supply of suspense runs dry, you can
+        use these to jump start the action again. However, use them
+        carefully—overuse can get frustrating for players, so pick your spots.
+        But timely use makes good, cinematic sense.</p><h2>Build Up</h2><p>Focus
+        in on scenes with greater narrative importance, and create moments that
+        set the stage for the challenge ahead. This may be a vignette of the PCs
+        before the danger, their reaction to the incoming threat, or a brief
+        scene showing the looming problem. Give players a chance to add depth
+        and feeling to their characters that might get overlooked. Treat this
+        like a cut scene before the action. After the vignette, each PC
+        <em><strong>takes spark</strong></em>, and the GM takes
+        <em><strong>@UUID[.1hwVUU0jguFscQg1#suspense]{suspense}</strong></em>,
+        often before introducing a
+        <em><strong>@UUID[.8ROPHl1aOu4ioKhu]{challenge}</strong></em>.</p><ul><li><p><strong>Use
+        this move to give each PC spark, and take
+        suspense.</strong></p></li><li><p><strong>Use this move when you want to
+        build up drama before a big scene.</strong></p></li></ul><p><span
+        style="color:rgb(110, 110, 110)"><em>The dragon roars, and rocks tumble
+        from the ceiling. What does it look like when you dodge them and engage?
+        | How are you dressed as you enter the masquerade? | You sit around a
+        campfire, knowing the battle to come in the
+        morning.</em></span></p><p><span style="color:rgb(110, 110,
+        110)"><em>You watch the <strong>goblin warband</strong> in the distance.
+        They’ll be here by morning. What is the mood around the
+        camp?</em></span></p><h2>Clue In</h2><p>Give the players details on the
+        bigger picture, like a TV show scene. Cut away to show villains
+        plotting, armies marching, or even positive events. Zoom out to see the
+        details the party doesn’t know. When you reveal details with Clue In,
+        take suspense. It’s more fun when players know what's happening and they
+        can steer their PCs' actions toward that drama, even if their characters
+        don't explicitly know about it. Consider using this when you want to
+        <em><strong>@UUID[.5kv1YGSsJ8PoRdSe#strike]{strike}</strong></em> (see
+        vigilance). After the reveal, take
+        <em><strong>suspense</strong></em>.</p><ul><li><p><strong>Use this move
+        to give the players knowledge, but leave the PCs in the dark, then take
+        suspense.</strong></p></li><li><p><strong>Use this move when you want to
+        show the direction of the story.</strong></p></li></ul><p><span
+        style="color:rgb(110, 110, 110)"><em>We see the baron through the castle
+        window, draining blood from his latest victim. | As you trek through the
+        forest, unaware, we see the glint of feline eyes behind
+        you.</em></span></p><p><span style="color:rgb(110, 110, 110)"><em>We
+        move to the next town over. <strong>We see flames</strong> and dancing
+        goblins, as they make plans to come to Humblefalls
+        next.</em></span></p><h2>Foreshadow</h2><p>Signal upcoming threats and
+        give the players a chance to react. This is a great way to introduce
+        adversity when you don't have or want to spend
+        <em><strong>suspense</strong></em>, and can be used to telegraph danger
+        even in combat. Drop a detail for the PCs while describing a scene, or
+        give a specific hint to one character. If they fail to deal with it or
+        ignore the danger, it prompts an impact move, and the pace of the story
+        picks up. <em><strong>@UUID[.5kv1YGSsJ8PoRdSe]{Vigilance}</strong></em>
+        makes use of this move to give characters a chance to address the danger
+        based on vantage, allowing a
+        <em><strong>@UUID[.5kv1YGSsJ8PoRdSe#hint]{hint}</strong></em> or
+        <em><strong>@UUID[.5kv1YGSsJ8PoRdSe#reveal]{reveal}</strong></em>.</p><ul><li><p><strong>Use
+        this move to telegraph an incoming danger, using the impact move if
+        ignored.</strong></p></li><li><p><strong>Use this move when you want to
+        introduce adversity without spending
+        suspense.</strong></p></li></ul><p><span style="color:rgb(110, 110,
+        110)"><em>You hear hoofbeats coming, a 4d timer. | The dragon takes a
+        deep breath. | You see thick spider webs on the ceiling. | One of the
+        tiles ahead of you is slightly raised and
+        discolored.</em></span></p><p><span style="color:rgb(110, 110,
+        110)"><em>Before walking up to the wrecked caravan, you notice
+        <strong>small humanoid tracks</strong> around it. Everything seems too
+        quiet.</em></span></p><h2>Resolve</h2><p>Fix a problem to provide a
+        quick out and move the story forward. This can be used to connect dots
+        with exposition or immediately de-escalate a situation. Normally, it
+        would feel like an unearned freebie, but you earn one
+        <em><strong>@UUID[.1hwVUU0jguFscQg1#suspense]{suspense}</strong></em> to
+        make it a fair trade. Never use it when players are engaged—save it for
+        when it's needed.</p><ul><li><p><strong>Use this move to help the
+        characters, and get suspense in
+        return.</strong></p></li><li><p><strong>Use this move when the players
+        are stuck or cornered.</strong></p></li></ul><p><span
+        style="color:rgb(110, 110, 110)"><em>You hear from above, "Need some
+        help down there?" | The minotaur seems satisfied that it won and turns
+        to walk away.</em></span></p><p><span style="color:rgb(110, 110,
+        110)"><em>Seeing what happened to Guzrak, the remaining goblins
+        <strong>drop their weapons and surrender</strong>.</em></span></p>
+    video:
+      controls: true
+      volume: 0.5
+    src: null
+    category: null
+    ownership:
+      default: -1
+      79CEe5dKC6Ls5VbU: 3
+    flags: {}
+    _stats:
+      coreVersion: '14.364'
+      systemId: grimwild
+      systemVersion: 0.5.3
+      createdTime: 1782769839952
+      modifiedTime: 1783186863741
+      lastModifiedBy: 79CEe5dKC6Ls5VbU
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+    _key: '!journal.pages!V9XAOE6EuQRhd0cW.WDm6CTveG7RjIgHI'
+  - sort: 400000
+    name: Impact Moves
+    type: text
+    _id: qTI1iQgKkAMUFvhm
+    system: {}
+    title:
+      show: true
+      level: 1
+    image: {}
+    text:
+      format: 1
+      content: >-
+        <p><em><strong>Use these moves when prompted</strong></em></p><p>Deliver
+        hard-hitting consequences that challenge PCs and push the action
+        forward. They require prompting, so when you use them, they're sure to
+        be justified and fair, codified into the rules. They've had fair warning
+        and should have an idea of the risks. So when you make a move, make sure
+        it has <strong>impact</strong> to ensure the choices leading to them
+        matter and the world feels powerful.</p><p>When not prompted by their
+        own roll, impact moves directly against a PC give them a defense roll.
+        Some talents also give the ability to
+        <em><strong>@UUID[Compendium.grimwild.gwce-journals.JournalEntry.YbuXwBYYNXIb670F.JournalEntryPage.pNW9iH0hc9EFKfPK#interrupt]{interrupt}</strong></em>
+        impact moves, possibly negating them. If the roll to interrupt is a
+        messy, you take
+        <em><strong>@UUID[.1hwVUU0jguFscQg1#suspense]{suspense}</strong></em> or
+        keep it if you spent it to prompt the move.</p><h2>Complicate
+        Things</h2><p>Add a new obstacle, twist, or threat to a scene, or
+        develop an existing one. When used, introduce a new aspect to the scene
+        working against the characters, or make one worse. Mechanically, this
+        may be an aspect that adds thorns to some rolls (more difficulty), or
+        raises the
+        <em><strong>@UUID[.O7u8kywnCA1IHYAp#stakes]{stakes}</strong></em> (more
+        danger).</p><ul><li><p>Use this move to raise the stakes or add thorns
+        to relevant rolls. </p></li><li><p>Use this move when things are too
+        easy or stable.</p></li></ul><p><span style="color:#6e6e6e"><em>A huge
+        storm rolls in. The guard catches sight of you and rings the alarm bell.
+        The ruffians in the tavern all draw their weapons. The fire spreads to
+        the furniture.</em></span></p><p><span style="color:#6e6e6e"><em>You see
+        skeletal hands burst from the ground as <strong>The Lich</strong>
+        summons more undead!</em></span></p><h2>Counter</h2><p>Stop the PCs in
+        their tracks, and show that the world won’t just roll over. This can
+        stop anything a character does, including successful action rolls and
+        permissions they normally have. If they use a talent that costs them
+        resources, they generally don't have to expend that resource (your call)
+        but can't quickly use it again. However, this can never be used to stop
+        defense rolls and criticals—don't steal their thunder. Be careful, this
+        can get frustrating if used too much. Keep this move reserved for
+        powerful enemies and serious trouble, and even then, it should be
+        rare.</p><ul><li><p>Use this move to counter a PC’s action or
+        permissions.</p></li><li><p>Use this move when you want to showcase the
+        resilience of a major threat.</p></li></ul><p><span
+        style="color:#6e6e6e"><em>The mage casts a quick protective spell,
+        slowing your strike. The queen raises a hand, silencing everyone. Your
+        punch lands square on his jaw, and he slowly
+        grins.</em></span></p><p><span style="color:#6e6e6e"><em>With a flash of
+        necrotic power, The Lich <strong>dispels your magic</strong>, making it
+        dissipate into the aether.</em></span></p><h2>Hit Hard</h2><p>Inflict
+        direct consequences to underscore the seriousness of the situation. It's
+        a heavy reminder that the world pushes back against their actions. When
+        you use it, you should be hitting them just as hard as they're trying to
+        hit the world.</p><ul><li><p>Use this move to inflict marks, harm, vex,
+        or conditions on someone. </p></li><li><p>Use this move when physical or
+        mental injury is the most dramatic consequence.</p></li></ul><p><span
+        style="color:#6e6e6e"><em>The ceiling collapses, raining rocks down on
+        you. | She smirks wickedly at you—take vex, you’re pissed. | The
+        bandit’s arrow whistles through the air, embedding itself in your
+        shoulder.</em></span></p><p><span style="color:#6e6e6e"><em>His boney
+        hand grabs your wrist. <strong>You take bloodied</strong> as the life
+        force is sapped from you.</em></span></p><h2>Lock
+        Down</h2><p>Definitively bring consequences onto the characters by
+        taking away options. Present stark decisions that they can't wiggle
+        their way out of. Break or take something from them. Let the villain get
+        away. Many
+        <em><strong>@UUID[.8ROPHl1aOu4ioKhu]{Challenges}</strong></em> list a
+        fail state, an example lock down ending and failing it for the players.
+        In this case, consider pairing the move with foreshadow for story
+        continuity and to give them a chance to stop it. When used, make sure to
+        follow through without softening the impact—once done, it’s
+        done.</p><ul><li><p>Use this move to declare an unavoidable event to
+        take chances, options, equipment, and allies away.</p></li><li><p>Use
+        this move when you want to add cinematic edge, reflecting the dire
+        consequences protagonists face.</p></li></ul><p><span
+        style="color:#6e6e6e"><em>The thief gets away, nowhere to be seen. | The
+        bridge behind you collapses. | No going back. Your gold pouch and sword
+        slide towards the lava, which do you go for?</em></span></p><p><span
+        style="color:#6e6e6e"><em>A magic barrier forms in front of the door. It
+        seems <strong>the only way out</strong> now is to defeat this grand evil
+        once and for all.</em></span></p>
+    video:
+      controls: true
+      volume: 0.5
+    src: null
+    category: null
+    ownership:
+      default: -1
+      79CEe5dKC6Ls5VbU: 3
+    flags: {}
+    _stats:
+      coreVersion: '14.364'
+      systemId: grimwild
+      systemVersion: 0.5.3
+      createdTime: 1782769861081
+      modifiedTime: 1783187256756
+      lastModifiedBy: 79CEe5dKC6Ls5VbU
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+    _key: '!journal.pages!V9XAOE6EuQRhd0cW.qTI1iQgKkAMUFvhm'
+  - sort: 500000
+    name: Consequences
+    type: text
+    _id: O7u8kywnCA1IHYAp
+    system: {}
+    title:
+      show: true
+      level: 1
+    image: {}
+    text:
+      format: 1
+      content: >-
+        <p>What happens when things go wrong—from failed rolls, timers, or
+        impact moves. They should feel hard but fair, reflecting the stakes and
+        severity of the situation. Every roll carries risk; otherwise, it
+        shouldn’t be rolled.</p><p>Damage is a solid baseline: in a fight,
+        injuries could leave you hurt, such as with bloodied or marked. Other
+        consequences, even narrative ones, should sting just as much. You can
+        also split consequences by breaking a big one into smaller ones.
+        Multiple effects can be just as effective and make more sense in the
+        situation. You might break up <em><strong>bloodied</strong></em> into a
+        few <em><strong>marks</strong></em>, or
+        <em><strong>rattled</strong></em> becoming <em><strong>vex</strong></em>
+        or rolling a pool instead. You can also spread out consequences, hitting
+        multiple PCs, nearby NPCs, or even a PC who didn't prompt the move.
+        Consequences can be identical, vary in severity, or differ entirely. If
+        a PC other than the one prompting it is hit, they get a defense roll.
+        Spreads make the impact feel broader and pull more people into a dynamic
+        scene.</p><p>Split and spread consequences to increase the tension, and
+        give the PCs
+        <em><strong>@UUID[Compendium.grimwild.gwce-journals.JournalEntry.YbuXwBYYNXIb670F.JournalEntryPage.v1Y89kCcCc4AYWaW#harm]{harm}</strong></em>
+        during big moments to give the world teeth. If there’s a roll, it’s
+        because something can go wrong.</p><h2>Thinking Offscreen</h2><p>Fallout
+        can happen beyond the immediate action. Not all consequences need to
+        occur in the spotlight. Hitting elsewhere builds tension, hastens
+        incoming trouble, or creates missed opportunities. These unseen events
+        make the world feel alive, adding depth beyond the present
+        moment.</p><p><span style="color:#6e6e6e"><em>The lich’s ritual gets one
+        step closer to completion. | An innocent is blamed for something the PCs
+        did. | The caravan begins to run low on food
+        supplies.</em></span></p><h2>Using Pools</h2><p>Building pressure with
+        danger or timer pools. Start or roll a pressure or timer pool as another
+        outlet for consequences, often offscreen. These create looming threats
+        and situations the PCs want to avoid or mitigate. They build pressure
+        and offer a strong alternative to skipping the move and banking
+        suspense.</p><p><span style="color:#6e6e6e"><em>The lizardfolk blows a
+        warhorn before you skewer him (start 6d reinforcements arrive). | The
+        rushing waters break one of the bridge supports (roll 4d bridge
+        destroyed).</em></span></p><h2>Stakes</h2><p>Stakes frame the danger of
+        a scene, telling the table about the severity of trouble they should
+        expect. This can be implied with storytelling cues as you set the scene,
+        or stated explicitly using the categories of stakes below. The greater
+        the stakes, the clearer this communication should be. Unless clearly
+        otherwise, the scene has regular stakes.</p><h3>Low
+        Stakes</h3><p>Lighter territory. You may roll for things you’d normally
+        skip or don’t see as <em><strong>risky</strong></em>. Impact moves have
+        the weight of 1 mark, or softer consequences (set dressing, vex, raise
+        stakes). This is a tool for tone, moving between intense and light play.
+        <span style="color:#6e6e6e"><em>Fisticuffs in a barfight. | Keep your
+        nerve while questioned by a friendly guard. | Help a cat that’s stuck in
+        a tree.</em></span></p><h3>Regular Stakes</h3><p>Typical play and the
+        assumed default. Impact moves have the weight of 1 harm, or other
+        standard consequences (2 marks, condition, roll a pressure pool,
+        complicate things). <span style="color:#6e6e6e"><em>Sneak through a
+        guarded warehouse. | Handle a tense negotiation. | Fight a gnoll,
+        1-on-1.</em></span></p><h3>High Stakes</h3><p>Things are escalated.
+        Impact moves have the weight of desperate harm, twice that of a standard
+        consequence. A disaster can drop PCs immediately, with most incoming
+        trouble putting them at death’s door. <span
+        style="color:#6e6e6e"><em>Defend yourself while cornered by an angry
+        ogre. | Explaining your actions to the queen. | Bluff a trained and
+        suspicious guard.</em></span></p><h3>Dire Stakes</h3><p>Death looms.
+        Keep players in the loop and let them know that PC death is on the
+        table. Any prompted impact move will instantly drop the PC. <span
+        style="color:#6e6e6e"><em>Pushed off a cliff. | Looking into the eyes of
+        an elder horror.</em></span></p><blockquote
+        style="border-style:solid;border-radius:8px"><h3>Varied
+        Consequences</h3><p>The above scale uses weights of harm as a reference,
+        but you can always use any type of impact move (setbacks, strained
+        bonds, collateral damage, conditions, etc.), or split up trouble into
+        smaller consequences as you see fit. Keeping consequences varied helps
+        give the world teeth, while pushing a cinematic
+        feel.</p></blockquote><h2>Taking Suspense</h2><p>You can skip the impact
+        move, and instead take <em><strong>suspense</strong></em>. This can be
+        spent to make an impact move against the players anytime later, or spent
+        right away to affect a different character or group (each giving a
+        defense roll against the move).</p>
+    video:
+      controls: true
+      volume: 0.5
+    src: null
+    category: null
+    ownership:
+      default: -1
+      79CEe5dKC6Ls5VbU: 3
+    flags: {}
+    _stats:
+      coreVersion: '14.364'
+      systemId: grimwild
+      systemVersion: 0.5.3
+      createdTime: 1782769899401
+      modifiedTime: 1783187624592
+      lastModifiedBy: 79CEe5dKC6Ls5VbU
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+    _key: '!journal.pages!V9XAOE6EuQRhd0cW.O7u8kywnCA1IHYAp'
+  - sort: 600000
+    name: Challenges
+    type: text
+    _id: 8ROPHl1aOu4ioKhu
+    system: {}
+    title:
+      show: true
+      level: 1
+    image: {}
+    text:
+      format: 1
+      content: >-
+        <p>A framework to represent tasks, obstacles, enemies, and scenarios
+        that have greater tenacity and complexity than a single action can
+        accomplish. Challenges allow you to track progress towards them, but
+        also proactively oppose the PCs. These can be introduced as the GM sees
+        fit, but often alongside the
+        <em><strong>@UUID[.WDm6CTveG7RjIgHI#build-up]{Build Up}</strong></em>
+        suspense move. Each challenge gives the GM 2 bonus
+        <em><strong>@UUID[.1hwVUU0jguFscQg1#suspense]{suspense}</strong></em> to
+        be spent on moves relating to it, and use a task pool to represent its
+        complexity or resilience. They can also have:</p><p>✱
+        <strong>Traits:</strong> Qualities they have with strong narrative
+        impact, inflicting thorns, denying permissions, or changing
+        vantage.</p><p>◉ <strong>Moves:</strong> Suggested impact moves they
+        might make. These are examples, not limitations.</p><p>✘ <strong>Fail
+        State:</strong> A trigger that signals the challenge failed, like a
+        competing timer pool or a specific event. Fail states can also be
+        triggered with a <em><strong>@UUID[.qTI1iQgKkAMUFvhm#lock-down]{Lock
+        Down}</strong></em> impact move, cutting off any chance of success for
+        the PCs when it feels appropriate. Consider Foreshadowing the move to
+        give the PCs a chance to intervene and keep the action
+        coherent.</p><p><em>Note: Challenges don't always have all
+        three.</em></p><section class="grid grid-2col"><div><img
+        src="modules/grimwild/assets/img/challenges/challenge1-channel.webp"
+        alt="8d | Navigate Channel"></div><div><img
+        src="modules/grimwild/assets/img/challenges/challenge2-thief.webp"
+        alt="6d | Escaping Thief"><p></p><img
+        src="modules/grimwild/assets/img/challenges/challenge3-ritual.webp"
+        alt="6d | Stop the Ritual"></div></section><h2>Building
+        Challenges</h2><ol><li><p>Assign a task pool (2d - 8d) for its
+        tenacity.</p></li><li><p>Add traits (1 or 2) that shape the situation.
+        Skip the obvious (storm is windy) and highlight what matters (strong
+        winds are blinding). Keep them brief and evocative.</p></li><li><p>List
+        short, punchy moves (2 or 3) with flexible interpretations. These are
+        examples, not limits. You can spend bonus
+        <em><strong>suspense</strong></em> on other moves, or trigger these when
+        an impact move is prompted by something else.</p></li><li><p>Define a
+        fail state, a specific trigger that prevents that challenge from being
+        accomplished. Avoid obvious outcomes (dying in a fight) and focus on
+        what creates tension (breaking a code of honor). Players should know the
+        fail state unless mystery is part of the fun—and even then, make it
+        clear one is in play.</p></li></ol><h2>Battlegrounds</h2><p>This is a
+        special kind of combat <em><strong>challenge</strong></em>, where the
+        location is important. Identify the environmental elements that play a
+        proactive part of the scene. These can be broken down
+        into:</p><p><strong>Features:</strong> Elements likely to impact,
+        usually complicating, the ongoing action. They have a strong effect on
+        vantage and difficulty. <span style="color:rgb(110, 110,
+        110)"><em>Strong winds, cluttered warehouse, angry
+        onlookers.</em></span></p><p><strong>Threats:</strong> Hazards that
+        present extra dangers. They either get 2 suspense of their own, or
+        repeat on a timer. They have a strong proactive presence in the scene,
+        able to prompt impact moves unless dealt with somehow. <span
+        style="color:rgb(110, 110, 110)"><em>4d heavy waves, ○○ aggressive
+        spirits, 6d guard patrol.</em></span></p><img
+        src="modules/grimwild/assets/img/battleground.svg" alt="Example
+        Battlegrounds"><p><em>Note: Enemies gathered into a single task pool are
+        listed with dice in front (4d archers). Creatures acting as their own
+        challenge (with suspense) are shown with a | after the pool. (8d |
+        dragon).</em></p><h2>Using Challenges</h2><p>Challenges are for moments
+        of narrative importance. They make whatever you assign them to a
+        proactive element in the story. Use them to spotlight what's
+        happening—not because it's harder, but because it deserves proper screen
+        time and presence. They’re pivotal scenes worthy of demanding attention
+        from the characters, and will be a major focus of the session. <span
+        style="color:rgb(110, 110, 110)"><em>The sleeping dragon wakes up. | You
+        hear drumming from the deep. | Arrows whiz by, it’s an
+        ambush!</em></span></p><h2>Linked Challenges</h2><p>Linked challenges
+        are greater, more complex interactions, like epicly powerful enemies or
+        unbelievably tense social situations. Each part of the whole has its own
+        proactive presence in the scene. Give them traits that prompt impact
+        moves, triggered by the fiction for dynamic interactions. <span
+        style="color:rgb(110, 110, 110)"><em>The dragon has 'protects the body'
+        on its claws. If a PC attempts to strike the body, it will prompt a claw
+        impact move!</em></span></p><img
+        src="modules/grimwild/assets/img/challenges/linked1-civilwar.webp"><p><em>Following
+        the death of the Ember Queen, the realm descended into chaos sparking a
+        long and bloody civil war. The PCs have managed to bring all three sides
+        to the negotiating table, but the road to peace is rocky. They need each
+        to sign off on splitting the realm.</em></p><img
+        src="modules/grimwild/assets/img/challenges/linked2-dragon.webp"><p><em>The
+        Great Red Dragon descends, lured into the PCs' trap by the goats as
+        bait. They ready the barbed ballista, knowing they must prevent the
+        beast from escaping into the sky. The dragon's kobold minions scurry
+        down from its back, swarming the clearing. The battle
+        commences.</em></p><blockquote
+        style="border-style:solid;border-radius:8px"><h3>The Fiction of Linked
+        Challenges</h3><p>In most challenges (especially combat), beating one
+        link doesn't necessarily mean it's
+        <em><strong>destroyed</strong></em>—it just means it's defeated in the
+        greater linked challenge. It may be hindered, weakened, or overcome some
+        other way, but that doesn't mean it's gone completely.</p></blockquote>
+    video:
+      controls: true
+      volume: 0.5
+    src: null
+    category: null
+    ownership:
+      default: -1
+      79CEe5dKC6Ls5VbU: 3
+    flags: {}
+    _stats:
+      coreVersion: '14.368'
+      systemId: grimwild
+      systemVersion: 0.5.3
+      createdTime: 1782769918228
+      modifiedTime: 1791784546625
+      lastModifiedBy: nF9qxzj59Qn6fNSn
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+    _key: '!journal.pages!V9XAOE6EuQRhd0cW.8ROPHl1aOu4ioKhu'
+  - sort: 700000
+    name: Vigilance
+    type: text
+    _id: 5kv1YGSsJ8PoRdSe
+    system: {}
+    title:
+      show: true
+      level: 1
+    image: {}
+    text:
+      format: 1
+      content: >-
+        <p>The assumed alertness of the PCs, avoiding overly cautious gameplay
+        to keep the focus on the action.</p><p>PCs are always considered to be
+        as vigilant as their <em><strong>vantage</strong></em> allows when
+        dealing with hidden dangers like traps, lies, or secret doors. However,
+        this doesn't mean they are always aware of hidden threats. Instead, the
+        GM
+        <em><strong>@UUID[.yzOUHnsPoxCyooSW#spotlight]{spotlights}</strong></em>
+        the most relevant PC and uses a gut feeling to decide how much they
+        perceive based on their vantage and the type of tension the GM wants to
+        build.</p><p>Each of the three levels of vigilance creates a different
+        dynamic in the scene, a different view of PC competence and the danger
+        of the world. These three levels are: <em><strong>reveal</strong></em>,
+        <em><strong>hint</strong></em>, and
+        <em><strong>strike</strong></em>.</p><p><span
+        style="color:#6e6e6e"><em>Against a prowling panther, it's most likely
+        that a farmer gets a hint, a hunter gets a reveal, and a scholar takes a
+        strike. Against a duke lying about their lineage, a priest gets a hint,
+        another noble gets a reveal, and a commoner takes a
+        strike.</em></span></p><h2>Reveal</h2><p><em><strong>@UUID[.WDm6CTveG7RjIgHI#foreshadow]{Foreshadow}</strong></em>
+        with an obvious unveiling of an imminent threat. The PC that becomes
+        aware has a chance to react before the danger strikes, potentially
+        side-stepping the threat even without an action. Character competence
+        guides the story forward.</p><p><span style="color:#6e6e6e"><em>Spotting
+        the assassin in hiding. | A whirling of gears betraying the swinging
+        scythe trap about to
+        spring.</em></span></p><h2>Hint</h2><p><em><strong>@UUID[.WDm6CTveG7RjIgHI#foreshadow]{Foreshadow}</strong></em>
+        with a subtle clue about a hidden element. The player gets a single
+        chance to interpret the situation. They're limited to just one to
+        highlight the natural response of the PC and to keep things flowing.
+        Intuition guides the story forward. A correct response leads to a
+        <em><strong>reveal</strong></em>, letting the character take the
+        initiative before danger strikes, or possibly bypass the situation
+        entirely.</p><p><span style="color:#6e6e6e"><em>That funny feeling of
+        being watched. | A blood trail down a hallway. | Unnatural
+        quiet.</em></span></p><h2>Strike</h2><p>Make an
+        <em><strong>@UUID[.qTI1iQgKkAMUFvhm]{impact move}</strong></em> as the
+        danger immediately strikes them. The GM assumes the PCs were not
+        vigilant enough to see the threat beforehand. The dangerous world guides
+        the story forward. This costs
+        <em><strong>@UUID[.1hwVUU0jguFscQg1#suspense]{suspense}</strong></em> as
+        any other impact move, though you can consider using
+        <em><strong>@UUID[.WDm6CTveG7RjIgHI#clue-in]{Clue In}</strong></em> to
+        gain suspense and let the players in on the secret.</p><p><span
+        style="color:#6e6e6e"><em>You realize the servant slipped poison into
+        your glass. | A trapdoor opens beneath you.</em></span></p>
+    video:
+      controls: true
+      volume: 0.5
+    src: null
+    category: null
+    ownership:
+      default: -1
+      79CEe5dKC6Ls5VbU: 3
+    flags: {}
+    _stats:
+      coreVersion: '14.364'
+      systemId: grimwild
+      systemVersion: 0.5.3
+      createdTime: 1782769942978
+      modifiedTime: 1783191337191
+      lastModifiedBy: 79CEe5dKC6Ls5VbU
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+    _key: '!journal.pages!V9XAOE6EuQRhd0cW.5kv1YGSsJ8PoRdSe'
+  - sort: 800000
+    name: Vigilance Examples
+    type: text
+    _id: yE5b4MhRlnVlLvdx
+    system: {}
+    title:
+      show: true
+      level: 1
+    image: {}
+    text:
+      format: 1
+      content: >-
+        <table><thead><tr><th><p>Danger</p></th><td><p>Reveal</p></td><td><p>Hint</p></td><td><p>Strike</p></td></tr></thead><tbody><tr><td><p>poisoned
+        dart trap</p></td><td><p>dartgun spotted in wall</p></td><td><p>floor
+        creaks unnaturally</p></td><td><p>darts fly from the
+        walls</p></td></tr><tr><td><p>flammable gas trap</p></td><td><p>bit of
+        gas ignites</p></td><td><p>faint smell lingers</p></td><td><p>area
+        engulfedin flames</p></td></tr><tr><td><p>political
+        intrigue</p></td><td><p>wax seal is clearly
+        fake</p></td><td><p>inconsistencies in letter</p></td><td><p>forgery
+        leads to crisis</p></td></tr><tr><td><p>hidden
+        malice</p></td><td><p>threatens a PC</p></td><td><p>suspicious
+        glances</p></td><td><p>calls the
+        guards</p></td></tr><tr><td><p>fractured resolve</p></td><td><p>express
+        doubts or fears</p></td><td><p>hesitates when
+        speaking</p></td><td><p>act against
+        plans</p></td></tr><tr><td><p>concealing illusion</p></td><td><p>reveals
+        true form</p></td><td><p>shimmering distortion</p></td><td><p>causes a
+        wrong move</p></td></tr><tr><td><p>shattered trust</p></td><td><p>lets
+        intentions slip</p></td><td><p>avoids eye contact</p></td><td><p>betrays
+        the party</p></td></tr><tr><td><p>crumbling
+        ceiling</p></td><td><p>cracks spread visibly</p></td><td><p>dust falls
+        lightly</p></td><td><p>debris crashes
+        down</p></td></tr><tr><td><p>swarming insects</p></td><td><p>clouds of
+        insects in sky</p></td><td><p>animals running away</p></td><td><p>swarm
+        descends viciously</p></td></tr><tr><td><p>cursed
+        relic</p></td><td><p>it speaks your name</p></td><td><p>air growing
+        cold</p></td><td><p>it curses the
+        handler</p></td></tr><tr><td><p>creeping spiders</p></td><td><p>see
+        skittering</p></td><td><p>large webs above</p></td><td><p>descends from
+        the sky</p></td></tr><tr><td><p>bandit ambush</p></td><td><p>form ducked
+        in cove</p></td><td><p>crossbow behind tree</p></td><td><p>bandits
+        threaten party</p></td></tr></tbody></table><p></p><h3>Play
+        Example</h3><p><em>The sorcerer, fighter, and rogue are creeping through
+        an ancient dwarven city on the hunt for lost treasures. Up ahead, they
+        see an area lit by a single torch. As they get close, they notice the
+        stone statue of a dwarf holding a ruby.</em></p><p><em>The GM, knowing
+        it's a trap, <strong>spotlights</strong> one of the
+        characters:</em></p><h4>The sorcerer…</h4><p><em>a noble, has nothing in
+        their vantage about traps, or dwarven architecture. They go for the ruby
+        and take a <strong>@UUID[.5kv1YGSsJ8PoRdSe#strike]{Strike}</strong>.
+        Flames erupt from the statue and catch their robes on
+        fire!</em></p><h4>The rogue…</h4><p><em>a weary dungeon delver, knows
+        there's danger around every corner. As he walks up, he gets a
+        <strong>@UUID[.5kv1YGSsJ8PoRdSe#hint]{Hint}</strong>— flame scarring on
+        the ground beneath the statue.</em></p><h4>The fighter…</h4><p><em>a
+        dwarf herself, identifies the statue as the god of greed and cruelty.
+        She gets a <strong>@UUID[.5kv1YGSsJ8PoRdSe#reveal]{Reveal}</strong> and
+        spots that the strange stonework is hiding a flame
+        trap!</em></p><blockquote
+        style="border-style:solid;border-radius:8px"><h3>Optional Rule - Active
+        Vigilance</h3><p>If you want PC vigilance to be dependent on a roll of
+        the dice, consider using the
+        @UUID[Compendium.grimwild.gwce-journals.JournalEntry.unDWj5tvsH6ZOLYD.JournalEntryPage.9x1uz89EFCD3CUvx#active-vigilance]{active
+        vigilance optional rule}.</p></blockquote>
+    video:
+      controls: true
+      volume: 0.5
+    src: null
+    category: null
+    ownership:
+      default: -1
+      79CEe5dKC6Ls5VbU: 3
+    flags: {}
+    _stats:
+      coreVersion: '14.368'
+      systemId: grimwild
+      systemVersion: 0.5.3
+      createdTime: 1782769959573
+      modifiedTime: 1791833776597
+      lastModifiedBy: nF9qxzj59Qn6fNSn
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+    _key: '!journal.pages!V9XAOE6EuQRhd0cW.yE5b4MhRlnVlLvdx'
+  - sort: 900000
+    name: Combat Kit
+    type: text
+    _id: zddvwn5XRnOMszDl
+    system: {}
+    title:
+      show: true
+      level: 1
+    image: {}
+    text:
+      format: 1
+      content: >-
+        <p>GM tools to create dynamic antagonists and combat scenarios quickly.
+        Tier is an opponent's threat level. Role is a keyword used to guide its
+        behavior in battle to vary its tactics. Use these together (Tier + Role)
+        to inform how these combatants act in the heat of battle. See below for
+        each enemy tier:</p><h3>Mook</h3><p>These are mostly just set dressing,
+        especially if encountered alone. One action roll can take out several at
+        once, though a large group can be treated as a task pool.</p><p><span
+        style="color:rgb(110, 110, 110)"><em>drunken patrons (a few), 4d goblins
+        (a bunch), annoying imp (one)</em></span></p><h3>Tough</h3><p>A typical,
+        fairly dangerous enemy. One action roll can take one of them out of the
+        scene, while a small group can be treated as a task pool.</p><p><span
+        style="color:rgb(110, 110, 110)"><em>lizardfolk warrior (one), 4d
+        bandits (a few), 8d zombies (a lot)</em></span></p><h3>Elite</h3><p>A
+        dangerous foe with strong scene presence, often leading a group of
+        lesser enemies. These are typically a challenge themselves.</p><p><span
+        style="color:rgb(110, 110, 110)"><em>6d minotaur (one), 4d treant (one),
+        6d pirate captain (one)</em></span></p><h3>Boss</h3><p>These are grand
+        foes that command the scene. They're powerful, often acting as a large
+        or linked challenge alone.</p><p><span style="color:rgb(110, 110,
+        110)"><em>8d+4d lich (one), 4d+4d+6d+8d dragon (one), 8d high devil
+        (one)</em></span></p><h2>Roles</h2><p>Make sure each enemy role brings a
+        unique dynamic to combat. To help, you can use the templates below as a
+        simple basis for traits and moves, or even assign them alongside a
+        monster entry (Chapter 5). The traits below contain two strengths and a
+        weakness, while the moves have one offensive, one defensive, and one
+        utility. Additionally, each role has a small table for ideas on how to
+        spend
+        <em><strong>@UUID[.1hwVUU0jguFscQg1#suspense]{suspense}</strong></em> in
+        response to common worst-case scenarios that role
+        encounters.</p><section class="grid grid-2col"><div><h3>Blaster</h3><img
+        src="modules/grimwild/assets/img/roles/role-blaster.webp"><p>@UUID[Compendium.grimwild.gwce-crucibles.RollTable.an2loLlis7dhCEiE]{Blaster
+        - As a last ditch defense, it...}</p><h3>Lurker</h3><img
+        src="modules/grimwild/assets/img/roles/role-lurker.webp"><p>@UUID[Compendium.grimwild.gwce-crucibles.RollTable.wqJoMWBmql16A4AK]{Lurker
+        - When their cover is blown, it...}</p><h3>Predator</h3><img
+        src="modules/grimwild/assets/img/roles/role-predator.webp"><p>@UUID[Compendium.grimwild.gwce-crucibles.RollTable.Cj4HXQD1u3pAhmM0]{Predator
+        - When prey slips away, it...}</p><h3>Skirmisher</h3><img
+        src="modules/grimwild/assets/img/roles/role-skirmisher.webp"><p>@UUID[Compendium.grimwild.gwce-crucibles.RollTable.FXtl27Ki0JdU0KGq]{Skirmisher
+        - When it loses the advantage, it...}</p><h3>Tactician</h3><img
+        src="modules/grimwild/assets/img/roles/role-tactician.webp"><p>@UUID[Compendium.grimwild.gwce-crucibles.RollTable.vhpw71Ocn0Ux3C6H]{Tactician
+        - When its plan fails, it...}</p></div><div><h3>Brute</h3><img
+        src="modules/grimwild/assets/img/roles/role-brute.webp"><p>@UUID[Compendium.grimwild.gwce-crucibles.RollTable.6FDEvrtNvxMFcjoe]{Brute
+        - When challenged or taunted, it...}</p><h3>Marksman</h3><img
+        src="modules/grimwild/assets/img/roles/role-marksman.webp"><p>@UUID[Compendium.grimwild.gwce-crucibles.RollTable.vM6ulX9lFjnqQQB4]{Marksman
+        - When under pressure, it...}</p><h3>Protector</h3><img
+        src="modules/grimwild/assets/img/roles/role-protector.webp"><p>@UUID[Compendium.grimwild.gwce-crucibles.RollTable.5g0RA6A1VzFL2Tff]{Protector
+        - When an ally is in danger, it...}</p><h3>Swarmer</h3><img
+        src="modules/grimwild/assets/img/roles/role-swarmer.webp"><p>@UUID[Compendium.grimwild.gwce-crucibles.RollTable.n6wtogRXD1rwICWR]{Swarmer
+        - When their numbers thin, they...}</p><h3>Trickster</h3><img
+        src="modules/grimwild/assets/img/roles/role-trickster.webp"><p>@UUID[Compendium.grimwild.gwce-crucibles.RollTable.cpTRDcAfciVKFPtB]{Trickster
+        - When its tricks fail, it...}</p></div></section>
+    video:
+      controls: true
+      volume: 0.5
+    src: null
+    category: null
+    ownership:
+      default: -1
+      79CEe5dKC6Ls5VbU: 3
+    flags: {}
+    _stats:
+      coreVersion: '14.368'
+      systemId: grimwild
+      systemVersion: 0.5.3
+      createdTime: 1782769963436
+      modifiedTime: 1791833750506
+      lastModifiedBy: nF9qxzj59Qn6fNSn
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+    _key: '!journal.pages!V9XAOE6EuQRhd0cW.zddvwn5XRnOMszDl'
+  - sort: 1000000
+    name: Factions
+    type: text
+    _id: vGSxlgH2QfQMoguw
+    system: {}
+    title:
+      show: true
+      level: 1
+    image: {}
+    text:
+      format: 1
+      content: >-
+        <p>Track off-screen developments of major forces, creating a feeling of
+        a living world beyond the PCs. They
+        have:</p><p><strong>Resources</strong> that show their power and
+        influence, like assets, traits, and
+        relationships.</p><p><strong>Goals</strong> that show their ambitions.
+        Track them with a timer called a faction pool, rolled between sessions
+        or when triggered by events in the story.</p><p>When a faction pool
+        depletes, the goal is either accomplished or they make their move
+        against another faction, with a story roll in their favor determining
+        how it plays out. Keep 4-6 active factions, balancing major and minor
+        ones, with competing goals. Replace factions that are no longer relevant
+        to the story.</p><h2>Campaign Pools</h2><p>Timers that pace long-term
+        events across sessions <span style="color:rgb(110, 110, 110)"><em>(lunar
+        eclipse, wyvern migration)</em></span>. They work like faction pools but
+        don’t require faction details. Use them to signal upcoming events or
+        remind you to reintroduce plotlines <span style="color:rgb(110, 110,
+        110)"><em>(betrayed NPC seeking revenge)</em></span>.</p><section
+        class="grid grid-3col"><div><img
+        src="modules/grimwild/assets/img/campaign1-villageofellit.svg"
+        alt="Village of Ellit"></div><div><img
+        src="modules/grimwild/assets/img/campaign2-twistedforest.svg"
+        alt="Twisted Forest"></div><div><img
+        src="modules/grimwild/assets/img/campaign3-warintheeast.svg" alt="War
+        in the East"></div></section><p></p><img
+        src="modules/grimwild/assets/img/campaign-pemtown.svg" alt="Pemtown
+        Powderkeg"><figure></figure><p><em>The air in Pemtown hums with tension.
+        Baron Prog’s coffers run dry, his troops grow restless, and whispers of
+        rebellion stir in the ranks. Meanwhile, deep in the forest, alliances
+        shift as Shaz’s warband, the goblin horde, and the druids of the
+        Oldgrove edge closer to explosive confrontation.</em></p>
+    video:
+      controls: true
+      volume: 0.5
+    src: null
+    category: null
+    ownership:
+      default: -1
+      79CEe5dKC6Ls5VbU: 3
+    flags: {}
+    _stats:
+      coreVersion: '14.364'
+      systemId: grimwild
+      systemVersion: 0.5.3
+      createdTime: 1782769996318
+      modifiedTime: 1783197090734
+      lastModifiedBy: 79CEe5dKC6Ls5VbU
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+    _key: '!journal.pages!V9XAOE6EuQRhd0cW.vGSxlgH2QfQMoguw'
+  - sort: 50000
+    name: Running Grimwild
+    type: text
+    _id: yzOUHnsPoxCyooSW
+    system: {}
+    title:
+      show: true
+      level: 1
+    image: {}
+    text:
+      format: 1
+      content: >-
+        <p>As the GM, you play the game by a different set of rules, utilizing
+        the tools laid out in this chapter to craft an engaging and dynamic
+        game. You wield GM moves and suspense to drive the narrative forward,
+        challenges to model difficult tasks, the combat kit to create thrilling
+        battles, and story rolls along with the GM crucible for inspiration when
+        the unexpected arises.</p><p>Your primary role is mapping fiction to
+        mechanics, keeping the players immersed in the story while you
+        seamlessly weave the rules into the narrative, and know when to instead
+        ditch a rule and just let the narrative take over.</p><p>Above all, be
+        creative. Use the mechanics as a springboard to manufacture drama,
+        tension, and memorable moments.</p><h2>Story Rolls</h2><p>Roll to
+        disclaim decision-making, letting the dice decide story questions when
+        you don’t want to, like an NPC’s reaction, off-screen action, or how
+        good or bad something that just happened is. You can also collapse any
+        rule back to a story roll when there's no specific mechanic to map it
+        to.</p><p>Roll dice based on the odds of a favorable outcome for the
+        chosen perspective. <em>Are you rolling for the fish or the
+        fisherman?</em></p><p><strong>1d Bad Odds | 2d Even Odds | 3d Good
+        Odds</strong></p><ul><li><p>(6) <strong>PERFECT.</strong> It's the ideal
+        situation</p></li><li><p>(4-5) <strong>MESSY. </strong>It's okay, but
+        there's a catch.</p></li><li><p>(1-3) <strong>GRIM.</strong> It's not
+        good, and now it's a problem.</p></li></ul><p><em><strong>How does the
+        weather look as the party reaches the
+        cliffside?</strong></em></p><p><em>Perfect: The clouds start to part as
+        the rain stops, and it appears you have a clear day ahead of
+        you.</em></p><p><em>Messy: The light drizzle holds steady. It'll be a
+        little slick moving up the side of the mountain.</em></p><p><em>Grim:
+        The wind begins to blow harder and the rain gets heavier. It's going to
+        be tough to get to the top.</em></p><h2>GM Crucible</h2><p>A forge for
+        inspiration, encouraging emergent, low-prep gameplay. Turn to the GM
+        crucible, often along with a story roll, when you want the seed of an
+        idea to expand upon to help answer questions about the story. Roll once
+        on each table. Each roll gives two results (3, 1 = 31: precarious or 13:
+        broken). Let your mind drift towards the most evocative, then drill down
+        on it and interpret what it might
+        mean.</p><p>@Crucible[Compendium.grimwild.gwce-crucibles.RollTable.HrMWKbsgUTT4hVnW]{GM
+        Crucible
+        1}</p><p>@Crucible[Compendium.grimwild.gwce-crucibles.RollTable.8DIEqJed0Aee3VJc]{GM
+        Crucible 2}</p><p style="text-align:center"><em><strong>What's inside
+        the temple?</strong></em></p><section class="grid grid-2col"><div
+        style="text-align:center"><p><em>Roll: aged +
+        beacon</em></p><p><em>Interpret: a forgotten artifact</em></p></div><div
+        style="text-align:center"><p><em>Roll: perilous +
+        maze</em></p><p><em>Interpret: a dangerous
+        trial</em></p></div></section><p
+        style="text-align:center"><em><strong>Why is the village so
+        quiet?</strong></em></p><section class="grid grid-2col"><div
+        style="text-align:center"><p><em>Roll: tense +
+        scheme</em></p><p><em>Interpret: they're plotting
+        rebellion</em></p></div><div style="text-align:center"><p><em>Roll:
+        bleak + debris</em></p><p><em>Interpret: it was
+        ransacked</em></p></div></section><p
+        style="text-align:center"><em><strong>What caused the
+        havoc?</strong></em></p><section class="grid grid-2col"><div
+        style="text-align:center"><p><em>Roll: flickering +
+        rift</em></p><p><em>Interpret: demonic portal opened</em></p></div><div
+        style="text-align:center"><p><em>Roll: immense +
+        betrayal</em></p><p><em>Interpret: a coup took
+        place</em></p></div></section><p
+        style="text-align:center"><em><strong>What is the farmer
+        hiding?</strong></em></p><section class="grid grid-2col"><div
+        style="text-align:center"><p><em>Roll: tough +
+        scar</em></p><p><em>Interpret: a wartorn past</em></p></div><div
+        style="text-align:center"><p><em>Roll: lost +
+        jackpot</em></p><p><em>Interpret: secret rumored
+        trove</em></p></div></section><h2>Starting a Campaign</h2><p>When
+        players describe their character, ask follow-up questions. They might
+        have an idea, or might not yet, but thinking about it can help flesh out
+        the character. The same goes for traits and desires.</p><p>These kinds
+        of questions are open-ended and a bit leading—hitting them with a
+        question that doesn't fit can spur them into giving an answer that does
+        fit. And if they don't really have an answer? Let it go. It's obviously
+        not important to their character concept. As you walk through different
+        characters, keep an eye out for connections—little dots we can use to
+        draw lines between characters and drill deeper with questions. Maybe two
+        of them both want power, but it’s not the same kind of power. Or one
+        avoids wealth, and the other craves it. These differences and
+        similarities can help explain why they’re adventuring together—or make
+        you wonder why they would be.</p><p>Once everyone has a clear idea of
+        their characters and each other, ask about their bonds. Some might’ve
+        already written them out, but this is their chance to tweak or rethink
+        them now that they’ve heard about the other characters in detail. It
+        should be organic—bonds tend to pop up naturally during the
+        conversation. Pick out one bond per player to dig a little bit
+        deeper.</p><blockquote
+        style="border-style:solid;border-radius:8px"><p><em>Why do they have
+        <strong>rough hands</strong>? How did growing up as the small kid affect
+        them?</em></p><p><em>You want <strong>power</strong>, but not
+        <strong>wealth</strong>. They're usually connected, why is this time
+        different?</em></p><p><em>How long's that <strong>complex
+        rivalry</strong> been going on for? When did they recently get the
+        better of you?</em></p></blockquote><h2>Spotlight</h2><p>Keep the
+        narrative flowing, the action engaging, and get things moving when they
+        stall out. Player actions drive the story, and putting the
+        <em><strong>spotlight</strong></em> on them can nudge them forward,
+        prompting them into action. Using the spotlight helps you direct the
+        action and ensure no one is left out, putting focus where it's needed.
+        While describing scenes, try mixing in cinematic language and using the
+        camera to help frame your group's shared imagination space. Cut back and
+        forth between PCs and scenes to build tension and avoid focusing on a
+        single PC for too long. Definitively moving between characters and set
+        pieces can help pace the story, while bringing in more passive
+        players.</p><p><span style="color:rgb(110, 110, 110)"><em>We cut to the
+        rogue, back against the crate as an unaware guard walks
+        past.</em></span></p><p><span style="color:rgb(110, 110, 110)"><em>The
+        camera pans over to show the mage finishing a chalk circle on the
+        ground. We’ll move to the paladin. Your order just denied your plea.
+        What do you do?</em></span></p><p>When you move the spotlight, try
+        asking a poignant question focused on the character’s perspective. This
+        stirs up drama and helps to flesh out the world. The character’s inner
+        thoughts can help drive the story, lighten your creative load, and show
+        the kind of story the player is interested in telling.</p><p><span
+        style="color:rgb(110, 110, 110)"><em>How do you feel about your ally
+        killing the surrendered bandit? What do you say about the queen as you
+        sit around the fire? As you polish your father’s sword, what are you
+        thinking about?</em></span></p><h2>Scenes</h2><p>These are the
+        continuous periods of action that make up the game, a few linked story
+        beats, and nearly always start with the GM jumping to the engagement at
+        the beginning. Skip detailed planning and cautious lead ups that often
+        drag game play down. Instead, jump straight into the action, an in
+        medias res shot of things already in motion! When you're unsure about
+        the specifics of the current fiction, have the players make a story
+        roll, with the result setting the opening mood and
+        <em><strong>stakes</strong></em> for the scene.</p><p>When a scene has
+        served its purpose, grown stale, or feels like a foregone conclusion.
+        Don't waste game time—instead, have the players make a montage roll to
+        wrap it up and move on. Closing these scenes out decisively keeps the
+        narrative tight and focuses on what's next. Keep the game flowing, the
+        action engaging, and get things moving when they stall out.</p>
+    video:
+      controls: true
+      volume: 0.5
+    src: null
+    category: null
+    ownership:
+      default: -1
+      79CEe5dKC6Ls5VbU: 3
+    flags: {}
+    _stats:
+      coreVersion: '14.364'
+      systemId: grimwild
+      systemVersion: 0.5.3
+      createdTime: 1783039244814
+      modifiedTime: 1783185554202
+      lastModifiedBy: 79CEe5dKC6Ls5VbU
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+    _key: '!journal.pages!V9XAOE6EuQRhd0cW.yzOUHnsPoxCyooSW'
+  - sort: 0
+    name: GM with Moxie
+    type: text
+    _id: 9EiJCa41Bp8Pha5Z
+    system: {}
+    title:
+      show: true
+      level: 1
+    image: {}
+    text:
+      format: 1
+      content: >-
+        <p><strong>Map fiction to rules.</strong> Encourage players to focus on
+        the fiction and let you handle the rules. The more narratively important
+        something is, the more mechanical weight you should give
+        it.</p><p><em>In a game of courtly intrigue, slaying a dragon might be a
+        montage roll for a knight while an important dinner party is a complex
+        linked challenge full of dire stakes.</em></p><p>Get creative applying
+        the rules, mixing them up in ways not explicitly laid out. Don't be
+        afraid to tinker. Moxie is modular and you're not going to break it.
+        Graft on rules from other systems you like, or hack Moxie and make it
+        your own.</p><p>If the rules clash with what makes sense in the fiction,
+        the fiction wins. Engage with the rules quickly, resolve them, and
+        return to the story.</p><p><em>"What does that look like?" or "Give us a
+        quick scene."</em></p><p><strong>Make rulings to fill gaps.</strong> The
+        rules are a flexible framework and designed not to cover every detail.
+        When things fall through the cracks, try to interpret the rules' intent
+        and make a ruling that fits the moment. If it's a judgment call, tell
+        the players. If you're unsure of a rule, make a quick call now and check
+        later. When in doubt, everything can collapse down to a single story
+        roll—ask the players what they want to happen, then roll to see if
+        that's how it goes down</p><p><strong>Pace the game
+        cinematically.</strong> Keep the game flowing like a well-paced movie.
+        Don't let scenes drag, wrap up scenes to move on to something more
+        interesting. If players don't seem keen on an upcoming situation,
+        suggest a montage. Skip long planning phases by cutting to the action,
+        using a story roll to discover the players’ situation if needed. Reward
+        players buying into these techniques by giving them good
+        odds.</p><p><strong>Follow the players' lead.</strong> Keep tabs on
+        story arcs and present drama, dilemmas, and opportunities related to
+        them. Follow where the characters want to go. Present interesting
+        situations related to it. When players hesitate or hit an impasse, spur
+        them into action with danger timers,
+        <em><strong>@UUID[Compendium.grimwild.gwce-journals.JournalEntry.YbuXwBYYNXIb670F.JournalEntryPage.pNW9iH0hc9EFKfPK#quarrels]{quarrels}</strong></em>,
+        <em><strong>@UUID[Compendium.grimwild.gwce-journals.JournalEntry.YbuXwBYYNXIb670F.JournalEntryPage.TFE7qnkVkpzsZYW6#tangles]{tangles}</strong></em>,
+        or <em><strong>@UUID[.WDm6CTveG7RjIgHI#resolve]{Resolve}</strong></em>
+        the situation and move on.</p>
+    video:
+      controls: true
+      volume: 0.5
+    src: null
+    category: null
+    ownership:
+      default: -1
+      79CEe5dKC6Ls5VbU: 3
+    flags: {}
+    _stats:
+      coreVersion: '14.364'
+      systemId: grimwild
+      systemVersion: 0.5.3
+      createdTime: 1783142024352
+      modifiedTime: 1783142178916
+      lastModifiedBy: 79CEe5dKC6Ls5VbU
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+    _key: '!journal.pages!V9XAOE6EuQRhd0cW.9EiJCa41Bp8Pha5Z'
+  - sort: 950000
+    name: Running Combat
+    type: text
+    _id: jbFcmVZQ5gelTXcP
+    system: {}
+    title:
+      show: true
+      level: 1
+    image: {}
+    text:
+      format: 1
+      content: >-
+        <h2>Running Combats</h2><p>There's no turn order. The GM describes the
+        impending danger in the current situation and asks how the PCs respond,
+        or the PCs take action on their own. The
+        <em><strong>@UUID[.yzOUHnsPoxCyooSW#spotlight]{spotlight}</strong></em>
+        is often on the PCs, and the world's actions flow from what they do. You
+        make enemies more proactive by
+        <em><strong>@UUID[.WDm6CTveG7RjIgHI#foreshadow]{foreshadowing}</strong></em>
+        events and following up after, or spending
+        <em><strong>@UUID[.1hwVUU0jguFscQg1#suspense]{suspense}</strong></em> to
+        make impact moves. This results in a cinematic ebb and flow to
+        combat.</p><p>Battles occur in the theater of the mind, using the
+        group's shared imagination to keep track of each participant's fictional
+        positioning to map fiction to rules. However, using battlemaps or
+        sketching maps with minis or markers to track locations during a fight
+        works well, too. This helps organize the chaotic situation, makes sure
+        everyone gets time to shine, and keeps everyone's imagination aligned.
+        Don't get caught up in detailed tracking—update the map with big
+        changes.</p><h2>Combat Rulings</h2><p>You map the fiction to the rules
+        just like any scene, making rulings to fill in gaps. However, in combat
+        you'll often see the same scenarios come up, so for the sake of
+        consistency, some common rulings:</p><h3>Movement</h3><p>Moving usually
+        accompanies another action—the goal isn't just to get somewhere, but to
+        get there and do something. If an interesting obstacle blocks the way,
+        it needs an action roll.</p><h3>Melee</h3><p>Compare the weapons in play
+        and use common sense to resolve any issues. Most weapons are evenly
+        matched, but the roll might shift based on weapon styles, approach, and
+        goal. Most melee weapons use Brawn, while light, and fast weapons use
+        Agility. Dirty tricks call for Wits, but rarely work more than
+        once.</p><h3>Ranged</h3><p>Precision attacks roll <em>Agility</em>,
+        while thrown weapons use <em>Brawn</em> or <em>Agility</em> based on
+        weight and range. Charging an enemy with ranged weapons is reckless,
+        adding +1t or requiring a separate action to close the gap.</p><p>Impact
+        moves against ranged characters can be more difficult to come up with.
+        Losing or breaking weapons, running out of ammo, getting charged by the
+        enemy can always turn up the tension. Remember, you can also take
+        <em><strong>suspense</strong></em> and use it to target their allies as
+        well (giving them a
+        <em><strong>@UUID[Compendium.grimwild.gwce-journals.JournalEntry.YbuXwBYYNXIb670F.JournalEntryPage.3ZhPTONYCcx0olaV#defense-roll]{defense
+        roll}</strong></em>).</p><h3>Ranged and Casters in
+        Melee</h3><p>Spellcasting and precise ranged attacks demand focus, which
+        is tough with nearby threats. Inflict <em><strong>thorns</strong></em>
+        or call these rolls impossible depending on the immediate
+        danger.</p><h3>Armor</h3><p>Heavy armor and shields can be represented
+        by talents like Bulwark (pg. 65). Other armors remain as vantage and set
+        dressing—impacting rolls and thorns. A heavy breastplate may let a
+        barbarian make a defense roll with one less thorn, but it may also add
+        +1t when in a chase.</p><blockquote
+        style="border-style:solid;border-radius:8px"><h4>Optional Rule -
+        Armor</h4><p>If you want armor choice to stand out a bit more, consider
+        using the
+        @UUID[Compendium.grimwild.gwce-journals.JournalEntry.unDWj5tvsH6ZOLYD.JournalEntryPage.B7f2yRAHKyPk7hb5#armor]{armor
+        optional rule}.</p></blockquote><h3>Attacking Multiple</h3><p>PCs with
+        the vantage to do so, can target multiple dangerous foes with their
+        weapons at once, though this often depends on the foe's
+        @UUID[.zddvwn5XRnOMszDl]{tier} and comes with great risk adding thorns
+        or higher stakes with the attempt. Vantage often comes from sweeping
+        weapons, time on the battlefield, or incredible martial
+        skill.</p><h3>Defense Rolls</h3><p>The GM selects the stat to test.
+        Melee attacks can be dodged with Agility, blocked with Brawn, or
+        anticipated with Wits. Resisting mental and magical attacks is usually
+        Wits, while defending your stance and reputation, and keeping your nerve
+        is Presence. With warning and time to react, spells can allow a defense
+        roll with the connected stat.</p><h3>Vulnerabilities</h3><p>Exploiting a
+        vulnerability can lower thorns, drop 1d before rolling a pool (as if
+        with greater effect on a critical), or even bypass the need for a roll.
+        In some cases, finding a vulnerability is required to attack, as all
+        other rolls are deemed impossible.</p><h3>Enemy Magic</h3><p>Enemy magic
+        doesn't follow the same rules as PC magic. It manifests through GM moves
+        and is constrained only by the fiction.</p>
+    video:
+      controls: true
+      volume: 0.5
+    src: null
+    category: null
+    ownership:
+      default: -1
+      79CEe5dKC6Ls5VbU: 3
+    flags: {}
+    _stats:
+      coreVersion: '14.368'
+      systemId: grimwild
+      systemVersion: 0.5.3
+      createdTime: 1783192416054
+      modifiedTime: 1791655589673
+      lastModifiedBy: nF9qxzj59Qn6fNSn
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+    _key: '!journal.pages!V9XAOE6EuQRhd0cW.jbFcmVZQ5gelTXcP'
+folder: z0uw3ft6taJR5FcJ
+categories: []
+sort: 300000
+ownership:
+  default: 0
+  79CEe5dKC6Ls5VbU: 3
+flags: {}
+_stats:
+  coreVersion: '14.368'
+  systemId: grimwild
+  systemVersion: 0.5.3
+  createdTime: 1782769813302
+  modifiedTime: 1791746097241
+  lastModifiedBy: nF9qxzj59Qn6fNSn
+  compendiumSource: null
+  duplicateSource: null
+  exportSource: null
+_key: '!journal!V9XAOE6EuQRhd0cW'

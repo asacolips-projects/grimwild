@@ -1,0 +1,36 @@
+folder: ZGMEuAxFwlono6qL
+name: Bailiwick
+type: talent
+_id: EAvEzqBuwZwroyZz
+img: icons/magic/unholy/silhouette-light-fire-blue.webp
+system:
+  description: >-
+    <p>You are known to other witches by a title and the power inherent in your
+    magical domain—your Bailiwick. Choose 1 <strong>word of power</strong>. You
+    can burn any other word to use it, and on a critical, you regain the use of
+    all words.</p>
+  core: false
+  notes:
+    description: >-
+      <p><em>This isn’t just a specialty. You’re not just a witch that knows the
+      word for Star, you’re <strong>The Witch of Sacred Stars</strong>. This
+      means you have the responsibility of upholding it, as well.</em></p>
+    label: ''
+  trackers: []
+effects: []
+sort: 0
+ownership:
+  default: 0
+  79CEe5dKC6Ls5VbU: 3
+flags: {}
+_stats:
+  coreVersion: '14.368'
+  systemId: grimwild
+  systemVersion: 0.5.3
+  createdTime: 1783006858334
+  modifiedTime: 1791753730484
+  lastModifiedBy: nF9qxzj59Qn6fNSn
+  compendiumSource: null
+  duplicateSource: null
+  exportSource: null
+_key: '!items!EAvEzqBuwZwroyZz'

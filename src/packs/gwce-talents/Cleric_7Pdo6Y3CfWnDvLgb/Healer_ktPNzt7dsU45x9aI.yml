@@ -1,0 +1,41 @@
+folder: 7Pdo6Y3CfWnDvLgb
+name: Healer
+type: talent
+_id: ktPNzt7dsU45x9aI
+img: /icons/magic/life/heart-red-blue.webp
+system:
+  description: >-
+    <p>You take +1d when you heal someone, with magic or treatment. On a criti-
+    cal, both of you <em><strong>take spark</strong></em>. One time only, you
+    can bring back the recently dead. Common sense takes precedent.</p>
+  core: false
+  notes:
+    description: ''
+    label: ''
+  trackers:
+    - type: points
+      label: Resurrect (one time only)
+      points:
+        value: 1
+        max: 1
+        showSteps: true
+      pool:
+        diceNum: 0
+        powerPool: false
+effects: []
+sort: 0
+ownership:
+  default: 0
+  79CEe5dKC6Ls5VbU: 3
+flags: {}
+_stats:
+  coreVersion: '14.364'
+  systemId: grimwild
+  systemVersion: 0.5.3
+  createdTime: 1782662614866
+  modifiedTime: 1783008642660
+  lastModifiedBy: 79CEe5dKC6Ls5VbU
+  compendiumSource: null
+  duplicateSource: null
+  exportSource: null
+_key: '!items!ktPNzt7dsU45x9aI'

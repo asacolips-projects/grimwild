@@ -1,0 +1,157 @@
+name: Angel - Greater Blessings
+description: ''
+formula: 1d6
+results:
+  - name: ''
+    description: Your spirit is <b>anchored</b>; +1d when dropped next.
+    range:
+      - 1
+      - 1
+    _id: V1jxwAgzkUpaPs6v
+    type: text
+    img: null
+    weight: 1
+    drawn: false
+    flags: {}
+    _stats:
+      coreVersion: '14.364'
+      systemId: grimwild
+      systemVersion: 0.5.3
+      createdTime: 1783270821303
+      modifiedTime: 1783270821303
+      lastModifiedBy: 79CEe5dKC6Ls5VbU
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+    _key: '!tables.results!wR9LraEpiYnDEOgA.V1jxwAgzkUpaPs6v'
+  - name: ''
+    description: A past burden is <b>lifted</b> from your spirit.
+    range:
+      - 2
+      - 2
+    _id: V37KhMxMaTdZPNzf
+    type: text
+    img: null
+    weight: 1
+    drawn: false
+    flags: {}
+    _stats:
+      coreVersion: '14.364'
+      systemId: grimwild
+      systemVersion: 0.5.3
+      createdTime: 1783270821303
+      modifiedTime: 1783270821303
+      lastModifiedBy: 79CEe5dKC6Ls5VbU
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+    _key: '!tables.results!wR9LraEpiYnDEOgA.V37KhMxMaTdZPNzf'
+  - name: ''
+    description: You’re filled with an <b>unshakable resolve</b>.
+    range:
+      - 3
+      - 3
+    _id: 9YGyyIxCKnHpZga5
+    type: text
+    img: null
+    weight: 1
+    drawn: false
+    flags: {}
+    _stats:
+      coreVersion: '14.364'
+      systemId: grimwild
+      systemVersion: 0.5.3
+      createdTime: 1783270821303
+      modifiedTime: 1783270821303
+      lastModifiedBy: 79CEe5dKC6Ls5VbU
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+    _key: '!tables.results!wR9LraEpiYnDEOgA.9YGyyIxCKnHpZga5'
+  - name: ''
+    description: You <b>heal</b> all physical wounds.
+    range:
+      - 4
+      - 4
+    _id: ACiEEGjMkDHJupfV
+    type: text
+    img: null
+    weight: 1
+    drawn: false
+    flags: {}
+    _stats:
+      coreVersion: '14.364'
+      systemId: grimwild
+      systemVersion: 0.5.3
+      createdTime: 1783270821303
+      modifiedTime: 1783270821303
+      lastModifiedBy: 79CEe5dKC6Ls5VbU
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+    _key: '!tables.results!wR9LraEpiYnDEOgA.ACiEEGjMkDHJupfV'
+  - name: ''
+    description: Your mind is <b>calmed</b> and focused.
+    range:
+      - 5
+      - 5
+    _id: cpqQSMs8CGuLzMup
+    type: text
+    img: null
+    weight: 1
+    drawn: false
+    flags: {}
+    _stats:
+      coreVersion: '14.364'
+      systemId: grimwild
+      systemVersion: 0.5.3
+      createdTime: 1783270821303
+      modifiedTime: 1783270821303
+      lastModifiedBy: 79CEe5dKC6Ls5VbU
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+    _key: '!tables.results!wR9LraEpiYnDEOgA.cpqQSMs8CGuLzMup'
+  - name: ''
+    description: You have a <b>deep question</b> answered truthfully.
+    range:
+      - 6
+      - 6
+    _id: QFn5wvGnjocIXdab
+    type: text
+    img: null
+    weight: 1
+    drawn: false
+    flags: {}
+    _stats:
+      coreVersion: '14.364'
+      systemId: grimwild
+      systemVersion: 0.5.3
+      createdTime: 1783270821303
+      modifiedTime: 1783270821303
+      lastModifiedBy: 79CEe5dKC6Ls5VbU
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+    _key: '!tables.results!wR9LraEpiYnDEOgA.QFn5wvGnjocIXdab'
+folder: rgX8m8cC6QFqYNJB
+sort: 800000
+_id: wR9LraEpiYnDEOgA
+img: icons/svg/d20-grey.svg
+replacement: true
+displayRoll: true
+ownership:
+  default: 0
+  79CEe5dKC6Ls5VbU: 3
+flags: {}
+_stats:
+  coreVersion: '14.368'
+  systemId: grimwild
+  systemVersion: 0.5.3
+  createdTime: 1783270821303
+  modifiedTime: 1791749998254
+  lastModifiedBy: nF9qxzj59Qn6fNSn
+  compendiumSource: null
+  duplicateSource: null
+  exportSource: null
+_key: '!tables!wR9LraEpiYnDEOgA'

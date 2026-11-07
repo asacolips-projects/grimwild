@@ -1,0 +1,41 @@
+folder: sn8VqAYIcKps2nMc
+name: Sorcery
+type: talent
+_id: deKJoRmsSYYzDZov
+img: icons/magic/air/wind-vortex-swirl-red.webp
+system:
+  description: >-
+    <p>You have spellcasting ability. You roll Presence to cast and your magic
+    paths and techniques serve as touchstones. Your spells always carry
+    <em><strong>risk</strong></em> and require a roll. You can <em><strong>push
+    yourself</strong></em> to cast a potent spell. When casting, rolling two or
+    more 1s (thorns included) triggers a <strong>magical twist</strong>. Choose
+    any 4 of <strong>Magic Paths</strong> and <strong>Techniques</strong> (with
+    at least 1 of each) and how your twists manifest below, or talk to the GM to
+    make your own.</p><p>Magical twists: <em>wild surge (2d story roll for
+    effect)—take vex—curse (+1 suspense)</em>.</p><p>Magic paths:
+    <em>blood—decay—flame—frost—lux—shadow—stone—tempest</em>.</p><p><strong>Techniques:</strong>
+    <em>attack—create—defend—enhance—hinder—influence—transform—traverse.</em></p><hr><p><strong>GROWTH:</strong>
+    At levels 2, 4, and 6, gain a new magic path or technique.</p>
+  core: false
+  notes:
+    description: ''
+    label: ''
+  trackers: []
+effects: []
+sort: 0
+ownership:
+  default: 0
+  79CEe5dKC6Ls5VbU: 3
+flags: {}
+_stats:
+  coreVersion: '14.368'
+  systemId: grimwild
+  systemVersion: 0.5.3
+  createdTime: 1782662624506
+  modifiedTime: 1791753165756
+  lastModifiedBy: nF9qxzj59Qn6fNSn
+  compendiumSource: null
+  duplicateSource: null
+  exportSource: null
+_key: '!items!deKJoRmsSYYzDZov'

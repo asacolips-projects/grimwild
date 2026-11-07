@@ -1,0 +1,157 @@
+name: Tactician - When its plan fails, it...
+formula: 1d6
+description: ''
+results:
+  - range:
+      - 1
+      - 1
+    name: ''
+    description: redirects allies to regroup and recover.
+    _id: ef7uZoLQawPQAeRC
+    type: text
+    img: icons/svg/d20-black.svg
+    weight: 1
+    drawn: false
+    flags: {}
+    _stats:
+      coreVersion: '14.368'
+      systemId: grimwild
+      systemVersion: 0.5.3
+      createdTime: 1791833675033
+      modifiedTime: 1791833675033
+      lastModifiedBy: nF9qxzj59Qn6fNSn
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+    _key: '!tables.results!vhpw71Ocn0Ux3C6H.ef7uZoLQawPQAeRC'
+  - range:
+      - 2
+      - 2
+    name: ''
+    description: focuses on a single target to salvage the situation.
+    _id: oDDMhX67Rci8c756
+    type: text
+    img: icons/svg/d20-black.svg
+    weight: 1
+    drawn: false
+    flags: {}
+    _stats:
+      coreVersion: '14.368'
+      systemId: grimwild
+      systemVersion: 0.5.3
+      createdTime: 1791833675033
+      modifiedTime: 1791833675033
+      lastModifiedBy: nF9qxzj59Qn6fNSn
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+    _key: '!tables.results!vhpw71Ocn0Ux3C6H.oDDMhX67Rci8c756'
+  - range:
+      - 3
+      - 3
+    name: ''
+    description: orders a retreat to reevaluate the fight.
+    _id: VId25f5vq1knlBic
+    type: text
+    img: icons/svg/d20-black.svg
+    weight: 1
+    drawn: false
+    flags: {}
+    _stats:
+      coreVersion: '14.368'
+      systemId: grimwild
+      systemVersion: 0.5.3
+      createdTime: 1791833675033
+      modifiedTime: 1791833675033
+      lastModifiedBy: nF9qxzj59Qn6fNSn
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+    _key: '!tables.results!vhpw71Ocn0Ux3C6H.VId25f5vq1knlBic'
+  - range:
+      - 4
+      - 4
+    name: ''
+    description: shifts their attention to a new opportunity.
+    _id: uPF07OWAtlUI9teF
+    type: text
+    img: icons/svg/d20-black.svg
+    weight: 1
+    drawn: false
+    flags: {}
+    _stats:
+      coreVersion: '14.368'
+      systemId: grimwild
+      systemVersion: 0.5.3
+      createdTime: 1791833675033
+      modifiedTime: 1791833675033
+      lastModifiedBy: nF9qxzj59Qn6fNSn
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+    _key: '!tables.results!vhpw71Ocn0Ux3C6H.uPF07OWAtlUI9teF'
+  - range:
+      - 5
+      - 5
+    name: ''
+    description: sacrifices weaker assets to regain momentum.
+    _id: 8xxmY7vaffIgfiri
+    type: text
+    img: icons/svg/d20-black.svg
+    weight: 1
+    drawn: false
+    flags: {}
+    _stats:
+      coreVersion: '14.368'
+      systemId: grimwild
+      systemVersion: 0.5.3
+      createdTime: 1791833675033
+      modifiedTime: 1791833675033
+      lastModifiedBy: nF9qxzj59Qn6fNSn
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+    _key: '!tables.results!vhpw71Ocn0Ux3C6H.8xxmY7vaffIgfiri'
+  - range:
+      - 6
+      - 6
+    name: ''
+    description: lashes out in frustration, acting recklessly.
+    _id: jthRILzMetll67Pu
+    type: text
+    img: icons/svg/d20-black.svg
+    weight: 1
+    drawn: false
+    flags: {}
+    _stats:
+      coreVersion: '14.368'
+      systemId: grimwild
+      systemVersion: 0.5.3
+      createdTime: 1791833675033
+      modifiedTime: 1791833675033
+      lastModifiedBy: nF9qxzj59Qn6fNSn
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+    _key: '!tables.results!vhpw71Ocn0Ux3C6H.jthRILzMetll67Pu'
+folder: BMSPY8PlHXu4KoV4
+_id: vhpw71Ocn0Ux3C6H
+img: icons/svg/d20-grey.svg
+replacement: true
+displayRoll: true
+ownership:
+  default: 0
+  nF9qxzj59Qn6fNSn: 3
+flags: {}
+_stats:
+  coreVersion: '14.368'
+  systemId: grimwild
+  systemVersion: 0.5.3
+  createdTime: 1791833675033
+  modifiedTime: 1791833675050
+  lastModifiedBy: nF9qxzj59Qn6fNSn
+  compendiumSource: null
+  duplicateSource: null
+  exportSource: null
+sort: 300000
+_key: '!tables!vhpw71Ocn0Ux3C6H'

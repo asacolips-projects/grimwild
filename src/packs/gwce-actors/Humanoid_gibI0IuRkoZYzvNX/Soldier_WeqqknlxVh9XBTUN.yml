@@ -1,0 +1,139 @@
+name: Soldier
+type: monster
+img: icons/svg/poison.svg
+system:
+  biography: >-
+    <p>Disciplined, drilled, and armored, they’re just a single part of a
+    greater army. They follow orders as best they can, but won’t seek glory at
+    the expense of their life.</p>
+  notes: >-
+    <p>@Embed[Compendium.grimwild.gwce-crucibles.RollTable.tzD8b6WUvgasPQak]{Soldier
+    - Standing Orders}</p>
+  role: brute
+  tier: tough
+  traits:
+    - Martial training
+    - Vigilant
+  moves:
+    - Rush In
+    - Cover Ally
+    - Hack & Slash
+  desires:
+    - value: to do their job and climb up in rank
+      are: false
+    - value: to lose their life meaninglessly
+      are: false
+  sensories:
+    colors:
+      - name: Metal Gray
+        color: '#828682'
+      - name: Deep Green
+        color: '#223c0f'
+      - name: Burnished Bronze
+        color: '#9e6e1f'
+    sights: uniform armor or tabard, sharpened weapon
+    sounds: marching, shouted orders, shield clang
+    smells: oiled weapon, cold ration packs
+  pool:
+    diceNum: 0
+    powerPool: false
+  tables: []
+prototypeToken:
+  name: Soldier
+  displayName: 40
+  actorLink: false
+  width: 1
+  height: 1
+  depth: 1
+  texture:
+    src: icons/svg/poison.svg
+    anchorX: 0.5
+    anchorY: 0.5
+    fit: contain
+    scaleX: 1
+    scaleY: 1
+    tint: '#ffffff'
+    alphaThreshold: 0.75
+  lockRotation: false
+  rotation: 0
+  alpha: 1
+  disposition: -1
+  displayBars: 0
+  bar1:
+    attribute: health
+  bar2:
+    attribute: power
+  light:
+    negative: false
+    priority: 0
+    alpha: 0.5
+    angle: 360
+    bright: 0
+    color: null
+    coloration: 1
+    dim: 0
+    attenuation: 0.5
+    luminosity: 0.5
+    saturation: 0
+    contrast: 0
+    shadows: 0
+    animation:
+      type: null
+      speed: 5
+      intensity: 5
+      reverse: false
+    darkness:
+      min: 0
+      max: 1
+  sight:
+    enabled: false
+    range: 0
+    angle: 360
+    visionMode: basic
+    color: null
+    attenuation: 0.1
+    brightness: 0
+    saturation: 0
+    contrast: 0
+  detectionModes: {}
+  occludable:
+    radius: 0
+  ring:
+    enabled: false
+    colors:
+      ring: null
+      background: null
+    effects: 1
+    subject:
+      scale: 1
+      texture: null
+  turnMarker:
+    mode: 1
+    animation: null
+    src: null
+    disposition: false
+  movementAction: null
+  flags: {}
+  randomImg: false
+  appendNumber: false
+  prependAdjective: false
+items: []
+effects: []
+folder: gibI0IuRkoZYzvNX
+ownership:
+  default: 0
+  79CEe5dKC6Ls5VbU: 3
+flags: {}
+_stats:
+  coreVersion: '14.364'
+  systemId: grimwild
+  systemVersion: 0.5.3
+  createdTime: 1783200656300
+  modifiedTime: 1783350123104
+  lastModifiedBy: 79CEe5dKC6Ls5VbU
+  exportSource: null
+  compendiumSource: null
+  duplicateSource: null
+_id: WeqqknlxVh9XBTUN
+sort: 0
+_key: '!actors!WeqqknlxVh9XBTUN'

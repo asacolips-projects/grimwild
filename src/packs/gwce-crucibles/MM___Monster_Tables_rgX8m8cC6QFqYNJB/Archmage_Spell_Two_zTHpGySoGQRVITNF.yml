@@ -1,0 +1,289 @@
+name: Archmage Spell Two
+description: ''
+formula: 1d12
+results:
+  - name: ''
+    description: wave
+    range:
+      - 1
+      - 1
+    _id: 9Gbu4w8dO6fIwBrO
+    type: text
+    img: null
+    weight: 1
+    drawn: false
+    flags: {}
+    _stats:
+      coreVersion: '14.364'
+      systemId: grimwild
+      systemVersion: 0.5.3
+      createdTime: 1783270821328
+      modifiedTime: 1783270821328
+      lastModifiedBy: 79CEe5dKC6Ls5VbU
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+    _key: '!tables.results!zTHpGySoGQRVITNF.9Gbu4w8dO6fIwBrO'
+  - name: ''
+    description: gate
+    range:
+      - 2
+      - 2
+    _id: k3Zejb2IrXyVgwkS
+    type: text
+    img: null
+    weight: 1
+    drawn: false
+    flags: {}
+    _stats:
+      coreVersion: '14.364'
+      systemId: grimwild
+      systemVersion: 0.5.3
+      createdTime: 1783270821328
+      modifiedTime: 1783270821328
+      lastModifiedBy: 79CEe5dKC6Ls5VbU
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+    _key: '!tables.results!zTHpGySoGQRVITNF.k3Zejb2IrXyVgwkS'
+  - name: ''
+    description: mist
+    range:
+      - 3
+      - 3
+    _id: UXvDhdYPpTjJlCyQ
+    type: text
+    img: null
+    weight: 1
+    drawn: false
+    flags: {}
+    _stats:
+      coreVersion: '14.364'
+      systemId: grimwild
+      systemVersion: 0.5.3
+      createdTime: 1783270821328
+      modifiedTime: 1783270821328
+      lastModifiedBy: 79CEe5dKC6Ls5VbU
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+    _key: '!tables.results!zTHpGySoGQRVITNF.UXvDhdYPpTjJlCyQ'
+  - name: ''
+    description: chains
+    range:
+      - 4
+      - 4
+    _id: sbLpXOAj945QiBhc
+    type: text
+    img: null
+    weight: 1
+    drawn: false
+    flags: {}
+    _stats:
+      coreVersion: '14.364'
+      systemId: grimwild
+      systemVersion: 0.5.3
+      createdTime: 1783270821328
+      modifiedTime: 1783270821328
+      lastModifiedBy: 79CEe5dKC6Ls5VbU
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+    _key: '!tables.results!zTHpGySoGQRVITNF.sbLpXOAj945QiBhc'
+  - name: ''
+    description: doom
+    range:
+      - 5
+      - 5
+    _id: slrEoSmUQfP5Kid4
+    type: text
+    img: null
+    weight: 1
+    drawn: false
+    flags: {}
+    _stats:
+      coreVersion: '14.364'
+      systemId: grimwild
+      systemVersion: 0.5.3
+      createdTime: 1783270821328
+      modifiedTime: 1783270821328
+      lastModifiedBy: 79CEe5dKC6Ls5VbU
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+    _key: '!tables.results!zTHpGySoGQRVITNF.slrEoSmUQfP5Kid4'
+  - name: ''
+    description: explosion
+    range:
+      - 6
+      - 6
+    _id: 1gp3fvaO35GOzmI4
+    type: text
+    img: null
+    weight: 1
+    drawn: false
+    flags: {}
+    _stats:
+      coreVersion: '14.364'
+      systemId: grimwild
+      systemVersion: 0.5.3
+      createdTime: 1783270821328
+      modifiedTime: 1783270821328
+      lastModifiedBy: 79CEe5dKC6Ls5VbU
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+    _key: '!tables.results!zTHpGySoGQRVITNF.1gp3fvaO35GOzmI4'
+  - name: ''
+    description: wall
+    range:
+      - 7
+      - 7
+    _id: UPM8VZ0OjwwQSAho
+    type: text
+    img: null
+    weight: 1
+    drawn: false
+    flags: {}
+    _stats:
+      coreVersion: '14.364'
+      systemId: grimwild
+      systemVersion: 0.5.3
+      createdTime: 1783270821328
+      modifiedTime: 1783270821328
+      lastModifiedBy: 79CEe5dKC6Ls5VbU
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+    _key: '!tables.results!zTHpGySoGQRVITNF.UPM8VZ0OjwwQSAho'
+  - name: ''
+    description: shield
+    range:
+      - 8
+      - 8
+    _id: XSRnBmXlR3npLcGD
+    type: text
+    img: null
+    weight: 1
+    drawn: false
+    flags: {}
+    _stats:
+      coreVersion: '14.364'
+      systemId: grimwild
+      systemVersion: 0.5.3
+      createdTime: 1783270821328
+      modifiedTime: 1783270821328
+      lastModifiedBy: 79CEe5dKC6Ls5VbU
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+    _key: '!tables.results!zTHpGySoGQRVITNF.XSRnBmXlR3npLcGD'
+  - name: ''
+    description: stasis
+    range:
+      - 9
+      - 9
+    _id: g5pscHXGVc3wNr6W
+    type: text
+    img: null
+    weight: 1
+    drawn: false
+    flags: {}
+    _stats:
+      coreVersion: '14.364'
+      systemId: grimwild
+      systemVersion: 0.5.3
+      createdTime: 1783270821328
+      modifiedTime: 1783270821328
+      lastModifiedBy: 79CEe5dKC6Ls5VbU
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+    _key: '!tables.results!zTHpGySoGQRVITNF.g5pscHXGVc3wNr6W'
+  - name: ''
+    description: ray
+    range:
+      - 10
+      - 10
+    _id: rQMYPWPkW3llgmFd
+    type: text
+    img: null
+    weight: 1
+    drawn: false
+    flags: {}
+    _stats:
+      coreVersion: '14.364'
+      systemId: grimwild
+      systemVersion: 0.5.3
+      createdTime: 1783270821328
+      modifiedTime: 1783270821328
+      lastModifiedBy: 79CEe5dKC6Ls5VbU
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+    _key: '!tables.results!zTHpGySoGQRVITNF.rQMYPWPkW3llgmFd'
+  - name: ''
+    description: aura
+    range:
+      - 11
+      - 11
+    _id: rk0eAC90801tVRKF
+    type: text
+    img: null
+    weight: 1
+    drawn: false
+    flags: {}
+    _stats:
+      coreVersion: '14.364'
+      systemId: grimwild
+      systemVersion: 0.5.3
+      createdTime: 1783270821328
+      modifiedTime: 1783270821328
+      lastModifiedBy: 79CEe5dKC6Ls5VbU
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+    _key: '!tables.results!zTHpGySoGQRVITNF.rk0eAC90801tVRKF'
+  - name: ''
+    description: energy
+    range:
+      - 12
+      - 12
+    _id: 1LgB04T5GCxI0UEe
+    type: text
+    img: null
+    weight: 1
+    drawn: false
+    flags: {}
+    _stats:
+      coreVersion: '14.364'
+      systemId: grimwild
+      systemVersion: 0.5.3
+      createdTime: 1783270821328
+      modifiedTime: 1783270821328
+      lastModifiedBy: 79CEe5dKC6Ls5VbU
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+    _key: '!tables.results!zTHpGySoGQRVITNF.1LgB04T5GCxI0UEe'
+folder: rgX8m8cC6QFqYNJB
+sort: 1700000
+_id: zTHpGySoGQRVITNF
+img: icons/svg/d20-grey.svg
+replacement: true
+displayRoll: true
+ownership:
+  default: 0
+  79CEe5dKC6Ls5VbU: 3
+flags: {}
+_stats:
+  coreVersion: '14.368'
+  systemId: grimwild
+  systemVersion: 0.5.3
+  createdTime: 1783270821328
+  modifiedTime: 1791749998254
+  lastModifiedBy: nF9qxzj59Qn6fNSn
+  compendiumSource: null
+  duplicateSource: null
+  exportSource: null
+_key: '!tables!zTHpGySoGQRVITNF'

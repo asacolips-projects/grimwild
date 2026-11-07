@@ -1,0 +1,157 @@
+name: Rat Swarm - Nest
+description: ''
+formula: 1d6
+results:
+  - name: ''
+    description: <b>Diseased corpse pile</b>, left behind by the swarm.
+    range:
+      - 1
+      - 1
+    _id: MsAxl1jZYvPE760Y
+    type: text
+    img: null
+    weight: 1
+    drawn: false
+    flags: {}
+    _stats:
+      coreVersion: '14.364'
+      systemId: grimwild
+      systemVersion: 0.5.3
+      createdTime: 1783270821369
+      modifiedTime: 1783270821369
+      lastModifiedBy: 79CEe5dKC6Ls5VbU
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+    _key: '!tables.results!SOXNYZjnCc5GBLOq.MsAxl1jZYvPE760Y'
+  - name: ''
+    description: Sewer system connected to an <b>alchemy lab</b>.
+    range:
+      - 2
+      - 2
+    _id: 6gULrPSRpMXKy2XG
+    type: text
+    img: null
+    weight: 1
+    drawn: false
+    flags: {}
+    _stats:
+      coreVersion: '14.364'
+      systemId: grimwild
+      systemVersion: 0.5.3
+      createdTime: 1783270821369
+      modifiedTime: 1783270821369
+      lastModifiedBy: 79CEe5dKC6Ls5VbU
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+    _key: '!tables.results!SOXNYZjnCc5GBLOq.6gULrPSRpMXKy2XG'
+  - name: ''
+    description: <b>Collapsed granary</b> with spoiled grain.
+    range:
+      - 3
+      - 3
+    _id: POiAIANW48Mv8HYW
+    type: text
+    img: null
+    weight: 1
+    drawn: false
+    flags: {}
+    _stats:
+      coreVersion: '14.364'
+      systemId: grimwild
+      systemVersion: 0.5.3
+      createdTime: 1783270821369
+      modifiedTime: 1783270821369
+      lastModifiedBy: 79CEe5dKC6Ls5VbU
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+    _key: '!tables.results!SOXNYZjnCc5GBLOq.POiAIANW48Mv8HYW'
+  - name: ''
+    description: <b>Ruined orphanage</b>, now their breeding ground.
+    range:
+      - 4
+      - 4
+    _id: K0FvBH1NwxK17F2b
+    type: text
+    img: null
+    weight: 1
+    drawn: false
+    flags: {}
+    _stats:
+      coreVersion: '14.364'
+      systemId: grimwild
+      systemVersion: 0.5.3
+      createdTime: 1783270821369
+      modifiedTime: 1783270821369
+      lastModifiedBy: 79CEe5dKC6Ls5VbU
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+    _key: '!tables.results!SOXNYZjnCc5GBLOq.K0FvBH1NwxK17F2b'
+  - name: ''
+    description: <b>Hidden chamber</b> filled with gnawed treasures.
+    range:
+      - 5
+      - 5
+    _id: BDhMbR59yC2hvr4C
+    type: text
+    img: null
+    weight: 1
+    drawn: false
+    flags: {}
+    _stats:
+      coreVersion: '14.364'
+      systemId: grimwild
+      systemVersion: 0.5.3
+      createdTime: 1783270821369
+      modifiedTime: 1783270821369
+      lastModifiedBy: 79CEe5dKC6Ls5VbU
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+    _key: '!tables.results!SOXNYZjnCc5GBLOq.BDhMbR59yC2hvr4C'
+  - name: ''
+    description: Tunnels leading to a <b>plague cult’s hidden lair</b>.
+    range:
+      - 6
+      - 6
+    _id: kgAS5DzOZci16z0l
+    type: text
+    img: null
+    weight: 1
+    drawn: false
+    flags: {}
+    _stats:
+      coreVersion: '14.364'
+      systemId: grimwild
+      systemVersion: 0.5.3
+      createdTime: 1783270821369
+      modifiedTime: 1783270821369
+      lastModifiedBy: 79CEe5dKC6Ls5VbU
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+    _key: '!tables.results!SOXNYZjnCc5GBLOq.kgAS5DzOZci16z0l'
+folder: rgX8m8cC6QFqYNJB
+sort: 3800000
+_id: SOXNYZjnCc5GBLOq
+img: icons/svg/d20-grey.svg
+replacement: true
+displayRoll: true
+ownership:
+  default: 0
+  79CEe5dKC6Ls5VbU: 3
+flags: {}
+_stats:
+  coreVersion: '14.368'
+  systemId: grimwild
+  systemVersion: 0.5.3
+  createdTime: 1783270821369
+  modifiedTime: 1791749998255
+  lastModifiedBy: nF9qxzj59Qn6fNSn
+  compendiumSource: null
+  duplicateSource: null
+  exportSource: null
+_key: '!tables!SOXNYZjnCc5GBLOq'

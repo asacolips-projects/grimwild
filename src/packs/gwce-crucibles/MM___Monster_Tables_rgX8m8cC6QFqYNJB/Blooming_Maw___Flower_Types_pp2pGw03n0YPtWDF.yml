@@ -1,0 +1,167 @@
+name: Blooming Maw - Flower Types
+_id: pp2pGw03n0YPtWDF
+img: icons/svg/d20-grey.svg
+description: ''
+results:
+  - type: text
+    weight: 1
+    range:
+      - 1
+      - 1
+    _id: Qc23y6OkfPSlThar
+    name: ''
+    img: icons/svg/d20-black.svg
+    description: >-
+      <p><strong>Murkroot Orchid</strong>, that blinds its prey with inky
+      fluid.</p>
+    drawn: false
+    flags: {}
+    _stats:
+      coreVersion: '14.368'
+      systemId: grimwild
+      systemVersion: 0.5.3
+      createdTime: 1791752173244
+      modifiedTime: 1791752173244
+      lastModifiedBy: nF9qxzj59Qn6fNSn
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+    documentUuid: null
+    _key: '!tables.results!pp2pGw03n0YPtWDF.Qc23y6OkfPSlThar'
+  - type: text
+    weight: 1
+    range:
+      - 2
+      - 2
+    _id: Ml2AxxdGJjS3bjTu
+    name: ''
+    img: icons/svg/d20-black.svg
+    description: <p><strong>Lantern Tulip</strong>, glowing with bioluminescence.</p>
+    drawn: false
+    flags: {}
+    _stats:
+      coreVersion: '14.368'
+      systemId: grimwild
+      systemVersion: 0.5.3
+      createdTime: 1791752173244
+      modifiedTime: 1791752173244
+      lastModifiedBy: nF9qxzj59Qn6fNSn
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+    documentUuid: null
+    _key: '!tables.results!pp2pGw03n0YPtWDF.Ml2AxxdGJjS3bjTu'
+  - type: text
+    weight: 1
+    range:
+      - 3
+      - 3
+    _id: g35R2ObQWkufr4eL
+    name: ''
+    img: icons/svg/d20-black.svg
+    description: <p><strong>Boneblossom</strong>, growing on and animating a corpse.</p>
+    drawn: false
+    flags: {}
+    _stats:
+      coreVersion: '14.368'
+      systemId: grimwild
+      systemVersion: 0.5.3
+      createdTime: 1791752173244
+      modifiedTime: 1791752173244
+      lastModifiedBy: nF9qxzj59Qn6fNSn
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+    documentUuid: null
+    _key: '!tables.results!pp2pGw03n0YPtWDF.g35R2ObQWkufr4eL'
+  - type: text
+    weight: 1
+    range:
+      - 4
+      - 4
+    _id: ppeyKi69ixcOMzkl
+    name: ''
+    img: icons/svg/d20-black.svg
+    description: <p><strong>Whispervine</strong>, luring with the voice of loved ones.</p>
+    drawn: false
+    flags: {}
+    _stats:
+      coreVersion: '14.368'
+      systemId: grimwild
+      systemVersion: 0.5.3
+      createdTime: 1791752173244
+      modifiedTime: 1791752173244
+      lastModifiedBy: nF9qxzj59Qn6fNSn
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+    documentUuid: null
+    _key: '!tables.results!pp2pGw03n0YPtWDF.ppeyKi69ixcOMzkl'
+  - type: text
+    weight: 1
+    range:
+      - 5
+      - 5
+    _id: XaQVnhcq6FxaJRUA
+    name: ''
+    img: icons/svg/d20-black.svg
+    description: <p><strong>Dreampetal Poppy</strong>, putting those nearby to sleep.</p>
+    drawn: false
+    flags: {}
+    _stats:
+      coreVersion: '14.368'
+      systemId: grimwild
+      systemVersion: 0.5.3
+      createdTime: 1791752173244
+      modifiedTime: 1791752173244
+      lastModifiedBy: nF9qxzj59Qn6fNSn
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+    documentUuid: null
+    _key: '!tables.results!pp2pGw03n0YPtWDF.XaQVnhcq6FxaJRUA'
+  - type: text
+    weight: 1
+    range:
+      - 6
+      - 6
+    _id: V9WitDj2HQ7d7pib
+    name: ''
+    img: icons/svg/d20-black.svg
+    description: >-
+      <p><strong>Glassleaf</strong>, bursting into razor shards when
+      touched.</p>
+    drawn: false
+    flags: {}
+    _stats:
+      coreVersion: '14.368'
+      systemId: grimwild
+      systemVersion: 0.5.3
+      createdTime: 1791752173244
+      modifiedTime: 1791752173244
+      lastModifiedBy: nF9qxzj59Qn6fNSn
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+    documentUuid: null
+    _key: '!tables.results!pp2pGw03n0YPtWDF.V9WitDj2HQ7d7pib'
+replacement: true
+displayRoll: true
+folder: rgX8m8cC6QFqYNJB
+ownership:
+  default: 0
+  nF9qxzj59Qn6fNSn: 3
+flags: {}
+_stats:
+  coreVersion: '14.368'
+  systemId: grimwild
+  systemVersion: 0.5.3
+  createdTime: 1791752173244
+  modifiedTime: 1791752173244
+  lastModifiedBy: nF9qxzj59Qn6fNSn
+  compendiumSource: null
+  duplicateSource: null
+  exportSource: null
+formula: ''
+sort: 0
+_key: '!tables!pp2pGw03n0YPtWDF'

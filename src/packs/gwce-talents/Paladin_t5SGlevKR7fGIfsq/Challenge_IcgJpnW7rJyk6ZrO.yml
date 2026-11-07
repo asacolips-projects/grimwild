@@ -1,0 +1,44 @@
+folder: t5SGlevKR7fGIfsq
+name: Challenge
+type: talent
+img: icons/skills/melee/weapons-crossed-swords-yellow.webp
+system:
+  description: >-
+    <p>Once per session you can challenge a foe, taking +1d on all rolls against
+    them, but give them 1 <strong>suspense</strong>. If they do anything besides
+    confront you, you can <em><strong>interrupt</strong></em> it. The challenge
+    ends if an ally engages your foe, or your
+    <em><strong>interrupt</strong></em> result is less than a perfect. You can
+    <em><strong>push yourself</strong></em> to do it again.</p>
+  core: false
+  notes:
+    description: ''
+    label: ''
+  trackers:
+    - type: points
+      label: Free Activation
+      points:
+        value: 1
+        max: 1
+        showSteps: true
+      pool:
+        diceNum: 0
+        powerPool: false
+effects: []
+sort: 0
+ownership:
+  default: 0
+  79CEe5dKC6Ls5VbU: 3
+flags: {}
+_stats:
+  coreVersion: '14.368'
+  systemId: grimwild
+  systemVersion: 0.5.3
+  createdTime: 1782662620505
+  modifiedTime: 1791743835215
+  lastModifiedBy: nF9qxzj59Qn6fNSn
+  compendiumSource: null
+  duplicateSource: Item.lBvXtI0SkNrWe5x4
+  exportSource: null
+_id: IcgJpnW7rJyk6ZrO
+_key: '!items!IcgJpnW7rJyk6ZrO'

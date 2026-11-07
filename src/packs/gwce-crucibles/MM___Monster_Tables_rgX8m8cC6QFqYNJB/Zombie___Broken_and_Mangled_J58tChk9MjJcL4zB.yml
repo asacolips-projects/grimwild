@@ -1,0 +1,157 @@
+name: Zombie - Broken and Mangled
+description: ''
+formula: 1d6
+results:
+  - name: ''
+    description: <b>Missing jaw</b>, with tongue lolling with garbled moans.
+    range:
+      - 1
+      - 1
+    _id: 4oy48gVcTSQ2cYBU
+    type: text
+    img: null
+    weight: 1
+    drawn: false
+    flags: {}
+    _stats:
+      coreVersion: '14.364'
+      systemId: grimwild
+      systemVersion: 0.5.3
+      createdTime: 1783270821430
+      modifiedTime: 1783270821430
+      lastModifiedBy: 79CEe5dKC6Ls5VbU
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+    _key: '!tables.results!J58tChk9MjJcL4zB.4oy48gVcTSQ2cYBU'
+  - name: ''
+    description: <b>Leg shattered</b>, dragging behind as it limps.
+    range:
+      - 2
+      - 2
+    _id: BJuFyJFER5AGTJHC
+    type: text
+    img: null
+    weight: 1
+    drawn: false
+    flags: {}
+    _stats:
+      coreVersion: '14.364'
+      systemId: grimwild
+      systemVersion: 0.5.3
+      createdTime: 1783270821430
+      modifiedTime: 1783270821430
+      lastModifiedBy: 79CEe5dKC6Ls5VbU
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+    _key: '!tables.results!J58tChk9MjJcL4zB.BJuFyJFER5AGTJHC'
+  - name: ''
+    description: <b>Skull caved in</b> on one side, still oozing.
+    range:
+      - 3
+      - 3
+    _id: E1QnC9xI2k8xMqA2
+    type: text
+    img: null
+    weight: 1
+    drawn: false
+    flags: {}
+    _stats:
+      coreVersion: '14.364'
+      systemId: grimwild
+      systemVersion: 0.5.3
+      createdTime: 1783270821430
+      modifiedTime: 1783270821430
+      lastModifiedBy: 79CEe5dKC6Ls5VbU
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+    _key: '!tables.results!J58tChk9MjJcL4zB.E1QnC9xI2k8xMqA2'
+  - name: ''
+    description: <b>Fingers worn to the bone</b>, from scratching at walls.
+    range:
+      - 4
+      - 4
+    _id: Km9l5F0qzCqvsrTZ
+    type: text
+    img: null
+    weight: 1
+    drawn: false
+    flags: {}
+    _stats:
+      coreVersion: '14.364'
+      systemId: grimwild
+      systemVersion: 0.5.3
+      createdTime: 1783270821430
+      modifiedTime: 1783270821430
+      lastModifiedBy: 79CEe5dKC6Ls5VbU
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+    _key: '!tables.results!J58tChk9MjJcL4zB.Km9l5F0qzCqvsrTZ'
+  - name: ''
+    description: <b>Neck broken</b>, head bobbing as it shuffles forward.
+    range:
+      - 5
+      - 5
+    _id: ZbsParKls54GXpnq
+    type: text
+    img: null
+    weight: 1
+    drawn: false
+    flags: {}
+    _stats:
+      coreVersion: '14.364'
+      systemId: grimwild
+      systemVersion: 0.5.3
+      createdTime: 1783270821430
+      modifiedTime: 1783270821430
+      lastModifiedBy: 79CEe5dKC6Ls5VbU
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+    _key: '!tables.results!J58tChk9MjJcL4zB.ZbsParKls54GXpnq'
+  - name: ''
+    description: <b>Lower half missing</b>, dragging its body slowly along.
+    range:
+      - 6
+      - 6
+    _id: G1eidQnrF88sg5jY
+    type: text
+    img: null
+    weight: 1
+    drawn: false
+    flags: {}
+    _stats:
+      coreVersion: '14.364'
+      systemId: grimwild
+      systemVersion: 0.5.3
+      createdTime: 1783270821430
+      modifiedTime: 1783270821430
+      lastModifiedBy: 79CEe5dKC6Ls5VbU
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+    _key: '!tables.results!J58tChk9MjJcL4zB.G1eidQnrF88sg5jY'
+folder: rgX8m8cC6QFqYNJB
+sort: 7000000
+_id: J58tChk9MjJcL4zB
+img: icons/svg/d20-grey.svg
+replacement: true
+displayRoll: true
+ownership:
+  default: 0
+  79CEe5dKC6Ls5VbU: 3
+flags: {}
+_stats:
+  coreVersion: '14.368'
+  systemId: grimwild
+  systemVersion: 0.5.3
+  createdTime: 1783270821430
+  modifiedTime: 1791749998257
+  lastModifiedBy: nF9qxzj59Qn6fNSn
+  compendiumSource: null
+  duplicateSource: null
+  exportSource: null
+_key: '!tables!J58tChk9MjJcL4zB'

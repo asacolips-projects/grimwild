@@ -1,0 +1,38 @@
+folder: a1i3YtaLp7jouLob
+name: Kindred Spirits
+type: talent
+_id: cdf2AcTgQenZPIE7
+img: icons/magic/nature/plant-sprout-hands-vines.webp
+system:
+  description: >-
+    <p>You can speak with all manner of wild things—animals, plants, and
+    spirits. When you meet, they know of you. Make a story roll for their
+    attitude, or spend <em><strong>thread</strong></em> to establish a
+    <em><strong>bond</strong></em>. When you call, those nearby will answer. You
+    always sense the presence of hidden dangers in places teeming with
+    wildlife.</p>
+  core: false
+  notes:
+    description: >-
+      <p><em>Not everything communicates as we do—plants may only impart
+      feelings, spirits might need an offering to even appear. Change it up and
+      make the world feel alive.</em></p>
+    label: ''
+  trackers: []
+effects: []
+sort: 0
+ownership:
+  default: 0
+  79CEe5dKC6Ls5VbU: 3
+flags: {}
+_stats:
+  coreVersion: '14.368'
+  systemId: grimwild
+  systemVersion: 0.5.3
+  createdTime: 1782662616205
+  modifiedTime: 1791742878388
+  lastModifiedBy: nF9qxzj59Qn6fNSn
+  compendiumSource: null
+  duplicateSource: null
+  exportSource: null
+_key: '!items!cdf2AcTgQenZPIE7'

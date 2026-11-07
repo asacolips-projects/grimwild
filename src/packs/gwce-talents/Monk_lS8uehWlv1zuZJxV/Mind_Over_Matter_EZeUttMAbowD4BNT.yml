@@ -1,0 +1,33 @@
+folder: lS8uehWlv1zuZJxV
+name: Mind Over Matter
+type: talent
+_id: EZeUttMAbowD4BNT
+img: icons/magic/control/silhouette-aura-energy.webp
+system:
+  description: >-
+    <p>When you take a physical <em><strong>mark</strong></em>, you can instead
+    choose to take a mental <em><strong>mark</strong></em>. When you clear a
+    <em><strong>mark</strong></em> by rolling it, <em><strong>take
+    spark</strong></em>.</p>
+  core: false
+  notes:
+    description: ''
+    label: ''
+  trackers: []
+effects: []
+sort: 0
+ownership:
+  default: 0
+  79CEe5dKC6Ls5VbU: 3
+flags: {}
+_stats:
+  coreVersion: '14.368'
+  systemId: grimwild
+  systemVersion: 0.5.3
+  createdTime: 1782662618840
+  modifiedTime: 1791743579948
+  lastModifiedBy: nF9qxzj59Qn6fNSn
+  compendiumSource: null
+  duplicateSource: null
+  exportSource: null
+_key: '!items!EZeUttMAbowD4BNT'

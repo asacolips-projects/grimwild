@@ -1,0 +1,157 @@
+name: Kraken - How It Wants to Shape the Future
+description: ''
+formula: 1d6
+results:
+  - name: ''
+    description: <b>Send dreams</b> to coastal villagers to found a cult.
+    range:
+      - 1
+      - 1
+    _id: rsQkRfpUD7Pph9kF
+    type: text
+    img: null
+    weight: 1
+    drawn: false
+    flags: {}
+    _stats:
+      coreVersion: '14.364'
+      systemId: grimwild
+      systemVersion: 0.5.3
+      createdTime: 1783270821385
+      modifiedTime: 1783270821385
+      lastModifiedBy: 79CEe5dKC6Ls5VbU
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+    _key: '!tables.results!0GQhXXIKzJsnH999.rsQkRfpUD7Pph9kF'
+  - name: ''
+    description: <b>Spread a plague</b> to turn people into deep-sea thralls.
+    range:
+      - 2
+      - 2
+    _id: Dz0tIvaztQ5GiNnA
+    type: text
+    img: null
+    weight: 1
+    drawn: false
+    flags: {}
+    _stats:
+      coreVersion: '14.364'
+      systemId: grimwild
+      systemVersion: 0.5.3
+      createdTime: 1783270821385
+      modifiedTime: 1783270821385
+      lastModifiedBy: 79CEe5dKC6Ls5VbU
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+    _key: '!tables.results!0GQhXXIKzJsnH999.Dz0tIvaztQ5GiNnA'
+  - name: ''
+    description: Create a <b>new volcano</b> to house its fiery lair.
+    range:
+      - 3
+      - 3
+    _id: ZSrijDG3vghclRzQ
+    type: text
+    img: null
+    weight: 1
+    drawn: false
+    flags: {}
+    _stats:
+      coreVersion: '14.364'
+      systemId: grimwild
+      systemVersion: 0.5.3
+      createdTime: 1783270821385
+      modifiedTime: 1783270821385
+      lastModifiedBy: 79CEe5dKC6Ls5VbU
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+    _key: '!tables.results!0GQhXXIKzJsnH999.ZSrijDG3vghclRzQ'
+  - name: ''
+    description: <b>Steal memories</b> from sailors to gain their knowledge.
+    range:
+      - 4
+      - 4
+    _id: BnvjE5yZ9o5mSIJu
+    type: text
+    img: null
+    weight: 1
+    drawn: false
+    flags: {}
+    _stats:
+      coreVersion: '14.364'
+      systemId: grimwild
+      systemVersion: 0.5.3
+      createdTime: 1783270821385
+      modifiedTime: 1783270821385
+      lastModifiedBy: 79CEe5dKC6Ls5VbU
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+    _key: '!tables.results!0GQhXXIKzJsnH999.BnvjE5yZ9o5mSIJu'
+  - name: ''
+    description: <b>Manipulate pirates</b> to awaken its mate.
+    range:
+      - 5
+      - 5
+    _id: EJSIbWMZo9XCIPnE
+    type: text
+    img: null
+    weight: 1
+    drawn: false
+    flags: {}
+    _stats:
+      coreVersion: '14.364'
+      systemId: grimwild
+      systemVersion: 0.5.3
+      createdTime: 1783270821385
+      modifiedTime: 1783270821385
+      lastModifiedBy: 79CEe5dKC6Ls5VbU
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+    _key: '!tables.results!0GQhXXIKzJsnH999.EJSIbWMZo9XCIPnE'
+  - name: ''
+    description: <b>Sink an island</b> of people who no longer worship it.
+    range:
+      - 6
+      - 6
+    _id: aCqpuemRczOuvgzZ
+    type: text
+    img: null
+    weight: 1
+    drawn: false
+    flags: {}
+    _stats:
+      coreVersion: '14.364'
+      systemId: grimwild
+      systemVersion: 0.5.3
+      createdTime: 1783270821385
+      modifiedTime: 1783270821385
+      lastModifiedBy: 79CEe5dKC6Ls5VbU
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+    _key: '!tables.results!0GQhXXIKzJsnH999.aCqpuemRczOuvgzZ'
+folder: rgX8m8cC6QFqYNJB
+sort: 4800000
+_id: 0GQhXXIKzJsnH999
+img: icons/svg/d20-grey.svg
+replacement: true
+displayRoll: true
+ownership:
+  default: 0
+  79CEe5dKC6Ls5VbU: 3
+flags: {}
+_stats:
+  coreVersion: '14.368'
+  systemId: grimwild
+  systemVersion: 0.5.3
+  createdTime: 1783270821385
+  modifiedTime: 1791749998256
+  lastModifiedBy: nF9qxzj59Qn6fNSn
+  compendiumSource: null
+  duplicateSource: null
+  exportSource: null
+_key: '!tables!0GQhXXIKzJsnH999'

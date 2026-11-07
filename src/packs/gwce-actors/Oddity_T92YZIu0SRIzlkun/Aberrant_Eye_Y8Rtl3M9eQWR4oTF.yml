@@ -1,0 +1,296 @@
+name: Aberrant Eye
+type: monster
+_id: Y8Rtl3M9eQWR4oTF
+img: icons/svg/poison.svg
+system:
+  biography: >-
+    <p>A greedy and egotistical, hyper-intelligent hovering mass with an eye,
+    toothy maw, and a swarm of eye-tendrils protruding from it.</p>
+  notes: >-
+    <section class="grid
+    grid-2col"><div><p>@Embed[Compendium.grimwild.gwce-crucibles.RollTable.EjfeN9NlgY3f4R0t]{Aberrant
+    Eye - Vain Ploy of
+    Dominance}</p></div><div><p>@Embed[Compendium.grimwild.gwce-crucibles.RollTable.mHjq3PQv16G8G3uO]{Aberrant
+    Eye - Random Magic Rays}</p></div></section>
+  role: tactician
+  tier: boss
+  traits:
+    - Devilish intellect
+    - Telepathic
+    - Egotistical dealmaker
+  moves:
+    - Shoot Magic Ray
+    - Nullify Arcana
+    - Chomp Down
+  desires:
+    - value: to accumulate wealth and power
+      are: false
+    - value: to be underestimated or ignored
+      are: false
+  sensories:
+    colors:
+      - name: Astral Purple
+        color: '#5e1868'
+      - name: Veiny Red
+        color: '#a4362d'
+      - name: Hazy Yellow
+        color: '#997913'
+    sights: eye-stalks observing, wet fleshy texture
+    sounds: guttural murmuring, deep echoing voice in head
+    smells: burnt ozone, terrible breath masked by perfume
+  pool:
+    diceNum: 8
+    powerPool: false
+  tables: []
+prototypeToken:
+  name: Aberrant Eye
+  displayName: 40
+  actorLink: false
+  width: 1
+  height: 1
+  depth: 1
+  texture:
+    src: icons/svg/poison.svg
+    anchorX: 0.5
+    anchorY: 0.5
+    fit: contain
+    scaleX: 1
+    scaleY: 1
+    tint: '#ffffff'
+    alphaThreshold: 0.75
+  lockRotation: false
+  rotation: 0
+  alpha: 1
+  disposition: -1
+  displayBars: 0
+  bar1:
+    attribute: health
+  bar2:
+    attribute: power
+  light:
+    negative: false
+    priority: 0
+    alpha: 0.5
+    angle: 360
+    bright: 0
+    color: null
+    coloration: 1
+    dim: 0
+    attenuation: 0.5
+    luminosity: 0.5
+    saturation: 0
+    contrast: 0
+    shadows: 0
+    animation:
+      type: null
+      speed: 5
+      intensity: 5
+      reverse: false
+    darkness:
+      min: 0
+      max: 1
+  sight:
+    enabled: false
+    range: 0
+    angle: 360
+    visionMode: basic
+    color: null
+    attenuation: 0.1
+    brightness: 0
+    saturation: 0
+    contrast: 0
+  detectionModes: {}
+  occludable:
+    radius: 0
+  ring:
+    enabled: false
+    colors:
+      ring: null
+      background: null
+    effects: 1
+    subject:
+      scale: 1
+      texture: null
+  turnMarker:
+    mode: 1
+    animation: null
+    src: null
+    disposition: false
+  movementAction: null
+  flags: {}
+  randomImg: false
+  appendNumber: false
+  prependAdjective: false
+items:
+  - name: Main Body
+    type: challenge
+    _id: 54til5fLxAZx1SLB
+    img: icons/svg/item-bag.svg
+    system:
+      description: ''
+      roll:
+        diceNum: 0
+        powerPool: false
+      pool:
+        diceNum: 8
+        powerPool: false
+      suspense:
+        steps:
+          - true
+          - true
+      traits:
+        - All-sight
+        - Cunning
+      moves:
+        - Nullify Magic
+        - Eat Whole
+      failure: []
+    effects: []
+    folder: null
+    sort: 0
+    flags: {}
+    _stats:
+      coreVersion: '14.364'
+      systemId: grimwild
+      systemVersion: 0.5.3
+      lastModifiedBy: 79CEe5dKC6Ls5VbU
+      createdTime: 1783200935337
+      modifiedTime: 1783200935337
+      exportSource: null
+      compendiumSource: null
+      duplicateSource: null
+    ownership:
+      default: 0
+    _key: '!actors.items!Y8Rtl3M9eQWR4oTF.54til5fLxAZx1SLB'
+  - name: Tendrils
+    type: challenge
+    _id: 5CrKNfNhCarH6uqJ
+    img: icons/svg/item-bag.svg
+    system:
+      description: ''
+      roll:
+        diceNum: 0
+        powerPool: false
+      pool:
+        diceNum: 2
+        powerPool: false
+      suspense:
+        steps:
+          - true
+          - true
+      traits:
+        - Protects Body
+      moves:
+        - Random Ray
+      failure: []
+    effects: []
+    folder: null
+    sort: 0
+    flags: {}
+    _stats:
+      coreVersion: '14.364'
+      systemId: grimwild
+      systemVersion: 0.5.3
+      lastModifiedBy: 79CEe5dKC6Ls5VbU
+      createdTime: 1783200935337
+      modifiedTime: 1783200935337
+      exportSource: null
+      compendiumSource: null
+      duplicateSource: null
+    ownership:
+      default: 0
+    _key: '!actors.items!Y8Rtl3M9eQWR4oTF.5CrKNfNhCarH6uqJ'
+  - name: Tendrils
+    type: challenge
+    _id: k3B8twQYG3gzMcNm
+    img: icons/svg/item-bag.svg
+    system:
+      description: ''
+      roll:
+        diceNum: 0
+        powerPool: false
+      pool:
+        diceNum: 2
+        powerPool: false
+      suspense:
+        steps:
+          - true
+          - true
+      traits:
+        - Protects body
+      moves:
+        - Random ray
+      failure: []
+    effects: []
+    folder: null
+    sort: 0
+    flags: {}
+    _stats:
+      coreVersion: '14.364'
+      systemId: grimwild
+      systemVersion: 0.5.3
+      lastModifiedBy: 79CEe5dKC6Ls5VbU
+      createdTime: 1783200935337
+      modifiedTime: 1783200935337
+      exportSource: null
+      compendiumSource: null
+      duplicateSource: null
+    ownership:
+      default: 0
+    _key: '!actors.items!Y8Rtl3M9eQWR4oTF.k3B8twQYG3gzMcNm'
+  - name: Tendrils
+    type: challenge
+    _id: uj6p1BMNpheC99QL
+    img: icons/svg/item-bag.svg
+    system:
+      description: ''
+      roll:
+        diceNum: 0
+        powerPool: false
+      pool:
+        diceNum: 2
+        powerPool: false
+      suspense:
+        steps:
+          - true
+          - true
+      traits:
+        - Protects body
+      moves:
+        - Random ray
+      failure: []
+    effects: []
+    folder: null
+    sort: 0
+    flags: {}
+    _stats:
+      coreVersion: '14.364'
+      systemId: grimwild
+      systemVersion: 0.5.3
+      lastModifiedBy: 79CEe5dKC6Ls5VbU
+      createdTime: 1783200935337
+      modifiedTime: 1783200935337
+      exportSource: null
+      compendiumSource: null
+      duplicateSource: null
+    ownership:
+      default: 0
+    _key: '!actors.items!Y8Rtl3M9eQWR4oTF.uj6p1BMNpheC99QL'
+effects: []
+folder: T92YZIu0SRIzlkun
+ownership:
+  default: 0
+  79CEe5dKC6Ls5VbU: 3
+flags: {}
+_stats:
+  coreVersion: '14.364'
+  systemId: grimwild
+  systemVersion: 0.5.3
+  createdTime: 1783200935337
+  modifiedTime: 1783349496982
+  lastModifiedBy: 79CEe5dKC6Ls5VbU
+  exportSource: null
+  compendiumSource: null
+  duplicateSource: null
+sort: 100000
+_key: '!actors!Y8Rtl3M9eQWR4oTF'

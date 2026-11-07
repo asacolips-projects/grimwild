@@ -1,0 +1,57 @@
+name: Frenzy
+type: talent
+_id: pszYVqld3kjDK1Ss
+img: /icons/skills/wounds/injury-face-impact-orange.webp
+system:
+  description: >-
+    <p>Once per session, or when you get <em><strong>bloodied</strong></em> or
+    take <em><strong>vex</strong></em>, you can enter a frenzy for a scene.
+    During the frenzy, you can only take aggressive actions. You
+    also:</p><ul><li><p>take +1d for each <em><strong>mark</strong></em> you
+    have and ignore all thorns from <em><strong>harm</strong></em> and
+    <em><strong>marks</strong></em>.</p></li><li><p>always add
+    <strong>collateral damage</strong>: <em>send something flying—smash
+    mooks—throw insults—wreck something</em>.</p></li><li><p>always get a final
+    action when dropped. On a critical, ignore getting
+    dropped.</p></li></ul><p>You can only exit a frenzy when you: <em>see no
+    other challenger—get dropped—<strong>push
+    yourself</strong></em>.</p><hr><p><strong>GROWTH:</strong> At levels 3 and
+    6, gain 1 free activation of frenzy per
+    session.</p><p>@UUID[Compendium.grimwild.gwce-journals.JournalEntry.A3ABNLJphHplV8Nm.JournalEntryPage.EcK2fQRpY99iVSVh]{Berserker
+    Options: Frenzy Source &amp; Scars}</p>
+  core: false
+  notes:
+    description: >-
+      <p><em>Collateral damage acts as a narrow secondary effect, as a critical,
+      and shouldn’t be under- estimated. Treat this as a perfect on a related
+      roll against the environment or mooks, though this won’t always be a good
+      thing.</em></p>
+    label: ''
+  trackers:
+    - type: points
+      label: Free Activation
+      points:
+        value: 1
+        max: 1
+        showSteps: true
+      pool:
+        diceNum: 0
+        powerPool: false
+effects: []
+folder: DYRzmNaS808jSnxV
+sort: 100000
+ownership:
+  default: 0
+  79CEe5dKC6Ls5VbU: 3
+flags: {}
+_stats:
+  coreVersion: '14.364'
+  systemId: grimwild
+  systemVersion: 0.5.3
+  createdTime: 1782662613732
+  modifiedTime: 1783037713740
+  lastModifiedBy: 79CEe5dKC6Ls5VbU
+  compendiumSource: null
+  duplicateSource: null
+  exportSource: null
+_key: '!items!pszYVqld3kjDK1Ss'

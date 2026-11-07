@@ -1,7 +1,8 @@
 import fs from "node:fs";
 import path from "node:path";
-import { PACKAGE_ID, PACK_DEST, PACK_SRC } from "./constants.mjs";
-import { getFvttCommand, log, spawnCommand } from "./utils.mjs";
+import { compilePack, extractPack } from "@foundryvtt/foundryvtt-cli";
+import { PACK_DEST, PACK_SRC } from "./constants.mjs";
+import { log } from "./utils.mjs";
 
 /**
  * Delete the compiled compendium packs in dist/packs.
@@ -16,6 +17,10 @@ export async function cleanPacks() {
 
 /**
  * Compile each YAML pack folder in src/packs into a LevelDB pack in dist/packs.
+ *
+ * Uses the foundryvtt-cli API directly instead of shelling out to the fvtt
+ * binary. Recursion is required so that foldered packs (subdirectories with
+ * _Folder.yml files, e.g. the gwce packs) pick up their entries.
  * @returns {Promise<void>}
  */
 export async function compilePacks() {
@@ -23,20 +28,12 @@ export async function compilePacks() {
 		return fs.statSync(path.join(PACK_SRC, entry)).isDirectory();
 	});
 
-	const fvtt = getFvttCommand();
-
 	for (const folder of folders) {
-		const folderPath = path.join(PACK_SRC, folder);
-		await spawnCommand(fvtt, [
-			"package",
-			"--id", PACKAGE_ID,
-			"--type", "System",
-			"pack", folder,
-			"-c",
-			"--yaml",
-			"--in", folderPath,
-			"--out", PACK_DEST
-		]);
+		await compilePack(path.join(PACK_SRC, folder), path.join(PACK_DEST, folder), {
+			yaml: true,
+			recursive: true,
+			log: true
+		});
 	}
 
 	log("packs", `compiled ${folders.length} compendia`);
@@ -44,24 +41,22 @@ export async function compilePacks() {
 
 /**
  * Extract each compiled pack in dist/packs back to YAML in src/packs.
+ *
+ * The destination is cleaned first so removed entries don't linger, and the
+ * extracted directory structure mirrors the compendium folders.
  * @returns {Promise<void>}
  */
 export async function extractPacks() {
 	const entries = fs.readdirSync(PACK_DEST);
-	const fvtt = getFvttCommand();
 
 	for (const entry of entries) {
 		const stem = path.parse(entry).name;
-		await spawnCommand(fvtt, [
-			"package",
-			"--id", PACKAGE_ID,
-			"--type", "System",
-			"unpack", stem,
-			"-c",
-			"--yaml",
-			"--in", "dist/packs",
-			"--out", `src/packs/${stem}`
-		]);
+		await extractPack(path.join(PACK_DEST, entry), path.join(PACK_SRC, stem), {
+			yaml: true,
+			clean: true,
+			folders: true,
+			log: true
+		});
 	}
 
 	log("packs", `extracted ${entries.length} compendia`);

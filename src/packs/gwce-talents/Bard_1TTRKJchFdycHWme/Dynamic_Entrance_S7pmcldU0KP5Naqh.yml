@@ -1,0 +1,35 @@
+folder: 1TTRKJchFdycHWme
+name: Dynamic Entrance
+type: talent
+_id: S7pmcldU0KP5Naqh
+img: /icons/skills/movement/figure-running-gray.webp
+system:
+  description: >-
+    <p>You can always appear in a scene exactly where and when you want, limited
+    only by your physical capabilities. Make a 3d story roll to describe your
+    entrance and its effect.</p>
+  core: false
+  notes:
+    description: >-
+      <p><em>The player sets the scene for their entrance, allowing extra
+      details based on the result, almost as an action—even an interrupt,
+      itself. The GM will step in if something doesn’t fit.</em></p>
+    label: ''
+  trackers: []
+effects: []
+sort: 0
+ownership:
+  default: 0
+  79CEe5dKC6Ls5VbU: 3
+flags: {}
+_stats:
+  coreVersion: '14.364'
+  systemId: grimwild
+  systemVersion: 0.5.3
+  createdTime: 1782662612584
+  modifiedTime: 1783008036660
+  lastModifiedBy: 79CEe5dKC6Ls5VbU
+  compendiumSource: null
+  duplicateSource: null
+  exportSource: null
+_key: '!items!S7pmcldU0KP5Naqh'

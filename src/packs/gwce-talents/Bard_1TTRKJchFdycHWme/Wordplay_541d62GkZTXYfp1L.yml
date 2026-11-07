@@ -1,0 +1,33 @@
+folder: 1TTRKJchFdycHWme
+name: Wordplay
+type: talent
+_id: 541d62GkZTXYfp1L
+img: /icons/sundries/misc/teeth-dentures.webp
+system:
+  description: >-
+    <p>On a perfect defense roll when the situation allows for verbal quips, you
+    make them: <em>embarrass themself—let a secret slip—focus on or lose track
+    of you</em>. Once per session, you can goad the GM into spending
+    <em><strong>suspense</strong></em> on conversation.</p>
+  core: false
+  notes:
+    description: ''
+    label: ''
+  trackers: []
+effects: []
+sort: 0
+ownership:
+  default: 0
+  79CEe5dKC6Ls5VbU: 3
+flags: {}
+_stats:
+  coreVersion: '14.364'
+  systemId: grimwild
+  systemVersion: 0.5.3
+  createdTime: 1782662612588
+  modifiedTime: 1783008164428
+  lastModifiedBy: 79CEe5dKC6Ls5VbU
+  compendiumSource: null
+  duplicateSource: null
+  exportSource: null
+_key: '!items!541d62GkZTXYfp1L'

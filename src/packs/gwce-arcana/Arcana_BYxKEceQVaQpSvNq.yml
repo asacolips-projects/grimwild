@@ -1,0 +1,31 @@
+name: Arcana
+type: arcana
+_id: BYxKEceQVaQpSvNq
+img: icons/svg/item-bag.svg
+system:
+  description: ''
+  tier: minor
+  notes:
+    description: ''
+    label: ''
+  trackers: []
+  touchstones: ''
+  limitations: ''
+effects: []
+folder: null
+sort: 0
+ownership:
+  default: 0
+  79CEe5dKC6Ls5VbU: 3
+flags: {}
+_stats:
+  coreVersion: '14.364'
+  systemId: grimwild
+  systemVersion: 0.5.3
+  createdTime: 1783137774344
+  modifiedTime: 1783137776455
+  lastModifiedBy: 79CEe5dKC6Ls5VbU
+  compendiumSource: null
+  duplicateSource: null
+  exportSource: null
+_key: '!items!BYxKEceQVaQpSvNq'

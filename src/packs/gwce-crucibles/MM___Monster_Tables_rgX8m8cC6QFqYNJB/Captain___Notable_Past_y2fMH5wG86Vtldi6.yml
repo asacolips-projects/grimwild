@@ -1,0 +1,157 @@
+name: Captain - Notable Past
+description: ''
+formula: 1d6
+results:
+  - name: ''
+    description: <b>Sole survivor</b> of a catastrophic naval disaster.
+    range:
+      - 1
+      - 1
+    _id: QRDDVlXUbeSqTceN
+    type: text
+    img: null
+    weight: 1
+    drawn: false
+    flags: {}
+    _stats:
+      coreVersion: '14.364'
+      systemId: grimwild
+      systemVersion: 0.5.3
+      createdTime: 1783270821338
+      modifiedTime: 1783270821338
+      lastModifiedBy: 79CEe5dKC6Ls5VbU
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+    _key: '!tables.results!y2fMH5wG86Vtldi6.QRDDVlXUbeSqTceN'
+  - name: ''
+    description: <b>Former pirate</b>, after proving themself at sea.
+    range:
+      - 2
+      - 2
+    _id: aa939wlTlusIJGdK
+    type: text
+    img: null
+    weight: 1
+    drawn: false
+    flags: {}
+    _stats:
+      coreVersion: '14.364'
+      systemId: grimwild
+      systemVersion: 0.5.3
+      createdTime: 1783270821338
+      modifiedTime: 1783270821338
+      lastModifiedBy: 79CEe5dKC6Ls5VbU
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+    _key: '!tables.results!y2fMH5wG86Vtldi6.aa939wlTlusIJGdK'
+  - name: ''
+    description: <b>Exiled noble</b>, cast out after leading rebels.
+    range:
+      - 3
+      - 3
+    _id: qKJfQoKTwWnOEpZw
+    type: text
+    img: null
+    weight: 1
+    drawn: false
+    flags: {}
+    _stats:
+      coreVersion: '14.364'
+      systemId: grimwild
+      systemVersion: 0.5.3
+      createdTime: 1783270821338
+      modifiedTime: 1783270821338
+      lastModifiedBy: 79CEe5dKC6Ls5VbU
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+    _key: '!tables.results!y2fMH5wG86Vtldi6.qKJfQoKTwWnOEpZw'
+  - name: ''
+    description: <b>Kin to a legendary hero</b>, forever in that shadow.
+    range:
+      - 4
+      - 4
+    _id: lfAViBT1ShFfr2Nf
+    type: text
+    img: null
+    weight: 1
+    drawn: false
+    flags: {}
+    _stats:
+      coreVersion: '14.364'
+      systemId: grimwild
+      systemVersion: 0.5.3
+      createdTime: 1783270821338
+      modifiedTime: 1783270821338
+      lastModifiedBy: 79CEe5dKC6Ls5VbU
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+    _key: '!tables.results!y2fMH5wG86Vtldi6.lfAViBT1ShFfr2Nf'
+  - name: ''
+    description: <b>Bearer of a cursed banner</b>, said to bring doom.
+    range:
+      - 5
+      - 5
+    _id: sQy1lPNIoEV5SMqx
+    type: text
+    img: null
+    weight: 1
+    drawn: false
+    flags: {}
+    _stats:
+      coreVersion: '14.364'
+      systemId: grimwild
+      systemVersion: 0.5.3
+      createdTime: 1783270821338
+      modifiedTime: 1783270821338
+      lastModifiedBy: 79CEe5dKC6Ls5VbU
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+    _key: '!tables.results!y2fMH5wG86Vtldi6.sQy1lPNIoEV5SMqx'
+  - name: ''
+    description: Captured and <b>escaped</b> from enemy hands.
+    range:
+      - 6
+      - 6
+    _id: kKNtCNrnx3yaipSI
+    type: text
+    img: null
+    weight: 1
+    drawn: false
+    flags: {}
+    _stats:
+      coreVersion: '14.364'
+      systemId: grimwild
+      systemVersion: 0.5.3
+      createdTime: 1783270821338
+      modifiedTime: 1783270821338
+      lastModifiedBy: 79CEe5dKC6Ls5VbU
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+    _key: '!tables.results!y2fMH5wG86Vtldi6.kKNtCNrnx3yaipSI'
+folder: rgX8m8cC6QFqYNJB
+sort: 2100000
+_id: y2fMH5wG86Vtldi6
+img: icons/svg/d20-grey.svg
+replacement: true
+displayRoll: true
+ownership:
+  default: 0
+  79CEe5dKC6Ls5VbU: 3
+flags: {}
+_stats:
+  coreVersion: '14.368'
+  systemId: grimwild
+  systemVersion: 0.5.3
+  createdTime: 1783270821338
+  modifiedTime: 1791749998255
+  lastModifiedBy: nF9qxzj59Qn6fNSn
+  compendiumSource: null
+  duplicateSource: null
+  exportSource: null
+_key: '!tables!y2fMH5wG86Vtldi6'

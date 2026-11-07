@@ -1,0 +1,20 @@
+type: JournalEntry
+folder: null
+name: 'Chapter 3: GM Toolkit'
+color: null
+sorting: a
+_id: z0uw3ft6taJR5FcJ
+description: ''
+sort: 0
+flags: {}
+_stats:
+  coreVersion: '14.368'
+  systemId: grimwild
+  systemVersion: 0.5.3
+  createdTime: 1791746058562
+  modifiedTime: 1791746058562
+  lastModifiedBy: nF9qxzj59Qn6fNSn
+  compendiumSource: null
+  duplicateSource: null
+  exportSource: null
+_key: '!folders!z0uw3ft6taJR5FcJ'

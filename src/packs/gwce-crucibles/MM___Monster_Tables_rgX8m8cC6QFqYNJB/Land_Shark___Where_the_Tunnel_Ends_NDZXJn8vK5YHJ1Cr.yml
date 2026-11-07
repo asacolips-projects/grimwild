@@ -1,0 +1,163 @@
+name: Land Shark - Where the Tunnel Ends
+_id: NDZXJn8vK5YHJ1Cr
+img: icons/svg/d20-grey.svg
+description: ''
+results:
+  - type: text
+    weight: 1
+    range:
+      - 1
+      - 1
+    _id: NeIPiyCPKVmbrQWK
+    name: ''
+    img: icons/svg/d20-black.svg
+    description: <p><strong>A forgotten city</strong>, from an unknown civilization</p>
+    drawn: false
+    flags: {}
+    _stats:
+      coreVersion: '14.368'
+      systemId: grimwild
+      systemVersion: 0.5.3
+      createdTime: 1791749998179
+      modifiedTime: 1791749998179
+      lastModifiedBy: nF9qxzj59Qn6fNSn
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+    documentUuid: null
+    _key: '!tables.results!NDZXJn8vK5YHJ1Cr.NeIPiyCPKVmbrQWK'
+  - type: text
+    weight: 1
+    range:
+      - 2
+      - 2
+    _id: 6eSf7vifcJ9DEAhG
+    name: ''
+    img: icons/svg/d20-black.svg
+    description: <p><strong>A vast cavern</strong>, illuminated by pulsing light.</p>
+    drawn: false
+    flags: {}
+    _stats:
+      coreVersion: '14.368'
+      systemId: grimwild
+      systemVersion: 0.5.3
+      createdTime: 1791749998179
+      modifiedTime: 1791749998179
+      lastModifiedBy: nF9qxzj59Qn6fNSn
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+    documentUuid: null
+    _key: '!tables.results!NDZXJn8vK5YHJ1Cr.6eSf7vifcJ9DEAhG'
+  - type: text
+    weight: 1
+    range:
+      - 3
+      - 3
+    _id: NPH6jWiTDGdJdaVA
+    name: ''
+    img: icons/svg/d20-black.svg
+    description: <p><strong>A maze of roots</strong>, below a truly ancient tree.</p>
+    drawn: false
+    flags: {}
+    _stats:
+      coreVersion: '14.368'
+      systemId: grimwild
+      systemVersion: 0.5.3
+      createdTime: 1791749998179
+      modifiedTime: 1791749998179
+      lastModifiedBy: nF9qxzj59Qn6fNSn
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+    documentUuid: null
+    _key: '!tables.results!NDZXJn8vK5YHJ1Cr.NPH6jWiTDGdJdaVA'
+  - type: text
+    weight: 1
+    range:
+      - 4
+      - 4
+    _id: 3uzPCOfQ6goiJob7
+    name: ''
+    img: icons/svg/d20-black.svg
+    description: <p><strong>An abandoned mine</strong>, that met a disastrous end.</p>
+    drawn: false
+    flags: {}
+    _stats:
+      coreVersion: '14.368'
+      systemId: grimwild
+      systemVersion: 0.5.3
+      createdTime: 1791749998179
+      modifiedTime: 1791749998179
+      lastModifiedBy: nF9qxzj59Qn6fNSn
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+    documentUuid: null
+    _key: '!tables.results!NDZXJn8vK5YHJ1Cr.3uzPCOfQ6goiJob7'
+  - type: text
+    weight: 1
+    range:
+      - 5
+      - 5
+    _id: NvJ7zkd6EZ9T0WWc
+    name: ''
+    img: icons/svg/d20-black.svg
+    description: <p><strong>A hidden homestead</strong>, clearly still used by someone.</p>
+    drawn: false
+    flags: {}
+    _stats:
+      coreVersion: '14.368'
+      systemId: grimwild
+      systemVersion: 0.5.3
+      createdTime: 1791749998179
+      modifiedTime: 1791749998179
+      lastModifiedBy: nF9qxzj59Qn6fNSn
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+    documentUuid: null
+    _key: '!tables.results!NDZXJn8vK5YHJ1Cr.NvJ7zkd6EZ9T0WWc'
+  - type: text
+    weight: 1
+    range:
+      - 6
+      - 6
+    _id: VcrxrCRAvKsmO33f
+    name: ''
+    img: icons/svg/d20-black.svg
+    description: <p><strong>A fungal network</strong>, illuminated by its mushrooms.</p>
+    drawn: false
+    flags: {}
+    _stats:
+      coreVersion: '14.368'
+      systemId: grimwild
+      systemVersion: 0.5.3
+      createdTime: 1791749998179
+      modifiedTime: 1791749998179
+      lastModifiedBy: nF9qxzj59Qn6fNSn
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+    documentUuid: null
+    _key: '!tables.results!NDZXJn8vK5YHJ1Cr.VcrxrCRAvKsmO33f'
+replacement: true
+displayRoll: true
+folder: rgX8m8cC6QFqYNJB
+ownership:
+  default: 0
+  nF9qxzj59Qn6fNSn: 3
+flags: {}
+_stats:
+  coreVersion: '14.368'
+  systemId: grimwild
+  systemVersion: 0.5.3
+  createdTime: 1791749998179
+  modifiedTime: 1791749998254
+  lastModifiedBy: nF9qxzj59Qn6fNSn
+  compendiumSource: null
+  duplicateSource: null
+  exportSource: null
+formula: ''
+sort: 600000
+_key: '!tables!NDZXJn8vK5YHJ1Cr'

@@ -1,0 +1,32 @@
+folder: t5SGlevKR7fGIfsq
+name: Aegis
+type: talent
+_id: dDgkXX8g7hHB7sjS
+img: icons/skills/melee/shield-block-bash-yellow.webp
+system:
+  description: >-
+    <p>You take +1d when making a defense roll to protect yourself from physical
+    harm. On a perfect, you can also: <em>keep their attention on you—rekindle
+    hope in an ally— inspire action in a bystander</em>.</p>
+  core: false
+  notes:
+    description: ''
+    label: ''
+  trackers: []
+effects: []
+sort: 0
+ownership:
+  default: 0
+  79CEe5dKC6Ls5VbU: 3
+flags: {}
+_stats:
+  coreVersion: '14.368'
+  systemId: grimwild
+  systemVersion: 0.5.3
+  createdTime: 1782662620504
+  modifiedTime: 1791743747770
+  lastModifiedBy: nF9qxzj59Qn6fNSn
+  compendiumSource: null
+  duplicateSource: null
+  exportSource: null
+_key: '!items!dDgkXX8g7hHB7sjS'

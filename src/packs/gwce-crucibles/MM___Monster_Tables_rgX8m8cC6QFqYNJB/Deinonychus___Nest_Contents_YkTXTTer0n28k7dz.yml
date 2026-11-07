@@ -1,0 +1,157 @@
+name: Deinonychus - Nest Contents
+description: ''
+formula: 1d6
+results:
+  - name: ''
+    description: A <b>couple of eggs</b>, with something moving inside.
+    range:
+      - 1
+      - 1
+    _id: 97QfajlJdfkZv46K
+    type: text
+    img: null
+    weight: 1
+    drawn: false
+    flags: {}
+    _stats:
+      coreVersion: '14.364'
+      systemId: grimwild
+      systemVersion: 0.5.3
+      createdTime: 1783270821358
+      modifiedTime: 1783270821358
+      lastModifiedBy: 79CEe5dKC6Ls5VbU
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+    _key: '!tables.results!YkTXTTer0n28k7dz.97QfajlJdfkZv46K'
+  - name: ''
+    description: Shredded and bloody <b>banner of a local settlement</b>.
+    range:
+      - 2
+      - 2
+    _id: JhJcHePX9VFy9olj
+    type: text
+    img: null
+    weight: 1
+    drawn: false
+    flags: {}
+    _stats:
+      coreVersion: '14.364'
+      systemId: grimwild
+      systemVersion: 0.5.3
+      createdTime: 1783270821358
+      modifiedTime: 1783270821358
+      lastModifiedBy: 79CEe5dKC6Ls5VbU
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+    _key: '!tables.results!YkTXTTer0n28k7dz.JhJcHePX9VFy9olj'
+  - name: ''
+    description: <b>Half-buried cache</b> of coins and jewels.
+    range:
+      - 3
+      - 3
+    _id: IeLdPeUnlSls7kuq
+    type: text
+    img: null
+    weight: 1
+    drawn: false
+    flags: {}
+    _stats:
+      coreVersion: '14.364'
+      systemId: grimwild
+      systemVersion: 0.5.3
+      createdTime: 1783270821358
+      modifiedTime: 1783270821358
+      lastModifiedBy: 79CEe5dKC6Ls5VbU
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+    _key: '!tables.results!YkTXTTer0n28k7dz.IeLdPeUnlSls7kuq'
+  - name: ''
+    description: Sachel of a partially <b>rotted scroll and wax tablet</b>.
+    range:
+      - 4
+      - 4
+    _id: tRjGWmgUnxZJxmvg
+    type: text
+    img: null
+    weight: 1
+    drawn: false
+    flags: {}
+    _stats:
+      coreVersion: '14.364'
+      systemId: grimwild
+      systemVersion: 0.5.3
+      createdTime: 1783270821358
+      modifiedTime: 1783270821358
+      lastModifiedBy: 79CEe5dKC6Ls5VbU
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+    _key: '!tables.results!YkTXTTer0n28k7dz.tRjGWmgUnxZJxmvg'
+  - name: ''
+    description: A strangely organized pyramid of <b>bones and skulls</b>.
+    range:
+      - 5
+      - 5
+    _id: 1pbYnnfqoC6c6ZyA
+    type: text
+    img: null
+    weight: 1
+    drawn: false
+    flags: {}
+    _stats:
+      coreVersion: '14.364'
+      systemId: grimwild
+      systemVersion: 0.5.3
+      createdTime: 1783270821358
+      modifiedTime: 1783270821358
+      lastModifiedBy: 79CEe5dKC6Ls5VbU
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+    _key: '!tables.results!YkTXTTer0n28k7dz.1pbYnnfqoC6c6ZyA'
+  - name: ''
+    description: <b>Its next meal</b>, injured but kept alive—for now.
+    range:
+      - 6
+      - 6
+    _id: F8MCLmRHQaJslTlS
+    type: text
+    img: null
+    weight: 1
+    drawn: false
+    flags: {}
+    _stats:
+      coreVersion: '14.364'
+      systemId: grimwild
+      systemVersion: 0.5.3
+      createdTime: 1783270821358
+      modifiedTime: 1783270821358
+      lastModifiedBy: 79CEe5dKC6Ls5VbU
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+    _key: '!tables.results!YkTXTTer0n28k7dz.F8MCLmRHQaJslTlS'
+folder: rgX8m8cC6QFqYNJB
+sort: 3200000
+_id: YkTXTTer0n28k7dz
+img: icons/svg/d20-grey.svg
+replacement: true
+displayRoll: true
+ownership:
+  default: 0
+  79CEe5dKC6Ls5VbU: 3
+flags: {}
+_stats:
+  coreVersion: '14.368'
+  systemId: grimwild
+  systemVersion: 0.5.3
+  createdTime: 1783270821358
+  modifiedTime: 1791749998255
+  lastModifiedBy: nF9qxzj59Qn6fNSn
+  compendiumSource: null
+  duplicateSource: null
+  exportSource: null
+_key: '!tables!YkTXTTer0n28k7dz'

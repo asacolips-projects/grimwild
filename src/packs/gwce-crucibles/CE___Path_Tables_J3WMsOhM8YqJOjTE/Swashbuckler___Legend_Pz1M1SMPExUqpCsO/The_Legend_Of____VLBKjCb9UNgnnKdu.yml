@@ -1,0 +1,71 @@
+name: The Legend Of...
+_id: VLBKjCb9UNgnnKdu
+img: icons/svg/d20-grey.svg
+description: ''
+results:
+  - type: document
+    weight: 1
+    range:
+      - 1
+      - 1
+    name: Swashbuckler Legend 1
+    img: icons/svg/d20-grey.svg
+    documentUuid: Compendium.grimwild.gwce-crucibles.RollTable.VTmmaa2Rl75pld2t
+    _id: gPu7uOZW7vqyq8g2
+    description: ''
+    drawn: false
+    flags: {}
+    _stats:
+      coreVersion: '14.364'
+      systemId: grimwild
+      systemVersion: 0.5.3
+      createdTime: 1783007647568
+      modifiedTime: 1783007647568
+      lastModifiedBy: 79CEe5dKC6Ls5VbU
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+    _key: '!tables.results!VLBKjCb9UNgnnKdu.gPu7uOZW7vqyq8g2'
+  - type: document
+    weight: 1
+    range:
+      - 1
+      - 1
+    name: Swashbuckler Legend 2
+    img: icons/svg/d20-grey.svg
+    documentUuid: Compendium.grimwild.gwce-crucibles.RollTable.dVl8sgrUsB7UcJlj
+    _id: vnv9UAWjZvU40jiy
+    description: ''
+    drawn: false
+    flags: {}
+    _stats:
+      coreVersion: '14.364'
+      systemId: grimwild
+      systemVersion: 0.5.3
+      createdTime: 1783007647568
+      modifiedTime: 1783007647568
+      lastModifiedBy: 79CEe5dKC6Ls5VbU
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+    _key: '!tables.results!VLBKjCb9UNgnnKdu.vnv9UAWjZvU40jiy'
+replacement: true
+displayRoll: false
+folder: Pz1M1SMPExUqpCsO
+ownership:
+  default: 0
+  79CEe5dKC6Ls5VbU: 3
+flags: {}
+_stats:
+  coreVersion: '14.368'
+  systemId: grimwild
+  systemVersion: 0.5.3
+  createdTime: 1783007647568
+  modifiedTime: 1791748589327
+  lastModifiedBy: nF9qxzj59Qn6fNSn
+  exportSource: null
+  compendiumSource: null
+  duplicateSource: null
+formula: 1d1
+sort: 300000
+_key: '!tables!VLBKjCb9UNgnnKdu'

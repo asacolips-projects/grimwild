@@ -1,0 +1,139 @@
+name: Angel
+type: monster
+img: icons/svg/poison.svg
+system:
+  biography: >-
+    <p>Radiant and serene, it's bound to divine purpose, walking the mortal
+    world to guide, guard, and judge. It inspires awe and dread in those who
+    bear guilt.</p>
+  notes: >-
+    <p>@Embed[Compendium.grimwild.gwce-crucibles.RollTable.wR9LraEpiYnDEOgA]{Angel
+    - Greater Blessings}</p>
+  role: overseer
+  tier: elite
+  traits:
+    - True speech
+    - Holy radiance
+  moves:
+    - Holy Smite
+    - Bless Goodhearted
+    - Prevent Harm
+  desires:
+    - value: to carry out its predestined divine purpose
+      are: false
+    - value: evil to take root in the hearts of goodness
+      are: false
+  sensories:
+    colors:
+      - name: Luminous Pearl
+        color: '#fbf8fb'
+      - name: Sky Blue
+        color: '#7dc9f0'
+      - name: Soft Gold
+        color: '#f7d495'
+    sights: feathered wings, faint halo, golden tears
+    sounds: soft and distant chorus, words in your mind
+    smells: warm incense, fresh air, smell of something loved
+  pool:
+    diceNum: 0
+    powerPool: false
+  tables: []
+prototypeToken:
+  name: Angel
+  displayName: 40
+  actorLink: false
+  width: 1
+  height: 1
+  depth: 1
+  texture:
+    src: icons/svg/poison.svg
+    anchorX: 0.5
+    anchorY: 0.5
+    fit: contain
+    scaleX: 1
+    scaleY: 1
+    tint: '#ffffff'
+    alphaThreshold: 0.75
+  lockRotation: false
+  rotation: 0
+  alpha: 1
+  disposition: -1
+  displayBars: 0
+  bar1:
+    attribute: null
+  bar2:
+    attribute: null
+  light:
+    negative: false
+    priority: 0
+    alpha: 0.5
+    angle: 360
+    bright: 0
+    color: null
+    coloration: 1
+    dim: 0
+    attenuation: 0.5
+    luminosity: 0.5
+    saturation: 0
+    contrast: 0
+    shadows: 0
+    animation:
+      type: null
+      speed: 5
+      intensity: 5
+      reverse: false
+    darkness:
+      min: 0
+      max: 1
+  sight:
+    enabled: false
+    range: 0
+    angle: 360
+    visionMode: basic
+    color: null
+    attenuation: 0.1
+    brightness: 0
+    saturation: 0
+    contrast: 0
+  detectionModes: {}
+  occludable:
+    radius: 0
+  ring:
+    enabled: false
+    colors:
+      ring: null
+      background: null
+    effects: 0
+    subject:
+      scale: 1
+      texture: null
+  turnMarker:
+    mode: 1
+    animation: null
+    src: null
+    disposition: false
+  movementAction: null
+  flags: {}
+  randomImg: false
+  appendNumber: false
+  prependAdjective: false
+items: []
+effects: []
+folder: 5Mw8fUEUyxTQZkHw
+ownership:
+  default: 0
+  79CEe5dKC6Ls5VbU: 3
+flags: {}
+_stats:
+  coreVersion: '14.364'
+  systemId: grimwild
+  systemVersion: 0.5.3
+  createdTime: 1783200297715
+  modifiedTime: 1783271015274
+  lastModifiedBy: 79CEe5dKC6Ls5VbU
+  exportSource: null
+  compendiumSource: null
+  duplicateSource: null
+_id: Fkk3o6fwtH4glAh5
+sort: 100000
+_key: '!actors!Fkk3o6fwtH4glAh5'

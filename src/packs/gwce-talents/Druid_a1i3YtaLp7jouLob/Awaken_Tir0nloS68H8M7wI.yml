@@ -1,0 +1,52 @@
+folder: a1i3YtaLp7jouLob
+name: Awaken
+type: talent
+_id: Tir0nloS68H8M7wI
+img: icons/magic/nature/root-vine-caduceus-healing.webp
+system:
+  description: >-
+    <p>Once per scene, you may awaken a living natural feature—plants, ani-
+    mals, fungi, or the like—within or nearby the scene. It gains awareness and
+    purpose, forming a <strong>3d power pool</strong> you can direct, guided by
+    its nature. One time only, you can make this a ritual-level effect.</p>
+  core: false
+  notes:
+    description: ''
+    label: ''
+  trackers:
+    - type: pool
+      pool:
+        powerPool: true
+        diceNum: 3
+        max: 3
+      label: Awakened Feature
+      points:
+        showSteps: false
+        value: 1
+        max: 1
+    - type: points
+      label: Ritual-level (one time only)
+      points:
+        value: 1
+        max: 1
+        showSteps: true
+      pool:
+        diceNum: 0
+        powerPool: false
+effects: []
+sort: 0
+ownership:
+  default: 0
+  79CEe5dKC6Ls5VbU: 3
+flags: {}
+_stats:
+  coreVersion: '14.368'
+  systemId: grimwild
+  systemVersion: 0.5.3
+  createdTime: 1782662616205
+  modifiedTime: 1791742797148
+  lastModifiedBy: nF9qxzj59Qn6fNSn
+  compendiumSource: null
+  duplicateSource: null
+  exportSource: null
+_key: '!items!Tir0nloS68H8M7wI'

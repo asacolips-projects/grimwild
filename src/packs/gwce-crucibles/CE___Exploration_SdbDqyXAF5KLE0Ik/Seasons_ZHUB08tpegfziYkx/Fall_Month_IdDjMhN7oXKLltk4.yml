@@ -1,0 +1,71 @@
+folder: ZHUB08tpegfziYkx
+name: Fall Month
+_id: IdDjMhN7oXKLltk4
+img: icons/svg/d20-grey.svg
+description: ''
+results:
+  - type: document
+    weight: 1
+    range:
+      - 1
+      - 1
+    name: Fall 1
+    img: icons/svg/d20-grey.svg
+    documentUuid: Compendium.grimwild.gwce-crucibles.RollTable.khknkwgRlKH3dHXX
+    _id: D3GCkQPaF5NGngGg
+    description: ''
+    drawn: false
+    flags: {}
+    _stats:
+      coreVersion: '14.364'
+      systemId: grimwild
+      systemVersion: 0.5.3
+      createdTime: 1783180988903
+      modifiedTime: 1783180988903
+      lastModifiedBy: 79CEe5dKC6Ls5VbU
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+    _key: '!tables.results!IdDjMhN7oXKLltk4.D3GCkQPaF5NGngGg'
+  - type: document
+    weight: 1
+    range:
+      - 1
+      - 1
+    name: Fall 2
+    img: icons/svg/d20-grey.svg
+    documentUuid: Compendium.grimwild.gwce-crucibles.RollTable.j4kqXPfHyuXb5ptS
+    _id: FfwT1HO4QNqJzwFI
+    description: ''
+    drawn: false
+    flags: {}
+    _stats:
+      coreVersion: '14.364'
+      systemId: grimwild
+      systemVersion: 0.5.3
+      createdTime: 1783180992857
+      modifiedTime: 1783180998388
+      lastModifiedBy: 79CEe5dKC6Ls5VbU
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+    _key: '!tables.results!IdDjMhN7oXKLltk4.FfwT1HO4QNqJzwFI'
+replacement: true
+displayRoll: true
+sort: 0
+ownership:
+  default: 0
+  79CEe5dKC6Ls5VbU: 3
+flags: {}
+_stats:
+  coreVersion: '14.364'
+  systemId: grimwild
+  systemVersion: 0.5.3
+  createdTime: 1783180986415
+  modifiedTime: 1783180998388
+  lastModifiedBy: 79CEe5dKC6Ls5VbU
+  compendiumSource: null
+  duplicateSource: null
+  exportSource: null
+formula: '1'
+_key: '!tables!IdDjMhN7oXKLltk4'

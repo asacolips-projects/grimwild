@@ -1,0 +1,157 @@
+name: Summer 1
+description: ''
+formula: 1d6
+results:
+  - name: ''
+    description: ash
+    range:
+      - 1
+      - 1
+    _id: 2v3YP5IBe2kSwdch
+    type: text
+    img: icons/svg/d20-black.svg
+    weight: 1
+    drawn: false
+    flags: {}
+    _stats:
+      coreVersion: '14.364'
+      systemId: grimwild
+      systemVersion: 0.5.3
+      createdTime: 1783180862957
+      modifiedTime: 1783180923419
+      lastModifiedBy: 79CEe5dKC6Ls5VbU
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+    _key: '!tables.results!mGMmUu7QY59QlAGb.2v3YP5IBe2kSwdch'
+  - name: ''
+    description: flood
+    range:
+      - 2
+      - 2
+    _id: xHETPIzGDWOAeNTR
+    type: text
+    img: icons/svg/d20-black.svg
+    weight: 1
+    drawn: false
+    flags: {}
+    _stats:
+      coreVersion: '14.364'
+      systemId: grimwild
+      systemVersion: 0.5.3
+      createdTime: 1783180862957
+      modifiedTime: 1783180923419
+      lastModifiedBy: 79CEe5dKC6Ls5VbU
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+    _key: '!tables.results!mGMmUu7QY59QlAGb.xHETPIzGDWOAeNTR'
+  - name: ''
+    description: sear
+    range:
+      - 3
+      - 3
+    _id: eWlOZeVBPBG3X5G8
+    type: text
+    img: icons/svg/d20-black.svg
+    weight: 1
+    drawn: false
+    flags: {}
+    _stats:
+      coreVersion: '14.364'
+      systemId: grimwild
+      systemVersion: 0.5.3
+      createdTime: 1783180862957
+      modifiedTime: 1783180923420
+      lastModifiedBy: 79CEe5dKC6Ls5VbU
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+    _key: '!tables.results!mGMmUu7QY59QlAGb.eWlOZeVBPBG3X5G8'
+  - name: ''
+    description: lazy
+    range:
+      - 4
+      - 4
+    _id: TWUcA3EX5WygX9XZ
+    type: text
+    img: icons/svg/d20-black.svg
+    weight: 1
+    drawn: false
+    flags: {}
+    _stats:
+      coreVersion: '14.364'
+      systemId: grimwild
+      systemVersion: 0.5.3
+      createdTime: 1783180862957
+      modifiedTime: 1783180923420
+      lastModifiedBy: 79CEe5dKC6Ls5VbU
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+    _key: '!tables.results!mGMmUu7QY59QlAGb.TWUcA3EX5WygX9XZ'
+  - name: ''
+    description: gold
+    range:
+      - 5
+      - 5
+    _id: 2vh0R8zzsdUmxXi6
+    type: text
+    img: icons/svg/d20-black.svg
+    weight: 1
+    drawn: false
+    flags: {}
+    _stats:
+      coreVersion: '14.364'
+      systemId: grimwild
+      systemVersion: 0.5.3
+      createdTime: 1783180862957
+      modifiedTime: 1783180923420
+      lastModifiedBy: 79CEe5dKC6Ls5VbU
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+    _key: '!tables.results!mGMmUu7QY59QlAGb.2vh0R8zzsdUmxXi6'
+  - name: ''
+    description: buzz
+    range:
+      - 6
+      - 6
+    _id: onvYGDmRe98xsjlR
+    type: text
+    img: icons/svg/d20-black.svg
+    weight: 1
+    drawn: false
+    flags: {}
+    _stats:
+      coreVersion: '14.364'
+      systemId: grimwild
+      systemVersion: 0.5.3
+      createdTime: 1783180862957
+      modifiedTime: 1783180923420
+      lastModifiedBy: 79CEe5dKC6Ls5VbU
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+    _key: '!tables.results!mGMmUu7QY59QlAGb.onvYGDmRe98xsjlR'
+folder: ZHUB08tpegfziYkx
+sort: 400000
+_id: mGMmUu7QY59QlAGb
+img: icons/svg/d20-grey.svg
+replacement: true
+displayRoll: true
+ownership:
+  default: 0
+  79CEe5dKC6Ls5VbU: 3
+flags: {}
+_stats:
+  coreVersion: '14.364'
+  systemId: grimwild
+  systemVersion: 0.5.3
+  createdTime: 1783180862957
+  modifiedTime: 1783180939164
+  lastModifiedBy: 79CEe5dKC6Ls5VbU
+  compendiumSource: null
+  duplicateSource: null
+  exportSource: null
+_key: '!tables!mGMmUu7QY59QlAGb'

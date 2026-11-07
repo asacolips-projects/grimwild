@@ -1,0 +1,157 @@
+name: Raider - Hideout Location
+description: ''
+formula: 1d6
+results:
+  - name: ''
+    description: <b>Abandoned mine</b> with twisting tunnels.
+    range:
+      - 1
+      - 1
+    _id: Ngf9VnQVbkEum6pd
+    type: text
+    img: null
+    weight: 1
+    drawn: false
+    flags: {}
+    _stats:
+      coreVersion: '14.364'
+      systemId: grimwild
+      systemVersion: 0.5.3
+      createdTime: 1783270821350
+      modifiedTime: 1783270821350
+      lastModifiedBy: 79CEe5dKC6Ls5VbU
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+    _key: '!tables.results!cf69tRwewNHOSM1T.Ngf9VnQVbkEum6pd'
+  - name: ''
+    description: <b>Cliffside cave</b>, overlooking a common trade route.
+    range:
+      - 2
+      - 2
+    _id: R6z14TIDAerlDt2a
+    type: text
+    img: null
+    weight: 1
+    drawn: false
+    flags: {}
+    _stats:
+      coreVersion: '14.364'
+      systemId: grimwild
+      systemVersion: 0.5.3
+      createdTime: 1783270821350
+      modifiedTime: 1783270821350
+      lastModifiedBy: 79CEe5dKC6Ls5VbU
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+    _key: '!tables.results!cf69tRwewNHOSM1T.R6z14TIDAerlDt2a'
+  - name: ''
+    description: <b>Shipwreck</b>, repurposed into a ramshackle camp.
+    range:
+      - 3
+      - 3
+    _id: aL68PdKHq4N8LlBx
+    type: text
+    img: null
+    weight: 1
+    drawn: false
+    flags: {}
+    _stats:
+      coreVersion: '14.364'
+      systemId: grimwild
+      systemVersion: 0.5.3
+      createdTime: 1783270821350
+      modifiedTime: 1783270821350
+      lastModifiedBy: 79CEe5dKC6Ls5VbU
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+    _key: '!tables.results!cf69tRwewNHOSM1T.aL68PdKHq4N8LlBx'
+  - name: ''
+    description: <b>Derelict windmill</b>, purposely looking abandoned.
+    range:
+      - 4
+      - 4
+    _id: JMbUrnwdzs8C0rhW
+    type: text
+    img: null
+    weight: 1
+    drawn: false
+    flags: {}
+    _stats:
+      coreVersion: '14.364'
+      systemId: grimwild
+      systemVersion: 0.5.3
+      createdTime: 1783270821350
+      modifiedTime: 1783270821350
+      lastModifiedBy: 79CEe5dKC6Ls5VbU
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+    _key: '!tables.results!cf69tRwewNHOSM1T.JMbUrnwdzs8C0rhW'
+  - name: ''
+    description: <b>Catacombs</b>, just under the city streets.
+    range:
+      - 5
+      - 5
+    _id: yHFNtc7VhA0XryKu
+    type: text
+    img: null
+    weight: 1
+    drawn: false
+    flags: {}
+    _stats:
+      coreVersion: '14.364'
+      systemId: grimwild
+      systemVersion: 0.5.3
+      createdTime: 1783270821350
+      modifiedTime: 1783270821350
+      lastModifiedBy: 79CEe5dKC6Ls5VbU
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+    _key: '!tables.results!cf69tRwewNHOSM1T.yHFNtc7VhA0XryKu'
+  - name: ''
+    description: <b>Tavern basement</b>, connected with secret tunnels.
+    range:
+      - 6
+      - 6
+    _id: 40d5ug5QRqwYJVBv
+    type: text
+    img: null
+    weight: 1
+    drawn: false
+    flags: {}
+    _stats:
+      coreVersion: '14.364'
+      systemId: grimwild
+      systemVersion: 0.5.3
+      createdTime: 1783270821350
+      modifiedTime: 1783270821350
+      lastModifiedBy: 79CEe5dKC6Ls5VbU
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+    _key: '!tables.results!cf69tRwewNHOSM1T.40d5ug5QRqwYJVBv'
+folder: rgX8m8cC6QFqYNJB
+sort: 2700000
+_id: cf69tRwewNHOSM1T
+img: icons/svg/d20-grey.svg
+replacement: true
+displayRoll: true
+ownership:
+  default: 0
+  79CEe5dKC6Ls5VbU: 3
+flags: {}
+_stats:
+  coreVersion: '14.368'
+  systemId: grimwild
+  systemVersion: 0.5.3
+  createdTime: 1783270821350
+  modifiedTime: 1791749998255
+  lastModifiedBy: nF9qxzj59Qn6fNSn
+  compendiumSource: null
+  duplicateSource: null
+  exportSource: null
+_key: '!tables!cf69tRwewNHOSM1T'

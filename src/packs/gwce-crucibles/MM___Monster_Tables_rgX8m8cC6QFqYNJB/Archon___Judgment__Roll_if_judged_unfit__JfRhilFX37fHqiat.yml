@@ -1,0 +1,157 @@
+name: Archon - Judgment (Roll if judged unfit)
+description: ''
+formula: 1d6
+results:
+  - name: ''
+    description: You go <b>blind</b>.
+    range:
+      - 1
+      - 1
+    _id: 4pw62qCOghXlbsjC
+    type: text
+    img: null
+    weight: 1
+    drawn: false
+    flags: {}
+    _stats:
+      coreVersion: '14.364'
+      systemId: grimwild
+      systemVersion: 0.5.3
+      createdTime: 1783270821306
+      modifiedTime: 1783270821306
+      lastModifiedBy: 79CEe5dKC6Ls5VbU
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+    _key: '!tables.results!JfRhilFX37fHqiat.4pw62qCOghXlbsjC'
+  - name: ''
+    description: They know your <b>deepest secret</b>.
+    range:
+      - 2
+      - 2
+    _id: nDIchsA0VR2wSkOd
+    type: text
+    img: null
+    weight: 1
+    drawn: false
+    flags: {}
+    _stats:
+      coreVersion: '14.364'
+      systemId: grimwild
+      systemVersion: 0.5.3
+      createdTime: 1783270821306
+      modifiedTime: 1783270821306
+      lastModifiedBy: 79CEe5dKC6Ls5VbU
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+    _key: '!tables.results!JfRhilFX37fHqiat.nDIchsA0VR2wSkOd'
+  - name: ''
+    description: Compelled to <b>swear fealty</b> and atone.
+    range:
+      - 3
+      - 3
+    _id: PnN2VcAI0txvMGPG
+    type: text
+    img: null
+    weight: 1
+    drawn: false
+    flags: {}
+    _stats:
+      coreVersion: '14.364'
+      systemId: grimwild
+      systemVersion: 0.5.3
+      createdTime: 1783270821306
+      modifiedTime: 1783270821306
+      lastModifiedBy: 79CEe5dKC6Ls5VbU
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+    _key: '!tables.results!JfRhilFX37fHqiat.PnN2VcAI0txvMGPG'
+  - name: ''
+    description: Struck and <b>transfixed</b> by pure divine power.
+    range:
+      - 4
+      - 4
+    _id: 9iTwiF9vJP7QndmV
+    type: text
+    img: null
+    weight: 1
+    drawn: false
+    flags: {}
+    _stats:
+      coreVersion: '14.364'
+      systemId: grimwild
+      systemVersion: 0.5.3
+      createdTime: 1783270821306
+      modifiedTime: 1783270821306
+      lastModifiedBy: 79CEe5dKC6Ls5VbU
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+    _key: '!tables.results!JfRhilFX37fHqiat.9iTwiF9vJP7QndmV'
+  - name: ''
+    description: Forced to your knees in <b>deference</b>.
+    range:
+      - 5
+      - 5
+    _id: LaCaug6etD65h1V3
+    type: text
+    img: null
+    weight: 1
+    drawn: false
+    flags: {}
+    _stats:
+      coreVersion: '14.364'
+      systemId: grimwild
+      systemVersion: 0.5.3
+      createdTime: 1783270821306
+      modifiedTime: 1783270821306
+      lastModifiedBy: 79CEe5dKC6Ls5VbU
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+    _key: '!tables.results!JfRhilFX37fHqiat.LaCaug6etD65h1V3'
+  - name: ''
+    description: Seared by <b>holy radiance</b>.
+    range:
+      - 6
+      - 6
+    _id: o51KUGrN6RKSel17
+    type: text
+    img: null
+    weight: 1
+    drawn: false
+    flags: {}
+    _stats:
+      coreVersion: '14.364'
+      systemId: grimwild
+      systemVersion: 0.5.3
+      createdTime: 1783270821306
+      modifiedTime: 1783270821306
+      lastModifiedBy: 79CEe5dKC6Ls5VbU
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+    _key: '!tables.results!JfRhilFX37fHqiat.o51KUGrN6RKSel17'
+folder: rgX8m8cC6QFqYNJB
+sort: 900000
+_id: JfRhilFX37fHqiat
+img: icons/svg/d20-grey.svg
+replacement: true
+displayRoll: true
+ownership:
+  default: 0
+  79CEe5dKC6Ls5VbU: 3
+flags: {}
+_stats:
+  coreVersion: '14.368'
+  systemId: grimwild
+  systemVersion: 0.5.3
+  createdTime: 1783270821306
+  modifiedTime: 1791749998254
+  lastModifiedBy: nF9qxzj59Qn6fNSn
+  compendiumSource: null
+  duplicateSource: null
+  exportSource: null
+_key: '!tables!JfRhilFX37fHqiat'

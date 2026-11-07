@@ -1,0 +1,33 @@
+folder: sioTtoSBZibsvpR5
+name: Simple Deduction
+type: talent
+_id: 8FlPSsOCfDus1CTS
+img: icons/svg/item-bag.svg
+system:
+  description: >-
+    <p>Once per session when trying to solve a question or puzzle to give a
+    specific guess. The GM will tell you: <em>something right about it—something
+    wrong about it—a detail you missed</em>. Use a story roll if the answer is
+    unclear.</p>
+  core: false
+  notes:
+    description: ''
+    label: ''
+  trackers: []
+effects: []
+sort: 0
+ownership:
+  default: 0
+  79CEe5dKC6Ls5VbU: 3
+flags: {}
+_stats:
+  coreVersion: '14.364'
+  systemId: grimwild
+  systemVersion: 0.5.3
+  createdTime: 1782662611333
+  modifiedTime: 1782662611333
+  lastModifiedBy: 79CEe5dKC6Ls5VbU
+  compendiumSource: null
+  duplicateSource: null
+  exportSource: null
+_key: '!items!8FlPSsOCfDus1CTS'

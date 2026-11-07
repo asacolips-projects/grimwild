@@ -1,0 +1,31 @@
+folder: sioTtoSBZibsvpR5
+name: Aquatic
+type: talent
+_id: ih9wCMAM6NQljAds
+img: icons/svg/item-bag.svg
+system:
+  description: >-
+    <p>You can breathe and move quickly through water, and suffer no other
+    issues that aquatic environments bring.</p>
+  core: false
+  notes:
+    description: ''
+    label: ''
+  trackers: []
+effects: []
+sort: 0
+ownership:
+  default: 0
+  79CEe5dKC6Ls5VbU: 3
+flags: {}
+_stats:
+  coreVersion: '14.364'
+  systemId: grimwild
+  systemVersion: 0.5.3
+  createdTime: 1782662611328
+  modifiedTime: 1782662611328
+  lastModifiedBy: 79CEe5dKC6Ls5VbU
+  compendiumSource: null
+  duplicateSource: null
+  exportSource: null
+_key: '!items!ih9wCMAM6NQljAds'

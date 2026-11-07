@@ -1,0 +1,158 @@
+name: Animated Object - Personality All Its Own
+description: ''
+formula: 1d6
+results:
+  - name: ''
+    description: <p><strong>Dramatic diva</strong>, wishing to remain clean and proper.</p>
+    range:
+      - 1
+      - 1
+    _id: 88gnpOEJewHAlYDf
+    type: text
+    img: icons/svg/d20-black.svg
+    weight: 1
+    drawn: false
+    flags: {}
+    _stats:
+      coreVersion: '14.368'
+      systemId: grimwild
+      systemVersion: 0.5.3
+      createdTime: 1783270821289
+      modifiedTime: 1791749922589
+      lastModifiedBy: nF9qxzj59Qn6fNSn
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+    documentUuid: null
+    _key: '!tables.results!pj1u8waQqqUIumSa.88gnpOEJewHAlYDf'
+  - name: ''
+    description: <b>Arrogant rebel</b>, refusing to work properly.
+    range:
+      - 2
+      - 2
+    _id: lal4qeoqCy2juZVs
+    type: text
+    img: icons/svg/d20-black.svg
+    weight: 1
+    drawn: false
+    flags: {}
+    _stats:
+      coreVersion: '14.368'
+      systemId: grimwild
+      systemVersion: 0.5.3
+      createdTime: 1783270821289
+      modifiedTime: 1791749920306
+      lastModifiedBy: nF9qxzj59Qn6fNSn
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+    _key: '!tables.results!pj1u8waQqqUIumSa.lal4qeoqCy2juZVs'
+  - name: ''
+    description: <b>Wily jokester</b>, purposely making your life harder.
+    range:
+      - 3
+      - 3
+    _id: oNarDNgQFRpBSGOV
+    type: text
+    img: icons/svg/d20-black.svg
+    weight: 1
+    drawn: false
+    flags: {}
+    _stats:
+      coreVersion: '14.368'
+      systemId: grimwild
+      systemVersion: 0.5.3
+      createdTime: 1783270821289
+      modifiedTime: 1791749920306
+      lastModifiedBy: nF9qxzj59Qn6fNSn
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+    _key: '!tables.results!pj1u8waQqqUIumSa.oNarDNgQFRpBSGOV'
+  - name: ''
+    description: <b>Apologetic local</b>, just wishing to be human again.
+    range:
+      - 4
+      - 4
+    _id: lsmlX4bAZB1E5eyo
+    type: text
+    img: icons/svg/d20-black.svg
+    weight: 1
+    drawn: false
+    flags: {}
+    _stats:
+      coreVersion: '14.368'
+      systemId: grimwild
+      systemVersion: 0.5.3
+      createdTime: 1783270821289
+      modifiedTime: 1791749920306
+      lastModifiedBy: nF9qxzj59Qn6fNSn
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+    _key: '!tables.results!pj1u8waQqqUIumSa.lsmlX4bAZB1E5eyo'
+  - name: ''
+    description: <b>Dutiful warrior</b>, who takes their job very seriously.
+    range:
+      - 5
+      - 5
+    _id: 5UiHWeNAW6VJdtzb
+    type: text
+    img: icons/svg/d20-black.svg
+    weight: 1
+    drawn: false
+    flags: {}
+    _stats:
+      coreVersion: '14.368'
+      systemId: grimwild
+      systemVersion: 0.5.3
+      createdTime: 1783270821289
+      modifiedTime: 1791749920306
+      lastModifiedBy: nF9qxzj59Qn6fNSn
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+    _key: '!tables.results!pj1u8waQqqUIumSa.5UiHWeNAW6VJdtzb'
+  - name: ''
+    description: <b>Clever megalomaniac</b>, behind the whole thing.
+    range:
+      - 6
+      - 6
+    _id: 17bu7xQKIVMrjNK5
+    type: text
+    img: icons/svg/d20-black.svg
+    weight: 1
+    drawn: false
+    flags: {}
+    _stats:
+      coreVersion: '14.368'
+      systemId: grimwild
+      systemVersion: 0.5.3
+      createdTime: 1783270821289
+      modifiedTime: 1791749920306
+      lastModifiedBy: nF9qxzj59Qn6fNSn
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+    _key: '!tables.results!pj1u8waQqqUIumSa.17bu7xQKIVMrjNK5'
+folder: rgX8m8cC6QFqYNJB
+sort: 100000
+_id: pj1u8waQqqUIumSa
+img: icons/svg/d20-grey.svg
+replacement: true
+displayRoll: true
+ownership:
+  default: 0
+  79CEe5dKC6Ls5VbU: 3
+flags: {}
+_stats:
+  coreVersion: '14.368'
+  systemId: grimwild
+  systemVersion: 0.5.3
+  createdTime: 1783270821289
+  modifiedTime: 1791749998253
+  lastModifiedBy: nF9qxzj59Qn6fNSn
+  compendiumSource: null
+  duplicateSource: null
+  exportSource: null
+_key: '!tables!pj1u8waQqqUIumSa'

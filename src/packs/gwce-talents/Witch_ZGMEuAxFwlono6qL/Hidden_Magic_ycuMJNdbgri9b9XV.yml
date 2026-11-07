@@ -1,0 +1,76 @@
+folder: ZGMEuAxFwlono6qL
+name: Hidden Magic
+type: talent
+_id: ycuMJNdbgri9b9XV
+img: icons/magic/unholy/hands-circle-light-green.webp
+system:
+  description: >-
+    <p>You understand the ancient magic inherent in the world. You have
+    spellcasting ability, rolling Presence to cast using any 2 <strong>words of
+    power</strong> as the touchstones. When you use a word, <strong>burn
+    it</strong>—you can't use it again until the next session. Given time, you
+    can make this spell potent. You begin with <strong>4 words of power</strong>
+    from the crucible. Spells without <em><strong>risk</strong></em> are
+    automatically successful and don’t burn words, unless
+    potent.</p><p><strong>Ritualist:</strong> Take +1d when completing ritual
+    invocations, and you can use relevant words of power as
+    anchors.</p><hr><p><strong>GROWTH:</strong> At levels 3, and 6, you gain +2
+    words of power.</p>
+  core: false
+  notes:
+    description: ''
+    label: Words of Power
+  trackers:
+    - type: points
+      label: Word
+      points:
+        value: 1
+        max: 1
+        showSteps: true
+      pool:
+        diceNum: 0
+        powerPool: false
+    - type: points
+      label: Word 2
+      points:
+        value: 1
+        max: 1
+        showSteps: true
+      pool:
+        diceNum: 0
+        powerPool: false
+    - type: points
+      label: Word 3
+      points:
+        value: 1
+        max: 1
+        showSteps: true
+      pool:
+        diceNum: 0
+        powerPool: false
+    - type: points
+      label: Word 4
+      points:
+        value: 1
+        max: 1
+        showSteps: true
+      pool:
+        diceNum: 0
+        powerPool: false
+effects: []
+sort: 0
+ownership:
+  default: 0
+  79CEe5dKC6Ls5VbU: 3
+flags: {}
+_stats:
+  coreVersion: '14.368'
+  systemId: grimwild
+  systemVersion: 0.5.3
+  createdTime: 1782662629749
+  modifiedTime: 1791753715883
+  lastModifiedBy: nF9qxzj59Qn6fNSn
+  compendiumSource: null
+  duplicateSource: null
+  exportSource: null
+_key: '!items!ycuMJNdbgri9b9XV'

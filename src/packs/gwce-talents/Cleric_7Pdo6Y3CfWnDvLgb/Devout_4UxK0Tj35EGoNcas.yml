@@ -1,0 +1,38 @@
+folder: 7Pdo6Y3CfWnDvLgb
+name: Devout
+type: talent
+_id: 4UxK0Tj35EGoNcas
+img: /icons/magic/holy/prayer-hands-glowing-yellow.webp
+system:
+  description: >-
+    <p>Intelligent creatures recognize you as a person of deep honesty and only
+    your most hated enemies would treat you with a lack of respect or doubt your
+    word. You are never seriously injured or killed by an enemy, unless they
+    have no choice. Any creature with speech will always hear you out. This aura
+    is upheld by your unwavering commitment—you must <em><strong>push
+    yourself</strong></em> to act in bad faith.</p>
+  core: false
+  notes:
+    description: >-
+      <p><em>You stick to your principles unwaveringly, and even those acting
+      against you know. How does this impact those around you? This is sure to
+      cause tangles, perhaps even quarrels.</em></p>
+    label: ''
+  trackers: []
+effects: []
+sort: 0
+ownership:
+  default: 0
+  79CEe5dKC6Ls5VbU: 3
+flags: {}
+_stats:
+  coreVersion: '14.364'
+  systemId: grimwild
+  systemVersion: 0.5.3
+  createdTime: 1782662614865
+  modifiedTime: 1783008654919
+  lastModifiedBy: 79CEe5dKC6Ls5VbU
+  compendiumSource: null
+  duplicateSource: null
+  exportSource: null
+_key: '!items!4UxK0Tj35EGoNcas'
