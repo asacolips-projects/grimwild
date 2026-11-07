@@ -205,6 +205,7 @@ export default function VueRenderingMixin(BaseApplication) {
 				// Expose global Foundry variables.
 				app.config.globalProperties.game = game;
 				app.config.globalProperties.CONFIG = CONFIG;
+				app.config.globalProperties.CONST = CONST;
 				app.config.globalProperties.foundry = foundry;
 
 				// Expose the document.
