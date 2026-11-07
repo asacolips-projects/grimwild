@@ -16,7 +16,13 @@
 							<i class="fas fa-plus"></i><span>Add</span>
 						</button>
 					</template>
-					<button class="item-control item-compendium" type="button" data-action="openPack" data-pack="grimwild.arcana"><i class="fas fa-atlas"></i>Compendium</button>
+					<button
+						class="item-control
+						item-compendium"
+						type="button"
+						data-action="openPack"
+						:data-pack="context?.ceRulesEnabled ? 'grimwild.gwce-arcana' : 'grimwild.arcana'"
+					><i class="fas fa-atlas"></i>Compendium</button>
 				</div>
 			</li>
 			<!-- Arcana rows -->
