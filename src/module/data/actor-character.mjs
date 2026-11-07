@@ -35,17 +35,17 @@ export default class GrimwildCharacter extends GrimwildActorBase {
 		// (CE rules only) and then Dropped. See applyMark and applyHarm below.
 		schema.bloodied = new fields.SchemaField({
 			pool: new DicePoolField(),
-			marked: new fields.BooleanField(),
+			marked: new fields.BooleanField()
 		});
 		schema.rattled = new fields.SchemaField({
 			pool: new DicePoolField(),
-			marked: new fields.BooleanField(),
+			marked: new fields.BooleanField()
 		});
 		// Desperate is only used with the Community Edition rules enabled, and
 		// intentionally does not take part in harm pools.
 		schema.desperate = new fields.SchemaField({
 			pool: new DicePoolField(),
-			marked: new fields.BooleanField(),
+			marked: new fields.BooleanField()
 		});
 
 		schema.dropped = new fields.BooleanField();
