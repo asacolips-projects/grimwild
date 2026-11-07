@@ -104,8 +104,8 @@ export class GrimwildChatMessage extends ChatMessage {
 	get actions() {
 		return {
 			updateSpark: this._updateSpark,
-			applyMark: this._applyHarm,
-			applyHarm: this._applyHarm
+			applyMark: this._applyDamage,
+			applyHarm: this._applyDamage
 		};
 	}
 
@@ -179,50 +179,29 @@ export class GrimwildChatMessage extends ChatMessage {
 	}
 
 	/**
-	 * Handle updating marks on actors.
+	 * Handle applying marks and harm to actors.
+	 *
+	 * The damage track escalation logic itself lives on the character data
+	 * model (applyMark/applyHarm) so it can also be used outside of chat, such
+	 * as from macros. This handler only resolves the target actor and records
+	 * that the damage was taken on the message.
 	 *
 	 * @param {PointerEvent} event The originating click event
 	 * @param {HTMLElement} target The capturing HTML element which defined a [data-action]
 	 */
-	async _applyHarm(event, target) {
+	async _applyDamage(event, target) {
 		const actor = game.user.character ?? canvas.tokens.controlled?.[0]?.actor;
 		if (!actor) {
 			ui.notifications.warn("No active characters on this user to add a mark to.");
 			return;
 		}
 
-		// Retrieve the stat to check.
+		// Delegate to the data model, which owns the damage track logic.
 		const { stat, harm } = target?.dataset ?? {};
-		const update = {};
-		let harmUpdate = {};
-		// Handle marks.
-		if (stat) {
-			if (["bra", "agi", "wit", "pre"].includes(stat)) {
-				const isMarked = actor.system.stats[stat].marked;
-				if (!isMarked) {
-					update[`system.stats.${stat}.marked`] = true;
-				}
-				else if (["bra", "agi"].includes(stat)) {
-					harmUpdate = this.calculateHarm(actor, "bloodied");
-				}
-				else {
-					harmUpdate = this.calculateHarm(actor, "rattled");
-				}
-			}
-		}
+		if (stat) await actor.system.applyMark?.(stat);
+		else if (harm) await actor.system.applyHarm?.(harm);
+		else return;
 
-		// Handle harm.
-		if (harm) {
-			if (["bloodied", "rattled"].includes(harm)) {
-				harmUpdate = this.calculateHarm(actor, harm);
-			}
-		}
-
-		// Apply updates.
-		actor.update({
-			...update,
-			...harmUpdate
-		});
 		const damageTakenArray = this.getFlag("grimwild", "damageTaken") ?? [];
 		if (!damageTakenArray.includes(game.user.id)) {
 			damageTakenArray.push(game.user.id);
@@ -240,33 +219,5 @@ export class GrimwildChatMessage extends ChatMessage {
 				data: damageTakenArray
 			});
 		}
-	}
-
-	/**
-	 * Helper function to calculate harm
-	 *
-	 * @param {GrimwildActor} actor Actor to check the data for.
-	 * @param {string} harm 'bloodied' or 'rattled'
-	 * @returns {object} Foundry update object for the actor
-	 */
-	calculateHarm(actor, harm) {
-		const harmPools = game.settings.get("grimwild", "enableHarmPools");
-		const maxHarm = game.settings.get("grimwild", `max${harm === "bloodied" ? "Bloodied" : "Rattled"}`) ?? 1;
-		const update = {};
-		if (!actor.system[harm === "bloodied" ? "isBloodied" : "isRattled"]) {
-			update[`system.${harm}.marked`] = true;
-			if (harmPools) {
-				const newHarmPool = Math.min(actor.system[harm].pool.diceNum + 1, maxHarm);
-				update[`system.${harm}.pool.diceNum`] = newHarmPool;
-			}
-		}
-		else if (!harmPools || actor.system[harm].pool.diceNum >= maxHarm) {
-			update["system.dropped"] = true;
-		}
-		else {
-			update[`system.${harm}.pool.diceNum`] = actor.system[harm].pool.diceNum + 1;
-		}
-
-		return update;
 	}
 }

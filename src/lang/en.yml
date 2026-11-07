@@ -25,6 +25,9 @@ GRIMWILD:
     maxRattled:
       name: "[Homebrew] Max rattled value"
       hint: Maximum value to use for the Rattled input if harm pools are enabled.
+    maxDesperate:
+      name: "[Homebrew] Max desperate value"
+      hint: Maximum value to use for the Desperate input if harm pools and CE rules are enabled.
     slowXp:
       name: "Slow XP"
       hint: Enable to use half-rate XP where it takes two pips per XP checkbox to be filled.
@@ -51,6 +54,7 @@ GRIMWILD:
     marked: Marked
     bloodied: Bloodied
     rattled: Rattled
+    desperate: Desperate
     conditions: Conditions
     ignored: ignored from harm
     vex: Vex

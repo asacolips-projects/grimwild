@@ -84,7 +84,8 @@
 }
 
 .harm-bloodied,
-.harm-rattled {
+.harm-rattled,
+.harm-desperate {
 	position: relative;
 
 	&::after {
@@ -96,6 +97,42 @@
 		position: absolute;
 		right: -5px;
 		top: 0;
+	}
+}
+
+.harm-pools.ce-rules {
+	display: grid;
+	gap: 10px;
+	grid-column: span 3 / span 3;
+	grid-template-columns: repeat(3, minmax(0,1fr));
+
+	.harm-bloodied {
+		grid-column-start: 1;
+		grid-row-end: span 2;
+	}
+
+	.harm-rattled {
+		grid-column-start: 2;
+		grid-row-end: span 2;
+	}
+
+	.harm-desperate {
+		grid-column-start: 3;
+		grid-row-end: span 1;
+	}
+
+	.harm-desperate::after {
+		left: 0;
+		right: auto;
+		height: 1px;
+		width: 100%;
+		top: calc(100% + 5px);
+	}
+
+	.harm-dropped {
+		grid-column-start: 3;
+		grid-row-start: 2;
+		grid-row-end: span 1;
 	}
 }
 

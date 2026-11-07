@@ -147,9 +147,15 @@ export class GrimwildActorSheetVue extends VueRenderingMixin(GrimwildBaseVueActo
 
 		// Handle the custom harm homebrew.
 		if (game.settings.get("grimwild", "enableHarmPools")) {
-			context.enableHarm = true;
+			context.harmEnabled = true;
 			context.maxBloodied = game.settings.get("grimwild", "maxBloodied");
 			context.maxRattled = game.settings.get("grimwild", "maxRattled");
+			context.maxDesperate = game.settings.get("grimwild", "maxDesperate");
+		}
+
+		// Handle the Community Edition rules.
+		if (game.settings.get("grimwild", "ceRules")) {
+			context.ceRulesEnabled = true;
 		}
 
 		Hooks.callAll("grimwildActorSheetVuePrepareContext", this, context);
@@ -482,6 +488,7 @@ export class GrimwildActorSheetVue extends VueRenderingMixin(GrimwildBaseVueActo
 						diceDefault: pool.diceNum,
 						isBloodied: rollData?.isBloodied,
 						isRattled: rollData?.isRattled,
+						isDesperate: rollData?.isDesperate,
 						isMarked: false,
 						actor: this.actor
 					}

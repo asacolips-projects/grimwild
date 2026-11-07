@@ -34,7 +34,13 @@
 				</div>
 			</div>
 
-			<div class="stats-harm harm-group form-group">
+			<div :class="[
+				'stats-harm',
+				'harm-group',
+				'form-group',
+				context?.harmEnabled ? 'harm-pools' : '',
+				context?.ceRulesEnabled ? 'ce-rules' : ''
+			]">
 				<!-- Bloodied -->
 				<div class="harm harm-bloodied">
 					<label>
@@ -43,7 +49,7 @@
 					</label>
 					<!-- Optional, homebrew -->
 					<RollPoolInput
-						v-if="context?.enableHarm"
+						v-if="context?.harmEnabled"
 						button-action="rollPool"
 						field="bloodied"
 						field-name="system.bloodied.pool.diceNum"
@@ -61,7 +67,7 @@
 					</label>
 					<!-- Optional, homebrew -->
 					<RollPoolInput
-						v-if="context?.enableHarm"
+						v-if="context?.harmEnabled"
 						button-action="rollPool"
 						field="rattled"
 						field-name="system.rattled.pool.diceNum"
@@ -70,6 +76,25 @@
 						:max="context?.maxRattled"
 						:suffix="context?.maxRattled ? `/ ${context.maxRattled}` : 'd'"
 					/>
+				</div>
+				<!-- Desperate -->
+				<div v-if="context?.ceRulesEnabled" class="harm harm-desperate">
+					<label>
+						<input type="checkbox" name="system.desperate.marked" v-model="context.system.desperate.marked"/>
+						{{ game.i18n.localize('GRIMWILD.Damage.desperate') }}
+					</label>
+					<!-- Optional, homebrew -->
+					<!-- Harm pools are currently disabled for desperate. I need to consider balance before enabling them. -->
+					<!-- <RollPoolInput
+						v-if="context?.harmEnabled"
+						button-action="rollPool"
+						field="desperate"
+						field-name="system.desperate.pool.diceNum"
+						:pool="context.system.desperate.pool"
+						min="0"
+						:max="context?.maxDesperate"
+						:suffix="context?.maxDesperate ? `/ ${context.maxDesperate}` : 'd'"
+					/> -->
 				</div>
 				<!-- Dropped -->
 				<div class="harm harm-dropped">

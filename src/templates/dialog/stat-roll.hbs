@@ -46,14 +46,24 @@
 					<label for="marked">{{localize "GRIMWILD.Damage.marked"}}{{#if markIgnored}} ({{localize "GRIMWILD.Damage.ignored"}}){{/if}}</label>
 					<input type="checkbox" class="thorn thornCheck" id="marked" name="thorns[marked]" data-action-change="updateThorns" value="1" {{#if isMarked}}checked{{/if}}>
 				</div>
+				{{#if showBloodied}}
 				<div class="grimwild-form-group">
 					<label for="bloodied">{{localize "GRIMWILD.Damage.bloodied"}}</label>
 					<input type="checkbox" class="thorn thornCheck" id="bloodied" name="thorns[bloodied]" data-action-change="updateThorns" value="1" {{#if isBloodied}}checked{{/if}}>
 				</div>
+				{{/if}}
+				{{#if showRattled}}
 				<div class="grimwild-form-group">
 					<label for="rattled">{{localize "GRIMWILD.Damage.rattled"}}</label>
 					<input type="checkbox" class="thorn thornCheck" id="rattled" name="thorns[rattled]" data-action-change="updateThorns" value="1" {{#if isRattled}}checked{{/if}}>
 				</div>
+				{{/if}}
+				{{#if showDesperate}}
+				<div class="grimwild-form-group">
+					<label for="desperate">{{localize "GRIMWILD.Damage.desperate"}}</label>
+					<input type="checkbox" class="thorn thornCheck" id="desperate" name="thorns[desperate]" data-action-change="updateThorns" value="1" {{#if isDesperate}}checked{{/if}}>
+				</div>
+				{{/if}}
 			</div>
 			<div class="dialog-difficulty">
 				<hr>
