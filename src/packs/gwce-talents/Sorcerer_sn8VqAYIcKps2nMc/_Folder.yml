@@ -1,0 +1,20 @@
+type: Item
+folder: null
+name: Sorcerer
+color: '#d6882e'
+sorting: a
+_id: sn8VqAYIcKps2nMc
+description: ''
+sort: 1300000
+flags: {}
+_stats:
+  coreVersion: '14.364'
+  systemId: grimwild
+  systemVersion: 0.5.3
+  createdTime: 1782662624502
+  modifiedTime: 1783005290877
+  lastModifiedBy: 79CEe5dKC6Ls5VbU
+  compendiumSource: null
+  duplicateSource: null
+  exportSource: null
+_key: '!folders!sn8VqAYIcKps2nMc'

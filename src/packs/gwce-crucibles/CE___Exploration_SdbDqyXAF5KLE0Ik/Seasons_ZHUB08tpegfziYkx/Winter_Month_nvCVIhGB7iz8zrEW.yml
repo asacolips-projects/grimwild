@@ -1,0 +1,71 @@
+folder: ZHUB08tpegfziYkx
+name: Winter Month
+_id: nvCVIhGB7iz8zrEW
+img: icons/svg/d20-grey.svg
+description: ''
+results:
+  - type: document
+    weight: 1
+    range:
+      - 1
+      - 1
+    name: Winter 1
+    img: icons/svg/d20-grey.svg
+    documentUuid: Compendium.grimwild.gwce-crucibles.RollTable.SGF1drXA1cZTIvUe
+    _id: nyA2CnvKULA5L9S5
+    description: ''
+    drawn: false
+    flags: {}
+    _stats:
+      coreVersion: '14.364'
+      systemId: grimwild
+      systemVersion: 0.5.3
+      createdTime: 1783181015327
+      modifiedTime: 1783181015327
+      lastModifiedBy: 79CEe5dKC6Ls5VbU
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+    _key: '!tables.results!nvCVIhGB7iz8zrEW.nyA2CnvKULA5L9S5'
+  - type: document
+    weight: 1
+    range:
+      - 1
+      - 1
+    name: Winter 2
+    img: icons/svg/d20-grey.svg
+    documentUuid: Compendium.grimwild.gwce-crucibles.RollTable.f2LwpPyEvqpOW3Vq
+    _id: BwQtyxdyow1WKBm2
+    description: ''
+    drawn: false
+    flags: {}
+    _stats:
+      coreVersion: '14.364'
+      systemId: grimwild
+      systemVersion: 0.5.3
+      createdTime: 1783181017209
+      modifiedTime: 1783181022787
+      lastModifiedBy: 79CEe5dKC6Ls5VbU
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+    _key: '!tables.results!nvCVIhGB7iz8zrEW.BwQtyxdyow1WKBm2'
+replacement: true
+displayRoll: true
+sort: 0
+ownership:
+  default: 0
+  79CEe5dKC6Ls5VbU: 3
+flags: {}
+_stats:
+  coreVersion: '14.364'
+  systemId: grimwild
+  systemVersion: 0.5.3
+  createdTime: 1783181012693
+  modifiedTime: 1783181022786
+  lastModifiedBy: 79CEe5dKC6Ls5VbU
+  compendiumSource: null
+  duplicateSource: null
+  exportSource: null
+formula: '1'
+_key: '!tables!nvCVIhGB7iz8zrEW'

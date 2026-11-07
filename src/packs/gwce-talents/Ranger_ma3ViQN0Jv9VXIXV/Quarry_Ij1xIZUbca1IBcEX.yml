@@ -1,0 +1,47 @@
+folder: ma3ViQN0Jv9VXIXV
+name: Quarry
+type: talent
+_id: Ij1xIZUbca1IBcEX
+img: icons/skills/targeting/crosshair-pointed-orange.webp
+system:
+  description: >-
+    <p>Once per session, you can choose a foe as your
+    <strong>Quarry</strong>—the focus of your hunt. You have a <strong>Quarry
+    die</strong>, a special d6. When you or an ally attempts to research,
+    locate, or attack your quarry, add your quarry die to the roll. If a quarry
+    die rolls a '6', you can add a <em><strong>critical
+    effect</strong></em>.</p><p><strong>Survivalist:</strong> You take +1d when
+    scouting, wrangling animals, placing traps, and on defense rolls against
+    environmental hazards.</p><hr><p><strong>GROWTH:</strong> At levels 3 and 6,
+    choose +1 Quarry per session.</p>
+  core: false
+  notes:
+    description: ''
+    label: ''
+  trackers:
+    - type: points
+      label: Quarry
+      points:
+        value: 1
+        max: 1
+        showSteps: false
+      pool:
+        diceNum: 0
+        powerPool: false
+effects: []
+sort: 0
+ownership:
+  default: 0
+  79CEe5dKC6Ls5VbU: 3
+flags: {}
+_stats:
+  coreVersion: '14.368'
+  systemId: grimwild
+  systemVersion: 0.5.3
+  createdTime: 1782662622584
+  modifiedTime: 1791744532447
+  lastModifiedBy: nF9qxzj59Qn6fNSn
+  compendiumSource: null
+  duplicateSource: null
+  exportSource: null
+_key: '!items!Ij1xIZUbca1IBcEX'

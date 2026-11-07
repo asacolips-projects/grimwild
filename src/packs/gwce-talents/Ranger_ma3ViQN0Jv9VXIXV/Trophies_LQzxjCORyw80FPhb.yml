@@ -1,0 +1,33 @@
+folder: ma3ViQN0Jv9VXIXV
+name: Trophies
+type: talent
+_id: LQzxjCORyw80FPhb
+img: icons/commodities/claws/claw-bird-pink.webp
+system:
+  description: >-
+    <p>When you play a key part in slaying a powerful monster, you can take a
+    trophy from it. This acts as a <strong>major expendable arcana</strong>. Use
+    the monster’s name, ability, and a function as the touchstones. You also
+    gain 1 major expendable arcana— detail it.</p>
+  core: false
+  notes:
+    description: ''
+    label: ''
+  trackers: []
+effects: []
+sort: 0
+ownership:
+  default: 0
+  79CEe5dKC6Ls5VbU: 3
+flags: {}
+_stats:
+  coreVersion: '14.368'
+  systemId: grimwild
+  systemVersion: 0.5.3
+  createdTime: 1782662622585
+  modifiedTime: 1791744788040
+  lastModifiedBy: nF9qxzj59Qn6fNSn
+  compendiumSource: null
+  duplicateSource: null
+  exportSource: null
+_key: '!items!LQzxjCORyw80FPhb'

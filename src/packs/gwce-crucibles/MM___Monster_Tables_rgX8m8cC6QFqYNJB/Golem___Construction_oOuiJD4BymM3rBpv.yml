@@ -1,0 +1,158 @@
+name: Golem - Construction
+description: ''
+formula: 1d6
+results:
+  - name: ''
+    description: <p><strong>Clay</strong>, with a malleable form.</p>
+    range:
+      - 1
+      - 1
+    _id: J4eNHTFOrHEUETEm
+    type: text
+    img: icons/svg/d20-black.svg
+    weight: 1
+    drawn: false
+    flags: {}
+    _stats:
+      coreVersion: '14.368'
+      systemId: grimwild
+      systemVersion: 0.5.3
+      createdTime: 1783270821294
+      modifiedTime: 1791749913348
+      lastModifiedBy: nF9qxzj59Qn6fNSn
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+    documentUuid: null
+    _key: '!tables.results!oOuiJD4BymM3rBpv.J4eNHTFOrHEUETEm'
+  - name: ''
+    description: <b>Iron</b>, with a strong magnetic pull.
+    range:
+      - 2
+      - 2
+    _id: SbXTYKNLKzApyrOM
+    type: text
+    img: icons/svg/d20-black.svg
+    weight: 1
+    drawn: false
+    flags: {}
+    _stats:
+      coreVersion: '14.368'
+      systemId: grimwild
+      systemVersion: 0.5.3
+      createdTime: 1783270821294
+      modifiedTime: 1791749910847
+      lastModifiedBy: nF9qxzj59Qn6fNSn
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+    _key: '!tables.results!oOuiJD4BymM3rBpv.SbXTYKNLKzApyrOM'
+  - name: ''
+    description: <b>Crystal</b>, refracting light into dazzling shards.
+    range:
+      - 3
+      - 3
+    _id: Dx60kQVgGCjqpiQB
+    type: text
+    img: icons/svg/d20-black.svg
+    weight: 1
+    drawn: false
+    flags: {}
+    _stats:
+      coreVersion: '14.368'
+      systemId: grimwild
+      systemVersion: 0.5.3
+      createdTime: 1783270821294
+      modifiedTime: 1791749910848
+      lastModifiedBy: nF9qxzj59Qn6fNSn
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+    _key: '!tables.results!oOuiJD4BymM3rBpv.Dx60kQVgGCjqpiQB'
+  - name: ''
+    description: <b>Jade</b>, with a mind and will of its own.
+    range:
+      - 4
+      - 4
+    _id: 1JOEuA2axwy3ob6O
+    type: text
+    img: icons/svg/d20-black.svg
+    weight: 1
+    drawn: false
+    flags: {}
+    _stats:
+      coreVersion: '14.368'
+      systemId: grimwild
+      systemVersion: 0.5.3
+      createdTime: 1783270821294
+      modifiedTime: 1791749910848
+      lastModifiedBy: nF9qxzj59Qn6fNSn
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+    _key: '!tables.results!oOuiJD4BymM3rBpv.1JOEuA2axwy3ob6O'
+  - name: ''
+    description: <b>Flesh</b>, forming tiny flesh or blood golems if cut.
+    range:
+      - 5
+      - 5
+    _id: W16bmACAqt3Fe8hC
+    type: text
+    img: icons/svg/d20-black.svg
+    weight: 1
+    drawn: false
+    flags: {}
+    _stats:
+      coreVersion: '14.368'
+      systemId: grimwild
+      systemVersion: 0.5.3
+      createdTime: 1783270821294
+      modifiedTime: 1791749910848
+      lastModifiedBy: nF9qxzj59Qn6fNSn
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+    _key: '!tables.results!oOuiJD4BymM3rBpv.W16bmACAqt3Fe8hC'
+  - name: ''
+    description: <b>Wood</b>, regrowing damaged parts quickly.
+    range:
+      - 6
+      - 6
+    _id: WcHTAYZ0IjZ878ce
+    type: text
+    img: icons/svg/d20-black.svg
+    weight: 1
+    drawn: false
+    flags: {}
+    _stats:
+      coreVersion: '14.368'
+      systemId: grimwild
+      systemVersion: 0.5.3
+      createdTime: 1783270821294
+      modifiedTime: 1791749910848
+      lastModifiedBy: nF9qxzj59Qn6fNSn
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+    _key: '!tables.results!oOuiJD4BymM3rBpv.WcHTAYZ0IjZ878ce'
+folder: rgX8m8cC6QFqYNJB
+sort: 300000
+_id: oOuiJD4BymM3rBpv
+img: icons/svg/d20-grey.svg
+replacement: true
+displayRoll: true
+ownership:
+  default: 0
+  79CEe5dKC6Ls5VbU: 3
+flags: {}
+_stats:
+  coreVersion: '14.368'
+  systemId: grimwild
+  systemVersion: 0.5.3
+  createdTime: 1783270821294
+  modifiedTime: 1791749998254
+  lastModifiedBy: nF9qxzj59Qn6fNSn
+  compendiumSource: null
+  duplicateSource: null
+  exportSource: null
+_key: '!tables!oOuiJD4BymM3rBpv'

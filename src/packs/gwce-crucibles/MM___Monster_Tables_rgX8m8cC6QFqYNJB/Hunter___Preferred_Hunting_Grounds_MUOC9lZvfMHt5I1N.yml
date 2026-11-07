@@ -1,0 +1,157 @@
+name: Hunter - Preferred Hunting Grounds
+description: ''
+formula: 1d6
+results:
+  - name: ''
+    description: <b>Misty forest</b>, dense and thick with undergrowth.
+    range:
+      - 1
+      - 1
+    _id: HE3qqPNHylWualks
+    type: text
+    img: null
+    weight: 1
+    drawn: false
+    flags: {}
+    _stats:
+      coreVersion: '14.364'
+      systemId: grimwild
+      systemVersion: 0.5.3
+      createdTime: 1783270821343
+      modifiedTime: 1783270821343
+      lastModifiedBy: 79CEe5dKC6Ls5VbU
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+    _key: '!tables.results!MUOC9lZvfMHt5I1N.HE3qqPNHylWualks'
+  - name: ''
+    description: <b>Rocky mountain passes</b>, searching for dire eagles.
+    range:
+      - 2
+      - 2
+    _id: LRazI57dnXV4KQ4s
+    type: text
+    img: null
+    weight: 1
+    drawn: false
+    flags: {}
+    _stats:
+      coreVersion: '14.364'
+      systemId: grimwild
+      systemVersion: 0.5.3
+      createdTime: 1783270821343
+      modifiedTime: 1783270821343
+      lastModifiedBy: 79CEe5dKC6Ls5VbU
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+    _key: '!tables.results!MUOC9lZvfMHt5I1N.LRazI57dnXV4KQ4s'
+  - name: ''
+    description: <b>Swampy marshlands</b>, full of hidden dangers.
+    range:
+      - 3
+      - 3
+    _id: 5tz5DJrvXAOfCFHd
+    type: text
+    img: null
+    weight: 1
+    drawn: false
+    flags: {}
+    _stats:
+      coreVersion: '14.364'
+      systemId: grimwild
+      systemVersion: 0.5.3
+      createdTime: 1783270821343
+      modifiedTime: 1783270821343
+      lastModifiedBy: 79CEe5dKC6Ls5VbU
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+    _key: '!tables.results!MUOC9lZvfMHt5I1N.5tz5DJrvXAOfCFHd'
+  - name: ''
+    description: <b>Coastal cliffs and shores</b>, hunting marine animals.
+    range:
+      - 4
+      - 4
+    _id: APn1CT3ycXthBpFx
+    type: text
+    img: null
+    weight: 1
+    drawn: false
+    flags: {}
+    _stats:
+      coreVersion: '14.364'
+      systemId: grimwild
+      systemVersion: 0.5.3
+      createdTime: 1783270821343
+      modifiedTime: 1783270821343
+      lastModifiedBy: 79CEe5dKC6Ls5VbU
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+    _key: '!tables.results!MUOC9lZvfMHt5I1N.APn1CT3ycXthBpFx'
+  - name: ''
+    description: <b>Rocky badlands</b>, avoiding harsh sun and sands.
+    range:
+      - 5
+      - 5
+    _id: WDyXDWJp4w4PXQ1K
+    type: text
+    img: null
+    weight: 1
+    drawn: false
+    flags: {}
+    _stats:
+      coreVersion: '14.364'
+      systemId: grimwild
+      systemVersion: 0.5.3
+      createdTime: 1783270821343
+      modifiedTime: 1783270821343
+      lastModifiedBy: 79CEe5dKC6Ls5VbU
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+    _key: '!tables.results!MUOC9lZvfMHt5I1N.WDyXDWJp4w4PXQ1K'
+  - name: ''
+    description: <b>Snowy tundra</b>, fighting the bitter cold for big game.
+    range:
+      - 6
+      - 6
+    _id: wQkaznzEaaunXMb5
+    type: text
+    img: null
+    weight: 1
+    drawn: false
+    flags: {}
+    _stats:
+      coreVersion: '14.364'
+      systemId: grimwild
+      systemVersion: 0.5.3
+      createdTime: 1783270821343
+      modifiedTime: 1783270821343
+      lastModifiedBy: 79CEe5dKC6Ls5VbU
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+    _key: '!tables.results!MUOC9lZvfMHt5I1N.wQkaznzEaaunXMb5'
+folder: rgX8m8cC6QFqYNJB
+sort: 2400000
+_id: MUOC9lZvfMHt5I1N
+img: icons/svg/d20-grey.svg
+replacement: true
+displayRoll: true
+ownership:
+  default: 0
+  79CEe5dKC6Ls5VbU: 3
+flags: {}
+_stats:
+  coreVersion: '14.368'
+  systemId: grimwild
+  systemVersion: 0.5.3
+  createdTime: 1783270821343
+  modifiedTime: 1791749998255
+  lastModifiedBy: nF9qxzj59Qn6fNSn
+  compendiumSource: null
+  duplicateSource: null
+  exportSource: null
+_key: '!tables!MUOC9lZvfMHt5I1N'

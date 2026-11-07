@@ -1,0 +1,32 @@
+folder: a1i3YtaLp7jouLob
+name: True Shape
+type: talent
+_id: rwXMt9aoBLseSwEf
+img: icons/magic/nature/wolf-paw-glow-green.webp
+system:
+  description: >-
+    <p>Choose 1 beast form. If it has no <strong>wild talents</strong>, you can
+    shift into it without using a wild shape pool. If it has <strong>wild
+    talents</strong>, you drop 1d less than normal when you shift into it.</p>
+  core: false
+  notes:
+    description: <p>What is your chosen beast form?</p>
+    label: Chosen Form
+  trackers: []
+effects: []
+sort: 0
+ownership:
+  default: 0
+  79CEe5dKC6Ls5VbU: 3
+flags: {}
+_stats:
+  coreVersion: '14.368'
+  systemId: grimwild
+  systemVersion: 0.5.3
+  createdTime: 1782662616207
+  modifiedTime: 1791742826964
+  lastModifiedBy: nF9qxzj59Qn6fNSn
+  compendiumSource: null
+  duplicateSource: null
+  exportSource: null
+_key: '!items!rwXMt9aoBLseSwEf'

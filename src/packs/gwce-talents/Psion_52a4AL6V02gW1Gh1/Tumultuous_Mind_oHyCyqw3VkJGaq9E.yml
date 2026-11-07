@@ -1,0 +1,43 @@
+folder: 52a4AL6V02gW1Gh1
+name: Tumultuous Mind
+type: talent
+_id: oHyCyqw3VkJGaq9E
+img: icons/magic/control/fear-fright-monster-grin-purple-blue.webp
+system:
+  description: >-
+    <p>Your fractured mind bleeds into the consciousness of others. The GM
+    judges an NPC’s response, or you can spend <em><strong>thread</strong></em>
+    to set it: <em>agitated—confused—paranoid—forgetful</em>. Once per session,
+    when you would take <em><strong>vex</strong></em>, a nearby creature must
+    take it instead.</p>
+  core: false
+  notes:
+    description: ''
+    label: ''
+  trackers:
+    - type: points
+      label: Redirect Vex
+      points:
+        value: 1
+        max: 1
+        showSteps: true
+      pool:
+        diceNum: 0
+        powerPool: false
+effects: []
+sort: 0
+ownership:
+  default: 0
+  79CEe5dKC6Ls5VbU: 3
+flags: {}
+_stats:
+  coreVersion: '14.368'
+  systemId: grimwild
+  systemVersion: 0.5.3
+  createdTime: 1782662621573
+  modifiedTime: 1791744465511
+  lastModifiedBy: nF9qxzj59Qn6fNSn
+  compendiumSource: null
+  duplicateSource: null
+  exportSource: null
+_key: '!items!oHyCyqw3VkJGaq9E'

@@ -1,0 +1,257 @@
+name: Arcana
+_id: tWap4OJS4LsAPYEY
+pages:
+  - sort: 100000
+    name: Arcana
+    type: text
+    _id: LCc0JbeJqFQmdkfU
+    system: {}
+    title:
+      show: true
+      level: 1
+    image: {}
+    text:
+      format: 1
+      content: >-
+        <p>Arcana are rare relics of power, magic imbued in them through ritual
+        or other eso- teric forces. They grant vantage, letting you do what's
+        otherwise impossible. These items have specific functionalities, but can
+        be used in creative ways as long as their use fits within their unique
+        logic. Each arcana is defined by four parts:</p><p>The description,
+        which defines its intended use and core ability. It explains what
+        happens in the fiction, though not necessarily the rules
+        mechanics.</p><p>The touchstones, which help to adjudicate its use. When
+        using arcana outside of its description, its name and all touchstones
+        (including the function) must be applied. This keeps magic and usage
+        tied thematically to the item.</p><p>The limitations, which give a cost
+        or limit the arcana’s use to certain situations. These may lower the
+        final tier, and aren’t present on all magical items.</p><p>The tier,
+        which informs the magnitude of the item’s magic. They have the same
+        tiers as treasure: minor, major, and mythic. Limitations may lower the
+        final tier. See below for the breakdown:</p><ul><li><p><strong>Minor
+        arcana:</strong> Limited effects based on the touchstones, such
+        as:</p><ul><li><p>Set dressing vantage</p></li><li><p>2d Power Pool for
+        an effect</p></li><li><p>Once per session effect</p></li><li><p>Using a
+        different stat for actions</p></li></ul></li><li><p><strong>Major
+        arcana:</strong> Useful effects based on their touchstones, such
+        as:</p><ul><li><p>Expanded vantage</p></li><li><p>4d Power Pool for an
+        effect</p></li><li><p>Once per session potent effect
+        </p></li><li><p>Outside help or secondary
+        effect</p></li></ul></li><li><p><strong>Mythic arcana:</strong> Powerful
+        effects based on their touchstones. These greatly expand vantage, can be
+        used for ritual magic, and may have any number of extra potent
+        abilities.</p></li></ul><h3>Expendable Arcana</h3><p>Limited use items
+        such as potions and scrolls can only be used once, and because of that
+        limitation, have an effect one tier higher. Scrolls are highly
+        sought-after arcana, used to learn theorems with the wizard's
+        @UUID[Compendium.grimwild.gwce-talents.Item.nJs6GfiABSqweW9M]{Spellcraft}
+        talent.</p><p><strong>Trivial arcana</strong> is a special tier
+        exclusive to expendable arcana, allowing a single minor effect. Vantage
+        and other passive effects last for the scene.</p><p><strong>Minor
+        expendable arcana</strong> bestows a single potent effect, while
+        <strong>Major</strong> allows the PC to produce the effects of a
+        @UUID[Compendium.grimwild.gwce-journals.JournalEntry.Gok7DgwRi0Z3D5Jt.JournalEntryPage.WlrtIlgx9NHM6uyu]{ritual}.
+        <strong>Mythic expendable arcana</strong> are plot devices only,
+        changing the world as the GM sees fit.</p><h2>Using Arcana</h2><p>Most
+        arcana produce effects similar to spellcasting. These are specific
+        spells, more narrow than wizard theorems. When arcana is used, the GM
+        will pick whatever stat makes the most sense based on the form and how
+        it’s being used. If the stat is not obvious, use Wits or leave the
+        result to a story roll. Remember, only rolls that are risky are
+        made—without <em><strong>risk</strong></em>, the action (or story roll)
+        counts as an automatic success, if possible at all. <span
+        style="color:#6e6e6e"><em>A flaming sword uses Brawn, a robe of pockets
+        uses a story roll.</em></span></p><h2>Obtaining Arcana</h2><p>The act of
+        binding magic to items, crafting arcana, requires a ritual and a source
+        of magic. PCs may need to find ritual anchors and hire enchanting
+        experts to create their own arcana.</p><p>Finding and buying arcana for
+        sale is much more difficult. Prices depend entirely on the seller's
+        desires, usually something other than coin.</p><h2>Mythic
+        Arcana</h2><p>These artifacts are more meaningful and unique—the basis
+        of quests and layered with history, or possibly cursed. These strange
+        relics expand vantage in powerful ways, bestowing large narrative
+        permissions. Those with power pools refresh every session unless
+        otherwise noted, and allow for potent effects by dropping 1d before
+        rolling. In addition to this, they also:</p><ul><li><p>count as having
+        <strong>all functions</strong>, in addition to having any 3 or more
+        touchstones. When used outside of their description, use any two
+        touchstones and the arcana’s name for the effect.</p></li><li><p>count
+        as having <strong>all anchors</strong> for ritual magic using their
+        touchstones.</p></li><li><p>are more likely to have <strong>extra
+        qualities and limitations</strong>, such as those
+        below.</p></li></ul><h3>Optional Additions</h3><p><strong>Heavy
+        Cost:</strong> The item’s magic has an upfront cost to use, such as
+        pushing yourself, taking
+        <em><strong>@UUID[Compendium.grimwild.gwce-journals.JournalEntry.YbuXwBYYNXIb670F.JournalEntryPage.v1Y89kCcCc4AYWaW#harm]{harm}</strong></em>,
+        <em><strong>@UUID[Compendium.grimwild.gwce-journals.JournalEntry.YbuXwBYYNXIb670F.JournalEntryPage.v1Y89kCcCc4AYWaW#vex]{vex}</strong></em>,
+        or a temporary
+        <em><strong>@UUID[Compendium.grimwild.gwce-journals.JournalEntry.YbuXwBYYNXIb670F.JournalEntryPage.v1Y89kCcCc4AYWaW#conditions]{condition}</strong></em>.</p><p><strong>Unique
+        Reset:</strong> The power pool doesn't reset every session, instead
+        requiring an act, event, in-game resources, or meta-currency (such as
+        <em><strong>@UUID[Compendium.grimwild.gwce-journals.JournalEntry.YbuXwBYYNXIb670F.JournalEntryPage.vwluhFw7CUnimj9t]{spark}</strong></em>
+        or
+        <em><strong>@UUID[Compendium.grimwild.gwce-journals.JournalEntry.YbuXwBYYNXIb670F.JournalEntryPage.TFE7qnkVkpzsZYW6#thread]{thread}</strong></em>).</p><p><strong>Ritual
+        Ability:</strong> Given time, or with an 8d timer pool the arcana can
+        produce a ritual-level effect. This may be once only, or have special
+        recharge conditions.</p><p><strong>Sentient:</strong> It can
+        communicate, and has its own thoughts, goals, and
+        wises.</p><p><strong>Curse:</strong> The item has a secret drawback,
+        ranging from making it very costly to use, to twisting the user towards
+        its own dark desires. Using its magic could bestow a condition, give the
+        GM
+        <em><strong>@UUID[Compendium.grimwild.gwce-journals.JournalEntry.V9XAOE6EuQRhd0cW.JournalEntryPage.1hwVUU0jguFscQg1#suspense]{suspense}</strong></em>,
+        or subvert the user's wishes.</p>
+    video:
+      controls: true
+      volume: 0.5
+    src: null
+    category: null
+    ownership:
+      default: -1
+      79CEe5dKC6Ls5VbU: 3
+    flags: {}
+    _stats:
+      coreVersion: '14.364'
+      systemId: grimwild
+      systemVersion: 0.5.3
+      createdTime: 1782677810371
+      modifiedTime: 1783089642358
+      lastModifiedBy: 79CEe5dKC6Ls5VbU
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+    _key: '!journal.pages!tWap4OJS4LsAPYEY.LCc0JbeJqFQmdkfU'
+  - sort: 200000
+    name: Arcana Crucibles
+    type: text
+    _id: O6rz6Um6QjfeRRHj
+    system: {}
+    title:
+      show: true
+      level: 1
+    image: {}
+    text:
+      format: 1
+      content: >-
+        <p>Use the following crucibles for touchstone inspiration, or pick 1 or
+        2 tables and roll randomly to generate two touchstones of a specific
+        theme, then assign a
+        function.</p><p></p><p>@Crucible[Compendium.grimwild.gwce-crucibles.RollTable.47iSTf5JiGFX2MHu]{Arcana
+        -
+        Arcane}</p><p>@Crucible[Compendium.grimwild.gwce-crucibles.RollTable.AGXxSaZNg5UypeEb]{Arcana
+        -
+        Divine}</p><p>@Crucible[Compendium.grimwild.gwce-crucibles.RollTable.pOM9KOs7Th31tuhF]{Arcana
+        -
+        Eldritch}</p><p>@Crucible[Compendium.grimwild.gwce-crucibles.RollTable.bR9DPH1VKotRGB2C]{Arcana
+        -
+        Primal}</p><p>@Crucible[Compendium.grimwild.gwce-crucibles.RollTable.MjqfIMtGC5oHeVNh]{Arcana
+        - Technology}</p>
+    video:
+      controls: true
+      volume: 0.5
+    src: null
+    category: null
+    ownership:
+      default: -1
+      79CEe5dKC6Ls5VbU: 3
+    flags: {}
+    _stats:
+      coreVersion: '14.364'
+      systemId: grimwild
+      systemVersion: 0.5.3
+      createdTime: 1782677810371
+      modifiedTime: 1783088761659
+      lastModifiedBy: 79CEe5dKC6Ls5VbU
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+    _key: '!journal.pages!tWap4OJS4LsAPYEY.O6rz6Um6QjfeRRHj'
+  - sort: 150000
+    name: Designing Arcana
+    type: text
+    _id: fXwbtovdLaNpoowy
+    system: {}
+    title:
+      show: true
+      level: 1
+    image: {}
+    text:
+      format: 1
+      content: >-
+        <ol><li><p><strong>Start with an idea of the magic item.</strong> Where
+        does it come from, and what themes should go along with
+        it?</p></li><li><p><strong>Pick a function from the list below.</strong>
+        This describes the general effect, and acts as a
+        touchstone.</p><ul><li><p><strong>Attack:</strong> lash out to deal
+        direct harm or destruction.</p></li><li><p><strong>Enhance:</strong>
+        temporarily boost senses, ability, or bestow something new.
+        </p></li><li><p><strong>Hinder:</strong> impede or debilitate others or
+        areas.</p></li><li><p><strong>Influence:</strong> alter thoughts,
+        emotions, or perceptions.</p></li><li><p><strong>Protect:</strong>
+        defend yourself and others from outside harm or influence.
+        </p></li><li><p><strong>Restore:</strong> heal wounds, cleanse maladies,
+        and mend materials.</p></li><li><p><strong>Reveal:</strong> sense and
+        reveal the hidden, and uncover new information.
+        </p></li><li><p><strong>Summon:</strong> manifest objects, creatures, or
+        forces themselves. </p></li><li><p><strong>Transform:</strong> change
+        the nature or form of the
+        subject.</p></li><li><p><strong>Traverse:</strong> move across space,
+        through barriers, or in a new
+        way.</p></li></ul></li><li><p><strong>Decide on the two remaining
+        touchstones.</strong> These should be thematic and focused, evoking the
+        magic ability of the arcana. Use the crucibles on the next page for
+        inspiration, or to randomize touchstones.</p></li><li><p><strong>Decide
+        the tier, based on the magical impact.</strong> Remember that the effect
+        is one tier higher if it's expendable, and one lower for unlimited use
+        arcana.</p></li><li><p><strong>Pick a fitting form for the
+        item.</strong> Consider the magic and function, and pick items that make
+        thematic sense, such as a pair of boots using traverse, or a dagger
+        using <em>attack</em>. It's okay to subvert expectations,
+        too!</p></li><li><p><strong>Write the description</strong>, giving an
+        idea as to how the magic manifests and what it does in the fiction. Keep
+        this focused on the fiction, the mechanics may change depending on the
+        situation and use.</p></li></ol><blockquote
+        style="border-style:solid;border-radius:8px"><h3>Open-Ended Arcana
+        Creation</h3><p>These rules are a baseline to get started creating
+        items. Experienced players and GMs should treat this as guidance. Use
+        your vision of the arcana to create it as you see fit, judging the tier
+        based on the item’s general abilities and limitations
+        afterward.</p></blockquote>
+    video:
+      controls: true
+      volume: 0.5
+    src: null
+    category: null
+    ownership:
+      default: -1
+      79CEe5dKC6Ls5VbU: 3
+    flags: {}
+    _stats:
+      coreVersion: '14.364'
+      systemId: grimwild
+      systemVersion: 0.5.3
+      createdTime: 1783088801911
+      modifiedTime: 1783089814599
+      lastModifiedBy: 79CEe5dKC6Ls5VbU
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+    _key: '!journal.pages!tWap4OJS4LsAPYEY.fXwbtovdLaNpoowy'
+folder: DVjdnExv7XQjqTIH
+categories: []
+ownership:
+  default: 0
+  79CEe5dKC6Ls5VbU: 3
+flags: {}
+_stats:
+  coreVersion: '14.368'
+  systemId: grimwild
+  systemVersion: 0.5.3
+  createdTime: 1782677810371
+  modifiedTime: 1791746008807
+  lastModifiedBy: nF9qxzj59Qn6fNSn
+  exportSource: null
+  compendiumSource: null
+  duplicateSource: null
+sort: 400000
+_key: '!journal!tWap4OJS4LsAPYEY'

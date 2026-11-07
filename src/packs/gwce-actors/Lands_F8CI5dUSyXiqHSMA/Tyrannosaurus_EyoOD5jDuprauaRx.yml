@@ -1,0 +1,140 @@
+name: Tyrannosaurus
+type: monster
+img: icons/svg/poison.svg
+system:
+  biography: >-
+    <p>An apex predator, towering and unstoppable. With jaws that can crush bone
+    and a roar that shakes the sky, it dominates its territory through sheer
+    presence.</p>
+  notes: >-
+    <p>@Embed[Compendium.grimwild.gwce-crucibles.RollTable.QkDcK6Ude8b4Mr8E]{Tyrannosaurus
+    Rex - Territory Markers}</p>
+  role: marauder
+  tier: boss
+  traits:
+    - Overwhelming strength
+    - Predatory instinct
+    - Ignores pain
+  moves:
+    - Chomp Whole
+    - Demolish Area
+    - Thunderous Roar
+  desires:
+    - value: to eat everything of flesh and blood
+      are: false
+    - value: its territorial control challenged
+      are: false
+  sensories:
+    colors:
+      - name: Coal Slate
+        color: '#191e26'
+      - name: Muddy Brown
+        color: '#3b1406'
+      - name: Sulfurous Red
+        color: '#910b0b'
+    sights: deep footprints, crushed terrain, carcass parts
+    sounds: distant roar, heavy stomps like falling trees
+    smells: rotting meat, hot breath, wet earth and musk
+  pool:
+    diceNum: 14
+    powerPool: false
+  tables: []
+prototypeToken:
+  name: Tyrannosaurus
+  displayName: 40
+  actorLink: false
+  width: 3
+  height: 3
+  depth: 3
+  texture:
+    src: icons/svg/poison.svg
+    anchorX: 0.5
+    anchorY: 0.5
+    fit: contain
+    scaleX: 1
+    scaleY: 1
+    tint: '#ffffff'
+    alphaThreshold: 0.75
+  lockRotation: false
+  rotation: 0
+  alpha: 1
+  disposition: -1
+  displayBars: 0
+  bar1:
+    attribute: null
+  bar2:
+    attribute: null
+  light:
+    negative: false
+    priority: 0
+    alpha: 0.5
+    angle: 360
+    bright: 0
+    color: null
+    coloration: 1
+    dim: 0
+    attenuation: 0.5
+    luminosity: 0.5
+    saturation: 0
+    contrast: 0
+    shadows: 0
+    animation:
+      type: null
+      speed: 5
+      intensity: 5
+      reverse: false
+    darkness:
+      min: 0
+      max: 1
+  sight:
+    enabled: false
+    range: 0
+    angle: 360
+    visionMode: basic
+    color: null
+    attenuation: 0.1
+    brightness: 0
+    saturation: 0
+    contrast: 0
+  detectionModes: {}
+  occludable:
+    radius: 0
+  ring:
+    enabled: false
+    colors:
+      ring: null
+      background: null
+    effects: 0
+    subject:
+      scale: 1
+      texture: null
+  turnMarker:
+    mode: 1
+    animation: null
+    src: null
+    disposition: false
+  movementAction: null
+  flags: {}
+  randomImg: false
+  appendNumber: false
+  prependAdjective: false
+items: []
+effects: []
+folder: F8CI5dUSyXiqHSMA
+ownership:
+  default: 0
+  79CEe5dKC6Ls5VbU: 3
+flags: {}
+_stats:
+  coreVersion: '14.364'
+  systemId: grimwild
+  systemVersion: 0.5.3
+  createdTime: 1783200850620
+  modifiedTime: 1783350266408
+  lastModifiedBy: 79CEe5dKC6Ls5VbU
+  exportSource: null
+  compendiumSource: null
+  duplicateSource: null
+_id: EyoOD5jDuprauaRx
+sort: 0
+_key: '!actors!EyoOD5jDuprauaRx'

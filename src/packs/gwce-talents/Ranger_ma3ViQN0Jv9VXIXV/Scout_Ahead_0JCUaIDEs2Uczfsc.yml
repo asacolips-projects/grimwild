@@ -1,0 +1,43 @@
+folder: ma3ViQN0Jv9VXIXV
+name: Scout Ahead
+type: talent
+_id: 0JCUaIDEs2Uczfsc
+img: icons/skills/trades/academics-investigation-study-blue.webp
+system:
+  description: >-
+    <p>You gain 1 <em><strong>thread</strong></em> per session and can spend
+    <em><strong>thread</strong></em> to flashback to scouting ahead and:
+    <em>find an escape route—sabotage something—set a trap—survey the area (ask
+    2 questions)—take out a danger</em>. Make a 3d montage roll. The GM always
+    takes <em><strong>suspense</strong></em> in place of an impact move.</p>
+  core: false
+  notes:
+    description: ''
+    label: ''
+  trackers:
+    - type: points
+      label: Thread
+      points:
+        value: 1
+        max: 1
+        showSteps: true
+      pool:
+        diceNum: 0
+        powerPool: false
+effects: []
+sort: 0
+ownership:
+  default: 0
+  79CEe5dKC6Ls5VbU: 3
+flags: {}
+_stats:
+  coreVersion: '14.368'
+  systemId: grimwild
+  systemVersion: 0.5.3
+  createdTime: 1782662622588
+  modifiedTime: 1791744561647
+  lastModifiedBy: nF9qxzj59Qn6fNSn
+  compendiumSource: null
+  duplicateSource: null
+  exportSource: null
+_key: '!items!0JCUaIDEs2Uczfsc'

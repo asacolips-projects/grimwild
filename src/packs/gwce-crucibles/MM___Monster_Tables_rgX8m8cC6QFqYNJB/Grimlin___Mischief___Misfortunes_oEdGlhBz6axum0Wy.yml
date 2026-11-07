@@ -1,0 +1,157 @@
+name: Grimlin - Mischief & Misfortunes
+description: ''
+formula: 1d6
+results:
+  - name: ''
+    description: Subtly <b>breaks your weapon</b> for when you use it next.
+    range:
+      - 1
+      - 1
+    _id: r0phnO0qjBILrGvg
+    type: text
+    img: null
+    weight: 1
+    drawn: false
+    flags: {}
+    _stats:
+      coreVersion: '14.364'
+      systemId: grimwild
+      systemVersion: 0.5.3
+      createdTime: 1783270821315
+      modifiedTime: 1783270821315
+      lastModifiedBy: 79CEe5dKC6Ls5VbU
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+    _key: '!tables.results!oEdGlhBz6axum0Wy.r0phnO0qjBILrGvg'
+  - name: ''
+    description: Fills your shoes with <b>bees and bugs</b>.
+    range:
+      - 2
+      - 2
+    _id: aOVoF2czjOIfi97v
+    type: text
+    img: null
+    weight: 1
+    drawn: false
+    flags: {}
+    _stats:
+      coreVersion: '14.364'
+      systemId: grimwild
+      systemVersion: 0.5.3
+      createdTime: 1783270821315
+      modifiedTime: 1783270821315
+      lastModifiedBy: 79CEe5dKC6Ls5VbU
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+    _key: '!tables.results!oEdGlhBz6axum0Wy.aOVoF2czjOIfi97v'
+  - name: ''
+    description: Replaces your <b>map</b> with a crude and incorrect one.
+    range:
+      - 3
+      - 3
+    _id: TvrAZJkpKIh30lK9
+    type: text
+    img: null
+    weight: 1
+    drawn: false
+    flags: {}
+    _stats:
+      coreVersion: '14.364'
+      systemId: grimwild
+      systemVersion: 0.5.3
+      createdTime: 1783270821315
+      modifiedTime: 1783270821315
+      lastModifiedBy: 79CEe5dKC6Ls5VbU
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+    _key: '!tables.results!oEdGlhBz6axum0Wy.TvrAZJkpKIh30lK9'
+  - name: ''
+    description: Glues a few <b>fake coins</b> to the floor.
+    range:
+      - 4
+      - 4
+    _id: jDvpI0iCSPs0F9bR
+    type: text
+    img: null
+    weight: 1
+    drawn: false
+    flags: {}
+    _stats:
+      coreVersion: '14.364'
+      systemId: grimwild
+      systemVersion: 0.5.3
+      createdTime: 1783270821315
+      modifiedTime: 1783270821315
+      lastModifiedBy: 79CEe5dKC6Ls5VbU
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+    _key: '!tables.results!oEdGlhBz6axum0Wy.jDvpI0iCSPs0F9bR'
+  - name: ''
+    description: <b>Draws mustaches</b> and unibrows with magic ink.
+    range:
+      - 5
+      - 5
+    _id: K2Cij1OzuNrfgfJX
+    type: text
+    img: null
+    weight: 1
+    drawn: false
+    flags: {}
+    _stats:
+      coreVersion: '14.364'
+      systemId: grimwild
+      systemVersion: 0.5.3
+      createdTime: 1783270821315
+      modifiedTime: 1783270821315
+      lastModifiedBy: 79CEe5dKC6Ls5VbU
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+    _key: '!tables.results!oEdGlhBz6axum0Wy.K2Cij1OzuNrfgfJX'
+  - name: ''
+    description: Steals your <b>shadow</b> to mock you.
+    range:
+      - 6
+      - 6
+    _id: vWhRfpuVTegcULho
+    type: text
+    img: null
+    weight: 1
+    drawn: false
+    flags: {}
+    _stats:
+      coreVersion: '14.364'
+      systemId: grimwild
+      systemVersion: 0.5.3
+      createdTime: 1783270821315
+      modifiedTime: 1783270821315
+      lastModifiedBy: 79CEe5dKC6Ls5VbU
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+    _key: '!tables.results!oEdGlhBz6axum0Wy.vWhRfpuVTegcULho'
+folder: rgX8m8cC6QFqYNJB
+sort: 1200000
+_id: oEdGlhBz6axum0Wy
+img: icons/svg/d20-grey.svg
+replacement: true
+displayRoll: true
+ownership:
+  default: 0
+  79CEe5dKC6Ls5VbU: 3
+flags: {}
+_stats:
+  coreVersion: '14.368'
+  systemId: grimwild
+  systemVersion: 0.5.3
+  createdTime: 1783270821315
+  modifiedTime: 1791749998254
+  lastModifiedBy: nF9qxzj59Qn6fNSn
+  compendiumSource: null
+  duplicateSource: null
+  exportSource: null
+_key: '!tables!oEdGlhBz6axum0Wy'

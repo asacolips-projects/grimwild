@@ -1,0 +1,289 @@
+name: Flux Frog - Chaos Magic Surge
+description: ''
+formula: 1d12
+results:
+  - name: ''
+    description: nearby objects float
+    range:
+      - 1
+      - 1
+    _id: 1dOBWEgIQQkfSTSc
+    type: text
+    img: null
+    weight: 1
+    drawn: false
+    flags: {}
+    _stats:
+      coreVersion: '14.364'
+      systemId: grimwild
+      systemVersion: 0.5.3
+      createdTime: 1783270821397
+      modifiedTime: 1783270821397
+      lastModifiedBy: 79CEe5dKC6Ls5VbU
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+    _key: '!tables.results!mPEsRfalpfxopXwC.1dOBWEgIQQkfSTSc'
+  - name: ''
+    description: only speak in screams
+    range:
+      - 2
+      - 2
+    _id: YWlp6oP9UBiRBsRH
+    type: text
+    img: null
+    weight: 1
+    drawn: false
+    flags: {}
+    _stats:
+      coreVersion: '14.364'
+      systemId: grimwild
+      systemVersion: 0.5.3
+      createdTime: 1783270821397
+      modifiedTime: 1783270821397
+      lastModifiedBy: 79CEe5dKC6Ls5VbU
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+    _key: '!tables.results!mPEsRfalpfxopXwC.YWlp6oP9UBiRBsRH'
+  - name: ''
+    description: metal flies to the flux frog
+    range:
+      - 3
+      - 3
+    _id: xD7X4i5vOE35cCSi
+    type: text
+    img: null
+    weight: 1
+    drawn: false
+    flags: {}
+    _stats:
+      coreVersion: '14.364'
+      systemId: grimwild
+      systemVersion: 0.5.3
+      createdTime: 1783270821397
+      modifiedTime: 1783270821397
+      lastModifiedBy: 79CEe5dKC6Ls5VbU
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+    _key: '!tables.results!mPEsRfalpfxopXwC.xD7X4i5vOE35cCSi'
+  - name: ''
+    description: time skips back a minute
+    range:
+      - 4
+      - 4
+    _id: QFJ9ZeJHb8ZA2T9M
+    type: text
+    img: null
+    weight: 1
+    drawn: false
+    flags: {}
+    _stats:
+      coreVersion: '14.364'
+      systemId: grimwild
+      systemVersion: 0.5.3
+      createdTime: 1783270821397
+      modifiedTime: 1783270821397
+      lastModifiedBy: 79CEe5dKC6Ls5VbU
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+    _key: '!tables.results!mPEsRfalpfxopXwC.QFJ9ZeJHb8ZA2T9M'
+  - name: ''
+    description: lightning strikes area
+    range:
+      - 5
+      - 5
+    _id: kN18eKaTiqUnGV73
+    type: text
+    img: null
+    weight: 1
+    drawn: false
+    flags: {}
+    _stats:
+      coreVersion: '14.364'
+      systemId: grimwild
+      systemVersion: 0.5.3
+      createdTime: 1783270821397
+      modifiedTime: 1783270821397
+      lastModifiedBy: 79CEe5dKC6Ls5VbU
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+    _key: '!tables.results!mPEsRfalpfxopXwC.kN18eKaTiqUnGV73'
+  - name: ''
+    description: flaoting mouths echoing
+    range:
+      - 6
+      - 6
+    _id: 8Ynrncj1QDf54NBw
+    type: text
+    img: null
+    weight: 1
+    drawn: false
+    flags: {}
+    _stats:
+      coreVersion: '14.364'
+      systemId: grimwild
+      systemVersion: 0.5.3
+      createdTime: 1783270821397
+      modifiedTime: 1783270821397
+      lastModifiedBy: 79CEe5dKC6Ls5VbU
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+    _key: '!tables.results!mPEsRfalpfxopXwC.8Ynrncj1QDf54NBw'
+  - name: ''
+    description: speech is backwards
+    range:
+      - 7
+      - 7
+    _id: RtalPmRAuTKt815L
+    type: text
+    img: null
+    weight: 1
+    drawn: false
+    flags: {}
+    _stats:
+      coreVersion: '14.364'
+      systemId: grimwild
+      systemVersion: 0.5.3
+      createdTime: 1783270821397
+      modifiedTime: 1783270821397
+      lastModifiedBy: 79CEe5dKC6Ls5VbU
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+    _key: '!tables.results!mPEsRfalpfxopXwC.RtalPmRAuTKt815L'
+  - name: ''
+    description: no gravity
+    range:
+      - 8
+      - 8
+    _id: xdVoeMTHxO0v9MwP
+    type: text
+    img: null
+    weight: 1
+    drawn: false
+    flags: {}
+    _stats:
+      coreVersion: '14.364'
+      systemId: grimwild
+      systemVersion: 0.5.3
+      createdTime: 1783270821397
+      modifiedTime: 1783270821397
+      lastModifiedBy: 79CEe5dKC6Ls5VbU
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+    _key: '!tables.results!mPEsRfalpfxopXwC.xdVoeMTHxO0v9MwP'
+  - name: ''
+    description: shadows reach &amp; grab
+    range:
+      - 9
+      - 9
+    _id: iddJ4as9CAf6T23D
+    type: text
+    img: null
+    weight: 1
+    drawn: false
+    flags: {}
+    _stats:
+      coreVersion: '14.364'
+      systemId: grimwild
+      systemVersion: 0.5.3
+      createdTime: 1783270821397
+      modifiedTime: 1783270821397
+      lastModifiedBy: 79CEe5dKC6Ls5VbU
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+    _key: '!tables.results!mPEsRfalpfxopXwC.iddJ4as9CAf6T23D'
+  - name: ''
+    description: everybody invisible
+    range:
+      - 10
+      - 10
+    _id: otCi3I83qixenhCq
+    type: text
+    img: null
+    weight: 1
+    drawn: false
+    flags: {}
+    _stats:
+      coreVersion: '14.364'
+      systemId: grimwild
+      systemVersion: 0.5.3
+      createdTime: 1783270821397
+      modifiedTime: 1783270821397
+      lastModifiedBy: 79CEe5dKC6Ls5VbU
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+    _key: '!tables.results!mPEsRfalpfxopXwC.otCi3I83qixenhCq'
+  - name: ''
+    description: minds shuffled
+    range:
+      - 11
+      - 11
+    _id: doVoXusLoYnEXSk6
+    type: text
+    img: null
+    weight: 1
+    drawn: false
+    flags: {}
+    _stats:
+      coreVersion: '14.364'
+      systemId: grimwild
+      systemVersion: 0.5.3
+      createdTime: 1783270821397
+      modifiedTime: 1783270821397
+      lastModifiedBy: 79CEe5dKC6Ls5VbU
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+    _key: '!tables.results!mPEsRfalpfxopXwC.doVoXusLoYnEXSk6'
+  - name: ''
+    description: explosion of fire
+    range:
+      - 12
+      - 12
+    _id: S0Gzf4xHFwR9IfJD
+    type: text
+    img: null
+    weight: 1
+    drawn: false
+    flags: {}
+    _stats:
+      coreVersion: '14.364'
+      systemId: grimwild
+      systemVersion: 0.5.3
+      createdTime: 1783270821397
+      modifiedTime: 1783270821397
+      lastModifiedBy: 79CEe5dKC6Ls5VbU
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+    _key: '!tables.results!mPEsRfalpfxopXwC.S0Gzf4xHFwR9IfJD'
+folder: rgX8m8cC6QFqYNJB
+sort: 5400000
+_id: mPEsRfalpfxopXwC
+img: icons/svg/d20-grey.svg
+replacement: true
+displayRoll: true
+ownership:
+  default: 0
+  79CEe5dKC6Ls5VbU: 3
+flags: {}
+_stats:
+  coreVersion: '14.368'
+  systemId: grimwild
+  systemVersion: 0.5.3
+  createdTime: 1783270821397
+  modifiedTime: 1791749998256
+  lastModifiedBy: nF9qxzj59Qn6fNSn
+  compendiumSource: null
+  duplicateSource: null
+  exportSource: null
+_key: '!tables!mPEsRfalpfxopXwC'

@@ -1,0 +1,446 @@
+name: Introduction
+_id: VQzSWRZkMiyhcvnG
+pages:
+  - sort: 100000
+    name: What Is Grimwild?
+    type: text
+    _id: WipX0UpPGsVCdXBT
+    system: {}
+    title:
+      show: true
+      level: 1
+    image: {}
+    text:
+      format: 1
+      content: >-
+        <p><strong>Grimwild is a game of cinematic fantasy adventure.</strong>
+        You go on quests, delve into dungeons, navigate cities, and explore the
+        wilderness. It’s set in a world of your choosing, or one you create
+        together—the key being it's a world in need of adventurers. Grimwild
+        isn't a setting. That's up to you. This game gives you the rules,
+        monsters, and adventurers to play a campaign in that setting that feels
+        like a fun, ensemble cast TV series, each session a new
+        episode.</p><p><strong>Gameplay flows smoothly.</strong> The rules
+        resolve actions quickly, favoring the dramatic over the realistic. They
+        provide a strong framework to pace the game, manage tension, and create
+        great scenes. They also give players the ability to add elements to the
+        story beyond their character, letting them influence the world their
+        character lives in, while keeping the narrative moving forward. Common
+        sense is prioritized over detailed tracking, moving the game away from
+        pure simulation.</p><p><strong>The story is character-driven.</strong>
+        As players, you work together to decide your adventuring party's
+        identity, then make characters that fit well within it. You set your
+        group arcs, then choose your own character arcs, broad themes that give
+        you experience when you bring them into play and help steer the
+        story.</p><p><strong>Characters are revealed through play.</strong> You
+        start with a clear concept that fits well within your party, but you
+        don't necessarily need all of the details upfront—focus on what sounds
+        fun to bring into play. You can always use the tools the game gives you
+        to add details about your past and connect the dots as they come up,
+        leaving plenty of space to grow together into a cohesive, colorful
+        party.</p><p><strong>Things get dramatic.</strong> You're rewarded for
+        playing into your traits in ways that complicate the situation, giving
+        good reason to think in-character and sometimes picking the less than
+        optimal path. Inevitably, sparks fly, leading to in-fighting between
+        protagonists, just like any great story with characters driven by their
+        own motivations. This is all cleanly resolved with quarrels—a simple
+        roll to move things forward, encouraging and providing a release valve
+        for this friction!</p><p><strong>The story is a maelstrom of dice rolls
+        and fun ideas.</strong> From all this pushing and pulling on the
+        narrative, storylines and side plots emerge. In spite of the tension,
+        the choices you make about your party's arcs and the characters growing
+        together over time give compelling reason to stay together and focused.
+        It's a TV show that you're the main characters of, messy and fun and
+        full of surprises.</p>
+    video:
+      controls: true
+      volume: 0.5
+    src: null
+    category: null
+    ownership:
+      default: -1
+      79CEe5dKC6Ls5VbU: 3
+    flags: {}
+    _stats:
+      coreVersion: '14.364'
+      systemId: grimwild
+      systemVersion: 0.5.3
+      createdTime: 1783184139076
+      modifiedTime: 1783184706082
+      lastModifiedBy: 79CEe5dKC6Ls5VbU
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+    _key: '!journal.pages!VQzSWRZkMiyhcvnG.WipX0UpPGsVCdXBT'
+  - sort: 200000
+    name: Getting Started
+    type: text
+    _id: mesSzpjqA8eCQqKo
+    system: {}
+    title:
+      show: true
+      level: 1
+    image: {}
+    text:
+      format: 1
+      content: >-
+        <p>Grimwild's a tabletop roleplaying game, which this book assumes
+        you're familiar with. The basics aren't covered here, but there are
+        plenty of resources online, and you can join our Discord community to
+        ask questions: <a href="https://discord.gg/bsfFh2dd6r" title="Grimwild
+        Discord">https://discord.gg/bsfFh2dd6r</a></p><p><strong>Thematically</strong>,
+        Grimwild draws heavily on the heroic fantasy of <em>Dungeons &amp;
+        Dragons</em>, from the first editions (and the Old-School community
+        which continues those traditions), to the modern, from 3rd edition
+        onward. Inspiration was also taken from <em>Dungeon World</em> and its
+        many descendants, like <em>Unlimited Dungeons</em>, <em>Chasing
+        Adventure</em>, <em>Homebrew World</em>, and
+        <em>Stonetop</em>.</p><p><strong>Mechanically</strong>, the Moxie system
+        that <em>Grimwild</em> is built on draws from a variety of
+        character-driven games, with the biggest influences being <em>Burning
+        Wheel</em>, <em>Cortex Prime</em>, <em>Blades in the Dark</em>, and
+        <em>Fate</em>.</p><h2>To Play, You
+        Need:</h2><ul><li><p><strong>Players:</strong> You need one person as
+        the game master (GM) and some players, ideally three or four. Guidelines
+        for solo and duet play are in Ch. 9:
+        Extras.</p></li><li><p><strong>Time:</strong> Sessions work best at 3
+        hours. For longer sessions, consider using downtime (pg. 30) to break
+        them up and reset per-session
+        rules.</p></li><li><p><strong>Rules:</strong> All players should know
+        the core rules. It makes play go more smoothly.
+        </p></li><li><p><strong>Dice:</strong> Each player needs 4-6 d6s,
+        notated as d (e.g., 2d, 4d), and 2-4 d8s, called thorns and notated as t
+        (e.g., 1t, 3t). The GM needs 8
+        d6s.</p></li><li><p><strong>Sheets:</strong> To track player characters
+        (PCs), and story notes. GM sheets for quick
+        reference.</p></li><li><p><strong>Safety:</strong> To help everyone feel
+        comfortable with the themes within your campaigns, use the TTRPG Safety
+        Toolkit: <a href="https://bit.ly/ttrpgsafetytoolkit" title="Safety
+        Toolkit">bit.ly/ttrpgsafetytoolkit</a>.</p></li></ul><h2>Conventions in
+        This Book</h2><ul><li><p><strong>Format:</strong> Emphasis is shown in
+        <em>italics</em> or <strong>bold</strong>. System terms are
+        <em><strong>bold italics</strong></em> (and are generally hyperlinked)
+        when first shown, or when important. Examples are often after the rule,
+        in a <span style="color:#6e6e6e"><em>lighter colored
+        italics</em></span>.</p></li><li><p><strong>Pools:</strong> In Grimwild,
+        "pool" always refers to
+        @UUID[Compendium.grimwild.gwce-journals.JournalEntry.YbuXwBYYNXIb670F.JournalEntryPage.2nnUgNYYbbPgAqBL]{diminishing
+        pools}.</p></li><li><p>Crucibles: These are tables that provide a few
+        words to use for inspiration. Interpret them literally or figuratively.
+        Re-roll or pick if needed. For d66 tables, roll 2d6: one die for the
+        column, the other for the row—or switch them. Look at the results and
+        choose which one grabs you. Two-column tables use 1-3 and 4-6, and
+        three-column tables use 1-2, 3-4, and 5-6 results to refer to each
+        column respectively.</p></li></ul>
+    video:
+      controls: true
+      volume: 0.5
+    src: null
+    category: null
+    ownership:
+      default: -1
+      79CEe5dKC6Ls5VbU: 3
+    flags: {}
+    _stats:
+      coreVersion: '14.364'
+      systemId: grimwild
+      systemVersion: 0.5.3
+      createdTime: 1783184144240
+      modifiedTime: 1783184608056
+      lastModifiedBy: 79CEe5dKC6Ls5VbU
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+    _key: '!journal.pages!VQzSWRZkMiyhcvnG.mesSzpjqA8eCQqKo'
+  - sort: 300000
+    name: Play With Moxie
+    type: text
+    _id: UeAlKSKG6Y3dTVbn
+    system: {}
+    title:
+      show: true
+      level: 1
+    image: {}
+    text:
+      format: 1
+      content: >-
+        <p><em>Grimwild</em> is built with the Moxie ruleset and designed for
+        cinematic gameplay. The heart of that is narrative collaboration. It's
+        all about creating a shared imagination space, managing the spotlight,
+        and diving into narration. The rules will get you halfway there—they're
+        all pointing towards keeping the pace flowing quickly and the action
+        dramatic. The other half is in your hands, the players at the table, and
+        the attitude you all approach the game with.</p><h2>Play
+        Cinematically</h2><p><strong>Trust in the collaborative
+        process.</strong> Everyone at the table adds details into the story. You
+        have to work together and play off of each other, or the game and the
+        story you’re telling will fall flat.</p><p><strong>Use the camera, your
+        shared imagination.</strong> Each player has two perspectives, from your
+        character and as the audience watching this TV show. Use the camera and
+        vivid description to paint a cool scene in everyone's
+        mind.</p><p><strong>Tell us what it looks like, before and after your
+        rolls.</strong> Give details about what you do, don’t just leave it at
+        broad statements. Zoom in and out. Use the camera to show things outside
+        of your own character as well—pan around, cut to other scenes, and
+        describe NPCs (Non-Player Characters). Invoke cinematic vibes and create
+        great scenes.</p><h2>Play In Good Faith</h2><p><strong>Don’t be a
+        weasel.</strong> Do what your character would do, then let the GM map it
+        back to the rules. Don’t overdo it trying to work your way into better
+        rolls. The fun is letting the story flow naturally. When you ask the
+        rules what happens next, follow where it points with
+        enthusiasm.</p><p><strong>Separate player and character
+        knowledge.</strong> It’s more fun when everyone knows what’s going on in
+        the game. Don’t keep secrets from each other, keep them from characters.
+        As a player, be aware of what your character knows and doesn’t know and
+        play towards both.</p><p><strong>Know the rules.</strong> Everyone can
+        get a copy of the game PDF (it's free!). The rules say a lot about the
+        types of stories to be told with the game, and the less time you spend
+        talking about the rules, the more time you have for
+        roleplaying.</p><p><strong>Trust the GM to work with you.</strong>
+        They’re playing the game as much as anyone else, and want to make a good
+        story. The GM isn’t out to punish players for taking entertaining but
+        sub-optimal choices. Take chances and know they will have your
+        back.</p><h2>Play to Tell a Story</h2><p><strong>Think of the game as a
+        series of improv prompts, posed by yourselves and the rules.</strong>
+        When you respond to them, consider the following:</p><ul><li><p>What
+        would my character do?</p></li><li><p>What would make for a cool
+        scene?</p></li><li><p>What would move the story
+        forward?</p></li><li><p>What would get others
+        involved?</p></li></ul><p><strong>Don’t talk yourself out of
+        fun.</strong> The first idea that jumps into your head is often the one
+        you should go with. Don’t overthink or rationalize yourself out of it.
+        Like any great TV show character, go where the fun lies. Great stories
+        involve excitement, danger, and hard choices.</p><p><strong>Open doors
+        and step through them.</strong> The best scenes involve characters
+        playing off of each other, so make chances for others to get involved.
+        When someone invites you into a scene, step through that door—even if it
+        means a bit of mental gymnastics to justify your character’s actions.
+        And as long as you step through the door at times, remember that it can
+        be just as interesting to close the door instead.</p><p><strong>Work the
+        spotlight.</strong> There’s no turn order of any kind, but there is
+        screen time. Strive to make sure everyone gets their fair share,
+        including yourself.</p><ul><li><p>Grab the spotlight when there’s a lull
+        or you have a great idea.</p></li><li><p>Share the spotlight by opening
+        doors or following up on another PC’s actions.</p></li><li><p>Pass the
+        spotlight when you’ve been holding it too long.</p></li><li><p>Point the
+        spotlight to see another PC’s response or what they’ve been up
+        to.</p></li><li><p>Never steal the spotlight. Everyone works hard to set
+        up their moment.</p></li></ul><p><strong>Don't play to win, play to tell
+        stories.</strong> Work towards the same goal—to tell a great story where
+        everyone's character has a chance to grow. Failure isn't losing, it's
+        just another opportunity to have a great scene. Of course, your
+        character wants to succeed! However, your goal as a player is keeping
+        the story interesting. Play into the bad luck just as you do the good to
+        help ensure you craft compelling stories.</p><h2>Play Characters That
+        Grow</h2><p><strong>Leave lots of blank space.</strong> Your PC starts
+        with a past and connections to the world, but it's best as latticework.
+        Learn who they are through play. Leave space for the other PCs and story
+        to fit in.</p><p><strong>Don’t be afraid to change.</strong> PCs often
+        go through hell. Any dramatic story has adversity. Let what happens
+        change who they are. Announce what your PC's thinking, especially big
+        shifts. If nobody else at the table knows, it’s not really happening in
+        that shared imagination.</p><p><strong>Don’t be afraid to stay the
+        same.</strong> Some aspects of your character might be immutable. That’s
+        also part of what makes a great character. There can be those things
+        they will stick to, even to the bitter end. Just make sure it’s worth
+        it, and fun. Don’t die on small hills—die on entertaining
+        ones.</p><p><strong>Make time for smaller moments.</strong> Quiet time,
+        a conversation about nothing, introspection, reflection—these make for
+        great scenes to flesh out your characters and the world. Don't just rush
+        from action scene to action scene.</p><p><strong>Most importantly, do
+        stuff!</strong> Find reasons to get into the spotlight, push story arcs
+        forward, and make fun scenes. When there's no opportunity, add some
+        details to the story to create one.</p>
+    video:
+      controls: true
+      volume: 0.5
+    src: null
+    category: null
+    ownership:
+      default: -1
+      79CEe5dKC6Ls5VbU: 3
+    flags: {}
+    _stats:
+      coreVersion: '14.364'
+      systemId: grimwild
+      systemVersion: 0.5.3
+      createdTime: 1783184148931
+      modifiedTime: 1783184925560
+      lastModifiedBy: 79CEe5dKC6Ls5VbU
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+    _key: '!journal.pages!VQzSWRZkMiyhcvnG.UeAlKSKG6Y3dTVbn'
+  - sort: 0
+    name: Table of Contents
+    type: text
+    _id: LAXNuHDzcSlCsxSP
+    system: {}
+    title:
+      show: true
+      level: 1
+    image: {}
+    text:
+      format: 1
+      content: >-
+        <h2>Gameplay</h2><p>@UUID[.WipX0UpPGsVCdXBT]{What is
+        Grimwild?}</p><p>@UUID[.mesSzpjqA8eCQqKo]{Getting
+        Started}</p><p>@UUID[.UeAlKSKG6Y3dTVbn]{Play with Moxie}</p><p>Core
+        Rules</p><ul><li><p>@UUID[Compendium.grimwild.gwce-journals.JournalEntry.YbuXwBYYNXIb670F.JournalEntryPage.i6LDtcGasJUZQnAo]{Action
+        Rolls}</p></li><li><p>@UUID[Compendium.grimwild.gwce-journals.JournalEntry.YbuXwBYYNXIb670F.JournalEntryPage.tKwMCPQjyvrk3NNo]{Thorns}</p></li><li><p>@UUID[Compendium.grimwild.gwce-journals.JournalEntry.YbuXwBYYNXIb670F.JournalEntryPage.vwluhFw7CUnimj9t]{Spark}</p></li><li><p>@UUID[Compendium.grimwild.gwce-journals.JournalEntry.YbuXwBYYNXIb670F.JournalEntryPage.rAWKSZVoFjZNOUBd]{Vantage}</p></li><li><p>@UUID[Compendium.grimwild.gwce-journals.JournalEntry.YbuXwBYYNXIb670F.JournalEntryPage.bs6rHob3redyMuPl]{Working
+        Together}</p></li><li><p>@UUID[Compendium.grimwild.gwce-journals.JournalEntry.YbuXwBYYNXIb670F.JournalEntryPage.3ZhPTONYCcx0olaV]{Other
+        Rolls}</p></li><li><p>Dice Rules
+        Summary</p></li><li><p>@UUID[Compendium.grimwild.gwce-journals.JournalEntry.YbuXwBYYNXIb670F.JournalEntryPage.2nnUgNYYbbPgAqBL]{Diminishing
+        Pools}</p></li><li><p>@UUID[Compendium.grimwild.gwce-journals.JournalEntry.YbuXwBYYNXIb670F.JournalEntryPage.pNW9iH0hc9EFKfPK]{Character
+        Details}</p></li><li><p>@UUID[Compendium.grimwild.gwce-journals.JournalEntry.YbuXwBYYNXIb670F.JournalEntryPage.pNW9iH0hc9EFKfPK#quarrels]{Quarrels}</p></li><li><p>@UUID[Compendium.grimwild.gwce-journals.JournalEntry.YbuXwBYYNXIb670F.JournalEntryPage.7bKZMabTgv4QYNEK]{Potency}</p></li><li><p>@UUID[Compendium.grimwild.gwce-journals.JournalEntry.YbuXwBYYNXIb670F.JournalEntryPage.TFE7qnkVkpzsZYW6#tangles]{Tangles}</p></li><li><p>@UUID[Compendium.grimwild.gwce-journals.JournalEntry.YbuXwBYYNXIb670F.JournalEntryPage.TFE7qnkVkpzsZYW6#thread]{Thread}</p></li><li><p>@UUID[Compendium.grimwild.gwce-journals.JournalEntry.YbuXwBYYNXIb670F.JournalEntryPage.v1Y89kCcCc4AYWaW]{Damage}</p></li><li><p>@UUID[Compendium.grimwild.gwce-journals.JournalEntry.YbuXwBYYNXIb670F.JournalEntryPage.Mo2laiYpBIw2ths2]{Recovery}</p></li><li><p>@UUID[Compendium.grimwild.gwce-journals.JournalEntry.YbuXwBYYNXIb670F.JournalEntryPage.WZauoxU0hSzW7GlL#experience]{Experience}</p></li></ul><p>@UUID[Compendium.grimwild.gwce-journals.JournalEntry.Gok7DgwRi0Z3D5Jt.JournalEntryPage.VqNKDJVlTDJ6smrU]{Spellcasting}</p><ul><li><p>@UUID[Compendium.grimwild.gwce-journals.JournalEntry.Gok7DgwRi0Z3D5Jt.JournalEntryPage.h2oPwWbdbP0KBBeq]{Spells}</p></li><li><p>@UUID[Compendium.grimwild.gwce-journals.JournalEntry.Gok7DgwRi0Z3D5Jt.JournalEntryPage.5WIIqKTLpYkHFlvN]{Potent
+        Spells}</p></li><li><p>@UUID[Compendium.grimwild.gwce-journals.JournalEntry.Gok7DgwRi0Z3D5Jt.JournalEntryPage.WlrtIlgx9NHM6uyu]{Rituals}</p></li><li><p>@UUID[Compendium.grimwild.gwce-journals.JournalEntry.Gok7DgwRi0Z3D5Jt.JournalEntryPage.uA8QT8XrFuderyGt]{Touchstones}</p></li><li><p>@UUID[Compendium.grimwild.gwce-journals.JournalEntry.Gok7DgwRi0Z3D5Jt.JournalEntryPage.t2FOoDjFUEaykaLz]{Spellcasting
+        Rulings}</p></li><li><p>@UUID[Compendium.grimwild.gwce-journals.JournalEntry.Gok7DgwRi0Z3D5Jt.JournalEntryPage.Znga72phK72goeYs]{Spellcasting
+        Talents}</p></li></ul><p>@UUID[Compendium.grimwild.gwce-journals.JournalEntry.tWap4OJS4LsAPYEY]{Arcana}</p><p>@UUID[Compendium.grimwild.gwce-journals.JournalEntry.YbuXwBYYNXIb670F.JournalEntryPage.13jc6Kr9sBXfdgDC]{Treasure}</p><h2>Adventurers</h2><p>@UUID[Compendium.grimwild.gwce-journals.JournalEntry.USX8NsULFBxHjy8p.JournalEntryPage.Am7BZhSVdcbP4Aqu]{Starting
+        a
+        Campaign}</p><ul><li><p>@UUID[Compendium.grimwild.gwce-journals.JournalEntry.USX8NsULFBxHjy8p.JournalEntryPage.nzLK9DbNtrnDeclg]{Adventuring
+        Party}</p></li><li><p>@UUID[Compendium.grimwild.gwce-journals.JournalEntry.USX8NsULFBxHjy8p.JournalEntryPage.ymcJSNLpd5tppzUn]{Adventurer
+        Paths}</p></li><li><p>@UUID[Compendium.grimwild.gwce-journals.JournalEntry.USX8NsULFBxHjy8p.JournalEntryPage.oeVShHCFM2b9IZiO]{Character
+        Creation}</p></li><li><p>@UUID[Compendium.grimwild.gwce-journals.JournalEntry.USX8NsULFBxHjy8p.JournalEntryPage.IDib2F8Q1aVGCXEJ]{Backgrounds}</p></li><li><p>@UUID[Compendium.grimwild.gwce-journals.JournalEntry.USX8NsULFBxHjy8p.JournalEntryPage.emtc9Ieuc6gzRiFc]{Group-Building
+        Questions}</p></li><li><p>@UUID[Compendium.grimwild.gwce-journals.JournalEntry.USX8NsULFBxHjy8p.JournalEntryPage.xnN0DSLzNbkyhxVA]{Character
+        Crucibles}</p></li></ul><p>@UUID[Compendium.grimwild.gwce-journals.JournalEntry.USX8NsULFBxHjy8p.JournalEntryPage.yTATmOeTrKFLJdL9]{Paths
+        &amp;
+        Talents}</p><ul><li><p>@UUID[Compendium.grimwild.gwce-journals.JournalEntry.A3ABNLJphHplV8Nm.JournalEntryPage.3Gn22HIAtsedLnmL]{Artificer}</p></li><li><p>@UUID[Compendium.grimwild.gwce-journals.JournalEntry.A3ABNLJphHplV8Nm.JournalEntryPage.H0JCDbN6kAyXGxic]{Bard}</p></li><li><p>@UUID[Compendium.grimwild.gwce-journals.JournalEntry.A3ABNLJphHplV8Nm.JournalEntryPage.EcK2fQRpY99iVSVh]{Berserker}</p></li><li><p>@UUID[Compendium.grimwild.gwce-journals.JournalEntry.A3ABNLJphHplV8Nm.JournalEntryPage.CwaTNKnbmUxRUSXo]{Cleric}</p></li><li><p>@UUID[Compendium.grimwild.gwce-journals.JournalEntry.A3ABNLJphHplV8Nm.JournalEntryPage.hx2sET46piKhssI5]{Druid}</p></li><li><p>@UUID[Compendium.grimwild.gwce-journals.JournalEntry.A3ABNLJphHplV8Nm.JournalEntryPage.SCLx2TCkGXDAA7Ja]{Fighter}</p></li><li><p>@UUID[Compendium.grimwild.gwce-journals.JournalEntry.A3ABNLJphHplV8Nm.JournalEntryPage.ByEYMJ1kzBRfpn5y]{Monk}</p></li><li><p>@UUID[Compendium.grimwild.gwce-journals.JournalEntry.A3ABNLJphHplV8Nm.JournalEntryPage.QR7bLq1C65ipTirU]{Paladin}</p></li><li><p>@UUID[Compendium.grimwild.gwce-journals.JournalEntry.A3ABNLJphHplV8Nm.JournalEntryPage.xyL3pmEEMNvS9TGR]{Psion}</p></li><li><p>@UUID[Compendium.grimwild.gwce-journals.JournalEntry.A3ABNLJphHplV8Nm.JournalEntryPage.aThjRNE6lWryUmWv]{Ranger}</p></li><li><p>@UUID[Compendium.grimwild.gwce-journals.JournalEntry.A3ABNLJphHplV8Nm.JournalEntryPage.vU1b5kJGIdutFGIZ]{Rogue}</p></li><li><p>@UUID[Compendium.grimwild.gwce-journals.JournalEntry.A3ABNLJphHplV8Nm.JournalEntryPage.IAQLEhPcuKUHIvNv]{Sorcerer}</p></li><li><p>@UUID[Compendium.grimwild.gwce-journals.JournalEntry.A3ABNLJphHplV8Nm.JournalEntryPage.hFdtz4n6rNQwyUAG]{Summoner}</p></li><li><p>@UUID[Compendium.grimwild.gwce-journals.JournalEntry.A3ABNLJphHplV8Nm.JournalEntryPage.XBHO0tGCTQRfA7XS]{Swashbuckler}</p></li><li><p>@UUID[Compendium.grimwild.gwce-journals.JournalEntry.A3ABNLJphHplV8Nm.JournalEntryPage.nsrd3SWBUdq6RHWP]{Warlock}</p></li><li><p>@UUID[Compendium.grimwild.gwce-journals.JournalEntry.A3ABNLJphHplV8Nm.JournalEntryPage.v5k2XzfSsWqWe9Xn]{Witch}</p></li><li><p>@UUID[Compendium.grimwild.gwce-journals.JournalEntry.A3ABNLJphHplV8Nm.JournalEntryPage.Chpa2kIFZthAo2T5]{Wizard}</p></li><li><p>Background
+        Talents</p></li></ul><h2>GM
+        Toolkit</h2><p>@UUID[Compendium.grimwild.gwce-journals.JournalEntry.V9XAOE6EuQRhd0cW.JournalEntryPage.9EiJCa41Bp8Pha5Z]{GM
+        with
+        Moxie}</p><ul><li><p>@UUID[Compendium.grimwild.gwce-journals.JournalEntry.V9XAOE6EuQRhd0cW.JournalEntryPage.yzOUHnsPoxCyooSW#story-rolls]{Story
+        Rolls}</p></li><li><p>@UUID[Compendium.grimwild.gwce-journals.JournalEntry.V9XAOE6EuQRhd0cW.JournalEntryPage.yzOUHnsPoxCyooSW#gm-crucible]{GM
+        Crucible}</p></li><li><p>@UUID[Compendium.grimwild.gwce-journals.JournalEntry.V9XAOE6EuQRhd0cW.JournalEntryPage.yzOUHnsPoxCyooSW#starting-a-campaign]{Starting
+        a
+        Campaign}</p></li><li><p>@UUID[Compendium.grimwild.gwce-journals.JournalEntry.V9XAOE6EuQRhd0cW.JournalEntryPage.yzOUHnsPoxCyooSW#spotlight]{Spotlight}</p></li><li><p>@UUID[Compendium.grimwild.gwce-journals.JournalEntry.V9XAOE6EuQRhd0cW.JournalEntryPage.yzOUHnsPoxCyooSW#scenes]{Scenes}</p></li></ul><p>@UUID[Compendium.grimwild.gwce-journals.JournalEntry.V9XAOE6EuQRhd0cW.JournalEntryPage.1hwVUU0jguFscQg1]{GM
+        Moves}</p><ul><li><p>@UUID[Compendium.grimwild.gwce-journals.JournalEntry.V9XAOE6EuQRhd0cW.JournalEntryPage.WDm6CTveG7RjIgHI]{Suspense
+        Moves}</p></li><li><p>@UUID[Compendium.grimwild.gwce-journals.JournalEntry.V9XAOE6EuQRhd0cW.JournalEntryPage.qTI1iQgKkAMUFvhm]{Impact
+        Moves}</p></li><li><p>@UUID[Compendium.grimwild.gwce-journals.JournalEntry.V9XAOE6EuQRhd0cW.JournalEntryPage.O7u8kywnCA1IHYAp]{Consequences}</p></li></ul><p>@UUID[Compendium.grimwild.gwce-journals.JournalEntry.V9XAOE6EuQRhd0cW.JournalEntryPage.8ROPHl1aOu4ioKhu]{Challenges}</p><p>@UUID[Compendium.grimwild.gwce-journals.JournalEntry.V9XAOE6EuQRhd0cW.JournalEntryPage.5kv1YGSsJ8PoRdSe]{Vigilance}</p><p>@UUID[Compendium.grimwild.gwce-journals.JournalEntry.V9XAOE6EuQRhd0cW.JournalEntryPage.zddvwn5XRnOMszDl]{Combat
+        Kit}</p><p>@UUID[Compendium.grimwild.gwce-journals.JournalEntry.V9XAOE6EuQRhd0cW.JournalEntryPage.jbFcmVZQ5gelTXcP]{Running
+        Combat}</p><p>@UUID[Compendium.grimwild.gwce-journals.JournalEntry.V9XAOE6EuQRhd0cW.JournalEntryPage.vGSxlgH2QfQMoguw]{Factions}</p><p>@UUID[Compendium.grimwild.gwce-journals.JournalEntry.gpaupzRmYyJBehZn]{Examples
+        of
+        Play}</p><h2>Exploration</h2><p>@UUID[Compendium.grimwild.gwce-journals.JournalEntry.lvFavQ8BROBgMMZb.JournalEntryPage.iQ3xBZqx5s4XweVx]{Exploring
+        the
+        Grimwild}</p><ul><li><p>@UUID[Compendium.grimwild.gwce-journals.JournalEntry.lvFavQ8BROBgMMZb.JournalEntryPage.EIt6oXw5i5UoKllU]{The
+        Three
+        Realities}</p></li></ul><p>@UUID[Compendium.grimwild.gwce-journals.JournalEntry.lvFavQ8BROBgMMZb.JournalEntryPage.hiqcakAitXcJk2qe]{Exploration
+        System}</p><ul><li><p>@UUID[Compendium.grimwild.gwce-journals.JournalEntry.lvFavQ8BROBgMMZb.JournalEntryPage.QdJB4eOlIaVTKmF8]{Region
+        maps}</p></li><li><p>@UUID[Compendium.grimwild.gwce-journals.JournalEntry.lvFavQ8BROBgMMZb.JournalEntryPage.ZRyWbqO7k7qig75l]{Settlement
+        Maps}</p></li><li><p>@UUID[Compendium.grimwild.gwce-journals.JournalEntry.lvFavQ8BROBgMMZb.JournalEntryPage.XA33xYXoY9it75R6]{Site
+        Maps}</p></li><li><p>@UUID[Compendium.grimwild.gwce-journals.JournalEntry.lvFavQ8BROBgMMZb.JournalEntryPage.NP03XqE067RnowkY]{Exploration
+        Crucibles}</p></li></ul><p>@UUID[Compendium.grimwild.gwce-journals.JournalEntry.lvFavQ8BROBgMMZb.JournalEntryPage.uQHSxzoSFeG4ORHo]{The
+        Passage of
+        Time}</p><ul><li><p>@UUID[Compendium.grimwild.gwce-journals.JournalEntry.lvFavQ8BROBgMMZb.JournalEntryPage.cGgJSZjmuFlLFSGw]{Expanded
+        Downtime}</p></li><li><p>@UUID[Compendium.grimwild.gwce-journals.JournalEntry.lvFavQ8BROBgMMZb.JournalEntryPage.PLe154IeuZJxNlZt]{Communities}</p></li></ul><h2>Monsters</h2><ul><li><p>@UUID[Compendium.grimwild.gwce-journals.JournalEntry.lMaWpD0aIDLDqXU6.JournalEntryPage.91Vv8HUw4Wp9ZJTO#painting-monstrous-scenes]{Painting
+        Monstrous
+        Scenes}</p></li><li><p>@UUID[Compendium.grimwild.gwce-journals.JournalEntry.lMaWpD0aIDLDqXU6.JournalEntryPage.H0c2CeV9RcRMEQ1S]{Monsters
+        by
+        Role}</p></li><li><p>@UUID[Compendium.grimwild.gwce-journals.JournalEntry.lMaWpD0aIDLDqXU6.JournalEntryPage.uWELs0VIrYt1m7bX]{Monsters
+        by Type}</p></li></ul><p></p><h2>Game
+        Options</h2><p>@UUID[Compendium.grimwild.gwce-journals.JournalEntry.unDWj5tvsH6ZOLYD.JournalEntryPage.jMmlxr0QujJmwyB6]{Setting
+        Dials}</p><p>Optional
+        Rules</p><ul><li><p>@UUID[Compendium.grimwild.gwce-journals.JournalEntry.unDWj5tvsH6ZOLYD.JournalEntryPage.lyXL4rv9s6r3cF7T#token-initiative]{Token
+        Initiative}</p></li><li><p>@UUID[Compendium.grimwild.gwce-journals.JournalEntry.unDWj5tvsH6ZOLYD.JournalEntryPage.lyXL4rv9s6r3cF7T#rest-resets]{Rest
+        Resets}</p></li><li><p>@UUID[Compendium.grimwild.gwce-journals.JournalEntry.unDWj5tvsH6ZOLYD.JournalEntryPage.lyXL4rv9s6r3cF7T#stat-progression]{Stat
+        Progression}</p></li><li><p>@UUID[Compendium.grimwild.gwce-journals.JournalEntry.unDWj5tvsH6ZOLYD.JournalEntryPage.lyXL4rv9s6r3cF7T#vigor-pool]{Vigor
+        Pool}</p></li><li><p>@UUID[Compendium.grimwild.gwce-journals.JournalEntry.unDWj5tvsH6ZOLYD.JournalEntryPage.B7f2yRAHKyPk7hb5#armor]{Armor}</p></li><li><p>@UUID[Compendium.grimwild.gwce-journals.JournalEntry.unDWj5tvsH6ZOLYD.JournalEntryPage.B7f2yRAHKyPk7hb5#supplies]{Supplies}</p></li><li><p>@UUID[Compendium.grimwild.gwce-journals.JournalEntry.unDWj5tvsH6ZOLYD.JournalEntryPage.B7f2yRAHKyPk7hb5#encumbrance]{Encumbrance}</p></li><li><p>@UUID[Compendium.grimwild.gwce-journals.JournalEntry.unDWj5tvsH6ZOLYD.JournalEntryPage.B7f2yRAHKyPk7hb5#wealth]{Wealth}</p></li><li><p>@UUID[Compendium.grimwild.gwce-journals.JournalEntry.unDWj5tvsH6ZOLYD.JournalEntryPage.B7f2yRAHKyPk7hb5#weapon-styles]{Weapon
+        Styles}</p></li><li><p>@UUID[Compendium.grimwild.gwce-journals.JournalEntry.unDWj5tvsH6ZOLYD.JournalEntryPage.s7f3SlGbfs5hrBN4#focused-growth]{Focused
+        Growth}</p></li><li><p>@UUID[Compendium.grimwild.gwce-journals.JournalEntry.unDWj5tvsH6ZOLYD.JournalEntryPage.s7f3SlGbfs5hrBN4#milestone-levels]{Milestone
+        Levels}</p></li><li><p>@UUID[Compendium.grimwild.gwce-journals.JournalEntry.unDWj5tvsH6ZOLYD.JournalEntryPage.9x1uz89EFCD3CUvx#active-vigilance]{Active
+        Vigilance}</p></li><li><p>@UUID[Compendium.grimwild.gwce-journals.JournalEntry.unDWj5tvsH6ZOLYD.JournalEntryPage.9x1uz89EFCD3CUvx#tick-pools]{Tick
+        Pools}</p></li><li><p>@UUID[Compendium.grimwild.gwce-journals.JournalEntry.unDWj5tvsH6ZOLYD.JournalEntryPage.9x1uz89EFCD3CUvx#writers-room]{Writers'
+        Room}</p></li><li><p>@UUID[Compendium.grimwild.gwce-journals.JournalEntry.unDWj5tvsH6ZOLYD.JournalEntryPage.rvIvWg3fwFTQXGqN]{Legacy
+        Talents}</p></li></ul><p>@UUID[Compendium.grimwild.gwce-journals.JournalEntry.unDWj5tvsH6ZOLYD.JournalEntryPage.WftiE8byFzyQLfn0]{Flavors
+        of
+        Fantasy}</p><ul><li><p>@UUID[Compendium.grimwild.gwce-journals.JournalEntry.unDWj5tvsH6ZOLYD.JournalEntryPage.dGXml37ws8BRBb5I]{Heroic
+        Fantasy}</p></li><li><p>@UUID[Compendium.grimwild.gwce-journals.JournalEntry.unDWj5tvsH6ZOLYD.JournalEntryPage.4lSz8KRxdrpDA459]{Grimdark}</p></li><li><p>@UUID[Compendium.grimwild.gwce-journals.JournalEntry.unDWj5tvsH6ZOLYD.JournalEntryPage.ubetvMvblaZYXEdC]{Low
+        Fantasy}</p></li><li><p>@UUID[Compendium.grimwild.gwce-journals.JournalEntry.unDWj5tvsH6ZOLYD.JournalEntryPage.za0SK5kwQgGy7Jdc]{Sword
+        &amp;
+        Sorcery}</p></li><li><p>@UUID[Compendium.grimwild.gwce-journals.JournalEntry.unDWj5tvsH6ZOLYD.JournalEntryPage.iNX7SSl8Q3ZeklLm]{Noblebright}</p></li><li><p>@UUID[Compendium.grimwild.gwce-journals.JournalEntry.unDWj5tvsH6ZOLYD.JournalEntryPage.FtO08qHOxqftJgD2]{High
+        Fantasy}</p></li><li><p>@UUID[Compendium.grimwild.gwce-journals.JournalEntry.unDWj5tvsH6ZOLYD.JournalEntryPage.Ym801JI4j9LtcT4f]{Cozy
+        Fantasy}</p></li></ul><h2>Extras</h2><p>GM
+        Tools</p><ul><li><p>@UUID[Compendium.grimwild.gwce-journals.JournalEntry.YgneIEaFuv02EOwN.JournalEntryPage.FYnO0z4wQUJAfaji]{Fiction
+        Pillars}</p></li><li><p>@UUID[Compendium.grimwild.gwce-journals.JournalEntry.YgneIEaFuv02EOwN.JournalEntryPage.ORKVk6QRIYmGIorZ]{Hex
+        Flowers}</p></li><li><p>@UUID[Compendium.grimwild.gwce-journals.JournalEntry.YgneIEaFuv02EOwN.JournalEntryPage.9jmivgyXhF2GoSP1]{Story
+        Kits}</p></li></ul><p>@UUID[Compendium.grimwild.gwce-journals.JournalEntry.YgneIEaFuv02EOwN.JournalEntryPage.JpxEuOKnJW1YJ95G]{Solo
+        Rules}</p><p>@UUID[Compendium.grimwild.gwce-journals.JournalEntry.YgneIEaFuv02EOwN.JournalEntryPage.wT23ffGRSZtXiwfh]{List
+        of
+        Arcana}</p><ul><li><p>@UUID[Compendium.grimwild.gwce-journals.JournalEntry.YgneIEaFuv02EOwN.JournalEntryPage.wT23ffGRSZtXiwfh#minor-arcana]{Minor
+        Arcana}</p></li><li><p>@UUID[Compendium.grimwild.gwce-journals.JournalEntry.YgneIEaFuv02EOwN.JournalEntryPage.wT23ffGRSZtXiwfh#major-arcana]{Major
+        Arcana}</p></li><li><p>@UUID[Compendium.grimwild.gwce-journals.JournalEntry.YgneIEaFuv02EOwN.JournalEntryPage.wT23ffGRSZtXiwfh#mythic-arcana]{Mythic
+        Arcana}</p></li><li><p>@UUID[Compendium.grimwild.gwce-journals.JournalEntry.YgneIEaFuv02EOwN.JournalEntryPage.vL8g8eI3HrOLPw5d]{Potions
+        &amp; Other Expendables}</p></li></ul>
+    video:
+      controls: true
+      volume: 0.5
+    src: null
+    category: null
+    ownership:
+      default: -1
+      79CEe5dKC6Ls5VbU: 3
+    flags: {}
+    _stats:
+      coreVersion: '14.368'
+      systemId: grimwild
+      systemVersion: 0.5.3
+      createdTime: 1783281864538
+      modifiedTime: 1791785554241
+      lastModifiedBy: nF9qxzj59Qn6fNSn
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+    _key: '!journal.pages!VQzSWRZkMiyhcvnG.LAXNuHDzcSlCsxSP'
+  - sort: 400000
+    name: Glossary
+    type: text
+    _id: 6bu5oubfXTEW2fW1
+    system: {}
+    title:
+      show: true
+      level: 1
+    image: {}
+    text:
+      format: 1
+      content: >-
+        <p><strong>@UUID[Compendium.grimwild.gwce-journals.JournalEntry.YbuXwBYYNXIb670F.JournalEntryPage.i6LDtcGasJUZQnAo]{Action
+        Roll:}</strong> The core way to resolve a PC attempting something risky
+        or dramatic. Perfect achieves the goal, messy achieves the goal with a
+        consequence, a grim doesn’t, and there’s a consequence. </p>
+    video:
+      controls: true
+      volume: 0.5
+    src: null
+    category: null
+    ownership:
+      default: -1
+      nF9qxzj59Qn6fNSn: 3
+    flags: {}
+    _stats:
+      coreVersion: '14.368'
+      systemId: grimwild
+      systemVersion: 0.5.3
+      createdTime: 1791785575022
+      modifiedTime: 1791785640807
+      lastModifiedBy: nF9qxzj59Qn6fNSn
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+    _key: '!journal.pages!VQzSWRZkMiyhcvnG.6bu5oubfXTEW2fW1'
+folder: null
+categories: []
+sort: 100000
+ownership:
+  default: 0
+  79CEe5dKC6Ls5VbU: 3
+flags: {}
+_stats:
+  coreVersion: '14.368'
+  systemId: grimwild
+  systemVersion: 0.5.3
+  createdTime: 1783184131970
+  modifiedTime: 1791746023139
+  lastModifiedBy: nF9qxzj59Qn6fNSn
+  compendiumSource: null
+  duplicateSource: null
+  exportSource: null
+_key: '!journal!VQzSWRZkMiyhcvnG'

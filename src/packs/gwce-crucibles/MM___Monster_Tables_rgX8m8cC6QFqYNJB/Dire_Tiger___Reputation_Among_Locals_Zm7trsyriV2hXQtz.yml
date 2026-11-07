@@ -1,0 +1,157 @@
+name: Dire Tiger - Reputation Among Locals
+description: ''
+formula: 1d6
+results:
+  - name: ''
+    description: It hunts only those with <b>ill intent</b>.
+    range:
+      - 1
+      - 1
+    _id: lsp7upE36K8mMkAO
+    type: text
+    img: null
+    weight: 1
+    drawn: false
+    flags: {}
+    _stats:
+      coreVersion: '14.364'
+      systemId: grimwild
+      systemVersion: 0.5.3
+      createdTime: 1783270821371
+      modifiedTime: 1783270821371
+      lastModifiedBy: 79CEe5dKC6Ls5VbU
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+    _key: '!tables.results!Zm7trsyriV2hXQtz.lsp7upE36K8mMkAO'
+  - name: ''
+    description: Leave <b>offerings</b>, and you will be protected.
+    range:
+      - 2
+      - 2
+    _id: rntu8VTqmBMjNbBa
+    type: text
+    img: null
+    weight: 1
+    drawn: false
+    flags: {}
+    _stats:
+      coreVersion: '14.364'
+      systemId: grimwild
+      systemVersion: 0.5.3
+      createdTime: 1783270821371
+      modifiedTime: 1783270821371
+      lastModifiedBy: 79CEe5dKC6Ls5VbU
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+    _key: '!tables.results!Zm7trsyriV2hXQtz.rntu8VTqmBMjNbBa'
+  - name: ''
+    description: Stripes are different every time, <b>an omen</b>.
+    range:
+      - 3
+      - 3
+    _id: 31b2XI839FP3Ihhn
+    type: text
+    img: null
+    weight: 1
+    drawn: false
+    flags: {}
+    _stats:
+      coreVersion: '14.364'
+      systemId: grimwild
+      systemVersion: 0.5.3
+      createdTime: 1783270821371
+      modifiedTime: 1783270821371
+      lastModifiedBy: 79CEe5dKC6Ls5VbU
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+    _key: '!tables.results!Zm7trsyriV2hXQtz.31b2XI839FP3Ihhn'
+  - name: ''
+    description: It can wear the form of a <b>human</b>.
+    range:
+      - 4
+      - 4
+    _id: X1WwV0oCSr3YvKZz
+    type: text
+    img: null
+    weight: 1
+    drawn: false
+    flags: {}
+    _stats:
+      coreVersion: '14.364'
+      systemId: grimwild
+      systemVersion: 0.5.3
+      createdTime: 1783270821371
+      modifiedTime: 1783270821371
+      lastModifiedBy: 79CEe5dKC6Ls5VbU
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+    _key: '!tables.results!Zm7trsyriV2hXQtz.X1WwV0oCSr3YvKZz'
+  - name: ''
+    description: If you hear the <b>sound of a loved one</b>, run.
+    range:
+      - 5
+      - 5
+    _id: BIVmpN1cYvkh72Mm
+    type: text
+    img: null
+    weight: 1
+    drawn: false
+    flags: {}
+    _stats:
+      coreVersion: '14.364'
+      systemId: grimwild
+      systemVersion: 0.5.3
+      createdTime: 1783270821371
+      modifiedTime: 1783270821371
+      lastModifiedBy: 79CEe5dKC6Ls5VbU
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+    _key: '!tables.results!Zm7trsyriV2hXQtz.BIVmpN1cYvkh72Mm'
+  - name: ''
+    description: It’s a <b>sacred guardian</b> of the forest.
+    range:
+      - 6
+      - 6
+    _id: xNhRvXVNI3PKzYd2
+    type: text
+    img: null
+    weight: 1
+    drawn: false
+    flags: {}
+    _stats:
+      coreVersion: '14.364'
+      systemId: grimwild
+      systemVersion: 0.5.3
+      createdTime: 1783270821371
+      modifiedTime: 1783270821371
+      lastModifiedBy: 79CEe5dKC6Ls5VbU
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+    _key: '!tables.results!Zm7trsyriV2hXQtz.xNhRvXVNI3PKzYd2'
+folder: rgX8m8cC6QFqYNJB
+sort: 3900000
+_id: Zm7trsyriV2hXQtz
+img: icons/svg/d20-grey.svg
+replacement: true
+displayRoll: true
+ownership:
+  default: 0
+  79CEe5dKC6Ls5VbU: 3
+flags: {}
+_stats:
+  coreVersion: '14.368'
+  systemId: grimwild
+  systemVersion: 0.5.3
+  createdTime: 1783270821371
+  modifiedTime: 1791749998255
+  lastModifiedBy: nF9qxzj59Qn6fNSn
+  compendiumSource: null
+  duplicateSource: null
+  exportSource: null
+_key: '!tables!Zm7trsyriV2hXQtz'

@@ -1,0 +1,49 @@
+folder: t5SGlevKR7fGIfsq
+name: Oathsworn
+type: talent
+_id: z6wB7nzSVQSwekJt
+img: icons/environment/people/infantry-armored.webp
+system:
+  description: >-
+    <p>You draw power from your three tenets. When you add a thorn from
+    <em><strong>bloodied</strong></em>, <em><strong>rattled</strong></em>, or
+    <em><strong>desperate</strong></em> you also take +1d. Each session, you
+    have <strong>3 smite</strong>. When acting with total conviction, spend it
+    1-for-1 to drop dice from a task pool <em>after</em> rolling
+    it.</p><p><strong>Affirmation:</strong> Before each session, state your
+    tenets and discuss how they came up last session. Give
+    <em><strong>spark</strong></em> to one player who joined a scene involving
+    your tenets. Take 1 less <strong>smite</strong> for each tenet in
+    violation.</p><hr><p><strong>GROWTH:</strong> At levels 2, 4, and 6, gain +1
+    smite per session.</p>
+  core: false
+  notes:
+    description: <p>List your three tenets.</p>
+    label: Oath
+  trackers:
+    - type: points
+      label: Smite
+      points:
+        value: 3
+        max: 3
+        showSteps: true
+      pool:
+        diceNum: 0
+        powerPool: false
+effects: []
+sort: 0
+ownership:
+  default: 0
+  79CEe5dKC6Ls5VbU: 3
+flags: {}
+_stats:
+  coreVersion: '14.368'
+  systemId: grimwild
+  systemVersion: 0.5.3
+  createdTime: 1782662620504
+  modifiedTime: 1791744004731
+  lastModifiedBy: nF9qxzj59Qn6fNSn
+  compendiumSource: null
+  duplicateSource: null
+  exportSource: null
+_key: '!items!z6wB7nzSVQSwekJt'

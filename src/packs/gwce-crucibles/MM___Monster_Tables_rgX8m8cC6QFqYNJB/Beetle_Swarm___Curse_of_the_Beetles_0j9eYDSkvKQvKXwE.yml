@@ -1,0 +1,157 @@
+name: Beetle Swarm - Curse of the Beetles
+description: ''
+formula: 1d6
+results:
+  - name: ''
+    description: <b>Bone Nest</b>, if they die soon, beetles burst forth.
+    range:
+      - 1
+      - 1
+    _id: 9JQ0t3DHYeAjXtHG
+    type: text
+    img: null
+    weight: 1
+    drawn: false
+    flags: {}
+    _stats:
+      coreVersion: '14.364'
+      systemId: grimwild
+      systemVersion: 0.5.3
+      createdTime: 1783270821367
+      modifiedTime: 1783270821367
+      lastModifiedBy: 79CEe5dKC6Ls5VbU
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+    _key: '!tables.results!0j9eYDSkvKQvKXwE.9JQ0t3DHYeAjXtHG'
+  - name: ''
+    description: <b>Living Decay</b>, foods spoil rapidly around the cursed.
+    range:
+      - 2
+      - 2
+    _id: rjUtWbhX1hZH7ffT
+    type: text
+    img: null
+    weight: 1
+    drawn: false
+    flags: {}
+    _stats:
+      coreVersion: '14.364'
+      systemId: grimwild
+      systemVersion: 0.5.3
+      createdTime: 1783270821367
+      modifiedTime: 1783270821367
+      lastModifiedBy: 79CEe5dKC6Ls5VbU
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+    _key: '!tables.results!0j9eYDSkvKQvKXwE.rjUtWbhX1hZH7ffT'
+  - name: ''
+    description: <b>Deep Hunger</b>, never full until eating wood and dirt.
+    range:
+      - 3
+      - 3
+    _id: 823LzjMjStKiJaFV
+    type: text
+    img: null
+    weight: 1
+    drawn: false
+    flags: {}
+    _stats:
+      coreVersion: '14.364'
+      systemId: grimwild
+      systemVersion: 0.5.3
+      createdTime: 1783270821367
+      modifiedTime: 1783270821367
+      lastModifiedBy: 79CEe5dKC6Ls5VbU
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+    _key: '!tables.results!0j9eYDSkvKQvKXwE.823LzjMjStKiJaFV'
+  - name: ''
+    description: <b>Echoing Chitter</b>, constantly hear tiny wings.
+    range:
+      - 4
+      - 4
+    _id: GBclOA5d7kzVBqpN
+    type: text
+    img: null
+    weight: 1
+    drawn: false
+    flags: {}
+    _stats:
+      coreVersion: '14.364'
+      systemId: grimwild
+      systemVersion: 0.5.3
+      createdTime: 1783270821367
+      modifiedTime: 1783270821367
+      lastModifiedBy: 79CEe5dKC6Ls5VbU
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+    _key: '!tables.results!0j9eYDSkvKQvKXwE.GBclOA5d7kzVBqpN'
+  - name: ''
+    description: <b>Hollow Flesh</b>, with all healing worsening wounds.
+    range:
+      - 5
+      - 5
+    _id: tNubPTH1NqmXIGjP
+    type: text
+    img: null
+    weight: 1
+    drawn: false
+    flags: {}
+    _stats:
+      coreVersion: '14.364'
+      systemId: grimwild
+      systemVersion: 0.5.3
+      createdTime: 1783270821367
+      modifiedTime: 1783270821367
+      lastModifiedBy: 79CEe5dKC6Ls5VbU
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+    _key: '!tables.results!0j9eYDSkvKQvKXwE.tNubPTH1NqmXIGjP'
+  - name: ''
+    description: <b>Shadow Swarm</b>, your shadow turned against you.
+    range:
+      - 6
+      - 6
+    _id: JsHHfTbe3bJEDLeE
+    type: text
+    img: null
+    weight: 1
+    drawn: false
+    flags: {}
+    _stats:
+      coreVersion: '14.364'
+      systemId: grimwild
+      systemVersion: 0.5.3
+      createdTime: 1783270821367
+      modifiedTime: 1783270821367
+      lastModifiedBy: 79CEe5dKC6Ls5VbU
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+    _key: '!tables.results!0j9eYDSkvKQvKXwE.JsHHfTbe3bJEDLeE'
+folder: rgX8m8cC6QFqYNJB
+sort: 3700000
+_id: 0j9eYDSkvKQvKXwE
+img: icons/svg/d20-grey.svg
+replacement: true
+displayRoll: true
+ownership:
+  default: 0
+  79CEe5dKC6Ls5VbU: 3
+flags: {}
+_stats:
+  coreVersion: '14.368'
+  systemId: grimwild
+  systemVersion: 0.5.3
+  createdTime: 1783270821367
+  modifiedTime: 1791749998255
+  lastModifiedBy: nF9qxzj59Qn6fNSn
+  compendiumSource: null
+  duplicateSource: null
+  exportSource: null
+_key: '!tables!0j9eYDSkvKQvKXwE'

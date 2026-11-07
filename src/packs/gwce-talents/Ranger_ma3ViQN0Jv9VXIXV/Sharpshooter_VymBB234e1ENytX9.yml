@@ -1,0 +1,33 @@
+folder: ma3ViQN0Jv9VXIXV
+name: Sharpshooter
+type: talent
+_id: VymBB234e1ENytX9
+img: icons/skills/ranged/person-archery-bow-attack-gray.webp
+system:
+  description: >-
+    <p>When given time, you can pull off <em><strong>potent feats of ranged
+    precision</strong></em>, such as <em>shooting just beyond maximum range or
+    into near complete cover</em>. You can <em><strong>push
+    yourself</strong></em> to do it on the spot.</p>
+  core: false
+  notes:
+    description: ''
+    label: ''
+  trackers: []
+effects: []
+sort: 0
+ownership:
+  default: 0
+  79CEe5dKC6Ls5VbU: 3
+flags: {}
+_stats:
+  coreVersion: '14.368'
+  systemId: grimwild
+  systemVersion: 0.5.3
+  createdTime: 1782662622586
+  modifiedTime: 1791744670005
+  lastModifiedBy: nF9qxzj59Qn6fNSn
+  compendiumSource: null
+  duplicateSource: null
+  exportSource: null
+_key: '!items!VymBB234e1ENytX9'

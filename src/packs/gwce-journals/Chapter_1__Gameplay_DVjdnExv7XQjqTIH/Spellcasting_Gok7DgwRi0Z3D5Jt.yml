@@ -1,0 +1,536 @@
+name: Spellcasting
+_id: Gok7DgwRi0Z3D5Jt
+pages:
+  - sort: 100000
+    name: Spellcasting
+    type: text
+    _id: VqNKDJVlTDJ6smrU
+    system: {}
+    title:
+      show: true
+      level: 1
+    image: {}
+    text:
+      format: 1
+      content: >-
+        <p>Spellcasting is the ability to harness magic, acquired through
+        <em><strong>talents</strong></em> or <em><strong>arcana</strong></em>.
+        While each style has its quirks, they all follow the same laws of magic.
+        Spells are cast as an action (specified in the talent or arcana) using
+        <em><strong>@UUID[.uA8QT8XrFuderyGt]{touchstones}</strong></em>—key
+        terms like spell names, or godly domains. You interpret these
+        on-the-fly, defining the permissions and limitations of your magic when
+        you cast. Each source clearly defines its touchstones, casting methods,
+        costs, and limitations. Spells cast without
+        <em><strong>risk</strong></em> are automatically successful, and don't
+        expend resources, unless <em><strong>potent</strong></em>.</p><p>Magic
+        has three magnitudes: spells, potent spells, and rituals. Determine the
+        magic's magnitude by comparing the impact of the action to what can be
+        achieved with a non-magic action (or the narrative impact to the story
+        if that’s not possible). This is a judgment call set through play, so
+        transparency and consistency are
+        key.</p><p><strong>@UUID[.h2oPwWbdbP0KBBeq]{Spells}</strong> are similar
+        to an action roll, impactful but not dominating a scene. They should
+        feel useful.</p><p><strong>@UUID[.5WIIqKTLpYkHFlvN]{Potent
+        spells}</strong> are similar to a group effort, effort over time, or a
+        single potent effort. They bend the rules, and should feel
+        powerful.</p><p><strong>@UUID[.WlrtIlgx9NHM6uyu]{Rituals}</strong> are
+        plot-changing, similar to a large team over an extended period, or a
+        massive collective effort. They break the rules, and should feel
+        miraculous.</p>
+    video:
+      controls: true
+      volume: 0.5
+    src: null
+    category: null
+    ownership:
+      default: -1
+      79CEe5dKC6Ls5VbU: 3
+    flags: {}
+    _stats:
+      coreVersion: '14.364'
+      systemId: grimwild
+      systemVersion: 0.5.3
+      createdTime: 1782677812989
+      modifiedTime: 1782927371926
+      lastModifiedBy: 79CEe5dKC6Ls5VbU
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+    _key: '!journal.pages!Gok7DgwRi0Z3D5Jt.VqNKDJVlTDJ6smrU'
+  - sort: 200000
+    name: Spells
+    type: text
+    _id: h2oPwWbdbP0KBBeq
+    system: {}
+    title:
+      show: true
+      level: 1
+    image: {}
+    text:
+      format: 1
+      content: >-
+        <p>Spells have effects comparable to an action roll, results one person
+        with the right training and tools can achieve, while expanding
+        vantage—allowing new possibilities through magic. These always use the
+        stat referenced in the talent granting spellcasting, or in the case of
+        Clerics and some arcana—power pools. Spells are the baseline magnitude
+        of spellcasting actions. For most paths, when spells are cast without
+        <em><strong>risk</strong></em>, they are automatically successful (as
+        all actions) and don’t expend resources.</p><p><span
+        style="color:rgb(110, 110, 110)"><em>Just like sticking an arrow in a
+        bugbear, a spell can call lightning to strike them or enchant their ally
+        to backstab them. [Result: The bugbear is dead.]</em></span></p><p><span
+        style="color:rgb(110, 110, 110)"><em>Just like picking a lock or
+        smashing it apart, a spell can melt through it with acid or let you
+        phase through the door. [Result: You get past the
+        lock.]</em></span></p><p><span style="color:rgb(110, 110, 110)"><em>You
+        float harmlessly down from the burning airship in the sky. [New
+        Possibility, similar in impact to an action.]</em></span></p><p>The
+        <em><strong>@UUID[Compendium.grimwild.gwce-journals.JournalEntry.YbuXwBYYNXIb670F.JournalEntryPage.rAWKSZVoFjZNOUBd]{vantage}</strong></em>
+        from spellcasting also allows you to add trivial magical details as set
+        dressing without making an action roll. <span style="color:rgb(110, 110,
+        110)"><em>A fire touchstone lights a candle. | The brooms sweep the room
+        for you. | You talk to a flower and it starts to bloom.</em></span></p>
+    video:
+      controls: true
+      volume: 0.5
+    src: null
+    category: null
+    ownership:
+      default: -1
+      79CEe5dKC6Ls5VbU: 3
+    flags: {}
+    _stats:
+      coreVersion: '14.364'
+      systemId: grimwild
+      systemVersion: 0.5.3
+      createdTime: 1782677812989
+      modifiedTime: 1782927584341
+      lastModifiedBy: 79CEe5dKC6Ls5VbU
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+    _key: '!journal.pages!Gok7DgwRi0Z3D5Jt.h2oPwWbdbP0KBBeq'
+  - sort: 300000
+    name: Potent Spells
+    type: text
+    _id: 5WIIqKTLpYkHFlvN
+    system: {}
+    title:
+      show: true
+      level: 1
+    image: {}
+    text:
+      format: 1
+      content: >-
+        <p>Potent spells accomplish more than a normal spell—they give
+        <em><strong>@UUID[Compendium.grimwild.gwce-journals.JournalEntry.YbuXwBYYNXIb670F.JournalEntryPage.7bKZMabTgv4QYNEK]{potency}</strong></em>
+        and broaden
+        <em><strong>@UUID[Compendium.grimwild.gwce-journals.JournalEntry.YbuXwBYYNXIb670F.JournalEntryPage.rAWKSZVoFjZNOUBd]{vantage}</strong></em>.
+        As with other potent actions (pg. 24), you can attempt jaw-dropping
+        effects that are normally impossible. Compared to potent actions,
+        though, potent spells tend to have more dramatic effects that bend the
+        rules even further, accomplishing tasks that couldn’t be performed with
+        a conventional tool. A more impactful effect should be balanced with
+        higher thorns and stakes to keep the moment exciting and pivotal. If you
+        cast a potent spell with an effect on the level of a normal spell, it
+        also bestows another effect, such
+        as:</p><ul><li><p><strong>@UUID[Compendium.grimwild.gwce-journals.JournalEntry.YbuXwBYYNXIb670F.JournalEntryPage.i6LDtcGasJUZQnAo#criticals]{Critical
+        effect}: </strong>add greater effect, secondary effect, or a
+        setup</p></li><li><p><strong>Lasting effect:</strong> keep the spell for
+        the scene or longer</p></li><li><p><strong>Broad effect:</strong> affect
+        a group or area with the spell</p></li></ul><h3>Potent Spells
+        Examples</h3><p><em>Picking off these armored goblin raiders one-by-one
+        gives them time to rush you, but a potent spell
+        <strong>Fireball</strong> could take a group out at once! (+1t → +0t,
+        plus a broad effect)</em></p><p><em>This stone wall is too sturdy to
+        knock down, but a potent spell <strong>Thunderous Boom</strong> could do
+        the trick. (impossible → +1t).</em></p><p><em>The hideout is teeming
+        with guards, and a few moments of invisibility won’t get you far, but a
+        potent <strong>Invisibility</strong> spell could keep you shrouded until
+        you find the exit. (+0t → +0t, plus a lasting effect)</em></p><p><em>The
+        rogue is bleeding, and fading in and out, but you can't stop for
+        treatment while being chased by hobgoblins. You clutch the symbol of
+        your god and ask for help, using your <strong>Healing Rite</strong> to
+        cast a potent spell to heal them. (impossible → +1t, new
+        possibility)</em></p><p><em>This ice elemental would normally be immune
+        to cold magic, but as the daughter of a great ice dragon, you channel
+        your <strong>Glacial Fury</strong> for a potent spell to show it the
+        true meaning of cold. (impossible → +2t, bypass a
+        trait)</em></p><p><em>The guard is suddenly suspicious, so you decide to
+        use your <strong>False Memory</strong> spell to clear his mind of the
+        last couple seconds, though you know the mind is a delicate thing.
+        (impossible→+2t, new possibility)</em></p>
+    video:
+      controls: true
+      volume: 0.5
+    src: null
+    category: null
+    ownership:
+      default: -1
+      79CEe5dKC6Ls5VbU: 3
+    flags: {}
+    _stats:
+      coreVersion: '14.364'
+      systemId: grimwild
+      systemVersion: 0.5.3
+      createdTime: 1782677812989
+      modifiedTime: 1782927834618
+      lastModifiedBy: 79CEe5dKC6Ls5VbU
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+    _key: '!journal.pages!Gok7DgwRi0Z3D5Jt.5WIIqKTLpYkHFlvN'
+  - sort: 400000
+    name: Rituals
+    type: text
+    _id: WlrtIlgx9NHM6uyu
+    system: {}
+    title:
+      show: true
+      level: 1
+    image: {}
+    text:
+      format: 1
+      content: >-
+        <p>Rituals can accomplish magical effects far beyond what can be done
+        with even <em><strong>potent</strong></em> spells, equal to the labor of
+        an entire team of people over an extended period, effects that can have
+        significant impact on the world, or push the very limits of
+        implausibility. Casting a ritual consists of 3 parts:</p><p><strong>A
+        source of magic</strong>, with relevant touchstones. This can be a
+        spellcasting talent or a scroll, potion, or other arcana. It might also
+        be something creative like asking or tricking a monster into helping.
+        Even a PC without magic ability can initiate a ritual as long as they
+        have a source of magic.</p><p><strong>Anchors for the ritual</strong>,
+        binding the physical and metaphysical realms. These are chosen by the GM
+        and players together. They should feel connected to the ritual's
+        touchstones and intent, and match the intended impact of the ritual.
+        Grander and more powerful rituals should require rarer and more unique
+        anchors. Each ritual should have two or three. Check out the crucibles
+        below for anchor ideas.</p><blockquote
+        style="border-style:solid;border-radius:8px"><h4>Tangible Anchor
+        Examples</h4><section class="grid grid-3col"><div><ul><li><p>dangerous
+        relic</p></li><li><p>home cooked meal</p></li><li><p>exotic
+        ingredients</p></li><li><p>unbroken circle</p></li><li><p>lost
+        key</p></li><li><p>predator's
+        tooth</p></li></ul></div><div><ul><li><p>circle of
+        casters</p></li><li><p>new moon</p></li><li><p>spilled
+        blood</p></li><li><p>holy grounds</p></li><li><p>gold and
+        jewels</p></li><li><p>piece of
+        art</p></li></ul></div><ul><li><p>leyline</p></li><li><p>planar
+        essence</p></li><li><p>planet's alignment</p></li><li><p>light
+        rain</p></li><li><p>top of a mountain</p></li><li><p>murder
+        weapon</p></li></ul></section><h4>Intangible Anchor
+        Examples</h4><section class="grid grid-3col"><div><ul><li><p>ancient
+        knowledge</p></li><li><p>first light</p></li><li><p>a true
+        name</p></li><li><p>divine guidance</p></li><li><p>shared
+        secret</p></li><li><p>a place like
+        home</p></li></ul></div><div><ul><li><p>deep
+        chanting</p></li><li><p>sacred dance</p></li><li><p>waking
+        dream</p></li><li><p>true love</p></li><li><p>utter
+        silence</p></li><li><p>festive
+        holiday</p></li></ul></div><div><ul><li><p>unexpected
+        betrayal</p></li><li><p>fond memory</p></li><li><p>child's
+        laughter</p></li><li><p>binding vow</p></li><li><p>fun
+        melody</p></li><li><p>indulged
+        vice</p></li></ul></div></section></blockquote><p><strong>The
+        invocation</strong>, to finalize its casting. The invocation is the act
+        of casting the ritual, a challenge that must be overcome, made far more
+        difficult or even impossible if any of the anchors are missing. All
+        rituals take time, while most carry <em><strong>risk</strong></em>,
+        using a task pool to complete the casting. <span
+        style="color:#6e6e6e"><em>The wizard meticulously draws symbols of chalk
+        on the ground while the party protects him. | The Sorcerer strains
+        themself, trying to hold the intense magical fire together. | The
+        cleansing ritual pulls the corruption out and gives it form—and it’s
+        about as friendly as you would expect.</em></span></p>
+    video:
+      controls: true
+      volume: 0.5
+    src: null
+    category: null
+    ownership:
+      default: -1
+      79CEe5dKC6Ls5VbU: 3
+    flags: {}
+    _stats:
+      coreVersion: '14.364'
+      systemId: grimwild
+      systemVersion: 0.5.3
+      createdTime: 1782677812989
+      modifiedTime: 1782928273689
+      lastModifiedBy: 79CEe5dKC6Ls5VbU
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+    _key: '!journal.pages!Gok7DgwRi0Z3D5Jt.WlrtIlgx9NHM6uyu'
+  - sort: 500000
+    name: Touchstones
+    type: text
+    _id: uA8QT8XrFuderyGt
+    system: {}
+    title:
+      show: true
+      level: 1
+    image: {}
+    text:
+      format: 1
+      content: >-
+        <p>Spellcasting ability comes with touchstones and all magic effects
+        must logically align with them, making sense and feeling natural. If it
+        feels like a reach, it’s beyond the touchstone’s
+        bounds.</p><p><strong>Flaming</strong> can burn or illuminate, but can’t
+        calm someone.</p><p><strong>Dazzling</strong> can blind or distract, but
+        can’t mend objects.</p><p><strong>Warding</strong> can create barriers
+        or protect, but can’t attack.</p><p><span style="color:#6e6e6e"><em>You
+        cast Flaming Claw as a spell at the goblins, aiming for a huge claw to
+        grab one, ignite it, and hurl it into the rest. This fits the
+        touchstones, but your intent—harming multiple goblins at once—might work
+        as a spell on a bunch of mooks, but these are some tough goblins. You'll
+        have to choose to target just one or cast a potent spell to pull off the
+        full effect.</em></span></p><p>The GM can veto spells that don't align
+        with your touchstones. They can also instead allow it, but inflict a
+        thorn or collateral effects when it's pushing your touchstones, but not
+        completely implausible.</p><p><strong>A Slime Wall spell</strong> can
+        slow enemies, but has trouble completely blocking them
+        (+1t).</p><p><strong>A Dominion spell</strong> can command someone to
+        help, but can’t cause wounds.</p><p><strong>A Wand of
+        Invisibility</strong> can make objects disappear, but can’t make sounds
+        vanish.</p><p><span style="color:#6e6e6e"><em>You want to grab a
+        treasure chest and haul it across the chasm and try to cast your Flaming
+        Claw spell to do it. Discussing it with the GM, you both decide that the
+        claw has a physical form, but since it's on fire, it'll scorch anything
+        it touches. The GM says that the chest will be 4d On Fire. This is just
+        a spell, since you could get across the chasm with an
+        action.</em></span></p><h2>Touchstone Limitations</h2><p>When you take a
+        magic talent, have a discussion with the GM about what your magic can
+        and can't do. Clearly defining it in this way makes the magic more fun
+        to play with—creativity thrives within limitations. If a PC's magic
+        feels too broad during the campaign, consider discussing new limitations
+        to keep it balanced and engaging. Most limitations arise naturally from
+        their touchstones or source.</p><p><span style="color:#6e6e6e"><em>A
+        shadow sorcerer limits their magic so it can't be used in direct
+        sunlight.</em></span></p><p><span style="color:#6e6e6e"><em>A scholarly
+        wizard limits their magic by needing their spellbook in hand to cast
+        spells.</em></span></p><p><span style="color:#6e6e6e"><em>A cleric of
+        the god of thieves limits their magic so it requires a gold piece for
+        their rites.</em></span></p><p></p>
+    video:
+      controls: true
+      volume: 0.5
+    src: null
+    category: null
+    ownership:
+      default: -1
+      79CEe5dKC6Ls5VbU: 3
+    flags: {}
+    _stats:
+      coreVersion: '14.364'
+      systemId: grimwild
+      systemVersion: 0.5.3
+      createdTime: 1782677812989
+      modifiedTime: 1782928406501
+      lastModifiedBy: 79CEe5dKC6Ls5VbU
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+    _key: '!journal.pages!Gok7DgwRi0Z3D5Jt.uA8QT8XrFuderyGt'
+  - sort: 600000
+    name: Spellcasting Rulings
+    type: text
+    _id: t2FOoDjFUEaykaLz
+    system: {}
+    title:
+      show: true
+      level: 1
+    image: {}
+    text:
+      format: 1
+      content: >-
+        <p>Magic's a freeform system, built on flexibility and creative rulings
+        from the GM, with the understanding that its freedom is meant to
+        preserve the feeling of magic. While this system can be exploited in
+        unfun ways aimed at "winning," it relies on you buying into your magic
+        touchstones and the magnitudes of magic. Don't be a weasel—play in good
+        faith and have fun with the freedom it gives you. With that in mind,
+        here are some common rulings for various situations involving
+        magic:</p><h3>Assisting with magic</h3><p>Using magic to assist a roll
+        is just set dressing with no cost—just keep the narration reasonable
+        (the weaker end of a spell). Remember you're assisting. If you're making
+        the action roll on a group level, cast as
+        usual.</p><h3>Detecting</h3><p>With a relevant touchstone, you can
+        easily recognize magic. Without one, it's harder, though magic ability
+        counts as a factor. Without training, the magic must be very obvious to
+        be noticed.</p><h3>Dispelling</h3><p>Anyone aware that something is
+        magic can try to dispel it. This does not require training—you can cast
+        a spell with relevant touchstones that counters it, cause enough of a
+        disturbance to it <span style="color:#6e6e6e"><em>(smashing the arcane
+        shield with a battleaxe, shaking someone until they're no longer
+        charmed)</em></span>, or outsmarting the magic's logic in some way <span
+        style="color:#6e6e6e"><em>(throwing water on a fire spell)</em></span>.
+        Creativity should be rewarded here.</p><h3>Magic Duration</h3><p>As a
+        rule of thumb, a spell lasts just a moment, maybe two, and a potent
+        spell lasts for a scene. This is judged by the GM based on the intended
+        effect, which you balance against the magnitude of the
+        spell.</p><h3>Trappings</h3><p>Discuss with the GM how your casting
+        appears, its visual style, movements you make, and tools you use.
+        Casting magic is clear and evident—trying to hide it is, at best,
+        extremely difficult, but usually impossible. Losing implements or being
+        hindered can deny permission to cast or inflict thorns. <span
+        style="color:#6e6e6e"><em>A cleric without the symbol of their god may
+        have a harder time casting spells (+1t).</em></span></p><h3>Buffs &amp;
+        Enemy Debuffs Spells</h3><p>Beneficial effects to allies, or detrimental
+        effects on enemies that expand PC vantage, likely affecting thorns,
+        providing a lasting setup, or bestowing a new ability—often as a 2-4d
+        timer, power pool, or shared pool of bonus dice. Potent spells often
+        target a group, or allow the change to last for the scene. Rituals can
+        add permanency or affect massive areas. <span
+        style="color:#6e6e6e"><em>Breathe underwater, a 2d timer. (spell) | Fill
+        an ally with strength, a 3d bonus dice pool. (potent) | Banish a demon
+        back to their home plane. (ritual)</em></span></p><h3>Damage
+        Spells</h3><p>Spells that directly harm others. Consider how touchstones
+        might affect vantage here. Potent spells often affect an area, or
+        provide a critical bonus (greater effect, secondary effect, setup).
+        Rituals give extra permissions, such as permanent magical traps, and
+        affecting massive areas or someone miles away. <span
+        style="color:#6e6e6e"><em>Shoot a bolt of acid. (spell) | Cause a
+        massive explosion of fire. (potent) | Afflict a town with an illness.
+        (ritual)</em></span></p><h3>Defense Spells</h3><p>Spells that protect
+        you and your allies in the moment. The GM chooses the stat for defense
+        rolls, and can choose to let you use spellcasting to defend yourself, if
+        you have time and warning (relevant touchstones may help these). Spells
+        allow you to use your casting stat, while a potent spell can extend to
+        allies or lessen the incoming threat. <span
+        style="color:#6e6e6e"><em>Create a quick shield. (spell) | Hold falling
+        rocks in the air while allies escape.
+        (potent)</em></span></p><h3>Healing Spells</h3><p>These spells soothe
+        the mind, body, and emotional states. Spells can clear marks, vex, and
+        other minor conditions. Potent spells can cure harm and more serious
+        conditions. Resurrection and healing extreme conditions is possible
+        through rituals, though they are often costly, risky, and may not
+        ultimately be worth the price. <span style="color:#6e6e6e"><em>Calm an
+        ally frozen in fear. (spell) | Mend a broken bone. (potent) | Regrow a
+        limb. (ritual)</em></span></p><h3>Information Spells</h3><p>This type of
+        spell unveils secrets, and reveals new knowledge. Spells allow you to
+        seek a specific answer, or glean surface level information. Potent
+        spells give more detail, or don’t require probing for a specific answer.
+        Rituals let you scry and learn clear and detailed information. <span
+        style="color:#6e6e6e"><em>Read a stranger’s surface thoughts. (spell) |
+        Replay the recent past of a weapon you hold. (potent) | Spy on a foe
+        from miles away. (ritual)</em></span></p><h3>Summoning
+        Spells</h3><p>These spells create items or conjure creatures to the
+        scene. Spells call forth tools and equipment for the scene, or allies
+        using a 2d power pool. Potent spells conjure creatures that use a story
+        roll or 4d power pool. Rituals can be permanent, on a massive scale, or
+        bind powerful creatures with an 8d power pool. <span
+        style="color:#6e6e6e"><em>Summon a silver dagger. (spell) | Call a dire
+        wolf to your side. (potent) | Conjure a wall around a city.
+        (ritual)</em></span></p>
+    video:
+      controls: true
+      volume: 0.5
+    src: null
+    category: null
+    ownership:
+      default: -1
+      79CEe5dKC6Ls5VbU: 3
+    flags: {}
+    _stats:
+      coreVersion: '14.364'
+      systemId: grimwild
+      systemVersion: 0.5.3
+      createdTime: 1782677812989
+      modifiedTime: 1782928778257
+      lastModifiedBy: 79CEe5dKC6Ls5VbU
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+    _key: '!journal.pages!Gok7DgwRi0Z3D5Jt.t2FOoDjFUEaykaLz'
+  - sort: 700000
+    name: Spellcasting Talents
+    type: text
+    _id: Znga72phK72goeYs
+    system: {}
+    title:
+      show: true
+      level: 1
+    image: {}
+    text:
+      format: 1
+      content: >-
+        <p>Many paths grant <em><strong>spellcasting ability</strong></em> with
+        their core talent, while some path talents feature a lesser version also
+        granting the ability. The magic from each of these sources is unique,
+        using specific touchstones, limitations, and ways to make spells potent.
+        See below for a general overview of each.</p><h3>Cleric</h3><p>Holy
+        casters that use power pools to track their magic. They cast spells by
+        performing general rites, channeling magic through the lens of their
+        god. Cleric spellcasting can be taken by other paths with the
+        @UUID[Compendium.grimwild.gwce-talents.Item.vrqgtMc5cPttKALb]{Divine
+        Blessing} talent.</p><h3>Druid</h3><p>These naturalists don't have
+        spellcasting on their own, however those wishing to control the elements
+        can take the
+        @UUID[Compendium.grimwild.gwce-talents.Item.GKlmqAT2ey3WtA4N]{Primordial
+        Bonds} path talent.</p><h3>Psion</h3><p>Mentalists that can unleash
+        potent magic at the cost of coming unraveled, making future spells more
+        difficult. They use bastions, areas of psychic expertise, as their
+        touchstones.</p><h3>Sorcerer</h3><p>Wielders of raw, unbridled, and
+        unlimited magic, that can push beyond normal limits for potent spells.
+        Their dangerous power combines a magic path (the source of power) with a
+        technique (its use) as touchstones. Sorcerer spellcasting can be taken
+        by other paths with the
+        @UUID[Compendium.grimwild.gwce-talents.Item.cTwECbEA971GWkZe]{Eldritch
+        Affinity} talent.</p><h3>Warlock</h3><p>Pact makers with no true magic
+        of their own. They instead wield their patron's magic as a weapon, and
+        ask for potent spells—weary of angering their fickle master. The nature
+        of their patron and pact acts as their
+        touchstones.</p><h3>Witch</h3><p>Wonders of magic take time for these
+        mysterious casters. They use words of power, the universal language of
+        magic, to cast spells, combining two as the touchstones. With enough
+        time, they can make them potent, or even
+        rituals.</p><h3>Wizard</h3><p>Methodical and scholarly, wizards use
+        specific magic formula, spell theorems, to cast spells. They hold an
+        ever growing arsenal, with a limited amount of magic per session. Wizard
+        spellcasting can be taken by other paths with the
+        @UUID[Compendium.grimwild.gwce-talents.Item.k05clNwHNfu182P4]{Arcane
+        Training} talent.</p>
+    video:
+      controls: true
+      volume: 0.5
+    src: null
+    category: null
+    ownership:
+      default: -1
+      79CEe5dKC6Ls5VbU: 3
+    flags: {}
+    _stats:
+      coreVersion: '14.364'
+      systemId: grimwild
+      systemVersion: 0.5.3
+      createdTime: 1782677812989
+      modifiedTime: 1783088667444
+      lastModifiedBy: 79CEe5dKC6Ls5VbU
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+    _key: '!journal.pages!Gok7DgwRi0Z3D5Jt.Znga72phK72goeYs'
+folder: DVjdnExv7XQjqTIH
+categories: []
+ownership:
+  default: 0
+  79CEe5dKC6Ls5VbU: 3
+flags: {}
+_stats:
+  coreVersion: '14.368'
+  systemId: grimwild
+  systemVersion: 0.5.3
+  createdTime: 1782677812989
+  modifiedTime: 1791746006599
+  lastModifiedBy: nF9qxzj59Qn6fNSn
+  exportSource: null
+  compendiumSource: null
+  duplicateSource: null
+sort: 300000
+_key: '!journal!Gok7DgwRi0Z3D5Jt'

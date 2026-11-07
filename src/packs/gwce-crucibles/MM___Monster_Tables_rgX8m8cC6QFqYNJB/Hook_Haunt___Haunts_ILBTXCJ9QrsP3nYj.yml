@@ -1,0 +1,157 @@
+name: Hook Haunt - Haunts
+description: ''
+formula: 1d6
+results:
+  - name: ''
+    description: <b>Old temple</b>, walls split from sharpening claws.
+    range:
+      - 1
+      - 1
+    _id: mTPejxvjAOWbqckx
+    type: text
+    img: null
+    weight: 1
+    drawn: false
+    flags: {}
+    _stats:
+      coreVersion: '14.364'
+      systemId: grimwild
+      systemVersion: 0.5.3
+      createdTime: 1783270821378
+      modifiedTime: 1783270821378
+      lastModifiedBy: 79CEe5dKC6Ls5VbU
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+    _key: '!tables.results!ILBTXCJ9QrsP3nYj.mTPejxvjAOWbqckx'
+  - name: ''
+    description: <b>Unexpected pit</b>, filled with gnawed bones.
+    range:
+      - 2
+      - 2
+    _id: asG3p5gwBV0AR5nF
+    type: text
+    img: null
+    weight: 1
+    drawn: false
+    flags: {}
+    _stats:
+      coreVersion: '14.364'
+      systemId: grimwild
+      systemVersion: 0.5.3
+      createdTime: 1783270821378
+      modifiedTime: 1783270821378
+      lastModifiedBy: 79CEe5dKC6Ls5VbU
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+    _key: '!tables.results!ILBTXCJ9QrsP3nYj.asG3p5gwBV0AR5nF'
+  - name: ''
+    description: <b>Mineral filled alcove</b>, sharp crystals on the walls.
+    range:
+      - 3
+      - 3
+    _id: BZGfY9QYIXyAx9jr
+    type: text
+    img: null
+    weight: 1
+    drawn: false
+    flags: {}
+    _stats:
+      coreVersion: '14.364'
+      systemId: grimwild
+      systemVersion: 0.5.3
+      createdTime: 1783270821378
+      modifiedTime: 1783270821378
+      lastModifiedBy: 79CEe5dKC6Ls5VbU
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+    _key: '!tables.results!ILBTXCJ9QrsP3nYj.BZGfY9QYIXyAx9jr'
+  - name: ''
+    description: <b>Dead mine</b>, littered with the corpses of miners.
+    range:
+      - 4
+      - 4
+    _id: T8aInjQ13UPpMWYq
+    type: text
+    img: null
+    weight: 1
+    drawn: false
+    flags: {}
+    _stats:
+      coreVersion: '14.364'
+      systemId: grimwild
+      systemVersion: 0.5.3
+      createdTime: 1783270821378
+      modifiedTime: 1783270821378
+      lastModifiedBy: 79CEe5dKC6Ls5VbU
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+    _key: '!tables.results!ILBTXCJ9QrsP3nYj.T8aInjQ13UPpMWYq'
+  - name: ''
+    description: <b>Sinkhole</b>, where sound seems dampened.
+    range:
+      - 5
+      - 5
+    _id: HMSehwiKfWoWQ5AW
+    type: text
+    img: null
+    weight: 1
+    drawn: false
+    flags: {}
+    _stats:
+      coreVersion: '14.364'
+      systemId: grimwild
+      systemVersion: 0.5.3
+      createdTime: 1783270821378
+      modifiedTime: 1783270821378
+      lastModifiedBy: 79CEe5dKC6Ls5VbU
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+    _key: '!tables.results!ILBTXCJ9QrsP3nYj.HMSehwiKfWoWQ5AW'
+  - name: ''
+    description: <b>Webbed den</b>, fighting for territory with ettercaps.
+    range:
+      - 6
+      - 6
+    _id: YYHLCCn9hr0MJlFh
+    type: text
+    img: null
+    weight: 1
+    drawn: false
+    flags: {}
+    _stats:
+      coreVersion: '14.364'
+      systemId: grimwild
+      systemVersion: 0.5.3
+      createdTime: 1783270821378
+      modifiedTime: 1783270821378
+      lastModifiedBy: 79CEe5dKC6Ls5VbU
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+    _key: '!tables.results!ILBTXCJ9QrsP3nYj.YYHLCCn9hr0MJlFh'
+folder: rgX8m8cC6QFqYNJB
+sort: 4300000
+_id: ILBTXCJ9QrsP3nYj
+img: icons/svg/d20-grey.svg
+replacement: true
+displayRoll: true
+ownership:
+  default: 0
+  79CEe5dKC6Ls5VbU: 3
+flags: {}
+_stats:
+  coreVersion: '14.368'
+  systemId: grimwild
+  systemVersion: 0.5.3
+  createdTime: 1783270821378
+  modifiedTime: 1791749998256
+  lastModifiedBy: nF9qxzj59Qn6fNSn
+  compendiumSource: null
+  duplicateSource: null
+  exportSource: null
+_key: '!tables!ILBTXCJ9QrsP3nYj'

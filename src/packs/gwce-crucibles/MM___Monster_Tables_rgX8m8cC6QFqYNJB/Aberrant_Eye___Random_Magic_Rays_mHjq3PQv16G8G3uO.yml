@@ -1,0 +1,157 @@
+name: Aberrant Eye - Random Magic Rays
+description: ''
+formula: 1d6
+results:
+  - name: ''
+    description: Necrotic ray
+    range:
+      - 1
+      - 1
+    _id: JkUe8dYqzfdYvoaQ
+    type: text
+    img: null
+    weight: 1
+    drawn: false
+    flags: {}
+    _stats:
+      coreVersion: '14.364'
+      systemId: grimwild
+      systemVersion: 0.5.3
+      createdTime: 1783270821392
+      modifiedTime: 1783270821392
+      lastModifiedBy: 79CEe5dKC6Ls5VbU
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+    _key: '!tables.results!mHjq3PQv16G8G3uO.JkUe8dYqzfdYvoaQ'
+  - name: ''
+    description: Controlling ray
+    range:
+      - 2
+      - 2
+    _id: tTM1MGZ9L5wedbkt
+    type: text
+    img: null
+    weight: 1
+    drawn: false
+    flags: {}
+    _stats:
+      coreVersion: '14.364'
+      systemId: grimwild
+      systemVersion: 0.5.3
+      createdTime: 1783270821392
+      modifiedTime: 1783270821392
+      lastModifiedBy: 79CEe5dKC6Ls5VbU
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+    _key: '!tables.results!mHjq3PQv16G8G3uO.tTM1MGZ9L5wedbkt'
+  - name: ''
+    description: Dream ray
+    range:
+      - 3
+      - 3
+    _id: vfv9wb0dxws1N5dX
+    type: text
+    img: null
+    weight: 1
+    drawn: false
+    flags: {}
+    _stats:
+      coreVersion: '14.364'
+      systemId: grimwild
+      systemVersion: 0.5.3
+      createdTime: 1783270821392
+      modifiedTime: 1783270821392
+      lastModifiedBy: 79CEe5dKC6Ls5VbU
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+    _key: '!tables.results!mHjq3PQv16G8G3uO.vfv9wb0dxws1N5dX'
+  - name: ''
+    description: Telekinetic ray
+    range:
+      - 4
+      - 4
+    _id: g4TzmBqKQCuU8Wyo
+    type: text
+    img: null
+    weight: 1
+    drawn: false
+    flags: {}
+    _stats:
+      coreVersion: '14.364'
+      systemId: grimwild
+      systemVersion: 0.5.3
+      createdTime: 1783270821392
+      modifiedTime: 1783270821392
+      lastModifiedBy: 79CEe5dKC6Ls5VbU
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+    _key: '!tables.results!mHjq3PQv16G8G3uO.g4TzmBqKQCuU8Wyo'
+  - name: ''
+    description: Petrifying ray
+    range:
+      - 5
+      - 5
+    _id: sbEFfuvGwkEfuEIS
+    type: text
+    img: null
+    weight: 1
+    drawn: false
+    flags: {}
+    _stats:
+      coreVersion: '14.364'
+      systemId: grimwild
+      systemVersion: 0.5.3
+      createdTime: 1783270821392
+      modifiedTime: 1783270821392
+      lastModifiedBy: 79CEe5dKC6Ls5VbU
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+    _key: '!tables.results!mHjq3PQv16G8G3uO.sbEFfuvGwkEfuEIS'
+  - name: ''
+    description: Nightmare ray
+    range:
+      - 6
+      - 6
+    _id: XAyJgz21Gn9x54LW
+    type: text
+    img: null
+    weight: 1
+    drawn: false
+    flags: {}
+    _stats:
+      coreVersion: '14.364'
+      systemId: grimwild
+      systemVersion: 0.5.3
+      createdTime: 1783270821392
+      modifiedTime: 1783270821392
+      lastModifiedBy: 79CEe5dKC6Ls5VbU
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+    _key: '!tables.results!mHjq3PQv16G8G3uO.XAyJgz21Gn9x54LW'
+folder: rgX8m8cC6QFqYNJB
+sort: 5100000
+_id: mHjq3PQv16G8G3uO
+img: icons/svg/d20-grey.svg
+replacement: true
+displayRoll: true
+ownership:
+  default: 0
+  79CEe5dKC6Ls5VbU: 3
+flags: {}
+_stats:
+  coreVersion: '14.368'
+  systemId: grimwild
+  systemVersion: 0.5.3
+  createdTime: 1783270821392
+  modifiedTime: 1791749998256
+  lastModifiedBy: nF9qxzj59Qn6fNSn
+  compendiumSource: null
+  duplicateSource: null
+  exportSource: null
+_key: '!tables!mHjq3PQv16G8G3uO'

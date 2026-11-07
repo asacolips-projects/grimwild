@@ -1,0 +1,157 @@
+name: Nothic - Seeking Long Lost Knowledge
+description: ''
+formula: 1d6
+results:
+  - name: ''
+    description: <b>True name</b> of a forgotten god.
+    range:
+      - 1
+      - 1
+    _id: iqb1ou6GBoYeWyyz
+    type: text
+    img: null
+    weight: 1
+    drawn: false
+    flags: {}
+    _stats:
+      coreVersion: '14.364'
+      systemId: grimwild
+      systemVersion: 0.5.3
+      createdTime: 1783270821399
+      modifiedTime: 1783270821399
+      lastModifiedBy: 79CEe5dKC6Ls5VbU
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+    _key: '!tables.results!tH8aobn1QV4GN46w.iqb1ou6GBoYeWyyz'
+  - name: ''
+    description: <b>Spells</b> from the first arcane language.
+    range:
+      - 2
+      - 2
+    _id: EfwkeXAIyxbppehQ
+    type: text
+    img: null
+    weight: 1
+    drawn: false
+    flags: {}
+    _stats:
+      coreVersion: '14.364'
+      systemId: grimwild
+      systemVersion: 0.5.3
+      createdTime: 1783270821399
+      modifiedTime: 1783270821399
+      lastModifiedBy: 79CEe5dKC6Ls5VbU
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+    _key: '!tables.results!tH8aobn1QV4GN46w.EfwkeXAIyxbppehQ'
+  - name: ''
+    description: <b>Star chart</b> showing what has been secretly hidden.
+    range:
+      - 3
+      - 3
+    _id: P1i80ZgYSS3TXt59
+    type: text
+    img: null
+    weight: 1
+    drawn: false
+    flags: {}
+    _stats:
+      coreVersion: '14.364'
+      systemId: grimwild
+      systemVersion: 0.5.3
+      createdTime: 1783270821399
+      modifiedTime: 1783270821399
+      lastModifiedBy: 79CEe5dKC6Ls5VbU
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+    _key: '!tables.results!tH8aobn1QV4GN46w.P1i80ZgYSS3TXt59'
+  - name: ''
+    description: <b>Real cause</b> of a cataclysmic event long ago.
+    range:
+      - 4
+      - 4
+    _id: l6US8FDUkEjZHQPq
+    type: text
+    img: null
+    weight: 1
+    drawn: false
+    flags: {}
+    _stats:
+      coreVersion: '14.364'
+      systemId: grimwild
+      systemVersion: 0.5.3
+      createdTime: 1783270821399
+      modifiedTime: 1783270821399
+      lastModifiedBy: 79CEe5dKC6Ls5VbU
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+    _key: '!tables.results!tH8aobn1QV4GN46w.l6US8FDUkEjZHQPq'
+  - name: ''
+    description: <b>Location</b> of the mage that left them in this form.
+    range:
+      - 5
+      - 5
+    _id: 8moP4CbuDWOGdbei
+    type: text
+    img: null
+    weight: 1
+    drawn: false
+    flags: {}
+    _stats:
+      coreVersion: '14.364'
+      systemId: grimwild
+      systemVersion: 0.5.3
+      createdTime: 1783270821399
+      modifiedTime: 1783270821399
+      lastModifiedBy: 79CEe5dKC6Ls5VbU
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+    _key: '!tables.results!tH8aobn1QV4GN46w.8moP4CbuDWOGdbei'
+  - name: ''
+    description: Corrupt ruler’s actual <b>lineage</b>.
+    range:
+      - 6
+      - 6
+    _id: DlUFpwpt76kD2BQV
+    type: text
+    img: null
+    weight: 1
+    drawn: false
+    flags: {}
+    _stats:
+      coreVersion: '14.364'
+      systemId: grimwild
+      systemVersion: 0.5.3
+      createdTime: 1783270821399
+      modifiedTime: 1783270821399
+      lastModifiedBy: 79CEe5dKC6Ls5VbU
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+    _key: '!tables.results!tH8aobn1QV4GN46w.DlUFpwpt76kD2BQV'
+folder: rgX8m8cC6QFqYNJB
+sort: 5500000
+_id: tH8aobn1QV4GN46w
+img: icons/svg/d20-grey.svg
+replacement: true
+displayRoll: true
+ownership:
+  default: 0
+  79CEe5dKC6Ls5VbU: 3
+flags: {}
+_stats:
+  coreVersion: '14.368'
+  systemId: grimwild
+  systemVersion: 0.5.3
+  createdTime: 1783270821399
+  modifiedTime: 1791749998256
+  lastModifiedBy: nF9qxzj59Qn6fNSn
+  compendiumSource: null
+  duplicateSource: null
+  exportSource: null
+_key: '!tables!tH8aobn1QV4GN46w'

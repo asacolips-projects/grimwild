@@ -1,0 +1,20 @@
+type: Item
+folder: null
+name: Bard
+color: '#e184c8'
+sorting: a
+_id: 1TTRKJchFdycHWme
+description: ''
+sort: 300000
+flags: {}
+_stats:
+  coreVersion: '14.364'
+  systemId: grimwild
+  systemVersion: 0.5.3
+  createdTime: 1782662612572
+  modifiedTime: 1782662612597
+  lastModifiedBy: 79CEe5dKC6Ls5VbU
+  compendiumSource: null
+  duplicateSource: null
+  exportSource: null
+_key: '!folders!1TTRKJchFdycHWme'

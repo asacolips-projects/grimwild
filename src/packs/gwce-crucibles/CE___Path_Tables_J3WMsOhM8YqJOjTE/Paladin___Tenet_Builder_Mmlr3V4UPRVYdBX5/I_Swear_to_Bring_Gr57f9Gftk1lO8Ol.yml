@@ -1,0 +1,157 @@
+name: I Swear to Bring
+description: ''
+formula: 1d6
+results:
+  - name: ''
+    description: <em>honor—valor</em>
+    range:
+      - 1
+      - 1
+    _id: TYmQJSVAAUp5cyA0
+    type: text
+    img: icons/svg/d20-black.svg
+    weight: 1
+    drawn: false
+    flags: {}
+    _stats:
+      coreVersion: '14.368'
+      systemId: grimwild
+      systemVersion: 0.5.3
+      createdTime: 1783111850929
+      modifiedTime: 1791748604886
+      lastModifiedBy: nF9qxzj59Qn6fNSn
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+    _key: '!tables.results!Gr57f9Gftk1lO8Ol.TYmQJSVAAUp5cyA0'
+  - name: ''
+    description: <em>justice—revenge</em>
+    range:
+      - 2
+      - 2
+    _id: Ol9VlyP4OvioZW6P
+    type: text
+    img: icons/svg/d20-black.svg
+    weight: 1
+    drawn: false
+    flags: {}
+    _stats:
+      coreVersion: '14.368'
+      systemId: grimwild
+      systemVersion: 0.5.3
+      createdTime: 1783111850929
+      modifiedTime: 1791748604886
+      lastModifiedBy: nF9qxzj59Qn6fNSn
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+    _key: '!tables.results!Gr57f9Gftk1lO8Ol.Ol9VlyP4OvioZW6P'
+  - name: ''
+    description: <em>faith—doubt</em>
+    range:
+      - 3
+      - 3
+    _id: k7jdo3dDGwmnONz1
+    type: text
+    img: icons/svg/d20-black.svg
+    weight: 1
+    drawn: false
+    flags: {}
+    _stats:
+      coreVersion: '14.368'
+      systemId: grimwild
+      systemVersion: 0.5.3
+      createdTime: 1783111850929
+      modifiedTime: 1791748604886
+      lastModifiedBy: nF9qxzj59Qn6fNSn
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+    _key: '!tables.results!Gr57f9Gftk1lO8Ol.k7jdo3dDGwmnONz1'
+  - name: ''
+    description: <em>mercy—judgment</em>
+    range:
+      - 4
+      - 4
+    _id: s2V85jgnQOa9KerH
+    type: text
+    img: icons/svg/d20-black.svg
+    weight: 1
+    drawn: false
+    flags: {}
+    _stats:
+      coreVersion: '14.368'
+      systemId: grimwild
+      systemVersion: 0.5.3
+      createdTime: 1783111850929
+      modifiedTime: 1791748604886
+      lastModifiedBy: nF9qxzj59Qn6fNSn
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+    _key: '!tables.results!Gr57f9Gftk1lO8Ol.s2V85jgnQOa9KerH'
+  - name: ''
+    description: <em>strength—compassion</em>
+    range:
+      - 5
+      - 5
+    _id: CZYd0cunNcs3TXsG
+    type: text
+    img: icons/svg/d20-black.svg
+    weight: 1
+    drawn: false
+    flags: {}
+    _stats:
+      coreVersion: '14.368'
+      systemId: grimwild
+      systemVersion: 0.5.3
+      createdTime: 1783111850929
+      modifiedTime: 1791748604886
+      lastModifiedBy: nF9qxzj59Qn6fNSn
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+    _key: '!tables.results!Gr57f9Gftk1lO8Ol.CZYd0cunNcs3TXsG'
+  - name: ''
+    description: <em>truth—wisdom</em>
+    range:
+      - 6
+      - 6
+    _id: xljewJNnkTM6h3hs
+    type: text
+    img: icons/svg/d20-black.svg
+    weight: 1
+    drawn: false
+    flags: {}
+    _stats:
+      coreVersion: '14.368'
+      systemId: grimwild
+      systemVersion: 0.5.3
+      createdTime: 1783111850929
+      modifiedTime: 1791748604886
+      lastModifiedBy: nF9qxzj59Qn6fNSn
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+    _key: '!tables.results!Gr57f9Gftk1lO8Ol.xljewJNnkTM6h3hs'
+folder: Mmlr3V4UPRVYdBX5
+sort: 0
+_id: Gr57f9Gftk1lO8Ol
+img: icons/svg/d20-grey.svg
+replacement: true
+displayRoll: false
+ownership:
+  default: 0
+  79CEe5dKC6Ls5VbU: 3
+flags: {}
+_stats:
+  coreVersion: '14.368'
+  systemId: grimwild
+  systemVersion: 0.5.3
+  createdTime: 1783111850929
+  modifiedTime: 1791748604886
+  lastModifiedBy: nF9qxzj59Qn6fNSn
+  compendiumSource: null
+  duplicateSource: null
+  exportSource: null
+_key: '!tables!Gr57f9Gftk1lO8Ol'

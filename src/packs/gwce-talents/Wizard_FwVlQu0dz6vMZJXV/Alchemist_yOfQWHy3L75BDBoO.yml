@@ -1,0 +1,47 @@
+folder: FwVlQu0dz6vMZJXV
+name: Alchemist
+type: talent
+_id: yOfQWHy3L75BDBoO
+img: icons/tools/laboratory/bowl-liquid-pink-yellow-green.webp
+system:
+  description: >-
+    <p>Each session, you have a <strong>4d Potions</strong> resource pool. You
+    can have a <strong>trivial potion</strong> (spell effect) by rolling the
+    pool, or drop 1d and roll to make it a <strong>minor potion</strong> (potent
+    spell effect). You know recipes for your <strong>spell theorems</strong>,
+    plus two more. Learn new recipes by sacrificing potions you find.</p>
+  core: false
+  notes:
+    description: >-
+      <p><em>Trivial potions offer a single use magic effect, while minor
+      potions bestow a single potent effect. Reflavor the container as an
+      inscribed rune, carved twig, or even a delicious pastry!</em></p>
+    label: ''
+  trackers:
+    - type: pool
+      pool:
+        powerPool: false
+        diceNum: 4
+        max: 4
+      label: Potions
+      points:
+        showSteps: false
+        value: 1
+        max: 1
+effects: []
+sort: 0
+ownership:
+  default: 0
+  79CEe5dKC6Ls5VbU: 3
+flags: {}
+_stats:
+  coreVersion: '14.368'
+  systemId: grimwild
+  systemVersion: 0.5.3
+  createdTime: 1782662631337
+  modifiedTime: 1791753834461
+  lastModifiedBy: nF9qxzj59Qn6fNSn
+  compendiumSource: null
+  duplicateSource: null
+  exportSource: null
+_key: '!items!yOfQWHy3L75BDBoO'

@@ -1,0 +1,32 @@
+folder: UcNIh8qMh1Ypz0QY
+name: Distraction
+type: talent
+_id: rcvzvK5iRrOQh4Hg
+img: icons/tools/instruments/bell-brass-brown.webp
+system:
+  description: >-
+    <p>On a perfect, you can <em><strong>setup</strong></em> an ally and pass
+    them the spotlight, even if the GM wants to spend
+    <em><strong>suspense</strong></em>.</p>
+  core: false
+  notes:
+    description: ''
+    label: ''
+  trackers: []
+effects: []
+sort: 0
+ownership:
+  default: 0
+  79CEe5dKC6Ls5VbU: 3
+flags: {}
+_stats:
+  coreVersion: '14.368'
+  systemId: grimwild
+  systemVersion: 0.5.3
+  createdTime: 1782929090445
+  modifiedTime: 1791745182172
+  lastModifiedBy: nF9qxzj59Qn6fNSn
+  compendiumSource: null
+  duplicateSource: null
+  exportSource: null
+_key: '!items!rcvzvK5iRrOQh4Hg'

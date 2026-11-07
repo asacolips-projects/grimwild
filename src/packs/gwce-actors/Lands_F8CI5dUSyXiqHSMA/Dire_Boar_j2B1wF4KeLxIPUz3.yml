@@ -1,0 +1,138 @@
+name: Dire Boar
+type: monster
+img: icons/svg/poison.svg
+system:
+  biography: >-
+    <p>It is thick with muscle and scar tissue, with a skull like a battering
+    ram. The territorial beast does not warn before charging, and it does not
+    stop until it wins.</p>
+  notes: ''
+  role: brute
+  tier: tough
+  traits:
+    - Ignores pain
+    - Single-minded
+    - Blood rage (when injured)
+  moves:
+    - Charge & Gore
+    - Stomp Down
+    - Throw Around
+  desires:
+    - value: drive out anything it perceives as a threat
+      are: false
+    - value: to battle things it can't see or trample
+      are: false
+  sensories:
+    colors:
+      - name: Dirty Umber
+        color: '#845222'
+      - name: Charcoal Gray
+        color: '#0f1216'
+      - name: Bone Ivory
+        color: '#e5d3b3'
+    sights: hoof gouges in earth, broken brush, tusk marks
+    sounds: growing breaths, sudden thunderous charging
+    smells: sweaty hide, churned mud, broken undergrowth
+  pool:
+    diceNum: 0
+    powerPool: false
+  tables: []
+prototypeToken:
+  name: Dire Boar
+  displayName: 40
+  actorLink: false
+  width: 1
+  height: 1
+  depth: 1
+  texture:
+    src: icons/svg/poison.svg
+    anchorX: 0.5
+    anchorY: 0.5
+    fit: contain
+    scaleX: 1
+    scaleY: 1
+    tint: '#ffffff'
+    alphaThreshold: 0.75
+  lockRotation: false
+  rotation: 0
+  alpha: 1
+  disposition: -1
+  displayBars: 0
+  bar1:
+    attribute: health
+  bar2:
+    attribute: power
+  light:
+    negative: false
+    priority: 0
+    alpha: 0.5
+    angle: 360
+    bright: 0
+    color: null
+    coloration: 1
+    dim: 0
+    attenuation: 0.5
+    luminosity: 0.5
+    saturation: 0
+    contrast: 0
+    shadows: 0
+    animation:
+      type: null
+      speed: 5
+      intensity: 5
+      reverse: false
+    darkness:
+      min: 0
+      max: 1
+  sight:
+    enabled: false
+    range: 0
+    angle: 360
+    visionMode: basic
+    color: null
+    attenuation: 0.1
+    brightness: 0
+    saturation: 0
+    contrast: 0
+  detectionModes: {}
+  occludable:
+    radius: 0
+  ring:
+    enabled: false
+    colors:
+      ring: null
+      background: null
+    effects: 1
+    subject:
+      scale: 1
+      texture: null
+  turnMarker:
+    mode: 1
+    animation: null
+    src: null
+    disposition: false
+  movementAction: null
+  flags: {}
+  randomImg: false
+  appendNumber: false
+  prependAdjective: false
+items: []
+effects: []
+folder: F8CI5dUSyXiqHSMA
+ownership:
+  default: 0
+  79CEe5dKC6Ls5VbU: 3
+flags: {}
+_stats:
+  coreVersion: '14.364'
+  systemId: grimwild
+  systemVersion: 0.5.3
+  createdTime: 1783200670924
+  modifiedTime: 1783200703761
+  lastModifiedBy: 79CEe5dKC6Ls5VbU
+  exportSource: null
+  compendiumSource: null
+  duplicateSource: null
+_id: j2B1wF4KeLxIPUz3
+sort: 500000
+_key: '!actors!j2B1wF4KeLxIPUz3'

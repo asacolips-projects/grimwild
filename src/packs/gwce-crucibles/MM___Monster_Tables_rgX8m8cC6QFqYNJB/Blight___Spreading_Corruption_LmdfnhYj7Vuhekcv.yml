@@ -1,0 +1,157 @@
+name: Blight - Spreading Corruption
+description: ''
+formula: 1d6
+results:
+  - name: ''
+    description: <b>Trees bleed sap</b> the color of blood.
+    range:
+      - 1
+      - 1
+    _id: Mye9KwXmlsPxDDET
+    type: text
+    img: null
+    weight: 1
+    drawn: false
+    flags: {}
+    _stats:
+      coreVersion: '14.364'
+      systemId: grimwild
+      systemVersion: 0.5.3
+      createdTime: 1783270821355
+      modifiedTime: 1783270821355
+      lastModifiedBy: 79CEe5dKC6Ls5VbU
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+    _key: '!tables.results!LmdfnhYj7Vuhekcv.Mye9KwXmlsPxDDET'
+  - name: ''
+    description: <b>Animals disappear</b> from the area.
+    range:
+      - 2
+      - 2
+    _id: jSbxUXAFV4vGLGP7
+    type: text
+    img: null
+    weight: 1
+    drawn: false
+    flags: {}
+    _stats:
+      coreVersion: '14.364'
+      systemId: grimwild
+      systemVersion: 0.5.3
+      createdTime: 1783270821355
+      modifiedTime: 1783270821355
+      lastModifiedBy: 79CEe5dKC6Ls5VbU
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+    _key: '!tables.results!LmdfnhYj7Vuhekcv.jSbxUXAFV4vGLGP7'
+  - name: ''
+    description: Floor of <b>poisonous fungi</b> grows overnight.
+    range:
+      - 3
+      - 3
+    _id: uKFcRWeFTp0MRAY4
+    type: text
+    img: null
+    weight: 1
+    drawn: false
+    flags: {}
+    _stats:
+      coreVersion: '14.364'
+      systemId: grimwild
+      systemVersion: 0.5.3
+      createdTime: 1783270821355
+      modifiedTime: 1783270821355
+      lastModifiedBy: 79CEe5dKC6Ls5VbU
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+    _key: '!tables.results!LmdfnhYj7Vuhekcv.uKFcRWeFTp0MRAY4'
+  - name: ''
+    description: <b>Whispers</b> flood the forest at night.
+    range:
+      - 4
+      - 4
+    _id: yWbfvV8lhTwyEUTo
+    type: text
+    img: null
+    weight: 1
+    drawn: false
+    flags: {}
+    _stats:
+      coreVersion: '14.364'
+      systemId: grimwild
+      systemVersion: 0.5.3
+      createdTime: 1783270821355
+      modifiedTime: 1783270821355
+      lastModifiedBy: 79CEe5dKC6Ls5VbU
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+    _key: '!tables.results!LmdfnhYj7Vuhekcv.yWbfvV8lhTwyEUTo'
+  - name: ''
+    description: All the water turns <b>brackish and foul</b>.
+    range:
+      - 5
+      - 5
+    _id: vkr2iwWzKE73vKus
+    type: text
+    img: null
+    weight: 1
+    drawn: false
+    flags: {}
+    _stats:
+      coreVersion: '14.364'
+      systemId: grimwild
+      systemVersion: 0.5.3
+      createdTime: 1783270821355
+      modifiedTime: 1783270821355
+      lastModifiedBy: 79CEe5dKC6Ls5VbU
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+    _key: '!tables.results!LmdfnhYj7Vuhekcv.vkr2iwWzKE73vKus'
+  - name: ''
+    description: Air gets thick with <b>choking spores</b>.
+    range:
+      - 6
+      - 6
+    _id: lC6y6esB7IcZ4yxB
+    type: text
+    img: null
+    weight: 1
+    drawn: false
+    flags: {}
+    _stats:
+      coreVersion: '14.364'
+      systemId: grimwild
+      systemVersion: 0.5.3
+      createdTime: 1783270821355
+      modifiedTime: 1783270821355
+      lastModifiedBy: 79CEe5dKC6Ls5VbU
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+    _key: '!tables.results!LmdfnhYj7Vuhekcv.lC6y6esB7IcZ4yxB'
+folder: rgX8m8cC6QFqYNJB
+sort: 3000000
+_id: LmdfnhYj7Vuhekcv
+img: icons/svg/d20-grey.svg
+replacement: true
+displayRoll: true
+ownership:
+  default: 0
+  79CEe5dKC6Ls5VbU: 3
+flags: {}
+_stats:
+  coreVersion: '14.368'
+  systemId: grimwild
+  systemVersion: 0.5.3
+  createdTime: 1783270821355
+  modifiedTime: 1791749998255
+  lastModifiedBy: nF9qxzj59Qn6fNSn
+  compendiumSource: null
+  duplicateSource: null
+  exportSource: null
+_key: '!tables!LmdfnhYj7Vuhekcv'

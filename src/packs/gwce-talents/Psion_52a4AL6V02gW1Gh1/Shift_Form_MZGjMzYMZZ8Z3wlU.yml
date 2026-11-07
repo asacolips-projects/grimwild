@@ -1,0 +1,45 @@
+folder: 52a4AL6V02gW1Gh1
+name: Shift Form
+type: talent
+_id: MZGjMzYMZZ8Z3wlU
+img: icons/magic/defensive/armor-stone-skin.webp
+system:
+  description: >-
+    <p>Each session, you have a <strong>2d Shifter</strong> resource pool. You
+    can roll the pool to alter your features and form, though you keep the same
+    basic shape.</p>
+  core: false
+  notes:
+    description: >-
+      <p><em>This allows you to change your basic physical features and
+      appearance. You might disguise yourself to infiltrate or blend in, but
+      you’re still clearly humanoid, and have the same capabilities.</em></p>
+    label: ''
+  trackers:
+    - type: pool
+      pool:
+        powerPool: false
+        diceNum: 2
+        max: 2
+      label: Shifter
+      points:
+        showSteps: false
+        value: 1
+        max: 1
+effects: []
+sort: 0
+ownership:
+  default: 0
+  79CEe5dKC6Ls5VbU: 3
+flags: {}
+_stats:
+  coreVersion: '14.368'
+  systemId: grimwild
+  systemVersion: 0.5.3
+  createdTime: 1782662621572
+  modifiedTime: 1791744450743
+  lastModifiedBy: nF9qxzj59Qn6fNSn
+  compendiumSource: null
+  duplicateSource: null
+  exportSource: null
+_key: '!items!MZGjMzYMZZ8Z3wlU'

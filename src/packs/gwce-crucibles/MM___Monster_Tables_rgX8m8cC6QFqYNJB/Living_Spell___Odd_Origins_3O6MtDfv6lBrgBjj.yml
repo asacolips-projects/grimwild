@@ -1,0 +1,157 @@
+name: Living Spell - Odd Origins
+description: ''
+formula: 1d6
+results:
+  - name: ''
+    description: <b>Arcane fallout</b> from a magical catastrophe.
+    range:
+      - 1
+      - 1
+    _id: siCfT17nM19UXJy5
+    type: text
+    img: null
+    weight: 1
+    drawn: false
+    flags: {}
+    _stats:
+      coreVersion: '14.364'
+      systemId: grimwild
+      systemVersion: 0.5.3
+      createdTime: 1783270821296
+      modifiedTime: 1783270821296
+      lastModifiedBy: 79CEe5dKC6Ls5VbU
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+    _key: '!tables.results!3O6MtDfv6lBrgBjj.siCfT17nM19UXJy5'
+  - name: ''
+    description: Spell-burned <b>battlefield remnants</b>.
+    range:
+      - 2
+      - 2
+    _id: S58Ak1TGqKTPLr2f
+    type: text
+    img: null
+    weight: 1
+    drawn: false
+    flags: {}
+    _stats:
+      coreVersion: '14.364'
+      systemId: grimwild
+      systemVersion: 0.5.3
+      createdTime: 1783270821296
+      modifiedTime: 1783270821296
+      lastModifiedBy: 79CEe5dKC6Ls5VbU
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+    _key: '!tables.results!3O6MtDfv6lBrgBjj.S58Ak1TGqKTPLr2f'
+  - name: ''
+    description: Reckless sorcerer’s <b>wild surge</b>.
+    range:
+      - 3
+      - 3
+    _id: l2zkxPl39rvlyGVe
+    type: text
+    img: null
+    weight: 1
+    drawn: false
+    flags: {}
+    _stats:
+      coreVersion: '14.364'
+      systemId: grimwild
+      systemVersion: 0.5.3
+      createdTime: 1783270821296
+      modifiedTime: 1783270821296
+      lastModifiedBy: 79CEe5dKC6Ls5VbU
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+    _key: '!tables.results!3O6MtDfv6lBrgBjj.l2zkxPl39rvlyGVe'
+  - name: ''
+    description: <b>Planar crossover</b>, when the stars were right.
+    range:
+      - 4
+      - 4
+    _id: hKYjPQ31q0I57LhY
+    type: text
+    img: null
+    weight: 1
+    drawn: false
+    flags: {}
+    _stats:
+      coreVersion: '14.364'
+      systemId: grimwild
+      systemVersion: 0.5.3
+      createdTime: 1783270821296
+      modifiedTime: 1783270821296
+      lastModifiedBy: 79CEe5dKC6Ls5VbU
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+    _key: '!tables.results!3O6MtDfv6lBrgBjj.hKYjPQ31q0I57LhY'
+  - name: ''
+    description: A powerful <b>mage’s curse</b> upon the world.
+    range:
+      - 5
+      - 5
+    _id: g2zGQvAegOdObL15
+    type: text
+    img: null
+    weight: 1
+    drawn: false
+    flags: {}
+    _stats:
+      coreVersion: '14.364'
+      systemId: grimwild
+      systemVersion: 0.5.3
+      createdTime: 1783270821296
+      modifiedTime: 1783270821296
+      lastModifiedBy: 79CEe5dKC6Ls5VbU
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+    _key: '!tables.results!3O6MtDfv6lBrgBjj.g2zGQvAegOdObL15'
+  - name: ''
+    description: Strange <b>alchemy recipe</b> spiraled out of control.
+    range:
+      - 6
+      - 6
+    _id: jLdVfhTfLTtxhgqk
+    type: text
+    img: null
+    weight: 1
+    drawn: false
+    flags: {}
+    _stats:
+      coreVersion: '14.364'
+      systemId: grimwild
+      systemVersion: 0.5.3
+      createdTime: 1783270821296
+      modifiedTime: 1783270821296
+      lastModifiedBy: 79CEe5dKC6Ls5VbU
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+    _key: '!tables.results!3O6MtDfv6lBrgBjj.jLdVfhTfLTtxhgqk'
+folder: rgX8m8cC6QFqYNJB
+sort: 400000
+_id: 3O6MtDfv6lBrgBjj
+img: icons/svg/d20-grey.svg
+replacement: true
+displayRoll: true
+ownership:
+  default: 0
+  79CEe5dKC6Ls5VbU: 3
+flags: {}
+_stats:
+  coreVersion: '14.368'
+  systemId: grimwild
+  systemVersion: 0.5.3
+  createdTime: 1783270821296
+  modifiedTime: 1791749998254
+  lastModifiedBy: nF9qxzj59Qn6fNSn
+  compendiumSource: null
+  duplicateSource: null
+  exportSource: null
+_key: '!tables!3O6MtDfv6lBrgBjj'

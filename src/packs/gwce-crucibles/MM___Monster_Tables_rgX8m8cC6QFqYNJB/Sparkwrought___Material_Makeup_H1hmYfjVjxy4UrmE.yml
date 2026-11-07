@@ -1,0 +1,157 @@
+name: Sparkwrought - Material Makeup
+description: ''
+formula: 1d6
+results:
+  - name: ''
+    description: <b>Iron forged</b>, crafted by smiths and artisans.
+    range:
+      - 1
+      - 1
+    _id: BiQZAfJkhvPoadf9
+    type: text
+    img: null
+    weight: 1
+    drawn: false
+    flags: {}
+    _stats:
+      coreVersion: '14.364'
+      systemId: grimwild
+      systemVersion: 0.5.3
+      createdTime: 1783270821301
+      modifiedTime: 1783270821301
+      lastModifiedBy: 79CEe5dKC6Ls5VbU
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+    _key: '!tables.results!H1hmYfjVjxy4UrmE.BiQZAfJkhvPoadf9'
+  - name: ''
+    description: <b>Star forged</b>, formed from the aether itself.
+    range:
+      - 2
+      - 2
+    _id: UnAkLyO7LHpLkvmn
+    type: text
+    img: null
+    weight: 1
+    drawn: false
+    flags: {}
+    _stats:
+      coreVersion: '14.364'
+      systemId: grimwild
+      systemVersion: 0.5.3
+      createdTime: 1783270821301
+      modifiedTime: 1783270821301
+      lastModifiedBy: 79CEe5dKC6Ls5VbU
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+    _key: '!tables.results!H1hmYfjVjxy4UrmE.UnAkLyO7LHpLkvmn'
+  - name: ''
+    description: <b>Blood forged</b>, sculpted by dark ritual.
+    range:
+      - 3
+      - 3
+    _id: IgRNKLNfkNNbtgzp
+    type: text
+    img: null
+    weight: 1
+    drawn: false
+    flags: {}
+    _stats:
+      coreVersion: '14.364'
+      systemId: grimwild
+      systemVersion: 0.5.3
+      createdTime: 1783270821301
+      modifiedTime: 1783270821301
+      lastModifiedBy: 79CEe5dKC6Ls5VbU
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+    _key: '!tables.results!H1hmYfjVjxy4UrmE.IgRNKLNfkNNbtgzp'
+  - name: ''
+    description: <b>Earth forged</b>, grown to be a guardian of nature.
+    range:
+      - 4
+      - 4
+    _id: sjEkM3B6zWHAKenP
+    type: text
+    img: null
+    weight: 1
+    drawn: false
+    flags: {}
+    _stats:
+      coreVersion: '14.364'
+      systemId: grimwild
+      systemVersion: 0.5.3
+      createdTime: 1783270821301
+      modifiedTime: 1783270821301
+      lastModifiedBy: 79CEe5dKC6Ls5VbU
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+    _key: '!tables.results!H1hmYfjVjxy4UrmE.sjEkM3B6zWHAKenP'
+  - name: ''
+    description: <b>Scrap forged</b>, cobbled together from what's left.
+    range:
+      - 5
+      - 5
+    _id: RJquko0y8bRNupuB
+    type: text
+    img: null
+    weight: 1
+    drawn: false
+    flags: {}
+    _stats:
+      coreVersion: '14.364'
+      systemId: grimwild
+      systemVersion: 0.5.3
+      createdTime: 1783270821301
+      modifiedTime: 1783270821301
+      lastModifiedBy: 79CEe5dKC6Ls5VbU
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+    _key: '!tables.results!H1hmYfjVjxy4UrmE.RJquko0y8bRNupuB'
+  - name: ''
+    description: <b>Spirit forged</b>, infused with the soul of another.
+    range:
+      - 6
+      - 6
+    _id: XI4P6mQ32PKOVuWT
+    type: text
+    img: null
+    weight: 1
+    drawn: false
+    flags: {}
+    _stats:
+      coreVersion: '14.364'
+      systemId: grimwild
+      systemVersion: 0.5.3
+      createdTime: 1783270821301
+      modifiedTime: 1783270821301
+      lastModifiedBy: 79CEe5dKC6Ls5VbU
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+    _key: '!tables.results!H1hmYfjVjxy4UrmE.XI4P6mQ32PKOVuWT'
+folder: rgX8m8cC6QFqYNJB
+sort: 700000
+_id: H1hmYfjVjxy4UrmE
+img: icons/svg/d20-grey.svg
+replacement: true
+displayRoll: true
+ownership:
+  default: 0
+  79CEe5dKC6Ls5VbU: 3
+flags: {}
+_stats:
+  coreVersion: '14.368'
+  systemId: grimwild
+  systemVersion: 0.5.3
+  createdTime: 1783270821301
+  modifiedTime: 1791749998254
+  lastModifiedBy: nF9qxzj59Qn6fNSn
+  compendiumSource: null
+  duplicateSource: null
+  exportSource: null
+_key: '!tables!H1hmYfjVjxy4UrmE'

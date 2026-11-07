@@ -1,0 +1,157 @@
+name: Summer 2
+description: ''
+formula: 1d6
+results:
+  - name: ''
+    description: storm
+    range:
+      - 1
+      - 1
+    _id: v1fAxDR0PzrjYiLD
+    type: text
+    img: icons/svg/d20-black.svg
+    weight: 1
+    drawn: false
+    flags: {}
+    _stats:
+      coreVersion: '14.364'
+      systemId: grimwild
+      systemVersion: 0.5.3
+      createdTime: 1783180862959
+      modifiedTime: 1783180931491
+      lastModifiedBy: 79CEe5dKC6Ls5VbU
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+    _key: '!tables.results!mv53HWEFx02BQRmJ.v1fAxDR0PzrjYiLD'
+  - name: ''
+    description: haze
+    range:
+      - 2
+      - 2
+    _id: 9EMQxUIXWsofXGu4
+    type: text
+    img: icons/svg/d20-black.svg
+    weight: 1
+    drawn: false
+    flags: {}
+    _stats:
+      coreVersion: '14.364'
+      systemId: grimwild
+      systemVersion: 0.5.3
+      createdTime: 1783180862959
+      modifiedTime: 1783180931491
+      lastModifiedBy: 79CEe5dKC6Ls5VbU
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+    _key: '!tables.results!mv53HWEFx02BQRmJ.9EMQxUIXWsofXGu4'
+  - name: ''
+    description: flare
+    range:
+      - 3
+      - 3
+    _id: gmP2udKCVzI1J1TD
+    type: text
+    img: icons/svg/d20-black.svg
+    weight: 1
+    drawn: false
+    flags: {}
+    _stats:
+      coreVersion: '14.364'
+      systemId: grimwild
+      systemVersion: 0.5.3
+      createdTime: 1783180862959
+      modifiedTime: 1783180931491
+      lastModifiedBy: 79CEe5dKC6Ls5VbU
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+    _key: '!tables.results!mv53HWEFx02BQRmJ.gmP2udKCVzI1J1TD'
+  - name: ''
+    description: glow
+    range:
+      - 4
+      - 4
+    _id: 9g1D6iH2nIuISnOm
+    type: text
+    img: icons/svg/d20-black.svg
+    weight: 1
+    drawn: false
+    flags: {}
+    _stats:
+      coreVersion: '14.364'
+      systemId: grimwild
+      systemVersion: 0.5.3
+      createdTime: 1783180862959
+      modifiedTime: 1783180931491
+      lastModifiedBy: 79CEe5dKC6Ls5VbU
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+    _key: '!tables.results!mv53HWEFx02BQRmJ.9g1D6iH2nIuISnOm'
+  - name: ''
+    description: breeze
+    range:
+      - 5
+      - 5
+    _id: bXRR8071GiQN8BhG
+    type: text
+    img: icons/svg/d20-black.svg
+    weight: 1
+    drawn: false
+    flags: {}
+    _stats:
+      coreVersion: '14.364'
+      systemId: grimwild
+      systemVersion: 0.5.3
+      createdTime: 1783180862959
+      modifiedTime: 1783180931491
+      lastModifiedBy: 79CEe5dKC6Ls5VbU
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+    _key: '!tables.results!mv53HWEFx02BQRmJ.bXRR8071GiQN8BhG'
+  - name: ''
+    description: surge
+    range:
+      - 6
+      - 6
+    _id: ye5fsvtpr0s0zZ74
+    type: text
+    img: icons/svg/d20-black.svg
+    weight: 1
+    drawn: false
+    flags: {}
+    _stats:
+      coreVersion: '14.364'
+      systemId: grimwild
+      systemVersion: 0.5.3
+      createdTime: 1783180862959
+      modifiedTime: 1783180931492
+      lastModifiedBy: 79CEe5dKC6Ls5VbU
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+    _key: '!tables.results!mv53HWEFx02BQRmJ.ye5fsvtpr0s0zZ74'
+folder: ZHUB08tpegfziYkx
+sort: 500000
+_id: mv53HWEFx02BQRmJ
+img: icons/svg/d20-grey.svg
+replacement: true
+displayRoll: true
+ownership:
+  default: 0
+  79CEe5dKC6Ls5VbU: 3
+flags: {}
+_stats:
+  coreVersion: '14.364'
+  systemId: grimwild
+  systemVersion: 0.5.3
+  createdTime: 1783180862959
+  modifiedTime: 1783180939164
+  lastModifiedBy: 79CEe5dKC6Ls5VbU
+  compendiumSource: null
+  duplicateSource: null
+  exportSource: null
+_key: '!tables!mv53HWEFx02BQRmJ'

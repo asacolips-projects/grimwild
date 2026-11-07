@@ -1,0 +1,20 @@
+name: Seasons
+type: RollTable
+sorting: m
+folder: SdbDqyXAF5KLE0Ik
+_id: ZHUB08tpegfziYkx
+description: ''
+sort: 100000
+color: null
+flags: {}
+_stats:
+  coreVersion: '14.364'
+  systemId: grimwild
+  systemVersion: 0.5.3
+  createdTime: 1783180862925
+  modifiedTime: 1783180862986
+  lastModifiedBy: 79CEe5dKC6Ls5VbU
+  compendiumSource: null
+  duplicateSource: null
+  exportSource: null
+_key: '!folders!ZHUB08tpegfziYkx'

@@ -1,0 +1,32 @@
+folder: DRRquhcPQ3Tydpoy
+name: Monster Menagerie
+type: talent
+_id: s92DmqVh9SwLCwZy
+img: icons/creatures/magical/humanoid-silhouette-aliens-green.webp
+system:
+  description: >-
+    <p>You have a bond with 3 different creatures, all with their own aspects,
+    though you still summon one at a time. When you summon a vassal, you can
+    choose which answers the call. [Summoner Only]</p>
+  core: false
+  notes:
+    description: ''
+    label: ''
+  trackers: []
+effects: []
+sort: 0
+ownership:
+  default: 0
+  79CEe5dKC6Ls5VbU: 3
+flags: {}
+_stats:
+  coreVersion: '14.368'
+  systemId: grimwild
+  systemVersion: 0.5.3
+  createdTime: 1783005310671
+  modifiedTime: 1791745466889
+  lastModifiedBy: nF9qxzj59Qn6fNSn
+  compendiumSource: null
+  duplicateSource: null
+  exportSource: null
+_key: '!items!s92DmqVh9SwLCwZy'

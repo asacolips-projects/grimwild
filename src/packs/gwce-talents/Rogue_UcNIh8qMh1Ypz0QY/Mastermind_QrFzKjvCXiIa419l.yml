@@ -1,0 +1,47 @@
+folder: UcNIh8qMh1Ypz0QY
+name: Mastermind
+type: talent
+_id: QrFzKjvCXiIa419l
+img: icons/magic/control/control-influence-crown-gold.webp
+system:
+  description: >-
+    <p>You gain 1 <em><strong>thread</strong></em> per session and can spend
+    <em><strong>thread</strong></em> to flashback to employing subterfuge or
+    clever preparation to: <em>make a contact—plant a decoy—prepare
+    reinforcements—set up an <strong>interrupt</strong>—swipe or stash a useful
+    item.</em> Make a 3d montage roll. The GM must take
+    <em><strong>suspense</strong></em> in place of an impact move.</p>
+  core: false
+  notes:
+    description: >-
+      <p><em>This can cover many kinds of preparation. Consider your other
+      talents and abilities as well, for example: if you have spellcasting,
+      perhaps you prepared by using magic ahead of time.</em></p>
+    label: ''
+  trackers:
+    - type: points
+      label: Thread
+      points:
+        value: 1
+        max: 1
+        showSteps: true
+      pool:
+        diceNum: 0
+        powerPool: false
+effects: []
+sort: 0
+ownership:
+  default: 0
+  79CEe5dKC6Ls5VbU: 3
+flags: {}
+_stats:
+  coreVersion: '14.368'
+  systemId: grimwild
+  systemVersion: 0.5.3
+  createdTime: 1782929090445
+  modifiedTime: 1791745061537
+  lastModifiedBy: nF9qxzj59Qn6fNSn
+  compendiumSource: null
+  duplicateSource: null
+  exportSource: null
+_key: '!items!QrFzKjvCXiIa419l'

@@ -1,0 +1,157 @@
+name: Knight - Tale of Heroism
+description: ''
+formula: 1d6
+results:
+  - name: ''
+    description: Held an <b>army</b> at bay with no rest for a week.
+    range:
+      - 1
+      - 1
+    _id: rq2FkwgV4kedTdvo
+    type: text
+    img: null
+    weight: 1
+    drawn: false
+    flags: {}
+    _stats:
+      coreVersion: '14.364'
+      systemId: grimwild
+      systemVersion: 0.5.3
+      createdTime: 1783270821346
+      modifiedTime: 1783270821346
+      lastModifiedBy: 79CEe5dKC6Ls5VbU
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+    _key: '!tables.results!80S3i0muUTFE3IjN.rq2FkwgV4kedTdvo'
+  - name: ''
+    description: Dove into a <b>kraken’s</b> mouth to rescue a prince.
+    range:
+      - 2
+      - 2
+    _id: vs3rSkjvjWla0rN1
+    type: text
+    img: null
+    weight: 1
+    drawn: false
+    flags: {}
+    _stats:
+      coreVersion: '14.364'
+      systemId: grimwild
+      systemVersion: 0.5.3
+      createdTime: 1783270821346
+      modifiedTime: 1783270821346
+      lastModifiedBy: 79CEe5dKC6Ls5VbU
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+    _key: '!tables.results!80S3i0muUTFE3IjN.vs3rSkjvjWla0rN1'
+  - name: ''
+    description: Blessed by the <b>god of war</b> after winning a duel.
+    range:
+      - 3
+      - 3
+    _id: Ylj6wjrAnPonJDYS
+    type: text
+    img: null
+    weight: 1
+    drawn: false
+    flags: {}
+    _stats:
+      coreVersion: '14.364'
+      systemId: grimwild
+      systemVersion: 0.5.3
+      createdTime: 1783270821346
+      modifiedTime: 1783270821346
+      lastModifiedBy: 79CEe5dKC6Ls5VbU
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+    _key: '!tables.results!80S3i0muUTFE3IjN.Ylj6wjrAnPonJDYS'
+  - name: ''
+    description: Stared down a <b>basilisk</b> and turned it to stone.
+    range:
+      - 4
+      - 4
+    _id: quFmfMnNpti8QoRe
+    type: text
+    img: null
+    weight: 1
+    drawn: false
+    flags: {}
+    _stats:
+      coreVersion: '14.364'
+      systemId: grimwild
+      systemVersion: 0.5.3
+      createdTime: 1783270821346
+      modifiedTime: 1783270821346
+      lastModifiedBy: 79CEe5dKC6Ls5VbU
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+    _key: '!tables.results!80S3i0muUTFE3IjN.quFmfMnNpti8QoRe'
+  - name: ''
+    description: Killed an <b>evil warlord</b> with just a broken banner.
+    range:
+      - 5
+      - 5
+    _id: Uj7ydzmFqwP3WlfG
+    type: text
+    img: null
+    weight: 1
+    drawn: false
+    flags: {}
+    _stats:
+      coreVersion: '14.364'
+      systemId: grimwild
+      systemVersion: 0.5.3
+      createdTime: 1783270821346
+      modifiedTime: 1783270821346
+      lastModifiedBy: 79CEe5dKC6Ls5VbU
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+    _key: '!tables.results!80S3i0muUTFE3IjN.Uj7ydzmFqwP3WlfG'
+  - name: ''
+    description: Convinced a <b>hill giant</b> to become a monk.
+    range:
+      - 6
+      - 6
+    _id: 63WCkux9Vcqsr6cl
+    type: text
+    img: null
+    weight: 1
+    drawn: false
+    flags: {}
+    _stats:
+      coreVersion: '14.364'
+      systemId: grimwild
+      systemVersion: 0.5.3
+      createdTime: 1783270821346
+      modifiedTime: 1783270821346
+      lastModifiedBy: 79CEe5dKC6Ls5VbU
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+    _key: '!tables.results!80S3i0muUTFE3IjN.63WCkux9Vcqsr6cl'
+folder: rgX8m8cC6QFqYNJB
+sort: 2500000
+_id: 80S3i0muUTFE3IjN
+img: icons/svg/d20-grey.svg
+replacement: true
+displayRoll: true
+ownership:
+  default: 0
+  79CEe5dKC6Ls5VbU: 3
+flags: {}
+_stats:
+  coreVersion: '14.368'
+  systemId: grimwild
+  systemVersion: 0.5.3
+  createdTime: 1783270821346
+  modifiedTime: 1791749998255
+  lastModifiedBy: nF9qxzj59Qn6fNSn
+  compendiumSource: null
+  duplicateSource: null
+  exportSource: null
+_key: '!tables!80S3i0muUTFE3IjN'

@@ -1,0 +1,36 @@
+folder: t5SGlevKR7fGIfsq
+name: Guardian
+type: talent
+img: icons/magic/defensive/shield-barrier-blue.webp
+system:
+  description: >-
+    <p>Take +1d when you <em><strong>assist</strong></em> on a defense roll. You
+    can also make a defense roll for an ally when they would be affected by an
+    impact move, or <em><strong>push yourself</strong></em> to defend multiple
+    nearby allies from a single attack, like blocking dragon fire.</p>
+  core: false
+  notes:
+    description: >-
+      <p><em>When you "make a defense roll for an ally", you're not
+      assisting—the impact move is instead now targeting you, and they're no
+      longer at risk.</em></p>
+    label: ''
+  trackers: []
+effects: []
+sort: 0
+ownership:
+  default: 0
+  79CEe5dKC6Ls5VbU: 3
+flags: {}
+_stats:
+  coreVersion: '14.368'
+  systemId: grimwild
+  systemVersion: 0.5.3
+  createdTime: 1782662620507
+  modifiedTime: 1791743899845
+  lastModifiedBy: nF9qxzj59Qn6fNSn
+  compendiumSource: null
+  duplicateSource: Item.vrqgtMc5cPttKALb
+  exportSource: null
+_id: V5CEe1pUbWY0gtpo
+_key: '!items!V5CEe1pUbWY0gtpo'

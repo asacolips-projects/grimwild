@@ -1,0 +1,37 @@
+folder: 1TTRKJchFdycHWme
+name: Folk Hero
+type: talent
+_id: K7yazzueLhaayitE
+img: /icons/equipment/back/cape-layered-red.webp
+system:
+  description: >-
+    <p>You can spend <strong>inspiration</strong> and
+    <em><strong>spark</strong></em> interchangeably. If your
+    <em><strong>spark</strong></em> die comes up as a 6, you regain it. Tales of
+    your heroism are told throughout the area; track their spread with campaign
+    pools. [Bard Only]</p>
+  core: false
+  notes:
+    description: >-
+      <p><em>For every free room and home-cooked meal, you’re likely to have a
+      plea for help, swindlers, starry- eyed followers, and those looking to
+      pick a fight. Any of these would make great tangles.</em></p>
+    label: ''
+  trackers: []
+effects: []
+sort: 0
+ownership:
+  default: 0
+  79CEe5dKC6Ls5VbU: 3
+flags: {}
+_stats:
+  coreVersion: '14.368'
+  systemId: grimwild
+  systemVersion: 0.5.3
+  createdTime: 1782662612584
+  modifiedTime: 1791655159934
+  lastModifiedBy: nF9qxzj59Qn6fNSn
+  compendiumSource: null
+  duplicateSource: null
+  exportSource: null
+_key: '!items!K7yazzueLhaayitE'

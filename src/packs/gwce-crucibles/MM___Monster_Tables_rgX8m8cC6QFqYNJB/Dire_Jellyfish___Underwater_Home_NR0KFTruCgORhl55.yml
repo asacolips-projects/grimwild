@@ -1,0 +1,157 @@
+name: Dire Jellyfish - Underwater Home
+description: ''
+formula: 1d6
+results:
+  - name: ''
+    description: <b>Underwater trench</b>, lined with phosphorescent fungi.
+    range:
+      - 1
+      - 1
+    _id: sNTnO8hj1rqp78Fd
+    type: text
+    img: null
+    weight: 1
+    drawn: false
+    flags: {}
+    _stats:
+      coreVersion: '14.364'
+      systemId: grimwild
+      systemVersion: 0.5.3
+      createdTime: 1783270821415
+      modifiedTime: 1783270821415
+      lastModifiedBy: 79CEe5dKC6Ls5VbU
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+    _key: '!tables.results!NR0KFTruCgORhl55.sNTnO8hj1rqp78Fd'
+  - name: ''
+    description: <b>Coral graveyard</b>, filled with bones and broken ships.
+    range:
+      - 2
+      - 2
+    _id: RhDtdyq3PIzydf5d
+    type: text
+    img: null
+    weight: 1
+    drawn: false
+    flags: {}
+    _stats:
+      coreVersion: '14.364'
+      systemId: grimwild
+      systemVersion: 0.5.3
+      createdTime: 1783270821415
+      modifiedTime: 1783270821415
+      lastModifiedBy: 79CEe5dKC6Ls5VbU
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+    _key: '!tables.results!NR0KFTruCgORhl55.RhDtdyq3PIzydf5d'
+  - name: ''
+    description: <b>Submerged rift</b>, a secret entrance to the fey.
+    range:
+      - 3
+      - 3
+    _id: ClBSVNjFBCUNkzU1
+    type: text
+    img: null
+    weight: 1
+    drawn: false
+    flags: {}
+    _stats:
+      coreVersion: '14.364'
+      systemId: grimwild
+      systemVersion: 0.5.3
+      createdTime: 1783270821415
+      modifiedTime: 1783270821415
+      lastModifiedBy: 79CEe5dKC6Ls5VbU
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+    _key: '!tables.results!NR0KFTruCgORhl55.ClBSVNjFBCUNkzU1'
+  - name: ''
+    description: <b>Leviathan skull</b>, as part of a growing ecosystem.
+    range:
+      - 4
+      - 4
+    _id: nxLfn7R2Bc5EVfSN
+    type: text
+    img: null
+    weight: 1
+    drawn: false
+    flags: {}
+    _stats:
+      coreVersion: '14.364'
+      systemId: grimwild
+      systemVersion: 0.5.3
+      createdTime: 1783270821415
+      modifiedTime: 1783270821415
+      lastModifiedBy: 79CEe5dKC6Ls5VbU
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+    _key: '!tables.results!NR0KFTruCgORhl55.nxLfn7R2Bc5EVfSN'
+  - name: ''
+    description: <b>Shallow lagoon</b>, hauntingly still and empty.
+    range:
+      - 5
+      - 5
+    _id: 4nW3gnKuIet4xksn
+    type: text
+    img: null
+    weight: 1
+    drawn: false
+    flags: {}
+    _stats:
+      coreVersion: '14.364'
+      systemId: grimwild
+      systemVersion: 0.5.3
+      createdTime: 1783270821415
+      modifiedTime: 1783270821415
+      lastModifiedBy: 79CEe5dKC6Ls5VbU
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+    _key: '!tables.results!NR0KFTruCgORhl55.4nW3gnKuIet4xksn'
+  - name: ''
+    description: <b>Thermal vent</b>, accustomed to the intense heat.
+    range:
+      - 6
+      - 6
+    _id: zxIVo69sgFRuCw2I
+    type: text
+    img: null
+    weight: 1
+    drawn: false
+    flags: {}
+    _stats:
+      coreVersion: '14.364'
+      systemId: grimwild
+      systemVersion: 0.5.3
+      createdTime: 1783270821415
+      modifiedTime: 1783270821415
+      lastModifiedBy: 79CEe5dKC6Ls5VbU
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+    _key: '!tables.results!NR0KFTruCgORhl55.zxIVo69sgFRuCw2I'
+folder: rgX8m8cC6QFqYNJB
+sort: 6200000
+_id: NR0KFTruCgORhl55
+img: icons/svg/d20-grey.svg
+replacement: true
+displayRoll: true
+ownership:
+  default: 0
+  79CEe5dKC6Ls5VbU: 3
+flags: {}
+_stats:
+  coreVersion: '14.368'
+  systemId: grimwild
+  systemVersion: 0.5.3
+  createdTime: 1783270821415
+  modifiedTime: 1791749998257
+  lastModifiedBy: nF9qxzj59Qn6fNSn
+  compendiumSource: null
+  duplicateSource: null
+  exportSource: null
+_key: '!tables!NR0KFTruCgORhl55'

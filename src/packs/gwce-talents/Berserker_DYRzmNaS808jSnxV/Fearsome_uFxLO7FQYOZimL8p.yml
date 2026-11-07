@@ -1,0 +1,38 @@
+folder: DYRzmNaS808jSnxV
+name: Fearsome
+type: talent
+_id: uFxLO7FQYOZimL8p
+img: /icons/skills/social/intimidation-impressing.webp
+system:
+  description: >-
+    <p>Your presence instills fear in others. The GM judges an NPC’s response,
+    or you can spend <em><strong>thread</strong></em> to set it:
+    <em>hostile—nervous—respectful—scared</em>. You can <strong>push
+    yourself</strong> to pull off a <em><strong>potent feat of
+    intimidation</strong></em>, such as <em>staring down a dragon</em> or
+    <em>demanding to see the king</em>.</p>
+  core: false
+  notes:
+    description: >-
+      <p><em>What exactly makes you so frightening to be around? This could
+      merely be your appearance, but it could also be the way you talk, hold
+      yourself, dress, reputation, or a combination thereof.</em></p>
+    label: ''
+  trackers: []
+effects: []
+sort: 0
+ownership:
+  default: 0
+  79CEe5dKC6Ls5VbU: 3
+flags: {}
+_stats:
+  coreVersion: '14.364'
+  systemId: grimwild
+  systemVersion: 0.5.3
+  createdTime: 1782662613729
+  modifiedTime: 1783008196564
+  lastModifiedBy: 79CEe5dKC6Ls5VbU
+  compendiumSource: null
+  duplicateSource: null
+  exportSource: null
+_key: '!items!uFxLO7FQYOZimL8p'

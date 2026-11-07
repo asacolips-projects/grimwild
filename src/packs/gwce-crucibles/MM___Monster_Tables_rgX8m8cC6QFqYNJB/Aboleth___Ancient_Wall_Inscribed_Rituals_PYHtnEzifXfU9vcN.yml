@@ -1,0 +1,157 @@
+name: Aboleth - Ancient Wall-Inscribed Rituals
+description: ''
+formula: 1d6
+results:
+  - name: ''
+    description: <b>Offering of Eyes</b>, become blind to see the far realms.
+    range:
+      - 1
+      - 1
+    _id: m26slCQ80eRbRmvE
+    type: text
+    img: null
+    weight: 1
+    drawn: false
+    flags: {}
+    _stats:
+      coreVersion: '14.364'
+      systemId: grimwild
+      systemVersion: 0.5.3
+      createdTime: 1783270821393
+      modifiedTime: 1783270821393
+      lastModifiedBy: 79CEe5dKC6Ls5VbU
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+    _key: '!tables.results!PYHtnEzifXfU9vcN.m26slCQ80eRbRmvE'
+  - name: ''
+    description: <b>Brine Curse</b>, turn a trespasser’s blood to brine.
+    range:
+      - 2
+      - 2
+    _id: LHMX2ifCheDOMyc9
+    type: text
+    img: null
+    weight: 1
+    drawn: false
+    flags: {}
+    _stats:
+      coreVersion: '14.364'
+      systemId: grimwild
+      systemVersion: 0.5.3
+      createdTime: 1783270821393
+      modifiedTime: 1783270821393
+      lastModifiedBy: 79CEe5dKC6Ls5VbU
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+    _key: '!tables.results!PYHtnEzifXfU9vcN.LHMX2ifCheDOMyc9'
+  - name: ''
+    description: <b>The One that Waits</b>, awaken a dreaming primal.
+    range:
+      - 3
+      - 3
+    _id: f85DqvpzJfsFRMXT
+    type: text
+    img: null
+    weight: 1
+    drawn: false
+    flags: {}
+    _stats:
+      coreVersion: '14.364'
+      systemId: grimwild
+      systemVersion: 0.5.3
+      createdTime: 1783270821393
+      modifiedTime: 1783270821393
+      lastModifiedBy: 79CEe5dKC6Ls5VbU
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+    _key: '!tables.results!PYHtnEzifXfU9vcN.f85DqvpzJfsFRMXT'
+  - name: ''
+    description: <b>Third Mind</b>, connect three creatures, permanently.
+    range:
+      - 4
+      - 4
+    _id: L5HhRBrLXMd1qkc1
+    type: text
+    img: null
+    weight: 1
+    drawn: false
+    flags: {}
+    _stats:
+      coreVersion: '14.364'
+      systemId: grimwild
+      systemVersion: 0.5.3
+      createdTime: 1783270821393
+      modifiedTime: 1783270821393
+      lastModifiedBy: 79CEe5dKC6Ls5VbU
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+    _key: '!tables.results!PYHtnEzifXfU9vcN.L5HhRBrLXMd1qkc1'
+  - name: ''
+    description: <b>Crown of Chain</b>, dominate a lesser willed being.
+    range:
+      - 5
+      - 5
+    _id: vPfrEuYRcaf2HPDa
+    type: text
+    img: null
+    weight: 1
+    drawn: false
+    flags: {}
+    _stats:
+      coreVersion: '14.364'
+      systemId: grimwild
+      systemVersion: 0.5.3
+      createdTime: 1783270821393
+      modifiedTime: 1783270821393
+      lastModifiedBy: 79CEe5dKC6Ls5VbU
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+    _key: '!tables.results!PYHtnEzifXfU9vcN.vPfrEuYRcaf2HPDa'
+  - name: ''
+    description: <b>Moontide</b>, control deep and strong water currents.
+    range:
+      - 6
+      - 6
+    _id: DAsyXDE0aVRQ5gn1
+    type: text
+    img: null
+    weight: 1
+    drawn: false
+    flags: {}
+    _stats:
+      coreVersion: '14.364'
+      systemId: grimwild
+      systemVersion: 0.5.3
+      createdTime: 1783270821393
+      modifiedTime: 1783270821393
+      lastModifiedBy: 79CEe5dKC6Ls5VbU
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+    _key: '!tables.results!PYHtnEzifXfU9vcN.DAsyXDE0aVRQ5gn1'
+folder: rgX8m8cC6QFqYNJB
+sort: 5200000
+_id: PYHtnEzifXfU9vcN
+img: icons/svg/d20-grey.svg
+replacement: true
+displayRoll: true
+ownership:
+  default: 0
+  79CEe5dKC6Ls5VbU: 3
+flags: {}
+_stats:
+  coreVersion: '14.368'
+  systemId: grimwild
+  systemVersion: 0.5.3
+  createdTime: 1783270821393
+  modifiedTime: 1791749998256
+  lastModifiedBy: nF9qxzj59Qn6fNSn
+  compendiumSource: null
+  duplicateSource: null
+  exportSource: null
+_key: '!tables!PYHtnEzifXfU9vcN'

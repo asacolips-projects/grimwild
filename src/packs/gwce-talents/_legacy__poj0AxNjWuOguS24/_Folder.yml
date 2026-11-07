@@ -1,0 +1,20 @@
+type: Item
+folder: null
+name: (legacy)
+color: null
+sorting: a
+_id: poj0AxNjWuOguS24
+description: ''
+sort: 0
+flags: {}
+_stats:
+  coreVersion: '14.364'
+  systemId: grimwild
+  systemVersion: 0.5.3
+  createdTime: 1783308345293
+  modifiedTime: 1783308345293
+  lastModifiedBy: 79CEe5dKC6Ls5VbU
+  compendiumSource: null
+  duplicateSource: null
+  exportSource: null
+_key: '!folders!poj0AxNjWuOguS24'

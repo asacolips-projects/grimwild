@@ -1,0 +1,157 @@
+name: Blink Dog - Previous Ward
+description: ''
+formula: 1d6
+results:
+  - name: ''
+    description: <b>Lonely child</b>, who has since gotten lost.
+    range:
+      - 1
+      - 1
+    _id: 6POW0RS1577KmaTY
+    type: text
+    img: null
+    weight: 1
+    drawn: false
+    flags: {}
+    _stats:
+      coreVersion: '14.364'
+      systemId: grimwild
+      systemVersion: 0.5.3
+      createdTime: 1783270821313
+      modifiedTime: 1783270821313
+      lastModifiedBy: 79CEe5dKC6Ls5VbU
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+    _key: '!tables.results!DkPMZkBJKaGbnIPI.6POW0RS1577KmaTY'
+  - name: ''
+    description: <b>Corrupted paladin</b>, whose fall forced them to run.
+    range:
+      - 2
+      - 2
+    _id: OckrbeSm0WCUbNbJ
+    type: text
+    img: null
+    weight: 1
+    drawn: false
+    flags: {}
+    _stats:
+      coreVersion: '14.364'
+      systemId: grimwild
+      systemVersion: 0.5.3
+      createdTime: 1783270821313
+      modifiedTime: 1783270821313
+      lastModifiedBy: 79CEe5dKC6Ls5VbU
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+    _key: '!tables.results!DkPMZkBJKaGbnIPI.OckrbeSm0WCUbNbJ'
+  - name: ''
+    description: <b>Strange wizard</b>, who disappeared without a trace.
+    range:
+      - 3
+      - 3
+    _id: wlzHxFGWcsxjsO4w
+    type: text
+    img: null
+    weight: 1
+    drawn: false
+    flags: {}
+    _stats:
+      coreVersion: '14.364'
+      systemId: grimwild
+      systemVersion: 0.5.3
+      createdTime: 1783270821313
+      modifiedTime: 1783270821313
+      lastModifiedBy: 79CEe5dKC6Ls5VbU
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+    _key: '!tables.results!DkPMZkBJKaGbnIPI.wlzHxFGWcsxjsO4w'
+  - name: ''
+    description: <b>Charming bandit</b>, who taught them some tricks.
+    range:
+      - 4
+      - 4
+    _id: hSk9p37iXZTsa9Bl
+    type: text
+    img: null
+    weight: 1
+    drawn: false
+    flags: {}
+    _stats:
+      coreVersion: '14.364'
+      systemId: grimwild
+      systemVersion: 0.5.3
+      createdTime: 1783270821313
+      modifiedTime: 1783270821313
+      lastModifiedBy: 79CEe5dKC6Ls5VbU
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+    _key: '!tables.results!DkPMZkBJKaGbnIPI.hSk9p37iXZTsa9Bl'
+  - name: ''
+    description: <b>Celestial envoy</b>, who was sent on a divine mission.
+    range:
+      - 5
+      - 5
+    _id: YUZeqUUeJSINIgHL
+    type: text
+    img: null
+    weight: 1
+    drawn: false
+    flags: {}
+    _stats:
+      coreVersion: '14.364'
+      systemId: grimwild
+      systemVersion: 0.5.3
+      createdTime: 1783270821313
+      modifiedTime: 1783270821313
+      lastModifiedBy: 79CEe5dKC6Ls5VbU
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+    _key: '!tables.results!DkPMZkBJKaGbnIPI.YUZeqUUeJSINIgHL'
+  - name: ''
+    description: <b>None</b>. They’ve been wandering alone since a pup.
+    range:
+      - 6
+      - 6
+    _id: S63pAOg5eELmCapg
+    type: text
+    img: null
+    weight: 1
+    drawn: false
+    flags: {}
+    _stats:
+      coreVersion: '14.364'
+      systemId: grimwild
+      systemVersion: 0.5.3
+      createdTime: 1783270821313
+      modifiedTime: 1783270821313
+      lastModifiedBy: 79CEe5dKC6Ls5VbU
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+    _key: '!tables.results!DkPMZkBJKaGbnIPI.S63pAOg5eELmCapg'
+folder: rgX8m8cC6QFqYNJB
+sort: 1100000
+_id: DkPMZkBJKaGbnIPI
+img: icons/svg/d20-grey.svg
+replacement: true
+displayRoll: true
+ownership:
+  default: 0
+  79CEe5dKC6Ls5VbU: 3
+flags: {}
+_stats:
+  coreVersion: '14.368'
+  systemId: grimwild
+  systemVersion: 0.5.3
+  createdTime: 1783270821313
+  modifiedTime: 1791749998254
+  lastModifiedBy: nF9qxzj59Qn6fNSn
+  compendiumSource: null
+  duplicateSource: null
+  exportSource: null
+_key: '!tables!DkPMZkBJKaGbnIPI'

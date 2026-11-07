@@ -1,0 +1,157 @@
+name: Salamander - Flame-Touched Trinkets
+description: ''
+formula: 1d6
+results:
+  - name: ''
+    description: <b>Steel helmet</b> bearing a lost hero’s crest.
+    range:
+      - 1
+      - 1
+    _id: CEm18KmOHgJrbrC8
+    type: text
+    img: null
+    weight: 1
+    drawn: false
+    flags: {}
+    _stats:
+      coreVersion: '14.364'
+      systemId: grimwild
+      systemVersion: 0.5.3
+      createdTime: 1783270821409
+      modifiedTime: 1783270821409
+      lastModifiedBy: 79CEe5dKC6Ls5VbU
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+    _key: '!tables.results!YZBlcwfBrbnpr9xt.CEm18KmOHgJrbrC8'
+  - name: ''
+    description: <b>Chain of teeth</b> inscribed with names.
+    range:
+      - 2
+      - 2
+    _id: XsswXuLatG89ia37
+    type: text
+    img: null
+    weight: 1
+    drawn: false
+    flags: {}
+    _stats:
+      coreVersion: '14.364'
+      systemId: grimwild
+      systemVersion: 0.5.3
+      createdTime: 1783270821409
+      modifiedTime: 1783270821409
+      lastModifiedBy: 79CEe5dKC6Ls5VbU
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+    _key: '!tables.results!YZBlcwfBrbnpr9xt.XsswXuLatG89ia37'
+  - name: ''
+    description: <b>Ritual dagger</b> of cooled lava and brass.
+    range:
+      - 3
+      - 3
+    _id: AaeR9MRyQgQPaiDG
+    type: text
+    img: null
+    weight: 1
+    drawn: false
+    flags: {}
+    _stats:
+      coreVersion: '14.364'
+      systemId: grimwild
+      systemVersion: 0.5.3
+      createdTime: 1783270821409
+      modifiedTime: 1783270821409
+      lastModifiedBy: 79CEe5dKC6Ls5VbU
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+    _key: '!tables.results!YZBlcwfBrbnpr9xt.AaeR9MRyQgQPaiDG'
+  - name: ''
+    description: Fire-proof <b>scroll case</b>, locked.
+    range:
+      - 4
+      - 4
+    _id: QUMiSKk2dREUZrOa
+    type: text
+    img: null
+    weight: 1
+    drawn: false
+    flags: {}
+    _stats:
+      coreVersion: '14.364'
+      systemId: grimwild
+      systemVersion: 0.5.3
+      createdTime: 1783270821409
+      modifiedTime: 1783270821409
+      lastModifiedBy: 79CEe5dKC6Ls5VbU
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+    _key: '!tables.results!YZBlcwfBrbnpr9xt.QUMiSKk2dREUZrOa'
+  - name: ''
+    description: <b>Single ruby</b> that seems to absorb the heat.
+    range:
+      - 5
+      - 5
+    _id: a6OjtgCEeOSCKeXM
+    type: text
+    img: null
+    weight: 1
+    drawn: false
+    flags: {}
+    _stats:
+      coreVersion: '14.364'
+      systemId: grimwild
+      systemVersion: 0.5.3
+      createdTime: 1783270821409
+      modifiedTime: 1783270821409
+      lastModifiedBy: 79CEe5dKC6Ls5VbU
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+    _key: '!tables.results!YZBlcwfBrbnpr9xt.a6OjtgCEeOSCKeXM'
+  - name: ''
+    description: <b>Tiny broken cage</b> with a charred sprite inside.
+    range:
+      - 6
+      - 6
+    _id: 3lY7EtIVUTPKrELP
+    type: text
+    img: null
+    weight: 1
+    drawn: false
+    flags: {}
+    _stats:
+      coreVersion: '14.364'
+      systemId: grimwild
+      systemVersion: 0.5.3
+      createdTime: 1783270821409
+      modifiedTime: 1783270821409
+      lastModifiedBy: 79CEe5dKC6Ls5VbU
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+    _key: '!tables.results!YZBlcwfBrbnpr9xt.3lY7EtIVUTPKrELP'
+folder: rgX8m8cC6QFqYNJB
+sort: 5900000
+_id: YZBlcwfBrbnpr9xt
+img: icons/svg/d20-grey.svg
+replacement: true
+displayRoll: true
+ownership:
+  default: 0
+  79CEe5dKC6Ls5VbU: 3
+flags: {}
+_stats:
+  coreVersion: '14.368'
+  systemId: grimwild
+  systemVersion: 0.5.3
+  createdTime: 1783270821409
+  modifiedTime: 1791749998256
+  lastModifiedBy: nF9qxzj59Qn6fNSn
+  compendiumSource: null
+  duplicateSource: null
+  exportSource: null
+_key: '!tables!YZBlcwfBrbnpr9xt'

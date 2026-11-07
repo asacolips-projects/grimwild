@@ -1,0 +1,157 @@
+name: Lycanthrope - Were-Creature Forms
+description: ''
+formula: 1d6
+results:
+  - name: ''
+    description: <b>Werebear</b>, towering and solitary in the forest.
+    range:
+      - 1
+      - 1
+    _id: 2GVuqb7xVXYTmZHh
+    type: text
+    img: null
+    weight: 1
+    drawn: false
+    flags: {}
+    _stats:
+      coreVersion: '14.364'
+      systemId: grimwild
+      systemVersion: 0.5.3
+      createdTime: 1783270821384
+      modifiedTime: 1783270821384
+      lastModifiedBy: 79CEe5dKC6Ls5VbU
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+    _key: '!tables.results!SFq8rYJp143I8v4S.2GVuqb7xVXYTmZHh'
+  - name: ''
+    description: <b>Wererat</b>, skulking and sly, living in urban rot.
+    range:
+      - 2
+      - 2
+    _id: 64USa9x6OZEqwdT1
+    type: text
+    img: null
+    weight: 1
+    drawn: false
+    flags: {}
+    _stats:
+      coreVersion: '14.364'
+      systemId: grimwild
+      systemVersion: 0.5.3
+      createdTime: 1783270821384
+      modifiedTime: 1783270821384
+      lastModifiedBy: 79CEe5dKC6Ls5VbU
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+    _key: '!tables.results!SFq8rYJp143I8v4S.64USa9x6OZEqwdT1'
+  - name: ''
+    description: <b>Werewolf</b>, fierce and loyal to their pack.
+    range:
+      - 3
+      - 3
+    _id: bEuSUu2Tgf1LwoSE
+    type: text
+    img: null
+    weight: 1
+    drawn: false
+    flags: {}
+    _stats:
+      coreVersion: '14.364'
+      systemId: grimwild
+      systemVersion: 0.5.3
+      createdTime: 1783270821384
+      modifiedTime: 1783270821384
+      lastModifiedBy: 79CEe5dKC6Ls5VbU
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+    _key: '!tables.results!SFq8rYJp143I8v4S.bEuSUu2Tgf1LwoSE'
+  - name: ''
+    description: <b>Weretiger</b>, elegant, territorial, and deadly.
+    range:
+      - 4
+      - 4
+    _id: u1xyNPT1N32sVTYK
+    type: text
+    img: null
+    weight: 1
+    drawn: false
+    flags: {}
+    _stats:
+      coreVersion: '14.364'
+      systemId: grimwild
+      systemVersion: 0.5.3
+      createdTime: 1783270821384
+      modifiedTime: 1783270821384
+      lastModifiedBy: 79CEe5dKC6Ls5VbU
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+    _key: '!tables.results!SFq8rYJp143I8v4S.u1xyNPT1N32sVTYK'
+  - name: ''
+    description: <b>Werebadger</b>, stubborn, burrowing through the earth.
+    range:
+      - 5
+      - 5
+    _id: dt1YfAIjvdVgjMX9
+    type: text
+    img: null
+    weight: 1
+    drawn: false
+    flags: {}
+    _stats:
+      coreVersion: '14.364'
+      systemId: grimwild
+      systemVersion: 0.5.3
+      createdTime: 1783270821384
+      modifiedTime: 1783270821384
+      lastModifiedBy: 79CEe5dKC6Ls5VbU
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+    _key: '!tables.results!SFq8rYJp143I8v4S.dt1YfAIjvdVgjMX9'
+  - name: ''
+    description: <b>Werepanther</b>, silent and sleek in the shadows.
+    range:
+      - 6
+      - 6
+    _id: oOGu6HeRdfjvixkn
+    type: text
+    img: null
+    weight: 1
+    drawn: false
+    flags: {}
+    _stats:
+      coreVersion: '14.364'
+      systemId: grimwild
+      systemVersion: 0.5.3
+      createdTime: 1783270821384
+      modifiedTime: 1783270821384
+      lastModifiedBy: 79CEe5dKC6Ls5VbU
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+    _key: '!tables.results!SFq8rYJp143I8v4S.oOGu6HeRdfjvixkn'
+folder: rgX8m8cC6QFqYNJB
+sort: 4700000
+_id: SFq8rYJp143I8v4S
+img: icons/svg/d20-grey.svg
+replacement: true
+displayRoll: true
+ownership:
+  default: 0
+  79CEe5dKC6Ls5VbU: 3
+flags: {}
+_stats:
+  coreVersion: '14.368'
+  systemId: grimwild
+  systemVersion: 0.5.3
+  createdTime: 1783270821384
+  modifiedTime: 1791749998256
+  lastModifiedBy: nF9qxzj59Qn6fNSn
+  compendiumSource: null
+  duplicateSource: null
+  exportSource: null
+_key: '!tables!SFq8rYJp143I8v4S'

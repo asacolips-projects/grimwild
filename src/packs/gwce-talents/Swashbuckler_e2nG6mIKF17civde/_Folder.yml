@@ -1,0 +1,20 @@
+type: Item
+folder: null
+name: Swashbuckler
+color: '#c5347b'
+sorting: a
+_id: e2nG6mIKF17civde
+description: ''
+sort: 1500000
+flags: {}
+_stats:
+  coreVersion: '14.364'
+  systemId: grimwild
+  systemVersion: 0.5.3
+  createdTime: 1782662627186
+  modifiedTime: 1783005922552
+  lastModifiedBy: 79CEe5dKC6Ls5VbU
+  compendiumSource: null
+  duplicateSource: null
+  exportSource: null
+_key: '!folders!e2nG6mIKF17civde'

@@ -1,0 +1,20 @@
+type: Item
+folder: null
+name: Psion
+color: '#62a39e'
+sorting: a
+_id: 52a4AL6V02gW1Gh1
+description: ''
+sort: 1000000
+flags: {}
+_stats:
+  coreVersion: '14.364'
+  systemId: grimwild
+  systemVersion: 0.5.3
+  createdTime: 1782662621554
+  modifiedTime: 1782662621583
+  lastModifiedBy: 79CEe5dKC6Ls5VbU
+  compendiumSource: null
+  duplicateSource: null
+  exportSource: null
+_key: '!folders!52a4AL6V02gW1Gh1'

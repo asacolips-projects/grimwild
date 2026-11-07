@@ -1,0 +1,32 @@
+folder: UcNIh8qMh1Ypz0QY
+name: Opportunist
+type: talent
+_id: 8RjZk03Y9jJldohE
+img: icons/skills/movement/arrow-upward-blue.webp
+system:
+  description: >-
+    <p>When someone nearby rolls defense, you take +1d on an immediate
+    follow-up. On a critical by a nearby ally, you can <em><strong>push
+    yourself</strong></em> to add a critical bonus.</p>
+  core: false
+  notes:
+    description: ''
+    label: ''
+  trackers: []
+effects: []
+sort: 0
+ownership:
+  default: 0
+  79CEe5dKC6Ls5VbU: 3
+flags: {}
+_stats:
+  coreVersion: '14.368'
+  systemId: grimwild
+  systemVersion: 0.5.3
+  createdTime: 1782929090447
+  modifiedTime: 1791744926023
+  lastModifiedBy: nF9qxzj59Qn6fNSn
+  compendiumSource: null
+  duplicateSource: null
+  exportSource: null
+_key: '!items!8RjZk03Y9jJldohE'

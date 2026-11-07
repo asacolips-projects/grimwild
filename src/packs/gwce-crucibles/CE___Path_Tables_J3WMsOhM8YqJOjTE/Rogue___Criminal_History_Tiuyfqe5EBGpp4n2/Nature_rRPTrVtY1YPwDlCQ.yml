@@ -1,0 +1,421 @@
+name: Nature
+description: ''
+formula: 1d18
+results:
+  - name: ''
+    description: theft
+    range:
+      - 1
+      - 1
+    _id: BoVNJvLe84hvUauN
+    type: text
+    img: icons/svg/d20-black.svg
+    weight: 1
+    drawn: false
+    flags: {}
+    _stats:
+      coreVersion: '14.368'
+      systemId: grimwild
+      systemVersion: 0.5.3
+      createdTime: 1783125574808
+      modifiedTime: 1791748624238
+      lastModifiedBy: nF9qxzj59Qn6fNSn
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+    _key: '!tables.results!rRPTrVtY1YPwDlCQ.BoVNJvLe84hvUauN'
+  - name: ''
+    description: vandalism
+    range:
+      - 2
+      - 2
+    _id: a58QTA0IcUFGtyWg
+    type: text
+    img: icons/svg/d20-black.svg
+    weight: 1
+    drawn: false
+    flags: {}
+    _stats:
+      coreVersion: '14.368'
+      systemId: grimwild
+      systemVersion: 0.5.3
+      createdTime: 1783125574808
+      modifiedTime: 1791748624238
+      lastModifiedBy: nF9qxzj59Qn6fNSn
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+    _key: '!tables.results!rRPTrVtY1YPwDlCQ.a58QTA0IcUFGtyWg'
+  - name: ''
+    description: treason
+    range:
+      - 3
+      - 3
+    _id: LmmfUoT3VmAEgZ2a
+    type: text
+    img: icons/svg/d20-black.svg
+    weight: 1
+    drawn: false
+    flags: {}
+    _stats:
+      coreVersion: '14.368'
+      systemId: grimwild
+      systemVersion: 0.5.3
+      createdTime: 1783125574808
+      modifiedTime: 1791748624238
+      lastModifiedBy: nF9qxzj59Qn6fNSn
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+    _key: '!tables.results!rRPTrVtY1YPwDlCQ.LmmfUoT3VmAEgZ2a'
+  - name: ''
+    description: fraud
+    range:
+      - 4
+      - 4
+    _id: Hos1DCmIhKpbBeaI
+    type: text
+    img: icons/svg/d20-black.svg
+    weight: 1
+    drawn: false
+    flags: {}
+    _stats:
+      coreVersion: '14.368'
+      systemId: grimwild
+      systemVersion: 0.5.3
+      createdTime: 1783125574808
+      modifiedTime: 1791748624238
+      lastModifiedBy: nF9qxzj59Qn6fNSn
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+    _key: '!tables.results!rRPTrVtY1YPwDlCQ.Hos1DCmIhKpbBeaI'
+  - name: ''
+    description: gambling
+    range:
+      - 5
+      - 5
+    _id: oBAAt1ssEPbY2Rd9
+    type: text
+    img: icons/svg/d20-black.svg
+    weight: 1
+    drawn: false
+    flags: {}
+    _stats:
+      coreVersion: '14.368'
+      systemId: grimwild
+      systemVersion: 0.5.3
+      createdTime: 1783125574808
+      modifiedTime: 1791748624238
+      lastModifiedBy: nF9qxzj59Qn6fNSn
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+    _key: '!tables.results!rRPTrVtY1YPwDlCQ.oBAAt1ssEPbY2Rd9'
+  - name: ''
+    description: robbery
+    range:
+      - 6
+      - 6
+    _id: RqAzQCcw0kCNSVqk
+    type: text
+    img: icons/svg/d20-black.svg
+    weight: 1
+    drawn: false
+    flags: {}
+    _stats:
+      coreVersion: '14.368'
+      systemId: grimwild
+      systemVersion: 0.5.3
+      createdTime: 1783125574808
+      modifiedTime: 1791748624238
+      lastModifiedBy: nF9qxzj59Qn6fNSn
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+    _key: '!tables.results!rRPTrVtY1YPwDlCQ.RqAzQCcw0kCNSVqk'
+  - name: ''
+    description: spying
+    range:
+      - 7
+      - 7
+    _id: qxnqUjNnawNU3KZc
+    type: text
+    img: icons/svg/d20-black.svg
+    weight: 1
+    drawn: false
+    flags: {}
+    _stats:
+      coreVersion: '14.368'
+      systemId: grimwild
+      systemVersion: 0.5.3
+      createdTime: 1783125574808
+      modifiedTime: 1791748624238
+      lastModifiedBy: nF9qxzj59Qn6fNSn
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+    _key: '!tables.results!rRPTrVtY1YPwDlCQ.qxnqUjNnawNU3KZc'
+  - name: ''
+    description: bribery
+    range:
+      - 8
+      - 8
+    _id: kqOtFEDVCRUVcY6X
+    type: text
+    img: icons/svg/d20-black.svg
+    weight: 1
+    drawn: false
+    flags: {}
+    _stats:
+      coreVersion: '14.368'
+      systemId: grimwild
+      systemVersion: 0.5.3
+      createdTime: 1783125574808
+      modifiedTime: 1791748624238
+      lastModifiedBy: nF9qxzj59Qn6fNSn
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+    _key: '!tables.results!rRPTrVtY1YPwDlCQ.kqOtFEDVCRUVcY6X'
+  - name: ''
+    description: assassination
+    range:
+      - 9
+      - 9
+    _id: R2wHKoHOTvjc7qcq
+    type: text
+    img: icons/svg/d20-black.svg
+    weight: 1
+    drawn: false
+    flags: {}
+    _stats:
+      coreVersion: '14.368'
+      systemId: grimwild
+      systemVersion: 0.5.3
+      createdTime: 1783125574808
+      modifiedTime: 1791748624238
+      lastModifiedBy: nF9qxzj59Qn6fNSn
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+    _key: '!tables.results!rRPTrVtY1YPwDlCQ.R2wHKoHOTvjc7qcq'
+  - name: ''
+    description: smuggling
+    range:
+      - 10
+      - 10
+    _id: PWS5aRSgvMRvlZiJ
+    type: text
+    img: icons/svg/d20-black.svg
+    weight: 1
+    drawn: false
+    flags: {}
+    _stats:
+      coreVersion: '14.368'
+      systemId: grimwild
+      systemVersion: 0.5.3
+      createdTime: 1783125574808
+      modifiedTime: 1791748624238
+      lastModifiedBy: nF9qxzj59Qn6fNSn
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+    _key: '!tables.results!rRPTrVtY1YPwDlCQ.PWS5aRSgvMRvlZiJ'
+  - name: ''
+    description: extortion
+    range:
+      - 11
+      - 11
+    _id: wTAACAkmq8hzqj5I
+    type: text
+    img: icons/svg/d20-black.svg
+    weight: 1
+    drawn: false
+    flags: {}
+    _stats:
+      coreVersion: '14.368'
+      systemId: grimwild
+      systemVersion: 0.5.3
+      createdTime: 1783125574808
+      modifiedTime: 1791748624239
+      lastModifiedBy: nF9qxzj59Qn6fNSn
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+    _key: '!tables.results!rRPTrVtY1YPwDlCQ.wTAACAkmq8hzqj5I'
+  - name: ''
+    description: heist
+    range:
+      - 12
+      - 12
+    _id: 0xz7yxNtjKpcSX6u
+    type: text
+    img: icons/svg/d20-black.svg
+    weight: 1
+    drawn: false
+    flags: {}
+    _stats:
+      coreVersion: '14.368'
+      systemId: grimwild
+      systemVersion: 0.5.3
+      createdTime: 1783125574808
+      modifiedTime: 1791748624239
+      lastModifiedBy: nF9qxzj59Qn6fNSn
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+    _key: '!tables.results!rRPTrVtY1YPwDlCQ.0xz7yxNtjKpcSX6u'
+  - name: ''
+    description: banditry
+    range:
+      - 13
+      - 13
+    _id: qKXZFYFTMJEsNgfk
+    type: text
+    img: icons/svg/d20-black.svg
+    weight: 1
+    drawn: false
+    flags: {}
+    _stats:
+      coreVersion: '14.368'
+      systemId: grimwild
+      systemVersion: 0.5.3
+      createdTime: 1783125574808
+      modifiedTime: 1791748624239
+      lastModifiedBy: nF9qxzj59Qn6fNSn
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+    _key: '!tables.results!rRPTrVtY1YPwDlCQ.qKXZFYFTMJEsNgfk'
+  - name: ''
+    description: arms dealing
+    range:
+      - 14
+      - 14
+    _id: dwKNf30ToK8j0bIg
+    type: text
+    img: icons/svg/d20-black.svg
+    weight: 1
+    drawn: false
+    flags: {}
+    _stats:
+      coreVersion: '14.368'
+      systemId: grimwild
+      systemVersion: 0.5.3
+      createdTime: 1783125574808
+      modifiedTime: 1791748624239
+      lastModifiedBy: nF9qxzj59Qn6fNSn
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+    _key: '!tables.results!rRPTrVtY1YPwDlCQ.dwKNf30ToK8j0bIg'
+  - name: ''
+    description: impersonation
+    range:
+      - 15
+      - 15
+    _id: f7twm4DpJRbaB4og
+    type: text
+    img: icons/svg/d20-black.svg
+    weight: 1
+    drawn: false
+    flags: {}
+    _stats:
+      coreVersion: '14.368'
+      systemId: grimwild
+      systemVersion: 0.5.3
+      createdTime: 1783125574808
+      modifiedTime: 1791748624239
+      lastModifiedBy: nF9qxzj59Qn6fNSn
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+    _key: '!tables.results!rRPTrVtY1YPwDlCQ.f7twm4DpJRbaB4og'
+  - name: ''
+    description: kidnapping
+    range:
+      - 16
+      - 16
+    _id: vZRUTt7CWdwREsf0
+    type: text
+    img: icons/svg/d20-black.svg
+    weight: 1
+    drawn: false
+    flags: {}
+    _stats:
+      coreVersion: '14.368'
+      systemId: grimwild
+      systemVersion: 0.5.3
+      createdTime: 1783125574808
+      modifiedTime: 1791748624239
+      lastModifiedBy: nF9qxzj59Qn6fNSn
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+    _key: '!tables.results!rRPTrVtY1YPwDlCQ.vZRUTt7CWdwREsf0'
+  - name: ''
+    description: arson
+    range:
+      - 17
+      - 17
+    _id: u0x9kg98ELllEFDq
+    type: text
+    img: icons/svg/d20-black.svg
+    weight: 1
+    drawn: false
+    flags: {}
+    _stats:
+      coreVersion: '14.368'
+      systemId: grimwild
+      systemVersion: 0.5.3
+      createdTime: 1783125574808
+      modifiedTime: 1791748624239
+      lastModifiedBy: nF9qxzj59Qn6fNSn
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+    _key: '!tables.results!rRPTrVtY1YPwDlCQ.u0x9kg98ELllEFDq'
+  - name: ''
+    description: necromancy
+    range:
+      - 18
+      - 18
+    _id: 3k9thOu9GvgIEebR
+    type: text
+    img: icons/svg/d20-black.svg
+    weight: 1
+    drawn: false
+    flags: {}
+    _stats:
+      coreVersion: '14.368'
+      systemId: grimwild
+      systemVersion: 0.5.3
+      createdTime: 1783125574808
+      modifiedTime: 1791748624239
+      lastModifiedBy: nF9qxzj59Qn6fNSn
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+    _key: '!tables.results!rRPTrVtY1YPwDlCQ.3k9thOu9GvgIEebR'
+folder: Tiuyfqe5EBGpp4n2
+sort: 1
+_id: rRPTrVtY1YPwDlCQ
+img: icons/svg/d20-grey.svg
+replacement: true
+displayRoll: false
+ownership:
+  default: 0
+  79CEe5dKC6Ls5VbU: 3
+flags: {}
+_stats:
+  coreVersion: '14.368'
+  systemId: grimwild
+  systemVersion: 0.5.3
+  createdTime: 1783125574808
+  modifiedTime: 1791748624238
+  lastModifiedBy: nF9qxzj59Qn6fNSn
+  compendiumSource: null
+  duplicateSource: null
+  exportSource: null
+_key: '!tables!rRPTrVtY1YPwDlCQ'

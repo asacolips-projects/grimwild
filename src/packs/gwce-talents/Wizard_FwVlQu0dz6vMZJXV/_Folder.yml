@@ -1,0 +1,20 @@
+type: Item
+folder: null
+name: Wizard
+color: '#4f54ee'
+sorting: a
+_id: FwVlQu0dz6vMZJXV
+description: ''
+sort: 1800000
+flags: {}
+_stats:
+  coreVersion: '14.364'
+  systemId: grimwild
+  systemVersion: 0.5.3
+  createdTime: 1782662631319
+  modifiedTime: 1783007375254
+  lastModifiedBy: 79CEe5dKC6Ls5VbU
+  compendiumSource: null
+  duplicateSource: null
+  exportSource: null
+_key: '!folders!FwVlQu0dz6vMZJXV'

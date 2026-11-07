@@ -1,0 +1,157 @@
+name: Bird Swarm - Unforgivable Insults to Birdkind
+description: ''
+formula: 1d6
+results:
+  - name: ''
+    description: Stepping on a <b>fallen feather</b>.
+    range:
+      - 1
+      - 1
+    _id: ykN2GWHEvAgHsOpl
+    type: text
+    img: null
+    weight: 1
+    drawn: false
+    flags: {}
+    _stats:
+      coreVersion: '14.364'
+      systemId: grimwild
+      systemVersion: 0.5.3
+      createdTime: 1783270821419
+      modifiedTime: 1783270821419
+      lastModifiedBy: 79CEe5dKC6Ls5VbU
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+    _key: '!tables.results!LZ1qfcpibrEjOHGv.ykN2GWHEvAgHsOpl'
+  - name: ''
+    description: Eating a <b>bit of food</b> within their sight.
+    range:
+      - 2
+      - 2
+    _id: DA2PKX1iDPbGk9xV
+    type: text
+    img: null
+    weight: 1
+    drawn: false
+    flags: {}
+    _stats:
+      coreVersion: '14.364'
+      systemId: grimwild
+      systemVersion: 0.5.3
+      createdTime: 1783270821419
+      modifiedTime: 1783270821419
+      lastModifiedBy: 79CEe5dKC6Ls5VbU
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+    _key: '!tables.results!LZ1qfcpibrEjOHGv.DA2PKX1iDPbGk9xV'
+  - name: ''
+    description: Wearing <b>shiny jewelry</b> or clothing.
+    range:
+      - 3
+      - 3
+    _id: 91gxPBfWaUM9nea5
+    type: text
+    img: null
+    weight: 1
+    drawn: false
+    flags: {}
+    _stats:
+      coreVersion: '14.364'
+      systemId: grimwild
+      systemVersion: 0.5.3
+      createdTime: 1783270821419
+      modifiedTime: 1783270821419
+      lastModifiedBy: 79CEe5dKC6Ls5VbU
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+    _key: '!tables.results!LZ1qfcpibrEjOHGv.91gxPBfWaUM9nea5'
+  - name: ''
+    description: Looking one <b>directly in the eye</b>.
+    range:
+      - 4
+      - 4
+    _id: o2MGIN7fTZwIVrJ6
+    type: text
+    img: null
+    weight: 1
+    drawn: false
+    flags: {}
+    _stats:
+      coreVersion: '14.364'
+      systemId: grimwild
+      systemVersion: 0.5.3
+      createdTime: 1783270821419
+      modifiedTime: 1783270821419
+      lastModifiedBy: 79CEe5dKC6Ls5VbU
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+    _key: '!tables.results!LZ1qfcpibrEjOHGv.o2MGIN7fTZwIVrJ6'
+  - name: ''
+    description: Touching an <b>ordinary tree branch</b>.
+    range:
+      - 5
+      - 5
+    _id: OstXCa9ZxqIchKbC
+    type: text
+    img: null
+    weight: 1
+    drawn: false
+    flags: {}
+    _stats:
+      coreVersion: '14.364'
+      systemId: grimwild
+      systemVersion: 0.5.3
+      createdTime: 1783270821419
+      modifiedTime: 1783270821419
+      lastModifiedBy: 79CEe5dKC6Ls5VbU
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+    _key: '!tables.results!LZ1qfcpibrEjOHGv.OstXCa9ZxqIchKbC'
+  - name: ''
+    description: Uttering any word with <b>the ‘sh’ sound</b>.
+    range:
+      - 6
+      - 6
+    _id: HuzOTQdOLR2X6gGI
+    type: text
+    img: null
+    weight: 1
+    drawn: false
+    flags: {}
+    _stats:
+      coreVersion: '14.364'
+      systemId: grimwild
+      systemVersion: 0.5.3
+      createdTime: 1783270821419
+      modifiedTime: 1783270821419
+      lastModifiedBy: 79CEe5dKC6Ls5VbU
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+    _key: '!tables.results!LZ1qfcpibrEjOHGv.HuzOTQdOLR2X6gGI'
+folder: rgX8m8cC6QFqYNJB
+sort: 6400000
+_id: LZ1qfcpibrEjOHGv
+img: icons/svg/d20-grey.svg
+replacement: true
+displayRoll: true
+ownership:
+  default: 0
+  79CEe5dKC6Ls5VbU: 3
+flags: {}
+_stats:
+  coreVersion: '14.368'
+  systemId: grimwild
+  systemVersion: 0.5.3
+  createdTime: 1783270821419
+  modifiedTime: 1791749998257
+  lastModifiedBy: nF9qxzj59Qn6fNSn
+  compendiumSource: null
+  duplicateSource: null
+  exportSource: null
+_key: '!tables!LZ1qfcpibrEjOHGv'

@@ -1,0 +1,43 @@
+folder: a1i3YtaLp7jouLob
+name: Primal Growth
+type: talent
+_id: LxRcD556CHYdhVGU
+img: icons/magic/nature/root-vines-face-glow-green.webp
+system:
+  description: >-
+    <p>You can move through any natural terrain quickly and without issue. Once
+    per session you can grow, wither, or shape: <em>crops—dense foliage—entan-
+    gling vines—fungi—poisonous spores</em>. You can <em><strong>push
+    yourself</strong></em> to do it again. You can perform plant or harvest
+    rituals without anchors.</p>
+  core: false
+  notes:
+    description: ''
+    label: ''
+  trackers:
+    - type: points
+      label: Free Activation
+      points:
+        value: 1
+        max: 1
+        showSteps: true
+      pool:
+        diceNum: 0
+        powerPool: false
+effects: []
+sort: 0
+ownership:
+  default: 0
+  79CEe5dKC6Ls5VbU: 3
+flags: {}
+_stats:
+  coreVersion: '14.368'
+  systemId: grimwild
+  systemVersion: 0.5.3
+  createdTime: 1782662616206
+  modifiedTime: 1791742857257
+  lastModifiedBy: nF9qxzj59Qn6fNSn
+  compendiumSource: null
+  duplicateSource: null
+  exportSource: null
+_key: '!items!LxRcD556CHYdhVGU'

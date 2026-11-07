@@ -1,0 +1,20 @@
+type: Actor
+folder: null
+name: Humanoid
+color: null
+sorting: a
+_id: gibI0IuRkoZYzvNX
+description: ''
+sort: 0
+flags: {}
+_stats:
+  coreVersion: '14.364'
+  systemId: grimwild
+  systemVersion: 0.5.3
+  createdTime: 1783200333670
+  modifiedTime: 1783200333670
+  lastModifiedBy: 79CEe5dKC6Ls5VbU
+  compendiumSource: null
+  duplicateSource: null
+  exportSource: null
+_key: '!folders!gibI0IuRkoZYzvNX'

@@ -1,0 +1,819 @@
+name: Heritage - Land
+formula: 1d36
+results:
+  - name: Peaks
+    range:
+      - 1
+      - 1
+    weight: 1
+    type: text
+    _id: l7AhusDykawSv9pc
+    img: null
+    description: ''
+    drawn: false
+    flags: {}
+    _stats:
+      coreVersion: '14.364'
+      systemId: grimwild
+      systemVersion: 0.5.3
+      createdTime: 1782668468747
+      modifiedTime: 1782668468747
+      lastModifiedBy: 79CEe5dKC6Ls5VbU
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+    _key: '!tables.results!GFj5Gr2Mi8Oxu9ob.l7AhusDykawSv9pc'
+  - name: Confederacy
+    range:
+      - 2
+      - 2
+    weight: 1
+    type: text
+    _id: xCS3MYLWAl93ZsOA
+    img: null
+    description: ''
+    drawn: false
+    flags: {}
+    _stats:
+      coreVersion: '14.364'
+      systemId: grimwild
+      systemVersion: 0.5.3
+      createdTime: 1782668468747
+      modifiedTime: 1782668468747
+      lastModifiedBy: 79CEe5dKC6Ls5VbU
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+    _key: '!tables.results!GFj5Gr2Mi8Oxu9ob.xCS3MYLWAl93ZsOA'
+  - name: Fjords
+    range:
+      - 3
+      - 3
+    weight: 1
+    type: text
+    _id: hGzwifyP9jSAFRAw
+    img: null
+    description: ''
+    drawn: false
+    flags: {}
+    _stats:
+      coreVersion: '14.364'
+      systemId: grimwild
+      systemVersion: 0.5.3
+      createdTime: 1782668468747
+      modifiedTime: 1782668468747
+      lastModifiedBy: 79CEe5dKC6Ls5VbU
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+    _key: '!tables.results!GFj5Gr2Mi8Oxu9ob.hGzwifyP9jSAFRAw'
+  - name: Coast
+    range:
+      - 4
+      - 4
+    weight: 1
+    type: text
+    _id: xJ2Sx694vJvO0uD7
+    img: null
+    description: ''
+    drawn: false
+    flags: {}
+    _stats:
+      coreVersion: '14.364'
+      systemId: grimwild
+      systemVersion: 0.5.3
+      createdTime: 1782668468747
+      modifiedTime: 1782668468747
+      lastModifiedBy: 79CEe5dKC6Ls5VbU
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+    _key: '!tables.results!GFj5Gr2Mi8Oxu9ob.xJ2Sx694vJvO0uD7'
+  - name: badlands
+    range:
+      - 5
+      - 5
+    weight: 1
+    type: text
+    _id: PyTShA5DO5BVJpv9
+    img: null
+    description: ''
+    drawn: false
+    flags: {}
+    _stats:
+      coreVersion: '14.364'
+      systemId: grimwild
+      systemVersion: 0.5.3
+      createdTime: 1782668468747
+      modifiedTime: 1782668468747
+      lastModifiedBy: 79CEe5dKC6Ls5VbU
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+    _key: '!tables.results!GFj5Gr2Mi8Oxu9ob.PyTShA5DO5BVJpv9'
+  - name: Boglands
+    range:
+      - 6
+      - 6
+    weight: 1
+    type: text
+    _id: 9JsiDOryRnpFp7tC
+    img: null
+    description: ''
+    drawn: false
+    flags: {}
+    _stats:
+      coreVersion: '14.364'
+      systemId: grimwild
+      systemVersion: 0.5.3
+      createdTime: 1782668468747
+      modifiedTime: 1782668468747
+      lastModifiedBy: 79CEe5dKC6Ls5VbU
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+    _key: '!tables.results!GFj5Gr2Mi8Oxu9ob.9JsiDOryRnpFp7tC'
+  - name: Kingdom
+    range:
+      - 7
+      - 7
+    weight: 1
+    type: text
+    _id: PFVPZTHd9ogEHTO0
+    img: null
+    description: ''
+    drawn: false
+    flags: {}
+    _stats:
+      coreVersion: '14.364'
+      systemId: grimwild
+      systemVersion: 0.5.3
+      createdTime: 1782668468747
+      modifiedTime: 1782668468747
+      lastModifiedBy: 79CEe5dKC6Ls5VbU
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+    _key: '!tables.results!GFj5Gr2Mi8Oxu9ob.PFVPZTHd9ogEHTO0'
+  - name: Wilds
+    range:
+      - 8
+      - 8
+    weight: 1
+    type: text
+    _id: ZIhPc2vwCYzGE2hu
+    img: null
+    description: ''
+    drawn: false
+    flags: {}
+    _stats:
+      coreVersion: '14.364'
+      systemId: grimwild
+      systemVersion: 0.5.3
+      createdTime: 1782668468747
+      modifiedTime: 1782668468747
+      lastModifiedBy: 79CEe5dKC6Ls5VbU
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+    _key: '!tables.results!GFj5Gr2Mi8Oxu9ob.ZIhPc2vwCYzGE2hu'
+  - name: Marsh
+    range:
+      - 9
+      - 9
+    weight: 1
+    type: text
+    _id: RtPLzTe5ow3SgUAt
+    img: null
+    description: ''
+    drawn: false
+    flags: {}
+    _stats:
+      coreVersion: '14.364'
+      systemId: grimwild
+      systemVersion: 0.5.3
+      createdTime: 1782668468747
+      modifiedTime: 1782668468747
+      lastModifiedBy: 79CEe5dKC6Ls5VbU
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+    _key: '!tables.results!GFj5Gr2Mi8Oxu9ob.RtPLzTe5ow3SgUAt'
+  - name: Isles
+    range:
+      - 10
+      - 10
+    weight: 1
+    type: text
+    _id: wlYoLRqYi1WFrWIJ
+    img: null
+    description: ''
+    drawn: false
+    flags: {}
+    _stats:
+      coreVersion: '14.364'
+      systemId: grimwild
+      systemVersion: 0.5.3
+      createdTime: 1782668468747
+      modifiedTime: 1782668468747
+      lastModifiedBy: 79CEe5dKC6Ls5VbU
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+    _key: '!tables.results!GFj5Gr2Mi8Oxu9ob.wlYoLRqYi1WFrWIJ'
+  - name: Thickets
+    range:
+      - 11
+      - 11
+    weight: 1
+    type: text
+    _id: 8hY4z0PpUkuySe1M
+    img: null
+    description: ''
+    drawn: false
+    flags: {}
+    _stats:
+      coreVersion: '14.364'
+      systemId: grimwild
+      systemVersion: 0.5.3
+      createdTime: 1782668468747
+      modifiedTime: 1782668468747
+      lastModifiedBy: 79CEe5dKC6Ls5VbU
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+    _key: '!tables.results!GFj5Gr2Mi8Oxu9ob.8hY4z0PpUkuySe1M'
+  - name: Jungletown
+    range:
+      - 12
+      - 12
+    weight: 1
+    type: text
+    _id: Jfb12bsoh4oh8i0u
+    img: null
+    description: ''
+    drawn: false
+    flags: {}
+    _stats:
+      coreVersion: '14.364'
+      systemId: grimwild
+      systemVersion: 0.5.3
+      createdTime: 1782668468747
+      modifiedTime: 1782668468747
+      lastModifiedBy: 79CEe5dKC6Ls5VbU
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+    _key: '!tables.results!GFj5Gr2Mi8Oxu9ob.Jfb12bsoh4oh8i0u'
+  - name: Desert
+    range:
+      - 13
+      - 13
+    weight: 1
+    type: text
+    _id: 2qcLrRYhQKSs6lw4
+    img: null
+    description: ''
+    drawn: false
+    flags: {}
+    _stats:
+      coreVersion: '14.364'
+      systemId: grimwild
+      systemVersion: 0.5.3
+      createdTime: 1782668468747
+      modifiedTime: 1782668468747
+      lastModifiedBy: 79CEe5dKC6Ls5VbU
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+    _key: '!tables.results!GFj5Gr2Mi8Oxu9ob.2qcLrRYhQKSs6lw4'
+  - name: Canyons
+    range:
+      - 14
+      - 14
+    weight: 1
+    type: text
+    _id: mLiUWnZUtfqEkByh
+    img: null
+    description: ''
+    drawn: false
+    flags: {}
+    _stats:
+      coreVersion: '14.364'
+      systemId: grimwild
+      systemVersion: 0.5.3
+      createdTime: 1782668468747
+      modifiedTime: 1782668468747
+      lastModifiedBy: 79CEe5dKC6Ls5VbU
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+    _key: '!tables.results!GFj5Gr2Mi8Oxu9ob.mLiUWnZUtfqEkByh'
+  - name: Highlands
+    range:
+      - 15
+      - 15
+    weight: 1
+    type: text
+    _id: 3HFqSqPAAjrF9xOK
+    img: null
+    description: ''
+    drawn: false
+    flags: {}
+    _stats:
+      coreVersion: '14.364'
+      systemId: grimwild
+      systemVersion: 0.5.3
+      createdTime: 1782668468747
+      modifiedTime: 1782668468747
+      lastModifiedBy: 79CEe5dKC6Ls5VbU
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+    _key: '!tables.results!GFj5Gr2Mi8Oxu9ob.3HFqSqPAAjrF9xOK'
+  - name: Caverns
+    range:
+      - 16
+      - 16
+    weight: 1
+    type: text
+    _id: PU7chRKyNCVgAytN
+    img: null
+    description: ''
+    drawn: false
+    flags: {}
+    _stats:
+      coreVersion: '14.364'
+      systemId: grimwild
+      systemVersion: 0.5.3
+      createdTime: 1782668468747
+      modifiedTime: 1782668468747
+      lastModifiedBy: 79CEe5dKC6Ls5VbU
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+    _key: '!tables.results!GFj5Gr2Mi8Oxu9ob.PU7chRKyNCVgAytN'
+  - name: Fenlands
+    range:
+      - 17
+      - 17
+    weight: 1
+    type: text
+    _id: ZCOxaZeuIFXWSwzw
+    img: null
+    description: ''
+    drawn: false
+    flags: {}
+    _stats:
+      coreVersion: '14.364'
+      systemId: grimwild
+      systemVersion: 0.5.3
+      createdTime: 1782668468747
+      modifiedTime: 1782668468747
+      lastModifiedBy: 79CEe5dKC6Ls5VbU
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+    _key: '!tables.results!GFj5Gr2Mi8Oxu9ob.ZCOxaZeuIFXWSwzw'
+  - name: Borderlands
+    range:
+      - 18
+      - 18
+    weight: 1
+    type: text
+    _id: HsoMgzHZnDGv3KPs
+    img: null
+    description: ''
+    drawn: false
+    flags: {}
+    _stats:
+      coreVersion: '14.364'
+      systemId: grimwild
+      systemVersion: 0.5.3
+      createdTime: 1782668468747
+      modifiedTime: 1782668468747
+      lastModifiedBy: 79CEe5dKC6Ls5VbU
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+    _key: '!tables.results!GFj5Gr2Mi8Oxu9ob.HsoMgzHZnDGv3KPs'
+  - name: Plains
+    range:
+      - 19
+      - 19
+    weight: 1
+    type: text
+    _id: tobAJG4gv3pxrZdw
+    img: null
+    description: ''
+    drawn: false
+    flags: {}
+    _stats:
+      coreVersion: '14.364'
+      systemId: grimwild
+      systemVersion: 0.5.3
+      createdTime: 1782668468747
+      modifiedTime: 1782668468747
+      lastModifiedBy: 79CEe5dKC6Ls5VbU
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+    _key: '!tables.results!GFj5Gr2Mi8Oxu9ob.tobAJG4gv3pxrZdw'
+  - name: North
+    range:
+      - 20
+      - 20
+    weight: 1
+    type: text
+    _id: yYAtICP0WqbZXrAQ
+    img: null
+    description: ''
+    drawn: false
+    flags: {}
+    _stats:
+      coreVersion: '14.364'
+      systemId: grimwild
+      systemVersion: 0.5.3
+      createdTime: 1782668468747
+      modifiedTime: 1782668468747
+      lastModifiedBy: 79CEe5dKC6Ls5VbU
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+    _key: '!tables.results!GFj5Gr2Mi8Oxu9ob.yYAtICP0WqbZXrAQ'
+  - name: Moors
+    range:
+      - 21
+      - 21
+    weight: 1
+    type: text
+    _id: n2KWucBnv2Mhzn9m
+    img: null
+    description: ''
+    drawn: false
+    flags: {}
+    _stats:
+      coreVersion: '14.364'
+      systemId: grimwild
+      systemVersion: 0.5.3
+      createdTime: 1782668468747
+      modifiedTime: 1782668468747
+      lastModifiedBy: 79CEe5dKC6Ls5VbU
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+    _key: '!tables.results!GFj5Gr2Mi8Oxu9ob.n2KWucBnv2Mhzn9m'
+  - name: Ruins
+    range:
+      - 22
+      - 22
+    weight: 1
+    type: text
+    _id: 4ewpbm5T0yEIWWBM
+    img: null
+    description: ''
+    drawn: false
+    flags: {}
+    _stats:
+      coreVersion: '14.364'
+      systemId: grimwild
+      systemVersion: 0.5.3
+      createdTime: 1782668468747
+      modifiedTime: 1782668468747
+      lastModifiedBy: 79CEe5dKC6Ls5VbU
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+    _key: '!tables.results!GFj5Gr2Mi8Oxu9ob.4ewpbm5T0yEIWWBM'
+  - name: Hollows
+    range:
+      - 23
+      - 23
+    weight: 1
+    type: text
+    _id: BhBewC26mMPMsYCC
+    img: null
+    description: ''
+    drawn: false
+    flags: {}
+    _stats:
+      coreVersion: '14.364'
+      systemId: grimwild
+      systemVersion: 0.5.3
+      createdTime: 1782668468747
+      modifiedTime: 1782668468747
+      lastModifiedBy: 79CEe5dKC6Ls5VbU
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+    _key: '!tables.results!GFj5Gr2Mi8Oxu9ob.BhBewC26mMPMsYCC'
+  - name: Underworld
+    range:
+      - 24
+      - 24
+    weight: 1
+    type: text
+    _id: PWFK2Mmjq8O754mv
+    img: null
+    description: ''
+    drawn: false
+    flags: {}
+    _stats:
+      coreVersion: '14.364'
+      systemId: grimwild
+      systemVersion: 0.5.3
+      createdTime: 1782668468747
+      modifiedTime: 1782668468747
+      lastModifiedBy: 79CEe5dKC6Ls5VbU
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+    _key: '!tables.results!GFj5Gr2Mi8Oxu9ob.PWFK2Mmjq8O754mv'
+  - name: Sea
+    range:
+      - 25
+      - 25
+    weight: 1
+    type: text
+    _id: NeovAF4LuiZ3sYyK
+    img: null
+    description: ''
+    drawn: false
+    flags: {}
+    _stats:
+      coreVersion: '14.364'
+      systemId: grimwild
+      systemVersion: 0.5.3
+      createdTime: 1782668468747
+      modifiedTime: 1782668468747
+      lastModifiedBy: 79CEe5dKC6Ls5VbU
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+    _key: '!tables.results!GFj5Gr2Mi8Oxu9ob.NeovAF4LuiZ3sYyK'
+  - name: Meadows
+    range:
+      - 26
+      - 26
+    weight: 1
+    type: text
+    _id: w6FZYht3T9VZOKG8
+    img: null
+    description: ''
+    drawn: false
+    flags: {}
+    _stats:
+      coreVersion: '14.364'
+      systemId: grimwild
+      systemVersion: 0.5.3
+      createdTime: 1782668468747
+      modifiedTime: 1782668468747
+      lastModifiedBy: 79CEe5dKC6Ls5VbU
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+    _key: '!tables.results!GFj5Gr2Mi8Oxu9ob.w6FZYht3T9VZOKG8'
+  - name: Outposts
+    range:
+      - 27
+      - 27
+    weight: 1
+    type: text
+    _id: Ev182544ubGqafho
+    img: null
+    description: ''
+    drawn: false
+    flags: {}
+    _stats:
+      coreVersion: '14.364'
+      systemId: grimwild
+      systemVersion: 0.5.3
+      createdTime: 1782668468747
+      modifiedTime: 1782668468747
+      lastModifiedBy: 79CEe5dKC6Ls5VbU
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+    _key: '!tables.results!GFj5Gr2Mi8Oxu9ob.Ev182544ubGqafho'
+  - name: Cliffs
+    range:
+      - 28
+      - 28
+    weight: 1
+    type: text
+    _id: lfSMKKDpTstR2Onk
+    img: null
+    description: ''
+    drawn: false
+    flags: {}
+    _stats:
+      coreVersion: '14.364'
+      systemId: grimwild
+      systemVersion: 0.5.3
+      createdTime: 1782668468747
+      modifiedTime: 1782668468747
+      lastModifiedBy: 79CEe5dKC6Ls5VbU
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+    _key: '!tables.results!GFj5Gr2Mi8Oxu9ob.lfSMKKDpTstR2Onk'
+  - name: Boomtown
+    range:
+      - 29
+      - 29
+    weight: 1
+    type: text
+    _id: pKY35cYA198NnMmr
+    img: null
+    description: ''
+    drawn: false
+    flags: {}
+    _stats:
+      coreVersion: '14.364'
+      systemId: grimwild
+      systemVersion: 0.5.3
+      createdTime: 1782668468747
+      modifiedTime: 1782668468747
+      lastModifiedBy: 79CEe5dKC6Ls5VbU
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+    _key: '!tables.results!GFj5Gr2Mi8Oxu9ob.pKY35cYA198NnMmr'
+  - name: Riverlands
+    range:
+      - 30
+      - 30
+    weight: 1
+    type: text
+    _id: r09rBViZRmdSZx7P
+    img: null
+    description: ''
+    drawn: false
+    flags: {}
+    _stats:
+      coreVersion: '14.364'
+      systemId: grimwild
+      systemVersion: 0.5.3
+      createdTime: 1782668468747
+      modifiedTime: 1782668468747
+      lastModifiedBy: 79CEe5dKC6Ls5VbU
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+    _key: '!tables.results!GFj5Gr2Mi8Oxu9ob.r09rBViZRmdSZx7P'
+  - name: Glaciers
+    range:
+      - 31
+      - 31
+    weight: 1
+    type: text
+    _id: iCFCJ1lBPBCF80oF
+    img: null
+    description: ''
+    drawn: false
+    flags: {}
+    _stats:
+      coreVersion: '14.364'
+      systemId: grimwild
+      systemVersion: 0.5.3
+      createdTime: 1782668468747
+      modifiedTime: 1782668468747
+      lastModifiedBy: 79CEe5dKC6Ls5VbU
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+    _key: '!tables.results!GFj5Gr2Mi8Oxu9ob.iCFCJ1lBPBCF80oF'
+  - name: Sands
+    range:
+      - 32
+      - 32
+    weight: 1
+    type: text
+    _id: WZI9E6ZxvS1owbhm
+    img: null
+    description: ''
+    drawn: false
+    flags: {}
+    _stats:
+      coreVersion: '14.364'
+      systemId: grimwild
+      systemVersion: 0.5.3
+      createdTime: 1782668468747
+      modifiedTime: 1782668468747
+      lastModifiedBy: 79CEe5dKC6Ls5VbU
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+    _key: '!tables.results!GFj5Gr2Mi8Oxu9ob.WZI9E6ZxvS1owbhm'
+  - name: Wastelands
+    range:
+      - 33
+      - 33
+    weight: 1
+    type: text
+    _id: HzVtWVtyFDoC1f6Z
+    img: null
+    description: ''
+    drawn: false
+    flags: {}
+    _stats:
+      coreVersion: '14.364'
+      systemId: grimwild
+      systemVersion: 0.5.3
+      createdTime: 1782668468747
+      modifiedTime: 1782668468747
+      lastModifiedBy: 79CEe5dKC6Ls5VbU
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+    _key: '!tables.results!GFj5Gr2Mi8Oxu9ob.HzVtWVtyFDoC1f6Z'
+  - name: Coalition
+    range:
+      - 34
+      - 34
+    weight: 1
+    type: text
+    _id: S6c1hn8RpSplY7tk
+    img: null
+    description: ''
+    drawn: false
+    flags: {}
+    _stats:
+      coreVersion: '14.364'
+      systemId: grimwild
+      systemVersion: 0.5.3
+      createdTime: 1782668468747
+      modifiedTime: 1782668468747
+      lastModifiedBy: 79CEe5dKC6Ls5VbU
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+    _key: '!tables.results!GFj5Gr2Mi8Oxu9ob.S6c1hn8RpSplY7tk'
+  - name: Blightlands
+    range:
+      - 35
+      - 35
+    weight: 1
+    type: text
+    _id: Wh7UpwsEBDbUfeWE
+    img: null
+    description: ''
+    drawn: false
+    flags: {}
+    _stats:
+      coreVersion: '14.364'
+      systemId: grimwild
+      systemVersion: 0.5.3
+      createdTime: 1782668468747
+      modifiedTime: 1782668468747
+      lastModifiedBy: 79CEe5dKC6Ls5VbU
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+    _key: '!tables.results!GFj5Gr2Mi8Oxu9ob.Wh7UpwsEBDbUfeWE'
+  - name: Groves
+    range:
+      - 36
+      - 36
+    weight: 1
+    type: text
+    _id: 7JDedWQVycHYUffS
+    img: null
+    description: ''
+    drawn: false
+    flags: {}
+    _stats:
+      coreVersion: '14.364'
+      systemId: grimwild
+      systemVersion: 0.5.3
+      createdTime: 1782668468747
+      modifiedTime: 1782668468747
+      lastModifiedBy: 79CEe5dKC6Ls5VbU
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+    _key: '!tables.results!GFj5Gr2Mi8Oxu9ob.7JDedWQVycHYUffS'
+flags:
+  core:
+    sheetClass: grimwild.GrimwildRollTableCrucibleSheet
+_id: GFj5Gr2Mi8Oxu9ob
+img: icons/svg/d20-grey.svg
+description: ''
+replacement: true
+displayRoll: true
+folder: jdH4ACIls5FT1phM
+sort: 200000
+ownership:
+  default: 0
+  79CEe5dKC6Ls5VbU: 3
+_stats:
+  coreVersion: '14.364'
+  systemId: grimwild
+  systemVersion: 0.5.3
+  createdTime: 1782668468747
+  modifiedTime: 1782668468747
+  lastModifiedBy: 79CEe5dKC6Ls5VbU
+  compendiumSource: null
+  duplicateSource: RollTable.GFj5Gr2Mi8Oxu9ob
+  exportSource: null
+_key: '!tables!GFj5Gr2Mi8Oxu9ob'

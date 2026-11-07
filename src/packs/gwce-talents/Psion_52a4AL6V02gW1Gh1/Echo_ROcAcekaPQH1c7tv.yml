@@ -1,0 +1,54 @@
+folder: 52a4AL6V02gW1Gh1
+name: Echo
+type: talent
+_id: ROcAcekaPQH1c7tv
+img: icons/magic/defensive/illusion-evasion-echo-purple.webp
+system:
+  description: >-
+    <p>Once per session, you can create a duplicate as a <strong>3d power
+    pool</strong>. It is a second version of you, acting as you with shared
+    knowledge, ability, and resources. You can drop 1d of its pool to have it:
+    <em>assist you—trade places with you</em>.</p>
+  core: false
+  notes:
+    description: >-
+      <p><em>This isn’t an interrupt, if you’re targeted by an impact move, it’s
+      too late to switch.</em></p>
+    label: ''
+  trackers:
+    - type: points
+      label: Create Duplicate
+      points:
+        value: 1
+        max: 1
+        showSteps: true
+      pool:
+        diceNum: 0
+        powerPool: false
+    - type: pool
+      pool:
+        powerPool: true
+        diceNum: 3
+        max: 3
+      label: Duplicate
+      points:
+        showSteps: false
+        value: 1
+        max: 1
+effects: []
+sort: 0
+ownership:
+  default: 0
+  79CEe5dKC6Ls5VbU: 3
+flags: {}
+_stats:
+  coreVersion: '14.368'
+  systemId: grimwild
+  systemVersion: 0.5.3
+  createdTime: 1782662621570
+  modifiedTime: 1791744211052
+  lastModifiedBy: nF9qxzj59Qn6fNSn
+  compendiumSource: null
+  duplicateSource: null
+  exportSource: null
+_key: '!items!ROcAcekaPQH1c7tv'

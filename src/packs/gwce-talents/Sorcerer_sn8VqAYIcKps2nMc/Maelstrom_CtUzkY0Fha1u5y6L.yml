@@ -1,0 +1,33 @@
+folder: sn8VqAYIcKps2nMc
+name: Maelstrom
+type: talent
+_id: CtUzkY0Fha1u5y6L
+img: icons/magic/fire/projectile-meteor-salvo-heavy-pink.webp
+system:
+  description: >-
+    <p>You open yourself fully to the maelstrom of raw magic. When you cast a
+    potent spell, <strong>5s count as 6s, but 4s count as 1s</strong>. When
+    rolling two or more 1s (including these 4s), you trigger a <strong>magical
+    twist</strong>, as Sorcery.</p>
+  core: false
+  notes:
+    description: ''
+    label: ''
+  trackers: []
+effects: []
+sort: 0
+ownership:
+  default: 0
+  79CEe5dKC6Ls5VbU: 3
+flags: {}
+_stats:
+  coreVersion: '14.368'
+  systemId: grimwild
+  systemVersion: 0.5.3
+  createdTime: 1783004931641
+  modifiedTime: 1791753129910
+  lastModifiedBy: nF9qxzj59Qn6fNSn
+  compendiumSource: null
+  duplicateSource: null
+  exportSource: null
+_key: '!items!CtUzkY0Fha1u5y6L'

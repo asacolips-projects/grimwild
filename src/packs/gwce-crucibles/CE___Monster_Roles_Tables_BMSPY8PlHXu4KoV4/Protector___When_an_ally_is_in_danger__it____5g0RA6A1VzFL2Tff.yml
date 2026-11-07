@@ -1,0 +1,157 @@
+name: Protector - When an ally is in danger, it...
+description: ''
+formula: 1d6
+results:
+  - name: ''
+    description: steps in to block an incoming attack.
+    range:
+      - 1
+      - 1
+    _id: 8XqR2AAuk1Sc9ji5
+    type: text
+    img: icons/svg/d20-black.svg
+    weight: 1
+    drawn: false
+    flags: {}
+    _stats:
+      coreVersion: '14.368'
+      systemId: grimwild
+      systemVersion: 0.5.3
+      createdTime: 1791832751939
+      modifiedTime: 1791832751939
+      lastModifiedBy: nF9qxzj59Qn6fNSn
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+    _key: '!tables.results!5g0RA6A1VzFL2Tff.8XqR2AAuk1Sc9ji5'
+  - name: ''
+    description: draws enemy attention with a loud challenge.
+    range:
+      - 2
+      - 2
+    _id: R1Whr7OyY5H9notC
+    type: text
+    img: icons/svg/d20-black.svg
+    weight: 1
+    drawn: false
+    flags: {}
+    _stats:
+      coreVersion: '14.368'
+      systemId: grimwild
+      systemVersion: 0.5.3
+      createdTime: 1791832751939
+      modifiedTime: 1791832751939
+      lastModifiedBy: nF9qxzj59Qn6fNSn
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+    _key: '!tables.results!5g0RA6A1VzFL2Tff.R1Whr7OyY5H9notC'
+  - name: ''
+    description: shoves the ally out of harm's way.
+    range:
+      - 3
+      - 3
+    _id: wPANsgicA6PYay0t
+    type: text
+    img: icons/svg/d20-black.svg
+    weight: 1
+    drawn: false
+    flags: {}
+    _stats:
+      coreVersion: '14.368'
+      systemId: grimwild
+      systemVersion: 0.5.3
+      createdTime: 1791832751939
+      modifiedTime: 1791832751939
+      lastModifiedBy: nF9qxzj59Qn6fNSn
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+    _key: '!tables.results!5g0RA6A1VzFL2Tff.wPANsgicA6PYay0t'
+  - name: ''
+    description: counters with a heavy blow to create space.
+    range:
+      - 4
+      - 4
+    _id: a20Kh1OGnIgqsk9A
+    type: text
+    img: icons/svg/d20-black.svg
+    weight: 1
+    drawn: false
+    flags: {}
+    _stats:
+      coreVersion: '14.368'
+      systemId: grimwild
+      systemVersion: 0.5.3
+      createdTime: 1791832751939
+      modifiedTime: 1791832751939
+      lastModifiedBy: nF9qxzj59Qn6fNSn
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+    _key: '!tables.results!5g0RA6A1VzFL2Tff.a20Kh1OGnIgqsk9A'
+  - name: ''
+    description: raises a protective barrier to buy time.
+    range:
+      - 5
+      - 5
+    _id: hCtFPwr16uJEwkdQ
+    type: text
+    img: icons/svg/d20-black.svg
+    weight: 1
+    drawn: false
+    flags: {}
+    _stats:
+      coreVersion: '14.368'
+      systemId: grimwild
+      systemVersion: 0.5.3
+      createdTime: 1791832751939
+      modifiedTime: 1791832751939
+      lastModifiedBy: nF9qxzj59Qn6fNSn
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+    _key: '!tables.results!5g0RA6A1VzFL2Tff.hCtFPwr16uJEwkdQ'
+  - name: ''
+    description: sacrifices their position to shield an ally.
+    range:
+      - 6
+      - 6
+    _id: lOB118Mwv0ZlmxPQ
+    type: text
+    img: icons/svg/d20-black.svg
+    weight: 1
+    drawn: false
+    flags: {}
+    _stats:
+      coreVersion: '14.368'
+      systemId: grimwild
+      systemVersion: 0.5.3
+      createdTime: 1791832751939
+      modifiedTime: 1791832751939
+      lastModifiedBy: nF9qxzj59Qn6fNSn
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+    _key: '!tables.results!5g0RA6A1VzFL2Tff.lOB118Mwv0ZlmxPQ'
+folder: BMSPY8PlHXu4KoV4
+_id: 5g0RA6A1VzFL2Tff
+img: icons/svg/d20-grey.svg
+replacement: true
+displayRoll: true
+ownership:
+  default: 0
+  nF9qxzj59Qn6fNSn: 3
+flags: {}
+_stats:
+  coreVersion: '14.368'
+  systemId: grimwild
+  systemVersion: 0.5.3
+  createdTime: 1791832751939
+  modifiedTime: 1791833675050
+  lastModifiedBy: nF9qxzj59Qn6fNSn
+  compendiumSource: null
+  duplicateSource: null
+  exportSource: null
+sort: 200000
+_key: '!tables!5g0RA6A1VzFL2Tff'

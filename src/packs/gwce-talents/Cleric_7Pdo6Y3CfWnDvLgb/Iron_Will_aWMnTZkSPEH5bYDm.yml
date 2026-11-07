@@ -1,0 +1,34 @@
+folder: 7Pdo6Y3CfWnDvLgb
+name: Iron Will
+type: talent
+_id: aWMnTZkSPEH5bYDm
+img: icons/magic/control/silhouette-aura-energy.webp
+system:
+  description: >-
+    <p>Each session, you have a <strong>2d Iron Will</strong> resource pool.
+    When you get <em><strong>rattled</strong></em> or take
+    <em><strong>vex</strong></em>, roll the pool to ignore it. If the situation
+    allows for it, you can also lash out at the cause or a bystander and:
+    <em>instill dread in their heart—sow doubt in their mind</em>.</p>
+  core: false
+  notes:
+    description: ''
+    label: ''
+  trackers: []
+effects: []
+sort: 0
+ownership:
+  default: 0
+  79CEe5dKC6Ls5VbU: 3
+flags: {}
+_stats:
+  coreVersion: '14.364'
+  systemId: grimwild
+  systemVersion: 0.5.3
+  createdTime: 1782662614866
+  modifiedTime: 1783008631628
+  lastModifiedBy: 79CEe5dKC6Ls5VbU
+  compendiumSource: null
+  duplicateSource: null
+  exportSource: null
+_key: '!items!aWMnTZkSPEH5bYDm'

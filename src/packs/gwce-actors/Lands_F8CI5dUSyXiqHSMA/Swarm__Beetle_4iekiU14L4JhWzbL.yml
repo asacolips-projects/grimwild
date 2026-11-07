@@ -1,0 +1,140 @@
+name: Swarm, Beetle
+type: monster
+img: icons/svg/poison.svg
+system:
+  biography: >-
+    <p>A churning mass of hard-shelled insects, they strip flesh from bone in
+    minutes. THey crawl from nests deep underground, guided by scent and
+    vibration.</p>
+  notes: >-
+    <p>@Embed[Compendium.grimwild.gwce-crucibles.RollTable.0j9eYDSkvKQvKXwE]{Beetle
+    Swarm - Curse of the Beetles}</p>
+  role: swarmer
+  tier: tough
+  traits:
+    - Mindless hunger
+    - Swarming
+    - Body heat seeking
+  moves:
+    - Consume
+    - Scatter & Reform
+    - Burrow
+  desires:
+    - value: to eat fresh meat and marrow
+      are: false
+    - value: to be in the open sunlight
+      are: false
+  sensories:
+    colors:
+      - name: Oily Black
+        color: '#1e0024'
+      - name: Bronze Gold
+        color: '#91670d'
+      - name: Iridescent Green
+        color: '#135954'
+    sights: bones picked clean, writhing soil, crushed shells
+    sounds: chitin clicking, wet grinding hiss, flitter of wings
+    smells: rotting meat, damp soil, faint iron
+  pool:
+    diceNum: 0
+    powerPool: false
+  tables: []
+prototypeToken:
+  name: Swarm, Beetle
+  displayName: 40
+  actorLink: false
+  width: 1
+  height: 1
+  depth: 1
+  texture:
+    src: icons/svg/poison.svg
+    anchorX: 0.5
+    anchorY: 0.5
+    fit: contain
+    scaleX: 1
+    scaleY: 1
+    tint: '#ffffff'
+    alphaThreshold: 0.75
+  lockRotation: false
+  rotation: 0
+  alpha: 1
+  disposition: -1
+  displayBars: 0
+  bar1:
+    attribute: health
+  bar2:
+    attribute: power
+  light:
+    negative: false
+    priority: 0
+    alpha: 0.5
+    angle: 360
+    bright: 0
+    color: null
+    coloration: 1
+    dim: 0
+    attenuation: 0.5
+    luminosity: 0.5
+    saturation: 0
+    contrast: 0
+    shadows: 0
+    animation:
+      type: null
+      speed: 5
+      intensity: 5
+      reverse: false
+    darkness:
+      min: 0
+      max: 1
+  sight:
+    enabled: false
+    range: 0
+    angle: 360
+    visionMode: basic
+    color: null
+    attenuation: 0.1
+    brightness: 0
+    saturation: 0
+    contrast: 0
+  detectionModes: {}
+  occludable:
+    radius: 0
+  ring:
+    enabled: false
+    colors:
+      ring: null
+      background: null
+    effects: 1
+    subject:
+      scale: 1
+      texture: null
+  turnMarker:
+    mode: 1
+    animation: null
+    src: null
+    disposition: false
+  movementAction: null
+  flags: {}
+  randomImg: false
+  appendNumber: false
+  prependAdjective: false
+items: []
+effects: []
+folder: F8CI5dUSyXiqHSMA
+ownership:
+  default: 0
+  79CEe5dKC6Ls5VbU: 3
+flags: {}
+_stats:
+  coreVersion: '14.364'
+  systemId: grimwild
+  systemVersion: 0.5.3
+  createdTime: 1783200722031
+  modifiedTime: 1783350231844
+  lastModifiedBy: 79CEe5dKC6Ls5VbU
+  exportSource: null
+  compendiumSource: null
+  duplicateSource: null
+_id: 4iekiU14L4JhWzbL
+sort: 0
+_key: '!actors!4iekiU14L4JhWzbL'

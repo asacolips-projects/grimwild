@@ -1,0 +1,34 @@
+folder: poj0AxNjWuOguS24
+name: Cunning Actions
+type: talent
+_id: Qmiw5OJ26kp02crL
+img: icons/svg/item-bag.svg
+system:
+  description: >-
+    <p>On a perfect in an intense scene, you can keep the
+    <em><strong>spotlight</strong></em>, even if the GM wants to spend
+    <em><strong>suspense</strong></em>. The GM must take
+    <em><strong>suspense</strong></em> as an impact move on your follow-up.
+    Afterward, move the <em><strong>spotlight</strong></em> to an ally.</p>
+  core: false
+  notes:
+    description: ''
+    label: ''
+  trackers: []
+effects: []
+sort: 0
+ownership:
+  default: 0
+  79CEe5dKC6Ls5VbU: 3
+flags: {}
+_stats:
+  coreVersion: '14.364'
+  systemId: grimwild
+  systemVersion: 0.5.3
+  createdTime: 1783308384074
+  modifiedTime: 1783308416417
+  lastModifiedBy: 79CEe5dKC6Ls5VbU
+  compendiumSource: null
+  duplicateSource: null
+  exportSource: null
+_key: '!items!Qmiw5OJ26kp02crL'

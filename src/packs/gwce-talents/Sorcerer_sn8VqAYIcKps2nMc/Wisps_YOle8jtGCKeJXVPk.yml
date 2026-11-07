@@ -1,0 +1,45 @@
+folder: sn8VqAYIcKps2nMc
+name: Wisps
+type: talent
+_id: YOle8jtGCKeJXVPk
+img: icons/creatures/magical/spirit-mischief-fire-ice-blue.webp
+system:
+  description: >-
+    <p>Two small magical motes float around you. Give them 2 traits such as:
+    <em>annoying—melancholic—mesmerizing—petty—troublesome—whimsical</em>. You
+    can <strong>sacrifice</strong> one to have it act independently, making a
+    story roll if needed. They return each session.</p>
+  core: false
+  notes:
+    description: >-
+      <p><em>You could send one to assist an ally, distract a foe, light the
+      way, or even pass a message to someone. The story roll here is about how
+      effective they are, it doesn't prompt an impact move.</em></p>
+    label: ''
+  trackers:
+    - type: points
+      label: Wisps Remaining
+      points:
+        value: 2
+        max: 2
+        showSteps: true
+      pool:
+        diceNum: 0
+        powerPool: false
+effects: []
+sort: 0
+ownership:
+  default: 0
+  79CEe5dKC6Ls5VbU: 3
+flags: {}
+_stats:
+  coreVersion: '14.368'
+  systemId: grimwild
+  systemVersion: 0.5.3
+  createdTime: 1783004920885
+  modifiedTime: 1791753209306
+  lastModifiedBy: nF9qxzj59Qn6fNSn
+  compendiumSource: null
+  duplicateSource: null
+  exportSource: null
+_key: '!items!YOle8jtGCKeJXVPk'

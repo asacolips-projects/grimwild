@@ -1,0 +1,1079 @@
+name: Game Options
+_id: unDWj5tvsH6ZOLYD
+pages:
+  - sort: 100000
+    name: Setting Dials
+    type: text
+    _id: jMmlxr0QujJmwyB6
+    system: {}
+    title:
+      show: true
+      level: 1
+    image: {}
+    text:
+      format: 1
+      content: >-
+        <h2>Magic</h2><p>Fantasy settings sometimes feature magic in a limited
+        way, as a rarity or an exclusively evil force. In others, the wonders
+        are widespread and available to all, sourced from the whimsical world
+        itself or as an industrialized and quantified resource. Base
+        <em>Grimwild</em> takes the middle road, with magic available, but not
+        ubiquitous.</p><h3>Rare Magic</h3><ul><li><p>Limit the party to one
+        magic user, if any.</p></li><li><p>Potent spells can't open new
+        opportunities; they act only as normal spells with broader impact—often
+        with more risk.</p></li><li><p>Establish before your game if magical
+        healing exists.</p></li></ul><h3>No Magic</h3><ul><li><p>All magical
+        paths are removed, as is arcana. Reflavor talents as skill and
+        technology as needed.</p></li><li><p>Consider also dialing down
+        @UUID[.#lethality]{lethality} or using the
+        @UUID[.lyXL4rv9s6r3cF7T#vigor-pool]{Vigor Pool} optional rule to make up
+        for the lack of magical healing unless you're looking for a gritty
+        tone.</p></li></ul><h3>Common Magic</h3><ul><li><p>Make arcana more
+        plentiful in the world, and reflavor more talents to be magical in
+        nature.</p></li><li><p>PCs should start with 1 minor arcana, and the
+        story of where it came from.</p></li></ul><h3>Dangerous Magic</h3><p>All
+        spells can trigger a magical twist (as sorcerer) when two or more 1s are
+        rolled. When triggered, pick one of the
+        following:</p><ul><li><p><em>Wild Surge: make a 1d story roll to see the
+        collateral damage</em></p></li><li><p><em>Dark Omen: GM takes +1
+        suspense</em></p></li><li><p><em>6d Corruption pool: 0d → change trait,
+        desire, bond, or appearance
+        negatively.</em></p></li></ul><h2>Scale</h2><p>There is a vast
+        difference in the scale of character impact between small village common
+        folk and mythic heroes. Use these options to change the scope of the
+        game.</p><h3>Smaller Scale</h3><ul><li><p>More rolls have
+        <em><strong>risk</strong></em>, and are judged as
+        impossible.</p></li><li><p>Mooks should be rare, with even common
+        enemies posing a threat.</p></li><li><p>The max level for PCs is 3,
+        though the GM should allow talents to be switched out after in-game
+        milestones.</p></li></ul><h3>Larger Scale</h3><ul><li><p>Fewer rolls
+        have <em><strong>risk</strong></em> and are judged as
+        impossible.</p></li><li><p>Mooks should be waded through freely, as pure
+        set dressing, while toughs can be taken a few at a time. Bosses should
+        be epic in their own right, not just being linked challenges more often,
+        but having an interesting ‘catch’ or ‘secret’ to overcoming them that
+        provides the real test.</p></li><li><p>PCs start at level
+        3.</p></li></ul><h2>Lethality</h2><p>In some stories, a single knife
+        wound can end an adventurer’s career, taking months to heal if it
+        doesn’t kill them outright. In others, pulp action heroes can jump off
+        cliffs and grab blades with their bare hands, then laugh about it later
+        in a tavern. Base Grimwild strikes a balance, with characters more
+        durable than the commoners around them, but a few bad calls can still
+        leave them on the ground.</p><h3>More Lethal</h3><ul><li><p>Use high and
+        dire stakes more often. When weapons appear, the players should know
+        that death could happen at any moment.</p></li><li><p>Healing often
+        takes longer, and resurrection is impossible. When a PC is desperate,
+        give them an urgent condition which will lead to dropped (4d bleeding
+        out, 6d blacking out).</p></li><li><p>When a PC is dropped, they make a
+        1d story roll, making death (or permanent injury) a coin
+        flip.</p></li></ul><h3>Less Lethal</h3><ul><li><p>Use low stakes more
+        often, even in combat if the heroes aren’t against strong
+        foes.</p></li><li><p>PCs will rarely have permanent conditions, and
+        resurrection is possible.</p></li><li><p>When a PC is dropped, they make
+        a 3d story roll, giving much better odds to stay in the
+        fight.</p></li></ul>
+    video:
+      controls: true
+      volume: 0.5
+    src: null
+    category: null
+    ownership:
+      default: -1
+      79CEe5dKC6Ls5VbU: 3
+    flags: {}
+    _stats:
+      coreVersion: '14.364'
+      systemId: grimwild
+      systemVersion: 0.5.3
+      createdTime: 1782770313112
+      modifiedTime: 1783282618709
+      lastModifiedBy: 79CEe5dKC6Ls5VbU
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+    _key: '!journal.pages!unDWj5tvsH6ZOLYD.jMmlxr0QujJmwyB6'
+  - sort: 800000
+    name: Flavors of Fantasy
+    type: text
+    _id: WftiE8byFzyQLfn0
+    system: {}
+    title:
+      show: true
+      level: 1
+    image: {}
+    text:
+      format: 1
+      content: >-
+        <p>Each of the following pages gives guidance, rules tweaks, and setting
+        dials to shift the base assumptions of Grimwild over to other popular
+        sub-genres of fantasy. Pick and choose what you want to use for your own
+        setting, altering it as
+        needed.</p><p><strong>@UUID[.dGXml37ws8BRBb5I]{Heroic Fantasy}
+        •</strong> Inspirational and
+        adventurous.</p><p><strong>@UUID[.4lSz8KRxdrpDA459]{Grimdark} •</strong>
+        Bleak, brutal, and
+        unforgiving.</p><p><strong>@UUID[.ubetvMvblaZYXEdC]{Low Fantasy}
+        •</strong> Grounded and often more cynical or
+        realistic.</p><p><strong>@UUID[.za0SK5kwQgGy7Jdc]{Sword &amp; Sorcery} •
+        </strong>Adventurous, action-packed, and often
+        pulpy.</p><p><strong>@UUID[.iNX7SSl8Q3ZeklLm]{Noblebright} •</strong>
+        Both hopeful and dangerous.</p><p><strong>@UUID[.FtO08qHOxqftJgD2]{High
+        Fantasy} •</strong> Epic and grand, often with a sense of
+        wonder.</p><p><strong>@UUID[.Ym801JI4j9LtcT4f]{Cozy Fantasy} •</strong>
+        Wholesome, heartwarming, and low-stakes.</p>
+    video:
+      controls: true
+      volume: 0.5
+    src: null
+    category: null
+    ownership:
+      default: -1
+      79CEe5dKC6Ls5VbU: 3
+    flags: {}
+    _stats:
+      coreVersion: '14.364'
+      systemId: grimwild
+      systemVersion: 0.5.3
+      createdTime: 1782770448960
+      modifiedTime: 1783209291392
+      lastModifiedBy: 79CEe5dKC6Ls5VbU
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+    _key: '!journal.pages!unDWj5tvsH6ZOLYD.WftiE8byFzyQLfn0'
+  - sort: 400000
+    name: Optional Rules - Gameplay
+    type: text
+    _id: lyXL4rv9s6r3cF7T
+    system: {}
+    title:
+      show: true
+      level: 1
+    image: {}
+    text:
+      format: 1
+      content: >-
+        <h2>Token Initiative</h2><p>Use this rule to strike a balance between
+        the normally free-flowing scenes of Moxie and a structured turn system.
+        In this approach, there’s no set turn order. Instead, players are given
+        tokens to represent the "camera time" they have to act within a
+        scene.</p><p><strong>At the start of an intense moment</strong>, give
+        each player 2 tokens. Players must spend a token before a story beat
+        (usually an action roll). Play continues until all tokens are spent,
+        after which all players regain their tokens, ensuring everyone gets the
+        same screen time.</p><h2>Rest Resets</h2><p>Use this rule if you want
+        talent and ability resets to be more narrative
+        focused.</p><p><strong>Talents no longer reset each session, instead
+        resetting during rests and other narrative breaks.</strong> Some rests
+        may not be relaxed enough for a full reset, though precautions <span
+        style="color:rgb(110, 110, 110)"><em>(hidden campsite, watch rotation,
+        entertainment)</em></span> can help. While resting, the world around the
+        PCs still moves forward—the GM should highlight any timers and threats
+        beforehand. Consider playing out a vignette to close out or open up the
+        next day. When the group decides on a reset:</p><section class="grid
+        grid-3col"><div><ul><li><p>PCs take spark</p></li><li><p>All thread is
+        reset</p></li></ul></div><div><ul><li><p>All talents are
+        reset</p></li><li><p>GM takes 2
+        suspense</p></li></ul></div><div><ul><li><p>PCs heal 1
+        harm</p></li><li><p>Some Conditions
+        fade</p></li></ul></div></section><h2>Stat Progression</h2><p>Use this
+        rule if you want a way for character stats to be
+        increased.</p><p><strong>When a PC levels up, they can forgo a talent to
+        increase a stat by 1, to a max of 3.</strong> Each character can only do
+        this once. Stat increases can be very impactful—avoid this option for
+        smaller scale games.</p><h2>Vigor Pool</h2><p>This rule is intended for
+        games without healing magic.</p><p><strong>Each PC has a 3d Vigor
+        resource pool.</strong> When the PCs have a moment to catch their
+        breath, they can roll the pool to clear 1 harm. This pool refreshes
+        after an extended period of rest. Lower or increase the pool to change
+        the lethality.</p>
+    video:
+      controls: true
+      volume: 0.5
+    src: null
+    category: null
+    ownership:
+      default: -1
+      79CEe5dKC6Ls5VbU: 3
+    flags: {}
+    _stats:
+      coreVersion: '14.364'
+      systemId: grimwild
+      systemVersion: 0.5.3
+      createdTime: 1783207013434
+      modifiedTime: 1783207059438
+      lastModifiedBy: 79CEe5dKC6Ls5VbU
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+    _key: '!journal.pages!unDWj5tvsH6ZOLYD.lyXL4rv9s6r3cF7T'
+  - sort: 500000
+    name: Optional Rules - Gear
+    type: text
+    _id: B7f2yRAHKyPk7hb5
+    system: {}
+    title:
+      show: true
+      level: 1
+    image: {}
+    text:
+      format: 1
+      content: >-
+        <h2>Armor</h2><p>Use this rule to give better definition between those
+        who wear armor and those who don’t. Protective gear comes in two basic
+        types: Light and Heavy. Each session, they bestow an Armor resource
+        pool. After taking a physical consequence, you can choose to roll the
+        pool to lessen the consequence (as a Messy on a defense
+        roll).</p><p><strong>Light armor gives a 1d Armor pool</strong>, and
+        also bestows the <em>Lightly Armored</em> condition, hindering
+        movement—usually affecting spellcasting.</p><p><strong>Heavy armor gives
+        a 2d Armor pool</strong>, bestowing the <em>Heavily Armored</em>
+        condition, restricting movement and your ability to be quiet—usually
+        affecting spellcasting, speed, and stealth. Plus, any attempt to swim is
+        likely impossible.</p><h3>Bulwark (Fighter Path Talent
+        Rework)</h3><p>Increase your Armor pool by +2d, regardless of the type
+        you’re wearing (if any). When you roll your armor pool, you avoid the
+        consequence instead of reducing it.</p><h2>Supplies</h2><p>Use this rule
+        if you want the threat of running out of essential supplies, such as
+        torches and rations to matter.</p><p><strong>Each PC has a 4d Supplies
+        resource pool for common items and rations.</strong> Roll the pool with
+        heavy use, and as time passes outside of civilization.</p><p>For finer
+        detail, separate Rations (or other important goods) from Supplies and
+        track each with a smaller pool.</p><h2>Encumbrance</h2><p>Use this rule
+        to establish carrying limits and keep what PCs have on hand more
+        grounded. This option is often paired with the Supplies
+        rule.</p><p><strong>Each PC has space for 2 + their Brawn stat in gear
+        they can carry.</strong> Main armor and weapons aren’t counted towards
+        this number. Additional weapons, kits, rations, and treasures take up
+        space, however, based on size. Most gear takes up 1 slot, while small
+        items fill one half. Large or bulky items fill two or more. Characters
+        can declare gear (related to their vantage) throughout their adventures,
+        filling slots as needed.</p><section class="grid grid-4col"><div><p
+        style="text-align:center"><em>Small items</em></p><div
+        style="display:flex;justify-content:center"><img
+        src="modules/grimwild/assets/img/encumbrance/enc-smallitems.svg"
+        width="48" height="48"></div></div><div><p
+        style="text-align:center"><em>Most gear</em></p><div
+        style="display:flex;justify-content:center"><img
+        src="modules/grimwild/assets/img/encumbrance/enc-mostgear.svg"
+        width="48" height="48"></div></div><div><p
+        style="text-align:center"><em>Large or Bulky</em></p><div
+        style="display:flex;justify-content:center"><img
+        src="modules/grimwild/assets/img/encumbrance/enc-large.svg"
+        width="96" height="48"></div></div><div><p
+        style="text-align:center"><em>Large &amp; Bulky</em></p><div
+        style="display:flex;justify-content:center"><img
+        src="modules/grimwild/assets/img/encumbrance/enc-XL.svg" width="144"
+        height="48"></div></div></section><h2>Wealth</h2><p>Adventurers (and
+        some players) love shiny coins to spend. Grimwild normally abstracts
+        away all treasures except the most valuable—if you want a bit more fine
+        control, use this rule.</p><p><strong>Each PC has a 4d Coins power pool
+        to represent the gold they carry on their travels.</strong> Characters
+        are expected to be able to pay for their own drinks, rooms, and other
+        trivial purchases, but other expenditures are uncertain. PCs roll the
+        pool for larger purchases <span style="color:rgb(110, 110,
+        110)"><em>(buying a round of drinks, bribing a guard, getting a horse,
+        buying party wear)</em></span>, or drop 1d then roll for huge expenses
+        <span style="color:rgb(110, 110, 110)"><em>(securing passage across the
+        sea, hiring an assassin, buying a trained warhorse)</em></span>. Impact
+        moves may mean there’s a hidden flaw or hitch in the buying process,
+        though the deal may still happen. When carousing by selling off
+        @UUID[Compendium.grimwild.gwce-journals.JournalEntry.YbuXwBYYNXIb670F.JournalEntryPage.13jc6Kr9sBXfdgDC]{treasure}
+        or as the GM sees fit, add +2d to the pool (max 8d). Treasure hoards may
+        add more, or be treated as a linked Wealth pool.</p><h2>Weapon
+        Styles</h2><p>Your weapon has 2 descriptors—its weapon styles, clear
+        ways to differentiate it from others of its kind. A dagger may have
+        hidden and quick, while a battleaxe has huge and sweeping. These are a
+        reminder of how the weapon might affect the fiction—make sure to
+        describe making use of these, as your vantage impacts difficulty. Your
+        styles don’t define your weapon, they only show what aspects are most
+        important to you in the narrative. Shields, bare knuckles, and even
+        capes can be considered weapons. These descriptors can be split between
+        multiple pieces of equipment if that fits the PC’s fighting style. Use
+        any of the following, or come up with your own:</p><p><em>The ogre's
+        strong, especially putting his weight behind that maul, so I dash around
+        him with my quick short sword, and aim for his calf
+        (+2t→+1t).</em></p><p>They search everyone entering the estate for
+        weapons, but my concealable dagger should be easy to hide
+        (Impossible→1t).</p><h3>Example Weapon Styles</h3><section class="grid
+        grid-3col"><div><ul><li><p>precise</p></li><li><p>quiet</p></li><li><p>vicious</p></li><li><p>disarming</p></li><li><p>dazing</p></li><li><p>ornate</p></li></ul></div><div><ul><li><p>quick</p></li><li><p>sweeping</p></li><li><p>entangling</p></li><li><p>heavy</p></li><li><p>nimble</p></li><li><p>brutal</p></li></ul></div><div><ul><li><p>bashing</p></li><li><p>piercing</p></li><li><p>sapping</p></li><li><p>balanced</p></li><li><p>concealable</p></li><li><p>long</p></li></ul></div></section>
+    video:
+      controls: true
+      volume: 0.5
+    src: null
+    category: null
+    ownership:
+      default: -1
+      79CEe5dKC6Ls5VbU: 3
+    flags: {}
+    _stats:
+      coreVersion: '14.368'
+      systemId: grimwild
+      systemVersion: 0.5.3
+      createdTime: 1783207016833
+      modifiedTime: 1791653934837
+      lastModifiedBy: nF9qxzj59Qn6fNSn
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+    _key: '!journal.pages!unDWj5tvsH6ZOLYD.B7f2yRAHKyPk7hb5'
+  - sort: 600000
+    name: Optional Rules - Advancement
+    type: text
+    _id: s7f3SlGbfs5hrBN4
+    system: {}
+    title:
+      show: true
+      level: 1
+    image: {}
+    text:
+      format: 1
+      content: >-
+        <h2>Focused Growth</h2><p>Use this rule if you want to narrow the focus
+        of your game. Tying experience to the story can help incentivize more
+        passive players to engage with the themes. Make use of slow progression
+        rules, slashing xp boxes before filling them (effectively doubling the
+        amount needed to level), but at the end of each session, give a chance
+        for an additional xp based on what happened in the game. This can often
+        be connected to the adventuring party concept.</p><p><span
+        style="color:rgb(110, 110, 110)"><em>Themes about <strong>social
+        relationships</strong> → bonus xp to those who changed their
+        <strong>bond</strong>.</em></span></p><p><span style="color:rgb(110,
+        110, 110)"><em>Theme about <strong>personal flaws</strong> → bonus xp to
+        those who introduced <strong>tangles</strong>.</em></span></p><p><span
+        style="color:rgb(110, 110, 110)"><em>Party concept:
+        <strong>Disciples</strong> → bonus xp to those who
+        <strong>convert</strong> others.</em></span></p><p><span
+        style="color:rgb(110, 110, 110)"><em>Campaign focus: <strong>Treasure
+        Hunting</strong> → bonus xp when
+        <strong>carousing</strong>.</em></span></p><h2>Milestone
+        Levels</h2><p>Use this rule to eschew keeping track of experience
+        altogether. Players don’t add xp after each session. Instead, the party
+        members level up after meaningful completion of a major group story arc.
+        The group should talk about what counts as meaningful, but ultimately
+        the choice is up to the GM.</p><h2>Level 0</h2><p>Starting heroes are
+        already fairly powerful at level 1, use this rule if you want to have
+        low-powered, beginner PCs. These are often useful for introductory
+        games.</p><p><strong>PCs have no core talent, and only 3 extra stat
+        points.</strong> Characters level up after gaining 1 experience (usually
+        1 session), gaining their core talent and last stat point. Half core
+        talents <em>(Arcane Training, Natural Moxie, etc.)</em> can be replaced
+        with the core, letting the player choose a different path talent for the
+        character.</p><p></p>
+    video:
+      controls: true
+      volume: 0.5
+    src: null
+    category: null
+    ownership:
+      default: -1
+      79CEe5dKC6Ls5VbU: 3
+    flags: {}
+    _stats:
+      coreVersion: '14.368'
+      systemId: grimwild
+      systemVersion: 0.5.3
+      createdTime: 1783207020289
+      modifiedTime: 1791654117821
+      lastModifiedBy: nF9qxzj59Qn6fNSn
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+    _key: '!journal.pages!unDWj5tvsH6ZOLYD.s7f3SlGbfs5hrBN4'
+  - sort: 700000
+    name: Optional Rules - GM Tools
+    type: text
+    _id: 9x1uz89EFCD3CUvx
+    system: {}
+    title:
+      show: true
+      level: 1
+    image: {}
+    text:
+      format: 1
+      content: >-
+        <h2>Active Vigilance</h2><p>Use this rule to allow for randomized
+        vigilance—when you want the dice to tell you what you do and don’t
+        see.</p><p><strong>When the GM decides to use vigilance, they spotlight
+        one of the PCs, and have them make a story roll affected by their
+        vantage.</strong> On a perfect, the player gets a reveal. On a messy,
+        they get a hint. On a grim, the GM uses strike. Certain groups may
+        prefer to have the reason for the story roll a secret, though Grimwild
+        thrives when everybody is in the know. Discuss with your group
+        beforehand to find out what they prefer.</p><h2>Tick Pools</h2><p>These
+        are a predictable version of any kind of diminishing pool, usually
+        2d-4d. <strong>When triggered, they drop exactly 1d, and are never
+        rolled.</strong> These are less dramatic and less dynamic, but are
+        useful when GMs want pool progress to be non-random. Because of the
+        smaller size, rules or talents that drop 1d are more impactful. If used,
+        these are recommended to go alongside standard pools, not acting as a
+        full replacement.</p><h2>Writers' Room</h2><p>Use this rule if you want
+        to expand the types of details your players can add.</p><p>Story details
+        added with both tangles and thread don’t need to be connected to PC
+        vantage. The PCs can freely offer their own impact moves to gain spark
+        (as a tangle,) or another benefit and can expand the world with their
+        own details. Only details that benefit the party cost
+        thread.</p><h2>Homebrew Talent Guidance</h2><p><strong>Keep text concise
+        and clear.</strong> The goal should be to make the rules easy to
+        understand and remember. Try to use terminology and wording from
+        existing talents—this streamlines understanding and provides a mental
+        jumping-off point for experienced players.</p><p><strong>Avoid extra
+        rolls and tracking.</strong> Lots of small levers, toggles, and
+        different kinds of uses all slow the game down. Even worse, adding extra
+        rolls with use, such as for defense or story rolls, adds multiple layers
+        of complexity—forcing players to grab dice, make rolls, and interpret
+        them. This may not sound like much, but it can add up. Try to keep
+        specific tracking down to 1 per talent.</p><p><strong>Power levels are
+        important, but not too important.</strong> Aim for power levels around
+        what already exists, but don’t get too hung up on it. PCs are always
+        limited by their <em><strong>spotlight</strong></em>, so it’s difficult
+        for even somewhat overpowered characters to overshadow others. In
+        general, core talents are twice as powerful as path talents, increasing
+        to 3x the power at level 3, and 4x the power at level 6.</p>
+    video:
+      controls: true
+      volume: 0.5
+    src: null
+    category: null
+    ownership:
+      default: -1
+      79CEe5dKC6Ls5VbU: 3
+    flags: {}
+    _stats:
+      coreVersion: '14.364'
+      systemId: grimwild
+      systemVersion: 0.5.3
+      createdTime: 1783207024263
+      modifiedTime: 1783207631004
+      lastModifiedBy: 79CEe5dKC6Ls5VbU
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+    _key: '!journal.pages!unDWj5tvsH6ZOLYD.9x1uz89EFCD3CUvx'
+  - sort: 1600000
+    name: Legacy Talents
+    type: text
+    _id: rvIvWg3fwFTQXGqN
+    system: {}
+    title:
+      show: true
+      level: 1
+    image: {}
+    text:
+      format: 1
+      content: >-
+        <p>The following talents are from Grimwild v1.4, or earlier versions of
+        the Community Edition. These were dropped for various reasons, from
+        balance to theme. Ask your GM before taking any of the
+        following.</p><p>@UUID[Compendium.grimwild.talents.Item.JsmQDELRkKavY179]{Weapon
+        Mastery (Legacy Fighter Core
+        Talent)}</p><p><em><strong>Rationale:</strong> This talent gets
+        overpowered at higher levels, with a near 50% chance to critical and a
+        minuscule 1.5% chance to fail at level 6. This trivializes fights and
+        can be
+        boring.</em></p><p>@UUID[Compendium.grimwild.talents.Item.Me7VMy86RNScK7bI]{Awakened
+        Mind (Legacy Psion Core Talent)}</p><p><em><strong>Rationale:</strong>
+        While somewhat overpowered, allowing the same number of spells with more
+        flexibility than wizards, the power point system doesn't give flavor to
+        its
+        magic.</em></p><p>@UUID[Compendium.grimwild.talents.Item.U4YkySSJw0RvhzsN]{Bardsong
+        (Legacy Bard Core Talent)}</p><p><em><strong>Rationale:</strong>
+        Multiple kinds of tracked abilities, and building bardsongs on the fly
+        can slow the game down. This talent is also quite powerful at low
+        levels.</em></p><p></p><h2>Legacy Path
+        Talents</h2><p>@UUID[Compendium.grimwild.gwce-talents.Item.Qmiw5OJ26kp02crL]{Cunning
+        Actions (CE
+        Rogue)}</p><p>@UUID[Compendium.grimwild.talents.Item.l7fghNbTrlBFmVQh]{Trap
+        Sense
+        (Rogue)}</p><p>@UUID[Compendium.grimwild.talents.Item.VljVPyIk0taV9T5l]{Anchorshot
+        (Artificer)}</p><p>@UUID[Compendium.grimwild.talents.Item.UWKhdFNz88tvBtYA]{Double-Barreled
+        Blunderbuss
+        (Artificer)}</p><p>@UUID[Compendium.grimwild.talents.Item.dmBjW6js56AdZ8kf]{Mechanical
+        Mount
+        (Artificer)}</p><p>@UUID[Compendium.grimwild.talents.Item.vHaj21fk4bdasAY5]{Steamhammer
+        (Artificer)}</p><p>@UUID[Compendium.grimwild.talents.Item.DkIoxwNO3SKehHN0]{Swiftwing
+        (Artificer)}</p><p>@UUID[Compendium.grimwild.talents.Item.crs163uNDQsTwiic]{Mind
+        Seed
+        (Psion)}</p><p>@UUID[Compendium.grimwild.talents.Item.VwcZ87uGQcIKSxTx]{Disturbed
+        Mind (Formerly Tumultuous Mind on
+        Psion)}</p><p>@UUID[Compendium.grimwild.talents.Item.VpN3x2xMR2utoraH]{Prepared
+        Spell}</p><p></p>
+    video:
+      controls: true
+      volume: 0.5
+    src: null
+    category: null
+    ownership:
+      default: -1
+      79CEe5dKC6Ls5VbU: 3
+    flags: {}
+    _stats:
+      coreVersion: '14.368'
+      systemId: grimwild
+      systemVersion: 0.5.3
+      createdTime: 1783207637651
+      modifiedTime: 1791666208908
+      lastModifiedBy: nF9qxzj59Qn6fNSn
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+    _key: '!journal.pages!unDWj5tvsH6ZOLYD.rvIvWg3fwFTQXGqN'
+  - sort: 1000000
+    name: Flavor - Heroic Fantasy
+    type: text
+    _id: dGXml37ws8BRBb5I
+    system: {}
+    title:
+      show: true
+      level: 2
+    image: {}
+    text:
+      format: 1
+      content: >-
+        <p><strong>Inspirational and adventurous</strong>, with a focus on
+        self-discovery and the hero’s journey. Characters grow through
+        challenge, forge bonds through hardship, and leave the world better than
+        they found it, often through sacrifice. These stories are about becoming
+        more than you were and choosing to act when it matters
+        most.</p><p><strong>Use this flavor</strong> when you want classic
+        heroic journeys where courage, loyalty, and resolve are
+        tested.</p><section class="grid grid-3col"><div><p
+        style="text-align:center"><span
+        style="font-size:large">Scale</span></p><img
+        src="modules/grimwild/assets/img/flavor-scales/heroicfantasy-scale.svg"><p
+        style="text-align:center"><em>Scope increases throughout the
+        story</em></p></div><div><p style="text-align:center"><span
+        style="font-size:large">Lethality</span></p><img
+        src="modules/grimwild/assets/img/flavor-scales/heroicfantasy-lethality.svg"><p
+        style="text-align:center"><em>Some sacrifices are made, but the heroes
+        will win the day</em></p></div><div><p style="text-align:center"><span
+        style="font-size:large">Magic</span></p><img
+        src="modules/grimwild/assets/img/flavor-scales/heroicfantasy-magic.svg"><p
+        style="text-align:center"><em>Magic is commonplace, and usable by
+        most</em></p></div></section><h3>Playing Heroic Fantasy
+        Games</h3><ul><li><p><strong>Let characters be competent, capable, and
+        proactive.</strong> Those who live in these worlds start small, but grow
+        to actively shape their world.</p></li><li><p><strong>Failure
+        complicates the path but doesn’t end the journey.</strong> The
+        characters are forced to pivot, adapt, and overcome, often discovering
+        their own resilience and the power of their relationships, earning their
+        victory after struggle.</p></li><li><p><strong>Make sure to reward
+        courage, but not recklessness.</strong> It takes strength to stand up to
+        overwhelming odds for the sake of others, and wits to plan and follow
+        through to win the day.</p></li></ul><p><em>The default Grimwild rules
+        are geared for a darker Heroic Fantasy. GMs should be mindful of keeping
+        consequences varied, but otherwise there are no rules
+        changes.</em></p><h3>Media
+        Touchstones</h3><p><strong>Literature:</strong> Mistborn, Water Outlaws,
+        Icewind Dale Trilogy</p><p><strong>Visual:</strong> The Legend of Vox
+        Machina, The Secrets of NIMH, Adventure
+        Time</p><p><strong>Interactive:</strong> Dragon Age, Baldur's Gate, The
+        Legend of Zelda</p>
+    video:
+      controls: true
+      volume: 0.5
+    src: null
+    category: null
+    ownership:
+      default: -1
+      79CEe5dKC6Ls5VbU: 3
+    flags: {}
+    _stats:
+      coreVersion: '14.368'
+      systemId: grimwild
+      systemVersion: 0.5.3
+      createdTime: 1783208023787
+      modifiedTime: 1791656430372
+      lastModifiedBy: nF9qxzj59Qn6fNSn
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+    _key: '!journal.pages!unDWj5tvsH6ZOLYD.dGXml37ws8BRBb5I'
+  - sort: 1100000
+    name: Flavor - Grimdark
+    type: text
+    _id: 4lSz8KRxdrpDA459
+    system: {}
+    title:
+      show: true
+      level: 2
+    image: {}
+    text:
+      format: 1
+      content: >-
+        <p><strong>Bleak, brutal, and unforgiving.</strong> A world of moral
+        ambiguity, harsh realities, and the constant threat of ruin. Any
+        victories are costly, and hope is hard-won. In this world, doing the
+        right thing hurts, but doing nothing hurts more. The point of some of
+        these stories isn't the battle, but the nature of
+        defeat.</p><p><strong>Use this flavor</strong> when you want stories of
+        moral ambiguity and characters pushed to their limits by an uncaring
+        world.</p><section class="grid grid-3col"><div><p
+        style="text-align:center"><span
+        style="font-size:large">Scale</span></p><img
+        src="modules/grimwild/assets/img/flavor-scales/grimdark-scale.svg"><p
+        style="text-align:center"><em>Wide range of conflict, usually on a
+        personal scale</em></p></div><div><p style="text-align:center"><span
+        style="font-size:large">Lethality</span></p><img
+        src="modules/grimwild/assets/img/flavor-scales/grimdark-lethality.svg"><p
+        style="text-align:center"><em>Danger around every corner, and death is
+        lasting</em></p></div><div><p style="text-align:center"><span
+        style="font-size:large">Magic</span></p><img
+        src="modules/grimwild/assets/img/flavor-scales/grimdark-magic.svg"><p
+        style="text-align:center"><em>Magic is a dark, usually antagonistic
+        force</em></p></div></section><div><h3>Playing Grimdark
+        Games</h3><ul><li><p><strong>Scarcity and pressure push the
+        characters.</strong> Fantasy heroes often have the comfort of ideology.
+        They'll often fight for justice and honor, while basic needs are
+        hand-waved away. Grimdark fantasy strips those luxuries away with many
+        characters focused on pure survival.</p></li><li><p><strong>Violence is
+        ugly and costly.</strong> Battle is about staying alive and seeing
+        tomorrow—it's clumsy, exhausting, and carries a heavy toll, even after
+        the fighting is finished. Those that survive still deal the trauma, and
+        crippling injuries. Those that don't often die suddenly, and without
+        warning. Death isn't always meaningful.</p></li><li><p><strong>Hope is
+        fragile.</strong> These stories aren't meaninglessly dark; there's often
+        a spark of hope that keeps characters going. Their contrast against the
+        world around them gives the oppressive environment
+        meaning.</p></li></ul><h3>Rules Tweaks</h3><ul><li><p>The effect of
+        <em><strong>potency</strong></em> is scaled down.</p></li><li><p>Casting
+        <strong>magic</strong> comes with higher risk (thorns) or
+        <em><strong>stakes</strong></em>.</p></li><li><p><strong>Magic
+        healing</strong> is rare or non-existent.</p></li><li><p>When
+        <em><strong>dropped</strong></em>, make a 1d story
+        roll.</p></li><li><p><em><strong>Marks</strong></em> only clear on
+        rest.</p></li><li><p><em><strong>Vex</strong></em> responses are
+        random.</p></li><li><p>PC <strong>bonds</strong> are rolled
+        randomly.</p></li><li><p><strong>@UUID[.B7f2yRAHKyPk7hb5#supplies]{Supplies}</strong>
+        (optional rule)</p></li></ul><h3>Media
+        Touchstones</h3><p><strong>Literature:</strong> Second Apocalypse, The
+        Black Company, First Law</p><p><strong>Visual:</strong> Berserk, Black
+        Death, The Head Hunter</p><p><strong>Interactive:</strong> Dark Souls
+        series, Diablo, Darkest Dungeon</p></div>
+    video:
+      controls: true
+      volume: 0.5
+    src: null
+    category: null
+    ownership:
+      default: -1
+      79CEe5dKC6Ls5VbU: 3
+    flags: {}
+    _stats:
+      coreVersion: '14.368'
+      systemId: grimwild
+      systemVersion: 0.5.3
+      createdTime: 1783208031081
+      modifiedTime: 1791656764837
+      lastModifiedBy: nF9qxzj59Qn6fNSn
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+    _key: '!journal.pages!unDWj5tvsH6ZOLYD.4lSz8KRxdrpDA459'
+  - sort: 1200000
+    name: Flavor - Low Fantasy
+    type: text
+    _id: ubetvMvblaZYXEdC
+    system: {}
+    title:
+      show: true
+      level: 2
+    image: {}
+    text:
+      format: 1
+      content: >-
+        <p><strong>Grounded and often more cynical or realistic.</strong> This
+        has small-scale conflicts with limited or no magic. These stories are
+        about people scraping by in a world that largely doesn’t
+        care.</p><p><strong>Use this flavor</strong> when you want tense,
+        small-scale stories where preparation, vigilance, and relationships
+        matter more than raw power.</p><section class="grid grid-3col"><div><p
+        style="text-align:center"><span
+        style="font-size:large">Scale</span></p><img
+        src="modules/grimwild/assets/img/flavor-scales/lowfantasy-scale.svg"><p
+        style="text-align:center"><em>Smaller scope with personal
+        struggles</em></p></div><div><p style="text-align:center"><span
+        style="font-size:large">Lethality</span></p><img
+        src="modules/grimwild/assets/img/flavor-scales/lowfantasy-lethality.svg"><p
+        style="text-align:center"><em>Dangers are real, and death can be quick
+        if unprepared</em></p></div><div><p style="text-align:center"><span
+        style="font-size:large">Magic</span></p><img
+        src="modules/grimwild/assets/img/flavor-scales/lowfantasy-magic.svg"><p
+        style="text-align:center"><em>Magic is rare, powerful, and
+        dangerous</em></p></div></section><h3>Playing Low Fantasy
+        Games</h3><ul><li><p><strong>Give it a more historical vibe.</strong>
+        These stories are grounded in the familiar, where the world runs on the
+        recognizable rules of human nature and politics.
+        </p></li><li><p><strong>Magic is a rare and disruptive force, if it
+        exists at all.</strong> Supernatural forces aren't well understood and
+        are only wielded by those willing to break the natural order.
+        </p></li><li><p><strong>Leverage is more valuable than force.</strong>
+        Characters aren't powerful on their own, and will need to curry favors,
+        discover secrets, and use their wits to survive. When it does come down
+        to physical clashes, winning often has a cost. A single blade will only
+        get you so far.</p></li></ul><h3>Rules Tweaks</h3><ul><li><p>The effect
+        of <em><strong>potency</strong></em> is scaled
+        down.</p></li><li><p>Limited to 1 <strong>magic user</strong>, if any.
+        Magic use comes with higher risk or
+        <em><strong>stakes</strong></em>.</p></li><li><p>When
+        <strong>dropped</strong>, make a 1d story
+        roll.</p></li><li><p><strong>Vigilance</strong> is more important, and
+        is focused on hint more than strike or reveal.</p></li><li><p>Social
+        fallout from <em><strong>vex</strong></em> is
+        increased.</p></li><li><p><strong>@UUID[.B7f2yRAHKyPk7hb5#encumbrance]{Encumbrance}</strong>
+        (optional
+        rule)</p></li><li><p><strong>@UUID[.B7f2yRAHKyPk7hb5#wealth]{Wealth}</strong>
+        (optional rule)</p></li><li><p><strong>Slow XP</strong> progression, max
+        level of 3.</p></li><li><p><em><strong>Consequences</strong></em> stick
+        around longer.</p></li><li><p><strong>Factions</strong> play a major
+        role.</p></li></ul><h3>Media
+        Touchstones</h3><p><strong>Literature:</strong> A Song of Ice and Fire,
+        The Lies of Lock Lamora, Sailing to
+        Sarantium</p><p><strong>Visual:</strong> Spice and Wolf, The 13th
+        Warrior, The Last Kingdom</p><p><strong>Interactive:</strong> The
+        Witcher, Mount &amp; Blade, Kingdom Come: Deliverance</p>
+    video:
+      controls: true
+      volume: 0.5
+    src: null
+    category: null
+    ownership:
+      default: -1
+      79CEe5dKC6Ls5VbU: 3
+    flags: {}
+    _stats:
+      coreVersion: '14.368'
+      systemId: grimwild
+      systemVersion: 0.5.3
+      createdTime: 1783208770688
+      modifiedTime: 1791665475211
+      lastModifiedBy: nF9qxzj59Qn6fNSn
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+    _key: '!journal.pages!unDWj5tvsH6ZOLYD.ubetvMvblaZYXEdC'
+  - sort: 1300000
+    name: Flavor - Noblebright
+    type: text
+    _id: iNX7SSl8Q3ZeklLm
+    system: {}
+    title:
+      show: true
+      level: 2
+    image: {}
+    text:
+      format: 1
+      content: >-
+        <p><strong>Both hopeful and dangerous.</strong> Good almost always
+        triumphs over evil. The world can be made better, and heroes are defined
+        as much by mercy as by strength. This world is optimistic without being
+        soft. Noblebright is about choosing light despite the dark forces in the
+        world.</p><p><strong>Use this flavor</strong> when you want hopeful
+        stories where courage changes the course of events.</p><section
+        class="grid grid-3col"><div><p style="text-align:center"><span
+        style="font-size:large">Scale</span></p><img
+        src="modules/grimwild/assets/img/flavor-scales/noblebright-scale.svg"><p
+        style="text-align:center"><em>Threats are far reaching, but so are
+        you</em></p></div><div><p style="text-align:center"><span
+        style="font-size:large">Lethality</span></p><img
+        src="modules/grimwild/assets/img/flavor-scales/noblebright-lethality.svg"><p
+        style="text-align:center"><em>Both physical and moral victories
+        matter</em></p></div><div><p style="text-align:center"><span
+        style="font-size:large">Magic</span></p><img
+        src="modules/grimwild/assets/img/flavor-scales/noblebright-magic.svg"><p
+        style="text-align:center"><em>Magic varies by area and faction, and is
+        unaligned</em></p></div></section><div><h3>Playing Noblebright
+        Games</h3><ul><li><p><strong>Hope is powerful.</strong> These games
+        showcase the power of the human spirit, actively promoting altruism and
+        agency. Those with good intentions and determined minds can reshape
+        their broken world. Doing the right thing is always worth the cost.
+        </p></li><li><p><strong>Redemption over punishment.</strong> Even the
+        most deeply flawed and adversarial should be given the chance to forge a
+        better path. Because of this, violence is usually the last resort.
+        </p></li><li><p><strong>The internal lives of the characters are
+        important.</strong> The emotional victories of overcoming personal
+        trauma, forgiving an enemy, and healing strained bonds matter just as
+        much as the physical ones. Give them the screen time they
+        deserve.</p></li></ul><h3>Rules Tweaks</h3><ul><li><p>PCs begin at
+        <strong>2nd level</strong> with 1 minor arcana, and the story of your
+        past adventure.</p></li><li><p>Make a 3d story roll when
+        <strong>dropped</strong>.</p></li><li><p>Should a PC die, the player has
+        <strong>full control</strong> of the end of their
+        story.</p></li><li><p><em><strong>Stakes</strong></em> for physical
+        combat are often lower, while those for social conflicts are
+        higher.</p></li><li><p><em><strong>Rattled</strong></em> clears after
+        any intense scene. The heroes are brave in the face of
+        danger.</p></li><li><p>Social fallout from <em><strong>vex</strong></em>
+        responses heightened. Interpersonal relationships are
+        important.</p></li></ul><h3>Media
+        Touchstones</h3><p><strong>Literature:</strong> The Princess Bride, The
+        Stormlight Archive, The Chronicles of
+        Narnia</p><p><strong>Visual:</strong> The Last Airbender, She-Ra, The
+        10th Kingdom</p><p><strong>Interactive:</strong> Kingdom Hearts, Dragon
+        Quest, World of Warcraft</p></div><div></div>
+    video:
+      controls: true
+      volume: 0.5
+    src: null
+    category: null
+    ownership:
+      default: -1
+      79CEe5dKC6Ls5VbU: 3
+    flags: {}
+    _stats:
+      coreVersion: '14.368'
+      systemId: grimwild
+      systemVersion: 0.5.3
+      createdTime: 1783208887717
+      modifiedTime: 1791665761858
+      lastModifiedBy: nF9qxzj59Qn6fNSn
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+    _key: '!journal.pages!unDWj5tvsH6ZOLYD.iNX7SSl8Q3ZeklLm'
+  - sort: 1250000
+    name: Flavor - Sword & Sorcery
+    type: text
+    _id: za0SK5kwQgGy7Jdc
+    system: {}
+    title:
+      show: true
+      level: 2
+    image: {}
+    text:
+      format: 1
+      content: >-
+        <p><strong>Adventurous, action-packed, and often pulpy.</strong> Heroes
+        rely on wit, steel, and audacity in a world full of dangerous monsters
+        and lost riches. The only way to live forever is to be a
+        legend.</p><p><strong>Use this flavor</strong> when you want high-action
+        adventures driven by risk, greed, nerve, and luck.</p><section
+        class="grid grid-3col"><div><p style="text-align:center"><span
+        style="font-size:large">Scale</span></p><img
+        src="modules/grimwild/assets/img/flavor-scales/swordsorcery-scale.svg"><p
+        style="text-align:center"><em>Use your might and wits to overcome
+        personal stakes</em></p></div><div><p style="text-align:center"><span
+        style="font-size:large">Lethality</span></p><img
+        src="modules/grimwild/assets/img/flavor-scales/swordsorcery-lethality.svg"><p
+        style="text-align:center"><em>Danger abounds, but you are strong enough
+        to meet it</em></p></div><div><p style="text-align:center"><span
+        style="font-size:large">Magic</span></p><img
+        src="modules/grimwild/assets/img/flavor-scales/swordsorcery-magic.svg"><p
+        style="text-align:center"><em>Magic corrupts the fools who seek it
+        out</em></p></div></section><div><h3>Playing Sword &amp; Sorcery
+        Games</h3><ul><li><p><strong>Keep scenes moving and decisive.</strong>
+        These games thrive on high-octane momentum, where bold action wins out
+        over planning and maneuvering. Make use of montages, and jump into
+        scenes in media res (in the middle of the action) using story
+        rolls.</p></li><li><p><strong>Heroes have some moral ambiguity.</strong>
+        Characters are more often outlaws, sellswords, and thieves than classic
+        heroes. They're driven by self-interest—fighting for gold, freedom, or
+        day-to-day survival. The narrative focuses on the immediate, visceral
+        struggle of flawed people fighting like hell against corrupt sorcerers,
+        ancient horrors, and tyranny.</p></li></ul><h3>Rules
+        Tweaks</h3><ul><li><p>No <strong>magic</strong>, or rare and dangerous
+        magic (@UUID[.jMmlxr0QujJmwyB6#magic]{Setting
+        dials})</p></li><li><p>Make a 1d story roll when
+        <strong>dropped</strong>.</p></li><li><p>Clear
+        <em><strong>marks</strong></em> and <em><strong>harm</strong></em> after
+        each scene.</p></li><li><p><strong>Vex</strong> happens more often, but
+        social fallout from vex responses is lessened.</p></li><li><p>Each PC
+        has a <strong>4d Renown</strong> campaign timer, spreading their legend.
+        Those in the greater world will come to know their
+        names.</p></li><li><p><strong>Mooks</strong> require no roll to take
+        out.</p></li><li><p>Slow progression, but <strong>carousing</strong>
+        earns +1
+        XP.</p></li><li><p><strong>@UUID[.lyXL4rv9s6r3cF7T#vigor-pool]{Vigor
+        Pool}</strong> (Optional Rule).</p></li></ul><h3>Media
+        Touchstones</h3><p><strong>Literature:</strong> Conan the Barbarian, The
+        Grimnir Trilogy, Fafhrd and the Gray
+        Mouser</p><p><strong>Visual:</strong> Fire and Ice, Heavy Metal, Jason
+        and the Argonauts</p><p><strong>Interactive:</strong> Thief: The Dark
+        Age, Dragon's Dogma, Risen series</p></div><div></div>
+    video:
+      controls: true
+      volume: 0.5
+    src: null
+    category: null
+    ownership:
+      default: -1
+      79CEe5dKC6Ls5VbU: 3
+    flags: {}
+    _stats:
+      coreVersion: '14.368'
+      systemId: grimwild
+      systemVersion: 0.5.3
+      createdTime: 1783208903553
+      modifiedTime: 1791665774917
+      lastModifiedBy: nF9qxzj59Qn6fNSn
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+    _key: '!journal.pages!unDWj5tvsH6ZOLYD.za0SK5kwQgGy7Jdc'
+  - sort: 1400000
+    name: Flavor - High Fantasy
+    type: text
+    _id: FtO08qHOxqftJgD2
+    system: {}
+    title:
+      show: true
+      level: 2
+    image: {}
+    text:
+      format: 1
+      content: >-
+        <p><strong>Epic and grand, often with a sense of wonder.</strong> Cosmic
+        conflicts, destinies, and large-scale battles. Magic is powerful, heroes
+        are exceptional, and conflicts are vast. These stories are about heroes
+        standing at the center of myths, not just surviving, but becoming a part
+        of them.</p><p><strong>Use this flavor</strong> when you want grand
+        stories of destiny, wonder, and world-shaping events.</p><section
+        class="grid grid-3col"><div><p style="text-align:center"><span
+        style="font-size:large">Scale</span></p><img
+        src="modules/grimwild/assets/img/flavor-scales/highfantasy-scale.svg"><p
+        style="text-align:center"><em>The choices made will shape the future of
+        the world</em></p></div><div><p style="text-align:center"><span
+        style="font-size:large">Lethality</span></p><img
+        src="modules/grimwild/assets/img/flavor-scales/highfantasy-lethality.svg"><p
+        style="text-align:center"><em>You're incredible, but up against ultimate
+        power</em></p></div><div><p style="text-align:center"><span
+        style="font-size:large">Magic</span></p><img
+        src="modules/grimwild/assets/img/flavor-scales/highfantasy-magic.svg"><p
+        style="text-align:center"><em>Magic, gods, and mysticism are
+        everywhere</em></p></div></section><div><h3>Playing High Fantasy
+        Games</h3><ul><li><p><strong>Think in terms of regions, factions, and
+        eras.</strong> These stories are cosmic in scale, covering a sprawling
+        landscape, and yet tied to the characters, ensuring their personal
+        choices matter and their victories reshape the setting.
+        </p></li><li><p><strong>Lean into the lore and history of the
+        world.</strong> Every ruined civilization, ancient prophecy, and
+        bloodline carries meaning, playing into the unfolding destiny of the
+        Chosen characters and their realm.</p></li></ul><h3>Rules
+        Tweaks</h3><ul><li><p>PCs begin at <strong>3rd level</strong> with 2
+        minor arcana or 1 major arcana, as well as a story about where they came
+        from.</p></li><li><p><strong>Mooks</strong> require no roll to take out,
+        while <strong>toughs</strong> can be taken a few at a
+        time.</p></li><li><p><strong>Bosses</strong> are linked challenges,
+        usually with a trick to overcoming them.</p></li><li><p>More rolls are
+        automatic
+        <strong>successes</strong>.</p></li><li><p><strong>@UUID[.lyXL4rv9s6r3cF7T#token-initiative]{Token
+        Initiative}</strong> (Optional Rule). This helps keep narrative balance
+        when more rolls are automatically successful.</p></li></ul><h3>Media
+        Touchstones</h3><p><strong>Literature:</strong> The Wheel of Time,
+        Malazan Book of the Fallen, A Court of Thorns and
+        Roses</p><p><strong>Visual:</strong> The Dark Crystal, Kill 6 Billion
+        Demons, The Never Ending Story</p><p><strong>Interactive:</strong> Final
+        Fantasy, The Elder Scrolls series, Kingdoms of Amalur</p></div>
+    video:
+      controls: true
+      volume: 0.5
+    src: null
+    category: null
+    ownership:
+      default: -1
+      79CEe5dKC6Ls5VbU: 3
+    flags: {}
+    _stats:
+      coreVersion: '14.368'
+      systemId: grimwild
+      systemVersion: 0.5.3
+      createdTime: 1783208912664
+      modifiedTime: 1791665910376
+      lastModifiedBy: nF9qxzj59Qn6fNSn
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+    _key: '!journal.pages!unDWj5tvsH6ZOLYD.FtO08qHOxqftJgD2'
+  - sort: 1500000
+    name: Flavor - Cozy Fantasy
+    type: text
+    _id: Ym801JI4j9LtcT4f
+    system: {}
+    title:
+      show: true
+      level: 2
+    image: {}
+    text:
+      format: 1
+      content: >-
+        <p><strong>Wholesome, heartwarming, and low-stakes.</strong> Stories are
+        focused on friendship, personal growth, and the simple joys in a magical
+        world. Conflict exists, but rarely with high stakes. Cozy fantasy is
+        about finding comfort, connection, and meaning in small
+        moments.</p><p><strong>Use this flavor</strong> when you want warm,
+        character-driven stories about belonging and growth.</p><section
+        class="grid grid-3col"><div><p style="text-align:center"><span
+        style="font-size:large">Scale</span></p><img
+        src="modules/grimwild/assets/img/flavor-scales/cozy-scale.svg"><p
+        style="text-align:center"><em>Stories are personal, and
+        low-stakes</em></p></div><div><p style="text-align:center"><span
+        style="font-size:large">Lethality</span></p><img
+        src="modules/grimwild/assets/img/flavor-scales/cozy-lethality.svg"><p
+        style="text-align:center"><em>True danger is rare, and with heart, you
+        overcome</em></p></div><div><p style="text-align:center"><span
+        style="font-size:large">Magic</span></p><img
+        src="modules/grimwild/assets/img/flavor-scales/cozy-magic.svg"><p
+        style="text-align:center"><em>The world is full of whimsy, arcane or
+        not</em></p></div></section><div><h3>Playing Cozy Fantasy
+        Games</h3><ul><li><p>Center the warmth of relationships. The narrative
+        is slow, showing the comfort of shared meals and a growing sense of
+        belonging. </p></li><li><p><strong>Tension comes from misunderstandings,
+        or are mindless.</strong> Friction is relatable, and conflicts are low
+        stakes, often resolved through communication, vulnerability, and
+        empathy. Truly antagonistic forces come in the form of natural
+        disasters, the wilderness, and nebu- lous supernatural forces.
+        </p></li><li><p><strong>Celebrate small victories.</strong> The world
+        isn't in danger, so these stories show the delight of new friendships,
+        finding just the right ingredient for a meal, and taking care of those
+        around you.</p></li></ul><h3>Rules Tweaks</h3><ul><li><p><strong>Low
+        stakes</strong> is the default. Normal stakes and higher must be
+        declared.</p></li><li><p>PCs and allies <strong>only die in meaningful
+        ways</strong>, almost always outside of
+        conflict.</p></li><li><p><strong>Slow progression</strong>, but changing
+        a bond or completing a story arc in the session earns +1
+        XP.</p></li><li><p>Characters can’t progress past <strong>level
+        3</strong>. Once PCs reach major milestones, they’re allowed to switch
+        out one talent with another.</p></li></ul><h3>Media
+        Touchstones</h3><p><strong>Literature:</strong> Legends and Lattes, The
+        Spellshop, The Ogress and the Orphans</p><p><strong>Visual:</strong>
+        Kiki's Delivery Service, Spirited Away, Delicious in
+        Dungeon</p><p><strong>Interactive:</strong> Stardew Valley, beacon
+        Pines, Wytchwood</p></div><div></div>
+    video:
+      controls: true
+      volume: 0.5
+    src: null
+    category: null
+    ownership:
+      default: -1
+      79CEe5dKC6Ls5VbU: 3
+    flags: {}
+    _stats:
+      coreVersion: '14.368'
+      systemId: grimwild
+      systemVersion: 0.5.3
+      createdTime: 1783208917216
+      modifiedTime: 1791666018675
+      lastModifiedBy: nF9qxzj59Qn6fNSn
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+    _key: '!journal.pages!unDWj5tvsH6ZOLYD.Ym801JI4j9LtcT4f'
+folder: aWaAs4c2dc0DezX4
+categories: []
+sort: 100000
+ownership:
+  default: 0
+  79CEe5dKC6Ls5VbU: 3
+flags: {}
+_stats:
+  coreVersion: '14.368'
+  systemId: grimwild
+  systemVersion: 0.5.3
+  createdTime: 1782770309259
+  modifiedTime: 1791746174439
+  lastModifiedBy: nF9qxzj59Qn6fNSn
+  compendiumSource: null
+  duplicateSource: null
+  exportSource: null
+_key: '!journal!unDWj5tvsH6ZOLYD'

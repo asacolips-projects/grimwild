@@ -1,0 +1,31 @@
+folder: TtWJSOkkmQ7qhO1P
+name: Swift Recovery
+type: talent
+_id: 2WWeYwl3Fvfytj5P
+img: icons/magic/life/heart-cross-strong-purple-orange.webp
+system:
+  description: >-
+    <p>On a perfect roll with an unmarked stat, clear a
+    <em><strong>mark</strong></em> on another stat.</p>
+  core: false
+  notes:
+    description: ''
+    label: ''
+  trackers: []
+effects: []
+sort: 0
+ownership:
+  default: 0
+  79CEe5dKC6Ls5VbU: 3
+flags: {}
+_stats:
+  coreVersion: '14.368'
+  systemId: grimwild
+  systemVersion: 0.5.3
+  createdTime: 1782662617709
+  modifiedTime: 1791743382983
+  lastModifiedBy: nF9qxzj59Qn6fNSn
+  compendiumSource: null
+  duplicateSource: null
+  exportSource: null
+_key: '!items!2WWeYwl3Fvfytj5P'

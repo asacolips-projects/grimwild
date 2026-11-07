@@ -1,0 +1,157 @@
+name: Shadow Ray - Last Victim
+description: ''
+formula: 1d6
+results:
+  - name: ''
+    description: <b>Lithe scout</b>, carrying war plans to the frontline.
+    range:
+      - 1
+      - 1
+    _id: 5mTjMGZIjvkn8sNX
+    type: text
+    img: null
+    weight: 1
+    drawn: false
+    flags: {}
+    _stats:
+      coreVersion: '14.364'
+      systemId: grimwild
+      systemVersion: 0.5.3
+      createdTime: 1783270821400
+      modifiedTime: 1783270821400
+      lastModifiedBy: 79CEe5dKC6Ls5VbU
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+    _key: '!tables.results!17Tnwk6y79s6H3ky.5mTjMGZIjvkn8sNX'
+  - name: ''
+    description: <b>Unusual thief</b>, with a now decaying fortune.
+    range:
+      - 2
+      - 2
+    _id: 13Q1Qwq5cEwCxK7X
+    type: text
+    img: null
+    weight: 1
+    drawn: false
+    flags: {}
+    _stats:
+      coreVersion: '14.364'
+      systemId: grimwild
+      systemVersion: 0.5.3
+      createdTime: 1783270821400
+      modifiedTime: 1783270821400
+      lastModifiedBy: 79CEe5dKC6Ls5VbU
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+    _key: '!tables.results!17Tnwk6y79s6H3ky.13Q1Qwq5cEwCxK7X'
+  - name: ''
+    description: <b>Young owlbear</b>, only partially digested.
+    range:
+      - 3
+      - 3
+    _id: Us9svExhslndr4dw
+    type: text
+    img: null
+    weight: 1
+    drawn: false
+    flags: {}
+    _stats:
+      coreVersion: '14.364'
+      systemId: grimwild
+      systemVersion: 0.5.3
+      createdTime: 1783270821400
+      modifiedTime: 1783270821400
+      lastModifiedBy: 79CEe5dKC6Ls5VbU
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+    _key: '!tables.results!17Tnwk6y79s6H3ky.Us9svExhslndr4dw'
+  - name: ''
+    description: <b>Giant rats</b>, strewn across the area.
+    range:
+      - 4
+      - 4
+    _id: qo4XYPUS1H7cUXy5
+    type: text
+    img: null
+    weight: 1
+    drawn: false
+    flags: {}
+    _stats:
+      coreVersion: '14.364'
+      systemId: grimwild
+      systemVersion: 0.5.3
+      createdTime: 1783270821400
+      modifiedTime: 1783270821400
+      lastModifiedBy: 79CEe5dKC6Ls5VbU
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+    _key: '!tables.results!17Tnwk6y79s6H3ky.qo4XYPUS1H7cUXy5'
+  - name: ''
+    description: <b>Messenger</b>, delivering a love letter to a noble.
+    range:
+      - 5
+      - 5
+    _id: GNyPiToBZsQStNmI
+    type: text
+    img: null
+    weight: 1
+    drawn: false
+    flags: {}
+    _stats:
+      coreVersion: '14.364'
+      systemId: grimwild
+      systemVersion: 0.5.3
+      createdTime: 1783270821400
+      modifiedTime: 1783270821400
+      lastModifiedBy: 79CEe5dKC6Ls5VbU
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+    _key: '!tables.results!17Tnwk6y79s6H3ky.GNyPiToBZsQStNmI'
+  - name: ''
+    description: <b>Adventurer</b>, abandoned by their allies.
+    range:
+      - 6
+      - 6
+    _id: UZhKW4amjGYg1ms3
+    type: text
+    img: null
+    weight: 1
+    drawn: false
+    flags: {}
+    _stats:
+      coreVersion: '14.364'
+      systemId: grimwild
+      systemVersion: 0.5.3
+      createdTime: 1783270821400
+      modifiedTime: 1783270821400
+      lastModifiedBy: 79CEe5dKC6Ls5VbU
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+    _key: '!tables.results!17Tnwk6y79s6H3ky.UZhKW4amjGYg1ms3'
+folder: rgX8m8cC6QFqYNJB
+sort: 5600000
+_id: 17Tnwk6y79s6H3ky
+img: icons/svg/d20-grey.svg
+replacement: true
+displayRoll: true
+ownership:
+  default: 0
+  79CEe5dKC6Ls5VbU: 3
+flags: {}
+_stats:
+  coreVersion: '14.368'
+  systemId: grimwild
+  systemVersion: 0.5.3
+  createdTime: 1783270821400
+  modifiedTime: 1791749998256
+  lastModifiedBy: nF9qxzj59Qn6fNSn
+  compendiumSource: null
+  duplicateSource: null
+  exportSource: null
+_key: '!tables!17Tnwk6y79s6H3ky'

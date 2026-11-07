@@ -1,0 +1,157 @@
+name: Mammoth - Graveyard Encounters
+description: ''
+formula: 1d6
+results:
+  - name: ''
+    description: <b>Frost Giant Pilgrim</b>, here to honor the dead.
+    range:
+      - 1
+      - 1
+    _id: Up3LKtPHfyfCS38w
+    type: text
+    img: null
+    weight: 1
+    drawn: false
+    flags: {}
+    _stats:
+      coreVersion: '14.364'
+      systemId: grimwild
+      systemVersion: 0.5.3
+      createdTime: 1783270821360
+      modifiedTime: 1783270821360
+      lastModifiedBy: 79CEe5dKC6Ls5VbU
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+    _key: '!tables.results!5hErAvGZMiQwGc1S.Up3LKtPHfyfCS38w'
+  - name: ''
+    description: <b>Former rider</b>, a wight cursed to tend the land.
+    range:
+      - 2
+      - 2
+    _id: 2wFpVYxANk8Rv90Z
+    type: text
+    img: null
+    weight: 1
+    drawn: false
+    flags: {}
+    _stats:
+      coreVersion: '14.364'
+      systemId: grimwild
+      systemVersion: 0.5.3
+      createdTime: 1783270821360
+      modifiedTime: 1783270821360
+      lastModifiedBy: 79CEe5dKC6Ls5VbU
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+    _key: '!tables.results!5hErAvGZMiQwGc1S.2wFpVYxANk8Rv90Z'
+  - name: ''
+    description: <b>Forgotten relic</b>, carved from mammoth tusk.
+    range:
+      - 3
+      - 3
+    _id: b9LfXdEpwT1x0r9f
+    type: text
+    img: null
+    weight: 1
+    drawn: false
+    flags: {}
+    _stats:
+      coreVersion: '14.364'
+      systemId: grimwild
+      systemVersion: 0.5.3
+      createdTime: 1783270821360
+      modifiedTime: 1783270821360
+      lastModifiedBy: 79CEe5dKC6Ls5VbU
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+    _key: '!tables.results!5hErAvGZMiQwGc1S.b9LfXdEpwT1x0r9f'
+  - name: ''
+    description: <b>Bone witch</b>, drawing power from the dead.
+    range:
+      - 4
+      - 4
+    _id: 2xQC1x3mwGdtgOQS
+    type: text
+    img: null
+    weight: 1
+    drawn: false
+    flags: {}
+    _stats:
+      coreVersion: '14.364'
+      systemId: grimwild
+      systemVersion: 0.5.3
+      createdTime: 1783270821360
+      modifiedTime: 1783270821360
+      lastModifiedBy: 79CEe5dKC6Ls5VbU
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+    _key: '!tables.results!5hErAvGZMiQwGc1S.2xQC1x3mwGdtgOQS'
+  - name: ''
+    description: <b>Ivory scavengers</b>, out of their element and in danger.
+    range:
+      - 5
+      - 5
+    _id: 1GUb0kFmWlA02lZu
+    type: text
+    img: null
+    weight: 1
+    drawn: false
+    flags: {}
+    _stats:
+      coreVersion: '14.364'
+      systemId: grimwild
+      systemVersion: 0.5.3
+      createdTime: 1783270821360
+      modifiedTime: 1783270821360
+      lastModifiedBy: 79CEe5dKC6Ls5VbU
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+    _key: '!tables.results!5hErAvGZMiQwGc1S.1GUb0kFmWlA02lZu'
+  - name: ''
+    description: <b>Legendary sabertooth</b>, the one who caused this.
+    range:
+      - 6
+      - 6
+    _id: SibEgDSQ86urNEFa
+    type: text
+    img: null
+    weight: 1
+    drawn: false
+    flags: {}
+    _stats:
+      coreVersion: '14.364'
+      systemId: grimwild
+      systemVersion: 0.5.3
+      createdTime: 1783270821360
+      modifiedTime: 1783270821360
+      lastModifiedBy: 79CEe5dKC6Ls5VbU
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+    _key: '!tables.results!5hErAvGZMiQwGc1S.SibEgDSQ86urNEFa'
+folder: rgX8m8cC6QFqYNJB
+sort: 3300000
+_id: 5hErAvGZMiQwGc1S
+img: icons/svg/d20-grey.svg
+replacement: true
+displayRoll: true
+ownership:
+  default: 0
+  79CEe5dKC6Ls5VbU: 3
+flags: {}
+_stats:
+  coreVersion: '14.368'
+  systemId: grimwild
+  systemVersion: 0.5.3
+  createdTime: 1783270821360
+  modifiedTime: 1791749998255
+  lastModifiedBy: nF9qxzj59Qn6fNSn
+  compendiumSource: null
+  duplicateSource: null
+  exportSource: null
+_key: '!tables!5hErAvGZMiQwGc1S'

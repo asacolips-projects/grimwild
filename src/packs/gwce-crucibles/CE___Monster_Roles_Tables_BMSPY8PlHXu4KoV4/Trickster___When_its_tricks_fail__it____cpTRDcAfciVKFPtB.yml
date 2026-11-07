@@ -1,0 +1,157 @@
+name: Trickster - When its tricks fail, it...
+description: ''
+formula: 1d6
+results:
+  - name: ''
+    description: feigns weakness, to lure enemies closer.
+    range:
+      - 1
+      - 1
+    _id: OAInQi8mwktLyEwX
+    type: text
+    img: icons/svg/d20-black.svg
+    weight: 1
+    drawn: false
+    flags: {}
+    _stats:
+      coreVersion: '14.368'
+      systemId: grimwild
+      systemVersion: 0.5.3
+      createdTime: 1791833741904
+      modifiedTime: 1791833741904
+      lastModifiedBy: nF9qxzj59Qn6fNSn
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+    _key: '!tables.results!cpTRDcAfciVKFPtB.OAInQi8mwktLyEwX'
+  - name: ''
+    description: dodges frantically, hoping to regain control.
+    range:
+      - 2
+      - 2
+    _id: IOeY8OLmbdQyBtK9
+    type: text
+    img: icons/svg/d20-black.svg
+    weight: 1
+    drawn: false
+    flags: {}
+    _stats:
+      coreVersion: '14.368'
+      systemId: grimwild
+      systemVersion: 0.5.3
+      createdTime: 1791833741904
+      modifiedTime: 1791833741904
+      lastModifiedBy: nF9qxzj59Qn6fNSn
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+    _key: '!tables.results!cpTRDcAfciVKFPtB.IOeY8OLmbdQyBtK9'
+  - name: ''
+    description: mocks enemies to draw attention away.
+    range:
+      - 3
+      - 3
+    _id: wgnVasc7LFYHSSn8
+    type: text
+    img: icons/svg/d20-black.svg
+    weight: 1
+    drawn: false
+    flags: {}
+    _stats:
+      coreVersion: '14.368'
+      systemId: grimwild
+      systemVersion: 0.5.3
+      createdTime: 1791833741904
+      modifiedTime: 1791833741904
+      lastModifiedBy: nF9qxzj59Qn6fNSn
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+    _key: '!tables.results!cpTRDcAfciVKFPtB.wgnVasc7LFYHSSn8'
+  - name: ''
+    description: escapes, leaving a decoy in its place.
+    range:
+      - 4
+      - 4
+    _id: l8ZAXJm2Xdopdoua
+    type: text
+    img: icons/svg/d20-black.svg
+    weight: 1
+    drawn: false
+    flags: {}
+    _stats:
+      coreVersion: '14.368'
+      systemId: grimwild
+      systemVersion: 0.5.3
+      createdTime: 1791833741904
+      modifiedTime: 1791833741904
+      lastModifiedBy: nF9qxzj59Qn6fNSn
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+    _key: '!tables.results!cpTRDcAfciVKFPtB.l8ZAXJm2Xdopdoua'
+  - name: ''
+    description: reverses their position, to surprise opponents.
+    range:
+      - 5
+      - 5
+    _id: MR0pud6uUNzPJuMz
+    type: text
+    img: icons/svg/d20-black.svg
+    weight: 1
+    drawn: false
+    flags: {}
+    _stats:
+      coreVersion: '14.368'
+      systemId: grimwild
+      systemVersion: 0.5.3
+      createdTime: 1791833741904
+      modifiedTime: 1791833741904
+      lastModifiedBy: nF9qxzj59Qn6fNSn
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+    _key: '!tables.results!cpTRDcAfciVKFPtB.MR0pud6uUNzPJuMz'
+  - name: ''
+    description: lashes out in desperation, to cover failure.
+    range:
+      - 6
+      - 6
+    _id: c3Qk8FG2grsy3Ok3
+    type: text
+    img: icons/svg/d20-black.svg
+    weight: 1
+    drawn: false
+    flags: {}
+    _stats:
+      coreVersion: '14.368'
+      systemId: grimwild
+      systemVersion: 0.5.3
+      createdTime: 1791833741904
+      modifiedTime: 1791833741904
+      lastModifiedBy: nF9qxzj59Qn6fNSn
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+    _key: '!tables.results!cpTRDcAfciVKFPtB.c3Qk8FG2grsy3Ok3'
+folder: BMSPY8PlHXu4KoV4
+_id: cpTRDcAfciVKFPtB
+img: icons/svg/d20-grey.svg
+replacement: true
+displayRoll: true
+ownership:
+  default: 0
+  nF9qxzj59Qn6fNSn: 3
+flags: {}
+_stats:
+  coreVersion: '14.368'
+  systemId: grimwild
+  systemVersion: 0.5.3
+  createdTime: 1791833741904
+  modifiedTime: 1791833741904
+  lastModifiedBy: nF9qxzj59Qn6fNSn
+  compendiumSource: null
+  duplicateSource: null
+  exportSource: null
+sort: 0
+_key: '!tables!cpTRDcAfciVKFPtB'
