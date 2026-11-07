@@ -176,6 +176,15 @@ GRIMWILD:
           label: Traits
         moves:
           label: Moves
+      ChallengeMap:
+        LinkMode: Link Mode
+        LinkModeTitle: "Click an anchor on one challenge, then an anchor on another, to link them"
+        LinksCleared: Links cleared - layout changed
+        AnchorInUse: That anchor already has a connection
+        LinkToSelf: Pick anchors on two different challenges
+        LinkDelete: Delete Link
+        LinkExists: Those challenges are already linked
+        LinkCreated: Challenges linked
     LinkedChallenge:
       FIELDS:
         pool:
@@ -242,6 +251,10 @@ GRIMWILD:
           label: Failure States
         suspense:
           label: Suspense
+        position:
+          label: Map Position
+        links:
+          label: Links
   Effect:
     Source: Source
     Toggle: Toggle Effect

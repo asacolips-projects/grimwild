@@ -36,6 +36,41 @@ export default class GrimwildChallenge extends GrimwildItemBase {
 			value: new fields.StringField()
 		}));
 
+		// Links between sibling challenges, rendered in the columns view.
+		schema.links = new fields.ArrayField(new fields.SchemaField({
+			// Id of the challenge Item this link points at, on the same actor.
+			target: new fields.DocumentIdField({
+				required: true
+			}),
+			// Anchor ids where the line attaches on each end (e.g. "left-top",
+			// "bottom", "corner-top-left").
+			fromAnchor: new fields.StringField({
+				required: false,
+				blank: true,
+				initial: ""
+			}),
+			toAnchor: new fields.StringField({
+				required: false,
+				blank: true,
+				initial: ""
+			}),
+			style: new fields.StringField({
+				required: true,
+				initial: "solid",
+				choices: ["solid", "dashed", "dotted", "squiggle"]
+			}),
+			arrow: new fields.StringField({
+				required: true,
+				initial: "fwd",
+				choices: ["none", "fwd", "rev", "both"]
+			}),
+			label: new fields.StringField({
+				required: false,
+				blank: true,
+				initial: ""
+			})
+		}));
+
 		return schema;
 	}
 

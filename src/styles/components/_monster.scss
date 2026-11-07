@@ -50,6 +50,8 @@
 		justify-content: flex-end;
 
 		.item-controls {
+			display: flex;
+			flex-direction: row;
 			flex: 0 0 auto;
 			// Weird CSS bug that was causing this overflow if there was no margin.
 			margin: 0 2px;
@@ -58,7 +60,7 @@
 
 	.items-list {
 		columns: 3;
-		column-gap: 8px;
+		column-gap: 12px;
 		padding: 8px 0;
 
 		.challenge {
@@ -66,6 +68,9 @@
 			border-radius: 4px;
 			break-inside: avoid-column;
 			padding: 4px;
+			// Vertical breathing room between stacked rows, so anchors on
+			// facing edges stay visually distinct.
+			margin-bottom: 12px;
 
 			body.theme-dark & {
 				background: var(--background);

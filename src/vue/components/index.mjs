@@ -8,6 +8,7 @@ export { default as CharEffects } from "@/components/actor/character/CharEffects
 // Monster.
 export { default as MonsterHeader } from "@/components/actor/monster/MonsterHeader.vue";
 export { default as MonsterChallenges } from "@/components/actor/monster/MonsterChallenges.vue";
+export { default as ChallengeLinkOverlay } from "@/components/actor/monster/ChallengeLinkOverlay.vue";
 export { default as MonsterBiography } from "@/components/actor/monster/MonsterBiography.vue";
 export { default as MonsterTables } from "@/components/actor/monster/MonsterTables.vue";
 export { default as MonsterTraitsMoves } from "@/components/actor/monster/MonsterTraitsMoves.vue";

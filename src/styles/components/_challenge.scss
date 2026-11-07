@@ -3,3 +3,187 @@
     flex: 0 0 130px;
   }
 }
+
+// ------------------------------------------------------------------
+// Anchor-based link overlay for the columns challenges view.
+// ------------------------------------------------------------------
+.challenge-link-wrap {
+  position: relative;
+  // Elbow stubs poke ~20px outside the card grid, so the region keeps
+  // padding around the cards for those lines to render without clipping.
+  padding: 24px;
+
+  // Cards paint above the line layer so routes that cross a card pass
+  // underneath it. The list box itself is click-transparent so clicks in the
+  // gutters reach the line hit-paths below; the cards opt back in.
+  > .items-list {
+    position: relative;
+    z-index: 1;
+    pointer-events: none;
+
+    .challenge {
+      pointer-events: auto;
+    }
+  }
+
+  > svg {
+    position: absolute;
+    inset: 0;
+    width: 100%;
+    height: 100%;
+    overflow: visible;
+    pointer-events: none;
+  }
+
+  > svg.link-lines {
+    z-index: 0;
+  }
+
+  > svg.link-anchors {
+    z-index: 2;
+  }
+
+  .link-arrow-fill {
+    fill: var(--cl-edge);
+  }
+
+  .link-arrow-fill-selected {
+    fill: var(--cl-accent);
+  }
+
+  .edge {
+    .hit {
+      fill: none;
+      stroke: transparent;
+      stroke-width: 14;
+      pointer-events: stroke;
+      cursor: pointer;
+    }
+
+    .line {
+      fill: none;
+      stroke: var(--cl-edge);
+      stroke-width: 2;
+      transition: stroke 0.15s;
+    }
+
+    &.style-dashed .line {
+      stroke-dasharray: 9 7;
+    }
+
+    &.style-dotted .line {
+      stroke-dasharray: 2 6;
+      stroke-linecap: round;
+      stroke-width: 2.5;
+    }
+
+    &.style-squiggle .line {
+      stroke-width: 1.75;
+    }
+
+    &.selected .line {
+      stroke: var(--cl-accent);
+      stroke-width: 2.5;
+    }
+  }
+
+  .rubber {
+    fill: none;
+    stroke: var(--cl-accent);
+    stroke-width: 1.5;
+    stroke-dasharray: 6 5;
+    pointer-events: none;
+  }
+
+  .link-dot {
+    fill: var(--cl-dot);
+    stroke: var(--cl-halo);
+    stroke-width: 1.5;
+    pointer-events: auto;
+    cursor: crosshair;
+    transform-box: fill-box;
+    transform-origin: center;
+    transition: transform 0.1s;
+
+    &:hover {
+      transform: scale(1.5);
+    }
+
+    &.pending {
+      fill: var(--cl-accent);
+      stroke: var(--cl-accent);
+    }
+
+    // Anchors already hosting an endpoint are inert.
+    &.used {
+      opacity: 0.25;
+      pointer-events: none;
+    }
+  }
+
+  .link-popover {
+    position: absolute;
+    z-index: 3;
+    display: flex;
+    gap: 8px;
+    align-items: center;
+    flex-wrap: wrap;
+    padding: 6px 8px;
+    background: #221b14;
+    border: 1px solid #e2b45c;
+    border-radius: 5px;
+    box-shadow: 0 8px 24px rgb(0 0 0 / 0.5);
+
+    .seg {
+      display: flex;
+      overflow: hidden;
+      border: 1px solid #4a4033;
+      border-radius: 4px;
+
+      button {
+        padding: 2px 8px;
+        font-size: 12px;
+        font-family: system-ui, sans-serif;
+        color: #b9ab8a;
+        cursor: pointer;
+        background: transparent;
+        border: 0;
+        border-left: 1px solid #4a4033;
+
+        &:first-child {
+          border-left: 0;
+        }
+
+        &.active {
+          color: #1d1712;
+          background: #e2b45c;
+        }
+      }
+    }
+
+    .link-delete {
+      padding: 2px 6px;
+      color: #d98a7a;
+      cursor: pointer;
+      background: none;
+      border: 0;
+
+      &:hover {
+        color: #f0b0a0;
+      }
+    }
+  }
+
+  // Theme tokens (dark overrides mirror the map view's palette).
+  --cl-edge: var(--grimwild-c-tan);
+  --cl-accent: #a4762e;
+  --cl-halo: var(--grimwild-c-groove);
+  --cl-dot: var(--grimwild-c-dark);
+
+  body.theme-dark & {
+    --cl-edge: #b5b3a4;
+    --cl-accent: #e2b45c;
+    --cl-halo: var(--background);
+    --cl-dot: #e2b45c;
+  }
+}
