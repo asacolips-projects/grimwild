@@ -251,6 +251,14 @@ Hooks.once("init", function () {
 		config: true,
 		type: Number
 	});
+
+	game.settings.register("grimwild", "maxDesperate", {
+		name: game.i18n.localize("GRIMWILD.Settings.maxDesperate.name"),
+		hint: game.i18n.localize("GRIMWILD.Settings.maxDesperate.hint"),
+		scope: "world",
+		config: false, // Disabled for now. This is here structurally, but needs a balance pass.
+		type: Number
+	});
 });
 
 /* -------------------------------------------- */

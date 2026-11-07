@@ -1,3 +1,5 @@
+import { isPhysicalStat, isMentalStat } from "../helpers/config.mjs";
+
 /**
  * @typedef {object} GrimwildRollDialogOptions
  * @property {GrimwildRollDialogRollData} rollData  The data to be injected into the roll dialog
@@ -167,19 +169,11 @@ export class GrimwildRollDialog extends foundry.applications.api.DialogV2 {
 
 		// Add CE handling.
 		rollData.ceRulesEnabled = game.settings.get("grimwild", "ceRules");
-		rollData.showBloodied = true;
-		rollData.showRattled = true;
-		rollData.showDesperate = rollData.ceRulesEnabled;
 		// If CE rules are enabled, bloodied only affects physical stats and
 		// rattled only affects mental stats, so hide their inputs when needed.
-		if (rollData.ceRulesEnabled) {
-			if (["wit", "pre"].includes(rollData.stat)) {
-				rollData.showBloodied = false;
-			}
-			if (["bra", "agi"].includes(rollData.stat)) {
-				rollData.showRattled = false;
-			}
-		}
+		rollData.showBloodied = !rollData.ceRulesEnabled || isPhysicalStat(rollData.stat);
+		rollData.showRattled = !rollData.ceRulesEnabled || isMentalStat(rollData.stat);
+		rollData.showDesperate = rollData.ceRulesEnabled;
 
 		// Render the dialog.
 		options.content = await foundry.applications.handlebars.renderTemplate("systems/grimwild/templates/dialog/stat-roll.hbs", rollData);

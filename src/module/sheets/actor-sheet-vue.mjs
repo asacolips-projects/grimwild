@@ -150,6 +150,7 @@ export class GrimwildActorSheetVue extends VueRenderingMixin(GrimwildBaseVueActo
 			context.harmEnabled = true;
 			context.maxBloodied = game.settings.get("grimwild", "maxBloodied");
 			context.maxRattled = game.settings.get("grimwild", "maxRattled");
+			context.maxDesperate = game.settings.get("grimwild", "maxDesperate");
 		}
 
 		// Handle the Community Edition rules.
