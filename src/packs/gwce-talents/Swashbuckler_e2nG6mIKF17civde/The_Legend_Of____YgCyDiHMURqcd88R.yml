@@ -1,0 +1,37 @@
+folder: e2nG6mIKF17civde
+name: The Legend Of...
+type: talent
+_id: YgCyDiHMURqcd88R
+img: icons/sundries/documents/document-sealed-white-orange.webp
+system:
+  description: >-
+    <p>Many recognize you as a hero, others as a cad and ne'er-do-well. Track
+    tales of your exploits with campaign pools. <em><strong>Take
+    spark</strong></em> when you play into it by: <em>leaving a calling
+    card—saying your catchphrase in a dramatic moment—indulging a fan</em>. Use
+    the crucible (@REF) below to discover what people have taken to calling
+    you.</p>
+  core: false
+  notes:
+    description: >-
+      <p>@UUID[Compendium.grimwild.gwce-crucibles.RollTable.VLBKjCb9UNgnnKdu]{The
+      Legend Of...}</p>
+    label: What People Call You
+  trackers: []
+effects: []
+sort: 0
+ownership:
+  default: 0
+  79CEe5dKC6Ls5VbU: 3
+flags: {}
+_stats:
+  coreVersion: '14.368'
+  systemId: grimwild
+  systemVersion: 0.5.3
+  createdTime: 1783005661978
+  modifiedTime: 1791753507520
+  lastModifiedBy: nF9qxzj59Qn6fNSn
+  compendiumSource: null
+  duplicateSource: null
+  exportSource: null
+_key: '!items!YgCyDiHMURqcd88R'

@@ -1,0 +1,37 @@
+folder: KGASAmtds3ZDqfAx
+name: Animate Objects
+type: talent
+_id: El1lO8dY68n1saGD
+img: icons/magic/control/control-influence-puppet.webp
+system:
+  description: >-
+    <p>Given time, you can bestow a semblance of life into objects, giving them
+    a <strong>2d Animated</strong> power pool, and controlling them with simple
+    one-word commands. They can roll 1d of their power pool to
+    <em><strong>assist</strong></em> you. You can reliably com- mand up to three
+    of these at a time, with others following their nature.</p>
+  core: false
+  notes:
+    description: >-
+      <p><em>“Following their nature” means they mindlessly do what they were
+      created to do. Brooms sweep, wrenches crank bolts, daggers attack—all
+      without direction from you.</em></p>
+    label: ''
+  trackers: []
+effects: []
+sort: 0
+ownership:
+  default: 0
+  79CEe5dKC6Ls5VbU: 3
+flags: {}
+_stats:
+  coreVersion: '14.368'
+  systemId: grimwild
+  systemVersion: 0.5.3
+  createdTime: 1782662610263
+  modifiedTime: 1791743184626
+  lastModifiedBy: nF9qxzj59Qn6fNSn
+  compendiumSource: null
+  duplicateSource: null
+  exportSource: null
+_key: '!items!El1lO8dY68n1saGD'

@@ -1,0 +1,141 @@
+folder: F8CI5dUSyXiqHSMA
+name: Blooming Maw
+type: monster
+_id: PsOIambYvmpPfjs4
+img: icons/svg/poison.svg
+system:
+  biography: >-
+    <p>A tall, vividly colored flower with petal-lined jaws and a rich,
+    intoxicating scent. It waits motionless until prey draws near, then snaps
+    shut with shocking speed.</p><p><em><strong>When</strong> heavily damaged,
+    <strong>it will</strong> release a cloud of spores.</em></p>
+  notes: >-
+    <p>@Embed[Compendium.grimwild.gwce-crucibles.RollTable.pp2pGw03n0YPtWDF]{Blooming
+    Maw - Flower Types}</p>
+  role: lurker
+  tier: tough
+  traits:
+    - Jungle camouflage
+    - Alluring scent
+    - Rooted in place
+  moves:
+    - Snap Shut
+    - Vines Drag Close
+    - Intoxicate
+  desires:
+    - value: to lure prey with scent and vibrant colors
+      are: false
+    - value: to experience harsh elements
+      are: false
+  sensories:
+    colors:
+      - name: Sickly Green
+        color: '#324f21'
+      - name: Venomous Magenta
+        color: '#7d104d'
+      - name: Blood Red
+        color: '#6c1319'
+    sights: vibrant color, flecks of old blood, long swaying vines
+    sounds: distant bees, wet snap, strange silence
+    smells: floral rot, jasmine and sweet honey mixed
+  pool:
+    diceNum: 0
+    powerPool: false
+  tables: []
+prototypeToken:
+  name: Blooming Maw
+  displayName: 0
+  actorLink: false
+  width: 1
+  height: 1
+  depth: 1
+  texture:
+    src: icons/svg/poison.svg
+    anchorX: 0.5
+    anchorY: 0.5
+    fit: contain
+    scaleX: 1
+    scaleY: 1
+    tint: '#ffffff'
+    alphaThreshold: 0.75
+  lockRotation: false
+  rotation: 0
+  alpha: 1
+  disposition: -1
+  displayBars: 0
+  bar1:
+    attribute: health
+  bar2:
+    attribute: power
+  light:
+    negative: false
+    priority: 0
+    alpha: 0.5
+    angle: 360
+    bright: 0
+    color: null
+    coloration: 1
+    dim: 0
+    attenuation: 0.5
+    luminosity: 0.5
+    saturation: 0
+    contrast: 0
+    shadows: 0
+    animation:
+      type: null
+      speed: 5
+      intensity: 5
+      reverse: false
+    darkness:
+      min: 0
+      max: 1
+  sight:
+    enabled: false
+    range: 0
+    angle: 360
+    visionMode: basic
+    color: null
+    attenuation: 0.1
+    brightness: 0
+    saturation: 0
+    contrast: 0
+  detectionModes: {}
+  occludable:
+    radius: 0
+  ring:
+    enabled: false
+    colors:
+      ring: null
+      background: null
+    effects: 1
+    subject:
+      scale: 1
+      texture: null
+  turnMarker:
+    mode: 1
+    animation: null
+    src: null
+    disposition: false
+  movementAction: null
+  flags: {}
+  randomImg: false
+  appendNumber: false
+  prependAdjective: false
+items: []
+effects: []
+sort: 0
+ownership:
+  default: 0
+  nF9qxzj59Qn6fNSn: 3
+flags: {}
+_stats:
+  coreVersion: '14.368'
+  systemId: grimwild
+  systemVersion: 0.5.3
+  createdTime: 1791751995172
+  modifiedTime: 1791752212132
+  lastModifiedBy: nF9qxzj59Qn6fNSn
+  compendiumSource: null
+  duplicateSource: null
+  exportSource: null
+_key: '!actors!PsOIambYvmpPfjs4'

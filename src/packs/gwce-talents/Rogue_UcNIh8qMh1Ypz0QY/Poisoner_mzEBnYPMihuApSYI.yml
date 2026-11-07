@@ -1,0 +1,43 @@
+folder: UcNIh8qMh1Ypz0QY
+name: Poisoner
+type: talent
+_id: mzEBnYPMihuApSYI
+img: icons/skills/toxins/poison-bottle-corked-fire-green.webp
+system:
+  description: >-
+    <p>Each session, you have a <strong>4d Poisons</strong> resource pool. You
+    have access to the following poisons: <em>hallucinations—knockout—memory
+    loss—nausea—paralytic— truth serum</em>. They each take a bit of time to
+    work and are most effective if ingested.</p>
+  core: false
+  notes:
+    description: ''
+    label: ''
+  trackers:
+    - type: pool
+      pool:
+        powerPool: false
+        diceNum: 4
+        max: 4
+      label: Poisons
+      points:
+        showSteps: false
+        value: 1
+        max: 1
+effects: []
+sort: 0
+ownership:
+  default: 0
+  79CEe5dKC6Ls5VbU: 3
+flags: {}
+_stats:
+  coreVersion: '14.368'
+  systemId: grimwild
+  systemVersion: 0.5.3
+  createdTime: 1782929090447
+  modifiedTime: 1791744884339
+  lastModifiedBy: nF9qxzj59Qn6fNSn
+  compendiumSource: null
+  duplicateSource: null
+  exportSource: null
+_key: '!items!mzEBnYPMihuApSYI'

@@ -1,0 +1,32 @@
+folder: sioTtoSBZibsvpR5
+name: Flight
+type: talent
+_id: uUCY7c6ul7XZ7Gpb
+img: icons/svg/item-bag.svg
+system:
+  description: >-
+    <p>You have the ability to fly. Choose two of the following benefits that
+    define this ability: <em>Agile—Strong—Swift—Tireless</em>. Be mindful of
+    what you carry; most fliers can’t bring much with them.</p>
+  core: false
+  notes:
+    description: ''
+    label: ''
+  trackers: []
+effects: []
+sort: 0
+ownership:
+  default: 0
+  79CEe5dKC6Ls5VbU: 3
+flags: {}
+_stats:
+  coreVersion: '14.364'
+  systemId: grimwild
+  systemVersion: 0.5.3
+  createdTime: 1782662611330
+  modifiedTime: 1782662611330
+  lastModifiedBy: 79CEe5dKC6Ls5VbU
+  compendiumSource: null
+  duplicateSource: null
+  exportSource: null
+_key: '!items!uUCY7c6ul7XZ7Gpb'

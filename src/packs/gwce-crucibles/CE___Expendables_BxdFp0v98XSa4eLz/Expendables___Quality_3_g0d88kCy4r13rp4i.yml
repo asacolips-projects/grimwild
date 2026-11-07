@@ -1,0 +1,157 @@
+name: Expendables - Quality 3
+formula: 1d6
+description: ''
+results:
+  - range:
+      - 1
+      - 1
+    name: ''
+    description: colorful
+    _id: QT6ue4A2mMhsmSJL
+    type: text
+    img: icons/svg/d20-black.svg
+    weight: 1
+    drawn: false
+    flags: {}
+    _stats:
+      coreVersion: '14.368'
+      systemId: grimwild
+      systemVersion: 0.5.3
+      createdTime: 1791746885713
+      modifiedTime: 1791746885713
+      lastModifiedBy: nF9qxzj59Qn6fNSn
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+    _key: '!tables.results!g0d88kCy4r13rp4i.QT6ue4A2mMhsmSJL'
+  - range:
+      - 2
+      - 2
+    name: ''
+    description: faint
+    _id: Wje37TE9ObCXjdpl
+    type: text
+    img: icons/svg/d20-black.svg
+    weight: 1
+    drawn: false
+    flags: {}
+    _stats:
+      coreVersion: '14.368'
+      systemId: grimwild
+      systemVersion: 0.5.3
+      createdTime: 1791746885713
+      modifiedTime: 1791746885713
+      lastModifiedBy: nF9qxzj59Qn6fNSn
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+    _key: '!tables.results!g0d88kCy4r13rp4i.Wje37TE9ObCXjdpl'
+  - range:
+      - 3
+      - 3
+    name: ''
+    description: drifting
+    _id: uGXcPOhcSB3mkGhA
+    type: text
+    img: icons/svg/d20-black.svg
+    weight: 1
+    drawn: false
+    flags: {}
+    _stats:
+      coreVersion: '14.368'
+      systemId: grimwild
+      systemVersion: 0.5.3
+      createdTime: 1791746885713
+      modifiedTime: 1791746885713
+      lastModifiedBy: nF9qxzj59Qn6fNSn
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+    _key: '!tables.results!g0d88kCy4r13rp4i.uGXcPOhcSB3mkGhA'
+  - range:
+      - 4
+      - 4
+    name: ''
+    description: living
+    _id: tsygUXdaa4X6CT7Q
+    type: text
+    img: icons/svg/d20-black.svg
+    weight: 1
+    drawn: false
+    flags: {}
+    _stats:
+      coreVersion: '14.368'
+      systemId: grimwild
+      systemVersion: 0.5.3
+      createdTime: 1791746885713
+      modifiedTime: 1791746885713
+      lastModifiedBy: nF9qxzj59Qn6fNSn
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+    _key: '!tables.results!g0d88kCy4r13rp4i.tsygUXdaa4X6CT7Q'
+  - range:
+      - 5
+      - 5
+    name: ''
+    description: viscous
+    _id: z8WJlmTZYkK7DwIh
+    type: text
+    img: icons/svg/d20-black.svg
+    weight: 1
+    drawn: false
+    flags: {}
+    _stats:
+      coreVersion: '14.368'
+      systemId: grimwild
+      systemVersion: 0.5.3
+      createdTime: 1791746885713
+      modifiedTime: 1791746885713
+      lastModifiedBy: nF9qxzj59Qn6fNSn
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+    _key: '!tables.results!g0d88kCy4r13rp4i.z8WJlmTZYkK7DwIh'
+  - range:
+      - 6
+      - 6
+    name: ''
+    description: strange
+    _id: k0lJuqj4MOPOi9Ul
+    type: text
+    img: icons/svg/d20-black.svg
+    weight: 1
+    drawn: false
+    flags: {}
+    _stats:
+      coreVersion: '14.368'
+      systemId: grimwild
+      systemVersion: 0.5.3
+      createdTime: 1791746885713
+      modifiedTime: 1791746885713
+      lastModifiedBy: nF9qxzj59Qn6fNSn
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+    _key: '!tables.results!g0d88kCy4r13rp4i.k0lJuqj4MOPOi9Ul'
+folder: BxdFp0v98XSa4eLz
+_id: g0d88kCy4r13rp4i
+img: icons/svg/d20-grey.svg
+replacement: true
+displayRoll: true
+ownership:
+  default: 0
+  nF9qxzj59Qn6fNSn: 3
+flags: {}
+_stats:
+  coreVersion: '14.368'
+  systemId: grimwild
+  systemVersion: 0.5.3
+  createdTime: 1791746885713
+  modifiedTime: 1791746887262
+  lastModifiedBy: nF9qxzj59Qn6fNSn
+  compendiumSource: null
+  duplicateSource: null
+  exportSource: null
+sort: 400000
+_key: '!tables!g0d88kCy4r13rp4i'

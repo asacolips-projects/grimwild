@@ -1,0 +1,35 @@
+folder: DRRquhcPQ3Tydpoy
+name: Shared Soul
+type: talent
+_id: sCv0nEBChFrYl2KT
+img: icons/magic/control/energy-stream-link-orange.webp
+system:
+  description: >-
+    <p>You can merge with your vassal, sharing path talents, aspects, and
+    incoming harm. You can choose to use the power pool or your own stats, and
+    when your anchors break, take +1d on the story roll.</p>
+  core: false
+  notes:
+    description: >-
+      <p><em>This can open up a lot of character concepts. You could be a
+      werewolf, have the ghost of a family member possessing you, or know the
+      alchemical secret to turn yourself into a mutated monster!</em></p>
+    label: ''
+  trackers: []
+effects: []
+sort: 0
+ownership:
+  default: 0
+  79CEe5dKC6Ls5VbU: 3
+flags: {}
+_stats:
+  coreVersion: '14.368'
+  systemId: grimwild
+  systemVersion: 0.5.3
+  createdTime: 1783005301890
+  modifiedTime: 1791745253513
+  lastModifiedBy: nF9qxzj59Qn6fNSn
+  compendiumSource: null
+  duplicateSource: null
+  exportSource: null
+_key: '!items!sCv0nEBChFrYl2KT'

@@ -1,0 +1,181 @@
+name: Animated Objects
+type: monster
+img: icons/svg/poison.svg
+system:
+  biography: >-
+    <p>Mundane items like chairs, swords, curtains, and suits of armor that
+    spring to life with unnatural motion. They may be reasoned with or lash out,
+    enacting their curses.</p><p><em><strong>When</strong> the curse is lifted,
+    <strong>it will</strong> become human again.</em></p>
+  notes: >-
+    <p>@Embed[Compendium.grimwild.gwce-crucibles.RollTable.pj1u8waQqqUIumSa]{Animated
+    Object - Personality All Its Own}</p>
+  role: brute
+  tier: tough
+  traits:
+    - Tireless object
+    - Speech, sometimes
+  moves:
+    - Batter
+    - Blend In
+    - Reform from Parts
+  desires:
+    - value: to fulfill their command, even if given long ago
+      are: false
+    - value: to be used for its intended purpose
+      are: false
+  sensories:
+    colors:
+      - name: Aged Copper
+        color: '#7a2814'
+      - name: Old Wood
+        color: '#402a20'
+      - name: Antique Porcelain
+        color: '#cdddc8'
+    sights: scratches on floor from movement, things out of place
+    sounds: groaning hinges, scraping wood or metal
+    smells: old dust, aged oil and polish, faint leather odor
+  pool:
+    diceNum: 0
+    powerPool: false
+  tables: []
+prototypeToken:
+  name: Animated Objects
+  displayName: 40
+  actorLink: false
+  width: 1
+  height: 1
+  depth: 1
+  texture:
+    src: icons/svg/poison.svg
+    anchorX: 0.5
+    anchorY: 0.5
+    fit: contain
+    scaleX: 1
+    scaleY: 1
+    tint: '#ffffff'
+    alphaThreshold: 0.75
+  lockRotation: false
+  rotation: 0
+  alpha: 1
+  disposition: -1
+  displayBars: 0
+  bar1:
+    attribute: health
+  bar2:
+    attribute: power
+  light:
+    negative: false
+    priority: 0
+    alpha: 0.5
+    angle: 360
+    bright: 0
+    color: null
+    coloration: 1
+    dim: 0
+    attenuation: 0.5
+    luminosity: 0.5
+    saturation: 0
+    contrast: 0
+    shadows: 0
+    animation:
+      type: null
+      speed: 5
+      intensity: 5
+      reverse: false
+    darkness:
+      min: 0
+      max: 1
+  sight:
+    enabled: false
+    range: 0
+    angle: 360
+    visionMode: basic
+    color: null
+    attenuation: 0.1
+    brightness: 0
+    saturation: 0
+    contrast: 0
+  detectionModes: {}
+  occludable:
+    radius: 0
+  ring:
+    enabled: false
+    colors:
+      ring: null
+      background: null
+    effects: 1
+    subject:
+      scale: 1
+      texture: null
+  turnMarker:
+    mode: 1
+    animation: null
+    src: null
+    disposition: false
+  movementAction: null
+  flags: {}
+  randomImg: false
+  appendNumber: false
+  prependAdjective: false
+items:
+  - name: Small Group
+    type: challenge
+    _id: anQMLZzPx5alseOx
+    img: icons/svg/item-bag.svg
+    system:
+      description: ''
+      roll:
+        diceNum: 0
+        powerPool: false
+      pool:
+        diceNum: 4
+        powerPool: false
+      suspense:
+        steps:
+          - false
+          - false
+      traits:
+        - ''
+        - ''
+      moves:
+        - ''
+        - ''
+        - ''
+      failure: []
+    effects: []
+    folder: null
+    sort: 0
+    flags: {}
+    _stats:
+      coreVersion: '14.364'
+      systemId: grimwild
+      systemVersion: 0.5.3
+      lastModifiedBy: 79CEe5dKC6Ls5VbU
+      createdTime: 1783200277363
+      modifiedTime: 1783200277363
+      exportSource: null
+      compendiumSource: null
+      duplicateSource: null
+    ownership:
+      default: 0
+    _key: '!actors.items!TJcrjAkIcHiZ1QKz.anQMLZzPx5alseOx'
+effects: []
+folder: YpbrmAFpS8nN9j3T
+ownership:
+  default: 0
+  79CEe5dKC6Ls5VbU: 3
+flags: {}
+_stats:
+  coreVersion: '14.368'
+  systemId: grimwild
+  systemVersion: 0.5.3
+  createdTime: 1783200277363
+  modifiedTime: 1791751757811
+  lastModifiedBy: nF9qxzj59Qn6fNSn
+  exportSource: null
+  compendiumSource: null
+  duplicateSource: null
+_id: TJcrjAkIcHiZ1QKz
+sort: 100000
+_key: '!actors!TJcrjAkIcHiZ1QKz'

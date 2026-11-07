@@ -1,0 +1,33 @@
+folder: 6OEIki9pct8qQ0C9
+name: Affliction
+type: talent
+_id: q8TSRpH8hSF1Ysaz
+img: icons/magic/life/cross-beam-green.webp
+system:
+  description: >-
+    <p>Once per session, you can place your hands on another to heal a
+    <em><strong>harm</strong></em> by transferring the injury. Allies can roll
+    defense to resist this effect. Talk with your GM about transferring other
+    maladies, such as <em><strong>conditions</strong></em>.</p>
+  core: false
+  notes:
+    description: ''
+    label: ''
+  trackers: []
+effects: []
+sort: 0
+ownership:
+  default: 0
+  79CEe5dKC6Ls5VbU: 3
+flags: {}
+_stats:
+  coreVersion: '14.368'
+  systemId: grimwild
+  systemVersion: 0.5.3
+  createdTime: 1783005957899
+  modifiedTime: 1791753528845
+  lastModifiedBy: nF9qxzj59Qn6fNSn
+  compendiumSource: null
+  duplicateSource: null
+  exportSource: null
+_key: '!items!q8TSRpH8hSF1Ysaz'

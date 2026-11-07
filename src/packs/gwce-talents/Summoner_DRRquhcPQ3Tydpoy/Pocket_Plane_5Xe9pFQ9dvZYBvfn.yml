@@ -1,0 +1,33 @@
+folder: DRRquhcPQ3Tydpoy
+name: Pocket Plane
+type: talent
+_id: 5Xe9pFQ9dvZYBvfn
+img: icons/magic/symbols/triangle-glow-purple.webp
+system:
+  description: >-
+    <p>Given time, you can open a hole to a small pocket dimension about the
+    size of a room. You can <em><strong>push yourself</strong></em> to open it
+    on the spot. If dropped, make a story roll to see what happens inside as the
+    plane collapses. You don't need anchors for planar travel rituals.</p>
+  core: false
+  notes:
+    description: ''
+    label: ''
+  trackers: []
+effects: []
+sort: 0
+ownership:
+  default: 0
+  79CEe5dKC6Ls5VbU: 3
+flags: {}
+_stats:
+  coreVersion: '14.368'
+  systemId: grimwild
+  systemVersion: 0.5.3
+  createdTime: 1783005307367
+  modifiedTime: 1791745286893
+  lastModifiedBy: nF9qxzj59Qn6fNSn
+  compendiumSource: null
+  duplicateSource: null
+  exportSource: null
+_key: '!items!5Xe9pFQ9dvZYBvfn'

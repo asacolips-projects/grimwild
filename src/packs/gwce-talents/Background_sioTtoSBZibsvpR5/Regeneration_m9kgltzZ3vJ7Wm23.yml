@@ -1,0 +1,34 @@
+folder: sioTtoSBZibsvpR5
+name: Regeneration
+type: talent
+_id: m9kgltzZ3vJ7Wm23
+img: icons/svg/item-bag.svg
+system:
+  description: >-
+    <p>When a scene ends while you are <em><strong>bloodied</strong></em> or
+    <em><strong>desperate</strong></em>, make a 2d story roll as a defense
+    against the harm. On a messy, reduce 1 <em><strong>harm</strong></em> to a
+    <em><strong>mark</strong></em>. On a perfect, clear it.Choose a weakness
+    that accompanies this power, such as: <em>fire— iron—sunlight</em>.</p>
+  core: false
+  notes:
+    description: ''
+    label: ''
+  trackers: []
+effects: []
+sort: 0
+ownership:
+  default: 0
+  79CEe5dKC6Ls5VbU: 3
+flags: {}
+_stats:
+  coreVersion: '14.364'
+  systemId: grimwild
+  systemVersion: 0.5.3
+  createdTime: 1782662611332
+  modifiedTime: 1782662611332
+  lastModifiedBy: 79CEe5dKC6Ls5VbU
+  compendiumSource: null
+  duplicateSource: null
+  exportSource: null
+_key: '!items!m9kgltzZ3vJ7Wm23'

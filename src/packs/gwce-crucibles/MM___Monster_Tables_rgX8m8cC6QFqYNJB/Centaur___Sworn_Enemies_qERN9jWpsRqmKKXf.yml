@@ -1,0 +1,171 @@
+name: Centaur - Sworn Enemies
+_id: qERN9jWpsRqmKKXf
+img: icons/svg/d20-grey.svg
+description: ''
+results:
+  - type: text
+    weight: 1
+    range:
+      - 1
+      - 1
+    _id: mwQQMo0rgMDnhXI5
+    name: ''
+    img: icons/svg/d20-black.svg
+    description: >-
+      <p><strong>Gnoll raiders</strong>, stealing and destroying all in their
+      path</p>
+    drawn: false
+    flags: {}
+    _stats:
+      coreVersion: '14.368'
+      systemId: grimwild
+      systemVersion: 0.5.3
+      createdTime: 1791751415387
+      modifiedTime: 1791751415387
+      lastModifiedBy: nF9qxzj59Qn6fNSn
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+    documentUuid: null
+    _key: '!tables.results!qERN9jWpsRqmKKXf.mwQQMo0rgMDnhXI5'
+  - type: text
+    weight: 1
+    range:
+      - 2
+      - 2
+    _id: SRepW5kjWfQbhG7m
+    name: ''
+    img: icons/svg/d20-black.svg
+    description: >-
+      <p>A <strong>cult of ember and ash</strong>, seeking to raise a fire
+      god.</p>
+    drawn: false
+    flags: {}
+    _stats:
+      coreVersion: '14.368'
+      systemId: grimwild
+      systemVersion: 0.5.3
+      createdTime: 1791751415387
+      modifiedTime: 1791751415387
+      lastModifiedBy: nF9qxzj59Qn6fNSn
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+    documentUuid: null
+    _key: '!tables.results!qERN9jWpsRqmKKXf.SRepW5kjWfQbhG7m'
+  - type: text
+    weight: 1
+    range:
+      - 3
+      - 3
+    _id: rZq0HO68QIWp9hbt
+    name: ''
+    img: icons/svg/d20-black.svg
+    description: >-
+      <p><strong>Corrupted river spirit</strong>, poisoning the nearby
+      lands.</p>
+    drawn: false
+    flags: {}
+    _stats:
+      coreVersion: '14.368'
+      systemId: grimwild
+      systemVersion: 0.5.3
+      createdTime: 1791751415387
+      modifiedTime: 1791751415387
+      lastModifiedBy: nF9qxzj59Qn6fNSn
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+    documentUuid: null
+    _key: '!tables.results!qERN9jWpsRqmKKXf.rZq0HO68QIWp9hbt'
+  - type: text
+    weight: 1
+    range:
+      - 4
+      - 4
+    _id: Hnaky4qzmncQEPE7
+    name: ''
+    img: icons/svg/d20-black.svg
+    description: <p><strong>Green dragon</strong>, spreading fear and toxic influence.</p>
+    drawn: false
+    flags: {}
+    _stats:
+      coreVersion: '14.368'
+      systemId: grimwild
+      systemVersion: 0.5.3
+      createdTime: 1791751415387
+      modifiedTime: 1791751415387
+      lastModifiedBy: nF9qxzj59Qn6fNSn
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+    documentUuid: null
+    _key: '!tables.results!qERN9jWpsRqmKKXf.Hnaky4qzmncQEPE7'
+  - type: text
+    weight: 1
+    range:
+      - 5
+      - 5
+    _id: yd85GTyQKgia60DO
+    name: ''
+    img: icons/svg/d20-black.svg
+    description: >-
+      <p>A <strong>band of orcs</strong>, cutting down trees for their
+      tribe.</p>
+    drawn: false
+    flags: {}
+    _stats:
+      coreVersion: '14.368'
+      systemId: grimwild
+      systemVersion: 0.5.3
+      createdTime: 1791751415387
+      modifiedTime: 1791751415387
+      lastModifiedBy: nF9qxzj59Qn6fNSn
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+    documentUuid: null
+    _key: '!tables.results!qERN9jWpsRqmKKXf.yd85GTyQKgia60DO'
+  - type: text
+    weight: 1
+    range:
+      - 6
+      - 6
+    _id: GPdmx3Ley7JYyeZ5
+    name: ''
+    img: icons/svg/d20-black.svg
+    description: <p>Underground <strong>dwarves</strong>, mining and causing sinkholes.</p>
+    drawn: false
+    flags: {}
+    _stats:
+      coreVersion: '14.368'
+      systemId: grimwild
+      systemVersion: 0.5.3
+      createdTime: 1791751415387
+      modifiedTime: 1791751415387
+      lastModifiedBy: nF9qxzj59Qn6fNSn
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+    documentUuid: null
+    _key: '!tables.results!qERN9jWpsRqmKKXf.GPdmx3Ley7JYyeZ5'
+replacement: true
+displayRoll: true
+folder: rgX8m8cC6QFqYNJB
+ownership:
+  default: 0
+  nF9qxzj59Qn6fNSn: 3
+flags: {}
+_stats:
+  coreVersion: '14.368'
+  systemId: grimwild
+  systemVersion: 0.5.3
+  createdTime: 1791751415387
+  modifiedTime: 1791751415387
+  lastModifiedBy: nF9qxzj59Qn6fNSn
+  compendiumSource: null
+  duplicateSource: null
+  exportSource: null
+formula: ''
+sort: 0
+_key: '!tables!qERN9jWpsRqmKKXf'

@@ -1,0 +1,157 @@
+name: Magic Hunter - How It Stops Spellcasters
+description: ''
+formula: 1d6
+results:
+  - name: ''
+    description: <b>Cone of silence</b> emanating from body.
+    range:
+      - 1
+      - 1
+    _id: GlhUbBgRpNNf9il8
+    type: text
+    img: null
+    weight: 1
+    drawn: false
+    flags: {}
+    _stats:
+      coreVersion: '14.364'
+      systemId: grimwild
+      systemVersion: 0.5.3
+      createdTime: 1783270821299
+      modifiedTime: 1783270821299
+      lastModifiedBy: 79CEe5dKC6Ls5VbU
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+    _key: '!tables.results!RTeTnSkrq2DoPF2Y.GlhUbBgRpNNf9il8'
+  - name: ''
+    description: <b>Draws energy from magic</b>, making it stronger.
+    range:
+      - 2
+      - 2
+    _id: LSgSveA3lN9jJTCH
+    type: text
+    img: null
+    weight: 1
+    drawn: false
+    flags: {}
+    _stats:
+      coreVersion: '14.364'
+      systemId: grimwild
+      systemVersion: 0.5.3
+      createdTime: 1783270821299
+      modifiedTime: 1783270821299
+      lastModifiedBy: 79CEe5dKC6Ls5VbU
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+    _key: '!tables.results!RTeTnSkrq2DoPF2Y.LSgSveA3lN9jJTCH'
+  - name: ''
+    description: <b>Restraining nets</b>, paralyzing unfortunate foes.
+    range:
+      - 3
+      - 3
+    _id: iL9B79bLvo6ml2bl
+    type: text
+    img: null
+    weight: 1
+    drawn: false
+    flags: {}
+    _stats:
+      coreVersion: '14.364'
+      systemId: grimwild
+      systemVersion: 0.5.3
+      createdTime: 1783270821299
+      modifiedTime: 1783270821299
+      lastModifiedBy: 79CEe5dKC6Ls5VbU
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+    _key: '!tables.results!RTeTnSkrq2DoPF2Y.iL9B79bLvo6ml2bl'
+  - name: ''
+    description: <b>Collar or manicles</b> that prevent magic.
+    range:
+      - 4
+      - 4
+    _id: hKLQyuRmIUaQPcRY
+    type: text
+    img: null
+    weight: 1
+    drawn: false
+    flags: {}
+    _stats:
+      coreVersion: '14.364'
+      systemId: grimwild
+      systemVersion: 0.5.3
+      createdTime: 1783270821299
+      modifiedTime: 1783270821299
+      lastModifiedBy: 79CEe5dKC6Ls5VbU
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+    _key: '!tables.results!RTeTnSkrq2DoPF2Y.hKLQyuRmIUaQPcRY'
+  - name: ''
+    description: <b>Shocking motes</b> that are attracted to spellcasting.
+    range:
+      - 5
+      - 5
+    _id: WS3G9fP8GOQ3gUGP
+    type: text
+    img: null
+    weight: 1
+    drawn: false
+    flags: {}
+    _stats:
+      coreVersion: '14.364'
+      systemId: grimwild
+      systemVersion: 0.5.3
+      createdTime: 1783270821299
+      modifiedTime: 1783270821299
+      lastModifiedBy: 79CEe5dKC6Ls5VbU
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+    _key: '!tables.results!RTeTnSkrq2DoPF2Y.WS3G9fP8GOQ3gUGP'
+  - name: ''
+    description: <b>Polarizing field</b> around it, reversing spell effects.
+    range:
+      - 6
+      - 6
+    _id: 5ztUsKlrViw1eZup
+    type: text
+    img: null
+    weight: 1
+    drawn: false
+    flags: {}
+    _stats:
+      coreVersion: '14.364'
+      systemId: grimwild
+      systemVersion: 0.5.3
+      createdTime: 1783270821299
+      modifiedTime: 1783270821299
+      lastModifiedBy: 79CEe5dKC6Ls5VbU
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+    _key: '!tables.results!RTeTnSkrq2DoPF2Y.5ztUsKlrViw1eZup'
+folder: rgX8m8cC6QFqYNJB
+sort: 500000
+_id: RTeTnSkrq2DoPF2Y
+img: icons/svg/d20-grey.svg
+replacement: true
+displayRoll: true
+ownership:
+  default: 0
+  79CEe5dKC6Ls5VbU: 3
+flags: {}
+_stats:
+  coreVersion: '14.368'
+  systemId: grimwild
+  systemVersion: 0.5.3
+  createdTime: 1783270821299
+  modifiedTime: 1791749998254
+  lastModifiedBy: nF9qxzj59Qn6fNSn
+  compendiumSource: null
+  duplicateSource: null
+  exportSource: null
+_key: '!tables!RTeTnSkrq2DoPF2Y'

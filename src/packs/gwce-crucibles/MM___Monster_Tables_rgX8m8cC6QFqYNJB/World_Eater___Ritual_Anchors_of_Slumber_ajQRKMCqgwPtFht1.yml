@@ -1,0 +1,157 @@
+name: World Eater - Ritual Anchors of Slumber
+description: ''
+formula: 1d6
+results:
+  - name: ''
+    description: <b>Elemental spirit</b> summoned and willingly sacrificed.
+    range:
+      - 1
+      - 1
+    _id: mL4t6iusoIBzuu4h
+    type: text
+    img: null
+    weight: 1
+    drawn: false
+    flags: {}
+    _stats:
+      coreVersion: '14.364'
+      systemId: grimwild
+      systemVersion: 0.5.3
+      createdTime: 1783270821388
+      modifiedTime: 1783270821388
+      lastModifiedBy: 79CEe5dKC6Ls5VbU
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+    _key: '!tables.results!ajQRKMCqgwPtFht1.mL4t6iusoIBzuu4h'
+  - name: ''
+    description: <b>Drop of blood</b> from a sleeping god.
+    range:
+      - 2
+      - 2
+    _id: FGE69LX7GOg49CMy
+    type: text
+    img: null
+    weight: 1
+    drawn: false
+    flags: {}
+    _stats:
+      coreVersion: '14.364'
+      systemId: grimwild
+      systemVersion: 0.5.3
+      createdTime: 1783270821388
+      modifiedTime: 1783270821388
+      lastModifiedBy: 79CEe5dKC6Ls5VbU
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+    _key: '!tables.results!ajQRKMCqgwPtFht1.FGE69LX7GOg49CMy'
+  - name: ''
+    description: <b>Unbroken mirror</b>, present for the first time it awoke.
+    range:
+      - 3
+      - 3
+    _id: IG3AcD6WRrMJ9MSQ
+    type: text
+    img: null
+    weight: 1
+    drawn: false
+    flags: {}
+    _stats:
+      coreVersion: '14.364'
+      systemId: grimwild
+      systemVersion: 0.5.3
+      createdTime: 1783270821388
+      modifiedTime: 1783270821388
+      lastModifiedBy: 79CEe5dKC6Ls5VbU
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+    _key: '!tables.results!ajQRKMCqgwPtFht1.IG3AcD6WRrMJ9MSQ'
+  - name: ''
+    description: <b>Shard of the moon</b>, ground to dust.
+    range:
+      - 4
+      - 4
+    _id: RNe2VzXcSFsRcmv9
+    type: text
+    img: null
+    weight: 1
+    drawn: false
+    flags: {}
+    _stats:
+      coreVersion: '14.364'
+      systemId: grimwild
+      systemVersion: 0.5.3
+      createdTime: 1783270821388
+      modifiedTime: 1783270821388
+      lastModifiedBy: 79CEe5dKC6Ls5VbU
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+    _key: '!tables.results!ajQRKMCqgwPtFht1.RNe2VzXcSFsRcmv9'
+  - name: ''
+    description: <b>Ringing of a bell</b> forged in a dark and shadowy plane.
+    range:
+      - 5
+      - 5
+    _id: SVTZSKjhbyCkleNd
+    type: text
+    img: null
+    weight: 1
+    drawn: false
+    flags: {}
+    _stats:
+      coreVersion: '14.364'
+      systemId: grimwild
+      systemVersion: 0.5.3
+      createdTime: 1783270821388
+      modifiedTime: 1783270821388
+      lastModifiedBy: 79CEe5dKC6Ls5VbU
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+    _key: '!tables.results!ajQRKMCqgwPtFht1.SVTZSKjhbyCkleNd'
+  - name: ''
+    description: <b>Noble bloodline</b>, ended in an instant.
+    range:
+      - 6
+      - 6
+    _id: IrCt85S1r1ddADv6
+    type: text
+    img: null
+    weight: 1
+    drawn: false
+    flags: {}
+    _stats:
+      coreVersion: '14.364'
+      systemId: grimwild
+      systemVersion: 0.5.3
+      createdTime: 1783270821388
+      modifiedTime: 1783270821388
+      lastModifiedBy: 79CEe5dKC6Ls5VbU
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+    _key: '!tables.results!ajQRKMCqgwPtFht1.IrCt85S1r1ddADv6'
+folder: rgX8m8cC6QFqYNJB
+sort: 4900000
+_id: ajQRKMCqgwPtFht1
+img: icons/svg/d20-grey.svg
+replacement: true
+displayRoll: true
+ownership:
+  default: 0
+  79CEe5dKC6Ls5VbU: 3
+flags: {}
+_stats:
+  coreVersion: '14.368'
+  systemId: grimwild
+  systemVersion: 0.5.3
+  createdTime: 1783270821388
+  modifiedTime: 1791749998256
+  lastModifiedBy: nF9qxzj59Qn6fNSn
+  compendiumSource: null
+  duplicateSource: null
+  exportSource: null
+_key: '!tables!ajQRKMCqgwPtFht1'

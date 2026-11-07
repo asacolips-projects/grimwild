@@ -1,0 +1,32 @@
+folder: DYRzmNaS808jSnxV
+name: Joyful Warrior
+type: talent
+_id: d6pVv5KNlfuLyXyx
+img: /icons/magic/life/heart-hand-gold-green-light.webp
+system:
+  description: >-
+    <p>On a critical or when <em><strong>bloodied</strong></em> in battle, you
+    <em><strong>take spark</strong></em> and can: <em>clear one mark from each
+    ally—bring a dropped (not dead) ally back into the scene</em>.</p>
+  core: false
+  notes:
+    description: ''
+    label: ''
+  trackers: []
+effects: []
+sort: 0
+ownership:
+  default: 0
+  79CEe5dKC6Ls5VbU: 3
+flags: {}
+_stats:
+  coreVersion: '14.364'
+  systemId: grimwild
+  systemVersion: 0.5.3
+  createdTime: 1782662613733
+  modifiedTime: 1783008258844
+  lastModifiedBy: 79CEe5dKC6Ls5VbU
+  compendiumSource: null
+  duplicateSource: null
+  exportSource: null
+_key: '!items!d6pVv5KNlfuLyXyx'

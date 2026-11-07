@@ -1,0 +1,157 @@
+name: Shadow - A Life Long Lost
+description: ''
+formula: 1d6
+results:
+  - name: ''
+    description: <b>Knight betrayed</b>, slain by their own ward.
+    range:
+      - 1
+      - 1
+    _id: EiqhNDRXCii040jR
+    type: text
+    img: null
+    weight: 1
+    drawn: false
+    flags: {}
+    _stats:
+      coreVersion: '14.364'
+      systemId: grimwild
+      systemVersion: 0.5.3
+      createdTime: 1783270821426
+      modifiedTime: 1783270821426
+      lastModifiedBy: 79CEe5dKC6Ls5VbU
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+    _key: '!tables.results!a7uAMq80VTC4PH3X.EiqhNDRXCii040jR'
+  - name: ''
+    description: <b>Terrified deserter</b>, who died alone in the dark.
+    range:
+      - 2
+      - 2
+    _id: WNeMK5JRjAwGj4hL
+    type: text
+    img: null
+    weight: 1
+    drawn: false
+    flags: {}
+    _stats:
+      coreVersion: '14.364'
+      systemId: grimwild
+      systemVersion: 0.5.3
+      createdTime: 1783270821426
+      modifiedTime: 1783270821426
+      lastModifiedBy: 79CEe5dKC6Ls5VbU
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+    _key: '!tables.results!a7uAMq80VTC4PH3X.WNeMK5JRjAwGj4hL'
+  - name: ''
+    description: <b>Run-away child</b>, in the wrong place and time.
+    range:
+      - 3
+      - 3
+    _id: xYCVvXiXpHEwW08z
+    type: text
+    img: null
+    weight: 1
+    drawn: false
+    flags: {}
+    _stats:
+      coreVersion: '14.364'
+      systemId: grimwild
+      systemVersion: 0.5.3
+      createdTime: 1783270821426
+      modifiedTime: 1783270821426
+      lastModifiedBy: 79CEe5dKC6Ls5VbU
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+    _key: '!tables.results!a7uAMq80VTC4PH3X.xYCVvXiXpHEwW08z'
+  - name: ''
+    description: <b>Guilty priest</b>, who let darkness into their heart.
+    range:
+      - 4
+      - 4
+    _id: N1QTdXGZwy0CLPw0
+    type: text
+    img: null
+    weight: 1
+    drawn: false
+    flags: {}
+    _stats:
+      coreVersion: '14.364'
+      systemId: grimwild
+      systemVersion: 0.5.3
+      createdTime: 1783270821426
+      modifiedTime: 1783270821426
+      lastModifiedBy: 79CEe5dKC6Ls5VbU
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+    _key: '!tables.results!a7uAMq80VTC4PH3X.N1QTdXGZwy0CLPw0'
+  - name: ''
+    description: <b>Noble</b>, who watched horrors and did nothing.
+    range:
+      - 5
+      - 5
+    _id: 8QephvOL2RBsVshp
+    type: text
+    img: null
+    weight: 1
+    drawn: false
+    flags: {}
+    _stats:
+      coreVersion: '14.364'
+      systemId: grimwild
+      systemVersion: 0.5.3
+      createdTime: 1783270821426
+      modifiedTime: 1783270821426
+      lastModifiedBy: 79CEe5dKC6Ls5VbU
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+    _key: '!tables.results!a7uAMq80VTC4PH3X.8QephvOL2RBsVshp'
+  - name: ''
+    description: <b>Simple peasant</b>, killed for no reason at all.
+    range:
+      - 6
+      - 6
+    _id: 23mcc2R1iO6EnzJZ
+    type: text
+    img: null
+    weight: 1
+    drawn: false
+    flags: {}
+    _stats:
+      coreVersion: '14.364'
+      systemId: grimwild
+      systemVersion: 0.5.3
+      createdTime: 1783270821426
+      modifiedTime: 1783270821426
+      lastModifiedBy: 79CEe5dKC6Ls5VbU
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+    _key: '!tables.results!a7uAMq80VTC4PH3X.23mcc2R1iO6EnzJZ'
+folder: rgX8m8cC6QFqYNJB
+sort: 6800000
+_id: a7uAMq80VTC4PH3X
+img: icons/svg/d20-grey.svg
+replacement: true
+displayRoll: true
+ownership:
+  default: 0
+  79CEe5dKC6Ls5VbU: 3
+flags: {}
+_stats:
+  coreVersion: '14.368'
+  systemId: grimwild
+  systemVersion: 0.5.3
+  createdTime: 1783270821426
+  modifiedTime: 1791749998257
+  lastModifiedBy: nF9qxzj59Qn6fNSn
+  compendiumSource: null
+  duplicateSource: null
+  exportSource: null
+_key: '!tables!a7uAMq80VTC4PH3X'

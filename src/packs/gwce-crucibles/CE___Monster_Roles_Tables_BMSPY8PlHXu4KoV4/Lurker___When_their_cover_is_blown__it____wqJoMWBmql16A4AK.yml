@@ -1,0 +1,157 @@
+name: Lurker - When their cover is blown, it...
+formula: 1d6
+description: ''
+results:
+  - range:
+      - 1
+      - 1
+    name: ''
+    description: strikes quickly to silence the nearest threat.
+    _id: ZxaRPpQdzQgDJ3uA
+    type: text
+    img: icons/svg/d20-black.svg
+    weight: 1
+    drawn: false
+    flags: {}
+    _stats:
+      coreVersion: '14.368'
+      systemId: grimwild
+      systemVersion: 0.5.3
+      createdTime: 1791832318265
+      modifiedTime: 1791832318265
+      lastModifiedBy: nF9qxzj59Qn6fNSn
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+    _key: '!tables.results!wqJoMWBmql16A4AK.ZxaRPpQdzQgDJ3uA'
+  - range:
+      - 2
+      - 2
+    name: ''
+    description: flees into the shadows, looking for new cover.
+    _id: cTy15hTwPSpAgMRF
+    type: text
+    img: icons/svg/d20-black.svg
+    weight: 1
+    drawn: false
+    flags: {}
+    _stats:
+      coreVersion: '14.368'
+      systemId: grimwild
+      systemVersion: 0.5.3
+      createdTime: 1791832318265
+      modifiedTime: 1791832318265
+      lastModifiedBy: nF9qxzj59Qn6fNSn
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+    _key: '!tables.results!wqJoMWBmql16A4AK.cTy15hTwPSpAgMRF'
+  - range:
+      - 3
+      - 3
+    name: ''
+    description: throws debris or objects to create a distraction.
+    _id: qtyhd6lsBfY64m4t
+    type: text
+    img: icons/svg/d20-black.svg
+    weight: 1
+    drawn: false
+    flags: {}
+    _stats:
+      coreVersion: '14.368'
+      systemId: grimwild
+      systemVersion: 0.5.3
+      createdTime: 1791832318265
+      modifiedTime: 1791832318265
+      lastModifiedBy: nF9qxzj59Qn6fNSn
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+    _key: '!tables.results!wqJoMWBmql16A4AK.qtyhd6lsBfY64m4t'
+  - range:
+      - 4
+      - 4
+    name: ''
+    description: slinks behind an ally or stronger creature.
+    _id: 6SDHyHpHdFfUvbrk
+    type: text
+    img: icons/svg/d20-black.svg
+    weight: 1
+    drawn: false
+    flags: {}
+    _stats:
+      coreVersion: '14.368'
+      systemId: grimwild
+      systemVersion: 0.5.3
+      createdTime: 1791832318265
+      modifiedTime: 1791832318265
+      lastModifiedBy: nF9qxzj59Qn6fNSn
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+    _key: '!tables.results!wqJoMWBmql16A4AK.6SDHyHpHdFfUvbrk'
+  - range:
+      - 5
+      - 5
+    name: ''
+    description: unleashes a flurry of wild attacks.
+    _id: Hi7bNGOdkIj85Igd
+    type: text
+    img: icons/svg/d20-black.svg
+    weight: 1
+    drawn: false
+    flags: {}
+    _stats:
+      coreVersion: '14.368'
+      systemId: grimwild
+      systemVersion: 0.5.3
+      createdTime: 1791832318265
+      modifiedTime: 1791832318265
+      lastModifiedBy: nF9qxzj59Qn6fNSn
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+    _key: '!tables.results!wqJoMWBmql16A4AK.Hi7bNGOdkIj85Igd'
+  - range:
+      - 6
+      - 6
+    name: ''
+    description: abandons the fight entirely, escaping to safety.
+    _id: e9grIuF4sHdz2EyM
+    type: text
+    img: icons/svg/d20-black.svg
+    weight: 1
+    drawn: false
+    flags: {}
+    _stats:
+      coreVersion: '14.368'
+      systemId: grimwild
+      systemVersion: 0.5.3
+      createdTime: 1791832318265
+      modifiedTime: 1791832318265
+      lastModifiedBy: nF9qxzj59Qn6fNSn
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+    _key: '!tables.results!wqJoMWBmql16A4AK.e9grIuF4sHdz2EyM'
+folder: BMSPY8PlHXu4KoV4
+_id: wqJoMWBmql16A4AK
+img: icons/svg/d20-grey.svg
+replacement: true
+displayRoll: true
+ownership:
+  default: 0
+  nF9qxzj59Qn6fNSn: 3
+flags: {}
+_stats:
+  coreVersion: '14.368'
+  systemId: grimwild
+  systemVersion: 0.5.3
+  createdTime: 1791832318265
+  modifiedTime: 1791833675050
+  lastModifiedBy: nF9qxzj59Qn6fNSn
+  compendiumSource: null
+  duplicateSource: null
+  exportSource: null
+sort: 900000
+_key: '!tables!wqJoMWBmql16A4AK'

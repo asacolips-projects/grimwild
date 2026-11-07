@@ -1,0 +1,33 @@
+folder: 7Pdo6Y3CfWnDvLgb
+name: Shepherd
+type: talent
+_id: kitTuAlJqf7MIfVc
+img: /icons/magic/nature/root-vine-coiled-crook.webp
+system:
+  description: >-
+    <p>When you assist an ally on a defense roll that would leave them
+    <em><strong>rattled</strong></em> or with <em><strong>vex</strong></em>, you
+    can invoke your bond to take +1d on the roll. On a perfect, you both
+    <em><strong>take spark</strong></em>.</p>
+  core: false
+  notes:
+    description: ''
+    label: ''
+  trackers: []
+effects: []
+sort: 0
+ownership:
+  default: 0
+  79CEe5dKC6Ls5VbU: 3
+flags: {}
+_stats:
+  coreVersion: '14.364'
+  systemId: grimwild
+  systemVersion: 0.5.3
+  createdTime: 1782662614868
+  modifiedTime: 1783008395324
+  lastModifiedBy: 79CEe5dKC6Ls5VbU
+  compendiumSource: null
+  duplicateSource: null
+  exportSource: null
+_key: '!items!kitTuAlJqf7MIfVc'

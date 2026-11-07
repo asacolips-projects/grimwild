@@ -1,0 +1,157 @@
+name: Assassin - Method of Choice
+description: ''
+formula: 1d6
+results:
+  - name: ''
+    description: <b>Poisoned drink</b>, at a toast of their honor.
+    range:
+      - 1
+      - 1
+    _id: 3EFHOHZSx2HITNDT
+    type: text
+    img: null
+    weight: 1
+    drawn: false
+    flags: {}
+    _stats:
+      coreVersion: '14.364'
+      systemId: grimwild
+      systemVersion: 0.5.3
+      createdTime: 1783270821330
+      modifiedTime: 1783270821330
+      lastModifiedBy: 79CEe5dKC6Ls5VbU
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+    _key: '!tables.results!umwqg3Aje5cwHAcb.3EFHOHZSx2HITNDT'
+  - name: ''
+    description: <b>Well-placed bolt</b>, from atop a tall tower.
+    range:
+      - 2
+      - 2
+    _id: DCSzDNRnvt52rdRu
+    type: text
+    img: null
+    weight: 1
+    drawn: false
+    flags: {}
+    _stats:
+      coreVersion: '14.364'
+      systemId: grimwild
+      systemVersion: 0.5.3
+      createdTime: 1783270821330
+      modifiedTime: 1783270821330
+      lastModifiedBy: 79CEe5dKC6Ls5VbU
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+    _key: '!tables.results!umwqg3Aje5cwHAcb.DCSzDNRnvt52rdRu'
+  - name: ''
+    description: <b>Up close</b>, disguised as a trusted servant.
+    range:
+      - 3
+      - 3
+    _id: Ur39xTEEuyekeBVG
+    type: text
+    img: null
+    weight: 1
+    drawn: false
+    flags: {}
+    _stats:
+      coreVersion: '14.364'
+      systemId: grimwild
+      systemVersion: 0.5.3
+      createdTime: 1783270821330
+      modifiedTime: 1783270821330
+      lastModifiedBy: 79CEe5dKC6Ls5VbU
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+    _key: '!tables.results!umwqg3Aje5cwHAcb.Ur39xTEEuyekeBVG'
+  - name: ''
+    description: <b>Enchantment</b>, forcing an ally to do the deed.
+    range:
+      - 4
+      - 4
+    _id: Vs3G0uJKSmrluT2Z
+    type: text
+    img: null
+    weight: 1
+    drawn: false
+    flags: {}
+    _stats:
+      coreVersion: '14.364'
+      systemId: grimwild
+      systemVersion: 0.5.3
+      createdTime: 1783270821330
+      modifiedTime: 1783270821330
+      lastModifiedBy: 79CEe5dKC6Ls5VbU
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+    _key: '!tables.results!umwqg3Aje5cwHAcb.Vs3G0uJKSmrluT2Z'
+  - name: ''
+    description: <b>Staged accident</b>, such as a fall from a balcony.
+    range:
+      - 5
+      - 5
+    _id: HoeczZxt9uIuKhaf
+    type: text
+    img: null
+    weight: 1
+    drawn: false
+    flags: {}
+    _stats:
+      coreVersion: '14.364'
+      systemId: grimwild
+      systemVersion: 0.5.3
+      createdTime: 1783270821330
+      modifiedTime: 1783270821330
+      lastModifiedBy: 79CEe5dKC6Ls5VbU
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+    _key: '!tables.results!umwqg3Aje5cwHAcb.HoeczZxt9uIuKhaf'
+  - name: ''
+    description: <b>Dark ritual</b>, from a great distance away.
+    range:
+      - 6
+      - 6
+    _id: 4X5uNVzLfUGV0xOi
+    type: text
+    img: null
+    weight: 1
+    drawn: false
+    flags: {}
+    _stats:
+      coreVersion: '14.364'
+      systemId: grimwild
+      systemVersion: 0.5.3
+      createdTime: 1783270821330
+      modifiedTime: 1783270821330
+      lastModifiedBy: 79CEe5dKC6Ls5VbU
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+    _key: '!tables.results!umwqg3Aje5cwHAcb.4X5uNVzLfUGV0xOi'
+folder: rgX8m8cC6QFqYNJB
+sort: 1800000
+_id: umwqg3Aje5cwHAcb
+img: icons/svg/d20-grey.svg
+replacement: true
+displayRoll: true
+ownership:
+  default: 0
+  79CEe5dKC6Ls5VbU: 3
+flags: {}
+_stats:
+  coreVersion: '14.368'
+  systemId: grimwild
+  systemVersion: 0.5.3
+  createdTime: 1783270821330
+  modifiedTime: 1791749998254
+  lastModifiedBy: nF9qxzj59Qn6fNSn
+  compendiumSource: null
+  duplicateSource: null
+  exportSource: null
+_key: '!tables!umwqg3Aje5cwHAcb'

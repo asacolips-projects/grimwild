@@ -1,0 +1,157 @@
+name: Empyrean - Reality Bending Emotion
+description: ''
+formula: 1d6
+results:
+  - name: ''
+    description: <b>Sorrow</b>, drawing heavy rain or fog.
+    range:
+      - 1
+      - 1
+    _id: 2WPPNv16wkcNCDlN
+    type: text
+    img: null
+    weight: 1
+    drawn: false
+    flags: {}
+    _stats:
+      coreVersion: '14.364'
+      systemId: grimwild
+      systemVersion: 0.5.3
+      createdTime: 1783270821309
+      modifiedTime: 1783270821309
+      lastModifiedBy: 79CEe5dKC6Ls5VbU
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+    _key: '!tables.results!dvAAa1Eeq6FMUsS3.2WPPNv16wkcNCDlN'
+  - name: ''
+    description: <b>Fury</b>, bringing on a terrible storm.
+    range:
+      - 2
+      - 2
+    _id: HMtMlRD9taY9uyMS
+    type: text
+    img: null
+    weight: 1
+    drawn: false
+    flags: {}
+    _stats:
+      coreVersion: '14.364'
+      systemId: grimwild
+      systemVersion: 0.5.3
+      createdTime: 1783270821309
+      modifiedTime: 1783270821309
+      lastModifiedBy: 79CEe5dKC6Ls5VbU
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+    _key: '!tables.results!dvAAa1Eeq6FMUsS3.HMtMlRD9taY9uyMS'
+  - name: ''
+    description: <b>Joy</b>, growing beautiful flowers and warmth.
+    range:
+      - 3
+      - 3
+    _id: xLkqAIlw4HDMkmVB
+    type: text
+    img: null
+    weight: 1
+    drawn: false
+    flags: {}
+    _stats:
+      coreVersion: '14.364'
+      systemId: grimwild
+      systemVersion: 0.5.3
+      createdTime: 1783270821309
+      modifiedTime: 1783270821309
+      lastModifiedBy: 79CEe5dKC6Ls5VbU
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+    _key: '!tables.results!dvAAa1Eeq6FMUsS3.xLkqAIlw4HDMkmVB'
+  - name: ''
+    description: <b>Confusion</b>, causing colors to shift and blend.
+    range:
+      - 4
+      - 4
+    _id: 6tzlUXh85NBwQO59
+    type: text
+    img: null
+    weight: 1
+    drawn: false
+    flags: {}
+    _stats:
+      coreVersion: '14.364'
+      systemId: grimwild
+      systemVersion: 0.5.3
+      createdTime: 1783270821309
+      modifiedTime: 1783270821309
+      lastModifiedBy: 79CEe5dKC6Ls5VbU
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+    _key: '!tables.results!dvAAa1Eeq6FMUsS3.6tzlUXh85NBwQO59'
+  - name: ''
+    description: <b>Fear</b>, sending cold chills and silence to the area.
+    range:
+      - 5
+      - 5
+    _id: iUMh7Sg649xrDAJi
+    type: text
+    img: null
+    weight: 1
+    drawn: false
+    flags: {}
+    _stats:
+      coreVersion: '14.364'
+      systemId: grimwild
+      systemVersion: 0.5.3
+      createdTime: 1783270821309
+      modifiedTime: 1783270821309
+      lastModifiedBy: 79CEe5dKC6Ls5VbU
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+    _key: '!tables.results!dvAAa1Eeq6FMUsS3.iUMh7Sg649xrDAJi'
+  - name: ''
+    description: <b>Serenity</b>, bringing a feeling of weightlessness.
+    range:
+      - 6
+      - 6
+    _id: PwIIGfrJ20jWugVz
+    type: text
+    img: null
+    weight: 1
+    drawn: false
+    flags: {}
+    _stats:
+      coreVersion: '14.364'
+      systemId: grimwild
+      systemVersion: 0.5.3
+      createdTime: 1783270821309
+      modifiedTime: 1783270821309
+      lastModifiedBy: 79CEe5dKC6Ls5VbU
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+    _key: '!tables.results!dvAAa1Eeq6FMUsS3.PwIIGfrJ20jWugVz'
+folder: rgX8m8cC6QFqYNJB
+sort: 1000000
+_id: dvAAa1Eeq6FMUsS3
+img: icons/svg/d20-grey.svg
+replacement: true
+displayRoll: true
+ownership:
+  default: 0
+  79CEe5dKC6Ls5VbU: 3
+flags: {}
+_stats:
+  coreVersion: '14.368'
+  systemId: grimwild
+  systemVersion: 0.5.3
+  createdTime: 1783270821309
+  modifiedTime: 1791749998254
+  lastModifiedBy: nF9qxzj59Qn6fNSn
+  compendiumSource: null
+  duplicateSource: null
+  exportSource: null
+_key: '!tables!dvAAa1Eeq6FMUsS3'

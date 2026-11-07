@@ -1,0 +1,819 @@
+name: Building 2
+formula: 1d36
+results:
+  - name: alchemist
+    range:
+      - 1
+      - 1
+    weight: 1
+    type: text
+    _id: Y5TorInRn1Pn3bUO
+    img: null
+    description: ''
+    drawn: false
+    flags: {}
+    _stats:
+      coreVersion: '14.364'
+      systemId: grimwild
+      systemVersion: 0.5.3
+      createdTime: 1783142643037
+      modifiedTime: 1783142643037
+      lastModifiedBy: 79CEe5dKC6Ls5VbU
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+    _key: '!tables.results!xWlpsmcJxtAP2PKc.Y5TorInRn1Pn3bUO'
+  - name: shrine
+    range:
+      - 2
+      - 2
+    weight: 1
+    type: text
+    _id: VsuxFgWAagRuHCBI
+    img: null
+    description: ''
+    drawn: false
+    flags: {}
+    _stats:
+      coreVersion: '14.364'
+      systemId: grimwild
+      systemVersion: 0.5.3
+      createdTime: 1783142643037
+      modifiedTime: 1783142643037
+      lastModifiedBy: 79CEe5dKC6Ls5VbU
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+    _key: '!tables.results!xWlpsmcJxtAP2PKc.VsuxFgWAagRuHCBI'
+  - name: temple
+    range:
+      - 3
+      - 3
+    weight: 1
+    type: text
+    _id: xLgqyrDt5dgCIp67
+    img: null
+    description: ''
+    drawn: false
+    flags: {}
+    _stats:
+      coreVersion: '14.364'
+      systemId: grimwild
+      systemVersion: 0.5.3
+      createdTime: 1783142643037
+      modifiedTime: 1783142643037
+      lastModifiedBy: 79CEe5dKC6Ls5VbU
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+    _key: '!tables.results!xWlpsmcJxtAP2PKc.xLgqyrDt5dgCIp67'
+  - name: watchtower
+    range:
+      - 4
+      - 4
+    weight: 1
+    type: text
+    _id: aQsWrWghjbhU8o1j
+    img: null
+    description: ''
+    drawn: false
+    flags: {}
+    _stats:
+      coreVersion: '14.364'
+      systemId: grimwild
+      systemVersion: 0.5.3
+      createdTime: 1783142643037
+      modifiedTime: 1783142643037
+      lastModifiedBy: 79CEe5dKC6Ls5VbU
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+    _key: '!tables.results!xWlpsmcJxtAP2PKc.aQsWrWghjbhU8o1j'
+  - name: gemcutter
+    range:
+      - 5
+      - 5
+    weight: 1
+    type: text
+    _id: nAPbFzHoKIiNIxIi
+    img: null
+    description: ''
+    drawn: false
+    flags: {}
+    _stats:
+      coreVersion: '14.364'
+      systemId: grimwild
+      systemVersion: 0.5.3
+      createdTime: 1783142643037
+      modifiedTime: 1783142643037
+      lastModifiedBy: 79CEe5dKC6Ls5VbU
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+    _key: '!tables.results!xWlpsmcJxtAP2PKc.nAPbFzHoKIiNIxIi'
+  - name: observatory
+    range:
+      - 6
+      - 6
+    weight: 1
+    type: text
+    _id: N10iHV0blFvlxt9R
+    img: null
+    description: ''
+    drawn: false
+    flags: {}
+    _stats:
+      coreVersion: '14.364'
+      systemId: grimwild
+      systemVersion: 0.5.3
+      createdTime: 1783142643037
+      modifiedTime: 1783142643037
+      lastModifiedBy: 79CEe5dKC6Ls5VbU
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+    _key: '!tables.results!xWlpsmcJxtAP2PKc.N10iHV0blFvlxt9R'
+  - name: docks
+    range:
+      - 7
+      - 7
+    weight: 1
+    type: text
+    _id: TP6NK6o5Ynn6m9tw
+    img: null
+    description: ''
+    drawn: false
+    flags: {}
+    _stats:
+      coreVersion: '14.364'
+      systemId: grimwild
+      systemVersion: 0.5.3
+      createdTime: 1783142643037
+      modifiedTime: 1783142643037
+      lastModifiedBy: 79CEe5dKC6Ls5VbU
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+    _key: '!tables.results!xWlpsmcJxtAP2PKc.TP6NK6o5Ynn6m9tw'
+  - name: barracks
+    range:
+      - 8
+      - 8
+    weight: 1
+    type: text
+    _id: RlzlD8oZnwk2wr7I
+    img: null
+    description: ''
+    drawn: false
+    flags: {}
+    _stats:
+      coreVersion: '14.364'
+      systemId: grimwild
+      systemVersion: 0.5.3
+      createdTime: 1783142643037
+      modifiedTime: 1783142643037
+      lastModifiedBy: 79CEe5dKC6Ls5VbU
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+    _key: '!tables.results!xWlpsmcJxtAP2PKc.RlzlD8oZnwk2wr7I'
+  - name: armory
+    range:
+      - 9
+      - 9
+    weight: 1
+    type: text
+    _id: qKaw0ABvYdajMVJU
+    img: null
+    description: ''
+    drawn: false
+    flags: {}
+    _stats:
+      coreVersion: '14.364'
+      systemId: grimwild
+      systemVersion: 0.5.3
+      createdTime: 1783142643037
+      modifiedTime: 1783142643037
+      lastModifiedBy: 79CEe5dKC6Ls5VbU
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+    _key: '!tables.results!xWlpsmcJxtAP2PKc.qKaw0ABvYdajMVJU'
+  - name: guild hall
+    range:
+      - 10
+      - 10
+    weight: 1
+    type: text
+    _id: WFlz8J5FLH6K4WA4
+    img: null
+    description: ''
+    drawn: false
+    flags: {}
+    _stats:
+      coreVersion: '14.364'
+      systemId: grimwild
+      systemVersion: 0.5.3
+      createdTime: 1783142643037
+      modifiedTime: 1783142643037
+      lastModifiedBy: 79CEe5dKC6Ls5VbU
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+    _key: '!tables.results!xWlpsmcJxtAP2PKc.WFlz8J5FLH6K4WA4'
+  - name: scribe
+    range:
+      - 11
+      - 11
+    weight: 1
+    type: text
+    _id: zMz3CgKDgyueRGxt
+    img: null
+    description: ''
+    drawn: false
+    flags: {}
+    _stats:
+      coreVersion: '14.364'
+      systemId: grimwild
+      systemVersion: 0.5.3
+      createdTime: 1783142643037
+      modifiedTime: 1783142643037
+      lastModifiedBy: 79CEe5dKC6Ls5VbU
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+    _key: '!tables.results!xWlpsmcJxtAP2PKc.zMz3CgKDgyueRGxt'
+  - name: graveyard
+    range:
+      - 12
+      - 12
+    weight: 1
+    type: text
+    _id: v9fMJ9wm4F1oFaWr
+    img: null
+    description: ''
+    drawn: false
+    flags: {}
+    _stats:
+      coreVersion: '14.364'
+      systemId: grimwild
+      systemVersion: 0.5.3
+      createdTime: 1783142643037
+      modifiedTime: 1783142643037
+      lastModifiedBy: 79CEe5dKC6Ls5VbU
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+    _key: '!tables.results!xWlpsmcJxtAP2PKc.v9fMJ9wm4F1oFaWr'
+  - name: orphanage
+    range:
+      - 13
+      - 13
+    weight: 1
+    type: text
+    _id: jVRiRTycKW9jrWYu
+    img: null
+    description: ''
+    drawn: false
+    flags: {}
+    _stats:
+      coreVersion: '14.364'
+      systemId: grimwild
+      systemVersion: 0.5.3
+      createdTime: 1783142643037
+      modifiedTime: 1783142643037
+      lastModifiedBy: 79CEe5dKC6Ls5VbU
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+    _key: '!tables.results!xWlpsmcJxtAP2PKc.jVRiRTycKW9jrWYu'
+  - name: stable
+    range:
+      - 14
+      - 14
+    weight: 1
+    type: text
+    _id: 1hbiHSXFG0rCh2dN
+    img: null
+    description: ''
+    drawn: false
+    flags: {}
+    _stats:
+      coreVersion: '14.364'
+      systemId: grimwild
+      systemVersion: 0.5.3
+      createdTime: 1783142643037
+      modifiedTime: 1783142643037
+      lastModifiedBy: 79CEe5dKC6Ls5VbU
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+    _key: '!tables.results!xWlpsmcJxtAP2PKc.1hbiHSXFG0rCh2dN'
+  - name: tower
+    range:
+      - 15
+      - 15
+    weight: 1
+    type: text
+    _id: WObLBYndffcpZDkL
+    img: null
+    description: ''
+    drawn: false
+    flags: {}
+    _stats:
+      coreVersion: '14.364'
+      systemId: grimwild
+      systemVersion: 0.5.3
+      createdTime: 1783142643037
+      modifiedTime: 1783142643037
+      lastModifiedBy: 79CEe5dKC6Ls5VbU
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+    _key: '!tables.results!xWlpsmcJxtAP2PKc.WObLBYndffcpZDkL'
+  - name: market
+    range:
+      - 16
+      - 16
+    weight: 1
+    type: text
+    _id: ZGiDChyyqx4AmxjD
+    img: null
+    description: ''
+    drawn: false
+    flags: {}
+    _stats:
+      coreVersion: '14.364'
+      systemId: grimwild
+      systemVersion: 0.5.3
+      createdTime: 1783142643037
+      modifiedTime: 1783142643037
+      lastModifiedBy: 79CEe5dKC6Ls5VbU
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+    _key: '!tables.results!xWlpsmcJxtAP2PKc.ZGiDChyyqx4AmxjD'
+  - name: library
+    range:
+      - 17
+      - 17
+    weight: 1
+    type: text
+    _id: g8wkMqekF9fYkT07
+    img: null
+    description: ''
+    drawn: false
+    flags: {}
+    _stats:
+      coreVersion: '14.364'
+      systemId: grimwild
+      systemVersion: 0.5.3
+      createdTime: 1783142643037
+      modifiedTime: 1783142643037
+      lastModifiedBy: 79CEe5dKC6Ls5VbU
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+    _key: '!tables.results!xWlpsmcJxtAP2PKc.g8wkMqekF9fYkT07'
+  - name: brewery
+    range:
+      - 18
+      - 18
+    weight: 1
+    type: text
+    _id: x1GzRqdPjoRYEjX4
+    img: null
+    description: ''
+    drawn: false
+    flags: {}
+    _stats:
+      coreVersion: '14.364'
+      systemId: grimwild
+      systemVersion: 0.5.3
+      createdTime: 1783142643037
+      modifiedTime: 1783142643037
+      lastModifiedBy: 79CEe5dKC6Ls5VbU
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+    _key: '!tables.results!xWlpsmcJxtAP2PKc.x1GzRqdPjoRYEjX4'
+  - name: baker
+    range:
+      - 19
+      - 19
+    weight: 1
+    type: text
+    _id: UPEIqVZL9XQsXU7H
+    img: null
+    description: ''
+    drawn: false
+    flags: {}
+    _stats:
+      coreVersion: '14.364'
+      systemId: grimwild
+      systemVersion: 0.5.3
+      createdTime: 1783142643037
+      modifiedTime: 1783142643037
+      lastModifiedBy: 79CEe5dKC6Ls5VbU
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+    _key: '!tables.results!xWlpsmcJxtAP2PKc.UPEIqVZL9XQsXU7H'
+  - name: blacksmith
+    range:
+      - 20
+      - 20
+    weight: 1
+    type: text
+    _id: ZPwx0jWxZsBJRctB
+    img: null
+    description: ''
+    drawn: false
+    flags: {}
+    _stats:
+      coreVersion: '14.364'
+      systemId: grimwild
+      systemVersion: 0.5.3
+      createdTime: 1783142643037
+      modifiedTime: 1783142643037
+      lastModifiedBy: 79CEe5dKC6Ls5VbU
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+    _key: '!tables.results!xWlpsmcJxtAP2PKc.ZPwx0jWxZsBJRctB'
+  - name: arena
+    range:
+      - 21
+      - 21
+    weight: 1
+    type: text
+    _id: GzM91gcXl3vSgM5M
+    img: null
+    description: ''
+    drawn: false
+    flags: {}
+    _stats:
+      coreVersion: '14.364'
+      systemId: grimwild
+      systemVersion: 0.5.3
+      createdTime: 1783142643037
+      modifiedTime: 1783142643037
+      lastModifiedBy: 79CEe5dKC6Ls5VbU
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+    _key: '!tables.results!xWlpsmcJxtAP2PKc.GzM91gcXl3vSgM5M'
+  - name: keep
+    range:
+      - 22
+      - 22
+    weight: 1
+    type: text
+    _id: 34ABNCSHenV6bOsV
+    img: null
+    description: ''
+    drawn: false
+    flags: {}
+    _stats:
+      coreVersion: '14.364'
+      systemId: grimwild
+      systemVersion: 0.5.3
+      createdTime: 1783142643037
+      modifiedTime: 1783142643037
+      lastModifiedBy: 79CEe5dKC6Ls5VbU
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+    _key: '!tables.results!xWlpsmcJxtAP2PKc.34ABNCSHenV6bOsV'
+  - name: jail
+    range:
+      - 23
+      - 23
+    weight: 1
+    type: text
+    _id: kSQKq7wtXph5GWdc
+    img: null
+    description: ''
+    drawn: false
+    flags: {}
+    _stats:
+      coreVersion: '14.364'
+      systemId: grimwild
+      systemVersion: 0.5.3
+      createdTime: 1783142643037
+      modifiedTime: 1783142643037
+      lastModifiedBy: 79CEe5dKC6Ls5VbU
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+    _key: '!tables.results!xWlpsmcJxtAP2PKc.kSQKq7wtXph5GWdc'
+  - name: teahouse
+    range:
+      - 24
+      - 24
+    weight: 1
+    type: text
+    _id: 0tZf6h3ZB8fsnwgr
+    img: null
+    description: ''
+    drawn: false
+    flags: {}
+    _stats:
+      coreVersion: '14.364'
+      systemId: grimwild
+      systemVersion: 0.5.3
+      createdTime: 1783142643037
+      modifiedTime: 1783142643037
+      lastModifiedBy: 79CEe5dKC6Ls5VbU
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+    _key: '!tables.results!xWlpsmcJxtAP2PKc.0tZf6h3ZB8fsnwgr'
+  - name: herbalist
+    range:
+      - 25
+      - 25
+    weight: 1
+    type: text
+    _id: VyPiUdp2lUtSx0cz
+    img: null
+    description: ''
+    drawn: false
+    flags: {}
+    _stats:
+      coreVersion: '14.364'
+      systemId: grimwild
+      systemVersion: 0.5.3
+      createdTime: 1783142643037
+      modifiedTime: 1783142643037
+      lastModifiedBy: 79CEe5dKC6Ls5VbU
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+    _key: '!tables.results!xWlpsmcJxtAP2PKc.VyPiUdp2lUtSx0cz'
+  - name: tavern
+    range:
+      - 26
+      - 26
+    weight: 1
+    type: text
+    _id: anjmj5NWtfS7vbGf
+    img: null
+    description: ''
+    drawn: false
+    flags: {}
+    _stats:
+      coreVersion: '14.364'
+      systemId: grimwild
+      systemVersion: 0.5.3
+      createdTime: 1783142643037
+      modifiedTime: 1783142643037
+      lastModifiedBy: 79CEe5dKC6Ls5VbU
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+    _key: '!tables.results!xWlpsmcJxtAP2PKc.anjmj5NWtfS7vbGf'
+  - name: inn
+    range:
+      - 27
+      - 27
+    weight: 1
+    type: text
+    _id: ETTMKMnW1WjSnXCT
+    img: null
+    description: ''
+    drawn: false
+    flags: {}
+    _stats:
+      coreVersion: '14.364'
+      systemId: grimwild
+      systemVersion: 0.5.3
+      createdTime: 1783142643037
+      modifiedTime: 1783142643037
+      lastModifiedBy: 79CEe5dKC6Ls5VbU
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+    _key: '!tables.results!xWlpsmcJxtAP2PKc.ETTMKMnW1WjSnXCT'
+  - name: fletcher
+    range:
+      - 28
+      - 28
+    weight: 1
+    type: text
+    _id: jvHQ7s0sy1irM4GP
+    img: null
+    description: ''
+    drawn: false
+    flags: {}
+    _stats:
+      coreVersion: '14.364'
+      systemId: grimwild
+      systemVersion: 0.5.3
+      createdTime: 1783142643037
+      modifiedTime: 1783142643037
+      lastModifiedBy: 79CEe5dKC6Ls5VbU
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+    _key: '!tables.results!xWlpsmcJxtAP2PKc.jvHQ7s0sy1irM4GP'
+  - name: manor
+    range:
+      - 29
+      - 29
+    weight: 1
+    type: text
+    _id: FeCILerp7IeZyNrW
+    img: null
+    description: ''
+    drawn: false
+    flags: {}
+    _stats:
+      coreVersion: '14.364'
+      systemId: grimwild
+      systemVersion: 0.5.3
+      createdTime: 1783142643037
+      modifiedTime: 1783142643037
+      lastModifiedBy: 79CEe5dKC6Ls5VbU
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+    _key: '!tables.results!xWlpsmcJxtAP2PKc.FeCILerp7IeZyNrW'
+  - name: bathhouse
+    range:
+      - 30
+      - 30
+    weight: 1
+    type: text
+    _id: FvWSBKWBjTEzDBBz
+    img: null
+    description: ''
+    drawn: false
+    flags: {}
+    _stats:
+      coreVersion: '14.364'
+      systemId: grimwild
+      systemVersion: 0.5.3
+      createdTime: 1783142643037
+      modifiedTime: 1783142643037
+      lastModifiedBy: 79CEe5dKC6Ls5VbU
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+    _key: '!tables.results!xWlpsmcJxtAP2PKc.FvWSBKWBjTEzDBBz'
+  - name: carpenter
+    range:
+      - 31
+      - 31
+    weight: 1
+    type: text
+    _id: jo936MriiLXnON4U
+    img: null
+    description: ''
+    drawn: false
+    flags: {}
+    _stats:
+      coreVersion: '14.364'
+      systemId: grimwild
+      systemVersion: 0.5.3
+      createdTime: 1783142643037
+      modifiedTime: 1783142643037
+      lastModifiedBy: 79CEe5dKC6Ls5VbU
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+    _key: '!tables.results!xWlpsmcJxtAP2PKc.jo936MriiLXnON4U'
+  - name: fortune teller
+    range:
+      - 32
+      - 32
+    weight: 1
+    type: text
+    _id: zE2qfDiFrqO91lrm
+    img: null
+    description: ''
+    drawn: false
+    flags: {}
+    _stats:
+      coreVersion: '14.364'
+      systemId: grimwild
+      systemVersion: 0.5.3
+      createdTime: 1783142643037
+      modifiedTime: 1783142643037
+      lastModifiedBy: 79CEe5dKC6Ls5VbU
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+    _key: '!tables.results!xWlpsmcJxtAP2PKc.zE2qfDiFrqO91lrm'
+  - name: weaver
+    range:
+      - 33
+      - 33
+    weight: 1
+    type: text
+    _id: 4S4xInRDMLMjvcqG
+    img: null
+    description: ''
+    drawn: false
+    flags: {}
+    _stats:
+      coreVersion: '14.364'
+      systemId: grimwild
+      systemVersion: 0.5.3
+      createdTime: 1783142643037
+      modifiedTime: 1783142643037
+      lastModifiedBy: 79CEe5dKC6Ls5VbU
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+    _key: '!tables.results!xWlpsmcJxtAP2PKc.4S4xInRDMLMjvcqG'
+  - name: glassblower
+    range:
+      - 34
+      - 34
+    weight: 1
+    type: text
+    _id: EkeOurclIWXvwDJl
+    img: null
+    description: ''
+    drawn: false
+    flags: {}
+    _stats:
+      coreVersion: '14.364'
+      systemId: grimwild
+      systemVersion: 0.5.3
+      createdTime: 1783142643037
+      modifiedTime: 1783142643037
+      lastModifiedBy: 79CEe5dKC6Ls5VbU
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+    _key: '!tables.results!xWlpsmcJxtAP2PKc.EkeOurclIWXvwDJl'
+  - name: warehouse
+    range:
+      - 35
+      - 35
+    weight: 1
+    type: text
+    _id: JQs0JLRFB8GEJLEm
+    img: null
+    description: ''
+    drawn: false
+    flags: {}
+    _stats:
+      coreVersion: '14.364'
+      systemId: grimwild
+      systemVersion: 0.5.3
+      createdTime: 1783142643037
+      modifiedTime: 1783142643037
+      lastModifiedBy: 79CEe5dKC6Ls5VbU
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+    _key: '!tables.results!xWlpsmcJxtAP2PKc.JQs0JLRFB8GEJLEm'
+  - name: clocktower
+    range:
+      - 36
+      - 36
+    weight: 1
+    type: text
+    _id: vKWPEwvNPR4K2Smy
+    img: null
+    description: ''
+    drawn: false
+    flags: {}
+    _stats:
+      coreVersion: '14.364'
+      systemId: grimwild
+      systemVersion: 0.5.3
+      createdTime: 1783142643037
+      modifiedTime: 1783142643037
+      lastModifiedBy: 79CEe5dKC6Ls5VbU
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+    _key: '!tables.results!xWlpsmcJxtAP2PKc.vKWPEwvNPR4K2Smy'
+flags:
+  core:
+    sheetClass: grimwild.GrimwildRollTableCrucibleSheet
+_id: xWlpsmcJxtAP2PKc
+img: icons/svg/d20-grey.svg
+description: ''
+replacement: true
+displayRoll: true
+folder: SdbDqyXAF5KLE0Ik
+ownership:
+  default: 0
+  79CEe5dKC6Ls5VbU: 3
+_stats:
+  coreVersion: '14.364'
+  systemId: grimwild
+  systemVersion: 0.5.3
+  createdTime: 1783142643037
+  modifiedTime: 1783178473558
+  lastModifiedBy: 79CEe5dKC6Ls5VbU
+  exportSource: null
+  compendiumSource: null
+  duplicateSource: null
+sort: 1100000
+_key: '!tables!xWlpsmcJxtAP2PKc'

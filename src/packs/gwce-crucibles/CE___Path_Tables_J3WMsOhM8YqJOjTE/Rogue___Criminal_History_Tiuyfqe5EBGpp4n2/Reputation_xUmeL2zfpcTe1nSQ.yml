@@ -1,0 +1,157 @@
+name: Reputation
+description: ''
+formula: 1d6
+results:
+  - name: ''
+    description: barely remembered
+    range:
+      - 1
+      - 1
+    _id: FkFMVjLm01nQfeRt
+    type: text
+    img: icons/svg/d20-black.svg
+    weight: 1
+    drawn: false
+    flags: {}
+    _stats:
+      coreVersion: '14.368'
+      systemId: grimwild
+      systemVersion: 0.5.3
+      createdTime: 1783125574811
+      modifiedTime: 1791748630177
+      lastModifiedBy: nF9qxzj59Qn6fNSn
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+    _key: '!tables.results!xUmeL2zfpcTe1nSQ.FkFMVjLm01nQfeRt'
+  - name: ''
+    description: small bounty
+    range:
+      - 2
+      - 2
+    _id: p7rAbmrp1IDKAuR5
+    type: text
+    img: icons/svg/d20-black.svg
+    weight: 1
+    drawn: false
+    flags: {}
+    _stats:
+      coreVersion: '14.368'
+      systemId: grimwild
+      systemVersion: 0.5.3
+      createdTime: 1783125574811
+      modifiedTime: 1791748630177
+      lastModifiedBy: nF9qxzj59Qn6fNSn
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+    _key: '!tables.results!xUmeL2zfpcTe1nSQ.p7rAbmrp1IDKAuR5'
+  - name: ''
+    description: known name
+    range:
+      - 3
+      - 3
+    _id: 3GItxVtOjaTHsLAQ
+    type: text
+    img: icons/svg/d20-black.svg
+    weight: 1
+    drawn: false
+    flags: {}
+    _stats:
+      coreVersion: '14.368'
+      systemId: grimwild
+      systemVersion: 0.5.3
+      createdTime: 1783125574811
+      modifiedTime: 1791748630177
+      lastModifiedBy: nF9qxzj59Qn6fNSn
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+    _key: '!tables.results!xUmeL2zfpcTe1nSQ.3GItxVtOjaTHsLAQ'
+  - name: ''
+    description: hunted
+    range:
+      - 4
+      - 4
+    _id: A1Mr068Z3MzNhnHS
+    type: text
+    img: icons/svg/d20-black.svg
+    weight: 1
+    drawn: false
+    flags: {}
+    _stats:
+      coreVersion: '14.368'
+      systemId: grimwild
+      systemVersion: 0.5.3
+      createdTime: 1783125574811
+      modifiedTime: 1791748630177
+      lastModifiedBy: nF9qxzj59Qn6fNSn
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+    _key: '!tables.results!xUmeL2zfpcTe1nSQ.A1Mr068Z3MzNhnHS'
+  - name: ''
+    description: infamous
+    range:
+      - 5
+      - 5
+    _id: fu2N61FlJFRl1NdR
+    type: text
+    img: icons/svg/d20-black.svg
+    weight: 1
+    drawn: false
+    flags: {}
+    _stats:
+      coreVersion: '14.368'
+      systemId: grimwild
+      systemVersion: 0.5.3
+      createdTime: 1783125574811
+      modifiedTime: 1791748630177
+      lastModifiedBy: nF9qxzj59Qn6fNSn
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+    _key: '!tables.results!xUmeL2zfpcTe1nSQ.fu2N61FlJFRl1NdR'
+  - name: ''
+    description: most wanted
+    range:
+      - 6
+      - 6
+    _id: I0jBnihOrLOGgziC
+    type: text
+    img: icons/svg/d20-black.svg
+    weight: 1
+    drawn: false
+    flags: {}
+    _stats:
+      coreVersion: '14.368'
+      systemId: grimwild
+      systemVersion: 0.5.3
+      createdTime: 1783125574811
+      modifiedTime: 1791748630177
+      lastModifiedBy: nF9qxzj59Qn6fNSn
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+    _key: '!tables.results!xUmeL2zfpcTe1nSQ.I0jBnihOrLOGgziC'
+folder: Tiuyfqe5EBGpp4n2
+sort: 2
+_id: xUmeL2zfpcTe1nSQ
+img: icons/svg/d20-grey.svg
+replacement: true
+displayRoll: false
+ownership:
+  default: 0
+  79CEe5dKC6Ls5VbU: 3
+flags: {}
+_stats:
+  coreVersion: '14.368'
+  systemId: grimwild
+  systemVersion: 0.5.3
+  createdTime: 1783125574811
+  modifiedTime: 1791748630177
+  lastModifiedBy: nF9qxzj59Qn6fNSn
+  compendiumSource: null
+  duplicateSource: null
+  exportSource: null
+_key: '!tables!xUmeL2zfpcTe1nSQ'

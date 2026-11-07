@@ -1,0 +1,157 @@
+name: Pseudodragon - Favorite Treat
+description: ''
+formula: 1d6
+results:
+  - name: ''
+    description: <b>Baked goods</b>, that awaken a primal hunger.
+    range:
+      - 1
+      - 1
+    _id: GQR91iZyBnTy2MjT
+    type: text
+    img: null
+    weight: 1
+    drawn: false
+    flags: {}
+    _stats:
+      coreVersion: '14.364'
+      systemId: grimwild
+      systemVersion: 0.5.3
+      createdTime: 1783270821317
+      modifiedTime: 1783270821317
+      lastModifiedBy: 79CEe5dKC6Ls5VbU
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+    _key: '!tables.results!IBO9FtnKvtZszrHC.GQR91iZyBnTy2MjT'
+  - name: ''
+    description: <b>Sweet Fruit</b>, making an absolutely sticky mess.
+    range:
+      - 2
+      - 2
+    _id: wwQvetGyjmXekMOe
+    type: text
+    img: null
+    weight: 1
+    drawn: false
+    flags: {}
+    _stats:
+      coreVersion: '14.364'
+      systemId: grimwild
+      systemVersion: 0.5.3
+      createdTime: 1783270821317
+      modifiedTime: 1783270821317
+      lastModifiedBy: 79CEe5dKC6Ls5VbU
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+    _key: '!tables.results!IBO9FtnKvtZszrHC.wwQvetGyjmXekMOe'
+  - name: ''
+    description: <b>Bugs</b>, that it hunts gracelessly.
+    range:
+      - 3
+      - 3
+    _id: 6P422ar1MGjaaEon
+    type: text
+    img: null
+    weight: 1
+    drawn: false
+    flags: {}
+    _stats:
+      coreVersion: '14.364'
+      systemId: grimwild
+      systemVersion: 0.5.3
+      createdTime: 1783270821317
+      modifiedTime: 1783270821317
+      lastModifiedBy: 79CEe5dKC6Ls5VbU
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+    _key: '!tables.results!IBO9FtnKvtZszrHC.6P422ar1MGjaaEon'
+  - name: ''
+    description: <b>Charred Meat</b>, preferably by its own fire.
+    range:
+      - 4
+      - 4
+    _id: ZqRTDzsXy9mYOPCP
+    type: text
+    img: null
+    weight: 1
+    drawn: false
+    flags: {}
+    _stats:
+      coreVersion: '14.364'
+      systemId: grimwild
+      systemVersion: 0.5.3
+      createdTime: 1783270821317
+      modifiedTime: 1783270821317
+      lastModifiedBy: 79CEe5dKC6Ls5VbU
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+    _key: '!tables.results!IBO9FtnKvtZszrHC.ZqRTDzsXy9mYOPCP'
+  - name: ''
+    description: <b>Honeycomb and Flowers</b>, more colorful, the better.
+    range:
+      - 5
+      - 5
+    _id: HQkcsglywBRP8VQI
+    type: text
+    img: null
+    weight: 1
+    drawn: false
+    flags: {}
+    _stats:
+      coreVersion: '14.364'
+      systemId: grimwild
+      systemVersion: 0.5.3
+      createdTime: 1783270821317
+      modifiedTime: 1783270821317
+      lastModifiedBy: 79CEe5dKC6Ls5VbU
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+    _key: '!tables.results!IBO9FtnKvtZszrHC.HQkcsglywBRP8VQI'
+  - name: ''
+    description: <b>Exactly what you eat</b>, when you try to eat it.
+    range:
+      - 6
+      - 6
+    _id: S7n0i3ElTsPcSNLc
+    type: text
+    img: null
+    weight: 1
+    drawn: false
+    flags: {}
+    _stats:
+      coreVersion: '14.364'
+      systemId: grimwild
+      systemVersion: 0.5.3
+      createdTime: 1783270821317
+      modifiedTime: 1783270821317
+      lastModifiedBy: 79CEe5dKC6Ls5VbU
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+    _key: '!tables.results!IBO9FtnKvtZszrHC.S7n0i3ElTsPcSNLc'
+folder: rgX8m8cC6QFqYNJB
+sort: 1300000
+_id: IBO9FtnKvtZszrHC
+img: icons/svg/d20-grey.svg
+replacement: true
+displayRoll: true
+ownership:
+  default: 0
+  79CEe5dKC6Ls5VbU: 3
+flags: {}
+_stats:
+  coreVersion: '14.368'
+  systemId: grimwild
+  systemVersion: 0.5.3
+  createdTime: 1783270821317
+  modifiedTime: 1791749998254
+  lastModifiedBy: nF9qxzj59Qn6fNSn
+  compendiumSource: null
+  duplicateSource: null
+  exportSource: null
+_key: '!tables!IBO9FtnKvtZszrHC'

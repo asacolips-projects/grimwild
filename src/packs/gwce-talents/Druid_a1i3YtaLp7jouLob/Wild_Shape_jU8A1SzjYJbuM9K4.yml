@@ -1,0 +1,47 @@
+folder: a1i3YtaLp7jouLob
+name: Wild Shape
+type: talent
+_id: jU8A1SzjYJbuM9K4
+img: icons/magic/nature/wolf-paw-glow-large-green.webp
+system:
+  description: >-
+    <p>Shift into any familiar beast form by using a <strong>2d Wild
+    Shape</strong> resource pool, replenishing each scene. You take on the
+    form’s physical qualities and feral instincts, moving stat points to
+    represent this (min 1, max 3). You lose access to your own physical talents.
+    Drop 1d before rolling for each <strong>wild talent</strong>, such as:
+    <em>aquatic—smaller than a cat—bigger than a bear—flying—a thematic path
+    talent</em>.</p><hr><p><strong>GROWTH:</strong> At levels 3 and 6, gain +1d
+    to your Wild Shape pool.</p>
+  core: false
+  notes:
+    description: ''
+    label: ''
+  trackers:
+    - type: pool
+      pool:
+        powerPool: false
+        diceNum: 2
+        max: 2
+      label: Wild Shape
+      points:
+        showSteps: false
+        value: 1
+        max: 1
+effects: []
+sort: 0
+ownership:
+  default: 0
+  79CEe5dKC6Ls5VbU: 3
+flags: {}
+_stats:
+  coreVersion: '14.368'
+  systemId: grimwild
+  systemVersion: 0.5.3
+  createdTime: 1782662616207
+  modifiedTime: 1791742837940
+  lastModifiedBy: nF9qxzj59Qn6fNSn
+  compendiumSource: null
+  duplicateSource: null
+  exportSource: null
+_key: '!items!jU8A1SzjYJbuM9K4'

@@ -1,0 +1,32 @@
+folder: KGASAmtds3ZDqfAx
+name: Mischief Maker
+type: talent
+_id: Ch2EZO6UoTY7eos9
+img: icons/commodities/tech/battery-small.webp
+system:
+  description: >-
+    <p>You can overload arcana to create a potent effect with it. Make a 2d
+    story roll as the magic goes haywire. Add +1t to the story roll each time
+    you use this after the first, clearing them each session.</p>
+  core: false
+  notes:
+    description: ''
+    label: ''
+  trackers: []
+effects: []
+sort: 0
+ownership:
+  default: 0
+  79CEe5dKC6Ls5VbU: 3
+flags: {}
+_stats:
+  coreVersion: '14.368'
+  systemId: grimwild
+  systemVersion: 0.5.3
+  createdTime: 1782662610267
+  modifiedTime: 1791743126690
+  lastModifiedBy: nF9qxzj59Qn6fNSn
+  compendiumSource: null
+  duplicateSource: null
+  exportSource: null
+_key: '!items!Ch2EZO6UoTY7eos9'

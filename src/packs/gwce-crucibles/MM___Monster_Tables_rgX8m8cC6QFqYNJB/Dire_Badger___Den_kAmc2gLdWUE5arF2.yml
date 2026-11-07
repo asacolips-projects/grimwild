@@ -1,0 +1,157 @@
+name: Dire Badger - Den
+description: ''
+formula: 1d6
+results:
+  - name: ''
+    description: <b>Collapsed tunnel</b>, filled with old bones.
+    range:
+      - 1
+      - 1
+    _id: nWtaRQxcpHFtzaHN
+    type: text
+    img: null
+    weight: 1
+    drawn: false
+    flags: {}
+    _stats:
+      coreVersion: '14.364'
+      systemId: grimwild
+      systemVersion: 0.5.3
+      createdTime: 1783270821357
+      modifiedTime: 1783270821357
+      lastModifiedBy: 79CEe5dKC6Ls5VbU
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+    _key: '!tables.results!kAmc2gLdWUE5arF2.nWtaRQxcpHFtzaHN'
+  - name: ''
+    description: Network of twisted <b>escape paths</b>.
+    range:
+      - 2
+      - 2
+    _id: gTVlKBCDXtwQc8Ri
+    type: text
+    img: null
+    weight: 1
+    drawn: false
+    flags: {}
+    _stats:
+      coreVersion: '14.364'
+      systemId: grimwild
+      systemVersion: 0.5.3
+      createdTime: 1783270821357
+      modifiedTime: 1783270821357
+      lastModifiedBy: 79CEe5dKC6Ls5VbU
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+    _key: '!tables.results!kAmc2gLdWUE5arF2.gTVlKBCDXtwQc8Ri'
+  - name: ''
+    description: Tunnel leading to an <b>ancient civilization</b>.
+    range:
+      - 3
+      - 3
+    _id: 5n1tGcflLzDpaS4U
+    type: text
+    img: null
+    weight: 1
+    drawn: false
+    flags: {}
+    _stats:
+      coreVersion: '14.364'
+      systemId: grimwild
+      systemVersion: 0.5.3
+      createdTime: 1783270821357
+      modifiedTime: 1783270821357
+      lastModifiedBy: 79CEe5dKC6Ls5VbU
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+    _key: '!tables.results!kAmc2gLdWUE5arF2.5n1tGcflLzDpaS4U'
+  - name: ''
+    description: <b>Shiny junk</b>, such as buttons, coins, and glass.
+    range:
+      - 4
+      - 4
+    _id: 1XMLE6AYbdE05mN2
+    type: text
+    img: null
+    weight: 1
+    drawn: false
+    flags: {}
+    _stats:
+      coreVersion: '14.364'
+      systemId: grimwild
+      systemVersion: 0.5.3
+      createdTime: 1783270821357
+      modifiedTime: 1783270821357
+      lastModifiedBy: 79CEe5dKC6Ls5VbU
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+    _key: '!tables.results!kAmc2gLdWUE5arF2.1XMLE6AYbdE05mN2'
+  - name: ''
+    description: <b>Ancient carved stone</b>, newly unearthed.
+    range:
+      - 5
+      - 5
+    _id: J2wh4I5IhwIHOaUj
+    type: text
+    img: null
+    weight: 1
+    drawn: false
+    flags: {}
+    _stats:
+      coreVersion: '14.364'
+      systemId: grimwild
+      systemVersion: 0.5.3
+      createdTime: 1783270821357
+      modifiedTime: 1783270821357
+      lastModifiedBy: 79CEe5dKC6Ls5VbU
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+    _key: '!tables.results!kAmc2gLdWUE5arF2.J2wh4I5IhwIHOaUj'
+  - name: ''
+    description: Remains of a <b>rival predator</b>, evidence of their battle.
+    range:
+      - 6
+      - 6
+    _id: 9rcHPZFwgh0uibsx
+    type: text
+    img: null
+    weight: 1
+    drawn: false
+    flags: {}
+    _stats:
+      coreVersion: '14.364'
+      systemId: grimwild
+      systemVersion: 0.5.3
+      createdTime: 1783270821357
+      modifiedTime: 1783270821357
+      lastModifiedBy: 79CEe5dKC6Ls5VbU
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+    _key: '!tables.results!kAmc2gLdWUE5arF2.9rcHPZFwgh0uibsx'
+folder: rgX8m8cC6QFqYNJB
+sort: 3100000
+_id: kAmc2gLdWUE5arF2
+img: icons/svg/d20-grey.svg
+replacement: true
+displayRoll: true
+ownership:
+  default: 0
+  79CEe5dKC6Ls5VbU: 3
+flags: {}
+_stats:
+  coreVersion: '14.368'
+  systemId: grimwild
+  systemVersion: 0.5.3
+  createdTime: 1783270821357
+  modifiedTime: 1791749998255
+  lastModifiedBy: nF9qxzj59Qn6fNSn
+  compendiumSource: null
+  duplicateSource: null
+  exportSource: null
+_key: '!tables!kAmc2gLdWUE5arF2'

@@ -1,0 +1,819 @@
+name: Martial Arts Moves
+formula: 1d36
+results:
+  - name: open palm
+    range:
+      - 1
+      - 1
+    weight: 1
+    type: text
+    _id: s0BgSsImlAUl6YUU
+    img: null
+    description: ''
+    drawn: false
+    flags: {}
+    _stats:
+      coreVersion: '14.364'
+      systemId: grimwild
+      systemVersion: 0.5.3
+      createdTime: 1783124799733
+      modifiedTime: 1783125004614
+      lastModifiedBy: 79CEe5dKC6Ls5VbU
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+    _key: '!tables.results!BV60IFri4QDN6Rns.s0BgSsImlAUl6YUU'
+  - name: elbow strike
+    range:
+      - 2
+      - 2
+    weight: 1
+    type: text
+    _id: y5ZAwaqjQjtxb6Vk
+    img: null
+    description: ''
+    drawn: false
+    flags: {}
+    _stats:
+      coreVersion: '14.364'
+      systemId: grimwild
+      systemVersion: 0.5.3
+      createdTime: 1783124799733
+      modifiedTime: 1783125004614
+      lastModifiedBy: 79CEe5dKC6Ls5VbU
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+    _key: '!tables.results!BV60IFri4QDN6Rns.y5ZAwaqjQjtxb6Vk'
+  - name: circular step
+    range:
+      - 3
+      - 3
+    weight: 1
+    type: text
+    _id: Zl5a9bp6bCCOiAJ5
+    img: null
+    description: ''
+    drawn: false
+    flags: {}
+    _stats:
+      coreVersion: '14.364'
+      systemId: grimwild
+      systemVersion: 0.5.3
+      createdTime: 1783124799733
+      modifiedTime: 1783125004615
+      lastModifiedBy: 79CEe5dKC6Ls5VbU
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+    _key: '!tables.results!BV60IFri4QDN6Rns.Zl5a9bp6bCCOiAJ5'
+  - name: high kick
+    range:
+      - 4
+      - 4
+    weight: 1
+    type: text
+    _id: 1uSUaLg3G8Ly32ve
+    img: null
+    description: ''
+    drawn: false
+    flags: {}
+    _stats:
+      coreVersion: '14.364'
+      systemId: grimwild
+      systemVersion: 0.5.3
+      createdTime: 1783124799733
+      modifiedTime: 1783125004615
+      lastModifiedBy: 79CEe5dKC6Ls5VbU
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+    _key: '!tables.results!BV60IFri4QDN6Rns.1uSUaLg3G8Ly32ve'
+  - name: crane stance
+    range:
+      - 5
+      - 5
+    weight: 1
+    type: text
+    _id: V3g6Ix7EJO6XWtgS
+    img: null
+    description: ''
+    drawn: false
+    flags: {}
+    _stats:
+      coreVersion: '14.364'
+      systemId: grimwild
+      systemVersion: 0.5.3
+      createdTime: 1783124799733
+      modifiedTime: 1783125004615
+      lastModifiedBy: 79CEe5dKC6Ls5VbU
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+    _key: '!tables.results!BV60IFri4QDN6Rns.V3g6Ix7EJO6XWtgS'
+  - name: mantis grab
+    range:
+      - 6
+      - 6
+    weight: 1
+    type: text
+    _id: PAQjc7DZqFSU0yZ6
+    img: null
+    description: ''
+    drawn: false
+    flags: {}
+    _stats:
+      coreVersion: '14.364'
+      systemId: grimwild
+      systemVersion: 0.5.3
+      createdTime: 1783124799733
+      modifiedTime: 1783125004615
+      lastModifiedBy: 79CEe5dKC6Ls5VbU
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+    _key: '!tables.results!BV60IFri4QDN6Rns.PAQjc7DZqFSU0yZ6'
+  - name: spinning kick
+    range:
+      - 7
+      - 7
+    weight: 1
+    type: text
+    _id: leaQHW8QtwgabGrJ
+    img: null
+    description: ''
+    drawn: false
+    flags: {}
+    _stats:
+      coreVersion: '14.364'
+      systemId: grimwild
+      systemVersion: 0.5.3
+      createdTime: 1783124799733
+      modifiedTime: 1783125004615
+      lastModifiedBy: 79CEe5dKC6Ls5VbU
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+    _key: '!tables.results!BV60IFri4QDN6Rns.leaQHW8QtwgabGrJ'
+  - name: aerial leaps
+    range:
+      - 8
+      - 8
+    weight: 1
+    type: text
+    _id: cJwIm3CyoGICPeka
+    img: null
+    description: ''
+    drawn: false
+    flags: {}
+    _stats:
+      coreVersion: '14.364'
+      systemId: grimwild
+      systemVersion: 0.5.3
+      createdTime: 1783124799733
+      modifiedTime: 1783125004615
+      lastModifiedBy: 79CEe5dKC6Ls5VbU
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+    _key: '!tables.results!BV60IFri4QDN6Rns.cJwIm3CyoGICPeka'
+  - name: knee strike
+    range:
+      - 9
+      - 9
+    weight: 1
+    type: text
+    _id: 17UfXmAORA8sdXko
+    img: null
+    description: ''
+    drawn: false
+    flags: {}
+    _stats:
+      coreVersion: '14.364'
+      systemId: grimwild
+      systemVersion: 0.5.3
+      createdTime: 1783124799733
+      modifiedTime: 1783125004615
+      lastModifiedBy: 79CEe5dKC6Ls5VbU
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+    _key: '!tables.results!BV60IFri4QDN6Rns.17UfXmAORA8sdXko'
+  - name: tiger claw
+    range:
+      - 10
+      - 10
+    weight: 1
+    type: text
+    _id: jcN66cNsrXKH3vEh
+    img: null
+    description: ''
+    drawn: false
+    flags: {}
+    _stats:
+      coreVersion: '14.364'
+      systemId: grimwild
+      systemVersion: 0.5.3
+      createdTime: 1783124799733
+      modifiedTime: 1783125004615
+      lastModifiedBy: 79CEe5dKC6Ls5VbU
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+    _key: '!tables.results!BV60IFri4QDN6Rns.jcN66cNsrXKH3vEh'
+  - name: side kick
+    range:
+      - 11
+      - 11
+    weight: 1
+    type: text
+    _id: hF7zIT39e4kukD1T
+    img: null
+    description: ''
+    drawn: false
+    flags: {}
+    _stats:
+      coreVersion: '14.364'
+      systemId: grimwild
+      systemVersion: 0.5.3
+      createdTime: 1783124799733
+      modifiedTime: 1783125004616
+      lastModifiedBy: 79CEe5dKC6Ls5VbU
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+    _key: '!tables.results!BV60IFri4QDN6Rns.hF7zIT39e4kukD1T'
+  - name: close punch
+    range:
+      - 12
+      - 12
+    weight: 1
+    type: text
+    _id: ojfi5ELgwYcRQEUx
+    img: null
+    description: ''
+    drawn: false
+    flags: {}
+    _stats:
+      coreVersion: '14.364'
+      systemId: grimwild
+      systemVersion: 0.5.3
+      createdTime: 1783124799733
+      modifiedTime: 1783125004616
+      lastModifiedBy: 79CEe5dKC6Ls5VbU
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+    _key: '!tables.results!BV60IFri4QDN6Rns.ojfi5ELgwYcRQEUx'
+  - name: low stance
+    range:
+      - 13
+      - 13
+    weight: 1
+    type: text
+    _id: OCJFWKpye33rEyMw
+    img: null
+    description: ''
+    drawn: false
+    flags: {}
+    _stats:
+      coreVersion: '14.364'
+      systemId: grimwild
+      systemVersion: 0.5.3
+      createdTime: 1783124799733
+      modifiedTime: 1783125004616
+      lastModifiedBy: 79CEe5dKC6Ls5VbU
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+    _key: '!tables.results!BV60IFri4QDN6Rns.OCJFWKpye33rEyMw'
+  - name: breath control
+    range:
+      - 14
+      - 14
+    weight: 1
+    type: text
+    _id: sdwaCoJHEyzVqu6V
+    img: null
+    description: ''
+    drawn: false
+    flags: {}
+    _stats:
+      coreVersion: '14.364'
+      systemId: grimwild
+      systemVersion: 0.5.3
+      createdTime: 1783124799733
+      modifiedTime: 1783125004616
+      lastModifiedBy: 79CEe5dKC6Ls5VbU
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+    _key: '!tables.results!BV60IFri4QDN6Rns.sdwaCoJHEyzVqu6V'
+  - name: joint lock
+    range:
+      - 15
+      - 15
+    weight: 1
+    type: text
+    _id: iSWj5WxSGO0WoicV
+    img: null
+    description: ''
+    drawn: false
+    flags: {}
+    _stats:
+      coreVersion: '14.364'
+      systemId: grimwild
+      systemVersion: 0.5.3
+      createdTime: 1783124799733
+      modifiedTime: 1783125004616
+      lastModifiedBy: 79CEe5dKC6Ls5VbU
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+    _key: '!tables.results!BV60IFri4QDN6Rns.iSWj5WxSGO0WoicV'
+  - name: heavy strike
+    range:
+      - 16
+      - 16
+    weight: 1
+    type: text
+    _id: RIVOpbVytlVp2eHA
+    img: null
+    description: ''
+    drawn: false
+    flags: {}
+    _stats:
+      coreVersion: '14.364'
+      systemId: grimwild
+      systemVersion: 0.5.3
+      createdTime: 1783124799733
+      modifiedTime: 1783125004616
+      lastModifiedBy: 79CEe5dKC6Ls5VbU
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+    _key: '!tables.results!BV60IFri4QDN6Rns.RIVOpbVytlVp2eHA'
+  - name: swift parry
+    range:
+      - 17
+      - 17
+    weight: 1
+    type: text
+    _id: dyOMy4AuiZRpGzhD
+    img: null
+    description: ''
+    drawn: false
+    flags: {}
+    _stats:
+      coreVersion: '14.364'
+      systemId: grimwild
+      systemVersion: 0.5.3
+      createdTime: 1783124799733
+      modifiedTime: 1783125004616
+      lastModifiedBy: 79CEe5dKC6Ls5VbU
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+    _key: '!tables.results!BV60IFri4QDN6Rns.dyOMy4AuiZRpGzhD'
+  - name: leaping elbow
+    range:
+      - 18
+      - 18
+    weight: 1
+    type: text
+    _id: 0ClR7KCzPyomcTmx
+    img: null
+    description: ''
+    drawn: false
+    flags: {}
+    _stats:
+      coreVersion: '14.364'
+      systemId: grimwild
+      systemVersion: 0.5.3
+      createdTime: 1783124799733
+      modifiedTime: 1783125004617
+      lastModifiedBy: 79CEe5dKC6Ls5VbU
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+    _key: '!tables.results!BV60IFri4QDN6Rns.0ClR7KCzPyomcTmx'
+  - name: finger jabs
+    range:
+      - 19
+      - 19
+    weight: 1
+    type: text
+    _id: KzfNFm8JOxOEhCa1
+    img: null
+    description: ''
+    drawn: false
+    flags: {}
+    _stats:
+      coreVersion: '14.364'
+      systemId: grimwild
+      systemVersion: 0.5.3
+      createdTime: 1783124799733
+      modifiedTime: 1783125004617
+      lastModifiedBy: 79CEe5dKC6Ls5VbU
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+    _key: '!tables.results!BV60IFri4QDN6Rns.KzfNFm8JOxOEhCa1'
+  - name: redirecting grab
+    range:
+      - 20
+      - 20
+    weight: 1
+    type: text
+    _id: jZf4nR9gzvryjdp9
+    img: null
+    description: ''
+    drawn: false
+    flags: {}
+    _stats:
+      coreVersion: '14.364'
+      systemId: grimwild
+      systemVersion: 0.5.3
+      createdTime: 1783124799733
+      modifiedTime: 1783125004617
+      lastModifiedBy: 79CEe5dKC6Ls5VbU
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+    _key: '!tables.results!BV60IFri4QDN6Rns.jZf4nR9gzvryjdp9'
+  - name: pressure joint
+    range:
+      - 21
+      - 21
+    weight: 1
+    type: text
+    _id: eFgE5Hqkd4uGvwYN
+    img: null
+    description: ''
+    drawn: false
+    flags: {}
+    _stats:
+      coreVersion: '14.364'
+      systemId: grimwild
+      systemVersion: 0.5.3
+      createdTime: 1783124799733
+      modifiedTime: 1783125004617
+      lastModifiedBy: 79CEe5dKC6Ls5VbU
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+    _key: '!tables.results!BV60IFri4QDN6Rns.eFgE5Hqkd4uGvwYN'
+  - name: dual strikes
+    range:
+      - 22
+      - 22
+    weight: 1
+    type: text
+    _id: zDH6RHxi2E6zbWeY
+    img: null
+    description: ''
+    drawn: false
+    flags: {}
+    _stats:
+      coreVersion: '14.364'
+      systemId: grimwild
+      systemVersion: 0.5.3
+      createdTime: 1783124799733
+      modifiedTime: 1783125004617
+      lastModifiedBy: 79CEe5dKC6Ls5VbU
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+    _key: '!tables.results!BV60IFri4QDN6Rns.zDH6RHxi2E6zbWeY'
+  - name: rooted stance
+    range:
+      - 23
+      - 23
+    weight: 1
+    type: text
+    _id: ORUuA9fj6CnxS1RT
+    img: null
+    description: ''
+    drawn: false
+    flags: {}
+    _stats:
+      coreVersion: '14.364'
+      systemId: grimwild
+      systemVersion: 0.5.3
+      createdTime: 1783124799733
+      modifiedTime: 1783125004617
+      lastModifiedBy: 79CEe5dKC6Ls5VbU
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+    _key: '!tables.results!BV60IFri4QDN6Rns.ORUuA9fj6CnxS1RT'
+  - name: snap kick
+    range:
+      - 24
+      - 24
+    weight: 1
+    type: text
+    _id: rPtZ0IgOrgVHdWAG
+    img: null
+    description: ''
+    drawn: false
+    flags: {}
+    _stats:
+      coreVersion: '14.364'
+      systemId: grimwild
+      systemVersion: 0.5.3
+      createdTime: 1783124799733
+      modifiedTime: 1783125004617
+      lastModifiedBy: 79CEe5dKC6Ls5VbU
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+    _key: '!tables.results!BV60IFri4QDN6Rns.rPtZ0IgOrgVHdWAG'
+  - name: iron forearm
+    range:
+      - 25
+      - 25
+    weight: 1
+    type: text
+    _id: ljrDZVlYyJTUSmtL
+    img: null
+    description: ''
+    drawn: false
+    flags: {}
+    _stats:
+      coreVersion: '14.364'
+      systemId: grimwild
+      systemVersion: 0.5.3
+      createdTime: 1783124799733
+      modifiedTime: 1783125004618
+      lastModifiedBy: 79CEe5dKC6Ls5VbU
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+    _key: '!tables.results!BV60IFri4QDN6Rns.ljrDZVlYyJTUSmtL'
+  - name: chop strike
+    range:
+      - 26
+      - 26
+    weight: 1
+    type: text
+    _id: UmagLmGPA5v0Gxs1
+    img: null
+    description: ''
+    drawn: false
+    flags: {}
+    _stats:
+      coreVersion: '14.364'
+      systemId: grimwild
+      systemVersion: 0.5.3
+      createdTime: 1783124799733
+      modifiedTime: 1783125004618
+      lastModifiedBy: 79CEe5dKC6Ls5VbU
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+    _key: '!tables.results!BV60IFri4QDN6Rns.UmagLmGPA5v0Gxs1'
+  - name: whipping attack
+    range:
+      - 27
+      - 27
+    weight: 1
+    type: text
+    _id: ItsAFPW7u3hqCmxZ
+    img: null
+    description: ''
+    drawn: false
+    flags: {}
+    _stats:
+      coreVersion: '14.364'
+      systemId: grimwild
+      systemVersion: 0.5.3
+      createdTime: 1783124799733
+      modifiedTime: 1783125004618
+      lastModifiedBy: 79CEe5dKC6Ls5VbU
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+    _key: '!tables.results!BV60IFri4QDN6Rns.ItsAFPW7u3hqCmxZ'
+  - name: jumps & rolls
+    range:
+      - 28
+      - 28
+    weight: 1
+    type: text
+    _id: TsJ2qmtHBb6DTwIJ
+    img: null
+    description: ''
+    drawn: false
+    flags: {}
+    _stats:
+      coreVersion: '14.364'
+      systemId: grimwild
+      systemVersion: 0.5.3
+      createdTime: 1783124799733
+      modifiedTime: 1783125004618
+      lastModifiedBy: 79CEe5dKC6Ls5VbU
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+    _key: '!tables.results!BV60IFri4QDN6Rns.TsJ2qmtHBb6DTwIJ'
+  - name: soft redirect
+    range:
+      - 29
+      - 29
+    weight: 1
+    type: text
+    _id: WeFlDqbUTGa04VJs
+    img: null
+    description: ''
+    drawn: false
+    flags: {}
+    _stats:
+      coreVersion: '14.364'
+      systemId: grimwild
+      systemVersion: 0.5.3
+      createdTime: 1783124799733
+      modifiedTime: 1783125004619
+      lastModifiedBy: 79CEe5dKC6Ls5VbU
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+    _key: '!tables.results!BV60IFri4QDN6Rns.WeFlDqbUTGa04VJs'
+  - name: wide sweep
+    range:
+      - 30
+      - 30
+    weight: 1
+    type: text
+    _id: 4UgS2dYbFXmOW563
+    img: null
+    description: ''
+    drawn: false
+    flags: {}
+    _stats:
+      coreVersion: '14.364'
+      systemId: grimwild
+      systemVersion: 0.5.3
+      createdTime: 1783124799733
+      modifiedTime: 1783125004619
+      lastModifiedBy: 79CEe5dKC6Ls5VbU
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+    _key: '!tables.results!BV60IFri4QDN6Rns.4UgS2dYbFXmOW563'
+  - name: flowing step
+    range:
+      - 31
+      - 31
+    weight: 1
+    type: text
+    _id: XpYbRq48haVOoLh2
+    img: null
+    description: ''
+    drawn: false
+    flags: {}
+    _stats:
+      coreVersion: '14.364'
+      systemId: grimwild
+      systemVersion: 0.5.3
+      createdTime: 1783124799733
+      modifiedTime: 1783125004619
+      lastModifiedBy: 79CEe5dKC6Ls5VbU
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+    _key: '!tables.results!BV60IFri4QDN6Rns.XpYbRq48haVOoLh2'
+  - name: iron grip
+    range:
+      - 32
+      - 32
+    weight: 1
+    type: text
+    _id: aiCEc1FwU8YeV2Lr
+    img: null
+    description: ''
+    drawn: false
+    flags: {}
+    _stats:
+      coreVersion: '14.364'
+      systemId: grimwild
+      systemVersion: 0.5.3
+      createdTime: 1783124799733
+      modifiedTime: 1783125004619
+      lastModifiedBy: 79CEe5dKC6Ls5VbU
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+    _key: '!tables.results!BV60IFri4QDN6Rns.aiCEc1FwU8YeV2Lr'
+  - name: steady gaze
+    range:
+      - 33
+      - 33
+    weight: 1
+    type: text
+    _id: d2VcNAPDPju8ZKju
+    img: null
+    description: ''
+    drawn: false
+    flags: {}
+    _stats:
+      coreVersion: '14.364'
+      systemId: grimwild
+      systemVersion: 0.5.3
+      createdTime: 1783124799733
+      modifiedTime: 1783125004619
+      lastModifiedBy: 79CEe5dKC6Ls5VbU
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+    _key: '!tables.results!BV60IFri4QDN6Rns.d2VcNAPDPju8ZKju'
+  - name: palm heel
+    range:
+      - 34
+      - 34
+    weight: 1
+    type: text
+    _id: Ar47ERSqGYdMl69b
+    img: null
+    description: ''
+    drawn: false
+    flags: {}
+    _stats:
+      coreVersion: '14.364'
+      systemId: grimwild
+      systemVersion: 0.5.3
+      createdTime: 1783124799733
+      modifiedTime: 1783125004619
+      lastModifiedBy: 79CEe5dKC6Ls5VbU
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+    _key: '!tables.results!BV60IFri4QDN6Rns.Ar47ERSqGYdMl69b'
+  - name: backfist strike
+    range:
+      - 35
+      - 35
+    weight: 1
+    type: text
+    _id: b8MzFnM2VeTwQxhn
+    img: null
+    description: ''
+    drawn: false
+    flags: {}
+    _stats:
+      coreVersion: '14.364'
+      systemId: grimwild
+      systemVersion: 0.5.3
+      createdTime: 1783124799733
+      modifiedTime: 1783125004619
+      lastModifiedBy: 79CEe5dKC6Ls5VbU
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+    _key: '!tables.results!BV60IFri4QDN6Rns.b8MzFnM2VeTwQxhn'
+  - name: crescent kick
+    range:
+      - 36
+      - 36
+    weight: 1
+    type: text
+    _id: ZCZu1upbprgEXa5j
+    img: null
+    description: ''
+    drawn: false
+    flags: {}
+    _stats:
+      coreVersion: '14.364'
+      systemId: grimwild
+      systemVersion: 0.5.3
+      createdTime: 1783124799733
+      modifiedTime: 1783125004620
+      lastModifiedBy: 79CEe5dKC6Ls5VbU
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+    _key: '!tables.results!BV60IFri4QDN6Rns.ZCZu1upbprgEXa5j'
+flags:
+  core:
+    sheetClass: grimwild.GrimwildRollTableCrucibleSheet
+_id: BV60IFri4QDN6Rns
+img: icons/svg/d20-grey.svg
+description: ''
+replacement: true
+displayRoll: true
+folder: Qvmh7d2nvD4SRx40
+ownership:
+  default: 0
+  79CEe5dKC6Ls5VbU: 3
+_stats:
+  coreVersion: '14.364'
+  systemId: grimwild
+  systemVersion: 0.5.3
+  createdTime: 1783124799733
+  modifiedTime: 1783125004614
+  lastModifiedBy: 79CEe5dKC6Ls5VbU
+  exportSource: null
+  compendiumSource: null
+  duplicateSource: null
+sort: 0
+_key: '!tables!BV60IFri4QDN6Rns'

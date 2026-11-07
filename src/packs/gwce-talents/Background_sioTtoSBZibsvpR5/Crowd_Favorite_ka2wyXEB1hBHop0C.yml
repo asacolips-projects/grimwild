@@ -1,0 +1,32 @@
+folder: sioTtoSBZibsvpR5
+name: Crowd Favorite
+type: talent
+_id: ka2wyXEB1hBHop0C
+img: icons/svg/item-bag.svg
+system:
+  description: >-
+    <p>Given time and space to entertain a crowd, you and participat- ing allies
+    can <em><strong>take spark</strong></em> for the performance. Give a
+    <em>vignette</em>, then make a story roll to see how it goes.</p>
+  core: false
+  notes:
+    description: ''
+    label: ''
+  trackers: []
+effects: []
+sort: 0
+ownership:
+  default: 0
+  79CEe5dKC6Ls5VbU: 3
+flags: {}
+_stats:
+  coreVersion: '14.364'
+  systemId: grimwild
+  systemVersion: 0.5.3
+  createdTime: 1782662611329
+  modifiedTime: 1782662611329
+  lastModifiedBy: 79CEe5dKC6Ls5VbU
+  compendiumSource: null
+  duplicateSource: null
+  exportSource: null
+_key: '!items!ka2wyXEB1hBHop0C'

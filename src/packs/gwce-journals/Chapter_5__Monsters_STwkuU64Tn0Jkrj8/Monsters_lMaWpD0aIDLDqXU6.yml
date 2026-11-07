@@ -1,0 +1,263 @@
+name: Monsters
+_id: lMaWpD0aIDLDqXU6
+pages:
+  - sort: 0
+    name: Monsters
+    type: text
+    _id: 91Vv8HUw4Wp9ZJTO
+    system: {}
+    title:
+      show: true
+      level: 1
+    image: {}
+    text:
+      format: 1
+      content: >-
+        <h2>Painting Monstrous Scenes</h2><p>This chapter features nearly 100
+        monster blocks designed to help you, the GM, create vivid and engaging
+        encounters. Each block emphasizes color, sensory details, instincts,
+        motivations, and adventure hooks over mechanical difficulty—in fact,
+        there are no mechanics at all besides example traits and moves. As with
+        all things in <em>Grimwild</em>, monsters map back to the core
+        resolution mechanics. Monsters should be more than just something to
+        carve through—they should feel integral to the story.</p><p>The bestiary
+        offers advice, not rules: a collection of tropes and ideas for
+        inspiration. It's not meant to be a comprehensive guide to these
+        monsters, but instead a tool for quick reference and thinking outside
+        the box with classic fantasy monsters. Some familiarity with them is
+        assumed.</p><p>The monsters presented here blend tropes, personal
+        twists, and efforts to make them more engaging than just "something that
+        wants to eat you." However, keep in mind that nothing here is
+        canon—every idea is flexible, ready to be replaced, reimagined, or
+        repurposed. These are just one interpretation of what these monsters
+        might be. Change whatever you like; it won't break a
+        thing.</p><h2>Monster Block Breakdown</h2><p><strong>Role:</strong> The
+        most common role of this creature when
+        encountered.</p><p><strong>Palette:</strong> Colors associated with the
+        creature or its surroundings.</p><p><strong>Details:</strong> A short
+        description of the monster and its lore.</p><p><strong>✱
+        Traits:</strong> These are certain aspects of the monster that can help
+        the GM determine vantage, or unique abilities such as flying or
+        speech.</p><p><strong>◉ Moves:</strong> Suggest what a creature might
+        do, especially in conflict, but are flexible and meant to inspire, even
+        outside combat. Not all monsters are
+        challenges.</p><p><strong>Goals:</strong> A creature’s drives, offering
+        direction and ways for PCs to interact. Sharethem, especially with
+        experienced PCs.</p><p><strong>Sensories:</strong> A list of, sights,
+        sounds, and smells encountered near the creature—sometimes describing
+        the creature, other times the area or signs of its
+        presence.</p><p><strong>Tables:</strong> Inspire variants, introduce
+        quest hooks, or define a purpose, adding depth toeach.</p><h2>Notes on
+        Monster Blocks</h2><p><strong>Lack of Humanoids:</strong> Common
+        humanoid monsters like kobolds, orcs, and goblins are not listed. These
+        can be added to your game with only a tier and
+        role.</p><p><strong>Categories:</strong> Blocks for demons, devils, dire
+        animals, elementals, fey, hags, giants, and undead are grouped
+        together.</p><p><strong>Expanded Entries:</strong> Some monsters, like
+        balors and vampires, have double-sized entries featuring quests, linked
+        challenges, or extra tables. These provide ready-to- use scenarios and
+        examples for building and expanding your own.</p><p><strong>Immunities
+        &amp; Weaknesses:</strong> Few specific resistances or vulnerabilities
+        are listed. Basic logic applies—like skeletons resisting weapons that
+        pierce or cut—and you can tweak for difficulty by adding your own. These
+        entries are starting points meant to inspire creative
+        customization.</p><h3>Monster Block Use Example</h3><section class="grid
+        grid-2col"><div><p>You push through the tall grass, and the air seems
+        thick with the <strong>smell of jasmine and lavender (sensory)</strong>.
+        You hear <strong>giggling</strong> and catch a glimpse of something
+        small, <strong>petal pink (palette)</strong> in color. The grass
+        abruptly stops, and you realize you’ve walked into the middle of a small
+        <strong>circle of faintly glowing mushrooms
+        (table)</strong>.</p><p>Suddenly, the air shimmers and a <strong>dozen
+        tiny figures manifest out of thin air (traits)</strong>. One zips by
+        above you, glittering motes of pastel light falling on your head. Your
+        vision gets blurry, and you have the <strong>inexplicable urge to dance
+        (impact move from FAIRY DUST)</strong>.</p><p>You swish your
+        <strong>iron shortsword (player roll, messy)</strong> at them as your
+        wits begin to leave you, and the melodic singing around you turns to
+        <strong>high-pitched screams as they suddenly flee (goals)</strong>. You
+        look down, and <strong>see you’re holding a venomous snake (impact move
+        from MINOR ILLUSIONS)</strong>!</p></div><div><img
+        src="modules/grimwild/assets/img/monster-block.svg"></div></section>
+    video:
+      controls: true
+      volume: 0.5
+    src: null
+    category: null
+    ownership:
+      default: -1
+      79CEe5dKC6Ls5VbU: 3
+    flags: {}
+    _stats:
+      coreVersion: '14.364'
+      systemId: grimwild
+      systemVersion: 0.5.3
+      createdTime: 1783183946980
+      modifiedTime: 1783205769801
+      lastModifiedBy: 79CEe5dKC6Ls5VbU
+      compendiumSource: >-
+        Compendium.grimwild.gwce-journals.JournalEntry.lvFavQ8BROBgMMZb.JournalEntryPage.91Vv8HUw4Wp9ZJTO
+      duplicateSource: null
+      exportSource: null
+    _key: '!journal.pages!lMaWpD0aIDLDqXU6.91Vv8HUw4Wp9ZJTO'
+  - sort: 100000
+    name: Monsters by Type
+    type: text
+    _id: uWELs0VIrYt1m7bX
+    system: {}
+    title:
+      show: true
+      level: 1
+    image: {}
+    text:
+      format: 1
+      content: >-
+        <h3>Constructs</h3><ul><li><p>@UUID[Compendium.grimwild.gwce-actors.TJcrjAkIcHiZ1QKz]{Animated
+        Objects}</p></li><li><p>@UUID[Compendium.grimwild.gwce-actors.fDoaUEi9IZPQn4NS]{Arcane
+        Turret}</p></li><li><p>@UUID[Compendium.grimwild.gwce-actors.pRS8BmUzeEGniF9s]{Golem}</p></li><li><p>@UUID[Compendium.grimwild.gwce-actors.hW7xBJvymF70x5Ra]{Living
+        Spell}</p></li><li><p>@UUID[Compendium.grimwild.gwce-actors.evoNGFGnAQPR7b3S]{Magic
+        Hunter}</p></li><li><p>@UUID[Compendium.grimwild.gwce-actors.KkrncDRSwwtonAIz]{Sparkwrought}</p></li></ul><h3>Divines</h3><ul><li><p>@UUID[Compendium.grimwild.gwce-actors.Fkk3o6fwtH4glAh5]{Angel}</p></li><li><p>@UUID[Compendium.grimwild.gwce-actors.Vt7HG4lx20pcT4L2]{Archon}</p></li><li><p>@UUID[Compendium.grimwild.gwce-actors.huuhe4HSeSVGNL0d]{Empyrean}</p></li><li><p>@UUID[Compendium.grimwild.monsters.4K0jDJ6DG6aSnqpI]{Demon,
+        Balor}</p></li><li><p>@UUID[Compendium.grimwild.monsters.pxcakZvABap6b3DM]{Demon,
+        Glabrezu}</p></li><li><p>@UUID[Compendium.grimwild.monsters.588OtbbaS3lUhBH3]{Demon,
+        Vrock}</p></li><li><p>@UUID[Compendium.grimwild.monsters.iF3Cx4WpibNVplLw]{Devil,
+        Barbed}</p></li><li><p>@UUID[Compendium.grimwild.monsters.uTgOZVBQhPQRnX4k]{Devil,
+        Chain}</p></li><li><p>@UUID[Compendium.grimwild.monsters.BEaokrIlmFWOSoVk]{Devil,
+        Horned}</p></li><li><p>@UUID[Compendium.grimwild.monsters.xiTJHrnx89mGnxTN]{Devil,
+        Imp}</p></li><li><p>@UUID[Compendium.grimwild.monsters.tSmFJAIUbuI5gjOB]{Couatl}</p></li><li><p>@UUID[Compendium.grimwild.monsters.KyRr7kysgODpU3ZC]{Hell
+        Hound}</p></li><li><p>@UUID[Compendium.grimwild.monsters.jFvT0lvRLkPfJoEJ]{Nightmare}</p></li><li><p>@UUID[Compendium.grimwild.monsters.OC1Blm81adIG54Rr]{Unicorn}</p></li></ul><h3>Fey</h3><ul><li><p>@UUID[Compendium.grimwild.gwce-actors.6y1eoaopILtouOWA]{Blink
+        Dog}</p></li><li><p>@UUID[Compendium.grimwild.monsters.bezGzV1XuGUZ3Ptx]{Fey,
+        Dryad}</p></li><li><p>@UUID[Compendium.grimwild.monsters.4Px4ZxcnlB79MZKd]{Fey,
+        Faery}</p></li><li><p>@UUID[Compendium.grimwild.gwce-actors.qzS9i3figBpn2mPb]{Grimlin}</p></li><li><p>@UUID[Compendium.grimwild.monsters.UYZlzREhgjmtp6fl]{Hag,
+        Night}</p></li><li><p>@UUID[Compendium.grimwild.monsters.QssIJgb0Ac26wpKX]{Hag,
+        Sea}</p></li><li><p>@UUID[Compendium.grimwild.monsters.qAl6LEZp80HrgrGF]{Hag,
+        Storm}</p></li><li><p>@UUID[Compendium.grimwild.monsters.Ekp0bTwzGU6HbElY]{Hag,
+        Swamp}</p></li><li><p>@UUID[Compendium.grimwild.gwce-actors.PI2GQ2wIP21vldrI]{Pseudodragon}</p></li><li><p>@UUID[Compendium.grimwild.monsters.aHh9l8aifIetBvWq]{Rakshasa}</p></li><li><p>@UUID[Compendium.grimwild.monsters.QZrneSVrUxsEJ1T1]{Fey,
+        Redcap}</p></li><li><p>@UUID[Compendium.grimwild.monsters.Za7ubc4NkiPIlda1]{Fey,
+        Satyr}</p></li></ul><h3>Humanoids</h3><ul><li><p>@UUID[Compendium.grimwild.gwce-actors.DvdceUPJqlPTlZG6]{Archer}</p></li><li><p>@UUID[Compendium.grimwild.gwce-actors.XJj0nTtSBtW0UTOr]{Archmage}</p></li><li><p>@UUID[Compendium.grimwild.gwce-actors.rQTe6rrKlWvuIdM9]{Assassin}</p></li><li><p>@UUID[Compendium.grimwild.gwce-actors.g3rS0zaCfOwfAJeD]{Bannerman}</p></li><li><p>@UUID[Compendium.grimwild.gwce-actors.uf2aqguQMdn5VMlE]{Brute}</p></li><li><p>@UUID[Compendium.grimwild.gwce-actors.WpSxMknU175krBif]{Captain}</p></li><li><p>@UUID[Compendium.grimwild.gwce-actors.sEK69TaxVkG3EhoQ]{Cultist}</p></li><li><p>@UUID[Compendium.grimwild.gwce-actors.zlCZg5SAOYRjM9zy]{Guardian}</p></li><li><p>@UUID[Compendium.grimwild.gwce-actors.b6vCeZDIc7d0BM1E]{Hunter}</p></li><li><p>@UUID[Compendium.grimwild.gwce-actors.S7tEKoE2ztfy7Dw5]{Knight}</p></li><li><p>@UUID[Compendium.grimwild.gwce-actors.IF0sR0o4PaVuhgaG]{Mage}</p></li><li><p>@UUID[Compendium.grimwild.gwce-actors.kiBBo3fwPFGGVn77]{Raider}</p></li><li><p>@UUID[Compendium.grimwild.gwce-actors.WeqqknlxVh9XBTUN]{Soldier}</p></li><li><p>@UUID[Compendium.grimwild.gwce-actors.tV2cZ6Oq2rZMSX5e]{Thief}</p></li></ul><h3>Lands</h3><h3>Monstrosites</h3><h3>Myths</h3><h3>Oddities</h3><h3>Primals</h3><h3>Seas
+        &amp; Skies</h3><h3>Undead</h3>
+    video:
+      controls: true
+      volume: 0.5
+    src: null
+    category: null
+    ownership:
+      default: -1
+      79CEe5dKC6Ls5VbU: 3
+    flags: {}
+    _stats:
+      coreVersion: '14.368'
+      systemId: grimwild
+      systemVersion: 0.5.3
+      createdTime: 1783205807758
+      modifiedTime: 1791820101027
+      lastModifiedBy: nF9qxzj59Qn6fNSn
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+    _key: '!journal.pages!lMaWpD0aIDLDqXU6.uWELs0VIrYt1m7bX'
+  - sort: 200000
+    name: Monsters by Role
+    type: text
+    _id: H0c2CeV9RcRMEQ1S
+    system: {}
+    title:
+      show: true
+      level: 1
+    image: {}
+    text:
+      format: 1
+      content: >-
+        <h3>Blaster</h3><ul><li><p>@UUID[Compendium.grimwild.monsters.ODpeQ7mgQAoIV8M6]{Dragon}</p></li><li><p>@UUID[Compendium.grimwild.monsters.U8cbakUrDWJHgjI4]{Genie}</p></li><li><p>@UUID[Compendium.grimwild.monsters.A3tBMJpVysqXej3I]{Undead,
+        Ghost}</p></li><li><p>@UUID[Compendium.grimwild.gwce-actors.2oXXgMhYBOTKSPLH]{Mephit}</p></li><li><p>@UUID[Compendium.grimwild.monsters.ye9W4zCUDBoKpAac]{Naga}</p></li><li><p>@UUID[Compendium.grimwild.monsters.b84JWSCofsFYOp2E]{Phoenix}</p></li><li><p>@UUID[Compendium.grimwild.monsters.IvOdNeSjrmmqV8ZT]{Giant,
+        Storm}</p></li><li><p>@UUID[Compendium.grimwild.monsters.qAl6LEZp80HrgrGF]{Hag,
+        Storm}</p></li><li><p>@UUID[Compendium.grimwild.monsters.7o0lsLoqjlFGDO7G]{Elemental,
+        Water}</p></li></ul><h3>Brute</h3><ul><li><p>@UUID[Compendium.grimwild.gwce-actors.TJcrjAkIcHiZ1QKz]{Animated
+        Objects}</p></li><li><p>@UUID[Compendium.grimwild.gwce-actors.uf2aqguQMdn5VMlE]{Brute}</p></li><li><p>@UUID[Compendium.grimwild.monsters.cReBxMdewr95WX6h]{Carcass
+        Crawler}</p></li><li><p>@UUID[Compendium.grimwild.monsters.wZG3CtLI7QoykRaY]{Chimera}</p></li><li><p>@UUID[Compendium.grimwild.monsters.bnAWVuU4FJnP5xbx]{Cyclops}</p></li><li><p>@UUID[Compendium.grimwild.monsters.GsZvTAh6Vhk7SNIE]{Dire
+        Bear}</p></li><li><p>@UUID[Compendium.grimwild.gwce-actors.j2B1wF4KeLxIPUz3]{Dire
+        Boar}</p></li><li><p>@UUID[Compendium.grimwild.monsters.Objnybu85VIrzcB4]{Dire
+        Crab}</p></li><li><p>@UUID[Compendium.grimwild.gwce-actors.9FGHqdV44JUF9Mdp]{Dire
+        Jellyfish}</p></li><li><p>@UUID[Compendium.grimwild.monsters.3P4eBW2Oadfp5ESk]{Elemental,
+        Earth}</p></li><li><p>@UUID[Compendium.grimwild.gwce-actors.huuhe4HSeSVGNL0d]{Empyrean}</p></li><li><p>@UUID[Compendium.grimwild.monsters.uvnZ6RIGgjm0pU15]{Ettin}</p></li><li><p>@UUID[Compendium.grimwild.gwce-actors.5I3xF514BrcwiCrC]{Fear
+        Gorta}</p></li><li><p>@UUID[Compendium.grimwild.monsters.g2C1SByOOmGmgHT8]{Elemental,
+        Fire}</p></li><li><p>@UUID[Compendium.grimwild.monsters.tk4lOgSGW3HkjzR0]{Gelatinous
+        Cube}</p></li><li><p>@UUID[Compendium.grimwild.monsters.kDFZqpFehl8Agl2r]{Undead,
+        Ghast}</p></li><li><p>@UUID[Compendium.grimwild.monsters.PHBht1yKmIrXhmrk]{Gibbering
+        Mouther}</p></li><li><p>@UUID[Compendium.grimwild.gwce-actors.pRS8BmUzeEGniF9s]{Golem}</p></li><li><p>@UUID[Compendium.grimwild.monsters.tFYUAwkOxXlWd6XP]{Gorgon}</p></li><li><p>@UUID[Compendium.grimwild.monsters.x38xtlisaYWCOyLC]{Giant,
+        Hill}</p></li><li><p>@UUID[Compendium.grimwild.gwce-actors.uX7gbI7EGI86xNP3]{Hook
+        Haunt}</p></li><li><p>@UUID[Compendium.grimwild.monsters.BEaokrIlmFWOSoVk]{Devil,
+        Horned}</p></li><li><p>@UUID[Compendium.grimwild.monsters.xl8beleA5EKivoRz]{Hydra}</p></li><li><p>@UUID[Compendium.grimwild.gwce-actors.uf2aqguQMdn5VMlE]{Brute}</p></li><li><p>@UUID[Compendium.grimwild.gwce-actors.sEK69TaxVkG3EhoQ]{Cultist}</p></li><li><p>@UUID[Compendium.grimwild.gwce-actors.WeqqknlxVh9XBTUN]{Soldier}</p></li><li><p>@UUID[Compendium.grimwild.gwce-actors.Lc6UhYCOANnv5Jk4]{Lodestone
+        Beast}</p></li><li><p>@UUID[Compendium.grimwild.gwce-actors.JxPlR5Yos7ptz46J]{Mammoth}</p></li><li><p>@UUID[Compendium.grimwild.monsters.jv4yMVAoNboAy8nc]{Minotaur}</p></li><li><p>@UUID[Compendium.grimwild.monsters.jFvT0lvRLkPfJoEJ]{Nightmare}</p></li><li><p>@UUID[Compendium.grimwild.monsters.bMdOY9D9IvSERFxO]{Ochre
+        Jelly}</p></li><li><p>@UUID[Compendium.grimwild.monsters.qB1fsa47i27KXfxu]{Ogre}</p></li><li><p>@UUID[Compendium.grimwild.monsters.csUbInPXTy015oPl]{Otyugh}</p></li><li><p>@UUID[Compendium.grimwild.monsters.TOInH4dokRTwAAzC]{Owlbear}</p></li><li><p>@UUID[Compendium.grimwild.monsters.gpizIRWsGj1Jd0lh]{Roc}</p></li><li><p>@UUID[Compendium.grimwild.monsters.Za7ubc4NkiPIlda1]{Fey,
+        Satyr}</p></li><li><p>@UUID[Compendium.grimwild.monsters.WLlxvScZ50x03zi3]{Shambling
+        Mound}</p></li><li><p>@UUID[Compendium.grimwild.gwce-actors.ixcZeU7JnjJ2O42s]{Triceratops}</p></li><li><p>@UUID[Compendium.grimwild.monsters.iOMIQa15K1way7RZ]{Troll}</p></li><li><p>@UUID[Compendium.grimwild.monsters.588OtbbaS3lUhBH3]{Demon,
+        Vrock}</p></li><li><p>@UUID[Compendium.grimwild.monsters.IkvcjajHy2CNp6k4]{Undead,
+        Wight}</p></li><li><p>@UUID[Compendium.grimwild.monsters.LE3TdfGhTsKh5U8t]{Undead,
+        Wraith}</p></li><li><p>@UUID[Compendium.grimwild.monsters.NrOQau8yS7z6OF3m]{Yeti}</p></li></ul><h3>Lurker</h3><ul><li><p>@UUID[Compendium.grimwild.gwce-actors.rQTe6rrKlWvuIdM9]{Assassin}</p></li><li><p>@UUID[Compendium.grimwild.gwce-actors.PsOIambYvmpPfjs4]{Blooming
+        Maw}</p></li><li><p>@UUID[Compendium.grimwild.monsters.iF3Cx4WpibNVplLw]{Devil,
+        Barbed}</p></li><li><p>@UUID[Compendium.grimwild.monsters.r5qBaLthS6ISJLRs]{Basilisk}</p></li><li><p>@UUID[Compendium.grimwild.monsters.p4mBcLAnflawBka5]{Dire
+        Crocodile}</p></li><li><p>@UUID[Compendium.grimwild.monsters.th6MCwIhPI9F3jye]{Grick}</p></li><li><p>@UUID[Compendium.grimwild.gwce-actors.Actor.eectRHlx9Ki8SDkp]{Land
+        Shark}</p></li><li><p>@UUID[Compendium.grimwild.monsters.HkFyVHgeIgxHCTUa]{Mimic}</p></li><li><p>@UUID[Compendium.grimwild.monsters.N9TCgv9NICq4r2PR]{Roper}</p></li><li><p>@UUID[Compendium.grimwild.gwce-actors.h8dcPDuq0dk7BwuO]{Strangle
+        Vine}</p></li></ul><h3>Marksman</h3><ul><li><p>@UUID[Compendium.grimwild.gwce-actors.fDoaUEi9IZPQn4NS]{Arcane
+        Turret}</p></li><li><p>@UUID[Compendium.grimwild.gwce-actors.DvdceUPJqlPTlZG6]{Archer}</p></li><li><p>@UUID[Compendium.grimwild.gwce-actors.8KTamQJWIaUzTSrZ]{Centaur}</p></li><li><p>@UUID[Compendium.grimwild.monsters.cKHVDb13YtB3QLDz]{Manticore}</p></li></ul><h3>Predator</h3><ul><li><p>@UUID[Compendium.grimwild.monsters.H2ERCtGIG1rUUjzc]{Behir}</p></li><li><p>@UUID[Compendium.grimwild.monsters.7CZfQgXnf2GH5GcC]{Chuul}</p></li><li><p>@UUID[Compendium.grimwild.monsters.zRXbJjV3o7htvUDP]{Dire
+        Eagle}</p></li><li><p>@UUID[Compendium.grimwild.monsters.u4Er2uzsQrPmNFXX]{Dire
+        Shark}</p></li><li><p>@UUID[Compendium.grimwild.monsters.brL1hqwNm5EJSfA9]{Griffon}</p></li><li><p>@UUID[Compendium.grimwild.monsters.KyRr7kysgODpU3ZC]{Hell
+        Hound}</p></li><li><p>@UUID[Compendium.grimwild.monsters.ll9AHG8iIeAHViG0]{Remorhaz}</p></li><li><p>@UUID[Compendium.grimwild.monsters.68CW02YQgDOBiHAF]{Wyvern}</p></li></ul><h3>Protector</h3><ul><li><p>@UUID[Compendium.grimwild.monsters.tSmFJAIUbuI5gjOB]{Couatl}</p></li><li><p>@UUID[Compendium.grimwild.monsters.bezGzV1XuGUZ3Ptx]{Fey,
+        Dryad}</p></li><li><p>@UUID[Compendium.grimwild.monsters.ItaMoCnoZRUy4hvP]{Gargoyle}</p></li><li><p>@UUID[Compendium.grimwild.monsters.qMZTvQh3iDoZC9j6]{Hippogriff}</p></li><li><p>@UUID[Compendium.grimwild.monsters.htxmxZ2Yjvgy2twS]{Pegasus}</p></li><li><p>@UUID[Compendium.grimwild.monsters.OC1Blm81adIG54Rr]{Unicorn}</p></li></ul><h3>Skirmisher</h3><ul><li><p>@UUID[Compendium.grimwild.monsters.mtNH98nx4OUgxgcP]{Dire
+        Centipede}</p></li><li><p>@UUID[Compendium.grimwild.monsters.QZrneSVrUxsEJ1T1]{Fey,
+        Redcap}</p></li><li><p>@UUID[Compendium.grimwild.monsters.7RplB5bD7lao5R1z]{Rustmaw}</p></li><li><p>@UUID[Compendium.grimwild.monsters.Jfb9j3CmHM2ia3Tz]{Undead,
+        Vampire}</p></li></ul><h3>Swarmer</h3><ul><li><p>@UUID[Compendium.grimwild.monsters.OCHBnFmRajnUX0Ay]{Cockatrice}</p></li><li><p>@UUID[Compendium.grimwild.gwce-actors.ISioLxSjFHPrenSO]{Flux
+        Frog}</p></li><li><p>@UUID[Compendium.grimwild.gwce-actors.MTyrcgjxwT77B87K]{Stirge}</p></li><li><p>@UUID[Compendium.grimwild.gwce-actors.4iekiU14L4JhWzbL]{Swarm,
+        Beetle}</p></li><li><p>@UUID[Compendium.grimwild.gwce-actors.TP1OceIKkJnOtAxF]{Swarm,
+        Rat}</p></li><li><p>@UUID[Compendium.grimwild.gwce-actors.KmJ9QvHDWMXzgDWp]{Zombie}</p></li></ul><h3>Tactician</h3><ul><li><p>@UUID[Compendium.grimwild.gwce-actors.Fkk3o6fwtH4glAh5]{Angel}</p></li><li><p>@UUID[Compendium.grimwild.gwce-actors.XJj0nTtSBtW0UTOr]{Archmage}</p></li><li><p>@UUID[Compendium.grimwild.gwce-actors.g3rS0zaCfOwfAJeD]{Bannerman}</p></li><li><p>@UUID[Compendium.grimwild.gwce-actors.WpSxMknU175krBif]{Captain}</p></li><li><p>@UUID[Compendium.grimwild.monsters.4K0jDJ6DG6aSnqpI]{Demon,
+        Balor}</p></li><li><p>@UUID[Compendium.grimwild.monsters.uTgOZVBQhPQRnX4k]{Devil,
+        Chain}</p></li><li><p>@UUID[Compendium.grimwild.monsters.MwOjdYWU5z72Aa6w]{Dire
+        Spider}</p></li><li><p>@UUID[Compendium.grimwild.monsters.kt373vHvqRplqfox]{Dire
+        Wolf}</p></li><li><p>@UUID[Compendium.grimwild.monsters.0i8IJgOEEpJObYmy]{Ettercap}</p></li><li><p>@UUID[Compendium.grimwild.monsters.QssIJgb0Ac26wpKX]{Hag,
+        Sea}</p></li><li><p>@UUID[Compendium.grimwild.gwce-actors.crzKvbw1pq37H2CL]{Kraken}</p></li><li><p>@UUID[Compendium.grimwild.gwce-actors.ZoQ6qsPecgaxg4ev]{Myconid}</p></li><li><p>@UUID[Compendium.grimwild.monsters.h8hzuAzUEFtPUmHP]{Sphinx}</p></li><li><p>@UUID[Compendium.grimwild.monsters.jlIzhItvDbRvC09L]{Underscourge}</p></li><li><p>@UUID[Compendium.grimwild.monsters.L14dmMrOg6AW2jBf]{Undead,
+        Lich}</p></li></ul><h3>Trickster</h3><ul><li><p>@UUID[Compendium.grimwild.monsters.pxcakZvABap6b3DM]{Demon,
+        Glabrezu}</p></li><li><p>@UUID[Compendium.grimwild.monsters.xiTJHrnx89mGnxTN]{Devil,
+        Imp}</p></li><li><p>@UUID[Compendium.grimwild.monsters.qlcR5xSomvJvV23P]{Dislocation
+        Beast}</p></li><li><p>@UUID[Compendium.grimwild.monsters.o8DARi7C5xH9AwWE]{Doppelganger}</p></li><li><p>@UUID[Compendium.grimwild.monsters.TYyXy93gKMFPcboi]{Elemental,
+        Air}</p></li><li><p>@UUID[Compendium.grimwild.monsters.4Px4ZxcnlB79MZKd]{Fey,
+        Faery}</p></li><li><p>@UUID[Compendium.grimwild.gwce-actors.qzS9i3figBpn2mPb]{Grimlin}</p></li><li><p>@UUID[Compendium.grimwild.monsters.UYZlzREhgjmtp6fl]{Hag,
+        Night}</p></li><li><p>@UUID[Compendium.grimwild.monsters.Ekp0bTwzGU6HbElY]{Hag,
+        Swamp}</p></li><li><p>@UUID[Compendium.grimwild.monsters.RCdELwbNlzujG7rz]{Lamia}</p></li><li><p>@UUID[Compendium.grimwild.monsters.v1m1elKj9PAhhCiw]{Medusa}</p></li><li><p>@UUID[Compendium.grimwild.gwce-actors.PI2GQ2wIP21vldrI]{Pseudodragon}</p></li><li><p>@UUID[Compendium.grimwild.monsters.aHh9l8aifIetBvWq]{Rakshasa}</p></li><li><p>@UUID[Compendium.grimwild.gwce-actors.tV2cZ6Oq2rZMSX5e]{Thief}</p></li><li><p>@UUID[Compendium.grimwild.monsters.IZatGDzpfo3ffF57]{Will-O'-Wisp}</p></li></ul>
+    video:
+      controls: true
+      volume: 0.5
+    src: null
+    category: null
+    ownership:
+      default: -1
+      nF9qxzj59Qn6fNSn: 3
+    flags: {}
+    _stats:
+      coreVersion: '14.368'
+      systemId: grimwild
+      systemVersion: 0.5.3
+      createdTime: 1791748800155
+      modifiedTime: 1791820082966
+      lastModifiedBy: nF9qxzj59Qn6fNSn
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+    _key: '!journal.pages!lMaWpD0aIDLDqXU6.H0c2CeV9RcRMEQ1S'
+folder: STwkuU64Tn0Jkrj8
+categories: []
+sort: 100000
+ownership:
+  default: 0
+  79CEe5dKC6Ls5VbU: 3
+flags: {}
+_stats:
+  coreVersion: '14.368'
+  systemId: grimwild
+  systemVersion: 0.5.3
+  createdTime: 1783183943596
+  modifiedTime: 1791746152321
+  lastModifiedBy: nF9qxzj59Qn6fNSn
+  compendiumSource: null
+  duplicateSource: null
+  exportSource: null
+_key: '!journal!lMaWpD0aIDLDqXU6'

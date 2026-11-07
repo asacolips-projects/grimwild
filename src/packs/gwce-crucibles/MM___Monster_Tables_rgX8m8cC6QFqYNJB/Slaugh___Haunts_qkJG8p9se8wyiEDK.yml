@@ -1,0 +1,157 @@
+name: Slaugh - Haunts
+description: ''
+formula: 1d6
+results:
+  - name: ''
+    description: <b>Crumbling chapel</b>, where no one dares ring the bell.
+    range:
+      - 1
+      - 1
+    _id: FmguFKBCPgUfYknM
+    type: text
+    img: null
+    weight: 1
+    drawn: false
+    flags: {}
+    _stats:
+      coreVersion: '14.364'
+      systemId: grimwild
+      systemVersion: 0.5.3
+      createdTime: 1783270821428
+      modifiedTime: 1783270821428
+      lastModifiedBy: 79CEe5dKC6Ls5VbU
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+    _key: '!tables.results!qkJG8p9se8wyiEDK.FmguFKBCPgUfYknM'
+  - name: ''
+    description: <b>Ancient tree</b>, heavy with the bones of the forgotten.
+    range:
+      - 2
+      - 2
+    _id: z9iqlWCsfH37nAqG
+    type: text
+    img: null
+    weight: 1
+    drawn: false
+    flags: {}
+    _stats:
+      coreVersion: '14.364'
+      systemId: grimwild
+      systemVersion: 0.5.3
+      createdTime: 1783270821428
+      modifiedTime: 1783270821428
+      lastModifiedBy: 79CEe5dKC6Ls5VbU
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+    _key: '!tables.results!qkJG8p9se8wyiEDK.z9iqlWCsfH37nAqG'
+  - name: ''
+    description: <b>Misty hill</b>, where soldiers fell—never buried.
+    range:
+      - 3
+      - 3
+    _id: qw9YRQ1vdYxHdbGU
+    type: text
+    img: null
+    weight: 1
+    drawn: false
+    flags: {}
+    _stats:
+      coreVersion: '14.364'
+      systemId: grimwild
+      systemVersion: 0.5.3
+      createdTime: 1783270821428
+      modifiedTime: 1783270821428
+      lastModifiedBy: 79CEe5dKC6Ls5VbU
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+    _key: '!tables.results!qkJG8p9se8wyiEDK.qw9YRQ1vdYxHdbGU'
+  - name: ''
+    description: <b>Cliffside shrine</b> to a sun god, long abandoned.
+    range:
+      - 4
+      - 4
+    _id: MNV472D4tR17wsLg
+    type: text
+    img: null
+    weight: 1
+    drawn: false
+    flags: {}
+    _stats:
+      coreVersion: '14.364'
+      systemId: grimwild
+      systemVersion: 0.5.3
+      createdTime: 1783270821428
+      modifiedTime: 1783270821428
+      lastModifiedBy: 79CEe5dKC6Ls5VbU
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+    _key: '!tables.results!qkJG8p9se8wyiEDK.MNV472D4tR17wsLg'
+  - name: ''
+    description: <b>Rafters of a house</b> where everyone inside vanished.
+    range:
+      - 5
+      - 5
+    _id: etIzQaD9y1uEhNVa
+    type: text
+    img: null
+    weight: 1
+    drawn: false
+    flags: {}
+    _stats:
+      coreVersion: '14.364'
+      systemId: grimwild
+      systemVersion: 0.5.3
+      createdTime: 1783270821428
+      modifiedTime: 1783270821428
+      lastModifiedBy: 79CEe5dKC6Ls5VbU
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+    _key: '!tables.results!qkJG8p9se8wyiEDK.etIzQaD9y1uEhNVa'
+  - name: ''
+    description: <b>Witch-marked stone circle</b>, now broken and silent.
+    range:
+      - 6
+      - 6
+    _id: pPKSXSrWPKLxqQN1
+    type: text
+    img: null
+    weight: 1
+    drawn: false
+    flags: {}
+    _stats:
+      coreVersion: '14.364'
+      systemId: grimwild
+      systemVersion: 0.5.3
+      createdTime: 1783270821428
+      modifiedTime: 1783270821428
+      lastModifiedBy: 79CEe5dKC6Ls5VbU
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+    _key: '!tables.results!qkJG8p9se8wyiEDK.pPKSXSrWPKLxqQN1'
+folder: rgX8m8cC6QFqYNJB
+sort: 6900000
+_id: qkJG8p9se8wyiEDK
+img: icons/svg/d20-grey.svg
+replacement: true
+displayRoll: true
+ownership:
+  default: 0
+  79CEe5dKC6Ls5VbU: 3
+flags: {}
+_stats:
+  coreVersion: '14.368'
+  systemId: grimwild
+  systemVersion: 0.5.3
+  createdTime: 1783270821428
+  modifiedTime: 1791749998257
+  lastModifiedBy: nF9qxzj59Qn6fNSn
+  compendiumSource: null
+  duplicateSource: null
+  exportSource: null
+_key: '!tables!qkJG8p9se8wyiEDK'

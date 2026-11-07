@@ -1,0 +1,42 @@
+folder: TtWJSOkkmQ7qhO1P
+name: Bulwark
+type: talent
+_id: HyxdTMa3rkCyf4nM
+img: icons/equipment/shield/heater-wooden-steel-boss.webp
+system:
+  description: >-
+    <p>Each session, you have a <strong>2d Bulwark</strong> resource pool from
+    armor or other defenses. When you take physical harm, you can roll the pool
+    to ignore the damage.</p>
+  core: false
+  notes:
+    description: ''
+    label: ''
+  trackers:
+    - type: pool
+      pool:
+        powerPool: false
+        diceNum: 2
+        max: 2
+      label: Bulwark
+      points:
+        showSteps: false
+        value: 1
+        max: 1
+effects: []
+sort: 0
+ownership:
+  default: 0
+  79CEe5dKC6Ls5VbU: 3
+flags: {}
+_stats:
+  coreVersion: '14.368'
+  systemId: grimwild
+  systemVersion: 0.5.3
+  createdTime: 1782662617707
+  modifiedTime: 1791743223274
+  lastModifiedBy: nF9qxzj59Qn6fNSn
+  compendiumSource: null
+  duplicateSource: null
+  exportSource: null
+_key: '!items!HyxdTMa3rkCyf4nM'

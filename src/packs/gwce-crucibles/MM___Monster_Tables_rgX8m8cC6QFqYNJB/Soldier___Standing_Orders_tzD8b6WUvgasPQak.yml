@@ -1,0 +1,157 @@
+name: Soldier - Standing Orders
+description: ''
+formula: 1d6
+results:
+  - name: ''
+    description: Protect the <b>standard</b> at all costs, it must not fall.
+    range:
+      - 1
+      - 1
+    _id: BH2OFMUbouG03Por
+    type: text
+    img: null
+    weight: 1
+    drawn: false
+    flags: {}
+    _stats:
+      coreVersion: '14.364'
+      systemId: grimwild
+      systemVersion: 0.5.3
+      createdTime: 1783270821352
+      modifiedTime: 1783270821352
+      lastModifiedBy: 79CEe5dKC6Ls5VbU
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+    _key: '!tables.results!tzD8b6WUvgasPQak.BH2OFMUbouG03Por'
+  - name: ''
+    description: <b>Burn what you can’t carry</b> from the enemy.
+    range:
+      - 2
+      - 2
+    _id: VwxUdKD2V5fbIzga
+    type: text
+    img: null
+    weight: 1
+    drawn: false
+    flags: {}
+    _stats:
+      coreVersion: '14.364'
+      systemId: grimwild
+      systemVersion: 0.5.3
+      createdTime: 1783270821352
+      modifiedTime: 1783270821352
+      lastModifiedBy: 79CEe5dKC6Ls5VbU
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+    _key: '!tables.results!tzD8b6WUvgasPQak.VwxUdKD2V5fbIzga'
+  - name: ''
+    description: <b>Never leave post</b> unless relieved by a password.
+    range:
+      - 3
+      - 3
+    _id: 1CLFkuFkSnCDN8pL
+    type: text
+    img: null
+    weight: 1
+    drawn: false
+    flags: {}
+    _stats:
+      coreVersion: '14.364'
+      systemId: grimwild
+      systemVersion: 0.5.3
+      createdTime: 1783270821352
+      modifiedTime: 1783270821352
+      lastModifiedBy: 79CEe5dKC6Ls5VbU
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+    _key: '!tables.results!tzD8b6WUvgasPQak.1CLFkuFkSnCDN8pL'
+  - name: ''
+    description: Honor the <b>enemy’s dead</b>. They fought well.
+    range:
+      - 4
+      - 4
+    _id: 9aAQKjKq3hBBis6k
+    type: text
+    img: null
+    weight: 1
+    drawn: false
+    flags: {}
+    _stats:
+      coreVersion: '14.364'
+      systemId: grimwild
+      systemVersion: 0.5.3
+      createdTime: 1783270821352
+      modifiedTime: 1783270821352
+      lastModifiedBy: 79CEe5dKC6Ls5VbU
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+    _key: '!tables.results!tzD8b6WUvgasPQak.9aAQKjKq3hBBis6k'
+  - name: ''
+    description: <b>Leave the fallen</b> behind, it’s better to save yourself.
+    range:
+      - 5
+      - 5
+    _id: SyvjKqwEucxWCj1N
+    type: text
+    img: null
+    weight: 1
+    drawn: false
+    flags: {}
+    _stats:
+      coreVersion: '14.364'
+      systemId: grimwild
+      systemVersion: 0.5.3
+      createdTime: 1783270821352
+      modifiedTime: 1783270821352
+      lastModifiedBy: 79CEe5dKC6Ls5VbU
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+    _key: '!tables.results!tzD8b6WUvgasPQak.SyvjKqwEucxWCj1N'
+  - name: ''
+    description: No fire, no song, no light. This is a <b>dangerous land</b>.
+    range:
+      - 6
+      - 6
+    _id: ztI8oLkDiz5f6SYQ
+    type: text
+    img: null
+    weight: 1
+    drawn: false
+    flags: {}
+    _stats:
+      coreVersion: '14.364'
+      systemId: grimwild
+      systemVersion: 0.5.3
+      createdTime: 1783270821352
+      modifiedTime: 1783270821352
+      lastModifiedBy: 79CEe5dKC6Ls5VbU
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+    _key: '!tables.results!tzD8b6WUvgasPQak.ztI8oLkDiz5f6SYQ'
+folder: rgX8m8cC6QFqYNJB
+sort: 2800000
+_id: tzD8b6WUvgasPQak
+img: icons/svg/d20-grey.svg
+replacement: true
+displayRoll: true
+ownership:
+  default: 0
+  79CEe5dKC6Ls5VbU: 3
+flags: {}
+_stats:
+  coreVersion: '14.368'
+  systemId: grimwild
+  systemVersion: 0.5.3
+  createdTime: 1783270821352
+  modifiedTime: 1791749998255
+  lastModifiedBy: nF9qxzj59Qn6fNSn
+  compendiumSource: null
+  duplicateSource: null
+  exportSource: null
+_key: '!tables!tzD8b6WUvgasPQak'

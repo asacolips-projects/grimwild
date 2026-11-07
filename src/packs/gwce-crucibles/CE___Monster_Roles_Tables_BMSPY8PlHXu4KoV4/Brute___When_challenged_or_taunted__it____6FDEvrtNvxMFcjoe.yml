@@ -1,0 +1,157 @@
+name: Brute - When challenged or taunted, it...
+description: ''
+formula: 1d6
+results:
+  - name: ''
+    description: charges forward recklessly, ignoring safety.
+    range:
+      - 1
+      - 1
+    _id: N8rwDpvJsKWm7Jcq
+    type: text
+    img: icons/svg/d20-black.svg
+    weight: 1
+    drawn: false
+    flags: {}
+    _stats:
+      coreVersion: '14.368'
+      systemId: grimwild
+      systemVersion: 0.5.3
+      createdTime: 1791832264536
+      modifiedTime: 1791832264536
+      lastModifiedBy: nF9qxzj59Qn6fNSn
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+    _key: '!tables.results!6FDEvrtNvxMFcjoe.N8rwDpvJsKWm7Jcq'
+  - name: ''
+    description: lashes out at the closest enemy in frustration.
+    range:
+      - 2
+      - 2
+    _id: 7NNeLkARETD07B1i
+    type: text
+    img: icons/svg/d20-black.svg
+    weight: 1
+    drawn: false
+    flags: {}
+    _stats:
+      coreVersion: '14.368'
+      systemId: grimwild
+      systemVersion: 0.5.3
+      createdTime: 1791832264536
+      modifiedTime: 1791832264536
+      lastModifiedBy: nF9qxzj59Qn6fNSn
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+    _key: '!tables.results!6FDEvrtNvxMFcjoe.7NNeLkARETD07B1i'
+  - name: ''
+    description: circles their foes, looking for a weak spot.
+    range:
+      - 3
+      - 3
+    _id: pQwOyd76rsI5FIU7
+    type: text
+    img: icons/svg/d20-black.svg
+    weight: 1
+    drawn: false
+    flags: {}
+    _stats:
+      coreVersion: '14.368'
+      systemId: grimwild
+      systemVersion: 0.5.3
+      createdTime: 1791832264536
+      modifiedTime: 1791832264536
+      lastModifiedBy: nF9qxzj59Qn6fNSn
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+    _key: '!tables.results!6FDEvrtNvxMFcjoe.pQwOyd76rsI5FIU7'
+  - name: ''
+    description: smashes the environment to create new chaos.
+    range:
+      - 4
+      - 4
+    _id: FkWSo3b7is3YtpVI
+    type: text
+    img: icons/svg/d20-black.svg
+    weight: 1
+    drawn: false
+    flags: {}
+    _stats:
+      coreVersion: '14.368'
+      systemId: grimwild
+      systemVersion: 0.5.3
+      createdTime: 1791832264536
+      modifiedTime: 1791832264536
+      lastModifiedBy: nF9qxzj59Qn6fNSn
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+    _key: '!tables.results!6FDEvrtNvxMFcjoe.FkWSo3b7is3YtpVI'
+  - name: ''
+    description: rallies allies with a furious roar.
+    range:
+      - 5
+      - 5
+    _id: cxUWFc66LXnjpEsK
+    type: text
+    img: icons/svg/d20-black.svg
+    weight: 1
+    drawn: false
+    flags: {}
+    _stats:
+      coreVersion: '14.368'
+      systemId: grimwild
+      systemVersion: 0.5.3
+      createdTime: 1791832264536
+      modifiedTime: 1791832264536
+      lastModifiedBy: nF9qxzj59Qn6fNSn
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+    _key: '!tables.results!6FDEvrtNvxMFcjoe.cxUWFc66LXnjpEsK'
+  - name: ''
+    description: hurls something with crushing force.
+    range:
+      - 6
+      - 6
+    _id: BTnVRmGYHnqSOf49
+    type: text
+    img: icons/svg/d20-black.svg
+    weight: 1
+    drawn: false
+    flags: {}
+    _stats:
+      coreVersion: '14.368'
+      systemId: grimwild
+      systemVersion: 0.5.3
+      createdTime: 1791832264536
+      modifiedTime: 1791832264536
+      lastModifiedBy: nF9qxzj59Qn6fNSn
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+    _key: '!tables.results!6FDEvrtNvxMFcjoe.BTnVRmGYHnqSOf49'
+folder: BMSPY8PlHXu4KoV4
+_id: 6FDEvrtNvxMFcjoe
+img: icons/svg/d20-grey.svg
+replacement: true
+displayRoll: true
+ownership:
+  default: 0
+  nF9qxzj59Qn6fNSn: 3
+flags: {}
+_stats:
+  coreVersion: '14.368'
+  systemId: grimwild
+  systemVersion: 0.5.3
+  createdTime: 1791832264536
+  modifiedTime: 1791833675050
+  lastModifiedBy: nF9qxzj59Qn6fNSn
+  compendiumSource: null
+  duplicateSource: null
+  exportSource: null
+sort: 800000
+_key: '!tables!6FDEvrtNvxMFcjoe'

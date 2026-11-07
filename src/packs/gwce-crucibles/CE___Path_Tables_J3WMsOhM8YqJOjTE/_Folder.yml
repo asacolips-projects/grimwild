@@ -1,0 +1,20 @@
+type: RollTable
+folder: null
+name: CE - Path Tables
+color: null
+sorting: a
+_id: J3WMsOhM8YqJOjTE
+description: ''
+sort: 100000
+flags: {}
+_stats:
+  coreVersion: '14.368'
+  systemId: grimwild
+  systemVersion: 0.5.3
+  createdTime: 1783007550398
+  modifiedTime: 1791751407625
+  lastModifiedBy: nF9qxzj59Qn6fNSn
+  compendiumSource: null
+  duplicateSource: null
+  exportSource: null
+_key: '!folders!J3WMsOhM8YqJOjTE'

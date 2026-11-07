@@ -1,0 +1,157 @@
+name: Bannerman - Coat of Arms
+description: ''
+formula: 1d6
+results:
+  - name: ''
+    description: <b>White skull</b> wearing a crown of thorns.
+    range:
+      - 1
+      - 1
+    _id: 1JX8Jbrz9Yh0m4Va
+    type: text
+    img: null
+    weight: 1
+    drawn: false
+    flags: {}
+    _stats:
+      coreVersion: '14.364'
+      systemId: grimwild
+      systemVersion: 0.5.3
+      createdTime: 1783270821333
+      modifiedTime: 1783270821333
+      lastModifiedBy: 79CEe5dKC6Ls5VbU
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+    _key: '!tables.results!ErNQO4pWxSfgyBKG.1JX8Jbrz9Yh0m4Va'
+  - name: ''
+    description: <b>Twin serpents</b>, twisting around a sword.
+    range:
+      - 2
+      - 2
+    _id: QbhbFfHjy1kTMqhu
+    type: text
+    img: null
+    weight: 1
+    drawn: false
+    flags: {}
+    _stats:
+      coreVersion: '14.364'
+      systemId: grimwild
+      systemVersion: 0.5.3
+      createdTime: 1783270821333
+      modifiedTime: 1783270821333
+      lastModifiedBy: 79CEe5dKC6Ls5VbU
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+    _key: '!tables.results!ErNQO4pWxSfgyBKG.QbhbFfHjy1kTMqhu'
+  - name: ''
+    description: <b>Crimson sun</b>, rising over blue waves.
+    range:
+      - 3
+      - 3
+    _id: OzvoaxtiAELkfLhF
+    type: text
+    img: null
+    weight: 1
+    drawn: false
+    flags: {}
+    _stats:
+      coreVersion: '14.364'
+      systemId: grimwild
+      systemVersion: 0.5.3
+      createdTime: 1783270821333
+      modifiedTime: 1783270821333
+      lastModifiedBy: 79CEe5dKC6Ls5VbU
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+    _key: '!tables.results!ErNQO4pWxSfgyBKG.OzvoaxtiAELkfLhF'
+  - name: ''
+    description: <b>Black tower</b>, split by a bolt of blue lightning.
+    range:
+      - 4
+      - 4
+    _id: tDhCQvxO2azpOMdY
+    type: text
+    img: null
+    weight: 1
+    drawn: false
+    flags: {}
+    _stats:
+      coreVersion: '14.364'
+      systemId: grimwild
+      systemVersion: 0.5.3
+      createdTime: 1783270821333
+      modifiedTime: 1783270821333
+      lastModifiedBy: 79CEe5dKC6Ls5VbU
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+    _key: '!tables.results!ErNQO4pWxSfgyBKG.tDhCQvxO2azpOMdY'
+  - name: ''
+    description: <b>Three-eyed raven</b>, perched on a silver ledger.
+    range:
+      - 5
+      - 5
+    _id: sSyz5YtMz3Gp6ule
+    type: text
+    img: null
+    weight: 1
+    drawn: false
+    flags: {}
+    _stats:
+      coreVersion: '14.364'
+      systemId: grimwild
+      systemVersion: 0.5.3
+      createdTime: 1783270821333
+      modifiedTime: 1783270821333
+      lastModifiedBy: 79CEe5dKC6Ls5VbU
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+    _key: '!tables.results!ErNQO4pWxSfgyBKG.sSyz5YtMz3Gp6ule'
+  - name: ''
+    description: <b>Gold bear</b>, roaring in circles of green vine.
+    range:
+      - 6
+      - 6
+    _id: qmq31DFjZVjyx911
+    type: text
+    img: null
+    weight: 1
+    drawn: false
+    flags: {}
+    _stats:
+      coreVersion: '14.364'
+      systemId: grimwild
+      systemVersion: 0.5.3
+      createdTime: 1783270821333
+      modifiedTime: 1783270821333
+      lastModifiedBy: 79CEe5dKC6Ls5VbU
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+    _key: '!tables.results!ErNQO4pWxSfgyBKG.qmq31DFjZVjyx911'
+folder: rgX8m8cC6QFqYNJB
+sort: 1900000
+_id: ErNQO4pWxSfgyBKG
+img: icons/svg/d20-grey.svg
+replacement: true
+displayRoll: true
+ownership:
+  default: 0
+  79CEe5dKC6Ls5VbU: 3
+flags: {}
+_stats:
+  coreVersion: '14.368'
+  systemId: grimwild
+  systemVersion: 0.5.3
+  createdTime: 1783270821333
+  modifiedTime: 1791749998254
+  lastModifiedBy: nF9qxzj59Qn6fNSn
+  compendiumSource: null
+  duplicateSource: null
+  exportSource: null
+_key: '!tables!ErNQO4pWxSfgyBKG'

@@ -1,0 +1,157 @@
+name: Despite—Because of
+description: ''
+formula: 1d6
+results:
+  - name: ''
+    description: <em>my desire for...</em>
+    range:
+      - 1
+      - 1
+    _id: pcX8Yj3DNZbuQbg6
+    type: text
+    img: icons/svg/d20-black.svg
+    weight: 1
+    drawn: false
+    flags: {}
+    _stats:
+      coreVersion: '14.368'
+      systemId: grimwild
+      systemVersion: 0.5.3
+      createdTime: 1783111850933
+      modifiedTime: 1791748611944
+      lastModifiedBy: nF9qxzj59Qn6fNSn
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+    _key: '!tables.results!upOiP1cvUwB2qeqQ.pcX8Yj3DNZbuQbg6'
+  - name: ''
+    description: <em>my trait, ...</em>
+    range:
+      - 2
+      - 2
+    _id: dpebtuuk3j0BxHKE
+    type: text
+    img: icons/svg/d20-black.svg
+    weight: 1
+    drawn: false
+    flags: {}
+    _stats:
+      coreVersion: '14.368'
+      systemId: grimwild
+      systemVersion: 0.5.3
+      createdTime: 1783111850933
+      modifiedTime: 1791748611944
+      lastModifiedBy: nF9qxzj59Qn6fNSn
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+    _key: '!tables.results!upOiP1cvUwB2qeqQ.dpebtuuk3j0BxHKE'
+  - name: ''
+    description: <em>my arc to...</em>
+    range:
+      - 3
+      - 3
+    _id: 3yAVLAlh4W7G3ttS
+    type: text
+    img: icons/svg/d20-black.svg
+    weight: 1
+    drawn: false
+    flags: {}
+    _stats:
+      coreVersion: '14.368'
+      systemId: grimwild
+      systemVersion: 0.5.3
+      createdTime: 1783111850933
+      modifiedTime: 1791748611944
+      lastModifiedBy: nF9qxzj59Qn6fNSn
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+    _key: '!tables.results!upOiP1cvUwB2qeqQ.3yAVLAlh4W7G3ttS'
+  - name: ''
+    description: <em>my background of...</em>
+    range:
+      - 4
+      - 4
+    _id: GQcmzaOfIbmyCD01
+    type: text
+    img: icons/svg/d20-black.svg
+    weight: 1
+    drawn: false
+    flags: {}
+    _stats:
+      coreVersion: '14.368'
+      systemId: grimwild
+      systemVersion: 0.5.3
+      createdTime: 1783111850933
+      modifiedTime: 1791748611944
+      lastModifiedBy: nF9qxzj59Qn6fNSn
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+    _key: '!tables.results!upOiP1cvUwB2qeqQ.GQcmzaOfIbmyCD01'
+  - name: ''
+    description: <em>my bond with...</em>
+    range:
+      - 5
+      - 5
+    _id: A7q2M6U61tEirQ1Z
+    type: text
+    img: icons/svg/d20-black.svg
+    weight: 1
+    drawn: false
+    flags: {}
+    _stats:
+      coreVersion: '14.368'
+      systemId: grimwild
+      systemVersion: 0.5.3
+      createdTime: 1783111850933
+      modifiedTime: 1791748611944
+      lastModifiedBy: nF9qxzj59Qn6fNSn
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+    _key: '!tables.results!upOiP1cvUwB2qeqQ.A7q2M6U61tEirQ1Z'
+  - name: ''
+    description: <em>my lack of...</em>
+    range:
+      - 6
+      - 6
+    _id: v7aQREO6BO7qNaXO
+    type: text
+    img: icons/svg/d20-black.svg
+    weight: 1
+    drawn: false
+    flags: {}
+    _stats:
+      coreVersion: '14.368'
+      systemId: grimwild
+      systemVersion: 0.5.3
+      createdTime: 1783111850933
+      modifiedTime: 1791748611944
+      lastModifiedBy: nF9qxzj59Qn6fNSn
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+    _key: '!tables.results!upOiP1cvUwB2qeqQ.v7aQREO6BO7qNaXO'
+folder: Mmlr3V4UPRVYdBX5
+sort: 2
+_id: upOiP1cvUwB2qeqQ
+img: icons/svg/d20-grey.svg
+replacement: true
+displayRoll: false
+ownership:
+  default: 0
+  79CEe5dKC6Ls5VbU: 3
+flags: {}
+_stats:
+  coreVersion: '14.368'
+  systemId: grimwild
+  systemVersion: 0.5.3
+  createdTime: 1783111850933
+  modifiedTime: 1791748611944
+  lastModifiedBy: nF9qxzj59Qn6fNSn
+  compendiumSource: null
+  duplicateSource: null
+  exportSource: null
+_key: '!tables!upOiP1cvUwB2qeqQ'

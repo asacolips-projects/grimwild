@@ -1,0 +1,32 @@
+folder: t5SGlevKR7fGIfsq
+name: Rebuke
+type: talent
+img: icons/skills/melee/hand-grip-sword-white-brown.webp
+system:
+  description: >-
+    <p>When the GM spends <em><strong>suspense</strong></em> to prompt an impact
+    move, you take +1d on any follow-up action against the source. On a
+    critical, <em><strong>take spark</strong></em>.</p>
+  core: false
+  notes:
+    description: ''
+    label: ''
+  trackers: []
+effects: []
+sort: 0
+ownership:
+  default: 0
+  79CEe5dKC6Ls5VbU: 3
+flags: {}
+_stats:
+  coreVersion: '14.368'
+  systemId: grimwild
+  systemVersion: 0.5.3
+  createdTime: 1782662620508
+  modifiedTime: 1791744057913
+  lastModifiedBy: nF9qxzj59Qn6fNSn
+  compendiumSource: null
+  duplicateSource: Item.V5CEe1pUbWY0gtpo
+  exportSource: null
+_id: hqBMteTL2sSWTQK0
+_key: '!items!hqBMteTL2sSWTQK0'

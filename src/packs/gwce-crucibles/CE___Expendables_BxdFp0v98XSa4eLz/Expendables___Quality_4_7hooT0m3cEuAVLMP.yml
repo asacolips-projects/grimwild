@@ -1,0 +1,157 @@
+name: Expendables - Quality 4
+formula: 1d6
+description: ''
+results:
+  - range:
+      - 1
+      - 1
+    name: ''
+    description: mist
+    _id: slJybQ1Sm5rF81Ju
+    type: text
+    img: icons/svg/d20-black.svg
+    weight: 1
+    drawn: false
+    flags: {}
+    _stats:
+      coreVersion: '14.368'
+      systemId: grimwild
+      systemVersion: 0.5.3
+      createdTime: 1791746887244
+      modifiedTime: 1791746887244
+      lastModifiedBy: nF9qxzj59Qn6fNSn
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+    _key: '!tables.results!7hooT0m3cEuAVLMP.slJybQ1Sm5rF81Ju'
+  - range:
+      - 2
+      - 2
+    name: ''
+    description: bubbles
+    _id: tjpaflT9OPvVMfb6
+    type: text
+    img: icons/svg/d20-black.svg
+    weight: 1
+    drawn: false
+    flags: {}
+    _stats:
+      coreVersion: '14.368'
+      systemId: grimwild
+      systemVersion: 0.5.3
+      createdTime: 1791746887244
+      modifiedTime: 1791746887244
+      lastModifiedBy: nF9qxzj59Qn6fNSn
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+    _key: '!tables.results!7hooT0m3cEuAVLMP.tjpaflT9OPvVMfb6'
+  - range:
+      - 3
+      - 3
+    name: ''
+    description: glitter
+    _id: 9AtNu18sSIRzqU2D
+    type: text
+    img: icons/svg/d20-black.svg
+    weight: 1
+    drawn: false
+    flags: {}
+    _stats:
+      coreVersion: '14.368'
+      systemId: grimwild
+      systemVersion: 0.5.3
+      createdTime: 1791746887244
+      modifiedTime: 1791746887244
+      lastModifiedBy: nF9qxzj59Qn6fNSn
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+    _key: '!tables.results!7hooT0m3cEuAVLMP.9AtNu18sSIRzqU2D'
+  - range:
+      - 4
+      - 4
+    name: ''
+    description: sludge
+    _id: SpRwWdj0e491D1yl
+    type: text
+    img: icons/svg/d20-black.svg
+    weight: 1
+    drawn: false
+    flags: {}
+    _stats:
+      coreVersion: '14.368'
+      systemId: grimwild
+      systemVersion: 0.5.3
+      createdTime: 1791746887244
+      modifiedTime: 1791746887244
+      lastModifiedBy: nF9qxzj59Qn6fNSn
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+    _key: '!tables.results!7hooT0m3cEuAVLMP.SpRwWdj0e491D1yl'
+  - range:
+      - 5
+      - 5
+    name: ''
+    description: reagent
+    _id: DU4tb2gcqllKF6Ma
+    type: text
+    img: icons/svg/d20-black.svg
+    weight: 1
+    drawn: false
+    flags: {}
+    _stats:
+      coreVersion: '14.368'
+      systemId: grimwild
+      systemVersion: 0.5.3
+      createdTime: 1791746887244
+      modifiedTime: 1791746887244
+      lastModifiedBy: nF9qxzj59Qn6fNSn
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+    _key: '!tables.results!7hooT0m3cEuAVLMP.DU4tb2gcqllKF6Ma'
+  - range:
+      - 6
+      - 6
+    name: ''
+    description: oil
+    _id: jqQ621EFshXeey2U
+    type: text
+    img: icons/svg/d20-black.svg
+    weight: 1
+    drawn: false
+    flags: {}
+    _stats:
+      coreVersion: '14.368'
+      systemId: grimwild
+      systemVersion: 0.5.3
+      createdTime: 1791746887244
+      modifiedTime: 1791746887244
+      lastModifiedBy: nF9qxzj59Qn6fNSn
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+    _key: '!tables.results!7hooT0m3cEuAVLMP.jqQ621EFshXeey2U'
+folder: BxdFp0v98XSa4eLz
+_id: 7hooT0m3cEuAVLMP
+img: icons/svg/d20-grey.svg
+replacement: true
+displayRoll: true
+ownership:
+  default: 0
+  nF9qxzj59Qn6fNSn: 3
+flags: {}
+_stats:
+  coreVersion: '14.368'
+  systemId: grimwild
+  systemVersion: 0.5.3
+  createdTime: 1791746887244
+  modifiedTime: 1791746887262
+  lastModifiedBy: nF9qxzj59Qn6fNSn
+  compendiumSource: null
+  duplicateSource: null
+  exportSource: null
+sort: 300000
+_key: '!tables!7hooT0m3cEuAVLMP'

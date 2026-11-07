@@ -1,0 +1,157 @@
+name: Swarmer - When their numbers thin, they...
+description: ''
+formula: 1d6
+results:
+  - name: ''
+    description: press harder, with reckless desperation.
+    range:
+      - 1
+      - 1
+    _id: xVkizZwgUL1B6ky2
+    type: text
+    img: icons/svg/d20-black.svg
+    weight: 1
+    drawn: false
+    flags: {}
+    _stats:
+      coreVersion: '14.368'
+      systemId: grimwild
+      systemVersion: 0.5.3
+      createdTime: 1791833618779
+      modifiedTime: 1791833618779
+      lastModifiedBy: nF9qxzj59Qn6fNSn
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+    _key: '!tables.results!n6wtogRXD1rwICWR.xVkizZwgUL1B6ky2'
+  - name: ''
+    description: retreat momentarily to regroup.
+    range:
+      - 2
+      - 2
+    _id: QspEFEwERHA4Tae9
+    type: text
+    img: icons/svg/d20-black.svg
+    weight: 1
+    drawn: false
+    flags: {}
+    _stats:
+      coreVersion: '14.368'
+      systemId: grimwild
+      systemVersion: 0.5.3
+      createdTime: 1791833618779
+      modifiedTime: 1791833618779
+      lastModifiedBy: nF9qxzj59Qn6fNSn
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+    _key: '!tables.results!n6wtogRXD1rwICWR.QspEFEwERHA4Tae9'
+  - name: ''
+    description: call for reinforcement with frantic signals.
+    range:
+      - 3
+      - 3
+    _id: p21JNuZyDrbP2svy
+    type: text
+    img: icons/svg/d20-black.svg
+    weight: 1
+    drawn: false
+    flags: {}
+    _stats:
+      coreVersion: '14.368'
+      systemId: grimwild
+      systemVersion: 0.5.3
+      createdTime: 1791833618779
+      modifiedTime: 1791833618779
+      lastModifiedBy: nF9qxzj59Qn6fNSn
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+    _key: '!tables.results!n6wtogRXD1rwICWR.p21JNuZyDrbP2svy'
+  - name: ''
+    description: regroup, pulling forces into a defensive cluster.
+    range:
+      - 4
+      - 4
+    _id: t31UPEIuHUC1Bdm7
+    type: text
+    img: icons/svg/d20-black.svg
+    weight: 1
+    drawn: false
+    flags: {}
+    _stats:
+      coreVersion: '14.368'
+      systemId: grimwild
+      systemVersion: 0.5.3
+      createdTime: 1791833618779
+      modifiedTime: 1791833618779
+      lastModifiedBy: nF9qxzj59Qn6fNSn
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+    _key: '!tables.results!n6wtogRXD1rwICWR.t31UPEIuHUC1Bdm7'
+  - name: ''
+    description: scatter, trying to avoid further losses.
+    range:
+      - 5
+      - 5
+    _id: vlA7G6jtEavYpUm6
+    type: text
+    img: icons/svg/d20-black.svg
+    weight: 1
+    drawn: false
+    flags: {}
+    _stats:
+      coreVersion: '14.368'
+      systemId: grimwild
+      systemVersion: 0.5.3
+      createdTime: 1791833618779
+      modifiedTime: 1791833618779
+      lastModifiedBy: nF9qxzj59Qn6fNSn
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+    _key: '!tables.results!n6wtogRXD1rwICWR.vlA7G6jtEavYpUm6'
+  - name: ''
+    description: break, abandoning the fight entirely.
+    range:
+      - 6
+      - 6
+    _id: D2uYpCKTlwkJuLQt
+    type: text
+    img: icons/svg/d20-black.svg
+    weight: 1
+    drawn: false
+    flags: {}
+    _stats:
+      coreVersion: '14.368'
+      systemId: grimwild
+      systemVersion: 0.5.3
+      createdTime: 1791833618779
+      modifiedTime: 1791833618779
+      lastModifiedBy: nF9qxzj59Qn6fNSn
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+    _key: '!tables.results!n6wtogRXD1rwICWR.D2uYpCKTlwkJuLQt'
+folder: BMSPY8PlHXu4KoV4
+_id: n6wtogRXD1rwICWR
+img: icons/svg/d20-grey.svg
+replacement: true
+displayRoll: true
+ownership:
+  default: 0
+  nF9qxzj59Qn6fNSn: 3
+flags: {}
+_stats:
+  coreVersion: '14.368'
+  systemId: grimwild
+  systemVersion: 0.5.3
+  createdTime: 1791833618779
+  modifiedTime: 1791833675050
+  lastModifiedBy: nF9qxzj59Qn6fNSn
+  compendiumSource: null
+  duplicateSource: null
+  exportSource: null
+sort: 500000
+_key: '!tables!n6wtogRXD1rwICWR'

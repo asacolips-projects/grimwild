@@ -1,0 +1,819 @@
+name: Heritage - Folk
+formula: 1d36
+results:
+  - name: Vagrants
+    range:
+      - 1
+      - 1
+    weight: 1
+    type: text
+    _id: w9n5lXA2MEeKfXWr
+    img: null
+    description: ''
+    drawn: false
+    flags: {}
+    _stats:
+      coreVersion: '14.364'
+      systemId: grimwild
+      systemVersion: 0.5.3
+      createdTime: 1782668468738
+      modifiedTime: 1782668468738
+      lastModifiedBy: 79CEe5dKC6Ls5VbU
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+    _key: '!tables.results!SJvxPOsnrmQD1QLy.w9n5lXA2MEeKfXWr'
+  - name: Birdfolk
+    range:
+      - 2
+      - 2
+    weight: 1
+    type: text
+    _id: mqqASp1BeKNssFC0
+    img: null
+    description: ''
+    drawn: false
+    flags: {}
+    _stats:
+      coreVersion: '14.364'
+      systemId: grimwild
+      systemVersion: 0.5.3
+      createdTime: 1782668468738
+      modifiedTime: 1782668468738
+      lastModifiedBy: 79CEe5dKC6Ls5VbU
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+    _key: '!tables.results!SJvxPOsnrmQD1QLy.mqqASp1BeKNssFC0'
+  - name: Wayfarers
+    range:
+      - 3
+      - 3
+    weight: 1
+    type: text
+    _id: mWZcMFGtT0NQSlDW
+    img: null
+    description: ''
+    drawn: false
+    flags: {}
+    _stats:
+      coreVersion: '14.364'
+      systemId: grimwild
+      systemVersion: 0.5.3
+      createdTime: 1782668468738
+      modifiedTime: 1782668468738
+      lastModifiedBy: 79CEe5dKC6Ls5VbU
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+    _key: '!tables.results!SJvxPOsnrmQD1QLy.mWZcMFGtT0NQSlDW'
+  - name: Goblins
+    range:
+      - 4
+      - 4
+    weight: 1
+    type: text
+    _id: LjMwY9BjTNyYjGDN
+    img: null
+    description: ''
+    drawn: false
+    flags: {}
+    _stats:
+      coreVersion: '14.364'
+      systemId: grimwild
+      systemVersion: 0.5.3
+      createdTime: 1782668468738
+      modifiedTime: 1782668468738
+      lastModifiedBy: 79CEe5dKC6Ls5VbU
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+    _key: '!tables.results!SJvxPOsnrmQD1QLy.LjMwY9BjTNyYjGDN'
+  - name: Islanders
+    range:
+      - 5
+      - 5
+    weight: 1
+    type: text
+    _id: Htp8lEScdNUcQYVH
+    img: null
+    description: ''
+    drawn: false
+    flags: {}
+    _stats:
+      coreVersion: '14.364'
+      systemId: grimwild
+      systemVersion: 0.5.3
+      createdTime: 1782668468738
+      modifiedTime: 1782668468738
+      lastModifiedBy: 79CEe5dKC6Ls5VbU
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+    _key: '!tables.results!SJvxPOsnrmQD1QLy.Htp8lEScdNUcQYVH'
+  - name: Fisherfolk
+    range:
+      - 6
+      - 6
+    weight: 1
+    type: text
+    _id: FJrGl8oTXl5dOdml
+    img: null
+    description: ''
+    drawn: false
+    flags: {}
+    _stats:
+      coreVersion: '14.364'
+      systemId: grimwild
+      systemVersion: 0.5.3
+      createdTime: 1782668468738
+      modifiedTime: 1782668468738
+      lastModifiedBy: 79CEe5dKC6Ls5VbU
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+    _key: '!tables.results!SJvxPOsnrmQD1QLy.FJrGl8oTXl5dOdml'
+  - name: Riders
+    range:
+      - 7
+      - 7
+    weight: 1
+    type: text
+    _id: Ky3twNAy6Hm6WdGa
+    img: null
+    description: ''
+    drawn: false
+    flags: {}
+    _stats:
+      coreVersion: '14.364'
+      systemId: grimwild
+      systemVersion: 0.5.3
+      createdTime: 1782668468738
+      modifiedTime: 1782668468738
+      lastModifiedBy: 79CEe5dKC6Ls5VbU
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+    _key: '!tables.results!SJvxPOsnrmQD1QLy.Ky3twNAy6Hm6WdGa'
+  - name: Clans
+    range:
+      - 8
+      - 8
+    weight: 1
+    type: text
+    _id: XVfisdkBySkO9JTh
+    img: null
+    description: ''
+    drawn: false
+    flags: {}
+    _stats:
+      coreVersion: '14.364'
+      systemId: grimwild
+      systemVersion: 0.5.3
+      createdTime: 1782668468738
+      modifiedTime: 1782668468738
+      lastModifiedBy: 79CEe5dKC6Ls5VbU
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+    _key: '!tables.results!SJvxPOsnrmQD1QLy.XVfisdkBySkO9JTh'
+  - name: Seafarers
+    range:
+      - 9
+      - 9
+    weight: 1
+    type: text
+    _id: veyBf90vTK4D4bW9
+    img: null
+    description: ''
+    drawn: false
+    flags: {}
+    _stats:
+      coreVersion: '14.364'
+      systemId: grimwild
+      systemVersion: 0.5.3
+      createdTime: 1782668468738
+      modifiedTime: 1782668468738
+      lastModifiedBy: 79CEe5dKC6Ls5VbU
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+    _key: '!tables.results!SJvxPOsnrmQD1QLy.veyBf90vTK4D4bW9'
+  - name: Tribes
+    range:
+      - 10
+      - 10
+    weight: 1
+    type: text
+    _id: ohhmCYrotxYtLdUR
+    img: null
+    description: ''
+    drawn: false
+    flags: {}
+    _stats:
+      coreVersion: '14.364'
+      systemId: grimwild
+      systemVersion: 0.5.3
+      createdTime: 1782668468738
+      modifiedTime: 1782668468738
+      lastModifiedBy: 79CEe5dKC6Ls5VbU
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+    _key: '!tables.results!SJvxPOsnrmQD1QLy.ohhmCYrotxYtLdUR'
+  - name: Keepers
+    range:
+      - 11
+      - 11
+    weight: 1
+    type: text
+    _id: 7K436AzoSZtnBx3E
+    img: null
+    description: ''
+    drawn: false
+    flags: {}
+    _stats:
+      coreVersion: '14.364'
+      systemId: grimwild
+      systemVersion: 0.5.3
+      createdTime: 1782668468738
+      modifiedTime: 1782668468738
+      lastModifiedBy: 79CEe5dKC6Ls5VbU
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+    _key: '!tables.results!SJvxPOsnrmQD1QLy.7K436AzoSZtnBx3E'
+  - name: Settlers
+    range:
+      - 12
+      - 12
+    weight: 1
+    type: text
+    _id: 7NigsQY2631hURvH
+    img: null
+    description: ''
+    drawn: false
+    flags: {}
+    _stats:
+      coreVersion: '14.364'
+      systemId: grimwild
+      systemVersion: 0.5.3
+      createdTime: 1782668468738
+      modifiedTime: 1782668468738
+      lastModifiedBy: 79CEe5dKC6Ls5VbU
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+    _key: '!tables.results!SJvxPOsnrmQD1QLy.7NigsQY2631hURvH'
+  - name: Gnomes
+    range:
+      - 13
+      - 13
+    weight: 1
+    type: text
+    _id: R4PoXLLEPifswrr6
+    img: null
+    description: ''
+    drawn: false
+    flags: {}
+    _stats:
+      coreVersion: '14.364'
+      systemId: grimwild
+      systemVersion: 0.5.3
+      createdTime: 1782668468738
+      modifiedTime: 1782668468738
+      lastModifiedBy: 79CEe5dKC6Ls5VbU
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+    _key: '!tables.results!SJvxPOsnrmQD1QLy.R4PoXLLEPifswrr6'
+  - name: Pilgrims
+    range:
+      - 14
+      - 14
+    weight: 1
+    type: text
+    _id: gMLORrxwmRn3CZGb
+    img: null
+    description: ''
+    drawn: false
+    flags: {}
+    _stats:
+      coreVersion: '14.364'
+      systemId: grimwild
+      systemVersion: 0.5.3
+      createdTime: 1782668468738
+      modifiedTime: 1782668468738
+      lastModifiedBy: 79CEe5dKC6Ls5VbU
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+    _key: '!tables.results!SJvxPOsnrmQD1QLy.gMLORrxwmRn3CZGb'
+  - name: Turtlefolk
+    range:
+      - 15
+      - 15
+    weight: 1
+    type: text
+    _id: 0hEZcC9UquGxReC3
+    img: null
+    description: ''
+    drawn: false
+    flags: {}
+    _stats:
+      coreVersion: '14.364'
+      systemId: grimwild
+      systemVersion: 0.5.3
+      createdTime: 1782668468738
+      modifiedTime: 1782668468738
+      lastModifiedBy: 79CEe5dKC6Ls5VbU
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+    _key: '!tables.results!SJvxPOsnrmQD1QLy.0hEZcC9UquGxReC3'
+  - name: Citizens
+    range:
+      - 16
+      - 16
+    weight: 1
+    type: text
+    _id: wn4bbSVJpTCcbwIt
+    img: null
+    description: ''
+    drawn: false
+    flags: {}
+    _stats:
+      coreVersion: '14.364'
+      systemId: grimwild
+      systemVersion: 0.5.3
+      createdTime: 1782668468738
+      modifiedTime: 1782668468738
+      lastModifiedBy: 79CEe5dKC6Ls5VbU
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+    _key: '!tables.results!SJvxPOsnrmQD1QLy.wn4bbSVJpTCcbwIt'
+  - name: Marauders
+    range:
+      - 17
+      - 17
+    weight: 1
+    type: text
+    _id: OVnKdKyDfV2Dwaqv
+    img: null
+    description: ''
+    drawn: false
+    flags: {}
+    _stats:
+      coreVersion: '14.364'
+      systemId: grimwild
+      systemVersion: 0.5.3
+      createdTime: 1782668468738
+      modifiedTime: 1782668468738
+      lastModifiedBy: 79CEe5dKC6Ls5VbU
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+    _key: '!tables.results!SJvxPOsnrmQD1QLy.OVnKdKyDfV2Dwaqv'
+  - name: Carvers
+    range:
+      - 18
+      - 18
+    weight: 1
+    type: text
+    _id: MZ2sTHVkKBqciMGR
+    img: null
+    description: ''
+    drawn: false
+    flags: {}
+    _stats:
+      coreVersion: '14.364'
+      systemId: grimwild
+      systemVersion: 0.5.3
+      createdTime: 1782668468738
+      modifiedTime: 1782668468738
+      lastModifiedBy: 79CEe5dKC6Ls5VbU
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+    _key: '!tables.results!SJvxPOsnrmQD1QLy.MZ2sTHVkKBqciMGR'
+  - name: Dwarves
+    range:
+      - 19
+      - 19
+    weight: 1
+    type: text
+    _id: XNJ2A3sVv3hBG3BV
+    img: null
+    description: ''
+    drawn: false
+    flags: {}
+    _stats:
+      coreVersion: '14.364'
+      systemId: grimwild
+      systemVersion: 0.5.3
+      createdTime: 1782668468738
+      modifiedTime: 1782668468738
+      lastModifiedBy: 79CEe5dKC6Ls5VbU
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+    _key: '!tables.results!SJvxPOsnrmQD1QLy.XNJ2A3sVv3hBG3BV'
+  - name: Tieflings
+    range:
+      - 20
+      - 20
+    weight: 1
+    type: text
+    _id: ahqBjDjz82i1RlUo
+    img: null
+    description: ''
+    drawn: false
+    flags: {}
+    _stats:
+      coreVersion: '14.364'
+      systemId: grimwild
+      systemVersion: 0.5.3
+      createdTime: 1782668468738
+      modifiedTime: 1782668468738
+      lastModifiedBy: 79CEe5dKC6Ls5VbU
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+    _key: '!tables.results!SJvxPOsnrmQD1QLy.ahqBjDjz82i1RlUo'
+  - name: Giants
+    range:
+      - 21
+      - 21
+    weight: 1
+    type: text
+    _id: 9kaF4KllsCf5vEk5
+    img: null
+    description: ''
+    drawn: false
+    flags: {}
+    _stats:
+      coreVersion: '14.364'
+      systemId: grimwild
+      systemVersion: 0.5.3
+      createdTime: 1782668468738
+      modifiedTime: 1782668468738
+      lastModifiedBy: 79CEe5dKC6Ls5VbU
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+    _key: '!tables.results!SJvxPOsnrmQD1QLy.9kaF4KllsCf5vEk5'
+  - name: Dragonborn
+    range:
+      - 22
+      - 22
+    weight: 1
+    type: text
+    _id: dyQuy48OZZb8otHz
+    img: null
+    description: ''
+    drawn: false
+    flags: {}
+    _stats:
+      coreVersion: '14.364'
+      systemId: grimwild
+      systemVersion: 0.5.3
+      createdTime: 1782668468738
+      modifiedTime: 1782668468738
+      lastModifiedBy: 79CEe5dKC6Ls5VbU
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+    _key: '!tables.results!SJvxPOsnrmQD1QLy.dyQuy48OZZb8otHz'
+  - name: Tradesfolk
+    range:
+      - 23
+      - 23
+    weight: 1
+    type: text
+    _id: q8HMddMx5qjCg9cg
+    img: null
+    description: ''
+    drawn: false
+    flags: {}
+    _stats:
+      coreVersion: '14.364'
+      systemId: grimwild
+      systemVersion: 0.5.3
+      createdTime: 1782668468738
+      modifiedTime: 1782668468738
+      lastModifiedBy: 79CEe5dKC6Ls5VbU
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+    _key: '!tables.results!SJvxPOsnrmQD1QLy.q8HMddMx5qjCg9cg'
+  - name: Valleyfolk
+    range:
+      - 24
+      - 24
+    weight: 1
+    type: text
+    _id: IYoQRbj3LIbVrwij
+    img: null
+    description: ''
+    drawn: false
+    flags: {}
+    _stats:
+      coreVersion: '14.364'
+      systemId: grimwild
+      systemVersion: 0.5.3
+      createdTime: 1782668468738
+      modifiedTime: 1782668468738
+      lastModifiedBy: 79CEe5dKC6Ls5VbU
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+    _key: '!tables.results!SJvxPOsnrmQD1QLy.IYoQRbj3LIbVrwij'
+  - name: Nomads
+    range:
+      - 25
+      - 25
+    weight: 1
+    type: text
+    _id: p8zZsh5OQ20jCakY
+    img: null
+    description: ''
+    drawn: false
+    flags: {}
+    _stats:
+      coreVersion: '14.364'
+      systemId: grimwild
+      systemVersion: 0.5.3
+      createdTime: 1782668468738
+      modifiedTime: 1782668468738
+      lastModifiedBy: 79CEe5dKC6Ls5VbU
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+    _key: '!tables.results!SJvxPOsnrmQD1QLy.p8zZsh5OQ20jCakY'
+  - name: Cityfolk
+    range:
+      - 26
+      - 26
+    weight: 1
+    type: text
+    _id: AKh5WYjvxHlq5HuQ
+    img: null
+    description: ''
+    drawn: false
+    flags: {}
+    _stats:
+      coreVersion: '14.364'
+      systemId: grimwild
+      systemVersion: 0.5.3
+      createdTime: 1782668468738
+      modifiedTime: 1782668468738
+      lastModifiedBy: 79CEe5dKC6Ls5VbU
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+    _key: '!tables.results!SJvxPOsnrmQD1QLy.AKh5WYjvxHlq5HuQ'
+  - name: Humans
+    range:
+      - 27
+      - 27
+    weight: 1
+    type: text
+    _id: 85dnlHJjFDd7u1Ri
+    img: null
+    description: ''
+    drawn: false
+    flags: {}
+    _stats:
+      coreVersion: '14.364'
+      systemId: grimwild
+      systemVersion: 0.5.3
+      createdTime: 1782668468738
+      modifiedTime: 1782668468738
+      lastModifiedBy: 79CEe5dKC6Ls5VbU
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+    _key: '!tables.results!SJvxPOsnrmQD1QLy.85dnlHJjFDd7u1Ri'
+  - name: Halflings
+    range:
+      - 28
+      - 28
+    weight: 1
+    type: text
+    _id: IsYTFOiGbDPHJYfQ
+    img: null
+    description: ''
+    drawn: false
+    flags: {}
+    _stats:
+      coreVersion: '14.364'
+      systemId: grimwild
+      systemVersion: 0.5.3
+      createdTime: 1782668468738
+      modifiedTime: 1782668468738
+      lastModifiedBy: 79CEe5dKC6Ls5VbU
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+    _key: '!tables.results!SJvxPOsnrmQD1QLy.IsYTFOiGbDPHJYfQ'
+  - name: Merchants
+    range:
+      - 29
+      - 29
+    weight: 1
+    type: text
+    _id: pVrl4FfyyD45WDsx
+    img: null
+    description: ''
+    drawn: false
+    flags: {}
+    _stats:
+      coreVersion: '14.364'
+      systemId: grimwild
+      systemVersion: 0.5.3
+      createdTime: 1782668468738
+      modifiedTime: 1782668468738
+      lastModifiedBy: 79CEe5dKC6Ls5VbU
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+    _key: '!tables.results!SJvxPOsnrmQD1QLy.pVrl4FfyyD45WDsx'
+  - name: Skywatchers
+    range:
+      - 30
+      - 30
+    weight: 1
+    type: text
+    _id: NY3CJfoZuikQQuJ4
+    img: null
+    description: ''
+    drawn: false
+    flags: {}
+    _stats:
+      coreVersion: '14.364'
+      systemId: grimwild
+      systemVersion: 0.5.3
+      createdTime: 1782668468738
+      modifiedTime: 1782668468738
+      lastModifiedBy: 79CEe5dKC6Ls5VbU
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+    _key: '!tables.results!SJvxPOsnrmQD1QLy.NY3CJfoZuikQQuJ4'
+  - name: Elves
+    range:
+      - 31
+      - 31
+    weight: 1
+    type: text
+    _id: jOUBdDts7eNxDHTz
+    img: null
+    description: ''
+    drawn: false
+    flags: {}
+    _stats:
+      coreVersion: '14.364'
+      systemId: grimwild
+      systemVersion: 0.5.3
+      createdTime: 1782668468738
+      modifiedTime: 1782668468738
+      lastModifiedBy: 79CEe5dKC6Ls5VbU
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+    _key: '!tables.results!SJvxPOsnrmQD1QLy.jOUBdDts7eNxDHTz'
+  - name: Orcs
+    range:
+      - 32
+      - 32
+    weight: 1
+    type: text
+    _id: VYK9ZdkgXuFqTWQG
+    img: null
+    description: ''
+    drawn: false
+    flags: {}
+    _stats:
+      coreVersion: '14.364'
+      systemId: grimwild
+      systemVersion: 0.5.3
+      createdTime: 1782668468738
+      modifiedTime: 1782668468738
+      lastModifiedBy: 79CEe5dKC6Ls5VbU
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+    _key: '!tables.results!SJvxPOsnrmQD1QLy.VYK9ZdkgXuFqTWQG'
+  - name: Forestfolk
+    range:
+      - 33
+      - 33
+    weight: 1
+    type: text
+    _id: MrclH39mSC2liCf9
+    img: null
+    description: ''
+    drawn: false
+    flags: {}
+    _stats:
+      coreVersion: '14.364'
+      systemId: grimwild
+      systemVersion: 0.5.3
+      createdTime: 1782668468738
+      modifiedTime: 1782668468738
+      lastModifiedBy: 79CEe5dKC6Ls5VbU
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+    _key: '!tables.results!SJvxPOsnrmQD1QLy.MrclH39mSC2liCf9'
+  - name: Cavefolk
+    range:
+      - 34
+      - 34
+    weight: 1
+    type: text
+    _id: KDu5IXNvh0NImDXE
+    img: null
+    description: ''
+    drawn: false
+    flags: {}
+    _stats:
+      coreVersion: '14.364'
+      systemId: grimwild
+      systemVersion: 0.5.3
+      createdTime: 1782668468738
+      modifiedTime: 1782668468738
+      lastModifiedBy: 79CEe5dKC6Ls5VbU
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+    _key: '!tables.results!SJvxPOsnrmQD1QLy.KDu5IXNvh0NImDXE'
+  - name: Raiders
+    range:
+      - 35
+      - 35
+    weight: 1
+    type: text
+    _id: yDw40kNUUhgfQ7oL
+    img: null
+    description: ''
+    drawn: false
+    flags: {}
+    _stats:
+      coreVersion: '14.364'
+      systemId: grimwild
+      systemVersion: 0.5.3
+      createdTime: 1782668468738
+      modifiedTime: 1782668468738
+      lastModifiedBy: 79CEe5dKC6Ls5VbU
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+    _key: '!tables.results!SJvxPOsnrmQD1QLy.yDw40kNUUhgfQ7oL'
+  - name: Outcasts
+    range:
+      - 36
+      - 36
+    weight: 1
+    type: text
+    _id: ohEG8cvBWwrqTyQL
+    img: null
+    description: ''
+    drawn: false
+    flags: {}
+    _stats:
+      coreVersion: '14.364'
+      systemId: grimwild
+      systemVersion: 0.5.3
+      createdTime: 1782668468738
+      modifiedTime: 1782668468738
+      lastModifiedBy: 79CEe5dKC6Ls5VbU
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+    _key: '!tables.results!SJvxPOsnrmQD1QLy.ohEG8cvBWwrqTyQL'
+flags:
+  core:
+    sheetClass: grimwild.GrimwildRollTableCrucibleSheet
+_id: SJvxPOsnrmQD1QLy
+img: icons/svg/d20-grey.svg
+description: ''
+replacement: true
+displayRoll: true
+folder: jdH4ACIls5FT1phM
+sort: 100000
+ownership:
+  default: 0
+  79CEe5dKC6Ls5VbU: 3
+_stats:
+  coreVersion: '14.364'
+  systemId: grimwild
+  systemVersion: 0.5.3
+  createdTime: 1782668468738
+  modifiedTime: 1782668468738
+  lastModifiedBy: 79CEe5dKC6Ls5VbU
+  compendiumSource: null
+  duplicateSource: RollTable.SJvxPOsnrmQD1QLy
+  exportSource: null
+_key: '!tables!SJvxPOsnrmQD1QLy'

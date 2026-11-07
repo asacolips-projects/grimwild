@@ -1,0 +1,326 @@
+name: Story Kits
+_id: YNcQNMarzgGMQuJT
+pages:
+  - sort: 100000
+    name: A Plague of Goblins - No CSS
+    type: text
+    _id: 2OTOmmWia6OJB6Rb
+    system: {}
+    title:
+      show: true
+      level: 1
+    image: {}
+    text:
+      format: 1
+      content: >-
+        <div style="border-style:solid;border-radius:8px;padding:8px 8px">
+            <section class="grid grid-3col">
+                <div>
+                    <p><em>A note nailed to a sign reads, "Dreghill at night—keep walking."</em></p>
+                </div>
+                <div>
+                    <p><em>A shoe lies abandoned in the square, bloody and torn.</em></p>
+                </div>
+                <div>
+                    <p><em>Arriving just after sunset, things are quiet—far too quiet, really.</em></p>
+                </div>
+            </section>
+        </div>
+
+        <p>Each night, doors lock, windows shut, and Dreghill Village holds its
+        breath as the goblins come. Fighting back only led to disappearances, so
+        now they stay inside and refuse to speak on what happens at night. It
+        keeps their sanity, and keeps self and neighbor alike safe from the
+        goblin plague that transforms them all.</p>
+
+        <section class="grid grid-3col">
+            <div>
+                <p><span style="font-size:1.1em">Night Falls</span><br><br>◉ Someone locked outside<br>◉ Granary catches fire<br>◉ PCs ambushed in the square</p>
+            </div>
+            <div>
+                <p><span style="font-size:1.1em">Dawn Breaks</span><br><br>◉ Prominent villager lies dead<br>◉ Doors smashed all over town<br>◉ Villager babbles in goblintongue</p>
+            </div>
+            <div>
+                <p><span style="font-size:1.1em">Townsfolk Snap</span><br><br>◉ Enraged mob chase off PCs<br>◉ Neighbors turn on each other<br>◉ Permanently turn into goblins</p>
+            </div>
+        </section>
+
+        <div style="border-style:solid;border-radius:8px;padding:8px 8px">
+            <p><span style="font-size:1.1em">Useful Pieces • <em>Important Elements in the Story</em></span></p>
+            <section class="grid grid-3col">
+                <div>
+                    <p><strong>Villagers:</strong> Honest, hardworking people that put up a united front against nosey outsiders.</p>
+                    <ul>
+                        <li>
+                            <p><em>Refuse to speak on the problem.</em></p>
+                        </li>
+                        <li>
+                            <p><em>Disappear entirely after sundown.</em></p>
+                        </li>
+                        <li>
+                            <p><em>Friendly enough, otherwise.</em></p>
+                        </li>
+                    </ul>
+                </div>
+                <div>
+                    <p><strong>The Well:</strong> Life in Dreghill seems to revolve around the small square in the center of the village.</p>
+                    <ul>
+                        <li>
+                            <p><em>Emits a peculiar metallic smell.</em></p>
+                        </li>
+                        <li>
+                            <p><em>Villagers insist on gathering there.</em></p>
+                        </li>
+                        <li>
+                            <p><em>Goblins are drawn to it.</em></p>
+                        </li>
+                    </ul>
+                </div>
+                <div>
+                    <p><strong>Mella Gortis</strong> <em>(village elder, shrewd)</em>: The closest thing the village has had to a leader, she is <em>well-trusted</em> by all.</p>
+                    <ul>
+                        <li>
+                            <p><em>Always gets in the PCs' way.</em></p>
+                        </li>
+                        <li>
+                            <p>Curses in goblintongue.</p>
+                        </li>
+                        <li>
+                            <p>Has a soft spot for outsiders.</p>
+                        </li>
+                    </ul>
+                </div>
+            </section>
+        </div>
+
+        <div style="border-style:solid;border-radius:8px;padding:8px 8px">
+            <p><span style="font-size:1.1em">Set It Up • <em>Make the Story Your Own</em></span></p>
+            <section class="grid grid-3col">
+                <div>
+                    <p><strong>Goblin Plague:</strong> Choose 2 causes of the sickness and 1 odd thing that's ultimately a false trail.</p>
+                    <p>◻ <em>Villagers started eating exotic roots</em><br>◻ <em>A Hag in the forest</em><br>◻ <em>Dead goblin in the well</em><br>◻ <em>Goblin relics from a mine</em><br>◻ <em>Farmer acting really suspicious</em><br>◻ <em>Artifact from the god of goblins</em></p>
+                </div>
+                <div>
+                    <p><strong>Death:</strong> Choose 1 usual outcome when a goblin dies and 1 rare possibility that's always untimely.</p>
+                    <p>◻ <em>Dies like a goblin normally would</em><br>◻ <em>Reverts into a human, dead</em><br>◻ <em>Reverts into a human, alive</em><br>◻ <em>Releases a cloud of plague spores</em><br>◻ <em>Doesn't stay dead</em><br>◻ <em>Becomes a mass of bubbling goo</em></p>
+                </div>
+                <div>
+                    <p><strong>Desires:</strong> Choose 2 goblins crave with wild abandon and 1 that strikes them with irrational dread.</p>
+                    <section class="grid grid-2col">
+                        <div>
+                            <p>◻ <em>shiny thing</em><br>◻ <em>weapons</em><br>◻ <em>hijinx</em><br>◻ <em>animals</em><br>◻ <em>humans</em><br>◻ <em>flames</em></p>
+                        </div>
+                        <div>
+                            <p>◻ <em>sunrise</em><br>◻ <em>arcana</em><br>◻ <em>bell tolls</em><br>◻ <em>kindness</em><br>◻ <em>shadows</em><br>◻ <em>secrets</em></p>
+                        </div>
+                    </section>
+                </div>
+            </section>
+        </div>
+
+        <section class="grid grid-4col">
+            <div>
+                <div style="border-style:solid;border-radius:8px;padding:8px 8px">
+                    <p><span style="font-size:1.1em">4d | Ask One Question ○○</span><br>✱ <em>tightly sealed lips</em><br>✱ <em>strength in numbers</em></p>
+                    <hr>
+                    <p>◉ <strong>Make Excuses</strong><br>◉ <strong>Change Subjects</strong><br>◉ <strong>Ignore Reason</strong></p>
+                    <hr>
+                    <p>✘ <em><strong>4d Angry Villagers</strong></em></p>
+                </div>
+            </div>
+            <div>
+                <div style="border-style:solid;border-radius:8px;padding:8px 8px">
+                    <p><span style="font-size:1.1em">4d | Falsely Accused ○○</span><br>✱ <em>since you came, chaos</em><br>✱ <em>town hates outsiders</em></p>
+                    <hr>
+                    <p>◉ <strong>Need a Scapegoat</strong><br>◉ <strong>Misjudged Evidence</strong><br>◉ <strong>False Witness</strong></p>
+                    <hr>
+                    <p>✘ <em><strong>4d Found Guilty</strong></em></p>
+                </div>
+            </div>
+            <div>
+                <div style="border-style:solid;border-radius:8px;padding:8px 8px">
+                    <p><span style="font-size:1.1em">8d | Chase 'Em Down ○○</span><br>✱ <em>know the town well</em><br>✱ <em>fit into small spaces</em></p>
+                    <hr>
+                    <p>◉ <strong>Mad Scramble</strong><br>◉ <strong>Goblin Pile</strong><br>◉ <strong>Juke</strong></p>
+                    <hr>
+                    <p>✘ <em><strong>Lose the trail</strong></em></p>
+                </div>
+            </div>
+            <div>
+                <div style="border-style:solid;border-radius:8px;padding:8px 8px">
+                    <p><span style="font-size:1.1em">6d | Goblin Ambush ○○</span><br>✱ <em>super sneaky</em><br>✱ <em>night-vision</em></p>
+                    <hr>
+                    <p>◉ <strong>Jump From Above</strong><br>◉ <strong>Bite Neck</strong><br>◉ <strong>Yelp for Help</strong></p>
+                    <hr>
+                    <p>✘ <em><strong>Kill a goblin</strong></em></p>
+                </div>
+            </div>
+        </section>
+
+        <p><strong>Mix It Up</strong> • <em>Mella Gortis is a hag in
+        disguise—villagers originally goblins—goblin village with A Plague of
+        Humans</em></p>
+    video:
+      controls: true
+      volume: 0.5
+    src: null
+    category: null
+    ownership:
+      default: -1
+      79CEe5dKC6Ls5VbU: 3
+    flags: {}
+    _stats:
+      coreVersion: '14.368'
+      systemId: grimwild
+      systemVersion: 0.5.3
+      createdTime: 1783292212592
+      modifiedTime: 1791653818955
+      lastModifiedBy: nF9qxzj59Qn6fNSn
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+    _key: '!journal.pages!YNcQNMarzgGMQuJT.2OTOmmWia6OJB6Rb'
+  - sort: 100000
+    name: A Plague of Goblins - Minor CSS
+    type: text
+    system: {}
+    title:
+      show: true
+      level: 1
+    image: {}
+    text:
+      format: 1
+      content: >-
+        <div class="curvebox"><section class="grid grid-3col"><div><p><em>A note
+        nailed to a sign reads, "Dreghill at night—keep
+        walking."</em></p></div><div><p><em>A shoe lies abandoned in the square,
+        bloody and torn.</em></p></div><div><p><em>Arriving just after sunset,
+        things are quiet—far too quiet,
+        really.</em></p></div></section></div><p>Each night, doors lock, windows
+        shut, and Dreghill Village holds its breath as the goblins come.
+        Fighting back only led to disappearances, so now they stay inside and
+        refuse to speak on what happens at night. It keeps their sanity, and
+        keeps self and neighbor alike safe from the goblin plague that
+        transforms them all.</p><section class="grid grid-3col"><div><div
+        class="curvebox"><p><span style="font-size:1.1em">Night
+        Falls</span></p></div><p>◉ Someone locked outside<br>◉ Granary catches
+        fire<br>◉ PCs ambushed in the square</p></div><div><div
+        class="curvebox"><p><span style="font-size:1.1em">Dawn
+        Breaks</span></p></div><p>◉ Prominent villager lies dead<br>◉ Doors
+        smashed all over town<br>◉ Villager babbles in
+        goblintongue</p><p></p></div><div><div class="curvebox"><p><span
+        style="font-size:1.1em">Townsfolk Snap</span></p></div><p>◉ Enraged mob
+        chase off PCs<br>◉ Neighbors turn on each other<br>◉ Permanently turn
+        into goblins</p><p></p></div></section><div class="curvebox"><div
+        class="storykit-title"><p><span class="heading">USEFUL
+        PIECES</span></p><p><span class="subheading">Important Elements in the
+        Story</span></p></div><section class="grid
+        grid-3col"><div><p><strong>Villagers:</strong> Honest, hardworking
+        people that put up a united front against nosey
+        outsiders.</p><ul><li><p><em>Refuse to speak on the
+        problem.</em></p></li><li><p><em>Disappear entirely after
+        sundown.</em></p></li><li><p><em>Friendly enough,
+        otherwise.</em></p></li></ul></div><div><p><strong>The Well:</strong>
+        Life in Dreghill seems to revolve around the small square in the center
+        of the village.</p><ul><li><p><em>Emits a peculiar metallic
+        smell.</em></p></li><li><p><em>Villagers insist on gathering
+        there.</em></p></li><li><p><em>Goblins are drawn to
+        it.</em></p></li></ul></div><div><p><strong>Mella Gortis</strong>
+        <em>(village elder, shrewd)</em>: The closest thing the village has had
+        to a leader, she is <em>well-trusted</em> by
+        all.</p><ul><li><p><em>Always gets in the PCs'
+        way.</em></p></li><li><p>Curses in goblintongue.</p></li><li><p>Has a
+        soft spot for outsiders.</p></li></ul></div></section></div><div
+        class="curvebox"><div class="storykit-title"><p><span
+        class="heading">Set It Up</span></p><p><span class="subheading">Make the
+        Story Your Own</span></p></div><section class="grid
+        grid-3col"><div><p><strong>Goblin Plague:</strong> Choose 2 causes of
+        the sickness and 1 odd thing that's ultimately a false trail.</p><p>◻
+        <em>Villagers started eating exotic roots</em><br>◻ <em>A Hag in the
+        forest</em><br>◻ <em>Dead goblin in the well</em><br>◻ <em>Goblin relics
+        from a mine</em><br>◻ <em>Farmer acting really suspicious</em><br>◻
+        <em>Artifact from the god of
+        goblins</em></p></div><div><p><strong>Death:</strong> Choose 1 usual
+        outcome when a goblin dies and 1 rare possibility that's always
+        untimely.</p><p>◻ <em>Dies like a goblin normally would</em><br>◻
+        <em>Reverts into a human, dead</em><br>◻ <em>Reverts into a human,
+        alive</em><br>◻ <em>Releases a cloud of plague spores</em><br>◻
+        <em>Doesn't stay dead</em><br>◻ <em>Becomes a mass of bubbling
+        goo</em></p></div><div><p><strong>Desires:</strong> Choose 2 goblins
+        crave with wild abandon and 1 that strikes them with irrational
+        dread.</p><section class="grid grid-2col"><div><p>◻ <em>shiny
+        thing</em><br>◻ <em>weapons</em><br>◻ <em>hijinx</em><br>◻
+        <em>animals</em><br>◻ <em>humans</em><br>◻
+        <em>flames</em></p></div><div><p>◻ <em>sunrise</em><br>◻
+        <em>arcana</em><br>◻ <em>bell tolls</em><br>◻ <em>kindness</em><br>◻
+        <em>shadows</em><br>◻
+        <em>secrets</em></p></div></section></div></section></div><section
+        class="grid grid-4col"><div><div class="curvebox"><p><span
+        style="font-weight:bold;font-size:1.1em"><strong>4d | Ask One Question
+        ◯◯</strong></span><br>✱ <em>tightly sealed lips</em><br>✱ <em>strength
+        in numbers</em></p><hr><p>◉ <strong>Make Excuses</strong><br>◉
+        <strong>Change Subjects</strong><br>◉ <strong>Ignore
+        Reason</strong></p><hr><p>✘ <em><strong>4d Angry
+        Villagers</strong></em></p></div></div><div><div
+        class="curvebox"><p><span
+        style="font-weight:bold;font-size:1.1em"><strong>4d | Falsely Accused
+        ◯◯</strong></span><br>✱ <em>since you came, chaos</em><br>✱ <em>town
+        hates outsiders</em></p><hr><p>◉ <strong>Need a Scapegoat</strong><br>◉
+        <strong>Misjudged Evidence</strong><br>◉ <strong>False
+        Witness</strong></p><hr><p>✘ <em><strong>4d Found
+        Guilty</strong></em></p></div></div><div><div class="curvebox"><p><span
+        style="font-weight:bold;font-size:1.1em"><strong>8d | Chase 'Em Down
+        ◯◯</strong></span><br>✱ <em>know the town well</em><br>✱ <em>fit into
+        small spaces</em></p><hr><p>◉ <strong>Mad Scramble</strong><br>◉
+        <strong>Goblin Pile</strong><br>◉ <strong>Juke</strong></p><hr><p>✘
+        <em><strong>Lose the trail</strong></em></p></div></div><div><div
+        class="curvebox"><p><span
+        style="font-weight:bold;font-size:1.1em"><strong>6d | Goblin Ambush
+        ◯◯</strong></span><br>✱ <em>super sneaky</em><br>✱
+        <em>night-vision</em></p><hr><p>◉ <strong>Jump From Above</strong><br>◉
+        <strong>Bite Neck</strong><br>◉ <strong>Yelp for
+        Help</strong></p><hr><p>✘ <em><strong>Kill a
+        goblin</strong></em></p></div></div></section><div
+        class="curvebox"><p><strong>Mix It Up</strong> • <em>Mella Gortis is a
+        hag in disguise—villagers originally goblins—goblin village with A
+        Plague of Humans</em></p></div>
+    video:
+      controls: true
+      volume: 0.5
+    src: null
+    category: null
+    ownership:
+      default: -1
+      79CEe5dKC6Ls5VbU: 3
+    flags: {}
+    _stats:
+      coreVersion: '14.364'
+      systemId: grimwild
+      systemVersion: 0.5.3
+      createdTime: 1783305803336
+      modifiedTime: 1783307257219
+      lastModifiedBy: 79CEe5dKC6Ls5VbU
+      compendiumSource: null
+      duplicateSource: >-
+        Compendium.grimwild.gwce-journals.JournalEntry.YNcQNMarzgGMQuJT.JournalEntryPage.2OTOmmWia6OJB6Rb
+      exportSource: null
+    _id: nr570rDfZhJmOnp6
+    _key: '!journal.pages!YNcQNMarzgGMQuJT.nr570rDfZhJmOnp6'
+folder: zYvpWXoiughIwHYw
+categories: []
+sort: 200000
+ownership:
+  default: 0
+  79CEe5dKC6Ls5VbU: 3
+flags: {}
+_stats:
+  coreVersion: '14.368'
+  systemId: grimwild
+  systemVersion: 0.5.3
+  createdTime: 1783292208669
+  modifiedTime: 1791746186347
+  lastModifiedBy: nF9qxzj59Qn6fNSn
+  compendiumSource: null
+  duplicateSource: null
+  exportSource: null
+_key: '!journal!YNcQNMarzgGMQuJT'

@@ -1,0 +1,140 @@
+name: Nothic
+type: monster
+img: icons/svg/poison.svg
+system:
+  biography: >-
+    <p>A warped hunched horror cursed by forbidden knowledge. Once a mage, now
+    its one massive eye burns with curiosity, prying into the thoughts of
+    others.</p><p><em><strong>When</strong> its mind is read, <strong>it
+    will</strong> draw the reader to insanity.</em></p>
+  notes: >-
+    <p>@Embed[Compendium.grimwild.gwce-crucibles.RollTable.tH8aobn1QV4GN46w]{Nothic
+    - Seeking Long Lost Knowledge}</p>
+  role: tactician
+  tier: tough
+  traits:
+    - Secret obsessed
+    - Senses thoughts
+  moves:
+    - Withering Gaze
+    - Read Mind
+    - Think Ahead
+  desires:
+    - value: to hoard secrets and reclaim lost knowledge
+      are: false
+    - value: to be reminded of its former self
+      are: false
+  sensories:
+    colors:
+      - name: sallow green
+        color: '#3a6440'
+      - name: murky violet
+        color: '#622b78'
+      - name: glowing lime
+        color: '#9fc889'
+    sights: strange scratching language on stone
+    sounds: raspy breathing, gibbering whispers in multiple voices
+    smells: mildew, old ink and parchment
+  pool:
+    diceNum: 0
+    powerPool: false
+  tables: []
+prototypeToken:
+  name: Nothic
+  displayName: 40
+  actorLink: false
+  width: 1
+  height: 1
+  depth: 1
+  texture:
+    src: icons/svg/poison.svg
+    anchorX: 0.5
+    anchorY: 0.5
+    fit: contain
+    scaleX: 1
+    scaleY: 1
+    tint: '#ffffff'
+    alphaThreshold: 0.75
+  lockRotation: false
+  rotation: 0
+  alpha: 1
+  disposition: -1
+  displayBars: 0
+  bar1:
+    attribute: health
+  bar2:
+    attribute: power
+  light:
+    negative: false
+    priority: 0
+    alpha: 0.5
+    angle: 360
+    bright: 0
+    color: null
+    coloration: 1
+    dim: 0
+    attenuation: 0.5
+    luminosity: 0.5
+    saturation: 0
+    contrast: 0
+    shadows: 0
+    animation:
+      type: null
+      speed: 5
+      intensity: 5
+      reverse: false
+    darkness:
+      min: 0
+      max: 1
+  sight:
+    enabled: false
+    range: 0
+    angle: 360
+    visionMode: basic
+    color: null
+    attenuation: 0.1
+    brightness: 0
+    saturation: 0
+    contrast: 0
+  detectionModes: {}
+  occludable:
+    radius: 0
+  ring:
+    enabled: false
+    colors:
+      ring: null
+      background: null
+    effects: 1
+    subject:
+      scale: 1
+      texture: null
+  turnMarker:
+    mode: 1
+    animation: null
+    src: null
+    disposition: false
+  movementAction: null
+  flags: {}
+  randomImg: false
+  appendNumber: false
+  prependAdjective: false
+items: []
+effects: []
+folder: T92YZIu0SRIzlkun
+ownership:
+  default: 0
+  79CEe5dKC6Ls5VbU: 3
+flags: {}
+_stats:
+  coreVersion: '14.368'
+  systemId: grimwild
+  systemVersion: 0.5.3
+  createdTime: 1783200951347
+  modifiedTime: 1791752479402
+  lastModifiedBy: nF9qxzj59Qn6fNSn
+  exportSource: null
+  compendiumSource: null
+  duplicateSource: null
+_id: s9BoOG19ZU7uW7Zr
+sort: 0
+_key: '!actors!s9BoOG19ZU7uW7Zr'

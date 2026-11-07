@@ -1,0 +1,33 @@
+folder: KGASAmtds3ZDqfAx
+name: Trap Making
+type: talent
+_id: kflJQHmJnQeq3Ppv
+img: icons/environment/traps/trap-jaw-tan.webp
+system:
+  description: >-
+    <p>Given time, you can set potent traps, with an effect based on the style:
+    <em>blade—collapse—entangle—fire—poison—alarm</em>. <em><strong>Push
+    yourself</strong></em> to deploy a trap on the spot. On a perfect when
+    triggered, <em><strong>take spark</strong></em>.</p>
+  core: false
+  notes:
+    description: ''
+    label: ''
+  trackers: []
+effects: []
+sort: 0
+ownership:
+  default: 0
+  79CEe5dKC6Ls5VbU: 3
+flags: {}
+_stats:
+  coreVersion: '14.368'
+  systemId: grimwild
+  systemVersion: 0.5.3
+  createdTime: 1782662610268
+  modifiedTime: 1791742990824
+  lastModifiedBy: nF9qxzj59Qn6fNSn
+  compendiumSource: null
+  duplicateSource: null
+  exportSource: null
+_key: '!items!kflJQHmJnQeq3Ppv'

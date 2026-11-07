@@ -1,0 +1,32 @@
+folder: DYRzmNaS808jSnxV
+name: Overkill
+type: talent
+_id: YUpxc7gTPNLxWf9Y
+img: /icons/skills/melee/strike-flail-destructive-yellow.webp
+system:
+  description: >-
+    <p>On a critical when bringing violence, threats, or destruction to bear,
+    you can: <em>cause an extra secondary effect—roll the related task pool
+    twice</em>.</p>
+  core: false
+  notes:
+    description: ''
+    label: ''
+  trackers: []
+effects: []
+sort: 0
+ownership:
+  default: 0
+  79CEe5dKC6Ls5VbU: 3
+flags: {}
+_stats:
+  coreVersion: '14.364'
+  systemId: grimwild
+  systemVersion: 0.5.3
+  createdTime: 1782662613735
+  modifiedTime: 1783008290833
+  lastModifiedBy: 79CEe5dKC6Ls5VbU
+  compendiumSource: null
+  duplicateSource: null
+  exportSource: null
+_key: '!items!YUpxc7gTPNLxWf9Y'

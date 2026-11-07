@@ -1,0 +1,57 @@
+folder: ma3ViQN0Jv9VXIXV
+name: Animal Companion
+type: talent
+_id: yVMzP2yTj7Jyvdfk
+img: icons/creatures/mammals/dog-husky-white-blue.webp
+system:
+  description: >-
+    <p>You’re accompanied by a fiercely loyal animal. Each PC adds a reciprocal
+    bond with it. Choose <strong>3 tricks</strong> and <strong>2 flaws</strong>.
+    You roll 3d for its <strong>tricks</strong> and 1d otherwise. It has only
+    two damage boxes, marked (for any <em><strong>mark</strong></em>) and hurt
+    (for any <em><strong>harm</strong></em>). It can always exit a scene when
+    hurt. If lost, you can bond with a new animal.</p>
+  core: false
+  notes:
+    description: >-
+      <p><strong>TRICKS</strong> (choose 3)<strong>:</strong>
+      <em>distract—fight—guard—perform—rescue—retrieve—scout—search—track—warn</em></p><p><strong>FLAWS</strong>
+      (choose 2)<strong>:</strong>
+      <em>aggressive—clumsy—grumpy—insatiable—jumpy—noisy—overprotective—scary—unruly</em></p>
+    label: Tricks & Flaws
+  trackers:
+    - type: points
+      label: Marked
+      points:
+        value: 0
+        max: 1
+        showSteps: true
+      pool:
+        diceNum: 0
+        powerPool: false
+    - type: points
+      label: Hurt
+      points:
+        value: 0
+        max: 1
+        showSteps: true
+      pool:
+        diceNum: 0
+        powerPool: false
+effects: []
+sort: 0
+ownership:
+  default: 0
+  79CEe5dKC6Ls5VbU: 3
+flags: {}
+_stats:
+  coreVersion: '14.368'
+  systemId: grimwild
+  systemVersion: 0.5.3
+  createdTime: 1782662622590
+  modifiedTime: 1791744501179
+  lastModifiedBy: nF9qxzj59Qn6fNSn
+  compendiumSource: null
+  duplicateSource: null
+  exportSource: null
+_key: '!items!yVMzP2yTj7Jyvdfk'

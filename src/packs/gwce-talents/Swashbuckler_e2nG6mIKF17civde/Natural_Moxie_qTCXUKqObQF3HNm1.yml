@@ -1,0 +1,32 @@
+folder: e2nG6mIKF17civde
+name: Natural Moxie
+type: talent
+_id: qTCXUKqObQF3HNm1
+img: icons/skills/trades/gaming-gambling-dice-gray.webp
+system:
+  description: >-
+    <p>Choose two skills from the
+    @UUID[Compendium.grimwild.gwce-talents.Item.dYITChWynQsk7Fl1]{Expertise}
+    talent (pg. 74). Take +1d when using these skills. [Prohibited: Rogue]</p>
+  core: false
+  notes:
+    description: ''
+    label: ''
+  trackers: []
+effects: []
+sort: 0
+ownership:
+  default: 0
+  79CEe5dKC6Ls5VbU: 3
+flags: {}
+_stats:
+  coreVersion: '14.368'
+  systemId: grimwild
+  systemVersion: 0.5.3
+  createdTime: 1783005668587
+  modifiedTime: 1791753410727
+  lastModifiedBy: nF9qxzj59Qn6fNSn
+  compendiumSource: null
+  duplicateSource: null
+  exportSource: null
+_key: '!items!qTCXUKqObQF3HNm1'

@@ -1,0 +1,48 @@
+folder: UcNIh8qMh1Ypz0QY
+name: Expertise
+type: talent
+_id: dYITChWynQsk7Fl1
+img: icons/sundries/misc/key-brass.webp
+system:
+  description: >-
+    <p>Choose three skills below as your <strong>skill set</strong>. Take +1d
+    when using a chosen skill. Each session, you have a <strong>4d
+    Competence</strong> pool to represent your focus under pressure. You can
+    roll it as bonus dice after any of the chosen skills.</p><p><strong>Above
+    board:</strong>
+    <em>duel—evade—investigate—persuade—track—traverse</em>.</p><p><strong>Below
+    table:</strong> <em>ambush—forgery &amp; disguise—lying—sabotage—sleight of
+    hand—stealth</em>.</p><hr><p><strong>GROWTH:</strong> At levels 3 and 6,
+    gain +1d Competence per session and +1 skill.</p>
+  core: false
+  notes:
+    description: ''
+    label: ''
+  trackers:
+    - type: pool
+      pool:
+        powerPool: false
+        diceNum: 4
+        max: 4
+      label: Competence
+      points:
+        showSteps: false
+        value: 1
+        max: 1
+effects: []
+sort: 0
+ownership:
+  default: 0
+  79CEe5dKC6Ls5VbU: 3
+flags: {}
+_stats:
+  coreVersion: '14.368'
+  systemId: grimwild
+  systemVersion: 0.5.3
+  createdTime: 1782929090446
+  modifiedTime: 1791745117472
+  lastModifiedBy: nF9qxzj59Qn6fNSn
+  compendiumSource: null
+  duplicateSource: null
+  exportSource: null
+_key: '!items!dYITChWynQsk7Fl1'

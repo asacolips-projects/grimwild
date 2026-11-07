@@ -1,0 +1,157 @@
+name: Dire Snail - Shell Composition
+description: ''
+formula: 1d6
+results:
+  - name: ''
+    description: <b>Obsidian spikes</b>, making it aggressively territorial.
+    range:
+      - 1
+      - 1
+    _id: eMjFr5aNyGNVpHgb
+    type: text
+    img: null
+    weight: 1
+    drawn: false
+    flags: {}
+    _stats:
+      coreVersion: '14.364'
+      systemId: grimwild
+      systemVersion: 0.5.3
+      createdTime: 1783270821364
+      modifiedTime: 1783270821364
+      lastModifiedBy: 79CEe5dKC6Ls5VbU
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+    _key: '!tables.results!TtnGtJZMBVOTqwd7.eMjFr5aNyGNVpHgb'
+  - name: ''
+    description: <b>GLowstone ridges</b>, drawing it to light and heat.
+    range:
+      - 2
+      - 2
+    _id: wjVQCPiQBHWrKanV
+    type: text
+    img: null
+    weight: 1
+    drawn: false
+    flags: {}
+    _stats:
+      coreVersion: '14.364'
+      systemId: grimwild
+      systemVersion: 0.5.3
+      createdTime: 1783270821364
+      modifiedTime: 1783270821364
+      lastModifiedBy: 79CEe5dKC6Ls5VbU
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+    _key: '!tables.results!TtnGtJZMBVOTqwd7.wjVQCPiQBHWrKanV'
+  - name: ''
+    description: <b>Lodestone bands</b>, attracting it to metal.
+    range:
+      - 3
+      - 3
+    _id: cfff8gvM5xVcq9Rs
+    type: text
+    img: null
+    weight: 1
+    drawn: false
+    flags: {}
+    _stats:
+      coreVersion: '14.364'
+      systemId: grimwild
+      systemVersion: 0.5.3
+      createdTime: 1783270821364
+      modifiedTime: 1783270821364
+      lastModifiedBy: 79CEe5dKC6Ls5VbU
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+    _key: '!tables.results!TtnGtJZMBVOTqwd7.cfff8gvM5xVcq9Rs'
+  - name: ''
+    description: <b>Opal flakes</b>, causing wild surges around it.
+    range:
+      - 4
+      - 4
+    _id: ovd4bAdwr0kAxYMK
+    type: text
+    img: null
+    weight: 1
+    drawn: false
+    flags: {}
+    _stats:
+      coreVersion: '14.364'
+      systemId: grimwild
+      systemVersion: 0.5.3
+      createdTime: 1783270821364
+      modifiedTime: 1783270821364
+      lastModifiedBy: 79CEe5dKC6Ls5VbU
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+    _key: '!tables.results!TtnGtJZMBVOTqwd7.ovd4bAdwr0kAxYMK'
+  - name: ''
+    description: <b>Sulfer crust</b>, releasing bursts of choking gas
+    range:
+      - 5
+      - 5
+    _id: axEMLLKuAvuBzm8d
+    type: text
+    img: null
+    weight: 1
+    drawn: false
+    flags: {}
+    _stats:
+      coreVersion: '14.364'
+      systemId: grimwild
+      systemVersion: 0.5.3
+      createdTime: 1783270821364
+      modifiedTime: 1783270821364
+      lastModifiedBy: 79CEe5dKC6Ls5VbU
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+    _key: '!tables.results!TtnGtJZMBVOTqwd7.axEMLLKuAvuBzm8d'
+  - name: ''
+    description: <b>Pyrite veins</b>, drawing it to shiny things it hards.
+    range:
+      - 6
+      - 6
+    _id: oMtGraMubh7r89dS
+    type: text
+    img: null
+    weight: 1
+    drawn: false
+    flags: {}
+    _stats:
+      coreVersion: '14.364'
+      systemId: grimwild
+      systemVersion: 0.5.3
+      createdTime: 1783270821364
+      modifiedTime: 1783270821364
+      lastModifiedBy: 79CEe5dKC6Ls5VbU
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+    _key: '!tables.results!TtnGtJZMBVOTqwd7.oMtGraMubh7r89dS'
+folder: rgX8m8cC6QFqYNJB
+sort: 3500000
+_id: TtnGtJZMBVOTqwd7
+img: icons/svg/d20-grey.svg
+replacement: true
+displayRoll: true
+ownership:
+  default: 0
+  79CEe5dKC6Ls5VbU: 3
+flags: {}
+_stats:
+  coreVersion: '14.368'
+  systemId: grimwild
+  systemVersion: 0.5.3
+  createdTime: 1783270821364
+  modifiedTime: 1791749998255
+  lastModifiedBy: nF9qxzj59Qn6fNSn
+  compendiumSource: null
+  duplicateSource: null
+  exportSource: null
+_key: '!tables!TtnGtJZMBVOTqwd7'

@@ -1,0 +1,50 @@
+name: Inspiration
+type: talent
+_id: PVAjOF4hYgnPdynr
+img: /icons/magic/light/orb-lightbulb-gray.webp
+system:
+  description: >-
+    <p>Each session, you have <strong>3 inspiration</strong> you can use to
+    bolster the spirits of those around you and influence your foes.</p><p>You
+    can spend <strong>inspiration</strong> to: <em>increase an ally's die result
+    by 1 (3→4)—calm or intensify a vex response—clear a mark from an
+    ally</em>.</p><p>You can also spend <strong>inspiration</strong> and roll
+    Presence to: <em>pull off a <strong>potent feat of emotional
+    influence</strong>—<strong>interrupt</strong> an impact move—clear
+    <strong>rattled</strong> from an
+    ally</em>.</p><hr><p><strong>GROWTH:</strong> At levels 2, 4, and 6, gain +1
+    inspiration per
+    session.</p><p>@UUID[Compendium.grimwild.gwce-journals.JournalEntry.A3ABNLJphHplV8Nm.JournalEntryPage.H0JCDbN6kAyXGxic]{Bard
+    Options: Inspiration Method &amp; Song Composition}</p>
+  core: false
+  notes:
+    description: ''
+    label: ''
+  trackers:
+    - type: points
+      label: Inspiration
+      points:
+        value: 3
+        max: 3
+        showSteps: true
+      pool:
+        diceNum: 0
+        powerPool: false
+effects: []
+folder: 1TTRKJchFdycHWme
+sort: 100000
+ownership:
+  default: 0
+  79CEe5dKC6Ls5VbU: 3
+flags: {}
+_stats:
+  coreVersion: '14.364'
+  systemId: grimwild
+  systemVersion: 0.5.3
+  createdTime: 1782662612587
+  modifiedTime: 1783037698846
+  lastModifiedBy: 79CEe5dKC6Ls5VbU
+  compendiumSource: null
+  duplicateSource: null
+  exportSource: null
+_key: '!items!PVAjOF4hYgnPdynr'

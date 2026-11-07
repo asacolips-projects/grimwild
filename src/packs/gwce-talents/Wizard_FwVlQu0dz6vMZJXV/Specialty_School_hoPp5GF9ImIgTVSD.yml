@@ -1,0 +1,33 @@
+folder: FwVlQu0dz6vMZJXV
+name: Specialty School
+type: talent
+_id: hoPp5GF9ImIgTVSD
+img: icons/magic/symbols/rune-sigil-black-pink.webp
+system:
+  description: >-
+    <p>Choose the arcane school of your focus. All of your <strong>spell
+    theorems</strong> now have it plus another school. When casting, choose
+    which school to use. When you get a critical with this arcane school,
+    <em><strong>take spark</strong></em>.</p>
+  core: false
+  notes:
+    description: ''
+    label: ''
+  trackers: []
+effects: []
+sort: 0
+ownership:
+  default: 0
+  79CEe5dKC6Ls5VbU: 3
+flags: {}
+_stats:
+  coreVersion: '14.368'
+  systemId: grimwild
+  systemVersion: 0.5.3
+  createdTime: 1782662631338
+  modifiedTime: 1791753905861
+  lastModifiedBy: nF9qxzj59Qn6fNSn
+  compendiumSource: null
+  duplicateSource: null
+  exportSource: null
+_key: '!items!hoPp5GF9ImIgTVSD'

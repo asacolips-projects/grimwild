@@ -1,0 +1,20 @@
+type: Item
+folder: null
+name: Summoner
+color: '#332744'
+sorting: a
+_id: DRRquhcPQ3Tydpoy
+description: ''
+sort: 1400000
+flags: {}
+_stats:
+  coreVersion: '14.364'
+  systemId: grimwild
+  systemVersion: 0.5.3
+  createdTime: 1782662626189
+  modifiedTime: 1783005637057
+  lastModifiedBy: 79CEe5dKC6Ls5VbU
+  compendiumSource: null
+  duplicateSource: null
+  exportSource: null
+_key: '!folders!DRRquhcPQ3Tydpoy'

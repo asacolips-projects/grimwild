@@ -1,0 +1,34 @@
+folder: sioTtoSBZibsvpR5
+name: Clout
+type: talent
+_id: 4BnjK2qi9KIWwi0L
+img: icons/svg/item-bag.svg
+system:
+  description: >-
+    <p>Your name or wealth carries weight in the right circles. Each session,
+    you have a <strong>3d Favor</strong> resource pool. You can ask as for a
+    reasonable favor from those in power and roll the pool to have it granted.
+    If it drops to 0d, you’ve asked too much. You can get what you want anyway
+    by <em>burning that bridge</em>.</p>
+  core: false
+  notes:
+    description: ''
+    label: ''
+  trackers: []
+effects: []
+sort: 0
+ownership:
+  default: 0
+  79CEe5dKC6Ls5VbU: 3
+flags: {}
+_stats:
+  coreVersion: '14.364'
+  systemId: grimwild
+  systemVersion: 0.5.3
+  createdTime: 1782662611329
+  modifiedTime: 1782662611329
+  lastModifiedBy: 79CEe5dKC6Ls5VbU
+  compendiumSource: null
+  duplicateSource: null
+  exportSource: null
+_key: '!items!4BnjK2qi9KIWwi0L'

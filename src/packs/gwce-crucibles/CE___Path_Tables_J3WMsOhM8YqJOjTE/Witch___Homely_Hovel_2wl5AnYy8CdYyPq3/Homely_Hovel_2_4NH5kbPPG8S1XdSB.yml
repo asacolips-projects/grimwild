@@ -1,0 +1,157 @@
+name: Homely Hovel 2
+description: ''
+formula: 1d6
+results:
+  - name: ''
+    description: castle
+    range:
+      - 1
+      - 1
+    _id: NP5GMmq61O1Y4gI9
+    type: text
+    img: icons/svg/d20-black.svg
+    weight: 1
+    drawn: false
+    flags: {}
+    _stats:
+      coreVersion: '14.364'
+      systemId: grimwild
+      systemVersion: 0.5.3
+      createdTime: 1783100778622
+      modifiedTime: 1783100778622
+      lastModifiedBy: 79CEe5dKC6Ls5VbU
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+    _key: '!tables.results!4NH5kbPPG8S1XdSB.NP5GMmq61O1Y4gI9'
+  - name: ''
+    description: cottage
+    range:
+      - 2
+      - 2
+    _id: 2dTZUVarXv339XE7
+    type: text
+    img: icons/svg/d20-black.svg
+    weight: 1
+    drawn: false
+    flags: {}
+    _stats:
+      coreVersion: '14.364'
+      systemId: grimwild
+      systemVersion: 0.5.3
+      createdTime: 1783100778622
+      modifiedTime: 1783100778622
+      lastModifiedBy: 79CEe5dKC6Ls5VbU
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+    _key: '!tables.results!4NH5kbPPG8S1XdSB.2dTZUVarXv339XE7'
+  - name: ''
+    description: glade
+    range:
+      - 3
+      - 3
+    _id: AL7DrQTY2IMG0vLa
+    type: text
+    img: icons/svg/d20-black.svg
+    weight: 1
+    drawn: false
+    flags: {}
+    _stats:
+      coreVersion: '14.364'
+      systemId: grimwild
+      systemVersion: 0.5.3
+      createdTime: 1783100778622
+      modifiedTime: 1783100778622
+      lastModifiedBy: 79CEe5dKC6Ls5VbU
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+    _key: '!tables.results!4NH5kbPPG8S1XdSB.AL7DrQTY2IMG0vLa'
+  - name: ''
+    description: manner
+    range:
+      - 4
+      - 4
+    _id: ivIwbsOKst8hXgdH
+    type: text
+    img: icons/svg/d20-black.svg
+    weight: 1
+    drawn: false
+    flags: {}
+    _stats:
+      coreVersion: '14.364'
+      systemId: grimwild
+      systemVersion: 0.5.3
+      createdTime: 1783100778622
+      modifiedTime: 1783100778622
+      lastModifiedBy: 79CEe5dKC6Ls5VbU
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+    _key: '!tables.results!4NH5kbPPG8S1XdSB.ivIwbsOKst8hXgdH'
+  - name: ''
+    description: shack
+    range:
+      - 5
+      - 5
+    _id: 3hH5GnJmQojvoVKV
+    type: text
+    img: icons/svg/d20-black.svg
+    weight: 1
+    drawn: false
+    flags: {}
+    _stats:
+      coreVersion: '14.364'
+      systemId: grimwild
+      systemVersion: 0.5.3
+      createdTime: 1783100778622
+      modifiedTime: 1783100778622
+      lastModifiedBy: 79CEe5dKC6Ls5VbU
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+    _key: '!tables.results!4NH5kbPPG8S1XdSB.3hH5GnJmQojvoVKV'
+  - name: ''
+    description: temple
+    range:
+      - 6
+      - 6
+    _id: 9vdMxOr1iCMIh76n
+    type: text
+    img: icons/svg/d20-black.svg
+    weight: 1
+    drawn: false
+    flags: {}
+    _stats:
+      coreVersion: '14.364'
+      systemId: grimwild
+      systemVersion: 0.5.3
+      createdTime: 1783100778622
+      modifiedTime: 1783100778622
+      lastModifiedBy: 79CEe5dKC6Ls5VbU
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+    _key: '!tables.results!4NH5kbPPG8S1XdSB.9vdMxOr1iCMIh76n'
+folder: 2wl5AnYy8CdYyPq3
+_id: 4NH5kbPPG8S1XdSB
+img: icons/svg/d20-grey.svg
+replacement: true
+displayRoll: false
+ownership:
+  default: 0
+  79CEe5dKC6Ls5VbU: 3
+flags: {}
+_stats:
+  coreVersion: '14.368'
+  systemId: grimwild
+  systemVersion: 0.5.3
+  createdTime: 1783100778622
+  modifiedTime: 1791748743569
+  lastModifiedBy: nF9qxzj59Qn6fNSn
+  exportSource: null
+  compendiumSource: null
+  duplicateSource: null
+sort: 200000
+_key: '!tables!4NH5kbPPG8S1XdSB'

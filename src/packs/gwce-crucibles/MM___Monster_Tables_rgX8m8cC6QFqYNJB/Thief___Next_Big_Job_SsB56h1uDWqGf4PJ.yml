@@ -1,0 +1,157 @@
+name: Thief - Next Big Job
+description: ''
+formula: 1d6
+results:
+  - name: ''
+    description: Steal the <b>signet ring</b> of a noble.
+    range:
+      - 1
+      - 1
+    _id: FHNQgfSKWu9TV9in
+    type: text
+    img: null
+    weight: 1
+    drawn: false
+    flags: {}
+    _stats:
+      coreVersion: '14.364'
+      systemId: grimwild
+      systemVersion: 0.5.3
+      createdTime: 1783270821353
+      modifiedTime: 1783270821353
+      lastModifiedBy: 79CEe5dKC6Ls5VbU
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+    _key: '!tables.results!SsB56h1uDWqGf4PJ.FHNQgfSKWu9TV9in'
+  - name: ''
+    description: Take a <b>cursed relic</b> from a guarded temple.
+    range:
+      - 2
+      - 2
+    _id: kgzTPLMB1Pl5p383
+    type: text
+    img: null
+    weight: 1
+    drawn: false
+    flags: {}
+    _stats:
+      coreVersion: '14.364'
+      systemId: grimwild
+      systemVersion: 0.5.3
+      createdTime: 1783270821353
+      modifiedTime: 1783270821353
+      lastModifiedBy: 79CEe5dKC6Ls5VbU
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+    _key: '!tables.results!SsB56h1uDWqGf4PJ.kgzTPLMB1Pl5p383'
+  - name: ''
+    description: Rob the <b>merchant prince</b> during their party.
+    range:
+      - 3
+      - 3
+    _id: 7m5tDXsR7dxt3lnQ
+    type: text
+    img: null
+    weight: 1
+    drawn: false
+    flags: {}
+    _stats:
+      coreVersion: '14.364'
+      systemId: grimwild
+      systemVersion: 0.5.3
+      createdTime: 1783270821353
+      modifiedTime: 1783270821353
+      lastModifiedBy: 79CEe5dKC6Ls5VbU
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+    _key: '!tables.results!SsB56h1uDWqGf4PJ.7m5tDXsR7dxt3lnQ'
+  - name: ''
+    description: Switch a <b>royal decree</b> with a forgery.
+    range:
+      - 4
+      - 4
+    _id: N4BaRVMKuyqOozi6
+    type: text
+    img: null
+    weight: 1
+    drawn: false
+    flags: {}
+    _stats:
+      coreVersion: '14.364'
+      systemId: grimwild
+      systemVersion: 0.5.3
+      createdTime: 1783270821353
+      modifiedTime: 1783270821353
+      lastModifiedBy: 79CEe5dKC6Ls5VbU
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+    _key: '!tables.results!SsB56h1uDWqGf4PJ.N4BaRVMKuyqOozi6'
+  - name: ''
+    description: Steal a <b>warlord’s</b> battle plans.
+    range:
+      - 5
+      - 5
+    _id: cspNLdQVnIaIc4VB
+    type: text
+    img: null
+    weight: 1
+    drawn: false
+    flags: {}
+    _stats:
+      coreVersion: '14.364'
+      systemId: grimwild
+      systemVersion: 0.5.3
+      createdTime: 1783270821353
+      modifiedTime: 1783270821353
+      lastModifiedBy: 79CEe5dKC6Ls5VbU
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+    _key: '!tables.results!SsB56h1uDWqGf4PJ.cspNLdQVnIaIc4VB'
+  - name: ''
+    description: Find blackmail on a <b>local crime boss</b>.
+    range:
+      - 6
+      - 6
+    _id: It2StaJIf30V3afd
+    type: text
+    img: null
+    weight: 1
+    drawn: false
+    flags: {}
+    _stats:
+      coreVersion: '14.364'
+      systemId: grimwild
+      systemVersion: 0.5.3
+      createdTime: 1783270821353
+      modifiedTime: 1783270821353
+      lastModifiedBy: 79CEe5dKC6Ls5VbU
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+    _key: '!tables.results!SsB56h1uDWqGf4PJ.It2StaJIf30V3afd'
+folder: rgX8m8cC6QFqYNJB
+sort: 2900000
+_id: SsB56h1uDWqGf4PJ
+img: icons/svg/d20-grey.svg
+replacement: true
+displayRoll: true
+ownership:
+  default: 0
+  79CEe5dKC6Ls5VbU: 3
+flags: {}
+_stats:
+  coreVersion: '14.368'
+  systemId: grimwild
+  systemVersion: 0.5.3
+  createdTime: 1783270821353
+  modifiedTime: 1791749998255
+  lastModifiedBy: nF9qxzj59Qn6fNSn
+  compendiumSource: null
+  duplicateSource: null
+  exportSource: null
+_key: '!tables!SsB56h1uDWqGf4PJ'

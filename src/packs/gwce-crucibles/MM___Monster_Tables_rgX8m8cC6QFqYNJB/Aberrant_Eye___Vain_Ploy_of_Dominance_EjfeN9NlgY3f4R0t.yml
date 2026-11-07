@@ -1,0 +1,157 @@
+name: Aberrant Eye - Vain Ploy of Dominance
+description: ''
+formula: 1d6
+results:
+  - name: ''
+    description: <b>Subject</b> a town for tribute.
+    range:
+      - 1
+      - 1
+    _id: pcg8CymBWYchZiqq
+    type: text
+    img: null
+    weight: 1
+    drawn: false
+    flags: {}
+    _stats:
+      coreVersion: '14.364'
+      systemId: grimwild
+      systemVersion: 0.5.3
+      createdTime: 1783270821390
+      modifiedTime: 1783270821390
+      lastModifiedBy: 79CEe5dKC6Ls5VbU
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+    _key: '!tables.results!EjfeN9NlgY3f4R0t.pcg8CymBWYchZiqq'
+  - name: ''
+    description: <b>Lead</b> a prominent guild.
+    range:
+      - 2
+      - 2
+    _id: JevbyWxGjtcRZTHD
+    type: text
+    img: null
+    weight: 1
+    drawn: false
+    flags: {}
+    _stats:
+      coreVersion: '14.364'
+      systemId: grimwild
+      systemVersion: 0.5.3
+      createdTime: 1783270821390
+      modifiedTime: 1783270821390
+      lastModifiedBy: 79CEe5dKC6Ls5VbU
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+    _key: '!tables.results!EjfeN9NlgY3f4R0t.JevbyWxGjtcRZTHD'
+  - name: ''
+    description: <b>Monopolize</b> an important market.
+    range:
+      - 3
+      - 3
+    _id: 5mb61I2TSjVUwOaE
+    type: text
+    img: null
+    weight: 1
+    drawn: false
+    flags: {}
+    _stats:
+      coreVersion: '14.364'
+      systemId: grimwild
+      systemVersion: 0.5.3
+      createdTime: 1783270821390
+      modifiedTime: 1783270821390
+      lastModifiedBy: 79CEe5dKC6Ls5VbU
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+    _key: '!tables.results!EjfeN9NlgY3f4R0t.5mb61I2TSjVUwOaE'
+  - name: ''
+    description: <b>Control</b> a city from the shadows.
+    range:
+      - 4
+      - 4
+    _id: u0XLW0cxYulpXUKp
+    type: text
+    img: null
+    weight: 1
+    drawn: false
+    flags: {}
+    _stats:
+      coreVersion: '14.364'
+      systemId: grimwild
+      systemVersion: 0.5.3
+      createdTime: 1783270821390
+      modifiedTime: 1783270821390
+      lastModifiedBy: 79CEe5dKC6Ls5VbU
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+    _key: '!tables.results!EjfeN9NlgY3f4R0t.u0XLW0cxYulpXUKp'
+  - name: ''
+    description: <b>Trick</b> adventurers into giving up arcana.
+    range:
+      - 5
+      - 5
+    _id: bhUUzNv1KMmxrpqF
+    type: text
+    img: null
+    weight: 1
+    drawn: false
+    flags: {}
+    _stats:
+      coreVersion: '14.364'
+      systemId: grimwild
+      systemVersion: 0.5.3
+      createdTime: 1783270821390
+      modifiedTime: 1783270821390
+      lastModifiedBy: 79CEe5dKC6Ls5VbU
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+    _key: '!tables.results!EjfeN9NlgY3f4R0t.bhUUzNv1KMmxrpqF'
+  - name: ''
+    description: <b>Crush</b> opposition to their local rule.
+    range:
+      - 6
+      - 6
+    _id: BCqQHVurX1uFv61V
+    type: text
+    img: null
+    weight: 1
+    drawn: false
+    flags: {}
+    _stats:
+      coreVersion: '14.364'
+      systemId: grimwild
+      systemVersion: 0.5.3
+      createdTime: 1783270821390
+      modifiedTime: 1783270821390
+      lastModifiedBy: 79CEe5dKC6Ls5VbU
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+    _key: '!tables.results!EjfeN9NlgY3f4R0t.BCqQHVurX1uFv61V'
+folder: rgX8m8cC6QFqYNJB
+sort: 5000000
+_id: EjfeN9NlgY3f4R0t
+img: icons/svg/d20-grey.svg
+replacement: true
+displayRoll: true
+ownership:
+  default: 0
+  79CEe5dKC6Ls5VbU: 3
+flags: {}
+_stats:
+  coreVersion: '14.368'
+  systemId: grimwild
+  systemVersion: 0.5.3
+  createdTime: 1783270821390
+  modifiedTime: 1791749998256
+  lastModifiedBy: nF9qxzj59Qn6fNSn
+  compendiumSource: null
+  duplicateSource: null
+  exportSource: null
+_key: '!tables!EjfeN9NlgY3f4R0t'

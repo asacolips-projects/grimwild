@@ -1,0 +1,157 @@
+name: Myconid - Spore Effects
+description: ''
+formula: 1d6
+results:
+  - name: ''
+    description: <b>Induce drowsiness</b>, causing nearly instant sleep.
+    range:
+      - 1
+      - 1
+    _id: sPHqJD8fv8hmhliA
+    type: text
+    img: null
+    weight: 1
+    drawn: false
+    flags: {}
+    _stats:
+      coreVersion: '14.364'
+      systemId: grimwild
+      systemVersion: 0.5.3
+      createdTime: 1783270821362
+      modifiedTime: 1783270821362
+      lastModifiedBy: 79CEe5dKC6Ls5VbU
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+    _key: '!tables.results!VWcCy7zUeTlOQL2m.sPHqJD8fv8hmhliA'
+  - name: ''
+    description: <b>Lock joints</b>, paralyzing those that inhale.
+    range:
+      - 2
+      - 2
+    _id: SK7GWP4AxawgHxNs
+    type: text
+    img: null
+    weight: 1
+    drawn: false
+    flags: {}
+    _stats:
+      coreVersion: '14.364'
+      systemId: grimwild
+      systemVersion: 0.5.3
+      createdTime: 1783270821362
+      modifiedTime: 1783270821362
+      lastModifiedBy: 79CEe5dKC6Ls5VbU
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+    _key: '!tables.results!VWcCy7zUeTlOQL2m.SK7GWP4AxawgHxNs'
+  - name: ''
+    description: <b>Hallucinations</b>, blending colors, sounds, and smells.
+    range:
+      - 3
+      - 3
+    _id: juAXEJmCBQIsnve3
+    type: text
+    img: null
+    weight: 1
+    drawn: false
+    flags: {}
+    _stats:
+      coreVersion: '14.364'
+      systemId: grimwild
+      systemVersion: 0.5.3
+      createdTime: 1783270821362
+      modifiedTime: 1783270821362
+      lastModifiedBy: 79CEe5dKC6Ls5VbU
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+    _key: '!tables.results!VWcCy7zUeTlOQL2m.juAXEJmCBQIsnve3'
+  - name: ''
+    description: <b>Sickness</b>, inducing body aches and nausea.
+    range:
+      - 4
+      - 4
+    _id: AufEoLcX3zMPCSzW
+    type: text
+    img: null
+    weight: 1
+    drawn: false
+    flags: {}
+    _stats:
+      coreVersion: '14.364'
+      systemId: grimwild
+      systemVersion: 0.5.3
+      createdTime: 1783270821362
+      modifiedTime: 1783270821362
+      lastModifiedBy: 79CEe5dKC6Ls5VbU
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+    _key: '!tables.results!VWcCy7zUeTlOQL2m.AufEoLcX3zMPCSzW'
+  - name: ''
+    description: <b>Blindness</b>, preventing all sight for a few minutes.
+    range:
+      - 5
+      - 5
+    _id: tkKxWvVqEhvtBpoi
+    type: text
+    img: null
+    weight: 1
+    drawn: false
+    flags: {}
+    _stats:
+      coreVersion: '14.364'
+      systemId: grimwild
+      systemVersion: 0.5.3
+      createdTime: 1783270821362
+      modifiedTime: 1783270821362
+      lastModifiedBy: 79CEe5dKC6Ls5VbU
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+    _key: '!tables.results!VWcCy7zUeTlOQL2m.tkKxWvVqEhvtBpoi'
+  - name: ''
+    description: <b>Choking</b>, making it incredibly difficult to breathe.
+    range:
+      - 6
+      - 6
+    _id: Y8IfHLaDYrTPvYkx
+    type: text
+    img: null
+    weight: 1
+    drawn: false
+    flags: {}
+    _stats:
+      coreVersion: '14.364'
+      systemId: grimwild
+      systemVersion: 0.5.3
+      createdTime: 1783270821362
+      modifiedTime: 1783270821362
+      lastModifiedBy: 79CEe5dKC6Ls5VbU
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+    _key: '!tables.results!VWcCy7zUeTlOQL2m.Y8IfHLaDYrTPvYkx'
+folder: rgX8m8cC6QFqYNJB
+sort: 3400000
+_id: VWcCy7zUeTlOQL2m
+img: icons/svg/d20-grey.svg
+replacement: true
+displayRoll: true
+ownership:
+  default: 0
+  79CEe5dKC6Ls5VbU: 3
+flags: {}
+_stats:
+  coreVersion: '14.368'
+  systemId: grimwild
+  systemVersion: 0.5.3
+  createdTime: 1783270821362
+  modifiedTime: 1791749998255
+  lastModifiedBy: nF9qxzj59Qn6fNSn
+  compendiumSource: null
+  duplicateSource: null
+  exportSource: null
+_key: '!tables!VWcCy7zUeTlOQL2m'

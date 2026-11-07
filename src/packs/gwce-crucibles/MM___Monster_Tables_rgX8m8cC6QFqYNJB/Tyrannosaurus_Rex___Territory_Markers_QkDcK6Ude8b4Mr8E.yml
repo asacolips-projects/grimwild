@@ -1,0 +1,157 @@
+name: Tyrannosaurus Rex - Territory Markers
+description: ''
+formula: 1d6
+results:
+  - name: ''
+    description: Massive, <b>three-toed footprints</b>, deep in mud.
+    range:
+      - 1
+      - 1
+    _id: F4LOq9F0reOeqQEM
+    type: text
+    img: null
+    weight: 1
+    drawn: false
+    flags: {}
+    _stats:
+      coreVersion: '14.364'
+      systemId: grimwild
+      systemVersion: 0.5.3
+      createdTime: 1783270821376
+      modifiedTime: 1783270821376
+      lastModifiedBy: 79CEe5dKC6Ls5VbU
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+    _key: '!tables.results!QkDcK6Ude8b4Mr8E.F4LOq9F0reOeqQEM'
+  - name: ''
+    description: <b>Birds and beasts</b> fall silent, for miles.
+    range:
+      - 2
+      - 2
+    _id: vMhTPjEhGDbSTroA
+    type: text
+    img: null
+    weight: 1
+    drawn: false
+    flags: {}
+    _stats:
+      coreVersion: '14.364'
+      systemId: grimwild
+      systemVersion: 0.5.3
+      createdTime: 1783270821376
+      modifiedTime: 1783270821376
+      lastModifiedBy: 79CEe5dKC6Ls5VbU
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+    _key: '!tables.results!QkDcK6Ude8b4Mr8E.vMhTPjEhGDbSTroA'
+  - name: ''
+    description: <b>Boulder-sized dung pile</b>, the worst way to find out.
+    range:
+      - 3
+      - 3
+    _id: 5tPXiMGPyTXCtt92
+    type: text
+    img: null
+    weight: 1
+    drawn: false
+    flags: {}
+    _stats:
+      coreVersion: '14.364'
+      systemId: grimwild
+      systemVersion: 0.5.3
+      createdTime: 1783270821376
+      modifiedTime: 1783270821376
+      lastModifiedBy: 79CEe5dKC6Ls5VbU
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+    _key: '!tables.results!QkDcK6Ude8b4Mr8E.5tPXiMGPyTXCtt92'
+  - name: ''
+    description: Gouged <b>trees and stone</b>, far off the ground.
+    range:
+      - 4
+      - 4
+    _id: 3GmZ4wB3gn4sKuZ1
+    type: text
+    img: null
+    weight: 1
+    drawn: false
+    flags: {}
+    _stats:
+      coreVersion: '14.364'
+      systemId: grimwild
+      systemVersion: 0.5.3
+      createdTime: 1783270821376
+      modifiedTime: 1783270821376
+      lastModifiedBy: 79CEe5dKC6Ls5VbU
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+    _key: '!tables.results!QkDcK6Ude8b4Mr8E.3GmZ4wB3gn4sKuZ1'
+  - name: ''
+    description: Massive <b>half-eaten carcass</b> of another predator.
+    range:
+      - 5
+      - 5
+    _id: 571Mt3YZ1THkcGhS
+    type: text
+    img: null
+    weight: 1
+    drawn: false
+    flags: {}
+    _stats:
+      coreVersion: '14.364'
+      systemId: grimwild
+      systemVersion: 0.5.3
+      createdTime: 1783270821376
+      modifiedTime: 1783270821376
+      lastModifiedBy: 79CEe5dKC6Ls5VbU
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+    _key: '!tables.results!QkDcK6Ude8b4Mr8E.571Mt3YZ1THkcGhS'
+  - name: ''
+    description: <b>Carcass trail</b>, something killed and dragged away.
+    range:
+      - 6
+      - 6
+    _id: aGdKtX6ORTLTDURq
+    type: text
+    img: null
+    weight: 1
+    drawn: false
+    flags: {}
+    _stats:
+      coreVersion: '14.364'
+      systemId: grimwild
+      systemVersion: 0.5.3
+      createdTime: 1783270821376
+      modifiedTime: 1783270821376
+      lastModifiedBy: 79CEe5dKC6Ls5VbU
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+    _key: '!tables.results!QkDcK6Ude8b4Mr8E.aGdKtX6ORTLTDURq'
+folder: rgX8m8cC6QFqYNJB
+sort: 4200000
+_id: QkDcK6Ude8b4Mr8E
+img: icons/svg/d20-grey.svg
+replacement: true
+displayRoll: true
+ownership:
+  default: 0
+  79CEe5dKC6Ls5VbU: 3
+flags: {}
+_stats:
+  coreVersion: '14.368'
+  systemId: grimwild
+  systemVersion: 0.5.3
+  createdTime: 1783270821376
+  modifiedTime: 1791749998256
+  lastModifiedBy: nF9qxzj59Qn6fNSn
+  compendiumSource: null
+  duplicateSource: null
+  exportSource: null
+_key: '!tables!QkDcK6Ude8b4Mr8E'

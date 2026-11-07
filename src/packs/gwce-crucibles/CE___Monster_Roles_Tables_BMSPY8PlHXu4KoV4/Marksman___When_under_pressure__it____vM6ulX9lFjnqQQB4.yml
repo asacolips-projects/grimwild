@@ -1,0 +1,157 @@
+name: Marksman - When under pressure, it...
+description: ''
+formula: 1d6
+results:
+  - name: ''
+    description: focuses on the closest threat for a critical shot.
+    range:
+      - 1
+      - 1
+    _id: 83CIDqa9sbKk0jdL
+    type: text
+    img: icons/svg/d20-black.svg
+    weight: 1
+    drawn: false
+    flags: {}
+    _stats:
+      coreVersion: '14.368'
+      systemId: grimwild
+      systemVersion: 0.5.3
+      createdTime: 1791832381353
+      modifiedTime: 1791832381353
+      lastModifiedBy: nF9qxzj59Qn6fNSn
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+    _key: '!tables.results!vM6ulX9lFjnqQQB4.83CIDqa9sbKk0jdL'
+  - name: ''
+    description: dives into cover to avoid incoming attacks.
+    range:
+      - 2
+      - 2
+    _id: ED05ZRkE1zgoxlnI
+    type: text
+    img: icons/svg/d20-black.svg
+    weight: 1
+    drawn: false
+    flags: {}
+    _stats:
+      coreVersion: '14.368'
+      systemId: grimwild
+      systemVersion: 0.5.3
+      createdTime: 1791832381353
+      modifiedTime: 1791832381353
+      lastModifiedBy: nF9qxzj59Qn6fNSn
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+    _key: '!tables.results!vM6ulX9lFjnqQQB4.ED05ZRkE1zgoxlnI'
+  - name: ''
+    description: signals allies to draw enemy attention.
+    range:
+      - 3
+      - 3
+    _id: 04LecF2EM7HZKbPV
+    type: text
+    img: icons/svg/d20-black.svg
+    weight: 1
+    drawn: false
+    flags: {}
+    _stats:
+      coreVersion: '14.368'
+      systemId: grimwild
+      systemVersion: 0.5.3
+      createdTime: 1791832381353
+      modifiedTime: 1791832381353
+      lastModifiedBy: nF9qxzj59Qn6fNSn
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+    _key: '!tables.results!vM6ulX9lFjnqQQB4.04LecF2EM7HZKbPV'
+  - name: ''
+    description: shifts to higher ground for a better vantage point.
+    range:
+      - 4
+      - 4
+    _id: mRXRL99JbhXpEr5s
+    type: text
+    img: icons/svg/d20-black.svg
+    weight: 1
+    drawn: false
+    flags: {}
+    _stats:
+      coreVersion: '14.368'
+      systemId: grimwild
+      systemVersion: 0.5.3
+      createdTime: 1791832381353
+      modifiedTime: 1791832381353
+      lastModifiedBy: nF9qxzj59Qn6fNSn
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+    _key: '!tables.results!vM6ulX9lFjnqQQB4.mRXRL99JbhXpEr5s'
+  - name: ''
+    description: takes a rapid, less accurate shot to disrupt foes.
+    range:
+      - 5
+      - 5
+    _id: HZaYuHf5qe4wPkbL
+    type: text
+    img: icons/svg/d20-black.svg
+    weight: 1
+    drawn: false
+    flags: {}
+    _stats:
+      coreVersion: '14.368'
+      systemId: grimwild
+      systemVersion: 0.5.3
+      createdTime: 1791832381353
+      modifiedTime: 1791832381353
+      lastModifiedBy: nF9qxzj59Qn6fNSn
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+    _key: '!tables.results!vM6ulX9lFjnqQQB4.HZaYuHf5qe4wPkbL'
+  - name: ''
+    description: retreats to reposition for the next attack.
+    range:
+      - 6
+      - 6
+    _id: lBrwF29dqWdGoE7w
+    type: text
+    img: icons/svg/d20-black.svg
+    weight: 1
+    drawn: false
+    flags: {}
+    _stats:
+      coreVersion: '14.368'
+      systemId: grimwild
+      systemVersion: 0.5.3
+      createdTime: 1791832381353
+      modifiedTime: 1791832381353
+      lastModifiedBy: nF9qxzj59Qn6fNSn
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+    _key: '!tables.results!vM6ulX9lFjnqQQB4.lBrwF29dqWdGoE7w'
+folder: BMSPY8PlHXu4KoV4
+_id: vM6ulX9lFjnqQQB4
+img: icons/svg/d20-grey.svg
+replacement: true
+displayRoll: true
+ownership:
+  default: 0
+  nF9qxzj59Qn6fNSn: 3
+flags: {}
+_stats:
+  coreVersion: '14.368'
+  systemId: grimwild
+  systemVersion: 0.5.3
+  createdTime: 1791832381353
+  modifiedTime: 1791833675050
+  lastModifiedBy: nF9qxzj59Qn6fNSn
+  compendiumSource: null
+  duplicateSource: null
+  exportSource: null
+sort: 700000
+_key: '!tables!vM6ulX9lFjnqQQB4'

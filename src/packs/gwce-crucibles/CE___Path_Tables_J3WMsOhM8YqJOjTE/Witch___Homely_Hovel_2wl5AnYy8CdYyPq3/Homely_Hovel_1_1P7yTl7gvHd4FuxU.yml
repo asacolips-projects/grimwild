@@ -1,0 +1,157 @@
+name: Homely Hovel 1
+description: ''
+formula: 1d6
+results:
+  - name: ''
+    description: charming
+    range:
+      - 1
+      - 1
+    _id: KCSfGh3mz7pFmiJL
+    type: text
+    img: icons/svg/d20-black.svg
+    weight: 1
+    drawn: false
+    flags: {}
+    _stats:
+      coreVersion: '14.364'
+      systemId: grimwild
+      systemVersion: 0.5.3
+      createdTime: 1783100777094
+      modifiedTime: 1783100777094
+      lastModifiedBy: 79CEe5dKC6Ls5VbU
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+    _key: '!tables.results!1P7yTl7gvHd4FuxU.KCSfGh3mz7pFmiJL'
+  - name: ''
+    description: mysterious
+    range:
+      - 2
+      - 2
+    _id: wLLrOxBz9vcs9bqq
+    type: text
+    img: icons/svg/d20-black.svg
+    weight: 1
+    drawn: false
+    flags: {}
+    _stats:
+      coreVersion: '14.364'
+      systemId: grimwild
+      systemVersion: 0.5.3
+      createdTime: 1783100777094
+      modifiedTime: 1783100777094
+      lastModifiedBy: 79CEe5dKC6Ls5VbU
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+    _key: '!tables.results!1P7yTl7gvHd4FuxU.wLLrOxBz9vcs9bqq'
+  - name: ''
+    description: rickety
+    range:
+      - 3
+      - 3
+    _id: dtrsZk7CDv4Ap8qr
+    type: text
+    img: icons/svg/d20-black.svg
+    weight: 1
+    drawn: false
+    flags: {}
+    _stats:
+      coreVersion: '14.364'
+      systemId: grimwild
+      systemVersion: 0.5.3
+      createdTime: 1783100777094
+      modifiedTime: 1783100777094
+      lastModifiedBy: 79CEe5dKC6Ls5VbU
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+    _key: '!tables.results!1P7yTl7gvHd4FuxU.dtrsZk7CDv4Ap8qr'
+  - name: ''
+    description: unsettling
+    range:
+      - 4
+      - 4
+    _id: gCiB2GeqZyOId0ZG
+    type: text
+    img: icons/svg/d20-black.svg
+    weight: 1
+    drawn: false
+    flags: {}
+    _stats:
+      coreVersion: '14.364'
+      systemId: grimwild
+      systemVersion: 0.5.3
+      createdTime: 1783100777094
+      modifiedTime: 1783100777094
+      lastModifiedBy: 79CEe5dKC6Ls5VbU
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+    _key: '!tables.results!1P7yTl7gvHd4FuxU.gCiB2GeqZyOId0ZG'
+  - name: ''
+    description: vibrant
+    range:
+      - 5
+      - 5
+    _id: QqMiMwqKWpHVHrBO
+    type: text
+    img: icons/svg/d20-black.svg
+    weight: 1
+    drawn: false
+    flags: {}
+    _stats:
+      coreVersion: '14.364'
+      systemId: grimwild
+      systemVersion: 0.5.3
+      createdTime: 1783100777094
+      modifiedTime: 1783100777094
+      lastModifiedBy: 79CEe5dKC6Ls5VbU
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+    _key: '!tables.results!1P7yTl7gvHd4FuxU.QqMiMwqKWpHVHrBO'
+  - name: ''
+    description: whimsical
+    range:
+      - 6
+      - 6
+    _id: g1OCkqFH8MkNEUb5
+    type: text
+    img: icons/svg/d20-black.svg
+    weight: 1
+    drawn: false
+    flags: {}
+    _stats:
+      coreVersion: '14.364'
+      systemId: grimwild
+      systemVersion: 0.5.3
+      createdTime: 1783100777094
+      modifiedTime: 1783100777094
+      lastModifiedBy: 79CEe5dKC6Ls5VbU
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+    _key: '!tables.results!1P7yTl7gvHd4FuxU.g1OCkqFH8MkNEUb5'
+folder: 2wl5AnYy8CdYyPq3
+_id: 1P7yTl7gvHd4FuxU
+img: icons/svg/d20-grey.svg
+replacement: true
+displayRoll: false
+ownership:
+  default: 0
+  79CEe5dKC6Ls5VbU: 3
+flags: {}
+_stats:
+  coreVersion: '14.368'
+  systemId: grimwild
+  systemVersion: 0.5.3
+  createdTime: 1783100777094
+  modifiedTime: 1791748739453
+  lastModifiedBy: nF9qxzj59Qn6fNSn
+  exportSource: null
+  compendiumSource: null
+  duplicateSource: null
+sort: 100000
+_key: '!tables!1P7yTl7gvHd4FuxU'

@@ -1,0 +1,43 @@
+folder: t5SGlevKR7fGIfsq
+name: Divine Blessing
+type: talent
+img: icons/magic/holy/prayer-hands-glowing-yellow.webp
+system:
+  description: >-
+    <p>You have spellcasting as the Channel Divinity talent. Detail your god and
+    choose <strong>1 rite</strong>, a <strong>4d power pool</strong> (per
+    session). You can drop 1d and roll the pool to cast a potent spell.
+    [Prohibited: Cleric]</p>
+  core: false
+  notes:
+    description: ''
+    label: ''
+  trackers:
+    - type: pool
+      pool:
+        powerPool: true
+        diceNum: 4
+        max: 4
+      label: Rite
+      points:
+        showSteps: false
+        value: 1
+        max: 1
+effects: []
+sort: 0
+ownership:
+  default: 0
+  79CEe5dKC6Ls5VbU: 3
+flags: {}
+_stats:
+  coreVersion: '14.368'
+  systemId: grimwild
+  systemVersion: 0.5.3
+  createdTime: 1782662620507
+  modifiedTime: 1791743886840
+  lastModifiedBy: nF9qxzj59Qn6fNSn
+  compendiumSource: null
+  duplicateSource: Item.DfwNdvUbWevmDZHN
+  exportSource: null
+_id: vrqgtMc5cPttKALb
+_key: '!items!vrqgtMc5cPttKALb'

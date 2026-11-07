@@ -1,0 +1,51 @@
+folder: TtWJSOkkmQ7qhO1P
+name: Arcane Training
+type: talent
+_id: k05clNwHNfu182P4
+img: icons/sundries/books/book-embossed-jewel-silver-green.webp
+system:
+  description: >-
+    <p>You have spellcasting as the Spellcraft talent. You can cast 3 spells and
+    1 potent spell per session. You know 3 <strong>spell theorems</strong>,
+    created with the Spell Crucible, and can learn new spells from scrolls.
+    [Prohibited: Wizard]</p>
+  core: false
+  notes:
+    description: <p>List your 3 <strong>spell theorems</strong> here.</p>
+    label: Spell Theorems
+  trackers:
+    - type: points
+      label: Spells
+      points:
+        value: 3
+        max: 3
+        showSteps: true
+      pool:
+        diceNum: 0
+        powerPool: false
+    - type: points
+      label: Potent Spell
+      points:
+        value: 1
+        max: 1
+        showSteps: true
+      pool:
+        diceNum: 0
+        powerPool: false
+effects: []
+sort: 0
+ownership:
+  default: 0
+  79CEe5dKC6Ls5VbU: 3
+flags: {}
+_stats:
+  coreVersion: '14.368'
+  systemId: grimwild
+  systemVersion: 0.5.3
+  createdTime: 1782662617707
+  modifiedTime: 1791743210259
+  lastModifiedBy: nF9qxzj59Qn6fNSn
+  compendiumSource: null
+  duplicateSource: null
+  exportSource: null
+_key: '!items!k05clNwHNfu182P4'

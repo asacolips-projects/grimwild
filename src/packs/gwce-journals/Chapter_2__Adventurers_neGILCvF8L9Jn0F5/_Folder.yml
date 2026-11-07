@@ -1,0 +1,20 @@
+type: JournalEntry
+folder: null
+name: 'Chapter 2: Adventurers'
+color: null
+sorting: a
+_id: neGILCvF8L9Jn0F5
+description: ''
+sort: 0
+flags: {}
+_stats:
+  coreVersion: '14.368'
+  systemId: grimwild
+  systemVersion: 0.5.3
+  createdTime: 1791746030572
+  modifiedTime: 1791746030572
+  lastModifiedBy: nF9qxzj59Qn6fNSn
+  compendiumSource: null
+  duplicateSource: null
+  exportSource: null
+_key: '!folders!neGILCvF8L9Jn0F5'

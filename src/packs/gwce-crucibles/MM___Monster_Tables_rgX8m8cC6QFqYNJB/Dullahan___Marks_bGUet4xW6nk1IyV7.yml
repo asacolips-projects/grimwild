@@ -1,0 +1,157 @@
+name: Dullahan - Marks
+description: ''
+formula: 1d6
+results:
+  - name: ''
+    description: <b>Gates swing open</b> at midnight, without touch.
+    range:
+      - 1
+      - 1
+    _id: H6pbz0r651WLsrBa
+    type: text
+    img: null
+    weight: 1
+    drawn: false
+    flags: {}
+    _stats:
+      coreVersion: '14.364'
+      systemId: grimwild
+      systemVersion: 0.5.3
+      createdTime: 1783270821423
+      modifiedTime: 1783270821423
+      lastModifiedBy: 79CEe5dKC6Ls5VbU
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+    _key: '!tables.results!bGUet4xW6nk1IyV7.H6pbz0r651WLsrBa'
+  - name: ''
+    description: <b>Dogs howl</b>, their mouths bursting with blood.
+    range:
+      - 2
+      - 2
+    _id: yrYwyAhFjVgzIrj4
+    type: text
+    img: null
+    weight: 1
+    drawn: false
+    flags: {}
+    _stats:
+      coreVersion: '14.364'
+      systemId: grimwild
+      systemVersion: 0.5.3
+      createdTime: 1783270821423
+      modifiedTime: 1783270821423
+      lastModifiedBy: 79CEe5dKC6Ls5VbU
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+    _key: '!tables.results!bGUet4xW6nk1IyV7.yrYwyAhFjVgzIrj4'
+  - name: ''
+    description: <b>Child dreams</b> of a head with glowing eyes.
+    range:
+      - 3
+      - 3
+    _id: znUfeUhJgFVa0S9c
+    type: text
+    img: null
+    weight: 1
+    drawn: false
+    flags: {}
+    _stats:
+      coreVersion: '14.364'
+      systemId: grimwild
+      systemVersion: 0.5.3
+      createdTime: 1783270821423
+      modifiedTime: 1783270821423
+      lastModifiedBy: 79CEe5dKC6Ls5VbU
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+    _key: '!tables.results!bGUet4xW6nk1IyV7.znUfeUhJgFVa0S9c'
+  - name: ''
+    description: <b>Coins vanish</b> from under their owner’s noses.
+    range:
+      - 4
+      - 4
+    _id: CSuKWKt8686DnmWv
+    type: text
+    img: null
+    weight: 1
+    drawn: false
+    flags: {}
+    _stats:
+      coreVersion: '14.364'
+      systemId: grimwild
+      systemVersion: 0.5.3
+      createdTime: 1783270821423
+      modifiedTime: 1783270821423
+      lastModifiedBy: 79CEe5dKC6Ls5VbU
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+    _key: '!tables.results!bGUet4xW6nk1IyV7.CSuKWKt8686DnmWv'
+  - name: ''
+    description: Your <b>name scrawled</b> in ash beneath your pillow.
+    range:
+      - 5
+      - 5
+    _id: 6MEhbhXwN5SbLC4y
+    type: text
+    img: null
+    weight: 1
+    drawn: false
+    flags: {}
+    _stats:
+      coreVersion: '14.364'
+      systemId: grimwild
+      systemVersion: 0.5.3
+      createdTime: 1783270821423
+      modifiedTime: 1783270821423
+      lastModifiedBy: 79CEe5dKC6Ls5VbU
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+    _key: '!tables.results!bGUet4xW6nk1IyV7.6MEhbhXwN5SbLC4y'
+  - name: ''
+    description: <b>Rain falling</b> in a straight path down the road.
+    range:
+      - 6
+      - 6
+    _id: 0KFSvUWrkS3PW9RO
+    type: text
+    img: null
+    weight: 1
+    drawn: false
+    flags: {}
+    _stats:
+      coreVersion: '14.364'
+      systemId: grimwild
+      systemVersion: 0.5.3
+      createdTime: 1783270821423
+      modifiedTime: 1783270821423
+      lastModifiedBy: 79CEe5dKC6Ls5VbU
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+    _key: '!tables.results!bGUet4xW6nk1IyV7.0KFSvUWrkS3PW9RO'
+folder: rgX8m8cC6QFqYNJB
+sort: 6600000
+_id: bGUet4xW6nk1IyV7
+img: icons/svg/d20-grey.svg
+replacement: true
+displayRoll: true
+ownership:
+  default: 0
+  79CEe5dKC6Ls5VbU: 3
+flags: {}
+_stats:
+  coreVersion: '14.368'
+  systemId: grimwild
+  systemVersion: 0.5.3
+  createdTime: 1783270821423
+  modifiedTime: 1791749998257
+  lastModifiedBy: nF9qxzj59Qn6fNSn
+  compendiumSource: null
+  duplicateSource: null
+  exportSource: null
+_key: '!tables!bGUet4xW6nk1IyV7'

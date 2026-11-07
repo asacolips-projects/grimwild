@@ -1,0 +1,33 @@
+folder: 1TTRKJchFdycHWme
+name: Forked Tongue
+type: talent
+_id: yezNVJAo8OMuKFRz
+img: /icons/magic/control/mouth-smile-deception-purple.webp
+system:
+  description: >-
+    <p>When given time, you can tell <em><strong>potent lies</strong></em>, such
+    as <em>telling the king you're their bastard</em> or <em>a prophecy
+    foretelling the fall of the capital</em>. You can <em><strong>push
+    yourself</strong></em> to do it on the spot.</p>
+  core: false
+  notes:
+    description: ''
+    label: ''
+  trackers: []
+effects: []
+sort: 0
+ownership:
+  default: 0
+  79CEe5dKC6Ls5VbU: 3
+flags: {}
+_stats:
+  coreVersion: '14.364'
+  systemId: grimwild
+  systemVersion: 0.5.3
+  createdTime: 1782662612585
+  modifiedTime: 1783008120497
+  lastModifiedBy: 79CEe5dKC6Ls5VbU
+  compendiumSource: null
+  duplicateSource: null
+  exportSource: null
+_key: '!items!yezNVJAo8OMuKFRz'
