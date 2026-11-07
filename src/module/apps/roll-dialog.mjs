@@ -10,6 +10,7 @@
  * @property {number} spark                         The maximum spark available to be used
  * @property {boolean} isBloodied                   If the actor is bloodied
  * @property {boolean} isRattled                    If the actor is rattled
+ * @property {boolean} isDesperate                  If the actor is desperate
  * @property {boolean} isMarked                     If the stat being rolled is marked
  */
 
@@ -164,6 +165,23 @@ export class GrimwildRollDialog extends foundry.applications.api.DialogV2 {
 			}
 		}
 
+		// Add CE handling.
+		rollData.ceRulesEnabled = game.settings.get("grimwild", "ceRules");
+		rollData.showBloodied = true;
+		rollData.showRattled = true;
+		rollData.showDesperate = rollData.ceRulesEnabled;
+		// If CE rules are enabled, bloodied only affects physical stats and
+		// rattled only affects mental stats, so hide their inputs when needed.
+		if (rollData.ceRulesEnabled) {
+			if (['wit', 'pre'].includes(rollData.stat)) {
+				rollData.showBloodied = false;
+			}
+			if (['bra', 'agi'].includes(rollData.stat)) {
+				rollData.showRattled = false;
+			}
+		}
+
+		// Render the dialog.
 		options.content = await foundry.applications.handlebars.renderTemplate("systems/grimwild/templates/dialog/stat-roll.hbs", rollData);
 		options.render = this._render;
 		options.modal = true;

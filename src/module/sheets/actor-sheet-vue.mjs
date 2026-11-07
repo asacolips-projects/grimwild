@@ -487,6 +487,7 @@ export class GrimwildActorSheetVue extends VueRenderingMixin(GrimwildBaseVueActo
 						diceDefault: pool.diceNum,
 						isBloodied: rollData?.isBloodied,
 						isRattled: rollData?.isRattled,
+						isDesperate: rollData?.isDesperate,
 						isMarked: false,
 						actor: this.actor
 					}
