@@ -162,7 +162,7 @@ Hooks.once("init", function () {
 		name: game.i18n.localize("GRIMWILD.Settings.ceRules.name"),
 		hint: game.i18n.localize("GRIMWILD.Settings.ceRules.hint"),
 		scope: "world",
-		config: false, // Enable this later, hidden for now.
+		config: true,
 		type: Boolean,
 		default: false,
 		requiresReload: true

@@ -252,6 +252,7 @@ export class GrimwildChatMessage extends ChatMessage {
 	calculateHarm(actor, harm) {
 		const harmPools = game.settings.get("grimwild", "enableHarmPools");
 		const maxHarm = game.settings.get("grimwild", `max${harm === "bloodied" ? "Bloodied" : "Rattled"}`) ?? 1;
+		const ceRulesEnabled = game.settings.get("grimwild", "ceRules");
 		const update = {};
 		if (!actor.system[harm === "bloodied" ? "isBloodied" : "isRattled"]) {
 			update[`system.${harm}.marked`] = true;
@@ -261,7 +262,13 @@ export class GrimwildChatMessage extends ChatMessage {
 			}
 		}
 		else if (!harmPools || actor.system[harm].pool.diceNum >= maxHarm) {
-			update["system.dropped"] = true;
+			if (ceRulesEnabled) {
+				update["system.dropped"] = actor.system.desperate.marked;
+				update["system.desperate.marked"] = true;
+			}
+			else {
+				update["system.dropped"] = true;
+			}
 		}
 		else {
 			update[`system.${harm}.pool.diceNum`] = actor.system[harm].pool.diceNum + 1;

@@ -51,6 +51,7 @@ GRIMWILD:
     marked: Marked
     bloodied: Bloodied
     rattled: Rattled
+    desperate: Desperate
     conditions: Conditions
     ignored: ignored from harm
     vex: Vex
