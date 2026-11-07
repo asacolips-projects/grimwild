@@ -1,5 +1,6 @@
 import GrimwildActorBase from "./base-actor.mjs";
 import { DicePoolField } from "../helpers/schema.mjs";
+import { isPhysicalStat } from "../helpers/config.mjs";
 import { GrimwildRollDialog } from "../apps/roll-dialog.mjs";
 
 export default class GrimwildCharacter extends GrimwildActorBase {
@@ -29,6 +30,9 @@ export default class GrimwildCharacter extends GrimwildActorBase {
 			})
 		});
 
+		// The harm track. Stat marks upgrade into Bloodied (physical) or
+		// Rattled (mental) harm, which can escalate further into Desperate
+		// (CE rules only) and then Dropped. See applyMark and applyHarm below.
 		schema.bloodied = new fields.SchemaField({
 			pool: new DicePoolField(),
 			marked: new fields.BooleanField(),
@@ -39,6 +43,8 @@ export default class GrimwildCharacter extends GrimwildActorBase {
 			marked: new fields.BooleanField(),
 			dropped: new fields.BooleanField()
 		});
+		// Desperate is only used with the Community Edition rules enabled, and
+		// intentionally does not take part in harm pools.
 		schema.desperate = new fields.SchemaField({
 			pool: new DicePoolField(),
 			marked: new fields.BooleanField(),
@@ -195,7 +201,7 @@ export default class GrimwildCharacter extends GrimwildActorBase {
 						return 0;
 					case "agi":
 						return 1;
-					case "wis":
+					case "wit":
 						return 2;
 					case "pre":
 						return 3;
@@ -208,23 +214,105 @@ export default class GrimwildCharacter extends GrimwildActorBase {
 		return orderedStats;
 	}
 
+	/**
+	 * Apply a stat Mark, the first step of the damage track.
+	 *
+	 * The damage track escalates in a fixed order: stat Marks upgrade into
+	 * Harm, Harm escalates into Desperate (Community Edition rules only), and
+	 * Desperate escalates into Dropped. An unmarked stat gains a Mark, while a
+	 * Mark on an already marked stat upgrades into Harm instead: physical
+	 * stats (Brawn, Agility) become Bloodied, mental stats (Wits, Presence)
+	 * become Rattled.
+	 *
+	 * @param {string} stat  The stat to mark: bra, agi, wit, or pre.
+	 * @returns {Promise<GrimwildActor>|void} The updated actor, or void for invalid stats.
+	 */
+	async applyMark(stat) {
+		if (!Object.keys(CONFIG.GRIMWILD.stats).includes(stat)) return;
+
+		// An already marked stat upgrades its Mark into Harm.
+		if (this.stats[stat].marked) {
+			return this.applyHarm(isPhysicalStat(stat) ? "bloodied" : "rattled");
+		}
+		return this.parent.update({ [`system.stats.${stat}.marked`]: true });
+	}
+
+	/**
+	 * Apply Bloodied or Rattled harm, the second step of the damage track.
+	 *
+	 * Unmarked harm is simply marked. With the harm pools homebrew enabled
+	 * (enableHarmPools), each harm also feeds that harm's pool: fresh harm
+	 * seeds the pool with a die, and further harm adds dice up to the max
+	 * configured in the system settings. Pool dice can be rolled from the
+	 * sheet to shed dice as recovery, and a pool that empties out clears its
+	 * harm mark (see _preUpdate, which keeps marks and pools in sync).
+	 *
+	 * If the harm is already marked and the pool is full (or the homebrew is
+	 * disabled), the harm escalates instead: with the Community Edition rules
+	 * the character becomes Desperate unless already Desperate, in which case
+	 * they become Dropped. Without the CE rules, harm escalates straight to
+	 * Dropped.
+	 *
+	 * @param {string} harm  The harm to apply: bloodied or rattled.
+	 * @returns {Promise<GrimwildActor>|void} The updated actor, or void for invalid harm.
+	 */
+	async applyHarm(harm) {
+		if (!["bloodied", "rattled"].includes(harm)) return;
+
+		const harmPools = game.settings.get("grimwild", "enableHarmPools");
+		const maxHarm = game.settings.get("grimwild", `max${harm === "bloodied" ? "Bloodied" : "Rattled"}`) ?? 1;
+		const ceRulesEnabled = game.settings.get("grimwild", "ceRules");
+		const update = {};
+
+		if (!this[harm].marked) {
+			// Fresh harm: mark it, seeding the pool if the homebrew is enabled.
+			update[`system.${harm}.marked`] = true;
+			if (harmPools) {
+				update[`system.${harm}.pool.diceNum`] = Math.min(this[harm].pool.diceNum + 1, maxHarm);
+			}
+		}
+		else if (!harmPools || this[harm].pool.diceNum >= maxHarm) {
+			// Overflow harm with nowhere to add a die: escalate along the track.
+			if (ceRulesEnabled) {
+				// CE inserts Desperate between Harm and Dropped, so the
+				// character only becomes Dropped once overflow harm lands
+				// while they are already Desperate. Setting dropped to the
+				// current desperate state handles both cases in one update.
+				update["system.dropped"] = this.desperate.marked;
+				update["system.desperate.marked"] = true;
+			}
+			else {
+				update["system.dropped"] = true;
+			}
+		}
+		else {
+			// Marked with pool room to spare: pile on as an additional pool die.
+			update[`system.${harm}.pool.diceNum`] = this[harm].pool.diceNum + 1;
+		}
+
+		return this.parent.update(update);
+	}
+
 	async _preUpdate(changes, options, user) {
 		if (game.settings.get("grimwild", "enableHarmPools")) {
+			// Harm marks and their pools are kept in sync in both directions:
+			// marking harm on the sheet seeds its pool, and a pool that empties
+			// out (e.g. from recovery rolls) unmarks and heals the harm.
 			const checkPool = (change, source) => {
 				if (change) {
-					// Start the healing pool
+					// Marking harm seeds its healing pool with a die.
 					if (change.marked && !source.marked && !change.pool.diceNum && !source.pool.diceNum) {
 						change.pool.diceNum = 1;
 					}
-					// Cancel the healing pool
+					// Unmarking harm clears its healing pool.
 					if (!change.marked && source.marked && change.pool.diceNum === source.pool.diceNum) {
 						change.pool.diceNum = 0;
 					}
-					// Pool started
+					// A pool gaining its first die marks the harm.
 					if (!source.marked && change.pool.diceNum && !source.pool.diceNum) {
 						change.marked = true;
 					}
-					// Pool expired
+					// A pool that empties out unmarks the harm, healing it.
 					if (source.marked && !change.pool.diceNum && source.pool.diceNum) {
 						change.marked = false;
 					}
