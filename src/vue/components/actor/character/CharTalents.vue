@@ -16,7 +16,13 @@
 							<i class="fas fa-plus"></i><span>Add</span>
 						</button>
 					</template>
-					<button class="item-control item-compendium" type="button" data-action="openPack" data-pack="grimwild.talents"><i class="fas fa-atlas"></i>Compendium</button>
+					<button
+						class="item-control
+						item-compendium"
+						type="button"
+						data-action="openPack"
+						:data-pack="context?.ceRulesEnabled ? 'grimwild.gwce-talents' : 'grimwild.talents'"
+					><i class="fas fa-atlas"></i>Compendium</button>
 				</div>
 			</li>
 			<!-- Talent rows -->
