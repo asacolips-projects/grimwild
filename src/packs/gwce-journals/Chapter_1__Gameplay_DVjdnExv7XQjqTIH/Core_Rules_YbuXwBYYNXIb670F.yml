@@ -492,11 +492,11 @@ pages:
       content: >-
         <p>A group of d6s used to track progression towards a narrative event,
         like completing a task, encountering a threat, depleting a resource, or
-        passing time. When the pool is triggered, roll all dice in teh pool and
+        passing time. When the pool is triggered, roll all dice in the pool and
         remove those that land with a 1-3 result. Once the pool drops to 0d, its
         event comes to pass and the pool is discarded.</p>
 
-        <p>Pools usuallys tart at 2d/short, 4d/medium, or 8d/long. Make sure to
+        <p>Pools usually start at 2d/short, 4d/medium, or 8d/long. Make sure to
         reflect the fiction—if a pool and the fiction don't match up, adjust or
         scrap the pool.</p>
 
@@ -892,35 +892,30 @@ pages:
       format: 1
       content: >-
         <h2>Marks</h2><p>Light damage, a temporary hindrance to a stat (out of
-        breath, confused). Take +1t on the next roll with that stat, and clear
-        the <em><strong>mark</strong></em>.</p><p>If a stat is already marked,
-        you take <em><strong>harm</strong></em> (below) instead. As long as a
-        stat is unmarked, even if you have its related harm, you can take a mark
-        to it.</p><p>Marks are often combined with another mark or other
-        consequences when inflicted directly (Agility mark + thrown off your
-        horse) as an alternative to harm. You also take a mark when you
-        <em><strong>@UUID[.pNW9iH0hc9EFKfPK#push-yourself]{push
+        breath, confused). When the stat is rolled, clear the
+        <em><strong>mark</strong></em>, and take +1t on the roll.</p><p>If a
+        stat is already marked, you take <em><strong>harm</strong></em> (below)
+        instead. As long as a stat is unmarked, even if you have its related
+        harm, you can take a mark to it.</p><p>Marks are often combined with
+        another mark or other consequences when inflicted directly (Agility mark
+        + thrown off your horse) as an alternative to harm. You also take a mark
+        when you <em><strong>@UUID[.pNW9iH0hc9EFKfPK#push-yourself]{push
         yourself}</strong></em>. If a mark is reduced (such as by a messy
-        defense roll), it becomes set dressing.</p><h2>Harm</h2><p>Damage to
-        your mind or body, a lingering hindrance. Harm is the standard weight of
-        an impact move—though it’s not the default impact move by any means
-        (even in a conflict!) Harm is often split into a couple marks or other
-        consequences.</p><p><strong>Bloodied:</strong> Pressing physical damage
-        or stacked marks to Brawn or Agility.</p><p><strong>Rattled:</strong>
-        Pressing mental damage or stacked marks to Wits or
-        Presence.</p><p><strong>Desperate:</strong> Damage taking you to the
-        edge, only taken as harm upon a second bloodied or rattled. Harm that
-        would leave you desperate a second time drops you
-        instead.</p><p>Bloodied and rattled inflict +1t on their related stats,
-        while desperate inflicts +1t on all rolls. Harm should be doled out as
-        dramatic events—these are urgent matters in the scene and can lead to
-        being dropped. Damage should also match the tone of the
-        scene—<em><strong>low stakes</strong></em> might inflict a mark, while
-        <em><strong>high stakes</strong></em> could inflict two harm at
-        once.</p><p>Remember, any impact move can make sense, even in in combat.
-        Leaving evidence, alerting guards, losing gear, and running out of
-        arrows can all make combat more dramatic. Overly relying on harm will
-        make the game much more deadly.</p><blockquote
+        defense roll), it becomes set dressing.</p><h2>Harm</h2><p>This is a
+        lingering hindrance to PC's body or mind. Adventurers have ways to
+        protect themselves from <em><strong>harm</strong></em>, whether armor,
+        quick reflexes, or magical ability. Take vantage into account—harm
+        should only come into play when those defenses can be overcome, or
+        circumstances could otherwise leave a character dropped. <strong>When
+        harm is likely, and dramatic weight calls for it, the GM can inflict one
+        of the following:</strong></p><p><strong>Bloodied:</strong> Pressing
+        physical damage that inflicts +1t to Brawn and
+        Agility.</p><p><strong>Rattled:</strong> Pressing mental damage that
+        inflicts +1t to Wits and Presence.</p><p><strong>Desperate:</strong>
+        Damage taking you to the edge, only taken as harm upon a second bloodied
+        or rattled, adding +1t to all rolls and making some outright impossible.
+        Harm that would leave you desperate a second time drops you instead (see
+        below).</p><blockquote
         style="border-style:solid;border-radius:8px"><h4>Example
         Damage</h4><p>Mark + small narrative consequence (mark Agility + drop
         your weapon | mark Wits + take @UUID[.#vex]{vex})</p><p>Two marks (mark
@@ -981,43 +976,43 @@ pages:
         afflicted PC, but not bringing them closer to dropped. Conditions can
         be:</p><ul><li><p><strong>Urgent:</strong> These conditions act as
         short-term timers for a worse fate.</p><ul><li><p><span
-        style="color:#6e6e6e"><em>4d poisoned →
-        harm</em></span></p></li><li><p><span style="color:#6e6e6e"><em>6d
-        losing consciousness → out cold </em></span></p></li><li><p><span
-        style="color:#6e6e6e"><em>4d bleeding out →
-        death</em></span></p></li><li><p><span style="color:#6e6e6e"><em>8d
-        losing your mind →
+        style="color:rgb(110, 110, 110)"><em>4d poisoned →
+        harm</em></span></p></li><li><p><span style="color:rgb(110, 110,
+        110)"><em>6d losing consciousness → out
+        cold</em></span></p></li><li><p><span style="color:rgb(110, 110,
+        110)"><em>4d bleeding out → death</em></span></p></li><li><p><span
+        style="color:rgb(110, 110, 110)"><em>8d losing your mind →
         madness</em></span></p></li></ul></li><li><p><strong>Short-term:</strong>
         These often wear off on their own, shortly.</p><ul><li><p><span
-        style="color:#6e6e6e"><em>twisted ankle (clears after scene)
-        </em></span></p></li><li><p><span style="color:#6e6e6e"><em>drunk (tipsy
-        after scene)</em></span></p></li><li><p><span
-        style="color:#6e6e6e"><em>8d thrown out
-        back</em></span></p></li><li><p><span style="color:#6e6e6e"><em>4d
-        pissed
+        style="color:rgb(110, 110, 110)"><em>twisted ankle (clears after
+        scene)</em></span></p></li><li><p><span style="color:rgb(110, 110,
+        110)"><em>drunk (tipsy after scene)</em></span></p></li><li><p><span
+        style="color:rgb(110, 110, 110)"><em>8d thrown out
+        back</em></span></p></li><li><p><span style="color:rgb(110, 110,
+        110)"><em>4d pissed
         off</em></span></p></li></ul></li><li><p><strong>Long-term:</strong>
         These require treatment or intervention to heal, or last for extended
         periods of time. Timers are treated as campaign
-        pools.</p><ul><li><p><span style="color:#6e6e6e"><em>broken arm
-        </em></span></p></li><li><p><span style="color:#6e6e6e"><em>ruined
-        reputation </em></span></p></li><li><p><span
-        style="color:#6e6e6e"><em>8d witch’s
+        pools.</p><ul><li><p><span style="color:rgb(110, 110, 110)"><em>broken
+        arm</em></span></p></li><li><p><span style="color:rgb(110, 110,
+        110)"><em>ruined reputation</em></span></p></li><li><p><span
+        style="color:rgb(110, 110, 110)"><em>8d witch’s
         curse</em></span></p></li></ul></li><li><p><strong>Permanent:</strong>
         These conditions often stay forever. They might need a ritual or daring
         acts to clear, if they can be healed at all.</p><ul><li><p><span
-        style="color:#6e6e6e"><em>gouged-out eye
-        </em></span></p></li><li><p><span
-        style="color:#6e6e6e"><em>insanity</em></span></p></li><li><p><span
-        style="color:#6e6e6e"><em>burn
+        style="color:rgb(110, 110, 110)"><em>gouged-out
+        eye</em></span></p></li><li><p><span style="color:rgb(110, 110,
+        110)"><em>insanity</em></span></p></li><li><p><span
+        style="color:rgb(110, 110, 110)"><em>burn
         scars</em></span></p></li></ul></li></ul><p><strong>Take +1t when a
         condition specifically hinders a roll.</strong> Conditions can also
         reduce your <em><strong>@UUID[.rAWKSZVoFjZNOUBd]{vantage}</strong></em>,
-        which can prohibit rolls <span style="color:#6e6e6e"><em>(you can't jump
-        with a broken leg).</em></span></p><p>Conditions clear when it makes
-        sense, like after a scene, with rest, or when a pool tracking them
-        depletes. They may also require treatment or another specific method to
-        clear them. As mentioned earlier, work with the GM to find a good fit
-        when you’d take a lasting condition.</p>
+        which can prohibit rolls <span style="color:rgb(110, 110, 110)"><em>(you
+        can't jump with a broken leg).</em></span></p><p>Conditions clear when
+        it makes sense, like after a scene, with rest, or when a pool tracking
+        them depletes. They may also require treatment or another specific
+        method to clear them. As mentioned earlier, work with the GM to find a
+        good fit when you’d take a lasting condition.</p>
     video:
       controls: true
       volume: 0.5
@@ -1028,12 +1023,12 @@ pages:
       79CEe5dKC6Ls5VbU: 3
     flags: {}
     _stats:
-      coreVersion: '14.364'
+      coreVersion: '14.369'
       systemId: grimwild
       systemVersion: 0.5.3
       createdTime: 1782677811548
-      modifiedTime: 1783088207160
-      lastModifiedBy: 79CEe5dKC6Ls5VbU
+      modifiedTime: 1794176483210
+      lastModifiedBy: UV77mtxQgW7KpS6B
       compendiumSource: null
       duplicateSource: null
       exportSource: null

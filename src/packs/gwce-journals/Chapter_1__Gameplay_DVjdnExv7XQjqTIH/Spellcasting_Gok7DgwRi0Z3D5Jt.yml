@@ -22,8 +22,7 @@ pages:
         on-the-fly, defining the permissions and limitations of your magic when
         you cast. Each source clearly defines its touchstones, casting methods,
         costs, and limitations. Spells cast without
-        <em><strong>risk</strong></em> are automatically successful, and don't
-        expend resources, unless <em><strong>potent</strong></em>.</p><p>Magic
+        <em><strong>risk</strong></em> are automatically successful.</p><p>Magic
         has three magnitudes: spells, potent spells, and rituals. Determine the
         magic's magnitude by comparing the impact of the action to what can be
         achieved with a non-magic action (or the narrative impact to the story
@@ -48,12 +47,12 @@ pages:
       79CEe5dKC6Ls5VbU: 3
     flags: {}
     _stats:
-      coreVersion: '14.364'
+      coreVersion: '14.369'
       systemId: grimwild
       systemVersion: 0.5.3
       createdTime: 1782677812989
-      modifiedTime: 1782927371926
-      lastModifiedBy: 79CEe5dKC6Ls5VbU
+      modifiedTime: 1794176613442
+      lastModifiedBy: UV77mtxQgW7KpS6B
       compendiumSource: null
       duplicateSource: null
       exportSource: null

@@ -92,14 +92,12 @@ pages:
         Lore}
         @UUID[Compendium.grimwild.gwce-talents.Item.S7pmcldU0KP5Naqh]{Dynamic
         Entrance}
-        @UUID[Compendium.grimwild.gwce-talents.Item.K7yazzueLhaayitE]{Folk
-        Hero}
+        @UUID[Compendium.grimwild.gwce-talents.Item.K7yazzueLhaayitE]{Folk Hero}
         @UUID[Compendium.grimwild.gwce-talents.Item.yezNVJAo8OMuKFRz]{Forked
         Tongue}
         @UUID[Compendium.grimwild.gwce-talents.Item.2RcrFA4SDH4YjqmH]{Friendly
-        Face}
-        @UUID[Compendium.grimwild.gwce-talents.Item.qgZcfLkIpNaYjdrG]{Jack of
-        All Trades}
+        Face} @UUID[Compendium.grimwild.gwce-talents.Item.qgZcfLkIpNaYjdrG]{Jack
+        of All Trades}
         @UUID[Compendium.grimwild.gwce-talents.Item.541d62GkZTXYfp1L]{Wordplay}</p>
 
         <h3>Inspiration Method (Optional)</h3>
@@ -354,8 +352,8 @@ pages:
         @UUID[Compendium.grimwild.gwce-talents.Item.uFxLO7FQYOZimL8p]{Fearsome}
         @UUID[Compendium.grimwild.gwce-talents.Item.ItW2enbPG8FqlBGF]{Flesh
         Wounds}
-        @UUID[Compendium.grimwild.gwce-talents.Item.r3IxHh2oH5lLjZ4u]{Into
-        the Fray}
+        @UUID[Compendium.grimwild.gwce-talents.Item.r3IxHh2oH5lLjZ4u]{Into the
+        Fray}
         @UUID[Compendium.grimwild.gwce-talents.Item.d6pVv5KNlfuLyXyx]{Joyful
         Warrior}
         @UUID[Compendium.grimwild.gwce-talents.Item.vEXySY8fJJXEYgHO]{Mighty}
@@ -434,8 +432,7 @@ pages:
         @UUID[Compendium.grimwild.gwce-talents.Item.yP8d4X3bKtDkD2tb]{Blessed}
         @UUID[Compendium.grimwild.gwce-talents.Item.4UxK0Tj35EGoNcas]{Devout}
         @UUID[Compendium.grimwild.gwce-talents.Item.ktPNzt7dsU45x9aI]{Healer}
-        @UUID[Compendium.grimwild.gwce-talents.Item.aWMnTZkSPEH5bYDm]{Iron
-        Will}
+        @UUID[Compendium.grimwild.gwce-talents.Item.aWMnTZkSPEH5bYDm]{Iron Will}
         @UUID[Compendium.grimwild.gwce-talents.Item.jSRWycSsJLzqx9SB]{Rings
         False}
         @UUID[Compendium.grimwild.gwce-talents.Item.cs4IyC33EXABs6ZC]{Sermons}
@@ -741,8 +738,7 @@ pages:
       modifiedTime: 1791653708557
       lastModifiedBy: nF9qxzj59Qn6fNSn
       compendiumSource: null
-      duplicateSource: >-
-        Compendium.grimwild.gwce-journals.JournalEntry.A3ABNLJphHplV8Nm.JournalEntryPage.CwaTNKnbmUxRUSXo
+      duplicateSource: Compendium.grimwild.gwce-journals.JournalEntry.A3ABNLJphHplV8Nm.JournalEntryPage.CwaTNKnbmUxRUSXo
       exportSource: null
     _id: hx2sET46piKhssI5
     _key: '!journal.pages!A3ABNLJphHplV8Nm.hx2sET46piKhssI5'
@@ -767,8 +763,8 @@ pages:
         Training}
         @UUID[Compendium.grimwild.gwce-talents.Item.HyxdTMa3rkCyf4nM]{Bulwark}
         @UUID[Compendium.grimwild.gwce-talents.Item.KOT6ZQ5BGKSDcXAG]{Control}
-        @UUID[Compendium.grimwild.gwce-talents.Item.e8XR5ciCgFEKJJYJ]{Got
-        Your Back}
+        @UUID[Compendium.grimwild.gwce-talents.Item.e8XR5ciCgFEKJJYJ]{Got Your
+        Back}
         @UUID[Compendium.grimwild.gwce-talents.Item.T9Nt4i51NWRAgi2h]{Measured
         Tones}
         @UUID[Compendium.grimwild.gwce-talents.Item.2WWeYwl3Fvfytj5P]{Swift
@@ -832,8 +828,7 @@ pages:
       modifiedTime: 1783091231904
       lastModifiedBy: 79CEe5dKC6Ls5VbU
       compendiumSource: null
-      duplicateSource: >-
-        Compendium.grimwild.gwce-journals.JournalEntry.A3ABNLJphHplV8Nm.JournalEntryPage.hx2sET46piKhssI5
+      duplicateSource: Compendium.grimwild.gwce-journals.JournalEntry.A3ABNLJphHplV8Nm.JournalEntryPage.hx2sET46piKhssI5
       exportSource: null
     _id: SCLx2TCkGXDAA7Ja
     _key: '!journal.pages!A3ABNLJphHplV8Nm.SCLx2TCkGXDAA7Ja'
@@ -858,14 +853,14 @@ pages:
         Hands}
         @UUID[Compendium.grimwild.gwce-talents.Item.DSgZfLflEzQjpPl4]{Lightning
         Reflexes}
-        @UUID[Compendium.grimwild.gwce-talents.Item.EZeUttMAbowD4BNT]{Mind
-        Over Matter}
+        @UUID[Compendium.grimwild.gwce-talents.Item.EZeUttMAbowD4BNT]{Mind Over
+        Matter}
         @UUID[Compendium.grimwild.gwce-talents.Item.ArczxLPeHU3mfkEb]{Redirect}
         @UUID[Compendium.grimwild.gwce-talents.Item.DmRTKBiJRekwZFnq]{Resonance}
         @UUID[Compendium.grimwild.gwce-talents.Item.tk7dpEQhxK31D7SL]{Tether}
-        @UUID[Compendium.grimwild.gwce-talents.Item.RWdS991DP1XwZ2vT]{There
-        Is No Try}</p><h3>Martial Arts Style (Optional)</h3><p><strong>It's
-        based on the ______ concept of…</strong> (choose 1 or
+        @UUID[Compendium.grimwild.gwce-talents.Item.RWdS991DP1XwZ2vT]{There Is
+        No Try}</p><h3>Martial Arts Style (Optional)</h3><p><strong>It's based
+        on the ______ concept of…</strong> (choose 1 or
         2)</p><table><thead><tr><th><p>Primal</p></th><th><p>Elemental</p></th><th><p>Powerful</p></th><th><p>Idealistic</p></th><th><p>Philosophical</p></th><th><p>Stylistic</p></th></tr></thead></table><p>@Crucible[Compendium.grimwild.gwce-crucibles.RollTable.Rqvnv4npH9zQ1cQ2]{Martial
         Arts Concept}</p><p><strong>It features stances and moves like…</strong>
         (choose
@@ -891,8 +886,7 @@ pages:
       modifiedTime: 1783125409092
       lastModifiedBy: 79CEe5dKC6Ls5VbU
       compendiumSource: null
-      duplicateSource: >-
-        Compendium.grimwild.gwce-journals.JournalEntry.A3ABNLJphHplV8Nm.JournalEntryPage.hx2sET46piKhssI5
+      duplicateSource: Compendium.grimwild.gwce-journals.JournalEntry.A3ABNLJphHplV8Nm.JournalEntryPage.hx2sET46piKhssI5
       exportSource: null
     _id: ByEYMJ1kzBRfpn5y
     _key: '!journal.pages!A3ABNLJphHplV8Nm.ByEYMJ1kzBRfpn5y'
@@ -996,8 +990,7 @@ pages:
       modifiedTime: 1791748092720
       lastModifiedBy: nF9qxzj59Qn6fNSn
       compendiumSource: null
-      duplicateSource: >-
-        Compendium.grimwild.gwce-journals.JournalEntry.A3ABNLJphHplV8Nm.JournalEntryPage.ByEYMJ1kzBRfpn5y
+      duplicateSource: Compendium.grimwild.gwce-journals.JournalEntry.A3ABNLJphHplV8Nm.JournalEntryPage.ByEYMJ1kzBRfpn5y
       exportSource: null
     _id: QR7bLq1C65ipTirU
     _key: '!journal.pages!A3ABNLJphHplV8Nm.QR7bLq1C65ipTirU'
@@ -1079,8 +1072,7 @@ pages:
       modifiedTime: 1783140651564
       lastModifiedBy: 79CEe5dKC6Ls5VbU
       compendiumSource: null
-      duplicateSource: >-
-        Compendium.grimwild.gwce-journals.JournalEntry.A3ABNLJphHplV8Nm.JournalEntryPage.ByEYMJ1kzBRfpn5y
+      duplicateSource: Compendium.grimwild.gwce-journals.JournalEntry.A3ABNLJphHplV8Nm.JournalEntryPage.ByEYMJ1kzBRfpn5y
       exportSource: null
     _id: xyL3pmEEMNvS9TGR
     _key: '!journal.pages!A3ABNLJphHplV8Nm.xyL3pmEEMNvS9TGR'
@@ -1155,8 +1147,7 @@ pages:
       modifiedTime: 1783110949614
       lastModifiedBy: 79CEe5dKC6Ls5VbU
       compendiumSource: null
-      duplicateSource: >-
-        Compendium.grimwild.gwce-journals.JournalEntry.A3ABNLJphHplV8Nm.JournalEntryPage.xyL3pmEEMNvS9TGR
+      duplicateSource: Compendium.grimwild.gwce-journals.JournalEntry.A3ABNLJphHplV8Nm.JournalEntryPage.xyL3pmEEMNvS9TGR
       exportSource: null
     _id: aThjRNE6lWryUmWv
     _key: '!journal.pages!A3ABNLJphHplV8Nm.aThjRNE6lWryUmWv'
@@ -1445,8 +1436,7 @@ pages:
       modifiedTime: 1791748090989
       lastModifiedBy: nF9qxzj59Qn6fNSn
       compendiumSource: null
-      duplicateSource: >-
-        Compendium.grimwild.gwce-journals.JournalEntry.A3ABNLJphHplV8Nm.JournalEntryPage.aThjRNE6lWryUmWv
+      duplicateSource: Compendium.grimwild.gwce-journals.JournalEntry.A3ABNLJphHplV8Nm.JournalEntryPage.aThjRNE6lWryUmWv
       exportSource: null
     _id: vU1b5kJGIdutFGIZ
     _key: '!journal.pages!A3ABNLJphHplV8Nm.vU1b5kJGIdutFGIZ'
@@ -1510,8 +1500,7 @@ pages:
       modifiedTime: 1783099966648
       lastModifiedBy: 79CEe5dKC6Ls5VbU
       compendiumSource: null
-      duplicateSource: >-
-        Compendium.grimwild.gwce-journals.JournalEntry.A3ABNLJphHplV8Nm.JournalEntryPage.vU1b5kJGIdutFGIZ
+      duplicateSource: Compendium.grimwild.gwce-journals.JournalEntry.A3ABNLJphHplV8Nm.JournalEntryPage.vU1b5kJGIdutFGIZ
       exportSource: null
     _id: IAQLEhPcuKUHIvNv
     _key: '!journal.pages!A3ABNLJphHplV8Nm.IAQLEhPcuKUHIvNv'
@@ -1536,8 +1525,7 @@ pages:
         Word}
         @UUID[Compendium.grimwild.gwce-talents.Item.pYpgHdngQNQe32ly]{Fierce
         Protector}
-        @UUID[Compendium.grimwild.gwce-talents.Item.kK4LN7Svp3tNPRih]{Ley
-        magic}
+        @UUID[Compendium.grimwild.gwce-talents.Item.kK4LN7Svp3tNPRih]{Ley magic}
         @UUID[Compendium.grimwild.gwce-talents.Item.s92DmqVh9SwLCwZy]{Monster
         Menagerie}
         @UUID[Compendium.grimwild.gwce-talents.Item.5Xe9pFQ9dvZYBvfn]{Pocket
@@ -1561,8 +1549,8 @@ pages:
         @UUID[Compendium.grimwild.gwce-talents.Item.k05clNwHNfu182P4]{Arcane
         Training}</p></li><li><p><strong>Air Elemental:</strong>
         @UUID[Compendium.grimwild.gwce-talents.Item.iRLs3DR7cSMG0zLt]{Windcaller}</p></li><li><p><strong>Oozeling:</strong>
-        @UUID[Compendium.grimwild.gwce-talents.Item.MZGjMzYMZZ8Z3wlU]{Shift
-        Form }</p></li></ul></div><div><ul><li><p><strong>Unicorn:</strong>
+        @UUID[Compendium.grimwild.gwce-talents.Item.MZGjMzYMZZ8Z3wlU]{Shift Form
+        }</p></li></ul></div><div><ul><li><p><strong>Unicorn:</strong>
         @UUID[Compendium.grimwild.gwce-talents.Item.ZxbjdllKwGXPAcuV]{Healing
         Hands}</p></li><li><p><strong>Shadow:</strong>
         @UUID[Compendium.grimwild.gwce-talents.Item.2uxcSShENkGU3g6l]{Lurker}</p></li><li><p><strong>Zombie
@@ -1612,8 +1600,7 @@ pages:
       modifiedTime: 1791655112397
       lastModifiedBy: nF9qxzj59Qn6fNSn
       compendiumSource: null
-      duplicateSource: >-
-        Compendium.grimwild.gwce-journals.JournalEntry.A3ABNLJphHplV8Nm.JournalEntryPage.IAQLEhPcuKUHIvNv
+      duplicateSource: Compendium.grimwild.gwce-journals.JournalEntry.A3ABNLJphHplV8Nm.JournalEntryPage.IAQLEhPcuKUHIvNv
       exportSource: null
     _id: hFdtz4n6rNQwyUAG
     _key: '!journal.pages!A3ABNLJphHplV8Nm.hFdtz4n6rNQwyUAG'
@@ -1642,9 +1629,9 @@ pages:
         @UUID[Compendium.grimwild.gwce-talents.Item.qTCXUKqObQF3HNm1]{Natural
         Moxie}
         @UUID[Compendium.grimwild.gwce-talents.Item.FgPZtq8dXJ19JBtt]{Provoke}
-        @UUID[Compendium.grimwild.gwce-talents.Item.YgCyDiHMURqcd88R]{The
-        Legend Of...}</p><h3>Past Entanglements (Optional)</h3><p>A Swashbuckler
-        is known by their past. Whose life is intertwined with the story of your
+        @UUID[Compendium.grimwild.gwce-talents.Item.YgCyDiHMURqcd88R]{The Legend
+        Of...}</p><h3>Past Entanglements (Optional)</h3><p>A Swashbuckler is
+        known by their past. Whose life is intertwined with the story of your
         deeds? Choose 2 people important in your tales by picking a descriptor
         and a focus and smashing them together, then one more vital to your
         story that you don't know yet.</p><section class="grid
@@ -1695,8 +1682,7 @@ pages:
       modifiedTime: 1783127149852
       lastModifiedBy: 79CEe5dKC6Ls5VbU
       compendiumSource: null
-      duplicateSource: >-
-        Compendium.grimwild.gwce-journals.JournalEntry.A3ABNLJphHplV8Nm.JournalEntryPage.hFdtz4n6rNQwyUAG
+      duplicateSource: Compendium.grimwild.gwce-journals.JournalEntry.A3ABNLJphHplV8Nm.JournalEntryPage.hFdtz4n6rNQwyUAG
       exportSource: null
     _id: XBHO0tGCTQRfA7XS
     _key: '!journal.pages!A3ABNLJphHplV8Nm.XBHO0tGCTQRfA7XS'
@@ -1766,8 +1752,7 @@ pages:
       modifiedTime: 1783100532431
       lastModifiedBy: 79CEe5dKC6Ls5VbU
       compendiumSource: null
-      duplicateSource: >-
-        Compendium.grimwild.gwce-journals.JournalEntry.A3ABNLJphHplV8Nm.JournalEntryPage.XBHO0tGCTQRfA7XS
+      duplicateSource: Compendium.grimwild.gwce-journals.JournalEntry.A3ABNLJphHplV8Nm.JournalEntryPage.XBHO0tGCTQRfA7XS
       exportSource: null
     _id: nsrd3SWBUdq6RHWP
     _key: '!journal.pages!A3ABNLJphHplV8Nm.nsrd3SWBUdq6RHWP'
@@ -1789,8 +1774,7 @@ pages:
         @UUID[Compendium.grimwild.gwce-talents.Item.ycuMJNdbgri9b9XV]{Hidden
         Magic}</p><p><strong>Path Talents:</strong>
         @UUID[Compendium.grimwild.gwce-talents.Item.EAvEzqBuwZwroyZz]{Bailiwick}
-        @UUID[Compendium.grimwild.gwce-talents.Item.p4nH22ifVWTkzmzr]{Evil
-        Eye}
+        @UUID[Compendium.grimwild.gwce-talents.Item.p4nH22ifVWTkzmzr]{Evil Eye}
         @UUID[Compendium.grimwild.gwce-talents.Item.Q3arxoJ2ScEqEyb8]{Familiar}
         @UUID[Compendium.grimwild.gwce-talents.Item.qZIcwbT6Jd4IBgS6]{Herbalism}
         @UUID[Compendium.grimwild.gwce-talents.Item.e70GiK2WwHRyWg6z]{Homely
@@ -1841,8 +1825,7 @@ pages:
       modifiedTime: 1783100974358
       lastModifiedBy: 79CEe5dKC6Ls5VbU
       compendiumSource: null
-      duplicateSource: >-
-        Compendium.grimwild.gwce-journals.JournalEntry.A3ABNLJphHplV8Nm.JournalEntryPage.nsrd3SWBUdq6RHWP
+      duplicateSource: Compendium.grimwild.gwce-journals.JournalEntry.A3ABNLJphHplV8Nm.JournalEntryPage.nsrd3SWBUdq6RHWP
       exportSource: null
     _id: v5k2XzfSsWqWe9Xn
     _key: '!journal.pages!A3ABNLJphHplV8Nm.v5k2XzfSsWqWe9Xn'
@@ -1925,8 +1908,7 @@ pages:
       modifiedTime: 1783092243505
       lastModifiedBy: 79CEe5dKC6Ls5VbU
       compendiumSource: null
-      duplicateSource: >-
-        Compendium.grimwild.gwce-journals.JournalEntry.A3ABNLJphHplV8Nm.JournalEntryPage.v5k2XzfSsWqWe9Xn
+      duplicateSource: Compendium.grimwild.gwce-journals.JournalEntry.A3ABNLJphHplV8Nm.JournalEntryPage.v5k2XzfSsWqWe9Xn
       exportSource: null
     _id: Chpa2kIFZthAo2T5
     _key: '!journal.pages!A3ABNLJphHplV8Nm.Chpa2kIFZthAo2T5'

@@ -5,11 +5,10 @@ _id: ItW2enbPG8FqlBGF
 img: /icons/skills/wounds/injury-triple-slash-bleed.webp
 system:
   description: >-
-    <p>You can get <em><strong>bloodied</strong></em> multiple times, each time
-    inflicting +1t on physical rolls. These extra thorns can never be ignored
-    (e.g. <em>Frenzy</em> and <em>Oathsworn</em> talents) and apply to any
-    attempt to heal you. When you are bloodied multiple times, only a
-    <em><strong>disaster</strong></em> can drop you.</p>
+    <p>When you would get <em><strong>bloodied</strong></em>, you can instead
+    take a <strong>Flesh Wound</strong>, a <strong>condition</strong> that
+    inflicts +1t on all rolls, and is cleared when the scene ends.</p><p
+    class="p1">On a disaster, you cannot take a Flesh Wound.</p>
   core: false
   notes:
     description: ''
@@ -22,12 +21,12 @@ ownership:
   79CEe5dKC6Ls5VbU: 3
 flags: {}
 _stats:
-  coreVersion: '14.364'
+  coreVersion: '14.369'
   systemId: grimwild
-  systemVersion: 0.5.3
+  systemVersion: 0.6.0
   createdTime: 1782662613730
-  modifiedTime: 1783008207813
-  lastModifiedBy: 79CEe5dKC6Ls5VbU
+  modifiedTime: 1794176178495
+  lastModifiedBy: UV77mtxQgW7KpS6B
   compendiumSource: null
   duplicateSource: null
   exportSource: null

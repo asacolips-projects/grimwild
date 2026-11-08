@@ -94,17 +94,16 @@ pages:
         style="justify-content:right"><img
         src="modules/grimwild/assets/img/hexflowers/hexflower-key.svg"
         width="192" height="192"><img
-        src="modules/grimwild/assets/img/hexflowers/hexflower-4.svg"
-        width="192" height="192"><p></p></div></section><section class="grid
+        src="modules/grimwild/assets/img/hexflowers/hexflower-4.svg" width="192"
+        height="192"><p></p></div></section><section class="grid
         grid-3col"><div><img
-        src="modules/grimwild/assets/img/hexflowers/hexflower-1.svg"
-        width="192" height="192"></div><div><img
-        src="modules/grimwild/assets/img/hexflowers/hexflower-2.svg"
-        width="192" height="192"></div><div><img
-        src="modules/grimwild/assets/img/hexflowers/hexflower-3.svg"
-        width="192" height="192"></div></section><h3>Example Hex Flower
-        Keys</h3><section class="grid grid-2col"><div><p
-        style="text-align:center"><strong>Spring
+        src="modules/grimwild/assets/img/hexflowers/hexflower-1.svg" width="192"
+        height="192"></div><div><img
+        src="modules/grimwild/assets/img/hexflowers/hexflower-2.svg" width="192"
+        height="192"></div><div><img
+        src="modules/grimwild/assets/img/hexflowers/hexflower-3.svg" width="192"
+        height="192"></div></section><h3>Example Hex Flower Keys</h3><section
+        class="grid grid-2col"><div><p style="text-align:center"><strong>Spring
         Weather</strong></p><ol><li><p>Bright and sunny</p></li><li><p>Sparse
         clouds</p></li><li><p>Cloudy</p></li><li><p>Cloudy and
         windy</p></li><li><p>Light rain</p></li><li><p>Heavy

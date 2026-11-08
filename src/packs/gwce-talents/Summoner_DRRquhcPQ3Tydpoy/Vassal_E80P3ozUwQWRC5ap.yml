@@ -14,7 +14,7 @@ system:
     the anchors holding it here. Make a 2d story roll to see the fallout before
     it disappears. You can resummon it every scene, and take +1d when performing
     summoning rituals.</p><hr><p><strong>GROWTH:</strong> At levels 3 and 6, you
-    gain +1 aspect.</p>
+    gain +1 aspect, and +1d to the power pool.</p>
   core: false
   notes:
     description: ''
@@ -55,12 +55,12 @@ ownership:
   79CEe5dKC6Ls5VbU: 3
 flags: {}
 _stats:
-  coreVersion: '14.368'
+  coreVersion: '14.369'
   systemId: grimwild
-  systemVersion: 0.5.3
+  systemVersion: 0.6.0
   createdTime: 1782662626193
-  modifiedTime: 1791745236081
-  lastModifiedBy: nF9qxzj59Qn6fNSn
+  modifiedTime: 1794176225433
+  lastModifiedBy: UV77mtxQgW7KpS6B
   compendiumSource: null
   duplicateSource: null
   exportSource: null
