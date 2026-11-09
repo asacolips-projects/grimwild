@@ -1,0 +1,54 @@
+folder: vJDHTld69PUfD7Vp
+name: Staff of Mischief
+type: arcana
+_id: 0uU9a6ZLZFHtR0Bp
+img: icons/weapons/staves/staff-ornate-wood-red.webp
+system:
+  description: >-
+    <p>This staff (6d power pool) can produce any manner of illusions, even
+    placing them as traps or triggered messages for others later.</p>
+  tier: mythic
+  notes:
+    description: ''
+    label: ''
+  trackers:
+    - type: pool
+      pool:
+        powerPool: true
+        diceNum: 6
+        max: 6
+      label: Illusions
+      points:
+        showSteps: false
+        value: 1
+        max: 1
+  touchstones: false—image—trigger—speech
+  limitations: ''
+  activation: twirling the staff like a baton.
+  sensories:
+    descriptors: melodic tinkle of bells, echoing giggles
+    actions: colorful ribbon bursts forth, explode into confetti
+  palette:
+    - name: Jester Purple
+      color: '#4c055d'
+    - name: Gold Bells
+      color: '#f2c12e'
+    - name: Funhouse Red
+      color: '#b01919'
+effects: []
+sort: 0
+ownership:
+  default: 0
+  nF9qxzj59Qn6fNSn: 3
+flags: {}
+_stats:
+  coreVersion: '14.369'
+  systemId: grimwild
+  systemVersion: 0.6.0
+  createdTime: 1794238169016
+  modifiedTime: 1794246883917
+  lastModifiedBy: UV77mtxQgW7KpS6B
+  compendiumSource: null
+  duplicateSource: null
+  exportSource: null
+_key: '!items!0uU9a6ZLZFHtR0Bp'

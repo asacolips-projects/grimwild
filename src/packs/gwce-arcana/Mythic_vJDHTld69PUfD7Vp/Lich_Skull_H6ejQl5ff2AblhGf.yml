@@ -1,0 +1,44 @@
+folder: vJDHTld69PUfD7Vp
+name: Lich Skull
+type: arcana
+_id: H6ejQl5ff2AblhGf
+img: icons/magic/death/skull-horned-worn-fire-blue.webp
+system:
+  description: >-
+    <p>The skull of a still-living lich that can be used to control and raise
+    undead ([[/r 2d]] story roll). Empower them further by taking harm.</p>
+  tier: mythic
+  notes:
+    description: ''
+    label: ''
+  trackers: []
+  touchstones: undead—command—raise—drain
+  limitations: ''
+  activation: holding it aloft.
+  sensories:
+    descriptors: glowing eye sockets, ghostly glow of purple fire
+    actions: unique personality, subtle manipulation
+  palette:
+    - name: Old Bone
+      color: '#bdbcb8'
+    - name: Grave Dust
+      color: '#424642'
+    - name: Necrotic Glow
+      color: '#521a7c'
+effects: []
+sort: 0
+ownership:
+  default: 0
+  nF9qxzj59Qn6fNSn: 3
+flags: {}
+_stats:
+  coreVersion: '14.369'
+  systemId: grimwild
+  systemVersion: 0.6.0
+  createdTime: 1794238169016
+  modifiedTime: 1794246808310
+  lastModifiedBy: UV77mtxQgW7KpS6B
+  compendiumSource: null
+  duplicateSource: null
+  exportSource: null
+_key: '!items!H6ejQl5ff2AblhGf'

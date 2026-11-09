@@ -1,0 +1,53 @@
+folder: FRYMORq1u6TYnNwk
+name: Healing Potion
+type: arcana
+_id: 2SWqlLfIsYJB2keD
+img: icons/consumables/potions/potion-jar-corked-labeled-red.webp
+system:
+  description: >-
+    <p>When you drink this potion, clear physical harm as your wounds are
+    healed, and you get a second wind.</p>
+  tier: minor
+  notes:
+    description: ''
+    label: ''
+  trackers:
+    - type: points
+      label: Consume
+      points:
+        value: 1
+        max: 1
+        showSteps: true
+      pool:
+        diceNum: 0
+        powerPool: false
+  touchstones: wound—refresh—restore
+  limitations: ''
+  activation: swallowing the last drop.
+  sensories:
+    descriptors: viscous liquid
+    actions: burst of energy, everything comes into focus
+  palette:
+    - name: Sloshing Red
+      color: '#a82424'
+    - name: Gold Flecks
+      color: '#e6c229'
+    - name: Clear Bottle
+      color: '#eae5d8'
+effects: []
+sort: 0
+ownership:
+  default: 0
+  nF9qxzj59Qn6fNSn: 3
+flags: {}
+_stats:
+  coreVersion: '14.369'
+  systemId: grimwild
+  systemVersion: 0.6.0
+  createdTime: 1794238169109
+  modifiedTime: 1794246998691
+  lastModifiedBy: UV77mtxQgW7KpS6B
+  compendiumSource: null
+  duplicateSource: null
+  exportSource: null
+_key: '!items!2SWqlLfIsYJB2keD'

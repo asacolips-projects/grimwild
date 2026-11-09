@@ -1,0 +1,53 @@
+folder: FRYMORq1u6TYnNwk
+name: Jar of Mischief
+type: arcana
+_id: Tn1HQusyTxwpMZEr
+img: icons/consumables/potions/potion-jar-corked-labeled-purple-pink.webp
+system:
+  description: >-
+    <p>Opening this jar causes immediate chaos, as a wild magic surge ([[/r 3d]]
+    story roll). The function depends on the wild magic.</p>
+  tier: trivial
+  notes:
+    description: ''
+    label: ''
+  trackers:
+    - type: points
+      label: Consume
+      points:
+        value: 1
+        max: 1
+        showSteps: true
+      pool:
+        diceNum: 0
+        powerPool: false
+  touchstones: chaos—random—unknown function
+  limitations: ''
+  activation: wrenching the heavy seal off.
+  sensories:
+    descriptors: pink vapors, sparks fly, strong berry scent
+    actions: butterfly flutters inside, loud pop as lid comes off
+  palette:
+    - name: Wildflower Pink
+      color: '#d64582'
+    - name: Sly Purple
+      color: '#782e62'
+    - name: Joyous Teal
+      color: '#1bc2b3'
+effects: []
+sort: 0
+ownership:
+  default: 0
+  nF9qxzj59Qn6fNSn: 3
+flags: {}
+_stats:
+  coreVersion: '14.369'
+  systemId: grimwild
+  systemVersion: 0.6.0
+  createdTime: 1794238169109
+  modifiedTime: 1794247027734
+  lastModifiedBy: UV77mtxQgW7KpS6B
+  compendiumSource: null
+  duplicateSource: null
+  exportSource: null
+_key: '!items!Tn1HQusyTxwpMZEr'

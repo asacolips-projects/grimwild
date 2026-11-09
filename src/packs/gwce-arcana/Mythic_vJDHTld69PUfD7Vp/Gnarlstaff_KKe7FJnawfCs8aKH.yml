@@ -1,0 +1,54 @@
+folder: vJDHTld69PUfD7Vp
+name: Gnarlstaff
+type: arcana
+_id: KKe7FJnawfCs8aKH
+img: icons/weapons/staves/staff-forked-wood.webp
+system:
+  description: >-
+    <p>This staff (8d power pool) allows you to control trees and other plants
+    in the area. You’re never impeded by natural growth.</p>
+  tier: mythic
+  notes:
+    description: ''
+    label: ''
+  trackers:
+    - type: pool
+      pool:
+        powerPool: true
+        diceNum: 8
+        max: 8
+      label: Plant Control
+      points:
+        showSteps: false
+        value: 1
+        max: 1
+  touchstones: tangle—plant—regrow—root
+  limitations: ''
+  activation: calling for aid from nature.
+  sensories:
+    descriptors: damp wood, seeping sap, wet moss
+    actions: rigid joints, vines burst from staff
+  palette:
+    - name: Twisted Root
+      color: '#3d2b1f'
+    - name: Bog Green
+      color: '#5c6348'
+    - name: Wild Amber
+      color: '#d98324'
+effects: []
+sort: 0
+ownership:
+  default: 0
+  nF9qxzj59Qn6fNSn: 3
+flags: {}
+_stats:
+  coreVersion: '14.369'
+  systemId: grimwild
+  systemVersion: 0.6.0
+  createdTime: 1794238169016
+  modifiedTime: 1794246749072
+  lastModifiedBy: UV77mtxQgW7KpS6B
+  compendiumSource: null
+  duplicateSource: null
+  exportSource: null
+_key: '!items!KKe7FJnawfCs8aKH'

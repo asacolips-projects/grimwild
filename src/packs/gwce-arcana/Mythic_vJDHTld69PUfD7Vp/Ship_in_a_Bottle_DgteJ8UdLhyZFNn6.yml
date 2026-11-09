@@ -1,0 +1,44 @@
+folder: vJDHTld69PUfD7Vp
+name: Ship in a Bottle
+type: arcana
+_id: DgteJ8UdLhyZFNn6
+img: icons/skills/trades/profession-sailing-ship.webp
+system:
+  description: >-
+    <p>Uncork the bottle to grow the ship to full size, complete with jolly crew
+    that follow your lead as their captain.</p>
+  tier: mythic
+  notes:
+    description: ''
+    label: ''
+  trackers: []
+  touchstones: voyage—ship—hearty—crew—song
+  limitations: ''
+  activation: uncorking and turning it upside-down.
+  sensories:
+    descriptors: sloshing water, salty sea spray, friendly chorus
+    actions: feeling of responsibility for crew
+  palette:
+    - name: Sloshing Blue
+      color: '#4682b4'
+    - name: Old Oak
+      color: '#4a3728'
+    - name: Sails White
+      color: '#ebe5d3'
+effects: []
+sort: 0
+ownership:
+  default: 0
+  nF9qxzj59Qn6fNSn: 3
+flags: {}
+_stats:
+  coreVersion: '14.369'
+  systemId: grimwild
+  systemVersion: 0.6.0
+  createdTime: 1794238169016
+  modifiedTime: 1794238169016
+  lastModifiedBy: UV77mtxQgW7KpS6B
+  compendiumSource: null
+  duplicateSource: null
+  exportSource: null
+_key: '!items!DgteJ8UdLhyZFNn6'

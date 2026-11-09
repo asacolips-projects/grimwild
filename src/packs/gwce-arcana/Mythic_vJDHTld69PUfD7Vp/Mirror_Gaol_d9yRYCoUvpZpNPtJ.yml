@@ -1,0 +1,54 @@
+folder: vJDHTld69PUfD7Vp
+name: Mirror Gaol
+type: arcana
+_id: d9yRYCoUvpZpNPtJ
+img: icons/sundries/survival/mirror-plain.webp
+system:
+  description: >-
+    <p>Reflected creatures are jailed inside. The surface cracks after a 3d
+    timer pool, and the creatures are released. The cracks heal after a day.</p>
+  tier: mythic
+  notes:
+    description: ''
+    label: ''
+  trackers:
+    - type: pool
+      pool:
+        powerPool: false
+        diceNum: 3
+        max: 3
+      label: Jailed
+      points:
+        showSteps: false
+        value: 1
+        max: 1
+  touchstones: identity—reflect—prison—sleep
+  limitations: ''
+  activation: pulling off its velvet cover.
+  sensories:
+    descriptors: rippling glass, shifting geometry
+    actions: dizzying vertigo, a sense of being pulled in
+  palette:
+    - name: Deep Trench
+      color: '#0d1b2a'
+    - name: Bruised Plum
+      color: '#2e1a33'
+    - name: Sickly Green
+      color: '#a3e57b'
+effects: []
+sort: 0
+ownership:
+  default: 0
+  nF9qxzj59Qn6fNSn: 3
+flags: {}
+_stats:
+  coreVersion: '14.369'
+  systemId: grimwild
+  systemVersion: 0.6.0
+  createdTime: 1794238169016
+  modifiedTime: 1794246907775
+  lastModifiedBy: UV77mtxQgW7KpS6B
+  compendiumSource: null
+  duplicateSource: null
+  exportSource: null
+_key: '!items!d9yRYCoUvpZpNPtJ'

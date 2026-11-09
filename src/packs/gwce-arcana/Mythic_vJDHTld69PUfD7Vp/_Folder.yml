@@ -1,0 +1,20 @@
+type: Item
+folder: null
+name: Mythic
+color: null
+sorting: a
+_id: vJDHTld69PUfD7Vp
+description: ''
+sort: 0
+flags: {}
+_stats:
+  coreVersion: '14.369'
+  systemId: grimwild
+  systemVersion: 0.6.0
+  createdTime: 1794235383293
+  modifiedTime: 1794235383293
+  lastModifiedBy: UV77mtxQgW7KpS6B
+  compendiumSource: null
+  duplicateSource: null
+  exportSource: null
+_key: '!folders!vJDHTld69PUfD7Vp'

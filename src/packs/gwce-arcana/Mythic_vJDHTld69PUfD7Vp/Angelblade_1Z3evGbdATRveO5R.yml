@@ -1,0 +1,54 @@
+folder: vJDHTld69PUfD7Vp
+name: Angelblade
+type: arcana
+_id: 1Z3evGbdATRveO5R
+img: icons/weapons/swords/sword-gold-holy.webp
+system:
+  description: >-
+    <p>This blade can fly through the air and attack on its own. It follows the
+    owners command with a 4d power pool, refreshed when it drops to 0d.</p>
+  tier: mythic
+  notes:
+    description: ''
+    label: ''
+  trackers:
+    - type: pool
+      pool:
+        powerPool: true
+        diceNum: 4
+        max: 4
+      label: Command
+      points:
+        showSteps: false
+        value: 1
+        max: 1
+  touchstones: gust—leap—wing—speed—cut
+  limitations: ''
+  activation: tossing it high into the air.
+  sensories:
+    descriptors: rush of wind, perfect reflection
+    actions: upward draft, agile movement, sword bobs in air
+  palette:
+    - name: Light Steel
+      color: '#bacad6'
+    - name: Sky Blue
+      color: '#659dbd'
+    - name: Golden Filigree
+      color: '#e3b448'
+effects: []
+sort: 0
+ownership:
+  default: 0
+  nF9qxzj59Qn6fNSn: 3
+flags: {}
+_stats:
+  coreVersion: '14.369'
+  systemId: grimwild
+  systemVersion: 0.6.0
+  createdTime: 1794238169016
+  modifiedTime: 1794246531013
+  lastModifiedBy: UV77mtxQgW7KpS6B
+  compendiumSource: null
+  duplicateSource: null
+  exportSource: null
+_key: '!items!1Z3evGbdATRveO5R'

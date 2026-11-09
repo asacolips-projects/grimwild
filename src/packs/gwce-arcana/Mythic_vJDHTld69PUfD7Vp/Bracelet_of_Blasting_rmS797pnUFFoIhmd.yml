@@ -1,0 +1,44 @@
+folder: vJDHTld69PUfD7Vp
+name: Bracelet of Blasting
+type: arcana
+_id: rmS797pnUFFoIhmd
+img: icons/equipment/wrist/bracelet-spiked-steel.webp
+system:
+  description: >-
+    <p>You can send searing beams of prismatic light from your hand while
+    wearing this bracelet.</p>
+  tier: mythic
+  notes:
+    description: ''
+    label: ''
+  trackers: []
+  touchstones: lights—blind—flare—explosion
+  limitations: ''
+  activation: holding your wrist with your other hand.
+  sensories:
+    descriptors: golden sparks, burnt hair and sulfur
+    actions: soot spots, sudden intense vibration
+  palette:
+    - name: Scorched Brass
+      color: '#8c6d43'
+    - name: Powder Gray
+      color: '#4e535c'
+    - name: Orange Flare
+      color: '#e65f2b'
+effects: []
+sort: 0
+ownership:
+  default: 0
+  nF9qxzj59Qn6fNSn: 3
+flags: {}
+_stats:
+  coreVersion: '14.369'
+  systemId: grimwild
+  systemVersion: 0.6.0
+  createdTime: 1794238169016
+  modifiedTime: 1794238169016
+  lastModifiedBy: UV77mtxQgW7KpS6B
+  compendiumSource: null
+  duplicateSource: null
+  exportSource: null
+_key: '!items!rmS797pnUFFoIhmd'
