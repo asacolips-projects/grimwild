@@ -105,6 +105,8 @@ GRIMWILD:
     suspense: Suspense
   UI:
     details: Details
+    View: View
+    Edit: Edit
   SheetLabels:
     Actor: Grimwild Actor Sheet
     Item: Grimwild Item Sheet

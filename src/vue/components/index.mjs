@@ -19,6 +19,7 @@ export { default as ItemAttributes } from "@/components/item/ItemAttributes.vue"
 export { default as ItemCrucible } from "@/components/item/ItemCrucible.vue";
 export { default as TalentTrackers } from "@/components/item/talent/TalentTrackers.vue";
 export { default as ArcanaDetails } from "@/components/item/arcana/ArcanaDetails.vue";
+export { default as ArcanaView } from "@/components/item/arcana/ArcanaView.vue";
 export { default as ChallengeTraitsMoves } from "@/components/item/challenge/ChallengeTraitsMoves.vue";
 // Parts.
 export { default as Tabs } from "@/components/parts/Tabs.vue";
@@ -26,5 +27,6 @@ export { default as Tab } from "@/components/parts/Tab.vue";
 export { default as Prosemirror } from "@/components/parts/Prosemirror.vue";
 export { default as ColorPicker } from "@/components/parts/ColorPicker.vue";
 export { default as ColorBar } from "@/components/parts/ColorBar.vue";
+export { default as ViewModeToggle } from "@/components/parts/ViewModeToggle.vue";
 export { default as RollPoolInput } from "@/components/parts/RollPoolInput.vue";
 export { default as ItemRow } from "@/components/parts/ItemRow.vue";

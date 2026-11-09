@@ -25,10 +25,6 @@
         <label><i class="fas fa-hand-paper"></i> {{ game.i18n.localize('GRIMWILD.Item.Arcana.Actions') }}</label>
         <input type="text" name="system.sensories.actions" v-model="context.system.sensories.actions" />
       </div>
-      <div class="form-group stacked">
-        <label>{{ context.systemFields.limitations.label }}</label>
-        <Prosemirror :editable="context.editable" :field="context.editors['system.limitations']"/>
-      </div>
     </div>
   </fieldset>
   <!-- Palette -->
@@ -47,6 +43,10 @@
           <ColorPicker :picker="context.customElements?.[`system.palette.${colorKey}.color`]" :editable="context.editable"/>
         </div>
       </div>
+    </div>
+    <div class="form-group stacked">
+      <label>{{ context.systemFields.limitations.label }}</label>
+      <Prosemirror :editable="context.editable" :field="context.editors['system.limitations']"/>
     </div>
   </fieldset>
 </template>

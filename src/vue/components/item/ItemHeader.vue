@@ -1,4 +1,6 @@
 <template>
+	<!-- View/edit toggle -->
+	<slot name="actions"></slot>
 	<header class="sheet-header">
 		<div class="header-fields grid grid-4col">
 			<!-- Avatar -->
