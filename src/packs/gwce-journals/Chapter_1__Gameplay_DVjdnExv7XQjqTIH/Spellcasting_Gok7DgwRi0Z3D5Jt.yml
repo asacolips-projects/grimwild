@@ -127,11 +127,11 @@ pages:
         <em><strong>@UUID[Compendium.grimwild.gwce-journals.JournalEntry.YbuXwBYYNXIb670F.JournalEntryPage.7bKZMabTgv4QYNEK]{potency}</strong></em>
         and broaden
         <em><strong>@UUID[Compendium.grimwild.gwce-journals.JournalEntry.YbuXwBYYNXIb670F.JournalEntryPage.rAWKSZVoFjZNOUBd]{vantage}</strong></em>.
-        As with other potent actions (pg. 24), you can attempt jaw-dropping
-        effects that are normally impossible. Compared to potent actions,
-        though, potent spells tend to have more dramatic effects that bend the
-        rules even further, accomplishing tasks that couldn’t be performed with
-        a conventional tool. A more impactful effect should be balanced with
+        As with other potent actions, you can attempt jaw-dropping effects that
+        are normally impossible. Compared to potent actions, though, potent
+        spells tend to have more dramatic effects that bend the rules even
+        further, accomplishing tasks that couldn’t be performed with a
+        conventional tool. A more impactful effect should be balanced with
         higher thorns and stakes to keep the moment exciting and pivotal. If you
         cast a potent spell with an effect on the level of a normal spell, it
         also bestows another effect, such
@@ -160,7 +160,12 @@ pages:
         trait)</em></p><p><em>The guard is suddenly suspicious, so you decide to
         use your <strong>False Memory</strong> spell to clear his mind of the
         last couple seconds, though you know the mind is a delicate thing.
-        (impossible→+2t, new possibility)</em></p>
+        (impossible→+2t, new possibility)</em></p><blockquote><h3><em>Reader
+        Lens - D&amp;D</em></h3><p class="p2">Gauging the difference between
+        levels may be difficult starting out. Think of normal spells as
+        cantrips, 1st, and 2nd level spells. Potent spells are similar to
+        3rd-6th level spells, while rituals cover anything more
+        powerful.</p></blockquote>
     video:
       controls: true
       volume: 0.5
@@ -171,12 +176,12 @@ pages:
       79CEe5dKC6Ls5VbU: 3
     flags: {}
     _stats:
-      coreVersion: '14.364'
+      coreVersion: '14.369'
       systemId: grimwild
       systemVersion: 0.5.3
       createdTime: 1782677812989
-      modifiedTime: 1782927834618
-      lastModifiedBy: 79CEe5dKC6Ls5VbU
+      modifiedTime: 1794188529399
+      lastModifiedBy: UV77mtxQgW7KpS6B
       compendiumSource: null
       duplicateSource: null
       exportSource: null
@@ -278,44 +283,51 @@ pages:
       format: 1
       content: >-
         <p>Spellcasting ability comes with touchstones and all magic effects
-        must logically align with them, making sense and feeling natural. If it
-        feels like a reach, it’s beyond the touchstone’s
-        bounds.</p><p><strong>Flaming</strong> can burn or illuminate, but can’t
-        calm someone.</p><p><strong>Dazzling</strong> can blind or distract, but
-        can’t mend objects.</p><p><strong>Warding</strong> can create barriers
-        or protect, but can’t attack.</p><p><span style="color:#6e6e6e"><em>You
-        cast Flaming Claw as a spell at the goblins, aiming for a huge claw to
-        grab one, ignite it, and hurl it into the rest. This fits the
-        touchstones, but your intent—harming multiple goblins at once—might work
-        as a spell on a bunch of mooks, but these are some tough goblins. You'll
-        have to choose to target just one or cast a potent spell to pull off the
-        full effect.</em></span></p><p>The GM can veto spells that don't align
-        with your touchstones. They can also instead allow it, but inflict a
-        thorn or collateral effects when it's pushing your touchstones, but not
+        must logically align with them, making sense and feeling natural.
+        Touchstones both expand and limit magic. Spells with a single touchstone
+        have a broad, unfocused effect, while those with more can have a more
+        detailed effect—at the cost of being more narrowly defined. If it feels
+        like a reach, it’s beyond the touchstone’s
+        bounds.</p><p><strong>Fire</strong> as the only touchstone can burn or
+        illuminate, but can’t be well controlled.</p><p
+        class="p1"><strong>Dazzling Aura</strong> can blind or distract those
+        nearby, but can’t discern friend from foe.</p><p
+        class="p1"><strong>Ice</strong> and <strong>Defend</strong> together can
+        create frozen barriers or protect from heat, but can’t make an area
+        slippery.</p><p><span style="color:rgb(110, 110, 110)"><em>You cast
+        Flaming Claw as a spell at the goblins, aiming for a huge claw to grab
+        one, ignite it, and hurl it into the rest. This fits the touchstones,
+        but your intent—harming multiple goblins at once—might work as a spell
+        on a bunch of mooks, but these are some tough goblins. You'll have to
+        choose to target just one or cast a potent spell to pull off the full
+        effect.</em></span></p><p>The GM can veto spells that don't align with
+        your touchstones. They can also instead allow it, but inflict a thorn or
+        collateral effects when it's pushing your touchstones, but not
         completely implausible.</p><p><strong>A Slime Wall spell</strong> can
         slow enemies, but has trouble completely blocking them
         (+1t).</p><p><strong>A Dominion spell</strong> can command someone to
         help, but can’t cause wounds.</p><p><strong>A Wand of
         Invisibility</strong> can make objects disappear, but can’t make sounds
-        vanish.</p><p><span style="color:#6e6e6e"><em>You want to grab a
-        treasure chest and haul it across the chasm and try to cast your Flaming
-        Claw spell to do it. Discussing it with the GM, you both decide that the
-        claw has a physical form, but since it's on fire, it'll scorch anything
-        it touches. The GM says that the chest will be 4d On Fire. This is just
-        a spell, since you could get across the chasm with an
+        vanish.</p><p><span style="color:rgb(110, 110, 110)"><em>You want to
+        grab a treasure chest and haul it across the chasm and try to cast your
+        Flaming Claw spell to do it. Discussing it with the GM, you both decide
+        that the claw has a physical form, but since it's on fire, it'll scorch
+        anything it touches. The GM says that the chest will be 4d On Fire. This
+        is just a spell, since you could get across the chasm with an
         action.</em></span></p><h2>Touchstone Limitations</h2><p>When you take a
         magic talent, have a discussion with the GM about what your magic can
         and can't do. Clearly defining it in this way makes the magic more fun
         to play with—creativity thrives within limitations. If a PC's magic
         feels too broad during the campaign, consider discussing new limitations
         to keep it balanced and engaging. Most limitations arise naturally from
-        their touchstones or source.</p><p><span style="color:#6e6e6e"><em>A
-        shadow sorcerer limits their magic so it can't be used in direct
-        sunlight.</em></span></p><p><span style="color:#6e6e6e"><em>A scholarly
-        wizard limits their magic by needing their spellbook in hand to cast
-        spells.</em></span></p><p><span style="color:#6e6e6e"><em>A cleric of
-        the god of thieves limits their magic so it requires a gold piece for
-        their rites.</em></span></p><p></p>
+        their touchstones or source.</p><p><span style="color:rgb(110, 110,
+        110)"><em>A shadow sorcerer limits their magic so it can't be used in
+        direct sunlight.</em></span></p><p><span style="color:rgb(110, 110,
+        110)"><em>A scholarly wizard limits their magic by needing their
+        spellbook in hand to cast spells.</em></span></p><p><span
+        style="color:rgb(110, 110, 110)"><em>A cleric of the god of thieves
+        limits their magic so it requires a gold piece for their
+        rites.</em></span></p><p></p>
     video:
       controls: true
       volume: 0.5
@@ -326,12 +338,12 @@ pages:
       79CEe5dKC6Ls5VbU: 3
     flags: {}
     _stats:
-      coreVersion: '14.364'
+      coreVersion: '14.369'
       systemId: grimwild
       systemVersion: 0.5.3
       createdTime: 1782677812989
-      modifiedTime: 1782928406501
-      lastModifiedBy: 79CEe5dKC6Ls5VbU
+      modifiedTime: 1794188653007
+      lastModifiedBy: UV77mtxQgW7KpS6B
       compendiumSource: null
       duplicateSource: null
       exportSource: null
@@ -365,68 +377,69 @@ pages:
         be noticed.</p><h3>Dispelling</h3><p>Anyone aware that something is
         magic can try to dispel it. This does not require training—you can cast
         a spell with relevant touchstones that counters it, cause enough of a
-        disturbance to it <span style="color:#6e6e6e"><em>(smashing the arcane
-        shield with a battleaxe, shaking someone until they're no longer
-        charmed)</em></span>, or outsmarting the magic's logic in some way <span
-        style="color:#6e6e6e"><em>(throwing water on a fire spell)</em></span>.
-        Creativity should be rewarded here.</p><h3>Magic Duration</h3><p>As a
-        rule of thumb, a spell lasts just a moment, maybe two, and a potent
-        spell lasts for a scene. This is judged by the GM based on the intended
-        effect, which you balance against the magnitude of the
-        spell.</p><h3>Trappings</h3><p>Discuss with the GM how your casting
-        appears, its visual style, movements you make, and tools you use.
-        Casting magic is clear and evident—trying to hide it is, at best,
-        extremely difficult, but usually impossible. Losing implements or being
-        hindered can deny permission to cast or inflict thorns. <span
-        style="color:#6e6e6e"><em>A cleric without the symbol of their god may
-        have a harder time casting spells (+1t).</em></span></p><h3>Buffs &amp;
-        Enemy Debuffs Spells</h3><p>Beneficial effects to allies, or detrimental
-        effects on enemies that expand PC vantage, likely affecting thorns,
-        providing a lasting setup, or bestowing a new ability—often as a 2-4d
-        timer, power pool, or shared pool of bonus dice. Potent spells often
-        target a group, or allow the change to last for the scene. Rituals can
-        add permanency or affect massive areas. <span
-        style="color:#6e6e6e"><em>Breathe underwater, a 2d timer. (spell) | Fill
-        an ally with strength, a 3d bonus dice pool. (potent) | Banish a demon
-        back to their home plane. (ritual)</em></span></p><h3>Damage
+        disturbance to it <span style="color:rgb(110, 110, 110)"><em>(smashing
+        the arcane shield with a battleaxe, shaking someone until they're no
+        longer charmed)</em></span>, or outsmarting the magic's logic in some
+        way <span style="color:rgb(110, 110, 110)"><em>(throwing water on a fire
+        spell)</em></span>. Creativity should be rewarded here.</p><h3>Magic
+        Duration</h3><p>As a rule of thumb, a spell lasts just a moment, maybe
+        two, and a potent spell lasts for a scene. This is judged by the GM
+        based on the intended effect, which you balance against the magnitude of
+        the spell.</p><h3>Spellcasting Trappings</h3><p>Discuss with the GM how
+        your casting appears, its visual style, movements you make, and tools
+        you use. Casting magic is clear and evident—trying to hide it is, at
+        best, extremely difficult, but usually impossible. Losing implements or
+        being hindered can deny permission to cast or inflict thorns. <span
+        style="color:rgb(110, 110, 110)"><em>A cleric without the symbol of
+        their god may have a harder time casting spells
+        (+1t).</em></span></p><h3>Buffs &amp; Enemy Debuffs
+        Spells</h3><p>Beneficial effects to allies, or detrimental effects on
+        enemies that expand PC vantage, likely affecting thorns, providing a
+        lasting <strong>setup</strong>, or bestowing a new ability—often as a
+        2-4d timer, power pool, or shared pool of bonus dice. Potent spells
+        often target a group, or allow the change to last for the scene. Rituals
+        can add permanency or affect massive areas. <span style="color:rgb(110,
+        110, 110)"><em>Breathe underwater, a 2d timer. (spell) | Fill an ally
+        with strength, a 3d bonus dice pool. (potent) | Banish a demon back to
+        their home plane. (ritual)</em></span></p><h3>Damage
         Spells</h3><p>Spells that directly harm others. Consider how touchstones
         might affect vantage here. Potent spells often affect an area, or
-        provide a critical bonus (greater effect, secondary effect, setup).
-        Rituals give extra permissions, such as permanent magical traps, and
-        affecting massive areas or someone miles away. <span
-        style="color:#6e6e6e"><em>Shoot a bolt of acid. (spell) | Cause a
-        massive explosion of fire. (potent) | Afflict a town with an illness.
-        (ritual)</em></span></p><h3>Defense Spells</h3><p>Spells that protect
-        you and your allies in the moment. The GM chooses the stat for defense
-        rolls, and can choose to let you use spellcasting to defend yourself, if
-        you have time and warning (relevant touchstones may help these). Spells
-        allow you to use your casting stat, while a potent spell can extend to
-        allies or lessen the incoming threat. <span
-        style="color:#6e6e6e"><em>Create a quick shield. (spell) | Hold falling
-        rocks in the air while allies escape.
+        provide a <strong>critical bonus</strong> (greater effect, secondary
+        effect, setup). Rituals give extra permissions, such as permanent
+        magical traps, and affecting massive areas or someone miles away. <span
+        style="color:rgb(110, 110, 110)"><em>Shoot a bolt of acid. (spell) |
+        Cause a massive explosion of fire. (potent) | Afflict a town with an
+        illness. (ritual)</em></span></p><h3>Defense Spells</h3><p>Spells that
+        protect you and your allies in the moment. The GM chooses the stat for
+        defense rolls, and can choose to let you use spellcasting to defend
+        yourself, if you have time and warning (relevant touchstones may help
+        these). Spells allow you to use your casting stat, while a potent spell
+        can extend to allies or lessen the incoming threat. <span
+        style="color:rgb(110, 110, 110)"><em>Create a quick shield. (spell) |
+        Hold falling rocks in the air while allies escape.
         (potent)</em></span></p><h3>Healing Spells</h3><p>These spells soothe
         the mind, body, and emotional states. Spells can clear marks, vex, and
         other minor conditions. Potent spells can cure harm and more serious
         conditions. Resurrection and healing extreme conditions is possible
         through rituals, though they are often costly, risky, and may not
-        ultimately be worth the price. <span style="color:#6e6e6e"><em>Calm an
-        ally frozen in fear. (spell) | Mend a broken bone. (potent) | Regrow a
-        limb. (ritual)</em></span></p><h3>Information Spells</h3><p>This type of
-        spell unveils secrets, and reveals new knowledge. Spells allow you to
-        seek a specific answer, or glean surface level information. Potent
-        spells give more detail, or don’t require probing for a specific answer.
-        Rituals let you scry and learn clear and detailed information. <span
-        style="color:#6e6e6e"><em>Read a stranger’s surface thoughts. (spell) |
-        Replay the recent past of a weapon you hold. (potent) | Spy on a foe
-        from miles away. (ritual)</em></span></p><h3>Summoning
-        Spells</h3><p>These spells create items or conjure creatures to the
-        scene. Spells call forth tools and equipment for the scene, or allies
-        using a 2d power pool. Potent spells conjure creatures that use a story
-        roll or 4d power pool. Rituals can be permanent, on a massive scale, or
-        bind powerful creatures with an 8d power pool. <span
-        style="color:#6e6e6e"><em>Summon a silver dagger. (spell) | Call a dire
-        wolf to your side. (potent) | Conjure a wall around a city.
-        (ritual)</em></span></p>
+        ultimately be worth the price. <span style="color:rgb(110, 110,
+        110)"><em>Calm an ally frozen in fear. (spell) | Mend a broken bone.
+        (potent) | Regrow a limb. (ritual)</em></span></p><h3>Information
+        Spells</h3><p>This type of spell unveils secrets, and reveals new
+        knowledge. Spells allow you to seek a specific answer, or glean surface
+        level information. Potent spells give more detail, or don’t require
+        probing for a specific answer. Rituals let you scry and learn clear and
+        detailed information. <span style="color:rgb(110, 110, 110)"><em>Read a
+        stranger’s surface thoughts. (spell) | Replay the recent past of a
+        weapon you hold. (potent) | Spy on a foe from miles away.
+        (ritual)</em></span></p><h3>Summoning Spells</h3><p>These spells create
+        items or conjure creatures to the scene. Spells call forth tools and
+        equipment for the scene, or allies using a 2d power pool. Potent spells
+        conjure creatures that use a story roll or 4d power pool. Rituals can be
+        permanent, on a massive scale, or bind powerful creatures with an 8d
+        power pool. <span style="color:rgb(110, 110, 110)"><em>Summon a silver
+        dagger. (spell) | Call a dire wolf to your side. (potent) | Conjure a
+        wall around a city. (ritual)</em></span></p>
     video:
       controls: true
       volume: 0.5
@@ -437,12 +450,12 @@ pages:
       79CEe5dKC6Ls5VbU: 3
     flags: {}
     _stats:
-      coreVersion: '14.364'
+      coreVersion: '14.369'
       systemId: grimwild
       systemVersion: 0.5.3
       createdTime: 1782677812989
-      modifiedTime: 1782928778257
-      lastModifiedBy: 79CEe5dKC6Ls5VbU
+      modifiedTime: 1794188885138
+      lastModifiedBy: UV77mtxQgW7KpS6B
       compendiumSource: null
       duplicateSource: null
       exportSource: null

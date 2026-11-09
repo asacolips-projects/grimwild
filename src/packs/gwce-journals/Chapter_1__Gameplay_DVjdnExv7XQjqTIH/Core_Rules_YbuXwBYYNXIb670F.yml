@@ -891,15 +891,28 @@ pages:
     text:
       format: 1
       content: >-
-        <h2>Marks</h2><p>Light damage, a temporary hindrance to a stat (out of
-        breath, confused). When the stat is rolled, clear the
-        <em><strong>mark</strong></em>, and take +1t on the roll.</p><p>If a
-        stat is already marked, you take <em><strong>harm</strong></em> (below)
-        instead. As long as a stat is unmarked, even if you have its related
-        harm, you can take a mark to it.</p><p>Marks are often combined with
-        another mark or other consequences when inflicted directly (Agility mark
-        + thrown off your horse) as an alternative to harm. You also take a mark
-        when you <em><strong>@UUID[.pNW9iH0hc9EFKfPK#push-yourself]{push
+        <p>Damage in <em>Grimwild</em> is variable, and can come in the form of
+        <strong>marks</strong>, <strong>harm</strong>,
+        <strong>conditions</strong>, and <strong>vex</strong>. A mix of each is
+        important for reaching the right level of lethality. When applying
+        consequences as the GM, consider the scene tone and gauge if you need to
+        switch it up and rely on other forms of damage.</p><p class="p1">In
+        general, reach for <em><strong>marks</strong></em> as minor damage, and
+        <em><strong>harm</strong></em> as consequential and dra- matic blows.
+        Use <em><strong>conditions</strong></em> to track specific, narratively
+        important injuries. Include <em><strong>vex</strong></em> to force an
+        emotional response, and add setbacks with other impact moves <em>(the
+        rope bridge breaks | start a 4d reinforcements arrive timer)</em> to
+        keep scenes dynamic.</p><h2>Marks</h2><p>Light damage, a temporary
+        hindrance to a stat (out of breath, confused). When the stat is rolled,
+        clear the <em><strong>mark</strong></em>, and take +1t on the
+        roll.</p><p>If a stat is already marked, you take
+        <em><strong>harm</strong></em> (below) instead. As long as a stat is
+        unmarked, even if you have its related harm, you can take a mark to
+        it.</p><p>Marks are often combined with another mark or other
+        consequences when inflicted directly <em>(Agility mark + thrown off your
+        horse)</em> as an alternative to harm. You also take a mark when you
+        <em><strong>@UUID[.pNW9iH0hc9EFKfPK#push-yourself]{push
         yourself}</strong></em>. If a mark is reduced (such as by a messy
         defense roll), it becomes set dressing.</p><h2>Harm</h2><p>This is a
         lingering hindrance to PC's body or mind. Adventurers have ways to
@@ -924,9 +937,10 @@ pages:
         as you're terrified by what you see)</p><p>Condition (take 3d Blinded as
         they throw sand in your eyes | take Watched as they're
         suspicious)</p></blockquote><h2>Dropped</h2><p>Taking harm while
-        Desperate leaves you dropped—you're out of the scene. Make a story roll
-        (usually 2d): on a perfect, you're merely out until the scene ends. On a
-        messy, things get even worse, like also taking on a temporary
+        Desperate leaves you dropped—you're out of the scene. Make a
+        @UUID[.3ZhPTONYCcx0olaV#story-roll]{story roll} (usually [[/r 2d]]): on
+        a perfect, you're merely out until the scene ends. On a messy, things
+        get even worse, like also taking on a temporary
         <em><strong>@UUID[.#conditions]{condition}</strong></em> <span
         style="color:rgb(110, 110, 110)"><em>(4d bleeding, broken leg,
         trauma)</em></span>. On a grim, things get far worse, such as taking on
@@ -972,8 +986,9 @@ pages:
         plays out. Aim to balance what's fun, what fits the story, and what
         flows from the emotion.</p><h2>Conditions</h2><p>These are specific
         injuries or maladies that impact only relevant situations and are often
-        lasting. They often replace harm, making actions more difficult for the
-        afflicted PC, but not bringing them closer to dropped. Conditions can
+        lasting. They often replace <em><strong>harm</strong></em>, making
+        actions more difficult for the afflicted PC, but not bringing them
+        closer to dropped. <em><strong>Conditions</strong></em> can
         be:</p><ul><li><p><strong>Urgent:</strong> These conditions act as
         short-term timers for a worse fate.</p><ul><li><p><span
         style="color:rgb(110, 110, 110)"><em>4d poisoned →
@@ -1027,7 +1042,7 @@ pages:
       systemId: grimwild
       systemVersion: 0.5.3
       createdTime: 1782677811548
-      modifiedTime: 1794176483210
+      modifiedTime: 1794188266408
       lastModifiedBy: UV77mtxQgW7KpS6B
       compendiumSource: null
       duplicateSource: null
@@ -1096,7 +1111,7 @@ pages:
       exportSource: null
     _key: '!journal.pages!YbuXwBYYNXIb670F.WZauoxU0hSzW7GlL'
   - sort: 1150000
-    name: Healing
+    name: Recovery and Healing
     type: text
     _id: Mo2laiYpBIw2ths2
     system: {}
@@ -1136,10 +1151,10 @@ pages:
         the Rogue rolls and gets a Messy. Bloodied is clear, but there's a
         complication, such as...</em></p><ul><li><p><em>The stress starts to get
         to the Rogue. (mark Wits)</em></p></li><li><p><em>The wound is worse
-        than it looked, and leaves a scar. (short-term condition)
-        </em></p></li><li><p><em>The guard patrol happens across the alley, and
-        the two are spotted.</em></p></li><li><p><em>The Rogue does the best
-        they can, but can't treat it completely. (mark
+        than it looked, and leaves a scar. (short-term
+        condition)</em></p></li><li><p><em>The guard patrol happens across the
+        alley, and the two are spotted.</em></p></li><li><p><em>The Rogue does
+        the best they can, but can't treat it completely. (mark
         Brawn)</em></p></li></ul><h3>Resting</h3><p>Any significant stretch of
         time between action (a night's camp, a week's travel) clears all marks
         and harm. This natural healing is paced for drama, not
@@ -1159,12 +1174,12 @@ pages:
       79CEe5dKC6Ls5VbU: 3
     flags: {}
     _stats:
-      coreVersion: '14.364'
+      coreVersion: '14.369'
       systemId: grimwild
       systemVersion: 0.5.3
       createdTime: 1783088192837
-      modifiedTime: 1783088428428
-      lastModifiedBy: 79CEe5dKC6Ls5VbU
+      modifiedTime: 1794188277444
+      lastModifiedBy: UV77mtxQgW7KpS6B
       compendiumSource: null
       duplicateSource: null
       exportSource: null

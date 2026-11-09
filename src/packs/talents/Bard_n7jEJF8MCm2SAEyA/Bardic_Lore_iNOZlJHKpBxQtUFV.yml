@@ -4,8 +4,9 @@ _id: iNOZlJHKpBxQtUFV
 img: icons/sundries/books/book-open-purple.webp
 system:
   description: >-
-    <p>You gain any 3 wises and 1 extra story per session. You take +1d on any
-    story rolls pertaining to what you know or story details you add.</p>
+    <p>You gain any 3 wises. You also gain 1 extra
+    <strong><em>thread</em></strong> per session, and take +1d on any story
+    rolls pertaining to what you know or story details you add.</p>
   notes:
     description: <p><em>Write down your wises here.</em></p>
     label: Wises

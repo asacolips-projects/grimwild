@@ -8,7 +8,7 @@ system:
     <p>You are known to other witches by a title and the power inherent in your
     magical domain—your Bailiwick. Choose 1 <strong>word of power</strong>. You
     can burn any other word to use it, and on a critical, you regain the use of
-    all words.</p>
+    all words. [Witch Only]</p>
   core: false
   notes:
     description: >-
