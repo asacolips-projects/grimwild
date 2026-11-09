@@ -1,0 +1,44 @@
+folder: M9v17yUrFRF23cat
+name: Whisperknife
+type: arcana
+_id: ddB1N3CARBeHsRSh
+img: icons/weapons/daggers/dagger-curved-black.webp
+system:
+  description: >-
+    <p>When this knife is in flesh, the victim can't speak or otherwise make
+    noise. <em>No more last words.</em></p>
+  tier: minor
+  notes:
+    description: ''
+    label: ''
+  trackers: []
+  touchstones: silence—voice—hinder
+  limitations: ''
+  activation: being plunged into flesh.
+  sensories:
+    descriptors: absorbs light, tightening shadow
+    actions: faint echoes of the dead in your mind
+  palette:
+    - name: NIGHT BLACK
+      color: '#0d1117'
+    - name: MURKY GRAY
+      color: '#333842'
+    - name: ENCHANTED STEEL
+      color: '#4e5d6c'
+effects: []
+sort: 0
+ownership:
+  default: 0
+  nF9qxzj59Qn6fNSn: 3
+flags: {}
+_stats:
+  coreVersion: '14.369'
+  systemId: grimwild
+  systemVersion: 0.6.0
+  createdTime: 1794235425735
+  modifiedTime: 1794235425735
+  lastModifiedBy: UV77mtxQgW7KpS6B
+  compendiumSource: null
+  duplicateSource: null
+  exportSource: null
+_key: '!items!ddB1N3CARBeHsRSh'

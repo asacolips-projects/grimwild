@@ -1,0 +1,44 @@
+folder: M9v17yUrFRF23cat
+name: Cozy Ring
+type: arcana
+_id: k3CHJTwe0QCBJyZ3
+img: icons/equipment/finger/ring-band-engraved-scrolls-gold.webp
+system:
+  description: >-
+    <p>Those that wear this ring are protected from <em>uncomfortable</em>
+    temperatures, as if staying inside, bundled up in their own home.</p>
+  tier: minor
+  notes:
+    description: ''
+    label: ''
+  trackers: []
+  touchstones: comfort—home—enhance
+  limitations: ''
+  activation: slipping it on your finger.
+  sensories:
+    descriptors: woven copper, well-loved shine, gentle warmth
+    actions: remember a fond memory, smile wistfully
+  palette:
+    - name: WARM COPPER
+      color: '#975313'
+    - name: AUTUMN GLOW
+      color: '#a63a2b'
+    - name: SOFT EMERALD
+      color: '#1e5e43'
+effects: []
+sort: 0
+ownership:
+  default: 0
+  nF9qxzj59Qn6fNSn: 3
+flags: {}
+_stats:
+  coreVersion: '14.369'
+  systemId: grimwild
+  systemVersion: 0.6.0
+  createdTime: 1794235425735
+  modifiedTime: 1794235546906
+  lastModifiedBy: UV77mtxQgW7KpS6B
+  compendiumSource: null
+  duplicateSource: null
+  exportSource: null
+_key: '!items!k3CHJTwe0QCBJyZ3'

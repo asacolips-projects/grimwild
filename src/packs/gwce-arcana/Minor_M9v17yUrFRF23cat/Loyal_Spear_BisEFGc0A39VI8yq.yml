@@ -1,0 +1,44 @@
+folder: M9v17yUrFRF23cat
+name: Loyal Spear
+type: arcana
+_id: BisEFGc0A39VI8yq
+img: icons/weapons/polearms/spear-simple-hooked.webp
+system:
+  description: >-
+    <p>After being thrown, this spear can be recalled. It disappears in a puff
+    of arcane mist and reappears in your hand.</p>
+  tier: minor
+  notes:
+    description: ''
+    label: ''
+  trackers: []
+  touchstones: fling—return—summon
+  limitations: ''
+  activation: giving a sharp whistle after thrown.
+  sensories:
+    descriptors: polished shine, dried blood
+    actions: white knuckled grip, acts with owner as one
+  palette:
+    - name: Weathered Ash
+      color: '#8b7e74'
+    - name: Honor Brass
+      color: '#c5a059'
+    - name: Bloodied Steel
+      color: '#5c2e2e'
+effects: []
+sort: 0
+ownership:
+  default: 0
+  nF9qxzj59Qn6fNSn: 3
+flags: {}
+_stats:
+  coreVersion: '14.369'
+  systemId: grimwild
+  systemVersion: 0.6.0
+  createdTime: 1794235425735
+  modifiedTime: 1794235425735
+  lastModifiedBy: UV77mtxQgW7KpS6B
+  compendiumSource: null
+  duplicateSource: null
+  exportSource: null
+_key: '!items!BisEFGc0A39VI8yq'

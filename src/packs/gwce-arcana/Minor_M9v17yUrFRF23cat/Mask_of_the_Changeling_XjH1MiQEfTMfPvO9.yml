@@ -1,0 +1,44 @@
+folder: M9v17yUrFRF23cat
+name: Mask of the Changeling
+type: arcana
+_id: XjH1MiQEfTMfPvO9
+img: icons/equipment/head/mask-carved-wood-white.webp
+system:
+  description: >-
+    <p>Once per session, you can have this mask take the form of a face you've
+    seen recently, and meld with your own.</p>
+  tier: minor
+  notes:
+    description: ''
+    label: ''
+  trackers: []
+  touchstones: face—thief—transform
+  limitations: ''
+  activation: dragging your palm over your face.
+  sensories:
+    descriptors: eerie glance, surreal features
+    actions: shifting face, features soften like wax
+  palette:
+    - name: BLANK IVORY
+      color: '#e8e2ce'
+    - name: SHADOWY GRAY
+      color: '#5a6169'
+    - name: SHIFTING GRAY
+      color: '#b4b4b4'
+effects: []
+sort: 0
+ownership:
+  default: 0
+  nF9qxzj59Qn6fNSn: 3
+flags: {}
+_stats:
+  coreVersion: '14.369'
+  systemId: grimwild
+  systemVersion: 0.6.0
+  createdTime: 1794235425735
+  modifiedTime: 1794235677706
+  lastModifiedBy: UV77mtxQgW7KpS6B
+  compendiumSource: null
+  duplicateSource: null
+  exportSource: null
+_key: '!items!XjH1MiQEfTMfPvO9'

@@ -1,0 +1,44 @@
+folder: M9v17yUrFRF23cat
+name: Starlight Flask
+type: arcana
+_id: BUPpfeZ9RwZVwlK4
+img: icons/consumables/potions/potion-bottle-fumes-blue.webp
+system:
+  description: >-
+    <p>Once per session, you can unstopper this flask to have motes of light
+    scatter, illuminating the nearby areas.</p>
+  tier: minor
+  notes:
+    description: ''
+    label: ''
+  trackers: []
+  touchstones: light—curious—summon
+  limitations: ''
+  activation: shaking and uncorking the flask.
+  sensories:
+    descriptors: swirling mist, burst of light, shadows scatter
+    actions: mote hops to get your attention, sudden vertigo
+  palette:
+    - name: COSMIC INDIGO
+      color: '#1b1f38'
+    - name: SILVER GLINT
+      color: '#d1d7e0'
+    - name: SHINING LIGHT
+      color: '#eedda3'
+effects: []
+sort: 0
+ownership:
+  default: 0
+  nF9qxzj59Qn6fNSn: 3
+flags: {}
+_stats:
+  coreVersion: '14.369'
+  systemId: grimwild
+  systemVersion: 0.6.0
+  createdTime: 1794235425735
+  modifiedTime: 1794235425735
+  lastModifiedBy: UV77mtxQgW7KpS6B
+  compendiumSource: null
+  duplicateSource: null
+  exportSource: null
+_key: '!items!BUPpfeZ9RwZVwlK4'
