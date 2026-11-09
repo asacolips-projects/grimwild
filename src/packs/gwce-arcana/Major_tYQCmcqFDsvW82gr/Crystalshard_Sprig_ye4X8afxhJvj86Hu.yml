@@ -1,0 +1,54 @@
+folder: tYQCmcqFDsvW82gr
+name: Crystalshard Sprig
+type: arcana
+_id: ye4X8afxhJvj86Hu
+img: icons/weapons/wands/wand-carved-stone-shard.webp
+system:
+  description: >-
+    <p>You can brandish this rod (4d power pool) at a foe to freeze them in
+    place in crystal for a few moments.</p>
+  tier: major
+  notes:
+    description: ''
+    label: ''
+  trackers:
+    - type: pool
+      pool:
+        powerPool: true
+        diceNum: 4
+        max: 4
+      label: Brandish
+      points:
+        showSteps: false
+        value: 1
+        max: 1
+  touchstones: crystal—grow—hinder
+  limitations: ''
+  activation: using the primordial command word.
+  sensories:
+    descriptors: cracking quartz, deep earthen movement
+    actions: fingers turn cold, crystal grows nearby
+  palette:
+    - name: Uncut Amethyst
+      color: '#6e4a84'
+    - name: Prism White
+      color: '#eaf2f8'
+    - name: Raw Quartz
+      color: '#a9c2c9'
+effects: []
+sort: 0
+ownership:
+  default: 0
+  nF9qxzj59Qn6fNSn: 3
+flags: {}
+_stats:
+  coreVersion: '14.369'
+  systemId: grimwild
+  systemVersion: 0.6.0
+  createdTime: 1794236097515
+  modifiedTime: 1794236433663
+  lastModifiedBy: UV77mtxQgW7KpS6B
+  compendiumSource: null
+  duplicateSource: null
+  exportSource: null
+_key: '!items!ye4X8afxhJvj86Hu'

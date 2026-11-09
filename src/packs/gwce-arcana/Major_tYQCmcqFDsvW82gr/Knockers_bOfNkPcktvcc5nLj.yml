@@ -1,0 +1,44 @@
+folder: tYQCmcqFDsvW82gr
+name: Knockers
+type: arcana
+_id: bOfNkPcktvcc5nLj
+img: icons/equipment/feet/boots-armored-layered-steel.webp
+system:
+  description: >-
+    <p>These heavy steel boots can be used to unlock doors and other safeguarded
+    items.</p>
+  tier: major
+  notes:
+    description: ''
+    label: ''
+  trackers: []
+  touchstones: open—conspicuous—reveal
+  limitations: ''
+  activation: kicking the item you want to unlock.
+  sensories:
+    descriptors: jangling metal clasps, heavy stomping
+    actions: lumbering gait, urge to keep them shiny
+  palette:
+    - name: Heavy Metal
+      color: '#424242'
+    - name: Leather Straps
+      color: '#3b2a22'
+    - name: Polished Steel
+      color: '#b4b4b4'
+effects: []
+sort: 0
+ownership:
+  default: 0
+  nF9qxzj59Qn6fNSn: 3
+flags: {}
+_stats:
+  coreVersion: '14.369'
+  systemId: grimwild
+  systemVersion: 0.6.0
+  createdTime: 1794236097515
+  modifiedTime: 1794236097515
+  lastModifiedBy: UV77mtxQgW7KpS6B
+  compendiumSource: null
+  duplicateSource: null
+  exportSource: null
+_key: '!items!bOfNkPcktvcc5nLj'

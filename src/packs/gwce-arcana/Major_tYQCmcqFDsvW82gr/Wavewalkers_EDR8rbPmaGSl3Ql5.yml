@@ -1,0 +1,44 @@
+folder: tYQCmcqFDsvW82gr
+name: Wavewalkers
+type: arcana
+_id: EDR8rbPmaGSl3Ql5
+img: icons/equipment/feet/boots-leather-blue.webp
+system:
+  description: >-
+    <p>These shoes let you walk across water, as long as you keep moving. Once
+    you stop, the effect ends.</p>
+  tier: major
+  notes:
+    description: ''
+    label: ''
+  trackers: []
+  touchstones: water—momentum—traverse
+  limitations: ''
+  activation: taking a running leap directly on water.
+  sensories:
+    descriptors: wet wood, spray of ocean foam
+    actions: like walking on rubber, moving with waves
+  palette:
+    - name: Driftwood
+      color: '#857568'
+    - name: Foamy White
+      color: '#f4f7f6'
+    - name: Aqua Surf
+      color: '#6497b1'
+effects: []
+sort: 0
+ownership:
+  default: 0
+  nF9qxzj59Qn6fNSn: 3
+flags: {}
+_stats:
+  coreVersion: '14.369'
+  systemId: grimwild
+  systemVersion: 0.6.0
+  createdTime: 1794236097515
+  modifiedTime: 1794236097515
+  lastModifiedBy: UV77mtxQgW7KpS6B
+  compendiumSource: null
+  duplicateSource: null
+  exportSource: null
+_key: '!items!EDR8rbPmaGSl3Ql5'

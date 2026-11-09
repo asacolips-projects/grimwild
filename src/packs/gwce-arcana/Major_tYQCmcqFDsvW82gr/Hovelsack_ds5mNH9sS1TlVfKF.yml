@@ -1,0 +1,44 @@
+folder: tYQCmcqFDsvW82gr
+name: Hovelsack
+type: arcana
+_id: ds5mNH9sS1TlVfKF
+img: icons/containers/bags/sack-simple-leather-tan.webp
+system:
+  description: >-
+    <p>A bound fabric bag. When the twine is removed, it opens a portal leading
+    into a cozy, but sparsely-furnished room.</p>
+  tier: major
+  notes:
+    description: ''
+    label: ''
+  trackers: []
+  touchstones: space—room—summon
+  limitations: ''
+  activation: untying the twine.
+  sensories:
+    descriptors: unfolding landscape, faint jingle from bag
+    actions: urge to live simply
+  palette:
+    - name: Burlap
+      color: '#7d6246'
+    - name: Brown Twine
+      color: '#a4896a'
+    - name: Dark Void
+      color: '#0b0c10'
+effects: []
+sort: 0
+ownership:
+  default: 0
+  nF9qxzj59Qn6fNSn: 3
+flags: {}
+_stats:
+  coreVersion: '14.369'
+  systemId: grimwild
+  systemVersion: 0.6.0
+  createdTime: 1794236097515
+  modifiedTime: 1794236097515
+  lastModifiedBy: UV77mtxQgW7KpS6B
+  compendiumSource: null
+  duplicateSource: null
+  exportSource: null
+_key: '!items!ds5mNH9sS1TlVfKF'

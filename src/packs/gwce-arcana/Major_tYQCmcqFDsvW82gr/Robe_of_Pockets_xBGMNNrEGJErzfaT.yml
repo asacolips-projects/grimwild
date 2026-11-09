@@ -1,0 +1,54 @@
+folder: tYQCmcqFDsvW82gr
+name: Robe of Pockets
+type: arcana
+_id: xBGMNNrEGJErzfaT
+img: icons/equipment/chest/robe-layered-blue.webp
+system:
+  description: >-
+    <p>This patchwork robe produces a small, but useful object from its pockets
+    after the wearer closes their eyes and wishes for it. (4d power pool)</p>
+  tier: major
+  notes:
+    description: ''
+    label: ''
+  trackers:
+    - type: pool
+      pool:
+        powerPool: true
+        diceNum: 4
+        max: 4
+      label: Wishes
+      points:
+        showSteps: false
+        value: 1
+        max: 1
+  touchstones: pocket—trinket—create
+  limitations: ''
+  activation: thrusting a hand deep into a pocket.
+  sensories:
+    descriptors: mismatched patches, shifting folds
+    actions: endless hidden pockets with wrong items
+  palette:
+    - name: Velvet
+      color: '#4a2834'
+    - name: Old Ash
+      color: '#4f5d65'
+    - name: Aged Gold
+      color: '#bda265'
+effects: []
+sort: 0
+ownership:
+  default: 0
+  nF9qxzj59Qn6fNSn: 3
+flags: {}
+_stats:
+  coreVersion: '14.369'
+  systemId: grimwild
+  systemVersion: 0.6.0
+  createdTime: 1794236097515
+  modifiedTime: 1794236523965
+  lastModifiedBy: UV77mtxQgW7KpS6B
+  compendiumSource: null
+  duplicateSource: null
+  exportSource: null
+_key: '!items!xBGMNNrEGJErzfaT'

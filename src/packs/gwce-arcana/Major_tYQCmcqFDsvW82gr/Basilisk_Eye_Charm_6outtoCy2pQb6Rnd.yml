@@ -1,0 +1,54 @@
+folder: tYQCmcqFDsvW82gr
+name: Basilisk Eye Charm
+type: arcana
+_id: 6outtoCy2pQb6Rnd
+img: icons/equipment/neck/amulet-carved-stone-eye.webp
+system:
+  description: >-
+    <p>Once per session, you can turn a creature that sees it to stone,
+    returning with a 6d timer.</p>
+  tier: major
+  notes:
+    description: ''
+    label: ''
+  trackers:
+    - type: pool
+      pool:
+        powerPool: false
+        diceNum: 6
+        max: 6
+      label: Timer
+      points:
+        showSteps: false
+        value: 1
+        max: 1
+  touchstones: stone—flesh—hinder
+  limitations: ''
+  activation: holding the charm aloft
+  sensories:
+    descriptors: dull yellow pulse, creeping stone on flesh
+    actions: limbs feel heavy
+  palette:
+    - name: Jade Scales
+      color: '#2d5a27'
+    - name: Stone Gray
+      color: '#7a828a'
+    - name: Yellow Eye
+      color: '#c98a26'
+effects: []
+sort: 0
+ownership:
+  default: 0
+  nF9qxzj59Qn6fNSn: 3
+flags: {}
+_stats:
+  coreVersion: '14.369'
+  systemId: grimwild
+  systemVersion: 0.6.0
+  createdTime: 1794236097515
+  modifiedTime: 1794236389667
+  lastModifiedBy: UV77mtxQgW7KpS6B
+  compendiumSource: null
+  duplicateSource: null
+  exportSource: null
+_key: '!items!6outtoCy2pQb6Rnd'
