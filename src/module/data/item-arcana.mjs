@@ -21,10 +21,10 @@ export default class GrimwildArcana extends GrimwildItemBase {
 		schema.tier = new fields.StringField({
 			initial: "minor",
 			choices: {
-				trivial: "Trivial",
-				minor: "Minor",
-				major: "Major",
-				mythic: "Mythic"
+				trivial: game.i18n.localize("GRIMWILD.Arcana.trivial"),
+				minor: game.i18n.localize("GRIMWILD.Arcana.minor"),
+				major: game.i18n.localize("GRIMWILD.Arcana.major"),
+				mythic: game.i18n.localize("GRIMWILD.Arcana.mythic")
 			}
 		});
 

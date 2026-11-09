@@ -24,7 +24,7 @@
 				</div>
 				<!-- Tier (ARCANA ONLY) -->
 				<div v-if="context.item.type === 'arcana'" class="item-tier form-group">
-					<span class="item-tier-badge">{{ context.system.tier }}</span>
+					<span class="item-tier-badge">{{ game.i18n.localize(`GRIMWILD.Arcana.${context.system.tier ?? "minor"}`) }}</span>
 				</div>
 				<!-- Challenge Pool (CHALLENGES ONLY) -->
 				<div v-if="context.item.type === 'challenge'" class="form-group">

@@ -103,6 +103,11 @@ GRIMWILD:
     toggles: Toggles
     text: Text
     suspense: Suspense
+  Arcana:
+    trivial: Trivial
+    minor: Minor
+    major: Major
+    mythic: Mythic
   UI:
     details: Details
     View: View

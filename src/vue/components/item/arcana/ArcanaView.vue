@@ -7,7 +7,7 @@
     <header class="arcana-view-header">
       <img class="arcana-view-img" :src="context.item.img" :alt="context.item.name"/>
       <h2 class="arcana-view-name">{{ context.item.name }}</h2>
-      <span class="arcana-view-tier">{{ context.system.tier }}</span>
+      <span class="arcana-view-tier">{{ game.i18n.localize(`GRIMWILD.Arcana.${context.system.tier ?? "minor"}`) }}</span>
     </header>
     <ColorBar :colors="context.system.palette"/>
     <!-- Details -->
