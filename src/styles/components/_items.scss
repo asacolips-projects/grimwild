@@ -158,3 +158,21 @@
 	flex: 0 0 200px;
 	padding: 0 8px;
 }
+
+// Arcana tier badge, top right of the item header.
+.item-tier {
+	display: flex;
+	justify-content: flex-end;
+	align-items: flex-start;
+}
+
+.item-tier-badge {
+	text-transform: uppercase;
+	font-size: 11px;
+	letter-spacing: 1px;
+	font-weight: bold;
+	padding: 2px 8px;
+	border: 1px solid #c9c7b8;
+	border-radius: 3px;
+	background: rgba(0, 0, 0, 0.04);
+}

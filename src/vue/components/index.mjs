@@ -25,5 +25,6 @@ export { default as Tabs } from "@/components/parts/Tabs.vue";
 export { default as Tab } from "@/components/parts/Tab.vue";
 export { default as Prosemirror } from "@/components/parts/Prosemirror.vue";
 export { default as ColorPicker } from "@/components/parts/ColorPicker.vue";
+export { default as ColorBar } from "@/components/parts/ColorBar.vue";
 export { default as RollPoolInput } from "@/components/parts/RollPoolInput.vue";
 export { default as ItemRow } from "@/components/parts/ItemRow.vue";

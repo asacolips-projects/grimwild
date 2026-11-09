@@ -201,6 +201,12 @@ GRIMWILD:
           label: Tier
         touchstones:
           label: Touchstones
+        activation:
+          label: Activation
+        palette:
+          label: Palette
+        sensories:
+          label: Sensories
         limitations:
           label: Limitations
         notes:
@@ -220,6 +226,9 @@ GRIMWILD:
           label: Quantity
         weight:
           label: Weight
+      Descriptors: Descriptors
+      Actions: Actions
+      PaletteName: Color name
     base:
       FIELDS:
         description:

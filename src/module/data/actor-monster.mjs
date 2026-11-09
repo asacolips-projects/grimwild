@@ -1,5 +1,5 @@
 import GrimwildActorBase from "./base-actor.mjs";
-import { DicePoolField, CrucibleTableField } from "../helpers/schema.mjs";
+import { DicePoolField, CrucibleTableField, PaletteField } from "../helpers/schema.mjs";
 
 export default class GrimwildMonster extends GrimwildActorBase {
 	static LOCALIZATION_PREFIXES = [
@@ -28,10 +28,7 @@ export default class GrimwildMonster extends GrimwildActorBase {
 		}));
 
 		schema.sensories = new fields.SchemaField({
-			colors: new fields.ArrayField(new fields.SchemaField({
-				name: new fields.StringField(),
-				color: new fields.ColorField()
-			})),
+			colors: new PaletteField(),
 			sights: new fields.StringField(),
 			sounds: new fields.StringField(),
 			smells: new fields.StringField()

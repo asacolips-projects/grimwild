@@ -5,6 +5,8 @@
 			<!-- Header -->
 			<section class="grimwild-main flexcol grid-span-3">
 				<ItemHeader :context="context" />
+				<!-- Palette (ARCANA ONLY) -->
+				<ColorBar v-if="context.item.type === 'arcana'" :colors="context.system.palette"/>
 
 				<div class="section--main flexcol">
 					<!-- Tab links -->
@@ -57,7 +59,8 @@ import {
 	ItemDescription,
 	ItemAttributes,
 	Prosemirror,
-	ArcanaDetails
+	ArcanaDetails,
+	ColorBar
 } from "@/components";
 import { useTabs } from "@/composables/useTabs";
 

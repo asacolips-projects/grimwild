@@ -1,4 +1,4 @@
-import { DicePoolField } from "../helpers/schema.mjs";
+import { DicePoolField, PaletteField } from "../helpers/schema.mjs";
 import GrimwildItemBase from "./base-item.mjs";
 
 export default class GrimwildArcana extends GrimwildItemBase {
@@ -19,8 +19,26 @@ export default class GrimwildArcana extends GrimwildItemBase {
 
 		// Arcana type.
 		schema.tier = new fields.StringField({
-			initial: "minor"
+			initial: "minor",
+			choices: {
+				minor: "Minor",
+				major: "Major",
+				mythic: "Mythic"
+			}
 		});
+
+		// Palette: colors associated with the item or its power.
+		schema.palette = new PaletteField();
+
+		// Sensories: descriptors for how the item looks, feels, or sounds, and
+		// actions to help bring the item into the scene.
+		schema.sensories = new fields.SchemaField({
+			descriptors: new fields.StringField(optionalString),
+			actions: new fields.StringField(optionalString)
+		});
+
+		// Activation: the unique method to channel magic from the item.
+		schema.activation = new fields.StringField(optionalString);
 
 		// Arbitrary notes.
 		schema.notes = new fields.SchemaField({
@@ -55,6 +73,18 @@ export default class GrimwildArcana extends GrimwildItemBase {
 		}));
 
 		return schema;
+	}
+
+	prepareBaseData() {
+		// Ensure three palette slots exist.
+		for (let i = 0; i < 3; i++) {
+			if (!this.palette[i]) {
+				this.palette[i] = {
+					name: "",
+					color: ""
+				};
+			}
+		}
 	}
 
 	prepareDerivedData() {}

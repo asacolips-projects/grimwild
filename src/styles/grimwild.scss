@@ -18,6 +18,7 @@
 /* Styles limited to grimwild sheets */
 .grimwild {
   @import 'components/forms';
+  @import 'components/color-bar';
   @import 'components/items';
   @import 'components/effects';
   @import 'components/crucible';

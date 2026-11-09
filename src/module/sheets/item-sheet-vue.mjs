@@ -71,6 +71,19 @@ export class GrimwildItemSheetVue extends VueRenderingMixin(GrimwildBaseVueItemS
 		// Handle tabs.
 		this._prepareTabs(context);
 
+		// Expose color picker metadata for the arcana palette. Exposed as
+		// metadata only; the ColorPicker component creates the element for
+		// editable sheets.
+		if (this.document.type === "arcana") {
+			context.customElements = {};
+			for (const [colorKey, color] of (this.document.system.palette ?? []).entries()) {
+				context.customElements[`system.palette.${colorKey}.color`] = {
+					name: `system.palette.${colorKey}.color`,
+					value: color.color
+				};
+			}
+		}
+
 		// Handle enriched fields.
 		const enrichmentOptions = {
 			// Whether to show secret blocks in the finished html

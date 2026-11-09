@@ -1,14 +1,7 @@
 <template>
 	<div :class="`grimwild-vue standard-form flexcol`">
-		<!-- Colors (MONSTERS ONLY) -->
-		<div v-if="context.actor.type === 'monster'" class="monster-colors flexrow">
-			<template v-for="(color, colorKey) in context.system.sensories.colors" :key="colorKey">
-				<div v-if="color.color" class="monster-color-wrapper">
-					<div class="monster-color" :style="`background-color:${color.color}`"></div>
-					<div v-if="color.name" class="monster-color-name">{{ color.name }}</div>
-				</div>
-			</template>
-		</div>
+		<!-- Palette (MONSTERS ONLY) -->
+		<ColorBar v-if="context.actor.type === 'monster'" :colors="context.system.sensories.colors"/>
 		<div class="grimwild-sheet-layout flexcol">
 			<MonsterHeader :context="context" />
 
@@ -62,7 +55,8 @@ import {
 	MonsterTables,
 	MonsterTraitsMoves,
 	MonsterDesires,
-	Prosemirror
+	Prosemirror,
+	ColorBar
 } from "@/components";
 import { useTabs } from "@/composables/useTabs";
 

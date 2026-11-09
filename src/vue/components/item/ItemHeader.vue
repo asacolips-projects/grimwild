@@ -20,6 +20,10 @@
 					<label>{{ game.i18n.localize('Name') }}</label>
 					<input type="text" name="name" v-model="context.item.name" :placeholder="game.i18n.localize('Name')"/>
 				</div>
+				<!-- Tier (ARCANA ONLY) -->
+				<div v-if="context.item.type === 'arcana'" class="item-tier form-group">
+					<span class="item-tier-badge">{{ context.system.tier }}</span>
+				</div>
 				<!-- Challenge Pool (CHALLENGES ONLY) -->
 				<div v-if="context.item.type === 'challenge'" class="form-group">
 					<!-- Pool -->
