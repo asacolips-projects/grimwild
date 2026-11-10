@@ -6,6 +6,7 @@ jsconfig.json
 foundry
 foundry-config.yaml
 .DS_Store
+.zcode
 
 # Important files
 .env
