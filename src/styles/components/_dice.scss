@@ -5,22 +5,20 @@ h2 {
 
 &.crit h2,
 &.perfect h2 {
-	body.theme-dark & {
-		color: #00bd00;
-	}
+	color: var(--grimwild-c-dice-perfect);
 
+	body.theme-dark &,
 	body.theme-light & {
-		color: #007a00;
+		color: var(--grimwild-c-dice-perfect);
 	}
 }
 
 &.messy h2 {
-	body.theme-dark & {
-		color: #ffd400;
-	}
+	color: var(--grimwild-c-dice-messy);
 
+	body.theme-dark &,
 	body.theme-light & {
-		color: #d68c03;
+		color: var(--grimwild-c-dice-messy);
 	}
 }
 
@@ -35,12 +33,11 @@ h2 {
 }
 
 &.disaster h2 {
-	body.theme-dark & {
-		color: #ff5c37;
-	}
+	color: var(--grimwild-c-dice-cut);
 
+	body.theme-dark &,
 	body.theme-light & {
-		color: #9c1e01;
+		color: var(--grimwild-c-dice-cut);
 	}
 }
 

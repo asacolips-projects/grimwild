@@ -3,7 +3,11 @@
 		<ol class="items-list grid-span-3">
 			<!-- Header row -->
 			<li class="flexrow items-header stroke stroke-bottom">
-				<div class="item-name">Arcana Name</div>
+				<div class="item-name">{{ game.i18n.localize("GRIMWILD.Item.Arcana.Header") }}</div>
+				<!-- Slots (CE OPTIONAL RULE) -->
+				<div v-if="context.encumbranceEnabled" class="encumbrance-slots form-group stacked">
+					<div>{{ game.i18n.localize("GRIMWILD.Encumbrance.label") }}: <span :class="`encumbrance-current ${encumbranceClass}`">{{ slotsUsed }} / {{ slotsMax }}</span></div>
+				</div>
 				<div class="item-controls">
 					<template v-if="context.editable">
 						<button class="item-control item-create"
@@ -64,7 +68,10 @@
 
 <script setup>
 import { ItemRow, ColorBar } from "@/components";
+import { useEncumbrance } from "@/composables/useEncumbrance.mjs";
 const props = defineProps(["actor", "context"]);
+
+const { slotsUsed, slotsMax, encumbranceClass } = useEncumbrance(props.context);
 
 /**
  * Get the field label for an item.

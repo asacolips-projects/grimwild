@@ -1,6 +1,6 @@
 import VueRenderingMixin from "./_vue/_vue-application-mixin.mjs";
 import { GrimwildBaseVueActorSheet } from "./_vue/_base-vue-actor-sheet.mjs";
-import { createArrayEntry, deleteArrayEntry, rollPoolDice } from "./_vue/_shared-actions.mjs";
+import { createArrayEntry, deleteArrayEntry, rollPoolDice, updateItemTracker, rollItemTrackerPool } from "./_vue/_shared-actions.mjs";
 import { DocumentSheetVue } from "../../vue/components.vue.es.mjs";
 
 const { DOCUMENT_OWNERSHIP_LEVELS } = CONST;
@@ -27,6 +27,10 @@ export class GrimwildActorSheetVue extends VueRenderingMixin(GrimwildBaseVueActo
 				"description",
 				"notes.description",
 				"limitations"
+			],
+			gear: [
+				"description",
+				"notes.description"
 			]
 		}
 	};
@@ -39,7 +43,7 @@ export class GrimwildActorSheetVue extends VueRenderingMixin(GrimwildBaseVueActo
 		editPermission: DOCUMENT_OWNERSHIP_LEVELS.OWNER,
 		position: {
 			width: 820,
-			height: 750
+			height: 760
 		},
 		window: {
 			resizable: true
@@ -158,6 +162,18 @@ export class GrimwildActorSheetVue extends VueRenderingMixin(GrimwildBaseVueActo
 			context.ceRulesEnabled = true;
 		}
 
+		// Handle the CE optional encumbrance rules. Each gates its own
+		// character sheet display.
+		if (game.settings.get("grimwild", "enableEncumbrance")) {
+			context.encumbranceEnabled = true;
+		}
+		if (game.settings.get("grimwild", "enableCoins")) {
+			context.coinsEnabled = true;
+		}
+		if (game.settings.get("grimwild", "enableSupplies")) {
+			context.suppliesEnabled = true;
+		}
+
 		Hooks.callAll("grimwildActorSheetVuePrepareContext", this, context);
 
 		return context;
@@ -246,6 +262,12 @@ export class GrimwildActorSheetVue extends VueRenderingMixin(GrimwildBaseVueActo
 			context.tabs.primary.talents = {
 				key: "talents",
 				label: game.i18n.localize("GRIMWILD.Actor.Tabs.Talents"),
+				active: false
+			};
+
+			context.tabs.primary.gear = {
+				key: "gear",
+				label: game.i18n.localize("GRIMWILD.Actor.Tabs.Gear"),
 				active: false
 			};
 
@@ -386,49 +408,7 @@ export class GrimwildActorSheetVue extends VueRenderingMixin(GrimwildBaseVueActo
 	 * @private
 	 */
 	static async _updateItemTracker(event, target) {
-		event.preventDefault();
-		// Retrieve props.
-		const {
-			itemId,
-			trackerKey,
-			value,
-			trackerValue
-		} = target.dataset;
-
-		// Only push an update if we need one. Assume we don't.
-		let changes = false;
-
-		// Retrieve the item and tracker.
-		const item = this.document.items.get(itemId);
-		if (!item) return;
-		const trackers = item.system.trackers;
-		const tracker = trackers?.[trackerKey];
-		if (!tracker) return;
-
-		// Handle point tracker updates.
-		if (tracker.type === "points") {
-			if (!trackerValue || !value) {
-				tracker.points.value = Number(target.value);
-			}
-			else {
-				tracker.points.value = (value === trackerValue)
-					? Number(value) - 1
-					: Number(value);
-			}
-			if (tracker.points.value < 0) tracker.points.value = 0;
-			changes = true;
-		}
-		// Handle pool tracker updates.
-		else if (tracker.type === "pool") {
-			tracker.pool.diceNum = Number(target.value);
-			changes = true;
-		}
-
-		// Push the update if one is needed.
-		if (changes) {
-			trackers[trackerKey] = tracker;
-			await item.update({ "system.trackers": trackers });
-		}
+		await updateItemTracker(this, event, target);
 	}
 
 	/**
@@ -447,147 +427,36 @@ export class GrimwildActorSheetVue extends VueRenderingMixin(GrimwildBaseVueActo
 			key
 		} = target.dataset;
 
-		// Prepare variables.
-		let item = null;
-		let tracker = null;
-		let pool = null;
-		let rollData = {};
-		let fieldData = null;
-		let droppedCount = 0;
-		const update = {};
-
-		// Handle item pools (talents).
+		// Tracker pools on embedded items (shared with item sheets).
 		if (itemId) {
-			item = this.document.items.get(itemId);
-			if (!item) return;
-			const trackers = item.system.trackers;
-			tracker = trackers?.[key];
-			if (!tracker) return;
-			pool = tracker.pool;
-			rollData = item.getRollData();
+			await rollItemTrackerPool(this, itemId, key);
+			return;
 		}
+
 		// Handle condition pools.
-		else {
-			fieldData = this.document.system?.[field] ?? null;
-			if (!fieldData) return;
-			pool = key !== undefined ? fieldData[key]?.pool : fieldData?.pool;
-			if (!pool.diceNum) return;
-		}
+		const fieldData = this.document.system?.[field] ?? null;
+		if (!fieldData) return;
+		const pool = key !== undefined ? fieldData[key]?.pool : fieldData?.pool;
+		if (!pool.diceNum) return;
 
-		// Handle roll.
+		// Roll the pool and shed dropped dice.
 		if (pool.diceNum > 0) {
-			if (itemId && tracker && tracker.pool.powerPool) {
-				const options = {};
-				const rollData = this.actor.getRollData();
-				const rollDialog = await grimwild.applications.GrimwildRollDialog.open({
-					rollData: {
-						name: this.actor.name,
-						spark: rollData?.spark,
-						stat: null,
-						diceLabel: `[${item.name}] ${tracker.label}`,
-						diceDefault: pool.diceNum,
-						isBloodied: rollData?.isBloodied,
-						isRattled: rollData?.isRattled,
-						isDesperate: rollData?.isDesperate,
-						isMarked: false,
-						actor: this.actor
-					}
-				});
-				if (rollDialog === null) {
-					return;
-				}
-
-				rollData.thorns = rollDialog.thorns;
-				rollData.statDice = rollDialog.dice;
-				options.assists = rollDialog.assisters;
-				options.pool = tracker.pool;
-				const formula = `{${rollData.statDice}d6kh, ${rollData.thorns}d8}`;
-				const roll = new grimwild.roll(formula, rollData, options);
-				const result = await roll.evaluate();
-				// Limit to just the pool dice when checking for dropped dice.
-				const dice = result.dice[0].results.slice(0, pool.diceNum);
-				droppedCount = dice.filter((die) => die.result < 4).length;
-
-				// Add spark to the update.
-				if (rollDialog.sparkUsed > 0) {
-					let sparkUsed = rollDialog.sparkUsed;
-					const newSpark = {
-						steps: this.document.system.spark.steps
-					};
-					// All of your spark is used.
-					if (sparkUsed > 1 || this.document.system.spark.value === 1) {
-						newSpark.steps[0] = false;
-						newSpark.steps[1] = false;
-					}
-					// If half of your spark is used.
-					else if (sparkUsed === 1 && this.document.system.spark.value > 1) {
-						newSpark.steps[0] = true;
-						newSpark.steps[1] = false;
-					}
-					update["system.spark"] = newSpark;
-				}
-
-				// Initialize chat data.
-				const speaker = ChatMessage.getSpeaker({ actor: this.actor });
-				const label = `[${item.name}] ${tracker.label}`;
-				// Send to chat.
-				const msg = await roll.toMessage({
-					speaker: speaker,
-					flavor: label
-				});
-				// Wait for Dice So Nice if enabled.
-				if (game.dice3d && msg?.id) {
-					await game.dice3d.waitFor3DAnimationByMessageID(msg.id);
-				}
-				// Update the action count.
-				for (const combat of game.combats) {
-					const combatant = combat?.getCombatantsByActor(this.actor.id)?.[0] || null;
-					if (combatant) {
-						const actionCount = Number(combatant.flags?.grimwild?.actionCount ?? 0);
-						await combatant.setFlag("grimwild", "actionCount", actionCount + 1);
-						update["system.tokenActions.value"] = Math.max(this.actor.system.tokenActions.value - 1, 0);
-
-						// Update the active turn.
-						const combatantTurn = combat.turns.findIndex((c) => c.id === combatant.id);
-						if (combatantTurn !== undefined) {
-							combat.update({ turn: combatantTurn });
-						}
-					}
-				}
-			}
-			else {
-				const label = item
-					? `[${item.type}] ${item.name}`
-					: `[${field}] ${fieldData[key]?.name ?? ""}`;
-				droppedCount = await rollPoolDice({
-					diceNum: pool.diceNum,
-					rollData,
-					speaker: ChatMessage.getSpeaker({ actor: this.actor }),
-					label
-				});
-			}
+			const label = `[${field}] ${fieldData[key]?.name ?? ""}`;
+			const droppedCount = await rollPoolDice({
+				diceNum: pool.diceNum,
+				speaker: ChatMessage.getSpeaker({ actor: this.actor }),
+				label
+			});
 
 			// Recalculate the pool value.
 			pool.diceNum -= droppedCount;
-			// Update the item.
-			if (item) {
-				await item.update({ "system.trackers": item.system.trackers });
+			if (key !== undefined) {
+				fieldData[key].pool = pool;
 			}
-			// Otherwise, update the condition.
-			else if (fieldData) {
-				if (key !== undefined) {
-					fieldData[key].pool = pool;
-				}
-				else {
-					fieldData.pool = pool;
-				}
-				update[`system.${field}`] = fieldData;
+			else {
+				fieldData.pool = pool;
 			}
-
-			// Handle actor updates.
-			if (Object.keys(update).length > 0) {
-				await this.document.update(update);
-			}
+			await this.document.update({ [`system.${field}`]: fieldData });
 		}
 	}
 

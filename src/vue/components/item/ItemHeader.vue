@@ -22,9 +22,10 @@
 					<label>{{ game.i18n.localize('Name') }}</label>
 					<input type="text" name="name" v-model="context.item.name" :placeholder="game.i18n.localize('Name')"/>
 				</div>
-				<!-- Tier (ARCANA ONLY) -->
-				<div v-if="context.item.type === 'arcana'" class="item-tier form-group">
-					<span class="item-tier-badge">{{ game.i18n.localize(`GRIMWILD.Arcana.${context.system.tier ?? "minor"}`) }}</span>
+				<!-- Slot size (GEAR ONLY) -->
+				<div v-if="context.encumbranceEnabled && context.systemFields.slotSize" class="item-slots form-group stacked">
+					<label>{{ context.systemFields.slotSize.label }}</label>
+					<input type="number" name="system.slotSize" v-model="context.system.slotSize" min="0" step="0.5"/>
 				</div>
 				<!-- Challenge Pool (CHALLENGES ONLY) -->
 				<div v-if="context.item.type === 'challenge'" class="form-group">

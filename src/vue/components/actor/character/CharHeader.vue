@@ -105,8 +105,9 @@
 				</div>
 			</div>
 		</div>
-		<!-- Spark / Story -->
+		<!-- Spark / Story / Coins -->
 		<div class="metacurrency-fields flexcol">
+			<!-- Spark -->
 			<div class="spark form-group stacked">
 				<label><i class="fas fa-bolt"></i> {{ context.systemFields.spark.label }}</label>
 				<div class="form-inputs">
@@ -120,6 +121,7 @@
 					/>
 				</div>
 			</div>
+			<!-- Story / Thread -->
 			<div class="story form-group stacked">
 				<label><i class="fas fa-book"></i> {{ context.systemFields.story.label }}</label>
 				<div class="form-inputs">
@@ -132,6 +134,19 @@
 						v-model="context.system.story.steps[1]"
 					/>
 				</div>
+			</div>
+			<!-- Coins (CE OPTIONAL RULE) -->
+			<div v-if="context.coinsEnabled" class="encumbrance-coins form-group stacked">
+				<label>{{ context.systemFields.coins.label }}</label>
+				<RollPoolInput
+					button-action="rollPool"
+					field="coins"
+					field-name="system.coins.pool.diceNum"
+					:pool="context.system.coins.pool"
+					min="0"
+					max="8"
+					suffix="/ 8"
+				/>
 			</div>
 		</div>
 	</header>

@@ -7,6 +7,7 @@
 		padding: 0 0 8px;
 		align-items: center;
 		font-weight: bold;
+		gap: 16px;
 		// border-bottom: 2px solid;
 
 		.item-name {
@@ -62,6 +63,16 @@
 			margin: 0;
 			white-space: nowrap;
 			overflow-x: hidden;
+		}
+	}
+
+	// Supplies
+	.item-supplies {
+		flex-wrap: nowrap;
+		gap: 4px;
+
+		.roll-pool {
+			gap: 4px;
 		}
 	}
 
@@ -175,4 +186,13 @@
 	border: 1px solid #c9c7b8;
 	border-radius: 3px;
 	background: rgba(0, 0, 0, 0.04);
+}
+
+// Slot size chip on item rows (gear, arcana).
+.item-slots {
+	font-size: 11px;
+	letter-spacing: 0.5px;
+	color: #8a8a8a;
+	white-space: nowrap;
+	padding: 0 6px;
 }

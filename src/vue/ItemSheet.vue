@@ -2,23 +2,34 @@
 	<div :class="`grimwild-vue standard-form flexcol`">
 		<div class="grimwild-sheet-layout flexcol">
 			<!-- View mode: read-only stat block. The view branch is the base
-				pattern for document sheets: other doc types add a view component
-				and drop the arcana gate. -->
-			<ArcanaView v-if="showView" :context="context">
-				<template #actions>
-					<ViewModeToggle v-if="context.editable"
-						:active="!viewMode"
-						:label="viewMode ? editLabel : viewLabel"
-						@toggle="toggleViewMode"
-					/>
-				</template>
-			</ArcanaView>
+				pattern for document sheets: other doc types add a view component.
+				hasViewMode (from the sheet class) gates which types get it. -->
+			<template v-if="showView">
+				<ArcanaView v-if="context.item.type === 'arcana'" :context="context">
+					<template #actions>
+						<ViewModeToggle v-if="context.editable"
+							:active="!viewMode"
+							:label="viewMode ? editLabel : viewLabel"
+							@toggle="toggleViewMode"
+						/>
+					</template>
+				</ArcanaView>
+				<GearView v-if="context.item.type === 'gear'" :context="context">
+					<template #actions>
+						<ViewModeToggle v-if="context.editable"
+							:active="!viewMode"
+							:label="viewMode ? editLabel : viewLabel"
+							@toggle="toggleViewMode"
+						/>
+					</template>
+				</GearView>
+			</template>
 
 			<!-- Edit mode -->
 			<section v-else class="grimwild-main flexcol grid-span-3">
 				<ItemHeader :context="context">
 					<template #actions>
-						<ViewModeToggle v-if="context.item.type === 'arcana' && context.editable"
+						<ViewModeToggle v-if="context.hasViewMode && context.editable"
 							:active="!viewMode"
 							:label="viewMode ? editLabel : viewLabel"
 							@toggle="toggleViewMode"
@@ -50,8 +61,9 @@
 							</fieldset>
 						</Tab>
 
-						<!-- Attack fields -->
-						<Tab group="primary" :tab="tabs.primary.attributes">
+						<!-- Attack fields. Guarded: not every type defines the tab in
+							_prepareTabs, and Tab.vue cannot handle an undefined tab. -->
+						<Tab v-if="tabs.primary.attributes" group="primary" :tab="tabs.primary.attributes">
 							<!-- Arcana Details -->
 							<ArcanaDetails v-if="context.item.type === 'arcana'" :context="context"/>
 							<!-- Trackers -->
@@ -82,6 +94,7 @@ import {
 	Prosemirror,
 	ArcanaDetails,
 	ArcanaView,
+	GearView,
 	ColorBar,
 	ViewModeToggle
 } from "@/components";
@@ -97,7 +110,7 @@ const tabs = useTabs(props.context);
 const viewMode = ref(true);
 const viewLabel = game.i18n.localize("GRIMWILD.UI.View");
 const editLabel = game.i18n.localize("GRIMWILD.UI.Edit");
-const showView = computed(() => props.context.item.type === "arcana" && viewMode.value);
+const showView = computed(() => props.context.hasViewMode && viewMode.value);
 
 /**
  * Toggle the sheet between the read-only view and the edit form.

@@ -165,6 +165,18 @@ header.sheet-header {
 			> * {
 				padding: 0;
 			}
+
+			.roll-pool {
+				flex: 0 0 auto;
+			}
+		}
+
+		> .story,
+		> .spark {
+			> label,
+			> .form-inputs {
+				flex: 0 0 auto;
+			}
 		}
 	}
 }

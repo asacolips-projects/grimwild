@@ -43,6 +43,11 @@
 							<CharArcana :actor="context.actor" :context="context"/>
 						</Tab>
 
+						<!-- Gear -->
+						<Tab v-if="context.actor.type === 'character'" group="primary" :tab="tabs.primary.gear">
+							<CharGear :actor="context.actor" :context="context"/>
+						</Tab>
+
 						<!-- @todo Active effects disabled for now. -->
 						<!-- Active Effect Fields (re-add CharEffects to the imports when re-enabling) -->
 						<!-- <Tab group="primary" :tab="tabs.primary.effects">
@@ -65,6 +70,7 @@ import {
 	CharDetails,
 	CharTalents,
 	CharArcana,
+	CharGear,
 	Prosemirror
 } from "@/components";
 import { useTabs } from "@/composables/useTabs";

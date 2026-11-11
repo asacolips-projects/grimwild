@@ -7,6 +7,7 @@
     <header class="arcana-view-header">
       <img class="arcana-view-img" :src="context.item.img" :alt="context.item.name"/>
       <h2 class="arcana-view-name">{{ context.item.name }}</h2>
+      <span v-if="context.encumbranceEnabled" class="gear-view-slots">{{ slotLabel(context.system.slotSize) }}</span>
       <span class="arcana-view-tier">{{ game.i18n.localize(`GRIMWILD.Arcana.${context.system.tier ?? "minor"}`) }}</span>
     </header>
     <ColorBar :colors="context.system.palette"/>
@@ -37,13 +38,21 @@
       <strong>{{ context.system.notes.label.length > 0 ? context.system.notes.label : context.systemFields.notes.label }}:</strong>
       <div v-html="context.editors['system.notes.description'].enriched"></div>
     </div>
+    <!-- Trackers. The stroke classes merge onto the TrackersRow root via
+        Vue's attribute fallthrough. -->
+    <TrackersRow v-if="context.item.system?.trackers?.length > 0" :item-id="itemDocument.id" :trackers="context.item.system.trackers" class="stroke stroke-top"/>
   </article>
 </template>
 
 <script setup>
+import { inject } from "vue";
+import { slotLabel } from "@/format.mjs";
 import {
-	ColorBar
+	ColorBar,
+	TrackersRow
 } from "@/components";
 
 const props = defineProps(["context"]);
+// The full item document (non-reactive), provided by the sheet class.
+const itemDocument = inject("rawDocument", props.context.item);
 </script>

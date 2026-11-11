@@ -1,6 +1,6 @@
 import VueRenderingMixin from "./_vue/_vue-application-mixin.mjs";
 import { GrimwildBaseVueItemSheet } from "./_vue/_base-vue-item-sheet.mjs";
-import { createArrayEntry, deleteArrayEntry, rollPoolDice } from "./_vue/_shared-actions.mjs";
+import { createArrayEntry, deleteArrayEntry, rollPoolDice, updateItemTracker, rollItemTrackerPool } from "./_vue/_shared-actions.mjs";
 import { ItemSheetVue } from "../../vue/components.vue.es.mjs";
 
 const { DOCUMENT_OWNERSHIP_LEVELS } = CONST;
@@ -36,15 +36,52 @@ export class GrimwildItemSheetVue extends VueRenderingMixin(GrimwildBaseVueItemS
 			deleteTracker: this._deleteTracker,
 			createArrayEntry: this._createArrayEntry,
 			deleteArrayEntry: this._deleteArrayEntry,
+			updateItemTracker: this._updateItemTracker,
 			rollPool: this._rollPool
 			// @TODO restore when crucibles are added back to talents.
 			// rollCrucible: this._rollCrucible
+		},
+		changeActions: {
+			updateItemTracker: this._updateItemTracker
 		},
 		form: {
 			submitOnChange: true,
 			submitOnClose: true
 		}
 	};
+
+	/**
+	 * Attach listeners to the application frame.
+	 */
+	_attachFrameListeners() {
+		super._attachFrameListeners();
+		// Attach event listeners in here to prevent duplicate calls.
+		const change = this.#onChange.bind(this);
+		this.element.addEventListener("change", change);
+	}
+
+	/**
+	 * Change event actions in this.options.changeActions.
+	 *
+	 * Functionally similar to this.options.actions and fires callbacks
+	 * specified in data-action-change on the element(s).
+	 *
+	 * @param {ChangeEvent} event Change event that triggered the call.
+	 */
+	async #onChange(event) {
+		const target = event.target;
+		const changeElement = target.closest("[data-action-change]");
+		if (changeElement) {
+			const { actionChange } = changeElement.dataset;
+			if (actionChange) {
+				this.options.changeActions?.[actionChange]?.call(
+					this,
+					event,
+					changeElement
+				);
+			}
+		}
+	}
 
 	async _prepareContext(options) {
 		// Output initialization
@@ -65,8 +102,15 @@ export class GrimwildItemSheetVue extends VueRenderingMixin(GrimwildBaseVueItemS
 			config: CONFIG.GRIMWILD,
 			// Necessary for formInput and formFields helpers
 			fields: this.document.schema.fields,
-			systemFields: this.document.system.schema.fields
+			systemFields: this.document.system.schema.fields,
+			// Documents with a read-only view mode.
+			hasViewMode: ["arcana", "gear"].includes(this.document.type)
 		};
+
+		// Encumbrance.
+		if (game.settings.get("grimwild", "enableEncumbrance")) {
+			context.encumbranceEnabled = true;
+		}
 
 		// Handle tabs.
 		this._prepareTabs(context);
@@ -153,15 +197,17 @@ export class GrimwildItemSheetVue extends VueRenderingMixin(GrimwildBaseVueItemS
 		context.tabs.primary.description = {
 			key: "description",
 			label: game.i18n.localize("GRIMWILD.Item.Tabs.Description"),
-			active: this.document.type !== "challenge"
+			active: !["arcana", "challenge", "gear"].includes(this.document.type)
 		};
 
-		// Tabs limited to Monsters.
-		context.tabs.primary.attributes = {
-			key: "attributes",
-			label: game.i18n.localize("GRIMWILD.Item.Tabs.Attributes"),
-			active: this.document.type === "challenge"
-		};
+		// Tabs with content. Gear's trackers live on the attributes tab.
+		if (["challenge", "arcana", "talent", "gear"].includes(this.document.type)) {
+			context.tabs.primary.attributes = {
+				key: "attributes",
+				label: game.i18n.localize("GRIMWILD.Item.Tabs.Attributes"),
+				active: ["arcana", "challenge", "gear"].includes(this.document.type)
+			};
+		}
 
 		// @todo Active Effects disabled for now. Will revisit in the
 		// future.
@@ -258,10 +304,34 @@ export class GrimwildItemSheetVue extends VueRenderingMixin(GrimwildBaseVueItemS
 	 * @param {HTMLElement} target The capturing HTML element which defined a [data-action]
 	 * @private
 	 */
+	/**
+	 * Handle updating an item tracker value.
+	 *
+	 * @param {PointerEvent} event   The originating click event
+	 * @param {HTMLElement} target   The capturing HTML element which defined a [data-action]
+	 * @private
+	 */
+	static async _updateItemTracker(event, target) {
+		await updateItemTracker(this, event, target);
+	}
+
+	/**
+	 * Handle rolling pools on the item sheet.
+	 *
+	 * @param {PointerEvent} event   The originating click event
+	 * @param {HTMLElement} target   The capturing HTML element which defined a [data-action]
+	 * @private
+	 */
 	static async _rollPool(event, target) {
 		event.preventDefault();
 		// Retrieve props.
-		const { field, key } = target.dataset;
+		const { itemId, field, key } = target.dataset;
+
+		// Tracker pools on this item (shared with actor sheets).
+		if (itemId) {
+			await rollItemTrackerPool(this, itemId, key);
+			return;
+		}
 
 		// Retrieve pool.
 		const fieldData = this.document.system?.[field] ?? null;

@@ -41,6 +41,16 @@ export default class GrimwildArcana extends GrimwildItemBase {
 		// Activation: the unique method to channel magic from the item.
 		schema.activation = new fields.StringField(optionalString);
 
+		// Gear slots.
+		schema.slotSize = new fields.NumberField({
+			required: true,
+			nullable: false,
+			integer: false,
+			initial: 1,
+			min: 0,
+			step: 0.5
+		});
+
 		// Arbitrary notes.
 		schema.notes = new fields.SchemaField({
 			label: new fields.StringField(optionalString),

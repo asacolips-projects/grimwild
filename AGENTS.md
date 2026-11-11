@@ -13,6 +13,7 @@
 - Always ensure new strings are in src/lang/en.yml rather than hardcoding them
 - Avoid overly terse code. Ternaries are fine, but code should always be straightforward to understand at a glance
 - In general, err towards how the code is currently written in the codebase and be consistent with that
+- Always localize strings in the UI. These are translated with `game.i18n.localize('GRIMWILD.Some.key', {someVar: 'foo'});`. Do NOT attempt to string concatenate variables in directly; grammar is different in each language, so something like `Some string ${someVar}` is incorrect; it MUST go through game.i18n.localize(). Localization strings support variable placeholders, such as if the 'GRIMWILD.Some.key' example above had 'Some string {someVar}' as its value. Exception: purely data structure concatenation is fine, like `Label: ${value} / ${maxValue}` or `Label: ${value}`. What you want to avoid is concenation in sentence/phrase format.
 
 ## Repo structure
 - dist/ for the final build

@@ -45,6 +45,10 @@ documentTypes:
     challenge:
       htmlFields:
       - description
+    gear:
+      htmlFields:
+      - description
+      - notes.description
 
 flags:
   hotReload:

@@ -5,7 +5,6 @@ import { GrimwildChatMessage } from "./documents/chat-message.mjs";
 import { GrimwildCombat, GrimwildCombatTracker } from "./documents/combat.mjs";
 import { GrimwildRollTable } from "./documents/roll-table.mjs";
 // Import sheet classes.
-import { GrimwildActorSheet } from "./sheets/actor-sheet.mjs";
 import { GrimwildActorSheetVue } from "./sheets/actor-sheet-vue.mjs";
 import { GrimwildActorMonsterSheetVue } from "./sheets/actor-monster-sheet-vue.mjs";
 import { GrimwildItemSheet } from "./sheets/item-sheet.mjs";
@@ -37,7 +36,6 @@ globalThis.grimwild = {
 		GrimwildRollTable
 	},
 	applications: {
-		GrimwildActorSheet,
 		GrimwildActorSheetVue,
 		GrimwildActorMonsterSheetVue,
 		GrimwildItemSheet,
@@ -91,7 +89,8 @@ Hooks.once("init", function () {
 	CONFIG.Item.dataModels = {
 		talent: models.GrimwildTalent,
 		arcana: models.GrimwildArcana,
-		challenge: models.GrimwildChallenge
+		challenge: models.GrimwildChallenge,
+		gear: models.GrimwildGear
 	};
 
 	// Override chat message class.
@@ -123,7 +122,7 @@ Hooks.once("init", function () {
 	foundry.documents.collections.Items.registerSheet("grimwild", GrimwildItemSheetVue, {
 		makeDefault: true,
 		label: "Grimwild Vue Sheet",
-		types: ["talent", "challenge", "arcana"]
+		types: ["talent", "challenge", "arcana", "gear"]
 	});
 	foundry.documents.collections.RollTables.registerSheet("grimwild", GrimwildRollTableCrucibleSheet, {
 		makeDefault: false,
@@ -224,6 +223,37 @@ Hooks.once("init", function () {
 	};
 
 	SUSPENSE_TRACKER.init();
+
+	// CE optional rules.
+	game.settings.register("grimwild", "enableEncumbrance", {
+		name: game.i18n.localize("GRIMWILD.Settings.enableEncumbrance.name"),
+		hint: game.i18n.localize("GRIMWILD.Settings.enableEncumbrance.hint"),
+		scope: "world",
+		config: true,
+		type: Boolean,
+		default: false,
+		requiresReload: true
+	});
+
+	game.settings.register("grimwild", "enableCoins", {
+		name: game.i18n.localize("GRIMWILD.Settings.enableCoins.name"),
+		hint: game.i18n.localize("GRIMWILD.Settings.enableCoins.hint"),
+		scope: "world",
+		config: true,
+		type: Boolean,
+		default: false,
+		requiresReload: true
+	});
+
+	game.settings.register("grimwild", "enableSupplies", {
+		name: game.i18n.localize("GRIMWILD.Settings.enableSupplies.name"),
+		hint: game.i18n.localize("GRIMWILD.Settings.enableSupplies.hint"),
+		scope: "world",
+		config: true,
+		type: Boolean,
+		default: false,
+		requiresReload: true
+	});
 
 	// Enable harm pools.
 	game.settings.register("grimwild", "enableHarmPools", {

@@ -63,6 +63,28 @@ export default class GrimwildCharacter extends GrimwildActorBase {
 			})
 		}));
 
+		// Supplies (CE optional rule)
+		schema.supplies = new fields.SchemaField({
+			pool: new DicePoolField({
+				initial: {
+					diceNum: 4,
+					max: 4,
+					powerPool: false
+				}
+			})
+		});
+
+		// Wealth (CE optional rule).
+		schema.coins = new fields.SchemaField({
+			pool: new DicePoolField({
+				initial: {
+					diceNum: 4,
+					max: 8,
+					powerPool: true
+				}
+			})
+		});
+
 		schema.spark = new fields.SchemaField({
 			steps: new fields.ArrayField(new fields.BooleanField())
 		});
@@ -70,6 +92,10 @@ export default class GrimwildCharacter extends GrimwildActorBase {
 		schema.story = new fields.SchemaField({
 			steps: new fields.ArrayField(new fields.BooleanField())
 		});
+
+		if (game.settings.get("grimwild", "ceRules")) {
+			schema.story.label = game.i18n.localize("GRIMWILD.Actor.Character.FIELDS.story.ceLabel");
+		}
 
 		// Iterate over stat names and create a new SchemaField for each.
 		schema.stats = new fields.SchemaField(
