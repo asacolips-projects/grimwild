@@ -3,7 +3,6 @@
 		<ol class="items-list grid-span-3">
 			<!-- Header row -->
 			<li class="flexrow items-header stroke stroke-bottom">
-				<div class="item-name">{{ game.i18n.localize("GRIMWILD.Item.Arcana.Header") }}</div>
 				<!-- Slots (CE OPTIONAL RULE) -->
 				<div v-if="context.encumbranceEnabled" class="encumbrance-slots form-group stacked">
 					<div>{{ game.i18n.localize("GRIMWILD.Encumbrance.label") }}: <span :class="`encumbrance-current ${encumbranceClass}`">{{ slotsUsed }} / {{ slotsMax }}</span></div>

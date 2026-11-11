@@ -135,19 +135,6 @@
 					/>
 				</div>
 			</div>
-			<!-- Coins (CE OPTIONAL RULE) -->
-			<div v-if="context.coinsEnabled" class="encumbrance-coins form-group stacked">
-				<label>{{ context.systemFields.coins.label }}</label>
-				<RollPoolInput
-					button-action="rollPool"
-					field="coins"
-					field-name="system.coins.pool.diceNum"
-					:pool="context.system.coins.pool"
-					min="0"
-					max="8"
-					suffix="/ 8"
-				/>
-			</div>
 		</div>
 	</header>
 </template>

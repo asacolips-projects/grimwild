@@ -3,7 +3,6 @@
 		<ol class="items-list grid-span-3">
 			<!-- Header row -->
 			<li class="flexrow items-header stroke stroke-bottom">
-				<div class="item-name">{{ game.i18n.localize("GRIMWILD.Item.Gear.Header") }}</div>
 				<!-- Slots (CE OPTIONAL RULE) -->
 				<div v-if="context.encumbranceEnabled" class="encumbrance-slots form-group stacked">
 					<div>{{ game.i18n.localize("GRIMWILD.Encumbrance.label") }}: <span :class="`encumbrance-current ${encumbranceClass}`">{{ slotsUsed }} / {{ slotsMax }}</span></div>
@@ -18,6 +17,19 @@
 						min="0"
 						:max="context.system.supplies.pool.max"
 						suffix="d"
+					/>
+				</div>
+				<!-- Coins (CE OPTIONAL RULE) -->
+				<div v-if="context.coinsEnabled" class="item-coins flexrow">
+					<label>{{ context.systemFields.coins.label }}</label>
+					<RollPoolInput
+						button-action="rollPool"
+						field="coins"
+						field-name="system.coins.pool.diceNum"
+						:pool="context.system.coins.pool"
+						min="0"
+						max="8"
+						suffix="/ 8"
 					/>
 				</div>
 				<div class="item-controls">

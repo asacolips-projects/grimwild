@@ -26,6 +26,14 @@
 	}
 }
 
+.tab-talents {
+	.items-list {
+		.items-header {
+			justify-content: flex-end;
+		}
+	}
+}
+
 // -----------------------------------------
 // Items Lists
 // -----------------------------------------
@@ -67,12 +75,23 @@
 	}
 
 	// Supplies
-	.item-supplies {
+	.item-supplies,
+	.item-coins {
 		flex-wrap: nowrap;
 		gap: 4px;
 
+		label {
+			text-align: right;
+		}
+
 		.roll-pool {
 			gap: 4px;
+
+			> input {
+				flex: 0 0 22px;
+				padding: 0 4px;
+				text-align: center;
+			}
 		}
 	}
 
