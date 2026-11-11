@@ -1,0 +1,157 @@
+name: Cloud Ray - Nest Location
+description: ''
+formula: 1d6
+results:
+  - name: ''
+    description: Within the eye of a <b>perpetual storm</b>.
+    range:
+      - 1
+      - 1
+    _id: XX5dMMExRTU41c2s
+    type: text
+    img: null
+    weight: 1
+    drawn: false
+    flags: {}
+    _stats:
+      coreVersion: '14.364'
+      systemId: grimwild
+      systemVersion: 0.5.3
+      createdTime: 1783270821410
+      modifiedTime: 1783270821410
+      lastModifiedBy: 79CEe5dKC6Ls5VbU
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+    _key: '!tables.results!kcZIcsNENNtD4rtx.XX5dMMExRTU41c2s'
+  - name: ''
+    description: On a <b>floating island</b>, wreathed in ancient mist.
+    range:
+      - 2
+      - 2
+    _id: YL1UncY7a960Uxqv
+    type: text
+    img: null
+    weight: 1
+    drawn: false
+    flags: {}
+    _stats:
+      coreVersion: '14.364'
+      systemId: grimwild
+      systemVersion: 0.5.3
+      createdTime: 1783270821410
+      modifiedTime: 1783270821410
+      lastModifiedBy: 79CEe5dKC6Ls5VbU
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+    _key: '!tables.results!kcZIcsNENNtD4rtx.YL1UncY7a960Uxqv'
+  - name: ''
+    description: Atop a <b>crystalline tower</b>, in an icy tundra.
+    range:
+      - 3
+      - 3
+    _id: m4cNw7MsnzrHNvNC
+    type: text
+    img: null
+    weight: 1
+    drawn: false
+    flags: {}
+    _stats:
+      coreVersion: '14.364'
+      systemId: grimwild
+      systemVersion: 0.5.3
+      createdTime: 1783270821410
+      modifiedTime: 1783270821410
+      lastModifiedBy: 79CEe5dKC6Ls5VbU
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+    _key: '!tables.results!kcZIcsNENNtD4rtx.m4cNw7MsnzrHNvNC'
+  - name: ''
+    description: In the top of a gargantuan and <b>mystical tree</b>.
+    range:
+      - 4
+      - 4
+    _id: Aj70YylkfnXA47Wa
+    type: text
+    img: null
+    weight: 1
+    drawn: false
+    flags: {}
+    _stats:
+      coreVersion: '14.364'
+      systemId: grimwild
+      systemVersion: 0.5.3
+      createdTime: 1783270821410
+      modifiedTime: 1783270821410
+      lastModifiedBy: 79CEe5dKC6Ls5VbU
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+    _key: '!tables.results!kcZIcsNENNtD4rtx.Aj70YylkfnXA47Wa'
+  - name: ''
+    description: Over a <b>sheer cliff</b> in a dangerous mountain range.
+    range:
+      - 5
+      - 5
+    _id: sDqNdwC0Duuqyn3C
+    type: text
+    img: null
+    weight: 1
+    drawn: false
+    flags: {}
+    _stats:
+      coreVersion: '14.364'
+      systemId: grimwild
+      systemVersion: 0.5.3
+      createdTime: 1783270821410
+      modifiedTime: 1783270821410
+      lastModifiedBy: 79CEe5dKC6Ls5VbU
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+    _key: '!tables.results!kcZIcsNENNtD4rtx.sDqNdwC0Duuqyn3C'
+  - name: ''
+    description: The summit of a supposedly <b>dormant volcano</b>.
+    range:
+      - 6
+      - 6
+    _id: 9nxxZXUHRW2YFduv
+    type: text
+    img: null
+    weight: 1
+    drawn: false
+    flags: {}
+    _stats:
+      coreVersion: '14.364'
+      systemId: grimwild
+      systemVersion: 0.5.3
+      createdTime: 1783270821410
+      modifiedTime: 1783270821410
+      lastModifiedBy: 79CEe5dKC6Ls5VbU
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+    _key: '!tables.results!kcZIcsNENNtD4rtx.9nxxZXUHRW2YFduv'
+folder: rgX8m8cC6QFqYNJB
+sort: 6000000
+_id: kcZIcsNENNtD4rtx
+img: icons/svg/d20-grey.svg
+replacement: true
+displayRoll: true
+ownership:
+  default: 0
+  79CEe5dKC6Ls5VbU: 3
+flags: {}
+_stats:
+  coreVersion: '14.368'
+  systemId: grimwild
+  systemVersion: 0.5.3
+  createdTime: 1783270821410
+  modifiedTime: 1791749998256
+  lastModifiedBy: nF9qxzj59Qn6fNSn
+  compendiumSource: null
+  duplicateSource: null
+  exportSource: null
+_key: '!tables!kcZIcsNENNtD4rtx'

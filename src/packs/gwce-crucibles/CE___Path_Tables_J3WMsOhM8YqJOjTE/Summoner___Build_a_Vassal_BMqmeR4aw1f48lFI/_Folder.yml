@@ -1,0 +1,20 @@
+name: Summoner - Build-a-Vassal
+type: RollTable
+sorting: m
+folder: J3WMsOhM8YqJOjTE
+_id: BMqmeR4aw1f48lFI
+description: ''
+sort: 300000
+color: null
+flags: {}
+_stats:
+  coreVersion: '14.364'
+  systemId: grimwild
+  systemVersion: 0.5.3
+  createdTime: 1783126929727
+  modifiedTime: 1783127065108
+  lastModifiedBy: 79CEe5dKC6Ls5VbU
+  compendiumSource: null
+  duplicateSource: null
+  exportSource: null
+_key: '!folders!BMqmeR4aw1f48lFI'

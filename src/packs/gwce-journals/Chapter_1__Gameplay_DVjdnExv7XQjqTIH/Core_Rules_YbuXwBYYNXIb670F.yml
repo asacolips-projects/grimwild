@@ -1,0 +1,1280 @@
+name: Core Rules
+_id: YbuXwBYYNXIb670F
+pages:
+  - sort: 100000
+    name: Action Rolls
+    type: text
+    _id: i6LDtcGasJUZQnAo
+    system: {}
+    title:
+      show: true
+      level: 1
+    image: {}
+    text:
+      format: 1
+      content: >-
+        <p>When you attempt to pull off something risky, clearly describe your
+        goal (<em>why you’re doing it</em>) and approach (<em>how you’re doing
+        it</em>). The GM will pick which stat the action falls under, and you
+        roll that many d6, looking to the highest for your
+        result.</p><ul><li><p>(6) <strong>PERFECT</strong>. You
+        <strong>succeed</strong> and avoid any trouble</p></li><li><p>(4-5)
+        <strong>MESSY.</strong> You <strong>succeed</strong>, but there's also
+        trouble. This prompts an <em><strong>impact
+        move</strong></em>.</p></li><li><p>(1-3) <strong>GRIM.</strong> You
+        <strong>fail</strong>, and there's trouble. This prompts an
+        <em><strong>impact move</strong></em>.</p></li></ul><p>The GM makes an
+        <em><strong>@UUID[Compendium.grimwild.gwce-journals.JournalEntry.V9XAOE6EuQRhd0cW.JournalEntryPage.qTI1iQgKkAMUFvhm]{impact
+        move}</strong></em> to introduce consequences. Remember: the characters
+        are competent, you’re not rolling to see how you do, you’re rolling to
+        see how it goes. The consequences may not even directly relate to the
+        action taken.</p><h2>Criticals</h2><p>A
+        <em><strong>critical</strong></em> happens when you roll more than one
+        6. These ignore
+        <em><strong>@UUID[.tKwMCPQjyvrk3NNo]{thorns}</strong></em> , and let you
+        choose a critical bonus:</p><ul><li><p><strong>Greater Effect:</strong>
+        The action is more impactful. If a
+        @UUID[.2nnUgNYYbbPgAqBL#task-pools]{task pool} would be rolled because
+        of the action, remove 1d from it before rolling. <span
+        style="color:rgb(110, 110, 110)"><em>The knife gets plunged between the
+        dragon’s scales. | Your quick-witted remark infuriates
+        him.</em></span></p></li><li><p><strong>Secondary Effect:</strong> Gain
+        the effects of another related perfect action. <span
+        style="color:rgb(110, 110, 110)"><em>With a flick, your attack also
+        disarms the pirate. | The baroness is charmed, and she also lets slip a
+        secret.</em></span></p></li><li><p><strong>Setup:</strong> Give a
+        benefit to a follow-up roll, usually as an
+        @UUID[.bs6rHob3redyMuPl#assist]{assist} without @UUID[.#risk]{risk}.
+        <span style="color:rgb(110, 110, 110)"><em>Your rain of arrows gives
+        your ally a chance to rush through their lines. | You draw the orc’s
+        full attention.</em></span></p></li></ul><p><em>If nothing comes to
+        mind, take <strong>@UUID[.vwluhFw7CUnimj9t]{spark}</strong> and keep
+        moving.</em></p><h2>Risk</h2><p>What counts as risky
+        <em><strong>shifts</strong></em> with the moment and tone of the game.
+        Most often this is when there is an immediate threat or time is of the
+        essence. <strong>Assume the characters are competent and only roll when
+        it pushes the story forward</strong>, when meaningful results come about
+        no matter the outcome. Damage can sometimes make things risky that
+        otherwise wouldn’t be. If there’s no risk, give the PC the
+        <em><strong>@UUID[Compendium.grimwild.gwce-journals.JournalEntry.V9XAOE6EuQRhd0cW.JournalEntryPage.yzOUHnsPoxCyooSW#spotlight]{spotlight}</strong></em>
+        to narrate their success. If failing to do something isn’t an
+        interesting consequence, focus on what it costs for them to get what
+        they want.</p><p><span style="color:rgb(110, 110, 110)"><em>The Thief is
+        picking the lock to a warehouse on the dock (no risk), but city patrols
+        are making rounds in the area (now the action is
+        risky).</em></span></p><p><span style="color:rgb(110, 110, 110)"><em>The
+        Healer needs to administer an antidote to their ally (no risk), but they
+        have to act quickly, and get there from across the city (now the action
+        is risky).</em></span></p>
+    video:
+      controls: true
+      volume: 0.5
+    src: null
+    category: null
+    ownership:
+      default: -1
+      79CEe5dKC6Ls5VbU: 3
+    flags: {}
+    _stats:
+      coreVersion: '14.368'
+      systemId: grimwild
+      systemVersion: 0.5.3
+      createdTime: 1782677811548
+      modifiedTime: 1791654390564
+      lastModifiedBy: nF9qxzj59Qn6fNSn
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+    _key: '!journal.pages!YbuXwBYYNXIb670F.i6LDtcGasJUZQnAo'
+  - sort: 200000
+    name: Thorns
+    type: text
+    _id: tKwMCPQjyvrk3NNo
+    system: {}
+    title:
+      show: true
+      level: 1
+    image: {}
+    text:
+      format: 1
+      content: >-
+        <p>When a roll would involve one or more significant difficulty factors,
+        the GM can add eight-sided dice, called <em><strong>thorns</strong></em>
+        (t), to the player’s pool to represent these factors. <strong>Rolling
+        1–6 on a thorn has no effect, but a 7 or 8 lowers the result one
+        step</strong> (perfect → messy → grim → disaster), called a
+        <em><strong>cut</strong></em>. If multiple thorns come up 7 or 8, each
+        one <em><strong>cuts</strong></em> the roll, lowering it multiple steps.
+        Criticals can’t be cut by thorns.</p>
+
+        <p>Each thorn represents a challenging aspect of the task, either
+        external to the character <span style="color:rgb(110, 110,
+        110)"><em>(outnumbered, wrong tool for the job, intense
+        winds)</em></span>, or internal <span style="color:rgb(110, 110,
+        110)"><em>(no training, you used to be friends, oh no he's
+        hot)</em></span> to the character. Usually a GM assigns a total number
+        of thorns to a roll using their gut feel to keep the game flowing.
+        Typical play aims for a range of 0–2 total thorns. There’s no cap on the
+        number of thorns that can be added to a roll, but the odds of success
+        start to drop significantly at 3 or more.</p>
+
+        <h2>Disasters</h2>
+
+        <p>A disaster means you don’t get what you want, and things take a sharp
+        turn for the worst. The GM can turn whatever would have happened into
+        the worst case scenario. When a PC rolls a disaster, they
+        <em><strong>take @UUID[.vwluhFw7CUnimj9t]{spark}</strong></em>.</p>
+
+        <p style="text-align:center"><span style="font-size:large">PERFECT→
+        MESSY→ GRIM→ DISASTER</span></p>
+    video:
+      controls: true
+      volume: 0.5
+    src: null
+    category: null
+    ownership:
+      default: -1
+      79CEe5dKC6Ls5VbU: 3
+    flags: {}
+    _stats:
+      coreVersion: '14.364'
+      systemId: grimwild
+      systemVersion: 0.5.3
+      createdTime: 1782677811548
+      modifiedTime: 1783181145082
+      lastModifiedBy: 79CEe5dKC6Ls5VbU
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+    _key: '!journal.pages!YbuXwBYYNXIb670F.tKwMCPQjyvrk3NNo'
+  - sort: 300000
+    name: Spark
+    type: text
+    _id: vwluhFw7CUnimj9t
+    system: {}
+    title:
+      show: true
+      level: 1
+    image: {}
+    text:
+      format: 1
+      content: >-
+        <p>Pure protagonist energy, useful when there’s a pivotal task you want
+        to succeed. You can spend <em><strong>spark</strong></em> before any
+        type of roll you make to add +1d per spark spent. Characters can have up
+        to 2 spark at a time, and it carries over across sessions. Take
+        <em><strong>spark</strong></em> when you introduce your own complication
+        (a <em><strong>@UUID[.TFE7qnkVkpzsZYW6#tangles]{tangle}</strong></em>),
+        roll a
+        <em><strong>@UUID[.tKwMCPQjyvrk3NNo#disasters]{disaster}</strong></em>,
+        resolve a <em><strong>@UUID[.TFE7qnkVkpzsZYW6#story-arcs]{story
+        arc}</strong></em>,
+        <em><strong>@UUID[.pNW9iH0hc9EFKfPK#quarrels]{quarrel}</strong></em>
+        with an ally, or an ally's
+        <em><strong>@UUID[.pNW9iH0hc9EFKfPK#bonds]{bond}</strong></em> with you
+        changes.</p>
+    video:
+      controls: true
+      volume: 0.5
+    src: null
+    category: null
+    ownership:
+      default: -1
+      79CEe5dKC6Ls5VbU: 3
+    flags: {}
+    _stats:
+      coreVersion: '14.364'
+      systemId: grimwild
+      systemVersion: 0.5.3
+      createdTime: 1782677811548
+      modifiedTime: 1782698857290
+      lastModifiedBy: 79CEe5dKC6Ls5VbU
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+    _key: '!journal.pages!YbuXwBYYNXIb670F.vwluhFw7CUnimj9t'
+  - sort: 400000
+    name: Vantage
+    type: text
+    _id: rAWKSZVoFjZNOUBd
+    system: {}
+    title:
+      show: true
+      level: 1
+    image: {}
+    text:
+      format: 1
+      content: >-
+        <p>This is the character’s frame of reference, and their place in the
+        current fiction. Vantage plays a vital role in deciding what rolls can
+        be made, how difficult they are, and what is impossible. This is
+        something that you're already thinking about intuitively, we're just
+        giving it a name to define how it works with other parts of the game,
+        and to help answer questions like:</p><section class="grid
+        grid-2col"><div><ul><li><p>What <strong>knowledge</strong> could they
+        have?</p></li><li><p>What <strong>people</strong> could they
+        know?</p></li></ul></div><div><ul><li><p>What <strong>actions</strong>
+        could they attempt?</p></li><li><p>What <strong>gear</strong> could they
+        be carrying?</p></li></ul></div></section><p>To answer these questions,
+        we can build up a picture of the fiction from several layers of
+        details:</p><p><strong>First</strong> we consider the character’s core
+        identity. The path name is simply a label for organizing talents
+        thematically. On its own, it doesn't expand vantage.</p><p><span
+        style="color:rgb(110, 110, 110)"><em>background, core and selected
+        talents, conditions, stats, arcana,
+        etc...</em></span></p><p><strong>Next</strong> we add a bit of room for
+        reasonable interpretation. These are things implied by what's on your
+        sheet.</p><p><span style="color:rgb(110, 110, 110)"><em>experience in
+        picking locks, knows a few people at the mage's college,
+        etc...</em></span></p><p><strong>Finally</strong>, we layer on the
+        current details of the scene affecting your character. These are the
+        current opportunities, obstacles, and overall situation.</p><p><span
+        style="color:rgb(110, 110, 110)"><em>it's only lit by moonlight, the
+        guard hasn't slept in two days, etc...</em></span></p><p>Together, these
+        create a character’s vantage: their frame of reference for what’s
+        plausible for them in the current moment. Once you understand the idea
+        of vantage, you usually assess it by feeling rather than
+        calculation.</p><p></p><h2>The Vantage Scale</h2><p>When deciding how
+        plausible something is, use the scale below to guide your judgment. Does
+        this feel certain, reasonable, doubtful, or
+        impossible?</p><p><strong>Certain.</strong> The core of your character;
+        these ideas are directly stated on your character sheet or clearly
+        implied by the fiction. A certain action is an automatic success without
+        a roll. <span style="color:#6e6e6e"><em>A doctor suturing a wound in a
+        calm moment. | A thief carrying
+        lockpicks.</em></span></p><p><strong>Reasonable.</strong> This fits your
+        character and the situation, but isn’t guaranteed. Actions usually
+        require a roll—often with no <em><strong>thorns</strong></em>, sometimes
+        with one <em><strong>thorn</strong></em>—but the character has a solid
+        chance of success. <span style="color:#6e6e6e"><em>A scholar knowing
+        obscure history. | A ranger finding a safe
+        path.</em></span></p><p><strong>Doubtful.</strong> This is possible, but
+        unlikely—stretching the bounds of your vantage. Actions are possible,
+        but difficult, adding several <em><strong>thorns</strong></em> or
+        <em><strong>higher stakes</strong></em> (pg. 103). <span
+        style="color:#6e6e6e"><em>A sage lifting a heavy portcullis. | A
+        courtier knowing forbidden
+        lore.</em></span></p><p><strong>Impossible.</strong> This is beyond your
+        current vantage, and very hard to believe. An impossible action can’t be
+        attempted—try proposing something simpler. Some actions are just beyond
+        your normal limits (see potency, pg. 24), while others are too absurd to
+        ever be possible. <span style="color:#6e6e6e"><em>A farmer recalling
+        lost arcane rituals. | A commoner convincing the king to hand over the
+        royal treasure. | A child leaping over a house.</em></span></p><h2>Using
+        Vantage</h2><p>Having proper vantage allows you to add relevant story
+        details (like having gear, knowledge, connections) or make an action
+        more certain. Lacking proper vantage makes an action more doubtful, or
+        even impossible. Action and defense rolls use vantage by adding thorns,
+        or determining a roll is automatically successful, or impossible.
+        Character knowledge is given by the GM or established by the player,
+        though a <em><strong>@UUID[.3ZhPTONYCcx0olaV#story-roll]{story
+        roll}</strong></em> may be used if there's gray area. Perception is
+        handled by <em><strong>vigilance</strong></em> (pg. 107).</p><p>As a
+        player, it's your job to advocate for your character when you think a
+        part of their vantage might be relevant.</p><p>As a GM, it's your job to
+        use a character's vantage to determine where their action falls on the
+        vantage scale, then to set an action’s thorns, clarifying effect and
+        stakes as needed.</p><h2>Tools of the Trade</h2><p>You’re assumed to
+        have the gear and skills that are a given for your
+        <em><strong>vantage</strong></em>. This avoids detailed tracking and
+        ensures PCs are competent where it makes sense.</p>
+    video:
+      controls: true
+      volume: 0.5
+    src: null
+    category: null
+    ownership:
+      default: -1
+      79CEe5dKC6Ls5VbU: 3
+    flags: {}
+    _stats:
+      coreVersion: '14.364'
+      systemId: grimwild
+      systemVersion: 0.5.3
+      createdTime: 1782677811548
+      modifiedTime: 1782699074347
+      lastModifiedBy: 79CEe5dKC6Ls5VbU
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+    _key: '!journal.pages!YbuXwBYYNXIb670F.rAWKSZVoFjZNOUBd'
+  - sort: 500000
+    name: Working Together
+    type: text
+    _id: bs6rHob3redyMuPl
+    system: {}
+    title:
+      show: true
+      level: 1
+    image: {}
+    text:
+      format: 1
+      content: >-
+        <h3>Assist</h3><p>Characters can help allies on their rolls, giving them
+        a better chance at success. Describe how you
+        <em><strong>assist</strong></em>, then roll 1d when the ally rolls,
+        including your results with theirs for the final outcome. Rolling your
+        assist die separately lets the table see the impact of your
+        help.</p><p>When you assist, you share the risk and consequences. The GM
+        makes an impact move for everyone involved, including the original PC
+        and everyone who assisted. The GM can hit everyone with the same impact
+        move, use different moves for each PC, take suspense for each PC, or any
+        combination thereof. <span style="color:#6e6e6e"><em>The Paladin assists
+        the Fighter in forcing open a door. The Fighter makes their roll as
+        normal, and the Paladin rolls 1d. The Fighter's highest is a 3, but the
+        Paladin rolls a 4—the end result is a messy. The help paid off, but the
+        GM rolls a timer pool (an impact move) and takes 1
+        suspense.</em></span></p><h3>Outside Help</h3><p>Assistance can also
+        come from an element outside the party, such as an NPC or the
+        environment. The GM rolls 1d to represent the help, and includes the
+        result with the character’s for the final
+        outcome.</p><h3>Teamwork</h3><p>When a larger group of characters work
+        together, only one PC rolls for the action while others can assist, as
+        long as it makes narrative sense. The GM decides who rolls—sometimes the
+        most skilled when success is more important, and sometimes the least
+        when failure has greater impact. The entire group shares the
+        consequences, but the scale of the action increase as well. <span
+        style="color:#6e6e6e"><em>The group works together to lift a boulder
+        (strongest rolls). | Group sneaks around a guard patrol (least sneaky
+        rolls). | Group finds information on criminal local faction (most street
+        savvy rolls).</em></span></p><h3>Setup</h3><p>When a previous action
+        gives you an upper hand in your task, increase your vantage and take
+        +1d. <em><strong>Setups</strong></em> handle more impactful but
+        temporary fiction changes, lasting between a single follow up action,
+        and the rest of the scene depending on the fiction. <span
+        style="color:#6e6e6e"><em>The city watch is distracted. | The queen is
+        caught off-guard. | The wizard is
+        invisible.</em></span></p><h3>Protecting Others</h3><p>When an ally is
+        targeted by an impact move from their own action roll, you can choose to
+        put yourself in harm's way to protect them. <strong>Make a 1d
+        @UUID[.3ZhPTONYCcx0olaV#defense-roll]{defense roll} and share the
+        risk</strong>. With a perfect you both avoid the trouble. On a grim, you
+        both get hit with it. On a messy, the GM can lighten the consequences
+        for you both, or hit only you with the impact move.</p>
+    video:
+      controls: true
+      volume: 0.5
+    src: null
+    category: null
+    ownership:
+      default: -1
+      79CEe5dKC6Ls5VbU: 3
+    flags: {}
+    _stats:
+      coreVersion: '14.364'
+      systemId: grimwild
+      systemVersion: 0.5.3
+      createdTime: 1782677811548
+      modifiedTime: 1782699210121
+      lastModifiedBy: 79CEe5dKC6Ls5VbU
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+    _key: '!journal.pages!YbuXwBYYNXIb670F.bs6rHob3redyMuPl'
+  - sort: 600000
+    name: Other Rolls
+    type: text
+    _id: 3ZhPTONYCcx0olaV
+    system: {}
+    title:
+      show: true
+      level: 1
+    image: {}
+    text:
+      format: 1
+      content: >-
+        <h2>Defense Roll</h2><p>When a character reflexively tries to avoid
+        trouble <strong>not caused by their own action roll</strong>, they make
+        a <em><strong>defense roll</strong></em>. Characters don't get defense
+        rolls against impact moves prompted by their own action rolls—avoiding
+        danger is already factored into the roll. Defense rolls usually come
+        into play when the GM spends <em><strong>suspense</strong></em> on an
+        impact move. The GM decides which stat should be rolled based on the
+        danger, and the character’s likely reaction.</p><ul><li><p>(6)
+        <strong>PERFECT</strong>. You avoid the incoming
+        trouble.</p></li><li><p>(4-5) <strong>MESSY</strong>. You avoid some of
+        the trouble. The GM lessens the consequences.</p></li><li><p>(1-3)
+        <strong>GRIM</strong>. You're hit with the trouble, and take the full
+        consequences of it.</p></li></ul><p>Defense is cinematic—a reaction, out
+        of your hands. The GM picks the @UUID[.pNW9iH0hc9EFKfPK#stats]{stat} to
+        fit the danger, your PC’s likely reaction, vulnerabilities, and what
+        feels right for the moment. This keeps it varied—you can’t always use a
+        strong stat. As a player, you can pitch what stat you think makes the
+        most sense. See the examples below:</p><p><strong>Brawn:</strong>
+        <em>Block or absorb a punch. Hold your breath through poison
+        fog.</em></p><p><strong>Agility:</strong> <em>Dodge a warhammer. Keep
+        your footing on the crumbling wall.</em></p><p><strong>Wits:</strong>
+        <em>See the archer nock an arrow. Catch the flaw in the courtesan’s
+        argument.</em></p><p><strong>Presence:</strong> <em>Keep your nerve.
+        Push the enchantment from your mind.</em></p><p>With time and warning,
+        spellcasters may use magic to defend themselves, as long as it fits
+        their spellcasting and
+        @UUID[Compendium.grimwild.gwce-journals.JournalEntry.Gok7DgwRi0Z3D5Jt.JournalEntryPage.uA8QT8XrFuderyGt]{touchstones}.</p><h2>Montage
+        Roll</h2><p>Not all scenes need to be played out in detail, if you want
+        to zoom out on the fiction and accordion in a few beats while still
+        leaving the outcome up to dice, make a <em><strong>montage
+        roll</strong></em>. Each participating player makes a 2d action roll,
+        collaborating on the results. Take the highest result as the final
+        outcome for the scene. Zoom back in to key moments on unlikely or
+        interesting results.</p><h3>Montage Example</h3><p>You look up to see
+        the peak of the mountain, snow lightly drifting down onto your faces.
+        It’s a six-hour climb to get to the top, where the cultist sanctum is
+        said to hide. We’re going to do a montage roll to see how the trek
+        goes.</p><p><em>Ranger: I try to find the safest path, keeping us away
+        from unstable ledges. I got 5, a messy.</em></p><p><em>Fighter: I use my
+        climbing gear, and see if I can find any shortcuts. Ope, got a grim.
+        3.</em></p><p><em>Wizard: I cast a spell to ward away the cold and keep
+        us dry on the way up. Perfect! I rolled a 6!</em></p><p><em>Overall, you
+        got a perfect, but let’s zoom in on Fighter—as you climb, one of your
+        pitons breaks and you’re about to fall. Who saves
+        you?</em></p><p><em>Wizard: Oh! I’ll add a little set dressing. I use
+        magic to make him as light as a cloud for a moment, so he drifts safely
+        to the ground.</em></p><p><em>Fighter: I quickly get up and lie, “I
+        could have handled it!” and walk off in a huff.</em></p><p><em>Great—The
+        camera looks out over an edge at the top of the mountain. We see the
+        ranger’s hand grab the ledge and pull herself up, followed by Wizard and
+        Fighter. You’re tired, and a little sore, but ready for a
+        fight.</em></p><p></p><h2>Story Roll</h2><p>Some rolls (such as certain
+        magic items, wild surges, and doubtful story details) can be made to
+        determine the effect of something outside of your PC, but aren't
+        directly related to a stat. These are handled with <strong>story
+        rolls</strong>.</p><p>Roll dice based on the odds of a favorable outcome
+        for your character, usually 2d. The GM may drop the roll to 1d for bad
+        odds, or boost it to 3d for good odds. Though rare, thorns can be added
+        story rolls, just as any other.</p><p><strong>If the roll is replacing
+        an action roll</strong>, usually when the character is directly
+        involved, story rolls can prompt impact moves. <span
+        style="color:rgb(110, 110, 110)"><em>I flip the switch for the old trap,
+        as the goblin runs down the hall toward me. | How many drank from the
+        poisoned keg I left in the kitchen?</em></span></p><p><strong>If the
+        roll only tests your luck</strong>, it's used to determine the general
+        answer to a question—from positive to negative. <span
+        style="color:rgb(110, 110, 110)"><em>Does my magical Robe of Pockets
+        have anything useful for this? | I look down the hallway, do I see any
+        guards?</em></span></p><h2>Forward Momentum</h2><p>If a grim threatens
+        to grind the story to a halt, the GM can keep things moving—you get what
+        you want, but in a way that makes things worse, or has an unintended
+        effect. If a roll somehow turns out to have no effect <em>(the guard was
+        already dead)</em>, you learn new info or
+        <em><strong>@UUID[.bs6rHob3redyMuPl#setup]{setup} </strong></em>a
+        follow-up.</p>
+    video:
+      controls: true
+      volume: 0.5
+    src: null
+    category: null
+    ownership:
+      default: -1
+      79CEe5dKC6Ls5VbU: 3
+    flags: {}
+    _stats:
+      coreVersion: '14.364'
+      systemId: grimwild
+      systemVersion: 0.5.3
+      createdTime: 1782677811548
+      modifiedTime: 1782770967390
+      lastModifiedBy: 79CEe5dKC6Ls5VbU
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+    _key: '!journal.pages!YbuXwBYYNXIb670F.3ZhPTONYCcx0olaV'
+  - sort: 700000
+    name: Diminishing Pools
+    type: text
+    _id: 2nnUgNYYbbPgAqBL
+    system: {}
+    title:
+      show: true
+      level: 1
+    image: {}
+    text:
+      format: 1
+      content: >-
+        <p>A group of d6s used to track progression towards a narrative event,
+        like completing a task, encountering a threat, depleting a resource, or
+        passing time. When the pool is triggered, roll all dice in the pool and
+        remove those that land with a 1-3 result. Once the pool drops to 0d, its
+        event comes to pass and the pool is discarded.</p>
+
+        <p>Pools usually start at 2d/short, 4d/medium, or 8d/long. Make sure to
+        reflect the fiction—if a pool and the fiction don't match up, adjust or
+        scrap the pool.</p>
+
+        <ul>
+            <li>
+                <p>If no dice are dropped from a task pool, you can either <strong>push</strong> or <strong>pivot</strong>:</p>
+                <ul>
+                    <li>
+                        <p><strong>Push yourself</strong> (take a mark) to drop 1d anyway. This has a much greater effect on small pools. <span style="color:rgb(110, 110, 110)"><em>Through gritted teeth, you break the blade lock and leave a fresh cut on his cheek.</em></span></p>
+                    </li>
+                    <li>
+                        <p><strong>Pivot</strong> to gain a <strong>secondary effect</strong>, the effects of a perfect on a different but related roll instead. <span style="color:rgb(110, 110, 110)"><em>He's prepared for a cross cut, so instead you switch it up and twist the saber from his grasp.</em></span></p>
+                    </li>
+                </ul>
+            </li>
+        </ul>
+
+        <div>
+            <ul>
+                <li>
+                    <p>Similarly, if no dice drop from any other pool, the GM can spend <em><strong>@UUID[Compendium.grimwild.gwce-journals.JournalEntry.V9XAOE6EuQRhd0cW.JournalEntryPage.1hwVUU0jguFscQg1#suspense]{suspense}</strong></em> to drop 1d anyway.</p>
+                </li>
+                <li>
+                    <p>The greater effect critical bonus, <em><strong>@UUID[.7bKZMabTgv4QYNEK]{potency}</strong></em>, and some talents call for dropping 1d before rolling. This stacks, and has a greater mechanical effect on small pools.</p>
+                </li>
+            </ul>
+            <h2>The Types of Pools</h2>
+            <h3>Task Pools</h3>
+            <p>This tracks the effort to overcome complicated tasks. In combat, this is used to track the progress towards defeating enemies, with larger pools used for higher tier monsters (pg. 109). <strong>Roll this pool</strong> when action rolls bring the task closer to completion, or it makes sense in the fiction. <span style="color:rgb(110, 110, 110)"><em>4d Barroom Brawl | 6d Tracking Quarry | 8d Escape the Guards | 6d Wind Elemental.</em></span></p>
+            <h3>Pressure Pools</h3>
+            <p>This tracks imminent threats getting closer. <strong>Roll this pool</strong> often as an impact move to show threats getting closer. <span style="color:rgb(110, 110, 110)"><em>6d Lookouts Spot You | 8d Reinforcements Arrive.</em></span></p>
+            <h3>Timer Pools</h3>
+            <p>This tracks events unfolding in the background. <strong>Roll this pool</strong> as the occasional impact move, for key moments, time passing, or after a few PCs take action. <span style="color:rgb(110, 110, 110)"><em>8d Sunrise | 6d Corruption Grows | 4d Patrol Returns | 8d Magical Wings.</em></span></p>
+            <h3>Resource Pools</h3>
+            <p>This tracks the quantity of something precious and important. <strong>Roll this pool</strong> after the resource sees significant usage, or as an occasional impact move, when losing it makes sense. You must be able to roll the pool to use it; once it drops to 0d, the resource has now run out and can’t be used again. Talents such as the Druid’s Wild Shape use this type of pool. <span style="color:rgb(110, 110, 110)"><em>4d Food Supplies | 8d Manpower Left | 6d Looted Treasures | 2d Bulwark.</em></span></p>
+            <h3>Power Pools</h3>
+            <p>This pool tracks an ability which diminishes with use. If the use of this pool isn’t <em><strong>@UUID[.i6LDtcGasJUZQnAo#risk]{risky}</strong></em>, the action is always successful, but the pool is still rolled to remove dice. If you add extra dice (such as <em><strong>@UUID[.vwluhFw7CUnimj9t]{spark}</strong></em>) to a power pool, track them separately—they don’t affect dropped dice and don’t add to the pool. Creature power pools are rolled when directly targeted, and can roll 1d of their pool to assist. <strong>@UUID[Compendium.grimwild.gwce-journals.JournalEntry.USX8NsULFBxHjy8p.JournalEntryPage.yTATmOeTrKFLJdL9#bonus-dice-pools]{Bonus dice pools}</strong> are special power pools that are added in addition to the original roll. <strong>Roll this pool as an </strong><em><strong>@UUID[.i6LDtcGasJUZQnAo]{action roll}</strong></em> in place of a stat: take the highest die as the action’s result, then remove dice with a 1–3 result as normal. <span style="color:rgb(110, 110, 110)"><em>8d Blasting Wand | 6d Healing Rite | 4d Clever Disguise.</em></span></p>
+            <h3>Linked Pools</h3>
+            <p>These are a linked sequence of 2 or more of any kind of pools to extend them with extra “phases”. The next pool isn’t unlocked until the previous reaches 0d. Linked pools handle complexity and larger challenges much better than just adding more dice to one pool. A linked 4d+4d pool is about the same as a 51d pool—taking around 7 rolls for it to drop to 0d. Pools can be linked linearly in a sequence, or in other creative ways, and tend to be more predictable trackers, since only one can drop at a time. <span style="color:rgb(110, 110, 110)"><em>8d Magic Shielding + 2d Wizard | 4d Claws + 4d Tail + 4d Body.</em></span></p>
+            <h3>Campaign Pools</h3>
+            <p>Covered more extensively in the GM Toolkit Chapter (pg. 90), these are timer pools used to track multi-session and long term events such as faction goals, seasons, and adversarial actions. <strong>Roll this pool</strong> during downtime. <span style="color:rgb(110, 110, 110)"><em>8d Bilgewater Leader Assassinated | 6d Bounty Hunters Find Party | 4d Winter Becomes Spring.</em></span></p>
+            <blockquote style="border-style:solid;border-radius:8px">
+                <h3>Pools Follow the Fiction</h3>
+                <p>Pools are meant to follow the fiction, but occasionally they can end up leading the fiction instead—especially for task pools. When you make a pool roll and drop far more or fewer dice than expected, consider describing the surprising opportunity or setback that arose in the story. But if a pool is ever leading the fiction in a way that’s not dramatic, interesting, or fun for the table, you can always adjust the pool to better align with the fiction, or even clear it completely and move on.</p>
+            </blockquote>
+        </div>
+    video:
+      controls: true
+      volume: 0.5
+    src: null
+    category: null
+    ownership:
+      default: -1
+      79CEe5dKC6Ls5VbU: 3
+    flags: {}
+    _stats:
+      coreVersion: '14.368'
+      systemId: grimwild
+      systemVersion: 0.5.3
+      createdTime: 1782677811548
+      modifiedTime: 1791655337274
+      lastModifiedBy: nF9qxzj59Qn6fNSn
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+    _key: '!journal.pages!YbuXwBYYNXIb670F.2nnUgNYYbbPgAqBL'
+  - sort: 800000
+    name: Character Details
+    type: text
+    _id: pNW9iH0hc9EFKfPK
+    system: {}
+    title:
+      show: true
+      level: 1
+    image: {}
+    text:
+      format: 1
+      content: >-
+        <h2>Backgrounds</h2><p>Your heritage, upbringing, profession—the core of
+        your vantage. You choose any two that most influences who you are now.
+        This book contains 18 backgrounds, use these to make a character
+        quickly, or mix and match wises to create your own. The ragamuffin
+        background means you learned a lot from the streets; without it, your
+        upbringing is just set dressing.</p><h3>Wises</h3><p>Each background has
+        a set of three wises, though you can also create your own for a more
+        personalized backstory. These are evocative key phrases that clearly
+        expand your vantage. They can cover niche knowledge, key insights you’ve
+        picked up, or neat tricks you’ve grown accustomed to using. Wises are
+        most often used when adding details to the story and determining
+        thorns.</p><h2>Traits and Desires</h2><p>Traits describe the PC's
+        personality, while Desires describe what drives them. Choose 2 that
+        strongly describe your character, and 1 that doesn’t. These are included
+        in your vantage, can often be used to introduce tangles, complications
+        stemming from your character (pg. 25). I am brave and rash, but not
+        quiet. I want love and thrills, but not wealth.</p><h2>Distinctive
+        Features</h2><p>Detail your 3 most distinctive, outward features that
+        others quickly notice. This may include clothes, hair, markings, or how
+        they hold themself. Consider other features that some may notice after
+        spending time traveling with you. Check out the character crucibles
+        (@REF) if you need inspiration.</p><h2>Talents</h2><p>Special advantages
+        and abilities that set your PC apart. At character creation, you choose
+        a path (rogue, wizard, fighter, etc), which gives you its <strong>core
+        talent</strong>. The path talents listed below the core align
+        thematically, though any talent from any path may be taken as you
+        level.</p><p>Remember, Paths on their own don't expand vantage, but
+        talents (and especially the core talent) do. Being a "rogue" doesn't
+        mean you’re automatically good at stealth, but the Expertise core talent
+        expands your vantage which could include
+        stealth.</p><h2>Stats</h2><p>Your core capabilities rated 1/poor,
+        2/average, or 3/great, used for action and defense rolls. These four
+        stats are an abstraction of your baseline ability. Each character starts
+        with 1 in each stat, then assigns 4 more points between them. Brawn and
+        Agility are considered physical stats, while Wits and Presence are
+        mental.</p><ul><li><p><strong>Brawn</strong> is your power, menace, and
+        toughness.</p></li><li><p><strong>Agility</strong> is your precision,
+        athleticism, and reflexes.</p></li><li><p><strong>Wits</strong> is your
+        smarts, trickery, and ability to read
+        situations.</p></li><li><p><strong>Presence</strong> is your influence,
+        willpower, and ability to read people.</p></li></ul><blockquote
+        style="border-style:solid;border-radius:8px"><h4>Reader Lens: Other
+        Games</h4><p>Grimwild only has 4 stats, while other games have many more
+        actions, moves, or skills. The personalization that these provide are
+        handled with vantage in Grimwild. A character with vantage that includes
+        pickpocketing will be able to make rolls with fewer thorns, or may even
+        automatically succeed, while the action might be considered impossible
+        for a character without that
+        vantage.</p></blockquote><h2>Bonds</h2><p>Your dynamic with each PC.
+        Match an intensity (left) and a nature (right) below, or write your own.
+        <em><strong>Bonds</strong></em> are your strongest view of the other PC,
+        and not necessarily reciprocal (your tense doubts is their playful
+        rivalry). When first established, use your collective past and details
+        to interpret the bonds in a way that makes sense.</p><p>You can change a
+        bond anytime, such as in response to something they've done or something
+        new you've learned about them. When it changes, give a short vignette
+        (better if together!). The other PC takes
+        <em><strong>@UUID[.vwluhFw7CUnimj9t]{spark}</strong></em>.</p><p></p><h3>Other
+        Example Natures</h3><p><em>ambivalence, annoyance, apprehension, awe,
+        cynicism, devotion, envy, fascination, fear, indifference, kinship,
+        loyalty, obligation, obsession, pity, resentment, reverence, scorn,
+        solidarity, spite, trust.</em></p><h2>Quarrels</h2><p>Conflicts between
+        PCs—arguments, competitions, or even violence. When two PCs are at odds,
+        the story needs a resolution to keep moving forward. Both players may
+        see their character as being right, and would never back down, but in
+        practice, this grinds the game to a halt. Some players are better at
+        convincing others and being assertive, while others would rather quietly
+        avoid conflict. <em><strong>Quarrels</strong></em> address both of these
+        problems, with the story following what one character (or player) wants,
+        while the other has the last word—setting the tone for how things might
+        play out moving forward.</p><p>First, make sure all players agree to the
+        quarrel. Clearly state the stakes for winning and losing, erring on the
+        side of dramatic (bruises, not bloodied). Each player rolls 2d and the
+        highest wins (5 beats 4). No talents can be used, it’s assumed both
+        characters are doing everything they can to succeed. Others can assist,
+        or they can join at 2d with their own agenda. On a tie, compromise or
+        keep quarreling.</p><p>The winner narrates how they won. Then, the loser
+        narrates how they handle it. The results of the quarrel are final—it's
+        okay for the PC that lost to be bitter, but the story moves in the
+        winner's direction. All participating PCs take
+        <em><strong>@UUID[.vwluhFw7CUnimj9t]{spark}</strong></em>.</p><h3>Quarrel
+        Example</h3><p><em>The party just found out that the Thieves' Guild
+        plans on assassinating the unjust king, but if they keep the secret,
+        they'll be paid for their silence.</em></p><p><em>The paladin and rogue
+        are on board, one for the justice, and the other for the money. The
+        wizard thinks that even the unjust should have a trial, and should be
+        warned.</em></p><p><em>The players decide a quarrel will solve the
+        issue. The paladin, assisted by the rogue, will roll against the
+        wizard.</em></p><p><em>The paladin and rogue roll [1, 4, 5], while the
+        wizard rolls [2, 6]!</em></p><p><em>The wizard wins the quarrel—their
+        argument is enough to have the party follow their lead. The paladin
+        decides they’ll see the unjust king themself before making a judgment.
+        The rogue bites her tongue about it, but may just take the king’s life
+        herself if things get dicey— it’s good to have a backup plan. Time to
+        warn the king!</em></p><p><em>Everyone who participated takes
+        <strong>spark</strong>. Good thing, because it sounds like they’re going
+        to run afoul of the Thieves’ Guild. I'm sure this will end
+        well...</em></p>
+    video:
+      controls: true
+      volume: 0.5
+    src: null
+    category: null
+    ownership:
+      default: -1
+      79CEe5dKC6Ls5VbU: 3
+    flags: {}
+    _stats:
+      coreVersion: '14.368'
+      systemId: grimwild
+      systemVersion: 0.5.3
+      createdTime: 1782677811548
+      modifiedTime: 1791654515885
+      lastModifiedBy: nF9qxzj59Qn6fNSn
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+    _key: '!journal.pages!YbuXwBYYNXIb670F.pNW9iH0hc9EFKfPK'
+  - sort: 900000
+    name: Potency
+    type: text
+    _id: 7bKZMabTgv4QYNEK
+    system: {}
+    title:
+      show: true
+      level: 1
+    image: {}
+    text:
+      format: 1
+      content: >-
+        <p>The ability to pull off jaw-dropping feats.
+        <em><strong>Potency</strong></em> is outside what is normally possible
+        for an adventurer, and requires a talent or other source that explicitly
+        grants potency on a specific kind of task (potent spell, a potent feat
+        of…). When you have potency on a task, your
+        <em><strong>@UUID[.rAWKSZVoFjZNOUBd]{vantage}</strong></em> temporarily
+        expands to allow you to attempt something incredible, such
+        as:</p><ul><li><p><strong>Group action</strong>: Something a team of
+        people could accomplish with an action. <span
+        style="color:#6e6e6e"><em>Lifting a boulder, a volley of arrows,
+        inciting mutiny.</em></span></p></li><li><p><strong>Stretching
+        limits</strong>: Something just beyond normal human limitations. <span
+        style="color:#6e6e6e"><em>Leap a massive gap, endure fire, tell
+        ridiculous lies.</em></span></p></li><li><p><strong>Mystical</strong>:
+        Feats that don't fit in with the above, but have similar narrative
+        impact. <span style="color:#6e6e6e"><em>Befriend a wild tiger, use
+        echoes to create a rockslide.</em></span></p></li></ul><p>Potency can
+        move an action one or more steps on the Vantage Scale towards being
+        <em>certain</em>, such as making an <em>impossible</em> action
+        <em>doubtful/reasonable</em>, or making a <em>doubtful</em> action
+        <em>reasonable/certain</em>.</p><p>Compared to a normal action, a potent
+        action can be more intense or broad, create dramatic opportunities, bend
+        the rules, or do anything else that feels incredible— within reason. At
+        its simplest, a potent action can act like a normal action with a
+        critical bonus. Either way, take care that a potent action’s effect and
+        risk create an exciting, pivotal moment. Look to
+        @UUID[Compendium.grimwild.gwce-journals.JournalEntry.Gok7DgwRi0Z3D5Jt.JournalEntryPage.5WIIqKTLpYkHFlvN]{potent
+        spells} for magical examples.</p><h3>Potent Action
+        Examples</h3><p><em><strong>A Ranger wishes to track a wild boar through
+        the forest.</strong> Normally, this could be reasonable, but with a
+        potent action she immediately spots a tusk mark in a nearby tree, making
+        this certain (0t → automatic success).</em></p><p><em><strong>A
+        Barbarian wishes to challenge an ogre to arm wrestling.</strong>
+        Normally, her succeeding would be doubtful, but with a successful potent
+        action she manages it more easily, slamming the ogre’s arm down with a
+        crash that also draws cheers from the tavern (2t → 1t, secondary
+        effect).</em></p><p><em><strong>A Monk wishes to evade some guards by
+        running across a pond.</strong> Normally this would be impossible to
+        attempt, but with a successful potent action he manages to run across
+        the surface of the pond with mystical grace (impossible → 0t, new
+        possibility).</em></p><p><em><strong>A Rogue wishes to sneak into the
+        counting house.</strong> Security is tight with private mercenaries
+        patrolling the grounds, making the task very difficult. With a
+        successful potent action, the rogue can see weaknesses in security
+        others would miss, finding a shortcut directly to the vaults. (2t → 1t,
+        with greater effect).</em></p>
+    video:
+      controls: true
+      volume: 0.5
+    src: null
+    category: null
+    ownership:
+      default: -1
+      79CEe5dKC6Ls5VbU: 3
+    flags: {}
+    _stats:
+      coreVersion: '14.364'
+      systemId: grimwild
+      systemVersion: 0.5.3
+      createdTime: 1782677811548
+      modifiedTime: 1783087512847
+      lastModifiedBy: 79CEe5dKC6Ls5VbU
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+    _key: '!journal.pages!YbuXwBYYNXIb670F.7bKZMabTgv4QYNEK'
+  - sort: 1000000
+    name: Creative Freedom
+    type: text
+    _id: TFE7qnkVkpzsZYW6
+    system: {}
+    title:
+      show: true
+      level: 1
+    image: {}
+    text:
+      format: 1
+      content: >-
+        <h2>Set Dressing</h2><p>Any less important details—things that only
+        impact how you describe a detail (a torch vs. a glowing alchemical
+        bottle) are <strong>set dressing</strong>. You can also add minor,
+        common sense details freely. Make assumptions and add details to scenes
+        to play off of to keep things flowing dynamically. Anything that’s
+        <strong>certain</strong> in your vantage, like knowing someone or having
+        equipment that makes sense, can be established
+        freely.</p><h2>Tangles</h2><p>These are character-driven complications
+        you introduce into a scene and have to follow-up on. In return, you take
+        spark. Tangles must stem from your vantage, often from story arcs, or
+        traits and desires. These always have an immediate impact, like an
+        action roll, an option closing off, or forcing inaction at an important
+        moment— similar in weight to an
+        <em><strong>@UUID[Compendium.grimwild.gwce-journals.JournalEntry.V9XAOE6EuQRhd0cW.JournalEntryPage.qTI1iQgKkAMUFvhm]{impact
+        move}</strong></em>. Tangles can be things
+        like:</p><ul><li><p><strong>Unwise decisions</strong> your PC would
+        likely make. <span style="color:#6e6e6e"><em>You toss aside your sword
+        to keep things fair.</em></span></p></li><li><p><strong>Personal
+        motivations</strong> over group goals. <span
+        style="color:#6e6e6e"><em>You poison the general's wine, getting your
+        revenge.</em></span></p></li><li><p><strong>Complications</strong> from
+        beliefs or backstory. <span style="color:#6e6e6e"><em>You forgot to tell
+        everyone you dated the
+        baron.</em></span></p></li></ul><h2>Thread</h2><p>Pure cinematic
+        momentum. Each session, you have 2 <em><strong>thread</strong></em>.
+        Spend it to add story details that go beyond set dressing, creating new
+        opportunities or shifting the scene in your favor. Details that are a
+        stretch may also need a
+        <em><strong>@UUID[.3ZhPTONYCcx0olaV#story-roll]{story
+        roll}</strong></em>. Added details must fit your
+        <em><strong>@UUID[.rAWKSZVoFjZNOUBd]{vantage}</strong></em>, at least as
+        something doubtful, or tie to a <em><strong>story arc</strong></em>.
+        Example details:</p><p><strong>Character:</strong> Gear, contacts,
+        backstory. <span style="color:#6e6e6e"><em>You had magical training in
+        this city → The wizard was your mentor. | You have the herbalism talent
+        → you have the cure for a basic
+        ailment.</em></span></p><p><strong>Scene:</strong> NPC actions, objects,
+        atmospherics. <span style="color:#6e6e6e"><em>You have a wise in ‘hidden
+        paths’ → There's a secret door. | Your story arc is about indulging your
+        gambling vice → your target is in a card
+        game.</em></span></p><p><strong>Setting:</strong> History, geography,
+        factions. <span style="color:#6e6e6e"><em>You’ve traveled this area
+        before → there's a town over those hills. | You’ve lived here your whole
+        life → the city watch is known to be lazy.</em></span></p><p>Added
+        details can't override rolls or contradict the established story. If
+        your detail affects another PC, get permission. Details that are
+        doubtful, or more impactful may require a story roll to see how true or
+        beneficial it is, or there may be nuance added. The GM can also veto
+        details to keep things coherent. There are gray zones between set
+        dressing, story details, and details simply too impactful to add. Set
+        boundaries with your group.</p><h2>Story Arcs</h2><p>Evocative phrases
+        that give your PC and group a thematic direction. Find out where they
+        lead through play—they're a starting direction, not the destination.
+        This is not your ultimate goal, it’s the next step in your
+        journey.</p><p>Pick a <em><strong>group arc</strong></em> together, then
+        a <em><strong>character arc</strong></em>. Pick from the example below,
+        detailing it so it fits your game, or write your own. Keep it
+        short.</p><p>Take
+        <em><strong>@UUID[.vwluhFw7CUnimj9t]{spark}</strong></em> by resolving
+        an arc with a meaningful moment, however big or small it is. This could
+        mean achieving your goal, adjusting it for the next step, or moving on
+        from it entirely. PCs should gain spark from story arcs around every 2-3
+        games. <span style="color:#6e6e6e"><em>You shrug your shoulders and let
+        the knight ride off—you have more to worry about than your revenge. |
+        You see a wanted poster with your face on it; it's not the kind of fame
+        you wanted, but it'll do...</em></span></p><p>(@@ 3-COLUMN TABLE GOES
+        HERE @@)</p><p>Group arcs unite players around a theme, while character
+        arcs help you express your own story. Most importantly, they give you
+        authorial power—<strong>you can use
+        </strong><em><strong>thread</strong></em><strong> or
+        </strong><em><strong>tangles</strong></em><strong> to add story details
+        tied to your arcs to bring them into play!</strong></p><p>Story arcs
+        signal to the GM that you want drama, dilemmas, and opportunities to
+        arise around them. For struggles (flirt with betrayal), get group
+        permission—limiting them to a few sessions and involving everyone makes
+        it more fun.</p>
+    video:
+      controls: true
+      volume: 0.5
+    src: null
+    category: null
+    ownership:
+      default: -1
+      79CEe5dKC6Ls5VbU: 3
+    flags: {}
+    _stats:
+      coreVersion: '14.364'
+      systemId: grimwild
+      systemVersion: 0.5.3
+      createdTime: 1782677811548
+      modifiedTime: 1783087915450
+      lastModifiedBy: 79CEe5dKC6Ls5VbU
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+    _key: '!journal.pages!YbuXwBYYNXIb670F.TFE7qnkVkpzsZYW6'
+  - sort: 1100000
+    name: Damage
+    type: text
+    _id: v1Y89kCcCc4AYWaW
+    system: {}
+    title:
+      show: true
+      level: 1
+    image: {}
+    text:
+      format: 1
+      content: >-
+        <p>Damage in <em>Grimwild</em> is variable, and can come in the form of
+        <strong>marks</strong>, <strong>harm</strong>,
+        <strong>conditions</strong>, and <strong>vex</strong>. A mix of each is
+        important for reaching the right level of lethality. When applying
+        consequences as the GM, consider the scene tone and gauge if you need to
+        switch it up and rely on other forms of damage.</p><p class="p1">In
+        general, reach for <em><strong>marks</strong></em> as minor damage, and
+        <em><strong>harm</strong></em> as consequential and dra- matic blows.
+        Use <em><strong>conditions</strong></em> to track specific, narratively
+        important injuries. Include <em><strong>vex</strong></em> to force an
+        emotional response, and add setbacks with other impact moves <em>(the
+        rope bridge breaks | start a 4d reinforcements arrive timer)</em> to
+        keep scenes dynamic.</p><h2>Marks</h2><p>Light damage, a temporary
+        hindrance to a stat (out of breath, confused). When the stat is rolled,
+        clear the <em><strong>mark</strong></em>, and take +1t on the
+        roll.</p><p>If a stat is already marked, you take
+        <em><strong>harm</strong></em> (below) instead. As long as a stat is
+        unmarked, even if you have its related harm, you can take a mark to
+        it.</p><p>Marks are often combined with another mark or other
+        consequences when inflicted directly <em>(Agility mark + thrown off your
+        horse)</em> as an alternative to harm. You also take a mark when you
+        <em><strong>@UUID[.pNW9iH0hc9EFKfPK#push-yourself]{push
+        yourself}</strong></em>. If a mark is reduced (such as by a messy
+        defense roll), it becomes set dressing.</p><h2>Harm</h2><p>This is a
+        lingering hindrance to PC's body or mind. Adventurers have ways to
+        protect themselves from <em><strong>harm</strong></em>, whether armor,
+        quick reflexes, or magical ability. Take vantage into account—harm
+        should only come into play when those defenses can be overcome, or
+        circumstances could otherwise leave a character dropped. <strong>When
+        harm is likely, and dramatic weight calls for it, the GM can inflict one
+        of the following:</strong></p><p><strong>Bloodied:</strong> Pressing
+        physical damage that inflicts +1t to Brawn and
+        Agility.</p><p><strong>Rattled:</strong> Pressing mental damage that
+        inflicts +1t to Wits and Presence.</p><p><strong>Desperate:</strong>
+        Damage taking you to the edge, only taken as harm upon a second bloodied
+        or rattled, adding +1t to all rolls and making some outright impossible.
+        Harm that would leave you desperate a second time drops you instead (see
+        below).</p><blockquote
+        style="border-style:solid;border-radius:8px"><h4>Example
+        Damage</h4><p>Mark + small narrative consequence (mark Agility + drop
+        your weapon | mark Wits + take @UUID[.#vex]{vex})</p><p>Two marks (mark
+        Agility + Wits as you’re shaken | mark Wits + Presence as you're
+        confused)</p><p>Harm (take bloodied as they leave a gash | take rattled
+        as you're terrified by what you see)</p><p>Condition (take 3d Blinded as
+        they throw sand in your eyes | take Watched as they're
+        suspicious)</p></blockquote><h2>Dropped</h2><p>Taking harm while
+        Desperate leaves you dropped—you're out of the scene. Make a
+        @UUID[.3ZhPTONYCcx0olaV#story-roll]{story roll} (usually [[/r 2d]]): on
+        a perfect, you're merely out until the scene ends. On a messy, things
+        get even worse, like also taking on a temporary
+        <em><strong>@UUID[.#conditions]{condition}</strong></em> <span
+        style="color:rgb(110, 110, 110)"><em>(4d bleeding, broken leg,
+        trauma)</em></span>. On a grim, things get far worse, such as taking on
+        a permanent condition <span style="color:rgb(110, 110, 110)"><em>(blind,
+        cursed)</em></span>, or ending their story and taking an option
+        below.</p><p>You have the final say on long-term and permanent changes
+        to your character—including death. When your character would face a
+        severe personal consequence, work with the GM to find a good fit for
+        your PC and the situation. If it feels like it’s time for your story to
+        end, choose <strong>sacrifice</strong>, <strong>retirement</strong>, or
+        craft <strong>another end</strong>
+        together.</p><h3>Sacrifice</h3><p>When you’re ready, you take one more
+        action in the scene, then you die. Your action is an automatic success
+        with whatever effect feels appropriate. Work with the GM to describe a
+        dramatic and satisfying ending for your
+        character.</p><h3>Retirement</h3><p>You’re dropped from the scene, alive
+        but deeply scarred somehow. Work with the GM to find an opportunity in
+        the near future for your character to retire from the adventure. The
+        sooner the better: if you’re dropped again, you’ll
+        perish.</p><h3>Another End</h3><p>Not everyone dies a hero or finds
+        peace. Some reach an ignoble demise, an ambiguous fate, a turn to
+        antagonist, or some other conclusion.</p><blockquote
+        style="border-style:solid;border-radius:8px"><h3>On
+        Pacing</h3><p>Resolving a dropped character’s fate takes time and
+        discussion. One way to keep things moving is to remove a dropped
+        character immediately from the scene, but leave their roll and
+        resolution until the scene’s end. Keep in mind that the player can still
+        decide to resolve their fate at any point in between if it feels
+        appropriate, either with a roll or a decision like
+        sacrifice.</p></blockquote><h2>Vex</h2><p>This is an intense flash of
+        emotion like anger, fear, or confusion. <em><strong>Vex</strong></em> is
+        inflicted as a consequence, either on its own or in addition to a mark
+        or harm. Vex prompts an immediate, instinctive response. Choose one of
+        the following, then interpret the response, which usually lasts a beat
+        or two.</p><ul><li><p><strong>Fight:</strong> Lash out recklessly at the
+        subject of your fear or hate.</p></li><li><p><strong>Flight:</strong>
+        Run from the subject, taking whatever path
+        nearest.</p></li><li><p><strong>Freeze:</strong> Stop in your tracks,
+        with the emotion taking over your
+        mind.</p></li><li><p><strong>Freakout:</strong> Do something else to put
+        yourself, others, or your surroundings in harm's
+        way.</p></li></ul><p>Your PC is driven by emotion, but you decide how it
+        plays out. Aim to balance what's fun, what fits the story, and what
+        flows from the emotion.</p><h2>Conditions</h2><p>These are specific
+        injuries or maladies that impact only relevant situations and are often
+        lasting. They often replace <em><strong>harm</strong></em>, making
+        actions more difficult for the afflicted PC, but not bringing them
+        closer to dropped. <em><strong>Conditions</strong></em> can
+        be:</p><ul><li><p><strong>Urgent:</strong> These conditions act as
+        short-term timers for a worse fate.</p><ul><li><p><span
+        style="color:rgb(110, 110, 110)"><em>4d poisoned →
+        harm</em></span></p></li><li><p><span style="color:rgb(110, 110,
+        110)"><em>6d losing consciousness → out
+        cold</em></span></p></li><li><p><span style="color:rgb(110, 110,
+        110)"><em>4d bleeding out → death</em></span></p></li><li><p><span
+        style="color:rgb(110, 110, 110)"><em>8d losing your mind →
+        madness</em></span></p></li></ul></li><li><p><strong>Short-term:</strong>
+        These often wear off on their own, shortly.</p><ul><li><p><span
+        style="color:rgb(110, 110, 110)"><em>twisted ankle (clears after
+        scene)</em></span></p></li><li><p><span style="color:rgb(110, 110,
+        110)"><em>drunk (tipsy after scene)</em></span></p></li><li><p><span
+        style="color:rgb(110, 110, 110)"><em>8d thrown out
+        back</em></span></p></li><li><p><span style="color:rgb(110, 110,
+        110)"><em>4d pissed
+        off</em></span></p></li></ul></li><li><p><strong>Long-term:</strong>
+        These require treatment or intervention to heal, or last for extended
+        periods of time. Timers are treated as campaign
+        pools.</p><ul><li><p><span style="color:rgb(110, 110, 110)"><em>broken
+        arm</em></span></p></li><li><p><span style="color:rgb(110, 110,
+        110)"><em>ruined reputation</em></span></p></li><li><p><span
+        style="color:rgb(110, 110, 110)"><em>8d witch’s
+        curse</em></span></p></li></ul></li><li><p><strong>Permanent:</strong>
+        These conditions often stay forever. They might need a ritual or daring
+        acts to clear, if they can be healed at all.</p><ul><li><p><span
+        style="color:rgb(110, 110, 110)"><em>gouged-out
+        eye</em></span></p></li><li><p><span style="color:rgb(110, 110,
+        110)"><em>insanity</em></span></p></li><li><p><span
+        style="color:rgb(110, 110, 110)"><em>burn
+        scars</em></span></p></li></ul></li></ul><p><strong>Take +1t when a
+        condition specifically hinders a roll.</strong> Conditions can also
+        reduce your <em><strong>@UUID[.rAWKSZVoFjZNOUBd]{vantage}</strong></em>,
+        which can prohibit rolls <span style="color:rgb(110, 110, 110)"><em>(you
+        can't jump with a broken leg).</em></span></p><p>Conditions clear when
+        it makes sense, like after a scene, with rest, or when a pool tracking
+        them depletes. They may also require treatment or another specific
+        method to clear them. As mentioned earlier, work with the GM to find a
+        good fit when you’d take a lasting condition.</p>
+    video:
+      controls: true
+      volume: 0.5
+    src: null
+    category: null
+    ownership:
+      default: -1
+      79CEe5dKC6Ls5VbU: 3
+    flags: {}
+    _stats:
+      coreVersion: '14.369'
+      systemId: grimwild
+      systemVersion: 0.5.3
+      createdTime: 1782677811548
+      modifiedTime: 1794188266408
+      lastModifiedBy: UV77mtxQgW7KpS6B
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+    _key: '!journal.pages!YbuXwBYYNXIb670F.v1Y89kCcCc4AYWaW'
+  - sort: 1200000
+    name: Sessions
+    type: text
+    _id: WZauoxU0hSzW7GlL
+    system: {}
+    title:
+      show: true
+      level: 1
+    image: {}
+    text:
+      format: 1
+      content: >-
+        <h2>Pre-Session</h2><p>Before each session (after the first), recall the
+        previous session and share your PC's best moment. Each player takes
+        <em><strong>@UUID[.vwluhFw7CUnimj9t]{spark}</strong></em>, and resets
+        <em><strong>@UUID[.TFE7qnkVkpzsZYW6#thread]{thread}</strong></em> and
+        all per session talents.</p><p>When all are finished, the GM takes
+        <em><strong>@UUID[Compendium.grimwild.gwce-journals.JournalEntry.V9XAOE6EuQRhd0cW.JournalEntryPage.1hwVUU0jguFscQg1#suspense]{suspense}</strong></em>
+        and recaps the main points of the previous session, tying all of these
+        moments together into a proper "Previously on..." and starts the
+        session.</p><h3>Per Session Talents</h3><p>Many talents have a set
+        number of uses per session, these are reset when before beginning a new
+        session. These are balanced around 3 hours of play. If you run longer
+        games, the GM can choose to have talents refresh in the middle of a
+        session, when it makes thematic sense. <strong>If you prefer talents to
+        reset while resting, use the Rest Resets optional rule on page
+        174.</strong></p><h2>Experience</h2><p>After each session, take 1 XP and
+        fill in its box. You start at level 1 and advance when you fill boxes
+        equal to the next level (Level 4→5 = 5 more boxes).</p><p>The GM can
+        award 1 bonus XP for a standout session (about 1 in 4). For a slower
+        pace, slash each XP box before filling it.</p><h3>Levels</h3><p>PCs
+        start at level 1 and can go up to level 7. This takes about 6 months of
+        weekly play. Reaching a new level lets you choose a new
+        <em><strong>talent</strong></em>. At certain levels, your
+        <em><strong>core talent</strong></em> is upgraded as well.</p><p>One-off
+        games with experienced players tend to work best at level
+        3.</p><blockquote
+        style="border-style:solid;border-radius:8px"><h4>Reader Lens -
+        D&amp;D</h4><p>Levels don’t translate well between this and d20 fantasy
+        games. Levels in Grimwild would be closer to levels 4-11 in 5th edition
+        D&amp;D, but even then, most growth happens through versatility, not
+        power and more hit points.</p></blockquote><p></p>
+    video:
+      controls: true
+      volume: 0.5
+    src: null
+    category: null
+    ownership:
+      default: -1
+      79CEe5dKC6Ls5VbU: 3
+    flags: {}
+    _stats:
+      coreVersion: '14.364'
+      systemId: grimwild
+      systemVersion: 0.5.3
+      createdTime: 1782677811548
+      modifiedTime: 1783088577129
+      lastModifiedBy: 79CEe5dKC6Ls5VbU
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+    _key: '!journal.pages!YbuXwBYYNXIb670F.WZauoxU0hSzW7GlL'
+  - sort: 1150000
+    name: Recovery and Healing
+    type: text
+    _id: Mo2laiYpBIw2ths2
+    system: {}
+    title:
+      show: true
+      level: 1
+    image: {}
+    text:
+      format: 1
+      content: >-
+        <p>Damage can be healed with treatment, which requires time, tools, and
+        training. Treatment can be difficult and healing certain injuries may
+        always carry <em><strong>risk</strong></em>. Magic may replace some
+        requirements, though only
+        <em><strong>@UUID[Compendium.grimwild.gwce-journals.JournalEntry.Gok7DgwRi0Z3D5Jt.JournalEntryPage.5WIIqKTLpYkHFlvN]{potent
+        spells}</strong></em> can heal harm directly. Treatment is almost always
+        successful,
+        <em><strong>@UUID[Compendium.grimwild.gwce-journals.JournalEntry.V9XAOE6EuQRhd0cW.JournalEntryPage.qTI1iQgKkAMUFvhm]{impact
+        moves}</strong></em> from treatment bring other problems to the
+        forefront, such as time
+        pressure.</p><p><em><strong>@UUID[.v1Y89kCcCc4AYWaW#marks]{Marks}</strong></em>
+        are too minor to benefit from most
+        healing.</p><p><em><strong>@UUID[.v1Y89kCcCc4AYWaW#harm]{Harm}</strong></em>
+        is cleared with
+        treatment.</p><p><em><strong>@UUID[.v1Y89kCcCc4AYWaW#conditions]{Conditions}</strong></em>
+        can be healed when it makes sense, which might need treatment, or
+        require working towards a task pool or fulfilling specific requirements
+        before it clears.</p><h3>Healing Example</h3><p><em>The Berserker is
+        Bloodied—luckily, the Rogue has the healer background, giving them
+        vantage to provide treatment as needed. Guards are after the two, and
+        they decide if they should risk stopping.</em></p><h4>Situation
+        1</h4><p><em>The Berserker and Rogue are both back at their hideout,
+        successfully evading the guards. The GM decides treatment isn't risky,
+        so the roll is an automatic success.</em></p><h4>Situation
+        2</h4><p><em>The Berserker and Rogue duck into an alley, hoping they
+        have enough time to bandage the wounds. Treatment here carries risk, so
+        the Rogue rolls and gets a Messy. Bloodied is clear, but there's a
+        complication, such as...</em></p><ul><li><p><em>The stress starts to get
+        to the Rogue. (mark Wits)</em></p></li><li><p><em>The wound is worse
+        than it looked, and leaves a scar. (short-term
+        condition)</em></p></li><li><p><em>The guard patrol happens across the
+        alley, and the two are spotted.</em></p></li><li><p><em>The Rogue does
+        the best they can, but can't treat it completely. (mark
+        Brawn)</em></p></li></ul><h3>Resting</h3><p>Any significant stretch of
+        time between action (a night's camp, a week's travel) clears all marks
+        and harm. This natural healing is paced for drama, not
+        realism.</p><h3>Downtime</h3><p>This is an extended break, such as a
+        month or season. All PCs fully heal, including relevant conditions, and
+        reset per-session talents. The GM rolls
+        <em><strong>@UUID[Compendium.grimwild.gwce-journals.JournalEntry.V9XAOE6EuQRhd0cW.JournalEntryPage.vGSxlgH2QfQMoguw#campaign-pools]{faction
+        pools}</strong></em>, then picks one and depletes it completely to move
+        the story forward.</p>
+    video:
+      controls: true
+      volume: 0.5
+    src: null
+    category: null
+    ownership:
+      default: -1
+      79CEe5dKC6Ls5VbU: 3
+    flags: {}
+    _stats:
+      coreVersion: '14.369'
+      systemId: grimwild
+      systemVersion: 0.5.3
+      createdTime: 1783088192837
+      modifiedTime: 1794188277444
+      lastModifiedBy: UV77mtxQgW7KpS6B
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+    _key: '!journal.pages!YbuXwBYYNXIb670F.Mo2laiYpBIw2ths2'
+  - sort: 1300000
+    name: Treasure
+    type: text
+    _id: 13jc6Kr9sBXfdgDC
+    system: {}
+    title:
+      show: true
+      level: 1
+    image: {}
+    text:
+      format: 1
+      content: >-
+        <p>Treasure is the currency of an adventurer, useful in trade with the
+        powerful entities in the world to further your own aims. Your skills put
+        you beyond worrying about the expenses of daily life and adventuring
+        gear. You deal in treasures—<strong>minor</strong>,
+        <strong>major</strong>, and <strong>mythic</strong>, anything from a
+        stash of gold to a rare artifact or magical item. While the treasure's
+        label gives some indication of its value and the examples below show
+        what you might get for it in trade, a treasure is only truly as valuable
+        as what someone will give you for it.</p><p><strong>Minor:</strong>
+        <em>trained horse, a few jewels, noble clothing, a few mercenaries,
+        minor arcana.</em></p><p><strong>Major:</strong> <em>an estate, artistic
+        masterpiece, help from a city, major arcana, sailing
+        ship.</em></p><p><strong>Mythic:</strong> <em>castle, an army, complex
+        ritual, the royal treasury, spirit bound to
+        service.</em></p><p>Treasures are shared by the party, unless chosen
+        otherwise. With each adventure, it's assumed that you're gaining some
+        coin to spend on your own. Treasures are the things beyond that,
+        valuable resources the party can leverage. Hauling treasure isn't a
+        problem unless the GM specifically makes it one. You can also assume
+        that when a PC needs one of the party's treasures, they happen to have
+        it on them if it makes sense. That is, unless the GM
+        @UUID[Compendium.grimwild.gwce-journals.JournalEntry.V9XAOE6EuQRhd0cW.JournalEntryPage.qTI1iQgKkAMUFvhm#complicate-things]{Complicates
+        Things}.</p><h2>Finding Treasures</h2><p>When you gain treasure, the GM
+        can either specify what it is or just give its tier and handwave it. If
+        you want specifics on it later or it becomes important to the story,
+        figure it out then. It's the GM's job to match up treasure and the
+        nature of the adventure and campaign. When unsure about what exactly is
+        found, use a <em><strong>@UUID[.3ZhPTONYCcx0olaV#story-roll]{story
+        roll}</strong></em> and the crucible below to help.</p><section
+        class="grid
+        grid-3col"><div><ul><li><p>favor</p></li><li><p>jewels</p></li><li><p>gear</p></li><li><p>vehicle</p></li><li><p>rare
+        reagent</p></li><li><p>companion</p></li></ul></div><div><ul><li><p>gold</p></li><li><p>arcana</p></li><li><p>information</p></li><li><p>spell
+        cast</p></li><li><p>art piece</p></li><li><p>trade
+        goods</p></li></ul></div><div><ul><li><p>lucrative
+        rumor</p></li><li><p>deed</p></li><li><p>service</p></li><li><p>contact</p></li><li><p>title
+        or
+        rank</p></li><li><p>blessing</p></li></ul></div></section><h2>Carousing</h2><p>Any
+        time you're in a settlement, you can carouse by selling off a minor
+        treasure, with each PC spending their leisure time as they like. Make a
+        montage roll and narrate— or suffer—the results. After the scenes finish
+        up, everyone takes
+        <em><strong>@UUID[.vwluhFw7CUnimj9t]{spark}</strong></em> regardless of
+        the roll. Major and mythic treasures may be sold as well, if a buyer can
+        be found.</p>
+    video:
+      controls: true
+      volume: 0.5
+    src: null
+    category: null
+    ownership:
+      default: -1
+      79CEe5dKC6Ls5VbU: 3
+    flags: {}
+    _stats:
+      coreVersion: '14.364'
+      systemId: grimwild
+      systemVersion: 0.5.3
+      createdTime: 1783207699140
+      modifiedTime: 1783207935307
+      lastModifiedBy: 79CEe5dKC6Ls5VbU
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+    _key: '!journal.pages!YbuXwBYYNXIb670F.13jc6Kr9sBXfdgDC'
+folder: DVjdnExv7XQjqTIH
+categories: []
+ownership:
+  default: 0
+  79CEe5dKC6Ls5VbU: 3
+flags: {}
+_stats:
+  coreVersion: '14.368'
+  systemId: grimwild
+  systemVersion: 0.5.3
+  createdTime: 1782677811548
+  modifiedTime: 1791745985905
+  lastModifiedBy: nF9qxzj59Qn6fNSn
+  exportSource: null
+  compendiumSource: null
+  duplicateSource: null
+sort: 200000
+_key: '!journal!YbuXwBYYNXIb670F'

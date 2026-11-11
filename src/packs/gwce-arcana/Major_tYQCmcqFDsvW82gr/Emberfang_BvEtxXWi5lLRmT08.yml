@@ -1,0 +1,53 @@
+folder: tYQCmcqFDsvW82gr
+name: Emberfang
+type: arcana
+_id: BvEtxXWi5lLRmT08
+img: icons/weapons/swords/scimitar-guard-red.webp
+system:
+  description: >-
+    <p>A curved sword that wreathes itself in flames when held. Once per
+    session, add a fire-based secondary effect.</p>
+  tier: major
+  notes:
+    description: ''
+    label: ''
+  trackers:
+    - type: points
+      label: Fire Effect
+      points:
+        value: 1
+        max: 1
+        showSteps: true
+      pool:
+        diceNum: 0
+        powerPool: false
+  touchstones: burn—flame—attack
+  limitations: ''
+  activation: striking it on a rough surface.
+  sensories:
+    descriptors: smoldering core, heat waves, flying sparks
+    actions: smoke rising from grip, hand glows as if hot
+  palette:
+    - name: Forged Metal
+      color: '#1e1e24'
+    - name: Red Hot
+      color: '#9e2a2b'
+    - name: Flaming Yellow
+      color: '#ffb703'
+effects: []
+sort: 0
+ownership:
+  default: 0
+  nF9qxzj59Qn6fNSn: 3
+flags: {}
+_stats:
+  coreVersion: '14.369'
+  systemId: grimwild
+  systemVersion: 0.6.0
+  createdTime: 1794236097515
+  modifiedTime: 1794236462649
+  lastModifiedBy: UV77mtxQgW7KpS6B
+  compendiumSource: null
+  duplicateSource: null
+  exportSource: null
+_key: '!items!BvEtxXWi5lLRmT08'

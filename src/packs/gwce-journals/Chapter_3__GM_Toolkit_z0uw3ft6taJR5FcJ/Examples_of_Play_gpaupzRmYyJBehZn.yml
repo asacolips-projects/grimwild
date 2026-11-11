@@ -1,0 +1,1327 @@
+name: Examples of Play
+_id: gpaupzRmYyJBehZn
+pages:
+  - sort: 100000
+    name: Gnolls at the Gate
+    type: text
+    _id: C9593dpolnK3bOed
+    system: {}
+    title:
+      show: true
+      level: 1
+    image: {}
+    text:
+      format: 1
+      content: >-
+        <p>The 8d | Gnoll Marauders begin their assault on the walled town. You
+        spend suspense to make a move and hit the town gate with the battering
+        ram. You roll the 6d Walls Breached pool: (3, 4, 5, 1, 1, 6)
+        <strong>6d→3d</strong>. If the gate falls, chaos will reign.</p>
+
+        <p>The Cleric casts a warding rite spell and gets a perfect! Without a
+        specific rule, you make a quick ruling and add 2d to the Breached pool
+        (<strong>3d→5d</strong>).</p>
+
+        <p>The wizard steps up and launches a Frenzied Embers spell at the
+        gnolls—a <strong>critical</strong>! You roll the marauders' pool,
+        getting (3, 5, 4, 3, 6, 2, 1, 6) <strong>8d→4d</strong>. For the
+        critical, the wizard takes a <em><strong>secondary
+        effect</strong></em>—they want that battering ram to catch fire. You
+        think it'll probably take a while to burn, so you start a <strong>4d Ram
+        Burning pool</strong> and roll it: (2, 3, 3, 1) <strong>4d→0d</strong>!
+        Nevermind, it's engulfed in flames!</p>
+
+        <blockquote style="border-style:solid;border-radius:8px">
+            <p>Had they chosen greater effect, you would have dropped 1d from the pool before rolling it. If they had went with setup, they could have rolled an assist without risk with whoever came at the gnolls next. Imagine a berserker flying off the wall, greataxe in hand, cutting through the exploding fireball at some surprised gnolls!</p>
+            <p>Mastering setting up and rolling pools is another key GM skill. Here, it's rolled right as it's set because it makes sense.</p>
+        </blockquote>
+    video:
+      controls: true
+      volume: 0.5
+    src: null
+    category: null
+    ownership:
+      default: -1
+      79CEe5dKC6Ls5VbU: 3
+    flags: {}
+    _stats:
+      coreVersion: '14.368'
+      systemId: grimwild
+      systemVersion: 0.5.3
+      createdTime: 1783193168178
+      modifiedTime: 1791653844313
+      lastModifiedBy: nF9qxzj59Qn6fNSn
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+    _key: '!journal.pages!gpaupzRmYyJBehZn.C9593dpolnK3bOed'
+  - sort: 200000
+    name: Outnumbered by Bandits
+    type: text
+    _id: qNr4ek5Ru6Mzd8TL
+    system: {}
+    title:
+      show: true
+      level: 1
+    image: {}
+    text:
+      format: 1
+      content: >-
+        <p>The fighter stands off alone against 10 bandits. This one's
+        borderline, but the bandits all have combat experience and there's an
+        overwhelming number of them, so you make this
+        <strong>impossible</strong>.</p><p>The fighter thinks on it, then they
+        take off running. They want to split the group up for better odds. You
+        know this bunch is disorganized, so you decide a trick is relatively
+        easy—<strong>no thorns</strong>, and you call for a Wits roll (4, 3).
+        <strong>Messy</strong>! You let them know they pulled it off, but the
+        impact move means they're still facing three bandits—fightable, but
+        still <strong>+1t</strong>. You also give them a mark to Agility as they
+        stumble and twist their ankle. The fighter grabs the narration and works
+        in that the stumble is how the bandits ended up catching up to them.
+        Then they introduce a tangle—they'll start off on the ground, in a
+        terrible position, if they can have spark. You give the thumbs
+        up!</p><blockquote style="border-style:solid;border-radius:8px"><p>As
+        GM, you have to be really on point and consistent with thorns. There are
+        no hard rules, but it's easy to forget how tough enemy numbers can be.
+        Even a great fighter will struggle against ten all coming at
+        them.</p><p>When considering whether to add a thorn, err on the side of
+        adding it! It makes rolls more interesting with higher stakes, but also
+        makes players not just try the first thing that comes to
+        mind.</p><p>Finally, splitting up consequences like this is a good way
+        to keep scenes moving without hammering a PC as things get
+        started.</p><p>Give them a fighting chance to make for a cool scene. A
+        perfect probably would have had them facing 2
+        bandits.</p></blockquote><p></p>
+    video:
+      controls: true
+      volume: 0.5
+    src: null
+    category: null
+    ownership:
+      default: -1
+      79CEe5dKC6Ls5VbU: 3
+    flags: {}
+    _stats:
+      coreVersion: '14.364'
+      systemId: grimwild
+      systemVersion: 0.5.3
+      createdTime: 1783193179989
+      modifiedTime: 1783193639196
+      lastModifiedBy: 79CEe5dKC6Ls5VbU
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+    _key: '!journal.pages!gpaupzRmYyJBehZn.qNr4ek5Ru6Mzd8TL'
+  - sort: 300000
+    name: The Minotaur King
+    type: text
+    _id: KsTU29UAmdLf1hfB
+    system: {}
+    title:
+      show: true
+      level: 1
+    image: {}
+    text:
+      format: 1
+      content: >-
+        <p>The cleric charges the Minotaur King. This minotaur is a powerful foe
+        and the thorns it inflicts when fighting it must reflect that, so you
+        make it +2t and call for a Brawn roll (2, 3, 5, and 7, 8 on thorns). The
+        initial outcome is a <strong>messy</strong>, which drops to a
+        <strong>grim</strong> for the first cut, then to a
+        <strong>disaster</strong> for the second. </p><p>You hadn't declared
+        <em><strong>@UUID[Compendium.grimwild.gwce-journals.JournalEntry.V9XAOE6EuQRhd0cW.JournalEntryPage.O7u8kywnCA1IHYAp#dire-stakes]{dire
+        stakes}</strong></em> on this roll, but you know that a disaster can cut
+        past the need. You check in with the cleric, <strong>"You okay losing a
+        limb here?"</strong> Leaning into the awfulness of the situation, they
+        laugh it off and nod. You decide the Minotaur King chops off their arm!
+        You toss the narration back to the player to let them describe how it
+        all went down.</p><blockquote
+        style="border-style:solid;border-radius:8px"><p>Horrifying enemies need
+        horrifying consequences. If you hit hard, especially when the dice tell
+        you to, players will understand—the world is dangerous. That's why what
+        they're doing is heroic.</p><p>Still, it's good to check in. You can't
+        give a permanent condition like losing a limb to a player without their
+        say so. Had they wanted to avoid that, you could have dropped them
+        instead and risked death or found something equally
+        fitting.</p></blockquote>
+    video:
+      controls: true
+      volume: 0.5
+    src: null
+    category: null
+    ownership:
+      default: -1
+      79CEe5dKC6Ls5VbU: 3
+    flags: {}
+    _stats:
+      coreVersion: '14.364'
+      systemId: grimwild
+      systemVersion: 0.5.3
+      createdTime: 1783193185213
+      modifiedTime: 1783193746765
+      lastModifiedBy: 79CEe5dKC6Ls5VbU
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+    _key: '!journal.pages!gpaupzRmYyJBehZn.KsTU29UAmdLf1hfB'
+  - sort: 400000
+    name: Undead Hordes
+    type: text
+    _id: zfnAyKJHPZ0f8Mh1
+    system: {}
+    title:
+      show: true
+      level: 1
+    image: {}
+    text:
+      format: 1
+      content: >-
+        <p>The PCs have made a grave mistake, and the entire cemetery
+        surrounding them is starting to come to unlife. You (the GM) tell them
+        there are skeletons and zombies everywhere. They have a choice—they
+        could run, and it would be an <strong>8d | Escape</strong> challenge,
+        but the town would be gone for sure. Or you can stay and fight, just
+        wave after wave of undead. You remind the rogue of their
+        <strong>definitely not honorable trait</strong>. The rest seem dead set
+        on staying, but the rogue wavers. They
+        <em><strong>@UUID[Compendium.grimwild.gwce-journals.JournalEntry.YbuXwBYYNXIb670F.JournalEntryPage.pNW9iH0hc9EFKfPK#quarrels]{quarrel}</strong></em>,
+        and finally the other three win out— they stay, and fight like the
+        heroes most of them are.</p><p>You think on what waves of zombies might
+        look like. Each undead is weak individually, but the entire horde is
+        epic. You set it up as waves, three linked <strong>4d-6d-8d | Undead
+        Horde challenges</strong>.</p><p>You then call for a
+        <em><strong>@UUID[Compendium.grimwild.gwce-journals.JournalEntry.V9XAOE6EuQRhd0cW.JournalEntryPage.WDm6CTveG7RjIgHI#build-up]{Build
+        Up}</strong></em> move and introduce the challenge. Each player
+        describes their character getting ready as the horde starts to claw its
+        way out of the ground. <strong>They take spark from the quarrel earlier,
+        and spark from the Build Up</strong>.</p><blockquote
+        style="border-style:solid;border-radius:8px"><p>Setting up challenges on
+        the fly is one of the most important parts of being a GM. With time, it
+        becomes second nature and lets you set up dynamic scenarios
+        quickly.</p><p>Unfortunately, the rogue here got stuck with losing out
+        on a spark— but it all happened so quickly that as the GM, you should
+        give them a pass and let them have three (tangle, quarrel, Build up)
+        just this once.</p><p>Giving PCs opportunities to get spark like that as
+        well incentivizes them using it. In these cases, usually one or two PCs
+        will have spark still on their sheet and miss out on getting that second
+        one as theirs is full.</p></blockquote>
+    video:
+      controls: true
+      volume: 0.5
+    src: null
+    category: null
+    ownership:
+      default: -1
+      79CEe5dKC6Ls5VbU: 3
+    flags: {}
+    _stats:
+      coreVersion: '14.364'
+      systemId: grimwild
+      systemVersion: 0.5.3
+      createdTime: 1783193188794
+      modifiedTime: 1783194080235
+      lastModifiedBy: 79CEe5dKC6Ls5VbU
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+    _key: '!journal.pages!gpaupzRmYyJBehZn.zfnAyKJHPZ0f8Mh1'
+  - sort: 500000
+    name: Treacherous Channel
+    type: text
+    _id: Uzp1tXKVYdFQ07sa
+    system: {}
+    title:
+      show: true
+      level: 1
+    image: {}
+    text:
+      format: 1
+      content: >-
+        <p>The Fighter takes the helm as they 8d | Navigate Channel. They roll
+        Wits, but the thorn from the treacherous currents cuts their perfect to
+        a messy. You roll for their progress navigating (8d→4d), then make an
+        impact move—Graze Reef. The rogue up in the lookout makes a Wits defense
+        roll but gets a grim. They don’t see it and the boat slams against the
+        reef. You start a <strong>6d Taking on Water</strong> pool, then roll it
+        (6d→4d) alongside the <strong>6d Storm Blows In pool</strong> (6d→2d).
+        Things are getting bad!</p><blockquote
+        style="border-style:solid;border-radius:8px"><p>Fail states provide an
+        important check against neverending rolls to whittle down pools. Setting
+        up a proper one, here the Storm Blowing In and even later a second one
+        with Taking on Water, means there's urgency and care in what they do.
+        They'll work hard together to make sure those pools don't get
+        rolled.</p></blockquote><p>At the edge of catastrophe, the Fighter tries
+        to right the course. They spend spark and the Rogue and Wizard jump in
+        to
+        <strong>@UUID[Compendium.grimwild.gwce-journals.JournalEntry.YbuXwBYYNXIb670F.JournalEntryPage.bs6rHob3redyMuPl#assist]{assist}</strong>.
+        Before they roll, you make another impact move—the Violent Winds give
+        the roll
+        <strong>@UUID[Compendium.grimwild.gwce-journals.JournalEntry.V9XAOE6EuQRhd0cW.JournalEntryPage.O7u8kywnCA1IHYAp#dire-stakes]{dire
+        stakes}</strong>. If this fails, the pools are rolled and one or more of
+        the PCs is going overboard into shark-infested waters. Everyone grabs
+        their dice.</p><blockquote
+        style="border-style:solid;border-radius:8px"><p>This kind of pressure
+        creates teamwork and teamwork is what an adventuring party should be all
+        about. If you find your players struggling against challenges, make sure
+        to point out mechanics like assists that they might be missing out
+        on.</p><p>And don't be afraid to Lock Down if they don't do it. The
+        story will just move on in a different
+        direction!</p></blockquote><p><strong>You (GM):</strong> “Your ship rams
+        the pirate ship! You see the Pirate Captain pull out a horn, look
+        terrified, and then blow it. Amidst the high waves surrounding both
+        ships, the Kraken’s Tentacles burst forth from the water. There are
+        about 20 deckhands below and a group of 10 archers above, each a 4d mook
+        pool. There are a few swashbucklers too, and the Captain's an
+        elite.”</p><p>You put out some tokens representing all of this on the
+        battlemap. “Go ahead and put your tokens where they make the most sense.
+        What do you do?”</p><p><strong>Fighter:</strong> “I have my bow out and
+        start launching arrows at the archers.”</p><p>They roll Agility and get
+        a grim. You give a mark to Brawn and Presence as an arrow slices their
+        arm. You follow up by spending suspense. You have the Pirate Captain
+        swing onto their boat and attack the fighter, who rolls a messy on their
+        Brawn defense roll because of the mark. <strong>They mark Agility, then
+        clear the mark on Brawn because it was rolled.</strong></p><blockquote
+        style="border-style:solid;border-radius:8px"><p>Clearing marks after
+        other marks are applied makes sure you don't end up in weird situations
+        where you take a mark, roll it, clear it, take another, roll it, clear
+        it, and so on. It's better to change the fiction up and have it move to
+        a different stat.</p></blockquote><p><strong>Rogue:</strong> “I want to
+        trick the Kraken into trying to hit me! I’ll slice at a tentacle, then
+        jump over towards the deckhands, like right into the middle of
+        them.”</p><p>You double check their intent, to make the kraken hit the
+        deckhands, and then have him roll Wits (+2t), warning that this is
+        <strong>dire stakes—this could get them dropped</strong>. Hearing that,
+        the cleric uses their crossbow to assist with some cover fire at the
+        deckhands. The rogue agrees and they roll a messy, but it works! You
+        think on it and make a ruling prioritizing the fiction here. That
+        tentacle is enough to wipe out those deckhands without a roll. However,
+        the rogue is definitely dropped, out of the scene in some
+        way.</p><blockquote style="border-style:solid;border-radius:8px"><p>If
+        you know a situation could cut straight to a dropped on a grim without
+        being desperate first, you need to let them know that it's dire stakes.
+        Players buying into a roll that could leave their PC dropped makes them
+        way more okay with it if it happens, or even laughing it off when it
+        does.</p><p>However, if you drop them out of nowhere and they roll a
+        grim on the story roll, it's likely to fall pretty
+        flat.</p></blockquote><p>You get ready to make a story roll for the
+        dropped rogue, but the cleric jumps in to <strong>assist</strong> again!
+        They roll 1d on a defense roll since the rogue didn't get one and get a
+        perfect! They run across and tackle the rogue out of the way just as the
+        tentacle sweeps the deck hands off into the sea.</p><p>You check in that
+        the battlemap has the tokens in roughly the right spots. You also feel
+        it's good timing for the threat pool and roll 4d Waves (4d→0d). Waves
+        wash over the boats and you have everyone make Brawn defense rolls. They
+        all get a perfect except the cleric, who rolled a grim—they're washed
+        overboard!</p><blockquote
+        style="border-style:solid;border-radius:8px"><p>Remind your players a
+        few times when you first start playing that they can assist on action
+        rolls that prompt impact moves. They only get to roll 1d and open
+        themselves up to the risk, but it's a chance! They can also spend spark
+        on the roll.</p></blockquote><p><strong>Wizard:</strong> “Can I try to
+        save the cleric just before he goes over? Or like right as he goes over?
+        I want to cast <em>Flaming Claw</em> to grab him.”</p><p>You let her
+        know she can’t undo something that happened, but there’s enough gray
+        area to try this. You remind her that Flaming Claw scorches whatever it
+        touches, so the cleric's Agility will get marked no matter what here.
+        She makes the roll and gets a messy. The cleric is scorched a bit, but
+        safe as the claw drags him back up the side of the boat. Not wanting to
+        further complicate this beat, you decide to take
+        <strong>suspense</strong> instead of making an impact move, a nice soft
+        reset on the action. You point the Spotlight back at the
+        PCs.</p><blockquote
+        style="border-style:solid;border-radius:8px"><p>Suspense is a great
+        fallback on a messy when you want to wrap up a beat and move on.
+        Sometimes a perfect or a grim both make sense, but the middle zone
+        doesn't—let the PCs have their easy victory for now,then hit them out of
+        nowhere with suspense later.</p></blockquote><section class="grid
+        grid-2col"><div><img
+        src="modules/grimwild/assets/img/challenge1-channel.svg"></div><div><img
+        src="modules/grimwild/assets/img/battleground-pirateship.svg"></div></section>
+    video:
+      controls: true
+      volume: 0.5
+    src: null
+    category: null
+    ownership:
+      default: -1
+      79CEe5dKC6Ls5VbU: 3
+    flags: {}
+    _stats:
+      coreVersion: '14.364'
+      systemId: grimwild
+      systemVersion: 0.5.3
+      createdTime: 1783193193817
+      modifiedTime: 1783196712643
+      lastModifiedBy: 79CEe5dKC6Ls5VbU
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+    _key: '!journal.pages!gpaupzRmYyJBehZn.Uzp1tXKVYdFQ07sa'
+  - sort: 600000
+    name: Bandit Showdown
+    type: text
+    _id: RMl06LAI8nuobgW4
+    system: {}
+    title:
+      show: true
+      level: 1
+    image: {}
+    text:
+      format: 1
+      content: >-
+        <p>The rogue spots the ambush and sneaks into the trees, up behind the 4
+        Bandit Rabble. He strikes, rolling Agility and gets a perfect. You let
+        him know these are just mooks and this takes out all of them, so he
+        takes the creative liberty to narrate a sequence of him dispatching the
+        bandits quietly, one by one.</p><p>The player knows there’s also a
+        Bandit Leader here, but the rogue character doesn’t—he introduces a
+        tangle. They recently changed their trait from definitely not honorable
+        to definitely not quiet, so he wants to say his character doesn't know
+        about the bandit and walks out loudly bragging. That makes sense and
+        seems in-character, so you okay it and he takes spark.</p><blockquote
+        style="border-style:solid;border-radius:8px"><p>A single good roll can
+        take out a couple of mooks or one tough. With a good enough pool roll,
+        it can even take out one elite.</p></blockquote><p>The player expected
+        the leader to run away, but you check his role—brute. A smart enemy
+        might flee, but not a
+        <strong>@UUID[Compendium.grimwild.gwce-journals.JournalEntry.V9XAOE6EuQRhd0cW.JournalEntryPage.zddvwn5XRnOMszDl#brute]{brute}</strong>.
+        You make a 1d (unlikely) story roll for the rogue to see if the bandit
+        runs and get a grim. Looks like it's a fight. You declare dire stakes,
+        then make a move that was prompted by the story roll—Hit 'Em
+        Hard.</p><blockquote
+        style="border-style:solid;border-radius:8px"><p>When in doubt about what
+        an enemy would do, look to their
+        @UUID[Compendium.grimwild.gwce-journals.JournalEntry.V9XAOE6EuQRhd0cW.JournalEntryPage.zddvwn5XRnOMszDl#roles]{role}
+        and go from there.</p></blockquote><p>The Bandit Leader charges from the
+        bushes. The rogue rolls a grim and gets blindsided. You skip marked and
+        go straight to bloodied.</p><p>The rogue describes the attack, blood
+        flying from a blow to the head. <strong>You use a Buildup move and you
+        both narrate a moment, the bandit looking to finish this, the rogue
+        having a chance to stand up. They face off.</strong> The rogue takes
+        spark, you take suspense. Now it's a fight.</p><blockquote
+        style="border-style:solid;border-radius:8px"><p>Cinema like this is why
+        we play the game. Imagine all this through the camera lens, your shared
+        imagination space. When the mechanics flow like this, the system
+        sings.</p></blockquote>
+    video:
+      controls: true
+      volume: 0.5
+    src: null
+    category: null
+    ownership:
+      default: -1
+      79CEe5dKC6Ls5VbU: 3
+    flags: {}
+    _stats:
+      coreVersion: '14.364'
+      systemId: grimwild
+      systemVersion: 0.5.3
+      createdTime: 1783193199998
+      modifiedTime: 1783194783017
+      lastModifiedBy: 79CEe5dKC6Ls5VbU
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+    _key: '!journal.pages!gpaupzRmYyJBehZn.RMl06LAI8nuobgW4'
+  - sort: 700000
+    name: The Red Dragon
+    type: text
+    _id: jtbC0lRq87J7h9lJ
+    system: {}
+    title:
+      show: true
+      level: 1
+    image: {}
+    text:
+      format: 1
+      content: >-
+        <p><em>By @zach.labounty on Discord, adapted for Community Edition and
+        used with permission.</em></p><p>The party is The Bard, Fighter, Rogue,
+        and Cleric. The GM sets the scene and narrates the sound of wings
+        flapping and the giant, red head popping up over the trees of the forest
+        nearby town.</p><p>The GM uses the Build Up move before they introduce
+        the challenge, and give the PCs spark. The Bard says he's posted up high
+        on a parapet with a ballista aimed and ready. The Fighter narrates their
+        stoicism as they stand at the town gate prepared to defend everyone with
+        their life. The Rogue says he's waiting at the edge of the treeline to
+        come in from behind and try to mount the thing. The Cleric says they've
+        safely put everyone in town in a stone building with a fire trench built
+        around it and they're going to protect the townsfolk and back everyone
+        up.</p><p>The dragon flies over the town once and as they do, the GM
+        <strong>spends one suspense</strong> from the Body. <strong>It uses its
+        breath weapon to ravage the town.</strong> GM decides that the Cleric
+        and Bard are subject to the breath and need to make defense rolls with
+        no thorns because the dragon is still a bit high up. They both succeed,
+        but now the town is ablaze.</p><blockquote
+        style="border-style:solid;border-radius:8px"><p>Suspense can be spent to
+        target multiple PCs. In this case, the town is also caught in the fire.
+        Consider lessening the consequences or thorns; falling from a group
+        attack isn’t as dynamic as other impact moves.</p></blockquote><p>The
+        dragon does another fly over and as it does, the Bard shoots it with the
+        ballista (they say they're aiming for the wings to down it). They get a
+        messy and the GM rolls the Wings pool (6d → 3d), but they get an impact
+        move in result. The GM decides to take suspense. The dragon descends a
+        bit and a rain of kobolds fall from its back and begin causing mayhem in
+        the city.</p><p>The GM spends suspense from Kobold Minions and has them
+        attempt to overwhelm the Cleric. Another defense roll and this time it's
+        a Grim! The Cleric is caught off guard and takes
+        <strong>bloodied</strong>.</p><blockquote
+        style="border-style:solid;border-radius:8px"><p>Instead of giving
+        bloodied, another option would be to target the townsfolk—striking
+        directly at the Cleric’s goal.</p></blockquote><p>The dragon fully
+        descends outside town face to face with the fighter and the fighter is
+        the first to react! They go straight for its eye with a jumping strike.
+        Messy! The GM rolls the Body pool (8d →6d), not very
+        effective.</p><p>The GM uses the impact move from the Messy to have the
+        dragon roar and attempt to
+        <strong>@UUID[Compendium.grimwild.gwce-journals.JournalEntry.YbuXwBYYNXIb670F.JournalEntryPage.v1Y89kCcCc4AYWaW#vex]{vex}</strong>
+        the entire party. The fighter normally wouldn't get a defense roll, but
+        because the GM is aiming for more than a light consequence, the fighter
+        gets to roll too.</p><p>Some quick defense rolls and two perfects say
+        the fighter and rogue are in it to win it. The bard gets a messy and
+        takes a mark to Presence. The Cleric gets a Grim again and takes vex,
+        opting for Flight as they narrate their character running away from the
+        town's shelter and leaving it free to be attacked by the kobold minions,
+        despite their desire to protect the townsfolk.</p><blockquote
+        style="border-style:solid;border-radius:8px"><p>The Cleric isn’t out of
+        the scene just yet. Given a few moments to collect themselves they may
+        return, but they’ll certainly have to explain themselves to their allies
+        and the town—assuming there’s one left to come back
+        to!</p></blockquote><p>The GM then spends one suspense from Claws and
+        has another suspense from Tail as the dragon makes two quick strikes at
+        the fighter who just landed back on the ground. The fighter makes two
+        defense rolls and gets a Grim on both! The first leaves him rattled as
+        the claws come inches away from his head, and then he takes the full
+        force of the tail, and gets bloodied as well!</p><p>The Rogue comes in
+        with a sneak attack, runs up the tail, and attempts to use his precise
+        dagger to stab it in the neck under some scales. They succeed! Perfect!
+        The GM decides to roll the Body pool (6d→2d), it's pretty effective!
+        But, it's time for all that Suspense to get spent again. <strong>The GM
+        uses a suspense from Wings to have the dragon fly high into the
+        air</strong> with the Rogue on its back, but just in time the bard uses
+        an Inspiration to interrupt the impact move. They roll and get a
+        Perfect, narrating a vicious, mocking taunt that keeps the dragon from
+        running away. The GM spends another suspense from Tail to have it swing
+        up and try to get the Rogue off its back. The Rogue gets a messy, and
+        gets knocked off the dragon's back, but is otherwise okay.</p><p>The
+        party is in a pretty bad situation! Three PCs left, the fighter on his
+        last leg, and lots of suspense!</p><blockquote
+        style="border-style:solid;border-radius:8px"><p>If it ever makes sense
+        in the narrative for the dragon to flee, the GM could use Lock Down,
+        using the ‘fly away’ fail state. The party should work towards cutting
+        this off in some way before too long.</p></blockquote><img
+        src="modules/grimwild/assets/img/linked2-dragon.svg">
+    video:
+      controls: true
+      volume: 0.5
+    src: null
+    category: null
+    ownership:
+      default: -1
+      79CEe5dKC6Ls5VbU: 3
+    flags: {}
+    _stats:
+      coreVersion: '14.364'
+      systemId: grimwild
+      systemVersion: 0.5.3
+      createdTime: 1783193207707
+      modifiedTime: 1783196523131
+      lastModifiedBy: 79CEe5dKC6Ls5VbU
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+    _key: '!journal.pages!gpaupzRmYyJBehZn.jtbC0lRq87J7h9lJ'
+  - sort: 800000
+    name: Kobold Trials
+    type: text
+    _id: wqBO54rvYeLGBXY8
+    system: {}
+    title:
+      show: true
+      level: 1
+    image: {}
+    text:
+      format: 1
+      content: >-
+        <p>The Wizard's brought before the kobold elders for her <strong>4d |
+        Trial by Ordeal</strong>. The first trial is to lift a boulder, and she
+        gets a perfect! You roll for progress (<strong>4d→4d</strong>), but none
+        is made. The elders, unimpressed, call for a larger boulder, but the
+        Wizard pivots for a secondary effect, and wins the chieftain over. With
+        a wave of their hand, he silences them. She moves to the next trial, no
+        progress, but in the chieftain's good graces.</p><blockquote
+        style="border-style:solid;border-radius:8px"><p>And here's where it all
+        comes together, the mix of setting up challenges, rolling pools,
+        reacting within the fiction to how those pools progress, and hitting
+        with appropriate impact moves while giving out
+        thorns.</p></blockquote><p>Next, the Wizard must walk across a very
+        narrow balance beam (+1t). She rolls [2, 6, - 7]. Her perfect gets cut
+        to a messy. As she makes it to the end, she stumbles off and smacks her
+        head. You decide that Wits gets marked but the elders laugh and seem
+        pleased (4d→1d). The final ordeal is a ridiculous riddle (+2t)—and ends
+        up rolling a another messy. You decide the kobolds begin to argue over
+        the correct answer, even as the chieftain declares the Wizard has passed
+        (1d→0d). A fight breaks out, but the Wizard has earned the trust of the
+        leader, so he unlocks the chains.</p><blockquote
+        style="border-style:solid;border-radius:8px"><p>Throughout all of this,
+        there's of course a lot more narration, but this is the ideal flow of a
+        challenge. Each roll is giving great prompts for narration and it
+        progresses smoothly towards its horrible ending.</p></blockquote>
+    video:
+      controls: true
+      volume: 0.5
+    src: null
+    category: null
+    ownership:
+      default: -1
+      79CEe5dKC6Ls5VbU: 3
+    flags: {}
+    _stats:
+      coreVersion: '14.364'
+      systemId: grimwild
+      systemVersion: 0.5.3
+      createdTime: 1783193228544
+      modifiedTime: 1783281686264
+      lastModifiedBy: 79CEe5dKC6Ls5VbU
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+    _key: '!journal.pages!gpaupzRmYyJBehZn.wqBO54rvYeLGBXY8'
+  - sort: 900000
+    name: Distracted Guard
+    type: text
+    _id: 8efSGISEADVnD9gL
+    system: {}
+    title:
+      show: true
+      level: 1
+    image: {}
+    text:
+      format: 1
+      content: >-
+        <p>You call the guard over to distract him with chitchat, rolling
+        Presence and get [3, 6] perfect! This gives your rogue friend a chance
+        to pick the lock. They spent thread to have found some wire they could
+        finagle into a makeshift lockpick, but using it on the lock is still
+        +2t.</p><blockquote
+        style="border-style:solid;border-radius:8px"><p>Without spending thread,
+        the rogue wouldn't have even been able to pick the lock. Had the guard
+        been watching, the difficulty (+3t) would have made it incredibly
+        difficult. These are the kinds of factors players and GMs must consider
+        when judging rolls, and how thorns can affect the
+        outcomes.</p></blockquote><p>They roll Agility, getting [3, 4, 2 - 7, 8]
+        disaster! The messy (4) is cut by the thorns twice (7, 8) from a messy
+        to a grim, then to a disaster. The lock opens, but the GM makes two
+        impact moves here. The guard runs over, kicks the door, bloodies the
+        rogue, and slams it shut, locking it.</p><blockquote
+        style="border-style:solid;border-radius:8px"><p>At the end, the GM's
+        second impact move comes from the disaster. In this case, the GM could
+        have given the rogue desperate harm if it had made
+        sense.</p></blockquote>
+    video:
+      controls: true
+      volume: 0.5
+    src: null
+    category: null
+    ownership:
+      default: -1
+      79CEe5dKC6Ls5VbU: 3
+    flags: {}
+    _stats:
+      coreVersion: '14.364'
+      systemId: grimwild
+      systemVersion: 0.5.3
+      createdTime: 1783193231608
+      modifiedTime: 1783280240293
+      lastModifiedBy: 79CEe5dKC6Ls5VbU
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+    _key: '!journal.pages!gpaupzRmYyJBehZn.8efSGISEADVnD9gL'
+  - sort: 1000000
+    name: Bar Brawl
+    type: text
+    _id: DhJ49ymyNsBnP1he
+    system: {}
+    title:
+      show: true
+      level: 1
+    image: {}
+    text:
+      format: 1
+      content: >-
+        <p>You tell the GM you want to punch the guy in the face, so he calls
+        for a Brawn roll. Confused, you rewind a bit and explain that you're
+        sucker punching him, and it's mostly just to get him to back down.
+        Seeing the situation more clearly now, <strong>the GM calls for
+        Agility</strong>.</p><blockquote
+        style="border-style:solid;border-radius:8px"><p>This is why the how
+        &amp; why is important. Without it, the GM can’t get the stat
+        right.</p></blockquote><p>With an Agility of 2, you roll 2d and get [3,
+        5] messy. You're going to do it, but the GM makes an impact move. That
+        guy will be back with some friends. The GM starts a 4d Hooligans
+        timer.</p>
+    video:
+      controls: true
+      volume: 0.5
+    src: null
+    category: null
+    ownership:
+      default: -1
+      79CEe5dKC6Ls5VbU: 3
+    flags: {}
+    _stats:
+      coreVersion: '14.364'
+      systemId: grimwild
+      systemVersion: 0.5.3
+      createdTime: 1783193235789
+      modifiedTime: 1783280285157
+      lastModifiedBy: 79CEe5dKC6Ls5VbU
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+    _key: '!journal.pages!gpaupzRmYyJBehZn.DhJ49ymyNsBnP1he'
+  - sort: 1100000
+    name: Horse Negotiation
+    type: text
+    _id: JyQWDMy5pTfvyKjT
+    system: {}
+    title:
+      show: true
+      level: 1
+    image: {}
+    text:
+      format: 1
+      content: >-
+        <p>The fighter grabs the orc by the shirt and threatens him, but the
+        orc's not budging. The GM makes his impact move—the price for the horses
+        just doubled, and you all have nowhere near enough treasure.</p><p>You
+        step up and try a softer approach, negotiating with Presence at +1t from
+        the price doubling. You roll 3d1t and get [4, 6, 6 - 7] a
+        <strong>critical</strong>! In spite of the price, your critical ignores
+        the cut. You get the horses for the cost of the treasure and choose a
+        <strong>secondary effect</strong>—you want to make sure this orc remains
+        friendly permanently. The GM okays it and you're now friends with the
+        best horse trader this side of the Ironback Mountains.</p><blockquote
+        style="border-style:solid;border-radius:8px"><p>For the critical, you
+        could have chosen something else.</p><p>Greater effect would have gotten
+        you the horses for a nominal price. Setup doesn’t make much sense in the
+        situation, though if you were looking to rob the orc later, it might
+        apply.</p></blockquote>
+    video:
+      controls: true
+      volume: 0.5
+    src: null
+    category: null
+    ownership:
+      default: -1
+      79CEe5dKC6Ls5VbU: 3
+    flags: {}
+    _stats:
+      coreVersion: '14.364'
+      systemId: grimwild
+      systemVersion: 0.5.3
+      createdTime: 1783193238932
+      modifiedTime: 1783280421126
+      lastModifiedBy: 79CEe5dKC6Ls5VbU
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+    _key: '!journal.pages!gpaupzRmYyJBehZn.JyQWDMy5pTfvyKjT'
+  - sort: 1200000
+    name: Cliff Escape
+    type: text
+    _id: TPgJT9Q6v2ttsDxH
+    system: {}
+    title:
+      show: true
+      level: 1
+    image: {}
+    text:
+      format: 1
+      content: >-
+        <p>You’re already bloodied and want to climb up this cliff to get away
+        from the goblins shooting arrows at you. The GM has you roll Agility and
+        adds a thorn to represent the goblins. You roll a [5 - 7, 1]. Your messy
+        gets cut by the 7 and turns into a grim. The GM lets you know you're
+        getting an arrow in your back and falling back down the wall, ending up
+        desperate. You start gleefully narrating how horribly it
+        goes.</p><p><strong>You decide to make one last attempt.</strong> This
+        time, you spend spark and now have another thorn from desperate. You
+        roll 2d3t and get [6, 3 - 7, 2, 6] messy. The messy means you did it, so
+        the GM thinks on the consequences and makes you
+        <strong>rattled</strong>. That was one scary as hell climb. Once again,
+        you get to narrating your near-demise.</p><blockquote
+        style="border-style:solid;border-radius:8px"><p>It's possible to roll
+        again for the same thing, as long as the situation's changed. If nothing
+        has changed, it shouldn't need a roll in the first place.</p><p>One very
+        important point is that messy is successful, it's just not pretty. Here
+        the GM faces a bit of a dilemma—you're being shot at with arrows. If you
+        took bloodied again, you could have died. But you did make it to the top
+        of the cliff. They went with rattled due to how terrifying it was, but
+        bloodied could have worked as well. It's just that you would have been
+        dropped at the top.</p></blockquote>
+    video:
+      controls: true
+      volume: 0.5
+    src: null
+    category: null
+    ownership:
+      default: -1
+      79CEe5dKC6Ls5VbU: 3
+    flags: {}
+    _stats:
+      coreVersion: '14.364'
+      systemId: grimwild
+      systemVersion: 0.5.3
+      createdTime: 1783193241400
+      modifiedTime: 1783280478505
+      lastModifiedBy: 79CEe5dKC6Ls5VbU
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+    _key: '!journal.pages!gpaupzRmYyJBehZn.TPgJT9Q6v2ttsDxH'
+  - sort: 1300000
+    name: Rogue Healing
+    type: text
+    _id: 1XvIymkSs0HyQ05K
+    system: {}
+    title:
+      show: true
+      level: 1
+    image: {}
+    text:
+      format: 1
+      content: >-
+        <p>You want to cast a healing spell to remove an arrow from the rogue.
+        The wizard and fighter assist. The GM decides it’s risky, so you make
+        the action roll which ends up being a 2, 4, 1. The fighter rolls a 1 and
+        the wizard a 6. The end result is [2, 4, 1, 1, 6] perfect!</p><p>You
+        start narrating. Your describe your healing spell going awry and things
+        getting real bloody. The rogue starts fighting it and the fighter says
+        they can't quite hold the squirrely rogue down. The wizard steps in with
+        their enchantment magic and soothes the rogue, letting you finish your
+        work.</p><blockquote
+        style="border-style:solid;border-radius:8px"><p>When you roll assists,
+        all of the results are combined towards one outcome, but each person
+        rolls their own dice. </p><p>In this case, the healer is most important
+        so they're leading the roll. If nobody had medical knowledge, the leader
+        might have been the fighter—holding down the rogue now becomes vitally
+        important. </p><p>Post roll, be sure to narrate
+        together!</p></blockquote>
+    video:
+      controls: true
+      volume: 0.5
+    src: null
+    category: null
+    ownership:
+      default: -1
+      79CEe5dKC6Ls5VbU: 3
+    flags: {}
+    _stats:
+      coreVersion: '14.364'
+      systemId: grimwild
+      systemVersion: 0.5.3
+      createdTime: 1783193245728
+      modifiedTime: 1783280514276
+      lastModifiedBy: 79CEe5dKC6Ls5VbU
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+    _key: '!journal.pages!gpaupzRmYyJBehZn.1XvIymkSs0HyQ05K'
+  - sort: 1400000
+    name: Tunnel Collapse
+    type: text
+    _id: rEjM5BwQqT0gh6Ic
+    system: {}
+    title:
+      show: true
+      level: 1
+    image: {}
+    text:
+      format: 1
+      content: >-
+        <p>As the session winds to a close, the GM calls for a
+        <strong>@UUID[Compendium.grimwild.gwce-journals.JournalEntry.YbuXwBYYNXIb670F.JournalEntryPage.3ZhPTONYCcx0olaV#montage-roll]{montage}</strong>
+        roll to escape the collapsing dungeon. You're bloodied, so you have a
+        thorn and roll [1, 1 - 7] a disaster. The wizard in your group rolls [2,
+        2] grim.</p><blockquote
+        style="border-style:solid;border-radius:8px"><p>After a long adventuring
+        session is the perfect timing for a montage. Everyone has grown a bit
+        tired of that location and want to move on to bigger
+        things.</p></blockquote><p>The fighter rolls a [4, 2] messy! The best
+        outcome is a <strong>messy</strong>, so the overall outcome is a messy.
+        You manage to get out, but the impact move leaves you each with Agility
+        and Presence marked. You collaborate on the narration.</p><p>Had the
+        overall result here been a grim, it may have been a good idea to zoom in
+        on a tough scene as they get caught fleeing the dungeon. The GM could
+        have inflicted those marks, dropped your character even, then started
+        the scene off.</p><p>You already have <strong>marks</strong> on Brawn
+        and Agility, so it goes to <strong>bloodied</strong>. Unfortunately, you
+        were also bloodied and desperate, so you're instead
+        <strong>dropped</strong>. You make a 2d roll and get a messy, completely
+        knocked out.</p><blockquote
+        style="border-style:solid;border-radius:8px"><p>This is a good look at
+        how damage escalates. If Brawn wasn't marked, you could have gotten away
+        with just a mark even if you were already desperate. Unfortunately, the
+        adventure had taken a toll and just that last small hit was the straw
+        that broke the camel's back.</p><p>A 2d roll on dropped is a good
+        default. That last hit was from a mark, so unlikely to have killed you.
+        Even 3d would have been okay.</p></blockquote><p>The wizard describes
+        getting everyone lost in the tunnels. You narrate collapsing from your
+        wounds, telling the group to leave you behind. The fighter refuses,
+        hoists you over their shoulder, and heads in a single direction—and
+        somehow finds their way to the surface!</p><p>Outside, the rogue stands
+        waiting and cheekily asks what took you so long. They were elsewhere and
+        got a perfect on their montage.</p><p></p>
+    video:
+      controls: true
+      volume: 0.5
+    src: null
+    category: null
+    ownership:
+      default: -1
+      79CEe5dKC6Ls5VbU: 3
+    flags: {}
+    _stats:
+      coreVersion: '14.364'
+      systemId: grimwild
+      systemVersion: 0.5.3
+      createdTime: 1783193249349
+      modifiedTime: 1783280692631
+      lastModifiedBy: 79CEe5dKC6Ls5VbU
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+    _key: '!journal.pages!gpaupzRmYyJBehZn.rEjM5BwQqT0gh6Ic'
+  - sort: 1500000
+    name: Assassin Attack
+    type: text
+    _id: BpBIFCrN3eqoAM9U
+    system: {}
+    title:
+      show: true
+      level: 1
+    image: {}
+    text:
+      format: 1
+      content: >-
+        <p>You're walking through the library at night when an assassin strikes
+        from above. This could be Wits to see it coming, but <strong>the GM
+        thinks it's more of a physical reaction, Agility</strong>. The GM makes
+        it clear this is dire stakes—a grim means you're dropped, maybe
+        dead!</p><p>You take +1t since the assassin has the drop on you. You get
+        [6, 1 - 8] messy! The knife misses and you don't end up bloodied, but
+        Brawn gets marked as the assassin crashes into you, knocking the wind
+        out of you. You're both sprawled out on the ground, the knife now
+        between you. What do you do?</p><blockquote
+        style="border-style:solid;border-radius:8px"><p>The GM has a lot of
+        flexibility in choosing the defense they want to test—and testing the
+        stats is the best way of thinking about what's happening. The player has
+        no choice in the stat, besides a soft veto on things that are very out
+        of character.</p><p>The GM could have made this Brawn if the assassin
+        had tried to garrote them, or Wits if they didn't want to assume the
+        assassin went unspotted. Presence is pretty hard to make sense of in
+        this scenario, though.</p></blockquote>
+    video:
+      controls: true
+      volume: 0.5
+    src: null
+    category: null
+    ownership:
+      default: -1
+      79CEe5dKC6Ls5VbU: 3
+    flags: {}
+    _stats:
+      coreVersion: '14.364'
+      systemId: grimwild
+      systemVersion: 0.5.3
+      createdTime: 1783193254427
+      modifiedTime: 1783280759120
+      lastModifiedBy: 79CEe5dKC6Ls5VbU
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+    _key: '!journal.pages!gpaupzRmYyJBehZn.BpBIFCrN3eqoAM9U'
+  - sort: 1600000
+    name: Blessed Incense
+    type: text
+    _id: eXmhxmbst4fo6bsu
+    system: {}
+    title:
+      show: true
+      level: 1
+    image: {}
+    text:
+      format: 1
+      content: >-
+        <p>You have a special pack of blessed incense you brought from your home
+        temple. It's a <strong>4d resource pool</strong>. Each time you use it,
+        it triggers a roll to see how much is remaining. The first time you use
+        it, you roll 4d and get [6, 2, 6, 4]. The 2 result drops the pool by 1,
+        4d→3d. The next time you use it, you roll 3d and get 4 5 5. Nothing is
+        dropped from the pool! While you did use it, the pool's an abstract
+        measurement of how much is remaining and doesn't change this time. The
+        final time, though, you roll 3d again and get [2 1 2], 3d→0d. You use
+        it, but then the pool depletes and you're out of incense!</p><blockquote
+        style="border-style:solid;border-radius:8px"><p>This is a really
+        straightforward example of how pools work. If you were working against a
+        task pool or trying to affect a timer with an action roll and it dropped
+        0d from the pool, remember that you can <strong>push</strong> or
+        <strong>pivot</strong>. Taking a mark to drop 1d, or taking a secondary
+        effect instead.</p></blockquote>
+    video:
+      controls: true
+      volume: 0.5
+    src: null
+    category: null
+    ownership:
+      default: -1
+      79CEe5dKC6Ls5VbU: 3
+    flags: {}
+    _stats:
+      coreVersion: '14.364'
+      systemId: grimwild
+      systemVersion: 0.5.3
+      createdTime: 1783193257885
+      modifiedTime: 1783281019063
+      lastModifiedBy: 79CEe5dKC6Ls5VbU
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+    _key: '!journal.pages!gpaupzRmYyJBehZn.eXmhxmbst4fo6bsu'
+  - sort: 1700000
+    name: Upholding Honor
+    type: text
+    _id: 5kIaJLA3828DOQdA
+    system: {}
+    title:
+      show: true
+      level: 1
+    image: {}
+    text:
+      format: 1
+      content: >-
+        <p>You look to your desire for <em><strong>belonging</strong></em> and,
+        feeling found at last, replace it with a new
+        one—<em><strong>honor</strong></em>. You introduce a tangle, deciding to
+        stay on the bridge. "Go," you tell your friends, turning to hold off the
+        horde on the bridge while they escape.</p><blockquote
+        style="border-style:solid;border-radius:8px"><p>While traits and desires
+        don't give spark directly, they do give you vantage to add tangles. When
+        they change, you should also let your group see it play
+        out.</p></blockquote>
+    video:
+      controls: true
+      volume: 0.5
+    src: null
+    category: null
+    ownership:
+      default: -1
+      79CEe5dKC6Ls5VbU: 3
+    flags: {}
+    _stats:
+      coreVersion: '14.364'
+      systemId: grimwild
+      systemVersion: 0.5.3
+      createdTime: 1783193261598
+      modifiedTime: 1783281101172
+      lastModifiedBy: 79CEe5dKC6Ls5VbU
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+    _key: '!journal.pages!gpaupzRmYyJBehZn.5kIaJLA3828DOQdA'
+  - sort: 1800000
+    name: Chieftain's Temper
+    type: text
+    _id: zALMQr687S6FPP7i
+    system: {}
+    title:
+      show: true
+      level: 1
+    image: {}
+    text:
+      format: 1
+      content: >-
+        <p>You and the cleric, as honored prisoners, are hauled out to join the
+        chieftain at the head table. The GM has made it clear that the chieftain
+        angers easily, so they start a 4d Temper pool. You find a chance during
+        the meal to try to persuade the chieftain to let you go, but roll a
+        grim. Annoyed with your badgering, they bash the table and gesture for
+        the guards to haul you back to your tent. This triggers the Temper pool
+        and the GM rolls 1, 3, 1, 6 :: <strong>4d→1d</strong>. With just 1d
+        left, the GM makes sure to describe the chieftain being on the edge of
+        losing it. The cleric decides to keep their mouth shut.</p><blockquote
+        style="border-style:solid;border-radius:8px"><p>Pools can be very
+        swingy, which is by design. Here we see things almost instantly move
+        towards an incredibly tense situation.</p><p>You might also end up with
+        a much longer leash than you imagined if the pool doesn't drop much at
+        all. Either way, it's clear that they had best tread lightly. Even when
+        not rolled, pools have a great passive effect on scenes like
+        this.</p></blockquote>
+    video:
+      controls: true
+      volume: 0.5
+    src: null
+    category: null
+    ownership:
+      default: -1
+      79CEe5dKC6Ls5VbU: 3
+    flags: {}
+    _stats:
+      coreVersion: '14.364'
+      systemId: grimwild
+      systemVersion: 0.5.3
+      createdTime: 1783193266754
+      modifiedTime: 1783281135889
+      lastModifiedBy: 79CEe5dKC6Ls5VbU
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+    _key: '!journal.pages!gpaupzRmYyJBehZn.zALMQr687S6FPP7i'
+  - sort: 1900000
+    name: Nemesis Tangle
+    type: text
+    _id: S04fMXWYQ8hxtQrj
+    system: {}
+    title:
+      show: true
+      level: 1
+    image: {}
+    text:
+      format: 1
+      content: >-
+        <p>The heir must survive as the battle turns into a rout. Just then, you
+        introduce a <strong>tangle</strong>—you spot your nemesis, Mortica,
+        across the battlefield. By choosing the tangle, you risk the mission to
+        protect the heir, but your vengeance is more important. You take
+        spark.</p><blockquote
+        style="border-style:solid;border-radius:8px"><p>Here we see the player
+        introducing story details via a tangle instead of using thread, which is
+        completely fine.</p></blockquote><p>The GM decides to make a 2d story
+        roll and lets you know first what might happen. On a
+        <strong>perfect</strong>, you spot her first. On a grim, she spots you
+        first. On a messy, you both spot each other.</p><blockquote
+        style="border-style:solid;border-radius:8px"><p>On a perfect, you might
+        also consider another tangle—to wait until Mortica sees her to engage
+        honorably. Mortica, however, would definitely blindside you with an
+        impact move on that grim.</p></blockquote>
+    video:
+      controls: true
+      volume: 0.5
+    src: null
+    category: null
+    ownership:
+      default: -1
+      79CEe5dKC6Ls5VbU: 3
+    flags: {}
+    _stats:
+      coreVersion: '14.364'
+      systemId: grimwild
+      systemVersion: 0.5.3
+      createdTime: 1783193270559
+      modifiedTime: 1783281187274
+      lastModifiedBy: 79CEe5dKC6Ls5VbU
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+    _key: '!journal.pages!gpaupzRmYyJBehZn.S04fMXWYQ8hxtQrj'
+  - sort: 2000000
+    name: Dwarf vs. Cave Troll
+    type: text
+    _id: hR1YOnkv3fWudiEI
+    system: {}
+    title:
+      show: true
+      level: 1
+    image: {}
+    text:
+      format: 1
+      content: >-
+        <p>Fleeing from a massive cave troll, you spend <strong>thread</strong>
+        and invoke your Dwarf of the Deepmoot heritage's underground navigation
+        wise. You say you spot a tight side tunnel to lead the troll in to fight
+        it. The GM decides the cave troll can't maneuver well and +2t becomes
+        +1t.</p><blockquote style="border-style:solid;border-radius:8px"><p>A
+        cave troll is massively dangerous, +2t, but if it can't maneuver well,
+        it's only kind of dangerous. Thread can definitely be used to gain
+        mechanical advantage like this.</p></blockquote>
+    video:
+      controls: true
+      volume: 0.5
+    src: null
+    category: null
+    ownership:
+      default: -1
+      79CEe5dKC6Ls5VbU: 3
+    flags: {}
+    _stats:
+      coreVersion: '14.364'
+      systemId: grimwild
+      systemVersion: 0.5.3
+      createdTime: 1783193274885
+      modifiedTime: 1783281213598
+      lastModifiedBy: 79CEe5dKC6Ls5VbU
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+    _key: '!journal.pages!gpaupzRmYyJBehZn.hR1YOnkv3fWudiEI'
+  - sort: 2100000
+    name: Story Arcs
+    type: text
+    _id: mcX1nuQqhvVqBeAx
+    system: {}
+    title:
+      show: true
+      level: 1
+    image: {}
+    text:
+      format: 1
+      content: >-
+        <p>You start the game with the character arcs <em><strong>Enjoy
+        Life</strong></em> and <em><strong>Keep a Secret</strong></em>, which
+        makes sense since you're the runaway heir to the Orchard Kingdom. Your
+        job is to find ways to express these arcs through play, especially
+        growth arcs like Enjoying Life. The GM's job is to challenge them and
+        offer opportunity, especially a crisis arc like Keeping a Secret. It's
+        clear that you don't want to live a life of responsibility, but that
+        life will come calling whether you like it or not.</p><blockquote
+        style="border-style:solid;border-radius:8px"><p>The game will hum along
+        just fine without story arcs. They're a player tool that expands vantage
+        and lets you push the story towards what you want to be doing. They tell
+        the GM, and other players, that you are interested in these
+        themes.</p><p>If they fit your play style well, lean into
+        them.</p></blockquote>
+    video:
+      controls: true
+      volume: 0.5
+    src: null
+    category: null
+    ownership:
+      default: -1
+      79CEe5dKC6Ls5VbU: 3
+    flags: {}
+    _stats:
+      coreVersion: '14.364'
+      systemId: grimwild
+      systemVersion: 0.5.3
+      createdTime: 1783193279320
+      modifiedTime: 1783281249015
+      lastModifiedBy: 79CEe5dKC6Ls5VbU
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+    _key: '!journal.pages!gpaupzRmYyJBehZn.mcX1nuQqhvVqBeAx'
+  - sort: 2200000
+    name: Settling Debts
+    type: text
+    _id: u1pBtL1L9Z9J2AkY
+    system: {}
+    title:
+      show: true
+      level: 1
+    image: {}
+    text:
+      format: 1
+      content: >-
+        <p>As you enter the small city, you remember your Settle Debts story arc
+        and want to explore it. You spend <strong>thread</strong> and declare
+        that the father you never knew is here and you've carried this chip on
+        your shoulder a long time—now's the time to confront him.</p><blockquote
+        style="border-style:solid;border-radius:8px"><p>Here, you don't use a
+        tangle, instead opting to spend thread. Tangles are always bad, while
+        story just makes things happen.</p></blockquote><p>Through play, you
+        learn that your father has become a benevolent guild leader in the city,
+        looked up to by all. Not very interested in bringing down someone
+        helpful to the community, <strong>you bury the feelings and move
+        on</strong>. You take spark for finishing the arc.</p><blockquote
+        style="border-style:solid;border-radius:8px"><p>Arcs aren't
+        prescriptive. They don't have any ending in mind. Whether you accomplish
+        it, end it through failing at it, or just give up on it, you take spark
+        as your character finds something new to drive them.</p></blockquote>
+    video:
+      controls: true
+      volume: 0.5
+    src: null
+    category: null
+    ownership:
+      default: -1
+      79CEe5dKC6Ls5VbU: 3
+    flags: {}
+    _stats:
+      coreVersion: '14.364'
+      systemId: grimwild
+      systemVersion: 0.5.3
+      createdTime: 1783193282190
+      modifiedTime: 1783281291525
+      lastModifiedBy: 79CEe5dKC6Ls5VbU
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+    _key: '!journal.pages!gpaupzRmYyJBehZn.u1pBtL1L9Z9J2AkY'
+  - sort: 2300000
+    name: Archmage Secrets
+    type: text
+    _id: jSUcAk9IhDfbX8uj
+    system: {}
+    title:
+      show: true
+      level: 1
+    image: {}
+    text:
+      format: 1
+      content: >-
+        <p>Your party meets with the archmage, who reveals a dark secret about
+        your past. The GM targets your Presence to keep it together, adding a
+        thorn—the secret is especially damning. You roll [4, 1, 5 - 7] grim.
+        You're overwhelmed by memories, and take <strong>vex</strong>!</p><p>Now
+        you have a choice. You could <strong>fight</strong> and attack the
+        archmage in a rage, someone your party sees as an ally. You could take
+        <strong>flight</strong> away from the group, back outside the tower. You
+        could <strong>freeze</strong>, dropping the potion you intended to give
+        the archmage. You could <strong>freakout</strong>, lashing out at your
+        allies' shocked, judgemental stares.</p><blockquote
+        style="border-style:solid;border-radius:8px"><p>Vex gives a chance to
+        really double down on who your character is or go in the exact opposite
+        direction with something surprising. Either way, it's a big open door to
+        roleplaying.</p></blockquote>
+    video:
+      controls: true
+      volume: 0.5
+    src: null
+    category: null
+    ownership:
+      default: -1
+      79CEe5dKC6Ls5VbU: 3
+    flags: {}
+    _stats:
+      coreVersion: '14.364'
+      systemId: grimwild
+      systemVersion: 0.5.3
+      createdTime: 1783193285653
+      modifiedTime: 1783281333828
+      lastModifiedBy: 79CEe5dKC6Ls5VbU
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+    _key: '!journal.pages!gpaupzRmYyJBehZn.jSUcAk9IhDfbX8uj'
+folder: z0uw3ft6taJR5FcJ
+categories: []
+sort: 200000
+ownership:
+  default: 0
+  79CEe5dKC6Ls5VbU: 3
+flags: {}
+_stats:
+  coreVersion: '14.368'
+  systemId: grimwild
+  systemVersion: 0.5.3
+  createdTime: 1783193154933
+  modifiedTime: 1791746076405
+  lastModifiedBy: nF9qxzj59Qn6fNSn
+  compendiumSource: null
+  duplicateSource: null
+  exportSource: null
+_key: '!journal!gpaupzRmYyJBehZn'

@@ -1,0 +1,42 @@
+folder: TtWJSOkkmQ7qhO1P
+name: Got Your Back
+type: talent
+_id: e8XR5ciCgFEKJJYJ
+img: icons/skills/melee/unarmed-punch-fist.webp
+system:
+  description: >-
+    <p>Once per session, you can assist an ally after they roll a grim. The ally
+    can also roll 1d. On a perfect, you both <em><strong>take
+    spark</strong></em>. You can <em><strong>push yourself</strong></em> to do
+    it again.</p>
+  core: false
+  notes:
+    description: ''
+    label: ''
+  trackers:
+    - type: points
+      label: Free Activation
+      points:
+        value: 1
+        max: 1
+        showSteps: true
+      pool:
+        diceNum: 0
+        powerPool: false
+effects: []
+sort: 0
+ownership:
+  default: 0
+  79CEe5dKC6Ls5VbU: 3
+flags: {}
+_stats:
+  coreVersion: '14.368'
+  systemId: grimwild
+  systemVersion: 0.5.3
+  createdTime: 1782662617708
+  modifiedTime: 1791743281710
+  lastModifiedBy: nF9qxzj59Qn6fNSn
+  compendiumSource: null
+  duplicateSource: null
+  exportSource: null
+_key: '!items!e8XR5ciCgFEKJJYJ'

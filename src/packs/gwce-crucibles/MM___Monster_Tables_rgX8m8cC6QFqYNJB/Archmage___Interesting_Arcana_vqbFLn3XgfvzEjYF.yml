@@ -1,0 +1,157 @@
+name: Archmage - Interesting Arcana
+description: ''
+formula: 1d6
+results:
+  - name: ''
+    description: <b>Tome of endless ink</b>, that self-writes spells.
+    range:
+      - 1
+      - 1
+    _id: JsovZXY0yy4FwYxW
+    type: text
+    img: null
+    weight: 1
+    drawn: false
+    flags: {}
+    _stats:
+      coreVersion: '14.364'
+      systemId: grimwild
+      systemVersion: 0.5.3
+      createdTime: 1783270821322
+      modifiedTime: 1783270821322
+      lastModifiedBy: 79CEe5dKC6Ls5VbU
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+    _key: '!tables.results!vqbFLn3XgfvzEjYF.JsovZXY0yy4FwYxW'
+  - name: ''
+    description: <b>Second chance candle</b>, that lets you fix one regret.
+    range:
+      - 2
+      - 2
+    _id: U0MtKRSElJTsOD3t
+    type: text
+    img: null
+    weight: 1
+    drawn: false
+    flags: {}
+    _stats:
+      coreVersion: '14.364'
+      systemId: grimwild
+      systemVersion: 0.5.3
+      createdTime: 1783270821322
+      modifiedTime: 1783270821322
+      lastModifiedBy: 79CEe5dKC6Ls5VbU
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+    _key: '!tables.results!vqbFLn3XgfvzEjYF.U0MtKRSElJTsOD3t'
+  - name: ''
+    description: <b>Whispering bell</b>, that alerts you of others coming.
+    range:
+      - 3
+      - 3
+    _id: M0UckEv8lpNIekvS
+    type: text
+    img: null
+    weight: 1
+    drawn: false
+    flags: {}
+    _stats:
+      coreVersion: '14.364'
+      systemId: grimwild
+      systemVersion: 0.5.3
+      createdTime: 1783270821322
+      modifiedTime: 1783270821322
+      lastModifiedBy: 79CEe5dKC6Ls5VbU
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+    _key: '!tables.results!vqbFLn3XgfvzEjYF.M0UckEv8lpNIekvS'
+  - name: ''
+    description: <b>Aeroquill</b>, a quill that writes on nothing.
+    range:
+      - 4
+      - 4
+    _id: UglQeVUnrScau1UN
+    type: text
+    img: null
+    weight: 1
+    drawn: false
+    flags: {}
+    _stats:
+      coreVersion: '14.364'
+      systemId: grimwild
+      systemVersion: 0.5.3
+      createdTime: 1783270821322
+      modifiedTime: 1783270821322
+      lastModifiedBy: 79CEe5dKC6Ls5VbU
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+    _key: '!tables.results!vqbFLn3XgfvzEjYF.UglQeVUnrScau1UN'
+  - name: ''
+    description: <b>Crystal of stored sound</b>, that can record a message.
+    range:
+      - 5
+      - 5
+    _id: 9WTXILUuuspYDGCL
+    type: text
+    img: null
+    weight: 1
+    drawn: false
+    flags: {}
+    _stats:
+      coreVersion: '14.364'
+      systemId: grimwild
+      systemVersion: 0.5.3
+      createdTime: 1783270821322
+      modifiedTime: 1783270821322
+      lastModifiedBy: 79CEe5dKC6Ls5VbU
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+    _key: '!tables.results!vqbFLn3XgfvzEjYF.9WTXILUuuspYDGCL'
+  - name: ''
+    description: <b>Starthread robe</b>, that lets you see in total darkness.
+    range:
+      - 6
+      - 6
+    _id: yPzDHAaYlWD8oA4D
+    type: text
+    img: null
+    weight: 1
+    drawn: false
+    flags: {}
+    _stats:
+      coreVersion: '14.364'
+      systemId: grimwild
+      systemVersion: 0.5.3
+      createdTime: 1783270821322
+      modifiedTime: 1783270821322
+      lastModifiedBy: 79CEe5dKC6Ls5VbU
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+    _key: '!tables.results!vqbFLn3XgfvzEjYF.yPzDHAaYlWD8oA4D'
+folder: rgX8m8cC6QFqYNJB
+sort: 1500000
+_id: vqbFLn3XgfvzEjYF
+img: icons/svg/d20-grey.svg
+replacement: true
+displayRoll: true
+ownership:
+  default: 0
+  79CEe5dKC6Ls5VbU: 3
+flags: {}
+_stats:
+  coreVersion: '14.368'
+  systemId: grimwild
+  systemVersion: 0.5.3
+  createdTime: 1783270821322
+  modifiedTime: 1791749998254
+  lastModifiedBy: nF9qxzj59Qn6fNSn
+  compendiumSource: null
+  duplicateSource: null
+  exportSource: null
+_key: '!tables!vqbFLn3XgfvzEjYF'

@@ -1,0 +1,54 @@
+folder: vJDHTld69PUfD7Vp
+name: Fortune Ring
+type: arcana
+_id: MyAEXmFtfLYwP8NV
+img: icons/equipment/finger/ring-ball-leaves-green.webp
+system:
+  description: >-
+    <p>Close your eyes and trust in your fortune to roll a 8d power pool instead
+    of any roll you make. Refresh the pool by losing a game of luck.</p>
+  tier: mythic
+  notes:
+    description: ''
+    label: ''
+  trackers:
+    - type: pool
+      pool:
+        powerPool: true
+        diceNum: 8
+        max: 8
+      label: Fortune
+      points:
+        showSteps: false
+        value: 1
+        max: 1
+  touchstones: luck—balance—fate
+  limitations: ''
+  activation: kissing the ring.
+  sensories:
+    descriptors: unnatural shine, sparkles brightly when used
+    actions: reckless confidence, constant fiddling
+  palette:
+    - name: Lucky Green
+      color: '#2e6f40'
+    - name: Spun Gold
+      color: '#e6c229'
+    - name: Shining Jade
+      color: '#1bb368'
+effects: []
+sort: 0
+ownership:
+  default: 0
+  nF9qxzj59Qn6fNSn: 3
+flags: {}
+_stats:
+  coreVersion: '14.369'
+  systemId: grimwild
+  systemVersion: 0.6.0
+  createdTime: 1794238169016
+  modifiedTime: 1794246693514
+  lastModifiedBy: UV77mtxQgW7KpS6B
+  compendiumSource: null
+  duplicateSource: null
+  exportSource: null
+_key: '!items!MyAEXmFtfLYwP8NV'

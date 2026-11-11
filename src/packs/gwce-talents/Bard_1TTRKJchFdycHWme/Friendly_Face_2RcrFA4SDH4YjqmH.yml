@@ -1,0 +1,33 @@
+folder: 1TTRKJchFdycHWme
+name: Friendly Face
+type: talent
+_id: 2RcrFA4SDH4YjqmH
+img: /icons/skills/social/thumbsup-approval-like.webp
+system:
+  description: >-
+    <p>In any new town or district of a city you go to, you can always: <em>know
+    someone useful—quickly make a friend—be recognized by a fan</em>. They’ll
+    gladly do you a reasonable favor. <em><strong>Take spark</strong></em> if
+    you promise to pay them back.</p>
+  core: false
+  notes:
+    description: ''
+    label: ''
+  trackers: []
+effects: []
+sort: 0
+ownership:
+  default: 0
+  79CEe5dKC6Ls5VbU: 3
+flags: {}
+_stats:
+  coreVersion: '14.364'
+  systemId: grimwild
+  systemVersion: 0.5.3
+  createdTime: 1782662612586
+  modifiedTime: 1783008129238
+  lastModifiedBy: 79CEe5dKC6Ls5VbU
+  compendiumSource: null
+  duplicateSource: null
+  exportSource: null
+_key: '!items!2RcrFA4SDH4YjqmH'

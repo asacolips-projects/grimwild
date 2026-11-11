@@ -1,0 +1,44 @@
+folder: vJDHTld69PUfD7Vp
+name: Gauntlets of the Storm
+type: arcana
+_id: lhiGJdRbq32tg6ol
+img: icons/equipment/hand/gauntlet-armored-heavy-steel.webp
+system:
+  description: >-
+    <p>You can call lightning into your hands while wearing these gauntlets,
+    lashing out with bursts of energy.</p>
+  tier: mythic
+  notes:
+    description: ''
+    label: ''
+  trackers: []
+  touchstones: thunder—lightning—arc—fear—fist
+  limitations: ''
+  activation: punching your own palm.
+  sensories:
+    descriptors: static humming, smell of ozone
+    actions: lightning jumps between fists
+  palette:
+    - name: Dark Hide
+      color: '#2b2a33'
+    - name: Copper
+      color: '#c4733b'
+    - name: Storm Blue
+      color: '#497bb0'
+effects: []
+sort: 0
+ownership:
+  default: 0
+  nF9qxzj59Qn6fNSn: 3
+flags: {}
+_stats:
+  coreVersion: '14.369'
+  systemId: grimwild
+  systemVersion: 0.6.0
+  createdTime: 1794238169016
+  modifiedTime: 1794238169016
+  lastModifiedBy: UV77mtxQgW7KpS6B
+  compendiumSource: null
+  duplicateSource: null
+  exportSource: null
+_key: '!items!lhiGJdRbq32tg6ol'

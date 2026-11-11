@@ -1,0 +1,20 @@
+name: Paladin - Tenet Builder
+type: RollTable
+sorting: m
+folder: J3WMsOhM8YqJOjTE
+_id: Mmlr3V4UPRVYdBX5
+description: ''
+sort: 100000
+color: null
+flags: {}
+_stats:
+  coreVersion: '14.364'
+  systemId: grimwild
+  systemVersion: 0.5.3
+  createdTime: 1783111850919
+  modifiedTime: 1783127069327
+  lastModifiedBy: 79CEe5dKC6Ls5VbU
+  compendiumSource: null
+  duplicateSource: null
+  exportSource: null
+_key: '!folders!Mmlr3V4UPRVYdBX5'

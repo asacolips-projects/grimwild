@@ -1,0 +1,42 @@
+folder: FwVlQu0dz6vMZJXV
+name: Component Pouch
+type: talent
+_id: qp4J2gxLHEUIvLdl
+img: icons/containers/bags/pouch-leather-brown-green.webp
+system:
+  description: >-
+    <p>Each session, you have a <strong>2d Components</strong> resource pool to
+    help focus your magic. When you get a messy or grim on spellcasting, you can
+    roll the pool to increase a die result by 1 (3→4). Describe what reagent
+    helped.</p>
+  core: false
+  notes:
+    description: ''
+    label: ''
+  trackers:
+    - type: points
+      label: Components
+      points:
+        value: 2
+        max: 2
+        showSteps: true
+      pool:
+        diceNum: 0
+        powerPool: false
+effects: []
+sort: 0
+ownership:
+  default: 0
+  79CEe5dKC6Ls5VbU: 3
+flags: {}
+_stats:
+  coreVersion: '14.368'
+  systemId: grimwild
+  systemVersion: 0.5.3
+  createdTime: 1782662631337
+  modifiedTime: 1791753866621
+  lastModifiedBy: nF9qxzj59Qn6fNSn
+  compendiumSource: null
+  duplicateSource: null
+  exportSource: null
+_key: '!items!qp4J2gxLHEUIvLdl'

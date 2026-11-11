@@ -1,0 +1,44 @@
+folder: M9v17yUrFRF23cat
+name: Poisonheart Choker
+type: arcana
+_id: p46ihF3om6cURsTO
+img: icons/equipment/neck/amulet-engraved-wood-green.webp
+system:
+  description: >-
+    <p>While wearing this necklace, you can spit acid that slowly melts
+    everything it touches, though you remain unaffected.</p>
+  tier: minor
+  notes:
+    description: ''
+    label: ''
+  trackers: []
+  touchstones: acid—blood—attack
+  limitations: ''
+  activation: pinching the charm.
+  sensories:
+    descriptors: acrid smell masked by lavender and rose
+    actions: subtle tightening around throat, acid dripping
+  palette:
+    - name: VENOMOUS PURPLE
+      color: '#5e1e59'
+    - name: NIGHTSHADE
+      color: '#3b1f34'
+    - name: BRUISED BLACK
+      color: '#1c141a'
+effects: []
+sort: 0
+ownership:
+  default: 0
+  nF9qxzj59Qn6fNSn: 3
+flags: {}
+_stats:
+  coreVersion: '14.369'
+  systemId: grimwild
+  systemVersion: 0.6.0
+  createdTime: 1794235425735
+  modifiedTime: 1794235425735
+  lastModifiedBy: UV77mtxQgW7KpS6B
+  compendiumSource: null
+  duplicateSource: null
+  exportSource: null
+_key: '!items!p46ihF3om6cURsTO'

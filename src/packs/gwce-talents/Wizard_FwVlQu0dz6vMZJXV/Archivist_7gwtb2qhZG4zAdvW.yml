@@ -1,0 +1,32 @@
+folder: FwVlQu0dz6vMZJXV
+name: Archivist
+type: talent
+_id: 7gwtb2qhZG4zAdvW
+img: icons/sundries/books/book-embossed-spiral-purple-white.webp
+system:
+  description: >-
+    <p>You gain <strong>2 minor</strong>, and <strong>1 major arcana</strong>
+    that you’ve either found or created. When you roll an arcana’s power pool,
+    you drop 1 fewer die unless it’s the last.</p>
+  core: false
+  notes:
+    description: ''
+    label: ''
+  trackers: []
+effects: []
+sort: 0
+ownership:
+  default: 0
+  79CEe5dKC6Ls5VbU: 3
+flags: {}
+_stats:
+  coreVersion: '14.368'
+  systemId: grimwild
+  systemVersion: 0.5.3
+  createdTime: 1782662631337
+  modifiedTime: 1791753842694
+  lastModifiedBy: nF9qxzj59Qn6fNSn
+  compendiumSource: null
+  duplicateSource: null
+  exportSource: null
+_key: '!items!7gwtb2qhZG4zAdvW'

@@ -45,6 +45,10 @@ documentTypes:
     challenge:
       htmlFields:
       - description
+    gear:
+      htmlFields:
+      - description
+      - notes.description
 
 flags:
   hotReload:
@@ -99,11 +103,6 @@ packs:
     ownership:
       PLAYER: OBSERVER
       ASSISTANT: OWNER
-  - name: macros
-    label: Grimwild Macros
-    type: Macro
-    path: packs/macros
-    system: grimwild
   - name: rules
     label: Grimwild Rules
     type: JournalEntry
@@ -124,7 +123,50 @@ packs:
     type: Item
     path: packs/arcana
     system: grimwild
-packFolders: []
+  - name: gwce-journals
+    label: 'CE: Rules'
+    path: packs/gwce-journals
+    type: JournalEntry
+    system: grimwild
+  - name: gwce-crucibles
+    label: 'CE: Crucibles'
+    path: packs/gwce-crucibles
+    type: RollTable
+    system: grimwild
+  - name: gwce-talents
+    label: 'CE: Talents'
+    path: packs/gwce-talents
+    type: Item
+    system: grimwild
+  - name: gwce-arcana
+    label: 'CE: Arcana'
+    path: packs/gwce-arcana
+    type: Item
+    system: grimwild
+  - name: gwce-actors
+    label: 'CE: Monsters'
+    path: packs/gwce-actors
+    type: Actor
+    system: grimwild
+
+packFolders:
+  - name: "Grimwild: 1.4"
+    sorting: m
+    packs:
+      - talents
+      - arcana
+      - crucibles
+      - rules
+      - gm_toolkit
+      - monsters
+  - name: "Grimwild: CE"
+    sorting: m
+    packs:
+      - gwce-talents
+      - gwce-arcana
+      - gwce-crucibles
+      - gwce-journals
+      - gwce-actors
 
 socket: true
 

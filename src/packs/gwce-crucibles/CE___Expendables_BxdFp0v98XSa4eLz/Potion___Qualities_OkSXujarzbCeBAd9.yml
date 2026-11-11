@@ -1,0 +1,186 @@
+name: Potion - Qualities
+_id: OkSXujarzbCeBAd9
+img: icons/svg/d20-grey.svg
+description: ''
+results:
+  - type: text
+    weight: 1
+    range:
+      - 1
+      - 1
+    _id: mDF1KCJ36lzSiw7W
+    name: It's a
+    img: icons/svg/d20-black.svg
+    description: ''
+    drawn: false
+    flags: {}
+    _stats:
+      coreVersion: '14.368'
+      systemId: grimwild
+      systemVersion: 0.5.3
+      createdTime: 1791748303958
+      modifiedTime: 1791748303958
+      lastModifiedBy: nF9qxzj59Qn6fNSn
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+    documentUuid: null
+    _key: '!tables.results!OkSXujarzbCeBAd9.mDF1KCJ36lzSiw7W'
+  - type: document
+    weight: 1
+    range:
+      - 1
+      - 1
+    name: Expendables - Quality 1
+    img: icons/svg/d20-grey.svg
+    documentUuid: Compendium.grimwild.gwce-crucibles.RollTable.uhRYX3wbg0LdJbMk
+    _id: CnnYAhXOh17ztlmU
+    description: ''
+    drawn: false
+    flags: {}
+    _stats:
+      coreVersion: '14.368'
+      systemId: grimwild
+      systemVersion: 0.5.3
+      createdTime: 1791748303958
+      modifiedTime: 1791748303958
+      lastModifiedBy: nF9qxzj59Qn6fNSn
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+    _key: '!tables.results!OkSXujarzbCeBAd9.CnnYAhXOh17ztlmU'
+  - type: document
+    weight: 1
+    range:
+      - 1
+      - 1
+    name: Expendables - Quality 2
+    img: icons/svg/d20-grey.svg
+    documentUuid: Compendium.grimwild.gwce-crucibles.RollTable.HDKWydLDHhTH0pYm
+    _id: zEmA2EOBDl8eEfPo
+    description: ''
+    drawn: false
+    flags: {}
+    _stats:
+      coreVersion: '14.368'
+      systemId: grimwild
+      systemVersion: 0.5.3
+      createdTime: 1791748303958
+      modifiedTime: 1791748303958
+      lastModifiedBy: nF9qxzj59Qn6fNSn
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+    _key: '!tables.results!OkSXujarzbCeBAd9.zEmA2EOBDl8eEfPo'
+  - type: document
+    weight: 1
+    range:
+      - 1
+      - 1
+    _id: Jtpo9q4DJFtC0JIn
+    name: with
+    img: icons/svg/d20-black.svg
+    description: ''
+    drawn: false
+    flags: {}
+    _stats:
+      coreVersion: '14.368'
+      systemId: grimwild
+      systemVersion: 0.5.3
+      createdTime: 1791748303958
+      modifiedTime: 1791748303958
+      lastModifiedBy: nF9qxzj59Qn6fNSn
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+    documentUuid: null
+    _key: '!tables.results!OkSXujarzbCeBAd9.Jtpo9q4DJFtC0JIn'
+  - type: document
+    weight: 1
+    range:
+      - 1
+      - 1
+    name: Expendables - Quality 3
+    img: icons/svg/d20-grey.svg
+    documentUuid: Compendium.grimwild.gwce-crucibles.RollTable.g0d88kCy4r13rp4i
+    _id: ChmDhjiwyTAQeRyz
+    description: ''
+    drawn: false
+    flags: {}
+    _stats:
+      coreVersion: '14.368'
+      systemId: grimwild
+      systemVersion: 0.5.3
+      createdTime: 1791748303958
+      modifiedTime: 1791748303958
+      lastModifiedBy: nF9qxzj59Qn6fNSn
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+    _key: '!tables.results!OkSXujarzbCeBAd9.ChmDhjiwyTAQeRyz'
+  - type: document
+    weight: 1
+    range:
+      - 1
+      - 1
+    name: Expendables - Quality 4
+    img: icons/svg/d20-grey.svg
+    documentUuid: Compendium.grimwild.gwce-crucibles.RollTable.7hooT0m3cEuAVLMP
+    _id: DRedNVtFEhge1yQf
+    description: ''
+    drawn: false
+    flags: {}
+    _stats:
+      coreVersion: '14.368'
+      systemId: grimwild
+      systemVersion: 0.5.3
+      createdTime: 1791748303958
+      modifiedTime: 1791748303958
+      lastModifiedBy: nF9qxzj59Qn6fNSn
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+    _key: '!tables.results!OkSXujarzbCeBAd9.DRedNVtFEhge1yQf'
+  - type: document
+    weight: 1
+    range:
+      - 1
+      - 1
+    _id: qsZmnz6EKJldflWU
+    name: inside
+    img: icons/svg/d20-black.svg
+    description: ''
+    drawn: false
+    flags: {}
+    _stats:
+      coreVersion: '14.368'
+      systemId: grimwild
+      systemVersion: 0.5.3
+      createdTime: 1791748303958
+      modifiedTime: 1791748303958
+      lastModifiedBy: nF9qxzj59Qn6fNSn
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+    documentUuid: null
+    _key: '!tables.results!OkSXujarzbCeBAd9.qsZmnz6EKJldflWU'
+replacement: true
+displayRoll: false
+folder: BxdFp0v98XSa4eLz
+ownership:
+  default: 0
+  nF9qxzj59Qn6fNSn: 3
+flags: {}
+_stats:
+  coreVersion: '14.368'
+  systemId: grimwild
+  systemVersion: 0.5.3
+  createdTime: 1791748303958
+  modifiedTime: 1791748303958
+  lastModifiedBy: nF9qxzj59Qn6fNSn
+  compendiumSource: null
+  duplicateSource: null
+  exportSource: null
+formula: 1d1
+sort: 0
+_key: '!tables!OkSXujarzbCeBAd9'

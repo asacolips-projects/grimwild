@@ -210,7 +210,7 @@ export class GrimwildItemSheet extends api.HandlebarsApplicationMixin(
 	/**
 	 * Handle changing a Document's image.
 	 *
-	 * @this GrimwildActorSheet
+	 * @this GrimwildItemSheet
 	 * @param {PointerEvent} event   The originating click event
 	 * @param {HTMLElement} target   The capturing HTML element which defined a [data-action]
 	 * @returns {Promise}
@@ -239,7 +239,7 @@ export class GrimwildItemSheet extends api.HandlebarsApplicationMixin(
 	/**
 	 * Renders an embedded document's sheet
 	 *
-	 * @this GrimwildActorSheet
+	 * @this GrimwildItemSheet
 	 * @param {PointerEvent} event   The originating click event
 	 * @param {HTMLElement} target   The capturing HTML element which defined a [data-action]
 	 * @protected
@@ -252,7 +252,7 @@ export class GrimwildItemSheet extends api.HandlebarsApplicationMixin(
 	/**
 	 * Handles item deletion
 	 *
-	 * @this GrimwildActorSheet
+	 * @this GrimwildItemSheet
 	 * @param {PointerEvent} event   The originating click event
 	 * @param {HTMLElement} target   The capturing HTML element which defined a [data-action]
 	 * @protected
@@ -265,7 +265,7 @@ export class GrimwildItemSheet extends api.HandlebarsApplicationMixin(
 	/**
 	 * Handle creating a new Owned Item or ActiveEffect for the actor using initial data defined in the HTML dataset
 	 *
-	 * @this GrimwildActorSheet
+	 * @this GrimwildItemSheet
 	 * @param {PointerEvent} event   The originating click event
 	 * @param {HTMLElement} target   The capturing HTML element which defined a [data-action]
 	 * @private
@@ -299,7 +299,7 @@ export class GrimwildItemSheet extends api.HandlebarsApplicationMixin(
 	/**
 	 * Determines effect parent to pass to helper
 	 *
-	 * @this GrimwildActorSheet
+	 * @this GrimwildItemSheet
 	 * @param {PointerEvent} event   The originating click event
 	 * @param {HTMLElement} target   The capturing HTML element which defined a [data-action]
 	 * @private

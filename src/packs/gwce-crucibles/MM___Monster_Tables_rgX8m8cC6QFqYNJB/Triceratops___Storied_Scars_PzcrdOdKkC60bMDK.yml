@@ -1,0 +1,157 @@
+name: Triceratops - Storied Scars
+description: ''
+formula: 1d6
+results:
+  - name: ''
+    description: <b>Ritual scarring</b>, the mark of something intelligent.
+    range:
+      - 1
+      - 1
+    _id: KwxIyCqg4QPPpHXI
+    type: text
+    img: null
+    weight: 1
+    drawn: false
+    flags: {}
+    _stats:
+      coreVersion: '14.364'
+      systemId: grimwild
+      systemVersion: 0.5.3
+      createdTime: 1783270821374
+      modifiedTime: 1783270821374
+      lastModifiedBy: 79CEe5dKC6Ls5VbU
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+    _key: '!tables.results!PzcrdOdKkC60bMDK.KwxIyCqg4QPPpHXI'
+  - name: ''
+    description: <b>A jagged nub</b>, where one of its horns should be.
+    range:
+      - 2
+      - 2
+    _id: df1NrtFu8SKyBnVv
+    type: text
+    img: null
+    weight: 1
+    drawn: false
+    flags: {}
+    _stats:
+      coreVersion: '14.364'
+      systemId: grimwild
+      systemVersion: 0.5.3
+      createdTime: 1783270821374
+      modifiedTime: 1783270821374
+      lastModifiedBy: 79CEe5dKC6Ls5VbU
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+    _key: '!tables.results!PzcrdOdKkC60bMDK.df1NrtFu8SKyBnVv'
+  - name: ''
+    description: <b>Arcane burns</b> on part of its body, from whom?
+    range:
+      - 3
+      - 3
+    _id: VOjeN4Ho89UGmYX3
+    type: text
+    img: null
+    weight: 1
+    drawn: false
+    flags: {}
+    _stats:
+      coreVersion: '14.364'
+      systemId: grimwild
+      systemVersion: 0.5.3
+      createdTime: 1783270821374
+      modifiedTime: 1783270821374
+      lastModifiedBy: 79CEe5dKC6Ls5VbU
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+    _key: '!tables.results!PzcrdOdKkC60bMDK.VOjeN4Ho89UGmYX3'
+  - name: ''
+    description: <b>Scars</b> from claws that couldn’t bring it down.
+    range:
+      - 4
+      - 4
+    _id: nQHzFujIDL0LqPEb
+    type: text
+    img: null
+    weight: 1
+    drawn: false
+    flags: {}
+    _stats:
+      coreVersion: '14.364'
+      systemId: grimwild
+      systemVersion: 0.5.3
+      createdTime: 1783270821374
+      modifiedTime: 1783270821374
+      lastModifiedBy: 79CEe5dKC6Ls5VbU
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+    _key: '!tables.results!PzcrdOdKkC60bMDK.nQHzFujIDL0LqPEb'
+  - name: ''
+    description: <b>Cracked frill</b>, from ramming another of its kind.
+    range:
+      - 5
+      - 5
+    _id: jwG3oVhz3kLbXgtK
+    type: text
+    img: null
+    weight: 1
+    drawn: false
+    flags: {}
+    _stats:
+      coreVersion: '14.364'
+      systemId: grimwild
+      systemVersion: 0.5.3
+      createdTime: 1783270821374
+      modifiedTime: 1783270821374
+      lastModifiedBy: 79CEe5dKC6Ls5VbU
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+    _key: '!tables.results!PzcrdOdKkC60bMDK.jwG3oVhz3kLbXgtK'
+  - name: ''
+    description: <b>A broken weapon</b>, still embedded in its hide.
+    range:
+      - 6
+      - 6
+    _id: Zx1KEn7fXIBZTnaT
+    type: text
+    img: null
+    weight: 1
+    drawn: false
+    flags: {}
+    _stats:
+      coreVersion: '14.364'
+      systemId: grimwild
+      systemVersion: 0.5.3
+      createdTime: 1783270821374
+      modifiedTime: 1783270821374
+      lastModifiedBy: 79CEe5dKC6Ls5VbU
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+    _key: '!tables.results!PzcrdOdKkC60bMDK.Zx1KEn7fXIBZTnaT'
+folder: rgX8m8cC6QFqYNJB
+sort: 4100000
+_id: PzcrdOdKkC60bMDK
+img: icons/svg/d20-grey.svg
+replacement: true
+displayRoll: true
+ownership:
+  default: 0
+  79CEe5dKC6Ls5VbU: 3
+flags: {}
+_stats:
+  coreVersion: '14.368'
+  systemId: grimwild
+  systemVersion: 0.5.3
+  createdTime: 1783270821374
+  modifiedTime: 1791749998255
+  lastModifiedBy: nF9qxzj59Qn6fNSn
+  compendiumSource: null
+  duplicateSource: null
+  exportSource: null
+_key: '!tables!PzcrdOdKkC60bMDK'

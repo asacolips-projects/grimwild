@@ -1,0 +1,58 @@
+folder: FwVlQu0dz6vMZJXV
+name: Spellcraft
+type: talent
+_id: nJs6GfiABSqweW9M
+img: icons/magic/lightning/orb-ball-spiral-blue.webp
+system:
+  description: >-
+    <p>You have spellcasting ability. You roll Wits to cast and the
+    <strong>spell theorem</strong> you are casting serves as its touchstone. You
+    know 4 spell theorems inscribed in your spellbook, created using the Spell
+    Crucible (below). Each session, you can cast 4 spells and 2 potent spells.
+    You choose which <strong>spell theorem</strong> to use when you cast,
+    interpreting it as you see fit. Spells cast with no
+    <em><strong>risk</strong></em> require no roll and don’t count against your
+    limited number per session, unless potent.</p><p>You can learn new
+    <strong>theorems</strong> from studying and experimenting with scrolls,
+    consuming them.</p><hr><p><strong>GROWTH:</strong> At levels 2, 4, and 6,
+    gain +1 spell and potent spell per session, +1 theorem</p>
+  core: false
+  notes:
+    description: <p>List your <strong>spell theorems</strong> here.</p>
+    label: Spell Theorems
+  trackers:
+    - type: points
+      label: Spells
+      points:
+        value: 4
+        max: 4
+        showSteps: true
+      pool:
+        diceNum: 0
+        powerPool: false
+    - type: points
+      label: Potent Spells
+      points:
+        value: 2
+        max: 2
+        showSteps: true
+      pool:
+        diceNum: 0
+        powerPool: false
+effects: []
+sort: 0
+ownership:
+  default: 0
+  79CEe5dKC6Ls5VbU: 3
+flags: {}
+_stats:
+  coreVersion: '14.368'
+  systemId: grimwild
+  systemVersion: 0.5.3
+  createdTime: 1782662631338
+  modifiedTime: 1791753918455
+  lastModifiedBy: nF9qxzj59Qn6fNSn
+  compendiumSource: null
+  duplicateSource: null
+  exportSource: null
+_key: '!items!nJs6GfiABSqweW9M'

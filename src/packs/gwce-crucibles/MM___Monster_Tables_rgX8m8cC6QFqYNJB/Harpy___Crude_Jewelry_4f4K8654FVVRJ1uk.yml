@@ -1,0 +1,157 @@
+name: Harpy - Crude Jewelry
+description: ''
+formula: 1d6
+results:
+  - name: ''
+    description: <b>Tarnished silver choker</b>, its centerpiece pried off
+    range:
+      - 1
+      - 1
+    _id: f4Guz5HrXEqXubFa
+    type: text
+    img: null
+    weight: 1
+    drawn: false
+    flags: {}
+    _stats:
+      coreVersion: '14.364'
+      systemId: grimwild
+      systemVersion: 0.5.3
+      createdTime: 1783270821412
+      modifiedTime: 1783270821412
+      lastModifiedBy: 79CEe5dKC6Ls5VbU
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+    _key: '!tables.results!4f4K8654FVVRJ1uk.f4Guz5HrXEqXubFa'
+  - name: ''
+    description: <b>Bent crown</b>, made of tin and bone.
+    range:
+      - 2
+      - 2
+    _id: MctJyzKyGfQ3m3iS
+    type: text
+    img: null
+    weight: 1
+    drawn: false
+    flags: {}
+    _stats:
+      coreVersion: '14.364'
+      systemId: grimwild
+      systemVersion: 0.5.3
+      createdTime: 1783270821412
+      modifiedTime: 1783270821412
+      lastModifiedBy: 79CEe5dKC6Ls5VbU
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+    _key: '!tables.results!4f4K8654FVVRJ1uk.MctJyzKyGfQ3m3iS'
+  - name: ''
+    description: <b>Missing child’s locket</b>, weathered and damaged.
+    range:
+      - 3
+      - 3
+    _id: wLUpOAH9UyG4kaDJ
+    type: text
+    img: null
+    weight: 1
+    drawn: false
+    flags: {}
+    _stats:
+      coreVersion: '14.364'
+      systemId: grimwild
+      systemVersion: 0.5.3
+      createdTime: 1783270821412
+      modifiedTime: 1783270821412
+      lastModifiedBy: 79CEe5dKC6Ls5VbU
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+    _key: '!tables.results!4f4K8654FVVRJ1uk.wLUpOAH9UyG4kaDJ'
+  - name: ''
+    description: <b>Necklace of teeth</b>, one from each victim.
+    range:
+      - 4
+      - 4
+    _id: DGKwQQiK5tONe3MS
+    type: text
+    img: null
+    weight: 1
+    drawn: false
+    flags: {}
+    _stats:
+      coreVersion: '14.364'
+      systemId: grimwild
+      systemVersion: 0.5.3
+      createdTime: 1783270821412
+      modifiedTime: 1783270821412
+      lastModifiedBy: 79CEe5dKC6Ls5VbU
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+    _key: '!tables.results!4f4K8654FVVRJ1uk.DGKwQQiK5tONe3MS'
+  - name: ''
+    description: <b>Copper circlet</b>, etched with unknown runes.
+    range:
+      - 5
+      - 5
+    _id: 8ynidMp4QMLEf9vo
+    type: text
+    img: null
+    weight: 1
+    drawn: false
+    flags: {}
+    _stats:
+      coreVersion: '14.364'
+      systemId: grimwild
+      systemVersion: 0.5.3
+      createdTime: 1783270821412
+      modifiedTime: 1783270821412
+      lastModifiedBy: 79CEe5dKC6Ls5VbU
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+    _key: '!tables.results!4f4K8654FVVRJ1uk.8ynidMp4QMLEf9vo'
+  - name: ''
+    description: <b>Bronze chain</b>, wrapped around their wrist.
+    range:
+      - 6
+      - 6
+    _id: 1TVHMIkR0q7i0sIm
+    type: text
+    img: null
+    weight: 1
+    drawn: false
+    flags: {}
+    _stats:
+      coreVersion: '14.364'
+      systemId: grimwild
+      systemVersion: 0.5.3
+      createdTime: 1783270821412
+      modifiedTime: 1783270821412
+      lastModifiedBy: 79CEe5dKC6Ls5VbU
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+    _key: '!tables.results!4f4K8654FVVRJ1uk.1TVHMIkR0q7i0sIm'
+folder: rgX8m8cC6QFqYNJB
+sort: 6100000
+_id: 4f4K8654FVVRJ1uk
+img: icons/svg/d20-grey.svg
+replacement: true
+displayRoll: true
+ownership:
+  default: 0
+  79CEe5dKC6Ls5VbU: 3
+flags: {}
+_stats:
+  coreVersion: '14.368'
+  systemId: grimwild
+  systemVersion: 0.5.3
+  createdTime: 1783270821412
+  modifiedTime: 1791749998256
+  lastModifiedBy: nF9qxzj59Qn6fNSn
+  compendiumSource: null
+  duplicateSource: null
+  exportSource: null
+_key: '!tables!4f4K8654FVVRJ1uk'

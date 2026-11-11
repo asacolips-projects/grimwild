@@ -1,0 +1,50 @@
+folder: e2nG6mIKF17civde
+name: Panache
+type: talent
+_id: uPQrfhqRE34zc6Nx
+img: icons/skills/melee/maneuver-sword-katana-yellow.webp
+system:
+  description: >-
+    <p>You wield the spotlight as well as any blade, allowing great feats of
+    charm and skill. Each scene, you have <strong>2 panache</strong> to fuel
+    your derring-do. Before making a roll, you can spend
+    <strong>panache</strong>, removing that many thorns. If you remove all
+    thorns, they become <strong>panache dice</strong> instead, increasing the
+    final result level on a 7 or 8. When one of your rolls is
+    <em><strong>cut</strong></em> by a thorn, you gain <strong>1
+    panache</strong> (ignoring your max).</p><p><strong>Quick Wit:</strong> Once
+    per session, you can <em><strong>interrupt</strong></em> an impact move with
+    a: <em>humorous quip—quick flourish—timely
+    distraction</em>.</p><hr><p><strong>GROWTH:</strong> At levels 2, 4, and 6,
+    you gain +1 panache per scene.</p>
+  core: false
+  notes:
+    description: ''
+    label: ''
+  trackers:
+    - type: points
+      label: Panache
+      points:
+        value: 2
+        max: 2
+        showSteps: true
+      pool:
+        diceNum: 0
+        powerPool: false
+effects: []
+sort: 0
+ownership:
+  default: 0
+  79CEe5dKC6Ls5VbU: 3
+flags: {}
+_stats:
+  coreVersion: '14.368'
+  systemId: grimwild
+  systemVersion: 0.5.3
+  createdTime: 1782662627191
+  modifiedTime: 1791753427494
+  lastModifiedBy: nF9qxzj59Qn6fNSn
+  compendiumSource: null
+  duplicateSource: null
+  exportSource: null
+_key: '!items!uPQrfhqRE34zc6Nx'

@@ -1,0 +1,42 @@
+folder: FwVlQu0dz6vMZJXV
+name: Countermagic
+type: talent
+_id: lpgK9WrEsK0mEVbI
+img: icons/magic/defensive/shield-barrier-flaming-pentagon-red.webp
+system:
+  description: >-
+    <p>Each session, you have a <strong>2d power pool</strong> you can use to
+    <em><strong>interrupt</strong></em> hostile magic. On a perfect, you can
+    turn the magic back on the source.</p>
+  core: false
+  notes:
+    description: ''
+    label: ''
+  trackers:
+    - type: pool
+      pool:
+        powerPool: true
+        diceNum: 2
+        max: 2
+      label: Countermagic
+      points:
+        showSteps: false
+        value: 1
+        max: 1
+effects: []
+sort: 0
+ownership:
+  default: 0
+  79CEe5dKC6Ls5VbU: 3
+flags: {}
+_stats:
+  coreVersion: '14.368'
+  systemId: grimwild
+  systemVersion: 0.5.3
+  createdTime: 1782662631337
+  modifiedTime: 1791753883723
+  lastModifiedBy: nF9qxzj59Qn6fNSn
+  compendiumSource: null
+  duplicateSource: null
+  exportSource: null
+_key: '!items!lpgK9WrEsK0mEVbI'

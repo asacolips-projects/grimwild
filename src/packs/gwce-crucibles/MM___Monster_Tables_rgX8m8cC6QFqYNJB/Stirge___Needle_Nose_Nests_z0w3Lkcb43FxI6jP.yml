@@ -1,0 +1,157 @@
+name: Stirge - Needle-Nose Nests
+description: ''
+formula: 1d6
+results:
+  - name: ''
+    description: The trunk of a <b>lightning-struck tree</b>.
+    range:
+      - 1
+      - 1
+    _id: Y4ztYYvP29rqoQG6
+    type: text
+    img: null
+    weight: 1
+    drawn: false
+    flags: {}
+    _stats:
+      coreVersion: '14.364'
+      systemId: grimwild
+      systemVersion: 0.5.3
+      createdTime: 1783270821382
+      modifiedTime: 1783270821382
+      lastModifiedBy: 79CEe5dKC6Ls5VbU
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+    _key: '!tables.results!z0w3Lkcb43FxI6jP.Y4ztYYvP29rqoQG6'
+  - name: ''
+    description: Rafters of an <b>abandoned dwelling</b>.
+    range:
+      - 2
+      - 2
+    _id: N8klDXsY6q8PNdll
+    type: text
+    img: null
+    weight: 1
+    drawn: false
+    flags: {}
+    _stats:
+      coreVersion: '14.364'
+      systemId: grimwild
+      systemVersion: 0.5.3
+      createdTime: 1783270821382
+      modifiedTime: 1783270821382
+      lastModifiedBy: 79CEe5dKC6Ls5VbU
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+    _key: '!tables.results!z0w3Lkcb43FxI6jP.N8klDXsY6q8PNdll'
+  - name: ''
+    description: Beneath the <b>rickety bridge</b> of a foggy swamp.
+    range:
+      - 3
+      - 3
+    _id: UC2THnQcx6OSqz9E
+    type: text
+    img: null
+    weight: 1
+    drawn: false
+    flags: {}
+    _stats:
+      coreVersion: '14.364'
+      systemId: grimwild
+      systemVersion: 0.5.3
+      createdTime: 1783270821382
+      modifiedTime: 1783270821382
+      lastModifiedBy: 79CEe5dKC6Ls5VbU
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+    _key: '!tables.results!z0w3Lkcb43FxI6jP.UC2THnQcx6OSqz9E'
+  - name: ''
+    description: Inside the skull of a <b>long-dead giant</b>.
+    range:
+      - 4
+      - 4
+    _id: JK4ud1nv9g7ARIMH
+    type: text
+    img: null
+    weight: 1
+    drawn: false
+    flags: {}
+    _stats:
+      coreVersion: '14.364'
+      systemId: grimwild
+      systemVersion: 0.5.3
+      createdTime: 1783270821382
+      modifiedTime: 1783270821382
+      lastModifiedBy: 79CEe5dKC6Ls5VbU
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+    _key: '!tables.results!z0w3Lkcb43FxI6jP.JK4ud1nv9g7ARIMH'
+  - name: ''
+    description: In the eaves of a <b>dilapidated lighthouse</b>.
+    range:
+      - 5
+      - 5
+    _id: qwFyL0sfPTKXa3Y0
+    type: text
+    img: null
+    weight: 1
+    drawn: false
+    flags: {}
+    _stats:
+      coreVersion: '14.364'
+      systemId: grimwild
+      systemVersion: 0.5.3
+      createdTime: 1783270821382
+      modifiedTime: 1783270821382
+      lastModifiedBy: 79CEe5dKC6Ls5VbU
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+    _key: '!tables.results!z0w3Lkcb43FxI6jP.qwFyL0sfPTKXa3Y0'
+  - name: ''
+    description: Among the hanging stalactites of a <b>cave ceiling</b>.
+    range:
+      - 6
+      - 6
+    _id: jv7U2v1D991PcjNa
+    type: text
+    img: null
+    weight: 1
+    drawn: false
+    flags: {}
+    _stats:
+      coreVersion: '14.364'
+      systemId: grimwild
+      systemVersion: 0.5.3
+      createdTime: 1783270821382
+      modifiedTime: 1783270821382
+      lastModifiedBy: 79CEe5dKC6Ls5VbU
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+    _key: '!tables.results!z0w3Lkcb43FxI6jP.jv7U2v1D991PcjNa'
+folder: rgX8m8cC6QFqYNJB
+sort: 4600000
+_id: z0w3Lkcb43FxI6jP
+img: icons/svg/d20-grey.svg
+replacement: true
+displayRoll: true
+ownership:
+  default: 0
+  79CEe5dKC6Ls5VbU: 3
+flags: {}
+_stats:
+  coreVersion: '14.368'
+  systemId: grimwild
+  systemVersion: 0.5.3
+  createdTime: 1783270821382
+  modifiedTime: 1791749998256
+  lastModifiedBy: nF9qxzj59Qn6fNSn
+  compendiumSource: null
+  duplicateSource: null
+  exportSource: null
+_key: '!tables!z0w3Lkcb43FxI6jP'

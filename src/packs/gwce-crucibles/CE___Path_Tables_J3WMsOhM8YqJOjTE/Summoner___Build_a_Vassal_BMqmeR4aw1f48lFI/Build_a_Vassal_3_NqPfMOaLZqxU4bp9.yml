@@ -1,0 +1,289 @@
+name: Build a Vassal 3
+description: ''
+formula: 1d12
+results:
+  - name: ''
+    description: prowling
+    range:
+      - 1
+      - 1
+    _id: DlQJWubZwTRxTNSv
+    type: text
+    img: icons/svg/d20-black.svg
+    weight: 1
+    drawn: false
+    flags: {}
+    _stats:
+      coreVersion: '14.364'
+      systemId: grimwild
+      systemVersion: 0.5.3
+      createdTime: 1783126929746
+      modifiedTime: 1783126929746
+      lastModifiedBy: 79CEe5dKC6Ls5VbU
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+    _key: '!tables.results!NqPfMOaLZqxU4bp9.DlQJWubZwTRxTNSv'
+  - name: ''
+    description: slithering
+    range:
+      - 2
+      - 2
+    _id: zQWaj21eFYh5zy13
+    type: text
+    img: icons/svg/d20-black.svg
+    weight: 1
+    drawn: false
+    flags: {}
+    _stats:
+      coreVersion: '14.364'
+      systemId: grimwild
+      systemVersion: 0.5.3
+      createdTime: 1783126929746
+      modifiedTime: 1783126929746
+      lastModifiedBy: 79CEe5dKC6Ls5VbU
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+    _key: '!tables.results!NqPfMOaLZqxU4bp9.zQWaj21eFYh5zy13'
+  - name: ''
+    description: leaping
+    range:
+      - 3
+      - 3
+    _id: Ao1M8h6k0GxnS413
+    type: text
+    img: icons/svg/d20-black.svg
+    weight: 1
+    drawn: false
+    flags: {}
+    _stats:
+      coreVersion: '14.364'
+      systemId: grimwild
+      systemVersion: 0.5.3
+      createdTime: 1783126929746
+      modifiedTime: 1783126929746
+      lastModifiedBy: 79CEe5dKC6Ls5VbU
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+    _key: '!tables.results!NqPfMOaLZqxU4bp9.Ao1M8h6k0GxnS413'
+  - name: ''
+    description: crawling
+    range:
+      - 4
+      - 4
+    _id: CAmzON9UNIMxJSER
+    type: text
+    img: icons/svg/d20-black.svg
+    weight: 1
+    drawn: false
+    flags: {}
+    _stats:
+      coreVersion: '14.364'
+      systemId: grimwild
+      systemVersion: 0.5.3
+      createdTime: 1783126929746
+      modifiedTime: 1783126929746
+      lastModifiedBy: 79CEe5dKC6Ls5VbU
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+    _key: '!tables.results!NqPfMOaLZqxU4bp9.CAmzON9UNIMxJSER'
+  - name: ''
+    description: bounding
+    range:
+      - 5
+      - 5
+    _id: AOAk1kkZe3UbtH3l
+    type: text
+    img: icons/svg/d20-black.svg
+    weight: 1
+    drawn: false
+    flags: {}
+    _stats:
+      coreVersion: '14.364'
+      systemId: grimwild
+      systemVersion: 0.5.3
+      createdTime: 1783126929746
+      modifiedTime: 1783126929746
+      lastModifiedBy: 79CEe5dKC6Ls5VbU
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+    _key: '!tables.results!NqPfMOaLZqxU4bp9.AOAk1kkZe3UbtH3l'
+  - name: ''
+    description: galloping
+    range:
+      - 6
+      - 6
+    _id: N1ioFjwhr3cjygRt
+    type: text
+    img: icons/svg/d20-black.svg
+    weight: 1
+    drawn: false
+    flags: {}
+    _stats:
+      coreVersion: '14.364'
+      systemId: grimwild
+      systemVersion: 0.5.3
+      createdTime: 1783126929746
+      modifiedTime: 1783126929746
+      lastModifiedBy: 79CEe5dKC6Ls5VbU
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+    _key: '!tables.results!NqPfMOaLZqxU4bp9.N1ioFjwhr3cjygRt'
+  - name: ''
+    description: gliding
+    range:
+      - 7
+      - 7
+    _id: 1WSrm9w9ZiDmt7HD
+    type: text
+    img: icons/svg/d20-black.svg
+    weight: 1
+    drawn: false
+    flags: {}
+    _stats:
+      coreVersion: '14.364'
+      systemId: grimwild
+      systemVersion: 0.5.3
+      createdTime: 1783126929746
+      modifiedTime: 1783126929746
+      lastModifiedBy: 79CEe5dKC6Ls5VbU
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+    _key: '!tables.results!NqPfMOaLZqxU4bp9.1WSrm9w9ZiDmt7HD'
+  - name: ''
+    description: dashing
+    range:
+      - 8
+      - 8
+    _id: desazDPOEgQtNgmZ
+    type: text
+    img: icons/svg/d20-black.svg
+    weight: 1
+    drawn: false
+    flags: {}
+    _stats:
+      coreVersion: '14.364'
+      systemId: grimwild
+      systemVersion: 0.5.3
+      createdTime: 1783126929746
+      modifiedTime: 1783126929746
+      lastModifiedBy: 79CEe5dKC6Ls5VbU
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+    _key: '!tables.results!NqPfMOaLZqxU4bp9.desazDPOEgQtNgmZ'
+  - name: ''
+    description: skittering
+    range:
+      - 9
+      - 9
+    _id: oWJq2dbOokPcsk5j
+    type: text
+    img: icons/svg/d20-black.svg
+    weight: 1
+    drawn: false
+    flags: {}
+    _stats:
+      coreVersion: '14.364'
+      systemId: grimwild
+      systemVersion: 0.5.3
+      createdTime: 1783126929746
+      modifiedTime: 1783126929746
+      lastModifiedBy: 79CEe5dKC6Ls5VbU
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+    _key: '!tables.results!NqPfMOaLZqxU4bp9.oWJq2dbOokPcsk5j'
+  - name: ''
+    description: lumbering
+    range:
+      - 10
+      - 10
+    _id: 4sh25PyIfMMaNzgN
+    type: text
+    img: icons/svg/d20-black.svg
+    weight: 1
+    drawn: false
+    flags: {}
+    _stats:
+      coreVersion: '14.364'
+      systemId: grimwild
+      systemVersion: 0.5.3
+      createdTime: 1783126929746
+      modifiedTime: 1783126929746
+      lastModifiedBy: 79CEe5dKC6Ls5VbU
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+    _key: '!tables.results!NqPfMOaLZqxU4bp9.4sh25PyIfMMaNzgN'
+  - name: ''
+    description: charging
+    range:
+      - 11
+      - 11
+    _id: ImLpaIgBJnGl8vJt
+    type: text
+    img: icons/svg/d20-black.svg
+    weight: 1
+    drawn: false
+    flags: {}
+    _stats:
+      coreVersion: '14.364'
+      systemId: grimwild
+      systemVersion: 0.5.3
+      createdTime: 1783126929746
+      modifiedTime: 1783126929746
+      lastModifiedBy: 79CEe5dKC6Ls5VbU
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+    _key: '!tables.results!NqPfMOaLZqxU4bp9.ImLpaIgBJnGl8vJt'
+  - name: ''
+    description: floating
+    range:
+      - 12
+      - 12
+    _id: zGHc9UIe16tChOYh
+    type: text
+    img: icons/svg/d20-black.svg
+    weight: 1
+    drawn: false
+    flags: {}
+    _stats:
+      coreVersion: '14.364'
+      systemId: grimwild
+      systemVersion: 0.5.3
+      createdTime: 1783126929746
+      modifiedTime: 1783126929746
+      lastModifiedBy: 79CEe5dKC6Ls5VbU
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+    _key: '!tables.results!NqPfMOaLZqxU4bp9.zGHc9UIe16tChOYh'
+folder: BMqmeR4aw1f48lFI
+sort: 2
+_id: NqPfMOaLZqxU4bp9
+img: icons/svg/d20-grey.svg
+replacement: true
+displayRoll: false
+ownership:
+  default: 0
+  79CEe5dKC6Ls5VbU: 3
+flags: {}
+_stats:
+  coreVersion: '14.368'
+  systemId: grimwild
+  systemVersion: 0.5.3
+  createdTime: 1783126929746
+  modifiedTime: 1791748706219
+  lastModifiedBy: nF9qxzj59Qn6fNSn
+  compendiumSource: null
+  duplicateSource: null
+  exportSource: null
+_key: '!tables!NqPfMOaLZqxU4bp9'

@@ -1,0 +1,157 @@
+name: Strangle Vine - Where It Grows
+description: ''
+formula: 1d6
+results:
+  - name: ''
+    description: <b>Unhallowed grove</b>, a withering and dead woodland.
+    range:
+      - 1
+      - 1
+    _id: 1wflwrw7Kt2tuIF3
+    type: text
+    img: null
+    weight: 1
+    drawn: false
+    flags: {}
+    _stats:
+      coreVersion: '14.364'
+      systemId: grimwild
+      systemVersion: 0.5.3
+      createdTime: 1783270821365
+      modifiedTime: 1783270821365
+      lastModifiedBy: 79CEe5dKC6Ls5VbU
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+    _key: '!tables.results!yawrCHl7EOmbGgth.1wflwrw7Kt2tuIF3'
+  - name: ''
+    description: <b>Ruined greenhouse</b>, in an overgrown manor.
+    range:
+      - 2
+      - 2
+    _id: 6CGJl3pXQRpMy0u1
+    type: text
+    img: null
+    weight: 1
+    drawn: false
+    flags: {}
+    _stats:
+      coreVersion: '14.364'
+      systemId: grimwild
+      systemVersion: 0.5.3
+      createdTime: 1783270821365
+      modifiedTime: 1783270821365
+      lastModifiedBy: 79CEe5dKC6Ls5VbU
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+    _key: '!tables.results!yawrCHl7EOmbGgth.6CGJl3pXQRpMy0u1'
+  - name: ''
+    description: <b>Fungal forest</b>, growing alongside giant mushrooms.
+    range:
+      - 3
+      - 3
+    _id: qYpqS6KdRTOhccl9
+    type: text
+    img: null
+    weight: 1
+    drawn: false
+    flags: {}
+    _stats:
+      coreVersion: '14.364'
+      systemId: grimwild
+      systemVersion: 0.5.3
+      createdTime: 1783270821365
+      modifiedTime: 1783270821365
+      lastModifiedBy: 79CEe5dKC6Ls5VbU
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+    _key: '!tables.results!yawrCHl7EOmbGgth.qYpqS6KdRTOhccl9'
+  - name: ''
+    description: <b>Maintain pass</b>, creeping in opportunistically.
+    range:
+      - 4
+      - 4
+    _id: 0Skfy2k6aDgi9Q5F
+    type: text
+    img: null
+    weight: 1
+    drawn: false
+    flags: {}
+    _stats:
+      coreVersion: '14.364'
+      systemId: grimwild
+      systemVersion: 0.5.3
+      createdTime: 1783270821365
+      modifiedTime: 1783270821365
+      lastModifiedBy: 79CEe5dKC6Ls5VbU
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+    _key: '!tables.results!yawrCHl7EOmbGgth.0Skfy2k6aDgi9Q5F'
+  - name: ''
+    description: <b>Abandoned garden</b>, once tended by temple monks.
+    range:
+      - 5
+      - 5
+    _id: IJKJelm3vAiErl7z
+    type: text
+    img: null
+    weight: 1
+    drawn: false
+    flags: {}
+    _stats:
+      coreVersion: '14.364'
+      systemId: grimwild
+      systemVersion: 0.5.3
+      createdTime: 1783270821365
+      modifiedTime: 1783270821365
+      lastModifiedBy: 79CEe5dKC6Ls5VbU
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+    _key: '!tables.results!yawrCHl7EOmbGgth.IJKJelm3vAiErl7z'
+  - name: ''
+    description: <b>Rotting swamp</b>, floating like algae on the water.
+    range:
+      - 6
+      - 6
+    _id: IJgHpL3OV0bU15fB
+    type: text
+    img: null
+    weight: 1
+    drawn: false
+    flags: {}
+    _stats:
+      coreVersion: '14.364'
+      systemId: grimwild
+      systemVersion: 0.5.3
+      createdTime: 1783270821365
+      modifiedTime: 1783270821365
+      lastModifiedBy: 79CEe5dKC6Ls5VbU
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+    _key: '!tables.results!yawrCHl7EOmbGgth.IJgHpL3OV0bU15fB'
+folder: rgX8m8cC6QFqYNJB
+sort: 3600000
+_id: yawrCHl7EOmbGgth
+img: icons/svg/d20-grey.svg
+replacement: true
+displayRoll: true
+ownership:
+  default: 0
+  79CEe5dKC6Ls5VbU: 3
+flags: {}
+_stats:
+  coreVersion: '14.368'
+  systemId: grimwild
+  systemVersion: 0.5.3
+  createdTime: 1783270821365
+  modifiedTime: 1791749998255
+  lastModifiedBy: nF9qxzj59Qn6fNSn
+  compendiumSource: null
+  duplicateSource: null
+  exportSource: null
+_key: '!tables!yawrCHl7EOmbGgth'

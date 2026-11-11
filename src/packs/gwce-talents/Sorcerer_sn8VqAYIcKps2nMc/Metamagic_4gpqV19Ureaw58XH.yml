@@ -1,0 +1,44 @@
+folder: sn8VqAYIcKps2nMc
+name: Metamagic
+type: talent
+_id: 4gpqV19Ureaw58XH
+img: icons/magic/defensive/shield-hex-blue.webp
+system:
+  description: >-
+    <p>Twice per session, you can alter your magic as it flows through you,
+    modifying the effect or casting by giving it an extra touchstone:
+    <em>controlled—distant— intense—lasting—subtle—quick</em>.</p>
+  core: false
+  notes:
+    description: >-
+      <p><em>This makes the spell more powerful, but not quite potent. Adding a
+      touchstone should give a clear answer to any question about it. Do you
+      have time to cast a spell? It's quick; yes.</em></p>
+    label: ''
+  trackers:
+    - type: points
+      label: Metamagic
+      points:
+        value: 2
+        max: 2
+        showSteps: true
+      pool:
+        diceNum: 0
+        powerPool: false
+effects: []
+sort: 0
+ownership:
+  default: 0
+  79CEe5dKC6Ls5VbU: 3
+flags: {}
+_stats:
+  coreVersion: '14.368'
+  systemId: grimwild
+  systemVersion: 0.5.3
+  createdTime: 1783004926514
+  modifiedTime: 1791753197039
+  lastModifiedBy: nF9qxzj59Qn6fNSn
+  compendiumSource: null
+  duplicateSource: null
+  exportSource: null
+_key: '!items!4gpqV19Ureaw58XH'

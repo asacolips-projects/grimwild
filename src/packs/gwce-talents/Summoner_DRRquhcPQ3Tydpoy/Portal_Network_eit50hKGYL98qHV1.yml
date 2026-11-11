@@ -1,0 +1,34 @@
+folder: DRRquhcPQ3Tydpoy
+name: Portal Network
+type: talent
+_id: eit50hKGYL98qHV1
+img: icons/skills/movement/portal-silhouette-pink.webp
+system:
+  description: >-
+    <p>Given time, you can: <em>establish a waypoint in your network—open a
+    portal from one waypoint to another</em>. You can <em><strong>push
+    yourself</strong></em> to make a temporary link in the moment, but doing so
+    carries risk. Those around you can use the portal as well. Define how you
+    travel, such as by: <em>shadows—trees—doorways—dreams</em>.</p>
+  core: false
+  notes:
+    description: ''
+    label: ''
+  trackers: []
+effects: []
+sort: 0
+ownership:
+  default: 0
+  79CEe5dKC6Ls5VbU: 3
+flags: {}
+_stats:
+  coreVersion: '14.368'
+  systemId: grimwild
+  systemVersion: 0.5.3
+  createdTime: 1783005304713
+  modifiedTime: 1791745261659
+  lastModifiedBy: nF9qxzj59Qn6fNSn
+  compendiumSource: null
+  duplicateSource: null
+  exportSource: null
+_key: '!items!eit50hKGYL98qHV1'

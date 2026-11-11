@@ -1,0 +1,54 @@
+folder: tYQCmcqFDsvW82gr
+name: 1000 Eye Circlet
+type: arcana
+_id: jb7H5053uJjZro6V
+img: icons/magic/control/hypnosis-mesmerism-eye.webp
+system:
+  description: >-
+    <p>You can mentally control a floating magical eye (4d power pool), seeing
+    what it sees. If destroyed, make a defense roll against rattled.</p>
+  tier: major
+  notes:
+    description: ''
+    label: ''
+  trackers:
+    - type: pool
+      pool:
+        powerPool: true
+        diceNum: 4
+        max: 4
+      label: Magic Eye
+      points:
+        showSteps: false
+        value: 1
+        max: 1
+  touchstones: scout—eyes—reveal
+  limitations: ''
+  activation: plucking the eye from the center.
+  sensories:
+    descriptors: blinking and looking eyes, wet organic matter
+    actions: vision shatters like glass, bobbing eye
+  palette:
+    - name: Delicate Gold
+      color: '#d49b41'
+    - name: Obsidian Veil
+      color: '#191c1e'
+    - name: Purple Iris
+      color: '#694092'
+effects: []
+sort: 0
+ownership:
+  default: 0
+  nF9qxzj59Qn6fNSn: 3
+flags: {}
+_stats:
+  coreVersion: '14.369'
+  systemId: grimwild
+  systemVersion: 0.6.0
+  createdTime: 1794236097515
+  modifiedTime: 1794236365159
+  lastModifiedBy: UV77mtxQgW7KpS6B
+  compendiumSource: null
+  duplicateSource: null
+  exportSource: null
+_key: '!items!jb7H5053uJjZro6V'

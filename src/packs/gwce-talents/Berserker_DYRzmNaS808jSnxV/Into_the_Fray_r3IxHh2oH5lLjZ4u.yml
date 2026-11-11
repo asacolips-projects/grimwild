@@ -1,0 +1,33 @@
+folder: DYRzmNaS808jSnxV
+name: Into the Fray
+type: talent
+_id: r3IxHh2oH5lLjZ4u
+img: /icons/environment/people/charge.webp
+system:
+  description: >-
+    <p>When you’re the first into an intense situation, <strong>5s count as 6s,
+    but 4s count as 1s</strong> on your first roll. You also
+    <em><strong>setup</strong></em> the first person following you regard- less
+    of your roll outcome.</p>
+  core: false
+  notes:
+    description: ''
+    label: ''
+  trackers: []
+effects: []
+sort: 0
+ownership:
+  default: 0
+  79CEe5dKC6Ls5VbU: 3
+flags: {}
+_stats:
+  coreVersion: '14.364'
+  systemId: grimwild
+  systemVersion: 0.5.3
+  createdTime: 1782662613732
+  modifiedTime: 1783008244118
+  lastModifiedBy: 79CEe5dKC6Ls5VbU
+  compendiumSource: null
+  duplicateSource: null
+  exportSource: null
+_key: '!items!r3IxHh2oH5lLjZ4u'

@@ -1,0 +1,45 @@
+folder: M9v17yUrFRF23cat
+name: Lupine Cloak
+type: arcana
+_id: C1n18YgoDurxIEF5
+img: icons/equipment/back/cloak-brown-fur-brown.webp
+system:
+  description: >-
+    <p>You turn into a normal wolf, and follow your instincts. You transform
+    back after a few hours, or after you <em><strong>push
+    yourself</strong></em>.</p>
+  tier: minor
+  notes:
+    description: ''
+    label: ''
+  trackers: []
+  touchstones: wolf—instinct—transform
+  limitations: ''
+  activation: feeling the thrill of the hunt.
+  sensories:
+    descriptors: dripping saliva, glowing eyes, bristling fur
+    actions: craving for meat, subtle instinct to hunt
+  palette:
+    - name: WOLFEN GRAY
+      color: '#686e75'
+    - name: CARVED BONE
+      color: '#dfd8c8'
+    - name: WILD BROWN
+      color: '#423731'
+effects: []
+sort: 0
+ownership:
+  default: 0
+  nF9qxzj59Qn6fNSn: 3
+flags: {}
+_stats:
+  coreVersion: '14.369'
+  systemId: grimwild
+  systemVersion: 0.6.0
+  createdTime: 1794235425735
+  modifiedTime: 1794235425735
+  lastModifiedBy: UV77mtxQgW7KpS6B
+  compendiumSource: null
+  duplicateSource: null
+  exportSource: null
+_key: '!items!C1n18YgoDurxIEF5'

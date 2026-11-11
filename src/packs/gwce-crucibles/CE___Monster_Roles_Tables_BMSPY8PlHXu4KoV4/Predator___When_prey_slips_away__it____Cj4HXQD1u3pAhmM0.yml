@@ -1,0 +1,157 @@
+name: Predator - When prey slips away, it...
+description: ''
+formula: 1d6
+results:
+  - name: ''
+    description: maneuvers to cut off the target's escape.
+    range:
+      - 1
+      - 1
+    _id: UXOlyXAdJ7PY3sby
+    type: text
+    img: icons/svg/d20-black.svg
+    weight: 1
+    drawn: false
+    flags: {}
+    _stats:
+      coreVersion: '14.368'
+      systemId: grimwild
+      systemVersion: 0.5.3
+      createdTime: 1791832540785
+      modifiedTime: 1791832540785
+      lastModifiedBy: nF9qxzj59Qn6fNSn
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+    _key: '!tables.results!Cj4HXQD1u3pAhmM0.UXOlyXAdJ7PY3sby'
+  - name: ''
+    description: refuses to give up no matter what.
+    range:
+      - 2
+      - 2
+    _id: QOeQLhvU2ADz7LQv
+    type: text
+    img: icons/svg/d20-black.svg
+    weight: 1
+    drawn: false
+    flags: {}
+    _stats:
+      coreVersion: '14.368'
+      systemId: grimwild
+      systemVersion: 0.5.3
+      createdTime: 1791832540785
+      modifiedTime: 1791832540785
+      lastModifiedBy: nF9qxzj59Qn6fNSn
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+    _key: '!tables.results!Cj4HXQD1u3pAhmM0.QOeQLhvU2ADz7LQv'
+  - name: ''
+    description: roars, forcing a mistake.
+    range:
+      - 3
+      - 3
+    _id: csAiwcg7suSC014Q
+    type: text
+    img: icons/svg/d20-black.svg
+    weight: 1
+    drawn: false
+    flags: {}
+    _stats:
+      coreVersion: '14.368'
+      systemId: grimwild
+      systemVersion: 0.5.3
+      createdTime: 1791832540785
+      modifiedTime: 1791832540785
+      lastModifiedBy: nF9qxzj59Qn6fNSn
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+    _key: '!tables.results!Cj4HXQD1u3pAhmM0.csAiwcg7suSC014Q'
+  - name: ''
+    description: circles, creating a trap to regain control.
+    range:
+      - 4
+      - 4
+    _id: XLx8puDHVKQLppBm
+    type: text
+    img: icons/svg/d20-black.svg
+    weight: 1
+    drawn: false
+    flags: {}
+    _stats:
+      coreVersion: '14.368'
+      systemId: grimwild
+      systemVersion: 0.5.3
+      createdTime: 1791832540785
+      modifiedTime: 1791832540785
+      lastModifiedBy: nF9qxzj59Qn6fNSn
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+    _key: '!tables.results!Cj4HXQD1u3pAhmM0.XLx8puDHVKQLppBm'
+  - name: ''
+    description: strikes wildly in frustration, hitting all around.
+    range:
+      - 5
+      - 5
+    _id: tXtyZKV9t6AQtvxL
+    type: text
+    img: icons/svg/d20-black.svg
+    weight: 1
+    drawn: false
+    flags: {}
+    _stats:
+      coreVersion: '14.368'
+      systemId: grimwild
+      systemVersion: 0.5.3
+      createdTime: 1791832540785
+      modifiedTime: 1791832540785
+      lastModifiedBy: nF9qxzj59Qn6fNSn
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+    _key: '!tables.results!Cj4HXQD1u3pAhmM0.tXtyZKV9t6AQtvxL'
+  - name: ''
+    description: vanishes, retreating to wait for another chance.
+    range:
+      - 6
+      - 6
+    _id: f4nna2iMwSezjCIG
+    type: text
+    img: icons/svg/d20-black.svg
+    weight: 1
+    drawn: false
+    flags: {}
+    _stats:
+      coreVersion: '14.368'
+      systemId: grimwild
+      systemVersion: 0.5.3
+      createdTime: 1791832540785
+      modifiedTime: 1791832540785
+      lastModifiedBy: nF9qxzj59Qn6fNSn
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+    _key: '!tables.results!Cj4HXQD1u3pAhmM0.f4nna2iMwSezjCIG'
+folder: BMSPY8PlHXu4KoV4
+_id: Cj4HXQD1u3pAhmM0
+img: icons/svg/d20-grey.svg
+replacement: true
+displayRoll: true
+ownership:
+  default: 0
+  nF9qxzj59Qn6fNSn: 3
+flags: {}
+_stats:
+  coreVersion: '14.368'
+  systemId: grimwild
+  systemVersion: 0.5.3
+  createdTime: 1791832540785
+  modifiedTime: 1791833675050
+  lastModifiedBy: nF9qxzj59Qn6fNSn
+  compendiumSource: null
+  duplicateSource: null
+  exportSource: null
+sort: 100000
+_key: '!tables!Cj4HXQD1u3pAhmM0'

@@ -1,0 +1,819 @@
+name: Settlement 2
+formula: 1d36
+results:
+  - name: village
+    range:
+      - 1
+      - 1
+    weight: 1
+    type: text
+    _id: uh4egpbZrkoTkix1
+    img: null
+    description: ''
+    drawn: false
+    flags: {}
+    _stats:
+      coreVersion: '14.364'
+      systemId: grimwild
+      systemVersion: 0.5.3
+      lastModifiedBy: 79CEe5dKC6Ls5VbU
+      createdTime: 1783178206427
+      modifiedTime: 1783178206427
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+    _key: '!tables.results!ssuKpXe9tLKMXreI.uh4egpbZrkoTkix1'
+  - name: camp
+    range:
+      - 2
+      - 2
+    weight: 1
+    type: text
+    _id: mrMItXtcvqss5nB9
+    img: null
+    description: ''
+    drawn: false
+    flags: {}
+    _stats:
+      coreVersion: '14.364'
+      systemId: grimwild
+      systemVersion: 0.5.3
+      lastModifiedBy: 79CEe5dKC6Ls5VbU
+      createdTime: 1783178206427
+      modifiedTime: 1783178206427
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+    _key: '!tables.results!ssuKpXe9tLKMXreI.mrMItXtcvqss5nB9'
+  - name: port
+    range:
+      - 3
+      - 3
+    weight: 1
+    type: text
+    _id: XDzSjv5UCyMWZKTF
+    img: null
+    description: ''
+    drawn: false
+    flags: {}
+    _stats:
+      coreVersion: '14.364'
+      systemId: grimwild
+      systemVersion: 0.5.3
+      lastModifiedBy: 79CEe5dKC6Ls5VbU
+      createdTime: 1783178206427
+      modifiedTime: 1783178206427
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+    _key: '!tables.results!ssuKpXe9tLKMXreI.XDzSjv5UCyMWZKTF'
+  - name: base
+    range:
+      - 4
+      - 4
+    weight: 1
+    type: text
+    _id: tZSePjC6obMBhpLP
+    img: null
+    description: ''
+    drawn: false
+    flags: {}
+    _stats:
+      coreVersion: '14.364'
+      systemId: grimwild
+      systemVersion: 0.5.3
+      lastModifiedBy: 79CEe5dKC6Ls5VbU
+      createdTime: 1783178206427
+      modifiedTime: 1783178206427
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+    _key: '!tables.results!ssuKpXe9tLKMXreI.tZSePjC6obMBhpLP'
+  - name: oasis
+    range:
+      - 5
+      - 5
+    weight: 1
+    type: text
+    _id: SqIiERmFge299zC7
+    img: null
+    description: ''
+    drawn: false
+    flags: {}
+    _stats:
+      coreVersion: '14.364'
+      systemId: grimwild
+      systemVersion: 0.5.3
+      lastModifiedBy: 79CEe5dKC6Ls5VbU
+      createdTime: 1783178206427
+      modifiedTime: 1783178206427
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+    _key: '!tables.results!ssuKpXe9tLKMXreI.SqIiERmFge299zC7'
+  - name: watch
+    range:
+      - 6
+      - 6
+    weight: 1
+    type: text
+    _id: OhSiWEwFwNb26z9x
+    img: null
+    description: ''
+    drawn: false
+    flags: {}
+    _stats:
+      coreVersion: '14.364'
+      systemId: grimwild
+      systemVersion: 0.5.3
+      lastModifiedBy: 79CEe5dKC6Ls5VbU
+      createdTime: 1783178206427
+      modifiedTime: 1783178206427
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+    _key: '!tables.results!ssuKpXe9tLKMXreI.OhSiWEwFwNb26z9x'
+  - name: outpost
+    range:
+      - 7
+      - 7
+    weight: 1
+    type: text
+    _id: huCpNyfVSJx1pND9
+    img: null
+    description: ''
+    drawn: false
+    flags: {}
+    _stats:
+      coreVersion: '14.364'
+      systemId: grimwild
+      systemVersion: 0.5.3
+      lastModifiedBy: 79CEe5dKC6Ls5VbU
+      createdTime: 1783178206427
+      modifiedTime: 1783178206427
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+    _key: '!tables.results!ssuKpXe9tLKMXreI.huCpNyfVSJx1pND9'
+  - name: settlement
+    range:
+      - 8
+      - 8
+    weight: 1
+    type: text
+    _id: UHzkFcB5mAFocMkv
+    img: null
+    description: ''
+    drawn: false
+    flags: {}
+    _stats:
+      coreVersion: '14.364'
+      systemId: grimwild
+      systemVersion: 0.5.3
+      lastModifiedBy: 79CEe5dKC6Ls5VbU
+      createdTime: 1783178206427
+      modifiedTime: 1783178206427
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+    _key: '!tables.results!ssuKpXe9tLKMXreI.UHzkFcB5mAFocMkv'
+  - name: market
+    range:
+      - 9
+      - 9
+    weight: 1
+    type: text
+    _id: pnM9qT27sCVOZz7t
+    img: null
+    description: ''
+    drawn: false
+    flags: {}
+    _stats:
+      coreVersion: '14.364'
+      systemId: grimwild
+      systemVersion: 0.5.3
+      lastModifiedBy: 79CEe5dKC6Ls5VbU
+      createdTime: 1783178206427
+      modifiedTime: 1783178206427
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+    _key: '!tables.results!ssuKpXe9tLKMXreI.pnM9qT27sCVOZz7t'
+  - name: stronghold
+    range:
+      - 10
+      - 10
+    weight: 1
+    type: text
+    _id: EuYrrKPkEIWwDR1u
+    img: null
+    description: ''
+    drawn: false
+    flags: {}
+    _stats:
+      coreVersion: '14.364'
+      systemId: grimwild
+      systemVersion: 0.5.3
+      lastModifiedBy: 79CEe5dKC6Ls5VbU
+      createdTime: 1783178206427
+      modifiedTime: 1783178206427
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+    _key: '!tables.results!ssuKpXe9tLKMXreI.EuYrrKPkEIWwDR1u'
+  - name: manor
+    range:
+      - 11
+      - 11
+    weight: 1
+    type: text
+    _id: 5q2IXVvXl6AavxFB
+    img: null
+    description: ''
+    drawn: false
+    flags: {}
+    _stats:
+      coreVersion: '14.364'
+      systemId: grimwild
+      systemVersion: 0.5.3
+      lastModifiedBy: 79CEe5dKC6Ls5VbU
+      createdTime: 1783178206427
+      modifiedTime: 1783178206427
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+    _key: '!tables.results!ssuKpXe9tLKMXreI.5q2IXVvXl6AavxFB'
+  - name: hideout
+    range:
+      - 12
+      - 12
+    weight: 1
+    type: text
+    _id: 5C2ysdy0xtsVHPs3
+    img: null
+    description: ''
+    drawn: false
+    flags: {}
+    _stats:
+      coreVersion: '14.364'
+      systemId: grimwild
+      systemVersion: 0.5.3
+      lastModifiedBy: 79CEe5dKC6Ls5VbU
+      createdTime: 1783178206427
+      modifiedTime: 1783178206427
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+    _key: '!tables.results!ssuKpXe9tLKMXreI.5C2ysdy0xtsVHPs3'
+  - name: town
+    range:
+      - 13
+      - 13
+    weight: 1
+    type: text
+    _id: HaETTFlLnztwKX2V
+    img: null
+    description: ''
+    drawn: false
+    flags: {}
+    _stats:
+      coreVersion: '14.364'
+      systemId: grimwild
+      systemVersion: 0.5.3
+      lastModifiedBy: 79CEe5dKC6Ls5VbU
+      createdTime: 1783178206427
+      modifiedTime: 1783178206427
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+    _key: '!tables.results!ssuKpXe9tLKMXreI.HaETTFlLnztwKX2V'
+  - name: colony
+    range:
+      - 14
+      - 14
+    weight: 1
+    type: text
+    _id: ch9LiB9uyPF2eAZm
+    img: null
+    description: ''
+    drawn: false
+    flags: {}
+    _stats:
+      coreVersion: '14.364'
+      systemId: grimwild
+      systemVersion: 0.5.3
+      lastModifiedBy: 79CEe5dKC6Ls5VbU
+      createdTime: 1783178206427
+      modifiedTime: 1783178206427
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+    _key: '!tables.results!ssuKpXe9tLKMXreI.ch9LiB9uyPF2eAZm'
+  - name: watchtower
+    range:
+      - 15
+      - 15
+    weight: 1
+    type: text
+    _id: 9q4lceMjijmQdlJ8
+    img: null
+    description: ''
+    drawn: false
+    flags: {}
+    _stats:
+      coreVersion: '14.364'
+      systemId: grimwild
+      systemVersion: 0.5.3
+      lastModifiedBy: 79CEe5dKC6Ls5VbU
+      createdTime: 1783178206427
+      modifiedTime: 1783178206427
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+    _key: '!tables.results!ssuKpXe9tLKMXreI.9q4lceMjijmQdlJ8'
+  - name: ranch
+    range:
+      - 16
+      - 16
+    weight: 1
+    type: text
+    _id: ArHWbCG77lLELQO2
+    img: null
+    description: ''
+    drawn: false
+    flags: {}
+    _stats:
+      coreVersion: '14.364'
+      systemId: grimwild
+      systemVersion: 0.5.3
+      lastModifiedBy: 79CEe5dKC6Ls5VbU
+      createdTime: 1783178206427
+      modifiedTime: 1783178206427
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+    _key: '!tables.results!ssuKpXe9tLKMXreI.ArHWbCG77lLELQO2'
+  - name: harbor
+    range:
+      - 17
+      - 17
+    weight: 1
+    type: text
+    _id: 5rADjiQyOwPVT1wg
+    img: null
+    description: ''
+    drawn: false
+    flags: {}
+    _stats:
+      coreVersion: '14.364'
+      systemId: grimwild
+      systemVersion: 0.5.3
+      lastModifiedBy: 79CEe5dKC6Ls5VbU
+      createdTime: 1783178206427
+      modifiedTime: 1783178206427
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+    _key: '!tables.results!ssuKpXe9tLKMXreI.5rADjiQyOwPVT1wg'
+  - name: den
+    range:
+      - 18
+      - 18
+    weight: 1
+    type: text
+    _id: lr8qaaSnC90YMlPh
+    img: null
+    description: ''
+    drawn: false
+    flags: {}
+    _stats:
+      coreVersion: '14.364'
+      systemId: grimwild
+      systemVersion: 0.5.3
+      lastModifiedBy: 79CEe5dKC6Ls5VbU
+      createdTime: 1783178206427
+      modifiedTime: 1783178206427
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+    _key: '!tables.results!ssuKpXe9tLKMXreI.lr8qaaSnC90YMlPh'
+  - name: encampment
+    range:
+      - 19
+      - 19
+    weight: 1
+    type: text
+    _id: mO3m9ehEZJXbf8um
+    img: null
+    description: ''
+    drawn: false
+    flags: {}
+    _stats:
+      coreVersion: '14.364'
+      systemId: grimwild
+      systemVersion: 0.5.3
+      lastModifiedBy: 79CEe5dKC6Ls5VbU
+      createdTime: 1783178206427
+      modifiedTime: 1783178206427
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+    _key: '!tables.results!ssuKpXe9tLKMXreI.mO3m9ehEZJXbf8um'
+  - name: fortress
+    range:
+      - 20
+      - 20
+    weight: 1
+    type: text
+    _id: LRASNaZrthWQcvkC
+    img: null
+    description: ''
+    drawn: false
+    flags: {}
+    _stats:
+      coreVersion: '14.364'
+      systemId: grimwild
+      systemVersion: 0.5.3
+      lastModifiedBy: 79CEe5dKC6Ls5VbU
+      createdTime: 1783178206427
+      modifiedTime: 1783178206427
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+    _key: '!tables.results!ssuKpXe9tLKMXreI.LRASNaZrthWQcvkC'
+  - name: crossroads
+    range:
+      - 21
+      - 21
+    weight: 1
+    type: text
+    _id: tzNevWbZeQQtVGH9
+    img: null
+    description: ''
+    drawn: false
+    flags: {}
+    _stats:
+      coreVersion: '14.364'
+      systemId: grimwild
+      systemVersion: 0.5.3
+      lastModifiedBy: 79CEe5dKC6Ls5VbU
+      createdTime: 1783178206427
+      modifiedTime: 1783178206427
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+    _key: '!tables.results!ssuKpXe9tLKMXreI.tzNevWbZeQQtVGH9'
+  - name: grove
+    range:
+      - 22
+      - 22
+    weight: 1
+    type: text
+    _id: O2J6zhL8dBAWPIqq
+    img: null
+    description: ''
+    drawn: false
+    flags: {}
+    _stats:
+      coreVersion: '14.364'
+      systemId: grimwild
+      systemVersion: 0.5.3
+      lastModifiedBy: 79CEe5dKC6Ls5VbU
+      createdTime: 1783178206427
+      modifiedTime: 1783178206427
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+    _key: '!tables.results!ssuKpXe9tLKMXreI.O2J6zhL8dBAWPIqq'
+  - name: cliffside
+    range:
+      - 23
+      - 23
+    weight: 1
+    type: text
+    _id: IDB0IEd2aliff4PP
+    img: null
+    description: ''
+    drawn: false
+    flags: {}
+    _stats:
+      coreVersion: '14.364'
+      systemId: grimwild
+      systemVersion: 0.5.3
+      lastModifiedBy: 79CEe5dKC6Ls5VbU
+      createdTime: 1783178206427
+      modifiedTime: 1783178206427
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+    _key: '!tables.results!ssuKpXe9tLKMXreI.IDB0IEd2aliff4PP'
+  - name: homestead
+    range:
+      - 24
+      - 24
+    weight: 1
+    type: text
+    _id: oAHtNe8y4mVj8E3Z
+    img: null
+    description: ''
+    drawn: false
+    flags: {}
+    _stats:
+      coreVersion: '14.364'
+      systemId: grimwild
+      systemVersion: 0.5.3
+      lastModifiedBy: 79CEe5dKC6Ls5VbU
+      createdTime: 1783178206427
+      modifiedTime: 1783178206427
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+    _key: '!tables.results!ssuKpXe9tLKMXreI.oAHtNe8y4mVj8E3Z'
+  - name: trading post
+    range:
+      - 25
+      - 25
+    weight: 1
+    type: text
+    _id: D06fVwvKvsSAFVNL
+    img: null
+    description: ''
+    drawn: false
+    flags: {}
+    _stats:
+      coreVersion: '14.364'
+      systemId: grimwild
+      systemVersion: 0.5.3
+      lastModifiedBy: 79CEe5dKC6Ls5VbU
+      createdTime: 1783178206427
+      modifiedTime: 1783178206427
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+    _key: '!tables.results!ssuKpXe9tLKMXreI.D06fVwvKvsSAFVNL'
+  - name: hamlet
+    range:
+      - 26
+      - 26
+    weight: 1
+    type: text
+    _id: r3Tyx0GgCn49tsrW
+    img: null
+    description: ''
+    drawn: false
+    flags: {}
+    _stats:
+      coreVersion: '14.364'
+      systemId: grimwild
+      systemVersion: 0.5.3
+      lastModifiedBy: 79CEe5dKC6Ls5VbU
+      createdTime: 1783178206427
+      modifiedTime: 1783178206427
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+    _key: '!tables.results!ssuKpXe9tLKMXreI.r3Tyx0GgCn49tsrW'
+  - name: sanctuary
+    range:
+      - 27
+      - 27
+    weight: 1
+    type: text
+    _id: CIAhvzGp0NPH4WNF
+    img: null
+    description: ''
+    drawn: false
+    flags: {}
+    _stats:
+      coreVersion: '14.364'
+      systemId: grimwild
+      systemVersion: 0.5.3
+      lastModifiedBy: 79CEe5dKC6Ls5VbU
+      createdTime: 1783178206427
+      modifiedTime: 1783178206427
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+    _key: '!tables.results!ssuKpXe9tLKMXreI.CIAhvzGp0NPH4WNF'
+  - name: plaza
+    range:
+      - 28
+      - 28
+    weight: 1
+    type: text
+    _id: UhWofxOx4r68Vvn5
+    img: null
+    description: ''
+    drawn: false
+    flags: {}
+    _stats:
+      coreVersion: '14.364'
+      systemId: grimwild
+      systemVersion: 0.5.3
+      lastModifiedBy: 79CEe5dKC6Ls5VbU
+      createdTime: 1783178206427
+      modifiedTime: 1783178206427
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+    _key: '!tables.results!ssuKpXe9tLKMXreI.UhWofxOx4r68Vvn5'
+  - name: peak
+    range:
+      - 29
+      - 29
+    weight: 1
+    type: text
+    _id: bZDuMzkAEB5k0Kui
+    img: null
+    description: ''
+    drawn: false
+    flags: {}
+    _stats:
+      coreVersion: '14.364'
+      systemId: grimwild
+      systemVersion: 0.5.3
+      lastModifiedBy: 79CEe5dKC6Ls5VbU
+      createdTime: 1783178206427
+      modifiedTime: 1783178206427
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+    _key: '!tables.results!ssuKpXe9tLKMXreI.bZDuMzkAEB5k0Kui'
+  - name: monastery
+    range:
+      - 30
+      - 30
+    weight: 1
+    type: text
+    _id: dmIpTwKaGC6JGast
+    img: null
+    description: ''
+    drawn: false
+    flags: {}
+    _stats:
+      coreVersion: '14.364'
+      systemId: grimwild
+      systemVersion: 0.5.3
+      lastModifiedBy: 79CEe5dKC6Ls5VbU
+      createdTime: 1783178206427
+      modifiedTime: 1783178206427
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+    _key: '!tables.results!ssuKpXe9tLKMXreI.dmIpTwKaGC6JGast'
+  - name: citadel
+    range:
+      - 31
+      - 31
+    weight: 1
+    type: text
+    _id: JdMpsDSv0ERwFnYK
+    img: null
+    description: ''
+    drawn: false
+    flags: {}
+    _stats:
+      coreVersion: '14.364'
+      systemId: grimwild
+      systemVersion: 0.5.3
+      lastModifiedBy: 79CEe5dKC6Ls5VbU
+      createdTime: 1783178206427
+      modifiedTime: 1783178206427
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+    _key: '!tables.results!ssuKpXe9tLKMXreI.JdMpsDSv0ERwFnYK'
+  - name: refuge
+    range:
+      - 32
+      - 32
+    weight: 1
+    type: text
+    _id: iUEsnILgvcon10pg
+    img: null
+    description: ''
+    drawn: false
+    flags: {}
+    _stats:
+      coreVersion: '14.364'
+      systemId: grimwild
+      systemVersion: 0.5.3
+      lastModifiedBy: 79CEe5dKC6Ls5VbU
+      createdTime: 1783178206427
+      modifiedTime: 1783178206427
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+    _key: '!tables.results!ssuKpXe9tLKMXreI.iUEsnILgvcon10pg'
+  - name: commune
+    range:
+      - 33
+      - 33
+    weight: 1
+    type: text
+    _id: yoMO8A7I9hUuucxt
+    img: null
+    description: ''
+    drawn: false
+    flags: {}
+    _stats:
+      coreVersion: '14.364'
+      systemId: grimwild
+      systemVersion: 0.5.3
+      lastModifiedBy: 79CEe5dKC6Ls5VbU
+      createdTime: 1783178206427
+      modifiedTime: 1783178206427
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+    _key: '!tables.results!ssuKpXe9tLKMXreI.yoMO8A7I9hUuucxt'
+  - name: farmstead
+    range:
+      - 34
+      - 34
+    weight: 1
+    type: text
+    _id: CxrEBi5NsmklJuBY
+    img: null
+    description: ''
+    drawn: false
+    flags: {}
+    _stats:
+      coreVersion: '14.364'
+      systemId: grimwild
+      systemVersion: 0.5.3
+      lastModifiedBy: 79CEe5dKC6Ls5VbU
+      createdTime: 1783178206427
+      modifiedTime: 1783178206427
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+    _key: '!tables.results!ssuKpXe9tLKMXreI.CxrEBi5NsmklJuBY'
+  - name: cavern
+    range:
+      - 35
+      - 35
+    weight: 1
+    type: text
+    _id: A6LaseeXRz8UMg42
+    img: null
+    description: ''
+    drawn: false
+    flags: {}
+    _stats:
+      coreVersion: '14.364'
+      systemId: grimwild
+      systemVersion: 0.5.3
+      lastModifiedBy: 79CEe5dKC6Ls5VbU
+      createdTime: 1783178206427
+      modifiedTime: 1783178206427
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+    _key: '!tables.results!ssuKpXe9tLKMXreI.A6LaseeXRz8UMg42'
+  - name: bastion
+    range:
+      - 36
+      - 36
+    weight: 1
+    type: text
+    _id: lzDrGMjJBUTLNTeX
+    img: null
+    description: ''
+    drawn: false
+    flags: {}
+    _stats:
+      coreVersion: '14.364'
+      systemId: grimwild
+      systemVersion: 0.5.3
+      lastModifiedBy: 79CEe5dKC6Ls5VbU
+      createdTime: 1783178206427
+      modifiedTime: 1783178206427
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+    _key: '!tables.results!ssuKpXe9tLKMXreI.lzDrGMjJBUTLNTeX'
+flags:
+  core:
+    sheetClass: grimwild.GrimwildRollTableCrucibleSheet
+img: icons/svg/d20-grey.svg
+description: ''
+replacement: true
+displayRoll: true
+folder: SdbDqyXAF5KLE0Ik
+ownership:
+  default: 0
+  79CEe5dKC6Ls5VbU: 3
+_stats:
+  coreVersion: '14.364'
+  systemId: grimwild
+  systemVersion: 0.5.3
+  createdTime: 1783178206427
+  modifiedTime: 1783178473554
+  lastModifiedBy: 79CEe5dKC6Ls5VbU
+  exportSource: null
+  compendiumSource: null
+  duplicateSource: null
+_id: ssuKpXe9tLKMXreI
+sort: 600000
+_key: '!tables!ssuKpXe9tLKMXreI'

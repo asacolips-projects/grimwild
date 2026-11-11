@@ -1,0 +1,158 @@
+name: Blaster - As a last ditch defense, it...
+formula: 1d6
+description: ''
+results:
+  - range:
+      - 1
+      - 1
+    name: ''
+    description: <p>unleashes a sudden shockwave to clear space.</p>
+    _id: t8I7bZO9DHzcLnHl
+    type: text
+    img: icons/svg/d20-black.svg
+    weight: 1
+    drawn: false
+    flags: {}
+    _stats:
+      coreVersion: '14.368'
+      systemId: grimwild
+      systemVersion: 0.5.3
+      createdTime: 1791832205890
+      modifiedTime: 1791832205890
+      lastModifiedBy: nF9qxzj59Qn6fNSn
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+    documentUuid: null
+    _key: '!tables.results!an2loLlis7dhCEiE.t8I7bZO9DHzcLnHl'
+  - range:
+      - 2
+      - 2
+    name: ''
+    description: scrambles to higher ground.
+    _id: tnNF4Wz2EIipGhy9
+    type: text
+    img: icons/svg/d20-black.svg
+    weight: 1
+    drawn: false
+    flags: {}
+    _stats:
+      coreVersion: '14.368'
+      systemId: grimwild
+      systemVersion: 0.5.3
+      createdTime: 1791832205890
+      modifiedTime: 1791832205890
+      lastModifiedBy: nF9qxzj59Qn6fNSn
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+    _key: '!tables.results!an2loLlis7dhCEiE.tnNF4Wz2EIipGhy9'
+  - range:
+      - 3
+      - 3
+    name: ''
+    description: detonates an explosives burst in all directions.
+    _id: 9F7Yu1Wjeyc96TNc
+    type: text
+    img: icons/svg/d20-black.svg
+    weight: 1
+    drawn: false
+    flags: {}
+    _stats:
+      coreVersion: '14.368'
+      systemId: grimwild
+      systemVersion: 0.5.3
+      createdTime: 1791832205890
+      modifiedTime: 1791832205890
+      lastModifiedBy: nF9qxzj59Qn6fNSn
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+    _key: '!tables.results!an2loLlis7dhCEiE.9F7Yu1Wjeyc96TNc'
+  - range:
+      - 4
+      - 4
+    name: ''
+    description: drags their enemy into mutual destruction.
+    _id: I82HueE3UGjiy2bJ
+    type: text
+    img: icons/svg/d20-black.svg
+    weight: 1
+    drawn: false
+    flags: {}
+    _stats:
+      coreVersion: '14.368'
+      systemId: grimwild
+      systemVersion: 0.5.3
+      createdTime: 1791832205890
+      modifiedTime: 1791832205890
+      lastModifiedBy: nF9qxzj59Qn6fNSn
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+    _key: '!tables.results!an2loLlis7dhCEiE.I82HueE3UGjiy2bJ'
+  - range:
+      - 5
+      - 5
+    name: ''
+    description: goes all in with their full power in a final strike.
+    _id: RQfVaXyZ0uqXlPAT
+    type: text
+    img: icons/svg/d20-black.svg
+    weight: 1
+    drawn: false
+    flags: {}
+    _stats:
+      coreVersion: '14.368'
+      systemId: grimwild
+      systemVersion: 0.5.3
+      createdTime: 1791832205890
+      modifiedTime: 1791832205890
+      lastModifiedBy: nF9qxzj59Qn6fNSn
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+    _key: '!tables.results!an2loLlis7dhCEiE.RQfVaXyZ0uqXlPAT'
+  - range:
+      - 6
+      - 6
+    name: ''
+    description: fires wildly to distract and disorient.
+    _id: AKNFGuzppWDcIknB
+    type: text
+    img: icons/svg/d20-black.svg
+    weight: 1
+    drawn: false
+    flags: {}
+    _stats:
+      coreVersion: '14.368'
+      systemId: grimwild
+      systemVersion: 0.5.3
+      createdTime: 1791832205890
+      modifiedTime: 1791832205890
+      lastModifiedBy: nF9qxzj59Qn6fNSn
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+    _key: '!tables.results!an2loLlis7dhCEiE.AKNFGuzppWDcIknB'
+folder: BMSPY8PlHXu4KoV4
+_id: an2loLlis7dhCEiE
+img: icons/svg/d20-grey.svg
+replacement: true
+displayRoll: true
+ownership:
+  default: 0
+  nF9qxzj59Qn6fNSn: 3
+flags: {}
+_stats:
+  coreVersion: '14.368'
+  systemId: grimwild
+  systemVersion: 0.5.3
+  createdTime: 1791832205890
+  modifiedTime: 1791833675050
+  lastModifiedBy: nF9qxzj59Qn6fNSn
+  compendiumSource: null
+  duplicateSource: null
+  exportSource: null
+sort: 600000
+_key: '!tables!an2loLlis7dhCEiE'

@@ -7,6 +7,7 @@
 		padding: 0 0 8px;
 		align-items: center;
 		font-weight: bold;
+		gap: 16px;
 		// border-bottom: 2px solid;
 
 		.item-name {
@@ -21,6 +22,14 @@
 
 		.item-controls {
 			gap: 4px;
+		}
+	}
+}
+
+.tab-talents {
+	.items-list {
+		.items-header {
+			justify-content: flex-end;
 		}
 	}
 }
@@ -62,6 +71,27 @@
 			margin: 0;
 			white-space: nowrap;
 			overflow-x: hidden;
+		}
+	}
+
+	// Supplies
+	.item-supplies,
+	.item-coins {
+		flex-wrap: nowrap;
+		gap: 4px;
+
+		label {
+			text-align: right;
+		}
+
+		.roll-pool {
+			gap: 4px;
+
+			> input {
+				flex: 0 0 22px;
+				padding: 0 4px;
+				text-align: center;
+			}
 		}
 	}
 
@@ -157,4 +187,31 @@
 .item-formula {
 	flex: 0 0 200px;
 	padding: 0 8px;
+}
+
+// Arcana tier badge, top right of the item header.
+.item-tier {
+	display: flex;
+	justify-content: flex-end;
+	align-items: flex-start;
+}
+
+.item-tier-badge {
+	text-transform: uppercase;
+	font-size: 11px;
+	letter-spacing: 1px;
+	font-weight: bold;
+	padding: 2px 8px;
+	border: 1px solid #c9c7b8;
+	border-radius: 3px;
+	background: rgba(0, 0, 0, 0.04);
+}
+
+// Slot size chip on item rows (gear, arcana).
+.item-slots {
+	font-size: 11px;
+	letter-spacing: 0.5px;
+	color: #8a8a8a;
+	white-space: nowrap;
+	padding: 0 6px;
 }

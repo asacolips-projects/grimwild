@@ -1,0 +1,45 @@
+folder: KGASAmtds3ZDqfAx
+name: Infusion
+type: talent
+_id: nSk6qwqAJI6faSuK
+img: icons/commodities/tech/gear-wheels-double-steel.webp
+system:
+  description: >-
+    <p>You harness the power of creativity. You know 6
+    <strong>touchstones</strong> from the arcana crucibles (and all functions),
+    and have created 2 <strong>major arcana</strong> using them. Anyone can use
+    them with the most relevant stat (as arcana), though it always carries
+    <em><strong>risk</strong></em> for those other than you. Given time, you
+    can: <em>rebuild them using any other touchstones you know—pull off a
+    <strong>potent feat of mechanical ingenuity</strong></em>. You can
+    <em><strong>push yourself</strong></em> to do it on the
+    spot.</p><p><strong>Engineer:</strong> Take +1d at creating, repairing, or
+    destroying mechanisms and arcana. You can also <strong>deconstruct</strong>
+    arcana to learn their touchstones, destroying them in the
+    process.</p><hr><p><strong>GROWTH:</strong> At levels 2, 4, and 6, you can
+    create +1 major arcana, and learn 2
+    touchstones.</p><p>@UUID[Compendium.grimwild.gwce-journals.JournalEntry.A3ABNLJphHplV8Nm.JournalEntryPage.3Gn22HIAtsedLnmL]{Artificer
+    Options} (Everything Arcana, Magitechnobabble Crucibles, Constructs &amp;
+    Homunculi)</p>
+  core: false
+  notes:
+    description: <p>List your 6 touchstones from the arcana crucibles.</p>
+    label: Touchstones
+  trackers: []
+effects: []
+sort: 0
+ownership:
+  default: 0
+  79CEe5dKC6Ls5VbU: 3
+flags: {}
+_stats:
+  coreVersion: '14.368'
+  systemId: grimwild
+  systemVersion: 0.5.3
+  createdTime: 1782662610266
+  modifiedTime: 1791743120968
+  lastModifiedBy: nF9qxzj59Qn6fNSn
+  compendiumSource: null
+  duplicateSource: null
+  exportSource: null
+_key: '!items!nSk6qwqAJI6faSuK'

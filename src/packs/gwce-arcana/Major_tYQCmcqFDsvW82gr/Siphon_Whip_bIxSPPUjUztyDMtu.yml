@@ -1,0 +1,53 @@
+folder: tYQCmcqFDsvW82gr
+name: Siphon Whip
+type: arcana
+_id: bIxSPPUjUztyDMtu
+img: icons/weapons/misc/whip-leather.webp
+system:
+  description: >-
+    <p>Once per session, you can wrap a foe with this whip and clear bloodied on
+    yourself.</p>
+  tier: major
+  notes:
+    description: ''
+    label: ''
+  trackers:
+    - type: points
+      label: Wrap
+      points:
+        value: 1
+        max: 1
+        showSteps: true
+      pool:
+        diceNum: 0
+        powerPool: false
+  touchstones: bind—drain—lifeforce
+  limitations: ''
+  activation: wrapping up a living foe.
+  sensories:
+    descriptors: dried blood, pulsing crimson veins
+    actions: twitches like snake, throbs with energy
+  palette:
+    - name: Blood Red
+      color: '#541212'
+    - name: Black Leather
+      color: '#1a1a1a'
+    - name: Rose Energy
+      color: '#a3485e'
+effects: []
+sort: 0
+ownership:
+  default: 0
+  nF9qxzj59Qn6fNSn: 3
+flags: {}
+_stats:
+  coreVersion: '14.369'
+  systemId: grimwild
+  systemVersion: 0.6.0
+  createdTime: 1794236097515
+  modifiedTime: 1794236566556
+  lastModifiedBy: UV77mtxQgW7KpS6B
+  compendiumSource: null
+  duplicateSource: null
+  exportSource: null
+_key: '!items!bIxSPPUjUztyDMtu'

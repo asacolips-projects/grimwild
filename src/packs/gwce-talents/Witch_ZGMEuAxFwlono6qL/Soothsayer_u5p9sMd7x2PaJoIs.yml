@@ -1,0 +1,52 @@
+folder: ZGMEuAxFwlono6qL
+name: Soothsayer
+type: talent
+_id: u5p9sMd7x2PaJoIs
+img: icons/creatures/magical/spirit-undead-masked-blue.webp
+system:
+  description: >-
+    <p>Once per session, you can tag a spirit in the local area. They offer a
+    <strong>3d Spirit</strong> pool rolled as bonus dice when you or an ally
+    invokes their domain. They may ask for aid in return. Spirit domains include
+    things such as: <em>rivers—the night sky—art—furry critters</em>.</p>
+  core: false
+  notes:
+    description: ''
+    label: ''
+  trackers:
+    - type: points
+      label: Tag a Spirit
+      points:
+        value: 1
+        max: 1
+        showSteps: true
+      pool:
+        diceNum: 0
+        powerPool: false
+    - type: pool
+      pool:
+        powerPool: false
+        diceNum: 3
+        max: 3
+      label: Spirit
+      points:
+        showSteps: false
+        value: 1
+        max: 1
+effects: []
+sort: 0
+ownership:
+  default: 0
+  79CEe5dKC6Ls5VbU: 3
+flags: {}
+_stats:
+  coreVersion: '14.368'
+  systemId: grimwild
+  systemVersion: 0.5.3
+  createdTime: 1783006846086
+  modifiedTime: 1791753773783
+  lastModifiedBy: nF9qxzj59Qn6fNSn
+  compendiumSource: null
+  duplicateSource: null
+  exportSource: null
+_key: '!items!u5p9sMd7x2PaJoIs'

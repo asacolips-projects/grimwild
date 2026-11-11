@@ -19,6 +19,15 @@ GRIMWILD:
     enableHarmPools:
       name: "[Homebrew] Enable harm pools on characters"
       hint: Adds pool inputs to Bloodied and Rattled, similar to Grimwild's v1.3 rules text.
+    enableEncumbrance:
+      name: "[CE] Enable Encumbrance"
+      hint: Adds the encumbrance tracker (2 + Brawn slots, filled by gear and arcana) to character sheets.
+    enableCoins:
+      name: "[CE] Enable Coins"
+      hint: Adds the Coins power pool (8d) to character sheets for tracking wealth.
+    enableSupplies:
+      name: "[CE] Enable Supplies"
+      hint: Adds the Supplies pool (4d) to the gear section of character sheets.
     maxBloodied:
       name: "[Homebrew] Max bloodied value"
       hint: Maximum value to use for the Bloodied input if harm pools are enabled.
@@ -103,8 +112,17 @@ GRIMWILD:
     toggles: Toggles
     text: Text
     suspense: Suspense
+  Arcana:
+    trivial: Trivial
+    minor: Minor
+    major: Major
+    mythic: Mythic
+  Encumbrance:
+    label: Encumbrance
   UI:
     details: Details
+    View: View
+    Edit: Edit
   SheetLabels:
     Actor: Grimwild Actor Sheet
     Item: Grimwild Item Sheet
@@ -123,6 +141,7 @@ GRIMWILD:
       Challenges: Challenges
       Effects: Effects
       Arcana: Arcana
+      Gear: Gear
     base:
       FIELDS:
         biography:
@@ -131,6 +150,10 @@ GRIMWILD:
           label: Notes
     Character:
       FIELDS:
+        coins:
+          label: Coins
+        supplies:
+          label: Supplies
         class:
           label: Class
         xp:
@@ -144,6 +167,7 @@ GRIMWILD:
           label: Spark
         story:
           label: Story
+          ceLabel: Thread
         traits:
           label: Traits
         desires:
@@ -199,8 +223,16 @@ GRIMWILD:
       FIELDS:
         tier:
           label: Tier
+        slotSize:
+          label: Slot Size
         touchstones:
           label: Touchstones
+        activation:
+          label: Activation
+        palette:
+          label: Palette
+        sensories:
+          label: Sensories
         limitations:
           label: Limitations
         notes:
@@ -220,6 +252,17 @@ GRIMWILD:
           label: Quantity
         weight:
           label: Weight
+      Header: Arcana
+      Descriptors: Descriptors
+      Actions: Actions
+      PaletteName: Color name
+    Gear:
+      FIELDS:
+        slotSize:
+          label: Slot Size
+      Header: Gear
+      Slots: "{slots} slots"
+      HalfSlot: ½ slot
     base:
       FIELDS:
         description:
@@ -272,3 +315,4 @@ TYPES:
     talent: Talent
     arcana: Arcana
     challenge: Challenge
+    gear: Gear

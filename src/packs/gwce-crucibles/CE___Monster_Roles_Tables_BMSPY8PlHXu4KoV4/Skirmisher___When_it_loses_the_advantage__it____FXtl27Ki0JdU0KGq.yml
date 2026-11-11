@@ -1,0 +1,157 @@
+name: Skirmisher - When it loses the advantage, it...
+description: ''
+formula: 1d6
+results:
+  - name: ''
+    description: retreats quickly to regroup and reassess.
+    range:
+      - 1
+      - 1
+    _id: aUGMoRXw96STpxGo
+    type: text
+    img: icons/svg/d20-black.svg
+    weight: 1
+    drawn: false
+    flags: {}
+    _stats:
+      coreVersion: '14.368'
+      systemId: grimwild
+      systemVersion: 0.5.3
+      createdTime: 1791833545204
+      modifiedTime: 1791833545204
+      lastModifiedBy: nF9qxzj59Qn6fNSn
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+    _key: '!tables.results!FXtl27Ki0JdU0KGq.aUGMoRXw96STpxGo'
+  - name: ''
+    description: strikes recklessly, hoping to create an opening.
+    range:
+      - 2
+      - 2
+    _id: YSvtgEUTEMFMErNS
+    type: text
+    img: icons/svg/d20-black.svg
+    weight: 1
+    drawn: false
+    flags: {}
+    _stats:
+      coreVersion: '14.368'
+      systemId: grimwild
+      systemVersion: 0.5.3
+      createdTime: 1791833545204
+      modifiedTime: 1791833545204
+      lastModifiedBy: nF9qxzj59Qn6fNSn
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+    _key: '!tables.results!FXtl27Ki0JdU0KGq.YSvtgEUTEMFMErNS'
+  - name: ''
+    description: dodges wildly to avoid being hit.
+    range:
+      - 3
+      - 3
+    _id: UBycz4qjqPel5kto
+    type: text
+    img: icons/svg/d20-black.svg
+    weight: 1
+    drawn: false
+    flags: {}
+    _stats:
+      coreVersion: '14.368'
+      systemId: grimwild
+      systemVersion: 0.5.3
+      createdTime: 1791833545204
+      modifiedTime: 1791833545204
+      lastModifiedBy: nF9qxzj59Qn6fNSn
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+    _key: '!tables.results!FXtl27Ki0JdU0KGq.UBycz4qjqPel5kto'
+  - name: ''
+    description: circles, searching for a weak point to exploit.
+    range:
+      - 4
+      - 4
+    _id: rOqeLJr4uOLZ9xIc
+    type: text
+    img: icons/svg/d20-black.svg
+    weight: 1
+    drawn: false
+    flags: {}
+    _stats:
+      coreVersion: '14.368'
+      systemId: grimwild
+      systemVersion: 0.5.3
+      createdTime: 1791833545204
+      modifiedTime: 1791833545204
+      lastModifiedBy: nF9qxzj59Qn6fNSn
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+    _key: '!tables.results!FXtl27Ki0JdU0KGq.rOqeLJr4uOLZ9xIc'
+  - name: ''
+    description: taunts, trying to bait enemies into a mistake.
+    range:
+      - 5
+      - 5
+    _id: wFGnaIHu3sYBlnRB
+    type: text
+    img: icons/svg/d20-black.svg
+    weight: 1
+    drawn: false
+    flags: {}
+    _stats:
+      coreVersion: '14.368'
+      systemId: grimwild
+      systemVersion: 0.5.3
+      createdTime: 1791833545204
+      modifiedTime: 1791833545204
+      lastModifiedBy: nF9qxzj59Qn6fNSn
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+    _key: '!tables.results!FXtl27Ki0JdU0KGq.wFGnaIHu3sYBlnRB'
+  - name: ''
+    description: disengages, vanishing into the fray.
+    range:
+      - 6
+      - 6
+    _id: zTQUuNWM9Mf83ekN
+    type: text
+    img: icons/svg/d20-black.svg
+    weight: 1
+    drawn: false
+    flags: {}
+    _stats:
+      coreVersion: '14.368'
+      systemId: grimwild
+      systemVersion: 0.5.3
+      createdTime: 1791833545204
+      modifiedTime: 1791833545204
+      lastModifiedBy: nF9qxzj59Qn6fNSn
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+    _key: '!tables.results!FXtl27Ki0JdU0KGq.zTQUuNWM9Mf83ekN'
+folder: BMSPY8PlHXu4KoV4
+_id: FXtl27Ki0JdU0KGq
+img: icons/svg/d20-grey.svg
+replacement: true
+displayRoll: true
+ownership:
+  default: 0
+  nF9qxzj59Qn6fNSn: 3
+flags: {}
+_stats:
+  coreVersion: '14.368'
+  systemId: grimwild
+  systemVersion: 0.5.3
+  createdTime: 1791833545204
+  modifiedTime: 1791833675050
+  lastModifiedBy: nF9qxzj59Qn6fNSn
+  compendiumSource: null
+  duplicateSource: null
+  exportSource: null
+sort: 400000
+_key: '!tables!FXtl27Ki0JdU0KGq'

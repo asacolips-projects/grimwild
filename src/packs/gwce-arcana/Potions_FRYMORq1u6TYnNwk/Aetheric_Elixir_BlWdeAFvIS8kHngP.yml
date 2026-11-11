@@ -1,0 +1,53 @@
+folder: FRYMORq1u6TYnNwk
+name: Aetheric Elixir
+type: arcana
+_id: BlWdeAFvIS8kHngP
+img: icons/consumables/potions/bottle-conical-fumes-green.webp
+system:
+  description: >-
+    <p>Once consumed, you become intangible and can fly for a few hours. Push
+    yourself to interact with the physical world.</p>
+  tier: major
+  notes:
+    description: ''
+    label: ''
+  trackers:
+    - type: points
+      label: Consume
+      points:
+        value: 1
+        max: 1
+        showSteps: false
+      pool:
+        diceNum: 0
+        powerPool: false
+  touchstones: ghost—freedom—transform
+  limitations: ''
+  activation: drinking it, and exhaling a held breath.
+  sensories:
+    descriptors: freezing cold, swirling ectoplasm
+    actions: vial drops as it passes through your hand
+  palette:
+    - name: Phantom Mist
+      color: '#d1e8e2'
+    - name: Ectoplasm
+      color: '#4aa382'
+    - name: Shadowy Gray
+      color: '#263238'
+effects: []
+sort: 0
+ownership:
+  default: 0
+  nF9qxzj59Qn6fNSn: 3
+flags: {}
+_stats:
+  coreVersion: '14.369'
+  systemId: grimwild
+  systemVersion: 0.6.0
+  createdTime: 1794238169109
+  modifiedTime: 1794246949250
+  lastModifiedBy: UV77mtxQgW7KpS6B
+  compendiumSource: null
+  duplicateSource: null
+  exportSource: null
+_key: '!items!BlWdeAFvIS8kHngP'

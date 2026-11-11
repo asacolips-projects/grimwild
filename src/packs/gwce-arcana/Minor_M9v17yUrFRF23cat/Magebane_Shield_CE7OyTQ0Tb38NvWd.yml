@@ -1,0 +1,44 @@
+folder: M9v17yUrFRF23cat
+name: Magebane Shield
+type: arcana
+_id: CE7OyTQ0Tb38NvWd
+img: icons/equipment/shield/buckler-wooden-boss-glowing-blue.webp
+system:
+  description: >-
+    <p>This shield faintly glows in the presence of magic, and can stop magic
+    just as it well as it can stop mundane weapons.</p>
+  tier: minor
+  notes:
+    description: ''
+    label: ''
+  trackers: []
+  touchstones: anti-magic—sense—protect
+  limitations: ''
+  activation: tightening your grip.
+  sensories:
+    descriptors: violet fractures, faint purple pulse, magic buzz
+    actions: numb fingers, static raised hair
+  palette:
+    - name: COLD IRON
+      color: '#3a3f47'
+    - name: NULL SILVER
+      color: '#a3a9b3'
+    - name: ARCANE VIOLET
+      color: '#6a4e85'
+effects: []
+sort: 0
+ownership:
+  default: 0
+  nF9qxzj59Qn6fNSn: 3
+flags: {}
+_stats:
+  coreVersion: '14.369'
+  systemId: grimwild
+  systemVersion: 0.6.0
+  createdTime: 1794235425735
+  modifiedTime: 1794235425735
+  lastModifiedBy: UV77mtxQgW7KpS6B
+  compendiumSource: null
+  duplicateSource: null
+  exportSource: null
+_key: '!items!CE7OyTQ0Tb38NvWd'

@@ -1,0 +1,35 @@
+folder: TtWJSOkkmQ7qhO1P
+name: Weapon Mastery
+type: talent
+_id: Z0LTcQtNUVNcoVIm
+img: icons/skills/melee/maneuver-sword-katana-yellow.webp
+system:
+  description: >-
+    <p>Choose a <strong>fighting style</strong> you have mastered:
+    <em>brawling—dual-wielding—one- handed—ranged—two-handed</em>. When you
+    fight, defend, or assist in your style, take +1d. Each scene, you have
+    <strong>2 mastery</strong> to spend when using this style to add a critical
+    effect.</p><hr><p><strong>GROWTH:</strong> At levels 3 and 6, gain +1
+    mastery per scene.</p>
+  core: false
+  notes:
+    description: ''
+    label: Fighting Style
+  trackers: []
+effects: []
+sort: 0
+ownership:
+  default: 0
+  79CEe5dKC6Ls5VbU: 3
+flags: {}
+_stats:
+  coreVersion: '14.368'
+  systemId: grimwild
+  systemVersion: 0.5.3
+  createdTime: 1782662617710
+  modifiedTime: 1791743435599
+  lastModifiedBy: nF9qxzj59Qn6fNSn
+  compendiumSource: null
+  duplicateSource: null
+  exportSource: null
+_key: '!items!Z0LTcQtNUVNcoVIm'

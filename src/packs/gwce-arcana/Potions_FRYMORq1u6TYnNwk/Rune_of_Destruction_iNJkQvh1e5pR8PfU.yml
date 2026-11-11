@@ -1,0 +1,63 @@
+folder: FRYMORq1u6TYnNwk
+name: Rune of Destruction
+type: arcana
+_id: iNJkQvh1e5pR8PfU
+img: icons/magic/symbols/rune-sigil-red-orange.webp
+system:
+  description: >-
+    <p>Given time, place and activate this rune to bring ruin to the area when a
+    set trigger is met, or an 8d timer completes.</p>
+  tier: major
+  notes:
+    description: ''
+    label: ''
+  trackers:
+    - type: points
+      label: Consume
+      points:
+        value: 1
+        max: 1
+        showSteps: true
+      pool:
+        diceNum: 0
+        powerPool: false
+    - type: pool
+      pool:
+        powerPool: false
+        diceNum: 8
+        max: 8
+      label: Timer
+      points:
+        showSteps: false
+        value: 1
+        max: 1
+  touchstones: ruin—disaster—explosion—fire—consume
+  limitations: ''
+  activation: snapping it cleanly in half.
+  sensories:
+    descriptors: low rumbling thunder, cold stone
+    actions: violent earthquake, stone shatters
+  palette:
+    - name: Pulsing Red
+      color: '#c93b2b'
+    - name: Ashen Stone
+      color: '#3a3d40'
+    - name: Brimstone Yellow
+      color: '#f2b705'
+effects: []
+sort: 0
+ownership:
+  default: 0
+  nF9qxzj59Qn6fNSn: 3
+flags: {}
+_stats:
+  coreVersion: '14.369'
+  systemId: grimwild
+  systemVersion: 0.6.0
+  createdTime: 1794238169109
+  modifiedTime: 1794247071202
+  lastModifiedBy: UV77mtxQgW7KpS6B
+  compendiumSource: null
+  duplicateSource: null
+  exportSource: null
+_key: '!items!iNJkQvh1e5pR8PfU'

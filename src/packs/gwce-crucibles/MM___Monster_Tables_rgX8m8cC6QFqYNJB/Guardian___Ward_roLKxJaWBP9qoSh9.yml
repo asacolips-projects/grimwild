@@ -1,0 +1,157 @@
+name: Guardian - Ward
+description: ''
+formula: 1d6
+results:
+  - name: ''
+    description: <b>Paranoid noble</b> with a dangerous secret.
+    range:
+      - 1
+      - 1
+    _id: xLaeeRaLfuBbU4dt
+    type: text
+    img: null
+    weight: 1
+    drawn: false
+    flags: {}
+    _stats:
+      coreVersion: '14.364'
+      systemId: grimwild
+      systemVersion: 0.5.3
+      createdTime: 1783270821341
+      modifiedTime: 1783270821341
+      lastModifiedBy: 79CEe5dKC6Ls5VbU
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+    _key: '!tables.results!roLKxJaWBP9qoSh9.xLaeeRaLfuBbU4dt'
+  - name: ''
+    description: <b>Exiled heir</b>, returning to claim their birthright.
+    range:
+      - 2
+      - 2
+    _id: z7GSxW4PCkfGXdJG
+    type: text
+    img: null
+    weight: 1
+    drawn: false
+    flags: {}
+    _stats:
+      coreVersion: '14.364'
+      systemId: grimwild
+      systemVersion: 0.5.3
+      createdTime: 1783270821341
+      modifiedTime: 1783270821341
+      lastModifiedBy: 79CEe5dKC6Ls5VbU
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+    _key: '!tables.results!roLKxJaWBP9qoSh9.z7GSxW4PCkfGXdJG'
+  - name: ''
+    description: <b>Diplomat</b>, negotiating a fragile peace treaty.
+    range:
+      - 3
+      - 3
+    _id: V1UMP39f5HUIcluv
+    type: text
+    img: null
+    weight: 1
+    drawn: false
+    flags: {}
+    _stats:
+      coreVersion: '14.364'
+      systemId: grimwild
+      systemVersion: 0.5.3
+      createdTime: 1783270821341
+      modifiedTime: 1783270821341
+      lastModifiedBy: 79CEe5dKC6Ls5VbU
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+    _key: '!tables.results!roLKxJaWBP9qoSh9.V1UMP39f5HUIcluv'
+  - name: ''
+    description: <b>Criminal boss</b>, flaunting the law in daylight.
+    range:
+      - 4
+      - 4
+    _id: K92NZTDOn8qPbUge
+    type: text
+    img: null
+    weight: 1
+    drawn: false
+    flags: {}
+    _stats:
+      coreVersion: '14.364'
+      systemId: grimwild
+      systemVersion: 0.5.3
+      createdTime: 1783270821341
+      modifiedTime: 1783270821341
+      lastModifiedBy: 79CEe5dKC6Ls5VbU
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+    _key: '!tables.results!roLKxJaWBP9qoSh9.K92NZTDOn8qPbUge'
+  - name: ''
+    description: <b>Renowned mage</b>, with a medley of enemies.
+    range:
+      - 5
+      - 5
+    _id: 3GjzWIDLAf4jR1s6
+    type: text
+    img: null
+    weight: 1
+    drawn: false
+    flags: {}
+    _stats:
+      coreVersion: '14.364'
+      systemId: grimwild
+      systemVersion: 0.5.3
+      createdTime: 1783270821341
+      modifiedTime: 1783270821341
+      lastModifiedBy: 79CEe5dKC6Ls5VbU
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+    _key: '!tables.results!roLKxJaWBP9qoSh9.3GjzWIDLAf4jR1s6'
+  - name: ''
+    description: <b>Secret royal kin</b>, kept safe until word gets out.
+    range:
+      - 6
+      - 6
+    _id: UHmRssjZiX1vhUqN
+    type: text
+    img: null
+    weight: 1
+    drawn: false
+    flags: {}
+    _stats:
+      coreVersion: '14.364'
+      systemId: grimwild
+      systemVersion: 0.5.3
+      createdTime: 1783270821341
+      modifiedTime: 1783270821341
+      lastModifiedBy: 79CEe5dKC6Ls5VbU
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+    _key: '!tables.results!roLKxJaWBP9qoSh9.UHmRssjZiX1vhUqN'
+folder: rgX8m8cC6QFqYNJB
+sort: 2300000
+_id: roLKxJaWBP9qoSh9
+img: icons/svg/d20-grey.svg
+replacement: true
+displayRoll: true
+ownership:
+  default: 0
+  79CEe5dKC6Ls5VbU: 3
+flags: {}
+_stats:
+  coreVersion: '14.368'
+  systemId: grimwild
+  systemVersion: 0.5.3
+  createdTime: 1783270821341
+  modifiedTime: 1791749998255
+  lastModifiedBy: nF9qxzj59Qn6fNSn
+  compendiumSource: null
+  duplicateSource: null
+  exportSource: null
+_key: '!tables!roLKxJaWBP9qoSh9'

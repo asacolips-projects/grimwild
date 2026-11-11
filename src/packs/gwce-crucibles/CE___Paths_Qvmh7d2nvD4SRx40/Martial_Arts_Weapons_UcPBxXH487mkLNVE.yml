@@ -1,0 +1,819 @@
+name: Martial Arts Weapons
+formula: 1d36
+results:
+  - name: bo staff
+    range:
+      - 1
+      - 1
+    weight: 1
+    type: text
+    _id: 0d2LjBtrfd0jfPIN
+    img: null
+    description: ''
+    drawn: false
+    flags: {}
+    _stats:
+      coreVersion: '14.364'
+      systemId: grimwild
+      systemVersion: 0.5.3
+      createdTime: 1783124798206
+      modifiedTime: 1783124798206
+      lastModifiedBy: 79CEe5dKC6Ls5VbU
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+    _key: '!tables.results!UcPBxXH487mkLNVE.0d2LjBtrfd0jfPIN'
+  - name: chain whip
+    range:
+      - 2
+      - 2
+    weight: 1
+    type: text
+    _id: LOmaZp8W2tuxVo43
+    img: null
+    description: ''
+    drawn: false
+    flags: {}
+    _stats:
+      coreVersion: '14.364'
+      systemId: grimwild
+      systemVersion: 0.5.3
+      createdTime: 1783124798206
+      modifiedTime: 1783124798206
+      lastModifiedBy: 79CEe5dKC6Ls5VbU
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+    _key: '!tables.results!UcPBxXH487mkLNVE.LOmaZp8W2tuxVo43'
+  - name: sai
+    range:
+      - 3
+      - 3
+    weight: 1
+    type: text
+    _id: nulp9ByYWPKY8ZRI
+    img: null
+    description: ''
+    drawn: false
+    flags: {}
+    _stats:
+      coreVersion: '14.364'
+      systemId: grimwild
+      systemVersion: 0.5.3
+      createdTime: 1783124798206
+      modifiedTime: 1783124798206
+      lastModifiedBy: 79CEe5dKC6Ls5VbU
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+    _key: '!tables.results!UcPBxXH487mkLNVE.nulp9ByYWPKY8ZRI'
+  - name: monk spade
+    range:
+      - 4
+      - 4
+    weight: 1
+    type: text
+    _id: DcSS2Owbns5DMVUa
+    img: null
+    description: ''
+    drawn: false
+    flags: {}
+    _stats:
+      coreVersion: '14.364'
+      systemId: grimwild
+      systemVersion: 0.5.3
+      createdTime: 1783124798206
+      modifiedTime: 1783124798206
+      lastModifiedBy: 79CEe5dKC6Ls5VbU
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+    _key: '!tables.results!UcPBxXH487mkLNVE.DcSS2Owbns5DMVUa'
+  - name: shuriken
+    range:
+      - 5
+      - 5
+    weight: 1
+    type: text
+    _id: NAa4YnQ06ghIN8cC
+    img: null
+    description: ''
+    drawn: false
+    flags: {}
+    _stats:
+      coreVersion: '14.364'
+      systemId: grimwild
+      systemVersion: 0.5.3
+      createdTime: 1783124798206
+      modifiedTime: 1783124798206
+      lastModifiedBy: 79CEe5dKC6Ls5VbU
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+    _key: '!tables.results!UcPBxXH487mkLNVE.NAa4YnQ06ghIN8cC'
+  - name: tiger claws
+    range:
+      - 6
+      - 6
+    weight: 1
+    type: text
+    _id: Q94pCQ81ZZ1nSGpj
+    img: null
+    description: ''
+    drawn: false
+    flags: {}
+    _stats:
+      coreVersion: '14.364'
+      systemId: grimwild
+      systemVersion: 0.5.3
+      createdTime: 1783124798206
+      modifiedTime: 1783124798206
+      lastModifiedBy: 79CEe5dKC6Ls5VbU
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+    _key: '!tables.results!UcPBxXH487mkLNVE.Q94pCQ81ZZ1nSGpj'
+  - name: three-part staff
+    range:
+      - 7
+      - 7
+    weight: 1
+    type: text
+    _id: Lst8kohdbo4BLluJ
+    img: null
+    description: ''
+    drawn: false
+    flags: {}
+    _stats:
+      coreVersion: '14.364'
+      systemId: grimwild
+      systemVersion: 0.5.3
+      createdTime: 1783124798206
+      modifiedTime: 1783124798206
+      lastModifiedBy: 79CEe5dKC6Ls5VbU
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+    _key: '!tables.results!UcPBxXH487mkLNVE.Lst8kohdbo4BLluJ'
+  - name: rope dart
+    range:
+      - 8
+      - 8
+    weight: 1
+    type: text
+    _id: FWbrONONAnAeNvAS
+    img: null
+    description: ''
+    drawn: false
+    flags: {}
+    _stats:
+      coreVersion: '14.364'
+      systemId: grimwild
+      systemVersion: 0.5.3
+      createdTime: 1783124798206
+      modifiedTime: 1783124798206
+      lastModifiedBy: 79CEe5dKC6Ls5VbU
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+    _key: '!tables.results!UcPBxXH487mkLNVE.FWbrONONAnAeNvAS'
+  - name: kama
+    range:
+      - 9
+      - 9
+    weight: 1
+    type: text
+    _id: vmta8HKRNTXSBDZO
+    img: null
+    description: ''
+    drawn: false
+    flags: {}
+    _stats:
+      coreVersion: '14.364'
+      systemId: grimwild
+      systemVersion: 0.5.3
+      createdTime: 1783124798206
+      modifiedTime: 1783124798206
+      lastModifiedBy: 79CEe5dKC6Ls5VbU
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+    _key: '!tables.results!UcPBxXH487mkLNVE.vmta8HKRNTXSBDZO'
+  - name: spear
+    range:
+      - 10
+      - 10
+    weight: 1
+    type: text
+    _id: UhRg1G6AldVOsMIh
+    img: null
+    description: ''
+    drawn: false
+    flags: {}
+    _stats:
+      coreVersion: '14.364'
+      systemId: grimwild
+      systemVersion: 0.5.3
+      createdTime: 1783124798206
+      modifiedTime: 1783124798206
+      lastModifiedBy: 79CEe5dKC6Ls5VbU
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+    _key: '!tables.results!UcPBxXH487mkLNVE.UhRg1G6AldVOsMIh'
+  - name: throwing spikes
+    range:
+      - 11
+      - 11
+    weight: 1
+    type: text
+    _id: mzX8aLw0YBD7AwZK
+    img: null
+    description: ''
+    drawn: false
+    flags: {}
+    _stats:
+      coreVersion: '14.364'
+      systemId: grimwild
+      systemVersion: 0.5.3
+      createdTime: 1783124798206
+      modifiedTime: 1783124798206
+      lastModifiedBy: 79CEe5dKC6Ls5VbU
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+    _key: '!tables.results!UcPBxXH487mkLNVE.mzX8aLw0YBD7AwZK'
+  - name: spiked boots
+    range:
+      - 12
+      - 12
+    weight: 1
+    type: text
+    _id: F6EyvmYd2pKo7eE6
+    img: null
+    description: ''
+    drawn: false
+    flags: {}
+    _stats:
+      coreVersion: '14.364'
+      systemId: grimwild
+      systemVersion: 0.5.3
+      createdTime: 1783124798206
+      modifiedTime: 1783124798206
+      lastModifiedBy: 79CEe5dKC6Ls5VbU
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+    _key: '!tables.results!UcPBxXH487mkLNVE.F6EyvmYd2pKo7eE6'
+  - name: half-staff
+    range:
+      - 13
+      - 13
+    weight: 1
+    type: text
+    _id: YwkXkoy82KYxaHuL
+    img: null
+    description: ''
+    drawn: false
+    flags: {}
+    _stats:
+      coreVersion: '14.364'
+      systemId: grimwild
+      systemVersion: 0.5.3
+      createdTime: 1783124798206
+      modifiedTime: 1783124798206
+      lastModifiedBy: 79CEe5dKC6Ls5VbU
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+    _key: '!tables.results!UcPBxXH487mkLNVE.YwkXkoy82KYxaHuL'
+  - name: sickle & chain
+    range:
+      - 14
+      - 14
+    weight: 1
+    type: text
+    _id: 0pWxPudgC3xJEQ6K
+    img: null
+    description: ''
+    drawn: false
+    flags: {}
+    _stats:
+      coreVersion: '14.364'
+      systemId: grimwild
+      systemVersion: 0.5.3
+      createdTime: 1783124798206
+      modifiedTime: 1783124798206
+      lastModifiedBy: 79CEe5dKC6Ls5VbU
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+    _key: '!tables.results!UcPBxXH487mkLNVE.0pWxPudgC3xJEQ6K'
+  - name: butterfly sword
+    range:
+      - 15
+      - 15
+    weight: 1
+    type: text
+    _id: 8z7UkKdQEbs53Wj4
+    img: null
+    description: ''
+    drawn: false
+    flags: {}
+    _stats:
+      coreVersion: '14.364'
+      systemId: grimwild
+      systemVersion: 0.5.3
+      createdTime: 1783124798206
+      modifiedTime: 1783124798206
+      lastModifiedBy: 79CEe5dKC6Ls5VbU
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+    _key: '!tables.results!UcPBxXH487mkLNVE.8z7UkKdQEbs53Wj4'
+  - name: naginata
+    range:
+      - 16
+      - 16
+    weight: 1
+    type: text
+    _id: sDbKt9BQJEi6ZXpH
+    img: null
+    description: ''
+    drawn: false
+    flags: {}
+    _stats:
+      coreVersion: '14.364'
+      systemId: grimwild
+      systemVersion: 0.5.3
+      createdTime: 1783124798206
+      modifiedTime: 1783124798206
+      lastModifiedBy: 79CEe5dKC6Ls5VbU
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+    _key: '!tables.results!UcPBxXH487mkLNVE.sDbKt9BQJEi6ZXpH'
+  - name: chakram
+    range:
+      - 17
+      - 17
+    weight: 1
+    type: text
+    _id: o4MBCidQ97IXf54e
+    img: null
+    description: ''
+    drawn: false
+    flags: {}
+    _stats:
+      coreVersion: '14.364'
+      systemId: grimwild
+      systemVersion: 0.5.3
+      createdTime: 1783124798206
+      modifiedTime: 1783124798206
+      lastModifiedBy: 79CEe5dKC6Ls5VbU
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+    _key: '!tables.results!UcPBxXH487mkLNVE.o4MBCidQ97IXf54e'
+  - name: war fan
+    range:
+      - 18
+      - 18
+    weight: 1
+    type: text
+    _id: xovbXJNBDlMAfN55
+    img: null
+    description: ''
+    drawn: false
+    flags: {}
+    _stats:
+      coreVersion: '14.364'
+      systemId: grimwild
+      systemVersion: 0.5.3
+      createdTime: 1783124798206
+      modifiedTime: 1783124798206
+      lastModifiedBy: 79CEe5dKC6Ls5VbU
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+    _key: '!tables.results!UcPBxXH487mkLNVE.xovbXJNBDlMAfN55'
+  - name: nunchaku
+    range:
+      - 19
+      - 19
+    weight: 1
+    type: text
+    _id: mBt9StOLqTA6OsTM
+    img: null
+    description: ''
+    drawn: false
+    flags: {}
+    _stats:
+      coreVersion: '14.364'
+      systemId: grimwild
+      systemVersion: 0.5.3
+      createdTime: 1783124798206
+      modifiedTime: 1783124798206
+      lastModifiedBy: 79CEe5dKC6Ls5VbU
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+    _key: '!tables.results!UcPBxXH487mkLNVE.mBt9StOLqTA6OsTM'
+  - name: weight & chain
+    range:
+      - 20
+      - 20
+    weight: 1
+    type: text
+    _id: CcYA1Ml1KPOOonZk
+    img: null
+    description: ''
+    drawn: false
+    flags: {}
+    _stats:
+      coreVersion: '14.364'
+      systemId: grimwild
+      systemVersion: 0.5.3
+      createdTime: 1783124798206
+      modifiedTime: 1783124798206
+      lastModifiedBy: 79CEe5dKC6Ls5VbU
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+    _key: '!tables.results!UcPBxXH487mkLNVE.CcYA1Ml1KPOOonZk'
+  - name: hook sword
+    range:
+      - 21
+      - 21
+    weight: 1
+    type: text
+    _id: Ob6VQ3uSVYU9QJ2L
+    img: null
+    description: ''
+    drawn: false
+    flags: {}
+    _stats:
+      coreVersion: '14.364'
+      systemId: grimwild
+      systemVersion: 0.5.3
+      createdTime: 1783124798206
+      modifiedTime: 1783124798206
+      lastModifiedBy: 79CEe5dKC6Ls5VbU
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+    _key: '!tables.results!UcPBxXH487mkLNVE.Ob6VQ3uSVYU9QJ2L'
+  - name: longhandle blade
+    range:
+      - 22
+      - 22
+    weight: 1
+    type: text
+    _id: jKhq4UIt43DJJEev
+    img: null
+    description: ''
+    drawn: false
+    flags: {}
+    _stats:
+      coreVersion: '14.364'
+      systemId: grimwild
+      systemVersion: 0.5.3
+      createdTime: 1783124798206
+      modifiedTime: 1783124798206
+      lastModifiedBy: 79CEe5dKC6Ls5VbU
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+    _key: '!tables.results!UcPBxXH487mkLNVE.jKhq4UIt43DJJEev'
+  - name: boomerang
+    range:
+      - 23
+      - 23
+    weight: 1
+    type: text
+    _id: GixpGfKFYIzMxHmJ
+    img: null
+    description: ''
+    drawn: false
+    flags: {}
+    _stats:
+      coreVersion: '14.364'
+      systemId: grimwild
+      systemVersion: 0.5.3
+      createdTime: 1783124798206
+      modifiedTime: 1783124798206
+      lastModifiedBy: 79CEe5dKC6Ls5VbU
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+    _key: '!tables.results!UcPBxXH487mkLNVE.GixpGfKFYIzMxHmJ'
+  - name: iron knuckles
+    range:
+      - 24
+      - 24
+    weight: 1
+    type: text
+    _id: FoDmzbCPEu1NSbGk
+    img: null
+    description: ''
+    drawn: false
+    flags: {}
+    _stats:
+      coreVersion: '14.364'
+      systemId: grimwild
+      systemVersion: 0.5.3
+      createdTime: 1783124798206
+      modifiedTime: 1783124798206
+      lastModifiedBy: 79CEe5dKC6Ls5VbU
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+    _key: '!tables.results!UcPBxXH487mkLNVE.FoDmzbCPEu1NSbGk'
+  - name: short sticks
+    range:
+      - 25
+      - 25
+    weight: 1
+    type: text
+    _id: 4hJzfPEtM83B2Xj4
+    img: null
+    description: ''
+    drawn: false
+    flags: {}
+    _stats:
+      coreVersion: '14.364'
+      systemId: grimwild
+      systemVersion: 0.5.3
+      createdTime: 1783124798206
+      modifiedTime: 1783124798206
+      lastModifiedBy: 79CEe5dKC6Ls5VbU
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+    _key: '!tables.results!UcPBxXH487mkLNVE.4hJzfPEtM83B2Xj4'
+  - name: whip blade
+    range:
+      - 26
+      - 26
+    weight: 1
+    type: text
+    _id: TjyfefRYbDQCq3gv
+    img: null
+    description: ''
+    drawn: false
+    flags: {}
+    _stats:
+      coreVersion: '14.364'
+      systemId: grimwild
+      systemVersion: 0.5.3
+      createdTime: 1783124798206
+      modifiedTime: 1783124798206
+      lastModifiedBy: 79CEe5dKC6Ls5VbU
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+    _key: '!tables.results!UcPBxXH487mkLNVE.TjyfefRYbDQCq3gv'
+  - name: straight sword
+    range:
+      - 27
+      - 27
+    weight: 1
+    type: text
+    _id: AGiH0CutPrMn8IGi
+    img: null
+    description: ''
+    drawn: false
+    flags: {}
+    _stats:
+      coreVersion: '14.364'
+      systemId: grimwild
+      systemVersion: 0.5.3
+      createdTime: 1783124798206
+      modifiedTime: 1783124798206
+      lastModifiedBy: 79CEe5dKC6Ls5VbU
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+    _key: '!tables.results!UcPBxXH487mkLNVE.AGiH0CutPrMn8IGi'
+  - name: trident
+    range:
+      - 28
+      - 28
+    weight: 1
+    type: text
+    _id: yjsFjF8nWmb2QJO2
+    img: null
+    description: ''
+    drawn: false
+    flags: {}
+    _stats:
+      coreVersion: '14.364'
+      systemId: grimwild
+      systemVersion: 0.5.3
+      createdTime: 1783124798206
+      modifiedTime: 1783124798206
+      lastModifiedBy: 79CEe5dKC6Ls5VbU
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+    _key: '!tables.results!UcPBxXH487mkLNVE.yjsFjF8nWmb2QJO2'
+  - name: darts
+    range:
+      - 29
+      - 29
+    weight: 1
+    type: text
+    _id: oAa2fc9pC02bolBx
+    img: null
+    description: ''
+    drawn: false
+    flags: {}
+    _stats:
+      coreVersion: '14.364'
+      systemId: grimwild
+      systemVersion: 0.5.3
+      createdTime: 1783124798206
+      modifiedTime: 1783124798206
+      lastModifiedBy: 79CEe5dKC6Ls5VbU
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+    _key: '!tables.results!UcPBxXH487mkLNVE.oAa2fc9pC02bolBx'
+  - name: crescent knives
+    range:
+      - 30
+      - 30
+    weight: 1
+    type: text
+    _id: BYWkCVoef1JpmSIx
+    img: null
+    description: ''
+    drawn: false
+    flags: {}
+    _stats:
+      coreVersion: '14.364'
+      systemId: grimwild
+      systemVersion: 0.5.3
+      createdTime: 1783124798206
+      modifiedTime: 1783124798206
+      lastModifiedBy: 79CEe5dKC6Ls5VbU
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+    _key: '!tables.results!UcPBxXH487mkLNVE.BYWkCVoef1JpmSIx'
+  - name: batons
+    range:
+      - 31
+      - 31
+    weight: 1
+    type: text
+    _id: J7iU587qUwaARcg5
+    img: null
+    description: ''
+    drawn: false
+    flags: {}
+    _stats:
+      coreVersion: '14.364'
+      systemId: grimwild
+      systemVersion: 0.5.3
+      createdTime: 1783124798206
+      modifiedTime: 1783124798206
+      lastModifiedBy: 79CEe5dKC6Ls5VbU
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+    _key: '!tables.results!UcPBxXH487mkLNVE.J7iU587qUwaARcg5'
+  - name: scarf
+    range:
+      - 32
+      - 32
+    weight: 1
+    type: text
+    _id: v840p4Cs4UEeNr09
+    img: null
+    description: ''
+    drawn: false
+    flags: {}
+    _stats:
+      coreVersion: '14.364'
+      systemId: grimwild
+      systemVersion: 0.5.3
+      createdTime: 1783124798206
+      modifiedTime: 1783124798206
+      lastModifiedBy: 79CEe5dKC6Ls5VbU
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+    _key: '!tables.results!UcPBxXH487mkLNVE.v840p4Cs4UEeNr09'
+  - name: curved sword
+    range:
+      - 33
+      - 33
+    weight: 1
+    type: text
+    _id: ygG7MGZ4ynzRRfM4
+    img: null
+    description: ''
+    drawn: false
+    flags: {}
+    _stats:
+      coreVersion: '14.364'
+      systemId: grimwild
+      systemVersion: 0.5.3
+      createdTime: 1783124798206
+      modifiedTime: 1783124798206
+      lastModifiedBy: 79CEe5dKC6Ls5VbU
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+    _key: '!tables.results!UcPBxXH487mkLNVE.ygG7MGZ4ynzRRfM4'
+  - name: scythe
+    range:
+      - 34
+      - 34
+    weight: 1
+    type: text
+    _id: Rklvd5o50oLYsRgw
+    img: null
+    description: ''
+    drawn: false
+    flags: {}
+    _stats:
+      coreVersion: '14.364'
+      systemId: grimwild
+      systemVersion: 0.5.3
+      createdTime: 1783124798206
+      modifiedTime: 1783124798206
+      lastModifiedBy: 79CEe5dKC6Ls5VbU
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+    _key: '!tables.results!UcPBxXH487mkLNVE.Rklvd5o50oLYsRgw'
+  - name: throwing axes
+    range:
+      - 35
+      - 35
+    weight: 1
+    type: text
+    _id: BbBy8Ixbm9X5T2hJ
+    img: null
+    description: ''
+    drawn: false
+    flags: {}
+    _stats:
+      coreVersion: '14.364'
+      systemId: grimwild
+      systemVersion: 0.5.3
+      createdTime: 1783124798206
+      modifiedTime: 1783124798206
+      lastModifiedBy: 79CEe5dKC6Ls5VbU
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+    _key: '!tables.results!UcPBxXH487mkLNVE.BbBy8Ixbm9X5T2hJ'
+  - name: backfist rings
+    range:
+      - 36
+      - 36
+    weight: 1
+    type: text
+    _id: W0GiNxuM2w8FvXBY
+    img: null
+    description: ''
+    drawn: false
+    flags: {}
+    _stats:
+      coreVersion: '14.364'
+      systemId: grimwild
+      systemVersion: 0.5.3
+      createdTime: 1783124798206
+      modifiedTime: 1783124798206
+      lastModifiedBy: 79CEe5dKC6Ls5VbU
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+    _key: '!tables.results!UcPBxXH487mkLNVE.W0GiNxuM2w8FvXBY'
+flags:
+  core:
+    sheetClass: grimwild.GrimwildRollTableCrucibleSheet
+_id: UcPBxXH487mkLNVE
+img: icons/svg/d20-grey.svg
+description: ''
+replacement: true
+displayRoll: true
+folder: Qvmh7d2nvD4SRx40
+ownership:
+  default: 0
+  79CEe5dKC6Ls5VbU: 3
+_stats:
+  coreVersion: '14.364'
+  systemId: grimwild
+  systemVersion: 0.5.3
+  createdTime: 1783124798206
+  modifiedTime: 1783124798206
+  lastModifiedBy: 79CEe5dKC6Ls5VbU
+  exportSource: null
+  compendiumSource: null
+  duplicateSource: null
+sort: 0
+_key: '!tables!UcPBxXH487mkLNVE'

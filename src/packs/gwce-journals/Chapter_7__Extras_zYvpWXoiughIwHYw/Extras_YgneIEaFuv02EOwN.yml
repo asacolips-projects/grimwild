@@ -1,0 +1,517 @@
+name: Extras
+_id: YgneIEaFuv02EOwN
+pages:
+  - sort: 200000
+    name: Fiction Pillars
+    type: text
+    _id: FYnO0z4wQUJAfaji
+    system: {}
+    title:
+      show: true
+      level: 1
+    image: {}
+    text:
+      format: 1
+      content: >-
+        <p>Fiction pillars is a method of preparation that lets you create
+        <strong>ready-made blocks of fiction</strong>, giving you a sturdier
+        foundation than pure off-the-cuff improvisation. These "pillars" serve
+        as anchors for the improv storytelling that unfolds during a session,
+        helping you maintain consistency and confidence in your
+        game.</p><p><strong>Before a session</strong>, imagine and detail 7
+        elements that might come up in that session. These can be key NPCs,
+        important locations, items, encounters, or events. Anything works. Add
+        <strong>sensory details</strong>—sights, sounds, and smells. Define the
+        element's pull on the story, the <strong>drive</strong>. This may be an
+        NPC's goal, an object's purpose, or impact of the element as a whole.
+        Note one way to <strong>embody</strong> it at the table as the GM, like
+        a behavior or sound effect. Keep everything short—just a few words (as
+        below) per detail. Skip any steps you draw a blank on and make final
+        notes if you have anything left to add.</p><p><strong>During
+        play</strong>, we can sprinkle in these pillars to act as reinforced
+        parts of the fiction to hang the rest of our fiction off of. They reside
+        more vividly in our mind. You can keep any unused ones and repurpose
+        them for later sessions.</p><h3>Example Fiction Pillars</h3><section
+        class="grid grid-2col"><div><img
+        src="modules/grimwild/assets/img/harvest-festival.webp"></div><div><img
+        src="modules/grimwild/assets/img/raddigan-blind-goblin.webp"></div></section><p>The
+        key is that you activate your imagination beforehand so the pillars feel
+        more vivid and real.</p>
+    video:
+      controls: true
+      volume: 0.5
+    src: null
+    category: null
+    ownership:
+      default: -1
+      79CEe5dKC6Ls5VbU: 3
+    flags: {}
+    _stats:
+      coreVersion: '14.368'
+      systemId: grimwild
+      systemVersion: 0.5.3
+      createdTime: 1782770561069
+      modifiedTime: 1791834449020
+      lastModifiedBy: nF9qxzj59Qn6fNSn
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+    _key: '!journal.pages!YgneIEaFuv02EOwN.FYnO0z4wQUJAfaji'
+  - sort: 300000
+    name: Hex Flowers
+    type: text
+    _id: ORKVk6QRIYmGIorZ
+    system: {}
+    title:
+      show: true
+      level: 1
+    image: {}
+    text:
+      format: 1
+      content: >-
+        <p>These are an alternative to random tables. Instead of each result
+        having a static chance, the result is dependent on starting position,
+        changing as the game moves forward. Hex flowers are especially useful
+        for exploration and solo-play, helping to give only semi-random answers
+        to the questions you pose.</p><section class="grid
+        grid-2col"><div><p><span style="color:rgb(110, 110, 110)"><em>What is
+        today's weather like?</em></span></p><p><span style="color:rgb(110, 110,
+        110)"><em>What will the terrain be in a day's
+        travel?</em></span></p><p><span style="color:rgb(110, 110,
+        110)"><em>Will the winds be in our favor today?</em></span></p><h3>How
+        to Use Hex Flowers</h3><p>You may recognize these as a tool in other
+        tabletop games. <em>Grimwild</em> strives to be smooth and
+        quick-to-play—with that in mind, these hex flowers are smaller and more
+        simple than others.</p><p>There are 7 hexagons, each representing an
+        answer. The party begins at the bottom hex, and moves to an adjacent hex
+        based on a 1d roll. If the resulting movement would take you off of the
+        flower, you instead wrap around and appear in the same row or column on
+        the side opposite. The bottom and top most hex have walls (as seen
+        below) preventing you from moving off the hex in that direction, keeping
+        you in place instead. This keeps the bottom hexes most common, and those
+        at the top more rare. After landing on a hex (or staying on the same one
+        because of a wall,) look to the key to see the result.</p></div><div
+        style="justify-content:right"><img
+        src="modules/grimwild/assets/img/hexflowers/hexflower-key.svg"
+        width="192" height="192"><img
+        src="modules/grimwild/assets/img/hexflowers/hexflower-4.svg" width="192"
+        height="192"><p></p></div></section><section class="grid
+        grid-3col"><div><img
+        src="modules/grimwild/assets/img/hexflowers/hexflower-1.svg" width="192"
+        height="192"></div><div><img
+        src="modules/grimwild/assets/img/hexflowers/hexflower-2.svg" width="192"
+        height="192"></div><div><img
+        src="modules/grimwild/assets/img/hexflowers/hexflower-3.svg" width="192"
+        height="192"></div></section><h3>Example Hex Flower Keys</h3><section
+        class="grid grid-2col"><div><p style="text-align:center"><strong>Spring
+        Weather</strong></p><ol><li><p>Bright and sunny</p></li><li><p>Sparse
+        clouds</p></li><li><p>Cloudy</p></li><li><p>Cloudy and
+        windy</p></li><li><p>Light rain</p></li><li><p>Heavy
+        rain</p></li><li><p>Thunderstorms</p></li></ol></div><div><p
+        style="text-align:center"><strong>Kalthazar
+        Foothills</strong></p><ol><li><p>Rolling
+        grasslands</p></li><li><p>Rolling grasslands</p></li><li><p>Light
+        forest</p></li><li><p>Green hills</p></li><li><p>Cave
+        entrance</p></li><li><p>Rocky outcropping</p></li><li><p>Goblin hideout
+        (first time)</p></li></ol></div></section>
+    video:
+      controls: true
+      volume: 0.5
+    src: null
+    category: null
+    ownership:
+      default: -1
+      79CEe5dKC6Ls5VbU: 3
+    flags: {}
+    _stats:
+      coreVersion: '14.364'
+      systemId: grimwild
+      systemVersion: 0.5.3
+      createdTime: 1782770571499
+      modifiedTime: 1783312888014
+      lastModifiedBy: 79CEe5dKC6Ls5VbU
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+    _key: '!journal.pages!YgneIEaFuv02EOwN.ORKVk6QRIYmGIorZ'
+  - sort: 400000
+    name: Story Kits
+    type: text
+    _id: 9jmivgyXhF2GoSP1
+    system: {}
+    title:
+      show: true
+      level: 1
+    image: {}
+    text:
+      format: 1
+      content: >-
+        <p>These dynamic scenarios are modular, do-it-yourself scenarios
+        designed to spark your creativity and get your imagination racing.
+        They’re not fully fleshed-out adventures—they’re flexible frameworks
+        loaded with evocative ideas, dramatic moments, and narrative twists that
+        you shape into your own story. Each kit is packed with tension-filled
+        prompts, intriguing setups, and compelling challenges, but it won’t hold
+        your hand. Instead, it gives you the tools to craft a unique experience
+        that fits your table. Pair them with the light GM tools earlier in this
+        chapter to flesh them out even more before running them.</p><p>Story
+        kits are great for one-shots or 2-3 session arcs. Some of them can even
+        be expanded to kick off or take up a full campaign. Each of the story
+        kits has the following parts:</p><ol><li><p><strong>Hooks:</strong>
+        These are ways you can introduce the story kit to your
+        players.</p></li><li><p><strong>Intro Text:</strong> This tells you the
+        general idea of the story kit.</p></li><li><p>Pressure Pools: These
+        pools keep the events unfolding in dramatic fashion, rolled to build
+        tension and keep things moving. Roll them as it feels right to keep the
+        scenario moving along or when prompted by the fiction. At 0d, the pool
+        prompts one of the impact moves below. Pressure pools can use these
+        icons:</p></li><li><p><strong>Useful Pieces:</strong> These are are
+        props, NPCs, and more that form the backbone of the story kit. Each has
+        a general description, and 3 narrative
+        points.</p></li><li><p><strong>Set It Up:</strong> This lets you make
+        some choices that drastically change how things play out. Each has 6 or
+        12 toggles, and information on what each
+        means.</p></li><li><p><strong>Example Challenges:</strong> These
+        highlight likely situations but aren't prescriptive— use them as
+        inspiration for what might unfold.</p></li><li><p><strong>GM
+        Notes:</strong> This section usually blank, so the GM can record their
+        own notes. Some story kits may also have special rules, guidance, or
+        setting context here.</p></li><li><p><strong>Mix It Up:</strong> These
+        options suggest twists to radically shift the scenario, perfect for
+        replays.</p></li></ol>
+    video:
+      controls: true
+      volume: 0.5
+    src: null
+    category: null
+    ownership:
+      default: -1
+      79CEe5dKC6Ls5VbU: 3
+    flags: {}
+    _stats:
+      coreVersion: '14.364'
+      systemId: grimwild
+      systemVersion: 0.5.3
+      createdTime: 1782770585088
+      modifiedTime: 1783210453468
+      lastModifiedBy: 79CEe5dKC6Ls5VbU
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+    _key: '!journal.pages!YgneIEaFuv02EOwN.9jmivgyXhF2GoSP1'
+  - sort: 500000
+    name: Solo Rules
+    type: text
+    _id: JpxEuOKnJW1YJ95G
+    system: {}
+    title:
+      show: true
+      level: 1
+    image: {}
+    text:
+      format: 1
+      content: >-
+        <p>The base rules for Grimwild are already very well-suited for solo
+        play. Check out the
+        @UUID[Compendium.grimwild.gwce-journals.JournalEntry.unDWj5tvsH6ZOLYD.JournalEntryPage.jMmlxr0QujJmwyB6]{setting
+        dials} and adjust the game as you see fit. Use the following guidance
+        and rules changes to get started in playing your own
+        game.</p><h2>Guidance</h2><p><strong>Make use of montage rolls.</strong>
+        Set the perfect scope for the story you want to play out. Use these
+        rolls connect scenes together in the story, and focus on playing out the
+        aspects you enjoy.</p><p><strong>Use story rolls to see what happens
+        next.</strong> When you’re unsure of how things will play out, or want
+        to disclaim decision-making, look to story rolls to give you an
+        idea.</p><p><strong>Use the crucibles for ideas.</strong> Your mind will
+        gravitate towards what sounds like the most fun while you’re rolling on
+        them. The GM Crucible is reprinted below for ease, but use any in the
+        book to jump start your creativity.</p><p><strong>Focus on Quests, your
+        string of story arcs.</strong> These give you a clear way to create
+        purpose for your character (quests, pg. 194). Set a goal, then work
+        towards hitting it. When you accomplish or fail a quest, skip forward in
+        time and find another that’s pressing.</p><p><strong>Create 2 or 3
+        factions</strong> to represent the outside world. Each should have
+        faction pools, traits, and relevant NPCs. This helps keep the world from
+        feeling static.</p><p><strong>Grab a few different colors of
+        dice.</strong> This will help you track things like pools, and suspense,
+        while making it easier to parse rolls.</p><h3>GM
+        Crucible</h3><p>@Crucible[Compendium.grimwild.gwce-crucibles.RollTable.HrMWKbsgUTT4hVnW]{GM
+        Crucible
+        1}</p><p>@Crucible[Compendium.grimwild.gwce-crucibles.RollTable.8DIEqJed0Aee3VJc]{GM
+        Crucible 2}</p><h2>Gampelay</h2><p>Core rules look largely the same,
+        however there are guardrails added to replace the GM. The following
+        rules are adding on top of base <em>Grimwild</em>.</p><p><strong>When a
+        scene gets stale:</strong> <em>spend suspense—foreshadow a threat to
+        come—montage to a low stakes scene—build up to a high stakes
+        scene</em>.</p><p><strong>When you make an impact move</strong>, choose
+        the most fitting consequence, or use the crucibles for ideas or
+        randomized trouble (roll d8, pick between two). Remember that harm is
+        reserved for particularly hard hits.</p><p><strong>On a messy</strong>,
+        ask the following questions. If you answer ‘yes’ to any, make an impact
+        move. If ‘no’, take
+        <em><strong>suspense</strong></em>.</p><ul><li><p>Are you in a scene
+        with a challenge?</p></li><li><p>Are you in the last task pool of a
+        quest?</p></li><li><p>Do you have 3 or more
+        suspense?</p></li></ul><p><strong>On a disaster, or with dire
+        stakes</strong>, you take the normal consequences, plus: <em>roll a
+        @UUID[.#quests]{peril pool }—harm</em>.</p><p
+        style="text-align:center"><span
+        style="font-size:large">Stakes</span></p><table><thead><tr><th><p>Low</p></th><th><p>Normal</p></th><th><p>High</p></th><th><p>Dire</p></th></tr></thead><tbody><tr><td><p>set
+        dressing</p></td><td><p>set
+        dressing</p></td><td><p>vex</p></td><td><p>lose
+        something</p></td></tr><tr><td><p>lose
+        something</p></td><td><p>collateral damage</p></td><td><p>collateral
+        damage</p></td><td><p>condition (short)</p></td></tr><tr><td><p>one
+        mark</p></td><td><p>vex</p></td><td><p>strain bond</p></td><td><p>two
+        marks</p></td></tr><tr><td><p>strain bond</p></td><td><p>lose
+        something</p></td><td><p>harm</p></td><td><p>condition
+        (long</p></td></tr><tr><td><p>collateral damage</p></td><td><p>one
+        mark</p></td><td><p>pressure
+        pool</p></td><td><p>harm</p></td></tr><tr><td><p>condition
+        (short)</p></td><td><p>lock
+        down</p></td><td><p>twist</p></td><td><p>lock
+        down</p></td></tr><tr><td><p>two marks</p></td><td><p>raise
+        stakes</p></td><td><p>counter</p></td><td><p>condition
+        (urgent)</p></td></tr><tr><td><p>pressure
+        pool</p></td><td><p>harm</p></td><td><p>two harm</p></td><td><p>harm
+        &amp;
+        condition</p></td></tr></tbody></table><h3>Consequences</h3><p><strong>Set
+        Dressing:</strong> The trouble is only narrative.</p><p><strong>Strain
+        Bond:</strong> Relationship with a faction or ally is
+        strained.</p><p><strong>Collateral Damage:</strong> The environment is
+        destroyed or bystanders are hurt.</p><p><strong>Lose Something:</strong>
+        Gear or resources are ruined or lost.</p><p><strong>Lock Down:</strong>
+        You lose an opportunity or are forced to make a bad
+        choice.</p><p><strong>Raise Stakes:</strong> The scene gets more tense,
+        moving stakes up a level.</p><p><strong>Twist:</strong> There's an
+        unexpected change for the worse, such as a
+        betrayal.</p><p><strong>Pressure Pool:</strong> Create or roll a
+        pool.</p><h2>Quests</h2><p>These are large-scale adventure goals that
+        are broken up into smaller story arcs represented by task pools. These
+        pools are linked, and used to track their progress. The number and size
+        of the pools vary based on the quest difficulty (A daunting quest is
+        4d+4d+6d). When you make meaningful progress towards an arc, roll that
+        pool. When a task pool reaches 0d, the fiction changes as you get closer
+        to completing the quest. Most task pools are locked behind the first,
+        though some quests may have goals that can be completed in any order.
+        Completing each story arc awards 1 XP, +1 bonus XP for completing the
+        quest.</p><p>Each quest also has <em><strong>Peril</strong></em>, linked
+        pressure pools to represent your antagonists’ plans. There should be 1
+        fewer pool for peril than for the quest. The pool is triggered when the
+        threat is ignored, significant time passes, or you suffer a meaningful
+        failure at a critical moment while on the quest (often a disaster).
+        Similar to challenges, quests may also have a fail state—a single break
+        point that ends the quest. If the peril pools empty to 0d, or if the
+        fail state occurs, the quest ends with the antagonists getting their
+        way.</p><img
+        src="modules/grimwild/assets/img/quests/quest-track-adaptive.svg"><section
+        class="grid grid-2col"><div><img
+        src="modules/grimwild/assets/img/quests/quest1-cureplague.svg"><p></p><img
+        src="modules/grimwild/assets/img/quests/quest2-festival.svg"></div><div><p></p><img
+        src="modules/grimwild/assets/img/quests/quest3-savethekingdom.svg"></div></section><h2>Solo
+        Party Mode</h2><p>In this mode, your primary character, the PC, remains
+        the main focus of the story, while the other party members are
+        simplified <strong>side characters</strong>. This approach lets you
+        create the social dynamics of an adventuring party without overwhelming
+        complexity. The main PC is created as normal, while the secondary party
+        members (usually 2-3) are streamlined. They have the following
+        changes:</p><section class="grid
+        grid-2col"><div><h3>Talents</h3><p>These side characters have no path,
+        and no core talent. Instead, they start with one path talent. If you
+        have a specific path fantasy in mind, consider using a half-core talent
+        such as
+        @UUID[Compendium.grimwild.gwce-talents.Item.k05clNwHNfu182P4]{Arcane
+        Training}, or a more limited version of a path core talent. These
+        character don't add XP or advance.</p><h3>Personality, Goals, and
+        Drive</h3><p>There are no story arcs; the side PC only has 1 positive
+        trait and desire, instead of 2. These coupled with their negative trait
+        and desire are usually the only things that drive
+        them.</p><h3>Connections</h3><p>Side characters only form
+        <em><strong>bonds</strong></em> with the main PC, not each other.
+        Additionally, individual wises aren't tracked— note their backgrounds
+        only.</p><h3>Mechanics</h3><p>There are no <em><strong>weapon
+        styles</strong></em>, no meta-currencies
+        (<em><strong>spark</strong></em> and <em><strong>thread</strong></em>),
+        and no <em><strong>marks</strong></em>.</p><p>When the side character
+        would take a mark (such as from <em><strong>push yourself</strong></em>
+        or an impact move), they instead take
+        <em><strong>harm</strong></em>.</p></div><div><img
+        src="modules/grimwild/assets/img/solo-sheet.webp"></div></section>
+    video:
+      controls: true
+      volume: 0.5
+    src: null
+    category: null
+    ownership:
+      default: -1
+      79CEe5dKC6Ls5VbU: 3
+    flags: {}
+    _stats:
+      coreVersion: '14.364'
+      systemId: grimwild
+      systemVersion: 0.5.3
+      createdTime: 1782770602648
+      modifiedTime: 1783349102728
+      lastModifiedBy: 79CEe5dKC6Ls5VbU
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+    _key: '!journal.pages!YgneIEaFuv02EOwN.JpxEuOKnJW1YJ95G'
+  - sort: 600000
+    name: List of Arcana
+    type: text
+    _id: wT23ffGRSZtXiwfh
+    system: {}
+    title:
+      show: true
+      level: 1
+    image: {}
+    text:
+      format: 1
+      content: >-
+        <p>Arcana are items imbued with magical power, covered on pg. 40. Below
+        are some example arcana to use with your campaigns or look at as a basis
+        for crafting your own. If a roll is ever needed and not supplied, use a
+        relevant stat or make a story roll. Each arcana block
+        has:</p><p>Palette: Colors associated with the item or its
+        power.</p><p><strong>Details:</strong> A description of the arcana’s
+        main ability. These items aren’t limited to only their descriptions, but
+        when outside of them, each of their touchstones must be applied. Power
+        pools refresh every session unless otherwise
+        stated.</p><p><strong>Sensories:</strong> The swirl shows a list of
+        descriptors for how the item looks, feels, or sounds. The hand gives
+        actions to help bring the item into the
+        scene.</p><p><strong>Activation:</strong> The unique method to channel
+        magic from the item.</p><h2>Minor Arcana</h2><p>Minor arcana are capable
+        of adding set dressing effects, producing a magical effect once per
+        session, and similar limited abilities. Despite their limits, they
+        remain rare— few mages bother to create them unless driven by personal
+        passion or experiment. Their value lies not in their power, but in their
+        utility.</p><p>Everflame Glove</p><p>Chatterfang Pendant</p><p>Magebane
+        Shield</p><p>Poisonheart Choker</p><p>Starlight Flask</p><p>Cozy
+        Ring</p><p>@@@col</p><p>Axe of the Silent Grave</p><p>Loyal
+        Spear</p><p>Mask of the CHangeling</p><p>Springheel Jumpers</p><p>Lupine
+        Cloak</p><p>Whisperknife</p><h2>Major Arcana</h2><p>Major arcana wield
+        the power to bestow potent effects, or otherwise shape reality in grand
+        ways with their magic. Mechanically, they often expand vantage in
+        powerful ways, offer a 4d power pool, or offer a single potent effect
+        each session. They are significant artifacts, rare and revered, often
+        serving as the cornerstone of a mage’s work or a key element in a grand
+        design. </p><p>Their presence in the world carries weight and they can
+        only be gained by taking them from powerful foes, completing grand and
+        dangerous rituals, or uncovering them in perilous locations.</p><p>1000
+        Eye Circlet</p><p>Basilisk Eye Charm</p><p>Coin of the
+        Roads</p><p>Crystalshard
+        Sprig</p><p>Emberfang</p><p>Hovelsack</p><p>Robe of
+        Pockets</p><p>Seeker's Compass</p><p>Siphon Whip</p><p>Spiderfriend
+        Wand</p><p>Shimmershot Bow</p><p>Verdant
+        Shield</p><p>Wavewalkers</p><p>Knockers</p><h2>Mythic
+        Arcana</h2><p>These are the pinnacle of magical craftsmanship, some
+        created at the beginning of time, or by the hands of the gods
+        themselves. Mythic arcana are capable of unleashing grand, often
+        ritual-level effects with devastating power. These artifacts transcend
+        ordinary magic, often embodying ancient forces or taking part of
+        world-shaping events. They are singular, legendary items—rarely created
+        and even more rarely found. </p><p>These artifacts count as having
+        <em>all functions</em>, when used outside of their description, and
+        <em>all anchors</em> to ritual magic using their
+        touchstones.</p><p>Bracelet of Blasting</p><p>Bugsnax</p><p>Crown of
+        Stars</p><p>Discordant Flute</p><p>Fortune Ring</p><p>Gauntlets of the
+        Storm</p><p>Gnarlstaff</p><p>Kaleidoscope Rod</p><p>Lich
+        Skull</p><p>Ship in a Bottle</p><p>Spiritbinding Box</p><p>Staff of
+        Mischief</p><p>Angelblade</p><p>Mirror Gaol</p>
+    video:
+      controls: true
+      volume: 0.5
+    src: null
+    category: null
+    ownership:
+      default: -1
+      79CEe5dKC6Ls5VbU: 3
+    flags: {}
+    _stats:
+      coreVersion: '14.368'
+      systemId: grimwild
+      systemVersion: 0.5.3
+      createdTime: 1782770645189
+      modifiedTime: 1791746437013
+      lastModifiedBy: nF9qxzj59Qn6fNSn
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+    _key: '!journal.pages!YgneIEaFuv02EOwN.wT23ffGRSZtXiwfh'
+  - sort: 700000
+    name: Potions and Other Expendables
+    type: text
+    _id: vL8g8eI3HrOLPw5d
+    system: {}
+    title:
+      show: true
+      level: 1
+    image: {}
+    text:
+      format: 1
+      content: >-
+        <p>To generate a random potion, roll 2d, taking the three words in the
+        column and row, then choose two as the touchstones, discarding the
+        third. Decide on a fitting function below as the last touchstone, then
+        roll 4d for the potion qualities. As a minor, single-use arcana, it
+        produces a single potent effect when
+        used.</p><h3>Touchstones</h3><p>@Crucible[Compendium.grimwild.gwce-crucibles.RollTable.gSIcWrqRy0x5hL0O]{Potion
+        Touchstones}</p><h3>Functions</h3><p><strong>Attack:</strong> deals
+        diirect harm</p><p><strong>Enhance:</strong> temporarily boost or
+        bestow</p><p><strong>Hinder:</strong> impede others or
+        areas</p><p><strong>Influence:</strong> alter thoughts or
+        perceptions</p><p><strong>Protect:</strong> defend from outside
+        forces</p><p><strong>Restore:</strong> heal, cleanse, and
+        mend</p><p><strong>Reveal:</strong> sense and reveal the
+        hidden</p><p><strong>Summon:</strong> call objects, creatures, or
+        forces</p><p><strong>Transform:</strong> change the subject's
+        form</p><p><strong>Traverse:</strong> move quickly, or in a new
+        way</p><h3>Potion Qualities</h3><p>Use the tables below, or
+        @UUID[Compendium.grimwild.gwce-crucibles.RollTable.OkSXujarzbCeBAd9]{roll
+        a potion here}.</p><table><thead><tr><th colspan="2"><p>It's a
+        @UUID[Compendium.grimwild.gwce-crucibles.RollTable.uhRYX3wbg0LdJbMk]{____}
+        @UUID[Compendium.grimwild.gwce-crucibles.RollTable.HDKWydLDHhTH0pYm]{____}</p></th><th
+        colspan="2"><p>with
+        @UUID[Compendium.grimwild.gwce-crucibles.RollTable.g0d88kCy4r13rp4i]{____}
+        @UUID[Compendium.grimwild.gwce-crucibles.RollTable.7hooT0m3cEuAVLMP]{____}
+        inside.</p></th></tr></thead><tbody><tr><td><p>foggy</p></td><td><p>flask</p></td><td><p>colorful</p></td><td><p>mist</p></td></tr><tr><td><p>opaque</p></td><td><p>bottle</p></td><td><p>faint</p></td><td><p>bubbles</p></td></tr><tr><td><p>thin</p></td><td><p>vial</p></td><td><p>drifting</p></td><td><p>glitter</p></td></tr><tr><td><p>round</p></td><td><p>jug</p></td><td><p>living</p></td><td><p>sludge</p></td></tr><tr><td><p>square</p></td><td><p>draft</p></td><td><p>viscous</p></td><td><p>reagent</p></td></tr><tr><td><p>tapered</p></td><td><p>glass</p></td><td><p>strange</p></td><td><p>oil</p></td></tr></tbody></table>
+    video:
+      controls: true
+      volume: 0.5
+    src: null
+    category: null
+    ownership:
+      default: -1
+      79CEe5dKC6Ls5VbU: 3
+    flags: {}
+    _stats:
+      coreVersion: '14.368'
+      systemId: grimwild
+      systemVersion: 0.5.3
+      createdTime: 1782770677288
+      modifiedTime: 1791748331290
+      lastModifiedBy: nF9qxzj59Qn6fNSn
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+    _key: '!journal.pages!YgneIEaFuv02EOwN.vL8g8eI3HrOLPw5d'
+folder: zYvpWXoiughIwHYw
+categories: []
+sort: 100000
+ownership:
+  default: 0
+  79CEe5dKC6Ls5VbU: 3
+flags: {}
+_stats:
+  coreVersion: '14.368'
+  systemId: grimwild
+  systemVersion: 0.5.3
+  createdTime: 1782770528556
+  modifiedTime: 1791746184877
+  lastModifiedBy: nF9qxzj59Qn6fNSn
+  compendiumSource: null
+  duplicateSource: null
+  exportSource: null
+_key: '!journal!YgneIEaFuv02EOwN'

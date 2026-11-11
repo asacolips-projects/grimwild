@@ -1,0 +1,41 @@
+folder: 1TTRKJchFdycHWme
+name: Bardic Lore
+type: talent
+_id: kXm6ZqxnvbUb947O
+img: /icons/sundries/books/book-open-purple.webp
+system:
+  description: >-
+    <p>You gain any 3 wises and 1 extra <em><strong>thread</strong></em> per
+    session. You take +1d on any story rolls pertaining to what you know or
+    story details you add.</p>
+  core: false
+  notes:
+    description: ''
+    label: ''
+  trackers:
+    - type: points
+      label: Thread
+      points:
+        value: 1
+        max: 1
+        showSteps: true
+      pool:
+        diceNum: 0
+        powerPool: false
+effects: []
+sort: 0
+ownership:
+  default: 0
+  79CEe5dKC6Ls5VbU: 3
+flags: {}
+_stats:
+  coreVersion: '14.364'
+  systemId: grimwild
+  systemVersion: 0.5.3
+  createdTime: 1782662612583
+  modifiedTime: 1783008023512
+  lastModifiedBy: 79CEe5dKC6Ls5VbU
+  compendiumSource: null
+  duplicateSource: null
+  exportSource: null
+_key: '!items!kXm6ZqxnvbUb947O'

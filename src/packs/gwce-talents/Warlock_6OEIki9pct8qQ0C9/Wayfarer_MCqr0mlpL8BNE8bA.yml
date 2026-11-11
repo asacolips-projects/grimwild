@@ -1,0 +1,33 @@
+folder: 6OEIki9pct8qQ0C9
+name: Wayfarer
+type: talent
+_id: MCqr0mlpL8BNE8bA
+img: icons/magic/movement/trail-streak-zigzag-teal.webp
+system:
+  description: >-
+    <p>You can <em><strong>push yourself</strong></em> to teleport. The further
+    or less familiar, the less precise. Max range is two days’ ride away. Make a
+    story roll if you can’t see the destination or take allies you touch with
+    you.</p>
+  core: false
+  notes:
+    description: ''
+    label: ''
+  trackers: []
+effects: []
+sort: 0
+ownership:
+  default: 0
+  79CEe5dKC6Ls5VbU: 3
+flags: {}
+_stats:
+  coreVersion: '14.368'
+  systemId: grimwild
+  systemVersion: 0.5.3
+  createdTime: 1783005940274
+  modifiedTime: 1791753644318
+  lastModifiedBy: nF9qxzj59Qn6fNSn
+  compendiumSource: null
+  duplicateSource: null
+  exportSource: null
+_key: '!items!MCqr0mlpL8BNE8bA'

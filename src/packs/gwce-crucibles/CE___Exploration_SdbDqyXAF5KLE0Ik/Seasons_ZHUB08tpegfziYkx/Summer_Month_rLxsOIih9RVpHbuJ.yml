@@ -1,0 +1,71 @@
+folder: ZHUB08tpegfziYkx
+name: Summer Month
+_id: rLxsOIih9RVpHbuJ
+img: icons/svg/d20-grey.svg
+description: ''
+results:
+  - type: document
+    weight: 1
+    range:
+      - 1
+      - 1
+    name: Summer 1
+    img: icons/svg/d20-grey.svg
+    documentUuid: Compendium.grimwild.gwce-crucibles.RollTable.mGMmUu7QY59QlAGb
+    _id: QXXjJUtx9jL2SQXk
+    description: ''
+    drawn: false
+    flags: {}
+    _stats:
+      coreVersion: '14.364'
+      systemId: grimwild
+      systemVersion: 0.5.3
+      createdTime: 1783180969030
+      modifiedTime: 1783180969030
+      lastModifiedBy: 79CEe5dKC6Ls5VbU
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+    _key: '!tables.results!rLxsOIih9RVpHbuJ.QXXjJUtx9jL2SQXk'
+  - type: document
+    weight: 1
+    range:
+      - 1
+      - 1
+    name: Summer 2
+    img: icons/svg/d20-grey.svg
+    documentUuid: Compendium.grimwild.gwce-crucibles.RollTable.mv53HWEFx02BQRmJ
+    _id: lmOtX6z7aq16OrO6
+    description: ''
+    drawn: false
+    flags: {}
+    _stats:
+      coreVersion: '14.364'
+      systemId: grimwild
+      systemVersion: 0.5.3
+      createdTime: 1783180970417
+      modifiedTime: 1783180976060
+      lastModifiedBy: 79CEe5dKC6Ls5VbU
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+    _key: '!tables.results!rLxsOIih9RVpHbuJ.lmOtX6z7aq16OrO6'
+replacement: true
+displayRoll: true
+sort: 0
+ownership:
+  default: 0
+  79CEe5dKC6Ls5VbU: 3
+flags: {}
+_stats:
+  coreVersion: '14.364'
+  systemId: grimwild
+  systemVersion: 0.5.3
+  createdTime: 1783180965838
+  modifiedTime: 1783180976060
+  lastModifiedBy: 79CEe5dKC6Ls5VbU
+  compendiumSource: null
+  duplicateSource: null
+  exportSource: null
+formula: '1'
+_key: '!tables!rLxsOIih9RVpHbuJ'

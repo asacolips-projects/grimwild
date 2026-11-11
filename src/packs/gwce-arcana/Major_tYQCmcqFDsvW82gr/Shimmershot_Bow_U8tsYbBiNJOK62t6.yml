@@ -1,0 +1,44 @@
+folder: tYQCmcqFDsvW82gr
+name: Shimmershot Bow
+type: arcana
+_id: U8tsYbBiNJOK62t6
+img: icons/weapons/bows/shortbow-recurve-blue.webp
+system:
+  description: >-
+    <p>This bow creates an arrow of condensed light when pulled back. Things
+    struck by these arrows glow brightly.</p>
+  tier: major
+  notes:
+    description: ''
+    label: ''
+  trackers: []
+  touchstones: light—arrow—summon
+  limitations: ''
+  activation: drawing the empty string back.
+  sensories:
+    descriptors: glowing carvings, light pulsing
+    actions: lighter than expected, arrows wink out
+  palette:
+    - name: Ashen Wood
+      color: '#d6cbb5'
+    - name: Teal Carving
+      color: '#3d9999'
+    - name: Sunlight
+      color: '#fff2cc'
+effects: []
+sort: 0
+ownership:
+  default: 0
+  nF9qxzj59Qn6fNSn: 3
+flags: {}
+_stats:
+  coreVersion: '14.369'
+  systemId: grimwild
+  systemVersion: 0.6.0
+  createdTime: 1794236097515
+  modifiedTime: 1794236097515
+  lastModifiedBy: UV77mtxQgW7KpS6B
+  compendiumSource: null
+  duplicateSource: null
+  exportSource: null
+_key: '!items!U8tsYbBiNJOK62t6'

@@ -1,0 +1,31 @@
+folder: ma3ViQN0Jv9VXIXV
+name: Relentless
+type: talent
+_id: Ypgkormq3NcAP2Bj
+img: icons/skills/movement/feet-winged-boots-brown.webp
+system:
+  description: >-
+    <p>You can pull off <em><strong>potent feats of traversal</strong></em> and
+    can always move at full speed, unhindered by what’s in your way.</p>
+  core: false
+  notes:
+    description: ''
+    label: ''
+  trackers: []
+effects: []
+sort: 0
+ownership:
+  default: 0
+  79CEe5dKC6Ls5VbU: 3
+flags: {}
+_stats:
+  coreVersion: '14.368'
+  systemId: grimwild
+  systemVersion: 0.5.3
+  createdTime: 1782662622589
+  modifiedTime: 1791744543796
+  lastModifiedBy: nF9qxzj59Qn6fNSn
+  compendiumSource: null
+  duplicateSource: null
+  exportSource: null
+_key: '!items!Ypgkormq3NcAP2Bj'

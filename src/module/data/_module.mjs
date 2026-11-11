@@ -9,3 +9,4 @@ export { default as GrimwildItemBase } from "./base-item.mjs";
 export { default as GrimwildTalent } from "./item-talent.mjs";
 export { default as GrimwildArcana } from "./item-arcana.mjs";
 export { default as GrimwildChallenge } from "./item-challenge.mjs";
+export { default as GrimwildGear } from "./item-gear.mjs";

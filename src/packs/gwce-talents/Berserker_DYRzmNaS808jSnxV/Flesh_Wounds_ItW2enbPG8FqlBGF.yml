@@ -1,0 +1,33 @@
+folder: DYRzmNaS808jSnxV
+name: Flesh Wounds
+type: talent
+_id: ItW2enbPG8FqlBGF
+img: /icons/skills/wounds/injury-triple-slash-bleed.webp
+system:
+  description: >-
+    <p>When you would get <em><strong>bloodied</strong></em>, you can instead
+    take a <strong>Flesh Wound</strong>, a <strong>condition</strong> that
+    inflicts +1t on all rolls, and is cleared when the scene ends.</p><p
+    class="p1">On a disaster, you cannot take a Flesh Wound.</p>
+  core: false
+  notes:
+    description: ''
+    label: ''
+  trackers: []
+effects: []
+sort: 0
+ownership:
+  default: 0
+  79CEe5dKC6Ls5VbU: 3
+flags: {}
+_stats:
+  coreVersion: '14.369'
+  systemId: grimwild
+  systemVersion: 0.6.0
+  createdTime: 1782662613730
+  modifiedTime: 1794176178495
+  lastModifiedBy: UV77mtxQgW7KpS6B
+  compendiumSource: null
+  duplicateSource: null
+  exportSource: null
+_key: '!items!ItW2enbPG8FqlBGF'

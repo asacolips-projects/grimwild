@@ -1,0 +1,157 @@
+name: Astral Squid - Astral Overlord's Commands
+description: ''
+formula: 1d6
+results:
+  - name: ''
+    description: <b>Enslave</b> a population of lay folk.
+    range:
+      - 1
+      - 1
+    _id: Q1SrWZThZvMXF7FQ
+    type: text
+    img: null
+    weight: 1
+    drawn: false
+    flags: {}
+    _stats:
+      coreVersion: '14.364'
+      systemId: grimwild
+      systemVersion: 0.5.3
+      createdTime: 1783270821395
+      modifiedTime: 1783270821395
+      lastModifiedBy: 79CEe5dKC6Ls5VbU
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+    _key: '!tables.results!ZZEmnPA2T3EXRslQ.Q1SrWZThZvMXF7FQ'
+  - name: ''
+    description: <b>Consume</b> a potent being, like a hero or leader.
+    range:
+      - 2
+      - 2
+    _id: lHcw89ozp54kw0gs
+    type: text
+    img: null
+    weight: 1
+    drawn: false
+    flags: {}
+    _stats:
+      coreVersion: '14.364'
+      systemId: grimwild
+      systemVersion: 0.5.3
+      createdTime: 1783270821395
+      modifiedTime: 1783270821395
+      lastModifiedBy: 79CEe5dKC6Ls5VbU
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+    _key: '!tables.results!ZZEmnPA2T3EXRslQ.lHcw89ozp54kw0gs'
+  - name: ''
+    description: <b>Hunt</b> astral dissenters and betrayers.
+    range:
+      - 3
+      - 3
+    _id: 6nsXpTIP2rKxtNoj
+    type: text
+    img: null
+    weight: 1
+    drawn: false
+    flags: {}
+    _stats:
+      coreVersion: '14.364'
+      systemId: grimwild
+      systemVersion: 0.5.3
+      createdTime: 1783270821395
+      modifiedTime: 1783270821395
+      lastModifiedBy: 79CEe5dKC6Ls5VbU
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+    _key: '!tables.results!ZZEmnPA2T3EXRslQ.6nsXpTIP2rKxtNoj'
+  - name: ''
+    description: <b>Defend</b> the cephaloid hatchery from encroachment.
+    range:
+      - 4
+      - 4
+    _id: OVT3fIoaXZt8D3hv
+    type: text
+    img: null
+    weight: 1
+    drawn: false
+    flags: {}
+    _stats:
+      coreVersion: '14.364'
+      systemId: grimwild
+      systemVersion: 0.5.3
+      createdTime: 1783270821395
+      modifiedTime: 1783270821395
+      lastModifiedBy: 79CEe5dKC6Ls5VbU
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+    _key: '!tables.results!ZZEmnPA2T3EXRslQ.OVT3fIoaXZt8D3hv'
+  - name: ''
+    description: <b>Manipulate</b> mortal leaders to do its will.
+    range:
+      - 5
+      - 5
+    _id: pmO77zQIBlmcLe0D
+    type: text
+    img: null
+    weight: 1
+    drawn: false
+    flags: {}
+    _stats:
+      coreVersion: '14.364'
+      systemId: grimwild
+      systemVersion: 0.5.3
+      createdTime: 1783270821395
+      modifiedTime: 1783270821395
+      lastModifiedBy: 79CEe5dKC6Ls5VbU
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+    _key: '!tables.results!ZZEmnPA2T3EXRslQ.pmO77zQIBlmcLe0D'
+  - name: ''
+    description: <b>Expand</b> their astral territory.
+    range:
+      - 6
+      - 6
+    _id: wZO3vfErqVfglL4O
+    type: text
+    img: null
+    weight: 1
+    drawn: false
+    flags: {}
+    _stats:
+      coreVersion: '14.364'
+      systemId: grimwild
+      systemVersion: 0.5.3
+      createdTime: 1783270821395
+      modifiedTime: 1783270821395
+      lastModifiedBy: 79CEe5dKC6Ls5VbU
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+    _key: '!tables.results!ZZEmnPA2T3EXRslQ.wZO3vfErqVfglL4O'
+folder: rgX8m8cC6QFqYNJB
+sort: 5300000
+_id: ZZEmnPA2T3EXRslQ
+img: icons/svg/d20-grey.svg
+replacement: true
+displayRoll: true
+ownership:
+  default: 0
+  79CEe5dKC6Ls5VbU: 3
+flags: {}
+_stats:
+  coreVersion: '14.368'
+  systemId: grimwild
+  systemVersion: 0.5.3
+  createdTime: 1783270821395
+  modifiedTime: 1791749998256
+  lastModifiedBy: nF9qxzj59Qn6fNSn
+  compendiumSource: null
+  duplicateSource: null
+  exportSource: null
+_key: '!tables!ZZEmnPA2T3EXRslQ'

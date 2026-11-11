@@ -1,0 +1,71 @@
+folder: ZHUB08tpegfziYkx
+name: Spring Month
+_id: AGyhzqwQyRYTB1Ho
+img: icons/svg/d20-grey.svg
+description: ''
+results:
+  - type: document
+    weight: 1
+    range:
+      - 1
+      - 1
+    name: Spring One
+    img: icons/svg/d20-grey.svg
+    documentUuid: Compendium.grimwild.gwce-crucibles.RollTable.qACCAaGiAvvJLZWZ
+    _id: SryBcvex2PcTgLSo
+    description: ''
+    drawn: false
+    flags: {}
+    _stats:
+      coreVersion: '14.364'
+      systemId: grimwild
+      systemVersion: 0.5.3
+      createdTime: 1783180879718
+      modifiedTime: 1783180879718
+      lastModifiedBy: 79CEe5dKC6Ls5VbU
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+    _key: '!tables.results!AGyhzqwQyRYTB1Ho.SryBcvex2PcTgLSo'
+  - type: document
+    weight: 1
+    range:
+      - 1
+      - 1
+    name: Spring Two
+    img: icons/svg/d20-grey.svg
+    documentUuid: Compendium.grimwild.gwce-crucibles.RollTable.03VA2KlhwvfPWYXm
+    _id: cimJZ959U1N86LDE
+    description: ''
+    drawn: false
+    flags: {}
+    _stats:
+      coreVersion: '14.364'
+      systemId: grimwild
+      systemVersion: 0.5.3
+      createdTime: 1783180882014
+      modifiedTime: 1783180891863
+      lastModifiedBy: 79CEe5dKC6Ls5VbU
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+    _key: '!tables.results!AGyhzqwQyRYTB1Ho.cimJZ959U1N86LDE'
+replacement: true
+displayRoll: true
+sort: 200000
+ownership:
+  default: 0
+  79CEe5dKC6Ls5VbU: 3
+flags: {}
+_stats:
+  coreVersion: '14.364'
+  systemId: grimwild
+  systemVersion: 0.5.3
+  createdTime: 1783180862966
+  modifiedTime: 1783180939163
+  lastModifiedBy: 79CEe5dKC6Ls5VbU
+  compendiumSource: null
+  duplicateSource: null
+  exportSource: null
+formula: '1'
+_key: '!tables!AGyhzqwQyRYTB1Ho'

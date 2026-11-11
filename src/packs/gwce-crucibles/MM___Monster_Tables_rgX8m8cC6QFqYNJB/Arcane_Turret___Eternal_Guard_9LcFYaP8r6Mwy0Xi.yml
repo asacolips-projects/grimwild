@@ -1,0 +1,157 @@
+name: Arcane Turret - Eternal Guard
+description: ''
+formula: 1d6
+results:
+  - name: ''
+    description: Scattered around an <b>abandoned wizard tower</b>.
+    range:
+      - 1
+      - 1
+    _id: xSzceVOWM5O96Xxe
+    type: text
+    img: null
+    weight: 1
+    drawn: false
+    flags: {}
+    _stats:
+      coreVersion: '14.364'
+      systemId: grimwild
+      systemVersion: 0.5.3
+      createdTime: 1783270821292
+      modifiedTime: 1783270821292
+      lastModifiedBy: 79CEe5dKC6Ls5VbU
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+    _key: '!tables.results!9LcFYaP8r6Mwy0Xi.xSzceVOWM5O96Xxe'
+  - name: ''
+    description: Protecting an advanced <b>magic civilization</b>.
+    range:
+      - 2
+      - 2
+    _id: 1ZLF7Yaqwp07awRF
+    type: text
+    img: null
+    weight: 1
+    drawn: false
+    flags: {}
+    _stats:
+      coreVersion: '14.364'
+      systemId: grimwild
+      systemVersion: 0.5.3
+      createdTime: 1783270821292
+      modifiedTime: 1783270821292
+      lastModifiedBy: 79CEe5dKC6Ls5VbU
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+    _key: '!tables.results!9LcFYaP8r6Mwy0Xi.1ZLF7Yaqwp07awRF'
+  - name: ''
+    description: Aboard a travelling <b>planar airship</b>.
+    range:
+      - 3
+      - 3
+    _id: k4j7rnMm0EFOe28L
+    type: text
+    img: null
+    weight: 1
+    drawn: false
+    flags: {}
+    _stats:
+      coreVersion: '14.364'
+      systemId: grimwild
+      systemVersion: 0.5.3
+      createdTime: 1783270821292
+      modifiedTime: 1783270821292
+      lastModifiedBy: 79CEe5dKC6Ls5VbU
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+    _key: '!tables.results!9LcFYaP8r6Mwy0Xi.k4j7rnMm0EFOe28L'
+  - name: ''
+    description: Inside an ancient <b>cursed tomb</b>.
+    range:
+      - 4
+      - 4
+    _id: w5yMvcnacrfyzrju
+    type: text
+    img: null
+    weight: 1
+    drawn: false
+    flags: {}
+    _stats:
+      coreVersion: '14.364'
+      systemId: grimwild
+      systemVersion: 0.5.3
+      createdTime: 1783270821292
+      modifiedTime: 1783270821292
+      lastModifiedBy: 79CEe5dKC6Ls5VbU
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+    _key: '!tables.results!9LcFYaP8r6Mwy0Xi.w5yMvcnacrfyzrju'
+  - name: ''
+    description: Safeguarding a vault of <b>priceless treasures</b>.
+    range:
+      - 5
+      - 5
+    _id: KcFanpiZDPTX3uOD
+    type: text
+    img: null
+    weight: 1
+    drawn: false
+    flags: {}
+    _stats:
+      coreVersion: '14.364'
+      systemId: grimwild
+      systemVersion: 0.5.3
+      createdTime: 1783270821292
+      modifiedTime: 1783270821292
+      lastModifiedBy: 79CEe5dKC6Ls5VbU
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+    _key: '!tables.results!9LcFYaP8r6Mwy0Xi.KcFanpiZDPTX3uOD'
+  - name: ''
+    description: Strewn across a <b>decimated battlefield</b>.
+    range:
+      - 6
+      - 6
+    _id: MWMQE9hlkJJxTKbn
+    type: text
+    img: null
+    weight: 1
+    drawn: false
+    flags: {}
+    _stats:
+      coreVersion: '14.364'
+      systemId: grimwild
+      systemVersion: 0.5.3
+      createdTime: 1783270821292
+      modifiedTime: 1783270821292
+      lastModifiedBy: 79CEe5dKC6Ls5VbU
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+    _key: '!tables.results!9LcFYaP8r6Mwy0Xi.MWMQE9hlkJJxTKbn'
+folder: rgX8m8cC6QFqYNJB
+sort: 200000
+_id: 9LcFYaP8r6Mwy0Xi
+img: icons/svg/d20-grey.svg
+replacement: true
+displayRoll: true
+ownership:
+  default: 0
+  79CEe5dKC6Ls5VbU: 3
+flags: {}
+_stats:
+  coreVersion: '14.368'
+  systemId: grimwild
+  systemVersion: 0.5.3
+  createdTime: 1783270821292
+  modifiedTime: 1791749998254
+  lastModifiedBy: nF9qxzj59Qn6fNSn
+  compendiumSource: null
+  duplicateSource: null
+  exportSource: null
+_key: '!tables!9LcFYaP8r6Mwy0Xi'

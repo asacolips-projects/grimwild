@@ -1,0 +1,44 @@
+folder: M9v17yUrFRF23cat
+name: Springheel Jumpers
+type: arcana
+_id: rIbZMZmM8UngJeMH
+img: icons/equipment/feet/boots-collared-leather-brown.webp
+system:
+  description: >-
+    <p>Leap twice as high with these boots, and fall any distance unharmed as
+    long as you land on your feet.</p>
+  tier: minor
+  notes:
+    description: ''
+    label: ''
+  trackers: []
+  touchstones: grace—jump—traverse
+  limitations: ''
+  activation: tightening the straps.
+  sensories:
+    descriptors: leather squeaks, blurred speed, rush of wind
+    actions: vibrating calves, ground cracked where you leap
+  palette:
+    - name: DEERSKIN
+      color: '#a67c52'
+    - name: WORKED BRASS
+      color: '#d4af37'
+    - name: SKY BLUE
+      color: '#50a8ff'
+effects: []
+sort: 0
+ownership:
+  default: 0
+  nF9qxzj59Qn6fNSn: 3
+flags: {}
+_stats:
+  coreVersion: '14.369'
+  systemId: grimwild
+  systemVersion: 0.6.0
+  createdTime: 1794235425735
+  modifiedTime: 1794235425735
+  lastModifiedBy: UV77mtxQgW7KpS6B
+  compendiumSource: null
+  duplicateSource: null
+  exportSource: null
+_key: '!items!rIbZMZmM8UngJeMH'

@@ -1,0 +1,33 @@
+folder: sioTtoSBZibsvpR5
+name: Cultural Weapon
+type: talent
+_id: O181040VhwGbqLMb
+img: icons/svg/item-bag.svg
+system:
+  description: >-
+    <p>While using the iconic weapon of your society, you can <em><strong>push
+    yourself</strong></em> to pull off a <em><strong>potent feat of
+    prowess</strong></em> using one of the styles. These weapons are often
+    highly coveted outside of your ancestral lands.</p>
+  core: false
+  notes:
+    description: ''
+    label: ''
+  trackers: []
+effects: []
+sort: 0
+ownership:
+  default: 0
+  79CEe5dKC6Ls5VbU: 3
+flags: {}
+_stats:
+  coreVersion: '14.364'
+  systemId: grimwild
+  systemVersion: 0.5.3
+  createdTime: 1782662611330
+  modifiedTime: 1782662611330
+  lastModifiedBy: 79CEe5dKC6Ls5VbU
+  compendiumSource: null
+  duplicateSource: null
+  exportSource: null
+_key: '!items!O181040VhwGbqLMb'

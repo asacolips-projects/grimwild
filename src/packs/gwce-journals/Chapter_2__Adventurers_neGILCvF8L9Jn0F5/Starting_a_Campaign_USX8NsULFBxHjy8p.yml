@@ -1,0 +1,668 @@
+name: Starting a Campaign
+_id: USX8NsULFBxHjy8p
+pages:
+  - sort: 100000
+    name: Starting a Campaign
+    type: text
+    _id: Am7BZhSVdcbP4Aqu
+    system: {}
+    title:
+      show: true
+      level: 1
+    image: {}
+    text:
+      format: 1
+      content: >-
+        <p>Start each campaign with a session zero, a campaign brainstorming and
+        character creation session where you get everyone on the same page about
+        themes, setting, and the kind of game you want to play. Remember, think
+        about it like a TV series!</p><ol><li><p><strong>Choose a Theme &amp;
+        Setting:</strong> The GM leads the discussion on what campaign themes
+        and settings sound fun. Choose a setting or build one
+        together.</p></li><li><p><strong>Form the Party:</strong> The players
+        form their adventuring party, following the prompts below. The party is
+        made before the characters to ensure they fit
+        well.</p></li><li><p><strong>@UUID[Compendium.grimwild.gwce-journals.JournalEntry.YbuXwBYYNXIb670F.JournalEntryPage.TFE7qnkVkpzsZYW6#story-arcs]{Set
+        Group Arc}:</strong> The players choose a group arc, a goal or theme
+        they're interested in playing out as a group. You'll figure out what it
+        means in play. (pg.
+        26)</p></li><li><p><strong>@UUID[.oeVShHCFM2b9IZiO]{Make
+        Characters}:</strong> Follow the character creation flow and make PCs
+        together. Prioritize fitting in with the theme, setting, party, and
+        group arc.</p></li></ol>
+    video:
+      controls: true
+      volume: 0.5
+    src: null
+    category: null
+    ownership:
+      default: -1
+      79CEe5dKC6Ls5VbU: 3
+    flags: {}
+    _stats:
+      coreVersion: '14.364'
+      systemId: grimwild
+      systemVersion: 0.5.3
+      createdTime: 1782697355021
+      modifiedTime: 1783099543419
+      lastModifiedBy: 79CEe5dKC6Ls5VbU
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+    _key: '!journal.pages!USX8NsULFBxHjy8p.Am7BZhSVdcbP4Aqu'
+  - sort: 200000
+    name: Adventuring Party
+    type: text
+    _id: nzLK9DbNtrnDeclg
+    system: {}
+    title:
+      show: true
+      level: 1
+    image: {}
+    text:
+      format: 1
+      content: >-
+        <p>Your group of adventurers already know each other and have adventured
+        together, at least for some time. Answer the prompts below together to
+        get a sense of your party's concept to ensure that you build characters
+        that fit well within that type of party.</p><h3>Concepts</h3><p>Choose 2
+        that you see your party as, and 1 that you definitely
+        aren't:</p><section class="grid
+        grid-2col"><div><ul><li><p>Conquerors</p></li><li><p>Disciples</p></li><li><p>Explorers</p></li><li><p>Heroes</p></li><li><p>Mercenaries</p></li><li><p>Merchants</p></li></ul></div><div><ul><li><p>Mystics</p></li><li><p>Outsiders</p></li><li><p>Renegades</p></li><li><p>Scholars</p></li><li><p>Scoundrels</p></li><li><p>Wardens</p></li></ul></div></section><p>To
+        help whittle down choices, each player and the GM can individually write
+        down one group concept they want to play as and one they won't play as,
+        then reveal them.</p>
+    video:
+      controls: true
+      volume: 0.5
+    src: null
+    category: null
+    ownership:
+      default: -1
+      79CEe5dKC6Ls5VbU: 3
+    flags: {}
+    _stats:
+      coreVersion: '14.364'
+      systemId: grimwild
+      systemVersion: 0.5.3
+      createdTime: 1782697369883
+      modifiedTime: 1783099724662
+      lastModifiedBy: 79CEe5dKC6Ls5VbU
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+    _key: '!journal.pages!USX8NsULFBxHjy8p.nzLK9DbNtrnDeclg'
+  - sort: 300000
+    name: Adventurer Paths
+    type: text
+    _id: ymcJSNLpd5tppzUn
+    system: {}
+    title:
+      show: true
+      level: 1
+    image: {}
+    text:
+      format: 1
+      content: >-
+        <p>Paths are collections of talents grouped by common adventuring
+        themes. Each has a core talent and core growth—your core talent gets
+        stronger as you gain levels. Remember, paths cannot be used to establish
+        story details—backgrounds and talents can. Each path is covered in
+        detail later in this
+        chapter.</p><ul><li><p><strong>@UUID[Compendium.grimwild.gwce-journals.JournalEntry.A3ABNLJphHplV8Nm.JournalEntryPage.H0JCDbN6kAyXGxic]{BARD}
+        •</strong> <em>Stirring the soul with song or
+        deed.</em></p><ul><li><p>Spend inspiration to bolster your allies, and
+        influence foes to turn the
+        tide.</p></li></ul></li><li><p><strong>@UUID[Compendium.grimwild.gwce-journals.JournalEntry.A3ABNLJphHplV8Nm.JournalEntryPage.EcK2fQRpY99iVSVh]{BERSERKER}
+        • </strong><em>Blood, mettle, and the sounds of
+        battle.</em></p><ul><li><p>Fly into a <strong>frenzy</strong> to wade
+        through foes and lay waste to your
+        enemies.</p></li></ul></li><li><p><strong>@UUID[Compendium.grimwild.gwce-journals.JournalEntry.A3ABNLJphHplV8Nm.JournalEntryPage.CwaTNKnbmUxRUSXo]{CLERIC}
+        • </strong><em>Faith is stronger than any blade.</em></p><ul><li><p>Use
+        your <strong>rites</strong> pools to call upon your god, wielding their
+        divine
+        magic.</p></li></ul></li><li><p><strong>@UUID[Compendium.grimwild.gwce-journals.JournalEntry.A3ABNLJphHplV8Nm.JournalEntryPage.hx2sET46piKhssI5]{DRUID}
+        •</strong> <em>The fury of nature—untamed and
+        relentless.</em></p><ul><li><p>Use your <strong>wild shape</strong> pool
+        to take bestial forms and learn their
+        abilities.</p></li></ul></li><li><p><strong>@UUID[Compendium.grimwild.gwce-journals.JournalEntry.A3ABNLJphHplV8Nm.JournalEntryPage.SCLx2TCkGXDAA7Ja]{FIGHTER}
+        •</strong> <em>Resolve honed with every strike.</em></p><ul><li><p>Spend
+        <strong>mastery</strong> to fight with unparalleled expertise in your
+        chosen
+        style.</p></li></ul></li><li><p><strong>@UUID[Compendium.grimwild.gwce-journals.JournalEntry.A3ABNLJphHplV8Nm.JournalEntryPage.ByEYMJ1kzBRfpn5y]{MONK}
+        • </strong><em>Perfection is a journey, not a
+        destination.</em></p><ul><li><p>Spend <strong>flow</strong> to act with
+        mystical grace and stop foes in their
+        tracks.</p></li></ul></li><li><p><strong>@UUID[Compendium.grimwild.gwce-journals.JournalEntry.A3ABNLJphHplV8Nm.JournalEntryPage.QR7bLq1C65ipTirU]{PALADIN}
+        • </strong><em>An Oath taken, a burden willingly
+        carried.</em></p><ul><li><p>Spend <strong>smite</strong> to overcome
+        challenges with the power of your
+        conviction.</p></li></ul></li><li><p><strong>@UUID[Compendium.grimwild.gwce-journals.JournalEntry.A3ABNLJphHplV8Nm.JournalEntryPage.aThjRNE6lWryUmWv]{RANGER}
+        • </strong><em>No escape, no mercy, only the
+        chase.</em></p><ul><li><p>Tag a foe as your <strong>quarry</strong> to
+        learn about, track, and slay your chosen
+        enemy.</p></li></ul></li><li><p><strong>@UUID[Compendium.grimwild.gwce-journals.JournalEntry.A3ABNLJphHplV8Nm.JournalEntryPage.vU1b5kJGIdutFGIZ]{ROGUE}
+        • </strong><em>A whisper in the dark, then a quiet
+        end.</em></p><ul><li><p>Use your <strong>competence</strong> pool to
+        grasp victory from the jaws of
+        defeat.</p></li></ul></li><li><p><strong>@UUID[Compendium.grimwild.gwce-journals.JournalEntry.A3ABNLJphHplV8Nm.JournalEntryPage.IAQLEhPcuKUHIvNv]{SORCERER}
+        • </strong><em>Magic flows like blood, powerful and
+        wild.</em></p><ul><li><p>Use your magic in near infinite ways, but be
+        careful of <strong>magical
+        twists</strong>.</p></li></ul></li><li><p><strong>@UUID[Compendium.grimwild.gwce-journals.JournalEntry.A3ABNLJphHplV8Nm.JournalEntryPage.nsrd3SWBUdq6RHWP]{WARLOCK}
+        • </strong><em>Power always demands a hefty
+        price.</em></p><ul><li><p>Bargain with your patron for <strong>Eldritch
+        Talents</strong>, but beware their fickle
+        nature.</p></li></ul></li><li><p><strong>@UUID[Compendium.grimwild.gwce-journals.JournalEntry.A3ABNLJphHplV8Nm.JournalEntryPage.Chpa2kIFZthAo2T5]{WIZARD}
+        • </strong><em>Arcane knowledge, wielded with
+        precision.</em></p><ul><li><p>Use the <strong>spell theorems</strong>
+        you've learned to call precise magic to your
+        hands.</p></li></ul></li></ul><h3>Extra Options</h3><p>Also included are
+        the
+        <strong>@UUID[Compendium.grimwild.gwce-journals.JournalEntry.A3ABNLJphHplV8Nm.JournalEntryPage.3Gn22HIAtsedLnmL]{Artificer}</strong>,
+        <strong>@UUID[Compendium.grimwild.gwce-journals.JournalEntry.A3ABNLJphHplV8Nm.JournalEntryPage.xyL3pmEEMNvS9TGR]{Psion}</strong>,
+        <strong>@UUID[Compendium.grimwild.gwce-journals.JournalEntry.A3ABNLJphHplV8Nm.JournalEntryPage.hFdtz4n6rNQwyUAG]{Summoner}</strong>,
+        <strong>@UUID[Compendium.grimwild.gwce-journals.JournalEntry.A3ABNLJphHplV8Nm.JournalEntryPage.XBHO0tGCTQRfA7XS]{Swashbuckler}</strong>,
+        and
+        <strong>@UUID[Compendium.grimwild.gwce-journals.JournalEntry.A3ABNLJphHplV8Nm.JournalEntryPage.v5k2XzfSsWqWe9Xn]{Witch}</strong>.
+        These alternatives were not a part of the original free version of
+        <em>Grimwild</em>. Legacy options—those from the original version of the
+        game—are also included on page 178, alongside path talents cut from
+        previous versions of the <em>Community Edition</em>.</p>
+    video:
+      controls: true
+      volume: 0.5
+    src: null
+    category: null
+    ownership:
+      default: -1
+      79CEe5dKC6Ls5VbU: 3
+    flags: {}
+    _stats:
+      coreVersion: '14.364'
+      systemId: grimwild
+      systemVersion: 0.5.3
+      createdTime: 1782697373409
+      modifiedTime: 1783099361315
+      lastModifiedBy: 79CEe5dKC6Ls5VbU
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+    _key: '!journal.pages!USX8NsULFBxHjy8p.ymcJSNLpd5tppzUn'
+  - sort: 400000
+    name: Character Creation
+    type: text
+    _id: oeVShHCFM2b9IZiO
+    system: {}
+    title:
+      show: true
+      level: 1
+    image: {}
+    text:
+      format: 1
+      content: >-
+        <p>Follow the steps below to create your character. This order is often
+        the simplest, but you should begin where your imagination takes you.
+        Character sheets for each path are available wherever you found
+        this.</p><ol><li><p><strong>@UUID[.IDib2F8Q1aVGCXEJ]{Backgrounds}:</strong>
+        Choose two backgrounds, each with three wises, that detail your heritage
+        or professions, covering your tools of the trade and story details.
+        (next page)</p></li><li><p><strong>Traits:</strong> Choose 2 you very
+        much are and 1 you definitely aren't: <em>brave, caring, confident,
+        curious, gentle, honest, honorable, persistent, protective, quiet, rash,
+        stubborn.</em></p></li><li><p><strong>Desires:</strong> Choose 2 you
+        truly desire and 1 you definitely don't: <em>belonging, glory, harmony,
+        honor, justice, knowledge, love, power, renown, thrills, wealth,
+        wisdom.</em></p></li><li><p><strong>@UUID[.xnN0DSLzNbkyhxVA]{Features}:</strong>
+        Write down three distinctive features, words or short phrases, that
+        others soon notice about you, like strong hands, kind eyes, or a
+        gravelly
+        voice.</p></li><li><p><strong>@UUID[Compendium.grimwild.gwce-journals.JournalEntry.A3ABNLJphHplV8Nm]{Path}:</strong>
+        Choose a path, gain its core talent, and pick either another talent from
+        your path's list or a non-core talent from another
+        path.</p></li><li><p><strong>@UUID[Compendium.grimwild.gwce-journals.JournalEntry.YbuXwBYYNXIb670F.JournalEntryPage.pNW9iH0hc9EFKfPK#stats]{Stats}:</strong>
+        Begin with 1 in each stat, then assign 4 more points amongst them as you
+        like, to a max of 3 in any single
+        stat.</p></li><li><p><strong>@UUID[Compendium.grimwild.gwce-journals.JournalEntry.YbuXwBYYNXIb670F.JournalEntryPage.pNW9iH0hc9EFKfPK#weapon-styles]{Weapon
+        Styles}:</strong> Choose your weapon(s), then split two descriptors
+        between them as your
+        styles.</p></li><li><p><strong>@UUID[Compendium.grimwild.gwce-journals.JournalEntry.YbuXwBYYNXIb670F.JournalEntryPage.TFE7qnkVkpzsZYW6#story-arcs]{Arcs}:</strong>
+        Choose one or two character arcs to explore. Don't get too detailed—
+        these will get fleshed out during play and can be changed
+        anytime.</p></li><li><p><strong>@UUID[Compendium.grimwild.gwce-journals.JournalEntry.YbuXwBYYNXIb670F.JournalEntryPage.pNW9iH0hc9EFKfPK#bonds]{Bonds}:</strong>
+        Describe your characters in detail. As you listen, choose one bond you
+        have towards each PC, matching together an intensity and a nature of the
+        bond.</p></li><li><p><strong>Review:</strong> Revisit the campaign
+        theme, setting, party identity, and group arcs you set. Make sure
+        everything matches up well and make any
+        adjustments.</p></li><li><p><strong>@UUID[Compendium.grimwild.gwce-journals.JournalEntry.YbuXwBYYNXIb670F.JournalEntryPage.3ZhPTONYCcx0olaV#montage-roll]{Montage}:</strong>
+        Finish off with a montage of the last adventure you went on together.
+        The GM gives a basic overview of the scenario, then you roll a group
+        montage (2d each) to see how the whole adventure went. Collaborate to
+        narrate your outcomes, working in bonds and other details.</p></li></ol>
+    video:
+      controls: true
+      volume: 0.5
+    src: null
+    category: null
+    ownership:
+      default: -1
+      79CEe5dKC6Ls5VbU: 3
+    flags: {}
+    _stats:
+      coreVersion: '14.364'
+      systemId: grimwild
+      systemVersion: 0.5.3
+      createdTime: 1782697386619
+      modifiedTime: 1783097855125
+      lastModifiedBy: 79CEe5dKC6Ls5VbU
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+    _key: '!journal.pages!USX8NsULFBxHjy8p.oeVShHCFM2b9IZiO'
+  - sort: 500000
+    name: Backgrounds
+    type: text
+    _id: IDib2F8Q1aVGCXEJ
+    system: {}
+    title:
+      show: true
+      level: 1
+    image: {}
+    text:
+      format: 1
+      content: >-
+        <p>Backgrounds are the pillars of your backstory, revealing key aspects
+        of who you are. They determine what counts as set dressing—tools of the
+        trade and the story details you can add. Start with a simple word or
+        phrase, leaving room for growth as your backstory is revealed during
+        play. They're just dots to connect later.</p><p>Backgrounds include your
+        heritage, social class, or profession. Each background comes with three
+        <em><strong>@UUID[Compendium.grimwild.gwce-journals.JournalEntry.YbuXwBYYNXIb670F.JournalEntryPage.pNW9iH0hc9EFKfPK#wises]{wises}</strong></em>—evocative
+        phrases that highlight areas of knowledge, experience, or awareness from
+        that background. They're especially useful for declaring story details,
+        providing prompts and ideas to bring into play. Backgrounds serve as a
+        clear sign of the important aspects of who you are.</p><p>You have two
+        backgrounds. You can choose from the list, use the
+        @UUID[.#heritage-crucible]{Heritage crucible}, or use either of those as
+        guidelines to create your own. Backgrounds and their wises should fit
+        the campaign world and be approved by the GM. A heritage background
+        isn't required if you prefer it as just set dressing. If you need more
+        ideas for wises, check out the @UUID[.#expanded-wises]{expanded wises
+        crucible}!</p><p><span style="color:#6e6e6e"><em>You might have grown up
+        poor on the streets, but if you have the Ragamuffin background, you
+        learned a lot from that experience, and it's a core part of who you
+        are.</em></span></p><p><span style="color:#6e6e6e"><em>You might be a
+        dwarf, but having the Dwarf of the Iron Hills background lets you set
+        the scope of what it means to be a person from that
+        heritage.</em></span></p><p><span style="color:#6e6e6e"><em>A fighter
+        with the Warrior and Noble backgrounds feels substantially different
+        than one with the Scoundrel and Eccentric
+        backgrounds.</em></span></p><p>Each common background has a name, and
+        other "Also known as" names. Personalize this to fit the setting—you're
+        not just a Charlatan, or even a Spy, you're a <strong>Scarlet Agent of
+        the Crown</strong>.</p><p>Common backgrounds also come with three wises.
+        Mix and replace these to fit the character. It makes sense for your
+        Scarlet Agent to have <em>social graces</em> and <em>timely
+        misdirects</em>, but maybe <em>luxuries</em> makes more sense than
+        <em>spotting marks</em>.</p><p></p><h2>Common Backgrounds</h2><section
+        class="grid grid-2col"><div><ul><li><p><strong>Charlatan</strong> (AKA
+        Spy, Swindler)</p><ul><li><p><em>social
+        graces</em></p></li><li><p><em>spoting
+        marks</em></p></li><li><p><em>timely
+        misdirects</em></p></li></ul></li><li><p><strong>Clergy</strong> (AKA
+        Cultist,
+        Priest)</p><ul><li><p><em>allegories</em></p></li><li><p><em>signs of
+        sin</em></p></li><li><p><em>faiths of the
+        world</em></p></li></ul></li><li><p><strong>Commoner</strong> (AKA
+        Farmer, Villager)</p><ul><li><p><em>local
+        customs</em></p></li><li><p><em>practical
+        wisdom</em></p></li><li><p><em>superstitions</em></p></li></ul></li><li><p><strong>Crafter</strong>
+        (AKA Artisan, Smith)</p><ul><li><p><em>crafting
+        quality</em></p></li><li><p><em>trade
+        contracts</em></p></li><li><p><em>wear and
+        tear</em></p></li></ul></li><li><p><strong>Drifter</strong> (AKA
+        Explorer, Vagabond)</p><ul><li><p><em>chance
+        meetings</em></p></li><li><p><em>faraway
+        tales</em></p></li><li><p><em>lay of the
+        land</em></p></li></ul></li><li><p><strong>Eccentric</strong> (AKA
+        Hermit, Recluse)</p><ul><li><p><em>hard
+        truths</em></p></li><li><p><em>random
+        facts</em></p></li><li><p><em>strange
+        snacks</em></p></li></ul></li><li><p><strong>Entertainer</strong> (AKA
+        Storyteller, Minstrel)</p><ul><li><p><em>legends &amp;
+        tales</em></p></li><li><p><em>crowd
+        behaviors</em></p></li><li><p><em>stage
+        presence</em></p></li></ul></li><li><p><strong>Healer</strong> (AKA
+        Herbalist, Physicker)</p><ul><li><p><em>comfort
+        foods</em></p></li><li><p><em>signs of
+        ailment</em></p></li><li><p><em>herbal
+        properties</em></p></li></ul></li><li><p><strong>Hunter</strong> (AKA
+        Pathfinder,
+        Trapper)</p><ul><li><p><em>survival</em></p></li><li><p><em>tracks</em></p></li><li><p><em>wildlife
+        behavior</em></p></li></ul></li></ul></div><div><ul><li><p><strong>Investigator</strong>
+        (AKA Guard, Gumshoe)</p><ul><li><p><em>seedy
+        areas</em></p></li><li><p><em>connecting the
+        dots</em></p></li><li><p><em>body
+        language</em></p></li></ul></li><li><p><strong>Mariner</strong> (AKA
+        Pirate, Sailor)</p><ul><li><p><em>nautical
+        lore</em></p></li><li><p><em>seafaring</em></p></li><li><p><em>weather
+        patterns</em></p></li></ul></li><li><p><strong>Mystic</strong> (AKA
+        Occultist, Seer)</p><ul><li><p><em>ancient
+        prophecies</em></p></li><li><p><em>leylines</em></p></li><li><p><em>symbology</em></p></li></ul></li><li><p><strong>Noble</strong>
+        (AKA Aristocrat,
+        Diplomat)</p><ul><li><p><em>diplomacy</em></p></li><li><p><em>influential
+        contacts</em></p></li><li><p><em>luxuries</em></p></li></ul></li><li><p><strong>Ragamuffin</strong>
+        (AKA Cutpurse, Urchin)</p><ul><li><p><em>hidden
+        paths</em></p></li><li><p><em>rumors</em></p></li><li><p><em>street
+        smarts</em></p></li></ul></li><li><p><strong>Sage</strong> (AKA
+        Lorekeeper, Scholar)</p><ul><li><p><em>ancient
+        histories</em></p></li><li><p><em>peoples of the
+        world</em></p></li><li><p><em>philosophy</em></p></li></ul></li><li><p><strong>Scoundrel</strong>
+        (AKA Brigand, Thief)</p><ul><li><p><em>escape
+        routes</em></p></li><li><p><em>signs of
+        weakness</em></p></li><li><p><em>shady
+        connections</em></p></li></ul></li><li><p><strong>Trader</strong> (AKA
+        Merchant, Peddler)</p><ul><li><p><em>cultural
+        tastes</em></p></li><li><p><em>people's
+        desires</em></p></li><li><p><em>rare
+        goods</em></p></li></ul></li><li><p><strong>Warrior</strong> (AKA
+        Sellsword, Soldier)</p><ul><li><p><em>battle
+        plans</em></p></li><li><p><em>improvised
+        weapons</em></p></li><li><p><em>war
+        stories</em></p><p></p></li></ul></li></ul></div></section><p>Backgrounds
+        can evolve as the story unfolds. Start with a simple name and leave room
+        for growth as your backstory is revealed. Don't corner your character
+        growth before starting. You might start as a Mariner, refine it to
+        Pirate, then expand on it to Blackthorn Reaver or First Mate under
+        Captain Stormclaw as it comes up in the story. Or you can just keep it
+        simple!</p><h3>Expanded
+        Wises</h3><table><thead><tr><th><p>Civil</p></th><th><p>Social</p></th><th><p>Historical</p></th><th><p>Natural</p></th><th><p>Mystical</p></th><th><p>Practical</p></th></tr></thead><tbody><tr><td><p>laws
+        of the land</p></td><td><p>gambling</p></td><td><p>notable
+        figures</p></td><td><p>cartography</p></td><td><p>arcane
+        theory</p></td><td><p>cooking</p></td></tr><tr><td><p>bureaucracy</p></td><td><p>banter</p></td><td><p>lost
+        relics</p></td><td><p>natural danger</p></td><td><p>pacts &amp;
+        binding</p></td><td><p>smuggling</p></td></tr><tr><td><p>the
+        press</p></td><td><p>leadership</p></td><td><p>ceremonial
+        rites</p></td><td><p>pests &amp;
+        plague</p></td><td><p>cosmology</p></td><td><p>clockwork</p></td></tr><tr><td><p>business</p></td><td><p>showmanship</p></td><td><p>festivities</p></td><td><p>overland
+        travel</p></td><td><p>local
+        spirits</p></td><td><p>jury-rigging</p></td></tr><tr><td><p>taboo</p></td><td><p>blending
+        in</p></td><td><p>architecture</p></td><td><p>unnatural
+        beasts</p></td><td><p>divine order</p></td><td><p>makeshift
+        gear</p></td></tr><tr><td><p>politics</p></td><td><p>networking</p></td><td><p>theater
+        &amp; arts</p></td><td><p>seeds &amp;
+        harvest</p></td><td><p>esoterica</p></td><td><p>humors</p></td></tr></tbody></table><p></p><h2>Heritage</h2><p>Heritage
+        reflects your culture, ancestry, and homeland. Use the Heritage Crucible
+        below for inspiration: roll three words, pick two, and combine them. You
+        can interpret these words literally or figuratively, or use them as they
+        are.</p><p>Once you set your heritage, give it three wises. Use those
+        from common backgrounds (previous page), the expanded wises crucible
+        (above), or make up your own. These wises reflect traits commonly shared
+        by most people from your heritage. This continues throughout the game as
+        you figure out more about your people through play. <strong>In short,
+        you know what the Orcs of the Verdant Boglands are like because you are
+        one!</strong></p><h3>Heritage
+        Crucible</h3><p>@Crucible[Compendium.grimwild.gwce-crucibles.RollTable.SJvxPOsnrmQD1QLy]{Heritage
+        -
+        Folk}</p><p>@Crucible[Compendium.grimwild.gwce-crucibles.RollTable.VZ40LykXQ1o0Uf7F]{Heritage
+        -
+        Mood}</p><p>@Crucible[Compendium.grimwild.gwce-crucibles.RollTable.GFj5Gr2Mi8Oxu9ob]{Heritage
+        - Land}</p>
+    video:
+      controls: true
+      volume: 0.5
+    src: null
+    category: null
+    ownership:
+      default: -1
+      79CEe5dKC6Ls5VbU: 3
+    flags: {}
+    _stats:
+      coreVersion: '14.364'
+      systemId: grimwild
+      systemVersion: 0.5.3
+      createdTime: 1782697390582
+      modifiedTime: 1783099659947
+      lastModifiedBy: 79CEe5dKC6Ls5VbU
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+    _key: '!journal.pages!USX8NsULFBxHjy8p.IDib2F8Q1aVGCXEJ'
+  - sort: 600000
+    name: Group-Building Questions
+    type: text
+    _id: emtc9Ieuc6gzRiFc
+    system: {}
+    title:
+      show: true
+      level: 1
+    image: {}
+    text:
+      format: 1
+      content: >-
+        <p>During session zero, after you've introduced your characters, or at
+        interesting moments in a campaign, ask one of the following questions to
+        the person on your right and left. Keep the questions leading and juicy,
+        to give something interesting for you both to latch onto. You can also
+        use these questions to delve into details about their character that
+        you're interested in hearing more about.</p><h3>Questions About Shared
+        History</h3><ul><li><p>What <strong>secret</strong> did I tell you that
+        you’ve never dared to share with anyone else?</p></li><li><p>When we
+        first met, what <strong>mistake</strong> did I make that still
+        embarrasses me?</p></li><li><p>What did we <strong>steal</strong>
+        together, and how did it bring us closer?</p></li><li><p>When did I
+        <strong>save</strong> you from something, and what did it cost
+        me?</p></li><li><p>What moment made you decide you could
+        <strong>trust</strong> me, even if you didn’t want
+        to?</p></li></ul><h3>Questions About Feelings and
+        Impressions</h3><ul><li><p>What’s something about me that
+        <strong>annoys</strong> you, but you’d miss if I were
+        gone?</p></li><li><p>What’s a time I <strong>surprised</strong> you by
+        being braver or softer than you expected?</p></li><li><p>What’s a
+        <strong>rumor about me</strong> you half believe, but you’re too afraid
+        to ask if it’s true?</p></li><li><p>When have I <strong>pushed you
+        away,</strong> and how did it hurt?</p></li><li><p>What do you
+        <strong>envy</strong> about me, even if you’d never admit it out
+        loud?</p></li></ul><h3>Questions About Tensions and
+        Challenges</h3><ul><li><p>What’s a <strong>lie</strong> I told you that
+        you’re still pretending to believe?</p></li><li><p>What’s a
+        <strong>promise</strong> I broke that you haven’t forgiven me
+        for?</p></li><li><p>When have I <strong>let you down</strong>, and how
+        did you learn to work around me?</p></li><li><p>What’s something
+        <strong>dangerous</strong> you think I’m hiding from the
+        group?</p></li><li><p>What about me makes you feel like you’re
+        <strong>walking on thin ice</strong>?</p></li></ul><h3>Questions About
+        Shared Futures</h3><ul><li><p>What’s a <strong>dream</strong> I have
+        that you think is foolish, but still want to help me
+        achieve?</p></li><li><p>What do you <strong>hope</strong> I’ll never
+        find out about your plans?</p></li><li><p>What do you think our
+        <strong>journey</strong> will turn me into, and does that scare
+        you?</p></li><li><p>When this is all over, where do you
+        <strong>imagine</strong> us going together?</p></li><li><p>What’s
+        something you think we’ll <strong>regret</strong>, but we’ll do it
+        anyway?</p></li></ul><p><em>Note: Try swapping "you" and "I" in these
+        questions—flip it around if it's more interesting!</em></p>
+    video:
+      controls: true
+      volume: 0.5
+    src: null
+    category: null
+    ownership:
+      default: -1
+      79CEe5dKC6Ls5VbU: 3
+    flags: {}
+    _stats:
+      coreVersion: '14.364'
+      systemId: grimwild
+      systemVersion: 0.5.3
+      createdTime: 1782697400095
+      modifiedTime: 1782697723195
+      lastModifiedBy: 79CEe5dKC6Ls5VbU
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+    _key: '!journal.pages!USX8NsULFBxHjy8p.emtc9Ieuc6gzRiFc'
+  - sort: 700000
+    name: Character Crucibles
+    type: text
+    _id: xnN0DSLzNbkyhxVA
+    system: {}
+    title:
+      show: true
+      level: 1
+    image: {}
+    text:
+      format: 1
+      content: >-
+        <p>Choosing 2-3 distinctive features helps cement your character not
+        only in your mind, but also in the shared imagination space at the
+        table. You can come back to your features again and again during scenes
+        to add them in to paint the scene. Be open to change over time as
+        well.</p><p>@Crucible[Compendium.grimwild.gwce-crucibles.RollTable.sp7gd0SeOnIrHaKw]{Character
+        -
+        Personality}</p><p>@Crucible[Compendium.grimwild.gwce-crucibles.RollTable.vUmJI4LDsTmbQRIx]{Character
+        -
+        Clothing}</p><p>@Crucible[Compendium.grimwild.gwce-crucibles.RollTable.KrGLVTOXVjUlJnSk]{Character
+        -
+        Voice}</p><p>@Crucible[Compendium.grimwild.gwce-crucibles.RollTable.L9XSMRFVaZx4D27r]{Character
+        -
+        Body}</p><p>@Crucible[Compendium.grimwild.gwce-crucibles.RollTable.7p9XYEy2VaJ0mzQa]{Character
+        - Eyes}</p>
+    video:
+      controls: true
+      volume: 0.5
+    src: null
+    category: null
+    ownership:
+      default: -1
+      79CEe5dKC6Ls5VbU: 3
+    flags: {}
+    _stats:
+      coreVersion: '14.364'
+      systemId: grimwild
+      systemVersion: 0.5.3
+      createdTime: 1782697404823
+      modifiedTime: 1782697535078
+      lastModifiedBy: 79CEe5dKC6Ls5VbU
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+    _key: '!journal.pages!USX8NsULFBxHjy8p.xnN0DSLzNbkyhxVA'
+  - sort: 800000
+    name: Paths & Talents
+    type: text
+    _id: yTATmOeTrKFLJdL9
+    system: {}
+    title:
+      show: true
+      level: 1
+    image: {}
+    text:
+      format: 1
+      content: >-
+        <p>Below, you'll find explanations of common options and terms used
+        throughout the paths. These clarifications help you better understand
+        how to customize your character and make use of talents. Not every path
+        is available in every game. Some only fit certain settings and themes.
+        Make sure to ask your GM ahead of time what is available.</p><p>Some
+        paths include additional character-building features and advice on
+        roleplaying. Both are entirely optional, but if they resonate with you,
+        lean into them to make those aspects important in the game.</p><h3>Core
+        Talents</h3><p>Your core talent powers up as you level. Some paths gain
+        bonuses every 2 levels, at 2, 4, and 6, while others gain them every 3
+        levels, at 3 and 6. Remember, the max level a character can get to is 7.
+        If you choose to keep playing, consider switching out talents at
+        milestones in the story to keep the character fresh.</p><h3>Path
+        Talents</h3><p>Every path talent is available to every other path. Those
+        under each specific path are collected around their loose theme, but by
+        no means fit every character in that path, nor do they only fit that
+        path. You are encouraged to check out all the talents and pick which
+        ones fit your character best.</p><p>To avoid redundancy, similar talents
+        across paths have been avoided. Instead, you're encouraged to reflavor
+        talents to fit your character's theme. For example, a wizard could take
+        the fighter's Bulwark and flavor it as a magical
+        shield.</p><h3>"Always"</h3><p>If you have the ability to always succeed
+        or receive a benefit, it holds true unless the GM uses the Counter
+        impact move, a strong NPC trait is in play, or other extenuating
+        circumstances arise. This should be used sparingly to emphasize the
+        impact of an exceptional adversary. As a general rule, GMs should do it
+        no more than 5% of the time.</p><h3>Bonus Dice Pools</h3><p>These
+        special pools are given by Talents, and are added before rolling, unless
+        otherwise specified. If added after, they can potentially raise the
+        result. Because they are treated as a pool, keep them separate, so other
+        dice don’t get added or affect dice
+        dropping.</p><h3>Choices</h3><p>Italicized words separated by em dashes
+        represent lists of choices, like: <em>one— two— three.</em> These
+        represent a limited number of options you must choose from. If instead a
+        talent suggests a type of choice, saying "you can do things <strong>such
+        as</strong> A and B", then you can extrapolate that out into other
+        similar actions.</p><h3>"Given Time"</h3><p>This phrase, included in
+        several talents means you need time to do what the talent lets you, but
+        how long that is leaves room for interpretation. Go with what makes
+        sense, but at the very least it's a narrative beat, a PC action, or some
+        time unhindered by disruptive forces. Use story rolls or group consensus
+        to decide what counts.</p><h3>Interrupt</h3><p>Make an
+        <em><strong>@UUID[.i6LDtcGasJUZQnAo]{action roll} </strong></em>to try
+        to stop an
+        <em><strong>@UUID[Compendium.grimwild.gwce-journals.JournalEntry.V9XAOE6EuQRhd0cW.JournalEntryPage.qTI1iQgKkAMUFvhm]{impact
+        move}</strong></em>. This requires a specific talent. If not already
+        involved, you now share the risk. On a messy, the GM keeps (or takes)
+        their suspense instead of finishing the impact move. On a grim, the GM
+        makes the impact move as normal.</p><h3>On a Perfect/Grim</h3><p>Any
+        talent that allows you to do something on a perfect also triggers on a
+        critical. Those that trigger on a Grim also happen on a
+        Disaster.</p><h3>Potency</h3><p>Having
+        <em><strong>@UUID[.7bKZMabTgv4QYNEK]{potency}</strong></em>, or pulling
+        off <em><strong>potent feats</strong></em> expands your
+        <em><strong>@UUID[.rAWKSZVoFjZNOUBd]{vantage}</strong></em> to allow you
+        to do something incredible.</p><h3>Push Yourself</h3><p>Expend extra
+        effort to activate certain talents that require it. After using the
+        talent, and resolving any related rolls, then
+        <em><strong>@UUID[.v1Y89kCcCc4AYWaW#marks]{mark}</strong></em> a stat
+        (your choice). Choose your moments wisely.</p><h3>"Thematic Path
+        Talent"</h3><p>Some core talents allow you to select a temporary or
+        changeable path talent to go along with with, such as those granted by
+        the <strong>warlock’s pact</strong>, or to the <strong>summoner’s
+        vassal</strong>. The trappings for these talents should fit with the
+        character and their source. Because of the fleeting nature of these
+        talents, PCs (and vassals) can’t use “One time only…” features. Work
+        with your GM to see what talents fit.</p>
+    video:
+      controls: true
+      volume: 0.5
+    src: null
+    category: null
+    ownership:
+      default: -1
+      79CEe5dKC6Ls5VbU: 3
+    flags: {}
+    _stats:
+      coreVersion: '14.368'
+      systemId: grimwild
+      systemVersion: 0.5.3
+      createdTime: 1782697409711
+      modifiedTime: 1791654651442
+      lastModifiedBy: nF9qxzj59Qn6fNSn
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+    _key: '!journal.pages!USX8NsULFBxHjy8p.yTATmOeTrKFLJdL9'
+folder: neGILCvF8L9Jn0F5
+categories: []
+sort: 100000
+ownership:
+  default: 0
+  79CEe5dKC6Ls5VbU: 3
+flags: {}
+_stats:
+  coreVersion: '14.368'
+  systemId: grimwild
+  systemVersion: 0.5.3
+  createdTime: 1782697351106
+  modifiedTime: 1791746041350
+  lastModifiedBy: nF9qxzj59Qn6fNSn
+  compendiumSource: null
+  duplicateSource: null
+  exportSource: null
+_key: '!journal!USX8NsULFBxHjy8p'

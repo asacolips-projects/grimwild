@@ -1,0 +1,157 @@
+name: Treefolk - Forest Woes
+description: ''
+formula: 1d6
+results:
+  - name: ''
+    description: <b>Circle can’t agree</b> on even simple actions.
+    range:
+      - 1
+      - 1
+    _id: CPtUrnIH2rV4zFuw
+    type: text
+    img: null
+    weight: 1
+    drawn: false
+    flags: {}
+    _stats:
+      coreVersion: '14.364'
+      systemId: grimwild
+      systemVersion: 0.5.3
+      createdTime: 1783270821372
+      modifiedTime: 1783270821372
+      lastModifiedBy: 79CEe5dKC6Ls5VbU
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+    _key: '!tables.results!UhwxR5bbFAvnBwsG.CPtUrnIH2rV4zFuw'
+  - name: ''
+    description: <b>Encroachment</b> by an industrious civilization.
+    range:
+      - 2
+      - 2
+    _id: yTXAeBYUG95YCGYx
+    type: text
+    img: null
+    weight: 1
+    drawn: false
+    flags: {}
+    _stats:
+      coreVersion: '14.364'
+      systemId: grimwild
+      systemVersion: 0.5.3
+      createdTime: 1783270821372
+      modifiedTime: 1783270821372
+      lastModifiedBy: 79CEe5dKC6Ls5VbU
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+    _key: '!tables.results!UhwxR5bbFAvnBwsG.yTXAeBYUG95YCGYx'
+  - name: ''
+    description: <b>Strange mushrooms</b> sapping the energy of the living.
+    range:
+      - 3
+      - 3
+    _id: vPPjCeEtJ8M43mx9
+    type: text
+    img: null
+    weight: 1
+    drawn: false
+    flags: {}
+    _stats:
+      coreVersion: '14.364'
+      systemId: grimwild
+      systemVersion: 0.5.3
+      createdTime: 1783270821372
+      modifiedTime: 1783270821372
+      lastModifiedBy: 79CEe5dKC6Ls5VbU
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+    _key: '!tables.results!UhwxR5bbFAvnBwsG.vPPjCeEtJ8M43mx9'
+  - name: ''
+    description: Unusual <b>fires</b> being set, who seeks to drive them out?
+    range:
+      - 4
+      - 4
+    _id: uye04q99zsOY9wwo
+    type: text
+    img: null
+    weight: 1
+    drawn: false
+    flags: {}
+    _stats:
+      coreVersion: '14.364'
+      systemId: grimwild
+      systemVersion: 0.5.3
+      createdTime: 1783270821372
+      modifiedTime: 1783270821372
+      lastModifiedBy: 79CEe5dKC6Ls5VbU
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+    _key: '!tables.results!UhwxR5bbFAvnBwsG.uye04q99zsOY9wwo'
+  - name: ''
+    description: No new growth on the land, the <b>forest is dying</b>.
+    range:
+      - 5
+      - 5
+    _id: ehHhYGPT5Q7Mqwgt
+    type: text
+    img: null
+    weight: 1
+    drawn: false
+    flags: {}
+    _stats:
+      coreVersion: '14.364'
+      systemId: grimwild
+      systemVersion: 0.5.3
+      createdTime: 1783270821372
+      modifiedTime: 1783270821372
+      lastModifiedBy: 79CEe5dKC6Ls5VbU
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+    _key: '!tables.results!UhwxR5bbFAvnBwsG.ehHhYGPT5Q7Mqwgt'
+  - name: ''
+    description: <b>Nearby river</b> has dried up, mysteriously.
+    range:
+      - 6
+      - 6
+    _id: 0NV1LWlkdWrWlJre
+    type: text
+    img: null
+    weight: 1
+    drawn: false
+    flags: {}
+    _stats:
+      coreVersion: '14.364'
+      systemId: grimwild
+      systemVersion: 0.5.3
+      createdTime: 1783270821372
+      modifiedTime: 1783270821372
+      lastModifiedBy: 79CEe5dKC6Ls5VbU
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+    _key: '!tables.results!UhwxR5bbFAvnBwsG.0NV1LWlkdWrWlJre'
+folder: rgX8m8cC6QFqYNJB
+sort: 4000000
+_id: UhwxR5bbFAvnBwsG
+img: icons/svg/d20-grey.svg
+replacement: true
+displayRoll: true
+ownership:
+  default: 0
+  79CEe5dKC6Ls5VbU: 3
+flags: {}
+_stats:
+  coreVersion: '14.368'
+  systemId: grimwild
+  systemVersion: 0.5.3
+  createdTime: 1783270821372
+  modifiedTime: 1791749998255
+  lastModifiedBy: nF9qxzj59Qn6fNSn
+  compendiumSource: null
+  duplicateSource: null
+  exportSource: null
+_key: '!tables!UhwxR5bbFAvnBwsG'

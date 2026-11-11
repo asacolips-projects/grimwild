@@ -1,0 +1,54 @@
+folder: vJDHTld69PUfD7Vp
+name: Kaleidoscope Rod
+type: arcana
+_id: hiVFeQ4qVzzFfRNC
+img: icons/weapons/wands/wand-gem-purple.webp
+system:
+  description: >-
+    <p>This beautifully carved, bright wooden rod (8d power pool) can put others
+    in a serene trance, as they’re pulled into their own dreams.</p>
+  tier: mythic
+  notes:
+    description: ''
+    label: ''
+  trackers:
+    - type: pool
+      pool:
+        powerPool: true
+        diceNum: 8
+        max: 8
+      label: Trance
+      points:
+        showSteps: false
+        value: 1
+        max: 1
+  touchstones: wonder—prismatic—sleep—dream
+  limitations: ''
+  activation: rotating the stone at the top.
+  sensories:
+    descriptors: fractured light, prism burst, stretched mirrors
+    actions: ground tilts away, dizzying visual distortion
+  palette:
+    - name: Mirrored Lead
+      color: '#505864'
+    - name: Bewitched Teal
+      color: '#29a3a3'
+    - name: Arcane Magenta
+      color: '#d64570'
+effects: []
+sort: 0
+ownership:
+  default: 0
+  nF9qxzj59Qn6fNSn: 3
+flags: {}
+_stats:
+  coreVersion: '14.369'
+  systemId: grimwild
+  systemVersion: 0.6.0
+  createdTime: 1794238169016
+  modifiedTime: 1794246785480
+  lastModifiedBy: UV77mtxQgW7KpS6B
+  compendiumSource: null
+  duplicateSource: null
+  exportSource: null
+_key: '!items!hiVFeQ4qVzzFfRNC'

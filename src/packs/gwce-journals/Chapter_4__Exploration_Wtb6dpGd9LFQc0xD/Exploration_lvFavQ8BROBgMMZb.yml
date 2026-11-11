@@ -1,0 +1,779 @@
+name: Exploration
+_id: lvFavQ8BROBgMMZb
+pages:
+  - sort: 100000
+    name: Exploring the Grimwild
+    type: text
+    _id: iQ3xBZqx5s4XweVx
+    system: {}
+    title:
+      show: true
+      level: 1
+    image: {}
+    text:
+      format: 1
+      content: >-
+        <p>Exploration is an adventure, and this pointcrawl system captures that
+        spirit. It's about venturing into the unknown, both as your characters
+        and as players, uncovering what lies ahead. As you explore, connections
+        form naturally, and a narrative begins to emerge—one built from your
+        experiences and the discoveries you yourselves have added to the region.
+        It's discovery as PCs, but also as players, figuring out and creating a
+        region together on the fly and finding the wonder and drama that lies
+        within it. This chapter includes rules for the Grimwild setting,
+        exploring, and downtime, all entirely optional—use any if they fit your
+        style of game.</p><h2>What is the Grimwild?</h2><p>The Grimwild is a
+        completely optional campaign setting or exploration system you can bolt
+        onto your own setting. It's a chaotic wildland, a once sparsely
+        populated borderland that was shattered by a cataclysm half a century
+        ago. Within, three realities have collided—the original small towns and
+        keeps, the ruins of a long-fallen empire, and a savage wilderness
+        teeming with monsters. The Remnants, the Wilds, and the Ruins have fused
+        into a surreal region that defies logic and strict canon, the three
+        bleeding into each other across the Grimwild's expanse. Old settlements
+        have either adapted or vanished, and survivors live in a tenuously
+        strange existence where a dragon might nest beneath a town or farmers
+        inhabit an ancient wizard’s tower.</p><p>It's a long corridor spanning
+        harsh terrain, a week's ride east to west and twice that north to south—
+        if the way were clear. Such territory is rare in the Grimwild. Sheer
+        cliffs line the stormy eastern coast, jagged mountains rise to the west,
+        and dense forests and swamps choke the north and south. Surrounding the
+        borders is the fog, impossibly dense.</p><p>To enter the fog and leave
+        the Grimwild is to risk becoming lost forever, never knowing which of
+        the three realities you will emerge into. Expeditions into and out of
+        the region rarely returned. The borderland was written off as a cursed
+        wasteland by those outside. Those inside have learned their present
+        situation is better than the horrors of the other realms. The Grimwild
+        is isolated, left to its own fate.</p><p>The Grimwild is a canon-less
+        sandbox where you have the freedom to explore, discover, and make it all
+        up as you go. Logical connections don’t matter here, giving you the
+        freedom to add whatever sounds fun to your party and let a storyline
+        emerge through play. It is a land of discovery, one even its own
+        inhabitants don't understand well.</p>
+    video:
+      controls: true
+      volume: 0.5
+    src: null
+    category: null
+    ownership:
+      default: -1
+      79CEe5dKC6Ls5VbU: 3
+    flags: {}
+    _stats:
+      coreVersion: '14.364'
+      systemId: grimwild
+      systemVersion: 0.5.3
+      createdTime: 1782770078030
+      modifiedTime: 1783183985320
+      lastModifiedBy: 79CEe5dKC6Ls5VbU
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+    _key: '!journal.pages!lvFavQ8BROBgMMZb.iQ3xBZqx5s4XweVx'
+  - sort: 200000
+    name: The Three Realities
+    type: text
+    _id: EIt6oXw5i5UoKllU
+    system: {}
+    title:
+      show: true
+      level: 1
+    image: {}
+    text:
+      format: 1
+      content: >-
+        <p>Below are some basic truths about the three realities that make up
+        the Grimwild, a set of pillars for you to start building within and
+        around. You can hang your own fiction off of them, or topple them over
+        and create something totally different. The point is to make a sandbox
+        that's easy to play in.</p><h2>The Remnants</h2><p><em><strong>Forgotten
+        People of the Borderlands</strong></em></p><p><strong>Fiercely
+        Independent:</strong> Long before the cataclysm, the borderlands thrived
+        as a melting pot of cultures, blending traditions into something
+        uniquely their own.</p><p><strong>Scattered Settlements:</strong>
+        Villages, homesteads, and the occasional keep dot the harsh landscape,
+        home to survivors who endure isolation.</p><p><strong>Simple
+        Monsters:</strong> Orcs, goblins, and a few larger beasts lurk, but
+        they're nothing compared to the horrors of the Ruins and
+        Wilds.</p><p><strong>Blended Heritage:</strong> A patchwork of
+        languages, customs, and traditions born from centuries of border nations
+        mingling.</p><h2>The Wilds</h2><p><em><strong>Untamed and Unforgiving
+        Wilderness</strong></em></p><p><strong>Tribal Nomads:</strong> Scattered
+        tribes thrive where others perish. Each tribe has its own customs, some
+        steeped in ancient magic, while others forge brutal pacts with the
+        Wilds’ predators.</p><p><strong>Raw Magic:</strong> The land itself
+        pulses with ancient, untamed power, twisting flora, fauna, and even the
+        air into something alive and unpredictable.</p><p><strong>Deadly
+        Terrain:</strong> Shifting rivers, jagged cliffs, and choking forests
+        make navigation a perilous gamble for outsiders.</p><p><strong>Primal
+        Beasts:</strong> Terrible creatures stalk the Wilds, from towering apex
+        predators to grotesque hybrids warped by magic.</p><h2>The
+        Ruins</h2><p><em><strong>A Fallen
+        Empire</strong></em></p><p><strong>Shattered Greatness:</strong> Once a
+        realm of truly unmatched knowledge and power, now reduced to crumbling
+        relics of its glory.</p><p><strong>Forgotten Relics:</strong> Ancient
+        artifacts of magic and technology linger, broken or lost, yet still
+        brimming with untapped potential.</p><p><strong>Corrupted
+        Wasteland:</strong> Overgrown cities and desolate ruins seethe with
+        decay, haunted by strange energies and whispers of the
+        past.</p><p><strong>Eldritch Horrors:</strong> Nightmarish creatures
+        lurk in the shadows—aberrations, cursed beings, and the tortured echoes
+        of those consumed by the empire’s collapse.</p>
+    video:
+      controls: true
+      volume: 0.5
+    src: null
+    category: null
+    ownership:
+      default: -1
+      79CEe5dKC6Ls5VbU: 3
+    flags: {}
+    _stats:
+      coreVersion: '14.364'
+      systemId: grimwild
+      systemVersion: 0.5.3
+      createdTime: 1782770091892
+      modifiedTime: 1783183998878
+      lastModifiedBy: 79CEe5dKC6Ls5VbU
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+    _key: '!journal.pages!lvFavQ8BROBgMMZb.EIt6oXw5i5UoKllU'
+  - sort: 300000
+    name: Exploration System
+    type: text
+    _id: hiqcakAitXcJk2qe
+    system: {}
+    title:
+      show: true
+      level: 1
+    image: {}
+    text:
+      format: 1
+      content: >-
+        <p>Exploration is played out with a token-based system that lets players
+        and the GM work together to create and draw out the world. You gain
+        exploration tokens, then spend them to add things to the map, giving
+        each player equal opportunity to have an impact, while the spending of a
+        resource adds weight to the contributions.</p><p>You're creating a
+        pointcrawl to map out the meaningful locations (points) and the
+        connections (paths) between them, focusing on what really matters.
+        Everything outside those paths? Either it’s tough to get through, or
+        there’s nothing worth finding there. This approach keeps the spotlight
+        on the places and journeys that drive the story, cutting out the tedium
+        and keeping exploration sharp, deliberate, and packed with interesting
+        things to experience.</p><h2>Earning Tokens</h2><p><strong>Expand the
+        Map:</strong> When the GM chooses to expand the map all players and the
+        GM gain 3 exploration tokens.</p><p><strong>Significant
+        Discoveries:</strong> You can earn 1-3 tokens by discovering something
+        meaningful when you actively explore or uncover key details of an
+        area.</p><p><strong>Spend Thread:</strong> You can also spend a thread
+        as an exploration token, as long as it is connected to a wise or story
+        arc. After, explain how you knew about what you spent it on
+        in-character.</p><h2>Spending Tokens</h2><p>Exploration tokens can be
+        spent to add points and paths to the map. Points are locations of
+        interest, with a few key words to describe them. Paths are drawn to
+        connect points or lead off into unexplored territory. The token cost
+        depends on the map type (region, settlement, site), covered in the next
+        few pages.</p><h2>Expand the Map</h2><p>When the GM wants to encourage
+        and make time for exploration and mapping, they can call to
+        <em><strong>expand the map</strong></em>. This can be done at any time,
+        but must be used when:</p><ul><li><p>The adventuring party reaches the
+        edge of the known map and cannot proceed without expanding
+        it.</p></li><li><p>There's a natural narrative progression requiring new
+        points or paths to open up.</p></li><li><p>Everyone's just excited to
+        add more to the map, like at the start or end of a
+        session.</p></li></ul><p>When the GM calls to expand the map, everyone
+        (GM included) takes <strong>3 exploration tokens</strong>. The map is
+        pulled out, and everyone at the table goes around, in any order, adding
+        points to the map until all tokens are spent. Tokens disappear once
+        finished.</p><h2>The Joy of Exploration</h2><p>Take
+        <em><strong>@UUID[Compendium.grimwild.gwce-journals.JournalEntry.YbuXwBYYNXIb670F.JournalEntryPage.vwluhFw7CUnimj9t]{spark}</strong></em>
+        when you engage with the wonder of exploration as
+        such:</p><ul><li><p><strong>Pause and take in the world around
+        you</strong>. Let your roleplaying bring out a moment of beauty— what
+        does your character notice, and how do they feel about it? Take spark
+        when it creates a meaningful scene.</p></li><li><p><strong>Ask a
+        question about the world</strong> that nobody knows the answer to,
+        sparking curiosity in yourself and others. Encourage wonder. Take spark
+        when the table embraces it.</p></li><li><p><strong>Travel somewhere far
+        off</strong>, simply to see what’s there. Everyone on the journey takes
+        spark.</p></li><li><p><strong>Highlight the unique nature of a
+        place</strong>, even a seemingly mundane one. Make the scene about the
+        location itself—exploration is at its heart. Take spark when you realize
+        you’ll never forget that place.</p></li></ul>
+    video:
+      controls: true
+      volume: 0.5
+    src: null
+    category: null
+    ownership:
+      default: -1
+      79CEe5dKC6Ls5VbU: 3
+    flags: {}
+    _stats:
+      coreVersion: '14.364'
+      systemId: grimwild
+      systemVersion: 0.5.3
+      createdTime: 1782770114937
+      modifiedTime: 1783179364001
+      lastModifiedBy: 79CEe5dKC6Ls5VbU
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+    _key: '!journal.pages!lvFavQ8BROBgMMZb.hiqcakAitXcJk2qe'
+  - sort: 400000
+    name: Region maps
+    type: text
+    _id: QdJB4eOlIaVTKmF8
+    system: {}
+    title:
+      show: true
+      level: 1
+    image: {}
+    text:
+      format: 1
+      content: >-
+        <p>The Grimwild region map begins with squares along each border: the
+        west is nearly impassible mountains, the east a long, cliffside
+        coastline. The north is a heavy forest, and the south a dire swamp. And
+        throughout each of these is the fog, which you dare not exit— entering
+        the fog will take you to one of the three realities, with no way to know
+        which one.</p><p>This creates a limited, but completely unknown sandbox
+        to begin exploring. You enter on one side of this sandbox, drawing a
+        path into it. From there, you begin your exploration. Here's what you
+        can spend tokens on, and how much they cost:</p><h2>Points of Interest
+        (1-2 tokens)</h2><p>You can place minor (1 token) or major (2 tokens)
+        points of any of the following. Major points are larger and have a
+        greater impact on the world around
+        them.</p><p><strong>@UUID[.NP03XqE067RnowkY#settlement]{Settlement}:</strong>
+        Places people live—towns, tribes, or
+        villages.</p><p><strong>@UUID[.NP03XqE067RnowkY#sites]{Site}:</strong>
+        Places that hold rewards—dungeons, ruins, unique natural
+        features.</p><p><strong>@UUID[.NP03XqE067RnowkY#dangers]{Danger}:</strong>
+        Hostile monsters, hazardous nature, or enemies.</p><h2>Paths (0-2
+        tokens)</h2><p>There are three different types of paths, for varying
+        costs. When you place a path, you can add <strong>Passes</strong> such
+        as bridges or tunnels for free along it, allowing it to travel over or
+        through the terrain. <strong>Waypoints</strong> are added to the path by
+        the GM. Each represents 1 day of travel on
+        horseback.</p><p><strong>Major Path (2 tokens):</strong> Well-maintained
+        roadways or trade routes. Travel is quicker, less dangerous, and
+        waypoints are more spread out.</p><p><strong>Minor Path (1
+        token):</strong> Lesser trails—footpaths, forest tracks, game
+        trails.</p><p><strong>Rough Path (free):</strong> Difficult and
+        dangerous terrain—overgrown paths, rocky trails, dry creek beds. These
+        may not have waypoints, if travel time is unclear.</p><h2>Special
+        Locations (3 tokens)</h2><p>These locations can be placed by anyone for
+        3 tokens, though the GM can add them for free to spice up the map, or as
+        the story
+        requires.</p><p><strong>@UUID[.NP03XqE067RnowkY#curiosities]{Curiosity}:</strong>
+        Unclear but intriguing signs or information waiting to be
+        explored.</p><p><strong>@UUID[.NP03XqE067RnowkY#barrier]{Barrier}:</strong>
+        Obstacles to travel—rivers, mountains, cliffs. Only crossable via
+        dangerous rough paths or passes.</p><p><strong>Area:</strong> Large,
+        usually natural, spaces with a single theme—lakes, swamps,
+        deserts.</p><h2>Making the Map</h2><p>To start off mapping a region,
+        begin on one border and
+        <em><strong>@UUID[.hiqcakAitXcJk2qe#expand-the-map]{expand the
+        map}</strong></em>. The GM draws a rough path into the region, then go
+        through one or two rounds, until the map feels just detailed enough to
+        venture into.</p><p>When you place something on the map, you always
+        label it. This can be a simple evocative label of just a few keywords or
+        even a name. If you aren't sure, you can consult the crucibles on pg.
+        138 for ideas! You can also label it [Remnants] [Wilds] [Ruins], if you
+        want to specify which reality it is mostly from.</p><p>You can add
+        factions to the map and campaign as needed. There's a
+        @UUID[.NP03XqE067RnowkY#factions]{factions crucible} to
+        help.</p><h3>Key</h3><img
+        src="modules/grimwild/assets/img/region-key.svg"><h3>Example
+        Region</h3><img
+        src="modules/grimwild/assets/img/region-example-map.svg">
+    video:
+      controls: true
+      volume: 0.5
+    src: null
+    category: null
+    ownership:
+      default: -1
+      79CEe5dKC6Ls5VbU: 3
+    flags: {}
+    _stats:
+      coreVersion: '14.368'
+      systemId: grimwild
+      systemVersion: 0.5.3
+      createdTime: 1782770134148
+      modifiedTime: 1791816230150
+      lastModifiedBy: nF9qxzj59Qn6fNSn
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+    _key: '!journal.pages!lvFavQ8BROBgMMZb.QdJB4eOlIaVTKmF8'
+  - sort: 500000
+    name: Settlement Maps
+    type: text
+    _id: ZRyWbqO7k7qig75l
+    system: {}
+    title:
+      show: true
+      level: 1
+    image: {}
+    text:
+      format: 1
+      content: >-
+        <h2>Road (1 token)</h2><p>Draw a straight line between any two other
+        lines on the map. These act as the main roads used throughout the
+        settlement. Passes can be added to roads for free when placed, allowing
+        them to cross <em><strong>areas</strong></em> and
+        <em><strong>barriers</strong></em> as needed.</p><h2>Buildings (2-3
+        tokens)</h2><p>Draw a notable building within an empty space between
+        roads on the map, generally in small areas you've created. Detail it or
+        use the crucible on the next page. Created buildings can be minor or
+        major, the difference being the narrative impact.</p><p><strong>Minor
+        Building (2 tokens):</strong> When you add a minor building, write it on
+        the map in lower case letters.</p><p><strong>Major Building (3
+        tokens):</strong> Adding a these buildings tells the GM that you want
+        the location to be more important in the setting or story. When you add
+        a major building, write it on the map in capital letters.</p><h2>Special
+        Locations (3 tokens)</h2><p>These locations can be added by the GM for
+        free to spice up the map, or as the story
+        requires.</p><p><strong>@UUID[.NP03XqE067RnowkY#curiosities]{Curiosity}:</strong>
+        Rumors or interesting locations and happenings that can be
+        explored.</p><p><strong>@UUID[.NP03XqE067RnowkY#barrier]{Barrier}:</strong>
+        Obstacles such as rivers, changes in elevation, and walls that prevent
+        easy travel. These are only crossable via
+        passes.</p><p><strong>Area:</strong> Large spaces that are thematically
+        distinct from the larger settlement. Natural areas could include lakes
+        or indoor caverns, while artificial areas might include city
+        districts.</p><h2>Building
+        Crucible</h2><p>@Crucible[Compendium.grimwild.gwce-crucibles.RollTable.7yc1Km1cgnetzd0p]{Building
+        1}</p><p>@Crucible[Compendium.grimwild.gwce-crucibles.RollTable.xWlpsmcJxtAP2PKc]{Building
+        2}</p><h3>Example Settlement - The Village of Humblefalls</h3><img
+        src="modules/grimwild/assets/img/village-example.svg">
+    video:
+      controls: true
+      volume: 0.5
+    src: null
+    category: null
+    ownership:
+      default: -1
+      79CEe5dKC6Ls5VbU: 3
+    flags: {}
+    _stats:
+      coreVersion: '14.364'
+      systemId: grimwild
+      systemVersion: 0.5.3
+      createdTime: 1782770157825
+      modifiedTime: 1783441883277
+      lastModifiedBy: 79CEe5dKC6Ls5VbU
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+    _key: '!journal.pages!lvFavQ8BROBgMMZb.ZRyWbqO7k7qig75l'
+  - sort: 600000
+    name: Site Maps
+    type: text
+    _id: XA33xYXoY9it75R6
+    system: {}
+    title:
+      show: true
+      level: 1
+    image: {}
+    text:
+      format: 1
+      content: >-
+        <p>The 5-Point Site technique, inspired by the 5-Room Dungeon concept,
+        is used for mapping adventure locations. These can cover sites from
+        warehouses and abandoned city districts, to temples and sunken
+        ruins.</p><p>The GM begins by adding the Reward point on the map first,
+        then everybody gains their 3 exploration tokens from
+        <em><strong>@UUID[.hiqcakAitXcJk2qe#expand-the-map]{expand the
+        map}</strong></em>, spending them on rooms, paths, and special
+        locations. When you place one of the points, describe it with a two-word
+        phrase—or use the settlements, sites, or dangers crucibles on pg. 138.
+        Stop when you have all 5 points and the map is just detailed enough to
+        enter. The GM decides the path, and what monsters, dangers, and
+        challenges await within the site. Here are the points and paths that can
+        be added:</p><h2>Rooms (1-2 tokens)</h2><p>Minor rooms cost 1 token,
+        while major rooms play a more impactful role, costing
+        2.</p><p><strong>Entrance:</strong> The entrance to the site has a
+        challenge that blocks the way—it may be trapped, hidden, require a key
+        (word, ceremony, object), or has a guardian to overcome. <em>This point
+        sets the tone and tests the adventurers’
+        mettle.</em></p><p><strong>Puzzle:</strong> An encounter that requires
+        clever thinking, roleplaying, or teamwork. Creativity should always be
+        rewarded, as there should never be just one resolution to the challenge.
+        <em>This is usually a non-combat encounter, adding variety to the
+        narrative.</em></p><p><strong>Hitch:</strong> Something unexpected
+        catches the party off-guard. This may be a betrayal, illusion, trap,
+        dilemma, or hidden threat. If the site calls for it, this may be another
+        puzzle or unique combat. <em>This point keeps everyone engaged and on
+        edge.</em></p><p><strong>Showdown:</strong> The dungeon’s central
+        conflict—usually a big combat or intense encounter with high stakes.
+        Incorporate the theme, location, and terrain to make this memory.
+        <em>This point brings resolution and key
+        rewards.</em></p><p><strong>Reward:</strong> The loot, or knowledge the
+        party sought, sometimes with a twist or hook for future adventures.
+        <em>This point ends with a memorable moment.</em></p><h2>Special
+        Locations (3 tokens)</h2><p><strong>Curiosity:</strong> These are vague
+        signs of something more to be explored. They might lead to new
+        information, trouble, or both. <em>This point adds more context or a new
+        hook.</em></p><p><strong>Barrier:</strong> Obstacles that make getting
+        around the site more difficult, such as chasms, and flowing lava.
+        <em>This point offers texture and the occasional
+        challenge.</em></p><p><strong>Area:</strong> Spaces, usually natural,
+        that cover some part or all of the site, such as a lake, or ruined
+        debris. <em>This part of the map gives a backdrop, and ties it to the
+        outside world.</em></p><h3>Key</h3><img
+        src="modules/grimwild/assets/img/site-key.svg"><h3>Example
+        Sites</h3><section class="grid grid-2col"><div><img
+        src="modules/grimwild/assets/img/site-1.svg"><img
+        src="modules/grimwild/assets/img/site-2.svg"></div><div><img
+        src="modules/grimwild/assets/img/site-4.svg"><img
+        src="modules/grimwild/assets/img/site-3.svg"></div></section>
+    video:
+      controls: true
+      volume: 0.5
+    src: null
+    category: null
+    ownership:
+      default: -1
+      79CEe5dKC6Ls5VbU: 3
+    flags: {}
+    _stats:
+      coreVersion: '14.364'
+      systemId: grimwild
+      systemVersion: 0.5.3
+      createdTime: 1782770189545
+      modifiedTime: 1783180551351
+      lastModifiedBy: 79CEe5dKC6Ls5VbU
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+    _key: '!journal.pages!lvFavQ8BROBgMMZb.XA33xYXoY9it75R6'
+  - sort: 700000
+    name: Exploration Crucibles
+    type: text
+    _id: NP03XqE067RnowkY
+    system: {}
+    title:
+      show: true
+      level: 1
+    image: {}
+    text:
+      format: 1
+      content: >-
+        <h2>Building</h2><p>@Crucible[Compendium.grimwild.gwce-crucibles.RollTable.7yc1Km1cgnetzd0p]{Building
+        1}</p><p>@Crucible[Compendium.grimwild.gwce-crucibles.RollTable.xWlpsmcJxtAP2PKc]{Building
+        2}</p><h2>Settlement</h2><p>@Crucible[Compendium.grimwild.gwce-crucibles.RollTable.FJKuKHM9vzMLlpXA]{Settlement
+        1}</p><p>@Crucible[Compendium.grimwild.gwce-crucibles.RollTable.ssuKpXe9tLKMXreI]{Settlement
+        2}</p><h2>Sites</h2><p>@Crucible[Compendium.grimwild.gwce-crucibles.RollTable.3wYuHF2pdStK3JEG]{Sites
+        1}</p><p>@Crucible[Compendium.grimwild.gwce-crucibles.RollTable.Cq3ZZZGkyxuvWNBB]{Sites
+        2}</p><h2>Dangers</h2><p>@Crucible[Compendium.grimwild.gwce-crucibles.RollTable.QmHXqA9IVl9OF8Bq]{Dangers
+        1}</p><p>@Crucible[Compendium.grimwild.gwce-crucibles.RollTable.JxxIoPqPL8yXzSos]{Dangers
+        2}</p><h2>Curiosities</h2><p>@Crucible[Compendium.grimwild.gwce-crucibles.RollTable.ThUmNR01aKWYlvnf]{Curiosities
+        1}</p><p>@Crucible[Compendium.grimwild.gwce-crucibles.RollTable.FpvOVXFmQvZy4pVi]{Curiosities
+        2}</p><h2>Barrier</h2><p>@Crucible[Compendium.grimwild.gwce-crucibles.RollTable.m9q79GoGXPRr9Sk9]{Barrier
+        1}</p><p>@Crucible[Compendium.grimwild.gwce-crucibles.RollTable.idXFuDwLD2diqOJd]{Barrier
+        2}</p><h2>Factions</h2><p>@Crucible[Compendium.grimwild.gwce-crucibles.RollTable.WppjPFJvezSkwAzO]{Factions
+        1}</p><p>@Crucible[Compendium.grimwild.gwce-crucibles.RollTable.1EqrjRi2cs5k1MM7]{Factions
+        2}</p>
+    video:
+      controls: true
+      volume: 0.5
+    src: null
+    category: null
+    ownership:
+      default: -1
+      79CEe5dKC6Ls5VbU: 3
+    flags: {}
+    _stats:
+      coreVersion: '14.364'
+      systemId: grimwild
+      systemVersion: 0.5.3
+      createdTime: 1782770202948
+      modifiedTime: 1783179614215
+      lastModifiedBy: 79CEe5dKC6Ls5VbU
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+    _key: '!journal.pages!lvFavQ8BROBgMMZb.NP03XqE067RnowkY'
+  - sort: 800000
+    name: The Passage of Time
+    type: text
+    _id: uQHSxzoSFeG4ORHo
+    system: {}
+    title:
+      show: true
+      level: 1
+    image: {}
+    text:
+      format: 1
+      content: >-
+        <p>The GM can declare that <em><strong>time passes</strong></em>, which
+        moves the game forward, usually to the next month or season. Try
+        creating custom months to add a fantastic touch to your world. Stick to
+        a four-season cycle with three months per season, rolled on the tables
+        below. Include three simple details like atmospherics, weather, or
+        flora—don’t forget to mix in fantastic elements! When you reach another
+        month, add three more for it. If you want to keep it simple, you can
+        track time passing with a 4d campaign timer.</p><p>For each season
+        below, choose one word from the left and one from the right and smash
+        them together to create a custom month name (or click to roll for
+        one).</p><section class="grid grid-4col"><div><p
+        style="text-align:center"><span
+        style="font-size:large">@UUID[Compendium.grimwild.gwce-crucibles.RollTable.AGyhzqwQyRYTB1Ho]{SPRING}
+        →</span></p><table><tbody><tr><td><p>green</p></td><td><p>bloom</p></td></tr><tr><td><p>petal</p></td><td><p>wind</p></td></tr><tr><td><p>moss</p></td><td><p>wave</p></td></tr><tr><td><p>eager</p></td><td><p>dawn</p></td></tr><tr><td><p>fresh</p></td><td><p>shine</p></td></tr><tr><td><p>well</p></td><td><p>hope</p></td></tr></tbody></table></div><div><p
+        style="text-align:center"><span
+        style="font-size:large">@UUID[Compendium.grimwild.gwce-crucibles.RollTable.rLxsOIih9RVpHbuJ]{SUMMER}
+        →</span></p><table><tbody><tr><td><p>ash</p></td><td><p>storm</p></td></tr><tr><td><p>flood</p></td><td><p>haze</p></td></tr><tr><td><p>sear</p></td><td><p>flare</p></td></tr><tr><td><p>lazy</p></td><td><p>glow</p></td></tr><tr><td><p>gold</p></td><td><p>breeze</p></td></tr><tr><td><p>buzz</p></td><td><p>surge</p></td></tr></tbody></table></div><div><p
+        style="text-align:center"><span
+        style="font-size:large">@UUID[Compendium.grimwild.gwce-crucibles.RollTable.IdDjMhN7oXKLltk4]{FALL}
+        →</span></p><table><tbody><tr><td><p>husk</p></td><td><p>mist</p></td></tr><tr><td><p>wilt</p></td><td><p>moon</p></td></tr><tr><td><p>amber</p></td><td><p>dew</p></td></tr><tr><td><p>rust</p></td><td><p>chill</p></td></tr><tr><td><p>bitter</p></td><td><p>flow</p></td></tr><tr><td><p>turn</p></td><td><p>smoke</p></td></tr></tbody></table></div><div><p
+        style="text-align:center"><span
+        style="font-size:large">@UUID[Compendium.grimwild.gwce-crucibles.RollTable.nvCVIhGB7iz8zrEW]{WINTER}
+        →</span></p><table><tbody><tr><td><p>storm</p></td><td><p>tide</p></td></tr><tr><td><p>bleak</p></td><td><p>gale</p></td></tr><tr><td><p>quiet</p></td><td><p>sheen</p></td></tr><tr><td><p>howl</p></td><td><p>hush</p></td></tr><tr><td><p>frost</p></td><td><p>freeze</p></td></tr><tr><td><p>drift</p></td><td><p>morn</p></td></tr></tbody></table></div></section><p><em>If
+        tracking specific months isn’t appealing, try just using parts of the
+        season: “The beginning of…”, “The height of…”, and “The end
+        of…”</em></p><h3>Example Atmospherics</h3><section class="grid
+        grid-4col"><div><ul><li><p><em>frost
+        melts</em></p></li><li><p><em>rivers swell</em></p></li><li><p><em>buds
+        bloom</em></p></li><li><p><em>emerald
+        fields</em></p></li><li><p><em>luminous
+        spores</em></p></li><li><p><em>humming
+        bees</em></p></li><li><p><em>light
+        rainfalls</em></p></li><li><p><em>velvet
+        moss</em></p></li><li><p><em>flower fields</em></p></li><li><p><em>calm
+        winds</em></p></li><li><p><em>glowing
+        fungi</em></p></li><li><p><em>clear
+        skies</em></p></li></ul></div><div><ul><li><p><em>endless
+        downpours</em></p></li><li><p><em>roaring
+        rivers</em></p></li><li><p><em>lightning
+        skies</em></p></li><li><p><em>heavy
+        stillness</em></p></li><li><p><em>rising
+        heat</em></p></li><li><p><em>warm winds</em></p></li><li><p><em>rippling
+        fields</em></p></li><li><p><em>golden
+        shimmer</em></p></li><li><p><em>insect
+        swarms</em></p></li><li><p><em>pollen
+        bursts</em></p></li><li><p><em>blooming
+        thistles</em></p></li><li><p><em>dying
+        fungi</em></p></li></ul></div><div><ul><li><p><em>drifting
+        embers</em></p></li><li><p><em>ashen
+        haze</em></p></li><li><p><em>harvested
+        fields</em></p></li><li><p><em>pale fog</em></p></li><li><p><em>rustling
+        stalks</em></p></li><li><p><em>crumbling
+        leaves</em></p></li><li><p><em>silver
+        light</em></p></li><li><p><em>creeping
+        chill</em></p></li><li><p><em>frosty
+        mornings</em></p></li><li><p><em>sharp
+        scents</em></p></li><li><p><em>stinging dew
+        drops</em></p></li><li><p><em>pollen
+        fires</em></p></li></ul></div><div><ul><li><p><em>whispering
+        winds</em></p></li><li><p><em>iced branches</em></p></li><li><p><em>long
+        nights</em></p></li><li><p><em>dark ice</em></p></li><li><p><em>frozen
+        rivers</em></p></li><li><p><em>pale
+        starlight</em></p></li><li><p><em>raging
+        blizzards</em></p></li><li><p><em>splintering
+        ice</em></p></li><li><p><em>howling skies</em></p></li><li><p><em>eerie
+        auroras</em></p></li><li><p><em>endless
+        drifts</em></p></li><li><p><em>frozen
+        silence</em></p></li></ul></div></section>
+    video:
+      controls: true
+      volume: 0.5
+    src: null
+    category: null
+    ownership:
+      default: -1
+      79CEe5dKC6Ls5VbU: 3
+    flags: {}
+    _stats:
+      coreVersion: '14.364'
+      systemId: grimwild
+      systemVersion: 0.5.3
+      createdTime: 1782770211267
+      modifiedTime: 1783181810927
+      lastModifiedBy: 79CEe5dKC6Ls5VbU
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+    _key: '!journal.pages!lvFavQ8BROBgMMZb.uQHSxzoSFeG4ORHo'
+  - sort: 900000
+    name: Expanded Downtime
+    type: text
+    _id: cGgJSZjmuFlLFSGw
+    system: {}
+    title:
+      show: true
+      level: 1
+    image: {}
+    text:
+      format: 1
+      content: >-
+        <p>When the GM declares that <em><strong>@UUID[.uQHSxzoSFeG4ORHo]{time
+        passes}</strong></em>, the PCs can decide how their downtime is spent,
+        be it drinking merrily, making plans, or striking out on their own.
+        Carousing by selling off treasure, and extended rest healing has been
+        replaced with downtime actions.</p><h2>Downtime Actions</h2><p>When
+        <em><strong>time passes</strong></em>, pick one of the following to show
+        how you spent your time. If you sell off treasure, you can pick two
+        different actions.</p><h3>Rest</h3><p>Heal all
+        <em><strong>@UUID[Compendium.grimwild.gwce-journals.JournalEntry.YbuXwBYYNXIb670F.JournalEntryPage.v1Y89kCcCc4AYWaW#marks]{marks}</strong></em>,
+        <em><strong>@UUID[Compendium.grimwild.gwce-journals.JournalEntry.YbuXwBYYNXIb670F.JournalEntryPage.v1Y89kCcCc4AYWaW#harm]{harm}</strong></em>,
+        and all non-permanent
+        <em><strong>@UUID[Compendium.grimwild.gwce-journals.JournalEntry.YbuXwBYYNXIb670F.JournalEntryPage.v1Y89kCcCc4AYWaW#conditions]{conditions}</strong></em>.
+        The GM may decide certain long-term conditions persist through normal
+        rest. <span style="color:#6e6e6e"><em>The Bard's 8d Broken Arm heals.
+        The Berserker, after taking on a fierce dragon, makes a full
+        recovery.</em></span></p><h3>Plan Ahead</h3><p>You prepare for a future
+        adventure, giving you a special kind of
+        <em><strong>@UUID[Compendium.grimwild.gwce-journals.JournalEntry.YbuXwBYYNXIb670F.JournalEntryPage.TFE7qnkVkpzsZYW6#thread]{thread}</strong></em>.
+        Write a few words describing the general preparation you make, but save
+        the details for later. This thread doesn’t count towards your maximum,
+        and can only be used to add story details based on the preparation. The
+        thread is lost when <em><strong>time passes</strong></em> again. <span
+        style="color:#6e6e6e"><em>The Warlock does a favor for the local
+        nobility, earning goodwill. The Rogue borrows a few horses for a quick
+        getaway.</em></span></p><h3>Pursue a Goal</h3><p>You take action to work
+        on a side goal. Each endeavor is tracked by a task pool. Roll the pool
+        each time you take this downtime action, and describe the result. Your
+        goal can cover anything from crafting arcana, creating a new spell
+        theorem, or even retraining a talent or wise. Work with your GM to
+        determine the goal and starting pool size. <span
+        style="color:#6e6e6e"><em>The Druid cleanses the nearby forest (6d
+        pool). The Cleric learns about esoteric magic (retrain a wise, 4d
+        pool).</em></span></p><h3>Unwind</h3><p>You spend time enjoying
+        yourself. While this is often carousing with drink and friends, it could
+        just as easily be tending to a forgotten shrine, or partaking in the
+        arts and theater. Give a vignette and
+        <em><strong>@UUID[Compendium.grimwild.gwce-journals.JournalEntry.YbuXwBYYNXIb670F.JournalEntryPage.vwluhFw7CUnimj9t]{take
+        spark}</strong></em>. <span style="color:#6e6e6e"><em>The Fighter gets a
+        new drink named after her. The Monk meditates on top of a lonely
+        hill.</em></span></p><h3>Venture</h3><p>You keep moving, doing odd jobs
+        or adventuring on your own. Make a story roll to see how it goes. The GM
+        may reward you with a minor treasure, rumor, or new ally. On a messy or
+        less, it's complicated. <span style="color:#6e6e6e"><em>The Wizard joins
+        an expedition for the University. The Paladin defends a nearby town from
+        a gnoll attack.</em></span></p>
+    video:
+      controls: true
+      volume: 0.5
+    src: null
+    category: null
+    ownership:
+      default: -1
+      79CEe5dKC6Ls5VbU: 3
+    flags: {}
+    _stats:
+      coreVersion: '14.364'
+      systemId: grimwild
+      systemVersion: 0.5.3
+      createdTime: 1782770226581
+      modifiedTime: 1783182077952
+      lastModifiedBy: 79CEe5dKC6Ls5VbU
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+    _key: '!journal.pages!lvFavQ8BROBgMMZb.cGgJSZjmuFlLFSGw'
+  - sort: 1000000
+    name: Communities
+    type: text
+    _id: PLe154IeuZJxNlZt
+    system: {}
+    title:
+      show: true
+      level: 1
+    image: {}
+    text:
+      format: 1
+      content: >-
+        <p>Between delving into forgotten dungeons and monster lairs,
+        adventurers need a place to rest. Not only do
+        <strong>Communities</strong> represent a place of respite in a dangerous
+        world, they can be homes, guilds, and even their own factions. By
+        pooling resources as a party, the players can fund their own homestead,
+        building them from the ground up, and shaping them as they
+        wish.</p><h2>Stockpile</h2><p>This special resource pool represents the
+        amount of building materials, manpower, and gold—everything needed to
+        begin construction. This pool increases with PC contribution, usually by
+        trading in treasure, though the GM may bestow stockpile directly as they
+        see fit. When <em><strong>@UUID[.uQHSxzoSFeG4ORHo]{time
+        passes}</strong></em>, the party can roll their stockpile pool, adding
+        all dropped dice towards completing their next asset. Once the total
+        cost of the asset is paid, it’s complete! Extra dropped dice can be
+        added to the next.</p><p>When trading in treasure, increase your
+        stockpile based on the tier: <strong>minor</strong> treasures net 2
+        stockpile, <strong>major</strong> increases it by 4, and
+        <strong>mythic</strong> adds 8.</p><img
+        src="modules/grimwild/assets/img/community/community.svg"><h2>Assets</h2><p>Newly
+        built structures, hosted events, and trained underlings are all assets.
+        These expand vantage when finished, often opening new opportunities for
+        the PCs, or perhaps even producing stockpile on their own.</p><p>Each
+        has a tier that determines its stockpile cost and impact. <strong>Minor
+        assets</strong> cost 4 and have a modest impact, usually just giving
+        vantage. <strong>Major assets</strong> cost 8 and have a greater impact,
+        expanding vantage and having another bonus. Work with the GM to
+        determine where your next project falls.</p><p>When finished, the party
+        decides on an NPC representative of it and adds a few traits to describe
+        them. This might be a barkeep for a new tavern, or a leader for a gang
+        of knuckleheads. This helps to bring your community to life, making it
+        truly feel lived in—and making the stakes personal should something
+        threaten it. See the next page for example assets.</p><h3>Asset
+        Examples</h3><section class="grid grid-2col"><div><img
+        src="modules/grimwild/assets/img/community/asset1-barracks.svg"><p></p><img
+        src="modules/grimwild/assets/img/community/asset3-grandfeast.svg"><p></p><img
+        src="modules/grimwild/assets/img/community/asset5-irongriplumbermill.svg"><p></p><img
+        src="modules/grimwild/assets/img/community/asset7-hostkinggaramond.svg"></div><div><img
+        src="modules/grimwild/assets/img/community/asset2-marketsquare.svg"><p></p><img
+        src="modules/grimwild/assets/img/community/asset4-spynetwork.svg"><p></p><img
+        src="modules/grimwild/assets/img/community/asset6-alchemist.svg"><p></p><img
+        src="modules/grimwild/assets/img/community/asset8-fightersguild.svg"></div></section><h2>Threats</h2><p>Threats
+        are everywhere in the Grimwild, and there will always be rival factions,
+        destructive beasts, and fool-hardy raiders willing to test your
+        defenses. When danger threatens your PC's community, play it out—but as
+        the GM, don't take away player achievements. Damage to assets is often
+        only superficial, or at worst has a cost of 1 or 2 stockpile to
+        rebuild.</p><h2>Advanced Strongholds</h2><p>If you want to make
+        communities a core focus, try splitting the stockpile pool into various
+        resources such as lumber, ore, foodstores, and coin with separate pools.
+        The GM can split the cost between these, rolling each applicable pool
+        when time passes.</p><p><em>Adapted from @Studious' Stronghold Rules on
+        Discord, and used with permission.</em></p>
+    video:
+      controls: true
+      volume: 0.5
+    src: null
+    category: null
+    ownership:
+      default: -1
+      79CEe5dKC6Ls5VbU: 3
+    flags: {}
+    _stats:
+      coreVersion: '14.364'
+      systemId: grimwild
+      systemVersion: 0.5.3
+      createdTime: 1782770253255
+      modifiedTime: 1783183912162
+      lastModifiedBy: 79CEe5dKC6Ls5VbU
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+    _key: '!journal.pages!lvFavQ8BROBgMMZb.PLe154IeuZJxNlZt'
+folder: Wtb6dpGd9LFQc0xD
+categories: []
+sort: 100000
+ownership:
+  default: 0
+  79CEe5dKC6Ls5VbU: 3
+flags: {}
+_stats:
+  coreVersion: '14.368'
+  systemId: grimwild
+  systemVersion: 0.5.3
+  createdTime: 1782770071522
+  modifiedTime: 1791746121154
+  lastModifiedBy: nF9qxzj59Qn6fNSn
+  compendiumSource: null
+  duplicateSource: null
+  exportSource: null
+_key: '!journal!lvFavQ8BROBgMMZb'

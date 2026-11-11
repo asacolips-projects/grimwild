@@ -28,12 +28,12 @@
 }
 
 .sheet-header {
-	// flex: 0 auto;
-	// overflow: hidden;
-	display: flex;
-	flex-direction: row;
-	flex-wrap: wrap;
-	justify-content: flex-start;
+	overflow: hidden;
+	display: grid;
+	grid-template-columns: 440px auto;
+	gap: 10px;
+	margin: 10px 0;
+	padding: 0;
 	margin-bottom: 10px;
 
 	.profile-img {
@@ -82,7 +82,8 @@
 	}
 }
 
-.xp {
+.xp,
+.pip-checkboxes {
 	margin-top: 8px;
 
 	> .grid {
@@ -100,7 +101,9 @@
 			margin: 0;
 		}
 	}
+}
 
+.xp {
 	input[type="checkbox"]:last-child {
 		&::before {
 			color: #483d49;
@@ -112,6 +115,22 @@
 
 		&:checked::after {
 			color: #e45117;
+		}
+	}
+}
+
+.pip-checkboxes {
+	margin: 0;
+
+	.xp-checkbox {
+		flex: 0;
+	}
+
+	.xp-half,
+	.xp-empty {
+		&::before,
+		&::after {
+			opacity: 0.6;
 		}
 	}
 }
@@ -354,6 +373,44 @@
 	.xp-half {
 		opacity: 0.4;
 	}
+}
+
+// Encumbrance slots (gear and arcana tab headers).
+.encumbrance-slots {
+	align-items: flex-start;
+	gap: 8px;
+	margin: 0;
+	flex-wrap: nowrap;
+	white-space: nowrap;
+
+	&.form-group > label,
+	&.form-group > div {
+		line-height: inherit;
+		padding-top: 0;
+	}
+
+	.encumbrance-current {
+		font-size: 12px;
+		font-weight: normal;
+		padding: 2px 4px;
+		border: 1px solid var(--color-border);
+		border-radius: 4px;
+
+		&.encumbered {
+			border-color: var(--grimwild-c-dice-messy);
+			color: var(--grimwild-c-dice-messy);
+		}
+
+		&.overencumbered {
+			border-color: var(--grimwild-c-dice-cut);
+			color: var(--grimwild-c-dice-cut);
+		}
+	}
+}
+
+// Coins pool (character header, gear header).
+.encumbrance-coins {
+	flex: 0 0 auto;
 }
 
 // Pools

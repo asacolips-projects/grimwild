@@ -1,0 +1,157 @@
+name: Archer - Past Victory
+description: ''
+formula: 1d6
+results:
+  - name: ''
+    description: Shot a <b>coin out of the air</b> on a drunken bet.
+    range:
+      - 1
+      - 1
+    _id: 2U0IYDZNkHV6EdoL
+    type: text
+    img: null
+    weight: 1
+    drawn: false
+    flags: {}
+    _stats:
+      coreVersion: '14.364'
+      systemId: grimwild
+      systemVersion: 0.5.3
+      createdTime: 1783270821320
+      modifiedTime: 1783270821320
+      lastModifiedBy: 79CEe5dKC6Ls5VbU
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+    _key: '!tables.results!Qng1ySwRPVXSpaYC.2U0IYDZNkHV6EdoL'
+  - name: ''
+    description: Pinned an <b>opponents limbs</b> to a tree in a duel.
+    range:
+      - 2
+      - 2
+    _id: 9dDyr5E6zq2FSqNt
+    type: text
+    img: null
+    weight: 1
+    drawn: false
+    flags: {}
+    _stats:
+      coreVersion: '14.364'
+      systemId: grimwild
+      systemVersion: 0.5.3
+      createdTime: 1783270821320
+      modifiedTime: 1783270821320
+      lastModifiedBy: 79CEe5dKC6Ls5VbU
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+    _key: '!tables.results!Qng1ySwRPVXSpaYC.9dDyr5E6zq2FSqNt'
+  - name: ''
+    description: Shot the blade from the hand of an <b>enemy captain</b>.
+    range:
+      - 3
+      - 3
+    _id: DPyf4kIC8phqHCUO
+    type: text
+    img: null
+    weight: 1
+    drawn: false
+    flags: {}
+    _stats:
+      coreVersion: '14.364'
+      systemId: grimwild
+      systemVersion: 0.5.3
+      createdTime: 1783270821320
+      modifiedTime: 1783270821320
+      lastModifiedBy: 79CEe5dKC6Ls5VbU
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+    _key: '!tables.results!Qng1ySwRPVXSpaYC.DPyf4kIC8phqHCUO'
+  - name: ''
+    description: Guided an arrow through fog into a <b>charging foe</b>.
+    range:
+      - 4
+      - 4
+    _id: wMtW6p7yeqAbLqI4
+    type: text
+    img: null
+    weight: 1
+    drawn: false
+    flags: {}
+    _stats:
+      coreVersion: '14.364'
+      systemId: grimwild
+      systemVersion: 0.5.3
+      createdTime: 1783270821320
+      modifiedTime: 1783270821320
+      lastModifiedBy: 79CEe5dKC6Ls5VbU
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+    _key: '!tables.results!Qng1ySwRPVXSpaYC.wMtW6p7yeqAbLqI4'
+  - name: ''
+    description: Lit a <b>signal fire</b> to warn of an approaching army.
+    range:
+      - 5
+      - 5
+    _id: 7sAUJOGU44UEWzHh
+    type: text
+    img: null
+    weight: 1
+    drawn: false
+    flags: {}
+    _stats:
+      coreVersion: '14.364'
+      systemId: grimwild
+      systemVersion: 0.5.3
+      createdTime: 1783270821320
+      modifiedTime: 1783270821320
+      lastModifiedBy: 79CEe5dKC6Ls5VbU
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+    _key: '!tables.results!Qng1ySwRPVXSpaYC.7sAUJOGU44UEWzHh'
+  - name: ''
+    description: Downed a terrorizing <b>wyvern mid-flight</b>.
+    range:
+      - 6
+      - 6
+    _id: RvRnoErk1LiGwyoJ
+    type: text
+    img: null
+    weight: 1
+    drawn: false
+    flags: {}
+    _stats:
+      coreVersion: '14.364'
+      systemId: grimwild
+      systemVersion: 0.5.3
+      createdTime: 1783270821320
+      modifiedTime: 1783270821320
+      lastModifiedBy: 79CEe5dKC6Ls5VbU
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+    _key: '!tables.results!Qng1ySwRPVXSpaYC.RvRnoErk1LiGwyoJ'
+folder: rgX8m8cC6QFqYNJB
+sort: 1400000
+_id: Qng1ySwRPVXSpaYC
+img: icons/svg/d20-grey.svg
+replacement: true
+displayRoll: true
+ownership:
+  default: 0
+  79CEe5dKC6Ls5VbU: 3
+flags: {}
+_stats:
+  coreVersion: '14.368'
+  systemId: grimwild
+  systemVersion: 0.5.3
+  createdTime: 1783270821320
+  modifiedTime: 1791749998254
+  lastModifiedBy: nF9qxzj59Qn6fNSn
+  compendiumSource: null
+  duplicateSource: null
+  exportSource: null
+_key: '!tables!Qng1ySwRPVXSpaYC'

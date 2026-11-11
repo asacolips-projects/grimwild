@@ -1,0 +1,54 @@
+folder: tYQCmcqFDsvW82gr
+name: Verdant Shield
+type: arcana
+_id: qgWL613ydYJP1pH6
+img: icons/equipment/shield/heater-emossed-spiral-green.webp
+system:
+  description: >-
+    <p>You can use this wooden kite shield to command roots and vines grow and
+    bind foes, holding them in place with a 2d timer.</p>
+  tier: major
+  notes:
+    description: ''
+    label: ''
+  trackers:
+    - type: pool
+      pool:
+        powerPool: false
+        diceNum: 2
+        max: 2
+      label: Bind
+      points:
+        showSteps: false
+        value: 1
+        max: 1
+  touchstones: entangle—roots—hinder
+  limitations: ''
+  activation: anchoring it in soft earth.
+  sensories:
+    descriptors: overgrown vines, thorns and flowers grow
+    actions: plants grow with a deeper green, slow wrapping
+  palette:
+    - name: Mossy Green
+      color: '#3b5233'
+    - name: Oak Wood
+      color: '#5c4033'
+    - name: Sap Green
+      color: '#2e8b57'
+effects: []
+sort: 0
+ownership:
+  default: 0
+  nF9qxzj59Qn6fNSn: 3
+flags: {}
+_stats:
+  coreVersion: '14.369'
+  systemId: grimwild
+  systemVersion: 0.6.0
+  createdTime: 1794236097515
+  modifiedTime: 1794236659383
+  lastModifiedBy: UV77mtxQgW7KpS6B
+  compendiumSource: null
+  duplicateSource: null
+  exportSource: null
+_key: '!items!qgWL613ydYJP1pH6'

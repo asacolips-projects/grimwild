@@ -1,0 +1,20 @@
+type: RollTable
+folder: null
+name: CE - GM
+color: null
+sorting: a
+_id: wyrhdk61wStK779X
+description: ''
+sort: 300000
+flags: {}
+_stats:
+  coreVersion: '14.368'
+  systemId: grimwild
+  systemVersion: 0.5.3
+  createdTime: 1783142416439
+  modifiedTime: 1791751407625
+  lastModifiedBy: nF9qxzj59Qn6fNSn
+  compendiumSource: null
+  duplicateSource: null
+  exportSource: null
+_key: '!folders!wyrhdk61wStK779X'

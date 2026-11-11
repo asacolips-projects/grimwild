@@ -1,0 +1,157 @@
+name: Mage - Mostly Finished Spell
+description: ''
+formula: 1d6
+results:
+  - name: ''
+    description: Summon a <b>stubborn ghostly goat</b> mount.
+    range:
+      - 1
+      - 1
+    _id: cr9AOwQsnE49UU0U
+    type: text
+    img: null
+    weight: 1
+    drawn: false
+    flags: {}
+    _stats:
+      coreVersion: '14.364'
+      systemId: grimwild
+      systemVersion: 0.5.3
+      createdTime: 1783270821348
+      modifiedTime: 1783270821348
+      lastModifiedBy: 79CEe5dKC6Ls5VbU
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+    _key: '!tables.results!39jn5shAEQXbEUAW.cr9AOwQsnE49UU0U'
+  - name: ''
+    description: Conjure <b>flaming pebbles</b> that burn before striking.
+    range:
+      - 2
+      - 2
+    _id: KNUuDAdF02cteyqx
+    type: text
+    img: null
+    weight: 1
+    drawn: false
+    flags: {}
+    _stats:
+      coreVersion: '14.364'
+      systemId: grimwild
+      systemVersion: 0.5.3
+      createdTime: 1783270821348
+      modifiedTime: 1783270821348
+      lastModifiedBy: 79CEe5dKC6Ls5VbU
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+    _key: '!tables.results!39jn5shAEQXbEUAW.KNUuDAdF02cteyqx'
+  - name: ''
+    description: Reveal <b>surface thoughts</b> in a loud song.
+    range:
+      - 3
+      - 3
+    _id: MLkgNPbO1Bddw3o8
+    type: text
+    img: null
+    weight: 1
+    drawn: false
+    flags: {}
+    _stats:
+      coreVersion: '14.364'
+      systemId: grimwild
+      systemVersion: 0.5.3
+      createdTime: 1783270821348
+      modifiedTime: 1783270821348
+      lastModifiedBy: 79CEe5dKC6Ls5VbU
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+    _key: '!tables.results!39jn5shAEQXbEUAW.MLkgNPbO1Bddw3o8'
+  - name: ''
+    description: <b>Full invisibility</b>, except for your eyes and teeth.
+    range:
+      - 4
+      - 4
+    _id: ZP5sDFJb9OWbWP68
+    type: text
+    img: null
+    weight: 1
+    drawn: false
+    flags: {}
+    _stats:
+      coreVersion: '14.364'
+      systemId: grimwild
+      systemVersion: 0.5.3
+      createdTime: 1783270821348
+      modifiedTime: 1783270821348
+      lastModifiedBy: 79CEe5dKC6Ls5VbU
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+    _key: '!tables.results!39jn5shAEQXbEUAW.ZP5sDFJb9OWbWP68'
+  - name: ''
+    description: <b>Overly critical familiar</b>, that has better ideas than you.
+    range:
+      - 5
+      - 5
+    _id: 2ZpX1jApzz8Ec5Bu
+    type: text
+    img: null
+    weight: 1
+    drawn: false
+    flags: {}
+    _stats:
+      coreVersion: '14.364'
+      systemId: grimwild
+      systemVersion: 0.5.3
+      createdTime: 1783270821348
+      modifiedTime: 1783270821348
+      lastModifiedBy: 79CEe5dKC6Ls5VbU
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+    _key: '!tables.results!39jn5shAEQXbEUAW.2ZpX1jApzz8Ec5Bu'
+  - name: ''
+    description: <b>Message</b>, that arrives weeks or months later.
+    range:
+      - 6
+      - 6
+    _id: K4B4duetrQVsScls
+    type: text
+    img: null
+    weight: 1
+    drawn: false
+    flags: {}
+    _stats:
+      coreVersion: '14.364'
+      systemId: grimwild
+      systemVersion: 0.5.3
+      createdTime: 1783270821348
+      modifiedTime: 1783270821348
+      lastModifiedBy: 79CEe5dKC6Ls5VbU
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+    _key: '!tables.results!39jn5shAEQXbEUAW.K4B4duetrQVsScls'
+folder: rgX8m8cC6QFqYNJB
+sort: 2600000
+_id: 39jn5shAEQXbEUAW
+img: icons/svg/d20-grey.svg
+replacement: true
+displayRoll: true
+ownership:
+  default: 0
+  79CEe5dKC6Ls5VbU: 3
+flags: {}
+_stats:
+  coreVersion: '14.368'
+  systemId: grimwild
+  systemVersion: 0.5.3
+  createdTime: 1783270821348
+  modifiedTime: 1791749998255
+  lastModifiedBy: nF9qxzj59Qn6fNSn
+  compendiumSource: null
+  duplicateSource: null
+  exportSource: null
+_key: '!tables!39jn5shAEQXbEUAW'

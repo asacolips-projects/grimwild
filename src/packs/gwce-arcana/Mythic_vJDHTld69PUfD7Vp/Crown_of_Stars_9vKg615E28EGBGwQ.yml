@@ -1,0 +1,44 @@
+folder: vJDHTld69PUfD7Vp
+name: Crown of Stars
+type: arcana
+_id: 9vKg615E28EGBGwQ
+img: icons/equipment/head/crown-gold-blue.webp
+system:
+  description: >-
+    <p>While wearing this crown, you can ask favors of the stars themselves, and
+    they’re inclined to hear you out. ([[/r 3d]] story roll)</p>
+  tier: mythic
+  notes:
+    description: ''
+    label: ''
+  trackers: []
+  touchstones: star—meteor—night—sight—obey
+  limitations: ''
+  activation: beseeching the heavens.
+  sensories:
+    descriptors: chill in the air, silence, absorb light
+    actions: stars in the sky change, slight upward gravity
+  palette:
+    - name: Black Void
+      color: '#0b0e14'
+    - name: Meteorite
+      color: '#30353d'
+    - name: Twinkle White
+      color: '#f4efff'
+effects: []
+sort: 0
+ownership:
+  default: 0
+  nF9qxzj59Qn6fNSn: 3
+flags: {}
+_stats:
+  coreVersion: '14.369'
+  systemId: grimwild
+  systemVersion: 0.6.0
+  createdTime: 1794238169016
+  modifiedTime: 1794246617717
+  lastModifiedBy: UV77mtxQgW7KpS6B
+  compendiumSource: null
+  duplicateSource: null
+  exportSource: null
+_key: '!items!9vKg615E28EGBGwQ'

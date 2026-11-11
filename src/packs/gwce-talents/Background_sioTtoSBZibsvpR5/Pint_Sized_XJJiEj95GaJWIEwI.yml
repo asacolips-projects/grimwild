@@ -1,0 +1,32 @@
+folder: sioTtoSBZibsvpR5
+name: Pint-Sized
+type: talent
+_id: XJJiEj95GaJWIEwI
+img: icons/svg/item-bag.svg
+system:
+  description: >-
+    <p>Your slight frame has its advantages. Given time, you can pull off a
+    <em><strong>potent feat of stealth or escape</strong></em>. You can
+    <em><strong>push yourself</strong></em> to do it on the spot.</p>
+  core: false
+  notes:
+    description: ''
+    label: ''
+  trackers: []
+effects: []
+sort: 0
+ownership:
+  default: 0
+  79CEe5dKC6Ls5VbU: 3
+flags: {}
+_stats:
+  coreVersion: '14.364'
+  systemId: grimwild
+  systemVersion: 0.5.3
+  createdTime: 1782662611331
+  modifiedTime: 1782662611331
+  lastModifiedBy: 79CEe5dKC6Ls5VbU
+  compendiumSource: null
+  duplicateSource: null
+  exportSource: null
+_key: '!items!XJJiEj95GaJWIEwI'

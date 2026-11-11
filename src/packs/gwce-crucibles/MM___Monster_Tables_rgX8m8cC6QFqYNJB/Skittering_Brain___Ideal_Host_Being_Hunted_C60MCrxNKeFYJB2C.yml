@@ -1,0 +1,157 @@
+name: Skittering Brain - Ideal Host Being Hunted
+description: ''
+formula: 1d6
+results:
+  - name: ''
+    description: <b>Criminal mastermind</b>, for their cunning.
+    range:
+      - 1
+      - 1
+    _id: J7JwSapAPS1O7D7F
+    type: text
+    img: null
+    weight: 1
+    drawn: false
+    flags: {}
+    _stats:
+      coreVersion: '14.364'
+      systemId: grimwild
+      systemVersion: 0.5.3
+      createdTime: 1783270821402
+      modifiedTime: 1783270821402
+      lastModifiedBy: 79CEe5dKC6Ls5VbU
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+    _key: '!tables.results!C60MCrxNKeFYJB2C.J7JwSapAPS1O7D7F'
+  - name: ''
+    description: <b>Wise scholar</b>, for their knowledge.
+    range:
+      - 2
+      - 2
+    _id: qzn7IiEhcazIvASt
+    type: text
+    img: null
+    weight: 1
+    drawn: false
+    flags: {}
+    _stats:
+      coreVersion: '14.364'
+      systemId: grimwild
+      systemVersion: 0.5.3
+      createdTime: 1783270821402
+      modifiedTime: 1783270821402
+      lastModifiedBy: 79CEe5dKC6Ls5VbU
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+    _key: '!tables.results!C60MCrxNKeFYJB2C.qzn7IiEhcazIvASt'
+  - name: ''
+    description: <b>Military general</b>, for their experience.
+    range:
+      - 3
+      - 3
+    _id: Sirvlf0S3rLAd4cw
+    type: text
+    img: null
+    weight: 1
+    drawn: false
+    flags: {}
+    _stats:
+      coreVersion: '14.364'
+      systemId: grimwild
+      systemVersion: 0.5.3
+      createdTime: 1783270821402
+      modifiedTime: 1783270821402
+      lastModifiedBy: 79CEe5dKC6Ls5VbU
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+    _key: '!tables.results!C60MCrxNKeFYJB2C.Sirvlf0S3rLAd4cw'
+  - name: ''
+    description: <b>High clergy</b>, for their faith.
+    range:
+      - 4
+      - 4
+    _id: 6DKpOxDur6Q7Hydu
+    type: text
+    img: null
+    weight: 1
+    drawn: false
+    flags: {}
+    _stats:
+      coreVersion: '14.364'
+      systemId: grimwild
+      systemVersion: 0.5.3
+      createdTime: 1783270821402
+      modifiedTime: 1783270821402
+      lastModifiedBy: 79CEe5dKC6Ls5VbU
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+    _key: '!tables.results!C60MCrxNKeFYJB2C.6DKpOxDur6Q7Hydu'
+  - name: ''
+    description: <b>World traveler</b>, for their languages.
+    range:
+      - 5
+      - 5
+    _id: 2stBBRpBA2IHoeKm
+    type: text
+    img: null
+    weight: 1
+    drawn: false
+    flags: {}
+    _stats:
+      coreVersion: '14.364'
+      systemId: grimwild
+      systemVersion: 0.5.3
+      createdTime: 1783270821402
+      modifiedTime: 1783270821402
+      lastModifiedBy: 79CEe5dKC6Ls5VbU
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+    _key: '!tables.results!C60MCrxNKeFYJB2C.2stBBRpBA2IHoeKm'
+  - name: ''
+    description: <b>Renowned artist</b>, for their creativity.
+    range:
+      - 6
+      - 6
+    _id: FucD80gBevNGJUOp
+    type: text
+    img: null
+    weight: 1
+    drawn: false
+    flags: {}
+    _stats:
+      coreVersion: '14.364'
+      systemId: grimwild
+      systemVersion: 0.5.3
+      createdTime: 1783270821402
+      modifiedTime: 1783270821402
+      lastModifiedBy: 79CEe5dKC6Ls5VbU
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+    _key: '!tables.results!C60MCrxNKeFYJB2C.FucD80gBevNGJUOp'
+folder: rgX8m8cC6QFqYNJB
+sort: 5700000
+_id: C60MCrxNKeFYJB2C
+img: icons/svg/d20-grey.svg
+replacement: true
+displayRoll: true
+ownership:
+  default: 0
+  79CEe5dKC6Ls5VbU: 3
+flags: {}
+_stats:
+  coreVersion: '14.368'
+  systemId: grimwild
+  systemVersion: 0.5.3
+  createdTime: 1783270821402
+  modifiedTime: 1791749998256
+  lastModifiedBy: nF9qxzj59Qn6fNSn
+  compendiumSource: null
+  duplicateSource: null
+  exportSource: null
+_key: '!tables!C60MCrxNKeFYJB2C'

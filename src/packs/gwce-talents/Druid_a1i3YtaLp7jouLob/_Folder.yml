@@ -1,0 +1,20 @@
+type: Item
+folder: null
+name: Druid
+color: '#4fb05a'
+sorting: a
+_id: a1i3YtaLp7jouLob
+description: ''
+sort: 600000
+flags: {}
+_stats:
+  coreVersion: '14.364'
+  systemId: grimwild
+  systemVersion: 0.5.3
+  createdTime: 1782662616191
+  modifiedTime: 1782662616217
+  lastModifiedBy: 79CEe5dKC6Ls5VbU
+  compendiumSource: null
+  duplicateSource: null
+  exportSource: null
+_key: '!folders!a1i3YtaLp7jouLob'

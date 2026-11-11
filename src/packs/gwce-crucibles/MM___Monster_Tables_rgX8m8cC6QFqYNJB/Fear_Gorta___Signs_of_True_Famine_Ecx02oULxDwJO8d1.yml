@@ -1,0 +1,157 @@
+name: Fear Gorta - Signs of True Famine
+description: ''
+formula: 1d6
+results:
+  - name: ''
+    description: <b>Cattle found starved</b> beside full troughs.
+    range:
+      - 1
+      - 1
+    _id: IksgIv1e5ZcHEaUq
+    type: text
+    img: null
+    weight: 1
+    drawn: false
+    flags: {}
+    _stats:
+      coreVersion: '14.364'
+      systemId: grimwild
+      systemVersion: 0.5.3
+      createdTime: 1783270821424
+      modifiedTime: 1783270821424
+      lastModifiedBy: 79CEe5dKC6Ls5VbU
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+    _key: '!tables.results!Ecx02oULxDwJO8d1.IksgIv1e5ZcHEaUq'
+  - name: ''
+    description: Children <b>born with teeth</b>, who do not cry.
+    range:
+      - 2
+      - 2
+    _id: CmVLqXXdFN0eBQaH
+    type: text
+    img: null
+    weight: 1
+    drawn: false
+    flags: {}
+    _stats:
+      coreVersion: '14.364'
+      systemId: grimwild
+      systemVersion: 0.5.3
+      createdTime: 1783270821424
+      modifiedTime: 1783270821424
+      lastModifiedBy: 79CEe5dKC6Ls5VbU
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+    _key: '!tables.results!Ecx02oULxDwJO8d1.CmVLqXXdFN0eBQaH'
+  - name: ''
+    description: Fields that <b>rot overnight</b>, even if bloomed yesterday.
+    range:
+      - 3
+      - 3
+    _id: gPh4ah5in6SxwtWO
+    type: text
+    img: null
+    weight: 1
+    drawn: false
+    flags: {}
+    _stats:
+      coreVersion: '14.364'
+      systemId: grimwild
+      systemVersion: 0.5.3
+      createdTime: 1783270821424
+      modifiedTime: 1783270821424
+      lastModifiedBy: 79CEe5dKC6Ls5VbU
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+    _key: '!tables.results!Ecx02oULxDwJO8d1.gPh4ah5in6SxwtWO'
+  - name: ''
+    description: Village leaving out <b>bread</b> nightly, never seen at dawn.
+    range:
+      - 4
+      - 4
+    _id: f8hjqn6xl5fpQSoy
+    type: text
+    img: null
+    weight: 1
+    drawn: false
+    flags: {}
+    _stats:
+      coreVersion: '14.364'
+      systemId: grimwild
+      systemVersion: 0.5.3
+      createdTime: 1783270821424
+      modifiedTime: 1783270821424
+      lastModifiedBy: 79CEe5dKC6Ls5VbU
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+    _key: '!tables.results!Ecx02oULxDwJO8d1.f8hjqn6xl5fpQSoy'
+  - name: ''
+    description: <b>Waking dreams</b> of gnawing hunger, spreading.
+    range:
+      - 5
+      - 5
+    _id: L77HvE4TjO2FPSYm
+    type: text
+    img: null
+    weight: 1
+    drawn: false
+    flags: {}
+    _stats:
+      coreVersion: '14.364'
+      systemId: grimwild
+      systemVersion: 0.5.3
+      createdTime: 1783270821424
+      modifiedTime: 1783270821424
+      lastModifiedBy: 79CEe5dKC6Ls5VbU
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+    _key: '!tables.results!Ecx02oULxDwJO8d1.L77HvE4TjO2FPSYm'
+  - name: ''
+    description: <b>Coins turn black</b> in the hand of the miser.
+    range:
+      - 6
+      - 6
+    _id: BeWcFE9YZkE0iVpg
+    type: text
+    img: null
+    weight: 1
+    drawn: false
+    flags: {}
+    _stats:
+      coreVersion: '14.364'
+      systemId: grimwild
+      systemVersion: 0.5.3
+      createdTime: 1783270821424
+      modifiedTime: 1783270821424
+      lastModifiedBy: 79CEe5dKC6Ls5VbU
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+    _key: '!tables.results!Ecx02oULxDwJO8d1.BeWcFE9YZkE0iVpg'
+folder: rgX8m8cC6QFqYNJB
+sort: 6700000
+_id: Ecx02oULxDwJO8d1
+img: icons/svg/d20-grey.svg
+replacement: true
+displayRoll: true
+ownership:
+  default: 0
+  79CEe5dKC6Ls5VbU: 3
+flags: {}
+_stats:
+  coreVersion: '14.368'
+  systemId: grimwild
+  systemVersion: 0.5.3
+  createdTime: 1783270821424
+  modifiedTime: 1791749998257
+  lastModifiedBy: nF9qxzj59Qn6fNSn
+  compendiumSource: null
+  duplicateSource: null
+  exportSource: null
+_key: '!tables!Ecx02oULxDwJO8d1'

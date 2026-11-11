@@ -1,0 +1,44 @@
+folder: M9v17yUrFRF23cat
+name: Chitterfang Pendant
+type: arcana
+_id: VCRHlvn7JYgyKcl0
+img: icons/equipment/neck/necklace-animal-scarab.webp
+system:
+  description: >-
+    <p>The beetle in this pendant can be sent to buzz around and distract others
+    for a few moments before returning.</p>
+  tier: minor
+  notes:
+    description: ''
+    label: ''
+  trackers: []
+  touchstones: insect—annoying—summon
+  limitations: ''
+  activation: tapping on the beetle
+  sensories:
+    descriptors: clicking mandibles, buzzing wings, iridescent sheen
+    actions: twitching legs, beetle drifts aimlessly
+  palette:
+    - name: Chitin Green
+      color: '#2e4a3f'
+    - name: Carapace Black
+      color: '#141816'
+    - name: Iridescent Purple
+      color: '#4b3b5d'
+effects: []
+sort: 0
+ownership:
+  default: 0
+  nF9qxzj59Qn6fNSn: 3
+flags: {}
+_stats:
+  coreVersion: '14.369'
+  systemId: grimwild
+  systemVersion: 0.6.0
+  createdTime: 1791835517138
+  modifiedTime: 1794191841602
+  lastModifiedBy: UV77mtxQgW7KpS6B
+  compendiumSource: null
+  duplicateSource: null
+  exportSource: null
+_key: '!items!VCRHlvn7JYgyKcl0'

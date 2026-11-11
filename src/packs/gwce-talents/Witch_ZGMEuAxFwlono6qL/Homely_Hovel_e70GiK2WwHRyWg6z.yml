@@ -1,0 +1,34 @@
+folder: ZGMEuAxFwlono6qL
+name: Homely Hovel
+type: talent
+_id: e70GiK2WwHRyWg6z
+img: icons/environment/settlement/hut.webp
+system:
+  description: >-
+    <p>Given time, you can bless a homestead to overflow with power. You get
+    <em><strong>outside help</strong></em> on all rolls while on its grounds.
+    Choose two wondrous traits to give it such as: <em>traveling—ritual
+    anchor—healing—caretaker</em>. You can only have one homestead like this at
+    a time.</p>
+  core: false
+  notes:
+    description: <p>@REF</p>
+    label: Homely Hovel Tables
+  trackers: []
+effects: []
+sort: 0
+ownership:
+  default: 0
+  79CEe5dKC6Ls5VbU: 3
+flags: {}
+_stats:
+  coreVersion: '14.368'
+  systemId: grimwild
+  systemVersion: 0.5.3
+  createdTime: 1783006849086
+  modifiedTime: 1791753759783
+  lastModifiedBy: nF9qxzj59Qn6fNSn
+  compendiumSource: null
+  duplicateSource: null
+  exportSource: null
+_key: '!items!e70GiK2WwHRyWg6z'

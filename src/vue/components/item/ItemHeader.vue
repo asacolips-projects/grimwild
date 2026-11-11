@@ -1,4 +1,6 @@
 <template>
+	<!-- View/edit toggle -->
+	<slot name="actions"></slot>
 	<header class="sheet-header">
 		<div class="header-fields grid grid-4col">
 			<!-- Avatar -->
@@ -19,6 +21,11 @@
 				<div class="name form-group stacked">
 					<label>{{ game.i18n.localize('Name') }}</label>
 					<input type="text" name="name" v-model="context.item.name" :placeholder="game.i18n.localize('Name')"/>
+				</div>
+				<!-- Slot size (GEAR ONLY) -->
+				<div v-if="context.encumbranceEnabled && context.systemFields.slotSize" class="item-slots form-group stacked">
+					<label>{{ context.systemFields.slotSize.label }}</label>
+					<input type="number" name="system.slotSize" v-model="context.system.slotSize" min="0" step="0.5"/>
 				</div>
 				<!-- Challenge Pool (CHALLENGES ONLY) -->
 				<div v-if="context.item.type === 'challenge'" class="form-group">

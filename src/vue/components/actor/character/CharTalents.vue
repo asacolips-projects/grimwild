@@ -3,7 +3,6 @@
 		<ol class="items-list grid-span-3">
 			<!-- Header row -->
 			<li class="flexrow items-header stroke stroke-bottom">
-				<div class="item-name">Talent Name</div>
 				<div class="item-controls">
 					<template v-if="context.editable">
 						<button class="item-control item-create"
@@ -16,7 +15,13 @@
 							<i class="fas fa-plus"></i><span>Add</span>
 						</button>
 					</template>
-					<button class="item-control item-compendium" type="button" data-action="openPack" data-pack="grimwild.talents"><i class="fas fa-atlas"></i>Compendium</button>
+					<button
+						class="item-control
+						item-compendium"
+						type="button"
+						data-action="openPack"
+						:data-pack="context?.ceRulesEnabled ? 'grimwild.gwce-talents' : 'grimwild.talents'"
+					><i class="fas fa-atlas"></i>Compendium</button>
 				</div>
 			</li>
 			<!-- Talent rows -->

@@ -1,0 +1,42 @@
+folder: DYRzmNaS808jSnxV
+name: Warcry
+type: talent
+_id: zRFGcTYw8eUUqnVG
+img: /icons/skills/trades/music-singing-voice-blue.webp
+system:
+  description: >-
+    <p>Twice per session, you can bolster your allies or strike fear in your
+    foes with an inspiring battle cry, letting you: <em>increase an ally's die
+    result by 1 (3→4)—calm or intensify a vex response—clear a mark from an
+    ally</em>. [Prohibited: Bard]</p>
+  core: false
+  notes:
+    description: ''
+    label: ''
+  trackers:
+    - type: points
+      label: Per Session
+      points:
+        value: 2
+        max: 2
+        showSteps: true
+      pool:
+        diceNum: 0
+        powerPool: false
+effects: []
+sort: 0
+ownership:
+  default: 0
+  79CEe5dKC6Ls5VbU: 3
+flags: {}
+_stats:
+  coreVersion: '14.364'
+  systemId: grimwild
+  systemVersion: 0.5.3
+  createdTime: 1782662613736
+  modifiedTime: 1783008276870
+  lastModifiedBy: 79CEe5dKC6Ls5VbU
+  compendiumSource: null
+  duplicateSource: null
+  exportSource: null
+_key: '!items!zRFGcTYw8eUUqnVG'

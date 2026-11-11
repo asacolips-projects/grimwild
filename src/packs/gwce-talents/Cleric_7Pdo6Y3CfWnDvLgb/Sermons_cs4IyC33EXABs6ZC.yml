@@ -1,0 +1,44 @@
+folder: 7Pdo6Y3CfWnDvLgb
+name: Sermons
+type: talent
+_id: cs4IyC33EXABs6ZC
+img: /icons/magic/control/control-influence-crown-yellow.webp
+system:
+  description: >-
+    <p>When given time, you can pull off <em><strong>potent feats of
+    persuasion</strong></em> in the name of your beliefs, like <em>commanding a
+    crowd to bring the duke for judgment</em> or <em>showing the goblins the
+    glory of your god</em>. You can <em><strong>push yourself</strong></em> to
+    do it on the spot. One time only, you can make this a ritual-level
+    effect.</p>
+  core: false
+  notes:
+    description: ''
+    label: ''
+  trackers:
+    - type: points
+      label: Ritual-Level (one time only)
+      points:
+        value: 1
+        max: 1
+        showSteps: true
+      pool:
+        diceNum: 0
+        powerPool: false
+effects: []
+sort: 0
+ownership:
+  default: 0
+  79CEe5dKC6Ls5VbU: 3
+flags: {}
+_stats:
+  coreVersion: '14.364'
+  systemId: grimwild
+  systemVersion: 0.5.3
+  createdTime: 1782662614867
+  modifiedTime: 1783008405249
+  lastModifiedBy: 79CEe5dKC6Ls5VbU
+  compendiumSource: null
+  duplicateSource: null
+  exportSource: null
+_key: '!items!cs4IyC33EXABs6ZC'

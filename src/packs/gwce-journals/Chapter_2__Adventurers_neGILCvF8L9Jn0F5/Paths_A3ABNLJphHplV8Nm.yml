@@ -1,0 +1,1932 @@
+name: Paths
+_id: A3ABNLJphHplV8Nm
+pages:
+  - sort: 100000
+    name: Artificer
+    type: text
+    _id: 3Gn22HIAtsedLnmL
+    system: {}
+    title:
+      show: true
+      level: 1
+    image: {}
+    text:
+      format: 1
+      content: >-
+        <p><em><strong>AKA the enchanter, tinkerer,
+        inventor</strong></em></p><p><em>You shape the world with your
+        creations, blending ingenuity, craftsmanship, and magic to forge and
+        enchant wonders.</em></p><p><strong>Core Talent:</strong>
+        @UUID[Compendium.grimwild.gwce-talents.Item.nSk6qwqAJI6faSuK]{Infusion}</p><p><strong>Path
+        Talents:</strong>
+        @UUID[Compendium.grimwild.gwce-talents.Item.El1lO8dY68n1saGD]{Animate
+        Objects}
+        @UUID[Compendium.grimwild.gwce-talents.Item.J6nKSwuTl4CiPNZs]{Artificial
+        Parts}
+        @UUID[Compendium.grimwild.gwce-talents.Item.doJNSEVI2732Yk82]{Grenades}
+        @UUID[Compendium.grimwild.gwce-talents.Item.ZtFXtPoXey76Oi93]{Magnum
+        Opus}
+        @UUID[Compendium.grimwild.gwce-talents.Item.Ch2EZO6UoTY7eos9]{Mischief
+        Maker}
+        @UUID[Compendium.grimwild.gwce-talents.Item.kflJQHmJnQeq3Ppv]{Trap
+        Making}
+        @UUID[Compendium.grimwild.gwce-talents.Item.IJthEn7faGGn2Pe8]{Wandslinger}</p><h3>Everything
+        Arcana (Optional)</h3><p>You can reflavor any of your path talents to
+        actually be the effects of magical gizmos you’ve created. Toss in some
+        magitech buzzwords that almost make sense, and use them to sound like
+        you know what you’re talking about—perfect for baffling the less
+        inventive. You can teach others to use them, though doing so always
+        carries <em><strong>risk</strong></em>. If any of these gizmos is ever
+        lost, you can recreate them with some effort during any
+        downtime.</p><h3>Magitechnobabble</h3><p><em>(smash together, and ramble
+        on)</em></p><p>@Crucible[Compendium.grimwild.gwce-crucibles.RollTable.qmajHiC1ZCuETGn3]</p><p>@Crucible[Compendium.grimwild.gwce-crucibles.RollTable.8knCqotKXeVrR8z8]</p><h3>Constructs
+        and Homunculi</h3><p>Looking for a magical companion you found or
+        created? Use the
+        @UUID[Compendium.grimwild.gwce-talents.Item.yVMzP2yTj7Jyvdfk]{Animal
+        Companion} talent from the ranger path, and pick from the tricks and
+        flaws below.</p><p><strong>TRICKS:</strong>
+        <em>distract—fight—guard—rescue—rideable—scout—search—talk—trace—signal</em></p><p><strong>FLAWS:</strong>
+        <em>clumsy—defiant—dimwitted—noisy—overprotective—powered—scary—unreliable</em></p>
+    video:
+      controls: true
+      volume: 0.5
+    src: null
+    category: null
+    ownership:
+      default: -1
+      79CEe5dKC6Ls5VbU: 3
+    flags: {}
+    _stats:
+      coreVersion: '14.364'
+      systemId: grimwild
+      systemVersion: 0.5.3
+      createdTime: 1782682169158
+      modifiedTime: 1782684191408
+      lastModifiedBy: 79CEe5dKC6Ls5VbU
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+    _key: '!journal.pages!A3ABNLJphHplV8Nm.3Gn22HIAtsedLnmL'
+  - sort: 200000
+    name: Bard
+    type: text
+    _id: H0JCDbN6kAyXGxic
+    system: {}
+    title:
+      show: true
+      level: 1
+    image: {}
+    text:
+      format: 1
+      content: >-
+        <p><em><strong>AKA the orator, warlord, chronicler</strong></em></p>
+
+        <p><em>You spin tales and songs that stir emotions, inspire bravery, and
+        turn simple deeds into legends.</em></p>
+
+        <p><strong>Core Talent:</strong>
+        @UUID[Compendium.grimwild.gwce-talents.Item.PVAjOF4hYgnPdynr]{Inspiration}</p>
+
+        <p><strong>Path Talents:</strong>
+        @UUID[Compendium.grimwild.gwce-talents.Item.kXm6ZqxnvbUb947O]{Bardic
+        Lore}
+        @UUID[Compendium.grimwild.gwce-talents.Item.S7pmcldU0KP5Naqh]{Dynamic
+        Entrance}
+        @UUID[Compendium.grimwild.gwce-talents.Item.K7yazzueLhaayitE]{Folk Hero}
+        @UUID[Compendium.grimwild.gwce-talents.Item.yezNVJAo8OMuKFRz]{Forked
+        Tongue}
+        @UUID[Compendium.grimwild.gwce-talents.Item.2RcrFA4SDH4YjqmH]{Friendly
+        Face} @UUID[Compendium.grimwild.gwce-talents.Item.qgZcfLkIpNaYjdrG]{Jack
+        of All Trades}
+        @UUID[Compendium.grimwild.gwce-talents.Item.541d62GkZTXYfp1L]{Wordplay}</p>
+
+        <h3>Inspiration Method (Optional)</h3>
+
+        <p>Where does your power to influence others come from? Choose any 2
+        from the following that you know, and 1 that you're learning.</p>
+
+        <section class="grid grid-3col">
+            <div>
+                <ul>
+                    <li>
+                        <p>Violin</p>
+                    </li>
+                    <li>
+                        <p>Oratory</p>
+                    </li>
+                    <li>
+                        <p>Martial Ability</p>
+                    </li>
+                    <li>
+                        <p>Panpipes</p>
+                    </li>
+                    <li>
+                        <p>Flute</p>
+                    </li>
+                    <li>
+                        <p>Cutting Wit</p>
+                    </li>
+                </ul>
+            </div>
+            <div>
+                <ul>
+                    <li>
+                        <p>Lyre</p>
+                    </li>
+                    <li>
+                        <p>Ocarina</p>
+                    </li>
+                    <li>
+                        <p>Accordion</p>
+                    </li>
+                    <li>
+                        <p>Limericks</p>
+                    </li>
+                    <li>
+                        <p>Proverbs</p>
+                    </li>
+                    <li>
+                        <p>Dance</p>
+                    </li>
+                </ul>
+            </div>
+            <div>
+                <ul>
+                    <li>
+                        <p>Aesops</p>
+                    </li>
+                    <li>
+                        <p>Lute</p>
+                    </li>
+                    <li>
+                        <p>Style</p>
+                    </li>
+                    <li>
+                        <p>Singing</p>
+                    </li>
+                    <li>
+                        <p>Harmonica</p>
+                    </li>
+                    <li>
+                        <p>Drums</p>
+                    </li>
+                </ul>
+            </div>
+        </section>
+
+        <section class="grid grid-2col">
+            <div>
+                <h3>Song Composition (Optional)</h3>
+                <p>Many bards use music to channel their innate power to inspire and influence others. Use the crucible on the right to build the bardic songs you know.</p>
+                <p><em>(Style) (Tune) of (Impact)</em></p>
+                <p><strong>Style:</strong> This is how you feel when you're performing the song.</p>
+                <p><strong>Tune:</strong> This is the familiar form that anyone will recognize.</p>
+                <p><strong>Impact:</strong> This is how the song magically influences others.</p>
+            </div>
+            <div>
+                <table>
+                    <tbody>
+                        <tr>
+                            <td>
+                                <p style="text-align:center"><strong>Style</strong></p>
+                            </td>
+                            <td>
+                                <p style="text-align:center"><strong>Tune</strong></p>
+                            </td>
+                            <td>
+                                <p style="text-align:center"><strong>Impact</strong></p>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <p style="text-align:center">chaotic</p>
+                            </td>
+                            <td>
+                                <p style="text-align:center">anthem</p>
+                            </td>
+                            <td>
+                                <p style="text-align:center">affection</p>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <p style="text-align:center">dire</p>
+                            </td>
+                            <td>
+                                <p style="text-align:center">aria</p>
+                            </td>
+                            <td>
+                                <p style="text-align:center">awe</p>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <p style="text-align:center">fiery</p>
+                            </td>
+                            <td>
+                                <p style="text-align:center">ballad</p>
+                            </td>
+                            <td>
+                                <p style="text-align:center">calm</p>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <p style="text-align:center">gentle</p>
+                            </td>
+                            <td>
+                                <p style="text-align:center">chant</p>
+                            </td>
+                            <td>
+                                <p style="text-align:center">despair</p>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <p style="text-align:center">haunting</p>
+                            </td>
+                            <td>
+                                <p style="text-align:center">ditty</p>
+                            </td>
+                            <td>
+                                <p style="text-align:center">fear</p>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <p style="text-align:center">playful</p>
+                            </td>
+                            <td>
+                                <p style="text-align:center">hymn</p>
+                            </td>
+                            <td>
+                                <p style="text-align:center">fury</p>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <p style="text-align:center">nostalgic</p>
+                            </td>
+                            <td>
+                                <p style="text-align:center">ode</p>
+                            </td>
+                            <td>
+                                <p style="text-align:center">hope</p>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <p style="text-align:center">rousing</p>
+                            </td>
+                            <td>
+                                <p style="text-align:center">requiem</p>
+                            </td>
+                            <td>
+                                <p style="text-align:center">joy</p>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <p style="text-align:center">vicious</p>
+                            </td>
+                            <td>
+                                <p style="text-align:center">rhapsody</p>
+                            </td>
+                            <td>
+                                <p style="text-align:center">mockery</p>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <p style="text-align:center">whimsical</p>
+                            </td>
+                            <td>
+                                <p style="text-align:center">serenade</p>
+                            </td>
+                            <td>
+                                <p style="text-align:center">wonder</p>
+                            </td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </section>
+    video:
+      controls: true
+      volume: 0.5
+    src: null
+    category: null
+    ownership:
+      default: -1
+      79CEe5dKC6Ls5VbU: 3
+    flags: {}
+    _stats:
+      coreVersion: '14.364'
+      systemId: grimwild
+      systemVersion: 0.5.3
+      createdTime: 1782682824061
+      modifiedTime: 1783109982449
+      lastModifiedBy: 79CEe5dKC6Ls5VbU
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+    _key: '!journal.pages!A3ABNLJphHplV8Nm.H0JCDbN6kAyXGxic'
+  - sort: 300000
+    name: Berserker
+    type: text
+    _id: EcK2fQRpY99iVSVh
+    system: {}
+    title:
+      show: true
+      level: 1
+    image: {}
+    text:
+      format: 1
+      content: >-
+        <p><em><strong>AKA the juggernaut, reaver,
+        warbringer</strong></em></p><p><em>You don't just fight—you crush
+        anything and everything in your path until nothing stands before
+        you.</em></p><p><strong>Core Talent:</strong>
+        @UUID[Compendium.grimwild.gwce-talents.Item.pszYVqld3kjDK1Ss]{Frenzy}</p><p><strong>Path
+        Talents:</strong>
+        @UUID[Compendium.grimwild.gwce-talents.Item.uFxLO7FQYOZimL8p]{Fearsome}
+        @UUID[Compendium.grimwild.gwce-talents.Item.ItW2enbPG8FqlBGF]{Flesh
+        Wounds}
+        @UUID[Compendium.grimwild.gwce-talents.Item.r3IxHh2oH5lLjZ4u]{Into the
+        Fray}
+        @UUID[Compendium.grimwild.gwce-talents.Item.d6pVv5KNlfuLyXyx]{Joyful
+        Warrior}
+        @UUID[Compendium.grimwild.gwce-talents.Item.vEXySY8fJJXEYgHO]{Mighty}
+        @UUID[Compendium.grimwild.gwce-talents.Item.YUpxc7gTPNLxWf9Y]{Overkill}
+        @UUID[Compendium.grimwild.gwce-talents.Item.zRFGcTYw8eUUqnVG]{Warcry}</p><h3>Frenzy
+        Source (Optional)</h3><p>Where does your wild power and ability to
+        withstand pain come from? Choose 2 and smash them together to form the
+        source, and 1 that you have a disdain for.</p><section class="grid
+        grid-2col"><div><ul><li><p><em>Ritualistic
+        preparation</em></p></li><li><p><em>Trained tolerance to
+        pain</em></p></li><li><p><em>Long consumption of strange
+        substances</em></p></li><li><p><em>Drawing power from ancestral
+        spirits</em></p></li><li><p><em>Drawing primal power from the
+        wild</em></p></li><li><p><em>Channeling memories you'll never
+        forget</em></p></li></ul></div><div><ul><li><p><em>Visions of horrific
+        or heroic scenes</em></p></li><li><p><em>Deep meditative
+        focus</em></p></li><li><p><em>Blood pact with a kindred
+        force</em></p></li><li><p><em>Your abilities are a strange
+        mystery</em></p></li><li><p><em>Binding your spirit to a physical
+        totem</em></p></li><li><p><em>A suppressed entity overtakes
+        you</em></p></li></ul></div></section><h3>Scars (Optional)</h3><p>Your
+        ability to ignore pain has led you to take far more damage than most
+        warriors. What scars do you bear that show your reckless nature? Choose
+        3 that you show off.</p><section class="grid
+        grid-3col"><div><ul><li><p>Crookedly broken nose</p></li><li><p>Web of
+        deep cut scars</p></li><li><p>Permanently split
+        knuckles</p></li><li><p>Empty eye socket</p></li><li><p>Smashed
+        teeth</p></li><li><p>Cauliflower
+        ears</p></li></ul></div><div><ul><li><p>Wild, ripped
+        hair</p></li><li><p>Muscles knotted like iron</p></li><li><p>Several
+        missing fingers</p></li><li><p>Jagged burn lines</p></li><li><p>Gouged
+        claw marks</p></li><li><p>Runic scarring from
+        magic</p></li></ul></div><div><ul><li><p>Torn earlobe or ear
+        tips</p></li><li><p>Deep, cauterized wound</p></li><li><p>Cracked
+        jawline</p></li><li><p>Crushed foot</p></li><li><p>Busted in
+        skull</p></li><li><p>Not even a scratch on
+        you</p></li></ul></div></section>
+    video:
+      controls: true
+      volume: 0.5
+    src: null
+    category: null
+    ownership:
+      default: -1
+      79CEe5dKC6Ls5VbU: 3
+    flags: {}
+    _stats:
+      coreVersion: '14.364'
+      systemId: grimwild
+      systemVersion: 0.5.3
+      createdTime: 1782683560708
+      modifiedTime: 1782683920406
+      lastModifiedBy: 79CEe5dKC6Ls5VbU
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+    _key: '!journal.pages!A3ABNLJphHplV8Nm.EcK2fQRpY99iVSVh'
+  - sort: 400000
+    name: Cleric
+    type: text
+    _id: CwaTNKnbmUxRUSXo
+    system: {}
+    title:
+      show: true
+      level: 1
+    image: {}
+    text:
+      format: 1
+      content: >-
+        <p><em><strong>AKA the priest, zealot,
+        chosen</strong></em></p><p><em>You serve as a conduit for the divine,
+        chanelling holy power to safeguard the faithful and do your god's
+        bidding.</em></p><p><strong>Core Talent:</strong>
+        @UUID[Compendium.grimwild.gwce-talents.Item.a5FCPZXbBkrFhAkr]{Channel
+        Divinity}</p><p><strong>Path Talents:</strong>
+        @UUID[Compendium.grimwild.gwce-talents.Item.yP8d4X3bKtDkD2tb]{Blessed}
+        @UUID[Compendium.grimwild.gwce-talents.Item.4UxK0Tj35EGoNcas]{Devout}
+        @UUID[Compendium.grimwild.gwce-talents.Item.ktPNzt7dsU45x9aI]{Healer}
+        @UUID[Compendium.grimwild.gwce-talents.Item.aWMnTZkSPEH5bYDm]{Iron Will}
+        @UUID[Compendium.grimwild.gwce-talents.Item.jSRWycSsJLzqx9SB]{Rings
+        False}
+        @UUID[Compendium.grimwild.gwce-talents.Item.cs4IyC33EXABs6ZC]{Sermons}
+        @UUID[Compendium.grimwild.gwce-talents.Item.kitTuAlJqf7MIfVc]{Shepherd}</p><h3>Create
+        Your God</h3><p>Create your god by naming them and giving them a
+        thematic title—their epithet <em>(e.g. Zerenda, Goddess of Storms)</em>.
+        Write down 3 tenets, the guidance from your god that you are expected to
+        follow while spreading their word, then choose 1 of the following to
+        create their domain of influence, or make your own.</p><section
+        class="grid
+        grid-3col"><div><ul><li><p>Storms</p></li><li><p>Mercy</p></li><li><p>Revelry</p></li><li><p>Justice</p></li><li><p>Trickery</p></li><li><p>Sea</p></li></ul></div><div><ul><li><p>Life</p></li><li><p>Radiance</p></li><li><p>Moon</p></li><li><p>Death</p></li><li><p>Travel</p></li><li><p>War</p></li></ul></div><div><ul><li><p>Magic</p></li><li><p>Hunt</p></li><li><p>Knowledge</p></li><li><p>Nature</p></li><li><p>Luck</p></li><li><p>Crafting</p></li></ul></div></section><h3>Learn
+        Your Rites</h3><p>Decide your place in your god's flock. What is your
+        mission, and what rites have you learned to help you achieve your goal?
+        Choose 1 major rite, and 2 minor rites from the following, or make your
+        own.</p><ul><li><p><strong>BLESSING</strong></p><ul><li><p><strong>Magic:</strong>
+        <em>Bless a warhammer. Walk on water. Fill the forlorn duke's heart with
+        hope.</em></p></li></ul></li><li><p><strong>DIVINATION</strong></p><ul><li><p><strong>Magic:</strong>
+        <em>Find a safe path. Reveal where the thief is hiding. Know tomorrow's
+        weather.</em></p></li></ul></li><li><p><strong>DOMINION</strong></p><ul><li><p><strong>Magic:</strong>
+        <em>Convince someone to help. Make someone forget. Calm an angry
+        mob.</em></p></li></ul></li><li><p><strong>HEALING</strong></p><ul><li><p><strong>Magic:</strong>
+        <em>Heal a broken bone. Relieve someone of stress. Stop the
+        bleeding.</em></p></li></ul></li><li><p><strong>WARDING</strong></p><ul><li><p><strong>Magic:</strong>
+        <em>Shield an ally from harm. Block a doorway. Create
+        sentries.</em></p></li></ul></li><li><p><strong>WRATH</strong></p><ul><li><p><strong>Magic:</strong>
+        <em>Shatter a foe's weapon. Blind a traitor. Curse a heretic with
+        misfortune.</em></p></li></ul></li></ul><blockquote
+        style="border-style:solid;border-radius:8px"><h3>Cleric
+        Spellcasting</h3><p>Your spellcasting ability comes in the form of power
+        pools, meaning you roll the pool as an action in place of a stat. Read
+        the highest as the result, then drop each die that lands on 1-3. If you
+        add extra dice to the roll (such as from
+        <em><strong>spark</strong></em>), keep them separate from the pool—they
+        don’t affect dice dropping, and aren't added to the power
+        pool.</p></blockquote>
+    video:
+      controls: true
+      volume: 0.5
+    src: null
+    category: null
+    ownership:
+      default: -1
+      79CEe5dKC6Ls5VbU: 3
+    flags: {}
+    _stats:
+      coreVersion: '14.364'
+      systemId: grimwild
+      systemVersion: 0.5.3
+      createdTime: 1783038087127
+      modifiedTime: 1783090462975
+      lastModifiedBy: 79CEe5dKC6Ls5VbU
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+    _key: '!journal.pages!A3ABNLJphHplV8Nm.CwaTNKnbmUxRUSXo'
+  - sort: 400000
+    name: Druid
+    type: text
+    system: {}
+    title:
+      show: true
+      level: 1
+    image: {}
+    text:
+      format: 1
+      content: >-
+        <p><em><strong>AKA the shapeshifter, grovekeeper,
+        wildling</strong></em></p>
+
+        <p><em>You embrace and embody the untamed power of the natural world,
+        transforming into beasts and channeling the spirit of the wild.</em></p>
+
+        <p><strong>Core Talent:</strong>
+        @UUID[Compendium.grimwild.gwce-talents.Item.jU8A1SzjYJbuM9K4]{Wild
+        Shape}</p>
+
+        <p><strong>Path Talents:</strong>
+        @UUID[Compendium.grimwild.gwce-talents.Item.N2makdlW2zmGbMyB]{Augury}
+        @UUID[Compendium.grimwild.gwce-talents.Item.Tir0nloS68H8M7wI]{Awaken}
+        @UUID[Compendium.grimwild.gwce-talents.Item.cdf2AcTgQenZPIE7]{Kindred
+        Spirits}
+        @UUID[Compendium.grimwild.gwce-talents.Item.LxRcD556CHYdhVGU]{Primal
+        Growth}
+        @UUID[Compendium.grimwild.gwce-talents.Item.GKlmqAT2ey3WtA4N]{Primordial
+        Bonds}
+        @UUID[Compendium.grimwild.gwce-talents.Item.rwXMt9aoBLseSwEf]{True
+        Shape}
+        @UUID[Compendium.grimwild.gwce-talents.Item.iRLs3DR7cSMG0zLt]{Windcaller}</p>
+
+        <h3>Druidic Tells (Optional)</h3>
+
+        <p>Druids often exhibit tells—sometimes several—that reflect their deep
+        connection with nature, such as animalistic traits or plant-like
+        appearances. Even in a fantasy world, someone so attuned to nature is
+        bound to attract attention, offering potential new vantage, outside
+        assistance, or even opportunities for tangles. Below are some ideas for
+        features:</p>
+
+        <section class="grid grid-3col">
+            <div>
+                <ul>
+                    <li>
+                        <p>thorns</p>
+                    </li>
+                    <li>
+                        <p>moss</p>
+                    </li>
+                    <li>
+                        <p>vines</p>
+                    </li>
+                    <li>
+                        <p>tusked</p>
+                    </li>
+                    <li>
+                        <p>shimmering</p>
+                    </li>
+                    <li>
+                        <p>scaly</p>
+                    </li>
+                    <li>
+                        <p>blossoming</p>
+                    </li>
+                    <li>
+                        <p>bark</p>
+                    </li>
+                    <li>
+                        <p>glowing</p>
+                    </li>
+                    <li>
+                        <p>velvet</p>
+                    </li>
+                    <li>
+                        <p>antlered</p>
+                    </li>
+                    <li>
+                        <p>longtoothed</p>
+                    </li>
+                </ul>
+            </div>
+            <div>
+                <ul>
+                    <li>
+                        <p>feathered</p>
+                    </li>
+                    <li>
+                        <p>earthen</p>
+                    </li>
+                    <li>
+                        <p>translucent</p>
+                    </li>
+                    <li>
+                        <p>murky</p>
+                    </li>
+                    <li>
+                        <p>ashen</p>
+                    </li>
+                    <li>
+                        <p>dewy</p>
+                    </li>
+                    <li>
+                        <p>bristled</p>
+                    </li>
+                    <li>
+                        <p>hoofed</p>
+                    </li>
+                    <li>
+                        <p>tangled</p>
+                    </li>
+                    <li>
+                        <p>speckled</p>
+                    </li>
+                    <li>
+                        <p>spiny</p>
+                    </li>
+                    <li>
+                        <p>breezy</p>
+                    </li>
+                </ul>
+            </div>
+            <div>
+                <ul>
+                    <li>
+                        <p>roots</p>
+                    </li>
+                    <li>
+                        <p>vibrant</p>
+                    </li>
+                    <li>
+                        <p>crystalline</p>
+                    </li>
+                    <li>
+                        <p>verdant</p>
+                    </li>
+                    <li>
+                        <p>gnarled</p>
+                    </li>
+                    <li>
+                        <p>misty</p>
+                    </li>
+                    <li>
+                        <p>fluffy</p>
+                    </li>
+                    <li>
+                        <p>silken</p>
+                    </li>
+                    <li>
+                        <p>smoky</p>
+                    </li>
+                    <li>
+                        <p>willowy</p>
+                    </li>
+                    <li>
+                        <p>fragrant</p>
+                    </li>
+                    <li>
+                        <p>petals</p>
+                    </li>
+                </ul>
+            </div>
+        </section>
+
+        <h3>Wild Talents (Examples)</h3>
+
+        <p>Below are some examples of beasts that have wild talents. Already
+        existing talents are listed with a page number reference. Others are
+        made for that beast. If a wild talent feels more like set dressing in
+        the current scene, just include it as flavor, instead.</p>
+
+        <section class="grid grid-2col">
+            <div>
+                <ul>
+                    <li>
+                        <p><strong>Chimpanzee:</strong> @UUID[Compendium.grimwild.gwce-talents.Item.Ypgkormq3NcAP2Bj]{Relentless}</p>
+                    </li>
+                    <li>
+                        <p><strong>Wolf:</strong> @UUID[Compendium.grimwild.gwce-talents.Item.paHvmw3w7Gm52u2F]{Keen Senses}</p>
+                    </li>
+                    <li>
+                        <p><strong>Spider:</strong> Wall climbing</p>
+                    </li>
+                    <li>
+                        <p><strong>Turtle:</strong> @UUID[Compendium.grimwild.gwce-talents.Item.HyxdTMa3rkCyf4nM]{Bulwark}</p>
+                    </li>
+                    <li>
+                        <p><strong>Octopus:</strong> Shape &amp; color mimicking</p>
+                    </li>
+                    <li>
+                        <p><strong>Cheetah:</strong> Incredibly fast sprinting</p>
+                    </li>
+                    <li>
+                        <p><strong>Bear:</strong> @UUID[Compendium.grimwild.gwce-talents.Item.ItW2enbPG8FqlBGF]{Flesh Wounds}</p>
+                    </li>
+                    <li>
+                        <p><strong>Eagle:</strong> @UUID[Compendium.grimwild.gwce-talents.Item.uUCY7c6ul7XZ7Gpb]{Flight}</p>
+                    </li>
+                </ul>
+            </div>
+            <div>
+                <ul>
+                    <li>
+                        <p><strong>Snake:</strong> @UUID[Compendium.grimwild.gwce-talents.Item.mzEBnYPMihuApSYI]{Poisoner}</p>
+                    </li>
+                    <li>
+                        <p><strong>Lion:</strong> @UUID[Compendium.grimwild.gwce-talents.Item.uFxLO7FQYOZimL8p]{Fearsome}</p>
+                    </li>
+                    <li>
+                        <p><strong>Rabbit:</strong> @UUID[Compendium.grimwild.gwce-talents.Item.nUhSa5uGMYwFBDbn]{Lucky}</p>
+                    </li>
+                    <li>
+                        <p><strong>Fox:</strong> @UUID[Compendium.grimwild.gwce-talents.Item.2uxcSShENkGU3g6l]{Lurker}</p>
+                    </li>
+                    <li>
+                        <p><strong>Shark:</strong> @UUID[Compendium.grimwild.gwce-talents.Item.ih9wCMAM6NQljAds]{Aquatic}</p>
+                    </li>
+                    <li>
+                        <p><strong>Ape:</strong> @UUID[Compendium.grimwild.gwce-talents.Item.vEXySY8fJJXEYgHO]{Mighty}</p>
+                    </li>
+                    <li>
+                        <p><strong>Honey Badger:</strong> @UUID[Compendium.grimwild.gwce-talents.Item.aWMnTZkSPEH5bYDm]{Iron Will}</p>
+                    </li>
+                    <li>
+                        <p><strong>Rhino:</strong> Bigger than a bear</p>
+                    </li>
+                </ul>
+            </div>
+        </section>
+
+        <p></p>
+    video:
+      controls: true
+      volume: 0.5
+    src: null
+    category: null
+    ownership:
+      default: -1
+      79CEe5dKC6Ls5VbU: 3
+    flags: {}
+    _stats:
+      coreVersion: '14.368'
+      systemId: grimwild
+      systemVersion: 0.5.3
+      createdTime: 1783038144996
+      modifiedTime: 1791653708557
+      lastModifiedBy: nF9qxzj59Qn6fNSn
+      compendiumSource: null
+      duplicateSource: Compendium.grimwild.gwce-journals.JournalEntry.A3ABNLJphHplV8Nm.JournalEntryPage.CwaTNKnbmUxRUSXo
+      exportSource: null
+    _id: hx2sET46piKhssI5
+    _key: '!journal.pages!A3ABNLJphHplV8Nm.hx2sET46piKhssI5'
+  - sort: 400000
+    name: Fighter
+    type: text
+    system: {}
+    title:
+      show: true
+      level: 1
+    image: {}
+    text:
+      format: 1
+      content: >-
+        <p><em><strong>AKA the blademaster, duelist,
+        sargeant</strong></em></p><p><em>You become one with your weapon, and
+        through it, you find your real purpose in this
+        life.</em></p><p><strong>Core Talent:</strong>
+        @UUID[Compendium.grimwild.gwce-talents.Item.Z0LTcQtNUVNcoVIm]{Weapon
+        Mastery}</p><p><strong>Path Talents:</strong>
+        @UUID[Compendium.grimwild.gwce-talents.Item.k05clNwHNfu182P4]{Arcane
+        Training}
+        @UUID[Compendium.grimwild.gwce-talents.Item.HyxdTMa3rkCyf4nM]{Bulwark}
+        @UUID[Compendium.grimwild.gwce-talents.Item.KOT6ZQ5BGKSDcXAG]{Control}
+        @UUID[Compendium.grimwild.gwce-talents.Item.e8XR5ciCgFEKJJYJ]{Got Your
+        Back}
+        @UUID[Compendium.grimwild.gwce-talents.Item.T9Nt4i51NWRAgi2h]{Measured
+        Tones}
+        @UUID[Compendium.grimwild.gwce-talents.Item.2WWeYwl3Fvfytj5P]{Swift
+        Recovery}
+        @UUID[Compendium.grimwild.gwce-talents.Item.ohNk7c299CHCYyfZ]{Tactician}</p><h3>Weapon
+        Origin (Optional)</h3><p>For many fighters, their weapon is an important
+        part of their past. Give your weapon some character and it will become a
+        character itself in the story. Roll d66 twice on the table below to give
+        your weapon, or each of your weapons, its own small story. You can also
+        choose, or make up your own.</p><section class="grid
+        grid-3col"><div><ul><li><p>etched with words of loss</p></li><li><p>gift
+        from a childhood mentor</p></li><li><p>given to you by your
+        father</p></li><li><p>taken from a dead body</p></li><li><p>marred with
+        blade nicks</p></li><li><p>made from a rare
+        material</p></li></ul></div><div><ul><li><p>stolen from a family
+        member</p></li><li><p>covered in burn marks</p></li><li><p>carved with
+        friend's initials</p></li><li><p>with a faded family
+        crest</p></li><li><p>taken as spoils of war</p></li><li><p>scratched
+        from fierce battle</p></li></ul></div><div><ul><li><p>marked by a secret
+        society</p></li><li><p>with a hidden
+        compartment</p></li><li><p>inscribed with a quote</p></li><li><p>give as
+        a peace offering</p></li><li><p>belonged to a
+        gambler</p></li><li><p>patched many
+        times</p></li></ul></div></section><h3>Combat Maneuvers
+        (Advice)</h3><p>Action rolls let you flavor combat however you
+        like—don’t just swing a sword or jab a spear. Lean into the dramatic
+        flowing nature of combat. Use mastery for
+        <em><strong>@UUID[Compendium.grimwild.gwce-journals.JournalEntry.YbuXwBYYNXIb670F.JournalEntryPage.bs6rHob3redyMuPl#setup]{setups}</strong></em>
+        and
+        <em><strong>@UUID[Compendium.grimwild.gwce-journals.JournalEntry.YbuXwBYYNXIb670F.JournalEntryPage.i6LDtcGasJUZQnAo#criticals]{secondary
+        effects}</strong></em> to remove thorns or shift the fight. Don’t tunnel
+        vision on the kill, either—use your actions to change the battle to end
+        it faster! Of course, anyone can try these, but as a fighter, you should
+        master them.</p><ul><li><p><strong>Blind:</strong> Cloud their vision to
+        leave them vulnerable.</p></li><li><p><strong>Disarm:</strong> Take
+        their weapon to stop their
+        advance.</p></li><li><p><strong>Knockdown:</strong> Put them on the
+        ground to gain the upper hand.</p></li><li><p><strong>Pin down:</strong>
+        Trap them in a position to keep them from acting or
+        escaping.</p></li><li><p><strong>Pull:</strong> Drag them into danger or
+        out of position.</p></li><li><p><strong>Push:</strong> Shove them away
+        to protect allies or disrupt their own
+        lines.</p></li><li><p><strong>Sunder:</strong> Break their gear to limit
+        their options or get around their
+        defenses.</p></li><li><p><strong>Unnerve:</strong> Leave them shaken and
+        questioning their choices.</p></li></ul>
+    video:
+      controls: true
+      volume: 0.5
+    src: null
+    category: null
+    ownership:
+      default: -1
+      79CEe5dKC6Ls5VbU: 3
+    flags: {}
+    _stats:
+      coreVersion: '14.364'
+      systemId: grimwild
+      systemVersion: 0.5.3
+      createdTime: 1783038282407
+      modifiedTime: 1783091231904
+      lastModifiedBy: 79CEe5dKC6Ls5VbU
+      compendiumSource: null
+      duplicateSource: Compendium.grimwild.gwce-journals.JournalEntry.A3ABNLJphHplV8Nm.JournalEntryPage.hx2sET46piKhssI5
+      exportSource: null
+    _id: SCLx2TCkGXDAA7Ja
+    _key: '!journal.pages!A3ABNLJphHplV8Nm.SCLx2TCkGXDAA7Ja'
+  - sort: 400000
+    name: Monk
+    type: text
+    system: {}
+    title:
+      show: true
+      level: 1
+    image: {}
+    text:
+      format: 1
+      content: >-
+        <p><em><strong>AKA the martial artist, mystic,
+        wanderer</strong></em></p><p><em>Your body is a vessel through which you
+        channel your discipline into grace, precision, and the never-ending
+        journey towards perfection.</em></p><p><strong>Core Talent:</strong>
+        @UUID[Compendium.grimwild.gwce-talents.Item.XymPF5oiFlDQkIIF]{Discipline}</p><p><strong>Path
+        Talents:</strong>
+        @UUID[Compendium.grimwild.gwce-talents.Item.ZxbjdllKwGXPAcuV]{Healing
+        Hands}
+        @UUID[Compendium.grimwild.gwce-talents.Item.DSgZfLflEzQjpPl4]{Lightning
+        Reflexes}
+        @UUID[Compendium.grimwild.gwce-talents.Item.EZeUttMAbowD4BNT]{Mind Over
+        Matter}
+        @UUID[Compendium.grimwild.gwce-talents.Item.ArczxLPeHU3mfkEb]{Redirect}
+        @UUID[Compendium.grimwild.gwce-talents.Item.DmRTKBiJRekwZFnq]{Resonance}
+        @UUID[Compendium.grimwild.gwce-talents.Item.tk7dpEQhxK31D7SL]{Tether}
+        @UUID[Compendium.grimwild.gwce-talents.Item.RWdS991DP1XwZ2vT]{There Is
+        No Try}</p><h3>Martial Arts Style (Optional)</h3><p><strong>It's based
+        on the ______ concept of…</strong> (choose 1 or
+        2)</p><table><thead><tr><th><p>Primal</p></th><th><p>Elemental</p></th><th><p>Powerful</p></th><th><p>Idealistic</p></th><th><p>Philosophical</p></th><th><p>Stylistic</p></th></tr></thead></table><p>@Crucible[Compendium.grimwild.gwce-crucibles.RollTable.Rqvnv4npH9zQ1cQ2]{Martial
+        Arts Concept}</p><p><strong>It features stances and moves like…</strong>
+        (choose
+        3)</p><p>@Crucible[Compendium.grimwild.gwce-crucibles.RollTable.BV60IFri4QDN6Rns]{Martial
+        Arts Moves}</p><p><strong>It often makes use of weapons like…</strong>
+        (choose
+        2)</p><table><thead><tr><th><p>Blunt</p></th><th><p>Flexible</p></th><th><p>Edged</p></th><th><p>Reach</p></th><th><p>Thrown</p></th><th><p>Specialized</p></th></tr></thead></table><p>@Crucible[Compendium.grimwild.gwce-crucibles.RollTable.UcPBxXH487mkLNVE]{Martial
+        Arts Weapons}</p>
+    video:
+      controls: true
+      volume: 0.5
+    src: null
+    category: null
+    ownership:
+      default: -1
+      79CEe5dKC6Ls5VbU: 3
+    flags: {}
+    _stats:
+      coreVersion: '14.364'
+      systemId: grimwild
+      systemVersion: 0.5.3
+      createdTime: 1783038428180
+      modifiedTime: 1783125409092
+      lastModifiedBy: 79CEe5dKC6Ls5VbU
+      compendiumSource: null
+      duplicateSource: Compendium.grimwild.gwce-journals.JournalEntry.A3ABNLJphHplV8Nm.JournalEntryPage.hx2sET46piKhssI5
+      exportSource: null
+    _id: ByEYMJ1kzBRfpn5y
+    _key: '!journal.pages!A3ABNLJphHplV8Nm.ByEYMJ1kzBRfpn5y'
+  - sort: 400000
+    name: Paladin
+    type: text
+    system: {}
+    title:
+      show: true
+      level: 1
+    image: {}
+    text:
+      format: 1
+      content: >-
+        <p><em><strong>AKA the crusader, champion, justiciar</strong></em></p>
+
+        <p><em>You have sworn an oath and your unwavering dedication gives you
+        powerful conviction, which you can wield to shape the world.</em></p>
+
+        <p><strong>Core Talent:</strong>
+        @UUID[Compendium.grimwild.gwce-talents.Item.z6wB7nzSVQSwekJt]{Oathsworn}</p>
+
+        <p><strong>Path Talents:</strong>
+        @UUID[Compendium.grimwild.gwce-talents.Item.dDgkXX8g7hHB7sjS]{Aegis}
+        @UUID[Compendium.grimwild.gwce-talents.Item.lBvXtI0SkNrWe5x4]{Authority}
+        @UUID[Compendium.grimwild.gwce-talents.Item.IcgJpnW7rJyk6ZrO]{Challenge}
+        @UUID[Compendium.grimwild.gwce-talents.Item.DfwNdvUbWevmDZHN]{Dauntless}
+        @UUID[Compendium.grimwild.gwce-talents.Item.vrqgtMc5cPttKALb]{Divine
+        Blessing}
+        @UUID[Compendium.grimwild.gwce-talents.Item.V5CEe1pUbWY0gtpo]{Guardian}
+        @UUID[Compendium.grimwild.gwce-talents.Item.hqBMteTL2sSWTQK0]{Rebuke}</p>
+
+        <h3>Swear Your Oath</h3>
+
+        <p>At character creation, or over the first few sessions, detail the
+        <strong>Three Tenets</strong> that form the core of your oath. Write
+        your own specific tenets, or use the table to create ones that you can
+        explore through play. To write your own:</p>
+
+        <ul>
+            <li>
+                <p><strong>Choose a character detail or two</strong>, such as a trait, bond, or background.</p>
+            </li>
+            <li>
+                <p><strong>Link it to a short, actionable phrase.</strong> It should naturally arise from the fiction occasionally and present you with dilemmas. Work with the GM to ensure this as you write it.</p>
+            </li>
+        </ul>
+
+        <p><strong>Rank the tenets</strong> in order of importance. If they ever
+        conflict, following a higher one avoids violating a lower one. You must
+        <strong>uphold your tenets, or risk violation</strong>. They are
+        absolutes, but they can evolve as it makes sense or best serves the
+        fiction (and game at the table). When you violate a tenet, slash its
+        box. For a second or severe violation, fill in the box—it is in heavy
+        violation.</p>
+
+        <p><strong>You break a tenet</strong> when you violate it again while in
+        heavy violation (filled box). You can no longer atone for that tenet.
+        Breaking two tenets makes you an Oathbreaker (below).
+        <strong>Atonement</strong> for tenets in violation require great deeds.
+        The deed must outweigh the severity of the violation itself—ask the
+        other players if unsure. Once completed, clear the box.</p>
+
+        <h3>Oathbreaker</h3>
+
+        <p>You lose the Oathsworn talent, but may choose a new non-core talent
+        or the Warlock's Pact core talent in its place. Redemption requires an
+        appropriate ritual or mythic deed. Success restores your core talent
+        while allowing you to keep the talent gained from breaking your oath.
+        <strong>Redemption is possible only once.</strong></p>
+
+        <h3>Tenet Builder</h3>
+
+        <p>Roll, then choose an option; rewrite for clarity.</p>
+
+        <section class="grid grid-3col">
+            <div>
+                <p>@Embed[Compendium.grimwild.gwce-crucibles.RollTable.Gr57f9Gftk1lO8Ol]</p>
+            </div>
+            <div>
+                <p>@Embed[Compendium.grimwild.gwce-crucibles.RollTable.TAJLL1kJTUROfPC4]</p>
+            </div>
+            <div>
+                <p>@Embed[Compendium.grimwild.gwce-crucibles.RollTable.upOiP1cvUwB2qeqQ]</p>
+            </div>
+        </section>
+    video:
+      controls: true
+      volume: 0.5
+    src: null
+    category: null
+    ownership:
+      default: -1
+      79CEe5dKC6Ls5VbU: 3
+    flags: {}
+    _stats:
+      coreVersion: '14.368'
+      systemId: grimwild
+      systemVersion: 0.5.3
+      createdTime: 1783038504366
+      modifiedTime: 1791748092720
+      lastModifiedBy: nF9qxzj59Qn6fNSn
+      compendiumSource: null
+      duplicateSource: Compendium.grimwild.gwce-journals.JournalEntry.A3ABNLJphHplV8Nm.JournalEntryPage.ByEYMJ1kzBRfpn5y
+      exportSource: null
+    _id: QR7bLq1C65ipTirU
+    _key: '!journal.pages!A3ABNLJphHplV8Nm.QR7bLq1C65ipTirU'
+  - sort: 400000
+    name: Psion
+    type: text
+    system: {}
+    title:
+      show: true
+      level: 1
+    image: {}
+    text:
+      format: 1
+      content: >-
+        <p><em><strong>AKA the mentalist, seer,
+        telepath</strong></em></p><p><em>You unlock the limitless power of the
+        mind, bending thought, will, and reality through focus and
+        discipline.</em></p><p><strong>Core Talent:
+        </strong>@UUID[Compendium.grimwild.gwce-talents.Item.yuzIjJLLRSTzscGj]{Awakened
+        Mind}</p><p><strong>Path Talents:
+        </strong>@UUID[Compendium.grimwild.gwce-talents.Item.ROcAcekaPQH1c7tv]{Echo}
+        @UUID[Compendium.grimwild.gwce-talents.Item.Rn2TX6zWBB1ZIXIS]{Foresight}
+        @UUID[Compendium.grimwild.gwce-talents.Item.4da7uLgoUPPtrDsy]{Mind
+        Blast}
+        @UUID[Compendium.grimwild.gwce-talents.Item.spgHKyBkuBLUBgrw]{Psychic
+        Warrior}
+        @UUID[Compendium.grimwild.gwce-talents.Item.aX0XZwjeM1WoJ2RT]{Reader}
+        @UUID[Compendium.grimwild.gwce-talents.Item.MZGjMzYMZZ8Z3wlU]{Shift
+        Form}
+        @UUID[Compendium.grimwild.gwce-talents.Item.oHyCyqw3VkJGaq9E]{Tumultuous
+        Mind}</p><h3>Instability</h3><section class="grid grid-3col"><div
+        class="grid-span-2"><p>Each potent spell pulls at the threads in your
+        mind, making your magic harder to control. You add thorns to all psionic
+        spellcasting based on your instability, tracked by looking at the thorns
+        on the lowest line you have marked. Consider what this progressive
+        unraveling of your psyche looks like.</p></div><div><img
+        src="modules/grimwild/assets/img/psion-instability.svg"></div></section><h3>Bastions</h3><p>Within
+        your mind lie bastions of psionic power. As you grow stronger, you break
+        down their walls, unlocking your true potential. These powers take shape
+        as visions, psychic phenomena, and even physical manifestations in the
+        form of <strong>ectoplasm</strong>—<em>pure essence of
+        creation</em>.</p><ul><li><p><strong>BIODYNAMICS </strong>• Altering and
+        enhancing your own body.</p><ul><li><p><strong>Power:</strong> <em>Heal
+        your broken arm,. Hold your breath for hours. Run faster than a
+        horse.</em></p></li></ul></li><li><p><strong>CLAIRSENTIENCE</strong> •
+        Gaining knowledge from the collective
+        unconscious.</p><ul><li><p><strong>Power:</strong> <em>Sense a hidden
+        truth. See into someone's dreams. Find the way
+        home.</em></p></li></ul></li><li><p><strong>METACREATION</strong> •
+        Creating objects from ectoplasm, pure mental
+        energy.</p><ul><li><p><strong>Power:</strong> <em>Forge a glowing sword.
+        Build a bridge of thought. Shape armor from pure
+        will.</em></p></li></ul></li><li><p><strong>PSYCHOKINESIS</strong> •
+        Manipulating energy and force.</p><ul><li><p><strong>Power:</strong>
+        <em>Shatter a boulder. Push an enemy back. Lift a heavy object with your
+        mind.</em></p></li></ul></li><li><p><strong>TELEPATHY</strong> •
+        Mind-to-mind communication, manipulation, and
+        control.</p><ul><li><p><strong>Power:</strong> <em>Read someone's
+        thoughts. Calm an angry mob. Implant a fleeting
+        suggestion.</em></p></li></ul></li><li><p><strong>TRANSPOSITION</strong>
+        • Movement and manipulation of
+        space.</p><ul><li><p><strong>Power:</strong> <em>Teleport across a room.
+        Switch places with an ally. Freeze someone in
+        place.</em></p></li></ul></li></ul>
+    video:
+      controls: true
+      volume: 0.5
+    src: null
+    category: null
+    ownership:
+      default: -1
+      79CEe5dKC6Ls5VbU: 3
+    flags: {}
+    _stats:
+      coreVersion: '14.364'
+      systemId: grimwild
+      systemVersion: 0.5.3
+      createdTime: 1783038659911
+      modifiedTime: 1783140651564
+      lastModifiedBy: 79CEe5dKC6Ls5VbU
+      compendiumSource: null
+      duplicateSource: Compendium.grimwild.gwce-journals.JournalEntry.A3ABNLJphHplV8Nm.JournalEntryPage.ByEYMJ1kzBRfpn5y
+      exportSource: null
+    _id: xyL3pmEEMNvS9TGR
+    _key: '!journal.pages!A3ABNLJphHplV8Nm.xyL3pmEEMNvS9TGR'
+  - sort: 400000
+    name: Ranger
+    type: text
+    system: {}
+    title:
+      show: true
+      level: 1
+    image: {}
+    text:
+      format: 1
+      content: >-
+        <p><em><strong>AKA the beastmaster, pathfinder,
+        trapper</strong></em></p><p><em>You stalk relentlessly, moving unseen
+        through the terrain, tracking your prey with deadly precision and
+        striking them when they're weakest.</em></p><p><strong>Core
+        Talent:</strong>
+        @UUID[Compendium.grimwild.gwce-talents.Item.Ij1xIZUbca1IBcEX]{Quarry}</p><p><strong>Path
+        Talents:</strong>
+        @UUID[Compendium.grimwild.gwce-talents.Item.yVMzP2yTj7Jyvdfk]{Animal
+        Companion}
+        @UUID[Compendium.grimwild.gwce-talents.Item.paHvmw3w7Gm52u2F]{Keen
+        Senses}
+        @UUID[Compendium.grimwild.gwce-talents.Item.Ypgkormq3NcAP2Bj]{Relentless}
+        @UUID[Compendium.grimwild.gwce-talents.Item.0JCUaIDEs2Uczfsc]{Scout
+        Ahead}
+        @UUID[Compendium.grimwild.gwce-talents.Item.WGe6Gc0edCDfDUMh]{Seasoned
+        Hunter}
+        @UUID[Compendium.grimwild.gwce-talents.Item.VymBB234e1ENytX9]{Sharpshooter}
+        @UUID[Compendium.grimwild.gwce-talents.Item.LQzxjCORyw80FPhb]{Trophies}</p><h3>Favorite
+        Traps (Optional)</h3><section class="grid grid-2col"><div><p>Combine and
+        interpret an effect, trigger, and the word "trap" (poisonous bait trap)
+        to make three traps you commonly use while hunting or scouting. These
+        aren't limitations, just options ready to use when you need to lay a
+        trap.</p></div><div><table><thead><tr><th><p><strong>Effect</strong></p></th><th><p><strong>Trigger</strong></p></th></tr></thead><tbody><tr><td><p>stunning</p></td><td><p>tripwire</p></td></tr><tr><td><p>falling</p></td><td><p>pressure
+        plate</p></td></tr><tr><td><p>noisy</p></td><td><p>snare
+        loop</p></td></tr><tr><td><p>poisonous</p></td><td><p>bait</p></td></tr><tr><td><p>entangling</p></td><td><p>hidden</p></td></tr><tr><td><p>injuring</p></td><td><p>proximity</p></td></tr></tbody></table></div></section><h3>Tell-Tale
+        Signs of Weakness (Advice)</h3><p>When you tag a powerful quarry, use
+        your resources to find a weakness, figure out how you can exploit it.
+        These are some vulnerabilities you may
+        discover:</p><ul><li><p><strong>Fire Sensitivity:</strong> Flinches near
+        flames, avoids heat, dry or cracked skin.</p></li><li><p><strong>Bright
+        Light Weakness:</strong> Cloudy eyes, avoids light, panics near
+        flashes.</p></li><li><p><strong>Vulnerable Anatomy:</strong> Exposed
+        weak points, protects soft areas.</p></li><li><p><strong>Poison
+        Susceptibility:</strong> Sluggish breathing, avoids carrion, soft or
+        delicate skin.</p></li><li><p><strong>Tunnel Vision:</strong> Fixates on
+        a target, oblivious to surroundings, struggles to
+        adapt.</p></li><li><p><strong>Poor Mobility:</strong> Heavy tracks, slow
+        movement, struggles on uneven terrain.</p></li><li><p><strong>Sound
+        Sensitivity:</strong> Wince at noises, large twitching ears, avoids loud
+        terrain.</p></li><li><p><strong>Slow-minded:</strong> Delayed reactions,
+        struggles to recognize threats, easily
+        tricked.</p></li><li><p><strong>Predictable Instincts:</strong> Easily
+        baited or lured, overcommits.</p></li></ul>
+    video:
+      controls: true
+      volume: 0.5
+    src: null
+    category: null
+    ownership:
+      default: -1
+      79CEe5dKC6Ls5VbU: 3
+    flags: {}
+    _stats:
+      coreVersion: '14.364'
+      systemId: grimwild
+      systemVersion: 0.5.3
+      createdTime: 1783038673103
+      modifiedTime: 1783110949614
+      lastModifiedBy: 79CEe5dKC6Ls5VbU
+      compendiumSource: null
+      duplicateSource: Compendium.grimwild.gwce-journals.JournalEntry.A3ABNLJphHplV8Nm.JournalEntryPage.xyL3pmEEMNvS9TGR
+      exportSource: null
+    _id: aThjRNE6lWryUmWv
+    _key: '!journal.pages!A3ABNLJphHplV8Nm.aThjRNE6lWryUmWv'
+  - sort: 400000
+    name: Rogue
+    type: text
+    system: {}
+    title:
+      show: true
+      level: 1
+    image: {}
+    text:
+      format: 1
+      content: >-
+        <p><em><strong>AKA the assassin, cutpurse, infiltrator</strong></em></p>
+
+        <p><em>You live and operate in the margins, striking unseen and
+        disappearing before anyone knows you were there.</em></p>
+
+        <p><strong>Core Talent:</strong>
+        @UUID[Compendium.grimwild.gwce-talents.Item.dYITChWynQsk7Fl1]{Expertise}</p>
+
+        <p><strong>Path Talents:</strong>
+        @UUID[Compendium.grimwild.gwce-talents.Item.QrFzKjvCXiIa419l]{Mastermind}
+        @UUID[Compendium.grimwild.gwce-talents.Item.rcvzvK5iRrOQh4Hg]{Distraction}
+        @UUID[Compendium.grimwild.gwce-talents.Item.cTwECbEA971GWkZe]{Eldritch
+        Affinity}
+        @UUID[Compendium.grimwild.gwce-talents.Item.2uxcSShENkGU3g6l]{Lurker}
+        @UUID[Compendium.grimwild.gwce-talents.Item.8RjZk03Y9jJldohE]{Opportunist}
+        @UUID[Compendium.grimwild.gwce-talents.Item.mzEBnYPMihuApSYI]{Poisoner}
+        @UUID[Compendium.grimwild.gwce-talents.Item.XyBQNPB14mcV0LHg]{Weasel}</p>
+
+        <h3>Thieves Guild (Optional)</h3>
+
+        <p>Many rogues learned their trade from a thieves' guild, underground
+        network or criminal ring. These are all one form of a guild or another,
+        whether formal or not.</p>
+
+        <section class="grid grid-3col">
+            <div>
+                <ul>
+                    <li>
+                        <p>like family</p>
+                    </li>
+                    <li>
+                        <p>elite training</p>
+                    </li>
+                    <li>
+                        <p>cultish</p>
+                    </li>
+                    <li>
+                        <p>turf-obsessed</p>
+                    </li>
+                </ul>
+            </div>
+            <div>
+                <ul>
+                    <li>
+                        <p>heroes</p>
+                    </li>
+                    <li>
+                        <p>mercenaries</p>
+                    </li>
+                    <li>
+                        <p>mystics</p>
+                    </li>
+                    <li>
+                        <p>outsiders</p>
+                    </li>
+                </ul>
+            </div>
+            <div>
+                <ul>
+                    <li>
+                        <p>influential</p>
+                    </li>
+                    <li>
+                        <p>just business</p>
+                    </li>
+                    <li>
+                        <p>in the open</p>
+                    </li>
+                    <li>
+                        <p>follows code</p>
+                    </li>
+                </ul>
+            </div>
+        </section>
+
+        <h3>Criminal History (Optional)</h3>
+
+        <p>Given their skill set, a rogue either learned their trade by way of
+        crime or possess the skills to make an excellent criminal, for which
+        there's no lack of opportunities. As you start your adventuring career,
+        it's likely you have some lingering criminal history, a past that can
+        come back to haunt you in quite fun, dramatic ways. Create one or more
+        past crimes by setting the <strong>crime</strong> (severity &amp;
+        nature), your <strong>reputation</strong> from it, and your own
+        <strong>reaction</strong> about the crime.</p>
+
+        <section class="grid grid-4col">
+            <div>
+                <table>
+                    <thead>
+                        <tr>
+                            <th style="text-align:center">
+                                <p>@UUID[Compendium.grimwild.gwce-crucibles.RollTable.VuHr9Qgmn5lk59vo]{Severity}</p>
+                            </th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>
+                                <p>petty</p>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <p>low-level</p>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <p>moderate</p>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <p>serious</p>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <p>severe</p>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <p>legendary</p>
+                            </td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+            <div class="grid-span-2">
+                <table>
+                    <thead>
+                        <tr>
+                            <th colspan="3" style="text-align:center">
+                                <p>@UUID[Compendium.grimwild.gwce-crucibles.RollTable.rRPTrVtY1YPwDlCQ]{Nature}</p>
+                            </th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>
+                                <p>theft</p>
+                            </td>
+                            <td>
+                                <p>vandalism</p>
+                            </td>
+                            <td>
+                                <p>treason</p>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <p>fraud</p>
+                            </td>
+                            <td>
+                                <p>gambling</p>
+                            </td>
+                            <td>
+                                <p>robbery</p>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <p>spying</p>
+                            </td>
+                            <td>
+                                <p>bribery</p>
+                            </td>
+                            <td>
+                                <p>assassination</p>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <p>smuggling</p>
+                            </td>
+                            <td>
+                                <p>extortion</p>
+                            </td>
+                            <td>
+                                <p>heist</p>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <p>banditry</p>
+                            </td>
+                            <td>
+                                <p>arms dealing</p>
+                            </td>
+                            <td>
+                                <p>impersonation</p>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <p>kidnapping</p>
+                            </td>
+                            <td>
+                                <p>arson</p>
+                            </td>
+                            <td>
+                                <p>necromancy</p>
+                            </td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+            <div>
+                <table>
+                    <thead>
+                        <tr>
+                            <th style="text-align:center">
+                                <p>@UUID[Compendium.grimwild.gwce-crucibles.RollTable.xUmeL2zfpcTe1nSQ]{Reputation}</p>
+                            </th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>
+                                <p>barely remembered</p>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <p>small bounty</p>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <p>known name</p>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <p>hunted</p>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <p>infamous</p>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <p>most wanted</p>
+                            </td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </section>
+
+        <p><strong>REACTION:</strong> <em>I did what I had to do—I was set up—It
+        was a misunderstanding—I'll do it again—I completely forgot I did
+        that—I've made peace with it—Never again.</em></p>
+    video:
+      controls: true
+      volume: 0.5
+    src: null
+    category: null
+    ownership:
+      default: -1
+      79CEe5dKC6Ls5VbU: 3
+    flags: {}
+    _stats:
+      coreVersion: '14.368'
+      systemId: grimwild
+      systemVersion: 0.5.3
+      createdTime: 1783038677282
+      modifiedTime: 1791748090989
+      lastModifiedBy: nF9qxzj59Qn6fNSn
+      compendiumSource: null
+      duplicateSource: Compendium.grimwild.gwce-journals.JournalEntry.A3ABNLJphHplV8Nm.JournalEntryPage.aThjRNE6lWryUmWv
+      exportSource: null
+    _id: vU1b5kJGIdutFGIZ
+    _key: '!journal.pages!A3ABNLJphHplV8Nm.vU1b5kJGIdutFGIZ'
+  - sort: 400000
+    name: Sorcerer
+    type: text
+    system: {}
+    title:
+      show: true
+      level: 1
+    image: {}
+    text:
+      format: 1
+      content: >-
+        <p><em><strong>AKA the channeler, elementalist,
+        stormcaller</strong></em></p><p><em>Your body is a vessel through which
+        you channel your discipline into grace, precision, and the never-ending
+        journey towards perfection.</em></p><p><strong>Core Talent:</strong>
+        @UUID[Compendium.grimwild.gwce-talents.Item.deKJoRmsSYYzDZov]{Sorcery}</p><p><strong>Path
+        Talents:</strong>
+        @UUID[Compendium.grimwild.gwce-talents.Item.ydN38Yf16h2Dk6J6]{Eldritch
+        Growth}
+        @UUID[Compendium.grimwild.gwce-talents.Item.CtUzkY0Fha1u5y6L]{Maelstrom}
+        @UUID[Compendium.grimwild.gwce-talents.Item.jLvUnh0MVbJqsVHT]{Magic
+        Sense}
+        @UUID[Compendium.grimwild.gwce-talents.Item.4gpqV19Ureaw58XH]{Metamagic}
+        @UUID[Compendium.grimwild.gwce-talents.Item.vHXVDzzIFhteYiwW]{Spelleater}
+        @UUID[Compendium.grimwild.gwce-talents.Item.YOle8jtGCKeJXVPk]{Wisps}
+        @UUID[Compendium.grimwild.gwce-talents.Item.ZT56ussIBulbf851]{Wrath}</p><h3>Wild
+        Surge (Optional)</h3><p>As your chosen magical twist, or when the GM
+        <em><strong>Complicates Things</strong></em> with your magic, you may
+        trigger a wild surge—raw magic spirals out of your control. Make a story
+        roll (usually 2d) to see what happens. Effects should complicate the
+        scene, but usually don't reach the level of a full impact move. They
+        might stem from your touchstones, raw magical essence, or something
+        random. Use the crucible below or ask around your group for
+        ideas.</p><p><strong>Wild Surge Crucible</strong> - Roll 1 on each
+        table, smash them together, and
+        interpret</p><p>@Crucible[Compendium.grimwild.gwce-crucibles.RollTable.HbllbjkfqIMbw6Q3]{Wild
+        Surge
+        1}</p><p>@Crucible[Compendium.grimwild.gwce-crucibles.RollTable.Vln9i9pNYecfYoBG]{Wild
+        Surge 2}</p><h3>Other Magical Twists</h3><p>These can be anything,
+        acting similarly to a lesser impact move when triggered. Tie it to your
+        character's story, if possible. Use a timer to build up to a bigger
+        consequence, such as being hunted down, or succumbing to a curse or
+        deadly fate.</p>
+    video:
+      controls: true
+      volume: 0.5
+    src: null
+    category: null
+    ownership:
+      default: -1
+      79CEe5dKC6Ls5VbU: 3
+    flags: {}
+    _stats:
+      coreVersion: '14.364'
+      systemId: grimwild
+      systemVersion: 0.5.3
+      createdTime: 1783038692836
+      modifiedTime: 1783099966648
+      lastModifiedBy: 79CEe5dKC6Ls5VbU
+      compendiumSource: null
+      duplicateSource: Compendium.grimwild.gwce-journals.JournalEntry.A3ABNLJphHplV8Nm.JournalEntryPage.vU1b5kJGIdutFGIZ
+      exportSource: null
+    _id: IAQLEhPcuKUHIvNv
+    _key: '!journal.pages!A3ABNLJphHplV8Nm.IAQLEhPcuKUHIvNv'
+  - sort: 400000
+    name: Summoner
+    type: text
+    system: {}
+    title:
+      show: true
+      level: 1
+    image: {}
+    text:
+      format: 1
+      content: >-
+        <p><em><strong>AKA the caller, binder,
+        planeswalker</strong></em></p><p><em>You can create creatures from the
+        essence of other planes to protect yourself and bring ruin to your
+        enemies.</em></p><p><strong>Core Talent:</strong>
+        @UUID[Compendium.grimwild.gwce-talents.Item.E80P3ozUwQWRC5ap]{Vassal}</p><p><strong>Path
+        Talents:</strong>
+        @UUID[Compendium.grimwild.gwce-talents.Item.zUu3Y4Sp5I6riC1X]{Binding
+        Word}
+        @UUID[Compendium.grimwild.gwce-talents.Item.pYpgHdngQNQe32ly]{Fierce
+        Protector}
+        @UUID[Compendium.grimwild.gwce-talents.Item.kK4LN7Svp3tNPRih]{Ley magic}
+        @UUID[Compendium.grimwild.gwce-talents.Item.s92DmqVh9SwLCwZy]{Monster
+        Menagerie}
+        @UUID[Compendium.grimwild.gwce-talents.Item.5Xe9pFQ9dvZYBvfn]{Pocket
+        Plane}
+        @UUID[Compendium.grimwild.gwce-talents.Item.eit50hKGYL98qHV1]{Portal
+        Network}
+        @UUID[Compendium.grimwild.gwce-talents.Item.sCv0nEBChFrYl2KT]{Shared
+        Soul}</p><h3>Aspects (Examples)</h3><p>Below are some examples of planar
+        creatures and their aspects. Existing talents are listed with a page
+        number reference. Others are made for that beast. If the idea of your
+        summoned eidolon has more aspects than those available, ask your GM
+        about "donating" the PC's own, adding them to the vassal
+        instead.</p><section class="grid
+        grid-2col"><div><ul><li><p><strong>Dragon:</strong>
+        @UUID[Compendium.grimwild.gwce-talents.Item.ydN38Yf16h2Dk6J6]{Eldritch
+        Growth}</p></li><li><p><strong>Ghost:</strong>
+        @UUID[Compendium.grimwild.gwce-talents.Item.UWU14yRUO3OR9mSp]{Otherworldly
+        Form}</p></li><li><p><strong>Demon:</strong>
+        @UUID[Compendium.grimwild.gwce-talents.Item.JUtk9dfbboSXP8X1]{Knowing
+        Gaze}</p></li><li><p><strong>Pixie:</strong>
+        @UUID[Compendium.grimwild.gwce-talents.Item.k05clNwHNfu182P4]{Arcane
+        Training}</p></li><li><p><strong>Air Elemental:</strong>
+        @UUID[Compendium.grimwild.gwce-talents.Item.iRLs3DR7cSMG0zLt]{Windcaller}</p></li><li><p><strong>Oozeling:</strong>
+        @UUID[Compendium.grimwild.gwce-talents.Item.MZGjMzYMZZ8Z3wlU]{Shift Form
+        }</p></li></ul></div><div><ul><li><p><strong>Unicorn:</strong>
+        @UUID[Compendium.grimwild.gwce-talents.Item.ZxbjdllKwGXPAcuV]{Healing
+        Hands}</p></li><li><p><strong>Shadow:</strong>
+        @UUID[Compendium.grimwild.gwce-talents.Item.2uxcSShENkGU3g6l]{Lurker}</p></li><li><p><strong>Zombie
+        Swarm:</strong>
+        @UUID[Compendium.grimwild.gwce-talents.Item.HyxdTMa3rkCyf4nM]{Bulwark}</p></li><li><p><strong>Warrior
+        Spirit:</strong>
+        @UUID[Compendium.grimwild.gwce-talents.Item.V5CEe1pUbWY0gtpo]{Guardian}</p></li><li><p><strong>Treant:</strong>
+        @UUID[Compendium.grimwild.gwce-talents.Item.LxRcD556CHYdhVGU]{Primal
+        Growth}</p></li><li><p><strong>Tentacles:</strong>
+        @UUID[Compendium.grimwild.gwce-talents.Item.uFxLO7FQYOZimL8p]{Fearsome}</p></li></ul></div></section><h3>Build-a-Vassal
+        (Optional)</h3><p>Your summons are from a different plane—a different
+        reality, and their form shifts and shapes to conform to the material
+        plane. Use the crucible below to discover the basic form of your
+        vassal.</p><section class="grid grid-3col"><div><table><thead><tr><th
+        colspan="2"
+        style="text-align:center"><p>@UUID[Compendium.grimwild.gwce-crucibles.RollTable.dw51NQ4yN1V6B4jw]{It's
+        a
+        ____}</p></th></tr></thead><tbody><tr><td><p>squat</p></td><td><p>tall</p></td></tr><tr><td><p>gangly</p></td><td><p>angular</p></td></tr><tr><td><p>robust</p></td><td><p>bulky</p></td></tr><tr><td><p>lithe</p></td><td><p>rounded</p></td></tr><tr><td><p>sleek</p></td><td><p>hunched</p></td></tr><tr><td><p>imposing</p></td><td><p>gaunt</p></td></tr></tbody></table></div><div><table><thead><tr><th
+        colspan="2"
+        style="text-align:center"><p>@UUID[Compendium.grimwild.gwce-crucibles.RollTable.rlRXOjtEZpSzLO6K]{____-like
+        creature that I
+        send}</p></th></tr></thead><tbody><tr><td><p>frog</p></td><td><p>chicken</p></td></tr><tr><td><p>bull</p></td><td><p>snake</p></td></tr><tr><td><p>turtle</p></td><td><p>insect</p></td></tr><tr><td><p>squid</p></td><td><p>jellyfish</p></td></tr><tr><td><p>cat</p></td><td><p>ape</p></td></tr><tr><td><p>spider</p></td><td><p>blob</p></td></tr></tbody></table></div><div><table><thead><tr><th
+        colspan="2"
+        style="text-align:center"><p>@UUID[Compendium.grimwild.gwce-crucibles.RollTable.NqPfMOaLZqxU4bp9]{____ing
+        toward my
+        enemies}</p></th></tr></thead><tbody><tr><td><p>prowl</p></td><td><p>glide</p></td></tr><tr><td><p>slither</p></td><td><p>dash</p></td></tr><tr><td><p>leap</p></td><td><p>skitter</p></td></tr><tr><td><p>crawl</p></td><td><p>lumber</p></td></tr><tr><td><p>bound</p></td><td><p>charge</p></td></tr><tr><td><p>gallop</p></td><td><p>float</p></td></tr></tbody></table></div></section><h3>"Fallout"</h3><p>There
+        are often consequences to the magic anchoring your vassal to this plane
+        breaking. Consider your summon, and what form that could take
+        beforehand. Demons may require <em>immediate payment for their
+        service</em>, vassals from elemental planes could <em>bring forth raging
+        fire or a tidal wave</em>, while bestial creatures could <em>go
+        berserk</em>. On a perfect, you avoid the trouble.</p>
+    video:
+      controls: true
+      volume: 0.5
+    src: null
+    category: null
+    ownership:
+      default: -1
+      79CEe5dKC6Ls5VbU: 3
+    flags: {}
+    _stats:
+      coreVersion: '14.368'
+      systemId: grimwild
+      systemVersion: 0.5.3
+      createdTime: 1783038694255
+      modifiedTime: 1791655112397
+      lastModifiedBy: nF9qxzj59Qn6fNSn
+      compendiumSource: null
+      duplicateSource: Compendium.grimwild.gwce-journals.JournalEntry.A3ABNLJphHplV8Nm.JournalEntryPage.IAQLEhPcuKUHIvNv
+      exportSource: null
+    _id: hFdtz4n6rNQwyUAG
+    _key: '!journal.pages!A3ABNLJphHplV8Nm.hFdtz4n6rNQwyUAG'
+  - sort: 400000
+    name: Swashbuckler
+    type: text
+    system: {}
+    title:
+      show: true
+      level: 1
+    image: {}
+    text:
+      format: 1
+      content: >-
+        <p><em><strong>AKA the fencer, duelist,
+        buccaneer</strong></em></p><p><em>You fight with swagger, skill, and a
+        smile, turning every desperate clash into a daring performance with luck
+        ever by your side.</em></p><p><strong>Core Talent:</strong>
+        @UUID[Compendium.grimwild.gwce-talents.Item.uPQrfhqRE34zc6Nx]{Panache}</p><p><strong>Path
+        Talents:</strong>
+        @UUID[Compendium.grimwild.gwce-talents.Item.5CtoO6BPNuprfhXe]{Audacity}
+        @UUID[Compendium.grimwild.gwce-talents.Item.Pt6fw8kmgDex18Sl]{Fancy
+        Footwork}
+        @UUID[Compendium.grimwild.gwce-talents.Item.EmH6mbsUqW4jTt5m]{Improvise}
+        @UUID[Compendium.grimwild.gwce-talents.Item.nUhSa5uGMYwFBDbn]{Lucky}
+        @UUID[Compendium.grimwild.gwce-talents.Item.qTCXUKqObQF3HNm1]{Natural
+        Moxie}
+        @UUID[Compendium.grimwild.gwce-talents.Item.FgPZtq8dXJ19JBtt]{Provoke}
+        @UUID[Compendium.grimwild.gwce-talents.Item.YgCyDiHMURqcd88R]{The Legend
+        Of...}</p><h3>Past Entanglements (Optional)</h3><p>A Swashbuckler is
+        known by their past. Whose life is intertwined with the story of your
+        deeds? Choose 2 people important in your tales by picking a descriptor
+        and a focus and smashing them together, then one more vital to your
+        story that you don't know yet.</p><section class="grid
+        grid-2col"><div><table><thead><tr><th colspan="2"
+        style="text-align:center"><p>@UUID[Compendium.grimwild.gwce-crucibles.RollTable.qRyyv1TN8s9ZnL1U]{Descriptor}</p></th></tr></thead><tbody><tr><td><p><em>spurned</em></p></td><td><p><em>lifelong</em></p></td></tr><tr><td><p><em>obsessed</em></p></td><td><p><em>bitter</em></p></td></tr><tr><td><p><em>vengeful</em></p></td><td><p><em>adoring</em></p></td></tr><tr><td><p><em>treacherous</em></p></td><td><p><em>innocent</em></p></td></tr><tr><td><p><em>jealous</em></p></td><td><p><em>ambitious</em></p></td></tr><tr><td><p><em>mysterious</em></p></td><td><p><em>secret</em></p></td></tr></tbody></table></div><div><table><thead><tr><th
+        colspan="2"
+        style="text-align:center"><p>@UUID[Compendium.grimwild.gwce-crucibles.RollTable.O1jFcWlid1zK7RWw]{Focus}</p></th></tr></thead><tbody><tr><td><p><em>patron</em></p></td><td><p><em>partner</em></p></td></tr><tr><td><p><em>investigator</em></p></td><td><p><em>rival</em></p></td></tr><tr><td><p><em>paramour</em></p></td><td><p><em>fan</em></p></td></tr><tr><td><p><em>mentor</em></p></td><td><p><em>friend</em></p></td></tr><tr><td><p><em>faction</em></p></td><td><p><em>muse</em></p></td></tr><tr><td><p><em>relative</em></p></td><td><p><em>protégé</em></p></td></tr></tbody></table></div></section><h3>Creed
+        (Optional)</h3><p>Many thrilling duelists have a code, a rule they never
+        break, a line they will never cross, or a proverb they live their life
+        by. How devoted to it are you? Choose up to 2 below, or create your
+        own.</p><section class="grid grid-2col"><div><ul><li><p><em>all's fair
+        in love and war</em></p></li><li><p><em>wield the sword of
+        justice</em></p></li><li><p><em>accept every
+        challenge</em></p></li><li><p><em>coin is meant to be
+        spent</em></p></li><li><p><em>infamous is still
+        famous</em></p></li><li><p><em>gentleman even in dire
+        times</em></p></li></ul></div><div><ul><li><p><em>honor is only for the
+        dead</em></p></li><li><p><em>a good story beats any
+        reward</em></p></li><li><p><em>never kill the
+        helpless</em></p></li><li><p><em>death before
+        dishonor</em></p></li><li><p><em>the best plan is no plan at
+        all</em></p></li><li><p><em>only a fair fight measures
+        skill</em></p></li></ul></div></section><h3>The Legend Of…
+        (Talent)</h3><p>Many recognize you as a hero, others as a cad and
+        ne'er-do-well. Track tales of your exploits with campaign pools.
+        <em><strong>Take spark</strong></em> when you play into it by: leaving a
+        calling card—saying your catchphrase in a dramatic moment—indulging a
+        fan. Use the crucible below to discover what people have taken to
+        calling you. Pick one from the left, and one from the right, and smash
+        together.
+        @UUID[Compendium.grimwild.gwce-crucibles.RollTable.VLBKjCb9UNgnnKdu]{Or
+        roll for it.}</p><section class="grid
+        grid-2col"><div><table><thead><tr><th><p><strong>Playful</strong></p></th><th><p><strong>Witty</strong></p></th><th><p><strong>Mysterious</strong></p></th></tr></thead><tbody><tr><td><p>smiling</p></td><td><p>gallant</p></td><td><p>steel</p></td></tr><tr><td><p>red</p></td><td><p>artful</p></td><td><p>crimson</p></td></tr><tr><td><p>infallible</p></td><td><p>sly</p></td><td><p>gray</p></td></tr><tr><td><p>dashing</p></td><td><p>silver</p></td><td><p>silent</p></td></tr><tr><td><p>fantastic</p></td><td><p>azure</p></td><td><p>midnight</p></td></tr><tr><td><p>wondrous</p></td><td><p>gilded</p></td><td><p>masked</p></td></tr></tbody></table></div><div><table><thead><tr><th><p><strong>Abstract</strong></p></th><th><p><strong>Animal</strong></p></th><th><p><strong>Trade</strong></p></th></tr></thead><tbody><tr><td><p>phantom</p></td><td><p>robin</p></td><td><p>baron</p></td></tr><tr><td><p>marvel</p></td><td><p>hawk</p></td><td><p>wanderer</p></td></tr><tr><td><p>one</p></td><td><p>butterfly</p></td><td><p>knight</p></td></tr><tr><td><p>justice</p></td><td><p>fox</p></td><td><p>rake</p></td></tr><tr><td><p>enigma</p></td><td><p>phoenix</p></td><td><p>thief</p></td></tr><tr><td><p>mirage</p></td><td><p>viper</p></td><td><p>avenger</p></td></tr></tbody></table><p></p></div></section>
+    video:
+      controls: true
+      volume: 0.5
+    src: null
+    category: null
+    ownership:
+      default: -1
+      79CEe5dKC6Ls5VbU: 3
+    flags: {}
+    _stats:
+      coreVersion: '14.364'
+      systemId: grimwild
+      systemVersion: 0.5.3
+      createdTime: 1783038695755
+      modifiedTime: 1783127149852
+      lastModifiedBy: 79CEe5dKC6Ls5VbU
+      compendiumSource: null
+      duplicateSource: Compendium.grimwild.gwce-journals.JournalEntry.A3ABNLJphHplV8Nm.JournalEntryPage.hFdtz4n6rNQwyUAG
+      exportSource: null
+    _id: XBHO0tGCTQRfA7XS
+    _key: '!journal.pages!A3ABNLJphHplV8Nm.XBHO0tGCTQRfA7XS'
+  - sort: 400000
+    name: Warlock
+    type: text
+    system: {}
+    title:
+      show: true
+      level: 1
+    image: {}
+    text:
+      format: 1
+      content: >-
+        <p><em><strong>AKA the magus, occultist,
+        pactmaker</strong></em></p><p><em>You have made a pact with a greater
+        being—power in exchange for service, a pact that may prove to be a
+        double-edged sword.</em></p><p><strong>Core Talent:</strong>
+        @UUID[Compendium.grimwild.gwce-talents.Item.jKDyHI3WnywJfUbC]{Pact}</p><p><strong>Path
+        Talents:</strong>
+        @UUID[Compendium.grimwild.gwce-talents.Item.q8TSRpH8hSF1Ysaz]{Affliction}
+        @UUID[Compendium.grimwild.gwce-talents.Item.RGJvam4MsS6dw3g6]{Blood
+        Rituals}
+        @UUID[Compendium.grimwild.gwce-talents.Item.JUtk9dfbboSXP8X1]{Knowing
+        Gaze}
+        @UUID[Compendium.grimwild.gwce-talents.Item.p6TDJjWqDn55svJ9]{Magus}
+        @UUID[Compendium.grimwild.gwce-talents.Item.UWU14yRUO3OR9mSp]{Otherworldly
+        Form}
+        @UUID[Compendium.grimwild.gwce-talents.Item.Elb1EbHBFgw5QtHg]{Visions}
+        @UUID[Compendium.grimwild.gwce-talents.Item.MCqr0mlpL8BNE8bA]{Wayfarer}</p><h3>Eldritch
+        Magic</h3><p>You channel your patron's power; your magic and gifted
+        <strong>Eldritch Talents</strong> (and their options) must align with
+        their nature. The trappings on both act as set dressing. Remember, your
+        3d story roll may be lowered if you fail your
+        expectations...</p><h3>Patron Creation</h3><p>Roll or choose 2 natures
+        and 2 desires below, then assign a distinct color or visual signature to
+        your patron's influence that act as their trappings. Decide how they
+        communicate (telepathy, signs, projection), and how many followers
+        (many, few, one) they have. Give this powerful, otherworldly being a
+        name, describe what you know of them, and establish the bond between
+        you.</p><p>Patron Crucible - Roll 2 on each table, smash them together,
+        and
+        interpret.</p><p>@Crucible[Compendium.grimwild.gwce-crucibles.RollTable.haDvaSgyOj1k5Sxx]{Patron
+        Nature}</p><p>@Crucible[Compendium.grimwild.gwce-crucibles.RollTable.wVdhje3Zv4N481UV]{Patron
+        Desire}</p><h3>"Clear Up the Issue"</h3><p>The patience pool dropping to
+        0d should be bad—don’t be afraid to hit the Warlock hard with
+        interesting consequences from their patron. Consider bestowing
+        conditions, changing their appearance, or even straining the warlock’s
+        bonds with others. If the PC is on their good side, maybe the patron
+        gives them more responsibility, or a thoughtful but misguided gift. Many
+        patrons are antagonistic, but that doesn’t describe all of them. Just
+        ensure the trouble that comes from the patron matches their nature.</p>
+    video:
+      controls: true
+      volume: 0.5
+    src: null
+    category: null
+    ownership:
+      default: -1
+      79CEe5dKC6Ls5VbU: 3
+    flags: {}
+    _stats:
+      coreVersion: '14.364'
+      systemId: grimwild
+      systemVersion: 0.5.3
+      createdTime: 1783038697285
+      modifiedTime: 1783100532431
+      lastModifiedBy: 79CEe5dKC6Ls5VbU
+      compendiumSource: null
+      duplicateSource: Compendium.grimwild.gwce-journals.JournalEntry.A3ABNLJphHplV8Nm.JournalEntryPage.XBHO0tGCTQRfA7XS
+      exportSource: null
+    _id: nsrd3SWBUdq6RHWP
+    _key: '!journal.pages!A3ABNLJphHplV8Nm.nsrd3SWBUdq6RHWP'
+  - sort: 400000
+    name: Witch
+    type: text
+    system: {}
+    title:
+      show: true
+      level: 1
+    image: {}
+    text:
+      format: 1
+      content: >-
+        <p><em><strong>AKA the sibyl, oracle, shaman</strong></em></p><p><em>You
+        are blessed with the knowledge of old magic, wielding the ability to
+        speak the language of the universe.</em></p><p><strong>Core
+        Talent:</strong>
+        @UUID[Compendium.grimwild.gwce-talents.Item.ycuMJNdbgri9b9XV]{Hidden
+        Magic}</p><p><strong>Path Talents:</strong>
+        @UUID[Compendium.grimwild.gwce-talents.Item.EAvEzqBuwZwroyZz]{Bailiwick}
+        @UUID[Compendium.grimwild.gwce-talents.Item.p4nH22ifVWTkzmzr]{Evil Eye}
+        @UUID[Compendium.grimwild.gwce-talents.Item.Q3arxoJ2ScEqEyb8]{Familiar}
+        @UUID[Compendium.grimwild.gwce-talents.Item.qZIcwbT6Jd4IBgS6]{Herbalism}
+        @UUID[Compendium.grimwild.gwce-talents.Item.e70GiK2WwHRyWg6z]{Homely
+        Hovel}
+        @UUID[Compendium.grimwild.gwce-talents.Item.u5p9sMd7x2PaJoIs]{Soothsayer}
+        @UUID[Compendium.grimwild.gwce-talents.Item.ZOjFacfhwal8rIpe]{Wonder
+        Magnet}</p><h3>Afflictions (Optional)</h3><p>Witches are odd and
+        mysterious spellcasters, some with strange maladies. This affliction is
+        something you've grown accustomed to, and while it can inflict thorns
+        and introduce
+        <em><strong>@UUID[Compendium.grimwild.gwce-journals.JournalEntry.YbuXwBYYNXIb670F.JournalEntryPage.TFE7qnkVkpzsZYW6#tangles]{tangles}</strong></em>,
+        it shouldn't be debilitating. What is your strange afflictions and how
+        did you get it? Choose 1 or make up your own.</p><section class="grid
+        grid-2col"><div><ul><li><p>plagued by your own
+        shadow</p></li><li><p>empty eye sockets</p></li><li><p>skeletal body
+        wasting away</p></li></ul></div><div><ul><li><p>special diet, such as
+        only raw meat</p></li><li><p>haunted by ancestral
+        ghosts</p></li><li><p>putrid smell that follows
+        everywhere</p></li></ul></div></section><h3>The Language</h3><p>The
+        language of the universe is more than words as we know them. Feelings,
+        thoughts, and reagents also form the syllables. Use the crucible below
+        or come up with your own Words of Power to fit your
+        witch.</p><p>@Crucible[Compendium.grimwild.gwce-crucibles.RollTable.XFyrzeUiVLnx5HXl]{Words
+        of Power
+        1}</p><p>@Crucible[Compendium.grimwild.gwce-crucibles.RollTable.9ca1CSFhu1lnI90l]{Words
+        of Power 2}</p><h3>Herbalism Crucible
+        (Talent)</h3><p>@Crucible[Compendium.grimwild.gwce-crucibles.RollTable.LMqVbQeOR1DX4DOV]{Herbalism
+        1}</p><p>@Crucible[Compendium.grimwild.gwce-crucibles.RollTable.NxZo4hUXhM805JXa]{Herbalism
+        2}</p><h3>Homely Hovel (Talent)</h3><section class="grid
+        grid-2col"><div><p>@Embed[Compendium.grimwild.gwce-crucibles.RollTable.1P7yTl7gvHd4FuxU]{Homely
+        Hovel
+        1}</p></div><div><p>@Embed[Compendium.grimwild.gwce-crucibles.RollTable.4NH5kbPPG8S1XdSB]{Homely
+        Hovel 2}</p></div></section>
+    video:
+      controls: true
+      volume: 0.5
+    src: null
+    category: null
+    ownership:
+      default: -1
+      79CEe5dKC6Ls5VbU: 3
+    flags: {}
+    _stats:
+      coreVersion: '14.364'
+      systemId: grimwild
+      systemVersion: 0.5.3
+      createdTime: 1783038698493
+      modifiedTime: 1783100974358
+      lastModifiedBy: 79CEe5dKC6Ls5VbU
+      compendiumSource: null
+      duplicateSource: Compendium.grimwild.gwce-journals.JournalEntry.A3ABNLJphHplV8Nm.JournalEntryPage.nsrd3SWBUdq6RHWP
+      exportSource: null
+    _id: v5k2XzfSsWqWe9Xn
+    _key: '!journal.pages!A3ABNLJphHplV8Nm.v5k2XzfSsWqWe9Xn'
+  - sort: 400000
+    name: Wizard
+    type: text
+    system: {}
+    title:
+      show: true
+      level: 1
+    image: {}
+    text:
+      format: 1
+      content: >-
+        <p><em><strong>AKA the diviner, evoker,
+        abjurer</strong></em></p><p><em>You wield arcane power through precise
+        knowledge, casting spells from an ever-expanding repertoire, your
+        studies endless.</em></p><p><strong>Core Talent:
+        </strong>@UUID[Compendium.grimwild.gwce-talents.Item.nJs6GfiABSqweW9M]{Spellcraft}</p><p><strong>Path
+        Talents:
+        </strong>@UUID[Compendium.grimwild.gwce-talents.Item.yOfQWHy3L75BDBoO]{Alchemist}
+        @UUID[Compendium.grimwild.gwce-talents.Item.7gwtb2qhZG4zAdvW]{Archivist}
+        @UUID[Compendium.grimwild.gwce-talents.Item.a8vcDNq62VhOah8R]{Colleagues}
+        @UUID[Compendium.grimwild.gwce-talents.Item.qp4J2gxLHEUIvLdl]{Component
+        Pouch}
+        @UUID[Compendium.grimwild.gwce-talents.Item.lpgK9WrEsK0mEVbI]{Countermagic}
+        @UUID[Compendium.grimwild.gwce-talents.Item.nD7l3bdr58O67fHZ]{Mastered
+        Theorem}
+        @UUID[Compendium.grimwild.gwce-talents.Item.hoPp5GF9ImIgTVSD]{Specialty
+        School}</p><h3>Schools of
+        Magic</h3><ul><li><p><strong>Abjuration</strong>: Protects, blocks,
+        dispels, or banishes.</p></li><li><p><strong>Conjuration</strong>:
+        Summons creatures, objects, and
+        portals.</p></li><li><p><strong>Divination</strong>: Reveals
+        information, predicts the future, and reads
+        minds.</p></li><li><p><strong>Enchantment</strong>: Charms, influences,
+        and curses sentient
+        creatures.</p></li><li><p><strong>Evocation</strong>: Creates and
+        controls elemental and magical
+        forces.</p></li><li><p><strong>Illusion</strong>: Generates false images
+        and sensory deceptions.</p></li><li><p><strong>Necromancy</strong>:
+        Manipulates life, death, and the
+        undead.</p></li><li><p><strong>Transmutation</strong>: Transforms matter
+        and alters physical properties.</p></li></ul><h3>Creating Spell
+        Theorems</h3><p>Use the spell crucible to randomly determine a
+        <strong>style</strong>, <strong>essence</strong>, and
+        <strong>form</strong>, by rolling 2d on each section. Assign 1d to the
+        column and 1d to the row (or reverse the two) to find two touchstone
+        words, then choose your favorite. Pick two out of these three
+        (<strong>style+essence</strong>, <strong>style+form</strong>,
+        <strong>essence+form</strong>) for the spell name, or
+        <strong>theorem</strong>.</p><p><strong>Example Roll:</strong> <em>wild
+        + fire + sentinel</em>. This gives us a some interesting
+        options:</p><p><em>wild fire (evocation)</em> → This could blast the
+        area with uncontrollable fire.</p><p><em>fire sentinel
+        (transmutation)</em> → This could turn your form to fire.</p><p><em>wild
+        sentinel (conjuration)</em> → This could summon a bear to fight along
+        side you.</p><h3>Spell Crucible</h3><p>Roll 1 of each, choose 2, then
+        add a
+        school</p><p>@Crucible[Compendium.grimwild.gwce-crucibles.RollTable.mOADEYLlXeMBT3y7]{Spell
+        Crucible -
+        Style}</p><p>@Crucible[Compendium.grimwild.gwce-crucibles.RollTable.CzpyvhNPaQYzi9kA]{Spell
+        Crucible -
+        Essence}</p><p>@Crucible[Compendium.grimwild.gwce-crucibles.RollTable.OeG8xSHvJZae6DmD]{Spell
+        Crucible - Form}</p><p></p>
+    video:
+      controls: true
+      volume: 0.5
+    src: null
+    category: null
+    ownership:
+      default: -1
+      79CEe5dKC6Ls5VbU: 3
+    flags: {}
+    _stats:
+      coreVersion: '14.364'
+      systemId: grimwild
+      systemVersion: 0.5.3
+      createdTime: 1783038699722
+      modifiedTime: 1783092243505
+      lastModifiedBy: 79CEe5dKC6Ls5VbU
+      compendiumSource: null
+      duplicateSource: Compendium.grimwild.gwce-journals.JournalEntry.A3ABNLJphHplV8Nm.JournalEntryPage.v5k2XzfSsWqWe9Xn
+      exportSource: null
+    _id: Chpa2kIFZthAo2T5
+    _key: '!journal.pages!A3ABNLJphHplV8Nm.Chpa2kIFZthAo2T5'
+folder: neGILCvF8L9Jn0F5
+categories: []
+sort: 200000
+ownership:
+  default: 0
+  79CEe5dKC6Ls5VbU: 3
+flags: {}
+_stats:
+  coreVersion: '14.368'
+  systemId: grimwild
+  systemVersion: 0.5.3
+  createdTime: 1782682160086
+  modifiedTime: 1791746043159
+  lastModifiedBy: nF9qxzj59Qn6fNSn
+  compendiumSource: null
+  duplicateSource: null
+  exportSource: null
+_key: '!journal!A3ABNLJphHplV8Nm'

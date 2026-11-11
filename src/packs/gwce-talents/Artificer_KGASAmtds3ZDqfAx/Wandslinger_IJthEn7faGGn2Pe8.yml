@@ -1,0 +1,43 @@
+folder: KGASAmtds3ZDqfAx
+name: Wandslinger
+type: talent
+_id: IJthEn7faGGn2Pe8
+img: icons/skills/ranged/wand-attack-beam-blue.webp
+system:
+  description: >-
+    <p>You have a specialized wand and can use it to fire the following bolts of
+    magic using Wits: <em>acid burst—force blast—ice shard—inferno bolt—static
+    charge—stun beam</em>. Once per session, you can cause a
+    <em><strong>secondary effect</strong></em> (as a critical) related to the
+    type.</p>
+  core: false
+  notes:
+    description: ''
+    label: ''
+  trackers:
+    - type: points
+      label: Secondary Effect
+      points:
+        value: 1
+        max: 1
+        showSteps: true
+      pool:
+        diceNum: 0
+        powerPool: false
+effects: []
+sort: 0
+ownership:
+  default: 0
+  79CEe5dKC6Ls5VbU: 3
+flags: {}
+_stats:
+  coreVersion: '14.368'
+  systemId: grimwild
+  systemVersion: 0.5.3
+  createdTime: 1782662610269
+  modifiedTime: 1791743000689
+  lastModifiedBy: nF9qxzj59Qn6fNSn
+  compendiumSource: null
+  duplicateSource: null
+  exportSource: null
+_key: '!items!IJthEn7faGGn2Pe8'

@@ -1,0 +1,44 @@
+folder: M9v17yUrFRF23cat
+name: Axe of the Silent Grave
+type: arcana
+_id: fFbY7jbj91xRetOL
+img: icons/weapons/axes/axe-battle-worn-eye.webp
+system:
+  description: >-
+    <p>This heavy, obsidian axe has a skull chiseled into the head. Those slain
+    by it can't be raised as undead.</p>
+  tier: minor
+  notes:
+    description: ''
+    label: ''
+  trackers: []
+  touchstones: death—eternal—attack
+  limitations: ''
+  activation: striking down a living foe.
+  sensories:
+    descriptors: dull glint, piercing eyes, worn carving
+    actions: urge to destroy undead, reverse two-handed grip
+  palette:
+    - name: Dark Obsidian
+      color: '#232323'
+    - name: Ruby Eyes
+      color: '#970102'
+    - name: Bone White
+      color: '#e6e1ce'
+effects: []
+sort: 0
+ownership:
+  default: 0
+  nF9qxzj59Qn6fNSn: 3
+flags: {}
+_stats:
+  coreVersion: '14.369'
+  systemId: grimwild
+  systemVersion: 0.6.0
+  createdTime: 1791742636421
+  modifiedTime: 1794191805732
+  lastModifiedBy: UV77mtxQgW7KpS6B
+  compendiumSource: null
+  duplicateSource: null
+  exportSource: null
+_key: '!items!fFbY7jbj91xRetOL'

@@ -1,0 +1,53 @@
+folder: FRYMORq1u6TYnNwk
+name: Twilight Candle
+type: arcana
+_id: PvrsgpJUB5LXcmrP
+img: icons/magic/light/light-candles-lit-white.webp
+system:
+  description: >-
+    <p>This pitch black candle deadens light and sound in the area that would
+    normally be in its light.</p>
+  tier: trivial
+  notes:
+    description: ''
+    label: ''
+  trackers:
+    - type: points
+      label: Consume
+      points:
+        value: 1
+        max: 1
+        showSteps: true
+      pool:
+        diceNum: 0
+        powerPool: false
+  touchstones: darkness—quiet—summon
+  limitations: ''
+  activation: lighting the wick.
+  sensories:
+    descriptors: deadened air, feeling of pressure on skull
+    actions: shadows expand outward
+  palette:
+    - name: Gloomy Indigo
+      color: '#1e1a24'
+    - name: Dusk Purple
+      color: '#3c2e4d'
+    - name: Black Wick
+      color: '#0d0b10'
+effects: []
+sort: 0
+ownership:
+  default: 0
+  nF9qxzj59Qn6fNSn: 3
+flags: {}
+_stats:
+  coreVersion: '14.369'
+  systemId: grimwild
+  systemVersion: 0.6.0
+  createdTime: 1794238169109
+  modifiedTime: 1794247124233
+  lastModifiedBy: UV77mtxQgW7KpS6B
+  compendiumSource: null
+  duplicateSource: null
+  exportSource: null
+_key: '!items!PvrsgpJUB5LXcmrP'

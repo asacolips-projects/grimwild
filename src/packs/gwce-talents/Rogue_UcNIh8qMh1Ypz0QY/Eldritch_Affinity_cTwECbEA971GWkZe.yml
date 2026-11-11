@@ -1,0 +1,39 @@
+folder: UcNIh8qMh1Ypz0QY
+name: Eldritch Affinity
+type: talent
+_id: cTwECbEA971GWkZe
+img: icons/magic/symbols/runes-star-magenta.webp
+system:
+  description: >-
+    <p>You have spellcasting, as the Sorcery talent. You roll Presence to cast
+    and choose 3 from <strong>magic paths</strong> and
+    <strong>techniques</strong>. You can’t cast potent spells, nor do you risk a
+    <strong>magical twist</strong>. [Prohibited: Sorcerer]</p><p><strong>Magic
+    paths:</strong>
+    <em>blood—decay—flame—frost—lux—shadow—stone—tempest</em>.</p><p><strong>Techniques:</strong>
+    <em>attack—create—defend—enhance—hinder—influence—transform—traverse</em>.</p>
+  core: false
+  notes:
+    description: >-
+      <p><em>This can be used to give psionics, instead, should it fit your
+      setting. Pick a single bastion (pg. 68), and use Wits to cast spells. You
+      can’t cast potent spells.</em></p>
+    label: ''
+  trackers: []
+effects: []
+sort: 0
+ownership:
+  default: 0
+  79CEe5dKC6Ls5VbU: 3
+flags: {}
+_stats:
+  coreVersion: '14.368'
+  systemId: grimwild
+  systemVersion: 0.5.3
+  createdTime: 1782929090446
+  modifiedTime: 1791745138312
+  lastModifiedBy: nF9qxzj59Qn6fNSn
+  compendiumSource: null
+  duplicateSource: null
+  exportSource: null
+_key: '!items!cTwECbEA971GWkZe'

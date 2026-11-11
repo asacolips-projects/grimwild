@@ -59,12 +59,9 @@ prototypeToken:
     src: icons/svg/mystery-man.svg
     anchorX: 0.5
     anchorY: 0.5
-    offsetX: 0
-    offsetY: 0
     fit: contain
     scaleX: 1
     scaleY: 1
-    rotation: 0
     tint: '#ffffff'
     alphaThreshold: 0.75
   lockRotation: false
@@ -108,7 +105,7 @@ prototypeToken:
     brightness: 0
     saturation: 0
     contrast: 0
-  detectionModes: []
+  detectionModes: {}
   occludable:
     radius: 0
   ring:
@@ -128,6 +125,7 @@ prototypeToken:
     src: null
     disposition: false
   movementAction: null
+  depth: 1
 items:
   - name: Alarm Stands
     type: challenge
@@ -162,10 +160,12 @@ items:
       compendiumSource: null
       duplicateSource: null
       exportSource: null
-      coreVersion: '13.345'
+      coreVersion: '14.369'
       systemId: grimwild
       systemVersion: 0.1.7
       lastModifiedBy: null
+      createdTime: null
+      modifiedTime: null
     _key: '!actors.items!0i8IJgOEEpJObYmy.5YlWvrIEnYY3mlEY'
   - name: Holding Traps
     type: challenge
@@ -200,10 +200,12 @@ items:
       compendiumSource: null
       duplicateSource: null
       exportSource: null
-      coreVersion: '13.345'
+      coreVersion: '14.369'
       systemId: grimwild
       systemVersion: 0.1.7
       lastModifiedBy: null
+      createdTime: null
+      modifiedTime: null
     _key: '!actors.items!0i8IJgOEEpJObYmy.RMCNsi31iDtU8jT1'
   - name: Deadly Traps
     type: challenge
@@ -238,10 +240,12 @@ items:
       compendiumSource: null
       duplicateSource: null
       exportSource: null
-      coreVersion: '13.345'
+      coreVersion: '14.369'
       systemId: grimwild
       systemVersion: 0.1.7
       lastModifiedBy: null
+      createdTime: null
+      modifiedTime: null
     _key: '!actors.items!0i8IJgOEEpJObYmy.eXQ6apVjSPhWG2Ln'
   - name: Cocoons
     type: challenge
@@ -276,10 +280,12 @@ items:
       compendiumSource: null
       duplicateSource: null
       exportSource: null
-      coreVersion: '13.345'
+      coreVersion: '14.369'
       systemId: grimwild
       systemVersion: 0.1.7
       lastModifiedBy: null
+      createdTime: null
+      modifiedTime: null
     _key: '!actors.items!0i8IJgOEEpJObYmy.IgOlri1qvYxhBha8'
   - name: Spider Nest
     type: challenge
@@ -314,10 +320,12 @@ items:
       compendiumSource: null
       duplicateSource: null
       exportSource: null
-      coreVersion: '13.345'
+      coreVersion: '14.369'
       systemId: grimwild
       systemVersion: 0.1.7
       lastModifiedBy: null
+      createdTime: null
+      modifiedTime: null
     _key: '!actors.items!0i8IJgOEEpJObYmy.0Z4BcKOask7goYX4'
   - name: Ettercap
     type: challenge
@@ -352,10 +360,12 @@ items:
       compendiumSource: null
       duplicateSource: null
       exportSource: null
-      coreVersion: '13.345'
+      coreVersion: '14.369'
       systemId: grimwild
       systemVersion: 0.1.7
       lastModifiedBy: null
+      createdTime: null
+      modifiedTime: null
     _key: '!actors.items!0i8IJgOEEpJObYmy.rl2OE93IgTTURNpJ'
 effects: []
 flags: {}
@@ -363,7 +373,7 @@ _stats:
   compendiumSource: null
   duplicateSource: null
   exportSource: null
-  coreVersion: '13.345'
+  coreVersion: '14.369'
   systemId: grimwild
   systemVersion: 0.1.7
   createdTime: 1750368401053

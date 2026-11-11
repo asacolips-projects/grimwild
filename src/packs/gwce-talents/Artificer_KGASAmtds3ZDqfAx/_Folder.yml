@@ -1,0 +1,20 @@
+type: Item
+folder: null
+name: Artificer
+color: '#3d3d3d'
+sorting: a
+_id: KGASAmtds3ZDqfAx
+description: ''
+sort: 100000
+flags: {}
+_stats:
+  coreVersion: '14.364'
+  systemId: grimwild
+  systemVersion: 0.5.3
+  createdTime: 1782662610252
+  modifiedTime: 1782662610280
+  lastModifiedBy: 79CEe5dKC6Ls5VbU
+  compendiumSource: null
+  duplicateSource: null
+  exportSource: null
+_key: '!folders!KGASAmtds3ZDqfAx'

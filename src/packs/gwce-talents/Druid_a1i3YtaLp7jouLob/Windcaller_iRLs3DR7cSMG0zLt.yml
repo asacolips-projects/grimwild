@@ -1,0 +1,34 @@
+folder: a1i3YtaLp7jouLob
+name: Windcaller
+type: talent
+_id: iRLs3DR7cSMG0zLt
+img: icons/magic/air/fog-gas-smoke-swirling-gray.webp
+system:
+  description: >-
+    <p>Your voice carries on the winds over great distances. Once per session,
+    you can summon or dismiss, but not control: <em>dense fog—extreme tempera-
+    tures—heavy rain—snowfall—storms—strong winds</em>. You can <em><strong>push
+    yourself</strong></em> to do it again. You can perform weather rituals
+    without anchors.</p>
+  core: false
+  notes:
+    description: ''
+    label: ''
+  trackers: []
+effects: []
+sort: 0
+ownership:
+  default: 0
+  79CEe5dKC6Ls5VbU: 3
+flags: {}
+_stats:
+  coreVersion: '14.368'
+  systemId: grimwild
+  systemVersion: 0.5.3
+  createdTime: 1782662616208
+  modifiedTime: 1791742928172
+  lastModifiedBy: nF9qxzj59Qn6fNSn
+  compendiumSource: null
+  duplicateSource: null
+  exportSource: null
+_key: '!items!iRLs3DR7cSMG0zLt'

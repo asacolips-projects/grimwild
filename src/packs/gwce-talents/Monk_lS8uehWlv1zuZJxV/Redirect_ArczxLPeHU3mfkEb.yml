@@ -1,0 +1,34 @@
+folder: lS8uehWlv1zuZJxV
+name: Redirect
+type: talent
+_id: ArczxLPeHU3mfkEb
+img: icons/magic/defensive/shield-barrier-deflect-teal.webp
+system:
+  description: >-
+    <p>On a perfect defense against physical attack, you can <strong>push
+    yourself</strong> to turn it back on your foe.</p>
+  core: false
+  notes:
+    description: >-
+      <p><em>Keep vantage in mind when redirecting attacks. If you're quick, you
+      could very well deflect arrows and bolts. If you're also strong, you could
+      catch and return spears and larger weapons.</em></p>
+    label: ''
+  trackers: []
+effects: []
+sort: 0
+ownership:
+  default: 0
+  79CEe5dKC6Ls5VbU: 3
+flags: {}
+_stats:
+  coreVersion: '14.368'
+  systemId: grimwild
+  systemVersion: 0.5.3
+  createdTime: 1782662618841
+  modifiedTime: 1791743590618
+  lastModifiedBy: nF9qxzj59Qn6fNSn
+  compendiumSource: null
+  duplicateSource: null
+  exportSource: null
+_key: '!items!ArczxLPeHU3mfkEb'

@@ -35,17 +35,17 @@ export default class GrimwildCharacter extends GrimwildActorBase {
 		// (CE rules only) and then Dropped. See applyMark and applyHarm below.
 		schema.bloodied = new fields.SchemaField({
 			pool: new DicePoolField(),
-			marked: new fields.BooleanField(),
+			marked: new fields.BooleanField()
 		});
 		schema.rattled = new fields.SchemaField({
 			pool: new DicePoolField(),
-			marked: new fields.BooleanField(),
+			marked: new fields.BooleanField()
 		});
 		// Desperate is only used with the Community Edition rules enabled, and
 		// intentionally does not take part in harm pools.
 		schema.desperate = new fields.SchemaField({
 			pool: new DicePoolField(),
-			marked: new fields.BooleanField(),
+			marked: new fields.BooleanField()
 		});
 
 		schema.dropped = new fields.BooleanField();
@@ -63,6 +63,28 @@ export default class GrimwildCharacter extends GrimwildActorBase {
 			})
 		}));
 
+		// Supplies (CE optional rule)
+		schema.supplies = new fields.SchemaField({
+			pool: new DicePoolField({
+				initial: {
+					diceNum: 4,
+					max: 4,
+					powerPool: false
+				}
+			})
+		});
+
+		// Wealth (CE optional rule).
+		schema.coins = new fields.SchemaField({
+			pool: new DicePoolField({
+				initial: {
+					diceNum: 4,
+					max: 8,
+					powerPool: true
+				}
+			})
+		});
+
 		schema.spark = new fields.SchemaField({
 			steps: new fields.ArrayField(new fields.BooleanField())
 		});
@@ -70,6 +92,10 @@ export default class GrimwildCharacter extends GrimwildActorBase {
 		schema.story = new fields.SchemaField({
 			steps: new fields.ArrayField(new fields.BooleanField())
 		});
+
+		if (game.settings.get("grimwild", "ceRules")) {
+			schema.story.label = game.i18n.localize("GRIMWILD.Actor.Character.FIELDS.story.ceLabel");
+		}
 
 		// Iterate over stat names and create a new SchemaField for each.
 		schema.stats = new fields.SchemaField(

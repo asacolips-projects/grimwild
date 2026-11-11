@@ -20,6 +20,19 @@ export class DicePoolField extends fields.SchemaField {
 	}
 }
 
+/**
+ * An array of named color entries ({ name, color }), used for the monster
+ * sensories palette and the arcana palette color bar.
+ */
+export class PaletteField extends fields.ArrayField {
+	constructor(options = {}, context = {}) {
+		super(new fields.SchemaField({
+			name: new fields.StringField(),
+			color: new fields.ColorField()
+		}), options, context);
+	}
+}
+
 export class CrucibleTableField extends fields.SchemaField {
 	constructor(options, context = {}) {
 

@@ -1,0 +1,157 @@
+name: Brute - Weapon of Choice
+description: ''
+formula: 1d6
+results:
+  - name: ''
+    description: <b>Spiked greatclub</b>, a tree trunk with iron nails.
+    range:
+      - 1
+      - 1
+    _id: 7NJYVMkS7iofPbTV
+    type: text
+    img: null
+    weight: 1
+    drawn: false
+    flags: {}
+    _stats:
+      coreVersion: '14.364'
+      systemId: grimwild
+      systemVersion: 0.5.3
+      createdTime: 1783270821336
+      modifiedTime: 1783270821336
+      lastModifiedBy: 79CEe5dKC6Ls5VbU
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+    _key: '!tables.results!82QqV8k13Asz2fKA.7NJYVMkS7iofPbTV'
+  - name: ''
+    description: <b>Hooked chain</b>, a repurposed butcher’s tool.
+    range:
+      - 2
+      - 2
+    _id: tc51IzONnVaTzjL9
+    type: text
+    img: null
+    weight: 1
+    drawn: false
+    flags: {}
+    _stats:
+      coreVersion: '14.364'
+      systemId: grimwild
+      systemVersion: 0.5.3
+      createdTime: 1783270821336
+      modifiedTime: 1783270821336
+      lastModifiedBy: 79CEe5dKC6Ls5VbU
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+    _key: '!tables.results!82QqV8k13Asz2fKA.tc51IzONnVaTzjL9'
+  - name: ''
+    description: <b>Bare hands</b>, stronger than any blade.
+    range:
+      - 3
+      - 3
+    _id: jVAyrgor0pa7kWEo
+    type: text
+    img: null
+    weight: 1
+    drawn: false
+    flags: {}
+    _stats:
+      coreVersion: '14.364'
+      systemId: grimwild
+      systemVersion: 0.5.3
+      createdTime: 1783270821336
+      modifiedTime: 1783270821336
+      lastModifiedBy: 79CEe5dKC6Ls5VbU
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+    _key: '!tables.results!82QqV8k13Asz2fKA.jVAyrgor0pa7kWEo'
+  - name: ''
+    description: <b>Bone flail</b>, crafted from femurs and skulls.
+    range:
+      - 4
+      - 4
+    _id: 5hOK2fY4CPl8RyPh
+    type: text
+    img: null
+    weight: 1
+    drawn: false
+    flags: {}
+    _stats:
+      coreVersion: '14.364'
+      systemId: grimwild
+      systemVersion: 0.5.3
+      createdTime: 1783270821336
+      modifiedTime: 1783270821336
+      lastModifiedBy: 79CEe5dKC6Ls5VbU
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+    _key: '!tables.results!82QqV8k13Asz2fKA.5hOK2fY4CPl8RyPh'
+  - name: ''
+    description: <b>Double-headed axe</b>, heavy and brutal.
+    range:
+      - 5
+      - 5
+    _id: WTh5Myuh408e7GkF
+    type: text
+    img: null
+    weight: 1
+    drawn: false
+    flags: {}
+    _stats:
+      coreVersion: '14.364'
+      systemId: grimwild
+      systemVersion: 0.5.3
+      createdTime: 1783270821336
+      modifiedTime: 1783270821336
+      lastModifiedBy: 79CEe5dKC6Ls5VbU
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+    _key: '!tables.results!82QqV8k13Asz2fKA.WTh5Myuh408e7GkF'
+  - name: ''
+    description: <b>Dual handaxes</b>, to strike fast and with fury.
+    range:
+      - 6
+      - 6
+    _id: x7biJHNndbBSZs1g
+    type: text
+    img: null
+    weight: 1
+    drawn: false
+    flags: {}
+    _stats:
+      coreVersion: '14.364'
+      systemId: grimwild
+      systemVersion: 0.5.3
+      createdTime: 1783270821336
+      modifiedTime: 1783270821336
+      lastModifiedBy: 79CEe5dKC6Ls5VbU
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+    _key: '!tables.results!82QqV8k13Asz2fKA.x7biJHNndbBSZs1g'
+folder: rgX8m8cC6QFqYNJB
+sort: 2000000
+_id: 82QqV8k13Asz2fKA
+img: icons/svg/d20-grey.svg
+replacement: true
+displayRoll: true
+ownership:
+  default: 0
+  79CEe5dKC6Ls5VbU: 3
+flags: {}
+_stats:
+  coreVersion: '14.368'
+  systemId: grimwild
+  systemVersion: 0.5.3
+  createdTime: 1783270821336
+  modifiedTime: 1791749998254
+  lastModifiedBy: nF9qxzj59Qn6fNSn
+  compendiumSource: null
+  duplicateSource: null
+  exportSource: null
+_key: '!tables!82QqV8k13Asz2fKA'

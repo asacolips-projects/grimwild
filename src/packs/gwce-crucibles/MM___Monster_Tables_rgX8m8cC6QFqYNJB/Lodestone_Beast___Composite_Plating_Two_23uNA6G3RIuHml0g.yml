@@ -1,0 +1,157 @@
+name: Lodestone Beast - Composite Plating Two
+description: ''
+formula: 1d6
+results:
+  - name: ''
+    description: quartz
+    range:
+      - 1
+      - 1
+    _id: cmeXGhLmIGfY7Gum
+    type: text
+    img: null
+    weight: 1
+    drawn: false
+    flags: {}
+    _stats:
+      coreVersion: '14.364'
+      systemId: grimwild
+      systemVersion: 0.5.3
+      createdTime: 1783270821380
+      modifiedTime: 1783270821380
+      lastModifiedBy: 79CEe5dKC6Ls5VbU
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+    _key: '!tables.results!23uNA6G3RIuHml0g.cmeXGhLmIGfY7Gum'
+  - name: ''
+    description: pyrite
+    range:
+      - 2
+      - 2
+    _id: 51WUBljKPVTGzcti
+    type: text
+    img: null
+    weight: 1
+    drawn: false
+    flags: {}
+    _stats:
+      coreVersion: '14.364'
+      systemId: grimwild
+      systemVersion: 0.5.3
+      createdTime: 1783270821380
+      modifiedTime: 1783270821380
+      lastModifiedBy: 79CEe5dKC6Ls5VbU
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+    _key: '!tables.results!23uNA6G3RIuHml0g.51WUBljKPVTGzcti'
+  - name: ''
+    description: opal
+    range:
+      - 3
+      - 3
+    _id: 7jwWBnAOplx4lQy9
+    type: text
+    img: null
+    weight: 1
+    drawn: false
+    flags: {}
+    _stats:
+      coreVersion: '14.364'
+      systemId: grimwild
+      systemVersion: 0.5.3
+      createdTime: 1783270821380
+      modifiedTime: 1783270821380
+      lastModifiedBy: 79CEe5dKC6Ls5VbU
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+    _key: '!tables.results!23uNA6G3RIuHml0g.7jwWBnAOplx4lQy9'
+  - name: ''
+    description: ruby
+    range:
+      - 4
+      - 4
+    _id: ORvog0DdIrhfy3Wf
+    type: text
+    img: null
+    weight: 1
+    drawn: false
+    flags: {}
+    _stats:
+      coreVersion: '14.364'
+      systemId: grimwild
+      systemVersion: 0.5.3
+      createdTime: 1783270821380
+      modifiedTime: 1783270821380
+      lastModifiedBy: 79CEe5dKC6Ls5VbU
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+    _key: '!tables.results!23uNA6G3RIuHml0g.ORvog0DdIrhfy3Wf'
+  - name: ''
+    description: sapphire
+    range:
+      - 5
+      - 5
+    _id: 2cW5BRaHCw0JDiJ7
+    type: text
+    img: null
+    weight: 1
+    drawn: false
+    flags: {}
+    _stats:
+      coreVersion: '14.364'
+      systemId: grimwild
+      systemVersion: 0.5.3
+      createdTime: 1783270821380
+      modifiedTime: 1783270821380
+      lastModifiedBy: 79CEe5dKC6Ls5VbU
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+    _key: '!tables.results!23uNA6G3RIuHml0g.2cW5BRaHCw0JDiJ7'
+  - name: ''
+    description: emerald
+    range:
+      - 6
+      - 6
+    _id: 9HM8wdYYqnmiggPy
+    type: text
+    img: null
+    weight: 1
+    drawn: false
+    flags: {}
+    _stats:
+      coreVersion: '14.364'
+      systemId: grimwild
+      systemVersion: 0.5.3
+      createdTime: 1783270821380
+      modifiedTime: 1783270821380
+      lastModifiedBy: 79CEe5dKC6Ls5VbU
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+    _key: '!tables.results!23uNA6G3RIuHml0g.9HM8wdYYqnmiggPy'
+folder: rgX8m8cC6QFqYNJB
+sort: 4500000
+_id: 23uNA6G3RIuHml0g
+img: icons/svg/d20-grey.svg
+replacement: true
+displayRoll: true
+ownership:
+  default: 0
+  79CEe5dKC6Ls5VbU: 3
+flags: {}
+_stats:
+  coreVersion: '14.368'
+  systemId: grimwild
+  systemVersion: 0.5.3
+  createdTime: 1783270821380
+  modifiedTime: 1791749998256
+  lastModifiedBy: nF9qxzj59Qn6fNSn
+  compendiumSource: null
+  duplicateSource: null
+  exportSource: null
+_key: '!tables!23uNA6G3RIuHml0g'

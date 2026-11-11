@@ -1,0 +1,158 @@
+name: To—For the
+description: ''
+formula: 1d6
+results:
+  - name: ''
+    description: <p><em>forgotten—powerless</em></p>
+    range:
+      - 1
+      - 1
+    _id: j3iNbQ4jgmdInqVC
+    type: text
+    img: icons/svg/d20-black.svg
+    weight: 1
+    drawn: false
+    flags: {}
+    _stats:
+      coreVersion: '14.368'
+      systemId: grimwild
+      systemVersion: 0.5.3
+      createdTime: 1783111850931
+      modifiedTime: 1791832116692
+      lastModifiedBy: nF9qxzj59Qn6fNSn
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+    documentUuid: null
+    _key: '!tables.results!TAJLL1kJTUROfPC4.j3iNbQ4jgmdInqVC'
+  - name: ''
+    description: <em>redeemable—irredeemable</em>
+    range:
+      - 2
+      - 2
+    _id: cuxpZKK9AIxBi7wb
+    type: text
+    img: icons/svg/d20-black.svg
+    weight: 1
+    drawn: false
+    flags: {}
+    _stats:
+      coreVersion: '14.368'
+      systemId: grimwild
+      systemVersion: 0.5.3
+      createdTime: 1783111850931
+      modifiedTime: 1791748608603
+      lastModifiedBy: nF9qxzj59Qn6fNSn
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+    _key: '!tables.results!TAJLL1kJTUROfPC4.cuxpZKK9AIxBi7wb'
+  - name: ''
+    description: <em>reformers—traditionalists</em>
+    range:
+      - 3
+      - 3
+    _id: GXh3FjGxbngMXGur
+    type: text
+    img: icons/svg/d20-black.svg
+    weight: 1
+    drawn: false
+    flags: {}
+    _stats:
+      coreVersion: '14.368'
+      systemId: grimwild
+      systemVersion: 0.5.3
+      createdTime: 1783111850931
+      modifiedTime: 1791748608603
+      lastModifiedBy: nF9qxzj59Qn6fNSn
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+    _key: '!tables.results!TAJLL1kJTUROfPC4.GXh3FjGxbngMXGur'
+  - name: ''
+    description: <em>devout—faithless</em>
+    range:
+      - 4
+      - 4
+    _id: Une8Vii4HVZo49LZ
+    type: text
+    img: icons/svg/d20-black.svg
+    weight: 1
+    drawn: false
+    flags: {}
+    _stats:
+      coreVersion: '14.368'
+      systemId: grimwild
+      systemVersion: 0.5.3
+      createdTime: 1783111850931
+      modifiedTime: 1791748608603
+      lastModifiedBy: nF9qxzj59Qn6fNSn
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+    _key: '!tables.results!TAJLL1kJTUROfPC4.Une8Vii4HVZo49LZ'
+  - name: ''
+    description: <em>evil—defiled</em>
+    range:
+      - 5
+      - 5
+    _id: 3dAielmEZQQBGvMT
+    type: text
+    img: icons/svg/d20-black.svg
+    weight: 1
+    drawn: false
+    flags: {}
+    _stats:
+      coreVersion: '14.368'
+      systemId: grimwild
+      systemVersion: 0.5.3
+      createdTime: 1783111850931
+      modifiedTime: 1791748608603
+      lastModifiedBy: nF9qxzj59Qn6fNSn
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+    _key: '!tables.results!TAJLL1kJTUROfPC4.3dAielmEZQQBGvMT'
+  - name: ''
+    description: <em>leaders—people</em>
+    range:
+      - 6
+      - 6
+    _id: FgkG4qzlZ3cWBPYB
+    type: text
+    img: icons/svg/d20-black.svg
+    weight: 1
+    drawn: false
+    flags: {}
+    _stats:
+      coreVersion: '14.368'
+      systemId: grimwild
+      systemVersion: 0.5.3
+      createdTime: 1783111850931
+      modifiedTime: 1791748608603
+      lastModifiedBy: nF9qxzj59Qn6fNSn
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+    _key: '!tables.results!TAJLL1kJTUROfPC4.FgkG4qzlZ3cWBPYB'
+folder: Mmlr3V4UPRVYdBX5
+sort: 1
+_id: TAJLL1kJTUROfPC4
+img: icons/svg/d20-grey.svg
+replacement: true
+displayRoll: false
+ownership:
+  default: 0
+  79CEe5dKC6Ls5VbU: 3
+flags: {}
+_stats:
+  coreVersion: '14.368'
+  systemId: grimwild
+  systemVersion: 0.5.3
+  createdTime: 1783111850931
+  modifiedTime: 1791748608603
+  lastModifiedBy: nF9qxzj59Qn6fNSn
+  compendiumSource: null
+  duplicateSource: null
+  exportSource: null
+_key: '!tables!TAJLL1kJTUROfPC4'
