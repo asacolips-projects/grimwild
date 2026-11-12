@@ -126,7 +126,7 @@
 			</div>
 			<!-- Vigor (CE) -->
 			<div class="vigor form-group stacked" v-if="context?.vigorEnabled">
-				<label>{{ context.systemFields.vigor.label }}</label>
+				<label><i class="fas fa-heart"></i> {{ context.systemFields.vigor.label }}</label>
 				<RollPoolInput
 					button-action="rollPool"
 					field="vigor"

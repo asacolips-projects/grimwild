@@ -22,7 +22,12 @@
 			text-align: center;
 			padding: 4px 0 0;
 			height: auto;
+			max-width: 40px;
 		}
+	}
+
+	.flexrow {
+		justify-content: center;
 	}
 
 	.marked {
@@ -116,6 +121,12 @@
 	border-radius: 0 0 4px 4px;
 	padding-top: 7px;
 	margin-top: -13px;
+
+	// Offset so that it's not quite as close to the border.
+	label {
+		position: relative;
+		top: -3px;
+	}
 }
 
 .harm-dropped {

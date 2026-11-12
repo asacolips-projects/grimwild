@@ -443,6 +443,66 @@ export class GrimwildActorSheetVue extends VueRenderingMixin(GrimwildBaseVueActo
 		const pool = key !== undefined ? fieldData[key]?.pool : fieldData?.pool;
 		if (!pool.diceNum) return;
 
+		// Handle vigor optional rule.
+		if (field === "vigor") {
+			// Clear desperate first.
+			if (this.actor.system.isDesperate) {
+				this.document.update({
+					[`system.desperate.marked`]: false,
+					[`system.desperate.pool.diceNum`]: 0
+				})
+			}
+			// Clear bloodied if rattled is empty.
+			else if (this.actor.system.isBloodied && !this.actor.system.isRattled) {
+				this.document.update({
+					[`system.bloodied.marked`]: false,
+					[`system.bloodied.pool.diceNum`]: 0
+				});
+			}
+			// Clear rattled if bloodied is empty.
+			else if (this.actor.system.isRattled && !this.actor.system.isBloodied) {
+				this.document.update({
+					[`system.rattled.marked`]: false,
+					[`system.rattled.pool.diceNum`]: 0
+				});
+			}
+			// Otherwise prompt for which to clear.
+			else {
+				const vigorDialog = await foundry.applications.api.DialogV2.wait({
+					position: {width: 400},
+					window: { title: "GRIMWILD.Dialog.RollVigorTitle" },
+					content: `
+						<label><input type="radio" name="choice" value="bloodied" checked> ${game.i18n.localize("GRIMWILD.Damage.bloodied")}</label>
+						<label><input type="radio" name="choice" value="rattled"> ${game.i18n.localize("GRIMWILD.Damage.rattled")}</label>
+					`,
+					buttons: [{
+						action: "confirm",
+						label: "COMMON.Confirm",
+						icon: "fa-solid fa-check",
+						default: true,
+						callback: (event, button, dialog) => button.form.elements.choice.value
+					}, {
+						action: "cancel",
+						label: "COMMON.Cancel",
+						icon: "fa-solid fa-xmark",
+						callback: () => false
+					}],
+					submit: result => {
+						if ( result === "cancel" ) return false;
+						else {
+							this.document.update({
+								[`system.${result}.marked`]: false,
+								[`system.${result}.pool.diceNum`]: 0
+							});
+							return true;
+						}
+					},
+				});
+				// Prevent the pool roll if exiting early.
+				if (!vigorDialog || vigorDialog === "cancel") return;
+			}
+		}
+
 		// Roll the pool and shed dropped dice.
 		if (pool.diceNum > 0) {
 			const label = `[${field}] ${fieldData[key]?.name ?? ""}`;

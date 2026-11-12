@@ -305,6 +305,7 @@ GRIMWILD:
     Inactive: Inactive Effects
   Dialog:
     Roll: Roll
+    RollVigorTitle: Choose harm to clear
   Combat:
     ActionCount: 'Rolls'
     ResetActionCount: Reset Action Count
