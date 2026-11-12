@@ -173,6 +173,10 @@ export class GrimwildActorSheetVue extends VueRenderingMixin(GrimwildBaseVueActo
 		if (game.settings.get("grimwild", "enableSupplies")) {
 			context.suppliesEnabled = true;
 		}
+		if (game.settings.get("grimwild", "enableVigor")) {
+			context.vigorEnabled = true;
+			context.maxVigor = game.settings.get("grimwild", "maxVigor") ?? 3;
+		}
 
 		Hooks.callAll("grimwildActorSheetVuePrepareContext", this, context);
 

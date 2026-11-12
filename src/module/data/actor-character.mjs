@@ -48,6 +48,17 @@ export default class GrimwildCharacter extends GrimwildActorBase {
 			marked: new fields.BooleanField()
 		});
 
+		// Vigor (CE optional rule)
+		schema.vigor = new fields.SchemaField({
+			pool: new DicePoolField({
+				initial: {
+					diceNum: game.settings.get("grimwild", "maxVigor") ?? 3,
+					max: game.settings.get("grimwild", "maxVigor") ?? 3,
+					powerPool: false
+				}
+			})
+		});
+
 		schema.dropped = new fields.BooleanField();
 
 		schema.conditions = new fields.ArrayField(new fields.SchemaField({

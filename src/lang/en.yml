@@ -28,6 +28,12 @@ GRIMWILD:
     enableSupplies:
       name: "[CE] Enable Supplies"
       hint: Adds the Supplies pool (4d) to the gear section of character sheets.
+    enableVigor:
+      name: "[CE] Enable Vigor"
+      hint: Adds the Vigor pool (3d) to the gear section of character sheets.
+    maxVigor:
+      name: "[CE] Max vigor value"
+      hint: Maximum value to use for the Vigor pool if enabled.
     maxBloodied:
       name: "[Homebrew] Max bloodied value"
       hint: Maximum value to use for the Bloodied input if harm pools are enabled.
@@ -154,6 +160,8 @@ GRIMWILD:
           label: Coins
         supplies:
           label: Supplies
+        vigor:
+          label: Vigor
         class:
           label: Class
         xp:
