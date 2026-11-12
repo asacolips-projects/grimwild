@@ -27,10 +27,10 @@ GRIMWILD:
       hint: Adds the Coins power pool (8d) to character sheets for tracking wealth.
     enableSupplies:
       name: "[CE] Enable Supplies"
-      hint: Adds the Supplies pool (4d) to the gear section of character sheets.
+      hint: Adds the Supplies pool (4d) to character sheets.
     enableVigor:
       name: "[CE] Enable Vigor"
-      hint: Adds the Vigor pool (3d) to the gear section of character sheets.
+      hint: Adds the Vigor pool (3d) to character sheets.
     maxVigor:
       name: "[CE] Max vigor value"
       hint: Maximum value to use for the Vigor pool if enabled.

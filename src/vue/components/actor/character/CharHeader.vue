@@ -84,15 +84,6 @@
 					{{ game.i18n.localize('GRIMWILD.Damage.dropped') }}
 				</label>
 			</div>
-			<!-- <div :class="[
-				'stats-harm',
-				'harm-group',
-				'form-group',
-				context?.harmEnabled ? 'harm-pools' : '',
-				context?.ceRulesEnabled ? 'ce-rules' : ''
-			]">
-
-			</div> -->
 		</div>
 		<!-- Spark / Story / Coins -->
 		<div class="metacurrency-fields flexcol">

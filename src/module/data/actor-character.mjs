@@ -49,11 +49,12 @@ export default class GrimwildCharacter extends GrimwildActorBase {
 		});
 
 		// Vigor (CE optional rule)
+		const maxVigor = game.settings.get("grimwild", "maxVigor") ?? 3;
 		schema.vigor = new fields.SchemaField({
 			pool: new DicePoolField({
 				initial: {
-					diceNum: game.settings.get("grimwild", "maxVigor") ?? 3,
-					max: game.settings.get("grimwild", "maxVigor") ?? 3,
+					diceNum: maxVigor,
+					max: maxVigor,
 					powerPool: false
 				}
 			})
@@ -188,6 +189,12 @@ export default class GrimwildCharacter extends GrimwildActorBase {
 		});
 
 		return schema;
+	}
+
+	prepareBaseData() {
+		// Vigor's max tracks the maxVigor world setting; diceNum is the
+		// current pool and stays player-owned.
+		this.vigor.pool.max = game.settings.get("grimwild", "maxVigor") ?? 3;
 	}
 
 	get level() {

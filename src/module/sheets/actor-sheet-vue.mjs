@@ -448,28 +448,28 @@ export class GrimwildActorSheetVue extends VueRenderingMixin(GrimwildBaseVueActo
 			// Clear desperate first.
 			if (this.actor.system.isDesperate) {
 				this.document.update({
-					[`system.desperate.marked`]: false,
-					[`system.desperate.pool.diceNum`]: 0
-				})
+					"system.desperate.marked": false,
+					"system.desperate.pool.diceNum": 0
+				});
 			}
 			// Clear bloodied if rattled is empty.
 			else if (this.actor.system.isBloodied && !this.actor.system.isRattled) {
 				this.document.update({
-					[`system.bloodied.marked`]: false,
-					[`system.bloodied.pool.diceNum`]: 0
+					"system.bloodied.marked": false,
+					"system.bloodied.pool.diceNum": 0
 				});
 			}
 			// Clear rattled if bloodied is empty.
 			else if (this.actor.system.isRattled && !this.actor.system.isBloodied) {
 				this.document.update({
-					[`system.rattled.marked`]: false,
-					[`system.rattled.pool.diceNum`]: 0
+					"system.rattled.marked": false,
+					"system.rattled.pool.diceNum": 0
 				});
 			}
 			// Otherwise prompt for which to clear.
 			else {
 				const vigorDialog = await foundry.applications.api.DialogV2.wait({
-					position: {width: 400},
+					position: { width: 400 },
 					window: { title: "GRIMWILD.Dialog.RollVigorTitle" },
 					content: `
 						<label><input type="radio" name="choice" value="bloodied" checked> ${game.i18n.localize("GRIMWILD.Damage.bloodied")}</label>
@@ -487,19 +487,19 @@ export class GrimwildActorSheetVue extends VueRenderingMixin(GrimwildBaseVueActo
 						icon: "fa-solid fa-xmark",
 						callback: () => false
 					}],
-					submit: result => {
-						if ( result === "cancel" ) return false;
-						else {
-							this.document.update({
-								[`system.${result}.marked`]: false,
-								[`system.${result}.pool.diceNum`]: 0
-							});
-							return true;
-						}
-					},
+					submit: (result) => {
+						if (!result) return false;
+
+						this.document.update({
+							[`system.${result}.marked`]: false,
+							[`system.${result}.pool.diceNum`]: 0
+						});
+						return true;
+
+					}
 				});
 				// Prevent the pool roll if exiting early.
-				if (!vigorDialog || vigorDialog === "cancel") return;
+				if (!vigorDialog) return;
 			}
 		}
 
