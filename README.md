@@ -48,7 +48,9 @@ The Grimwild system is still in early development, so more features will be comi
 - **Challenge**
     - Singular challenges that can be embedded in either Linked Challenge actors or Monster actors. Usually you would create these directly on the Linked Challenge or Monster, but you can also create them by themselves so that they can be dragged and dropped into either actors or into journal entries for your session notes.
 - **Arcana**
-    - Not much to these yet, but the item type has been created so that you can start creating them by name/image.
+    - Magical items that can be added to characters.
+- **Gear**
+    - Similar to arcana, can track mundane items.
 
 ## Rolls
 
@@ -80,6 +82,16 @@ A suspense tracker will appear directly above the Macro Bar. This is a global tr
 
 To the right of the suspense tracker, GMs can create quick pools. The quick pools are unique to each Foundry scene. As with suspense, GMs can control whether or not these are visible to players, but individual quick pools can also be shown/hidden.
 
+## AI Assistance
+
+This is expanded on in the CONTRIBUTING.md file, but this repo includes an AGENTS.md to guide agents working with the project. This projects follows a similar AI content policy to Founry VTT itself, but in summary:
+
+- You MUST understand any code submitted as a pull request with AI assistance and be prepared to explain it.
+- AI generated content (text, art, etc.) is NOT allowed.
+- If you submit a pull request with AI assistance, add the `ai-assisted` label to the PR.
+
+Finally, coding is fun! Try to limit your AI assistance to things like Foundry API updates and creating implementation plans that you can then implement yourself. It's an excellent tool to help you understand what you're developing, but this is an open source hobby project; don't forget the fun of writing code yourself!
+
 ## Licenses
 
 See LICENSE.md for full details.
@@ -88,9 +100,18 @@ See LICENSE.md for full details.
 
 Grimwild © 2024 by J.D. Maxwell and Oddity Press, licensed under CC BY 4.0.
 Grimwild is based on Moxie © 2024 by J.D. Maxwell and Oddity Press, licensed under CC BY 4.0.
+Grimwild Community Edition is dedicated to the public domain via CC0 1.0.
 
 Compendium content from Grimwild is used with permission from Oddity Press.
+Compendium content from Grimwild Community Edition is used from the public domain.
 
 ### Image Licenses
 
-Logos and page textures in the assets/ directory are © 2024 by Oddity Press and used with permission.
+© 2024 by Oddity Press and used with permission:
+- assets/grimwild-page-texture-dark.webp
+- assets/grimwild-page-texture-light.webp
+- assets/grimwild-system-logo.webp
+- assets/grimwild-system-splash-old.webp
+
+© 2026 by Per Janke and used with permission:
+- assets/grimwild-system-splash.webp
