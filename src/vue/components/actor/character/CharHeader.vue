@@ -69,6 +69,21 @@
 					</div>
 				</div>
 			</div>
+			<!-- Desperate / Dropped -->
+			<!-- Desperate -->
+			<div v-if="context?.ceRulesEnabled" class="harm harm-desperate">
+				<label>
+					<input type="checkbox" name="system.desperate.marked" v-model="context.system.desperate.marked"/>
+					{{ game.i18n.localize('GRIMWILD.Damage.desperate') }}
+				</label>
+			</div>
+			<!-- Dropped -->
+			<div class="harm harm-dropped">
+				<label>
+					<input type="checkbox" name="system.dropped" v-model="context.system.dropped"/>
+					{{ game.i18n.localize('GRIMWILD.Damage.dropped') }}
+				</label>
+			</div>
 		</div>
 		<!-- Spark / Story / Coins -->
 		<div class="metacurrency-fields flexcol">
@@ -100,28 +115,18 @@
 					/>
 				</div>
 			</div>
-			<!-- Desperate / Dropped -->
-			<div :class="[
-				'stats-harm',
-				'harm-group',
-				'form-group',
-				context?.harmEnabled ? 'harm-pools' : '',
-				context?.ceRulesEnabled ? 'ce-rules' : ''
-			]">
-				<!-- Desperate -->
-				<div v-if="context?.ceRulesEnabled" class="harm harm-desperate">
-					<label>
-						<input type="checkbox" name="system.desperate.marked" v-model="context.system.desperate.marked"/>
-						{{ game.i18n.localize('GRIMWILD.Damage.desperate') }}
-					</label>
-				</div>
-				<!-- Dropped -->
-				<div class="harm harm-dropped">
-					<label>
-						<input type="checkbox" name="system.dropped" v-model="context.system.dropped"/>
-						{{ game.i18n.localize('GRIMWILD.Damage.dropped') }}
-					</label>
-				</div>
+			<!-- Vigor (CE) -->
+			<div class="vigor form-group stacked" v-if="context?.vigorEnabled">
+				<label><i class="fas fa-heart"></i> {{ context.systemFields.vigor.label }}</label>
+				<RollPoolInput
+					button-action="rollPool"
+					field="vigor"
+					field-name="system.vigor.pool.diceNum"
+					:pool="context.system.vigor.pool"
+					min="0"
+					:max="context?.maxVigor"
+					:suffix="context?.maxVigor ? `/ ${context.maxVigor}` : 'd'"
+				/>
 			</div>
 		</div>
 	</header>

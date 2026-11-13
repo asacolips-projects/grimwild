@@ -7,6 +7,7 @@
 				<div v-if="context.encumbranceEnabled" class="encumbrance-slots form-group stacked">
 					<div>{{ game.i18n.localize("GRIMWILD.Encumbrance.label") }}: <span :class="`encumbrance-current ${encumbranceClass}`">{{ slotsUsed }} / {{ slotsMax }}</span></div>
 				</div>
+				<!-- Supplies (CE OPTIONAL RULE) -->
 				<div class="item-supplies flexrow" v-if="context?.suppliesEnabled">
 					<label>{{ context.systemFields.supplies.label }}</label>
 					<RollPoolInput

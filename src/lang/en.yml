@@ -27,7 +27,16 @@ GRIMWILD:
       hint: Adds the Coins power pool (8d) to character sheets for tracking wealth.
     enableSupplies:
       name: "[CE] Enable Supplies"
-      hint: Adds the Supplies pool (4d) to the gear section of character sheets.
+      hint: Adds the Supplies pool (4d) to character sheets.
+    enableArmor:
+      name: "[CE] Enable Armor"
+      hint: Adds the Armor pool (1d light, 2d heavy) to character sheets.
+    enableVigor:
+      name: "[CE] Enable Vigor"
+      hint: Adds the Vigor pool (3d) to character sheets.
+    maxVigor:
+      name: "[CE] Max vigor value"
+      hint: Maximum value to use for the Vigor pool if enabled.
     maxBloodied:
       name: "[Homebrew] Max bloodied value"
       hint: Maximum value to use for the Bloodied input if harm pools are enabled.
@@ -154,6 +163,14 @@ GRIMWILD:
           label: Coins
         supplies:
           label: Supplies
+        vigor:
+          label: Vigor
+        armor:
+          label: Armor
+          choices:
+            none: No Armor
+            light: Light Armor
+            heavy: Heavy Armor
         class:
           label: Class
         xp:
@@ -297,6 +314,7 @@ GRIMWILD:
     Inactive: Inactive Effects
   Dialog:
     Roll: Roll
+    RollVigorTitle: Choose harm to clear
   Combat:
     ActionCount: 'Rolls'
     ResetActionCount: Reset Action Count

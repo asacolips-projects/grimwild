@@ -40,6 +40,26 @@
 				data-field="conditions"
 			><i class="fas fa-plus"></i></button>
 			<div class="conditions form-group stacked">
+				<!-- Armor (CE optional rule) is a pseudo condition. -->
+				<div class="condition armor form-group stacked" v-if="context?.armorEnabled">
+					<div class="condition-duration">
+						<RollPoolInput
+							button-action="rollPool"
+							field="armor"
+							field-name="system.armor.pool.diceNum"
+							:pool="context.system.armor.pool"
+							min="0"
+							:max="context.system.armor.pool.max"
+							suffix="d"
+						/>
+						<select name="system.armor.type" v-model="context.system.armor.type">
+							<option v-for="(choice, choiceKey) in context.systemFields.armor.fields.type.choices"
+								:key="choiceKey"
+								:value="choiceKey"
+							>{{ game.i18n.localize(`GRIMWILD.Actor.Character.FIELDS.armor.choices.${choiceKey}`) }}</option>
+						</select>
+					</div>
+				</div>
 				<div class="condition form-group stacked" v-for="(condition, key) in context.system.conditions" :key="key">
 					<!-- Duration -->
 					<div class="condition-duration">
