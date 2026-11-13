@@ -1,7 +1,7 @@
-const yargs = require("yargs");
-const fs = require("fs");
+import fs from "node:fs";
+import yargs from "yargs";
 
-const argv = yargs
+const argv = yargs(process.argv.slice(2))
 	.option("ref_type", {
 		type: "string",
 		description: "The ref type (branch or tag)"
