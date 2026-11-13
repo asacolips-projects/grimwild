@@ -173,6 +173,9 @@ export class GrimwildActorSheetVue extends VueRenderingMixin(GrimwildBaseVueActo
 		if (game.settings.get("grimwild", "enableSupplies")) {
 			context.suppliesEnabled = true;
 		}
+		if (game.settings.get("grimwild", "enableArmor")) {
+			context.armorEnabled = true;
+		}
 		if (game.settings.get("grimwild", "enableVigor")) {
 			context.vigorEnabled = true;
 			context.maxVigor = game.settings.get("grimwild", "maxVigor") ?? 3;
@@ -447,27 +450,27 @@ export class GrimwildActorSheetVue extends VueRenderingMixin(GrimwildBaseVueActo
 		if (field === "vigor") {
 			// Clear desperate first.
 			if (this.actor.system.isDesperate) {
-				this.document.update({
+				await this.document.update({
 					"system.desperate.marked": false,
 					"system.desperate.pool.diceNum": 0
 				});
 			}
 			// Clear bloodied if rattled is empty.
 			else if (this.actor.system.isBloodied && !this.actor.system.isRattled) {
-				this.document.update({
+				await this.document.update({
 					"system.bloodied.marked": false,
 					"system.bloodied.pool.diceNum": 0
 				});
 			}
 			// Clear rattled if bloodied is empty.
 			else if (this.actor.system.isRattled && !this.actor.system.isBloodied) {
-				this.document.update({
+				await this.document.update({
 					"system.rattled.marked": false,
 					"system.rattled.pool.diceNum": 0
 				});
 			}
 			// Otherwise prompt for which to clear.
-			else {
+			else if (this.actor.system.isRattled && this.actor.system.isBloodied) {
 				const vigorDialog = await foundry.applications.api.DialogV2.wait({
 					position: { width: 400 },
 					window: { title: "GRIMWILD.Dialog.RollVigorTitle" },
@@ -500,6 +503,9 @@ export class GrimwildActorSheetVue extends VueRenderingMixin(GrimwildBaseVueActo
 				});
 				// Prevent the pool roll if exiting early.
 				if (!vigorDialog) return;
+			}
+			else {
+				return;
 			}
 		}
 

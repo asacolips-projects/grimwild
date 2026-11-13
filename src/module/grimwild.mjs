@@ -255,6 +255,16 @@ Hooks.once("init", function () {
 		requiresReload: true
 	});
 
+	game.settings.register("grimwild", "enableArmor", {
+		name: game.i18n.localize("GRIMWILD.Settings.enableArmor.name"),
+		hint: game.i18n.localize("GRIMWILD.Settings.enableArmor.hint"),
+		scope: "world",
+		config: true,
+		type: Boolean,
+		default: false,
+		requiresReload: true
+	});
+
 	game.settings.register("grimwild", "enableVigor", {
 		name: game.i18n.localize("GRIMWILD.Settings.enableVigor.name"),
 		hint: game.i18n.localize("GRIMWILD.Settings.enableVigor.hint"),

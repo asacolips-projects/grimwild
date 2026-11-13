@@ -97,6 +97,25 @@ export default class GrimwildCharacter extends GrimwildActorBase {
 			})
 		});
 
+		// Armor (CE optional rule).
+		schema.armor = new fields.SchemaField({
+			type: new fields.StringField({
+				initial: "none",
+				choices: {
+					none: "No Armor",
+					light: "Light Armor",
+					heavy: "Heavy Armor"
+				}
+			}),
+			pool: new DicePoolField({
+				initial: {
+					diceNum: 1,
+					max: 1,
+					powerPool: true
+				}
+			})
+		});
+
 		schema.spark = new fields.SchemaField({
 			steps: new fields.ArrayField(new fields.BooleanField())
 		});
@@ -188,6 +207,22 @@ export default class GrimwildCharacter extends GrimwildActorBase {
 			})
 		});
 
+		// Dynamically calculated based on harm.
+		schema.health = new fields.SchemaField({
+			value: new fields.NumberField({
+				...requiredInteger,
+				max: 4,
+				initial: 4,
+				min: 0
+			}),
+			max: new fields.NumberField({
+				...requiredInteger,
+				max: 4,
+				initial: 4,
+				min: 4
+			})
+		});
+
 		return schema;
 	}
 
@@ -195,6 +230,20 @@ export default class GrimwildCharacter extends GrimwildActorBase {
 		// Vigor's max tracks the maxVigor world setting; diceNum is the
 		// current pool and stays player-owned.
 		this.vigor.pool.max = game.settings.get("grimwild", "maxVigor") ?? 3;
+
+		// Set armor max.
+		let armorMax = 0;
+		if (this.armor.type === "light") armorMax = 1;
+		if (this.armor.type === "heavy") armorMax = 2;
+
+		// Handle bulwark. @TODO i18n.
+		const actor = this.parent;
+		const hasBulwark = actor.itemTypes?.talent?.find((t) => t.name.toLocaleLowerCase().includes("bulwark"));
+		if (hasBulwark) armorMax += 2;
+
+		// Set the values.
+		this.armor.pool.max = armorMax;
+		if (this.armor.pool.diceNum > armorMax) this.armor.pool.diceNum = armorMax;
 	}
 
 	get level() {
@@ -377,6 +426,10 @@ export default class GrimwildCharacter extends GrimwildActorBase {
 		};
 		checkSteps(changes.system?.spark, this._source.spark);
 		checkSteps(changes.system?.story, this._source.story);
+
+		// health is derived from marks and harm (see prepareDerivedData), so
+		// direct updates to it are ignored and never persisted.
+		delete changes.system?.health;
 	}
 
 	prepareDerivedData() {
@@ -398,6 +451,16 @@ export default class GrimwildCharacter extends GrimwildActorBase {
 		for (const step in this.story.steps) {
 			if (this.story.steps[step]) this.story.value++;
 		}
+
+		// Health: a 0-4 readout of overall harm for token resource bars
+		// (0 dropped, 1 desperate, 2 bloodied or rattled, 3 marked, 4 clean).
+		let health = 4;
+		if (this.dropped) health = 0;
+		else if (this.isDesperate) health = 1;
+		else if (this.isBloodied || this.isRattled) health = 2;
+		else if (Object.values(this.stats).some((stat) => stat.marked)) health = 3;
+		this.health.value = health;
+		this.health.max = 4;
 
 		// Calculate XP pips for the sheet.
 		this.xp.steps = [];

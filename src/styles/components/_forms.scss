@@ -368,6 +368,13 @@
 	flex-direction: row;
 }
 
+.condition.armor {
+	background: #ffffff09;
+	padding: 4px;
+	border-radius: 4px;
+	border: 1px solid var(--color-fieldset-border);
+}
+
 // XP
 .xp {
 	gap: 0;

@@ -28,6 +28,9 @@ GRIMWILD:
     enableSupplies:
       name: "[CE] Enable Supplies"
       hint: Adds the Supplies pool (4d) to character sheets.
+    enableArmor:
+      name: "[CE] Enable Armor"
+      hint: Adds the Armor pool (1d light, 2d heavy) to character sheets.
     enableVigor:
       name: "[CE] Enable Vigor"
       hint: Adds the Vigor pool (3d) to character sheets.
@@ -162,6 +165,12 @@ GRIMWILD:
           label: Supplies
         vigor:
           label: Vigor
+        armor:
+          label: Armor
+          choices:
+            none: No Armor
+            light: Light Armor
+            heavy: Heavy Armor
         class:
           label: Class
         xp:
