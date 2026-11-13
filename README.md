@@ -82,6 +82,16 @@ A suspense tracker will appear directly above the Macro Bar. This is a global tr
 
 To the right of the suspense tracker, GMs can create quick pools. The quick pools are unique to each Foundry scene. As with suspense, GMs can control whether or not these are visible to players, but individual quick pools can also be shown/hidden.
 
+## AI Assistance
+
+This is expanded on in the CONTRIBUTING.md file, but this repo includes an AGENTS.md to guide agents working with the project. This projects follows a similar AI content policy to Founry VTT itself, but in summary:
+
+- You MUST understand any code submitted as a pull request with AI assistance and be prepared to explain it.
+- AI generated content (text, art, etc.) is NOT allowed.
+- If you submit a pull request with AI assistance, add the `ai-assisted` label to the PR.
+
+Finally, coding is fun! Try to limit your AI assistance to things like Foundry API updates and creating implementation plans that you can then implement yourself. It's an excellent tool to help you understand what you're developing, but this is an open source hobby project; don't forget the fun of writing code yourself!
+
 ## Licenses
 
 See LICENSE.md for full details.
