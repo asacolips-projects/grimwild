@@ -48,7 +48,9 @@ The Grimwild system is still in early development, so more features will be comi
 - **Challenge**
     - Singular challenges that can be embedded in either Linked Challenge actors or Monster actors. Usually you would create these directly on the Linked Challenge or Monster, but you can also create them by themselves so that they can be dragged and dropped into either actors or into journal entries for your session notes.
 - **Arcana**
-    - Not much to these yet, but the item type has been created so that you can start creating them by name/image.
+    - Magical items that can be added to characters.
+- **Gear**
+    - Similar to arcana, can track mundane items.
 
 ## Rolls
 
@@ -88,9 +90,18 @@ See LICENSE.md for full details.
 
 Grimwild © 2024 by J.D. Maxwell and Oddity Press, licensed under CC BY 4.0.
 Grimwild is based on Moxie © 2024 by J.D. Maxwell and Oddity Press, licensed under CC BY 4.0.
+Grimwild Community Edition is dedicated to the public domain via CC0 1.0.
 
 Compendium content from Grimwild is used with permission from Oddity Press.
+Compendium content from Grimwild Community Edition is used from the public domain.
 
 ### Image Licenses
 
-Logos and page textures in the assets/ directory are © 2024 by Oddity Press and used with permission.
+© 2024 by Oddity Press and used with permission:
+- assets/grimwild-page-texture-dark.webp
+- assets/grimwild-page-texture-light.webp
+- assets/grimwild-system-logo.webp
+- assets/grimwild-system-splash-old.webp
+
+© 2026 by Per Janke and used with permission:
+- assets/grimwild-system-splash.webp
